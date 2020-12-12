@@ -10,8 +10,8 @@ use strict 'vars';
 # test data: 
 
 # set to 1 for debugging output, or to 0 to suppress same
-my $DEBUG = 1;
-#my $DEBUG = 0;
+#my $DEBUG = 1;
+my $DEBUG = 0;
 
 while (my $line = <>) { 
 

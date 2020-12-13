@@ -2,13 +2,6 @@
 
 use strict 'vars';
 
-#open(IN, "/Users/kevincohen/Dropbox/a-m/Corpora/TRANSLATOR/chebi-pr-downregulation.sorted.tsv") || die "Couldn't open input file: $!\n";
-#open(IN, "/Users/kevincohen/Dropbox/a-m/Corpora/TRANSLATOR/chebi-pr-upregulation.sorted.tsv") || die "Couldn't open input file: $!\n";
-#open(IN, "/Users/kevincohen/Dropbox/a-m/Corpora/TRANSLATOR/chebi-pr-both-sorted.tsv") || die "Couldn't open input file: $!\n";
-#open(IN, "/Users/kevincohen/Dropbox/a-m/Corpora/TRANSLATOR/chebi-pr-allthree.sorted.tsv") || die "Couldn't open input file: $!\n";
-open(IN, "/Users/kevincohen/Dropbox/a-m/Corpora/TRANSLATOR/hp-mondo-PUBMED_SUB_31.underscored.tabbed.tsv") || die "Couldn't open input file: $!\n";
-
-
 # set to 1 for debugging output, or to 0 to suppress it
 my $DEBUG = 0;
 
@@ -18,7 +11,7 @@ my $DRUG_GENE_INTERACTIONS = 0;
 # store patterns here in case you want to look at them separately
 my %patterns = ();
 
-while (my $line = <IN>) {
+while (my $line = <>) {
 
   # we take the two kinds of things between which we are looking for interactions directly out of the file. if this
   # suddenly stops returning anything--or anything that makes sense--check to see if the input file format has
@@ -27,9 +20,9 @@ while (my $line = <IN>) {
   # sudden cardiac death
   # MAPK
 
-  0 && print $line;
+  $DEBUG && print $line;
   my @elements = split("\t", $line);
-  0 && print "$elements[2] $elements[5]\n";
+  $DEBUG && print "$elements[2] $elements[5]\n";
 
   # A little hack to let you pre-specify those two classes
   if (1) {
@@ -41,16 +34,24 @@ while (my $line = <IN>) {
   if (1) {
     $line = $elements[1];
 
-    0 && print "INPUT: <$line>\n";
+    $DEBUG && print "INPUT: <$line>\n";
   } 
 
   # preprocessing
   $line = lc($line); 
 
-# DRUG-GENE INTERACTIONS
+# DIRECTIONAL RELATIONS
+# E.g. regulates(drug, gene) or regulates(gene, gene)
+my $DIRECTIONAL_RELATION = 1;
 
-if ($DRUG_GENE_INTERACTIONS) {
+# NON-DIRECTIONAL RELATIONS
+# E.g. located_in(gene, location) or has_symptom(disease, symptom)
+
+if ($DIRECTIONAL_RELATION) {
   # separate patterns get at upregulation, downregulation, and non-directional interactions
+
+  extractDirectionalRelation();
+
   # genes are often tagged as drugs, so you get a lot of genes out of this.
   #if ($line =~ /$elements[2] (up\-regulates|upregulates|amplifies|raises|stimulates|trans\-activates|transactivates|catalyzes|catalyses|re\-activates|reactivates|transduces|enhances|promotes|increases|evokes|enhances|stabilizes|augments|facilitates|augments|triggers|potentiates|elevates|raises|stimulates|activates|initiates|promotes) $elements[5]/) {
  
@@ -310,3 +311,9 @@ if (1) {
 
   print "Total matches: $count_of_matches\n";
 }
+
+sub extractDirectionalRelation {
+
+  return 1;
+}
+

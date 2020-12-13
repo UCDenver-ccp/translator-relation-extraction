@@ -4,12 +4,16 @@ use strict 'vars';
 
 # set to 1 for debugging output, or to 0 to suppress it
 my $DEBUG = 0;
+#my $DEBUG = 1;
 
 # set to 1 to extract these, to 0 to blow by them
 my $DRUG_GENE_INTERACTIONS = 0;
 
 # store patterns here in case you want to look at them separately
 my %patterns = ();
+
+# there has to be a better way to do this!!!
+my $CLASS = "_(DISEASE|PHENOTYPE)_";
 
 while (my $line = <>) {
 
@@ -22,7 +26,7 @@ while (my $line = <>) {
 
   $DEBUG && print $line;
   my @elements = split("\t", $line);
-  $DEBUG && print "$elements[2] $elements[5]\n";
+  #$DEBUG && print "CLASSES: $elements[2] $elements[5]\n";
 
   # A little hack to let you pre-specify those two classes
   if (1) {
@@ -52,7 +56,6 @@ if ($DIRECTIONAL_RELATION) {
 
   extractDirectionalRelation();
 
-  # genes are often tagged as drugs, so you get a lot of genes out of this.
   #if ($line =~ /$elements[2] (up\-regulates|upregulates|amplifies|raises|stimulates|trans\-activates|transactivates|catalyzes|catalyses|re\-activates|reactivates|transduces|enhances|promotes|increases|evokes|enhances|stabilizes|augments|facilitates|augments|triggers|potentiates|elevates|raises|stimulates|activates|initiates|promotes) $elements[5]/) {
  
   # if this works as I think it does, it might fix the actual source of the hyphen-related problem

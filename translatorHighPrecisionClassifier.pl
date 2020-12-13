@@ -203,19 +203,9 @@ if ($DIRECTIONAL_RELATION) {
   my $adverbs_positive = "often|frequently";
   my $adverbs = "sometimes|occasionally|occasional";
   my $adverbs_negative = "rarely|infrequently";
+
+  extractNonDirectionalRelation($line, $adverbs_positive, $adverbs, $adverbs_negative, @elements);
     
-  # A is a symptom of B
-  #if ($line =~ /($elements[2] is a symptom of $elements[5])/gi) {
-  if ($line =~ /($elements[2] is (($adverbs|$adverbs_positive|adverbs_negative) )?a symptom of $elements[5])/gi) {
-    $DEBUG && print "DISEASE-SYMPTOM\t$line\n";
-    $patterns{$1}++; # $1 is the text that matched whatever's inside the parentheses in the preceding regex
-  }
-  #if ($line =~ /($elements[5] is a symptom of $elements[2])/gi) {
-  #if ($line =~ /($elements[5] is (($adverbs_positive|$adverbs_negative) )?a symptom of $elements[2])/gi) {
-  if ($line =~ /(($elements[5]|$elements[2]) is (($adverbs_positive|$adverbs_negative) )?a symptom of ($elements[2]|$elements[5]))/gi) {
-    $DEBUG && print "DISEASE-SYMPTOM\t$line\n";
-    $patterns{$1}++;
-  } 
 
   # A with B
   #if ($line =~ /($elements[2] with $elements[5])/gi) {
@@ -319,4 +309,23 @@ sub extractDirectionalRelation {
 
   return 1;
 }
+
+sub extractNonDirectionalRelation {
+
+  my ($line, $adverbs_positive, $adverbs, $adverbs_negative, @elements) = @_;
+
+  # A is a symptom of B
+  #if ($line =~ /($elements[2] is a symptom of $elements[5])/gi) {
+  if ($line =~ /($elements[2] is (($adverbs|$adverbs_positive|adverbs_negative) )?a symptom of $elements[5])/gi) {
+    $DEBUG && print "DISEASE-SYMPTOM\t$line\n";
+    $patterns{$1}++; # $1 is the text that matched whatever's inside the parentheses in the preceding regex
+  }
+  #if ($line =~ /($elements[5] is a symptom of $elements[2])/gi) {
+  #if ($line =~ /($elements[5] is (($adverbs_positive|$adverbs_negative) )?a symptom of $elements[2])/gi) {
+  if ($line =~ /(($elements[5]|$elements[2]) is (($adverbs_positive|$adverbs_negative) )?a symptom of ($elements[2]|$elements[5]))/gi) {
+    $DEBUG && print "DISEASE-SYMPTOM\t$line\n";
+    $patterns{$1}++;
+  } 
+
+} # close subrouting extractNonDirectionalRelation()
 

@@ -1,0 +1,9 @@
+How to make data files containing normalized annotations
+
+1. Annotated data is on Google Sheets
+2. Download to directory translatorData/annotated-data/RELATION-NAME. This directory will have two subdirectories, one for simple coöccurrence and one for rule-based retrieval.
+3. EXAMINE: Cat the contents of all files through the script translatorDataExtraction.pl. This will show you all of the labels and tell you how many times each one occurs in the data.
+4. CREATE A SINGLE FILE: Cat the contents of all files and redirect them into a file in the directory translatorData/annotated-data/concatenated-annotations. Use the script catAnnotatedDataTogether.sh in the directory translatorData/annotated-data to save a record of what you did.
+5. NORMALIZE THE LABELS: Cat the contents of all files, piping it through the script translatorNormalizeClassLabels.pl. This will convert labels other than Y, N, I, D, and U to an appropriate class (either Y or N, except in the case of directional relations, in which case I(ncrease), D(ecrease), or U(nspecified directionality)). Data with some labels, such as "?" for exemplars that the annotator didn't know how to label, and "segmentation," for sentence segmentation errors, will not appear in the output of this script at all.
+6. EXAMINE: Cat the contents of those files through translatorDataExtraction.pl and check that the counts of labels make sense.
+7. UPLOAD: ...to GitHub.

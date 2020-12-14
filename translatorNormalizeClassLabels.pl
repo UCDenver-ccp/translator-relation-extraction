@@ -11,8 +11,11 @@ use strict 'vars';
 # turn on debugging when running the test data, because that's how the gold outputs are stored
 
 # set to 1 for debugging output, or to 0 to suppress same
-#my $DEBUG = 1;
-my $DEBUG = 0;
+my $DEBUG = 1;
+#my $DEBUG = 0;
+
+# comment says it all, right? ;-)
+my $INCLUDE_ONES_MIKE_WOULD_NOT_APPROVE_OF_BUT_SCHANK_WOULD = 1;
 
 while (my $line = <>) { 
 
@@ -32,6 +35,19 @@ while (my $line = <>) {
   $DEBUG && print "ANAPHORA ";  
   print $line; next;
   }
+
+  if ($INCLUDE_ONES_MIKE_WOULD_NOT_APPROVE_OF_BUT_SCHANK_WOULD) {
+    if ($line =~ s/(null\t[0-9]+\t)M\t/$1Y\t/o) {
+      $DEBUG && print "SCHANK WOULD APPROVE ";
+      print $line; next;
+    }
+  } else {
+    if ($line =~ s/(null\t[0-9]+\t)M\t/$1N\t/o) {
+      $DEBUG && print "MIKE WOULD NOT APPROVE "; 
+      print $line; next;
+    }
+  }
+
   # "entity" -> N
   if ($line =~ s/(null\t[0-9]+\t)entity\t/$1N\t/o) {
     $DEBUG && print "ENTITY ";  

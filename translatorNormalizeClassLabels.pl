@@ -11,8 +11,8 @@ use strict 'vars';
 # turn on debugging when running the test data, because that's how the gold outputs are stored
 
 # set to 1 for debugging output, or to 0 to suppress same
-my $DEBUG = 1;
-#my $DEBUG = 0;
+#my $DEBUG = 1;
+my $DEBUG = 0;
 
 # comment says it all, right? ;-)
 my $INCLUDE_ONES_MIKE_WOULD_NOT_APPROVE_OF_BUT_SCHANK_WOULD = 1;
@@ -26,6 +26,12 @@ while (my $line = <>) {
   } 
   if ($line =~ /null\t[0-9]+\tN\t/o) {
     $DEBUG && print "UNCHANGED-N ";
+    print $line; next;
+  }
+
+  # ...and also I(ncrease), D(ecrease), and U(nspecified directionality)
+  if ($line =~ /null\t[0-9]+\t(I|D|U)\t/o) {
+    $DEBUG && print "UNCHANGED-DIRECTIONAL ";
     print $line; next;
   }
 

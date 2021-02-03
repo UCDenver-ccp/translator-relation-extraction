@@ -1,3 +1,5 @@
+# This script provies a record of what has been done to the PMC files to replace reserved characters in the named entity tags so that they don't break regular expressions during data-munging.
+
 #gunzip -c hp-mondo-00000-of-00037.PUBMED_SUB_31.tsv.gz | sed 's/@DISEASE\$/_DISEASE_/g' | sed 's/@PHENOTYPE\$/_PHENOTYPE_/g' | gzip > hp-mondo-00000-of-00037.PUBMED_SUB_31.updated.tsv.gz
 
 #gunzip -c ~/Dropbox/a-m/Corpora/TRANSLATOR/pr-pr-PUBMED_SUB_31.tsv.gz | sed 's/@PROTEIN\$/_PROTEIN_/g' > ~/Dropbox/a-m/Corpora/TRANSLATOR/pr-pr-PUBMED_SUB_31.tsv.gz.underscore.tsv

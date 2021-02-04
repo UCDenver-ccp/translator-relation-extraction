@@ -4,49 +4,37 @@
 
 # TEST data: testRelationPredictor.input.txt, testRelationPredictor.gold.txt
 
+# Expected input: BioASQ spreadsheet with columns added during the February relay.
+# Crucial assumption about the input: the question is in the first field.
+# Less-crucial assumption about the input: it's the Summary sheet of that file.
+
 use strict 'vars';
 
 # set to 1 for debugging output, or to 0 to suppress it
 my $DEBUG = 0;
 #my $DEBUG = 1;
 
-# set to 1 to extract these, to 0 to blow by them
-my $DRUG_GENE_INTERACTIONS = 0;
 
 # store patterns here in case you want to look at them separately
 my %patterns = ();
 
-# there has to be a better way to do this!!!
-my $CLASS = "_(DISEASE|PHENOTYPE)_";
 
 while (my $line = <>) {
 
-  # we take the two kinds of things between which we are looking for interactions directly out of the file. if this
-  # suddenly stops returning anything--or anything that makes sense--check to see if the input file format has
-  # changed. expected values would be things like:
-  # heparin
-  # sudden cardiac death
-  # MAPK
-
   $DEBUG && print $line;
   my @elements = split("\t", $line);
-  #$DEBUG && print "CLASSES: $elements[2] $elements[5]\n";
-
-  # A little hack to let you pre-specify those two classes
-  if (1) {
-    $elements[2] = "_DISEASE_";
-    $elements[5] = "_PHENOTYPE_";
-  }
+  my $question; # text of the question
 
   # A little hack to let you pre-specify which field has the sentence that you want to look at...
   if (1) {
-    $line = $elements[1];
+    $question = $elements[1];
 
-    $DEBUG && print "INPUT: <$line>\n";
+    1 && print "INPUT: <$question>\n";
   } 
 
+  if (0 == canWeHandleThisQuestion($question)) { 1 && print "Skipping...\n"; next; }
   # preprocessing
-  $line = lc($line); 
+  $question = lc($question); 
 
 # DIRECTIONAL RELATIONS
 # E.g. regulates(drug, gene) or regulates(gene, gene)
@@ -308,6 +296,35 @@ if (1) {
 
   print "Total matches: $count_of_matches\n";
 }
+
+# is this a "why" question?  if so, we can't give a *good* answer. (Hardly anyone can! Fascinating research topic...)
+# returns 1 if it *is* a why-question, 0 if it isn't
+sub isWhyQuestion{
+  my $question = $_[0];
+  1 && print "In isWhyQuestion: <$question>\n";
+  if ($question =~ /\bwhy\b/i) { return 1; }
+  if (($question =~ /.*\bwhat\b/i) && ($question =~ /.*reason.*/)) { return 1; }
+  # if you got here, it isn't a why-question
+  return 0;   
+} # close subroutine isWhyQuestion()
+
+# runs some basic questions to see if we think we can answer a question, or not.
+# if at any point the subroutine thinks we can't, it returns 0.
+# if it doesn't see any reasons why not, it returns 1.
+sub canWeHandleThisQuestion {
+  my $question = $_[0];
+  1 && print "in canWeHandle: <$question>\n";
+  # if it's longer than n words, don't bother with it...
+  my @wordsInQuestion = split(" ", $question);
+  my $lengthInWords = @wordsInQuestion;
+  1 && print "Length in words: $lengthInWords\n";i
+
+  if (10 <= $lengthInWords) { return 0; } # MAGIC NUMBER
+
+  if (1 == isWhyQuestion($question)) { return 0; } 
+  return(1);
+ 
+} # close subroutine definition canWeHandleThisQuestion()
 
 sub extractDirectionalRelation {
 

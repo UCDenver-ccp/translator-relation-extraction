@@ -1,9 +1,10 @@
+.DS_Store
 cloudbuild*.yaml
 test.Dockerfile
 test.cloudbuild.yaml
 scripts/test.entrypoint.sh
-code/java/.factorypath
-code/java/.project
-code/java/.classpath
-code/java/.settings/
-code/java/target/
+data/bl_gene_regulatory_relationship/code/java/.factorypath
+data/bl_gene_regulatory_relationship/code/java/.project
+data/bl_gene_regulatory_relationship/code/java/.classpath
+data/bl_gene_regulatory_relationship/code/java/.settings/
+data/bl_gene_regulatory_relationship/code/java/target/

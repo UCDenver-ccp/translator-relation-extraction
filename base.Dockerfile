@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
   wget \
   && rm -rf /var/lib/apt/lists/*
 
-# download the baseline BERT model
+# set up directories that will be used by this container (and its children)
 RUN mkdir -p /home/dev/models/baseline && \
     mkdir -p /home/dev/output && \
     mkdir -p /home/dev/data
@@ -31,10 +31,6 @@ RUN wget -nv \
 
 # Install a customized version of the NCBI BlueBERT implementation
 RUN git clone https://github.com/UCDenver-ccp/bluebert.git ./ccp-bluebert.git 
-
-# && \
-#     cd ccp-bluebert.git && \
-#     pip install -r requirements.txt
 
 # Path configuration
 ENV PATH $PATH:/root/tools/google-cloud-sdk/bin

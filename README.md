@@ -9,9 +9,9 @@ Items in the list below should be used in place of the `[TASK_NAME]` placeholder
 | *TASK_NAME* | *Status* |
 | ----------- | -------- |
 | bl_chemical_to_disease_or_phenotypic_feature | `IN PROGRESS` |
-| bl_chemical_to_gene | `MATURE` |
+| bl_chemical_to_gene | `IN PROGRESS` |
 | bl_disease_to_phenotypic_feature |`IN PROGRESS` |
-| bl_gene_regulatory_relationship | `MATURE` |
+| bl_gene_regulatory_relationship | `IN PROGRESS` |
 | bl_gene_to_disease | `IN PROGRESS` |
 | bl_gene_to_expression_site | `IN PROGRESS` 
 | bl_gene_to_go_term | `IN PROGRESS` |

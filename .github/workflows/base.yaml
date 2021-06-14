@@ -1,0 +1,48 @@
+name: Build/push base container image
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  PROJECT_ID: ${{ secrets.GCE_PROJECT }}
+  GCS_SERVICE_ACCOUNT: ${{ secrets.GCE_SA_KEY }}
+  GCE_REGION: us-central1
+
+jobs:
+  deploy-bert-base:
+    name: "build/push bluebert.base container image"
+    runs-on: ubuntu-latest
+    env:
+      IMAGE_NAME: bluebert_base
+      DOCKERFILE: base.Dockerfile
+    steps:
+    - uses: actions/checkout@v2
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v2.1
+    - name: Set up Cloud SDK
+      if: contains(steps.changed-files.outputs.modified_files, "$DOCKERFILE")
+      uses: google-github-actions/setup-gcloud@master
+      with:
+        project_id: ${{ secrets.GCE_PROJECT }}
+        service_account_key: ${{ secrets.GCE_SA_KEY }}
+        version: '290.0.1'
+    - name: Configure Docker Authentication
+      if: contains(steps.changed-files.outputs.modified_files, "$DOCKERFILE")
+      run: gcloud --quiet auth configure-docker
+    - name: Set MODEL_VERSION env
+      if: contains(steps.changed-files.outputs.modified_files, "$DOCKERFILE")
+      run: echo "MODEL_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+    - name: Build Docker Image
+      if: contains(steps.changed-files.outputs.modified_files, "$DOCKERFILE")
+      run: docker build --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" -f "$DOCKERFILE" .
+    - name: Publish Docker Image to Google Container Registry
+      if: contains(steps.changed-files.outputs.modified_files, "$DOCKERFILE")
+      run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"

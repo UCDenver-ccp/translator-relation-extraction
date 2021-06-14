@@ -167,7 +167,7 @@ jobs:
         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
         -- \
         NO_ARG \
-        "$MODEL_STORAGE_BUCKET"
+        "gs://$MODEL_STORAGE_BUCKET"
 
     - name: Monitor the training job
       if: |

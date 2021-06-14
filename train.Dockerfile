@@ -34,9 +34,6 @@ RUN git clone https://github.com/ncbi-nlp/BLUE_Benchmark.git ./blue_benchmark.gi
     pip install sklearn
 
 ENV BlueBERT_DIR '/home/dev/models/baseline'
-# ENV DATASET_DIR '/home/dev/data'
-# ENV OUTPUT_DIR '/home/dev/output'
-# ENV PYTHONPATH '.'
 
 WORKDIR /home/dev/data
 # split data.tsv randomly into train/dev/test = 60%/20%/20%

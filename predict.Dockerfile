@@ -16,22 +16,6 @@ ARG CLASSIFICATION_LABELS=latest
 
 COPY scripts/predict.entrypoint.sh /home/dev/entrypoint.sh
 
-# WORKDIR /home/dev
-## install bluebert repository
-# RUN git clone https://github.com/UCDenver-ccp/bluebert.git ./ccp-bluebert.git && \
-#     cd ccp-bluebert.git && \
-#     pip install -r requirements.txt
-    # pip install fire && \
-    # pip install jsonlines && \
-    # pip install pandas && \
-    # pip install tabulate && \
-    # pip install sklearn
-
-
-# ENV DATASET_DIR '/home/dev/data'
-# ENV OUTPUT_DIR '/home/dev/output'
-# ENV PYTHONPATH '.'
-
 ENV BlueBERT_DIR '/home/dev/models/tuned'
 
 WORKDIR /home/dev/models/tuned
@@ -41,13 +25,9 @@ ENV TASK_NAME_ENV=$TASK_NAME
 ENV MODEL_STORAGE_BUCKET_ENV=$MODEL_STORAGE_BUCKET
 ENV CLASSIFICATION_LABELS_ENV=$CLASSIFICATION_LABELS
 
-RUN gcloud auth login && \
-    gsutil cp "${MODEL_STORAGE_BUCKET_ENV}/bert/${TASK_NAME_ENV}/${TASK_NAME_ENV}.${TUNED_MODEL_VERSION_ENV}.tar.gz" . && \
+RUN wget "https://storage.googleapis.com/${MODEL_STORAGE_BUCKET_ENV}/bert/${TASK_NAME_ENV}/${TASK_NAME_ENV}.${TUNED_MODEL_VERSION_ENV}.tar.gz" && \
     tar -xzf "${TASK_NAME_ENV}.${TUNED_MODEL_VERSION_ENV}.tar.gz" 
-    # && \
-    # cp /home/dev/models/baseline/vocab.txt . && \
-    # cp /home/dev/models/baseline/bert_config.json .
-
+    
 ENTRYPOINT /home/dev/entrypoint.sh "${TASK_NAME_ENV}" "${CLASSIFICATION_LABELS_ENV}" "${TUNED_MODEL_VERSION_ENV}" "$@" 
 
 

@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
   wget \
   && rm -rf /var/lib/apt/lists/*
 
-# set up directories that will be used by this container (and its children)
+# set up directories that will be used by this container (and its children) 
 RUN mkdir -p /home/dev/models/baseline && \
     mkdir -p /home/dev/output && \
     mkdir -p /home/dev/data

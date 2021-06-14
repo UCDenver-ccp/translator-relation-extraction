@@ -18,10 +18,10 @@ env:
 
 jobs:
   build_push-bert-base:
-    name: "build/push bluebert.base container image"
+    name: "build/push bluebert-base container image"
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: bluebert_base
+      IMAGE_NAME: bluebert-base
       DOCKERFILE: base.Dockerfile
     steps:
     - uses: actions/checkout@v2
@@ -117,7 +117,6 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
       run: |
         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
-        echo "MODEL_VERSION has been set to: $MODEL_VERSION"
 
     - name: Set BASE_VERSION env
       if: |
@@ -126,7 +125,6 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
       run: |
         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
-        echo "BASE_VERSION has been set to: $BASE_VERSION"
 
     - name: Build Docker Image
       if: |

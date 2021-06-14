@@ -1,0 +1,24 @@
+T109976	NegativeRegulationOfGeneExpression 83 104	negatively controlled
+T109977	GeneExpression 517 527	expression
+T109978	RegulationOfGeneExpression 663 670	control
+T109979	GeneExpression 681 696	gene expression
+T109980	GeneticModification 711 733	random Tn10 insertions
+T109981	GeneticModification 837 846	mutations
+T109982	TranscriptionOfGene 948 961	Transcription
+T109983	RegulationOfGeneExpression 981 987	driven
+T109984	PositiveRegulationOfGeneExpression 1024 1035	derepressed
+T109985	GeneticModification 1046 1052	mutant
+T109986	GeneticModification 1224 1233	mutations
+T109987	PositiveRegulationOfGeneExpression 1331 1340	increased
+T109988	GeneExpression 1346 1356	expression
+E1	NegativeRegulationOfGeneExpression: Cause:T131950 Theme:T131948
+T120973	Entity 1000 1007	sigma70
+E2	RegulationOfGeneExpression: Cause:T120973 Theme:T131962
+E3	PositiveRegulationOfGeneExpression: Cause:T131963 Theme:T131962
+E4	NegativeRegulationOfGeneExpression: Cause:T131966 Theme:T131971
+T120975	Entity 1386 1453	decreasing the growth temperature from 37 degrees C to 30 degrees C
+E5	PositiveRegulationOfGeneExpression: Cause:T120975 Theme:T131971
+E6	NegativeRegulationOfGeneExpression: Cause:T131970 Theme:T131971
+E7	NegativeRegulationOfGeneExpression: Cause:T131967 Theme:T131971
+E8	NegativeRegulationOfGeneExpression: Cause:T131969 Theme:T131971
+E9	NegativeRegulationOfGeneExpression: Cause:T131968 Theme:T131971

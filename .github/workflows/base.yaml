@@ -35,25 +35,25 @@ jobs:
           echo "$file was modified"
         done
     - name: Run step when a file changes
-      if: contains(steps.changed-files.outputs.modified_files, ${{ env.DOCKERFILE }})
+      if: contains(steps.changed-files.outputs.all_modified_files, ${{ env.DOCKERFILE }})
       run: |
         echo "Your file ${{ env.DOCKERFILE }} has been modified."
     - name: Set up Cloud SDK
-      if: contains(steps.changed-files.outputs.modified_files, ${{ env.DOCKERFILE }})
+      if: contains(steps.changed-files.outputs.all_modified_files, ${{ env.DOCKERFILE }})
       uses: google-github-actions/setup-gcloud@master
       with:
         project_id: ${{ secrets.GCE_PROJECT }}
         service_account_key: ${{ secrets.GCE_SA_KEY }}
         version: '290.0.1'
     - name: Configure Docker Authentication
-      if: contains(steps.changed-files.outputs.modified_files, ${{ env.DOCKERFILE }})
+      if: contains(steps.changed-files.outputs.all_modified_files, ${{ env.DOCKERFILE }})
       run: gcloud --quiet auth configure-docker
     - name: Set MODEL_VERSION env
-      if: contains(steps.changed-files.outputs.modified_files, ${{ env.DOCKERFILE }})
+      if: contains(steps.changed-files.outputs.all_modified_files, ${{ env.DOCKERFILE }})
       run: echo "MODEL_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
     - name: Build Docker Image
-      if: contains(steps.changed-files.outputs.modified_files, ${{ env.DOCKERFILE }})
+      if: contains(steps.changed-files.outputs.all_modified_files, ${{ env.DOCKERFILE }})
       run: docker build --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" -f ${{ env.DOCKERFILE }} .
     - name: Publish Docker Image to Google Container Registry
-      if: contains(steps.changed-files.outputs.modified_files, ${{ env.DOCKERFILE }})
+      if: contains(steps.changed-files.outputs.all_modified_files, ${{ env.DOCKERFILE }})
       run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"

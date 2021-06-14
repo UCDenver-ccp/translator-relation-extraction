@@ -60,7 +60,7 @@ jobs:
       run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"
 
   build_push_train-bl_chemical_to_disease_or_phenotypic_feature-train:
-    name: "build/push bluebert.base container image"
+    name: "build/push/train bl_chemical_to_disease_or_phenotypic_feature model"
     needs: "build_push-bert-base"
     runs-on: ubuntu-latest
     env:
@@ -163,6 +163,10 @@ jobs:
         "$MODEL_STORAGE_BUCKET"
 
     - name: Monitor the training job
+      if: |
+        contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
       run: |
         sh -c ".github/workflows/monitor-ai-platform-job.sh $TASK_NAME-train-$GITHUB_SHA"
 

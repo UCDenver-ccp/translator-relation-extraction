@@ -153,7 +153,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
       run: |
-        gcloud ai-platform jobs submit training "$TASK_NAME-train-$GITHUB_SHA" \
+        gcloud ai-platform jobs submit training "$TASK_NAME_train_$GITHUB_SHA" \
         --scale-tier basic_gpu --region "$GCE_REGION" \
         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
         -- \

@@ -3,7 +3,7 @@ ARG BASE_VERSION=latest
 FROM gcr.io/${PROJECT_ID}/bluebert-base:${BASE_VERSION}
 
 # Note: TUNED_MODEL_VERSION is the version of the model being trained. 
-#       This version will be used in the exported model file name. 
+#       This version will be used in the exported model file name.
 ARG TUNED_MODEL_VERSION=latest
 
 # Note: TASK_NAME must align with names used by the prob2label.py script 

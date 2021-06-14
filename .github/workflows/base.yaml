@@ -248,7 +248,7 @@ jobs:
                      --build-arg "BASE_VERSION=$BASE_VERSION" \
                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
-                     --build-arg "CLASSIFICATION_LABELS=${{ CLASSIFICATION_LABELS }}" \
+                     --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION" \
                      -f ${{ env.DOCKERFILE }} .
 

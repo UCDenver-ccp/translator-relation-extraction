@@ -41,7 +41,8 @@ ENV TASK_NAME_ENV=$TASK_NAME
 ENV MODEL_STORAGE_BUCKET_ENV=$MODEL_STORAGE_BUCKET
 ENV CLASSIFICATION_LABELS_ENV=$CLASSIFICATION_LABELS
 
-RUN gsutil cp "${MODEL_STORAGE_BUCKET_ENV}/bert/${TASK_NAME_ENV}/${TASK_NAME_ENV}.${TUNED_MODEL_VERSION_ENV}.tar.gz" . && \
+RUN gcloud auth login && \
+    gsutil cp "${MODEL_STORAGE_BUCKET_ENV}/bert/${TASK_NAME_ENV}/${TASK_NAME_ENV}.${TUNED_MODEL_VERSION_ENV}.tar.gz" . && \
     tar -xzf "${TASK_NAME_ENV}.${TUNED_MODEL_VERSION_ENV}.tar.gz" 
     # && \
     # cp /home/dev/models/baseline/vocab.txt . && \

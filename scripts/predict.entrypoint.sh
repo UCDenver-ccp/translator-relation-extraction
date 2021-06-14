@@ -19,8 +19,6 @@ COLLECTION=$5
 # the gcp bucket where the classified (labeled) sentences will be stored
 OUTPUT_BUCKET=$6
 
-gcloud auth application-default login
-
 # download the sentence files to process
 # cat the sentence files into a single file called test.tsv in the $DATASET_DIR
 mkdir /home/dev/sentences

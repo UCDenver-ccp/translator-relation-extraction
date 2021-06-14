@@ -5,7 +5,7 @@ FROM gcr.io/${PROJECT_ID}/bluebert-base:${BASE_VERSION}
 ARG TUNED_MODEL_VERSION=latest
 
 # Note: TASK_NAME must align with names used by the prob2label.py script 
-#       and also must align with the data directory structure, e.g. bl_chemical_to_gene
+#       and also must align with the data directory structure, e.g. bl_chemical_to_gene 
 ARG TASK_NAME=latest
 
 # MODEL_STORAGE_BUCKET is the GCP bucket where the trained model will be downloaded from, e.g. gs://a/b/c/

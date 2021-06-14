@@ -1,4 +1,4 @@
-name: Build/push base container image
+name: CI/CD for BERT-based sentence classification models
 
 on:
   # Trigger the workflow on push or pull request,

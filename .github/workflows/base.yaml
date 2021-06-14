@@ -13,10 +13,11 @@ on:
 env:
   PROJECT_ID: ${{ secrets.GCE_PROJECT }}
   GCS_SERVICE_ACCOUNT: ${{ secrets.GCE_SA_KEY }}
-  GCE_REGION: us-central1
+  GCE_REGION: ${{ secrets.GCE_REGION }}
+  MODEL_STORAGE_BUCKET: ${{ secrets.MODEL_STORAGE_BUCKET }}
 
 jobs:
-  deploy-bert-base:
+  build_push-bert-base:
     name: "build/push bluebert.base container image"
     runs-on: ubuntu-latest
     env:
@@ -57,3 +58,112 @@ jobs:
     - name: Publish Docker Image to Google Container Registry
       if: contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE)
       run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"
+
+  build_push_train-bl_chemical_to_disease_or_phenotypic_feature-train:
+    name: "build/push bluebert.base container image"
+    needs: "build_push-bert-base"
+    runs-on: ubuntu-latest
+    env:
+      TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature
+      DOCKERFILE: train.Dockerfile
+      BASE_DOCKERFILE: base.Dockerfile
+      DATA_FILE: data/bl_chemical_to_disease_or_phenotypic_feature/data.tsv
+      MODEL_VERSION_KEY: CHEMICAL_TO_DISEASE
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v7
+
+    - name: List all modified files
+      run: |
+        for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
+          echo "$file was modified"
+        done
+
+    - name: Run step when a file changes
+      if: |
+        contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+      run: |
+        echo "A modified file has triggered a rebuild of the ${{ env.TASK_NAME }} model."
+
+    - name: Set up Cloud SDK
+      if: |
+        contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+      uses: google-github-actions/setup-gcloud@master
+      with:
+        project_id: ${{ secrets.GCE_PROJECT }}
+        service_account_key: ${{ secrets.GCE_SA_KEY }}
+        version: '290.0.1'
+
+    - name: Configure Docker Authentication
+      if: |
+        contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+      run: |
+        gcloud --quiet auth configure-docker
+
+    - name: Set MODEL_VERSION env
+      if: |
+        contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+      run: |
+        echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+        echo "MODEL_VERSION has been set to: $MODEL_VERSION"
+
+    - name: Set BASE_VERSION env
+      if: |
+        contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+      run: |
+        echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+        echo "BASE_VERSION has been set to: $BASE_VERSION"
+
+    - name: Build Docker Image
+      if: |
+        contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+      run: |
+        docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+                     --build-arg "TASK_NAME=$TASK_NAME" \
+                     --build-arg "BASE_VERSION=$BASE_VERSION" \
+                     --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+                     --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+                     -f ${{ env.DOCKERFILE }} .
+
+    - name: Publish Docker Image to Google Container Registry
+      if: |
+        contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+      run: |
+        docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+    - name: Submit a training job to AI Plaform to train and cache the model
+      if: |
+        contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+      run: |
+        gcloud ai-platform jobs submit training "$TASK_NAME-train-$GITHUB_SHA" \
+        --scale-tier basic_gpu --region "$GCE_REGION" \
+        --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+        -- \
+        NO_ARG \
+        "$MODEL_STORAGE_BUCKET"
+
+    - name: Monitor the training job
+      run: |
+        sh -c ".github/workflows/monitor-ai-platform-job.sh $TASK_NAME-train-$GITHUB_SHA"
+
+    

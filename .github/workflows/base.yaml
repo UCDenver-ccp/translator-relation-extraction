@@ -33,7 +33,7 @@ jobs:
           echo "$file was modified"
         done
     - name: Set up Cloud SDK
-      if: contains(steps.changed-files.outputs.modified_files, "$DOCKERFILE")
+      if: contains(steps.changed-files.outputs.modified_files, ${{ DOCKERFILE }})
       uses: google-github-actions/setup-gcloud@master
       with:
         project_id: ${{ secrets.GCE_PROJECT }}

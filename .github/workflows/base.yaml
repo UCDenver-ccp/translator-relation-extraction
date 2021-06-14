@@ -66,6 +66,7 @@ jobs:
     env:
       TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature
       DOCKERFILE: train.Dockerfile
+      ENTRYPOINT_FILE: scripts/train.entrypoint.sh
       BASE_DOCKERFILE: base.Dockerfile
       DATA_FILE: data/bl_chemical_to_disease_or_phenotypic_feature/data.tsv
       MODEL_VERSION_KEY: CHEMICAL_TO_DISEASE
@@ -87,7 +88,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         echo "A modified file has triggered a rebuild of the ${{ env.TASK_NAME }} model."
 
@@ -95,7 +97,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       uses: google-github-actions/setup-gcloud@master
       with:
         project_id: ${{ secrets.GCE_PROJECT }}
@@ -106,7 +109,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         gcloud --quiet auth configure-docker
 
@@ -114,7 +118,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
 
@@ -122,7 +127,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
 
@@ -130,7 +136,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
                      --build-arg "TASK_NAME=$TASK_NAME" \
@@ -143,7 +150,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
 
@@ -151,7 +159,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         gcloud ai-platform jobs submit training "$TASK_NAME_train_$GITHUB_SHA" \
         --scale-tier basic_gpu --region "$GCE_REGION" \
@@ -164,9 +173,11 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         sh -c ".github/workflows/monitor-ai-platform-job.sh $TASK_NAME_train_$GITHUB_SHA"
+      timeout-minutes: 30
 
     
   build_push-bl_chemical_to_disease_or_phenotypic_feature-predict:
@@ -176,6 +187,7 @@ jobs:
     env:
       TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature
       DOCKERFILE: predict.Dockerfile
+      ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
       BASE_DOCKERFILE: base.Dockerfile
       MODEL_VERSION_KEY: CHEMICAL_TO_DISEASE
       CLASSIFICATION_LABELS: "treats  false"
@@ -198,7 +210,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         echo "A modified file has triggered a rebuild of the ${{ env.TASK_NAME }} predict container."
 
@@ -206,7 +219,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       uses: google-github-actions/setup-gcloud@master
       with:
         project_id: ${{ secrets.GCE_PROJECT }}
@@ -217,7 +231,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         gcloud --quiet auth configure-docker
 
@@ -225,7 +240,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
 
@@ -233,7 +249,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
 
@@ -241,7 +258,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
                      --build-arg "TASK_NAME=$TASK_NAME" \
@@ -256,7 +274,8 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE)
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION"
 

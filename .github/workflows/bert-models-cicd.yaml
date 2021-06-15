@@ -1339,6 +1339,7 @@ jobs:
       BASE_DOCKERFILE: base.Dockerfile
       DATA_FILE: data/bl_gene_to_expression_site/data.tsv
       MODEL_VERSION_KEY: BL_GENE_TO_EXPRESSION_SITE
+      AI_PLATFORM_JOB_NAME: "bl_gene_to_expression_site_train_${{ github.run_number }}"
     steps:
     - uses: actions/checkout@v2
       with:
@@ -1431,7 +1432,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
-        gcloud ai-platform jobs submit training "$TASK_NAME_train_$GITHUB_SHA" \
+        gcloud ai-platform jobs submit training env.AI_PLATFORM_JOB_NAME \
         --scale-tier basic_gpu --region "$GCE_REGION" \
         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
         -- \
@@ -1445,7 +1446,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
-        sh -c ".github/workflows/monitor-ai-platform-job.sh $TASK_NAME_train_$GITHUB_SHA"
+        sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
       timeout-minutes: 30
 
   # ----------------------------------------------------------------------------------- #

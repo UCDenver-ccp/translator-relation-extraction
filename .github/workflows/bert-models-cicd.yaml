@@ -1425,6 +1425,15 @@ jobs:
       run: |
         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
 
+    - name: Show Job id
+      if: |
+        contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
+      run: |
+        echo "JOB ID = ${{ env.AI_PLATFORM_JOB_NAME }}
+
     - name: Submit a training job to AI Plaform to train and cache the model
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
@@ -1432,7 +1441,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
-        gcloud ai-platform jobs submit training env.AI_PLATFORM_JOB_NAME \
+        gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
         --scale-tier basic_gpu --region "$GCE_REGION" \
         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
         -- \

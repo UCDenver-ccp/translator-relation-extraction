@@ -31,18 +31,6 @@ python bluebert/run_bluebert.py \
 [ $? -eq 0 ] || exit 1
 popd
 
-# -----
-# save for debugging purposes
-OUT_PATH=$(echo "${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/test_results.tsv" | tr -d " ")
-gsutil cp "/home/dev/output/test_results.tsv" "${OUT_PATH}"
-[ $? -eq 0 ] || exit 1
-
-OUT_PATH=$(echo "${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/test.ids" | tr -d " ")
-gsutil cp "/home/dev/data/test.ids" "${OUT_PATH}"
-[ $? -eq 0 ] || exit 1
-
-# -----
-
 # convert the BERT output file to the format expected by the BLUE_Benchmark code
 pushd /home/dev/output
 python /home/dev/prob2label.py ${TASK_NAME} > /home/dev/data/bert.out.tsv
@@ -67,7 +55,7 @@ tar -czvf "${TASK_NAME}.${TUNED_MODEL_VERSION}.tar.gz" *
 
 
 echo "MODEL OUTPUT FILE: ${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/${TASK_NAME}.${TUNED_MODEL_VERSION}.tar.gz"
-echo "SCORE OUTPUT FILE: ${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/${TASK_NAME}.${TUNED_MODEL_VERSION}.score"
+echo "SCORE OUTPUT FILE: ${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/${TASK_NAME}.${TUNED_MODEL_VERSION}.score.txt"
 
 # NOTE: If the storage bucket path changes, it must also be updated in 
 #       the predict.Dockerfile where the model is downloaded.
@@ -78,6 +66,6 @@ gsutil cp "/home/dev/output/${TASK_NAME}.${TUNED_MODEL_VERSION}.tar.gz" "${OUT_P
 
 # export the model evaluation metrics to a bucket
 # note: we remove spaces from the output path b/c MODEL_STORAGE_BUCKET has a trailing space
-OUT_PATH=$(echo "${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/${TASK_NAME}.${TUNED_MODEL_VERSION}.score" | tr -d " ")
+OUT_PATH=$(echo "${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/${TASK_NAME}.${TUNED_MODEL_VERSION}.score.txt" | tr -d " ")
 gsutil cp /home/dev/data/bert.score "${OUT_PATH}"
 [ $? -eq 0 ] || exit 1

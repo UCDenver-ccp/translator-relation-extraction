@@ -216,7 +216,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
-      timeout-minutes: 60
+      timeout-minutes: 180
 
   # -------------------------------------------------------------------------------------- #
   # BUILD/PUSH BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE CLASSIFICATION CONTAINER IMAGE #
@@ -230,6 +230,7 @@ jobs:
       TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature
       DOCKERFILE: predict.Dockerfile
       TRAIN_DOCKERFILE: train.Dockerfile
+      TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
       BASE_DOCKERFILE: base.Dockerfile
       MODEL_VERSION_KEY: BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE
@@ -253,6 +254,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -263,6 +265,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -276,6 +279,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -286,6 +290,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -296,6 +301,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -306,6 +312,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -323,6 +330,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -474,7 +482,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
-      timeout-minutes: 60
+      timeout-minutes: 180
 
   # ----------------------------------------------------------------------------------- #
   #              BUILD/PUSH BL_CHEMICAL_TO_GENE CLASSIFICATION CONTAINER IMAGE          #
@@ -488,6 +496,7 @@ jobs:
       TASK_NAME: bl_chemical_to_gene
       DOCKERFILE: predict.Dockerfile
       TRAIN_DOCKERFILE: train.Dockerfile
+      TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
       BASE_DOCKERFILE: base.Dockerfile
       MODEL_VERSION_KEY: BL_CHEMICAL_TO_GENE
@@ -511,6 +520,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -521,6 +531,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -534,6 +545,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -544,6 +556,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -554,6 +567,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -564,6 +578,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -581,6 +596,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -714,7 +730,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
-      timeout-minutes: 60
+      timeout-minutes: 180
 
   # ----------------------------------------------------------------------------------- #
   #      BUILD/PUSH BL_DISEASE_TO_PHENOTYPIC_FEATURE CLASSIFICATION CONTAINER IMAGE     #
@@ -728,6 +744,7 @@ jobs:
       TASK_NAME: bl_disease_to_phenotypic_feature
       DOCKERFILE: predict.Dockerfile
       TRAIN_DOCKERFILE: train.Dockerfile
+      TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
       BASE_DOCKERFILE: base.Dockerfile
       MODEL_VERSION_KEY: BL_DISEASE_TO_PHENOTYPIC_FEATURE
@@ -751,6 +768,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -761,6 +779,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -774,6 +793,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -784,6 +804,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -794,6 +815,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -804,6 +826,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -821,6 +844,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -972,7 +996,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
-      timeout-minutes: 60
+      timeout-minutes: 180
 
   # ----------------------------------------------------------------------------------- #
   #      BUILD/PUSH BL_GENE_REGULATORY_RELATIONSHIP CLASSIFICATION CONTAINER IMAGE      #
@@ -986,6 +1010,7 @@ jobs:
       TASK_NAME: bl_gene_regulatory_relationship
       DOCKERFILE: predict.Dockerfile
       TRAIN_DOCKERFILE: train.Dockerfile
+      TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
       BASE_DOCKERFILE: base.Dockerfile
       MODEL_VERSION_KEY: BL_GENE_REGULATORY_RELATIONSHIP
@@ -1009,6 +1034,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1019,6 +1045,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1032,6 +1059,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1042,6 +1070,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1052,6 +1081,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1062,6 +1092,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1079,6 +1110,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1212,7 +1244,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
-      timeout-minutes: 60
+      timeout-minutes: 180
 
   # ----------------------------------------------------------------------------------- #
   #             BUILD/PUSH BL_GENE_TO_DISEASE CLASSIFICATION CONTAINER IMAGE            #
@@ -1226,6 +1258,7 @@ jobs:
       TASK_NAME: bl_gene_to_disease
       DOCKERFILE: predict.Dockerfile
       TRAIN_DOCKERFILE: train.Dockerfile
+      TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
       BASE_DOCKERFILE: base.Dockerfile
       MODEL_VERSION_KEY: BL_GENE_TO_DISEASE
@@ -1249,6 +1282,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1259,6 +1293,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1272,6 +1307,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1282,6 +1318,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1292,6 +1329,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1302,6 +1340,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1319,6 +1358,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1452,7 +1492,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
-      timeout-minutes: 60
+      timeout-minutes: 180
 
   # ----------------------------------------------------------------------------------- #
   #          BUILD/PUSH BL_GENE_TO_EXPRESSION_SITE CLASSIFICATION CONTAINER IMAGE       #
@@ -1466,6 +1506,7 @@ jobs:
       TASK_NAME: bl_gene_to_expression_site
       DOCKERFILE: predict.Dockerfile
       TRAIN_DOCKERFILE: train.Dockerfile
+      TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
       BASE_DOCKERFILE: base.Dockerfile
       MODEL_VERSION_KEY: BL_GENE_TO_EXPRESSION_SITE
@@ -1489,6 +1530,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1499,6 +1541,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1512,6 +1555,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1522,6 +1566,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1532,6 +1577,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1542,6 +1588,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
@@ -1559,6 +1606,7 @@ jobs:
       if: |
         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)

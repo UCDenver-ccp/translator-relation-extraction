@@ -23,7 +23,7 @@ COPY scripts/train.entrypoint.sh /home/dev/entrypoint.sh
 COPY scripts/prob2label.py /home/dev/
 
 WORKDIR /home/dev
-## install blue benchmark repository; note, it's possible some of the pip install commands below are not needed
+## install blue benchmark repository; note, it's possible some of the pip install commands below are not needed 
 RUN git clone https://github.com/ncbi-nlp/BLUE_Benchmark.git ./blue_benchmark.git && \
     cd blue_benchmark.git && \
     pip install -r requirements.txt && \

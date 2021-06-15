@@ -37,7 +37,7 @@ OUT_PATH=$(echo "${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/test_results.tsv" | t
 gsutil cp "/home/dev/output/test_results.tsv" "${OUT_PATH}"
 [ $? -eq 0 ] || exit 1
 
-OUT_PATH=$(echo "${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/test_ids.tsv" | tr -d " ")
+OUT_PATH=$(echo "${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/test.ids" | tr -d " ")
 gsutil cp "/home/dev/data/test.ids" "${OUT_PATH}"
 [ $? -eq 0 ] || exit 1
 

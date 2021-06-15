@@ -9,25 +9,25 @@ if model_key == 'bl_chemical_to_disease_or_phenotypic_feature':
     labels[0]="treats"
     labels[1]="false"
 elif model_key == 'bl_chemical_to_gene':
-    labels[0]="positively_regulates",
-    labels[1]="negatively_regulates",
+    labels[0]="positively_regulates"
+    labels[1]="negatively_regulates"
     labels[2]="false"
 elif model_key == 'bl_disease_to_phenotypic_feature':
-    labels[0]="has_symptom",
+    labels[0]="has_symptom"
     labels[1]="false"
 elif model_key == 'bl_gene_regulatory_relationship':
-    labels[0]="positively_regulates",
-    labels[1]="negatively_regulates",
+    labels[0]="positively_regulates"
+    labels[1]="negatively_regulates"
     labels[2]="false"
 elif model_key == 'bl_gene_to_disease':
-    labels[0]="causes",
+    labels[0]="causes"
     labels[1]="false"
 elif model_key == 'bl_gene_to_expression_site':
-    labels[0]="expressed_in",
+    labels[0]="expressed_in"
     labels[1]="false"
 # elif model_key == 'bl_gene_to_go_term':
-#   labels[0]="????",
-#   labels[1]="????",
+#   labels[0]="????"
+#   labels[1]="????"
 #   labels[2]="false"
 
 with open("/home/dev/output/test_results.tsv", "r") as probs_file, open("/home/dev/data/test.ids") as ids_file:

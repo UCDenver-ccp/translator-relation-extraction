@@ -54,6 +54,33 @@ RUN sed -i '175,182s/...../   /' blue/bert/create_chemprot_bert.py && \
 
 RUN python blue/bert/create_chemprot_bert.py /home/dev/data/ChemProt_Corpus /home/dev/data/bert-input
 
+# convert the native labels, e.g. CPR:3, CPR:4, etc. into labels used by for classification
+# -- labels according to the ChemProt documentation --
+# -- CPR:1 = PART_OF
+# -- CPR:2 = REGULATOR|DIRECT_REGULATOR|INDIRECT_REGULATOR
+# -- CPR:3* = UPREGULATOR|ACTIVATOR|INDIRECT_UPREGULATOR
+# -- CPR:4* = DOWNREGULATOR|INHIBITOR|INDIRECT_DOWNREGULATOR
+# -- CPR:5* = AGONIST|AGONIST-ACTIVATOR|AGONIST-INHIBITOR
+# -- CPR:6* = ANTAGONIST
+# -- CPR:7 = MODULATOR|MODULATOR-ACTIVATOR|MODULATOR-INHIBITOR
+# -- CPR:8 = COFACTOR
+# -- CPR:9 = SUBSTRATE|PRODUCT_OF|SUBSTRATE_PRODUCT_OF
+# -- CPR:10 = NOT
+
+# -- (*) only the following were used for evaluation in the original BioCreative ChemProt task: CPR:3, CPR:4, CPR:5, CPR:6, CPR:9
+#
+# For our purposes, we convert CPR:3 to "positively_regulates" & CPR:4 to "negatively_regulates" and the rest to "false"
+
+RUN sed -i 's/CPR:3/positively_regulates/g' /home/dev/data/bert-input/train.tsv && \
+    sed -i 's/CPR:4/negatively_regulates/g' /home/dev/data/bert-input/train.tsv && \
+    sed -i 's/CPR:./false/g' /home/dev/data/bert-input/train.tsv && \
+    sed -i 's/CPR:3/positively_regulates/g' /home/dev/data/bert-input/dev.tsv && \
+    sed -i 's/CPR:4/negatively_regulates/g' /home/dev/data/bert-input/dev.tsv && \
+    sed -i 's/CPR:./false/g' /home/dev/data/bert-input/dev.tsv && \
+    sed -i 's/CPR:3/positively_regulates/g' /home/dev/data/bert-input/test.tsv && \
+    sed -i 's/CPR:4/negatively_regulates/g' /home/dev/data/bert-input/test.tsv && \
+    sed -i 's/CPR:./false/g' /home/dev/data/bert-input/test.tsv
+
 WORKDIR /home/dev/output
 
 ENTRYPOINT tail -n +2 /home/dev/data/bert-input/train.tsv >> data.tsv && tail -n +2 /home/dev/data/bert-input/dev.tsv >> data.tsv && tail -n +2 /home/dev/data/bert-input/test.tsv >> data.tsv

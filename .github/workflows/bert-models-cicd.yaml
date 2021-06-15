@@ -1432,7 +1432,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
-        echo "JOB ID = ${{ env.AI_PLATFORM_JOB_NAME }}
+        echo "JOB ID = ${{ env.AI_PLATFORM_JOB_NAME }}"
 
     - name: Submit a training job to AI Plaform to train and cache the model
       if: |

@@ -9,9 +9,9 @@ RUN apt-get update && apt-get install -y \
     maven \
     wget
 
-# create the dev user
-RUN groupadd --gid 9001 dev && \
-    useradd --create-home --shell /bin/bash --no-log-init -u 9001 -g dev dev
+# # create the dev user
+# RUN groupadd --gid 9001 dev && \
+#     useradd --create-home --shell /bin/bash --no-log-init -u 9001 -g dev dev
 
 # download the GeneReg corpus
 WORKDIR /home/dev/data
@@ -22,13 +22,13 @@ RUN wget https://julielab.de/downloads/resources/GeneReg_tar.gz && \
 # Doing this separately makes interative development easier as
 # dependencies will only be redownloaded when the pom.xml file changes.
 COPY code/java/pom.xml /home/dev/code/
-RUN chown -R dev:dev /home/dev
-USER dev
+# RUN chown -R dev:dev /home/dev
+# USER dev
 WORKDIR /home/dev/code/
 RUN mvn verify
 
 # copy the code (and the pom file) and then build and install
-COPY --chown=dev:dev code/java /home/dev/code
+COPY code/java /home/dev/code
 
 # build and install code
 WORKDIR /home/dev/code/

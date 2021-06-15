@@ -7,13 +7,13 @@ RUN apt-get update && apt-get install -y \
     less \
     vim 
 
-# create the 'dev' user
-RUN groupadd dev && \
-    useradd --create-home --shell /bin/bash --no-log-init -g dev dev
+# # create the 'dev' user
+# RUN groupadd dev && \
+#     useradd --create-home --shell /bin/bash --no-log-init -g dev dev
 
-USER dev:dev
+# USER dev:dev
 
-# Download tghe ChemProt corpus and unzip it
+# Download the ChemProt corpus and unzip it
 WORKDIR /home/dev/data
 RUN wget https://biocreative.bioinformatics.udel.edu/media/store/files/2017/ChemProt_Corpus.zip && \
     unzip ChemProt_Corpus.zip && \

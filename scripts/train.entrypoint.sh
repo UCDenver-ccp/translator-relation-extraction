@@ -31,6 +31,18 @@ python bluebert/run_bluebert.py \
 [ $? -eq 0 ] || exit 1
 popd
 
+# -----
+# save for debugging purposes
+OUT_PATH=$(echo "${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/test_results.tsv" | tr -d " ")
+gsutil cp "/home/dev/output/test_results.tsv" "${OUT_PATH}"
+[ $? -eq 0 ] || exit 1
+
+OUT_PATH=$(echo "${MODEL_STORAGE_BUCKET}/bert/${TASK_NAME}/test_ids.tsv" | tr -d " ")
+gsutil cp "/home/dev/data/test.ids" "${OUT_PATH}"
+[ $? -eq 0 ] || exit 1
+
+# -----
+
 # convert the BERT output file to the format expected by the BLUE_Benchmark code
 pushd /home/dev/output
 python /home/dev/prob2label.py ${TASK_NAME} > /home/dev/data/bert.out.tsv

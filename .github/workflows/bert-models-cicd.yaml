@@ -1380,7 +1380,7 @@ jobs:
   
   build_push_train-bl_gene_to_expression_site-train:
     name: "build/push/train bl_gene_to_expression_site model"
-    needs: "build_push-bert-base"
+    # needs: "build_push-bert-base"
     runs-on: ubuntu-latest
     env:
       TASK_NAME: bl_gene_to_expression_site

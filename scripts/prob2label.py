@@ -20,7 +20,7 @@ elif model_key == 'bl_gene_regulatory_relationship':
     labels[1]="negatively_regulates"
     labels[2]="false"
 elif model_key == 'bl_gene_to_disease':
-    labels[0]="causes"
+    labels[0]="contributes_to"
     labels[1]="false"
 elif model_key == 'bl_gene_to_expression_site':
     labels[0]="expressed_in"

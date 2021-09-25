@@ -92,23 +92,23 @@ jobs:
 # ----------------------------------------------------------------------------------- #
   # ----------------------------------------------------------------------------------- #
   # ----------------------------------------------------------------------------------- #
-  #              TRAIN BL_GENE_LOSS_GAIN_FUNCTION_TO_DISEASE MODEL               #
+  #              TRAIN BL_GENE_LOSS_GAIN_OF_FUNCTION_TO_DISEASE MODEL               #
   # ----------------------------------------------------------------------------------- #
   # ----------------------------------------------------------------------------------- #
   # ----------------------------------------------------------------------------------- #
 
-  build_push_train-bl_gene_loss_gain_function_to_disease-train:
-    name: "build/push/train bl_gene_loss_gain_function_to_disease model"
+  build_push_train-bl_gene_loss_gain_of_function_to_disease-train:
+    name: "build/push/train bl_gene_loss_gain_of_function_to_disease model"
     needs: "build_push-bert-base"
     runs-on: ubuntu-latest
     env:
-      TASK_NAME: bl_gene_loss_gain_function_to_disease
+      TASK_NAME: bl_gene_loss_gain_of_function_to_disease
       DOCKERFILE: train.Dockerfile
       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
       BASE_DOCKERFILE: base.Dockerfile
-      DATA_FILE: data/bl_gene_loss_gain_function_to_disease/data.tsv
-      MODEL_VERSION_KEY: BL_GENE_LOSS_GAIN_FUNCTION_TO_DISEASE
-      AI_PLATFORM_JOB_NAME: "bl_gene_loss_gain_function_to_disease_train_${{ github.run_number }}"
+      DATA_FILE: data/bl_gene_loss_gain_of_function_to_disease/data.tsv
+      MODEL_VERSION_KEY: BL_GENE_LOSS_GAIN_OF_FUNCTION_TO_DISEASE
+      AI_PLATFORM_JOB_NAME: "bl_gene_loss_gain_of_function_to_disease_train_${{ github.run_number }}"
     steps:
     - uses: actions/checkout@v2
       with:
@@ -219,23 +219,23 @@ jobs:
       timeout-minutes: 1800
 
   # -------------------------------------------------------------------------------------- #
-  # BUILD/PUSH BL_GENE_LOSS_GAIN_FUNCTION_TO_DISEASE CLASSIFICATION CONTAINER IMAGE #
+  # BUILD/PUSH BL_GENE_LOSS_GAIN_OF_FUNCTION_TO_DISEASE CLASSIFICATION CONTAINER IMAGE #
   # -------------------------------------------------------------------------------------- #
     
-  build_push-bl_gene_loss_gain_function_to_disease-predict:
-    name: "build/push bl_gene_loss_gain_function_to_disease predict container"
-    needs: "build_push_train-bl_gene_loss_gain_function_to_disease-train"
+  build_push-bl_gene_loss_gain_of_function_to_disease-predict:
+    name: "build/push bl_gene_loss_gain_of_function_to_disease predict container"
+    needs: "build_push_train-bl_gene_loss_gain_of_function_to_disease-train"
     runs-on: ubuntu-latest
     env:
-      TASK_NAME: bl_gene_loss_gain_function_to_disease
+      TASK_NAME: bl_gene_loss_gain_of_function_to_disease
       DOCKERFILE: predict.Dockerfile
       TRAIN_DOCKERFILE: train.Dockerfile
       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
       BASE_DOCKERFILE: base.Dockerfile
-      MODEL_VERSION_KEY: BL_GENE_LOSS_GAIN_FUNCTION_TO_DISEASE
+      MODEL_VERSION_KEY: BL_GENE_LOSS_GAIN_OF_FUNCTION_TO_DISEASE
       CLASSIFICATION_LABELS: "contributes_to_via_loss_of_function	contributes_to_via_gain_of_function	false"
-      DATA_FILE: data/bl_gene_loss_gain_function_to_disease/data.tsv
+      DATA_FILE: data/bl_gene_loss_gain_of_function_to_disease/data.tsv
     steps:
     - uses: actions/checkout@v2
       with:

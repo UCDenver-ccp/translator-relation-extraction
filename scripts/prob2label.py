@@ -22,6 +22,10 @@ elif model_key == 'bl_gene_regulatory_relationship':
 elif model_key == 'bl_gene_to_disease':
     labels[0]="causes"
     labels[1]="false"
+elif model_key == 'bl_gene_loss_gain_of_function_to_disease':
+    labels[0]="contributes_to_via_loss_of_function"
+    labels[1]="contributes_to_via_gain_of_function"
+    labels[2]="false"
 elif model_key == 'bl_gene_to_expression_site':
     labels[0]="expressed_in"
     labels[1]="false"

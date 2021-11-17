@@ -1381,7 +1381,7 @@ jobs:
 
   build_push_train-bl_gene_to_disease-train:
     name: "build/push/train bl_gene_to_disease model"
-    needs: "build_push-bert-base"
+    # needs: "build_push-bert-base"
     runs-on: ubuntu-latest
     env:
       TASK_NAME: bl_gene_to_disease
@@ -1498,7 +1498,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
-      timeout-minutes: 180
+      timeout-minutes: 1800
 
   # ----------------------------------------------------------------------------------- #
   #             BUILD/PUSH BL_GENE_TO_DISEASE CLASSIFICATION CONTAINER IMAGE            #
@@ -1516,7 +1516,7 @@ jobs:
       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
       BASE_DOCKERFILE: base.Dockerfile
       MODEL_VERSION_KEY: BL_GENE_TO_DISEASE
-      CLASSIFICATION_LABELS: "causes  false"
+      CLASSIFICATION_LABELS: "contributes_to  false"
       DATA_FILE: data/bl_gene_to_disease/data.tsv
     steps:
     - uses: actions/checkout@v2

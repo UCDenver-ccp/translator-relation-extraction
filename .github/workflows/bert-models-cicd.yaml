@@ -731,7 +731,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
       run: |
         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
-      timeout-minutes: 360
+      timeout-minutes: 17280
         # Initial training of the chemical_to_gene model required 250 minutes 
         # using the basic_gpu tier (Tesla K80), so we set the timeout to 360 minutes
         # here to be sure to allow enough time to finish. Note: 360 minutes might be the 

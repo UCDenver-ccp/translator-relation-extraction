@@ -12,8 +12,8 @@ ARG TASK_NAME=latest
 
 # Download the base BlueBERT model
 WORKDIR /home/dev/models/baseline
-RUN wget https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/NCBI-BERT/NCBI_BERT_pubmed_uncased_L-12_H-768_A-12.zip && \
-    unzip NCBI_BERT_pubmed_uncased_L-12_H-768_A-12.zip
+RUN wget https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/NCBI-BERT/NCBI_BERT_pubmed_mimic_uncased_L-12_H-768_A-12.zip && \
+    unzip NCBI_BERT_pubmed_mimic_uncased_L-12_H-768_A-12.zip
 
 # copy the task-specific training/evaluation data into the container
 COPY data/${TASK_NAME}/data.tsv /home/dev/data/

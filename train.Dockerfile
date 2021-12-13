@@ -13,7 +13,7 @@ ARG TASK_NAME=latest
 # Download the base BlueBERT model
 WORKDIR /home/dev/models/baseline
 RUN wget https://s3-us-west-2.amazonaws.com/ai2-s2-research/scibert/tensorflow_models/scibert_basevocab_uncased.tar.gz && \
-    tar -xzvf --strip-components=1 scibert_basevocab_uncased.tar.gz
+    tar -xzvf scibert_basevocab_uncased.tar.gz --strip-components 1 
 
 # copy the task-specific training/evaluation data into the container
 COPY data/${TASK_NAME}/data.tsv /home/dev/data/

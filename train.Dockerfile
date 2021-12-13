@@ -15,7 +15,12 @@ WORKDIR /home/dev/models/baseline
 COPY scripts/download-biobert-model.sh /home/dev/models/baseline/
 RUN chmod 755 /home/dev/models/baseline/download-biobert-model.sh
 RUN /home/dev/models/baseline/download-biobert-model.sh && \
-    tar -xzvf biobert_large_v1.1_pubmed.tar.gz --strip-components 1
+    tar -xzvf biobert_large_v1.1_pubmed.tar.gz --strip-components 1 && \
+    mv /home/dev/models/baseline/vocab_cased_pubmed_pmc_30k.txt /home/dev/models/baseline/vocab.txt && \
+    mv /home/dev/models/baseline/bert_config_bio_58k_large.json /home/dev/models/baseline/bert_config.json && \
+    mv /home/dev/models/baseline/bio_bert_large_1000k.ckpt.data-00000-of-00001 /home/dev/models/baseline/bert_model.ckpt.data-00000-of-00001 && \
+    mv /home/dev/models/baseline/bio_bert_large_1000k.ckpt.index /home/dev/models/baseline/bert_model.ckpt.index && \
+    mv /home/dev/models/baseline/bio_bert_large_1000k.ckpt.meta /home/dev/models/baseline/bert_model.ckpt.meta 
 
 # copy the task-specific training/evaluation data into the container
 COPY data/${TASK_NAME}/data.tsv /home/dev/data/

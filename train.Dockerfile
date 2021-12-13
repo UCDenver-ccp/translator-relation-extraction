@@ -12,8 +12,14 @@ ARG TASK_NAME=latest
 
 # Download the base BlueBERT model
 WORKDIR /home/dev/models/baseline
-RUN wget https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/NCBI-BERT/NCBI_BERT_pubmed_uncased_L-12_H-768_A-12.zip && \
-    unzip NCBI_BERT_pubmed_uncased_L-12_H-768_A-12.zip
+COPY scripts/download-biobert-model.sh /home/dev/models/baseline/
+RUN chmod 755 /home/dev/models/baseline/download-biobert-model.sh
+RUN /home/dev/models/baseline/download-biobert-model.sh && \
+    tar -xzvf biobert_v1.1_pubmed.tar.gz --strip-components 1  && \
+    mv /home/dev/models/baseline/model.ckpt-1000000.data-00000-of-00001 /home/dev/models/baseline/bert_model.ckpt.data-00000-of-00001 && \
+    mv /home/dev/models/baseline/model.ckpt-1000000.index /home/dev/models/baseline/bert_model.ckpt.index && \
+    mv /home/dev/models/baseline/model.ckpt-1000000.meta /home/dev/models/baseline/bert_model.ckpt.meta 
+
 
 # copy the task-specific training/evaluation data into the container
 COPY data/${TASK_NAME}/data.tsv /home/dev/data/

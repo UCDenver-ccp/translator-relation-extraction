@@ -12,8 +12,10 @@ ARG TASK_NAME=latest
 
 # Download the base BlueBERT model
 WORKDIR /home/dev/models/baseline
-RUN wget -O biobert_v1.1_pubmed.tar.gz https://drive.google.com/u/0/open?id=1R84voFKHfWV9xjzeLzWBbmY1uOMYpnyD && \
-    tar -xzvf biobert_v1.1_pubmed.tar.gz
+COPY scripts/download-biobert-model.sh /home/dev/models/baseline/
+RUN chmod 755 /home/dev/models/baseline/download-biobert-model.sh
+RUN /home/dev/models/baseline/download-biobert-model.sh && \
+    tar -xzvf biobert_v1.1_pubmed.tar.gz --strip-components 1
 
 # copy the task-specific training/evaluation data into the container
 COPY data/${TASK_NAME}/data.tsv /home/dev/data/

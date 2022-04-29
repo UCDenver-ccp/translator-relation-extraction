@@ -1,0 +1,91 @@
+T1	CHEMICAL 31 38	Retinal
+T2	DISEASE 31 44	Retinal Break
+T3	CHEMICAL 187 194	alcohol
+T4	DISEASE 216 221	blood
+T5	CHEMICAL 222 229	glucose
+T6	CHEMICAL 235 246	cholesterol
+T7	DISEASE 289 292	ALT
+T8	DISEASE 308 311	ALT
+T9	DISEASE 390 393	HCC
+T10	CHEMICAL 454 458	drug
+T11	corrected_chemical 482 515	tumour necrosis factor inhibitors
+T12	CHEMICAL 505 515	inhibitors
+T13	corrected_disease 553 576	axial spondyloarthritis
+T14	DISEASE 559 576	spondyloarthritis
+T15	CHEMICAL 664 671	heparin
+T16	DISEASE 786 796	congenital
+T17	CHEMICAL 862 875	dexamethasone
+T18	DISEASE 916 937	cystoid macular edema
+T19	corrected_disease 941 956	ocular syphilis
+T20	DISEASE 948 956	syphilis
+T21	CHEMICAL 1073 1078	probe
+T22	DISEASE 1193 1208	prostate cancer
+T23	DISEASE 1273 1320	arrhythmogenic right ventricular cardiomyopathy
+T24	DISEASE 1322 1327	ARVC)
+T25	DISEASE 1411 1420	inversion
+T26	CHEMICAL 1424 1431	12-lead
+T27	missed_chemical 1454 1456	Cd
+T28	CHEMICAL 1503 1513	hemoglobin
+T29	CHEMICAL 1607 1616	oxidative
+T30	missed_disease 1607 1623	oxidative stress
+T31	DISEASE 1625 1630	CTX-1
+T32	CHEMICAL 1665 1673	collagen
+T33	CHEMICAL 1720 1727	protein
+T34	DISEASE 1739 1751	inflammation
+T35	CHEMICAL 1767 1777	vitamin D3
+T36	CHEMICAL 1792 1803	glutathione
+T37	CHEMICAL 1820 1824	urea
+T38	CHEMICAL 1825 1844	nitrogen/creatinine
+T39	CHEMICAL 1897 1910	nanoparticles
+T40	CHEMICAL 1931 1944	Bronsted acid
+T41	CHEMICAL 1973 1983	sulfonated
+T42	CHEMICAL 1984 1997	metal-organic
+T43	DISEASE 2016 2023	one-pot
+T44	CHEMICAL 2059 2075	Ticagrelor-based
+T45	DISEASE 2131 2147	artery disease-A
+T46	CHEMICAL 2240 2249	molecular
+T47	DISEASE 2338 2343	tumor
+T48	DISEASE 2448 2453	tumor
+T49	CHEMICAL 2481 2490	Neratinib
+T50	DISEASE 2521 2529	diarrhea
+T51	DISEASE 2681 2688	non-CKD
+T52	CHEMICAL 2702 2707	group
+T53	CHEMICAL 2730 2735	group
+T54	CHEMICAL 2758 2763	group
+T55	corrected_disease 2782 2824	PDGRFB mutation-associated myofibromatosis
+T56	DISEASE 2809 2824	myofibromatosis
+T57	CHEMICAL 2860 2868	imatinib
+T58	CHEMICAL 2914 2919	water
+T59	DISEASE 3040 3049	diarrhoea
+T60	DISEASE 3116 3122	common
+T61	CHEMICAL 3150 3157	thyroid
+T62	CHEMICAL 3228 3238	Zonisamide
+T63	DISEASE 3243 3259	Cluster Headache
+T64	DISEASE 3318 3323	blood
+T65	DISEASE 3376 3381	blood
+T66	CHEMICAL 3392 3408	hemoglobin-based
+T67	CHEMICAL 3409 3415	oxygen
+T68	DISEASE 3450 3455	blood
+T69	CHEMICAL 3498 3510	prednisolone
+T70	corrected_disease 3515 3537	interstitial pneumonia
+T71	DISEASE 3528 3537	pneumonia
+T72	CHEMICAL 3554 3564	anagrelide
+T73	DISEASE 3583 3608	essential thrombocythemia
+T74	missed_disease 3637 3640	PHH
+T75	DISEASE 3644 3656	LPA-injected
+T76	missed_chemical 3705 3708	LPA
+T77	corrected_chemical 3705 3729	LPA receptor antagonists
+T78	CHEMICAL 3709 3729	receptor antagonists
+T79	CHEMICAL 3718 3729	antagonists
+T80	missed_disease 3744 3747	PHH
+R1	treats Arg1:T62 Arg2:T63
+R2	causes Arg1:T27 Arg2:T30
+R3	treats Arg1:T72 Arg2:T73
+R4	causes Arg1:T72 Arg2:T70
+R5	treats Arg1:T77 Arg2:T80
+R6	causes Arg1:T49 Arg2:T50
+R7	treats Arg1:T17 Arg2:T18
+R8	treats Arg1:T10 Arg2:T13
+R9	treats Arg1:T57 Arg2:T55
+R10	treats Arg1:T11 Arg2:T13
+R11	treats Arg1:T69 Arg2:T70

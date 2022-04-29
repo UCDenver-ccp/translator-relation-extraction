@@ -1,0 +1,81 @@
+T1	CHEMICAL 95999 96014	microcystins-LR
+T2	DISEASE 96045 96058	neuroblastoma
+T3	DISEASE 96201 96208	AMD3100
+T4	CHEMICAL 96213 96221	LY294002
+T5	CHEMICAL 96259 96269	creatinine
+T6	DISEASE 96352 96363	proteinuria
+T7	CHEMICAL 96416 96422	biotin
+T8	CHEMICAL 96423 96426	tag
+T9	DISEASE 96444 96453	sensitive
+T10	CHEMICAL 96615 96636	radioactively-labeled
+T11	DISEASE 96849 96858	disorders
+T12	CHEMICAL 96870 96874	drug
+T13	CHEMICAL 96953 96970	single-nucleotide
+T14	DISEASE 97011 97020	:c.783del
+T15	CHEMICAL 97121 97132	oxaliplatin
+T16	corrected_disease 97151 97172	central neurotoxicity
+T17	DISEASE 97159 97172	neurotoxicity
+T18	DISEASE 97184 97193	disorders
+T19	missed_disease 97202 97218	mental confusion
+T20	missed_disease 97220 97229	catatonia
+T21	missed_disease 97231 97243	hyporeflexia
+T22	CHEMICAL 97267 97275	Curcumin
+T23	DISEASE 97285 97304	cerebral infarction
+T24	missed_disease 97306 97318	nerve damage
+T25	missed_disease 97323 97344	cognitive dysfunction
+T26	missed_disease 97358 97361	CIR
+T27	DISEASE 97479 97495	Candida glabrata
+T28	CHEMICAL 97567 97584	antifungal agents
+T29	missed_chemical 97610 97614	AMXC
+T30	DISEASE 97653 97664	cholestasis
+T31	CHEMICAL 97683 97691	a factor
+T32	DISEASE 97754 97759	blood
+T33	CHEMICAL 97849 97863	phosphorylated
+T34	DISEASE 97932 97937	blood
+T35	CHEMICAL 97979 97989	biomarkers
+T36	CHEMICAL 98106 98118	carbon-fiber
+T37	CHEMICAL 98155 98161	purine
+T38	DISEASE 98177 98186	fast-scan
+T39	missed_chemical 98231 98241	Decitabine
+T40	CHEMICAL 98278 98287	molecular
+T41	DISEASE 98355 98358	AML
+T42	CHEMICAL 98431 98443	nucleic acid
+T43	CHEMICAL 98448 98455	antigen
+T44	DISEASE 98511 98524	leptospirosis
+T45	missed_disease 98543 98575	Euglycemic diabetic ketoacidosis
+T46	DISEASE 98554 98575	diabetic ketoacidosis
+T47	CHEMICAL 98596 98609	dapagliflozin
+T48	DISEASE 98661 98686	type II diabetes mellitus
+T49	missed_chemical 98705 98708	LAA
+T50	CHEMICAL 98757 98764	protein
+T51	DISEASE 98780 98785	tumor
+T52	DISEASE 98805 98820	tumor-selective
+T53	CHEMICAL 98821 98830	oxidative
+T54	CHEMICAL 98910 98915	group
+T55	DISEASE 99019 99028	infection
+T56	DISEASE 99198 99203	tumor
+T57	CHEMICAL 99221 99224	DNA
+T58	DISEASE 99230 99235	tumor
+T59	CHEMICAL 99385 99402	hormone-sensitive
+T60	DISEASE 99385 99402	hormone-sensitive
+T61	CHEMICAL 99426 99434	proteins
+T62	missed_chemical 99548 99602	anti-cytotoxic T-lymphocyte-associated antigen 4 agent
+T63	CHEMICAL 99587 99594	antigen
+T64	corrected_disease 99618 99637	late-stage melanoma
+T65	DISEASE 99629 99637	melanoma
+T66	missed_disease 99752 99759	cancers
+R1	treats Arg1:T49 Arg2:T51
+R2	treats Arg1:T40 Arg2:T41
+R3	treats Arg1:T39 Arg2:T41
+R4	causes Arg1:T15 Arg2:T16
+R5	causes Arg1:T15 Arg2:T18
+R6	causes Arg1:T15 Arg2:T20
+R7	causes Arg1:T15 Arg2:T19
+R8	causes Arg1:T15 Arg2:T21
+R9	treats Arg1:T22 Arg2:T23
+R10	treats Arg1:T22 Arg2:T25
+R11	treats Arg1:T22 Arg2:T24
+R12	treats Arg1:T22 Arg2:T26
+R13	causes Arg1:T47 Arg2:T45
+R14	causes Arg1:T29 Arg2:T30
+R15	treats Arg1:T62 Arg2:T64

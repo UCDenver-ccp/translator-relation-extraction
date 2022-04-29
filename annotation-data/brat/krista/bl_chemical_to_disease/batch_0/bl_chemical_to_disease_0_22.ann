@@ -1,0 +1,72 @@
+T1	DISEASE 0 20	infection-associated
+T2	DISEASE 44 69	obstructive hydrocephalus
+T3	CHEMICAL 125 133	residual
+T4	missed_chemical 173 190	Dietary compounds
+T5	DISEASE 221 236	atherosclerosis
+T6	CHEMICAL 262 273	cholesterol
+T7	missed_disease 289 301	inflammation
+T8	CHEMICAL 515 530	steroid-induced
+T9	DISEASE 515 539	steroid-induced glaucoma
+T10	DISEASE 568 595	vernal keratoconjunctivitis
+T11	CHEMICAL 709 715	toxins
+T12	DISEASE 740 757	colorectal cancer
+T13	CHEMICAL 933 940	glucose
+T14	CHEMICAL 945 950	lipid
+T15	DISEASE 1020 1028	diseases
+T16	DISEASE 1211 1220	infection
+T17	missed_chemical 1239 1242	LPS
+T18	CHEMICAL 1255 1270	polysaccharides
+T19	missed_disease 1296 1313	immunosuppressive
+T20	CHEMICAL 1432 1441	inhibitor
+T21	DISEASE 1480 1490	dependence
+T22	DISEASE 1596 1601	blood
+T23	DISEASE 1634 1639	blood
+T24	CHEMICAL 1696 1701	lipid
+T25	CHEMICAL 1761 1776	phosphorylation
+T26	CHEMICAL 1829 1844	phosphorylation
+T27	CHEMICAL 2034 2048	phosphorylated
+T28	CHEMICAL 2049 2057	residues
+T29	DISEASE 2082 2086	rich
+T30	CHEMICAL 2097 2105	residues
+T31	CHEMICAL 2324 2328	drug
+T32	DISEASE 2376 2394	Takayasu arteritis
+T33	DISEASE 2443 2446	ITP
+T34	CHEMICAL 2465 2497	thrombopoietin receptor agonists
+T35	CHEMICAL 2480 2497	receptor agonists
+T36	missed_chemical 2499 2506	TPO-RAs
+T37	CHEMICAL 2523 2534	eltrombopag
+T38	CHEMICAL 2633 2644	methylation
+T39	DISEASE 2692 2704	cleft palate
+T40	CHEMICAL 2784 2800	sodium hydroxide
+T41	DISEASE 2818 2831	osteoporosis]
+T42	CHEMICAL 2931 2934	ion
+T43	DISEASE 2931 2934	ion
+T44	CHEMICAL 2967 2977	Naringin-G
+T45	DISEASE 3024 3027	SDS
+T46	CHEMICAL 3152 3159	alcohol
+T47	DISEASE 3164 3173	disorders
+T48	corrected_chemical 3391 3432	Specialized Pro-resolving Lipid Mediators
+T49	CHEMICAL 3403 3416	Pro-resolving
+T50	CHEMICAL 3417 3422	Lipid
+T51	missed_disease 3454 3466	Inflammation
+T52	DISEASE 3470 3485	Cystic Fibrosis
+T53	CHEMICAL 3523 3531	glucagon
+T54	DISEASE 3544 3547	fed
+T55	DISEASE 3661 3687	small bowel adenocarcinoma
+T56	CHEMICAL 3782 3801	glucose-transporter
+T57	CHEMICAL 3904 3907	TTP
+T58	DISEASE 3904 3907	TTP
+T59	DISEASE 3950 3957	obesity
+T60	CHEMICAL 3962 3965	NoP
+T61	DISEASE 3976 3983	obesity
+T62	DISEASE 4054 4061	obesity
+R1	treats Arg1:T48 Arg2:T51
+R2	treats Arg1:T48 Arg2:T52
+R3	treats Arg1:T31 Arg2:T32
+R4	treats Arg1:T37 Arg2:T33
+R5	causes Arg1:T18 Arg2:T19
+R6	treats Arg1:T36 Arg2:T33
+R7	treats Arg1:T4 Arg2:T5
+R8	treats Arg1:T4 Arg2:T7
+R9	treats Arg1:T34 Arg2:T33
+R10	causes Arg1:T17 Arg2:T19

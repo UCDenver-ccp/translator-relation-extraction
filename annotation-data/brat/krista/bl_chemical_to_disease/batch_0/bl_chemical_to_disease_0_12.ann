@@ -1,0 +1,88 @@
+T1	CHEMICAL 25 34	vitamin D
+T2	DISEASE 47 66	atrial fibrillation
+T3	CHEMICAL 136 144	Estrogen
+T4	CHEMICAL 160 172	progesterone
+T5	CHEMICAL 195 205	biomarkers
+T6	CHEMICAL 232 240	estrogen
+T7	DISEASE 232 272	estrogen receptor-positive breast cancer
+T8	CHEMICAL 331 345	Immunogenicity
+T9	DISEASE 369 376	Measles
+T10	DISEASE 433 449	Immunodeficiency
+T11	CHEMICAL 617 622	group
+T12	CHEMICAL 641 646	group
+T13	DISEASE 667 673	injury
+T14	CHEMICAL 692 697	group
+T15	DISEASE 739 745	injury
+T16	CHEMICAL 768 776	androgen
+T17	DISEASE 884 899	prostate cancer
+T18	missed_chemical 923 931	Arry-520
+T19	CHEMICAL 947 951	drug
+T20	corrected_chemical 971 984	Eg5 inhibitor
+T21	CHEMICAL 975 984	inhibitor
+T22	DISEASE 1062 1078	multiple myeloma
+T23	DISEASE 1196 1203	amnesia
+T24	CHEMICAL 1266 1270	food
+T25	CHEMICAL 1398 1409	liraglutide
+T26	CHEMICAL 1481 1488	retinal
+T27	corrected_disease 1481 1498	retinal tauopathy
+T28	DISEASE 1489 1498	tauopathy
+T29	missed_disease 1521 1524	DR.
+T30	CHEMICAL 1578 1583	fatty
+T31	DISEASE 1578 1597	fatty liver disease
+T32	CHEMICAL 1801 1808	protein
+T33	DISEASE 1906 1914	diseases
+T34	missed_disease 1997 2013	oxidative stress
+T35	DISEASE 2074 2090	antioxidant-rich
+T36	CHEMICAL 2074 2090	antioxidant-rich
+T37	CHEMICAL 2119 2130	antioxidant
+T38	DISEASE 2174 2180	Cancer
+T39	CHEMICAL 2381 2390	biomarker
+T40	CHEMICAL 2426 2442	pro-inflammatory
+T41	DISEASE 2499 2540	experimental autoimmune encephalomyelitis
+T42	CHEMICAL 2594 2601	calcium
+T43	CHEMICAL 2640 2659	parathyroid hormone
+T44	CHEMICAL 2652 2659	hormone
+T45	corrected_disease 2707 2744	recurrent primary hyperparathyroidism
+T46	DISEASE 2717 2744	primary hyperparathyroidism
+T47	DISEASE 2821 2836	cervical cancer
+T48	CHEMICAL 2838 2841	Pap
+T49	DISEASE 2880 2895	cervical cancer
+T50	corrected_disease 2987 3005	septicemic disease
+T51	DISEASE 2998 3005	disease
+T52	DISEASE 3061 3072	sensitivity
+T53	CHEMICAL 3162 3177	oxytetracycline
+T54	missed_chemical 3179 3182	OTC
+T55	DISEASE 3213 3220	disease
+T56	missed_disease 3289 3327	Severe cutaneous adverse drug reaction
+T57	CHEMICAL 3314 3318	drug
+T58	DISEASE 3328 3333	(SCAR
+T59	CHEMICAL 3372 3376	drug
+T60	CHEMICAL 3407 3425	collagen-producing
+T61	DISEASE 3452 3462	intra-scar
+T62	CHEMICAL 3483 3497	pro-fibrogenic
+T63	DISEASE 3664 3683	alcoholic hepatitis
+T64	CHEMICAL 3687 3699	prednisolone
+T65	CHEMICAL 3812 3819	thyroid
+T66	DISEASE 3812 3826	thyroid cancer
+T67	CHEMICAL 3858 3865	biology
+T68	CHEMICAL 3882 3889	thyroid
+T69	missed_disease 3882 3897	thyroid cancers
+T70	missed_chemical 3973 3985	therapeutics
+R1	treats Arg1:T20 Arg2:T22
+R2	treats Arg1:T70 Arg2:T66
+R3	treats Arg1:T70 Arg2:T69
+R4	treats Arg1:T54 Arg2:T55
+R5	treats Arg1:T37 Arg2:T34
+R6	causes Arg1:T57 Arg2:T56
+R7	FIXME Arg1:T25 Arg2:T29
+R8	FIXME Arg1:T25 Arg2:T27
+R9	treats Arg1:T25 Arg2:T27
+R10	treats Arg1:T19 Arg2:T22
+R11	causes Arg1:T43 Arg2:T45
+R12	causes Arg1:T6 Arg2:T7
+R13	causes Arg1:T59 Arg2:T56
+R14	treats Arg1:T64 Arg2:T63
+R15	causes Arg1:T42 Arg2:T45
+R16	causes Arg1:T3 Arg2:T7
+R17	treats Arg1:T18 Arg2:T22
+R18	treats Arg1:T53 Arg2:T55

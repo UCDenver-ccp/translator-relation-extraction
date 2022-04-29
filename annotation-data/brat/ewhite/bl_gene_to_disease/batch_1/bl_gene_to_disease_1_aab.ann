@@ -48,3 +48,69 @@ T47	gene 3065 3072	insulin
 T48	disease 3223 3226	CES
 T49	disease 3234 3241	anxiety
 T50	gene 3290 3295	GAD-7
+R2	contributes_to Arg1:T7 Arg2:T8	
+T52	corrected_disease 283 320	NSAID-induced small intestinal injury
+T53	corrected_gene 233 239	Hif1-α
+R3	contributes_to Arg1:T53 Arg2:T52	
+R4	contributes_to Arg1:T53 Arg2:T6	
+T54	corrected_gene 606 632	gamma-glutamyl transferase
+R8	contributes_to Arg1:T16 Arg2:T17	
+R9	contributes_to Arg1:T20 Arg2:T21	
+T56	corrected_gene 1438 1443	CXCR4
+R10	contributes_to Arg1:T56 Arg2:T25	
+R11	contributes_to Arg1:T23 Arg2:T25	
+T57	corrected_gene 1943 1948	HIF1α
+R13	contributes_to Arg1:T57 Arg2:T31	
+R14	contributes_to Arg1:T36 Arg2:T37	
+T58	corrected_gene 2236 2240	ELK3
+T59	corrected_gene 2328 2333	c-fos
+R15	contributes_to Arg1:T59 Arg2:T37	
+R16	contributes_to Arg1:T58 Arg2:T37	
+R18	contributes_to Arg1:T43 Arg2:T44	
+T62	corrected_gene 2781 2784	RAN
+R19	contributes_to Arg1:T62 Arg2:T44	
+T63	corrected_gene 2689 2698	HBV-miR-2
+R20	contributes_to Arg1:T63 Arg2:T44	
+T61	corrected_disease 1632 1638;1662 1668	breast cancer
+T60	corrected_disease 1640 1647;1662 1668	ovarian cancer
+T51	corrected_gene 2353 2404	Malignant fibrous histiocytoma amplified sequence 1
+R21	contributes_to Arg1:T51 Arg2:T38	
+R22	contributes_to Arg1:T51 Arg2:T39	
+R23	contributes_to Arg1:T40 Arg2:T38	
+R24	contributes_to Arg1:T40 Arg2:T39	
+T64	corrected_gene 634 638	γ-GT
+R12	contributes_to Arg1:T27 Arg2:T28	
+R26	contributes_to Arg1:T27 Arg2:T60	
+R27	contributes_to Arg1:T27 Arg2:T61	
+T66	corrected_gene 1589 1607	breast cancer gene
+R28	contributes_to Arg1:T66 Arg2:T60	
+R29	contributes_to Arg1:T66 Arg2:T61	
+R30	contributes_to Arg1:T66 Arg2:T28	
+T65	corrected_gene 1847 1853	SNHG12
+R31	contributes_to Arg1:T65 Arg2:T31	
+T67	DONE 3298 3302	DONE
+T55	corrected_disease 2416 2428	inflammation
+R1	contributes_to Arg1:T51 Arg2:T55	
+R5	contributes_to Arg1:T40 Arg2:T55	
+T68	corrected_disease 710 741	serum electrolytes disturbances
+R6	has_contributive_association_with Arg1:T54 Arg2:T68	
+R7	has_contributive_association_with Arg1:T64 Arg2:T68	
+R25	has_contributive_association_with Arg1:T9 Arg2:T68	
+R32	has_contributive_association_with Arg1:T10 Arg2:T68	
+T69	corrected_disease 685 697	renal injury
+R33	has_contributive_association_with Arg1:T54 Arg2:T12	
+R34	has_contributive_association_with Arg1:T64 Arg2:T12	
+R35	has_contributive_association_with Arg1:T9 Arg2:T12	
+R36	has_contributive_association_with Arg1:T10 Arg2:T12	
+R37	has_contributive_association_with Arg1:T54 Arg2:T69	
+R38	has_contributive_association_with Arg1:T64 Arg2:T69	
+R39	has_contributive_association_with Arg1:T9 Arg2:T69	
+R40	has_contributive_association_with Arg1:T10 Arg2:T69	
+R41	has_contributive_association_with Arg1:T54 Arg2:T13	
+R42	has_contributive_association_with Arg1:T64 Arg2:T13	
+R43	has_contributive_association_with Arg1:T9 Arg2:T13	
+R44	has_contributive_association_with Arg1:T10 Arg2:T13	
+R17	has_contributive_association_with Arg1:T41 Arg2:T42	
+T70	corrected_disease 1709 1712	PCa
+R45	has_contributive_association_with Arg1:T66 Arg2:T70	
+R46	has_contributive_association_with Arg1:T27 Arg2:T70	

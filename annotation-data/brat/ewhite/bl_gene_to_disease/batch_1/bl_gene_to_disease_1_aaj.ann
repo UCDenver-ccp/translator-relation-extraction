@@ -68,3 +68,42 @@ T67	gene 3430 3435	MBTD1
 T68	gene 3477 3482	MBTD1
 T69	disease 3486 3498	osteosarcoma
 T70	disease 3531 3537	tumour
+R1	contributes_to Arg1:T10 Arg2:T11	
+T71	corrected_gene 560 563	Wnt
+T72	corrected_gene 564 573	β-catenin
+R2	contributes_to Arg1:T72 Arg2:T9	
+R3	contributes_to Arg1:T71 Arg2:T9	
+R4	contributes_to Arg1:T8 Arg2:T9	
+R5	contributes_to Arg1:T16 Arg2:T17	
+R6	contributes_to Arg1:T16 Arg2:T18	
+T73	corrected_disease 999 1001	PD
+T74	corrected_disease 1004 1029	dementia with Lewy bodies
+T75	corrected_disease 1031 1034	DLB
+T76	corrected_disease 1065 1068	MSA
+R7	contributes_to Arg1:T16 Arg2:T76	
+R8	contributes_to Arg1:T16 Arg2:T19	
+R9	contributes_to Arg1:T16 Arg2:T73	
+R10	contributes_to Arg1:T16 Arg2:T74	
+R11	contributes_to Arg1:T16 Arg2:T75	
+R12	contributes_to Arg1:T20 Arg2:T22	
+R13	contributes_to Arg1:T21 Arg2:T22	
+R14	contributes_to Arg1:T29 Arg2:T31	
+R15	contributes_to Arg1:T30 Arg2:T31	
+T77	corrected_gene 2137 2142	PD-L1
+R16	contributes_to Arg1:T77 Arg2:T46	
+R17	contributes_to Arg1:T45 Arg2:T46	
+R18	contributes_to Arg1:T47 Arg2:T48	
+R19	contributes_to Arg1:T52 Arg2:T53	
+T78	corrected_disease 2664 2678	organ fibrosis
+R20	contributes_to Arg1:T52 Arg2:T78	
+T79	corrected_gene 3170 3173	RS1
+R21	contributes_to Arg1:T79 Arg2:T61	
+R22	contributes_to Arg1:T63 Arg2:T61	
+R23	contributes_to Arg1:T79 Arg2:T60	
+R24	contributes_to Arg1:T63 Arg2:T60	
+T80	corrected_gene 3292 3299	TTN-AS1
+R25	contributes_to Arg1:T80 Arg2:T64	
+R26	contributes_to Arg1:T67 Arg2:T64	
+T81	corrected_gene 3375 3428	miR-134-5p/malignant brain tumour domain containing 1
+R27	contributes_to Arg1:T81 Arg2:T64	
+T82	DONE 3552 3556	DONE

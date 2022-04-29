@@ -57,3 +57,35 @@ T56	gene 3714 3718	ABL1
 T57	gene 3806 3813	BCR-ABL
 T58	gene 3810 3814	ABL1
 T59	disease 3824 3832	leukemia
+R1	contributes_to Arg1:T1 Arg2:T2	
+R2	contributes_to Arg1:T4 Arg2:T5	
+R3	contributes_to Arg1:T7 Arg2:T8	
+R4	contributes_to Arg1:T9 Arg2:T8	
+T60	corrected_gene 443 448	BCL7A
+R5	contributes_to Arg1:T60 Arg2:T11	
+T61	corrected_gene 568 572	CD82
+T62	corrected_gene 584 590	CA19-9
+R9	contributes_to Arg1:T15 Arg2:T16	
+R10	contributes_to Arg1:T14 Arg2:T16	
+T63	corrected_gene 734 740	HIF‑1α
+T64	corrected_gene 709 721	MicroRNA‑214
+R11	contributes_to Arg1:T64 Arg2:T16	
+R12	contributes_to Arg1:T63 Arg2:T16	
+T65	corrected_gene 1380 1385	IFN-ɣ
+T66	corrected_gene 1369 1374	TNF-α
+T67	corrected_gene 1740 1743;1745 1746	HRP 3
+T68	corrected_gene 2380 2387	Albumin
+R18	contributes_to Arg1:T68 Arg2:T41	
+R19	contributes_to Arg1:T40 Arg2:T41	
+T69	corrected_disease 2936 2946	metastases
+R21	contributes_to Arg1:T46 Arg2:T69	
+T70	corrected_gene 3533 3537	NGAL
+T71	corrected_gene 3710 3718	BCR-ABL1
+R25	contributes_to Arg1:T71 Arg2:T59	
+T72	DONE 3834 3838	DONE
+T74	corrected_disease 1333 1345	inflammatory
+R6	contributes_to Arg1:T29 Arg2:T74	
+R7	contributes_to Arg1:T66 Arg2:T74	
+R8	contributes_to Arg1:T65 Arg2:T74	
+T73	corrected_disease 2837 2854	cancer metastases
+R13	contributes_to Arg1:T44 Arg2:T73	

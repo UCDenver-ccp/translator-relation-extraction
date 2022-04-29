@@ -50,3 +50,52 @@ T49	gene 2897 2901	RBP4
 T50	disease 2994 2997	CKD
 T51	gene 3101 3108	Insulin
 T52	disease 3252 3263	thalassemia
+R3	contributes_to Arg1:T8 Arg2:T9	
+T54	corrected_gene 745 747	Hh
+R4	contributes_to Arg1:T54 Arg2:T12	
+R5	contributes_to Arg1:T13 Arg2:T14	
+R6	contributes_to Arg1:T16 Arg2:T18	
+T55	corrected_disease 1123 1132	bone loss
+R7	contributes_to Arg1:T16 Arg2:T55	
+T56	corrected_gene 1358 1363	α-SMA
+T57	corrected_gene 1274 1279	α-SMA
+R11	contributes_to Arg1:T25 Arg2:T26	
+R12	contributes_to Arg1:T27 Arg2:T28	
+T58	corrected_gene 1662 1667	IL-10
+R13	contributes_to Arg1:T58 Arg2:T28	
+T59	corrected_gene 1605 1608;1610 1611	TLR 3
+R14	contributes_to Arg1:T59 Arg2:T28	
+R15	contributes_to Arg1:T38 Arg2:T39	
+R16	contributes_to Arg1:T31 Arg2:T30	
+T60	corrected_disease 1742 1746	FHM3
+R17	contributes_to Arg1:T31 Arg2:T60	
+T61	corrected_disease 2063 2098	oesophageal squamous cell carcinoma
+R18	contributes_to Arg1:T36 Arg2:T61	
+T62	corrected_disease 2100 2104	ESCC
+R19	contributes_to Arg1:T36 Arg2:T62	
+T63	corrected_gene 2229 2232	GIP
+R20	contributes_to Arg1:T63 Arg2:T39	
+T64	corrected_disease 2556 2559	NPC
+R21	contributes_to Arg1:T40 Arg2:T64	
+T65	corrected_gene 2759 2764	NORAD
+R24	contributes_to Arg1:T65 Arg2:T46	
+T66	corrected_gene 2828 2832	RhoA
+R25	contributes_to Arg1:T66 Arg2:T46	
+R26	contributes_to Arg1:T47 Arg2:T46	
+T67	corrected_disease 2314 2318	T2DM
+R27	contributes_to Arg1:T63 Arg2:T67	
+R28	contributes_to Arg1:T38 Arg2:T67	
+T68	corrected_disease 2970 2974	CKDu
+T53	corrected_gene 2882 2885	OPN
+R1	contributes_to Arg1:T53 Arg2:T68	
+R2	contributes_to Arg1:T48 Arg2:T68	
+R31	contributes_to Arg1:T49 Arg2:T68	
+T69	DONE 3271 3275	DONE
+T70	corrected_disease 2478 2498	tumor aggressiveness
+R8	contributes_to Arg1:T40 Arg2:T70	
+T71	corrected_disease 2618 2638	tumor aggressiveness
+T72	corrected_disease 2618 2623;2643 2651	tumor invasion
+R9	contributes_to Arg1:T43 Arg2:T71	
+R10	contributes_to Arg1:T42 Arg2:T71	
+R22	contributes_to Arg1:T43 Arg2:T72	
+R23	contributes_to Arg1:T42 Arg2:T71	

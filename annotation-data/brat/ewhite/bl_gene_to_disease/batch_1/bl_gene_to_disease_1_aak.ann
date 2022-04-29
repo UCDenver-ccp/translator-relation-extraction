@@ -50,3 +50,23 @@ T49	gene 3085 3094	prolactin
 T50	disease 3193 3200	adenoma
 T51	disease 3221 3245	type 2 diabetes mellitus
 T52	gene 3295 3327	glucagon-like peptide-1 receptor
+R1	contributes_to Arg1:T42 Arg2:T41	
+T53	corrected_gene 2315 2321	FER1L4
+R2	contributes_to Arg1:T53 Arg2:T41	
+R3	contributes_to Arg1:T32 Arg2:T30	
+R4	contributes_to Arg1:T24 Arg2:T25	
+R5	contributes_to Arg1:T10 Arg2:T12	
+R6	contributes_to Arg1:T3 Arg2:T4	
+R7	contributes_to Arg1:T1 Arg2:T2	
+T54	corrected_gene 178 182	apoE
+R8	contributes_to Arg1:T54 Arg2:T4	
+R9	contributes_to Arg1:T11 Arg2:T12	
+T55	corrected_disease 767 799	pancreatic neuroendocrine tumors
+R10	contributes_to Arg1:T13 Arg2:T55	
+R11	contributes_to Arg1:T14 Arg2:T55	
+T56	corrected_gene 679 685	CLEC3A
+R12	contributes_to Arg1:T56 Arg2:T55	
+R13	contributes_to Arg1:T19 Arg2:T20	
+T57	corrected_disease 1555 1559	G1DS
+R14	contributes_to Arg1:T32 Arg2:T57	
+R15	contributes_to Arg1:T45 Arg2:T46	

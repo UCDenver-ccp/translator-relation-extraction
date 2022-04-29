@@ -51,3 +51,37 @@ T50	disease 3261 3268	obesity
 T51	gene 3274 3281	insulin
 T52	gene 3322 3326	GRK2
 T53	disease 3378 3393	medulloblastoma
+R3	contributes_to Arg1:T5 Arg2:T6	
+R4	contributes_to Arg1:T7 Arg2:T9	
+R5	contributes_to Arg1:T10 Arg2:T11	
+R6	contributes_to Arg1:T12 Arg2:T13	
+R8	contributes_to Arg1:T17 Arg2:T18	
+R9	contributes_to Arg1:T20 Arg2:T19	
+R10	contributes_to Arg1:T22 Arg2:T21	
+T55	corrected_gene 1417 1426	cyclin B1
+T56	corrected_gene 1432 1441	cyclin E1
+T57	corrected_gene 1400 1406	p‑CDK1
+T58	corrected_gene 1409 1415	p‑CDK2
+R11	contributes_to Arg1:T57 Arg2:T21	
+R12	contributes_to Arg1:T58 Arg2:T21	
+R13	contributes_to Arg1:T55 Arg2:T21	
+R14	contributes_to Arg1:T56 Arg2:T21	
+R15	contributes_to Arg1:T26 Arg2:T28	
+R16	contributes_to Arg1:T27 Arg2:T28	
+T59	corrected_disease 1600 1615	cystic fibrosis
+R17	contributes_to Arg1:T27 Arg2:T59	
+R18	contributes_to Arg1:T26 Arg2:T59	
+R20	contributes_to Arg1:T31 Arg2:T32	
+T60	corrected_gene 2009 2013	PARP
+T61	corrected_gene 2094 2098	PARP
+R21	contributes_to Arg1:T60 Arg2:T33	
+R22	contributes_to Arg1:T40 Arg2:T41	
+R23	contributes_to Arg1:T52 Arg2:T53	
+T62	corrected_gene 1170 1179	HCMV· ie2
+R24	contributes_to Arg1:T62 Arg2:T19	
+T63	corrected_disease 2802 2809	anxiety
+R19	contributes_to Arg1:T43 Arg2:T63	
+T64	DONE 3478 3482	DONE
+R1	contributes_to Arg1:T3 Arg2:T4	
+T54	corrected_disease 1085 1114	acquired cisplatin resistance
+R2	contributes_to Arg1:T17 Arg2:T54	

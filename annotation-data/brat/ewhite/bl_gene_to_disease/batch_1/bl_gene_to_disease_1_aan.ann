@@ -59,3 +59,5 @@ T58	disease 3396 3409	breast cancer
 T59	disease 3545 3548	IBD
 T60	disease 3607 3612	fever
 T61	gene 3845 3863	C-reactive protein
+T62	corrected_gene 384 388	GNAQ
+R1	contributes_to Arg1:T44 Arg2:T45	

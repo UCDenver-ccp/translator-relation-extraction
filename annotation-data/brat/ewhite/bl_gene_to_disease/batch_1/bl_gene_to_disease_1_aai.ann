@@ -56,3 +56,42 @@ T55	gene 4323 4327	IMP3
 T56	disease 4459 4477	Endometrial Cancer
 T57	gene 4572 4576	HER2
 T58	disease 4626 4640	gastric cancer
+T59	corrected_disease 1085 1098	Rett syndrome
+T60	corrected_disease 1100 1103	RTT
+T61	corrected_disease 1058 1083	autism spectrum disorders
+T62	corrected_disease 1020 1048	neurodevelopmental disorders
+R1	contributes_to Arg1:T15 Arg2:T62	
+R2	contributes_to Arg1:T16 Arg2:T62	
+R3	contributes_to Arg1:T15 Arg2:T61	
+R4	contributes_to Arg1:T16 Arg2:T61	
+R5	contributes_to Arg1:T15 Arg2:T59	
+R6	contributes_to Arg1:T16 Arg2:T60	
+T63	corrected_disease 1903 1934	X-linked stapes gusher syndrome
+R7	contributes_to Arg1:T22 Arg2:T63	
+R8	contributes_to Arg1:T24 Arg2:T26	
+R9	contributes_to Arg1:T29 Arg2:T30	
+R10	contributes_to Arg1:T34 Arg2:T36	
+R11	contributes_to Arg1:T35 Arg2:T36	
+R12	contributes_to Arg1:T37 Arg2:T38	
+T64	corrected_gene 3677 3685	TOB1-AS1
+R13	contributes_to Arg1:T64 Arg2:T42	
+R14	contributes_to Arg1:T41 Arg2:T42	
+T65	corrected_gene 3758 3765	miR-23a
+R15	contributes_to Arg1:T65 Arg2:T42	
+T66	corrected_gene 3780 3783	Wnt
+T67	corrected_gene 3784 3793	b-catenin
+R16	contributes_to Arg1:T66 Arg2:T42	
+R17	contributes_to Arg1:T67 Arg2:T42	
+R18	contributes_to Arg1:T47 Arg2:T48	
+R19	contributes_to Arg1:T50 Arg2:T48	
+R20	contributes_to Arg1:T51 Arg2:T48	
+R21	contributes_to Arg1:T49 Arg2:T48	
+R22	contributes_to Arg1:T52 Arg2:T53	
+T68	corrected_gene 4207 4219	MicroRNA-761
+R23	contributes_to Arg1:T68 Arg2:T53	
+R24	contributes_to Arg1:T54 Arg2:T53	
+T69	corrected_gene 4293 4297	PI3K
+R25	contributes_to Arg1:T69 Arg2:T53	
+R26	contributes_to Arg1:T57 Arg2:T58	
+T70	corrected_disease 4615 4621;4634 4640	breast cancer
+R27	contributes_to Arg1:T57 Arg2:T70	

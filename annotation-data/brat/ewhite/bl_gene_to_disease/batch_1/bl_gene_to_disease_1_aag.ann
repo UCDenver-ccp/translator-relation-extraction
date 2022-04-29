@@ -67,3 +67,36 @@ T66	gene 4507 4511	IL-6
 T67	gene 4513 4518	IL-10
 T68	disease 4520 4525	tumor
 T69	gene 4543 4546	TNF
+T70	corrected_gene 2413 2418	NF-κB
+R1	contributes_to Arg1:T1 Arg2:T2	
+R3	contributes_to Arg1:T22 Arg2:T23	
+R4	contributes_to Arg1:T25 Arg2:T23	
+T71	corrected_gene 1450 1453	BIK
+R5	contributes_to Arg1:T71 Arg2:T23	
+R6	contributes_to Arg1:T32 Arg2:T33	
+R7	contributes_to Arg1:T31 Arg2:T33	
+T72	corrected_gene 2444 2449	PPARα
+R8	contributes_to Arg1:T70 Arg2:T38	
+R9	contributes_to Arg1:T72 Arg2:T38	
+R10	contributes_to Arg1:T40 Arg2:T38	
+T73	corrected_disease 2669 2694	hepatocellular carcinomas
+R14	contributes_to Arg1:T41 Arg2:T73	
+R15	contributes_to Arg1:T42 Arg2:T73	
+R16	contributes_to Arg1:T43 Arg2:T73	
+R18	contributes_to Arg1:T18 Arg2:T16	
+R19	contributes_to Arg1:T19 Arg2:T16	
+T74	corrected_gene 1008 1011	Bid
+T75	corrected_gene 1016 1019	Bak
+T76	corrected_gene 1042 1046	PARP
+R20	contributes_to Arg1:T76 Arg2:T16	
+R21	contributes_to Arg1:T75 Arg2:T16	
+R22	contributes_to Arg1:T74 Arg2:T16	
+T77	corrected_disease 1848 1859	CTX-damaged
+R23	contributes_to Arg1:T28 Arg2:T77	
+T78	corrected_disease 2631 2655	hepatocellular neoplasms
+R11	contributes_to Arg1:T41 Arg2:T78	
+R12	contributes_to Arg1:T42 Arg2:T78	
+R13	contributes_to Arg1:T43 Arg2:T78	
+R17	contributes_to Arg1:T53 Arg2:T54	
+T79	DONE 4613 4617	DONE
+R24	has_association_with Arg1:T20 Arg2:T21	

@@ -1,4 +1,5 @@
 code/
+.stats_cache
 .DS_Store
 cloudbuild*.yaml
 test.Dockerfile

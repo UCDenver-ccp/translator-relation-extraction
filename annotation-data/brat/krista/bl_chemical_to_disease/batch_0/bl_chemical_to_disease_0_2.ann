@@ -1,79 +1,79 @@
-T1	CHEMICAL 22 26	drug
-T2	DISEASE 83 89	cancer
-T3	DISEASE 245 254	inherited
-T4	CHEMICAL 260 263	his
-T5	DISEASE 384 398	tumor-specific
-T6	CHEMICAL 399 407	peptides
-T7	CHEMICAL 536 543	protein
-T8	DISEASE 582 589	amyloid
-T9	DISEASE 639 648	infertile
-T10	DISEASE 649 652	men
-T11	CHEMICAL 744 756	antioxidants
-T12	CHEMICAL 819 833	neuropeptide Y
-T13	CHEMICAL 881 885	food
-T14	DISEASE 950 957	obesity
-T15	DISEASE 1037 1040	Ion
-T16	CHEMICAL 1037 1040	Ion
+T1	chemical 22 26	drug
+T2	disease 83 89	cancer
+T3	disease 245 254	inherited
+T4	chemical 260 263	his
+T5	disease 384 398	tumor-specific
+T6	chemical 399 407	peptides
+T7	chemical 536 543	protein
+T8	disease 582 589	amyloid
+T9	disease 639 648	infertile
+T10	disease 649 652	men
+T11	chemical 744 756	antioxidants
+T12	chemical 819 833	neuropeptide Y
+T13	chemical 881 885	food
+T14	disease 950 957	obesity
+T15	disease 1037 1040	Ion
+T16	chemical 1037 1040	Ion
 T17	missed_chemical 1111 1122	ciclosporin
-T18	DISEASE 1143 1154	blood-brain
+T18	disease 1143 1154	blood-brain
 T19	missed_disease 1168 1171	TBI
-T20	CHEMICAL 1207 1222	biomarker-based
-T21	CHEMICAL 1272 1277	water
+T20	chemical 1207 1222	biomarker-based
+T21	chemical 1272 1277	water
 T22	corrected_chemical 1272 1283	water spray
-T23	DISEASE 1325 1343	spinal cord injury
-T24	CHEMICAL 1486 1496	acrylamide
-T25	CHEMICAL 1518 1526	tantalum
-T26	DISEASE 1536 1539	TaC
-T27	CHEMICAL 1541 1554	nanoparticles
-T28	CHEMICAL 1622 1629	protein
-T29	DISEASE 1681 1690	infection
-T30	CHEMICAL 1711 1719	high-fat
-T31	DISEASE 1734 1737	CRC
-T32	CHEMICAL 1762 1771	bile acid
-T33	CHEMICAL 1797 1806	bile acid
-T34	DISEASE 1843 1858	tumor-promoting
-T35	CHEMICAL 1859 1875	deoxycholic acid
-T36	DISEASE 2004 2009	blood
-T37	CHEMICAL 2114 2119	probe
-T38	DISEASE 2181 2190	sensitive
-T39	DISEASE 2351 2356	blood
-T40	CHEMICAL 2433 2443	hemoglobin
-T41	DISEASE 2445 2450	blood
-T42	CHEMICAL 2494 2504	anesthesia
-T43	DISEASE 2505 2509	(PCA
-T44	CHEMICAL 2511 2519	morphine
-T45	DISEASE 2603 2613	Congenital
-T46	DISEASE 2614 2626	microcephaly
-T47	CHEMICAL 2653 2658	group
-T48	DISEASE 2662 2671	disorders
-T49	CHEMICAL 2855 2862	biology
-T50	DISEASE 2931 2937	cancer
-T51	CHEMICAL 3126 3178	6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase
-T52	CHEMICAL 3181 3186	fatty
-T53	CHEMICAL 3181 3191	fatty acid
-T54	CHEMICAL 3203 3213	acetyl-CoA
-T55	CHEMICAL 3232 3242	acetyl-CoA
-T56	CHEMICAL 3285 3312	very long chain fatty acids
-T57	CHEMICAL 3301 3306	fatty
-T58	CHEMICAL 3313 3320	protein
-T59	CHEMICAL 3342 3347	fatty
-T60	CHEMICAL 3342 3352	fatty acid
-T61	CHEMICAL 3386 3398	nicotinamide
-T62	CHEMICAL 3399 3406	adenine
-T63	CHEMICAL 3407 3419	dinucleotide
-T64	CHEMICAL 3420 3429	phosphate
-T65	CHEMICAL 3442 3461	glucose-6-phosphate
-T66	CHEMICAL 3483 3494	cholesterol
-T67	CHEMICAL 3505 3541	(3-hydroxy-3-methylglutaryl-coenzyme
-T68	CHEMICAL 3505 3543	(3-hydroxy-3-methylglutaryl-coenzyme A
-T69	DISEASE 3577 3582	blood
-T70	CHEMICAL 3583 3596	triglycerides
-T71	CHEMICAL 3601 3612	cholesterol
-T72	CHEMICAL 3697 3701	lead
-T73	DISEASE 3724 3732	melanoma
-T74	DISEASE 3883 3896	heart failure
-T75	CHEMICAL 3960 3965	group
-T76	CHEMICAL 4005 4010	group
+T23	disease 1325 1343	spinal cord injury
+T24	chemical 1486 1496	acrylamide
+T25	chemical 1518 1526	tantalum
+T26	disease 1536 1539	TaC
+T27	chemical 1541 1554	nanoparticles
+T28	chemical 1622 1629	protein
+T29	disease 1681 1690	infection
+T30	chemical 1711 1719	high-fat
+T31	disease 1734 1737	CRC
+T32	chemical 1762 1771	bile acid
+T33	chemical 1797 1806	bile acid
+T34	disease 1843 1858	tumor-promoting
+T35	chemical 1859 1875	deoxycholic acid
+T36	disease 2004 2009	blood
+T37	chemical 2114 2119	probe
+T38	disease 2181 2190	sensitive
+T39	disease 2351 2356	blood
+T40	chemical 2433 2443	hemoglobin
+T41	disease 2445 2450	blood
+T42	chemical 2494 2504	anesthesia
+T43	disease 2505 2509	(PCA
+T44	chemical 2511 2519	morphine
+T45	disease 2603 2613	Congenital
+T46	disease 2614 2626	microcephaly
+T47	chemical 2653 2658	group
+T48	disease 2662 2671	disorders
+T49	chemical 2855 2862	biology
+T50	disease 2931 2937	cancer
+T51	chemical 3126 3178	6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase
+T52	chemical 3181 3186	fatty
+T53	chemical 3181 3191	fatty acid
+T54	chemical 3203 3213	acetyl-CoA
+T55	chemical 3232 3242	acetyl-CoA
+T56	chemical 3285 3312	very long chain fatty acids
+T57	chemical 3301 3306	fatty
+T58	chemical 3313 3320	protein
+T59	chemical 3342 3347	fatty
+T60	chemical 3342 3352	fatty acid
+T61	chemical 3386 3398	nicotinamide
+T62	chemical 3399 3406	adenine
+T63	chemical 3407 3419	dinucleotide
+T64	chemical 3420 3429	phosphate
+T65	chemical 3442 3461	glucose-6-phosphate
+T66	chemical 3483 3494	cholesterol
+T67	chemical 3505 3541	(3-hydroxy-3-methylglutaryl-coenzyme
+T68	chemical 3505 3543	(3-hydroxy-3-methylglutaryl-coenzyme A
+T69	disease 3577 3582	blood
+T70	chemical 3583 3596	triglycerides
+T71	chemical 3601 3612	cholesterol
+T72	chemical 3697 3701	lead
+T73	disease 3724 3732	melanoma
+T74	disease 3883 3896	heart failure
+T75	chemical 3960 3965	group
+T76	chemical 4005 4010	group
 R1	treats Arg1:T1 Arg2:T2
 R2	causes Arg1:T12 Arg2:T14
 R3	FIXME Arg1:T22 Arg2:T23

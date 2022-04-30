@@ -1,68 +1,68 @@
-T1	CHEMICAL 193683 193691	chemical
-T2	DISEASE 193692 193701	arms-race
-T3	DISEASE 193866 193878	folliculitis
-T4	DISEASE 193917 193925	scarring
-T5	DISEASE 193926 193934	alopecia
-T6	CHEMICAL 193981 193984	his
-T7	CHEMICAL 194134 194139	group
-T8	DISEASE 194199 194205	common
-T9	CHEMICAL 194324 194335	Carfilzomib
-T10	DISEASE 194358 194371	neurotoxicity
+T1	chemical 193683 193691	chemical
+T2	disease 193692 193701	arms-race
+T3	disease 193866 193878	folliculitis
+T4	disease 193917 193925	scarring
+T5	disease 193926 193934	alopecia
+T6	chemical 193981 193984	his
+T7	chemical 194134 194139	group
+T8	disease 194199 194205	common
+T9	chemical 194324 194335	Carfilzomib
+T10	disease 194358 194371	neurotoxicity
 T11	missed_disease 194421 194423	PN
-T12	DISEASE 194568 194582	gastric cancer
-T13	CHEMICAL 194621 194626	fatty
-T14	CHEMICAL 194621 194631	fatty acid
-T15	DISEASE 194703 194717	gastric cancer
-T16	CHEMICAL 194742 194751	Inter-ion
-T17	DISEASE 194742 194751	Inter-ion
-T18	DISEASE 194756 194765	intra-ion
-T19	CHEMICAL 194756 194765	intra-ion
-T20	CHEMICAL 194829 194845	chlorine/bromine
-T21	CHEMICAL 194898 194902	ions
-T22	CHEMICAL 194982 194996	molecular ions
-T23	CHEMICAL 195034 195039	group
-T24	CHEMICAL 195063 195068	group
-T25	DISEASE 195088 195097	pneumonia
-T26	CHEMICAL 195116 195129	Levetiracetam
-T27	DISEASE 195177 195185	epilepsy
-T28	CHEMICAL 195218 195227	analgesic
-T29	CHEMICAL 195346 195355	meloxicam
+T12	disease 194568 194582	gastric cancer
+T13	chemical 194621 194626	fatty
+T14	chemical 194621 194631	fatty acid
+T15	disease 194703 194717	gastric cancer
+T16	chemical 194742 194751	Inter-ion
+T17	disease 194742 194751	Inter-ion
+T18	disease 194756 194765	intra-ion
+T19	chemical 194756 194765	intra-ion
+T20	chemical 194829 194845	chlorine/bromine
+T21	chemical 194898 194902	ions
+T22	chemical 194982 194996	molecular ions
+T23	chemical 195034 195039	group
+T24	chemical 195063 195068	group
+T25	disease 195088 195097	pneumonia
+T26	chemical 195116 195129	Levetiracetam
+T27	disease 195177 195185	epilepsy
+T28	chemical 195218 195227	analgesic
+T29	chemical 195346 195355	meloxicam
 T30	corrected_disease 195359 195378	knee osteoarthritis
-T31	DISEASE 195364 195378	osteoarthritis
+T31	disease 195364 195378	osteoarthritis
 T32	corrected_disease 195476 195501	Cutaneous Cellular Injury
-T33	DISEASE 195495 195501	Injury
+T33	disease 195495 195501	Injury
 T34	missed_disease 195514 195566	Mitochondria-Associated Endoplasmic Reticulum Stress
-T35	CHEMICAL 195590 195605	Ginsenoside Rb1
+T35	chemical 195590 195605	Ginsenoside Rb1
 T36	missed_chemical 195634 195638	DNBS
-T37	DISEASE 195697 195704	colitis
-T38	DISEASE 195774 195780	Dengue
-T39	CHEMICAL 195796 195803	protein
-T40	CHEMICAL 195823 195839	pro-inflammatory
-T41	DISEASE 195915 195924	sensitive
-T42	CHEMICAL 195990 195997	antigen
-T43	CHEMICAL 196007 196013	silver
-T44	CHEMICAL 196033 196041	graphene
-T45	CHEMICAL 196042 196047	oxide
-T46	CHEMICAL 196072 196078	carbon
-T47	CHEMICAL 196107 196125	Salvianolic acid A
+T37	disease 195697 195704	colitis
+T38	disease 195774 195780	Dengue
+T39	chemical 195796 195803	protein
+T40	chemical 195823 195839	pro-inflammatory
+T41	disease 195915 195924	sensitive
+T42	chemical 195990 195997	antigen
+T43	chemical 196007 196013	silver
+T44	chemical 196033 196041	graphene
+T45	chemical 196042 196047	oxide
+T46	chemical 196072 196078	carbon
+T47	chemical 196107 196125	Salvianolic acid A
 T48	corrected_chemical 196141 196162	cytotoxic polyphenols
-T49	CHEMICAL 196151 196162	polyphenols
-T50	DISEASE 196181 196187	cancer
-T51	CHEMICAL 196270 196281	methylation
-T52	DISEASE 196426 196437	lung cancer
-T53	DISEASE 196459 196462	LPD
-T54	CHEMICAL 196469 196474	group
-T55	CHEMICAL 196519 196522	fat
-T56	DISEASE 196523 196526	pad
-T57	CHEMICAL 196596 196608	progesterone
-T58	DISEASE 196692 196698	asthma
-T59	CHEMICAL 196737 196742	group
-T60	CHEMICAL 196799 196809	inhibitors
-T61	DISEASE 196998 197004	stroke
-T62	DISEASE 197113 197122	intrinsic
-T63	CHEMICAL 197164 197171	alcohol
-T64	CHEMICAL 197341 197353	biologically
-T65	DISEASE 197382 197391	disorders
+T49	chemical 196151 196162	polyphenols
+T50	disease 196181 196187	cancer
+T51	chemical 196270 196281	methylation
+T52	disease 196426 196437	lung cancer
+T53	disease 196459 196462	LPD
+T54	chemical 196469 196474	group
+T55	chemical 196519 196522	fat
+T56	disease 196523 196526	pad
+T57	chemical 196596 196608	progesterone
+T58	disease 196692 196698	asthma
+T59	chemical 196737 196742	group
+T60	chemical 196799 196809	inhibitors
+T61	disease 196998 197004	stroke
+T62	disease 197113 197122	intrinsic
+T63	chemical 197164 197171	alcohol
+T64	chemical 197341 197353	biologically
+T65	disease 197382 197391	disorders
 R1	causes Arg1:T9 Arg2:T11
 R2	treats Arg1:T29 Arg2:T30
 R3	treats Arg1:T35 Arg2:T32

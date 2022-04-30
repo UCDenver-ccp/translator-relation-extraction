@@ -1,71 +1,71 @@
-T1	CHEMICAL 95986 95997	Cannabidiol
-T2	CHEMICAL 96002 96014	fenfluramine
-T3	DISEASE 96056 96079	Lennox Gastaut syndrome
-T4	DISEASE 96156 96163	non-CPP
-T5	CHEMICAL 96156 96163	non-CPP
-T6	CHEMICAL 96299 96303	drug
-T7	DISEASE 96316 96323	disease
-T8	CHEMICAL 96418 96425	solvent
-T9	DISEASE 96460 96470	dependence
-T10	CHEMICAL 96497 96504	solvent
-T11	CHEMICAL 96590 96599	psoralens
+T1	chemical 95986 95997	Cannabidiol
+T2	chemical 96002 96014	fenfluramine
+T3	disease 96056 96079	Lennox Gastaut syndrome
+T4	disease 96156 96163	non-CPP
+T5	chemical 96156 96163	non-CPP
+T6	chemical 96299 96303	drug
+T7	disease 96316 96323	disease
+T8	chemical 96418 96425	solvent
+T9	disease 96460 96470	dependence
+T10	chemical 96497 96504	solvent
+T11	chemical 96590 96599	psoralens
 T12	missed_disease 96708 96718	psioraisis
-T13	DISEASE 96720 96728	vitiligo
+T13	disease 96720 96728	vitiligo
 T14	corrected_disease 96733 96754	skin-related disorder
-T15	DISEASE 96746 96754	disorder
-T16	CHEMICAL 96785 96790	group
-T17	CHEMICAL 96836 96841	group
-T18	DISEASE 96852 96863	post-trauma
-T19	DISEASE 96955 96970	obesity-related
-T20	DISEASE 97027 97033	trauma
-T21	CHEMICAL 97129 97139	biological
-T22	CHEMICAL 97236 97245	Oxidative
-T23	DISEASE 97272 97287	Crohn's Disease
-T24	CHEMICAL 97366 97377	Montelukast
-T25	DISEASE 97379 97383	MNK)
-T26	CHEMICAL 97420 97431	antioxidant
-T27	CHEMICAL 97469 97477	adjuvant
-T28	DISEASE 97503 97529	non-small cell lung cancer
-T29	CHEMICAL 97756 97760	DCIS
-T30	DISEASE 97756 97760	DCIS
+T15	disease 96746 96754	disorder
+T16	chemical 96785 96790	group
+T17	chemical 96836 96841	group
+T18	disease 96852 96863	post-trauma
+T19	disease 96955 96970	obesity-related
+T20	disease 97027 97033	trauma
+T21	chemical 97129 97139	biological
+T22	chemical 97236 97245	Oxidative
+T23	disease 97272 97287	Crohn's Disease
+T24	chemical 97366 97377	Montelukast
+T25	disease 97379 97383	MNK)
+T26	chemical 97420 97431	antioxidant
+T27	chemical 97469 97477	adjuvant
+T28	disease 97503 97529	non-small cell lung cancer
+T29	chemical 97756 97760	DCIS
+T30	disease 97756 97760	DCIS
 T31	corrected_disease 97941 97962	ischemic brain injury
-T32	DISEASE 97950 97962	brain injury
+T32	disease 97950 97962	brain injury
 T33	corrected_chemical 97983 97995	free radical
 T34	corrected_disease 97983 98002	free radical injury
-T35	CHEMICAL 97988 97995	radical
-T36	DISEASE 97996 98002	injury
-T37	DISEASE 98177 98185	cataract
-T38	DISEASE 98208 98216	syndrome
-T39	DISEASE 98218 98226	cataract
-T40	DISEASE 98249 98257	glaucoma
-T41	DISEASE 98263 98271	cataract
-T42	DISEASE 98276 98303	primary open-angle glaucoma
-T43	CHEMICAL 98375 98380	group
-T44	DISEASE 98429 98437	syndrome
-T45	CHEMICAL 98558 98571	messenger RNA
-T46	DISEASE 98640 98661	breast/ovarian cancer
-T47	DISEASE 98730 98735	tumor
-T48	CHEMICAL 98803 98821	apoptosis‑inducing
-T49	CHEMICAL 98822 98828	ligand
-T50	CHEMICAL 98868 98873	group
-T51	CHEMICAL 99044 99055	biochemical
-T52	DISEASE 99129 99138	condition
-T53	DISEASE 99252 99263	CRISPR-Cas9
-T54	CHEMICAL 99338 99346	proteins
-T55	DISEASE 99367 99377	CRISPR-Cas
-T56	CHEMICAL 99421 99428	Melanin
-T57	DISEASE 99479 99498	Parkinson's Disease
-T58	DISEASE 99525 99533	Melanoma
-T59	CHEMICAL 99607 99617	hemoglobin
-T60	DISEASE 99727 99736	infection
-T61	DISEASE 99789 99795	cancer
-T62	DISEASE 99800 99810	non-cancer
+T35	chemical 97988 97995	radical
+T36	disease 97996 98002	injury
+T37	disease 98177 98185	cataract
+T38	disease 98208 98216	syndrome
+T39	disease 98218 98226	cataract
+T40	disease 98249 98257	glaucoma
+T41	disease 98263 98271	cataract
+T42	disease 98276 98303	primary open-angle glaucoma
+T43	chemical 98375 98380	group
+T44	disease 98429 98437	syndrome
+T45	chemical 98558 98571	messenger RNA
+T46	disease 98640 98661	breast/ovarian cancer
+T47	disease 98730 98735	tumor
+T48	chemical 98803 98821	apoptosis‑inducing
+T49	chemical 98822 98828	ligand
+T50	chemical 98868 98873	group
+T51	chemical 99044 99055	biochemical
+T52	disease 99129 99138	condition
+T53	disease 99252 99263	CRISPR-Cas9
+T54	chemical 99338 99346	proteins
+T55	disease 99367 99377	CRISPR-Cas
+T56	chemical 99421 99428	Melanin
+T57	disease 99479 99498	Parkinson's Disease
+T58	disease 99525 99533	Melanoma
+T59	chemical 99607 99617	hemoglobin
+T60	disease 99727 99736	infection
+T61	disease 99789 99795	cancer
+T62	disease 99800 99810	non-cancer
 T63	missed_disease 99825 99840	chronic fatigue
 T64	missed_chemical 99867 99876	Molecular
-T65	CHEMICAL 99902 99914	antioxidants
-T66	CHEMICAL 99942 99950	electron
+T65	chemical 99902 99914	antioxidants
+T66	chemical 99942 99950	electron
 T67	missed_disease 99999 100014	chronic fatigue
-T68	CHEMICAL 100091 100100	oxidative
+T68	chemical 100091 100100	oxidative
 R1	treats Arg1:T11 Arg2:T12
 R2	treats Arg1:T11 Arg2:T13
 R3	treats Arg1:T11 Arg2:T14

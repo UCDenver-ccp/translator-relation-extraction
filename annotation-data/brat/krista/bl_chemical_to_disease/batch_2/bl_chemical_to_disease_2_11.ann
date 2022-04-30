@@ -1,75 +1,75 @@
-T1	DISEASE 193583 193590	disease
-T2	DISEASE 193611 193620	disorders
-T3	CHEMICAL 193677 193687	biomarkers
-T4	CHEMICAL 193759 193774	Tranexamic acid
+T1	disease 193583 193590	disease
+T2	disease 193611 193620	disorders
+T3	chemical 193677 193687	biomarkers
+T4	chemical 193759 193774	Tranexamic acid
 T5	missed_chemical 193776 193779	TXA
 T6	corrected_disease 193789 193813	perioperative blood loss
-T7	DISEASE 193803 193808	blood
-T8	CHEMICAL 193946 193954	psoralen
+T7	disease 193803 193808	blood
+T8	chemical 193946 193954	psoralen
 T9	corrected_disease 193958 193972	human hepatoma
-T10	DISEASE 193964 193972	hepatoma
-T11	DISEASE 194119 194138	Au25@ZIF-8@TiO2-ReP
-T12	CHEMICAL 194139 194147	catalyst
-T13	CHEMICAL 194274 194282	electron
-T14	CHEMICAL 194317 194325	chemical
-T15	CHEMICAL 194330 194340	biological
-T16	DISEASE 194381 194392	blood-brain
-T17	CHEMICAL 194402 194407	water
-T18	CHEMICAL 194454 194464	metabolite
-T19	CHEMICAL 194477 194485	chemical
-T20	CHEMICAL 194570 194580	brain-lead
-T21	DISEASE 194665 194677	stress ulcer
-T22	CHEMICAL 194706 194717	proton-pump
+T10	disease 193964 193972	hepatoma
+T11	disease 194119 194138	Au25@ZIF-8@TiO2-ReP
+T12	chemical 194139 194147	catalyst
+T13	chemical 194274 194282	electron
+T14	chemical 194317 194325	chemical
+T15	chemical 194330 194340	biological
+T16	disease 194381 194392	blood-brain
+T17	chemical 194402 194407	water
+T18	chemical 194454 194464	metabolite
+T19	chemical 194477 194485	chemical
+T20	chemical 194570 194580	brain-lead
+T21	disease 194665 194677	stress ulcer
+T22	chemical 194706 194717	proton-pump
 T23	corrected_chemical 194706 194727	proton-pump inhibitor
-T24	CHEMICAL 194718 194727	inhibitor
-T25	CHEMICAL 194729 194740	histamine-2
+T24	chemical 194718 194727	inhibitor
+T25	chemical 194729 194740	histamine-2
 T26	corrected_chemical 194729 194760	histamine-2 receptor antagonist
-T27	CHEMICAL 194741 194760	receptor antagonist
-T28	CHEMICAL 194750 194760	antagonist
-T29	CHEMICAL 194765 194775	sucralfate
-T30	CHEMICAL 194950 194959	oxidative
-T31	DISEASE 195026 195039	liver disease
-T32	DISEASE 195051 195070	portal hypertension
-T33	CHEMICAL 195166 195180	growth hormone
-T34	DISEASE 195236 195240	burn
+T27	chemical 194741 194760	receptor antagonist
+T28	chemical 194750 194760	antagonist
+T29	chemical 194765 194775	sucralfate
+T30	chemical 194950 194959	oxidative
+T31	disease 195026 195039	liver disease
+T32	disease 195051 195070	portal hypertension
+T33	chemical 195166 195180	growth hormone
+T34	disease 195236 195240	burn
 T35	missed_chemical 195285 195291	agents
-T36	DISEASE 195328 195337	mucositis
+T36	disease 195328 195337	mucositis
 T37	missed_disease 195346 195350	pain
-T38	CHEMICAL 195365 195375	biological
-T39	CHEMICAL 195501 195506	group
-T40	DISEASE 195554 195578	hepatocellular carcinoma
-T41	CHEMICAL 195579 195584	group
-T42	DISEASE 195616 195621	NSCLC
-T43	CHEMICAL 195720 195729	molecular
-T44	DISEASE 195749 195754	NSCLC
-T45	CHEMICAL 195822 195831	molecular
-T46	CHEMICAL 195852 195860	lycorine
-T47	DISEASE 195904 195930	non-small cell lung cancer
-T48	DISEASE 195932 195937	NSCLC
-T49	DISEASE 196069 196076	disease
-T50	CHEMICAL 196102 196111	indicator
-T51	DISEASE 196193 196202	infection
-T52	DISEASE 196236 196243	disease
-T53	DISEASE 196337 196342	tumor
-T54	CHEMICAL 196445 196453	molecule
-T55	CHEMICAL 196609 196621	mifepristone
-T56	DISEASE 196664 196667	CSC
-T57	CHEMICAL 196715 196727	enzalutamide
-T58	DISEASE 196741 196744	CSC
-T59	DISEASE 196826 196829	CRD
-T60	CHEMICAL 196833 196847	micronutrients
-T61	CHEMICAL 196903 196912	molecular
-T62	DISEASE 196939 196969	post-traumatic stress disorder
-T63	DISEASE 196971 196975	PTSD
-T64	CHEMICAL 197027 197038	cholesterol
-T65	DISEASE 197075 197090	prostate cancer
-T66	DISEASE 197091 197095	(PCa
-T67	DISEASE 197165 197173	disorder
-T68	CHEMICAL 197233 197240	protein
-T69	CHEMICAL 197256 197270	RNA-organizing
-T70	DISEASE 197331 197338	amyloid
-T71	CHEMICAL 197382 197392	biomarkers
-T72	DISEASE 197483 197491	diseases
+T38	chemical 195365 195375	biological
+T39	chemical 195501 195506	group
+T40	disease 195554 195578	hepatocellular carcinoma
+T41	chemical 195579 195584	group
+T42	disease 195616 195621	NSCLC
+T43	chemical 195720 195729	molecular
+T44	disease 195749 195754	NSCLC
+T45	chemical 195822 195831	molecular
+T46	chemical 195852 195860	lycorine
+T47	disease 195904 195930	non-small cell lung cancer
+T48	disease 195932 195937	NSCLC
+T49	disease 196069 196076	disease
+T50	chemical 196102 196111	indicator
+T51	disease 196193 196202	infection
+T52	disease 196236 196243	disease
+T53	disease 196337 196342	tumor
+T54	chemical 196445 196453	molecule
+T55	chemical 196609 196621	mifepristone
+T56	disease 196664 196667	CSC
+T57	chemical 196715 196727	enzalutamide
+T58	disease 196741 196744	CSC
+T59	disease 196826 196829	CRD
+T60	chemical 196833 196847	micronutrients
+T61	chemical 196903 196912	molecular
+T62	disease 196939 196969	post-traumatic stress disorder
+T63	disease 196971 196975	PTSD
+T64	chemical 197027 197038	cholesterol
+T65	disease 197075 197090	prostate cancer
+T66	disease 197091 197095	(PCa
+T67	disease 197165 197173	disorder
+T68	chemical 197233 197240	protein
+T69	chemical 197256 197270	RNA-organizing
+T70	disease 197331 197338	amyloid
+T71	chemical 197382 197392	biomarkers
+T72	disease 197483 197491	diseases
 R1	treats Arg1:T23 Arg2:T21
 R2	treats Arg1:T8 Arg2:T9
 R3	treats Arg1:T5 Arg2:T6

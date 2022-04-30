@@ -1,55 +1,55 @@
-T1	CHEMICAL 67 71	gold
-T2	DISEASE 112 135	coronary artery disease
-T3	DISEASE 212 215	CMs
-T4	CHEMICAL 262 271	bleomycin
-T5	CHEMICAL 431 434	DNA
-T6	CHEMICAL 436 442	MF-DNA
-T7	CHEMICAL 450 461	nanocrystal
-T8	DISEASE 512 521	localized
-T9	CHEMICAL 580 589	Amlexanox
-T10	DISEASE 599 632	non-alcoholic fatty liver disease
-T11	CHEMICAL 613 618	fatty
-T12	DISEASE 700 707	One-Pot
-T13	CHEMICAL 733 742	Polyester
-T14	CHEMICAL 831 850	Insecticide-treated
-T15	DISEASE 956 963	malaria
-T16	DISEASE 967 974	malaria
-T17	CHEMICAL 1015 1032	single-nucleotide
-T18	DISEASE 1171 1178	disease
-T19	CHEMICAL 1280 1290	biomarkers
-T20	DISEASE 1307 1312	blood
-T21	DISEASE 1359 1388	juvenile idiopathic arthritis
-T22	DISEASE 1646 1653	obesity
-T23	CHEMICAL 1659 1664	group
-T24	DISEASE 1716 1734	Avascular necrosis
+T1	chemical 67 71	gold
+T2	disease 112 135	coronary artery disease
+T3	disease 212 215	CMs
+T4	chemical 262 271	bleomycin
+T5	chemical 431 434	DNA
+T6	chemical 436 442	MF-DNA
+T7	chemical 450 461	nanocrystal
+T8	disease 512 521	localized
+T9	chemical 580 589	Amlexanox
+T10	disease 599 632	non-alcoholic fatty liver disease
+T11	chemical 613 618	fatty
+T12	disease 700 707	One-Pot
+T13	chemical 733 742	Polyester
+T14	chemical 831 850	Insecticide-treated
+T15	disease 956 963	malaria
+T16	disease 967 974	malaria
+T17	chemical 1015 1032	single-nucleotide
+T18	disease 1171 1178	disease
+T19	chemical 1280 1290	biomarkers
+T20	disease 1307 1312	blood
+T21	disease 1359 1388	juvenile idiopathic arthritis
+T22	disease 1646 1653	obesity
+T23	chemical 1659 1664	group
+T24	disease 1716 1734	Avascular necrosis
 T25	corrected_disease 1716 1754	Avascular necrosis of the femoral head
-T26	CHEMICAL 1803 1817	glucocorticoid
+T26	chemical 1803 1817	glucocorticoid
 T27	missed_chemical 1819 1821	GC
-T28	DISEASE 2029 2048	atrial fibrillation
-T29	CHEMICAL 2060 2064	lead
-T30	CHEMICAL 2149 2156	protein
-T31	CHEMICAL 2157 2166	biomarker
-T32	DISEASE 2171 2184	schizophrenia
-T33	CHEMICAL 2262 2271	Edaravone
+T28	disease 2029 2048	atrial fibrillation
+T29	chemical 2060 2064	lead
+T30	chemical 2149 2156	protein
+T31	chemical 2157 2166	biomarker
+T32	disease 2171 2184	schizophrenia
+T33	chemical 2262 2271	Edaravone
 T34	corrected_disease 2343 2368	acute cerebral infarction
-T35	DISEASE 2349 2368	cerebral infarction
-T36	CHEMICAL 2555 2560	group
-T37	DISEASE 2568 2572	ADHD
-T38	DISEASE 2646 2651	ADHD.
-T39	DISEASE 2683 2686	ACS
-T40	CHEMICAL 2769 2784	corticosteroids
-T41	CHEMICAL 2854 2860	propel
-T42	DISEASE 2861 2864	PCa
-T43	DISEASE 3038 3054	bipolar disorder
-T44	CHEMICAL 3069 3076	alcohol
-T45	CHEMICAL 3274 3290	asbestos-related
-T46	DISEASE 3291 3298	disease
-T47	DISEASE 3339 3352	Hyperglycemia
-T48	CHEMICAL 3383 3399	pro-inflammatory
-T49	CHEMICAL 3622 3631	molecular
-T50	CHEMICAL 3632 3639	biology
-T51	DISEASE 3643 3656	renal sarcoma
-T52	DISEASE 3660 3664	rare
+T35	disease 2349 2368	cerebral infarction
+T36	chemical 2555 2560	group
+T37	disease 2568 2572	ADHD
+T38	disease 2646 2651	ADHD.
+T39	disease 2683 2686	ACS
+T40	chemical 2769 2784	corticosteroids
+T41	chemical 2854 2860	propel
+T42	disease 2861 2864	PCa
+T43	disease 3038 3054	bipolar disorder
+T44	chemical 3069 3076	alcohol
+T45	chemical 3274 3290	asbestos-related
+T46	disease 3291 3298	disease
+T47	disease 3339 3352	Hyperglycemia
+T48	chemical 3383 3399	pro-inflammatory
+T49	chemical 3622 3631	molecular
+T50	chemical 3632 3639	biology
+T51	disease 3643 3656	renal sarcoma
+T52	disease 3660 3664	rare
 R1	treats Arg1:T4 Arg2:T3
 R2	causes Arg1:T27 Arg2:T25
 R3	treats Arg1:T9 Arg2:T10

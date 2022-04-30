@@ -1,72 +1,72 @@
-T1	DISEASE 28 33	blood
-T2	CHEMICAL 60 67	iohexol
-T3	CHEMICAL 130 139	serotonin
-T4	DISEASE 160 170	depression
-T5	CHEMICAL 176 181	group
-T6	DISEASE 202 212	depression
-T7	CHEMICAL 218 223	group
-T8	CHEMICAL 239 244	group
-T9	CHEMICAL 288 296	androgen
-T10	CHEMICAL 336 344	androgen
+T1	disease 28 33	blood
+T2	chemical 60 67	iohexol
+T3	chemical 130 139	serotonin
+T4	disease 160 170	depression
+T5	chemical 176 181	group
+T6	disease 202 212	depression
+T7	chemical 218 223	group
+T8	chemical 239 244	group
+T9	chemical 288 296	androgen
+T10	chemical 336 344	androgen
 T11	missed_chemical 402 411	therapies
-T12	DISEASE 489 495	cancer
-T13	DISEASE 594 599	Blood
-T14	CHEMICAL 610 617	Glucose
-T15	CHEMICAL 622 633	Cholesterol
+T12	disease 489 495	cancer
+T13	disease 594 599	Blood
+T14	chemical 610 617	Glucose
+T15	chemical 622 633	Cholesterol
 T16	corrected_chemical 813 835	β-tricalcium phosphate
-T17	CHEMICAL 826 835	phosphate
-T18	DISEASE 837 845	nano-TCP
-T19	DISEASE 923 936	enamel caries
-T20	DISEASE 973 984	blood-nerve
-T21	CHEMICAL 1037 1044	protein
-T22	DISEASE 1058 1061	SCD
-T23	CHEMICAL 1111 1119	proteins
-T24	DISEASE 1168 1183	adenocarcinomas
-T25	DISEASE 1210 1216	cancer
-T26	CHEMICAL 1268 1276	proteins
-T27	DISEASE 1389 1412	undifferentiated/poorly
-T28	DISEASE 1389 1427	undifferentiated/poorly differentiated
-T29	DISEASE 1428 1452	nasopharyngeal carcinoma
-T30	CHEMICAL 1480 1486	proton
-T31	DISEASE 1539 1550	parasitemia
+T17	chemical 826 835	phosphate
+T18	disease 837 845	nano-TCP
+T19	disease 923 936	enamel caries
+T20	disease 973 984	blood-nerve
+T21	chemical 1037 1044	protein
+T22	disease 1058 1061	SCD
+T23	chemical 1111 1119	proteins
+T24	disease 1168 1183	adenocarcinomas
+T25	disease 1210 1216	cancer
+T26	chemical 1268 1276	proteins
+T27	disease 1389 1412	undifferentiated/poorly
+T28	disease 1389 1427	undifferentiated/poorly differentiated
+T29	disease 1428 1452	nasopharyngeal carcinoma
+T30	chemical 1480 1486	proton
+T31	disease 1539 1550	parasitemia
 T32	missed_chemical 1620 1631	artemisinin
-T33	CHEMICAL 1632 1637	group
-T34	DISEASE 1699 1705	injury
-T35	CHEMICAL 1731 1739	dopamine
-T36	CHEMICAL 1752 1760	tyrosine
+T33	chemical 1632 1637	group
+T34	disease 1699 1705	injury
+T35	chemical 1731 1739	dopamine
+T36	chemical 1752 1760	tyrosine
 T37	missed_disease 1870 1884	Dyslipidaemias
-T38	DISEASE 1889 1911	cardiovascular disease
+T38	disease 1889 1911	cardiovascular disease
 T39	corrected_chemical 1934 1950	PCSK9 inhibitors
-T40	CHEMICAL 1940 1950	inhibitors
-T41	CHEMICAL 1995 2012	molecular-genetic
-T42	DISEASE 2183 2192	disorders
-T43	DISEASE 2322 2325	AAV
-T44	CHEMICAL 2391 2395	base
-T45	DISEASE 2437 2445	diabetes
-T46	DISEASE 2491 2499	diabetes
-T47	CHEMICAL 2613 2622	metformin
-T48	DISEASE 2638 2651	breast cancer
-T49	CHEMICAL 2727 2736	metformin
+T40	chemical 1940 1950	inhibitors
+T41	chemical 1995 2012	molecular-genetic
+T42	disease 2183 2192	disorders
+T43	disease 2322 2325	AAV
+T44	chemical 2391 2395	base
+T45	disease 2437 2445	diabetes
+T46	disease 2491 2499	diabetes
+T47	chemical 2613 2622	metformin
+T48	disease 2638 2651	breast cancer
+T49	chemical 2727 2736	metformin
 T50	missed_chemical 2830 2839	LY3214996
-T51	DISEASE 2894 2901	pan-RAF
+T51	disease 2894 2901	pan-RAF
 T52	corrected_chemical 2894 2911	pan-RAF inhibitor
-T53	CHEMICAL 2902 2911	inhibitor
+T53	chemical 2902 2911	inhibitor
 T54	corrected_disease 2917 2946	KRAS-mutant colorectal cancer
-T55	DISEASE 2929 2946	colorectal cancer
-T56	DISEASE 3116 3124	diabetes
-T57	CHEMICAL 3141 3146	lipid
-T58	DISEASE 3181 3188	amyloid
-T59	CHEMICAL 3207 3216	Fulminant
-T60	DISEASE 3217 3262	Reversible Cerebral Vasoconstriction Syndrome
-T61	CHEMICAL 3336 3351	Corticosteroids
-T62	DISEASE 3356 3374	Community-Acquired
+T55	disease 2929 2946	colorectal cancer
+T56	disease 3116 3124	diabetes
+T57	chemical 3141 3146	lipid
+T58	disease 3181 3188	amyloid
+T59	chemical 3207 3216	Fulminant
+T60	disease 3217 3262	Reversible Cerebral Vasoconstriction Syndrome
+T61	chemical 3336 3351	Corticosteroids
+T62	disease 3356 3374	Community-Acquired
 T63	corrected_disease 3356 3384	Community-Acquired Pneumonia
-T64	DISEASE 3375 3384	Pneumonia
-T65	CHEMICAL 3564 3576	pioglitazone
-T66	DISEASE 3589 3603	bladder cancer
-T67	DISEASE 3703 3717	osteoarthritis
-T68	CHEMICAL 3844 3847	DNA
-T69	CHEMICAL 3848 3859	methylation
+T64	disease 3375 3384	Pneumonia
+T65	chemical 3564 3576	pioglitazone
+T66	disease 3589 3603	bladder cancer
+T67	disease 3703 3717	osteoarthritis
+T68	chemical 3844 3847	DNA
+T69	chemical 3848 3859	methylation
 R1	causes Arg1:T9 Arg2:T12
 R2	causes Arg1:T57 Arg2:T56
 R3	treats Arg1:T61 Arg2:T64

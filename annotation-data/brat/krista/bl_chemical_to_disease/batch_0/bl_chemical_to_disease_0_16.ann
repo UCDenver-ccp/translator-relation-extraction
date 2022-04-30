@@ -1,75 +1,75 @@
-T1	DISEASE 24 28	rich
-T2	CHEMICAL 59 81	long-chain fatty acids
-T3	CHEMICAL 70 75	fatty
-T4	CHEMICAL 131 144	nervonic acid
-T5	CHEMICAL 230 239	acaricide
-T6	DISEASE 259 264	blood
-T7	DISEASE 354 365	sensitivity
-T8	DISEASE 369 384	cervical cancer
-T9	DISEASE 449 464	cervical cancer
-T10	CHEMICAL 579 585	oxygen
-T11	DISEASE 692 696	(PCA
-T12	CHEMICAL 705 714	nanowires
-T13	CHEMICAL 791 800	Phloretin
-T14	CHEMICAL 806 815	metformin
-T15	DISEASE 833 838	blood
-T16	CHEMICAL 839 846	glucose
-T17	CHEMICAL 855 862	glucose
-T18	DISEASE 886 897	sensitivity
+T1	disease 24 28	rich
+T2	chemical 59 81	long-chain fatty acids
+T3	chemical 70 75	fatty
+T4	chemical 131 144	nervonic acid
+T5	chemical 230 239	acaricide
+T6	disease 259 264	blood
+T7	disease 354 365	sensitivity
+T8	disease 369 384	cervical cancer
+T9	disease 449 464	cervical cancer
+T10	chemical 579 585	oxygen
+T11	disease 692 696	(PCA
+T12	chemical 705 714	nanowires
+T13	chemical 791 800	Phloretin
+T14	chemical 806 815	metformin
+T15	disease 833 838	blood
+T16	chemical 839 846	glucose
+T17	chemical 855 862	glucose
+T18	disease 886 897	sensitivity
 T19	missed_disease 901 916	type 2 diabetic
-T20	DISEASE 961 965	face
-T21	CHEMICAL 976 985	molecular
-T22	CHEMICAL 995 1000	probe
-T23	CHEMICAL 1033 1044	acetylation
-T24	DISEASE 1129 1132	PBC
-T25	DISEASE 1170 1173	PBC
-T26	CHEMICAL 1203 1214	biochemical
-T27	CHEMICAL 1331 1334	his
-T28	DISEASE 1335 1342	disease
-T29	CHEMICAL 1438 1444	Fibrin
-T30	DISEASE 1468 1473	Blood
-T31	CHEMICAL 1695 1707	ethanol-rich
-T32	DISEASE 1695 1707	ethanol-rich
-T33	CHEMICAL 1708 1715	solvent
-T34	CHEMICAL 1810 1827	headgroup-solvent
-T35	CHEMICAL 1924 1932	peptides
-T36	DISEASE 2036 2045	intrinsic
-T37	DISEASE 2132 2137	Blood
-T38	CHEMICAL 2182 2191	molecular
-T39	DISEASE 2251 2268	CdS/PPT/ITO-based
-T40	CHEMICAL 2299 2311	chlorpyrifos
-T41	DISEASE 2337 2348	sensitivity
+T20	disease 961 965	face
+T21	chemical 976 985	molecular
+T22	chemical 995 1000	probe
+T23	chemical 1033 1044	acetylation
+T24	disease 1129 1132	PBC
+T25	disease 1170 1173	PBC
+T26	chemical 1203 1214	biochemical
+T27	chemical 1331 1334	his
+T28	disease 1335 1342	disease
+T29	chemical 1438 1444	Fibrin
+T30	disease 1468 1473	Blood
+T31	chemical 1695 1707	ethanol-rich
+T32	disease 1695 1707	ethanol-rich
+T33	chemical 1708 1715	solvent
+T34	chemical 1810 1827	headgroup-solvent
+T35	chemical 1924 1932	peptides
+T36	disease 2036 2045	intrinsic
+T37	disease 2132 2137	Blood
+T38	chemical 2182 2191	molecular
+T39	disease 2251 2268	CdS/PPT/ITO-based
+T40	chemical 2299 2311	chlorpyrifos
+T41	disease 2337 2348	sensitivity
 T42	corrected_disease 2477 2506	pulmonary nocardial infection
-T43	DISEASE 2497 2506	infection
+T43	disease 2497 2506	infection
 T44	corrected_disease 2529 2545	renal vasculitis
-T45	DISEASE 2535 2545	vasculitis
-T46	CHEMICAL 2560 2567	steroid
-T47	DISEASE 2611 2614	GDM
-T48	CHEMICAL 2635 2640	group
-T49	CHEMICAL 2692 2697	group
-T50	DISEASE 2737 2740	men
-T51	DISEASE 2853 2856	men
-T52	DISEASE 2877 2884	disease
-T53	DISEASE 2888 2895	disease
-T54	CHEMICAL 2910 2922	enzalutamide
-T55	CHEMICAL 2941 2950	Glutamate
-T56	CHEMICAL 2975 2983	molecule
-T57	CHEMICAL 3024 3031	proline
-T58	CHEMICAL 3033 3036	Pro
-T59	CHEMICAL 3039 3047	arginine
-T60	CHEMICAL 3049 3052	Arg
-T61	CHEMICAL 3058 3067	ornithine
-T62	CHEMICAL 3069 3072	Orn
-T63	DISEASE 3097 3103	common
-T64	CHEMICAL 3247 3256	molecular
-T65	DISEASE 3298 3334	maturity onset diabetes of the young
-T66	DISEASE 3336 3341	MODY)
-T67	DISEASE 3496 3509	platelet-rich
-T68	CHEMICAL 3510 3516	fibrin
-T69	CHEMICAL 3545 3548	fat
-T70	DISEASE 3549 3552	pad
-T71	CHEMICAL 3648 3651	RNA
-T72	DISEASE 3663 3681	cholangiocarcinoma
+T45	disease 2535 2545	vasculitis
+T46	chemical 2560 2567	steroid
+T47	disease 2611 2614	GDM
+T48	chemical 2635 2640	group
+T49	chemical 2692 2697	group
+T50	disease 2737 2740	men
+T51	disease 2853 2856	men
+T52	disease 2877 2884	disease
+T53	disease 2888 2895	disease
+T54	chemical 2910 2922	enzalutamide
+T55	chemical 2941 2950	Glutamate
+T56	chemical 2975 2983	molecule
+T57	chemical 3024 3031	proline
+T58	chemical 3033 3036	Pro
+T59	chemical 3039 3047	arginine
+T60	chemical 3049 3052	Arg
+T61	chemical 3058 3067	ornithine
+T62	chemical 3069 3072	Orn
+T63	disease 3097 3103	common
+T64	chemical 3247 3256	molecular
+T65	disease 3298 3334	maturity onset diabetes of the young
+T66	disease 3336 3341	MODY)
+T67	disease 3496 3509	platelet-rich
+T68	chemical 3510 3516	fibrin
+T69	chemical 3545 3548	fat
+T70	disease 3549 3552	pad
+T71	chemical 3648 3651	RNA
+T72	disease 3663 3681	cholangiocarcinoma
 R1	treats Arg1:T13 Arg2:T19
 R2	treats Arg1:T46 Arg2:T44
 R3	causes Arg1:T46 Arg2:T42

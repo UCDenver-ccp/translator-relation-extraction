@@ -1,68 +1,68 @@
-T1	CHEMICAL 193631 193639	glycerol
-T2	DISEASE 193653 193656	GTS
-T3	CHEMICAL 193771 193778	histone
-T4	DISEASE 193798 193801	HAT
-T5	DISEASE 194096 194108	protein-rich
-T6	CHEMICAL 194096 194108	protein-rich
-T7	DISEASE 194204 194216	urolithiasis
-T8	CHEMICAL 194221 194240	oxidant/antioxidant
-T9	CHEMICAL 194279 194294	thiol-disulfide
-T10	DISEASE 194400 194411	sensitivity
-T11	CHEMICAL 194446 194459	anticoagulant
-T12	CHEMICAL 194482 194496	anticoagulants
-T13	CHEMICAL 194584 194592	androgen
-T14	DISEASE 194627 194642	prostate cancer
-T15	CHEMICAL 194725 194732	glucose
-T16	DISEASE 194762 194779	pancreatic cancer
+T1	chemical 193631 193639	glycerol
+T2	disease 193653 193656	GTS
+T3	chemical 193771 193778	histone
+T4	disease 193798 193801	HAT
+T5	disease 194096 194108	protein-rich
+T6	chemical 194096 194108	protein-rich
+T7	disease 194204 194216	urolithiasis
+T8	chemical 194221 194240	oxidant/antioxidant
+T9	chemical 194279 194294	thiol-disulfide
+T10	disease 194400 194411	sensitivity
+T11	chemical 194446 194459	anticoagulant
+T12	chemical 194482 194496	anticoagulants
+T13	chemical 194584 194592	androgen
+T14	disease 194627 194642	prostate cancer
+T15	chemical 194725 194732	glucose
+T16	disease 194762 194779	pancreatic cancer
 T17	missed_chemical 194891 194896	drugs
 T18	missed_disease 194910 194930	microbial infections
 T19	missed_disease 194944 194956	side effects
-T20	DISEASE 195010 195015	wound
-T21	CHEMICAL 195083 195097	hydroxyproline
-T22	CHEMICAL 195102 195110	collagen
-T23	CHEMICAL 195155 195161	enzyme
-T24	DISEASE 195191 195196	Blood
-T25	DISEASE 195251 195257	dengue
-T26	CHEMICAL 195312 195315	met
-T27	DISEASE 195357 195379	dengue virus infection
-T28	DISEASE 195448 195470	dengue virus infection
-T29	CHEMICAL 195537 195545	glycogen
-T30	DISEASE 195582 195594	Pro/Ala-rich
-T31	CHEMICAL 195582 195594	Pro/Ala-rich
+T20	disease 195010 195015	wound
+T21	chemical 195083 195097	hydroxyproline
+T22	chemical 195102 195110	collagen
+T23	chemical 195155 195161	enzyme
+T24	disease 195191 195196	Blood
+T25	disease 195251 195257	dengue
+T26	chemical 195312 195315	met
+T27	disease 195357 195379	dengue virus infection
+T28	disease 195448 195470	dengue virus infection
+T29	chemical 195537 195545	glycogen
+T30	disease 195582 195594	Pro/Ala-rich
+T31	chemical 195582 195594	Pro/Ala-rich
 T32	missed_disease 195692 195704	side effects
-T33	DISEASE 195708 195714	cancer
-T34	DISEASE 195750 195761	myocarditis
-T35	CHEMICAL 195821 195835	anthracyclines
+T33	disease 195708 195714	cancer
+T34	disease 195750 195761	myocarditis
+T35	chemical 195821 195835	anthracyclines
 T36	corrected_chemical 195864 195892	immune checkpoint inhibitors
-T37	CHEMICAL 195882 195892	inhibitors
-T38	DISEASE 195950 195953	ion
-T39	CHEMICAL 195950 195953	ion
-T40	CHEMICAL 195967 195976	molecular
-T41	CHEMICAL 196019 196028	β-lactams
-T42	CHEMICAL 196033 196043	novobiocin
-T43	DISEASE 196072 196077	OmpP2
-T44	DISEASE 196096 196117	Cryptogenic cirrhosis
-T45	DISEASE 196151 196154	era
-T46	CHEMICAL 196158 196167	molecular
-T47	CHEMICAL 196225 196235	biological
-T48	CHEMICAL 196267 196283	immunomodulation
-T49	DISEASE 196289 196294	wound
-T50	CHEMICAL 196379 196386	protein
-T51	DISEASE 196455 196462	anxiety
-T52	CHEMICAL 196505 196515	mutton-fat
-T53	DISEASE 196609 196617	vitritis
-T54	DISEASE 196644 196666	multifocal choroiditis
-T55	DISEASE 196737 196750	macular edema
-T56	CHEMICAL 196843 196847	salt
-T57	CHEMICAL 196851 196861	mefloquine
-T58	CHEMICAL 196866 196876	artesunate
-T59	DISEASE 196881 196888	malaria
-T60	DISEASE 197009 197012	MDD
+T37	chemical 195882 195892	inhibitors
+T38	disease 195950 195953	ion
+T39	chemical 195950 195953	ion
+T40	chemical 195967 195976	molecular
+T41	chemical 196019 196028	β-lactams
+T42	chemical 196033 196043	novobiocin
+T43	disease 196072 196077	OmpP2
+T44	disease 196096 196117	Cryptogenic cirrhosis
+T45	disease 196151 196154	era
+T46	chemical 196158 196167	molecular
+T47	chemical 196225 196235	biological
+T48	chemical 196267 196283	immunomodulation
+T49	disease 196289 196294	wound
+T50	chemical 196379 196386	protein
+T51	disease 196455 196462	anxiety
+T52	chemical 196505 196515	mutton-fat
+T53	disease 196609 196617	vitritis
+T54	disease 196644 196666	multifocal choroiditis
+T55	disease 196737 196750	macular edema
+T56	chemical 196843 196847	salt
+T57	chemical 196851 196861	mefloquine
+T58	chemical 196866 196876	artesunate
+T59	disease 196881 196888	malaria
+T60	disease 197009 197012	MDD
 T61	missed_chemical 197026 197039	brexpiprazole
-T62	CHEMICAL 197065 197075	quetiapine
-T63	CHEMICAL 197132 197137	water
-T64	CHEMICAL 197165 197170	water
-T65	DISEASE 197241 197247	cancer
+T62	chemical 197065 197075	quetiapine
+T63	chemical 197132 197137	water
+T64	chemical 197165 197170	water
+T65	disease 197241 197247	cancer
 R1	treats Arg1:T17 Arg2:T18
 R2	causes Arg1:T17 Arg2:T19
 R3	treats Arg1:T62 Arg2:T60

@@ -1,75 +1,75 @@
 T1	corrected_chemical 95995 96010	COX-2 inhibitor
-T2	CHEMICAL 96001 96010	inhibitor
-T3	DISEASE 96057 96060	PHO
-T4	DISEASE 96131 96136	n-ALD
-T5	DISEASE 96141 96146	X-ALD
+T2	chemical 96001 96010	inhibitor
+T3	disease 96057 96060	PHO
+T4	disease 96131 96136	n-ALD
+T5	disease 96141 96146	X-ALD
 T6	missed_chemical 96200 96230	platelet-derived growth factor
 T7	missed_chemical 96232 96237	PDGF)
 T8	missed_chemical 96239 96269	basic fibroblast growth factor
 T9	missed_chemical 96271 96275	bFGF
-T10	CHEMICAL 96280 96308	insulin-like growth factor-1
-T11	CHEMICAL 96310 96315	IGF-1
-T12	CHEMICAL 96328 96331	DNA
-T13	CHEMICAL 96345 96368	5-bromo-2'-deoxyuridine
-T14	DISEASE 96452 96455	ten
-T15	CHEMICAL 96489 96494	group
-T16	CHEMICAL 96523 96532	Metformin
-T17	CHEMICAL 96568 96572	drug
-T18	DISEASE 96586 96597	anti-cancer
+T10	chemical 96280 96308	insulin-like growth factor-1
+T11	chemical 96310 96315	IGF-1
+T12	chemical 96328 96331	DNA
+T13	chemical 96345 96368	5-bromo-2'-deoxyuridine
+T14	disease 96452 96455	ten
+T15	chemical 96489 96494	group
+T16	chemical 96523 96532	Metformin
+T17	chemical 96568 96572	drug
+T18	disease 96586 96597	anti-cancer
 T19	missed_disease 96628 96635	cancers
-T20	DISEASE 96673 96676	ASD
-T21	DISEASE 96680 96692	ten-selected
-T22	CHEMICAL 96721 96729	polymers
-T23	CHEMICAL 97024 97029	group
-T24	DISEASE 97057 97066	condition
-T25	CHEMICAL 97082 97087	group
-T26	DISEASE 97129 97139	acromegaly
-T27	CHEMICAL 97157 97165	hormonal
-T28	DISEASE 97181 97188	disease
-T29	CHEMICAL 97352 97360	Adjuvant
-T30	DISEASE 97371 97376	tumor
-T31	CHEMICAL 97434 97450	ADP-ribosylation
+T20	disease 96673 96676	ASD
+T21	disease 96680 96692	ten-selected
+T22	chemical 96721 96729	polymers
+T23	chemical 97024 97029	group
+T24	disease 97057 97066	condition
+T25	chemical 97082 97087	group
+T26	disease 97129 97139	acromegaly
+T27	chemical 97157 97165	hormonal
+T28	disease 97181 97188	disease
+T29	chemical 97352 97360	Adjuvant
+T30	disease 97371 97376	tumor
+T31	chemical 97434 97450	ADP-ribosylation
 T32	corrected_chemical 97454 97469	PARP inhibitors
-T33	CHEMICAL 97459 97469	inhibitors
+T33	chemical 97459 97469	inhibitors
 T34	missed_disease 97473 97496	acute myeloid leukaemia
-T35	DISEASE 97509 97518	disorders
-T36	DISEASE 97621 97637	high-sensitivity
-T37	CHEMICAL 97701 97708	peptide
-T38	DISEASE 97743 97753	anti-tumor
-T39	CHEMICAL 97899 97907	estrogen
-T40	DISEASE 97972 97980	Thrombus
-T41	CHEMICAL 98008 98019	Anti-Fibrin
-T42	CHEMICAL 98020 98027	Protein
-T43	CHEMICAL 98056 98061	group
-T44	DISEASE 98145 98148	CNC
-T45	CHEMICAL 98201 98209	proteins
-T46	CHEMICAL 98244 98255	antioxidant
-T47	DISEASE 98303 98311	CNC-sMaf
-T48	DISEASE 98434 98445	high-UA/AKI
-T49	CHEMICAL 98446 98451	group
+T35	disease 97509 97518	disorders
+T36	disease 97621 97637	high-sensitivity
+T37	chemical 97701 97708	peptide
+T38	disease 97743 97753	anti-tumor
+T39	chemical 97899 97907	estrogen
+T40	disease 97972 97980	Thrombus
+T41	chemical 98008 98019	Anti-Fibrin
+T42	chemical 98020 98027	Protein
+T43	chemical 98056 98061	group
+T44	disease 98145 98148	CNC
+T45	chemical 98201 98209	proteins
+T46	chemical 98244 98255	antioxidant
+T47	disease 98303 98311	CNC-sMaf
+T48	disease 98434 98445	high-UA/AKI
+T49	chemical 98446 98451	group
 T50	missed_chemical 98495 98504	Molecular
-T51	CHEMICAL 98532 98541	molecular
-T52	DISEASE 98563 98566	HCC
-T53	DISEASE 98665 98671	cancer
-T54	CHEMICAL 98672 98679	biology
-T55	DISEASE 98805 98813	diseases
-T56	DISEASE 98922 98927	blood
-T57	DISEASE 98968 98973	blood
-T58	CHEMICAL 98974 98980	lipids
-T59	CHEMICAL 98988 98999	cholesterol
-T60	CHEMICAL 99001 99014	triglycerides
-T61	CHEMICAL 99016 99039	low-density lipoprotein
-T62	CHEMICAL 99045 99069	high-density lipoprotein
-T63	CHEMICAL 99045 99081	high-density lipoprotein cholesterol
-T64	DISEASE 99095 99100	blood
-T65	CHEMICAL 99101 99108	glucose
-T66	DISEASE 99150 99161	Mas-related
-T67	CHEMICAL 99164 99179	protein-coupled
-T68	DISEASE 99290 99305	hyperthyroidism
-T69	CHEMICAL 99333 99342	iodinated
-T70	CHEMICAL 99410 99415	group
-T71	DISEASE 99453 99468	depression-like
-T72	CHEMICAL 99501 99508	sucrose
+T51	chemical 98532 98541	molecular
+T52	disease 98563 98566	HCC
+T53	disease 98665 98671	cancer
+T54	chemical 98672 98679	biology
+T55	disease 98805 98813	diseases
+T56	disease 98922 98927	blood
+T57	disease 98968 98973	blood
+T58	chemical 98974 98980	lipids
+T59	chemical 98988 98999	cholesterol
+T60	chemical 99001 99014	triglycerides
+T61	chemical 99016 99039	low-density lipoprotein
+T62	chemical 99045 99069	high-density lipoprotein
+T63	chemical 99045 99081	high-density lipoprotein cholesterol
+T64	disease 99095 99100	blood
+T65	chemical 99101 99108	glucose
+T66	disease 99150 99161	Mas-related
+T67	chemical 99164 99179	protein-coupled
+T68	disease 99290 99305	hyperthyroidism
+T69	chemical 99333 99342	iodinated
+T70	chemical 99410 99415	group
+T71	disease 99453 99468	depression-like
+T72	chemical 99501 99508	sucrose
 R1	treats Arg1:T16 Arg2:T19
 R2	treats Arg1:T11 Arg2:T4
 R3	treats Arg1:T11 Arg2:T5

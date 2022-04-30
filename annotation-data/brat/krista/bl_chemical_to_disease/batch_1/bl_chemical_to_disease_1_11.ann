@@ -1,64 +1,64 @@
-T1	CHEMICAL 96085 96101	neurotransmitter
-T2	CHEMICAL 96102 96115	acetylcholine
-T3	DISEASE 96145 96164	Alzheimer's disease
-T4	CHEMICAL 96310 96329	pilocarpine-induced
-T5	DISEASE 96330 96348	status epilepticus
-T6	CHEMICAL 96398 96407	Oxidative
-T7	DISEASE 96470 96501	Intrauterine Growth Restriction
-T8	CHEMICAL 96607 96617	biomarkers
-T9	DISEASE 96635 96638	CRC
-T10	DISEASE 96686 96691	blood
-T11	CHEMICAL 96735 96740	group
-T12	CHEMICAL 96844 96853	oxidative
-T13	CHEMICAL 96906 96911	lipid
-T14	CHEMICAL 96912 96924	peroxidation
-T15	CHEMICAL 96936 96947	antioxidant
-T16	CHEMICAL 96948 96954	enzyme
-T17	CHEMICAL 96984 96994	superoxide
-T18	DISEASE 97006 97009	SOD
-T19	CHEMICAL 97152 97155	fat
-T20	CHEMICAL 97167 97170	fat
-T21	DISEASE 97180 97185	blood
-T22	CHEMICAL 97186 97196	biomarkers
-T23	CHEMICAL 97284 97288	NAD+
-T24	DISEASE 97361 97375	polyneuropathy
-T25	DISEASE 97568 97579	CRISPR/Cas9
-T26	CHEMICAL 97597 97604	protein
-T27	CHEMICAL 97654 97661	RNA-seq
-T28	DISEASE 97672 97678	glioma
+T1	chemical 96085 96101	neurotransmitter
+T2	chemical 96102 96115	acetylcholine
+T3	disease 96145 96164	Alzheimer's disease
+T4	chemical 96310 96329	pilocarpine-induced
+T5	disease 96330 96348	status epilepticus
+T6	chemical 96398 96407	Oxidative
+T7	disease 96470 96501	Intrauterine Growth Restriction
+T8	chemical 96607 96617	biomarkers
+T9	disease 96635 96638	CRC
+T10	disease 96686 96691	blood
+T11	chemical 96735 96740	group
+T12	chemical 96844 96853	oxidative
+T13	chemical 96906 96911	lipid
+T14	chemical 96912 96924	peroxidation
+T15	chemical 96936 96947	antioxidant
+T16	chemical 96948 96954	enzyme
+T17	chemical 96984 96994	superoxide
+T18	disease 97006 97009	SOD
+T19	chemical 97152 97155	fat
+T20	chemical 97167 97170	fat
+T21	disease 97180 97185	blood
+T22	chemical 97186 97196	biomarkers
+T23	chemical 97284 97288	NAD+
+T24	disease 97361 97375	polyneuropathy
+T25	disease 97568 97579	CRISPR/Cas9
+T26	chemical 97597 97604	protein
+T27	chemical 97654 97661	RNA-seq
+T28	disease 97672 97678	glioma
 T29	missed_chemical 97698 97704	dbcAMP
 T30	missed_chemical 97708 97722	cAMP activator
-T31	DISEASE 97772 97781	sensitive
-T32	CHEMICAL 97847 97854	protein
-T33	DISEASE 97880 97892	cold-induced
-T34	DISEASE 97935 97944	intrinsic
-T35	DISEASE 98104 98120	thrombophlebitis
-T36	CHEMICAL 98131 98135	lead
-T37	CHEMICAL 98171 98176	venom
-T38	DISEASE 98194 98200	injury
-T39	CHEMICAL 98201 98205	lead
-T40	DISEASE 98353 98364	sensitivity
-T41	CHEMICAL 98393 98397	lead
-T42	CHEMICAL 98420 98427	ethanol
-T43	CHEMICAL 98549 98557	cytosine
-T44	CHEMICAL 98561 98568	thymine
-T45	CHEMICAL 98569 98577	residues
-T46	CHEMICAL 98585 98598	dinucleotides
-T47	DISEASE 98602 98608	cancer
-T48	CHEMICAL 98696 98701	group
-T49	CHEMICAL 98712 98717	group
-T50	DISEASE 98770 98788	Acute Pancreatitis
-T51	CHEMICAL 98825 98832	protein
-T52	DISEASE 98862 98867	blood
-T53	CHEMICAL 98901 98908	protein
-T54	CHEMICAL 98941 98956	phosphorylation
-T55	CHEMICAL 98964 98971	protein
-T56	DISEASE 98986 98991	blood
-T57	DISEASE 99064 99089	anaplastic thyroid cancer
-T58	CHEMICAL 99075 99082	thyroid
-T59	CHEMICAL 99318 99325	neutron
-T60	DISEASE 99440 99443	GPa
-T61	CHEMICAL 99474 99490	pro-inflammatory
-T62	DISEASE 99533 99538	PFAPA
+T31	disease 97772 97781	sensitive
+T32	chemical 97847 97854	protein
+T33	disease 97880 97892	cold-induced
+T34	disease 97935 97944	intrinsic
+T35	disease 98104 98120	thrombophlebitis
+T36	chemical 98131 98135	lead
+T37	chemical 98171 98176	venom
+T38	disease 98194 98200	injury
+T39	chemical 98201 98205	lead
+T40	disease 98353 98364	sensitivity
+T41	chemical 98393 98397	lead
+T42	chemical 98420 98427	ethanol
+T43	chemical 98549 98557	cytosine
+T44	chemical 98561 98568	thymine
+T45	chemical 98569 98577	residues
+T46	chemical 98585 98598	dinucleotides
+T47	disease 98602 98608	cancer
+T48	chemical 98696 98701	group
+T49	chemical 98712 98717	group
+T50	disease 98770 98788	Acute Pancreatitis
+T51	chemical 98825 98832	protein
+T52	disease 98862 98867	blood
+T53	chemical 98901 98908	protein
+T54	chemical 98941 98956	phosphorylation
+T55	chemical 98964 98971	protein
+T56	disease 98986 98991	blood
+T57	disease 99064 99089	anaplastic thyroid cancer
+T58	chemical 99075 99082	thyroid
+T59	chemical 99318 99325	neutron
+T60	disease 99440 99443	GPa
+T61	chemical 99474 99490	pro-inflammatory
+T62	disease 99533 99538	PFAPA
 R1	treats Arg1:T29 Arg2:T28
 R2	treats Arg1:T30 Arg2:T28

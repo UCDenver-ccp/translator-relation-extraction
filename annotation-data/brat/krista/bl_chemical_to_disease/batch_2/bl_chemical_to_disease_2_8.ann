@@ -1,70 +1,70 @@
 T1	corrected_chemical 193620 193640	miR-27a-3p inhibitor
-T2	CHEMICAL 193631 193640	inhibitor
-T3	DISEASE 193659 193675	epilepsy-induced
+T2	chemical 193631 193640	inhibitor
+T3	disease 193659 193675	epilepsy-induced
 T4	corrected_disease 193659 193697	epilepsy-induced inflammatory response
 T5	missed_disease 193702 193732	hippocampal neuronal apoptosis
-T6	DISEASE 193746 193752	MAP2K4
-T7	DISEASE 193801 193807	common
-T8	DISEASE 193815 193824	infection
-T9	DISEASE 193842 193853	candidiasis
-T10	CHEMICAL 193873 193890	virulence factors
-T11	CHEMICAL 193996 194007	regorafenib
+T6	disease 193746 193752	MAP2K4
+T7	disease 193801 193807	common
+T8	disease 193815 193824	infection
+T9	disease 193842 193853	candidiasis
+T10	chemical 193873 193890	virulence factors
+T11	chemical 193996 194007	regorafenib
 T12	corrected_disease 194029 194062	advanced hepatocellular carcinoma
-T13	DISEASE 194038 194062	hepatocellular carcinoma
-T14	CHEMICAL 194069 194078	sorafenib
-T15	CHEMICAL 194146 194153	glucose
-T16	DISEASE 194185 194200	type 1 diabetes
-T17	CHEMICAL 194256 194263	insulin
-T18	DISEASE 194450 194453	SSc
-T19	CHEMICAL 194450 194453	SSc
-T20	DISEASE 194525 194530	blood
-T21	CHEMICAL 194540 194546	oxygen
-T22	CHEMICAL 194649 194654	group
-T23	DISEASE 194660 194664	PTSD
-T24	CHEMICAL 194665 194670	group
-T25	DISEASE 194817 194820	AML
-T26	CHEMICAL 194851 194861	biomarkers
-T27	DISEASE 194924 194927	get
-T28	CHEMICAL 195008 195014	enzyme
-T29	DISEASE 195044 195064	polyarteritis nodosa
-T30	CHEMICAL 195070 195087	anti-phospholipid
-T31	DISEASE 195142 195155	Brain Disease
-T32	DISEASE 195159 195164	MPSII
-T33	CHEMICAL 195208 195221	Nanoparticles
-T34	DISEASE 195354 195357	DON
-T35	CHEMICAL 195405 195415	biomarkers
-T36	CHEMICAL 195420 195424	drug
-T37	DISEASE 195490 195496	common
-T38	CHEMICAL 195497 195506	mycotoxin
+T13	disease 194038 194062	hepatocellular carcinoma
+T14	chemical 194069 194078	sorafenib
+T15	chemical 194146 194153	glucose
+T16	disease 194185 194200	type 1 diabetes
+T17	chemical 194256 194263	insulin
+T18	disease 194450 194453	SSc
+T19	chemical 194450 194453	SSc
+T20	disease 194525 194530	blood
+T21	chemical 194540 194546	oxygen
+T22	chemical 194649 194654	group
+T23	disease 194660 194664	PTSD
+T24	chemical 194665 194670	group
+T25	disease 194817 194820	AML
+T26	chemical 194851 194861	biomarkers
+T27	disease 194924 194927	get
+T28	chemical 195008 195014	enzyme
+T29	disease 195044 195064	polyarteritis nodosa
+T30	chemical 195070 195087	anti-phospholipid
+T31	disease 195142 195155	Brain Disease
+T32	disease 195159 195164	MPSII
+T33	chemical 195208 195221	Nanoparticles
+T34	disease 195354 195357	DON
+T35	chemical 195405 195415	biomarkers
+T36	chemical 195420 195424	drug
+T37	disease 195490 195496	common
+T38	chemical 195497 195506	mycotoxin
 T39	corrected_chemical 195568 195589	flupentixol decanoate
-T40	CHEMICAL 195580 195589	decanoate
-T41	DISEASE 195610 195623	schizophrenia
-T42	CHEMICAL 195867 195878	SP-EPN-MYCN
-T43	CHEMICAL 196038 196047	molecular
-T44	DISEASE 196055 196065	ependymoma
-T45	CHEMICAL 196107 196120	tetracyclines
-T46	CHEMICAL 196177 196196	anhydrotetracycline
-T47	DISEASE 196343 196347	OTCs
-T48	CHEMICAL 196375 196386	Tofacitinib
-T49	CHEMICAL 196396 196410	small-molecule
+T40	chemical 195580 195589	decanoate
+T41	disease 195610 195623	schizophrenia
+T42	chemical 195867 195878	SP-EPN-MYCN
+T43	chemical 196038 196047	molecular
+T44	disease 196055 196065	ependymoma
+T45	chemical 196107 196120	tetracyclines
+T46	chemical 196177 196196	anhydrotetracycline
+T47	disease 196343 196347	OTCs
+T48	chemical 196375 196386	Tofacitinib
+T49	chemical 196396 196410	small-molecule
 T50	corrected_chemical 196396 196420	small-molecule inhibitor
-T51	CHEMICAL 196411 196420	inhibitor
-T52	DISEASE 196469 196489	rheumatoid arthritis
+T51	chemical 196411 196420	inhibitor
+T52	disease 196469 196489	rheumatoid arthritis
 T53	corrected_chemical 196512 196544	dipeptidyl peptidase-4 inhibitor
-T54	CHEMICAL 196535 196544	inhibitor
-T55	CHEMICAL 196545 196556	saxagliptin
+T54	chemical 196535 196544	inhibitor
+T55	chemical 196545 196556	saxagliptin
 T56	missed_chemical 196574 196597	antihyperglycemic agent
-T57	DISEASE 196615 196630	type 2 diabetes
-T58	DISEASE 196837 196844	anxiety
-T59	DISEASE 196845 196854	disease-7
-T60	DISEASE 196868 196875	Anxiety
-T61	CHEMICAL 196967 196982	NEO-personality
-T62	CHEMICAL 196994 197001	NEO-PI)
-T63	CHEMICAL 197128 197137	molecular
-T64	DISEASE 197152 197155	CHM
-T65	CHEMICAL 197295 197302	protein
-T66	DISEASE 197375 197390	type 2 diabetes
-T67	DISEASE 197431 197444	liver disease
+T57	disease 196615 196630	type 2 diabetes
+T58	disease 196837 196844	anxiety
+T59	disease 196845 196854	disease-7
+T60	disease 196868 196875	Anxiety
+T61	chemical 196967 196982	NEO-personality
+T62	chemical 196994 197001	NEO-PI)
+T63	chemical 197128 197137	molecular
+T64	disease 197152 197155	CHM
+T65	chemical 197295 197302	protein
+T66	disease 197375 197390	type 2 diabetes
+T67	disease 197431 197444	liver disease
 R1	treats Arg1:T39 Arg2:T41
 R2	treats Arg1:T55 Arg2:T57
 R3	treats Arg1:T53 Arg2:T57

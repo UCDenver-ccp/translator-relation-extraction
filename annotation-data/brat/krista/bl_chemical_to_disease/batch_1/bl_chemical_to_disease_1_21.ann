@@ -1,67 +1,67 @@
-T1	CHEMICAL 96042 96048	canine
-T2	DISEASE 96049 96055	rabies
-T3	CHEMICAL 96112 96118	canine
-T4	DISEASE 96119 96125	rabies
-T5	DISEASE 96185 96194	sensitive
-T6	CHEMICAL 96267 96278	chromium(VI
-T7	CHEMICAL 96330 96333	His
-T8	DISEASE 96428 96450	second degree AV block
-T9	DISEASE 96453 96467	Mobitz Type I.
-T10	DISEASE 96520 96544	hepatocellular carcinoma
-T11	DISEASE 96546 96549	HCC
-T12	CHEMICAL 96554 96563	sorafenib
+T1	chemical 96042 96048	canine
+T2	disease 96049 96055	rabies
+T3	chemical 96112 96118	canine
+T4	disease 96119 96125	rabies
+T5	disease 96185 96194	sensitive
+T6	chemical 96267 96278	chromium(VI
+T7	chemical 96330 96333	His
+T8	disease 96428 96450	second degree AV block
+T9	disease 96453 96467	Mobitz Type I.
+T10	disease 96520 96544	hepatocellular carcinoma
+T11	disease 96546 96549	HCC
+T12	chemical 96554 96563	sorafenib
 T13	missed_chemical 96565 96569	SORA
-T14	DISEASE 96578 96581	HCC
-T15	CHEMICAL 96606 96610	drug
-T16	CHEMICAL 96730 96735	fatty
-T17	CHEMICAL 96730 96751	fatty acid-stimulated
-T18	DISEASE 96881 96897	hyperinsulinemia
-T19	DISEASE 96921 96936	type 2 diabetes
-T20	CHEMICAL 96984 96994	Inhibitors
-T21	CHEMICAL 97057 97064	Antigen
-T22	DISEASE 97086 97092	Asthma
-T23	DISEASE 97117 97130	actinomycosis
-T24	DISEASE 97170 97177	abscess
-T25	DISEASE 97286 97299	actinomycosis
-T26	CHEMICAL 97328 97334	sulfur
-T27	CHEMICAL 97387 97394	protein
-T28	CHEMICAL 97509 97516	glucose
-T29	DISEASE 97591 97600	infection
-T30	DISEASE 97619 97638	Parkinson's disease
+T14	disease 96578 96581	HCC
+T15	chemical 96606 96610	drug
+T16	chemical 96730 96735	fatty
+T17	chemical 96730 96751	fatty acid-stimulated
+T18	disease 96881 96897	hyperinsulinemia
+T19	disease 96921 96936	type 2 diabetes
+T20	chemical 96984 96994	Inhibitors
+T21	chemical 97057 97064	Antigen
+T22	disease 97086 97092	Asthma
+T23	disease 97117 97130	actinomycosis
+T24	disease 97170 97177	abscess
+T25	disease 97286 97299	actinomycosis
+T26	chemical 97328 97334	sulfur
+T27	chemical 97387 97394	protein
+T28	chemical 97509 97516	glucose
+T29	disease 97591 97600	infection
+T30	disease 97619 97638	Parkinson's disease
 T31	missed_disease 97640 97642	PD
-T32	CHEMICAL 97668 97685	dopamine agonists
-T33	CHEMICAL 97677 97685	agonists
-T34	CHEMICAL 97963 97968	water
-T35	DISEASE 97969 97978	condition
-T36	DISEASE 98036 98039	OPN
-T37	CHEMICAL 98062 98070	proteins
-T38	CHEMICAL 98214 98222	Curcumin
-T39	DISEASE 98302 98312	anti-tumor
-T40	CHEMICAL 98397 98402	group
-T41	CHEMICAL 98431 98435	acid
-T42	CHEMICAL 98473 98477	acid
-T43	DISEASE 98473 98484	acid reflux
+T32	chemical 97668 97685	dopamine agonists
+T33	chemical 97677 97685	agonists
+T34	chemical 97963 97968	water
+T35	disease 97969 97978	condition
+T36	disease 98036 98039	OPN
+T37	chemical 98062 98070	proteins
+T38	chemical 98214 98222	Curcumin
+T39	disease 98302 98312	anti-tumor
+T40	chemical 98397 98402	group
+T41	chemical 98431 98435	acid
+T42	chemical 98473 98477	acid
+T43	disease 98473 98484	acid reflux
 T44	missed_disease 98689 98698	tocolysis
-T45	CHEMICAL 98730 98739	magnesium
+T45	chemical 98730 98739	magnesium
 T46	corrected_chemical 98730 98748	magnesium sulphate
-T47	CHEMICAL 98967 98971	lead
-T48	DISEASE 99023 99046	coronary artery disease
-T49	DISEASE 99048 99051	CAD
-T50	DISEASE 99098 99104	autism
-T51	CHEMICAL 99149 99162	valproic acid
-T52	DISEASE 99271 99285	keloid-derived
-T53	CHEMICAL 99309 99313	mRNA
-T54	CHEMICAL 99318 99325	protein
-T55	CHEMICAL 99346 99354	proteins
+T47	chemical 98967 98971	lead
+T48	disease 99023 99046	coronary artery disease
+T49	disease 99048 99051	CAD
+T50	disease 99098 99104	autism
+T51	chemical 99149 99162	valproic acid
+T52	disease 99271 99285	keloid-derived
+T53	chemical 99309 99313	mRNA
+T54	chemical 99318 99325	protein
+T55	chemical 99346 99354	proteins
 T56	missed_chemical 99445 99455	medication
-T57	DISEASE 99471 99479	fracture
+T57	disease 99471 99479	fracture
 T58	missed_chemical 99510 99520	medication
-T59	CHEMICAL 99525 99532	lithium
-T60	DISEASE 99578 99587	disorders
-T61	CHEMICAL 99624 99633	ibuprofen
-T62	DISEASE 99662 99667	blood
-T63	CHEMICAL 99812 99821	cisplatin
-T64	DISEASE 99838 99853	cervical cancer
+T59	chemical 99525 99532	lithium
+T60	disease 99578 99587	disorders
+T61	chemical 99624 99633	ibuprofen
+T62	disease 99662 99667	blood
+T63	chemical 99812 99821	cisplatin
+T64	disease 99838 99853	cervical cancer
 R1	causes Arg1:T51 Arg2:T50
 R2	treats Arg1:T15 Arg2:T14
 R3	treats Arg1:T59 Arg2:T57

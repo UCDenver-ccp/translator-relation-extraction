@@ -1,70 +1,70 @@
-T1	DISEASE 95995 96002	amyloid
-T2	CHEMICAL 95995 96010	amyloid fibrils
-T3	CHEMICAL 96134 96144	biological
-T4	CHEMICAL 96223 96231	molecule
-T5	CHEMICAL 96310 96332	guanosine triphosphate
-T6	CHEMICAL 96354 96361	protein
-T7	CHEMICAL 96385 96392	protein
-T8	CHEMICAL 96458 96474	ADP-ribosylation
-T9	DISEASE 96485 96489	ARF6
-T10	CHEMICAL 96607 96624	Triclosan-induced
-T11	DISEASE 96635 96647	brain injury
-T12	DISEASE 96886 96889	men
-T13	CHEMICAL 96951 96956	LDL-C
-T14	CHEMICAL 96999 97004	HDL-C
-T15	CHEMICAL 97041 97051	Biomarkers
-T16	DISEASE 97056 97080	Hepatocellular Carcinoma
-T17	DISEASE 97088 97091	Era
-T18	CHEMICAL 97190 97200	biomarkers
-T19	DISEASE 97259 97272	breast cancer
-T20	CHEMICAL 97305 97314	enzymatic
-T21	CHEMICAL 97315 97327	antioxidants
-T22	CHEMICAL 97336 97346	superoxide
-T23	DISEASE 97358 97361	SOD
-T24	CHEMICAL 97380 97391	glutathione
-T25	CHEMICAL 97392 97402	peroxidase
-T26	CHEMICAL 97410 97435	glutathione-S-transferase
-T27	CHEMICAL 97506 97518	antioxidants
-T28	CHEMICAL 97524 97533	vitamin C
-T29	CHEMICAL 97535 97544	vitamin E
-T30	CHEMICAL 97558 97569	glutathione
-T31	DISEASE 97680 97688	chordoma
-T32	DISEASE 97708 97711	CSC
-T33	DISEASE 97745 97750	tumor
-T34	CHEMICAL 97776 97785	melatonin
-T35	DISEASE 97968 97981	CMV-infection
-T36	CHEMICAL 98180 98192	nucleic acid
-T37	CHEMICAL 98252 98256	lead
-T38	CHEMICAL 98407 98414	calcium
-T39	DISEASE 98415 98423	fracture
+T1	disease 95995 96002	amyloid
+T2	chemical 95995 96010	amyloid fibrils
+T3	chemical 96134 96144	biological
+T4	chemical 96223 96231	molecule
+T5	chemical 96310 96332	guanosine triphosphate
+T6	chemical 96354 96361	protein
+T7	chemical 96385 96392	protein
+T8	chemical 96458 96474	ADP-ribosylation
+T9	disease 96485 96489	ARF6
+T10	chemical 96607 96624	Triclosan-induced
+T11	disease 96635 96647	brain injury
+T12	disease 96886 96889	men
+T13	chemical 96951 96956	LDL-C
+T14	chemical 96999 97004	HDL-C
+T15	chemical 97041 97051	Biomarkers
+T16	disease 97056 97080	Hepatocellular Carcinoma
+T17	disease 97088 97091	Era
+T18	chemical 97190 97200	biomarkers
+T19	disease 97259 97272	breast cancer
+T20	chemical 97305 97314	enzymatic
+T21	chemical 97315 97327	antioxidants
+T22	chemical 97336 97346	superoxide
+T23	disease 97358 97361	SOD
+T24	chemical 97380 97391	glutathione
+T25	chemical 97392 97402	peroxidase
+T26	chemical 97410 97435	glutathione-S-transferase
+T27	chemical 97506 97518	antioxidants
+T28	chemical 97524 97533	vitamin C
+T29	chemical 97535 97544	vitamin E
+T30	chemical 97558 97569	glutathione
+T31	disease 97680 97688	chordoma
+T32	disease 97708 97711	CSC
+T33	disease 97745 97750	tumor
+T34	chemical 97776 97785	melatonin
+T35	disease 97968 97981	CMV-infection
+T36	chemical 98180 98192	nucleic acid
+T37	chemical 98252 98256	lead
+T38	chemical 98407 98414	calcium
+T39	disease 98415 98423	fracture
 T40	missed_disease 98550 98552	CP
-T41	DISEASE 98639 98642	SRP
-T42	CHEMICAL 98654 98667	chlorhexidine
-T43	DISEASE 98711 98714	SRP
-T44	DISEASE 98720 98723	MEC
-T45	DISEASE 98761 98764	SRP
-T46	DISEASE 98824 98830	Trauma
-T47	CHEMICAL 98861 98868	retinal
-T48	DISEASE 98861 98879	retinal detachment
-T49	DISEASE 98896 98902	injury
-T50	CHEMICAL 98960 98967	peptide
-T51	CHEMICAL 99050 99057	glucose
-T52	DISEASE 99075 99080	blood
+T41	disease 98639 98642	SRP
+T42	chemical 98654 98667	chlorhexidine
+T43	disease 98711 98714	SRP
+T44	disease 98720 98723	MEC
+T45	disease 98761 98764	SRP
+T46	disease 98824 98830	Trauma
+T47	chemical 98861 98868	retinal
+T48	disease 98861 98879	retinal detachment
+T49	disease 98896 98902	injury
+T50	chemical 98960 98967	peptide
+T51	chemical 99050 99057	glucose
+T52	disease 99075 99080	blood
 T53	corrected_disease 99127 99141	diabetic wound
-T54	DISEASE 99136 99141	wound
-T55	CHEMICAL 99184 99187	ion
-T56	DISEASE 99184 99187	ion
-T57	CHEMICAL 99269 99273	ions
-T58	CHEMICAL 99353 99367	salt solutions
-T59	DISEASE 99456 99462	cancer
-T60	CHEMICAL 99463 99470	biology
-T61	CHEMICAL 99591 99601	biological
-T62	DISEASE 99615 99621	glioma
-T63	CHEMICAL 99874 99879	group
-T64	DISEASE 99897 99907	depression
-T65	DISEASE 99986 99999	breast cancer
-T66	CHEMICAL 100021 100028	alcohol
-T67	CHEMICAL 100106 100114	antigens
-T68	DISEASE 100268 100276	diabetes
-T69	CHEMICAL 100362 100370	antigens
+T54	disease 99136 99141	wound
+T55	chemical 99184 99187	ion
+T56	disease 99184 99187	ion
+T57	chemical 99269 99273	ions
+T58	chemical 99353 99367	salt solutions
+T59	disease 99456 99462	cancer
+T60	chemical 99463 99470	biology
+T61	chemical 99591 99601	biological
+T62	disease 99615 99621	glioma
+T63	chemical 99874 99879	group
+T64	disease 99897 99907	depression
+T65	disease 99986 99999	breast cancer
+T66	chemical 100021 100028	alcohol
+T67	chemical 100106 100114	antigens
+T68	disease 100268 100276	diabetes
+T69	chemical 100362 100370	antigens
 R1	treats Arg1:T42 Arg2:T40

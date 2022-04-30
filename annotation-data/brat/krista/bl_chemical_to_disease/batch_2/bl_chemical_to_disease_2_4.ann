@@ -1,94 +1,94 @@
-T1	CHEMICAL 193610 193617	ethanol
-T2	DISEASE 193627 193632	tumor
-T3	DISEASE 193675 193688	breast cancer
-T4	DISEASE 193785 193799	homocystinuria
-T5	CHEMICAL 193811 193821	methionine
-T6	DISEASE 193939 193945	cancer
-T7	CHEMICAL 193966 193973	heparin
+T1	chemical 193610 193617	ethanol
+T2	disease 193627 193632	tumor
+T3	disease 193675 193688	breast cancer
+T4	disease 193785 193799	homocystinuria
+T5	chemical 193811 193821	methionine
+T6	disease 193939 193945	cancer
+T7	chemical 193966 193973	heparin
 T8	corrected_chemical 193966 193982	heparin mimetics
-T9	CHEMICAL 193987 193997	inhibitors
+T9	chemical 193987 193997	inhibitors
 T10	corrected_chemical 193987 194011	inhibitors of heparanase
 T11	corrected_chemical 194025 194048	TF pathway inhibitor 2.
-T12	CHEMICAL 194028 194045	pathway inhibitor
-T13	CHEMICAL 194078 194088	inhibitors
-T14	DISEASE 194130 194147	bleeding tendency
-T15	CHEMICAL 194170 194174	mRNA
-T16	DISEASE 194197 194200	PCa
-T17	CHEMICAL 194335 194355	ALOX12-12-HETE-GPR31
-T18	DISEASE 194384 194387	HCC
-T19	DISEASE 194453 194456	HCC
-T20	CHEMICAL 194485 194490	fatty
-T21	DISEASE 194579 194586	amyloid
-T22	CHEMICAL 194641 194650	histidine
-T23	CHEMICAL 194641 194659	histidine residues
-T24	DISEASE 194663 194672	amyloid-β
-T25	CHEMICAL 194752 194759	glucose
-T26	CHEMICAL 194761 194766	lipid
-T27	CHEMICAL 194772 194782	amino acid
-T28	CHEMICAL 194793 194799	enzyme
-T29	CHEMICAL 194830 194839	molecular
-T30	DISEASE 194871 194876	tumor
+T12	chemical 194028 194045	pathway inhibitor
+T13	chemical 194078 194088	inhibitors
+T14	disease 194130 194147	bleeding tendency
+T15	chemical 194170 194174	mRNA
+T16	disease 194197 194200	PCa
+T17	chemical 194335 194355	ALOX12-12-HETE-GPR31
+T18	disease 194384 194387	HCC
+T19	disease 194453 194456	HCC
+T20	chemical 194485 194490	fatty
+T21	disease 194579 194586	amyloid
+T22	chemical 194641 194650	histidine
+T23	chemical 194641 194659	histidine residues
+T24	disease 194663 194672	amyloid-β
+T25	chemical 194752 194759	glucose
+T26	chemical 194761 194766	lipid
+T27	chemical 194772 194782	amino acid
+T28	chemical 194793 194799	enzyme
+T29	chemical 194830 194839	molecular
+T30	disease 194871 194876	tumor
 T31	missed_chemical 194942 194953	Galantamine
-T32	CHEMICAL 194958 194978	Methadone-Maintained
-T33	CHEMICAL 194996 195003	Cocaine
+T32	chemical 194958 194978	Methadone-Maintained
+T33	chemical 194996 195003	Cocaine
 T34	corrected_disease 194996 195016	Cocaine Use Disorder
-T35	DISEASE 195008 195016	Disorder
-T36	CHEMICAL 195096 195103	glucose
-T37	CHEMICAL 195128 195144	glucose-lowering
-T38	CHEMICAL 195168 195177	metformin
-T39	DISEASE 195203 195225	cardiovascular disease
-T40	CHEMICAL 195266 195307	glucagon-like peptide-1 receptor agonists
-T41	CHEMICAL 195280 195289	peptide-1
-T42	CHEMICAL 195290 195307	receptor agonists
+T35	disease 195008 195016	Disorder
+T36	chemical 195096 195103	glucose
+T37	chemical 195128 195144	glucose-lowering
+T38	chemical 195168 195177	metformin
+T39	disease 195203 195225	cardiovascular disease
+T40	chemical 195266 195307	glucagon-like peptide-1 receptor agonists
+T41	chemical 195280 195289	peptide-1
+T42	chemical 195290 195307	receptor agonists
 T43	missed_chemical 195309 195317	GLP-1RAs
-T44	CHEMICAL 195323 195337	sodium-glucose
+T44	chemical 195323 195337	sodium-glucose
 T45	corrected_chemical 195323 195369	sodium-glucose cotransporter type 2 inhibitors
-T46	CHEMICAL 195359 195369	inhibitors
+T46	chemical 195359 195369	inhibitors
 T47	missed_disease 195474 195478	CVD.
-T48	CHEMICAL 195533 195541	polymers
-T49	DISEASE 195592 195596	(PCL
-T50	CHEMICAL 195598 195607	polyester
-T51	DISEASE 195861 195879	status epilepticus
-T52	CHEMICAL 195939 195949	monoamines
-T53	DISEASE 196038 196050	disease-free
-T54	CHEMICAL 196086 196091	group
-T55	CHEMICAL 196149 196158	Thiazides
-T56	DISEASE 196163 196186	nonmelanoma skin cancer
-T57	DISEASE 196245 196248	CPP
-T58	CHEMICAL 196245 196248	CPP
-T59	DISEASE 196346 196362	Undifferentiated
-T60	CHEMICAL 196427 196433	IGF-I-
-T61	CHEMICAL 196666 196672	carbon
-T62	DISEASE 196703 196706	CdS
-T63	CHEMICAL 196707 196716	nanowires
-T64	DISEASE 196718 196721	CdS
-T65	CHEMICAL 196731 196757	luminol-gold nanoparticles
-T66	CHEMICAL 196836 196849	Poly-Arginine
+T48	chemical 195533 195541	polymers
+T49	disease 195592 195596	(PCL
+T50	chemical 195598 195607	polyester
+T51	disease 195861 195879	status epilepticus
+T52	chemical 195939 195949	monoamines
+T53	disease 196038 196050	disease-free
+T54	chemical 196086 196091	group
+T55	chemical 196149 196158	Thiazides
+T56	disease 196163 196186	nonmelanoma skin cancer
+T57	disease 196245 196248	CPP
+T58	chemical 196245 196248	CPP
+T59	disease 196346 196362	Undifferentiated
+T60	chemical 196427 196433	IGF-I-
+T61	chemical 196666 196672	carbon
+T62	disease 196703 196706	CdS
+T63	chemical 196707 196716	nanowires
+T64	disease 196718 196721	CdS
+T65	chemical 196731 196757	luminol-gold nanoparticles
+T66	chemical 196836 196849	Poly-Arginine
 T67	corrected_chemical 196836 196860	Poly-Arginine Peptide-18
-T68	CHEMICAL 196850 196860	Peptide-18
+T68	chemical 196850 196860	Peptide-18
 T69	missed_chemical 196862 196865	R18
-T70	DISEASE 196875 196887	Brain Injury
-T71	DISEASE 196943 196949	Stroke
-T72	CHEMICAL 196999 197003	lead
-T73	CHEMICAL 197043 197047	zinc
-T74	CHEMICAL 197088 197091	DNA
+T70	disease 196875 196887	Brain Injury
+T71	disease 196943 196949	Stroke
+T72	chemical 196999 197003	lead
+T73	chemical 197043 197047	zinc
+T74	chemical 197088 197091	DNA
 T75	missed_disease 197088 197098	DNA damage
-T76	DISEASE 197100 197105	blood
+T76	disease 197100 197105	blood
 T77	corrected_disease 197100 197121	blood cell aberration
-T78	CHEMICAL 197126 197135	oxidative
+T78	chemical 197126 197135	oxidative
 T79	missed_disease 197126 197142	oxidative stress
-T80	CHEMICAL 197153 197157	lead
-T81	DISEASE 197201 197206	blood
-T82	CHEMICAL 197275 197282	calcium
-T83	CHEMICAL 197291 197302	antagonists
-T84	CHEMICAL 197304 197315	angiotensin
-T85	CHEMICAL 197327 197333	enzyme
-T86	CHEMICAL 197327 197344	enzyme inhibitors
-T87	CHEMICAL 197350 197360	inhibitors
-T88	CHEMICAL 197460 197465	lipid
-T89	CHEMICAL 197466 197478	peroxidation
-T90	DISEASE 197510 197525	atherosclerosis
-T91	DISEASE 197529 197553	type 2 diabetes mellitus
+T80	chemical 197153 197157	lead
+T81	disease 197201 197206	blood
+T82	chemical 197275 197282	calcium
+T83	chemical 197291 197302	antagonists
+T84	chemical 197304 197315	angiotensin
+T85	chemical 197327 197333	enzyme
+T86	chemical 197327 197344	enzyme inhibitors
+T87	chemical 197350 197360	inhibitors
+T88	chemical 197460 197465	lipid
+T89	chemical 197466 197478	peroxidation
+T90	disease 197510 197525	atherosclerosis
+T91	disease 197529 197553	type 2 diabetes mellitus
 R1	FIXME Arg1:T43 Arg2:T47
 R2	FIXME Arg1:T45 Arg2:T47
 R3	treats Arg1:T67 Arg2:T70

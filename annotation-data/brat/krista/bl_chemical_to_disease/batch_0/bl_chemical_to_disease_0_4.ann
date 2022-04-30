@@ -1,57 +1,57 @@
-T1	CHEMICAL 13 20	Silicon
-T2	DISEASE 33 52	Ocular Hypertension
-T3	DISEASE 114 138	type 2 diabetes mellitus
+T1	chemical 13 20	Silicon
+T2	disease 33 52	Ocular Hypertension
+T3	disease 114 138	type 2 diabetes mellitus
 T4	missed_disease 140 145	T2DM)
-T5	CHEMICAL 202 211	metformin
-T6	DISEASE 327 333	cancer
-T7	CHEMICAL 334 341	biology
-T8	CHEMICAL 446 449	DNA
-T9	DISEASE 480 483	CMT
-T10	DISEASE 524 529	PMP22
-T11	DISEASE 592 602	dependence
-T12	CHEMICAL 696 709	nanoparticles
-T13	CHEMICAL 832 845	nanoparticles
-T14	DISEASE 896 924	follicular thyroid carcinoma
-T15	CHEMICAL 907 914	thyroid
-T16	CHEMICAL 1057 1067	biological
-T17	DISEASE 1108 1111	UIP
-T18	DISEASE 1138 1156	Systemic sclerosis
-T19	CHEMICAL 1158 1161	SSc
-T20	DISEASE 1158 1161	SSc
-T21	DISEASE 1168 1172	rare
-T22	DISEASE 1173 1191	autoimmune disease
-T23	DISEASE 1314 1319	tumor
-T24	DISEASE 1394 1399	blood
-T25	CHEMICAL 1400 1407	glucose
-T26	CHEMICAL 1451 1456	group
-T27	CHEMICAL 1495 1500	group
-T28	DISEASE 1671 1675	PCOS
-T29	CHEMICAL 1722 1728	-label
-T30	CHEMICAL 1772 1781	aspartate
-T31	DISEASE 1873 1876	men
-T32	CHEMICAL 1927 1933	oxygen
-T33	DISEASE 1954 1957	air
-T34	CHEMICAL 2033 2040	protein
-T35	DISEASE 2153 2156	IBD
+T5	chemical 202 211	metformin
+T6	disease 327 333	cancer
+T7	chemical 334 341	biology
+T8	chemical 446 449	DNA
+T9	disease 480 483	CMT
+T10	disease 524 529	PMP22
+T11	disease 592 602	dependence
+T12	chemical 696 709	nanoparticles
+T13	chemical 832 845	nanoparticles
+T14	disease 896 924	follicular thyroid carcinoma
+T15	chemical 907 914	thyroid
+T16	chemical 1057 1067	biological
+T17	disease 1108 1111	UIP
+T18	disease 1138 1156	Systemic sclerosis
+T19	chemical 1158 1161	SSc
+T20	disease 1158 1161	SSc
+T21	disease 1168 1172	rare
+T22	disease 1173 1191	autoimmune disease
+T23	disease 1314 1319	tumor
+T24	disease 1394 1399	blood
+T25	chemical 1400 1407	glucose
+T26	chemical 1451 1456	group
+T27	chemical 1495 1500	group
+T28	disease 1671 1675	PCOS
+T29	chemical 1722 1728	-label
+T30	chemical 1772 1781	aspartate
+T31	disease 1873 1876	men
+T32	chemical 1927 1933	oxygen
+T33	disease 1954 1957	air
+T34	chemical 2033 2040	protein
+T35	disease 2153 2156	IBD
 T36	corrected_chemical 2207 2221	ATR inhibitors
-T37	CHEMICAL 2211 2221	inhibitors
-T38	CHEMICAL 2271 2280	cisplatin
-T39	DISEASE 2305 2318	breast cancer
-T40	DISEASE 2507 2512	E-ALS
-T41	CHEMICAL 2513 2518	group
-T42	CHEMICAL 2545 2550	group
-T43	DISEASE 2668 2688	diabetic nephropathy
-T44	CHEMICAL 2741 2746	group
-T45	DISEASE 2829 2832	EDs
-T46	DISEASE 2870 2878	diabetes
-T47	CHEMICAL 2883 2888	HbA1c
+T37	chemical 2211 2221	inhibitors
+T38	chemical 2271 2280	cisplatin
+T39	disease 2305 2318	breast cancer
+T40	disease 2507 2512	E-ALS
+T41	chemical 2513 2518	group
+T42	chemical 2545 2550	group
+T43	disease 2668 2688	diabetic nephropathy
+T44	chemical 2741 2746	group
+T45	disease 2829 2832	EDs
+T46	disease 2870 2878	diabetes
+T47	chemical 2883 2888	HbA1c
 T48	missed_chemical 3027 3039	thymoquinone
 T49	missed_chemical 3041 3043	TQ
 T50	corrected_disease 3075 3087	renal injury
-T51	DISEASE 3081 3087	injury
-T52	CHEMICAL 3095 3103	amikacin
-T53	DISEASE 3209 3218	condition
-T54	CHEMICAL 3312 3318	Arg-II
+T51	disease 3081 3087	injury
+T52	chemical 3095 3103	amikacin
+T53	disease 3209 3218	condition
+T54	chemical 3312 3318	Arg-II
 R1	treats Arg1:T36 Arg2:T39
 R2	treats Arg1:T38 Arg2:T39
 R3	treats Arg1:T49 Arg2:T50

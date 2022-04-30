@@ -1,81 +1,81 @@
-T1	DISEASE 60 65	tumor
+T1	disease 60 65	tumor
 T2	UNKNOWN 179 185	immune
 T3	corrected_chemical 179 207	immune checkpoint inhibitors
-T4	CHEMICAL 197 207	inhibitors
-T5	CHEMICAL 413 416	NPC
-T6	DISEASE 413 416	NPC
-T7	DISEASE 565 571	injury
-T8	CHEMICAL 604 619	dextran sulfate
-T9	CHEMICAL 620 634	sodium-induced
-T10	DISEASE 635 642	colitis
-T11	CHEMICAL 682 695	imidazolidine
-T12	CHEMICAL 707 758	3-(2-chloro-6-fluorobenzyl)-imidazolidine-2,4-dione
-T13	CHEMICAL 795 802	agonist
-T14	DISEASE 912 925	schizophrenia
-T15	CHEMICAL 1034 1043	glutamate
-T16	DISEASE 1109 1112	HCl
-T17	CHEMICAL 1114 1121	benzene
-T18	CHEMICAL 1126 1133	toluene
-T19	CHEMICAL 1231 1242	fidaxomicin
-T20	DISEASE 1268 1271	CDI
-T21	CHEMICAL 1319 1330	fidaxomicin
-T22	CHEMICAL 1368 1379	fidaxomicin
-T23	DISEASE 1423 1431	acquired
-T24	DISEASE 1445 1453	disorder
-T25	DISEASE 1577 1581	rare
-T26	DISEASE 1600 1636	idiopathic intracranial hypertension
-T27	DISEASE 1702 1709	disease
-T28	DISEASE 1742 1778	idiopathic intracranial hypertension
-T29	CHEMICAL 1802 1807	group
-T30	CHEMICAL 1920 1925	group
-T31	CHEMICAL 1952 1960	Adjuvant
-T32	DISEASE 2095 2107	glioblastoma
-T33	CHEMICAL 2223 2232	molecular
-T34	DISEASE 2263 2273	infectious
-T35	DISEASE 2274 2282	diseases
-T36	CHEMICAL 2301 2311	Hemoglobin
-T37	CHEMICAL 2317 2322	HbA1c
-T38	DISEASE 2356 2368	hypoglycemia
-T39	DISEASE 2373 2386	hyperglycemia
-T40	CHEMICAL 2555 2564	phenolics
-T41	DISEASE 2614 2623	condition
-T42	CHEMICAL 2695 2698	RNA
-T43	CHEMICAL 2711 2718	RNA-Seq
-T44	DISEASE 2741 2761	colon adenocarcinoma
-T45	DISEASE 2786 2792	Cancer
-T46	CHEMICAL 2831 2850	L-cysteine/hydrogen
-T47	CHEMICAL 2831 2858	L-cysteine/hydrogen sulfide
-T48	DISEASE 2961 2981	erectile dysfunction
-T49	CHEMICAL 3091 3094	DNA
-T50	CHEMICAL 3096 3118	interferon-γ-inducible
-T51	CHEMICAL 3119 3126	protein
-T52	CHEMICAL 3149 3156	GMP-AMP
-T53	DISEASE 3188 3192	PRRs
-T54	CHEMICAL 3249 3256	antigen
-T55	CHEMICAL 3303 3310	antigen
-T56	DISEASE 3314 3319	blood
-T57	CHEMICAL 3342 3347	group
-T58	DISEASE 3353 3361	diabetes
-T59	CHEMICAL 3436 3455	palmitoyl-carnitine
-T60	DISEASE 3477 3482	blood
-T61	CHEMICAL 3483 3490	glucose
-T62	CHEMICAL 3539 3548	oxidation
-T63	CHEMICAL 3552 3560	pyruvate
-T64	CHEMICAL 3816 3828	disinfection
-T65	DISEASE 3830 3833	HLD
+T4	chemical 197 207	inhibitors
+T5	chemical 413 416	NPC
+T6	disease 413 416	NPC
+T7	disease 565 571	injury
+T8	chemical 604 619	dextran sulfate
+T9	chemical 620 634	sodium-induced
+T10	disease 635 642	colitis
+T11	chemical 682 695	imidazolidine
+T12	chemical 707 758	3-(2-chloro-6-fluorobenzyl)-imidazolidine-2,4-dione
+T13	chemical 795 802	agonist
+T14	disease 912 925	schizophrenia
+T15	chemical 1034 1043	glutamate
+T16	disease 1109 1112	HCl
+T17	chemical 1114 1121	benzene
+T18	chemical 1126 1133	toluene
+T19	chemical 1231 1242	fidaxomicin
+T20	disease 1268 1271	CDI
+T21	chemical 1319 1330	fidaxomicin
+T22	chemical 1368 1379	fidaxomicin
+T23	disease 1423 1431	acquired
+T24	disease 1445 1453	disorder
+T25	disease 1577 1581	rare
+T26	disease 1600 1636	idiopathic intracranial hypertension
+T27	disease 1702 1709	disease
+T28	disease 1742 1778	idiopathic intracranial hypertension
+T29	chemical 1802 1807	group
+T30	chemical 1920 1925	group
+T31	chemical 1952 1960	Adjuvant
+T32	disease 2095 2107	glioblastoma
+T33	chemical 2223 2232	molecular
+T34	disease 2263 2273	infectious
+T35	disease 2274 2282	diseases
+T36	chemical 2301 2311	Hemoglobin
+T37	chemical 2317 2322	HbA1c
+T38	disease 2356 2368	hypoglycemia
+T39	disease 2373 2386	hyperglycemia
+T40	chemical 2555 2564	phenolics
+T41	disease 2614 2623	condition
+T42	chemical 2695 2698	RNA
+T43	chemical 2711 2718	RNA-Seq
+T44	disease 2741 2761	colon adenocarcinoma
+T45	disease 2786 2792	Cancer
+T46	chemical 2831 2850	L-cysteine/hydrogen
+T47	chemical 2831 2858	L-cysteine/hydrogen sulfide
+T48	disease 2961 2981	erectile dysfunction
+T49	chemical 3091 3094	DNA
+T50	chemical 3096 3118	interferon-γ-inducible
+T51	chemical 3119 3126	protein
+T52	chemical 3149 3156	GMP-AMP
+T53	disease 3188 3192	PRRs
+T54	chemical 3249 3256	antigen
+T55	chemical 3303 3310	antigen
+T56	disease 3314 3319	blood
+T57	chemical 3342 3347	group
+T58	disease 3353 3361	diabetes
+T59	chemical 3436 3455	palmitoyl-carnitine
+T60	disease 3477 3482	blood
+T61	chemical 3483 3490	glucose
+T62	chemical 3539 3548	oxidation
+T63	chemical 3552 3560	pyruvate
+T64	chemical 3816 3828	disinfection
+T65	disease 3830 3833	HLD
 T66	corrected_disease 3920 3939	metabolic disorders
-T67	DISEASE 3930 3939	disorders
-T68	DISEASE 3956 3963	obesity
-T69	DISEASE 3965 3980	type 2 diabetes
-T70	DISEASE 3993 4026	non-alcoholic fatty liver disease
-T71	CHEMICAL 4007 4012	fatty
-T72	CHEMICAL 4055 4062	glycine
-T73	CHEMICAL 4179 4186	glycine
-T74	DISEASE 4283 4286	ASD
-T75	CHEMICAL 4302 4307	group
-T76	CHEMICAL 4451 4456	group
-T77	DISEASE 4470 4473	ASD
-T78	CHEMICAL 4474 4479	group
+T67	disease 3930 3939	disorders
+T68	disease 3956 3963	obesity
+T69	disease 3965 3980	type 2 diabetes
+T70	disease 3993 4026	non-alcoholic fatty liver disease
+T71	chemical 4007 4012	fatty
+T72	chemical 4055 4062	glycine
+T73	chemical 4179 4186	glycine
+T74	disease 4283 4286	ASD
+T75	chemical 4302 4307	group
+T76	chemical 4451 4456	group
+T77	disease 4470 4473	ASD
+T78	chemical 4474 4479	group
 R1	treats Arg1:T73 Arg2:T66
 R2	treats Arg1:T3 Arg2:T1
 R3	treats Arg1:T12 Arg2:T14

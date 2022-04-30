@@ -1,74 +1,74 @@
-T1	CHEMICAL 50 66	prostaglandin E2
-T2	CHEMICAL 139 151	carbohydrate
-T3	CHEMICAL 152 159	antigen
-T4	DISEASE 213 230	mucinous neoplasm
-T5	DISEASE 232 237	IPMN)
-T6	CHEMICAL 264 274	biomarkers
+T1	chemical 50 66	prostaglandin E2
+T2	chemical 139 151	carbohydrate
+T3	chemical 152 159	antigen
+T4	disease 213 230	mucinous neoplasm
+T5	disease 232 237	IPMN)
+T6	chemical 264 274	biomarkers
 T7	missed_disease 299 312	Lung fibrosis
-T8	DISEASE 339 345	cancer
-T9	CHEMICAL 366 375	bleomycin
+T8	disease 339 345	cancer
+T9	chemical 366 375	bleomycin
 T10	missed_chemical 377 381	BLM)
-T11	DISEASE 438 478	idiopathic thrombocytopenic purpura(ITP)
-T12	DISEASE 466 478	purpura(ITP)
-T13	CHEMICAL 466 478	purpura(ITP)
-T14	DISEASE 480 491	hepatitis B
-T15	DISEASE 497 514	diabetes mellitus
-T16	CHEMICAL 533 544	Scutellarin
-T17	DISEASE 581 595	osteoarthritis
-T18	CHEMICAL 690 693	MET
-T19	DISEASE 717 726	intrinsic
-T20	CHEMICAL 763 771	tyrosine
-T21	CHEMICAL 763 789	tyrosine kinase inhibitors
-T22	DISEASE 872 899	inherited retinal dystrophy
-T23	CHEMICAL 882 889	retinal
-T24	DISEASE 901 904	IRD
-T25	CHEMICAL 1007 1016	retinitis
-T26	DISEASE 1007 1027	retinitis pigmentosa
-T27	CHEMICAL 1080 1094	glucocorticoid
-T28	DISEASE 1210 1219	infection
-T29	CHEMICAL 1398 1403	group
-T30	CHEMICAL 1411 1416	group
-T31	CHEMICAL 1434 1439	group
-T32	CHEMICAL 1447 1452	group
-T33	DISEASE 1487 1507	diabetic nephropathy
-T34	DISEASE 1709 1719	mono-modal
-T35	CHEMICAL 1725 1736	hydrocarbon
-T36	CHEMICAL 1823 1838	methamphetamine
-T37	DISEASE 1877 1891	skin infection
+T11	disease 438 478	idiopathic thrombocytopenic purpura(ITP)
+T12	disease 466 478	purpura(ITP)
+T13	chemical 466 478	purpura(ITP)
+T14	disease 480 491	hepatitis B
+T15	disease 497 514	diabetes mellitus
+T16	chemical 533 544	Scutellarin
+T17	disease 581 595	osteoarthritis
+T18	chemical 690 693	MET
+T19	disease 717 726	intrinsic
+T20	chemical 763 771	tyrosine
+T21	chemical 763 789	tyrosine kinase inhibitors
+T22	disease 872 899	inherited retinal dystrophy
+T23	chemical 882 889	retinal
+T24	disease 901 904	IRD
+T25	chemical 1007 1016	retinitis
+T26	disease 1007 1027	retinitis pigmentosa
+T27	chemical 1080 1094	glucocorticoid
+T28	disease 1210 1219	infection
+T29	chemical 1398 1403	group
+T30	chemical 1411 1416	group
+T31	chemical 1434 1439	group
+T32	chemical 1447 1452	group
+T33	disease 1487 1507	diabetic nephropathy
+T34	disease 1709 1719	mono-modal
+T35	chemical 1725 1736	hydrocarbon
+T36	chemical 1823 1838	methamphetamine
+T37	disease 1877 1891	skin infection
 T38	corrected_chemical 1904 1918	injection drug
-T39	CHEMICAL 1914 1918	drug
-T40	DISEASE 1942 1946	MRSA
-T41	CHEMICAL 2044 2051	protein
-T42	DISEASE 2159 2164	Hsp70
-T43	CHEMICAL 2195 2205	kaempferol
-T44	CHEMICAL 2254 2261	protein
-T45	CHEMICAL 2392 2399	protein
-T46	DISEASE 2431 2437	cancer
-T47	CHEMICAL 2462 2499	Non-steroidal anti-inflammatory drugs
+T39	chemical 1914 1918	drug
+T40	disease 1942 1946	MRSA
+T41	chemical 2044 2051	protein
+T42	disease 2159 2164	Hsp70
+T43	chemical 2195 2205	kaempferol
+T44	chemical 2254 2261	protein
+T45	chemical 2392 2399	protein
+T46	disease 2431 2437	cancer
+T47	chemical 2462 2499	Non-steroidal anti-inflammatory drugs
 T48	missed_chemical 2501 2507	NSAIDs
 T49	missed_chemical 2520 2527	aspirin
-T50	DISEASE 2605 2616	lung cancer
-T51	CHEMICAL 2684 2694	spermidine
+T50	disease 2605 2616	lung cancer
+T51	chemical 2684 2694	spermidine
 T52	corrected_disease 2726 2743	hepatic IR injury
-T53	DISEASE 2737 2743	injury
-T54	DISEASE 2856 2859	EDS
-T55	CHEMICAL 2864 2872	collagen
-T56	CHEMICAL 2947 2955	collagen
-T57	CHEMICAL 3000 3005	Lipid
-T58	DISEASE 3043 3046	Ion
-T59	CHEMICAL 3043 3046	Ion
-T60	DISEASE 3148 3162	osteoarthritis
-T61	CHEMICAL 3181 3191	hemoglobin
-T62	DISEASE 3225 3239	CHILD syndrome
+T53	disease 2737 2743	injury
+T54	disease 2856 2859	EDS
+T55	chemical 2864 2872	collagen
+T56	chemical 2947 2955	collagen
+T57	chemical 3000 3005	Lipid
+T58	disease 3043 3046	Ion
+T59	chemical 3043 3046	Ion
+T60	disease 3148 3162	osteoarthritis
+T61	chemical 3181 3191	hemoglobin
+T62	disease 3225 3239	CHILD syndrome
 T63	missed_disease 3265 3277	skin lesions
-T64	CHEMICAL 3291 3301	lovastatin
-T65	CHEMICAL 3306 3317	cholesterol
-T66	DISEASE 3382 3397	prostate cancer
-T67	CHEMICAL 3468 3477	biomarker
-T68	DISEASE 3494 3501	disease
-T69	DISEASE 3531 3544	Encephalocele
-T70	DISEASE 3571 3583	birth defect
-T71	CHEMICAL 3593 3597	lead
+T64	chemical 3291 3301	lovastatin
+T65	chemical 3306 3317	cholesterol
+T66	disease 3382 3397	prostate cancer
+T67	chemical 3468 3477	biomarker
+T68	disease 3494 3501	disease
+T69	disease 3531 3544	Encephalocele
+T70	disease 3571 3583	birth defect
+T71	chemical 3593 3597	lead
 R1	treats Arg1:T47 Arg2:T50
 R2	causes Arg1:T38 Arg2:T40
 R3	treats Arg1:T64 Arg2:T62

@@ -1,83 +1,83 @@
-T1	DISEASE 95991 95994	air
-T2	DISEASE 96049 96064	redox-sensitive
-T3	CHEMICAL 96085 96096	angiotensin
-T4	DISEASE 96149 96154	blood
-T5	CHEMICAL 96223 96231	proteins
-T6	DISEASE 96261 96266	blood
-T7	CHEMICAL 96288 96293	group
-T8	DISEASE 96396 96399	HCl
-T9	DISEASE 96408 96416	ion-pair
-T10	CHEMICAL 96408 96416	ion-pair
-T11	CHEMICAL 96440 96448	chloride
-T12	CHEMICAL 96449 96453	ions
-T13	CHEMICAL 96467 96471	gold
-T14	CHEMICAL 96495 96503	nitrogen
-T15	CHEMICAL 96514 96523	pteridine
-T16	CHEMICAL 96537 96554	γ-carboxylic acid
-T17	CHEMICAL 96562 96575	glutamic acid
-T18	CHEMICAL 96647 96650	RNA
-T19	CHEMICAL 96679 96690	AMP/RNA-seq
-T20	DISEASE 96911 96918	sarcoma
-T21	CHEMICAL 96937 96948	AMP/RNA-seq
-T22	DISEASE 96959 96975	disease-defining
-T23	DISEASE 97004 97039	undifferentiated round cell sarcoma
-T24	CHEMICAL 97283 97286	ion
-T25	DISEASE 97283 97286	ion
+T1	disease 95991 95994	air
+T2	disease 96049 96064	redox-sensitive
+T3	chemical 96085 96096	angiotensin
+T4	disease 96149 96154	blood
+T5	chemical 96223 96231	proteins
+T6	disease 96261 96266	blood
+T7	chemical 96288 96293	group
+T8	disease 96396 96399	HCl
+T9	disease 96408 96416	ion-pair
+T10	chemical 96408 96416	ion-pair
+T11	chemical 96440 96448	chloride
+T12	chemical 96449 96453	ions
+T13	chemical 96467 96471	gold
+T14	chemical 96495 96503	nitrogen
+T15	chemical 96514 96523	pteridine
+T16	chemical 96537 96554	γ-carboxylic acid
+T17	chemical 96562 96575	glutamic acid
+T18	chemical 96647 96650	RNA
+T19	chemical 96679 96690	AMP/RNA-seq
+T20	disease 96911 96918	sarcoma
+T21	chemical 96937 96948	AMP/RNA-seq
+T22	disease 96959 96975	disease-defining
+T23	disease 97004 97039	undifferentiated round cell sarcoma
+T24	chemical 97283 97286	ion
+T25	disease 97283 97286	ion
 T26	corrected_disease 97402 97429	malignant testicular cancer
-T27	DISEASE 97412 97429	testicular cancer
-T28	CHEMICAL 97473 97481	chemical
+T27	disease 97412 97429	testicular cancer
+T28	chemical 97473 97481	chemical
 T29	corrected_chemical 97473 97487	chemical drugs
-T30	CHEMICAL 97506 97515	6-Shogaol
-T31	CHEMICAL 97527 97559	2-Amino-1-Methyl-6-Phenylimidazo
+T30	chemical 97506 97515	6-Shogaol
+T31	chemical 97527 97559	2-Amino-1-Methyl-6-Phenylimidazo
 T32	corrected_chemical 97527 97576	2-Amino-1-Methyl-6-Phenylimidazo [4,5-b] Pyridine
-T33	CHEMICAL 97568 97576	Pyridine
-T34	CHEMICAL 97578 97591	PhIP)-Induced
-T35	DISEASE 97604 97624	Renal Cell Carcinoma
+T33	chemical 97568 97576	Pyridine
+T34	chemical 97578 97591	PhIP)-Induced
+T35	disease 97604 97624	Renal Cell Carcinoma
 T36	missed_disease 97655 97665	Metastatic
-T37	CHEMICAL 97709 97712	RNA
-T38	DISEASE 97776 97779	HCC
-T39	CHEMICAL 97820 97824	IGF2
-T40	DISEASE 97926 97936	depression
-T41	CHEMICAL 97973 97976	DNA
-T42	CHEMICAL 97977 97988	methylation
-T43	DISEASE 98075 98092	diabetes mellitus
-T44	DISEASE 98118 98135	diabetes mellitus
-T45	CHEMICAL 98136 98141	group
-T46	DISEASE 98192 98209	diabetes mellitus
-T47	CHEMICAL 98238 98243	group
-T48	DISEASE 98316 98334	multiple sclerosis
+T37	chemical 97709 97712	RNA
+T38	disease 97776 97779	HCC
+T39	chemical 97820 97824	IGF2
+T40	disease 97926 97936	depression
+T41	chemical 97973 97976	DNA
+T42	chemical 97977 97988	methylation
+T43	disease 98075 98092	diabetes mellitus
+T44	disease 98118 98135	diabetes mellitus
+T45	chemical 98136 98141	group
+T46	disease 98192 98209	diabetes mellitus
+T47	chemical 98238 98243	group
+T48	disease 98316 98334	multiple sclerosis
 T49	corrected_chemical 98384 98402	glatiramer acetate
-T50	CHEMICAL 98395 98402	acetate
+T50	chemical 98395 98402	acetate
 T51	missed_chemical 98410 98412	GA
 T52	missed_chemical 98428 98442	interferon β1a
 T53	missed_chemical 98470 98484	interferon β1a
 T54	missed_chemical 98514 98528	interferon β1b
-T55	CHEMICAL 98634 98648	small-molecule
+T55	chemical 98634 98648	small-molecule
 T56	corrected_chemical 98634 98658	small-molecule inhibitor
-T57	CHEMICAL 98649 98658	inhibitor
-T58	DISEASE 98719 98738	lung adenocarcinoma
-T59	DISEASE 98805 98820	SHIV-1157ipd3N4
-T60	DISEASE 98821 98830	infection
-T61	DISEASE 98857 98866	localized
-T62	CHEMICAL 98917 98925	SHIV-RNA
-T63	CHEMICAL 99035 99045	rifampicin
-T64	DISEASE 99083 99105	pulmonary tuberculosis
-T65	CHEMICAL 99157 99170	pro-apoptotic
-T66	DISEASE 99290 99293	APS
-T67	DISEASE 99399 99408	intrinsic
-T68	CHEMICAL 99448 99456	nitrogen
-T69	CHEMICAL 99460 99488	α-diazo-β-ketoesters/ketones
-T70	CHEMICAL 99593 99598	ylide
-T71	CHEMICAL 99690 99696	carbon
-T72	DISEASE 99731 99737	common
-T73	CHEMICAL 99751 99764	ethanol-flame
+T57	chemical 98649 98658	inhibitor
+T58	disease 98719 98738	lung adenocarcinoma
+T59	disease 98805 98820	SHIV-1157ipd3N4
+T60	disease 98821 98830	infection
+T61	disease 98857 98866	localized
+T62	chemical 98917 98925	SHIV-RNA
+T63	chemical 99035 99045	rifampicin
+T64	disease 99083 99105	pulmonary tuberculosis
+T65	chemical 99157 99170	pro-apoptotic
+T66	disease 99290 99293	APS
+T67	disease 99399 99408	intrinsic
+T68	chemical 99448 99456	nitrogen
+T69	chemical 99460 99488	α-diazo-β-ketoesters/ketones
+T70	chemical 99593 99598	ylide
+T71	chemical 99690 99696	carbon
+T72	disease 99731 99737	common
+T73	chemical 99751 99764	ethanol-flame
 T74	missed_chemical 99890 99899	rituximab
-T75	DISEASE 99918 99922	ITP.
-T76	CHEMICAL 100121 100126	lipid
-T77	DISEASE 100166 100175	infection
-T78	CHEMICAL 100281 100290	glutamine
-T79	CHEMICAL 100295 100304	glutamate
-T80	DISEASE 100354 100362	migraine
+T75	disease 99918 99922	ITP.
+T76	chemical 100121 100126	lipid
+T77	disease 100166 100175	infection
+T78	chemical 100281 100290	glutamine
+T79	chemical 100295 100304	glutamate
+T80	disease 100354 100362	migraine
 R1	treats Arg1:T54 Arg2:T48
 R2	treats Arg1:T30 Arg2:T35
 R3	treats Arg1:T30 Arg2:T36

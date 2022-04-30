@@ -1,73 +1,73 @@
-T1	DISEASE 193571 193590	influenza-selective
-T2	CHEMICAL 193636 193641	lipid
-T3	CHEMICAL 193664 193672	proteins
-T4	CHEMICAL 193847 193852	water
-T5	DISEASE 193853 193864	sensitivity
-T6	CHEMICAL 193933 193938	fatty
-T7	CHEMICAL 193943 193961	dicarboxylic acids
-T8	CHEMICAL 194010 194015	metal
-T9	CHEMICAL 194050 194063	between-group
-T10	DISEASE 194162 194170	insomnia
-T11	CHEMICAL 194254 194263	inhibitor
-T12	CHEMICAL 194292 194296	lead
-T13	DISEASE 194419 194425	cancer
-T14	DISEASE 194436 194444	diseases
-T15	CHEMICAL 194564 194567	fat
-T16	CHEMICAL 194600 194603	fat
-T17	DISEASE 194615 194619	SFT)
-T18	CHEMICAL 194638 194649	Rivaroxaban
+T1	disease 193571 193590	influenza-selective
+T2	chemical 193636 193641	lipid
+T3	chemical 193664 193672	proteins
+T4	chemical 193847 193852	water
+T5	disease 193853 193864	sensitivity
+T6	chemical 193933 193938	fatty
+T7	chemical 193943 193961	dicarboxylic acids
+T8	chemical 194010 194015	metal
+T9	chemical 194050 194063	between-group
+T10	disease 194162 194170	insomnia
+T11	chemical 194254 194263	inhibitor
+T12	chemical 194292 194296	lead
+T13	disease 194419 194425	cancer
+T14	disease 194436 194444	diseases
+T15	chemical 194564 194567	fat
+T16	chemical 194600 194603	fat
+T17	disease 194615 194619	SFT)
+T18	chemical 194638 194649	Rivaroxaban
 T19	corrected_disease 194670 194706	upper extremity deep vein thrombosis
-T20	DISEASE 194696 194706	thrombosis
-T21	DISEASE 194820 194830	fed/fasted
-T22	DISEASE 194835 194845	fed/fasted
-T23	CHEMICAL 194863 194870	ghrelin
-T24	CHEMICAL 194874 194880	leptin
-T25	CHEMICAL 194928 194949	high-fat/high-sucrose
-T26	CHEMICAL 195005 195008	Pap
-T27	DISEASE 195022 195049	endocervical adenocarcinoma
-T28	DISEASE 195035 195057	adenocarcinoma in situ
-T29	CHEMICAL 195076 195087	Lipoprotein
-T30	DISEASE 195121 195136	atherosclerosis
-T31	DISEASE 195153 195156	IRD
-T32	DISEASE 195175 195198	coronary artery disease
-T33	DISEASE 195200 195203	CAD
-T34	CHEMICAL 195258 195261	ATP
-T35	DISEASE 195351 195370	bacterial infection
-T36	CHEMICAL 195439 195454	phosphorylation
-T37	DISEASE 195566 195569	Fas
-T38	CHEMICAL 195570 195577	protein
-T39	CHEMICAL 195596 195599	ion
-T40	DISEASE 195596 195599	ion
+T20	disease 194696 194706	thrombosis
+T21	disease 194820 194830	fed/fasted
+T22	disease 194835 194845	fed/fasted
+T23	chemical 194863 194870	ghrelin
+T24	chemical 194874 194880	leptin
+T25	chemical 194928 194949	high-fat/high-sucrose
+T26	chemical 195005 195008	Pap
+T27	disease 195022 195049	endocervical adenocarcinoma
+T28	disease 195035 195057	adenocarcinoma in situ
+T29	chemical 195076 195087	Lipoprotein
+T30	disease 195121 195136	atherosclerosis
+T31	disease 195153 195156	IRD
+T32	disease 195175 195198	coronary artery disease
+T33	disease 195200 195203	CAD
+T34	chemical 195258 195261	ATP
+T35	disease 195351 195370	bacterial infection
+T36	chemical 195439 195454	phosphorylation
+T37	disease 195566 195569	Fas
+T38	chemical 195570 195577	protein
+T39	chemical 195596 195599	ion
+T40	disease 195596 195599	ion
 T41	missed_chemical 195680 195692	Compounds 4a
-T42	DISEASE 195744 195749	blood
-T43	CHEMICAL 195750 195757	glucose
+T42	disease 195744 195749	blood
+T43	chemical 195750 195757	glucose
 T44	missed_disease 195791 195799	diabetic
-T45	CHEMICAL 196027 196030	ion
-T46	DISEASE 196027 196030	ion
-T47	CHEMICAL 196072 196078	saline
-T48	DISEASE 196128 196149	primary aldosteronism
-T49	CHEMICAL 196136 196149	aldosteronism
-T50	DISEASE 196206 196212	cancer
+T45	chemical 196027 196030	ion
+T46	disease 196027 196030	ion
+T47	chemical 196072 196078	saline
+T48	disease 196128 196149	primary aldosteronism
+T49	chemical 196136 196149	aldosteronism
+T50	disease 196206 196212	cancer
 T51	missed_disease 196253 196257	pain
-T52	CHEMICAL 196279 196289	analgesics
-T53	CHEMICAL 196349 196356	protein
-T54	DISEASE 196361 196366	HSP90
-T55	DISEASE 196397 196416	lung adenocarcinoma
-T56	CHEMICAL 196432 196439	protein
-T57	CHEMICAL 196544 196556	protein-like
-T58	CHEMICAL 196557 196565	protein4
-T59	DISEASE 196586 196594	lymphoma
-T60	DISEASE 196657 196662	HSP90
-T61	CHEMICAL 196657 196673	HSP90 inhibitors
-T62	DISEASE 196715 196734	lung adenocarcinoma
-T63	DISEASE 196767 196784	diabetes mellitus
-T64	CHEMICAL 196844 196864	prednisolone acetate
-T65	CHEMICAL 196872 196889	diclofenac sodium
-T66	DISEASE 196918 196930	lnc‑PKD2‑2‑3
-T67	CHEMICAL 197069 197073	drug
-T68	CHEMICAL 197234 197242	collagen
-T69	DISEASE 197297 197306	intrinsic
-T70	CHEMICAL 197371 197384	proteoglycans
+T52	chemical 196279 196289	analgesics
+T53	chemical 196349 196356	protein
+T54	disease 196361 196366	HSP90
+T55	disease 196397 196416	lung adenocarcinoma
+T56	chemical 196432 196439	protein
+T57	chemical 196544 196556	protein-like
+T58	chemical 196557 196565	protein4
+T59	disease 196586 196594	lymphoma
+T60	disease 196657 196662	HSP90
+T61	chemical 196657 196673	HSP90 inhibitors
+T62	disease 196715 196734	lung adenocarcinoma
+T63	disease 196767 196784	diabetes mellitus
+T64	chemical 196844 196864	prednisolone acetate
+T65	chemical 196872 196889	diclofenac sodium
+T66	disease 196918 196930	lnc‑PKD2‑2‑3
+T67	chemical 197069 197073	drug
+T68	chemical 197234 197242	collagen
+T69	disease 197297 197306	intrinsic
+T70	chemical 197371 197384	proteoglycans
 R1	treats Arg1:T18 Arg2:T19
 R2	treats Arg1:T61 Arg2:T62
 R3	treats Arg1:T52 Arg2:T51

@@ -1,63 +1,63 @@
-T1	CHEMICAL 96055 96063	effector
+T1	chemical 96055 96063	effector
 T2	corrected_chemical 96055 96073	effector molecules
-T3	DISEASE 96122 96129	disease
-T4	CHEMICAL 96240 96245	group
-T5	DISEASE 96272 96277	tumor
-T6	CHEMICAL 96579 96588	molecular
-T7	DISEASE 96599 96605	Hsp90α
-T8	CHEMICAL 96624 96631	retinal
-T9	DISEASE 96624 96644	retinal degeneration
-T10	DISEASE 96751 96760	intrinsic
-T11	CHEMICAL 96777 96787	tryptophan
-T12	CHEMICAL 96803 96811	proteins
-T13	DISEASE 96921 96936	Type 1 diabetes
-T14	CHEMICAL 96968 96975	alloxan
+T3	disease 96122 96129	disease
+T4	chemical 96240 96245	group
+T5	disease 96272 96277	tumor
+T6	chemical 96579 96588	molecular
+T7	disease 96599 96605	Hsp90α
+T8	chemical 96624 96631	retinal
+T9	disease 96624 96644	retinal degeneration
+T10	disease 96751 96760	intrinsic
+T11	chemical 96777 96787	tryptophan
+T12	chemical 96803 96811	proteins
+T13	disease 96921 96936	Type 1 diabetes
+T14	chemical 96968 96975	alloxan
 T15	corrected_chemical 96968 96987	alloxan monohydrate
-T16	CHEMICAL 97271 97278	sedated
-T17	DISEASE 97312 97331	respiratory disease
-T18	CHEMICAL 97389 97392	TTP
-T19	DISEASE 97389 97392	TTP
-T20	CHEMICAL 97393 97408	Phosphorylation
-T21	DISEASE 97490 97519	Secondary hyperparathyroidism
-T22	CHEMICAL 97564 97573	phosphate
-T23	DISEASE 97601 97613	bone disease
-T24	CHEMICAL 97662 97667	water
-T25	DISEASE 97674 97677	PLS
-T26	CHEMICAL 97774 97778	mRNA
-T27	DISEASE 97782 97788	LIN28B
-T28	DISEASE 97806 97813	sarcoma
-T29	DISEASE 97949 97961	Constipation
-T30	CHEMICAL 97970 97974	lead
-T31	CHEMICAL 98073 98076	DNA
-T32	DISEASE 98186 98190	IDH1
-T33	CHEMICAL 98320 98329	molecular
-T34	DISEASE 98344 98348	NCMD
-T35	CHEMICAL 98480 98497	iodine-refractory
-T36	DISEASE 98498 98530	differentiated thyroid carcinoma
-T37	CHEMICAL 98513 98520	thyroid
-T38	DISEASE 98541 98580	poorly differentiated thyroid carcinoma
-T39	CHEMICAL 98563 98570	thyroid
-T40	DISEASE 98581 98609	anaplastic thyroid carcinoma
-T41	CHEMICAL 98592 98599	thyroid
-T42	DISEASE 98627 98654	medullary thyroid carcinoma
-T43	CHEMICAL 98637 98644	thyroid
-T44	DISEASE 98683 98686	Ion
-T45	CHEMICAL 98683 98686	Ion
-T46	DISEASE 98834 98846	disease-gene
-T47	DISEASE 98900 98907	ID/ASD.
-T48	CHEMICAL 98950 98955	fatty
-T49	CHEMICAL 98950 98960	fatty acid
-T50	DISEASE 98962 98965	FFA
-T51	CHEMICAL 99053 99065	triglyceride
-T52	CHEMICAL 99084 99101	hormone-sensitive
-T53	DISEASE 99084 99101	hormone-sensitive
-T54	DISEASE 99299 99311	ion-exchange
-T55	CHEMICAL 99299 99311	ion-exchange
-T56	CHEMICAL 99337 99349	Disinfectant
-T57	DISEASE 99379 99416	epidemic keratoconjunctivitis-related
-T58	CHEMICAL 99433 99442	potassium
-T59	CHEMICAL 99557 99561	mRNA
-T60	CHEMICAL 99566 99573	protein
-T61	DISEASE 99604 99608	MCL1
+T16	chemical 97271 97278	sedated
+T17	disease 97312 97331	respiratory disease
+T18	chemical 97389 97392	TTP
+T19	disease 97389 97392	TTP
+T20	chemical 97393 97408	Phosphorylation
+T21	disease 97490 97519	Secondary hyperparathyroidism
+T22	chemical 97564 97573	phosphate
+T23	disease 97601 97613	bone disease
+T24	chemical 97662 97667	water
+T25	disease 97674 97677	PLS
+T26	chemical 97774 97778	mRNA
+T27	disease 97782 97788	LIN28B
+T28	disease 97806 97813	sarcoma
+T29	disease 97949 97961	Constipation
+T30	chemical 97970 97974	lead
+T31	chemical 98073 98076	DNA
+T32	disease 98186 98190	IDH1
+T33	chemical 98320 98329	molecular
+T34	disease 98344 98348	NCMD
+T35	chemical 98480 98497	iodine-refractory
+T36	disease 98498 98530	differentiated thyroid carcinoma
+T37	chemical 98513 98520	thyroid
+T38	disease 98541 98580	poorly differentiated thyroid carcinoma
+T39	chemical 98563 98570	thyroid
+T40	disease 98581 98609	anaplastic thyroid carcinoma
+T41	chemical 98592 98599	thyroid
+T42	disease 98627 98654	medullary thyroid carcinoma
+T43	chemical 98637 98644	thyroid
+T44	disease 98683 98686	Ion
+T45	chemical 98683 98686	Ion
+T46	disease 98834 98846	disease-gene
+T47	disease 98900 98907	ID/ASD.
+T48	chemical 98950 98955	fatty
+T49	chemical 98950 98960	fatty acid
+T50	disease 98962 98965	FFA
+T51	chemical 99053 99065	triglyceride
+T52	chemical 99084 99101	hormone-sensitive
+T53	disease 99084 99101	hormone-sensitive
+T54	disease 99299 99311	ion-exchange
+T55	chemical 99299 99311	ion-exchange
+T56	chemical 99337 99349	Disinfectant
+T57	disease 99379 99416	epidemic keratoconjunctivitis-related
+T58	chemical 99433 99442	potassium
+T59	chemical 99557 99561	mRNA
+T60	chemical 99566 99573	protein
+T61	disease 99604 99608	MCL1
 R1	causes Arg1:T2 Arg2:T3
 R2	causes Arg1:T15 Arg2:T13

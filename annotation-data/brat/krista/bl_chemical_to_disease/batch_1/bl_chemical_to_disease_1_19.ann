@@ -1,66 +1,66 @@
-T1	DISEASE 96039 96045	cancer
-T2	CHEMICAL 96066 96076	biological
-T3	CHEMICAL 96137 96141	drug
-T4	CHEMICAL 96172 96177	Fatty
-T5	CHEMICAL 96172 96183	Fatty acids
-T6	DISEASE 96197 96206	sensitive
-T7	CHEMICAL 96306 96318	α-tocopherol
-T8	CHEMICAL 96319 96330	(vitamin E)
-T9	CHEMICAL 96342 96349	vitamin
-T10	CHEMICAL 96440 96443	fat
-T11	CHEMICAL 96456 96468	α-tocopherol
-T12	DISEASE 96483 96501	obesity-associated
-T13	CHEMICAL 96577 96590	α-tocopherols
-T14	CHEMICAL 96600 96616	d6-α-tocopherols
-T15	DISEASE 96754 96771	hospital-acquired
-T16	DISEASE 96772 96783	anaphylaxis
-T17	CHEMICAL 96812 96826	cephalosporins
-T18	CHEMICAL 96904 96915	Sulfonamide
+T1	disease 96039 96045	cancer
+T2	chemical 96066 96076	biological
+T3	chemical 96137 96141	drug
+T4	chemical 96172 96177	Fatty
+T5	chemical 96172 96183	Fatty acids
+T6	disease 96197 96206	sensitive
+T7	chemical 96306 96318	α-tocopherol
+T8	chemical 96319 96330	(vitamin E)
+T9	chemical 96342 96349	vitamin
+T10	chemical 96440 96443	fat
+T11	chemical 96456 96468	α-tocopherol
+T12	disease 96483 96501	obesity-associated
+T13	chemical 96577 96590	α-tocopherols
+T14	chemical 96600 96616	d6-α-tocopherols
+T15	disease 96754 96771	hospital-acquired
+T16	disease 96772 96783	anaphylaxis
+T17	chemical 96812 96826	cephalosporins
+T18	chemical 96904 96915	Sulfonamide
 T19	missed_chemical 96968 96977	compounds
-T20	DISEASE 97017 97025	diseases
+T20	disease 97017 97025	diseases
 T21	corrected_disease 97039 97066	neglected tropical diseases
-T22	DISEASE 97058 97066	diseases
-T23	DISEASE 97401 97409	cataract
-T24	CHEMICAL 97431 97440	oxidative
-T25	DISEASE 97508 97514	cancer
-T26	CHEMICAL 97515 97530	antigen-binding
-T27	CHEMICAL 97538 97556	anti-α-galactoside
-T28	CHEMICAL 97611 97623	lipoprotein(
-T29	CHEMICAL 97644 97653	Isoniazid
-T30	DISEASE 97700 97712	tuberculosis
-T31	CHEMICAL 97758 97762	zinc
-T32	DISEASE 97858 97873	adenocarcinomas
-T33	CHEMICAL 97913 97918	group
-T34	CHEMICAL 97948 97964	serine/threonine
-T35	CHEMICAL 97965 97972	protein
-T36	CHEMICAL 98020 98028	proteins
-T37	DISEASE 98077 98082	blood
-T38	DISEASE 98127 98159	dystrophic epidermolysis bullosa
-T39	DISEASE 98202 98210	disorder
-T40	CHEMICAL 98274 98282	collagen
-T41	CHEMICAL 98423 98430	glucose
-T42	DISEASE 98469 98480	prediabetes
-T43	DISEASE 98654 98657	STS
-T44	CHEMICAL 98775 98780	group
-T45	DISEASE 98818 98821	STS
-T46	CHEMICAL 98904 98912	fluoride
-T47	DISEASE 98913 98924	sensitivity
-T48	CHEMICAL 98990 98996	saline
-T49	DISEASE 99143 99164	pulmonary sarcoidosis
-T50	CHEMICAL 99265 99279	phosphorylated
-T51	DISEASE 99280 99301	ataxia telangiectasia
-T52	DISEASE 99328 99349	ataxia telangiectasia
-T53	DISEASE 99354 99366	Rad3-related
-T54	CHEMICAL 99374 99381	protein
-T55	DISEASE 99540 99567	primary hyperparathyroidism
-T56	CHEMICAL 99649 99656	thyroid
-T57	CHEMICAL 99833 99846	messenger RNA
-T58	DISEASE 99868 99871	ABC
-T59	DISEASE 100143 100146	CRC
-T60	CHEMICAL 100195 100205	biomarkers
-T61	DISEASE 100210 100213	CRC
-T62	DISEASE 100260 100263	PCA
-T63	CHEMICAL 100374 100379	water
+T22	disease 97058 97066	diseases
+T23	disease 97401 97409	cataract
+T24	chemical 97431 97440	oxidative
+T25	disease 97508 97514	cancer
+T26	chemical 97515 97530	antigen-binding
+T27	chemical 97538 97556	anti-α-galactoside
+T28	chemical 97611 97623	lipoprotein(
+T29	chemical 97644 97653	Isoniazid
+T30	disease 97700 97712	tuberculosis
+T31	chemical 97758 97762	zinc
+T32	disease 97858 97873	adenocarcinomas
+T33	chemical 97913 97918	group
+T34	chemical 97948 97964	serine/threonine
+T35	chemical 97965 97972	protein
+T36	chemical 98020 98028	proteins
+T37	disease 98077 98082	blood
+T38	disease 98127 98159	dystrophic epidermolysis bullosa
+T39	disease 98202 98210	disorder
+T40	chemical 98274 98282	collagen
+T41	chemical 98423 98430	glucose
+T42	disease 98469 98480	prediabetes
+T43	disease 98654 98657	STS
+T44	chemical 98775 98780	group
+T45	disease 98818 98821	STS
+T46	chemical 98904 98912	fluoride
+T47	disease 98913 98924	sensitivity
+T48	chemical 98990 98996	saline
+T49	disease 99143 99164	pulmonary sarcoidosis
+T50	chemical 99265 99279	phosphorylated
+T51	disease 99280 99301	ataxia telangiectasia
+T52	disease 99328 99349	ataxia telangiectasia
+T53	disease 99354 99366	Rad3-related
+T54	chemical 99374 99381	protein
+T55	disease 99540 99567	primary hyperparathyroidism
+T56	chemical 99649 99656	thyroid
+T57	chemical 99833 99846	messenger RNA
+T58	disease 99868 99871	ABC
+T59	disease 100143 100146	CRC
+T60	chemical 100195 100205	biomarkers
+T61	disease 100210 100213	CRC
+T62	disease 100260 100263	PCA
+T63	chemical 100374 100379	water
 R1	causes Arg1:T31 Arg2:T32
 R2	treats Arg1:T3 Arg2:T1
 R3	treats Arg1:T29 Arg2:T30

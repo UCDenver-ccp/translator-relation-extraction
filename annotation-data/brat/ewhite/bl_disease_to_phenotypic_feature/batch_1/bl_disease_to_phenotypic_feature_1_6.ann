@@ -1,0 +1,100 @@
+T1	phenotypic_feature 97 107	arrhythmia
+T2	disease 97 107	arrhythmia
+T3	disease 108 117	syndromes
+T4	disease 154 167	heart failure
+T5	phenotypic_feature 154 167	heart failure
+T6	phenotypic_feature 168 179	arrhythmias
+T7	phenotypic_feature 195 205	arrhythmia
+T8	disease 195 205	arrhythmia
+T9	disease 206 215	syndromes
+T10	phenotypic_feature 217 225	Diplopia
+T11	disease 232 240	cataract
+T12	phenotypic_feature 232 240	cataract
+T13	phenotypic_feature 270 282	hypoglycemia
+T14	disease 270 282	hypoglycemia
+T15	disease 389 397	melanoma
+T16	disease 400 414	uveal melanoma
+T17	phenotypic_feature 400 414	uveal melanoma
+T18	disease 416 428	mesothelioma
+T19	phenotypic_feature 430 461	clear cell renal cell carcinoma
+T20	disease 430 461	clear cell renal cell carcinoma
+T21	disease 492 505	optic atrophy
+T22	phenotypic_feature 492 505	optic atrophy
+T23	phenotypic_feature 511 524	hydrocephalus
+T24	disease 511 524	hydrocephalus
+T25	phenotypic_feature 555 563	albinism
+T26	phenotypic_feature 565 596	agenesis of the corpus callosum
+T27	phenotypic_feature 598 607	cataracts
+T28	disease 598 607	cataracts
+T29	disease 613 627	cardiomyopathy
+T30	disease 644 653	infection
+T31	disease 659 667	syndrome
+T32	disease 694 702	syndrome
+T33	phenotypic_feature 720 738	mental retardation
+T34	phenotypic_feature 740 752	microcephaly
+T35	disease 740 752	microcephaly
+T36	phenotypic_feature 754 762	seizures
+T37	phenotypic_feature 768 795	intracranial calcifications
+T38	phenotypic_feature 832 845	hydrocephalus
+T39	disease 832 845	hydrocephalus
+T40	phenotypic_feature 856 863	obesity
+T41	disease 856 863	obesity
+T42	disease 891 898	obesity
+T43	phenotypic_feature 891 898	obesity
+T44	phenotypic_feature 916 924	Glaucoma
+T45	disease 916 924	Glaucoma
+T46	disease 930 938	cataract
+T47	phenotypic_feature 930 938	cataract
+T48	disease 1015 1019	COFS
+T49	disease 1043 1051	cataract
+T50	phenotypic_feature 1043 1051	cataract
+T51	phenotypic_feature 1069 1081	microcephaly
+T52	disease 1069 1081	microcephaly
+T53	disease 1127 1135	cataract
+T54	phenotypic_feature 1127 1135	cataract
+T55	phenotypic_feature 1137 1149	microcephaly
+T56	disease 1137 1149	microcephaly
+T57	phenotypic_feature 1151 1168	failure to thrive
+T58	disease 1199 1216	Martsolf syndrome
+T59	disease 1218 1237	Neu-Laxova syndrome
+T60	disease 1244 1267	microphthalmia syndrome
+T61	disease 1273 1299	Smith-Lemli-Opitz syndrome
+T62	phenotypic_feature 1346 1364	mental retardation
+T63	phenotypic_feature 1382 1388	ataxia
+T64	disease 1382 1388	ataxia
+T65	phenotypic_feature 1397 1405	seizures
+T66	phenotypic_feature 1410 1428	movement disorders
+T67	disease 1410 1428	movement disorders
+T68	disease 1466 1474	dystonia
+T69	phenotypic_feature 1527 1536	blindness
+T70	disease 1527 1536	blindness
+T71	disease 1541 1558	visual impairment
+T72	phenotypic_feature 1541 1558	visual impairment
+T73	phenotypic_feature 1568 1576	cataract
+T74	disease 1568 1576	cataract
+T75	disease 1578 1594	retinal diseases
+T76	phenotypic_feature 1630 1638	Chordoma
+T77	disease 1630 1638	Chordoma
+T78	disease 1669 1681	hypoglycemia
+T79	phenotypic_feature 1669 1681	hypoglycemia
+T80	disease 1686 1699	hyperglycemia
+T81	phenotypic_feature 1686 1699	hyperglycemia
+T82	phenotypic_feature 1732 1744	Hypogonadism
+T83	disease 1732 1744	Hypogonadism
+T84	disease 1749 1767	hyperprolactinemia
+T85	phenotypic_feature 1749 1767	hyperprolactinemia
+T86	phenotypic_feature 1783 1795	Hypocalcemia
+T87	phenotypic_feature 1800 1824	congestive heart failure
+T88	disease 1800 1824	congestive heart failure
+T89	phenotypic_feature 1826 1836	Autoimmune
+T90	disease 1837 1863	sensorineural hearing loss
+T91	phenotypic_feature 1837 1863	sensorineural hearing loss
+T92	phenotypic_feature 1865 1877	Cleft palate
+T93	disease 1865 1877	Cleft palate
+T94	disease 1879 1903	congenital heart disease
+T95	phenotypic_feature 1924 1935	polydactyly
+T96	phenotypic_feature 1992 1997	edema
+T97	disease 1999 2010	proteinuria
+T98	phenotypic_feature 2012 2027	hypoalbuminemia
+T99	disease 2032 2046	hyperlipidemia
+T100	phenotypic_feature 2032 2046	hyperlipidemia

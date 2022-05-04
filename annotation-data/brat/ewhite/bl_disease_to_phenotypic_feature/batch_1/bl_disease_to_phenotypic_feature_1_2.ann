@@ -1,0 +1,103 @@
+T1	disease 66 75	pneumonia
+T2	phenotypic_feature 77 92	pulmonary edema
+T3	disease 77 92	pulmonary edema
+T4	phenotypic_feature 94 113	cardiac arrhythmias
+T5	disease 115 128	myoglobinuria
+T6	disease 157 167	thrombosis
+T7	phenotypic_feature 173 181	seizures
+T8	disease 212 220	cataract
+T9	phenotypic_feature 212 220	cataract
+T10	phenotypic_feature 236 244	cataract
+T11	disease 236 244	cataract
+T12	phenotypic_feature 310 317	obesity
+T13	disease 310 317	obesity
+T14	disease 319 332	hyperglycemia
+T15	phenotypic_feature 319 332	hyperglycemia
+T16	disease 334 354	hypertriglyceridemia
+T17	phenotypic_feature 359 372	hyperuricemia
+T18	disease 425 440	cardiac failure
+T19	phenotypic_feature 425 440	cardiac failure
+T20	phenotypic_feature 445 457	hypoglycemia
+T21	disease 445 457	hypoglycemia
+T22	disease 472 485	hypercalcemia
+T23	phenotypic_feature 472 485	hypercalcemia
+T24	phenotypic_feature 490 509	hyperparathyroidism
+T25	disease 490 509	hyperparathyroidism
+T26	disease 535 543	syndrome
+T27	phenotypic_feature 547 565	mental retardation
+T28	phenotypic_feature 577 590	short stature
+T29	phenotypic_feature 596 614	skeletal dysplasia
+T30	disease 596 614	skeletal dysplasia
+T31	disease 654 661	hepatic
+T32	phenotypic_feature 701 711	disability
+T33	phenotypic_feature 713 719	autism
+T34	disease 713 719	autism
+T35	disease 721 728	obesity
+T36	phenotypic_feature 721 728	obesity
+T37	disease 734 750	hyperinsulinemia
+T38	disease 772 780	syndrome
+T39	phenotypic_feature 831 849	mental retardation
+T40	disease 851 857	autism
+T41	phenotypic_feature 851 857	autism
+T42	phenotypic_feature 862 874	microcephaly
+T43	disease 862 874	microcephaly
+T44	phenotypic_feature 876 884	Deafness
+T45	phenotypic_feature 889 907	hearing impairment
+T46	disease 889 907	hearing impairment
+T47	disease 927 940	myelofibrosis
+T48	phenotypic_feature 927 940	myelofibrosis
+T49	phenotypic_feature 951 956	fever
+T50	disease 971 982	periostitis
+T51	disease 984 1015	Anhidrotic ectodermal dysplasia
+T52	phenotypic_feature 1044 1054	hypodontia
+T53	disease 1044 1054	hypodontia
+T54	phenotypic_feature 1056 1069	hypotrichosis
+T55	disease 1056 1069	hypotrichosis
+T56	disease 1075 1087	hypohidrosis
+T57	phenotypic_feature 1128 1136	glaucoma
+T58	disease 1128 1136	glaucoma
+T59	phenotypic_feature 1137 1146	blindness
+T60	disease 1137 1146	blindness
+T61	disease 1174 1210	nevoid basal-cell carcinoma syndrome
+T62	phenotypic_feature 1220 1246	intracranial calcification
+T63	disease 1248 1272	congenital hydrocephalus
+T64	disease 1287 1296	neoplasms
+T65	phenotypic_feature 1302 1320	mental retardation
+T66	disease 1356 1369	hypercalcemia
+T67	phenotypic_feature 1356 1369	hypercalcemia
+T68	phenotypic_feature 1374 1391	hyperphosphatemia
+T69	disease 1374 1391	hyperphosphatemia
+T70	phenotypic_feature 1423 1431	cataract
+T71	disease 1423 1431	cataract
+T72	phenotypic_feature 1470 1478	cataract
+T73	disease 1470 1478	cataract
+T74	disease 1487 1504	visual impairment
+T75	phenotypic_feature 1487 1504	visual impairment
+T76	disease 1526 1534	cataract
+T77	phenotypic_feature 1526 1534	cataract
+T78	phenotypic_feature 1638 1662	congenital heart defects
+T79	disease 1638 1662	congenital heart defects
+T80	phenotypic_feature 1664 1678	limb anomalies
+T81	disease 1680 1689	cleft lip
+T82	phenotypic_feature 1690 1702	cleft palate
+T83	disease 1690 1702	cleft palate
+T84	disease 1723 1747	congenital hydrocephalus
+T85	phenotypic_feature 1811 1828	visual impairment
+T86	disease 1811 1828	visual impairment
+T87	phenotypic_feature 1833 1842	blindness
+T88	disease 1833 1842	blindness
+T89	phenotypic_feature 1844 1857	Optic atrophy
+T90	disease 1844 1857	Optic atrophy
+T91	disease 1859 1871	hearing loss
+T92	phenotypic_feature 1877 1898	peripheral neuropathy
+T93	disease 1877 1898	peripheral neuropathy
+T94	phenotypic_feature 1900 1915	Pulmonary edema
+T95	disease 1900 1915	Pulmonary edema
+T96	disease 1929 1962	ovarian hyperstimulation syndrome
+T97	phenotypic_feature 1977 1982	edema
+T98	phenotypic_feature 1998 2003	edema
+T99	phenotypic_feature 2014 2019	edema
+T100	phenotypic_feature 2041 2048	obesity
+T101	disease 2041 2048	obesity
+T102	disease 2053 2060	obesity
+T103	phenotypic_feature 2053 2060	obesity

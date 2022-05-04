@@ -1,0 +1,91 @@
+T1	phenotypic_feature 36 49	hydrocephalus
+T1	disease 36 49	hydrocephalus
+T1	phenotypic_feature 61 74	hydrocephalus
+T1	disease 61 74	hydrocephalus
+T1	disease 121 134	hydrocephalus
+T1	phenotypic_feature 121 134	hydrocephalus
+T2	disease 175 197	Hydrolethalus syndrome
+T2	phenotypic_feature 210 223	hydrocephalus
+T2	disease 210 223	hydrocephalus
+T2	phenotypic_feature 225 236	polydactyly
+T2	phenotypic_feature 238 250	micrognathia
+T3	phenotypic_feature 338 347	myoclonic
+T3	phenotypic_feature 348 354	ataxia
+T3	disease 348 354	ataxia
+T3	disease 371 386	coeliac disease
+T4	disease 392 400	cataract
+T4	phenotypic_feature 392 400	cataract
+T4	phenotypic_feature 441 449	cataract
+T4	disease 441 449	cataract
+T5	phenotypic_feature 459 464	Edema
+T5	disease 469 482	hydrocephalus
+T5	phenotypic_feature 469 482	hydrocephalus
+T6	disease 509 512	CDS
+T6	phenotypic_feature 555 573	mental retardation
+T6	phenotypic_feature 575 592	speech impairment
+T6	phenotypic_feature 631 639	seizures
+T6	phenotypic_feature 656 673	movement disorder
+T6	disease 656 673	movement disorder
+T6	disease 679 703	autism spectrum disorder
+T7	disease 728 735	obesity
+T7	phenotypic_feature 728 735	obesity
+T7	phenotypic_feature 739 746	obesity
+T7	disease 739 746	obesity
+T8	phenotypic_feature 772 789	Hyperphosphatemic
+T8	disease 772 789	Hyperphosphatemic
+T8	disease 799 809	calcinosis
+T9	phenotypic_feature 845 874	hypogonadotropic hypogonadism
+T9	disease 845 874	hypogonadotropic hypogonadism
+T9	disease 883 895	microcephaly
+T9	phenotypic_feature 883 895	microcephaly
+T9	phenotypic_feature 897 919	sensorineural deafness
+T9	disease 897 919	sensorineural deafness
+T9	phenotypic_feature 939 949	disability
+T9	disease 967 973	facial
+T9	disease 967 973	facial
+T10	phenotypic_feature 1035 1048	hypercalcemia
+T10	disease 1035 1048	hypercalcemia
+T11	phenotypic_feature 1063 1078	Cardiac failure
+T11	disease 1063 1078	Cardiac failure
+T11	phenotypic_feature 1100 1110	arrhythmia
+T11	disease 1100 1110	arrhythmia
+T12	phenotypic_feature 1112 1118	Asthma
+T12	disease 1112 1118	Asthma
+T12	disease 1123 1130	obesity
+T12	phenotypic_feature 1123 1130	obesity
+T13	phenotypic_feature 1165 1173	Chordoma
+T13	disease 1165 1173	Chordoma
+T13	disease 1184 1193	malignant
+T14	disease 1245 1275	gastrointestinal stromal tumor
+T14	phenotypic_feature 1245 1275	gastrointestinal stromal tumor
+T14	phenotypic_feature 1293 1302	carcinoma
+T14	disease 1293 1302	carcinoma
+T15	phenotypic_feature 1334 1354	cognitive impairment
+T15	disease 1371 1393	sensorineural deafness
+T15	phenotypic_feature 1371 1393	sensorineural deafness
+T15	phenotypic_feature 1400 1423	congenital heart defect
+T15	disease 1400 1423	congenital heart defect
+T16	phenotypic_feature 1450 1470	generalized seizures
+T16	phenotypic_feature 1472 1485	hyperglycemia
+T16	disease 1472 1485	hyperglycemia
+T16	phenotypic_feature 1487 1498	hypokalemia
+T16	disease 1487 1498	hypokalemia
+T16	phenotypic_feature 1500 1514	hypomagnesemia
+T16	phenotypic_feature 1516 1532	hypophosphatemia
+T16	disease 1516 1532	hypophosphatemia
+T17	disease 1571 1583	hypogonadism
+T17	phenotypic_feature 1571 1583	hypogonadism
+T17	disease 1593 1611	hyperprolactinemia
+T17	phenotypic_feature 1593 1611	hyperprolactinemia
+T18	disease 1652 1673	peripheral neuropathy
+T18	phenotypic_feature 1652 1673	peripheral neuropathy
+T18	disease 1677 1683	ataxia
+T18	phenotypic_feature 1677 1683	ataxia
+T19	disease 1705 1713	cataract
+T19	phenotypic_feature 1705 1713	cataract
+T19	phenotypic_feature 1714 1723	blindness
+T19	disease 1714 1723	blindness
+T20	phenotypic_feature 1751 1759	cataract
+T20	disease 1751 1759	cataract
+T20	phenotypic_feature 1777 1799	vascular abnormalities
+T20	disease 1801 1810	infection

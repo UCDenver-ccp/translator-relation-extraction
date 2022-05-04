@@ -1,0 +1,106 @@
+T1	disease 26 35	blindness
+T1	phenotypic_feature 26 35	blindness
+T1	disease 40 57	visual impairment
+T1	phenotypic_feature 40 57	visual impairment
+T1	disease 62 70	cataract
+T1	phenotypic_feature 62 70	cataract
+T2	disease 72 93	Bardet-Biedl syndrome
+T2	phenotypic_feature 137 150	brachydactyly
+T2	disease 152 172	retinal degeneration
+T2	phenotypic_feature 152 172	retinal degeneration
+T2	disease 174 186	hypogonadism
+T2	phenotypic_feature 188 206	mental retardation
+T2	phenotypic_feature 208 215	obesity
+T2	disease 208 215	obesity
+T2	disease 217 225	diabetes
+T3	phenotypic_feature 253 263	Narcolepsy
+T3	phenotypic_feature 268 279	hypersomnia
+T3	disease 268 279	hypersomnia
+T4	disease 305 316	anencephaly
+T4	phenotypic_feature 318 330	spina bifida
+T4	disease 318 330	spina bifida
+T4	phenotypic_feature 346 358	hydrocephaly
+T5	phenotypic_feature 384 389	edema
+T5	phenotypic_feature 391 397	anemia
+T5	disease 391 397	anemia
+T5	disease 440 451	proteinuria
+T5	disease 504 519	pulmonary edema
+T5	phenotypic_feature 504 519	pulmonary edema
+T5	phenotypic_feature 524 548	congestive heart failure
+T5	disease 524 548	congestive heart failure
+T6	phenotypic_feature 556 570	Hyperlipidemia
+T6	disease 556 570	Hyperlipidemia
+T6	phenotypic_feature 575 582	obesity
+T6	disease 575 582	obesity
+T7	disease 659 666	obesity
+T7	phenotypic_feature 659 666	obesity
+T7	phenotypic_feature 668 685	mental deficiency
+T7	disease 691 697	facial
+T7	disease 691 697	facial
+T7	phenotypic_feature 717 731	limb anomalies
+T8	phenotypic_feature 733 741	Glaucoma
+T8	disease 733 741	Glaucoma
+T8	disease 762 770	cataract
+T8	phenotypic_feature 762 770	cataract
+T9	phenotypic_feature 772 780	Cataract
+T9	disease 772 780	Cataract
+T9	disease 781 790	blindness
+T9	phenotypic_feature 781 790	blindness
+T10	phenotypic_feature 835 843	Alopecia
+T10	disease 835 843	Alopecia
+T10	phenotypic_feature 844 856	contractures
+T10	disease 844 856	contractures
+T10	phenotypic_feature 857 865	dwarfism
+T10	phenotypic_feature 866 884	mental retardation
+T10	disease 885 893	syndrome
+T10	disease 899 907	syndrome
+T10	disease 937 953	genetic disorder
+T11	phenotypic_feature 998 1016	cardiac arrhythmia
+T11	disease 1018 1037	respiratory failure
+T11	phenotypic_feature 1039 1056	muscular weakness
+T11	disease 1061 1073	hypohidrosis
+T11	phenotypic_feature 1061 1073	hypohidrosis
+T12	disease 1111 1134	acute coronary syndrome
+T12	phenotypic_feature 1136 1160	congestive heart failure
+T12	disease 1136 1160	congestive heart failure
+T12	phenotypic_feature 1162 1180	pulmonary embolism
+T12	disease 1182 1195	renal failure
+T12	phenotypic_feature 1182 1195	renal failure
+T13	phenotypic_feature 1235 1242	obesity
+T13	disease 1235 1242	obesity
+T13	disease 1249 1256	obesity
+T13	phenotypic_feature 1249 1256	obesity
+T14	disease 1290 1298	cataract
+T14	phenotypic_feature 1290 1298	cataract
+T14	phenotypic_feature 1314 1322	cataract
+T14	disease 1314 1322	cataract
+T15	phenotypic_feature 1382 1388	ptosis
+T15	disease 1394 1400	facial
+T15	disease 1394 1400	facial
+T15	disease 1401 1411	anhidrosis
+T15	phenotypic_feature 1401 1411	anhidrosis
+T16	phenotypic_feature 1441 1462	peripheral neuropathy
+T16	disease 1441 1462	peripheral neuropathy
+T16	phenotypic_feature 1464 1482	joint contractures
+T16	phenotypic_feature 1540 1552	hypertension
+T16	disease 1554 1568	sicca syndrome
+T16	disease 1574 1587	liver disease
+T17	disease 1607 1614	obesity
+T17	phenotypic_feature 1607 1614	obesity
+T17	disease 1631 1638	obesity
+T17	phenotypic_feature 1631 1638	obesity
+T18	phenotypic_feature 1705 1714	hamartoma
+T18	disease 1705 1714	hamartoma
+T19	disease 1720 1747	Hallermann-Streiff syndrome
+T19	phenotypic_feature 1799 1813	microphthalmia
+T19	phenotypic_feature 1815 1824	cataracts
+T19	disease 1815 1824	cataracts
+T19	phenotypic_feature 1826 1838	micrognathia
+T19	disease 1873 1886	hypotrichosis
+T19	phenotypic_feature 1873 1886	hypotrichosis
+T20	disease 1965 1985	retinitis pigmentosa
+T20	phenotypic_feature 1987 1998	polydactyly
+T20	phenotypic_feature 2000 2018	mental retardation
+T20	disease 2020 2027	obesity
+T20	phenotypic_feature 2020 2027	obesity
+T20	phenotypic_feature 2032 2046	hypogenitalism

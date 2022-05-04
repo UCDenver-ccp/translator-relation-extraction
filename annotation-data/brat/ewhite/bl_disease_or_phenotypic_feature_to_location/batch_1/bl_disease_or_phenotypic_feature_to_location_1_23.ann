@@ -1,0 +1,120 @@
+T1	anatomical_site 5 11	tissue
+T1	disease_or_phenotypic_feature 12 26	chondrosarcoma
+T2	disease_or_phenotypic_feature 39 52	Cholesteatoma
+T2	disease_or_phenotypic_feature 39 52	Cholesteatoma
+T2	disease_or_phenotypic_feature 39 52	Cholesteatoma
+T2	anatomical_site 56 71	maxillary sinus
+T3	disease_or_phenotypic_feature 112 129	mental deficiency
+T3	disease_or_phenotypic_feature 131 147	facial dysmorphy
+T3	disease_or_phenotypic_feature 149 161	microcephaly
+T3	disease_or_phenotypic_feature 149 161	microcephaly
+T3	disease_or_phenotypic_feature 163 170	obesity
+T3	disease_or_phenotypic_feature 163 170	obesity
+T3	anatomical_site 172 178	kidney
+T3	disease_or_phenotypic_feature 212 231	metabolic disorders
+T4	disease_or_phenotypic_feature 233 259	Johanson-Blizzard syndrome
+T4	anatomical_site 339 349	nasal alae
+T4	disease_or_phenotypic_feature 374 382	deafness
+T4	disease_or_phenotypic_feature 384 396	microcephaly
+T4	disease_or_phenotypic_feature 384 396	microcephaly
+T4	disease_or_phenotypic_feature 398 412	hypothyroidism
+T4	anatomical_site 421 436	permanent teeth
+T4	disease_or_phenotypic_feature 457 474	failure to thrive
+T5	disease_or_phenotypic_feature 476 485	Malignant
+T5	anatomical_site 516 526	chest wall
+T5	disease_or_phenotypic_feature 557 575	malignant neoplasm
+T5	disease_or_phenotypic_feature 557 575	malignant neoplasm
+T5	anatomical_site 592 598	adults
+T6	disease_or_phenotypic_feature 600 630	Gomez-Lopez-Hernandez syndrome
+T6	anatomical_site 656 662	dermal
+T6	anatomical_site 656 662	dermal
+T6	anatomical_site 656 662	dermal
+T6	disease_or_phenotypic_feature 693 697	rare
+T6	disease_or_phenotypic_feature 698 706	syndrome
+T6	disease_or_phenotypic_feature 718 742	cerebellar abnormalities
+T6	anatomical_site 772 788	trigeminal nerve
+T6	disease_or_phenotypic_feature 801 824	intellectual impairment
+T6	disease_or_phenotypic_feature 826 842	craniosynostosis
+T6	disease_or_phenotypic_feature 844 857	short stature
+T6	anatomical_site 863 875	craniofacial
+T6	anatomical_site 863 875	craniofacial
+T7	disease_or_phenotypic_feature 902 918	Fanconi syndrome
+T7	disease_or_phenotypic_feature 938 948	glycosuria
+T7	disease_or_phenotypic_feature 950 966	hypophosphatemia
+T7	disease_or_phenotypic_feature 950 966	hypophosphatemia
+T7	disease_or_phenotypic_feature 968 979	hypokalemia
+T7	disease_or_phenotypic_feature 968 979	hypokalemia
+T7	anatomical_site 1037 1043	kidney
+T7	disease_or_phenotypic_feature 1049 1067	metabolic acidosis
+T8	disease_or_phenotypic_feature 1093 1118	posterior fossa anomalies
+T8	disease_or_phenotypic_feature 1120 1130	hemangioma
+T8	anatomical_site 1132 1140	arterial
+T8	disease_or_phenotypic_feature 1132 1140	arterial
+T8	disease_or_phenotypic_feature 1150 1171	cardiac abnormalities
+T8	anatomical_site 1187 1192	aorta
+T8	anatomical_site 1198 1201	eye
+T9	disease_or_phenotypic_feature 1217 1235	Growth retardation
+T9	disease_or_phenotypic_feature 1237 1249	microcephaly
+T9	disease_or_phenotypic_feature 1237 1249	microcephaly
+T9	disease_or_phenotypic_feature 1254 1272	mental retardation
+T9	anatomical_site 1294 1300	adults
+T10	disease_or_phenotypic_feature 1329 1341	cleft palate
+T10	disease_or_phenotypic_feature 1329 1341	cleft palate
+T10	disease_or_phenotypic_feature 1343 1356	hydrocephalus
+T10	disease_or_phenotypic_feature 1343 1356	hydrocephalus
+T10	anatomical_site 1372 1380	hindlimb
+T11	anatomical_site 1427 1431	lens
+T11	anatomical_site 1427 1431	lens
+T11	disease_or_phenotypic_feature 1441 1454	hyperglycemic
+T11	disease_or_phenotypic_feature 1441 1454	hyperglycemic
+T11	disease_or_phenotypic_feature 1455 1463	cataract
+T11	disease_or_phenotypic_feature 1455 1463	cataract
+T12	disease_or_phenotypic_feature 1465 1470	Wilms
+T12	anatomical_site 1495 1501	kidney
+T13	disease_or_phenotypic_feature 1503 1514	Lung tumors
+T13	disease_or_phenotypic_feature 1503 1514	Lung tumors
+T13	anatomical_site 1567 1572	liver
+T13	anatomical_site 1661 1666	liver
+T13	anatomical_site 1671 1678	kidneys
+T14	disease_or_phenotypic_feature 1689 1696	obesity
+T14	disease_or_phenotypic_feature 1689 1696	obesity
+T14	anatomical_site 1732 1737	child
+T14	disease_or_phenotypic_feature 1738 1745	obesity
+T14	disease_or_phenotypic_feature 1738 1745	obesity
+T15	disease_or_phenotypic_feature 1762 1769	obesity
+T15	disease_or_phenotypic_feature 1762 1769	obesity
+T15	anatomical_site 1795 1801	female
+T15	disease_or_phenotypic_feature 1806 1813	obesity
+T15	disease_or_phenotypic_feature 1806 1813	obesity
+T16	anatomical_site 1903 1907	male
+T16	disease_or_phenotypic_feature 1913 1925	microcephaly
+T16	disease_or_phenotypic_feature 1913 1925	microcephaly
+T16	disease_or_phenotypic_feature 1927 1945	growth retardation
+T16	disease_or_phenotypic_feature 1947 1955	seizures
+T16	disease_or_phenotypic_feature 1969 1982	hypertelorism
+T16	disease_or_phenotypic_feature 1984 1996	micrognathia
+T16	disease_or_phenotypic_feature 2008 2028	congenital anomalies
+T17	anatomical_site 2068 2080	white matter
+T17	disease_or_phenotypic_feature 2121 2133	spina bifida
+T17	disease_or_phenotypic_feature 2121 2133	spina bifida
+T17	disease_or_phenotypic_feature 2138 2151	hydrocephalus
+T17	disease_or_phenotypic_feature 2138 2151	hydrocephalus
+T18	disease_or_phenotypic_feature 2181 2194	optic atrophy
+T18	disease_or_phenotypic_feature 2181 2194	optic atrophy
+T18	anatomical_site 2196 2209	sensory nerve
+T18	disease_or_phenotypic_feature 2210 2218	deafness
+T18	disease_or_phenotypic_feature 2224 2242	diabetes insipidus
+T19	anatomical_site 2260 2265	child
+T19	disease_or_phenotypic_feature 2276 2299	ventricular arrhythmias
+T19	disease_or_phenotypic_feature 2301 2309	seizures
+T19	disease_or_phenotypic_feature 2346 2361	pulmonary edema
+T19	disease_or_phenotypic_feature 2346 2361	pulmonary edema
+T20	disease_or_phenotypic_feature 2408 2420	facial palsy
+T20	disease_or_phenotypic_feature 2424 2428	left
+T20	anatomical_site 2441 2444	ear
+T20	anatomical_site 2458 2462	lobe
+T20	disease_or_phenotypic_feature 2464 2488	congenital heart defects
+T20	disease_or_phenotypic_feature 2464 2488	congenital heart defects
+T20	disease_or_phenotypic_feature 2498 2501	ASD
+T20	disease_or_phenotypic_feature 2511 2515	left
+T20	disease_or_phenotypic_feature 2531 2547	seizure disorder

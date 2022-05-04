@@ -1,0 +1,116 @@
+T1	anatomical_site 1 7	Kidney
+T1	disease_or_phenotypic_feature 24 31	obesity
+T1	disease_or_phenotypic_feature 24 31	obesity
+T2	disease_or_phenotypic_feature 63 78	frontal bossing
+T2	disease_or_phenotypic_feature 80 94	kyphoscoliosis
+T2	disease_or_phenotypic_feature 96 109	rib anomalies
+T2	disease_or_phenotypic_feature 121 137	cleft lip/palate
+T2	anatomical_site 139 142	eye
+T2	disease_or_phenotypic_feature 154 159	milia
+T2	disease_or_phenotypic_feature 164 174	syndactyly
+T3	disease_or_phenotypic_feature 204 216	spina bifida
+T3	disease_or_phenotypic_feature 204 216	spina bifida
+T3	disease_or_phenotypic_feature 218 230	cleft palate
+T3	disease_or_phenotypic_feature 218 230	cleft palate
+T3	anatomical_site 232 236	limb
+T3	disease_or_phenotypic_feature 256 277	cardiac abnormalities
+T4	disease_or_phenotypic_feature 341 344	EDA
+T4	anatomical_site 376 382	stroma
+T4	anatomical_site 394 412	basement membranes
+T4	anatomical_site 428 441	blood vessels
+T5	disease_or_phenotypic_feature 456 461	fever
+T5	anatomical_site 474 479	liver
+T5	disease_or_phenotypic_feature 489 495	anemia
+T5	disease_or_phenotypic_feature 489 495	anemia
+T5	disease_or_phenotypic_feature 501 517	thrombocytopenia
+T6	disease_or_phenotypic_feature 576 590	gastric cancer
+T6	anatomical_site 606 612	mucosa
+T6	anatomical_site 687 694	stomach
+T7	disease_or_phenotypic_feature 1032 1040	syndrome
+T7	anatomical_site 1046 1050	limb
+T7	disease_or_phenotypic_feature 1059 1065	ataxia
+T7	disease_or_phenotypic_feature 1059 1065	ataxia
+T7	disease_or_phenotypic_feature 1131 1137	ataxic
+T7	disease_or_phenotypic_feature 1138 1148	dysarthria
+T8	disease_or_phenotypic_feature 1213 1219	ataxia
+T8	disease_or_phenotypic_feature 1213 1219	ataxia
+T8	disease_or_phenotypic_feature 1221 1230	blindness
+T8	disease_or_phenotypic_feature 1221 1230	blindness
+T8	anatomical_site 1241 1245	head
+T8	anatomical_site 1255 1259	head
+T8	disease_or_phenotypic_feature 1270 1278	seizures
+T9	disease_or_phenotypic_feature 1316 1323	Uveitis
+T9	anatomical_site 1369 1372	eye
+T9	anatomical_site 1373 1379	tissue
+T9	disease_or_phenotypic_feature 1399 1416	visual impairment
+T9	disease_or_phenotypic_feature 1399 1416	visual impairment
+T9	disease_or_phenotypic_feature 1420 1429	blindness
+T9	disease_or_phenotypic_feature 1420 1429	blindness
+T10	disease_or_phenotypic_feature 1435 1444	Malignant
+T10	anatomical_site 1460 1466	rectum
+T11	anatomical_site 1481 1485	male
+T11	disease_or_phenotypic_feature 1498 1511	hypertelorism
+T11	disease_or_phenotypic_feature 1520 1526	myopia
+T11	disease_or_phenotypic_feature 1531 1553	sensorineural deafness
+T11	disease_or_phenotypic_feature 1531 1553	sensorineural deafness
+T11	disease_or_phenotypic_feature 1581 1592	proteinuria
+T12	disease_or_phenotypic_feature 1650 1662	macrocephaly
+T12	anatomical_site 1674 1682	forehead
+T12	anatomical_site 1688 1700	nasal bridge
+T12	disease_or_phenotypic_feature 1702 1714	cleft palate
+T12	disease_or_phenotypic_feature 1702 1714	cleft palate
+T12	disease_or_phenotypic_feature 1719 1731	micrognathia
+T13	anatomical_site 1742 1750	juvenile
+T13	disease_or_phenotypic_feature 1751 1764	optic atrophy
+T13	disease_or_phenotypic_feature 1751 1764	optic atrophy
+T14	disease_or_phenotypic_feature 1766 1786	Ectodermal dysplasia
+T14	disease_or_phenotypic_feature 1807 1819	ectrodactyly
+T14	disease_or_phenotypic_feature 1842 1852	syndactyly
+T14	anatomical_site 1861 1865	hair
+T14	anatomical_site 1871 1875	skin
+T14	anatomical_site 1871 1875	skin
+T14	disease_or_phenotypic_feature 1882 1891	anodontia
+T14	disease_or_phenotypic_feature 1893 1909	dysplastic nails
+T14	anatomical_site 1929 1945	sebaceous glands
+T14	anatomical_site 1947 1961	mammary glands
+T15	disease_or_phenotypic_feature 1993 2010	visual impairment
+T15	anatomical_site 2017 2023	adults
+T15	disease_or_phenotypic_feature 2029 2042	heart failure
+T15	disease_or_phenotypic_feature 2029 2042	heart failure
+T16	disease_or_phenotypic_feature 2088 2094	facial
+T16	disease_or_phenotypic_feature 2088 2094	facial
+T16	anatomical_site 2095 2099	skin
+T16	anatomical_site 2095 2099	skin
+T16	anatomical_site 2108 2117	nasal tip
+T17	anatomical_site 2255 2258	eye
+T17	disease_or_phenotypic_feature 2278 2288	pigmentary
+T17	disease_or_phenotypic_feature 2289 2311	degeneration of retina
+T17	disease_or_phenotypic_feature 2313 2333	macular degeneration
+T17	disease_or_phenotypic_feature 2313 2333	macular degeneration
+T17	disease_or_phenotypic_feature 2335 2343	glaucoma
+T17	disease_or_phenotypic_feature 2335 2343	glaucoma
+T17	disease_or_phenotypic_feature 2348 2361	optic atrophy
+T17	disease_or_phenotypic_feature 2348 2361	optic atrophy
+T18	anatomical_site 2382 2386	male
+T18	disease_or_phenotypic_feature 2445 2463	growth retardation
+T18	disease_or_phenotypic_feature 2465 2477	microcephaly
+T18	disease_or_phenotypic_feature 2465 2477	microcephaly
+T18	disease_or_phenotypic_feature 2479 2506	intracranial calcifications
+T18	anatomical_site 2508 2520	white matter
+T18	disease_or_phenotypic_feature 2560 2568	cataract
+T18	disease_or_phenotypic_feature 2560 2568	cataract
+T18	disease_or_phenotypic_feature 2574 2586	hearing loss
+T19	disease_or_phenotypic_feature 2613 2631	mental retardation
+T19	disease_or_phenotypic_feature 2643 2660	cerebellar ataxia
+T19	disease_or_phenotypic_feature 2643 2660	cerebellar ataxia
+T19	disease_or_phenotypic_feature 2662 2676	polyneuropathy
+T19	disease_or_phenotypic_feature 2678 2684	squint
+T19	disease_or_phenotypic_feature 2686 2706	retinitis pigmentosa
+T19	disease_or_phenotypic_feature 2725 2739	hypothyroidism
+T19	anatomical_site 2744 2749	liver
+T20	anatomical_site 2777 2781	male
+T20	anatomical_site 2786 2792	female
+T20	disease_or_phenotypic_feature 2822 2835	hyperglycemia
+T20	disease_or_phenotypic_feature 2822 2835	hyperglycemia
+T20	disease_or_phenotypic_feature 2837 2851	hyperlipidemia
+T20	disease_or_phenotypic_feature 2837 2851	hyperlipidemia

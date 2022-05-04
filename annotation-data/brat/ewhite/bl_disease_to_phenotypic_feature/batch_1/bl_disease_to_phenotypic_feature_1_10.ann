@@ -1,0 +1,113 @@
+T1	phenotypic_feature 51 62	hypokalemia
+T1	disease 51 62	hypokalemia
+T1	phenotypic_feature 67 80	hypercalcemia
+T1	disease 67 80	hypercalcemia
+T2	phenotypic_feature 138 151	hyperglycemia
+T2	disease 138 151	hyperglycemia
+T2	phenotypic_feature 156 167	hypokalemia
+T2	disease 156 167	hypokalemia
+T3	disease 206 219	hypotrichosis
+T3	phenotypic_feature 221 233	hypohidrosis
+T3	disease 221 233	hypohidrosis
+T3	phenotypic_feature 238 248	hypodontia
+T3	disease 238 248	hypodontia
+T4	phenotypic_feature 345 357	microcephaly
+T4	disease 345 357	microcephaly
+T4	phenotypic_feature 359 377	mental retardation
+T4	phenotypic_feature 379 395	facial dysmorphy
+T4	phenotypic_feature 400 424	congenital heart defects
+T4	disease 400 424	congenital heart defects
+T5	disease 426 440	Hypothyroidism
+T5	disease 453 481	nonalcoholic steatohepatitis
+T5	disease 486 500	hyperlipidemia
+T5	phenotypic_feature 486 500	hyperlipidemia
+T5	disease 505 512	obesity
+T5	phenotypic_feature 505 512	obesity
+T6	disease 514 536	Eosinophilic gastritis
+T6	phenotypic_feature 551 565	abdominal pain
+T6	phenotypic_feature 569 577	vomiting
+T6	disease 622 630	diarrhea
+T6	disease 635 641	anemia
+T6	phenotypic_feature 635 641	anemia
+T6	phenotypic_feature 645 660	hypoalbuminemia
+T6	disease 666 686	eosinophilic colitis
+T6	disease 704 712	diarrhea
+T7	disease 758 764	anemia
+T7	phenotypic_feature 758 764	anemia
+T7	disease 786 792	anemia
+T7	phenotypic_feature 786 792	anemia
+T8	disease 835 844	Keratosis
+T8	phenotypic_feature 882 895	hypotrichosis
+T8	disease 882 895	hypotrichosis
+T8	disease 897 909	hypohidrosis
+T8	phenotypic_feature 897 909	hypohidrosis
+T9	disease 940 949	hamartoma
+T9	phenotypic_feature 940 949	hamartoma
+T9	disease 966 983	spinal dysraphism
+T9	phenotypic_feature 966 983	spinal dysraphism
+T9	disease 966 983	spinal dysraphism
+T10	phenotypic_feature 1013 1031	mental retardation
+T10	phenotypic_feature 1033 1054	peripheral neuropathy
+T10	disease 1033 1054	peripheral neuropathy
+T10	phenotypic_feature 1056 1064	deafness
+T10	disease 1088 1109	distal arthrogryposis
+T10	phenotypic_feature 1131 1149	growth retardation
+T11	disease 1183 1201	retinal detachment
+T11	phenotypic_feature 1205 1213	cataract
+T11	disease 1205 1213	cataract
+T11	phenotypic_feature 1228 1245	visual impairment
+T11	disease 1228 1245	visual impairment
+T11	phenotypic_feature 1249 1258	blindness
+T11	disease 1249 1258	blindness
+T12	disease 1277 1285	cataract
+T12	phenotypic_feature 1277 1285	cataract
+T12	phenotypic_feature 1316 1324	cataract
+T12	disease 1316 1324	cataract
+T13	disease 1352 1363	visual loss
+T13	phenotypic_feature 1352 1363	visual loss
+T13	phenotypic_feature 1369 1388	optic nerve atrophy
+T13	phenotypic_feature 1393 1402	cataracts
+T13	disease 1393 1402	cataracts
+T14	disease 1422 1429	obesity
+T14	phenotypic_feature 1422 1429	obesity
+T14	phenotypic_feature 1451 1458	obesity
+T14	disease 1451 1458	obesity
+T15	phenotypic_feature 1604 1617	hydrocephalus
+T15	disease 1664 1677	hydrocephalus
+T15	phenotypic_feature 1664 1677	hydrocephalus
+T15	phenotypic_feature 1696 1709	hydrocephalus
+T15	disease 1740 1753	hydrocephalus
+T15	phenotypic_feature 1740 1753	hydrocephalus
+T15	disease 1766 1786	congenital anomalies
+T15	disease 1787 1795	syndrome
+T15	phenotypic_feature 1849 1862	hydrocephalus
+T15	disease 1849 1862	hydrocephalus
+T15	phenotypic_feature 1892 1905	hydrocephalus
+T15	disease 1892 1905	hydrocephalus
+T16	disease 1908 1936	Spinocerebellar degeneration
+T16	phenotypic_feature 1963 1990	basal ganglia calcification
+T16	disease 1963 1990	basal ganglia calcification
+T16	phenotypic_feature 1992 2012	macular degeneration
+T16	disease 1992 2012	macular degeneration
+T16	phenotypic_feature 2017 2035	mental retardation
+T17	disease 2067 2080	Choroideremia
+T17	phenotypic_feature 2082 2089	obesity
+T17	disease 2082 2089	obesity
+T17	phenotypic_feature 2095 2114	congenital deafness
+T18	disease 2129 2142	hyperglycemia
+T18	phenotypic_feature 2159 2176	visual impairment
+T18	disease 2159 2176	visual impairment
+T18	disease 2181 2190	blindness
+T18	phenotypic_feature 2181 2190	blindness
+T19	phenotypic_feature 2232 2244	hyperkalemia
+T19	phenotypic_feature 2246 2259	hyperglycemia
+T19	disease 2246 2259	hyperglycemia
+T19	disease 2265 2283	hyperbilirubinemia
+T20	phenotypic_feature 2293 2301	glaucoma
+T20	disease 2293 2301	glaucoma
+T20	disease 2302 2310	cataract
+T20	phenotypic_feature 2302 2310	cataract
+T20	disease 2322 2330	glaucoma
+T20	phenotypic_feature 2368 2385	visual impairment
+T20	disease 2415 2423	cataract
+T20	phenotypic_feature 2415 2423	cataract

@@ -1,0 +1,103 @@
+T1	phenotypic_feature 59 71	hypoglycemia
+T1	disease 59 71	hypoglycemia
+T1	phenotypic_feature 76 89	hyperglycemia
+T1	disease 76 89	hyperglycemia
+T2	disease 118 137	hemiplegic migraine
+T2	phenotypic_feature 172 180	seizures
+T2	phenotypic_feature 220 237	visual impairment
+T2	disease 220 237	visual impairment
+T2	phenotypic_feature 239 247	deafness
+T2	phenotypic_feature 253 274	peripheral neuropathy
+T2	disease 253 274	peripheral neuropathy
+T3	disease 295 317	dilated cardiomyopathy
+T3	phenotypic_feature 333 346	heart failure
+T3	disease 333 346	heart failure
+T3	disease 350 360	arrhythmia
+T3	phenotypic_feature 350 360	arrhythmia
+T4	phenotypic_feature 376 381	fever
+T4	disease 383 394	hypotension
+T4	phenotypic_feature 400 413	renal failure
+T4	disease 400 413	renal failure
+T5	disease 430 442	cleft palate
+T5	phenotypic_feature 430 442	cleft palate
+T5	phenotypic_feature 448 457	club foot
+T5	disease 448 457	club foot
+T6	disease 463 490	Hallermann-Streiff syndrome
+T6	disease 523 536	hypotrichosis
+T6	phenotypic_feature 538 552	microphthalmia
+T6	disease 554 563	cataracts
+T6	phenotypic_feature 554 563	cataracts
+T6	phenotypic_feature 578 590	micrognathia
+T6	phenotypic_feature 596 623	proportionate short stature
+T7	phenotypic_feature 647 655	cataract
+T7	disease 647 655	cataract
+T7	disease 665 673	cataract
+T7	phenotypic_feature 665 673	cataract
+T8	phenotypic_feature 713 723	meningitis
+T8	disease 713 723	meningitis
+T8	phenotypic_feature 724 732	deafness
+T9	disease 734 740	Ataxia
+T9	phenotypic_feature 734 740	Ataxia
+T9	disease 776 797	ataxia-telangiectasia
+T9	disease 806 812	ataxia
+T9	phenotypic_feature 806 812	ataxia
+T9	phenotypic_feature 818 836	oculomotor apraxia
+T9	phenotypic_feature 849 855	ataxia
+T9	disease 849 855	ataxia
+T9	phenotypic_feature 861 879	oculomotor apraxia
+T9	phenotypic_feature 902 908	ataxia
+T9	disease 902 908	ataxia
+T10	disease 990 1015	cholesteatoma, congenital
+T10	disease 1016 1029	cholesteatoma
+T10	disease 1016 1029	cholesteatoma
+T10	phenotypic_feature 1016 1029	cholesteatoma
+T10	phenotypic_feature 1069 1082	cholesteatoma
+T10	disease 1069 1082	cholesteatoma
+T10	disease 1069 1082	cholesteatoma
+T10	disease 1084 1097	cholesteatoma
+T10	disease 1084 1097	cholesteatoma
+T10	phenotypic_feature 1084 1097	cholesteatoma
+T10	phenotypic_feature 1111 1124	cholesteatoma
+T11	phenotypic_feature 1148 1174	Intracranial calcification
+T11	phenotypic_feature 1179 1197	hypoparathyroidism
+T11	disease 1179 1197	hypoparathyroidism
+T12	phenotypic_feature 1199 1205	Asthma
+T12	disease 1199 1205	Asthma
+T12	disease 1210 1217	obesity
+T12	phenotypic_feature 1210 1217	obesity
+T13	phenotypic_feature 1242 1265	Obstructive sleep apnea
+T13	disease 1270 1277	obesity
+T13	phenotypic_feature 1270 1277	obesity
+T14	disease 1364 1373	syndromic
+T14	disease 1398 1404	autism
+T14	phenotypic_feature 1398 1404	autism
+T14	phenotypic_feature 1406 1419	short stature
+T14	phenotypic_feature 1421 1433	microcephaly
+T14	disease 1421 1433	microcephaly
+T14	phenotypic_feature 1455 1474	facial dysmorphisms
+T15	phenotypic_feature 1601 1613	early tumors
+T15	disease 1601 1613	early tumors
+T16	disease 1753 1779	Tuberous sclerosis complex
+T16	phenotypic_feature 1837 1845	seizures
+T16	phenotypic_feature 1847 1865	mental retardation
+T16	disease 1867 1873	autism
+T16	phenotypic_feature 1867 1873	autism
+T17	disease 1949 1967	hyperaldosteronism
+T17	phenotypic_feature 1949 1967	hyperaldosteronism
+T18	disease 1970 1978	Glaucoma
+T18	disease 1998 2015	visual impairment
+T18	phenotypic_feature 1998 2015	visual impairment
+T18	disease 2020 2029	blindness
+T18	phenotypic_feature 2020 2029	blindness
+T19	phenotypic_feature 2108 2115	obesity
+T19	disease 2108 2115	obesity
+T19	disease 2117 2133	hyperinsulinemia
+T19	phenotypic_feature 2117 2133	hyperinsulinemia
+T19	disease 2149 2156	hepatic
+T20	disease 2176 2197	Pseudo-TORCH syndrome
+T20	disease 2278 2290	microcephaly
+T20	phenotypic_feature 2278 2290	microcephaly
+T20	phenotypic_feature 2292 2318	intracranial calcification
+T20	phenotypic_feature 2320 2328	seizures
+T20	phenotypic_feature 2330 2348	mental retardation
+T20	disease 2373 2394	coagulation disorders

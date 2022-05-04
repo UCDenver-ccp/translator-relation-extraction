@@ -1,0 +1,111 @@
+T1	anatomical_site 21 29	juvenile
+T1	disease_or_phenotypic_feature 30 37	obesity
+T1	disease_or_phenotypic_feature 30 37	obesity
+T2	anatomical_site 71 85	occipital bone
+T2	disease_or_phenotypic_feature 100 113	hydrocephalus
+T2	disease_or_phenotypic_feature 100 113	hydrocephalus
+T2	disease_or_phenotypic_feature 118 127	blindness
+T2	disease_or_phenotypic_feature 118 127	blindness
+T3	disease_or_phenotypic_feature 170 178	cataract
+T3	disease_or_phenotypic_feature 170 178	cataract
+T3	anatomical_site 215 218	eye
+T3	disease_or_phenotypic_feature 219 227	cataract
+T3	disease_or_phenotypic_feature 219 227	cataract
+T4	disease_or_phenotypic_feature 237 246	Hamartoma
+T4	disease_or_phenotypic_feature 237 246	Hamartoma
+T4	anatomical_site 254 269	urinary bladder
+T5	disease_or_phenotypic_feature 294 326	gestational trophoblastic tumors
+T5	anatomical_site 328 335	gonadal
+T5	anatomical_site 390 394	bone
+T5	anatomical_site 390 394	bone
+T5	anatomical_site 404 410	tissue
+T5	disease_or_phenotypic_feature 426 449	paraneoplastic syndrome
+T6	anatomical_site 504 512	arterial
+T6	disease_or_phenotypic_feature 579 597	metabolic syndrome
+T6	disease_or_phenotypic_feature 599 607	diabetes
+T6	disease_or_phenotypic_feature 618 631	renal failure
+T6	disease_or_phenotypic_feature 618 631	renal failure
+T6	disease_or_phenotypic_feature 633 653	hypercholesterolemia
+T6	disease_or_phenotypic_feature 658 665	obesity
+T6	disease_or_phenotypic_feature 658 665	obesity
+T7	anatomical_site 684 687	eye
+T7	disease_or_phenotypic_feature 707 716	cataracts
+T7	disease_or_phenotypic_feature 707 716	cataracts
+T7	disease_or_phenotypic_feature 731 737	ptosis
+T8	disease_or_phenotypic_feature 787 795	syndrome
+T8	disease_or_phenotypic_feature 806 816	phocomelia
+T8	disease_or_phenotypic_feature 817 825	syndrome
+T8	anatomical_site 843 847	limb
+T8	disease_or_phenotypic_feature 875 890	renal anomalies
+T8	anatomical_site 924 930	kidney
+T8	disease_or_phenotypic_feature 936 951	abnormal facial
+T8	disease_or_phenotypic_feature 971 983	cleft palate
+T8	disease_or_phenotypic_feature 971 983	cleft palate
+T8	disease_or_phenotypic_feature 985 998	hypertelorism
+T9	anatomical_site 1032 1036	bone
+T9	anatomical_site 1032 1036	bone
+T9	anatomical_site 1037 1048	mesenchymal
+T9	disease_or_phenotypic_feature 1072 1079	hepatic
+T10	disease_or_phenotypic_feature 1138 1146	cataract
+T10	disease_or_phenotypic_feature 1138 1146	cataract
+T10	anatomical_site 1160 1166	kidney
+T11	anatomical_site 1220 1226	tissue
+T11	anatomical_site 1244 1250	tissue
+T11	disease_or_phenotypic_feature 1283 1308	hypersensitivity reaction
+T11	disease_or_phenotypic_feature 1314 1323	blindness
+T11	disease_or_phenotypic_feature 1314 1323	blindness
+T11	disease_or_phenotypic_feature 1328 1345	cerebral ischemia
+T11	disease_or_phenotypic_feature 1328 1345	cerebral ischemia
+T12	disease_or_phenotypic_feature 1413 1428	muscle weakness
+T12	disease_or_phenotypic_feature 1450 1456	ataxia
+T12	disease_or_phenotypic_feature 1450 1456	ataxia
+T12	disease_or_phenotypic_feature 1458 1466	seizures
+T12	disease_or_phenotypic_feature 1468 1491	intellectual disability
+T12	anatomical_site 1498 1502	skin
+T12	anatomical_site 1498 1502	skin
+T12	anatomical_site 1520 1524	hair
+T13	disease_or_phenotypic_feature 1536 1539	RCC
+T13	disease_or_phenotypic_feature 1536 1539	RCC
+T13	disease_or_phenotypic_feature 1536 1539	RCC
+T13	anatomical_site 1551 1559	thrombus
+T14	disease_or_phenotypic_feature 1651 1659	Diabetic
+T14	disease_or_phenotypic_feature 1660 1673	hyperglycemia
+T14	disease_or_phenotypic_feature 1660 1673	hyperglycemia
+T14	disease_or_phenotypic_feature 1685 1693	seizures
+T14	anatomical_site 1725 1736	hippocampal
+T14	anatomical_site 1725 1736	hippocampal
+T15	anatomical_site 1804 1808	body
+T15	anatomical_site 1804 1808	body
+T15	disease_or_phenotypic_feature 1832 1839	obesity
+T15	disease_or_phenotypic_feature 1832 1839	obesity
+T15	disease_or_phenotypic_feature 1851 1864	hyperglycemia
+T15	disease_or_phenotypic_feature 1851 1864	hyperglycemia
+T15	disease_or_phenotypic_feature 1869 1885	hyperinsulinemia
+T15	disease_or_phenotypic_feature 1869 1885	hyperinsulinemia
+T16	anatomical_site 1902 1906	male
+T16	disease_or_phenotypic_feature 2086 2094	syndrome
+T16	disease_or_phenotypic_feature 2120 2124	cold
+T16	disease_or_phenotypic_feature 2125 2133	syndrome
+T16	disease_or_phenotypic_feature 2192 2200	syndrome
+T16	disease_or_phenotypic_feature 2233 2237	cold
+T16	disease_or_phenotypic_feature 2238 2246	syndrome
+T17	disease_or_phenotypic_feature 2364 2376	pigmentation
+T17	disease_or_phenotypic_feature 2411 2417	ptosis
+T17	disease_or_phenotypic_feature 2419 2430	polydactyly
+T17	disease_or_phenotypic_feature 2432 2441	scoliosis
+T17	disease_or_phenotypic_feature 2443 2467	congenital heart defects
+T17	disease_or_phenotypic_feature 2443 2467	congenital heart defects
+T17	anatomical_site 2480 2487	kidneys
+T17	disease_or_phenotypic_feature 2492 2500	seizures
+T18	anatomical_site 2519 2527	juvenile
+T18	disease_or_phenotypic_feature 2528 2535	obesity
+T18	disease_or_phenotypic_feature 2528 2535	obesity
+T19	disease_or_phenotypic_feature 2611 2623	blood, tumor
+T19	disease_or_phenotypic_feature 2624 2637	tongue, tumor
+T19	anatomical_site 2638 2642	skin
+T19	anatomical_site 2638 2642	skin
+T19	anatomical_site 2653 2657	bone
+T19	anatomical_site 2653 2657	bone
+T20	anatomical_site 2732 2745	Thyroid gland
+T20	disease_or_phenotypic_feature 2750 2757	obesity
+T20	disease_or_phenotypic_feature 2750 2757	obesity

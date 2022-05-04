@@ -1,0 +1,124 @@
+T1	disease 0 44	Carbohydrate-deficient glycoprotein syndrome
+T1	phenotypic_feature 65 83	mental retardation
+T1	phenotypic_feature 85 91	ataxia
+T1	disease 85 91	ataxia
+T1	phenotypic_feature 121 142	cerebellar hypoplasia
+T1	phenotypic_feature 144 165	peripheral neuropathy
+T1	disease 144 165	peripheral neuropathy
+T1	phenotypic_feature 188 206	growth retardation
+T2	phenotypic_feature 247 265	mental retardation
+T2	phenotypic_feature 267 276	cataracts
+T2	disease 267 276	cataracts
+T2	disease 282 294	hypogonadism
+T3	phenotypic_feature 355 366	progressive
+T3	phenotypic_feature 367 371	left
+T3	phenotypic_feature 372 384	hemidystonia
+T3	disease 372 384	hemidystonia
+T4	phenotypic_feature 386 392	Asthma
+T4	disease 386 392	Asthma
+T4	disease 397 404	obesity
+T4	phenotypic_feature 397 404	obesity
+T5	disease 453 464	hyperplasia
+T5	phenotypic_feature 466 480	hyperkeratosis
+T6	phenotypic_feature 511 518	Uveitis
+T6	disease 511 518	Uveitis
+T6	phenotypic_feature 519 527	glaucoma
+T6	disease 519 527	glaucoma
+T6	disease 536 544	syndrome
+T6	disease 579 587	cataract
+T6	phenotypic_feature 579 587	cataract
+T7	phenotypic_feature 648 656	cataract
+T7	disease 648 656	cataract
+T7	disease 661 669	glaucoma
+T7	phenotypic_feature 675 683	cataract
+T7	disease 675 683	cataract
+T7	phenotypic_feature 728 736	cataract
+T7	disease 728 736	cataract
+T7	disease 741 749	glaucoma
+T8	phenotypic_feature 762 774	Hypoglycemia
+T8	disease 762 774	Hypoglycemia
+T8	disease 783 796	hyperglycemia
+T8	phenotypic_feature 783 796	hyperglycemia
+T9	disease 798 820	Neurological disorders
+T9	disease 926 934	syndrome
+T9	phenotypic_feature 948 969	peripheral neuropathy
+T9	disease 948 969	peripheral neuropathy
+T9	disease 971 989	cranial neuropathy
+T9	disease 991 1008	movement disorder
+T9	phenotypic_feature 991 1008	movement disorder
+T9	phenotypic_feature 1010 1024	encephalopathy
+T9	disease 1026 1048	Lambert-Eaton syndrome
+T9	phenotypic_feature 1054 1062	seizures
+T10	disease 1171 1192	neurological disorder
+T10	phenotypic_feature 1194 1206	microcephaly
+T10	disease 1194 1206	microcephaly
+T10	phenotypic_feature 1208 1218	spasticity
+T10	phenotypic_feature 1220 1238	mental retardation
+T10	phenotypic_feature 1244 1266	sensorineural deafness
+T10	disease 1244 1266	sensorineural deafness
+T11	phenotypic_feature 1298 1310	microcephaly
+T11	disease 1298 1310	microcephaly
+T11	phenotypic_feature 1312 1337	severe mental retardation
+T11	disease 1339 1354	optical atrophy
+T11	phenotypic_feature 1380 1389	blindness
+T11	disease 1380 1389	blindness
+T11	phenotypic_feature 1398 1412	hearing defect
+T11	disease 1429 1435	facial
+T11	disease 1429 1435	facial
+T11	phenotypic_feature 1446 1456	spasticity
+T11	phenotypic_feature 1458 1466	seizures
+T12	disease 1514 1522	chordoma
+T12	phenotypic_feature 1514 1522	chordoma
+T13	disease 1561 1568	hepatic
+T13	disease 1605 1614	hamartoma
+T13	phenotypic_feature 1605 1614	hamartoma
+T14	disease 1659 1669	paraplegia
+T14	disease 1754 1760	anemia
+T14	phenotypic_feature 1754 1760	anemia
+T14	disease 1762 1786	congestive heart failure
+T14	phenotypic_feature 1762 1786	congestive heart failure
+T14	disease 1844 1852	diabetes
+T14	disease 1854 1868	hyperlipidemia
+T14	phenotypic_feature 1854 1868	hyperlipidemia
+T14	disease 1870 1877	obesity
+T14	phenotypic_feature 1870 1877	obesity
+T14	disease 1887 1899	lung disease
+T14	phenotypic_feature 1905 1918	renal failure
+T14	disease 1905 1918	renal failure
+T15	disease 1934 1951	visual impairment
+T15	phenotypic_feature 1934 1951	visual impairment
+T15	disease 1956 1965	blindness
+T15	phenotypic_feature 1956 1965	blindness
+T15	phenotypic_feature 1971 1979	cataract
+T15	disease 1971 1979	cataract
+T15	phenotypic_feature 1989 2004	corneal opacity
+T15	disease 2033 2041	glaucoma
+T15	disease 2053 2062	hyperopia
+T16	disease 2103 2115	hypoglycemia
+T16	phenotypic_feature 2103 2115	hypoglycemia
+T17	disease 2142 2157	phenylketonuria
+T17	disease 2159 2162	PKU
+T17	phenotypic_feature 2202 2220	mental retardation
+T17	phenotypic_feature 2222 2234	microcephaly
+T17	disease 2222 2234	microcephaly
+T17	phenotypic_feature 2236 2249	heart defects
+T17	disease 2236 2249	heart defects
+T18	disease 2298 2309	hypotension
+T18	disease 2311 2317	ataxia
+T18	phenotypic_feature 2311 2317	ataxia
+T18	phenotypic_feature 2338 2346	vomiting
+T18	phenotypic_feature 2372 2390	sensory neuropathy
+T18	disease 2372 2390	sensory neuropathy
+T19	disease 2448 2465	cerebellar ataxia
+T19	phenotypic_feature 2448 2465	cerebellar ataxia
+T19	phenotypic_feature 2467 2476	blindness
+T19	disease 2484 2497	optic atrophy
+T19	phenotypic_feature 2484 2497	optic atrophy
+T19	phenotypic_feature 2502 2522	retinal degeneration
+T19	disease 2502 2522	retinal degeneration
+T19	phenotypic_feature 2524 2532	deafness
+T19	phenotypic_feature 2534 2557	swallowing difficulties
+T20	disease 2626 2635	cataracts
+T20	phenotypic_feature 2626 2635	cataracts
+T20	disease 2651 2664	optic atrophy
+T20	phenotypic_feature 2651 2664	optic atrophy

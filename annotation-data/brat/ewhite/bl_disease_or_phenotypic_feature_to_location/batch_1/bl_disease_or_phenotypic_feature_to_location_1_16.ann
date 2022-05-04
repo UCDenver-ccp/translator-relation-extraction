@@ -1,0 +1,112 @@
+T1	disease_or_phenotypic_feature 47 56	hamartoma
+T1	disease_or_phenotypic_feature 47 56	hamartoma
+T1	anatomical_site 65 76	gallbladder
+T2	anatomical_site 78 84	Kidney
+T2	anatomical_site 132 138	kidney
+T2	disease_or_phenotypic_feature 187 198	proteinuria
+T2	disease_or_phenotypic_feature 210 217	obesity
+T2	disease_or_phenotypic_feature 210 217	obesity
+T2	disease_or_phenotypic_feature 219 241	cardiovascular disease
+T2	disease_or_phenotypic_feature 243 249	anemia
+T2	disease_or_phenotypic_feature 243 249	anemia
+T2	disease_or_phenotypic_feature 251 264	hyperuricemia
+T2	disease_or_phenotypic_feature 266 278	hypocalcemia
+T2	disease_or_phenotypic_feature 284 301	hyperphosphatemia
+T3	anatomical_site 303 318	Skeletal muscle
+T3	anatomical_site 303 318	Skeletal muscle
+T3	disease_or_phenotypic_feature 319 327	myopathy
+T3	disease_or_phenotypic_feature 319 327	myopathy
+T3	disease_or_phenotypic_feature 381 394	heart failure
+T3	disease_or_phenotypic_feature 381 394	heart failure
+T4	disease_or_phenotypic_feature 430 443	hyperglycemia
+T4	disease_or_phenotypic_feature 445 461	hyperinsulinemia
+T4	disease_or_phenotypic_feature 445 461	hyperinsulinemia
+T4	disease_or_phenotypic_feature 484 498	hyperlipidemia
+T4	disease_or_phenotypic_feature 484 498	hyperlipidemia
+T4	anatomical_site 530 544	adipose tissue
+T4	anatomical_site 546 551	liver
+T4	anatomical_site 553 558	heart
+T4	anatomical_site 564 571	kidneys
+T5	disease_or_phenotypic_feature 609 619	lung tumor
+T5	disease_or_phenotypic_feature 609 619	lung tumor
+T5	anatomical_site 651 655	lung
+T5	anatomical_site 714 718	lung
+T6	disease_or_phenotypic_feature 743 752	malignant
+T6	anatomical_site 753 764	mesenchymal
+T6	anatomical_site 822 827	chest
+T6	disease_or_phenotypic_feature 828 837	neoplasms
+T7	disease_or_phenotypic_feature 847 856	hamartoma
+T7	disease_or_phenotypic_feature 847 856	hamartoma
+T7	anatomical_site 909 915	tissue
+T8	anatomical_site 963 972	vertebral
+T8	disease_or_phenotypic_feature 973 986	osteomyelitis
+T8	disease_or_phenotypic_feature 973 986	osteomyelitis
+T9	disease_or_phenotypic_feature 1013 1020	obesity
+T9	disease_or_phenotypic_feature 1013 1020	obesity
+T9	anatomical_site 1066 1072	tissue
+T10	anatomical_site 1138 1143	serum
+T10	disease_or_phenotypic_feature 1176 1185	hepatitis
+T11	disease_or_phenotypic_feature 1187 1196	Hamartoma
+T11	disease_or_phenotypic_feature 1187 1196	Hamartoma
+T11	anatomical_site 1204 1219	masseter muscle
+T12	anatomical_site 1221 1229	Muscular
+T12	anatomical_site 1221 1229	Muscular
+T12	disease_or_phenotypic_feature 1240 1250	hypertonia
+T12	disease_or_phenotypic_feature 1252 1269	movement disorder
+T12	disease_or_phenotypic_feature 1252 1269	movement disorder
+T12	disease_or_phenotypic_feature 1286 1299	brain atrophy
+T13	disease_or_phenotypic_feature 1325 1337	Subcutaneous
+T13	anatomical_site 1378 1382	male
+T13	anatomical_site 1387 1393	female
+T14	disease_or_phenotypic_feature 1559 1568	cirrhosis
+T14	anatomical_site 1576 1583	capsule
+T14	anatomical_site 1585 1593	vascular
+T14	anatomical_site 1585 1593	vascular
+T14	anatomical_site 1585 1593	vascular
+T15	disease_or_phenotypic_feature 1671 1684	hydrocephalus
+T15	disease_or_phenotypic_feature 1671 1684	hydrocephalus
+T15	anatomical_site 1688 1694	adults
+T16	disease_or_phenotypic_feature 1702 1714	hyperthermia
+T16	anatomical_site 1738 1744	tissue
+T16	anatomical_site 1817 1823	tissue
+T17	disease_or_phenotypic_feature 1825 1840	Hypopituitarism
+T17	disease_or_phenotypic_feature 1825 1840	Hypopituitarism
+T17	anatomical_site 1849 1852	eye
+T18	anatomical_site 1897 1922	peripheral nervous system
+T18	disease_or_phenotypic_feature 1924 1932	myopathy
+T18	disease_or_phenotypic_feature 1934 1948	polyneuropathy
+T18	anatomical_site 1965 1970	brain
+T18	disease_or_phenotypic_feature 2043 2051	dementia
+T18	disease_or_phenotypic_feature 2089 2095	ataxia
+T18	disease_or_phenotypic_feature 2089 2095	ataxia
+T18	disease_or_phenotypic_feature 2151 2164	short stature
+T18	disease_or_phenotypic_feature 2166 2179	hyperhidrosis
+T18	anatomical_site 2253 2258	heart
+T18	disease_or_phenotypic_feature 2302 2316	cardiomyopathy
+T18	disease_or_phenotypic_feature 2350 2363	heart failure
+T18	disease_or_phenotypic_feature 2372 2380	cataract
+T18	disease_or_phenotypic_feature 2416 2429	optic atrophy
+T18	disease_or_phenotypic_feature 2416 2429	optic atrophy
+T18	disease_or_phenotypic_feature 2438 2446	deafness
+T18	disease_or_phenotypic_feature 2448 2456	tinnitus
+T18	disease_or_phenotypic_feature 2469 2476	vertigo
+T18	disease_or_phenotypic_feature 2496 2504	vomiting
+T18	disease_or_phenotypic_feature 2506 2515	diarrhoea
+T18	anatomical_site 2564 2572	pancreas
+T18	anatomical_site 2589 2595	kidney
+T18	disease_or_phenotypic_feature 2597 2610	renal failure
+T18	disease_or_phenotypic_feature 2597 2610	renal failure
+T18	anatomical_site 2623 2634	bone marrow
+T18	disease_or_phenotypic_feature 2650 2657	anaemia
+T19	anatomical_site 2751 2761	lymph node
+T19	disease_or_phenotypic_feature 2777 2785	melanoma
+T20	disease_or_phenotypic_feature 2816 2829	Coats disease
+T20	disease_or_phenotypic_feature 2842 2850	cataract
+T20	disease_or_phenotypic_feature 2852 2871	congenital glaucoma
+T20	anatomical_site 2885 2896	optic nerve
+T20	anatomical_site 2885 2896	optic nerve
+T20	anatomical_site 2897 2901	head
+T20	disease_or_phenotypic_feature 2914 2927	optic atrophy
+T20	disease_or_phenotypic_feature 2914 2927	optic atrophy
+T20	disease_or_phenotypic_feature 2943 2957	microphthalmos
+T20	disease_or_phenotypic_feature 2963 2977	retinoblastoma

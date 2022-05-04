@@ -1,0 +1,115 @@
+T1	phenotypic_feature 0 20	Retinal degeneration
+T1	disease 0 20	Retinal degeneration
+T1	disease 28 45	vision impairment
+T1	phenotypic_feature 28 45	vision impairment
+T1	disease 50 59	blindness
+T1	phenotypic_feature 50 59	blindness
+T2	phenotypic_feature 81 93	macrocephaly
+T2	disease 94 103	hamartoma
+T2	phenotypic_feature 94 103	hamartoma
+T2	disease 104 113	syndromes
+T3	phenotypic_feature 132 155	intellectual disability
+T3	phenotypic_feature 157 176	facial dysmorphisms
+T3	phenotypic_feature 178 185	obesity
+T3	disease 178 185	obesity
+T3	disease 191 199	diabetes
+T4	phenotypic_feature 210 218	cataract
+T4	disease 210 218	cataract
+T4	disease 219 228	blindness
+T4	phenotypic_feature 219 228	blindness
+T5	phenotypic_feature 318 341	intellectual disability
+T5	disease 343 351	dystonia
+T5	disease 353 370	cerebellar ataxia
+T5	phenotypic_feature 353 370	cerebellar ataxia
+T5	disease 384 405	peripheral neuropathy
+T5	phenotypic_feature 384 405	peripheral neuropathy
+T5	phenotypic_feature 407 424	visual impairment
+T5	disease 407 424	visual impairment
+T6	phenotypic_feature 512 518	asthma
+T6	disease 512 518	asthma
+T6	disease 519 529	dermatitis
+T6	disease 530 538	cataract
+T6	phenotypic_feature 530 538	cataract
+T6	disease 543 556	optic atrophy
+T6	phenotypic_feature 543 556	optic atrophy
+T7	phenotypic_feature 633 643	arrhythmia
+T7	disease 633 643	arrhythmia
+T7	disease 647 660	heart failure
+T7	phenotypic_feature 647 660	heart failure
+T8	disease 749 770	peripheral neuropathy
+T8	phenotypic_feature 749 770	peripheral neuropathy
+T8	disease 772 784	dysautonomia
+T8	disease 772 784	dysautonomia
+T8	disease 805 822	cerebellar ataxia
+T8	phenotypic_feature 805 822	cerebellar ataxia
+T8	phenotypic_feature 857 865	seizures
+T8	disease 867 885	cranial neuropathy
+T8	disease 887 904	movement disorder
+T8	phenotypic_feature 887 904	movement disorder
+T9	disease 973 981	cataract
+T9	phenotypic_feature 973 981	cataract
+T9	phenotypic_feature 982 991	blindness
+T9	disease 982 991	blindness
+T10	disease 1124 1136	microcephaly
+T10	phenotypic_feature 1138 1161	intellectual disability
+T10	disease 1184 1206	sensorineural deafness
+T10	phenotypic_feature 1184 1206	sensorineural deafness
+T10	phenotypic_feature 1228 1234	ataxia
+T10	disease 1228 1234	ataxia
+T10	disease 1240 1261	peripheral neuropathy
+T10	phenotypic_feature 1240 1261	peripheral neuropathy
+T11	disease 1315 1344	peripheral sensory neuropathy
+T11	phenotypic_feature 1315 1344	peripheral sensory neuropathy
+T11	disease 1350 1367	cerebellar ataxia
+T11	phenotypic_feature 1350 1367	cerebellar ataxia
+T11	phenotypic_feature 1393 1399	ataxia
+T11	disease 1393 1399	ataxia
+T12	disease 1405 1423	Metabolic syndrome
+T12	phenotypic_feature 1487 1501	hyperlipidemia
+T12	disease 1487 1501	hyperlipidemia
+T12	phenotypic_feature 1503 1516	hyperglycemia
+T12	disease 1503 1516	hyperglycemia
+T12	phenotypic_feature 1531 1538	obesity
+T12	disease 1531 1538	obesity
+T13	disease 1575 1592	Angelman syndrome
+T13	disease 1608 1627	neurologic disorder
+T13	disease 1687 1693	ataxia
+T13	phenotypic_feature 1687 1693	ataxia
+T13	phenotypic_feature 1695 1718	intellectual disability
+T13	phenotypic_feature 1720 1737	speech impairment
+T13	disease 1739 1754	sleep disorders
+T13	phenotypic_feature 1760 1768	seizures
+T14	phenotypic_feature 1856 1868	macrocephaly
+T14	disease 1870 1876	autism
+T14	phenotypic_feature 1870 1876	autism
+T14	phenotypic_feature 1878 1884	ataxia
+T14	disease 1878 1884	ataxia
+T15	disease 1915 1922	obesity
+T15	phenotypic_feature 1915 1922	obesity
+T15	disease 1928 1942	cardiomyopathy
+T15	phenotypic_feature 1946 1953	obesity
+T15	disease 1946 1953	obesity
+T16	phenotypic_feature 1999 2005	ptosis
+T16	disease 2007 2023	muscular atrophy
+T16	phenotypic_feature 2007 2023	muscular atrophy
+T16	disease 2025 2034	scoliosis
+T16	phenotypic_feature 2047 2073	dysmorphic facial features
+T17	disease 2088 2094	anemia
+T17	disease 2096 2106	neuropathy
+T17	phenotypic_feature 2108 2113	fever
+T17	disease 2131 2140	blindness
+T17	phenotypic_feature 2131 2140	blindness
+T18	phenotypic_feature 2142 2152	Autoimmune
+T18	disease 2153 2179	sensorineural hearing loss
+T18	phenotypic_feature 2153 2179	sensorineural hearing loss
+T18	disease 2196 2205	arthritis
+T19	disease 2235 2252	hyperphosphatemic
+T19	phenotypic_feature 2235 2252	hyperphosphatemic
+T19	disease 2253 2266	renal failure
+T19	phenotypic_feature 2253 2266	renal failure
+T20	disease 2319 2325	anemia
+T20	phenotypic_feature 2327 2346	nausea and vomiting
+T20	phenotypic_feature 2348 2369	peripheral neuropathy
+T20	disease 2348 2369	peripheral neuropathy
+T20	phenotypic_feature 2375 2392	cerebellar ataxia
+T20	disease 2375 2392	cerebellar ataxia

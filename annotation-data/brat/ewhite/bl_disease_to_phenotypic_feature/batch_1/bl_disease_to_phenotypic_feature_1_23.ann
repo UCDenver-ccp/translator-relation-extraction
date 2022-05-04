@@ -1,0 +1,133 @@
+T1	disease 0 8	Trachoma
+T1	disease 0 8	Trachoma
+T1	disease 23 40	visual impairment
+T1	phenotypic_feature 23 40	visual impairment
+T1	phenotypic_feature 45 54	blindness
+T1	disease 45 54	blindness
+T2	phenotypic_feature 94 102	seizures
+T2	disease 115 121	ataxia
+T2	phenotypic_feature 115 121	ataxia
+T2	disease 123 133	dermatitis
+T2	phenotypic_feature 135 144	hair loss
+T2	disease 135 144	hair loss
+T2	phenotypic_feature 146 164	mental retardation
+T3	disease 254 263	syndromic
+T3	disease 264 282	hypoparathyroidism
+T3	phenotypic_feature 318 330	microcephaly
+T3	disease 318 330	microcephaly
+T3	phenotypic_feature 332 355	intellectual disability
+T3	phenotypic_feature 379 397	facial dysmorphism
+T4	disease 410 418	syndrome
+T4	disease 432 445	optic atrophy
+T4	phenotypic_feature 432 445	optic atrophy
+T4	phenotypic_feature 447 464	movement disorder
+T4	disease 447 464	movement disorder
+T4	disease 478 488	paraplegia
+T5	disease 516 522	ataxia
+T5	phenotypic_feature 516 522	ataxia
+T5	disease 527 540	hyperreflexia
+T5	phenotypic_feature 566 572	ataxia
+T5	disease 566 572	ataxia
+T6	disease 616 628	microcephaly
+T6	phenotypic_feature 616 628	microcephaly
+T6	phenotypic_feature 630 643	short stature
+T6	disease 649 661	hypogonadism
+T7	disease 669 686	esophageal cancer
+T7	phenotypic_feature 688 702	gastric cancer
+T7	disease 688 702	gastric cancer
+T7	disease 704 716	colon cancer
+T7	phenotypic_feature 704 716	colon cancer
+T7	disease 704 716	colon cancer
+T7	phenotypic_feature 721 733	liver cancer
+T7	disease 721 733	liver cancer
+T7	disease 721 733	liver cancer
+T7	disease 762 771	malignant
+T8	phenotypic_feature 846 853	obesity
+T8	disease 846 853	obesity
+T8	disease 909 925	prostate cancers
+T9	disease 974 987	hydrocephalus
+T9	phenotypic_feature 974 987	hydrocephalus
+T9	phenotypic_feature 989 1001	microcephaly
+T9	disease 989 1001	microcephaly
+T9	disease 1003 1012	blindness
+T9	phenotypic_feature 1003 1012	blindness
+T9	phenotypic_feature 1014 1022	deafness
+T9	phenotypic_feature 1028 1046	mental retardation
+T10	disease 1106 1114	arterial
+T10	disease 1129 1137	diabetes
+T10	phenotypic_feature 1139 1153	hyperlipidemia
+T10	disease 1139 1153	hyperlipidemia
+T10	phenotypic_feature 1155 1168	hyperuricemia
+T10	phenotypic_feature 1229 1242	heart-failure
+T10	phenotypic_feature 1254 1266	hypertension
+T10	disease 1294 1320	restrictive cardiomyopathy
+T11	disease 1431 1442	proteinuria
+T11	phenotypic_feature 1454 1461	obesity
+T11	disease 1454 1461	obesity
+T11	disease 1463 1485	cardiovascular disease
+T11	phenotypic_feature 1487 1493	anemia
+T11	disease 1487 1493	anemia
+T11	phenotypic_feature 1495 1508	hyperuricemia
+T11	phenotypic_feature 1510 1522	hypocalcemia
+T11	disease 1528 1545	hyperphosphatemia
+T12	disease 1597 1613	Pheochromocytoma
+T12	phenotypic_feature 1597 1613	Pheochromocytoma
+T12	disease 1614 1627	Paraganglioma
+T12	phenotypic_feature 1614 1627	Paraganglioma
+T12	disease 1628 1636	Syndrome
+T13	disease 1674 1689	hypopituitarism
+T13	phenotypic_feature 1674 1689	hypopituitarism
+T13	disease 1703 1716	renal failure
+T13	phenotypic_feature 1703 1716	renal failure
+T14	disease 1757 1764	obesity
+T14	phenotypic_feature 1757 1764	obesity
+T14	phenotypic_feature 1766 1780	hyperlipidemia
+T14	disease 1766 1780	hyperlipidemia
+T14	disease 1782 1788	anemia
+T14	phenotypic_feature 1782 1788	anemia
+T15	phenotypic_feature 1831 1845	hyperlipidemia
+T15	disease 1831 1845	hyperlipidemia
+T15	phenotypic_feature 1847 1859	hypertension
+T15	disease 1861 1868	obesity
+T15	phenotypic_feature 1861 1868	obesity
+T15	disease 1873 1895	cardiovascular disease
+T16	disease 1897 1918	Bardet-Biedl syndrome
+T16	phenotypic_feature 1971 1989	mental retardation
+T16	disease 1991 1998	obesity
+T16	phenotypic_feature 1991 1998	obesity
+T16	disease 2000 2020	retinitis pigmentosa
+T16	phenotypic_feature 2022 2033	polydactyly
+T16	disease 2038 2050	hypogonadism
+T17	disease 2052 2066	Norrie disease
+T17	disease 2092 2100	syndrome
+T17	disease 2104 2113	blindness
+T17	phenotypic_feature 2104 2113	blindness
+T17	phenotypic_feature 2115 2123	deafness
+T17	phenotypic_feature 2129 2147	mental retardation
+T18	phenotypic_feature 2162 2175	renal failure
+T18	disease 2162 2175	renal failure
+T18	phenotypic_feature 2177 2198	cardiac abnormalities
+T18	disease 2204 2219	pulmonary edema
+T18	phenotypic_feature 2204 2219	pulmonary edema
+T19	disease 2240 2248	syndrome
+T19	phenotypic_feature 2258 2270	microcephaly
+T19	phenotypic_feature 2272 2280	seizures
+T19	phenotypic_feature 2282 2300	mental retardation
+T19	disease 2302 2326	congenital heart disease
+T19	phenotypic_feature 2332 2354	skeletal abnormalities
+T20	phenotypic_feature 2429 2442	cholesteatoma
+T20	disease 2429 2442	cholesteatoma
+T20	disease 2429 2442	cholesteatoma
+T20	disease 2460 2470	congenital
+T20	phenotypic_feature 2471 2483	cleft palate
+T20	disease 2471 2483	cleft palate
+T20	phenotypic_feature 2524 2536	cleft palate
+T20	disease 2524 2536	cleft palate
+T20	disease 2544 2564	cleft lip and palate
+T20	phenotypic_feature 2566 2578	cleft palate
+T20	disease 2566 2578	cleft palate
+T20	phenotypic_feature 2596 2608	cleft palate
+T20	disease 2596 2608	cleft palate
+T20	phenotypic_feature 2641 2654	cholesteatoma
+T20	disease 2641 2654	cholesteatoma
+T20	disease 2641 2654	cholesteatoma

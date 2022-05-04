@@ -1,0 +1,100 @@
+T1	phenotypic_feature 12 19	obesity
+T1	disease 12 19	obesity
+T1	disease 21 34	hyperglycemia
+T1	phenotypic_feature 21 34	hyperglycemia
+T1	disease 36 50	hyperlipidemia
+T1	phenotypic_feature 36 50	hyperlipidemia
+T2	phenotypic_feature 134 145	visual loss
+T2	disease 134 145	visual loss
+T2	disease 157 189	age-related macular degeneration
+T2	disease 191 211	diabetic retinopathy
+T2	disease 213 221	glaucoma
+T2	phenotypic_feature 227 235	cataract
+T2	disease 227 235	cataract
+T2	phenotypic_feature 256 267	visual loss
+T2	disease 256 267	visual loss
+T3	disease 285 297	cleft palate
+T3	phenotypic_feature 285 297	cleft palate
+T3	disease 302 322	retinal degeneration
+T3	phenotypic_feature 302 322	retinal degeneration
+T4	disease 361 367	ataxia
+T4	phenotypic_feature 361 367	ataxia
+T4	disease 381 390	blindness
+T4	phenotypic_feature 381 390	blindness
+T5	phenotypic_feature 428 434	autism
+T5	disease 428 434	autism
+T5	disease 445 478	pervasive developmental disorders
+T5	phenotypic_feature 445 478	pervasive developmental disorders
+T5	disease 445 478	pervasive developmental disorders
+T6	disease 514 520	anemia
+T6	disease 536 547	hypokalemia
+T6	phenotypic_feature 536 547	hypokalemia
+T6	disease 549 562	hyperglycemia
+T6	phenotypic_feature 549 562	hyperglycemia
+T6	phenotypic_feature 611 631	cognitive impairment
+T7	disease 662 670	cataract
+T7	phenotypic_feature 662 670	cataract
+T7	phenotypic_feature 671 680	blindness
+T7	disease 671 680	blindness
+T8	disease 728 736	cataract
+T8	phenotypic_feature 728 736	cataract
+T8	disease 737 746	blindness
+T8	phenotypic_feature 737 746	blindness
+T9	disease 797 810	chondromatous
+T9	phenotypic_feature 811 820	hamartoma
+T9	disease 811 820	hamartoma
+T10	disease 874 881	obesity
+T10	phenotypic_feature 874 881	obesity
+T10	phenotypic_feature 883 896	hyperglycemia
+T10	disease 883 896	hyperglycemia
+T10	phenotypic_feature 898 912	hyperlipidemia
+T10	disease 898 912	hyperlipidemia
+T10	disease 938 953	type 2 diabetes
+T11	phenotypic_feature 955 967	Cleft-palate
+T11	disease 955 967	Cleft-palate
+T11	disease 998 1010	cleft palate
+T11	phenotypic_feature 998 1010	cleft palate
+T12	disease 1033 1040	obesity
+T12	phenotypic_feature 1033 1040	obesity
+T12	phenotypic_feature 1077 1084	obesity
+T12	disease 1077 1084	obesity
+T13	disease 1120 1133	heart failure
+T13	phenotypic_feature 1120 1133	heart failure
+T13	disease 1137 1147	arrhythmia
+T13	phenotypic_feature 1137 1147	arrhythmia
+T14	disease 1149 1172	Glioblastoma multiforme
+T14	phenotypic_feature 1149 1172	Glioblastoma multiforme
+T14	phenotypic_feature 1202 1212	aggressive
+T14	phenotypic_feature 1213 1224	brain tumor
+T14	disease 1213 1224	brain tumor
+T15	disease 1271 1279	syndrome
+T15	disease 1309 1326	cerebellar ataxia
+T15	phenotypic_feature 1309 1326	cerebellar ataxia
+T15	phenotypic_feature 1328 1337	cataracts
+T15	disease 1328 1337	cataracts
+T15	disease 1339 1347	myopathy
+T15	phenotypic_feature 1353 1371	mental retardation
+T16	phenotypic_feature 1403 1409	Asthma
+T16	disease 1403 1409	Asthma
+T16	disease 1414 1421	obesity
+T16	phenotypic_feature 1414 1421	obesity
+T17	disease 1440 1457	Hypochondroplasia
+T17	phenotypic_feature 1469 1487	skeletal dysplasia
+T17	disease 1469 1487	skeletal dysplasia
+T17	phenotypic_feature 1506 1519	short stature
+T17	phenotypic_feature 1524 1536	macrocephaly
+T18	disease 1580 1596	hyperinsulinemia
+T18	phenotypic_feature 1580 1596	hyperinsulinemia
+T18	phenotypic_feature 1598 1618	hyperlipoproteinemia
+T18	disease 1598 1618	hyperlipoproteinemia
+T18	phenotypic_feature 1620 1633	hyperuricemia
+T18	disease 1635 1652	macrocytic anemia
+T18	disease 1657 1679	renal tubular acidosis
+T18	disease 1681 1695	polyneuropathy
+T19	disease 1768 1781	hydrocephalus
+T19	phenotypic_feature 1768 1781	hydrocephalus
+T20	phenotypic_feature 1824 1834	arthralgia
+T20	phenotypic_feature 1838 1847	arthritis
+T20	disease 1838 1847	arthritis
+T20	disease 1849 1865	chronic diarrhea
+T20	phenotypic_feature 1867 1881	abdominal pain

@@ -1,0 +1,111 @@
+T1	anatomical_site 18 26	arterial
+T1	anatomical_site 41 46	flank
+T1	disease_or_phenotypic_feature 52 66	abdominal pain
+T1	disease_or_phenotypic_feature 79 92	renal failure
+T1	disease_or_phenotypic_feature 79 92	renal failure
+T2	disease_or_phenotypic_feature 95 101	Uremic
+T2	disease_or_phenotypic_feature 102 107	edema
+T2	anatomical_site 115 120	lungs
+T3	anatomical_site 136 140	male
+T3	anatomical_site 175 192	lateral ventricle
+T3	disease_or_phenotypic_feature 208 219	visual loss
+T3	disease_or_phenotypic_feature 208 219	visual loss
+T4	anatomical_site 309 321	craniofacial
+T4	anatomical_site 309 321	craniofacial
+T4	disease_or_phenotypic_feature 323 337	hand anomalies
+T4	disease_or_phenotypic_feature 343 365	sensorineural deafness
+T4	disease_or_phenotypic_feature 343 365	sensorineural deafness
+T5	anatomical_site 433 446	smooth muscle
+T5	anatomical_site 458 464	tissue
+T5	disease_or_phenotypic_feature 473 482	leiomyoma
+T5	disease_or_phenotypic_feature 497 511	leiomyosarcoma
+T6	disease_or_phenotypic_feature 534 544	hypertonia
+T6	anatomical_site 549 557	muscular
+T6	anatomical_site 549 557	muscular
+T6	disease_or_phenotypic_feature 558 570	contractures
+T6	disease_or_phenotypic_feature 558 570	contractures
+T7	disease_or_phenotypic_feature 614 627	heart defects
+T7	disease_or_phenotypic_feature 614 627	heart defects
+T7	disease_or_phenotypic_feature 641 661	cleft lip and palate
+T7	anatomical_site 663 677	abdominal wall
+T7	disease_or_phenotypic_feature 687 705	skeletal dysplasia
+T7	disease_or_phenotypic_feature 687 705	skeletal dysplasia
+T7	disease_or_phenotypic_feature 707 720	hydrocephalus
+T7	disease_or_phenotypic_feature 707 720	hydrocephalus
+T7	disease_or_phenotypic_feature 722 733	polydactyly
+T7	disease_or_phenotypic_feature 738 751	Down syndrome
+T8	anatomical_site 770 774	lung
+T8	disease_or_phenotypic_feature 791 804	breast cancer
+T8	disease_or_phenotypic_feature 791 804	breast cancer
+T8	disease_or_phenotypic_feature 836 862	thrombotic microangiopathy
+T9	disease_or_phenotypic_feature 916 936	cleft lip and palate
+T9	disease_or_phenotypic_feature 938 965	abnormal external genitalia
+T9	anatomical_site 983 998	right ventricle
+T9	disease_or_phenotypic_feature 1004 1017	hydrocephalus
+T9	disease_or_phenotypic_feature 1004 1017	hydrocephalus
+T9	disease_or_phenotypic_feature 1023 1044	cerebellar hypoplasia
+T9	disease_or_phenotypic_feature 1051 1073	absent corpus callosum
+T9	anatomical_site 1078 1095	cerebellar vermis
+T10	disease_or_phenotypic_feature 1097 1108	Lassa fever
+T10	disease_or_phenotypic_feature 1154 1159	fever
+T10	anatomical_site 1161 1167	muscle
+T10	anatomical_site 1161 1167	muscle
+T10	disease_or_phenotypic_feature 1196 1204	vomiting
+T10	disease_or_phenotypic_feature 1206 1214	diarrhea
+T10	anatomical_site 1219 1224	chest
+T10	disease_or_phenotypic_feature 1229 1243	abdominal pain
+T11	anatomical_site 1276 1283	medulla
+T11	disease_or_phenotypic_feature 1301 1306	upper
+T11	anatomical_site 1307 1327	cervical spinal cord
+T12	disease_or_phenotypic_feature 1398 1403	fever
+T12	disease_or_phenotypic_feature 1405 1417	hypoglycemia
+T12	disease_or_phenotypic_feature 1405 1417	hypoglycemia
+T12	anatomical_site 1428 1450	central nervous system
+T12	disease_or_phenotypic_feature 1451 1461	infections
+T13	anatomical_site 1493 1499	female
+T13	disease_or_phenotypic_feature 1527 1540	delay, speech
+T13	disease_or_phenotypic_feature 1559 1571	cleft palate
+T13	disease_or_phenotypic_feature 1559 1571	cleft palate
+T13	disease_or_phenotypic_feature 1587 1605	hearing impairment
+T13	disease_or_phenotypic_feature 1587 1605	hearing impairment
+T14	anatomical_site 1679 1687	forehead
+T14	disease_or_phenotypic_feature 1689 1702	hypertelorism
+T14	disease_or_phenotypic_feature 1704 1718	prominent eyes
+T14	disease_or_phenotypic_feature 1748 1756	glaucoma
+T14	disease_or_phenotypic_feature 1783 1807	congenital heart defects
+T14	disease_or_phenotypic_feature 1783 1807	congenital heart defects
+T14	disease_or_phenotypic_feature 1825 1843	skeletal dysplasia
+T14	disease_or_phenotypic_feature 1825 1843	skeletal dysplasia
+T14	anatomical_site 1876 1880	skin
+T14	anatomical_site 1876 1880	skin
+T15	disease_or_phenotypic_feature 1955 1967	cleft palate
+T15	disease_or_phenotypic_feature 1955 1967	cleft palate
+T15	disease_or_phenotypic_feature 1969 1981	micrognathia
+T15	anatomical_site 2003 2009	eyelid
+T16	disease_or_phenotypic_feature 2040 2048	chordoma
+T16	disease_or_phenotypic_feature 2040 2048	chordoma
+T16	anatomical_site 2116 2122	tissue
+T17	disease_or_phenotypic_feature 2178 2188	hypodontia
+T17	disease_or_phenotypic_feature 2178 2188	hypodontia
+T17	anatomical_site 2218 2230	craniofacial
+T17	anatomical_site 2218 2230	craniofacial
+T17	disease_or_phenotypic_feature 2255 2265	hypodontia
+T17	disease_or_phenotypic_feature 2255 2265	hypodontia
+T18	disease_or_phenotypic_feature 2311 2323	spina bifida
+T18	disease_or_phenotypic_feature 2311 2323	spina bifida
+T18	disease_or_phenotypic_feature 2329 2342	hydrocephalus
+T18	disease_or_phenotypic_feature 2329 2342	hydrocephalus
+T18	disease_or_phenotypic_feature 2356 2373	cardiac anomalies
+T18	disease_or_phenotypic_feature 2375 2384	pneumonia
+T18	disease_or_phenotypic_feature 2390 2408	pulmonary embolism
+T18	anatomical_site 2428 2433	heart
+T18	disease_or_phenotypic_feature 2437 2451	kidney failure
+T18	disease_or_phenotypic_feature 2466 2475	neoplasms
+T18	anatomical_site 2501 2507	adults
+T19	disease_or_phenotypic_feature 2509 2518	Malignant
+T19	anatomical_site 2534 2545	nasopharynx
+T20	anatomical_site 2585 2590	mucus
+T20	disease_or_phenotypic_feature 2609 2617	diarrhea
+T20	disease_or_phenotypic_feature 2619 2624	fever
+T20	disease_or_phenotypic_feature 2626 2634	vomiting
+T20	disease_or_phenotypic_feature 2639 2653	abdominal pain

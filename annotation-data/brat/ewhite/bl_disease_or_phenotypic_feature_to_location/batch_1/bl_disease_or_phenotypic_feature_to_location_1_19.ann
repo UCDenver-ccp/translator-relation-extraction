@@ -1,0 +1,128 @@
+T1	disease_or_phenotypic_feature 0 22	Neurological disorders
+T1	anatomical_site 54 63	brainstem
+T1	disease_or_phenotypic_feature 128 136	syndrome
+T1	disease_or_phenotypic_feature 150 171	peripheral neuropathy
+T1	disease_or_phenotypic_feature 150 171	peripheral neuropathy
+T1	disease_or_phenotypic_feature 173 191	cranial neuropathy
+T1	disease_or_phenotypic_feature 193 210	movement disorder
+T1	disease_or_phenotypic_feature 193 210	movement disorder
+T1	disease_or_phenotypic_feature 212 226	encephalopathy
+T1	disease_or_phenotypic_feature 228 250	Lambert-Eaton syndrome
+T1	disease_or_phenotypic_feature 256 264	seizures
+T2	anatomical_site 300 306	Kidney
+T2	disease_or_phenotypic_feature 382 395	hypercalcemia
+T2	disease_or_phenotypic_feature 401 418	hyperphosphatemia
+T2	disease_or_phenotypic_feature 401 418	hyperphosphatemia
+T2	disease_or_phenotypic_feature 428 446	hypoparathyroidism
+T2	disease_or_phenotypic_feature 428 446	hypoparathyroidism
+T2	disease_or_phenotypic_feature 451 463	hypocalcemia
+T3	disease_or_phenotypic_feature 492 500	arterial
+T3	anatomical_site 492 500	arterial
+T3	disease_or_phenotypic_feature 501 512	hypotension
+T3	disease_or_phenotypic_feature 514 529	pulmonary edema
+T3	disease_or_phenotypic_feature 535 543	arterial
+T3	anatomical_site 535 543	arterial
+T3	disease_or_phenotypic_feature 544 553	hypoxemia
+T4	anatomical_site 555 566	Bone marrow
+T4	disease_or_phenotypic_feature 567 572	edema
+T4	disease_or_phenotypic_feature 573 581	syndrome
+T5	disease_or_phenotypic_feature 678 690	mesothelioma
+T5	disease_or_phenotypic_feature 722 729	neuroma
+T5	disease_or_phenotypic_feature 731 739	seminoma
+T5	disease_or_phenotypic_feature 741 749	seminoma
+T5	disease_or_phenotypic_feature 788 807	pleomorphic adenoma
+T5	anatomical_site 843 853	follicular
+T5	anatomical_site 843 853	follicular
+T5	anatomical_site 843 853	follicular
+T5	anatomical_site 843 853	follicular
+T5	anatomical_site 843 853	follicular
+T5	anatomical_site 843 853	follicular
+T5	anatomical_site 843 853	follicular
+T5	anatomical_site 843 853	follicular
+T5	disease_or_phenotypic_feature 864 886	reticulum cell sarcoma
+T6	disease_or_phenotypic_feature 888 906	Mental retardation
+T6	disease_or_phenotypic_feature 908 918	spasticity
+T6	disease_or_phenotypic_feature 920 947	basal ganglia calcification
+T6	anatomical_site 949 970	cerebral white matter
+T6	disease_or_phenotypic_feature 1008 1022	telangiectasia
+T6	disease_or_phenotypic_feature 1027 1040	atrophic skin
+T7	disease_or_phenotypic_feature 1058 1064	Asthma
+T7	disease_or_phenotypic_feature 1058 1064	Asthma
+T7	anatomical_site 1081 1087	female
+T7	anatomical_site 1088 1092	lung
+T8	disease_or_phenotypic_feature 1126 1138	spina bifida
+T8	disease_or_phenotypic_feature 1126 1138	spina bifida
+T8	anatomical_site 1140 1144	limb
+T8	disease_or_phenotypic_feature 1164 1180	cleft lip palate
+T8	disease_or_phenotypic_feature 1182 1194	microcephaly
+T8	disease_or_phenotypic_feature 1182 1194	microcephaly
+T8	disease_or_phenotypic_feature 1226 1237	polydactyly
+T8	disease_or_phenotypic_feature 1239 1251	cleft palate
+T8	disease_or_phenotypic_feature 1239 1251	cleft palate
+T8	disease_or_phenotypic_feature 1253 1265	anophthalmia
+T8	disease_or_phenotypic_feature 1267 1281	microphthalmia
+T9	anatomical_site 1299 1312	Smooth muscle
+T9	disease_or_phenotypic_feature 1313 1322	hamartoma
+T9	disease_or_phenotypic_feature 1313 1322	hamartoma
+T10	disease_or_phenotypic_feature 1324 1343	Conductive deafness
+T10	disease_or_phenotypic_feature 1324 1343	Conductive deafness
+T10	anatomical_site 1364 1374	middle ear
+T10	disease_or_phenotypic_feature 1414 1436	sensorineural deafness
+T10	disease_or_phenotypic_feature 1414 1436	sensorineural deafness
+T11	anatomical_site 1519 1529	middle ear
+T11	disease_or_phenotypic_feature 1530 1538	adenomas
+T11	disease_or_phenotypic_feature 1542 1553	adenomatous
+T12	disease_or_phenotypic_feature 1628 1637	blindness
+T12	disease_or_phenotypic_feature 1628 1637	blindness
+T12	disease_or_phenotypic_feature 1639 1652	renal failure
+T12	disease_or_phenotypic_feature 1639 1652	renal failure
+T12	disease_or_phenotypic_feature 1667 1679	contractures
+T12	anatomical_site 1747 1751	skin
+T12	anatomical_site 1747 1751	skin
+T13	disease_or_phenotypic_feature 1777 1784	obesity
+T13	disease_or_phenotypic_feature 1777 1784	obesity
+T13	anatomical_site 1816 1821	child
+T13	disease_or_phenotypic_feature 1822 1829	obesity
+T13	disease_or_phenotypic_feature 1822 1829	obesity
+T14	disease_or_phenotypic_feature 1887 1900	hypertelorism
+T14	disease_or_phenotypic_feature 1902 1913	telecanthus
+T14	disease_or_phenotypic_feature 1915 1931	epicanthal folds
+T14	disease_or_phenotypic_feature 1978 1991	optic atrophy
+T14	disease_or_phenotypic_feature 1978 1991	optic atrophy
+T14	anatomical_site 2015 2034	retinal vasculature
+T15	anatomical_site 2055 2068	smooth muscle
+T15	disease_or_phenotypic_feature 2069 2078	hamartoma
+T15	disease_or_phenotypic_feature 2069 2078	hamartoma
+T16	anatomical_site 2085 2090	serum
+T16	disease_or_phenotypic_feature 2132 2139	obesity
+T16	disease_or_phenotypic_feature 2132 2139	obesity
+T16	disease_or_phenotypic_feature 2158 2165	obesity
+T16	disease_or_phenotypic_feature 2158 2165	obesity
+T17	anatomical_site 2237 2243	adults
+T17	disease_or_phenotypic_feature 2249 2255	autism
+T17	disease_or_phenotypic_feature 2249 2255	autism
+T17	disease_or_phenotypic_feature 2307 2322	sleep disorders
+T17	disease_or_phenotypic_feature 2324 2331	seizure
+T17	disease_or_phenotypic_feature 2333 2340	obesity
+T17	disease_or_phenotypic_feature 2333 2340	obesity
+T17	disease_or_phenotypic_feature 2374 2382	diabetes
+T18	disease_or_phenotypic_feature 2412 2429	cerebellar ataxia
+T18	disease_or_phenotypic_feature 2412 2429	cerebellar ataxia
+T18	anatomical_site 2436 2439	eye
+T18	disease_or_phenotypic_feature 2451 2460	myoclonus
+T18	disease_or_phenotypic_feature 2462 2468	facial
+T18	disease_or_phenotypic_feature 2462 2468	facial
+T18	disease_or_phenotypic_feature 2469 2477	dystonia
+T18	anatomical_site 2491 2502	spinal cord
+T18	anatomical_site 2507 2523	peripheral nerve
+T19	disease_or_phenotypic_feature 2566 2575	cataracts
+T19	disease_or_phenotypic_feature 2566 2575	cataracts
+T19	disease_or_phenotypic_feature 2580 2588	cataract
+T19	disease_or_phenotypic_feature 2580 2588	cataract
+T19	disease_or_phenotypic_feature 2616 2633	mentally retarded
+T19	anatomical_site 2634 2640	adults
+T20	disease_or_phenotypic_feature 2651 2658	obesity
+T20	disease_or_phenotypic_feature 2651 2658	obesity
+T20	anatomical_site 2713 2718	child
+T20	disease_or_phenotypic_feature 2719 2726	obesity
+T20	disease_or_phenotypic_feature 2719 2726	obesity

@@ -1,0 +1,90 @@
+T1	disease_or_phenotypic_feature 37 61	autism spectrum disorder
+T1	disease_or_phenotypic_feature 66 83	visual impairment
+T1	disease_or_phenotypic_feature 66 83	visual impairment
+T1	anatomical_site 90 96	adults
+T1	disease_or_phenotypic_feature 102 125	intellectual disability
+T2	anatomical_site 127 150	Gastrointestinal system
+T2	disease_or_phenotypic_feature 155 162	obesity
+T2	disease_or_phenotypic_feature 155 162	obesity
+T3	disease_or_phenotypic_feature 178 189	scleroderma
+T3	anatomical_site 190 196	kidney
+T3	disease_or_phenotypic_feature 198 209	scleroderma
+T3	disease_or_phenotypic_feature 198 209	scleroderma
+T3	disease_or_phenotypic_feature 198 209	scleroderma
+T4	anatomical_site 310 315	serum
+T4	anatomical_site 323 328	liver
+T4	disease_or_phenotypic_feature 329 338	cirrhosis
+T4	anatomical_site 358 365	capsule
+T5	anatomical_site 400 415	adrenal medulla
+T5	disease_or_phenotypic_feature 430 446	pheochromocytoma
+T5	disease_or_phenotypic_feature 451 465	ganglioneuroma
+T6	anatomical_site 569 582	cranial nerve
+T6	anatomical_site 596 607	optic nerve
+T6	anatomical_site 596 607	optic nerve
+T6	disease_or_phenotypic_feature 609 618	blindness
+T6	anatomical_site 620 634	auditory nerve
+T6	disease_or_phenotypic_feature 636 644	deafness
+T6	anatomical_site 646 658	facial nerve
+T6	disease_or_phenotypic_feature 670 683	hydrocephalus
+T6	disease_or_phenotypic_feature 670 683	hydrocephalus
+T6	disease_or_phenotypic_feature 702 720	mental retardation
+T7	disease_or_phenotypic_feature 770 775	edema
+T7	anatomical_site 820 827	capsule
+T8	anatomical_site 902 906	lens
+T8	anatomical_site 902 906	lens
+T8	disease_or_phenotypic_feature 915 923	cataract
+T8	disease_or_phenotypic_feature 915 923	cataract
+T8	disease_or_phenotypic_feature 946 955	blindness
+T8	disease_or_phenotypic_feature 946 955	blindness
+T9	anatomical_site 988 994	female
+T9	disease_or_phenotypic_feature 1034 1047	hydrocephalus
+T9	disease_or_phenotypic_feature 1034 1047	hydrocephalus
+T9	anatomical_site 1088 1100	craniofacial
+T9	anatomical_site 1088 1100	craniofacial
+T9	disease_or_phenotypic_feature 1146 1154	coloboma
+T9	disease_or_phenotypic_feature 1156 1168	heart defect
+T9	disease_or_phenotypic_feature 1156 1168	heart defect
+T9	disease_or_phenotypic_feature 1187 1202	retarded growth
+T9	disease_or_phenotypic_feature 1204 1223	genital abnormality
+T9	anatomical_site 1229 1232	ear
+T9	disease_or_phenotypic_feature 1254 1262	syndrome
+T10	anatomical_site 1265 1276	Pineal body
+T10	disease_or_phenotypic_feature 1281 1290	neoplasms
+T11	disease_or_phenotypic_feature 1306 1313	obesity
+T11	disease_or_phenotypic_feature 1306 1313	obesity
+T11	anatomical_site 1356 1362	female
+T12	anatomical_site 1428 1433	chest
+T12	disease_or_phenotypic_feature 1458 1479	hematologic neoplasms
+T12	disease_or_phenotypic_feature 1458 1479	hematologic neoplasms
+T13	disease_or_phenotypic_feature 1482 1501	Conduction deafness
+T13	disease_or_phenotypic_feature 1482 1501	Conduction deafness
+T13	anatomical_site 1505 1511	adults
+T14	anatomical_site 1513 1526	Temporal lobe
+T14	disease_or_phenotypic_feature 1528 1534	autism
+T14	disease_or_phenotypic_feature 1528 1534	autism
+T14	disease_or_phenotypic_feature 1540 1552	macrocephaly
+T15	disease_or_phenotypic_feature 1554 1560	Asthma
+T15	disease_or_phenotypic_feature 1554 1560	Asthma
+T15	anatomical_site 1564 1569	heart
+T16	disease_or_phenotypic_feature 1603 1614	proteinuria
+T16	anatomical_site 1619 1630	serological
+T16	disease_or_phenotypic_feature 1654 1682	systemic lupus erythematosus
+T16	disease_or_phenotypic_feature 1654 1682	systemic lupus erythematosus
+T16	disease_or_phenotypic_feature 1683 1692	nephritis
+T16	disease_or_phenotypic_feature 1683 1692	nephritis
+T16	anatomical_site 1710 1716	kidney
+T17	anatomical_site 1729 1734	child
+T17	disease_or_phenotypic_feature 1753 1776	intellectual impairment
+T17	disease_or_phenotypic_feature 1781 1787	autism
+T17	disease_or_phenotypic_feature 1781 1787	autism
+T18	anatomical_site 1807 1813	female
+T18	disease_or_phenotypic_feature 1824 1848	congenital heart disease
+T18	disease_or_phenotypic_feature 1850 1870	facial abnormalities
+T18	disease_or_phenotypic_feature 1875 1887	cleft palate
+T18	disease_or_phenotypic_feature 1875 1887	cleft palate
+T19	anatomical_site 1946 1952	tissue
+T19	disease_or_phenotypic_feature 1982 1991	hamartoma
+T19	disease_or_phenotypic_feature 1982 1991	hamartoma
+T20	disease_or_phenotypic_feature 1993 2002	Hamartoma
+T20	disease_or_phenotypic_feature 1993 2002	Hamartoma
+T20	anatomical_site 2010 2021	parathyroid

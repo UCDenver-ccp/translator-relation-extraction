@@ -1,109 +1,79 @@
-T1	disease_or_phenotypic_feature 34 43	malignant
-T1	disease_or_phenotypic_feature 44 57	hypercalcemia
-T1	disease_or_phenotypic_feature 44 57	hypercalcemia
-T1	anatomical_site 78 82	bone
-T1	anatomical_site 78 82	bone
-T2	disease_or_phenotypic_feature 111 119	teratoma
-T2	disease_or_phenotypic_feature 111 119	teratoma
-T2	disease_or_phenotypic_feature 124 137	neuroblastoma
-T2	disease_or_phenotypic_feature 188 207	soft tissue sarcoma
-T2	anatomical_site 224 227	CNS
-T3	anatomical_site 315 319	male
-T3	disease_or_phenotypic_feature 332 345	hydrocephalus
-T3	disease_or_phenotypic_feature 332 345	hydrocephalus
-T3	disease_or_phenotypic_feature 347 363	cleft lip/palate
-T3	disease_or_phenotypic_feature 365 377	micrognathia
-T3	disease_or_phenotypic_feature 379 388	club foot
-T3	disease_or_phenotypic_feature 379 388	club foot
-T4	anatomical_site 532 537	brain
-T4	disease_or_phenotypic_feature 542 566	behavioral abnormalities
-T4	disease_or_phenotypic_feature 568 580	microcephaly
-T4	disease_or_phenotypic_feature 568 580	microcephaly
-T4	disease_or_phenotypic_feature 597 615	movement disorders
-T4	disease_or_phenotypic_feature 597 615	movement disorders
-T4	disease_or_phenotypic_feature 623 633	spasticity
-T5	disease_or_phenotypic_feature 652 658	lipoma
-T5	disease_or_phenotypic_feature 674 683	hamartoma
-T5	disease_or_phenotypic_feature 674 683	hamartoma
-T5	disease_or_phenotypic_feature 699 708	hamartoma
-T5	disease_or_phenotypic_feature 699 708	hamartoma
-T5	anatomical_site 768 783	Brunner's gland
-T6	anatomical_site 930 934	limb
-T6	disease_or_phenotypic_feature 935 945	spasticity
-T6	disease_or_phenotypic_feature 947 960	short stature
-T6	disease_or_phenotypic_feature 962 974	microcephaly
-T6	disease_or_phenotypic_feature 962 974	microcephaly
-T6	disease_or_phenotypic_feature 976 994	mental retardation
-T6	disease_or_phenotypic_feature 1000 1017	seizure disorders
-T7	anatomical_site 1035 1039	male
-T7	disease_or_phenotypic_feature 1061 1073	hemophilia A
-T7	disease_or_phenotypic_feature 1092 1097	fever
-T7	disease_or_phenotypic_feature 1099 1107	vomiting
-T7	disease_or_phenotypic_feature 1113 1124	hypersomnia
-T7	disease_or_phenotypic_feature 1113 1124	hypersomnia
-T8	disease_or_phenotypic_feature 1157 1181	Chediak-Higashi syndrome
-T8	disease_or_phenotypic_feature 1197 1218	peripheral neuropathy
-T8	disease_or_phenotypic_feature 1197 1218	peripheral neuropathy
-T8	disease_or_phenotypic_feature 1220 1226	ataxia
-T8	disease_or_phenotypic_feature 1220 1226	ataxia
-T8	anatomical_site 1237 1250	cranial nerve
-T8	disease_or_phenotypic_feature 1285 1293	seizures
-T9	disease_or_phenotypic_feature 1312 1331	congenital deafness
-T9	disease_or_phenotypic_feature 1356 1382	sensorineural hearing loss
-T9	disease_or_phenotypic_feature 1356 1382	sensorineural hearing loss
-T9	disease_or_phenotypic_feature 1384 1406	Waardenburg's syndrome
-T9	anatomical_site 1424 1438	auditory canal
-T9	disease_or_phenotypic_feature 1450 1458	deafness
-T10	disease_or_phenotypic_feature 1460 1468	Glaucoma
-T10	disease_or_phenotypic_feature 1460 1468	Glaucoma
-T10	anatomical_site 1473 1476	eye
-T10	disease_or_phenotypic_feature 1477 1483	trauma
-T10	disease_or_phenotypic_feature 1531 1541	disability
-T11	disease_or_phenotypic_feature 1566 1579	muscle, tumor
-T11	anatomical_site 1583 1588	blood
-T11	anatomical_site 1609 1615	muscle
-T11	anatomical_site 1609 1615	muscle
-T12	anatomical_site 1665 1670	child
-T12	anatomical_site 1706 1711	teeth
-T12	disease_or_phenotypic_feature 1747 1765	hyperbilirubinemia
-T12	disease_or_phenotypic_feature 1747 1765	hyperbilirubinemia
-T12	disease_or_phenotypic_feature 1766 1781	biliary atresia
-T12	disease_or_phenotypic_feature 1766 1781	biliary atresia
-T13	disease_or_phenotypic_feature 1783 1795	Angiosarcoma
-T13	disease_or_phenotypic_feature 1783 1795	Angiosarcoma
-T13	disease_or_phenotypic_feature 1783 1795	Angiosarcoma
-T13	disease_or_phenotypic_feature 1801 1805	rare
-T13	disease_or_phenotypic_feature 1801 1805	rare
-T13	anatomical_site 1811 1817	tissue
-T13	anatomical_site 1866 1872	tissue
-T13	disease_or_phenotypic_feature 1873 1880	cancers
-T14	anatomical_site 1886 1892	kidney
-T14	disease_or_phenotypic_feature 1896 1903	obesity
-T14	disease_or_phenotypic_feature 1896 1903	obesity
-T15	anatomical_site 1905 1910	Fatty
-T15	anatomical_site 1932 1937	liver
-T15	disease_or_phenotypic_feature 1941 1950	malignant
-T16	disease_or_phenotypic_feature 1992 1999	obesity
-T16	disease_or_phenotypic_feature 1992 1999	obesity
-T16	disease_or_phenotypic_feature 2003 2020	mentally retarded
-T16	anatomical_site 2021 2027	adults
-T17	anatomical_site 2030 2038	Arterial
-T17	disease_or_phenotypic_feature 2052 2059	obesity
-T17	disease_or_phenotypic_feature 2052 2059	obesity
-T18	anatomical_site 2076 2079	man
-T18	disease_or_phenotypic_feature 2114 2124	drowsiness
-T18	disease_or_phenotypic_feature 2126 2133	vertigo
-T18	disease_or_phenotypic_feature 2155 2163	vomiting
-T18	disease_or_phenotypic_feature 2169 2175	ataxia
-T18	disease_or_phenotypic_feature 2169 2175	ataxia
-T19	disease_or_phenotypic_feature 2256 2262	cancer
-T19	anatomical_site 2277 2287	lymph-node
-T20	anatomical_site 2376 2384	arterial
-T20	disease_or_phenotypic_feature 2376 2384	arterial
-T20	disease_or_phenotypic_feature 2399 2407	diabetes
-T20	disease_or_phenotypic_feature 2409 2423	hyperlipidemia
-T20	disease_or_phenotypic_feature 2409 2423	hyperlipidemia
-T20	disease_or_phenotypic_feature 2425 2438	hyperuricemia
-T20	disease_or_phenotypic_feature 2499 2512	heart-failure
-T20	disease_or_phenotypic_feature 2524 2536	hypertension
-T20	disease_or_phenotypic_feature 2564 2590	restrictive cardiomyopathy
+T1	anatomical_site 53 66	temporal lobe
+T2	disease_or_phenotypic_feature 77 94	cerebellar ataxia
+T3	disease_or_phenotypic_feature 96 117	autonomic dysfunction
+T4	disease_or_phenotypic_feature 123 144	stiff-person syndrome
+T5	disease_or_phenotypic_feature 180 189	malignant
+T6	disease_or_phenotypic_feature 190 203	hypercalcemia
+T7	anatomical_site 224 228	bone
+T8	disease_or_phenotypic_feature 257 265	teratoma
+T9	disease_or_phenotypic_feature 270 283	neuroblastoma
+T10	disease_or_phenotypic_feature 334 353	soft tissue sarcoma
+T11	anatomical_site 370 373	CNS
+T12	anatomical_site 461 465	male
+T13	disease_or_phenotypic_feature 478 491	hydrocephalus
+T14	disease_or_phenotypic_feature 493 509	cleft lip/palate
+T15	disease_or_phenotypic_feature 511 523	micrognathia
+T16	disease_or_phenotypic_feature 525 534	club foot
+T17	anatomical_site 678 683	brain
+T18	disease_or_phenotypic_feature 688 712	behavioral abnormalities
+T19	disease_or_phenotypic_feature 714 726	microcephaly
+T20	disease_or_phenotypic_feature 743 761	movement disorders
+T21	disease_or_phenotypic_feature 769 779	spasticity
+T22	disease_or_phenotypic_feature 798 804	lipoma
+T23	disease_or_phenotypic_feature 820 829	hamartoma
+T24	disease_or_phenotypic_feature 845 854	hamartoma
+T25	anatomical_site 914 929	Brunner's gland
+T26	anatomical_site 1076 1080	limb
+T27	disease_or_phenotypic_feature 1081 1091	spasticity
+T28	disease_or_phenotypic_feature 1093 1106	short stature
+T29	disease_or_phenotypic_feature 1108 1120	microcephaly
+T30	disease_or_phenotypic_feature 1122 1140	mental retardation
+T31	disease_or_phenotypic_feature 1146 1163	seizure disorders
+T32	anatomical_site 1181 1185	male
+T33	disease_or_phenotypic_feature 1207 1219	hemophilia A
+T34	disease_or_phenotypic_feature 1238 1243	fever
+T35	disease_or_phenotypic_feature 1245 1253	vomiting
+T36	disease_or_phenotypic_feature 1259 1270	hypersomnia
+T37	disease_or_phenotypic_feature 1303 1327	Chediak-Higashi syndrome
+T38	disease_or_phenotypic_feature 1343 1364	peripheral neuropathy
+T39	disease_or_phenotypic_feature 1366 1372	ataxia
+T40	anatomical_site 1383 1396	cranial nerve
+T41	disease_or_phenotypic_feature 1431 1439	seizures
+T42	disease_or_phenotypic_feature 1458 1477	congenital deafness
+T43	disease_or_phenotypic_feature 1502 1528	sensorineural hearing loss
+T44	disease_or_phenotypic_feature 1530 1552	Waardenburg's syndrome
+T45	anatomical_site 1570 1584	auditory canal
+T46	disease_or_phenotypic_feature 1596 1604	deafness
+T47	disease_or_phenotypic_feature 1606 1614	Glaucoma
+T48	anatomical_site 1619 1622	eye
+T49	disease_or_phenotypic_feature 1623 1629	trauma
+T50	disease_or_phenotypic_feature 1677 1687	disability
+T51	disease_or_phenotypic_feature 1712 1725	muscle, tumor
+T52	anatomical_site 1729 1734	blood
+T53	anatomical_site 1755 1761	muscle
+T54	anatomical_site 1811 1816	child
+T55	anatomical_site 1852 1857	teeth
+T56	disease_or_phenotypic_feature 1893 1911	hyperbilirubinemia
+T57	disease_or_phenotypic_feature 1912 1927	biliary atresia
+T58	disease_or_phenotypic_feature 1929 1941	Angiosarcoma
+T59	disease_or_phenotypic_feature 1947 1951	rare
+T60	anatomical_site 1957 1963	tissue
+T61	anatomical_site 2012 2018	tissue
+T62	disease_or_phenotypic_feature 2019 2026	cancers
+T63	anatomical_site 2032 2038	kidney
+T64	disease_or_phenotypic_feature 2042 2049	obesity
+T65	anatomical_site 2051 2056	Fatty
+T66	anatomical_site 2078 2083	liver
+T67	disease_or_phenotypic_feature 2087 2096	malignant
+T68	disease_or_phenotypic_feature 2138 2145	obesity
+T69	disease_or_phenotypic_feature 2149 2166	mentally retarded
+T70	anatomical_site 2167 2173	adults
+T71	anatomical_site 2176 2184	Arterial
+T72	disease_or_phenotypic_feature 2198 2205	obesity
+T73	anatomical_site 2222 2225	man
+T74	disease_or_phenotypic_feature 2260 2270	drowsiness
+T75	disease_or_phenotypic_feature 2272 2279	vertigo
+T76	disease_or_phenotypic_feature 2301 2309	vomiting
+T77	disease_or_phenotypic_feature 2315 2321	ataxia
+T78	disease_or_phenotypic_feature 2402 2408	cancer
+T79	anatomical_site 2423 2433	lymph-node

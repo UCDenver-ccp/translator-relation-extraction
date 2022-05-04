@@ -1,107 +1,78 @@
-T1	anatomical_site 44 50	adults
-T1	disease_or_phenotypic_feature 56 68	spina bifida
-T1	disease_or_phenotypic_feature 56 68	spina bifida
-T1	disease_or_phenotypic_feature 73 86	hydrocephalus
-T1	disease_or_phenotypic_feature 73 86	hydrocephalus
-T2	disease_or_phenotypic_feature 125 128	HPS
-T2	disease_or_phenotypic_feature 125 128	HPS
-T2	anatomical_site 134 139	liver
-T2	anatomical_site 174 179	liver
-T3	disease_or_phenotypic_feature 233 241	cataract
-T3	disease_or_phenotypic_feature 243 257	microphthalmia
-T3	disease_or_phenotypic_feature 281 289	glaucoma
-T3	disease_or_phenotypic_feature 281 289	glaucoma
-T3	disease_or_phenotypic_feature 310 316	ptosis
-T3	anatomical_site 341 353	nasal bridge
-T3	anatomical_site 361 370	nasal tip
-T3	disease_or_phenotypic_feature 413 425	cleft palate
-T3	disease_or_phenotypic_feature 413 425	cleft palate
-T3	disease_or_phenotypic_feature 449 474	ventricular septal defect
-T3	disease_or_phenotypic_feature 480 498	skeletal anomalies
-T4	disease_or_phenotypic_feature 512 521	malignant
-T4	anatomical_site 522 527	liver
-T5	disease_or_phenotypic_feature 538 554	Hyperinsulinemia
-T5	disease_or_phenotypic_feature 538 554	Hyperinsulinemia
-T5	disease_or_phenotypic_feature 559 572	hyperglycemia
-T5	disease_or_phenotypic_feature 559 572	hyperglycemia
-T5	anatomical_site 584 588	bone
-T5	anatomical_site 584 588	bone
-T5	anatomical_site 622 630	skeleton
-T6	anatomical_site 646 650	body
-T6	anatomical_site 646 650	body
-T6	anatomical_site 651 654	fat
-T6	anatomical_site 671 676	serum
-T6	disease_or_phenotypic_feature 708 715	obesity
-T6	disease_or_phenotypic_feature 708 715	obesity
-T6	disease_or_phenotypic_feature 724 732	diabetic
-T6	disease_or_phenotypic_feature 733 740	obesity
-T6	disease_or_phenotypic_feature 733 740	obesity
-T7	disease_or_phenotypic_feature 742 751	Hamartoma
-T7	disease_or_phenotypic_feature 742 751	Hamartoma
-T7	disease_or_phenotypic_feature 759 770	hard palate
-T7	disease_or_phenotypic_feature 787 811	corpus callosum agenesis
-T7	disease_or_phenotypic_feature 813 827	microphthalmia
-T7	anatomical_site 833 837	skin
-T7	anatomical_site 833 837	skin
-T8	disease_or_phenotypic_feature 852 863	Lung tumors
-T8	disease_or_phenotypic_feature 852 863	Lung tumors
-T8	anatomical_site 905 910	heart
-T9	disease_or_phenotypic_feature 961 974	rectal cancer
-T9	disease_or_phenotypic_feature 961 974	rectal cancer
-T9	anatomical_site 1148 1151	fat
-T10	anatomical_site 1183 1197	Adipose tissue
-T10	disease_or_phenotypic_feature 1209 1216	obesity
-T10	disease_or_phenotypic_feature 1209 1216	obesity
-T11	disease_or_phenotypic_feature 1258 1276	cortical dysplasia
-T11	disease_or_phenotypic_feature 1278 1309	agenesis of the corpus callosum
-T11	disease_or_phenotypic_feature 1311 1324	hydrocephalus
-T11	disease_or_phenotypic_feature 1311 1324	hydrocephalus
-T11	disease_or_phenotypic_feature 1326 1338	microcephaly
-T11	disease_or_phenotypic_feature 1326 1338	microcephaly
-T11	anatomical_site 1340 1352	craniofacial
-T11	anatomical_site 1340 1352	craniofacial
-T12	disease_or_phenotypic_feature 1406 1413	Hepatic
-T12	anatomical_site 1458 1469	mesenchymal
-T13	disease_or_phenotypic_feature 1514 1526	cleft palate
-T13	disease_or_phenotypic_feature 1514 1526	cleft palate
-T13	disease_or_phenotypic_feature 1540 1552	cleft palate
-T13	disease_or_phenotypic_feature 1540 1552	cleft palate
-T13	anatomical_site 1556 1559	man
-T14	disease_or_phenotypic_feature 1605 1617	microcephaly
-T14	disease_or_phenotypic_feature 1605 1617	microcephaly
-T14	disease_or_phenotypic_feature 1619 1637	growth retardation
-T14	disease_or_phenotypic_feature 1651 1657	ataxia
-T14	anatomical_site 1666 1672	muscle
-T14	anatomical_site 1666 1672	muscle
-T14	anatomical_site 1687 1692	ankle
-T14	disease_or_phenotypic_feature 1693 1705	contractures
-T14	anatomical_site 1721 1733	sensorimotor
-T14	disease_or_phenotypic_feature 1734 1744	neuropathy
-T14	disease_or_phenotypic_feature 1750 1776	sensorineural hearing loss
-T14	disease_or_phenotypic_feature 1750 1776	sensorineural hearing loss
-T14	disease_or_phenotypic_feature 1813 1831	facial dysmorphism
-T14	disease_or_phenotypic_feature 1837 1855	widely spaced eyes
-T15	disease_or_phenotypic_feature 2075 2087	renal tumors
-T15	anatomical_site 2097 2103	tissue
-T15	anatomical_site 2116 2123	gonadal
-T15	disease_or_phenotypic_feature 2163 2170	hepatic
-T16	anatomical_site 2195 2204	bronchial
-T16	anatomical_site 2195 2204	bronchial
-T16	disease_or_phenotypic_feature 2205 2217	tuberculosis
-T17	disease_or_phenotypic_feature 2220 2228	Glaucoma
-T17	disease_or_phenotypic_feature 2220 2228	Glaucoma
-T17	anatomical_site 2237 2240	eye
-T18	disease_or_phenotypic_feature 2242 2262	Renal cell carcinoma
-T18	disease_or_phenotypic_feature 2242 2262	Renal cell carcinoma
-T18	anatomical_site 2310 2318	thrombus
-T19	disease_or_phenotypic_feature 2385 2398	cholesteatoma
-T19	disease_or_phenotypic_feature 2385 2398	cholesteatoma
-T19	disease_or_phenotypic_feature 2385 2398	cholesteatoma
-T19	anatomical_site 2399 2409	epithelium
-T19	disease_or_phenotypic_feature 2427 2440	cholesteatoma
-T19	disease_or_phenotypic_feature 2427 2440	cholesteatoma
-T19	disease_or_phenotypic_feature 2427 2440	cholesteatoma
-T19	disease_or_phenotypic_feature 2441 2453	otitis media
-T20	disease_or_phenotypic_feature 2573 2585	hyperthermia
-T20	anatomical_site 2596 2602	spleen
-T20	anatomical_site 2607 2613	kidney
+T1	anatomical_site 38 43	mucus
+T2	disease_or_phenotypic_feature 62 70	diarrhea
+T3	disease_or_phenotypic_feature 72 77	fever
+T4	disease_or_phenotypic_feature 79 87	vomiting
+T5	disease_or_phenotypic_feature 92 106	abdominal pain
+T6	anatomical_site 152 158	adults
+T7	disease_or_phenotypic_feature 164 176	spina bifida
+T8	disease_or_phenotypic_feature 181 194	hydrocephalus
+T9	disease_or_phenotypic_feature 233 236	HPS
+T10	anatomical_site 242 247	liver
+T11	anatomical_site 282 287	liver
+T12	disease_or_phenotypic_feature 341 349	cataract
+T13	disease_or_phenotypic_feature 351 365	microphthalmia
+T14	disease_or_phenotypic_feature 389 397	glaucoma
+T15	disease_or_phenotypic_feature 418 424	ptosis
+T16	anatomical_site 449 461	nasal bridge
+T17	anatomical_site 469 478	nasal tip
+T18	disease_or_phenotypic_feature 521 533	cleft palate
+T19	disease_or_phenotypic_feature 557 582	ventricular septal defect
+T20	disease_or_phenotypic_feature 588 606	skeletal anomalies
+T21	disease_or_phenotypic_feature 620 629	malignant
+T22	anatomical_site 630 635	liver
+T23	disease_or_phenotypic_feature 646 662	Hyperinsulinemia
+T24	disease_or_phenotypic_feature 667 680	hyperglycemia
+T25	anatomical_site 692 696	bone
+T26	anatomical_site 730 738	skeleton
+T27	anatomical_site 754 758	body
+T28	anatomical_site 759 762	fat
+T29	anatomical_site 779 784	serum
+T30	disease_or_phenotypic_feature 816 823	obesity
+T31	disease_or_phenotypic_feature 832 840	diabetic
+T32	disease_or_phenotypic_feature 841 848	obesity
+T33	disease_or_phenotypic_feature 850 859	Hamartoma
+T34	disease_or_phenotypic_feature 867 878	hard palate
+T35	disease_or_phenotypic_feature 895 919	corpus callosum agenesis
+T36	disease_or_phenotypic_feature 921 935	microphthalmia
+T37	anatomical_site 941 945	skin
+T38	disease_or_phenotypic_feature 960 971	Lung tumors
+T39	anatomical_site 1013 1018	heart
+T40	disease_or_phenotypic_feature 1069 1082	rectal cancer
+T41	anatomical_site 1256 1259	fat
+T42	anatomical_site 1291 1305	Adipose tissue
+T43	disease_or_phenotypic_feature 1317 1324	obesity
+T44	disease_or_phenotypic_feature 1366 1384	cortical dysplasia
+T45	disease_or_phenotypic_feature 1386 1417	agenesis of the corpus callosum
+T46	disease_or_phenotypic_feature 1419 1432	hydrocephalus
+T47	disease_or_phenotypic_feature 1434 1446	microcephaly
+T48	anatomical_site 1448 1460	craniofacial
+T49	disease_or_phenotypic_feature 1514 1521	Hepatic
+T50	anatomical_site 1566 1577	mesenchymal
+T51	disease_or_phenotypic_feature 1622 1634	cleft palate
+T52	disease_or_phenotypic_feature 1648 1660	cleft palate
+T53	anatomical_site 1664 1667	man
+T54	disease_or_phenotypic_feature 1713 1725	microcephaly
+T55	disease_or_phenotypic_feature 1727 1745	growth retardation
+T56	disease_or_phenotypic_feature 1759 1765	ataxia
+T57	anatomical_site 1774 1780	muscle
+T58	anatomical_site 1795 1800	ankle
+T59	disease_or_phenotypic_feature 1801 1813	contractures
+T60	anatomical_site 1829 1841	sensorimotor
+T61	disease_or_phenotypic_feature 1842 1852	neuropathy
+T62	disease_or_phenotypic_feature 1858 1884	sensorineural hearing loss
+T63	disease_or_phenotypic_feature 1921 1939	facial dysmorphism
+T64	disease_or_phenotypic_feature 1945 1963	widely spaced eyes
+T65	disease_or_phenotypic_feature 2183 2195	renal tumors
+T66	anatomical_site 2205 2211	tissue
+T67	anatomical_site 2224 2231	gonadal
+T68	disease_or_phenotypic_feature 2271 2278	hepatic
+T69	anatomical_site 2303 2312	bronchial
+T70	disease_or_phenotypic_feature 2313 2325	tuberculosis
+T71	disease_or_phenotypic_feature 2328 2336	Glaucoma
+T72	anatomical_site 2345 2348	eye
+T73	disease_or_phenotypic_feature 2350 2370	Renal cell carcinoma
+T74	anatomical_site 2418 2426	thrombus
+T75	disease_or_phenotypic_feature 2493 2506	cholesteatoma
+T76	anatomical_site 2507 2517	epithelium
+T77	disease_or_phenotypic_feature 2535 2548	cholesteatoma
+T78	disease_or_phenotypic_feature 2549 2561	otitis media

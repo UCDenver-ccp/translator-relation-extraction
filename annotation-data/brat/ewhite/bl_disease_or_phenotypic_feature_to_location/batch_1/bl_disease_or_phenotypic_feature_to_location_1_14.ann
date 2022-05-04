@@ -1,99 +1,78 @@
-T1	disease_or_phenotypic_feature 0 13	Liver disease
-T1	disease_or_phenotypic_feature 95 106	weight loss
-T1	disease_or_phenotypic_feature 108 116	vomiting
-T1	disease_or_phenotypic_feature 118 126	diarrhea
-T1	disease_or_phenotypic_feature 128 133	fever
-T1	disease_or_phenotypic_feature 135 149	abdominal pain
-T1	anatomical_site 173 176	CNS
-T2	anatomical_site 302 309	bronchi
-T2	disease_or_phenotypic_feature 345 350	small
-T2	anatomical_site 362 366	lung
-T2	disease_or_phenotypic_feature 367 382	adenocarcinomas
-T3	anatomical_site 499 502	CNS
-T3	disease_or_phenotypic_feature 511 528	visual impairment
-T3	disease_or_phenotypic_feature 511 528	visual impairment
-T3	disease_or_phenotypic_feature 530 542	microcephaly
-T3	disease_or_phenotypic_feature 530 542	microcephaly
-T3	disease_or_phenotypic_feature 544 562	mental retardation
-T3	disease_or_phenotypic_feature 567 579	hearing loss
-T4	disease_or_phenotypic_feature 581 594	Hypoglycaemia
-T4	disease_or_phenotypic_feature 581 594	Hypoglycaemia
-T4	anatomical_site 612 617	brain
-T5	anatomical_site 650 654	male
-T5	disease_or_phenotypic_feature 660 684	congestive heart failure
-T5	disease_or_phenotypic_feature 660 684	congestive heart failure
-T5	anatomical_site 686 690	lung
-T5	disease_or_phenotypic_feature 700 707	obesity
-T5	disease_or_phenotypic_feature 700 707	obesity
-T5	disease_or_phenotypic_feature 713 736	obstructive sleep apnea
-T6	disease_or_phenotypic_feature 811 828	Testicular cancer
-T6	disease_or_phenotypic_feature 811 828	Testicular cancer
-T6	disease_or_phenotypic_feature 849 858	leukaemia
-T6	anatomical_site 867 872	colon
-T6	disease_or_phenotypic_feature 877 890	kidney cancer
-T6	disease_or_phenotypic_feature 877 890	kidney cancer
-T6	disease_or_phenotypic_feature 892 900	melanoma
-T6	anatomical_site 902 919	connective tissue
-T6	disease_or_phenotypic_feature 932 943	lung cancer
-T7	anatomical_site 965 970	skull
-T7	disease_or_phenotypic_feature 988 997	intrinsic
-T7	anatomical_site 1013 1017	bony
-T7	anatomical_site 1018 1023	skull
-T8	anatomical_site 1146 1151	liver
-T8	disease_or_phenotypic_feature 1152 1161	cirrhosis
-T9	disease_or_phenotypic_feature 1277 1284	obesity
-T9	disease_or_phenotypic_feature 1277 1284	obesity
-T9	anatomical_site 1329 1335	breast
-T9	disease_or_phenotypic_feature 1340 1356	prostate cancers
-T10	anatomical_site 1386 1392	adults
-T10	disease_or_phenotypic_feature 1398 1404	autism
-T10	disease_or_phenotypic_feature 1398 1404	autism
-T10	disease_or_phenotypic_feature 1428 1443	language delays
-T10	disease_or_phenotypic_feature 1490 1496	autism
-T10	disease_or_phenotypic_feature 1490 1496	autism
-T10	disease_or_phenotypic_feature 1501 1518	Asperger syndrome
-T11	disease_or_phenotypic_feature 1551 1572	metaphyseal dysplasia
-T11	disease_or_phenotypic_feature 1551 1572	metaphyseal dysplasia
-T11	anatomical_site 1614 1619	skull
-T11	disease_or_phenotypic_feature 1621 1639	growth retardation
-T11	anatomical_site 1643 1654	natal tooth
-T11	disease_or_phenotypic_feature 1656 1667	lymphoedema
-T11	disease_or_phenotypic_feature 1672 1690	facial dysmorphism
-T12	disease_or_phenotypic_feature 1713 1726	renal failure
-T12	disease_or_phenotypic_feature 1713 1726	renal failure
-T12	anatomical_site 1728 1739	bone marrow
-T12	disease_or_phenotypic_feature 1753 1760	seizure
-T13	anatomical_site 1885 1889	lung
-T13	disease_or_phenotypic_feature 1890 1905	adenocarcinomas
-T14	disease_or_phenotypic_feature 1966 1974	vomiting
-T14	disease_or_phenotypic_feature 1979 1993	hyperlipidemia
-T14	disease_or_phenotypic_feature 1979 1993	hyperlipidemia
-T14	disease_or_phenotypic_feature 2037 2045	diarrhea
-T14	anatomical_site 2047 2051	skin
-T14	anatomical_site 2047 2051	skin
-T14	disease_or_phenotypic_feature 2060 2066	anemia
-T14	disease_or_phenotypic_feature 2060 2066	anemia
-T14	disease_or_phenotypic_feature 2068 2078	leucopenia
-T15	anatomical_site 2162 2168	tissue
-T15	disease_or_phenotypic_feature 2192 2195	MVD
-T15	anatomical_site 2205 2211	tissue
-T16	disease_or_phenotypic_feature 2248 2255	obesity
-T16	disease_or_phenotypic_feature 2248 2255	obesity
-T16	disease_or_phenotypic_feature 2257 2271	hyperlipidemia
-T16	disease_or_phenotypic_feature 2313 2320	vertigo
-T16	anatomical_site 2334 2338	head
-T17	disease_or_phenotypic_feature 2363 2376	Cholesteatoma
-T17	disease_or_phenotypic_feature 2363 2376	Cholesteatoma
-T17	disease_or_phenotypic_feature 2363 2376	Cholesteatoma
-T17	anatomical_site 2384 2387	ear
-T18	disease_or_phenotypic_feature 2390 2403	Leiomyomatous
-T18	disease_or_phenotypic_feature 2404 2413	hamartoma
-T18	disease_or_phenotypic_feature 2404 2413	hamartoma
-T18	anatomical_site 2421 2427	kidney
-T19	disease_or_phenotypic_feature 2438 2445	obesity
-T19	disease_or_phenotypic_feature 2438 2445	obesity
-T19	anatomical_site 2450 2455	brain
-T20	anatomical_site 2464 2481	Lymphatic vessels
-T20	disease_or_phenotypic_feature 2557 2564	cancers
-T20	disease_or_phenotypic_feature 2599 2610	hyperplasia
-T20	anatomical_site 2690 2700	lymph node
+T1	disease_or_phenotypic_feature 74 84	lung tumor
+T2	anatomical_site 89 98	diaphragm
+T3	anatomical_site 195 204	diaphragm
+T4	disease_or_phenotypic_feature 218 231	Liver disease
+T5	disease_or_phenotypic_feature 313 324	weight loss
+T6	disease_or_phenotypic_feature 326 334	vomiting
+T7	disease_or_phenotypic_feature 336 344	diarrhea
+T8	disease_or_phenotypic_feature 346 351	fever
+T9	disease_or_phenotypic_feature 353 367	abdominal pain
+T10	anatomical_site 391 394	CNS
+T11	anatomical_site 520 527	bronchi
+T12	disease_or_phenotypic_feature 563 568	small
+T13	anatomical_site 580 584	lung
+T14	disease_or_phenotypic_feature 585 600	adenocarcinomas
+T15	anatomical_site 717 720	CNS
+T16	disease_or_phenotypic_feature 729 746	visual impairment
+T17	disease_or_phenotypic_feature 748 760	microcephaly
+T18	disease_or_phenotypic_feature 762 780	mental retardation
+T19	disease_or_phenotypic_feature 785 797	hearing loss
+T20	disease_or_phenotypic_feature 799 812	Hypoglycaemia
+T21	anatomical_site 830 835	brain
+T22	anatomical_site 868 872	male
+T23	disease_or_phenotypic_feature 878 902	congestive heart failure
+T24	anatomical_site 904 908	lung
+T25	disease_or_phenotypic_feature 918 925	obesity
+T26	disease_or_phenotypic_feature 931 954	obstructive sleep apnea
+T27	disease_or_phenotypic_feature 1029 1046	Testicular cancer
+T28	disease_or_phenotypic_feature 1067 1076	leukaemia
+T29	anatomical_site 1085 1090	colon
+T30	disease_or_phenotypic_feature 1095 1108	kidney cancer
+T31	disease_or_phenotypic_feature 1110 1118	melanoma
+T32	anatomical_site 1120 1137	connective tissue
+T33	disease_or_phenotypic_feature 1150 1161	lung cancer
+T34	anatomical_site 1183 1188	skull
+T35	disease_or_phenotypic_feature 1206 1215	intrinsic
+T36	anatomical_site 1231 1235	bony
+T37	anatomical_site 1236 1241	skull
+T38	anatomical_site 1364 1369	liver
+T39	disease_or_phenotypic_feature 1370 1379	cirrhosis
+T40	disease_or_phenotypic_feature 1495 1502	obesity
+T41	anatomical_site 1547 1553	breast
+T42	disease_or_phenotypic_feature 1558 1574	prostate cancers
+T43	anatomical_site 1604 1610	adults
+T44	disease_or_phenotypic_feature 1616 1622	autism
+T45	disease_or_phenotypic_feature 1646 1661	language delays
+T46	disease_or_phenotypic_feature 1708 1714	autism
+T47	disease_or_phenotypic_feature 1719 1736	Asperger syndrome
+T48	disease_or_phenotypic_feature 1769 1790	metaphyseal dysplasia
+T49	anatomical_site 1832 1837	skull
+T50	disease_or_phenotypic_feature 1839 1857	growth retardation
+T51	anatomical_site 1861 1872	natal tooth
+T52	disease_or_phenotypic_feature 1874 1885	lymphoedema
+T53	disease_or_phenotypic_feature 1890 1908	facial dysmorphism
+T54	disease_or_phenotypic_feature 1931 1944	renal failure
+T55	anatomical_site 1946 1957	bone marrow
+T56	disease_or_phenotypic_feature 1971 1978	seizure
+T57	anatomical_site 2103 2107	lung
+T58	disease_or_phenotypic_feature 2108 2123	adenocarcinomas
+T59	disease_or_phenotypic_feature 2184 2192	vomiting
+T60	disease_or_phenotypic_feature 2197 2211	hyperlipidemia
+T61	disease_or_phenotypic_feature 2255 2263	diarrhea
+T62	anatomical_site 2265 2269	skin
+T63	disease_or_phenotypic_feature 2278 2284	anemia
+T64	disease_or_phenotypic_feature 2286 2296	leucopenia
+T65	anatomical_site 2380 2386	tissue
+T66	disease_or_phenotypic_feature 2410 2413	MVD
+T67	anatomical_site 2423 2429	tissue
+T68	disease_or_phenotypic_feature 2466 2473	obesity
+T69	disease_or_phenotypic_feature 2475 2489	hyperlipidemia
+T70	disease_or_phenotypic_feature 2531 2538	vertigo
+T71	anatomical_site 2552 2556	head
+T72	disease_or_phenotypic_feature 2581 2594	Cholesteatoma
+T73	anatomical_site 2602 2605	ear
+T74	disease_or_phenotypic_feature 2608 2621	Leiomyomatous
+T75	disease_or_phenotypic_feature 2622 2631	hamartoma
+T76	anatomical_site 2639 2645	kidney
+T77	disease_or_phenotypic_feature 2656 2663	obesity
+T78	anatomical_site 2668 2673	brain

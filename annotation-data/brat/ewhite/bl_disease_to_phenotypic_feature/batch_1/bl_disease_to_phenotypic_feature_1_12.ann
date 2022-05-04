@@ -1,93 +1,91 @@
 T1	disease 8 18	paraplegia
-T1	phenotypic_feature 20 26	ataxia
-T1	disease 20 26	ataxia
-T1	phenotypic_feature 28 46	mental retardation
-T1	disease 63 79	genetic disorder
-T2	disease 81 106	Baraitser-Winter syndrome
-T2	disease 139 147	coloboma
-T2	phenotypic_feature 149 155	ptosis
-T2	phenotypic_feature 157 170	hypertelorism
-T2	phenotypic_feature 176 194	mental retardation
-T2	disease 218 236	congenital anomaly
-T2	phenotypic_feature 242 260	mental-retardation
-T2	disease 261 269	syndrome
-T3	disease 314 327	hydrocephalus
-T3	phenotypic_feature 314 327	hydrocephalus
-T4	disease 329 359	Hypergonadotropic hypogonadism
-T4	disease 329 359	Hypergonadotropic hypogonadism
-T4	phenotypic_feature 329 359	Hypergonadotropic hypogonadism
-T4	disease 364 377	renal failure
-T4	phenotypic_feature 364 377	renal failure
-T5	phenotypic_feature 423 440	cerebellar ataxia
-T5	disease 423 440	cerebellar ataxia
-T5	disease 446 476	hypergonadotropic hypogonadism
-T5	disease 446 476	hypergonadotropic hypogonadism
-T5	phenotypic_feature 446 476	hypergonadotropic hypogonadism
-T5	disease 481 503	sensorineural deafness
-T5	phenotypic_feature 481 503	sensorineural deafness
-T6	phenotypic_feature 505 511	Ptosis
-T6	phenotypic_feature 547 560	hypertelorism
-T6	phenotypic_feature 562 570	seizures
-T6	phenotypic_feature 575 593	mental retardation
-T6	disease 610 616	MCA/MR
-T6	disease 617 625	syndrome
-T7	disease 627 650	Glioblastoma multiforme
-T7	phenotypic_feature 627 650	Glioblastoma multiforme
-T7	phenotypic_feature 686 696	aggressive
-T7	disease 697 708	brain tumor
-T7	phenotypic_feature 697 708	brain tumor
-T8	disease 726 735	hamartoma
-T8	phenotypic_feature 726 735	hamartoma
-T9	disease 860 873	hypercalcemia
-T9	phenotypic_feature 889 902	renal failure
-T9	disease 889 902	renal failure
-T10	disease 967 975	glaucoma
-T10	phenotypic_feature 967 975	glaucoma
-T10	disease 976 985	blindness
-T10	phenotypic_feature 976 985	blindness
-T11	disease 998 1007	dysphasia
-T11	phenotypic_feature 1027 1042	speech disorder
-T11	disease 1027 1042	speech disorder
-T11	phenotypic_feature 1060 1068	deafness
-T11	phenotypic_feature 1090 1108	mental retardation
-T11	disease 1132 1151	psychiatric disease
-T12	disease 1197 1211	cardiomyopathy
-T12	phenotypic_feature 1213 1227	abdominal pain
-T12	phenotypic_feature 1229 1237	deafness
-T12	disease 1239 1252	angiokeratoma
-T12	phenotypic_feature 1257 1272	corneal opacity
-T13	phenotypic_feature 1318 1342	congestive heart failure
-T13	disease 1360 1371	hypotension
-T13	phenotypic_feature 1360 1371	hypotension
-T13	phenotypic_feature 1375 1390	pulmonary edema
-T13	disease 1375 1390	pulmonary edema
-T14	disease 1392 1410	Hypoparathyroidism
-T14	phenotypic_feature 1392 1410	Hypoparathyroidism
-T14	disease 1415 1430	hypopituitarism
-T14	phenotypic_feature 1415 1430	hypopituitarism
-T15	phenotypic_feature 1457 1466	blindness
-T15	disease 1457 1466	blindness
-T15	disease 1471 1488	visual impairment
-T15	phenotypic_feature 1471 1488	visual impairment
-T16	disease 1522 1525	PKU
-T16	phenotypic_feature 1543 1561	mental retardation
-T16	phenotypic_feature 1563 1575	microcephaly
-T16	disease 1563 1575	microcephaly
-T16	phenotypic_feature 1581 1589	seizures
-T17	phenotypic_feature 1591 1599	Cataract
-T17	disease 1591 1599	Cataract
-T17	disease 1600 1609	blindness
-T17	phenotypic_feature 1600 1609	blindness
-T18	disease 1669 1687	movement disorders
-T18	phenotypic_feature 1669 1687	movement disorders
-T18	disease 1692 1698	ataxia
-T18	phenotypic_feature 1692 1698	ataxia
-T19	disease 1700 1710	Lymphedema
-T19	phenotypic_feature 1700 1710	Lymphedema
-T19	phenotypic_feature 1715 1722	obesity
-T19	disease 1715 1722	obesity
-T20	disease 1768 1781	hyperreflexia
-T20	disease 1783 1812	peripheral sensory neuropathy
-T20	phenotypic_feature 1783 1812	peripheral sensory neuropathy
-T20	phenotypic_feature 1818 1835	cerebellar ataxia
-T20	disease 1818 1835	cerebellar ataxia
+T2	phenotypic_feature 20 26	ataxia
+T3	disease 20 26	ataxia
+T4	phenotypic_feature 28 46	mental retardation
+T5	disease 63 79	genetic disorder
+T6	disease 81 106	Baraitser-Winter syndrome
+T7	disease 139 147	coloboma
+T8	phenotypic_feature 149 155	ptosis
+T9	phenotypic_feature 157 170	hypertelorism
+T10	phenotypic_feature 176 194	mental retardation
+T11	disease 218 236	congenital anomaly
+T12	phenotypic_feature 242 260	mental-retardation
+T13	disease 261 269	syndrome
+T14	disease 314 327	hydrocephalus
+T15	phenotypic_feature 314 327	hydrocephalus
+T16	disease 329 359	Hypergonadotropic hypogonadism
+T17	phenotypic_feature 329 359	Hypergonadotropic hypogonadism
+T18	disease 364 377	renal failure
+T19	phenotypic_feature 364 377	renal failure
+T20	phenotypic_feature 423 440	cerebellar ataxia
+T21	disease 423 440	cerebellar ataxia
+T22	disease 446 476	hypergonadotropic hypogonadism
+T23	phenotypic_feature 446 476	hypergonadotropic hypogonadism
+T24	disease 481 503	sensorineural deafness
+T25	phenotypic_feature 481 503	sensorineural deafness
+T26	phenotypic_feature 505 511	Ptosis
+T27	phenotypic_feature 547 560	hypertelorism
+T28	phenotypic_feature 562 570	seizures
+T29	phenotypic_feature 575 593	mental retardation
+T30	disease 610 616	MCA/MR
+T31	disease 617 625	syndrome
+T32	disease 627 650	Glioblastoma multiforme
+T33	phenotypic_feature 627 650	Glioblastoma multiforme
+T34	phenotypic_feature 686 696	aggressive
+T35	disease 697 708	brain tumor
+T36	phenotypic_feature 697 708	brain tumor
+T37	disease 726 735	hamartoma
+T38	phenotypic_feature 726 735	hamartoma
+T39	disease 860 873	hypercalcemia
+T40	phenotypic_feature 889 902	renal failure
+T41	disease 889 902	renal failure
+T42	disease 967 975	glaucoma
+T43	phenotypic_feature 967 975	glaucoma
+T44	disease 976 985	blindness
+T45	phenotypic_feature 976 985	blindness
+T46	disease 998 1007	dysphasia
+T47	phenotypic_feature 1027 1042	speech disorder
+T48	disease 1027 1042	speech disorder
+T49	phenotypic_feature 1060 1068	deafness
+T50	phenotypic_feature 1090 1108	mental retardation
+T51	disease 1132 1151	psychiatric disease
+T52	disease 1197 1211	cardiomyopathy
+T53	phenotypic_feature 1213 1227	abdominal pain
+T54	phenotypic_feature 1229 1237	deafness
+T55	disease 1239 1252	angiokeratoma
+T56	phenotypic_feature 1257 1272	corneal opacity
+T57	phenotypic_feature 1318 1342	congestive heart failure
+T58	disease 1360 1371	hypotension
+T59	phenotypic_feature 1360 1371	hypotension
+T60	phenotypic_feature 1375 1390	pulmonary edema
+T61	disease 1375 1390	pulmonary edema
+T62	disease 1392 1410	Hypoparathyroidism
+T63	phenotypic_feature 1392 1410	Hypoparathyroidism
+T64	disease 1415 1430	hypopituitarism
+T65	phenotypic_feature 1415 1430	hypopituitarism
+T66	phenotypic_feature 1457 1466	blindness
+T67	disease 1457 1466	blindness
+T68	disease 1471 1488	visual impairment
+T69	phenotypic_feature 1471 1488	visual impairment
+T70	disease 1522 1525	PKU
+T71	phenotypic_feature 1543 1561	mental retardation
+T72	phenotypic_feature 1563 1575	microcephaly
+T73	disease 1563 1575	microcephaly
+T74	phenotypic_feature 1581 1589	seizures
+T75	phenotypic_feature 1591 1599	Cataract
+T76	disease 1591 1599	Cataract
+T77	disease 1600 1609	blindness
+T78	phenotypic_feature 1600 1609	blindness
+T79	disease 1669 1687	movement disorders
+T80	phenotypic_feature 1669 1687	movement disorders
+T81	disease 1692 1698	ataxia
+T82	phenotypic_feature 1692 1698	ataxia
+T83	disease 1700 1710	Lymphedema
+T84	phenotypic_feature 1700 1710	Lymphedema
+T85	phenotypic_feature 1715 1722	obesity
+T86	disease 1715 1722	obesity
+T87	disease 1768 1781	hyperreflexia
+T88	disease 1783 1812	peripheral sensory neuropathy
+T89	phenotypic_feature 1783 1812	peripheral sensory neuropathy
+T90	phenotypic_feature 1818 1835	cerebellar ataxia
+T91	disease 1818 1835	cerebellar ataxia

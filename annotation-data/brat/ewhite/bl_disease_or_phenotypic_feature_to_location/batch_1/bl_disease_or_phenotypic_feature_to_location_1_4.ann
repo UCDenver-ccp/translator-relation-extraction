@@ -1,96 +1,69 @@
-T1	anatomical_site 2 7	child
-T1	disease_or_phenotypic_feature 13 25	microcephaly
-T1	disease_or_phenotypic_feature 13 25	microcephaly
-T1	disease_or_phenotypic_feature 27 46	facial dysmorphisms
-T1	disease_or_phenotypic_feature 48 56	seizures
-T2	anatomical_site 101 107	female
-T2	disease_or_phenotypic_feature 131 143	microcephaly
-T2	disease_or_phenotypic_feature 131 143	microcephaly
-T2	disease_or_phenotypic_feature 145 159	microphthalmia
-T3	disease_or_phenotypic_feature 234 241	obesity
-T3	disease_or_phenotypic_feature 234 241	obesity
-T3	anatomical_site 246 251	brain
-T3	disease_or_phenotypic_feature 278 285	obesity
-T3	disease_or_phenotypic_feature 278 285	obesity
-T3	disease_or_phenotypic_feature 312 330	metabolic syndrome
-T3	disease_or_phenotypic_feature 334 354	Cognitive impairment
-T3	disease_or_phenotypic_feature 359 366	obesity
-T3	disease_or_phenotypic_feature 359 366	obesity
-T3	disease_or_phenotypic_feature 373 391	metabolic syndrome
-T3	anatomical_site 396 401	brain
-T4	disease_or_phenotypic_feature 432 441	Potential
-T4	anatomical_site 452 457	organ
-T5	disease_or_phenotypic_feature 475 499	Adrenal cortical adenoma
-T5	disease_or_phenotypic_feature 504 512	arterial
-T5	anatomical_site 504 512	arterial
-T5	disease_or_phenotypic_feature 513 525	hypertension
-T6	anatomical_site 528 534	Kidney
-T6	disease_or_phenotypic_feature 555 563	cataract
-T6	disease_or_phenotypic_feature 555 563	cataract
-T6	disease_or_phenotypic_feature 564 573	blindness
-T7	disease_or_phenotypic_feature 591 594	Mat
-T7	anatomical_site 634 642	vascular
-T7	anatomical_site 634 642	vascular
-T7	anatomical_site 634 642	vascular
-T7	anatomical_site 681 693	blood vessel
-T8	anatomical_site 834 842	juvenile
-T8	disease_or_phenotypic_feature 843 850	obesity
-T8	disease_or_phenotypic_feature 843 850	obesity
-T9	disease_or_phenotypic_feature 853 862	Hamartoma
-T9	disease_or_phenotypic_feature 853 862	Hamartoma
-T9	anatomical_site 890 894	lung
-T10	disease_or_phenotypic_feature 934 958	congenital hydrocephalus
-T10	disease_or_phenotypic_feature 1021 1034	hydrocephalus
-T10	disease_or_phenotypic_feature 1047 1060	hydrocephalus
-T10	disease_or_phenotypic_feature 1047 1060	hydrocephalus
-T10	anatomical_site 1074 1096	central nervous system
-T10	anatomical_site 1098 1101	CNS
-T11	anatomical_site 1143 1149	eyelid
-T11	disease_or_phenotypic_feature 1157 1170	hypotrichosis
-T11	disease_or_phenotypic_feature 1157 1170	hypotrichosis
-T11	disease_or_phenotypic_feature 1172 1182	hypodontia
-T11	disease_or_phenotypic_feature 1172 1182	hypodontia
-T11	disease_or_phenotypic_feature 1204 1213	keratosis
-T12	disease_or_phenotypic_feature 1266 1306	multilocular cystic renal cell carcinoma
-T12	anatomical_site 1320 1327	capsule
-T13	disease_or_phenotypic_feature 1361 1366	Wilms
-T13	disease_or_phenotypic_feature 1404 1413	malignant
-T13	anatomical_site 1430 1439	childhood
-T14	disease_or_phenotypic_feature 1449 1462	hydrocephalus
-T14	disease_or_phenotypic_feature 1449 1462	hydrocephalus
-T14	anatomical_site 1466 1472	adults
-T15	anatomical_site 1488 1501	cranial nerve
-T15	disease_or_phenotypic_feature 1515 1532	cerebellar ataxia
-T15	disease_or_phenotypic_feature 1515 1532	cerebellar ataxia
-T15	disease_or_phenotypic_feature 1534 1549	muscle weakness
-T15	disease_or_phenotypic_feature 1555 1576	autonomic dysfunction
-T16	disease_or_phenotypic_feature 1578 1590	Hypoglycemia
-T16	disease_or_phenotypic_feature 1578 1590	Hypoglycemia
-T16	anatomical_site 1599 1604	brain
-T17	anatomical_site 1638 1647	inner ear
-T17	anatomical_site 1663 1670	kidneys
-T17	disease_or_phenotypic_feature 1672 1685	hydrocephalus
-T17	disease_or_phenotypic_feature 1672 1685	hydrocephalus
-T17	disease_or_phenotypic_feature 1687 1708	short-limbed dwarfism
-T17	disease_or_phenotypic_feature 1713 1729	immunodeficiency
-T18	disease_or_phenotypic_feature 1745 1755	Syndactyly
-T18	disease_or_phenotypic_feature 1757 1770	brachydactyly
-T18	anatomical_site 1772 1776	bone
-T18	anatomical_site 1772 1776	bone
-T18	disease_or_phenotypic_feature 1788 1801	heart defects
-T18	disease_or_phenotypic_feature 1788 1801	heart defects
-T19	disease_or_phenotypic_feature 1891 1907	botryoid sarcoma
-T19	anatomical_site 1929 1944	urinary bladder
-T19	anatomical_site 1950 1955	child
-T19	disease_or_phenotypic_feature 1961 1973	microcephaly
-T19	disease_or_phenotypic_feature 1961 1973	microcephaly
-T19	disease_or_phenotypic_feature 2005 2014	cataracts
-T19	disease_or_phenotypic_feature 2005 2014	cataracts
-T20	disease_or_phenotypic_feature 2048 2072	congenital heart defects
-T20	disease_or_phenotypic_feature 2048 2072	congenital heart defects
-T20	disease_or_phenotypic_feature 2074 2085	polydactyly
-T20	disease_or_phenotypic_feature 2087 2096	cleft lip
-T20	disease_or_phenotypic_feature 2104 2110	palate
-T20	disease_or_phenotypic_feature 2112 2131	neural tube defects
-T20	disease_or_phenotypic_feature 2112 2131	neural tube defects
-T20	anatomical_site 2137 2149	external ear
+T1	anatomical_site 1 14	Thyroid gland
+T2	disease_or_phenotypic_feature 19 26	obesity
+T3	anatomical_site 31 36	child
+T4	disease_or_phenotypic_feature 42 54	microcephaly
+T5	disease_or_phenotypic_feature 56 75	facial dysmorphisms
+T6	disease_or_phenotypic_feature 77 85	seizures
+T7	anatomical_site 130 136	female
+T8	disease_or_phenotypic_feature 160 172	microcephaly
+T9	disease_or_phenotypic_feature 174 188	microphthalmia
+T10	disease_or_phenotypic_feature 263 270	obesity
+T11	anatomical_site 275 280	brain
+T12	disease_or_phenotypic_feature 307 314	obesity
+T13	disease_or_phenotypic_feature 341 359	metabolic syndrome
+T14	disease_or_phenotypic_feature 363 383	Cognitive impairment
+T15	disease_or_phenotypic_feature 388 395	obesity
+T16	disease_or_phenotypic_feature 402 420	metabolic syndrome
+T17	anatomical_site 425 430	brain
+T18	disease_or_phenotypic_feature 461 470	Potential
+T19	anatomical_site 481 486	organ
+T20	disease_or_phenotypic_feature 504 528	Adrenal cortical adenoma
+T21	disease_or_phenotypic_feature 533 541	arterial
+T22	anatomical_site 533 541	arterial
+T23	disease_or_phenotypic_feature 542 554	hypertension
+T24	anatomical_site 557 563	Kidney
+T25	disease_or_phenotypic_feature 584 592	cataract
+T26	disease_or_phenotypic_feature 593 602	blindness
+T27	disease_or_phenotypic_feature 620 623	Mat
+T28	anatomical_site 663 671	vascular
+T29	anatomical_site 710 722	blood vessel
+T30	anatomical_site 863 871	juvenile
+T31	disease_or_phenotypic_feature 872 879	obesity
+T32	disease_or_phenotypic_feature 882 891	Hamartoma
+T33	anatomical_site 919 923	lung
+T34	disease_or_phenotypic_feature 963 987	congenital hydrocephalus
+T35	disease_or_phenotypic_feature 1050 1063	hydrocephalus
+T36	disease_or_phenotypic_feature 1076 1089	hydrocephalus
+T37	anatomical_site 1103 1125	central nervous system
+T38	anatomical_site 1127 1130	CNS
+T39	anatomical_site 1172 1178	eyelid
+T40	disease_or_phenotypic_feature 1186 1199	hypotrichosis
+T41	disease_or_phenotypic_feature 1201 1211	hypodontia
+T42	disease_or_phenotypic_feature 1233 1242	keratosis
+T43	disease_or_phenotypic_feature 1295 1335	multilocular cystic renal cell carcinoma
+T44	anatomical_site 1349 1356	capsule
+T45	disease_or_phenotypic_feature 1390 1395	Wilms
+T46	disease_or_phenotypic_feature 1433 1442	malignant
+T47	anatomical_site 1459 1468	childhood
+T48	disease_or_phenotypic_feature 1478 1491	hydrocephalus
+T49	anatomical_site 1495 1501	adults
+T50	anatomical_site 1517 1530	cranial nerve
+T51	disease_or_phenotypic_feature 1544 1561	cerebellar ataxia
+T52	disease_or_phenotypic_feature 1563 1578	muscle weakness
+T53	disease_or_phenotypic_feature 1584 1605	autonomic dysfunction
+T54	disease_or_phenotypic_feature 1607 1619	Hypoglycemia
+T55	anatomical_site 1628 1633	brain
+T56	anatomical_site 1667 1676	inner ear
+T57	anatomical_site 1692 1699	kidneys
+T58	disease_or_phenotypic_feature 1701 1714	hydrocephalus
+T59	disease_or_phenotypic_feature 1716 1737	short-limbed dwarfism
+T60	disease_or_phenotypic_feature 1742 1758	immunodeficiency
+T61	disease_or_phenotypic_feature 1774 1784	Syndactyly
+T62	disease_or_phenotypic_feature 1786 1799	brachydactyly
+T63	anatomical_site 1801 1805	bone
+T64	disease_or_phenotypic_feature 1817 1830	heart defects
+T65	disease_or_phenotypic_feature 1920 1936	botryoid sarcoma
+T66	anatomical_site 1958 1973	urinary bladder
+T67	anatomical_site 1979 1984	child
+T68	disease_or_phenotypic_feature 1990 2002	microcephaly
+T69	disease_or_phenotypic_feature 2034 2043	cataracts

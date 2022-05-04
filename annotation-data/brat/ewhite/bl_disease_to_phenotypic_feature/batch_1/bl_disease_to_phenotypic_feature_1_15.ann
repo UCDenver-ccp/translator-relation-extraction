@@ -1,88 +1,88 @@
 T1	phenotypic_feature 25 32	obesity
-T1	disease 25 32	obesity
-T1	phenotypic_feature 50 57	healthy
-T1	phenotypic_feature 58 65	obesity
-T1	disease 58 65	obesity
-T2	phenotypic_feature 67 75	Glaucoma
-T2	disease 67 75	Glaucoma
-T2	disease 98 107	blindness
-T2	phenotypic_feature 98 107	blindness
-T3	disease 114 138	congestive heart failure
-T3	phenotypic_feature 114 138	congestive heart failure
-T3	phenotypic_feature 143 149	anemia
-T3	disease 143 149	anemia
-T4	phenotypic_feature 191 203	hypoglycemia
-T4	disease 191 203	hypoglycemia
-T4	disease 208 224	hyperinsulinemia
-T4	phenotypic_feature 208 224	hyperinsulinemia
-T5	disease 239 247	cataract
-T5	phenotypic_feature 239 247	cataract
-T5	phenotypic_feature 291 299	cataract
-T5	disease 291 299	cataract
-T5	disease 300 309	blindness
-T5	phenotypic_feature 300 309	blindness
-T6	disease 352 372	ectodermal dysplasia
-T6	phenotypic_feature 390 403	hypotrichosis
-T6	disease 390 403	hypotrichosis
-T6	disease 408 418	hypodontia
-T6	phenotypic_feature 408 418	hypodontia
-T7	phenotypic_feature 476 501	severe mental retardation
-T7	phenotypic_feature 503 515	microcephaly
-T7	disease 503 515	microcephaly
-T7	phenotypic_feature 517 530	short stature
-T7	disease 532 546	cryptorchidism
-T7	disease 552 568	spastic diplegia
-T8	disease 588 595	obesity
-T8	phenotypic_feature 588 595	obesity
-T8	phenotypic_feature 611 624	hyperglycemia
-T8	disease 611 624	hyperglycemia
-T8	disease 629 643	hyperlipidemia
-T8	phenotypic_feature 629 643	hyperlipidemia
-T8	disease 709 727	metabolic syndrome
-T9	disease 787 797	lung tumor
-T9	phenotypic_feature 787 797	lung tumor
-T9	disease 850 857	smaller
-T10	disease 975 983	cataract
-T10	phenotypic_feature 975 983	cataract
-T10	disease 988 1008	diabetic retinopathy
-T10	phenotypic_feature 1054 1071	visual impairment
-T10	phenotypic_feature 1076 1085	blindness
-T10	disease 1076 1085	blindness
-T11	disease 1100 1113	hydrocephalus
-T11	phenotypic_feature 1100 1113	hydrocephalus
-T11	phenotypic_feature 1115 1127	spina bifida
-T11	disease 1115 1127	spina bifida
-T11	disease 1133 1159	Arnold-Chiari malformation
-T12	phenotypic_feature 1161 1178	Cerebellar ataxia
-T12	disease 1161 1178	Cerebellar ataxia
-T12	phenotypic_feature 1183 1201	movement disorders
-T12	disease 1183 1201	movement disorders
-T13	disease 1227 1250	Genitopatellar syndrome
-T13	phenotypic_feature 1252 1278	sensorineural hearing loss
-T13	disease 1252 1278	sensorineural hearing loss
-T13	disease 1284 1296	cleft palate
-T13	phenotypic_feature 1284 1296	cleft palate
-T14	phenotypic_feature 1307 1314	obesity
-T14	disease 1307 1314	obesity
-T14	phenotypic_feature 1319 1343	congenital heart defects
-T14	disease 1319 1343	congenital heart defects
-T15	phenotypic_feature 1405 1423	facial dysmorphism
-T15	disease 1437 1456	parathyroid adenoma
-T16	phenotypic_feature 1459 1467	cataract
-T16	disease 1459 1467	cataract
-T16	disease 1491 1498	obesity
-T16	phenotypic_feature 1491 1498	obesity
-T17	disease 1539 1548	blindness
-T17	phenotypic_feature 1539 1548	blindness
-T17	disease 1550 1563	renal failure
-T17	phenotypic_feature 1550 1563	renal failure
-T17	disease 1568 1590	cardiovascular disease
-T18	phenotypic_feature 1594 1598	deaf
-T18	disease 1619 1627	diabetes
-T18	phenotypic_feature 1632 1645	renal failure
-T18	disease 1632 1645	renal failure
-T19	phenotypic_feature 1648 1660	Hypoglycemic
-T19	disease 1648 1660	Hypoglycemic
-T20	phenotypic_feature 1698 1708	Autoimmune
-T20	disease 1709 1735	sensorineural hearing loss
-T20	phenotypic_feature 1709 1735	sensorineural hearing loss
+T2	disease 25 32	obesity
+T3	phenotypic_feature 50 57	healthy
+T4	phenotypic_feature 58 65	obesity
+T5	disease 58 65	obesity
+T6	phenotypic_feature 67 75	Glaucoma
+T7	disease 67 75	Glaucoma
+T8	disease 98 107	blindness
+T9	phenotypic_feature 98 107	blindness
+T10	disease 114 138	congestive heart failure
+T11	phenotypic_feature 114 138	congestive heart failure
+T12	phenotypic_feature 143 149	anemia
+T13	disease 143 149	anemia
+T14	phenotypic_feature 191 203	hypoglycemia
+T15	disease 191 203	hypoglycemia
+T16	disease 208 224	hyperinsulinemia
+T17	phenotypic_feature 208 224	hyperinsulinemia
+T18	disease 239 247	cataract
+T19	phenotypic_feature 239 247	cataract
+T20	phenotypic_feature 291 299	cataract
+T21	disease 291 299	cataract
+T22	disease 300 309	blindness
+T23	phenotypic_feature 300 309	blindness
+T24	disease 352 372	ectodermal dysplasia
+T25	phenotypic_feature 390 403	hypotrichosis
+T26	disease 390 403	hypotrichosis
+T27	disease 408 418	hypodontia
+T28	phenotypic_feature 408 418	hypodontia
+T29	phenotypic_feature 476 501	severe mental retardation
+T30	phenotypic_feature 503 515	microcephaly
+T31	disease 503 515	microcephaly
+T32	phenotypic_feature 517 530	short stature
+T33	disease 532 546	cryptorchidism
+T34	disease 552 568	spastic diplegia
+T35	disease 588 595	obesity
+T36	phenotypic_feature 588 595	obesity
+T37	phenotypic_feature 611 624	hyperglycemia
+T38	disease 611 624	hyperglycemia
+T39	disease 629 643	hyperlipidemia
+T40	phenotypic_feature 629 643	hyperlipidemia
+T41	disease 709 727	metabolic syndrome
+T42	disease 787 797	lung tumor
+T43	phenotypic_feature 787 797	lung tumor
+T44	disease 850 857	smaller
+T45	disease 975 983	cataract
+T46	phenotypic_feature 975 983	cataract
+T47	disease 988 1008	diabetic retinopathy
+T48	phenotypic_feature 1054 1071	visual impairment
+T49	phenotypic_feature 1076 1085	blindness
+T50	disease 1076 1085	blindness
+T51	disease 1100 1113	hydrocephalus
+T52	phenotypic_feature 1100 1113	hydrocephalus
+T53	phenotypic_feature 1115 1127	spina bifida
+T54	disease 1115 1127	spina bifida
+T55	disease 1133 1159	Arnold-Chiari malformation
+T56	phenotypic_feature 1161 1178	Cerebellar ataxia
+T57	disease 1161 1178	Cerebellar ataxia
+T58	phenotypic_feature 1183 1201	movement disorders
+T59	disease 1183 1201	movement disorders
+T60	disease 1227 1250	Genitopatellar syndrome
+T61	phenotypic_feature 1252 1278	sensorineural hearing loss
+T62	disease 1252 1278	sensorineural hearing loss
+T63	disease 1284 1296	cleft palate
+T64	phenotypic_feature 1284 1296	cleft palate
+T65	phenotypic_feature 1307 1314	obesity
+T66	disease 1307 1314	obesity
+T67	phenotypic_feature 1319 1343	congenital heart defects
+T68	disease 1319 1343	congenital heart defects
+T69	phenotypic_feature 1405 1423	facial dysmorphism
+T70	disease 1437 1456	parathyroid adenoma
+T71	phenotypic_feature 1459 1467	cataract
+T72	disease 1459 1467	cataract
+T73	disease 1491 1498	obesity
+T74	phenotypic_feature 1491 1498	obesity
+T75	disease 1539 1548	blindness
+T76	phenotypic_feature 1539 1548	blindness
+T77	disease 1550 1563	renal failure
+T78	phenotypic_feature 1550 1563	renal failure
+T79	disease 1568 1590	cardiovascular disease
+T80	phenotypic_feature 1594 1598	deaf
+T81	disease 1619 1627	diabetes
+T82	phenotypic_feature 1632 1645	renal failure
+T83	disease 1632 1645	renal failure
+T84	phenotypic_feature 1648 1660	Hypoglycemic
+T85	disease 1648 1660	Hypoglycemic
+T86	phenotypic_feature 1698 1708	Autoimmune
+T87	disease 1709 1735	sensorineural hearing loss
+T88	phenotypic_feature 1709 1735	sensorineural hearing loss

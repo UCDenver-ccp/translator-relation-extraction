@@ -1,108 +1,107 @@
 T1	disease 66 84	metabolic syndrome
-T1	disease 139 146	obesity
-T1	phenotypic_feature 139 146	obesity
-T1	phenotypic_feature 148 161	hyperglycemia
-T1	disease 148 161	hyperglycemia
-T1	phenotypic_feature 163 179	hyperinsulinemia
-T1	disease 163 179	hyperinsulinemia
-T1	phenotypic_feature 181 195	hyperlipidemia
-T1	disease 181 195	hyperlipidemia
-T2	phenotypic_feature 234 259	Unusual facial appearance
-T2	phenotypic_feature 261 273	microcephaly
-T2	disease 261 273	microcephaly
-T2	phenotypic_feature 286 304	mental retardation
-T2	phenotypic_feature 310 320	syndactyly
-T3	disease 322 338	Hyperinsulinemia
-T3	phenotypic_feature 413 420	obesity
-T3	disease 413 420	obesity
-T3	phenotypic_feature 422 429	obesity
-T3	disease 422 429	obesity
-T3	disease 452 459	obesity
-T3	phenotypic_feature 452 459	obesity
-T4	phenotypic_feature 501 512	renal cysts
-T4	disease 501 512	renal cysts
-T5	disease 525 537	Hypoglycemia
-T5	phenotypic_feature 525 537	Hypoglycemia
-T5	phenotypic_feature 542 555	hyperglycemia
-T5	disease 542 555	hyperglycemia
-T6	phenotypic_feature 613 626	hypernatremia
-T6	phenotypic_feature 628 640	hypoglycemia
-T6	disease 628 640	hypoglycemia
-T6	phenotypic_feature 646 657	hypothermia
-T7	phenotypic_feature 693 701	vomiting
-T7	phenotypic_feature 703 712	hypoxemia
-T7	phenotypic_feature 717 730	hyperglycemia
-T7	disease 717 730	hyperglycemia
-T8	phenotypic_feature 744 757	optic atrophy
-T8	disease 744 757	optic atrophy
-T8	phenotypic_feature 779 792	hypertelorism
-T8	disease 821 832	visual loss
-T8	phenotypic_feature 821 832	visual loss
-T9	disease 889 929	attention-deficit/hyperactivity disorder
-T9	disease 931 937	autism
-T9	phenotypic_feature 931 937	autism
-T9	phenotypic_feature 939 948	blindness
-T9	disease 939 948	blindness
-T9	phenotypic_feature 966 970	deaf
-T9	phenotypic_feature 1006 1016	disability
-T9	phenotypic_feature 1018 1036	mental retardation
-T9	phenotypic_feature 1038 1046	seizures
-T10	disease 1102 1117	Noonan syndrome
-T10	disease 1127 1143	LEOPARD syndrome
-T10	phenotypic_feature 1186 1199	short stature
-T10	phenotypic_feature 1201 1214	hypertelorism
-T10	disease 1219 1232	heart defects
-T10	phenotypic_feature 1219 1232	heart defects
-T11	phenotypic_feature 1256 1269	hypercalcemia
-T11	disease 1256 1269	hypercalcemia
-T11	disease 1274 1290	hypophosphatemia
-T11	phenotypic_feature 1274 1290	hypophosphatemia
-T12	disease 1292 1308	Craniosynostosis
-T12	disease 1310 1321	telecanthus
-T12	phenotypic_feature 1329 1347	hair abnormalities
-T12	phenotypic_feature 1353 1375	sensorineural deafness
-T12	disease 1353 1375	sensorineural deafness
-T13	disease 1412 1430	sensory neuropathy
-T13	phenotypic_feature 1412 1430	sensory neuropathy
-T13	disease 1469 1485	thrombocytopenia
-T13	phenotypic_feature 1495 1503	vomiting
-T13	phenotypic_feature 1518 1532	abdominal pain
-T14	disease 1583 1589	autism
-T14	phenotypic_feature 1583 1589	autism
-T14	disease 1594 1626	pervasive developmental disorder
-T14	disease 1594 1626	pervasive developmental disorder
-T14	phenotypic_feature 1594 1626	pervasive developmental disorder
-T15	disease 1676 1689	hyperglycemia
-T15	phenotypic_feature 1676 1689	hyperglycemia
-T15	phenotypic_feature 1693 1705	hypoglycemia
-T15	disease 1693 1705	hypoglycemia
-T16	phenotypic_feature 1744 1759	pulmonary edema
-T16	phenotypic_feature 1840 1853	renal failure
-T16	disease 1840 1853	renal failure
-T16	phenotypic_feature 1855 1868	hyperglycemia
-T16	disease 1855 1868	hyperglycemia
-T16	phenotypic_feature 1874 1885	hypokalemia
-T16	disease 1874 1885	hypokalemia
-T17	phenotypic_feature 1887 1895	Cataract
-T17	disease 1887 1895	Cataract
-T17	disease 1896 1905	blindness
-T17	phenotypic_feature 1896 1905	blindness
-T18	disease 1943 1953	leukopenia
-T18	disease 1955 1961	anemia
-T18	phenotypic_feature 1955 1961	anemia
-T18	phenotypic_feature 1971 1976	fever
-T18	phenotypic_feature 1982 1996	abdominal pain
-T19	phenotypic_feature 2047 2065	mental retardation
-T19	disease 2080 2093	optic atrophy
-T19	phenotypic_feature 2080 2093	optic atrophy
-T19	phenotypic_feature 2095 2112	cerebellar ataxia
-T19	disease 2095 2112	cerebellar ataxia
-T19	phenotypic_feature 2134 2155	peripheral neuropathy
-T19	disease 2134 2155	peripheral neuropathy
-T20	phenotypic_feature 2163 2174	visual loss
-T20	phenotypic_feature 2187 2198	visual loss
-T20	disease 2187 2198	visual loss
-T20	disease 2203 2214	visual loss
-T20	phenotypic_feature 2203 2214	visual loss
-T20	phenotypic_feature 2253 2261	deafness
-T20	disease 2292 2310	multiple sclerosis
+T2	disease 139 146	obesity
+T3	phenotypic_feature 139 146	obesity
+T4	phenotypic_feature 148 161	hyperglycemia
+T5	disease 148 161	hyperglycemia
+T6	phenotypic_feature 163 179	hyperinsulinemia
+T7	disease 163 179	hyperinsulinemia
+T8	phenotypic_feature 181 195	hyperlipidemia
+T9	disease 181 195	hyperlipidemia
+T10	phenotypic_feature 234 259	Unusual facial appearance
+T11	phenotypic_feature 261 273	microcephaly
+T12	disease 261 273	microcephaly
+T13	phenotypic_feature 286 304	mental retardation
+T14	phenotypic_feature 310 320	syndactyly
+T15	disease 322 338	Hyperinsulinemia
+T16	phenotypic_feature 413 420	obesity
+T17	disease 413 420	obesity
+T18	phenotypic_feature 422 429	obesity
+T19	disease 422 429	obesity
+T20	disease 452 459	obesity
+T21	phenotypic_feature 452 459	obesity
+T22	phenotypic_feature 501 512	renal cysts
+T23	disease 501 512	renal cysts
+T24	disease 525 537	Hypoglycemia
+T25	phenotypic_feature 525 537	Hypoglycemia
+T26	phenotypic_feature 542 555	hyperglycemia
+T27	disease 542 555	hyperglycemia
+T28	phenotypic_feature 613 626	hypernatremia
+T29	phenotypic_feature 628 640	hypoglycemia
+T30	disease 628 640	hypoglycemia
+T31	phenotypic_feature 646 657	hypothermia
+T32	phenotypic_feature 693 701	vomiting
+T33	phenotypic_feature 703 712	hypoxemia
+T34	phenotypic_feature 717 730	hyperglycemia
+T35	disease 717 730	hyperglycemia
+T36	phenotypic_feature 744 757	optic atrophy
+T37	disease 744 757	optic atrophy
+T38	phenotypic_feature 779 792	hypertelorism
+T39	disease 821 832	visual loss
+T40	phenotypic_feature 821 832	visual loss
+T41	disease 889 929	attention-deficit/hyperactivity disorder
+T42	disease 931 937	autism
+T43	phenotypic_feature 931 937	autism
+T44	phenotypic_feature 939 948	blindness
+T45	disease 939 948	blindness
+T46	phenotypic_feature 966 970	deaf
+T47	phenotypic_feature 1006 1016	disability
+T48	phenotypic_feature 1018 1036	mental retardation
+T49	phenotypic_feature 1038 1046	seizures
+T50	disease 1102 1117	Noonan syndrome
+T51	disease 1127 1143	LEOPARD syndrome
+T52	phenotypic_feature 1186 1199	short stature
+T53	phenotypic_feature 1201 1214	hypertelorism
+T54	disease 1219 1232	heart defects
+T55	phenotypic_feature 1219 1232	heart defects
+T56	phenotypic_feature 1256 1269	hypercalcemia
+T57	disease 1256 1269	hypercalcemia
+T58	disease 1274 1290	hypophosphatemia
+T59	phenotypic_feature 1274 1290	hypophosphatemia
+T60	disease 1292 1308	Craniosynostosis
+T61	disease 1310 1321	telecanthus
+T62	phenotypic_feature 1329 1347	hair abnormalities
+T63	phenotypic_feature 1353 1375	sensorineural deafness
+T64	disease 1353 1375	sensorineural deafness
+T65	disease 1412 1430	sensory neuropathy
+T66	phenotypic_feature 1412 1430	sensory neuropathy
+T67	disease 1469 1485	thrombocytopenia
+T68	phenotypic_feature 1495 1503	vomiting
+T69	phenotypic_feature 1518 1532	abdominal pain
+T70	disease 1583 1589	autism
+T71	phenotypic_feature 1583 1589	autism
+T72	disease 1594 1626	pervasive developmental disorder
+T73	phenotypic_feature 1594 1626	pervasive developmental disorder
+T74	disease 1676 1689	hyperglycemia
+T75	phenotypic_feature 1676 1689	hyperglycemia
+T76	phenotypic_feature 1693 1705	hypoglycemia
+T77	disease 1693 1705	hypoglycemia
+T78	phenotypic_feature 1744 1759	pulmonary edema
+T79	phenotypic_feature 1840 1853	renal failure
+T80	disease 1840 1853	renal failure
+T81	phenotypic_feature 1855 1868	hyperglycemia
+T82	disease 1855 1868	hyperglycemia
+T83	phenotypic_feature 1874 1885	hypokalemia
+T84	disease 1874 1885	hypokalemia
+T85	phenotypic_feature 1887 1895	Cataract
+T86	disease 1887 1895	Cataract
+T87	disease 1896 1905	blindness
+T88	phenotypic_feature 1896 1905	blindness
+T89	disease 1943 1953	leukopenia
+T90	disease 1955 1961	anemia
+T91	phenotypic_feature 1955 1961	anemia
+T92	phenotypic_feature 1971 1976	fever
+T93	phenotypic_feature 1982 1996	abdominal pain
+T94	phenotypic_feature 2047 2065	mental retardation
+T95	disease 2080 2093	optic atrophy
+T96	phenotypic_feature 2080 2093	optic atrophy
+T97	phenotypic_feature 2095 2112	cerebellar ataxia
+T98	disease 2095 2112	cerebellar ataxia
+T99	phenotypic_feature 2134 2155	peripheral neuropathy
+T100	disease 2134 2155	peripheral neuropathy
+T101	phenotypic_feature 2163 2174	visual loss
+T102	phenotypic_feature 2187 2198	visual loss
+T103	disease 2187 2198	visual loss
+T104	disease 2203 2214	visual loss
+T105	phenotypic_feature 2203 2214	visual loss
+T106	phenotypic_feature 2253 2261	deafness
+T107	disease 2292 2310	multiple sclerosis

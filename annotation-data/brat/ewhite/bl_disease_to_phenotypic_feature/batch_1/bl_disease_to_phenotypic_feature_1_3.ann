@@ -1,101 +1,101 @@
 T1	phenotypic_feature 65 76	lung tumors
-T1	disease 65 76	lung tumors
-T2	phenotypic_feature 87 94	obesity
-T2	disease 87 94	obesity
-T3	phenotypic_feature 177 183	Asthma
-T3	disease 177 183	Asthma
-T3	disease 188 195	obesity
-T3	phenotypic_feature 188 195	obesity
-T4	phenotypic_feature 252 259	obesity
-T4	disease 252 259	obesity
-T4	disease 272 279	obesity
-T4	phenotypic_feature 272 279	obesity
-T4	phenotypic_feature 283 290	obesity
-T4	disease 283 290	obesity
-T5	phenotypic_feature 358 387	hypogonadotropic hypogonadism
-T5	disease 358 387	hypogonadotropic hypogonadism
-T5	phenotypic_feature 389 395	ataxia
-T5	disease 389 395	ataxia
-T5	disease 401 407	myopia
-T5	disease 416 426	hypodontia
-T5	phenotypic_feature 416 426	hypodontia
-T6	disease 437 446	malignant
-T6	phenotypic_feature 468 481	brachydactyly
-T7	phenotypic_feature 500 517	Cerebellar ataxia
-T7	disease 500 517	Cerebellar ataxia
-T7	phenotypic_feature 519 530	polydactyly
-T7	phenotypic_feature 532 542	syndactyly
-T8	phenotypic_feature 586 593	obesity
-T8	disease 586 593	obesity
-T8	phenotypic_feature 619 633	hyperlipidemia
-T8	disease 619 633	hyperlipidemia
-T8	disease 644 662	metabolic diseases
-T9	phenotypic_feature 697 710	hydrocephalus
-T9	disease 697 710	hydrocephalus
-T9	phenotypic_feature 712 726	microphthalmia
-T9	disease 728 748	cleft lip and palate
-T9	phenotypic_feature 750 762	micrognathia
-T9	phenotypic_feature 828 838	syndactyly
-T9	phenotypic_feature 844 856	ectrodactyly
-T10	disease 914 927	hyperglycemia
-T10	phenotypic_feature 939 955	hyperinsulinemia
-T10	disease 939 955	hyperinsulinemia
-T10	disease 957 971	hyperlipidemia
-T10	phenotypic_feature 957 971	hyperlipidemia
-T10	phenotypic_feature 973 980	obesity
-T10	disease 973 980	obesity
-T10	disease 985 996	nephropathy
-T11	disease 998 1019	Prader-Willi syndrome
-T11	disease 1025 1041	genetic disorder
-T11	disease 1080 1087	obesity
-T11	phenotypic_feature 1080 1087	obesity
-T11	phenotypic_feature 1089 1101	hypogonadism
-T11	disease 1089 1101	hypogonadism
-T11	phenotypic_feature 1106 1124	mental retardation
-T12	disease 1138 1144	ataxia
-T12	phenotypic_feature 1138 1144	ataxia
-T12	phenotypic_feature 1150 1170	ocular motor apraxia
-T12	phenotypic_feature 1175 1191	hypoalbuminaemia
-T12	phenotypic_feature 1192 1198	ataxia
-T12	disease 1192 1198	ataxia
-T12	disease 1247 1253	ataxia
-T12	phenotypic_feature 1247 1253	ataxia
-T13	phenotypic_feature 1348 1362	hypercalciuria
-T13	phenotypic_feature 1370 1383	hypercalcemia
-T13	disease 1370 1383	hypercalcemia
-T13	disease 1385 1401	craniosynostosis
-T13	disease 1403 1415	cleft palate
-T13	phenotypic_feature 1403 1415	cleft palate
-T13	disease 1421 1430	scoliosis
-T14	phenotypic_feature 1460 1472	microcephaly
-T14	phenotypic_feature 1474 1486	micrognathia
-T14	phenotypic_feature 1488 1507	talipes equinovarus
-T14	disease 1512 1518	ataxia
-T14	phenotypic_feature 1512 1518	ataxia
-T15	disease 1572 1580	cataract
-T15	phenotypic_feature 1572 1580	cataract
-T15	disease 1586 1594	glaucoma
-T15	phenotypic_feature 1637 1654	visual impairment
-T15	disease 1637 1654	visual impairment
-T15	phenotypic_feature 1658 1667	blindness
-T15	disease 1658 1667	blindness
-T16	disease 1669 1685	Hypophosphatemia
-T16	phenotypic_feature 1669 1685	Hypophosphatemia
-T17	phenotypic_feature 1764 1772	Dementia
-T17	disease 1764 1772	Dementia
-T17	phenotypic_feature 1777 1784	obesity
-T17	disease 1777 1784	obesity
-T18	disease 1835 1854	Endocrine disorders
-T18	disease 1871 1882	hypokalemia
-T18	phenotypic_feature 1871 1882	hypokalemia
-T18	phenotypic_feature 1887 1899	hyperkalemia
-T19	disease 1926 1948	neurological disorders
-T19	disease 1957 1963	ataxia
-T19	phenotypic_feature 1957 1963	ataxia
-T19	phenotypic_feature 1985 1995	disability
-T19	phenotypic_feature 1997 2015	mental retardation
-T19	phenotypic_feature 2021 2032	memory loss
-T20	phenotypic_feature 2034 2042	Glaucoma
-T20	disease 2034 2042	Glaucoma
-T20	disease 2065 2074	blindness
-T20	phenotypic_feature 2065 2074	blindness
+T2	disease 65 76	lung tumors
+T3	phenotypic_feature 87 94	obesity
+T4	disease 87 94	obesity
+T5	phenotypic_feature 177 183	Asthma
+T6	disease 177 183	Asthma
+T7	disease 188 195	obesity
+T8	phenotypic_feature 188 195	obesity
+T9	phenotypic_feature 252 259	obesity
+T10	disease 252 259	obesity
+T11	disease 272 279	obesity
+T12	phenotypic_feature 272 279	obesity
+T13	phenotypic_feature 283 290	obesity
+T14	disease 283 290	obesity
+T15	phenotypic_feature 358 387	hypogonadotropic hypogonadism
+T16	disease 358 387	hypogonadotropic hypogonadism
+T17	phenotypic_feature 389 395	ataxia
+T18	disease 389 395	ataxia
+T19	disease 401 407	myopia
+T20	disease 416 426	hypodontia
+T21	phenotypic_feature 416 426	hypodontia
+T22	disease 437 446	malignant
+T23	phenotypic_feature 468 481	brachydactyly
+T24	phenotypic_feature 500 517	Cerebellar ataxia
+T25	disease 500 517	Cerebellar ataxia
+T26	phenotypic_feature 519 530	polydactyly
+T27	phenotypic_feature 532 542	syndactyly
+T28	phenotypic_feature 586 593	obesity
+T29	disease 586 593	obesity
+T30	phenotypic_feature 619 633	hyperlipidemia
+T31	disease 619 633	hyperlipidemia
+T32	disease 644 662	metabolic diseases
+T33	phenotypic_feature 697 710	hydrocephalus
+T34	disease 697 710	hydrocephalus
+T35	phenotypic_feature 712 726	microphthalmia
+T36	disease 728 748	cleft lip and palate
+T37	phenotypic_feature 750 762	micrognathia
+T38	phenotypic_feature 828 838	syndactyly
+T39	phenotypic_feature 844 856	ectrodactyly
+T40	disease 914 927	hyperglycemia
+T41	phenotypic_feature 939 955	hyperinsulinemia
+T42	disease 939 955	hyperinsulinemia
+T43	disease 957 971	hyperlipidemia
+T44	phenotypic_feature 957 971	hyperlipidemia
+T45	phenotypic_feature 973 980	obesity
+T46	disease 973 980	obesity
+T47	disease 985 996	nephropathy
+T48	disease 998 1019	Prader-Willi syndrome
+T49	disease 1025 1041	genetic disorder
+T50	disease 1080 1087	obesity
+T51	phenotypic_feature 1080 1087	obesity
+T52	phenotypic_feature 1089 1101	hypogonadism
+T53	disease 1089 1101	hypogonadism
+T54	phenotypic_feature 1106 1124	mental retardation
+T55	disease 1138 1144	ataxia
+T56	phenotypic_feature 1138 1144	ataxia
+T57	phenotypic_feature 1150 1170	ocular motor apraxia
+T58	phenotypic_feature 1175 1191	hypoalbuminaemia
+T59	phenotypic_feature 1192 1198	ataxia
+T60	disease 1192 1198	ataxia
+T61	disease 1247 1253	ataxia
+T62	phenotypic_feature 1247 1253	ataxia
+T63	phenotypic_feature 1348 1362	hypercalciuria
+T64	phenotypic_feature 1370 1383	hypercalcemia
+T65	disease 1370 1383	hypercalcemia
+T66	disease 1385 1401	craniosynostosis
+T67	disease 1403 1415	cleft palate
+T68	phenotypic_feature 1403 1415	cleft palate
+T69	disease 1421 1430	scoliosis
+T70	phenotypic_feature 1460 1472	microcephaly
+T71	phenotypic_feature 1474 1486	micrognathia
+T72	phenotypic_feature 1488 1507	talipes equinovarus
+T73	disease 1512 1518	ataxia
+T74	phenotypic_feature 1512 1518	ataxia
+T75	disease 1572 1580	cataract
+T76	phenotypic_feature 1572 1580	cataract
+T77	disease 1586 1594	glaucoma
+T78	phenotypic_feature 1637 1654	visual impairment
+T79	disease 1637 1654	visual impairment
+T80	phenotypic_feature 1658 1667	blindness
+T81	disease 1658 1667	blindness
+T82	disease 1669 1685	Hypophosphatemia
+T83	phenotypic_feature 1669 1685	Hypophosphatemia
+T84	phenotypic_feature 1764 1772	Dementia
+T85	disease 1764 1772	Dementia
+T86	phenotypic_feature 1777 1784	obesity
+T87	disease 1777 1784	obesity
+T88	disease 1835 1854	Endocrine disorders
+T89	disease 1871 1882	hypokalemia
+T90	phenotypic_feature 1871 1882	hypokalemia
+T91	phenotypic_feature 1887 1899	hyperkalemia
+T92	disease 1926 1948	neurological disorders
+T93	disease 1957 1963	ataxia
+T94	phenotypic_feature 1957 1963	ataxia
+T95	phenotypic_feature 1985 1995	disability
+T96	phenotypic_feature 1997 2015	mental retardation
+T97	phenotypic_feature 2021 2032	memory loss
+T98	phenotypic_feature 2034 2042	Glaucoma
+T99	disease 2034 2042	Glaucoma
+T100	disease 2065 2074	blindness
+T101	phenotypic_feature 2065 2074	blindness

@@ -1,102 +1,79 @@
-T1	anatomical_site 14 18	male
-T1	anatomical_site 29 33	lung
-T1	disease_or_phenotypic_feature 60 69	neoplasms
-T1	disease_or_phenotypic_feature 91 114	interstitial cell tumor
-T2	anatomical_site 145 151	adults
-T2	disease_or_phenotypic_feature 164 172	dystonia
-T2	disease_or_phenotypic_feature 193 211	movement disorders
-T2	disease_or_phenotypic_feature 193 211	movement disorders
-T2	disease_or_phenotypic_feature 221 238	cerebellar ataxia
-T2	disease_or_phenotypic_feature 221 238	cerebellar ataxia
-T3	disease_or_phenotypic_feature 261 272	gait ataxia
-T3	disease_or_phenotypic_feature 295 309	polyneuropathy
-T3	disease_or_phenotypic_feature 331 340	cataracts
-T3	disease_or_phenotypic_feature 331 340	cataracts
-T3	anatomical_site 342 348	tendon
-T3	disease_or_phenotypic_feature 364 382	cognitive deficits
-T4	anatomical_site 396 401	liver
-T4	anatomical_site 407 413	kidney
-T4	disease_or_phenotypic_feature 414 424	overgrowth
-T4	disease_or_phenotypic_feature 441 448	hydrops
-T4	disease_or_phenotypic_feature 449 457	syndrome
-T5	disease_or_phenotypic_feature 505 519	prostate tumor
-T5	anatomical_site 520 530	epithelium
-T5	anatomical_site 538 544	stroma
-T5	anatomical_site 585 604	prostate epithelium
-T5	anatomical_site 609 615	stroma
-T6	disease_or_phenotypic_feature 635 663	cardiovascular abnormalities
-T6	disease_or_phenotypic_feature 665 677	cleft palate
-T6	disease_or_phenotypic_feature 665 677	cleft palate
-T6	disease_or_phenotypic_feature 683 691	clubfoot
-T6	anatomical_site 697 710	urinary tract
-T7	anatomical_site 734 742	vascular
-T7	anatomical_site 734 742	vascular
-T7	anatomical_site 734 742	vascular
-T7	disease_or_phenotypic_feature 798 805	obesity
-T7	disease_or_phenotypic_feature 798 805	obesity
-T7	disease_or_phenotypic_feature 816 833	diabetes mellitus
-T7	anatomical_site 835 840	blood
-T7	disease_or_phenotypic_feature 841 853	hypertension
-T7	disease_or_phenotypic_feature 855 875	hypertriglyceridemia
-T7	disease_or_phenotypic_feature 881 899	metabolic syndrome
-T8	anatomical_site 976 984	forehead
-T8	disease_or_phenotypic_feature 986 999	hypertelorism
-T8	anatomical_site 1007 1019	nasal bridge
-T8	disease_or_phenotypic_feature 1042 1054	cleft palate
-T8	disease_or_phenotypic_feature 1042 1054	cleft palate
-T8	disease_or_phenotypic_feature 1087 1099	macrocephaly
-T8	disease_or_phenotypic_feature 1101 1124	congenital heart defect
-T8	disease_or_phenotypic_feature 1101 1124	congenital heart defect
-T8	disease_or_phenotypic_feature 1146 1161	renal anomalies
-T9	disease_or_phenotypic_feature 1183 1188	small
-T9	anatomical_site 1264 1277	blood vessels
-T10	anatomical_site 1381 1385	male
-T10	anatomical_site 1386 1391	brain
-T10	disease_or_phenotypic_feature 1402 1408	autism
-T10	disease_or_phenotypic_feature 1402 1408	autism
-T10	disease_or_phenotypic_feature 1467 1473	autism
-T10	disease_or_phenotypic_feature 1467 1473	autism
-T11	anatomical_site 1482 1497	trochlear nerve
-T11	disease_or_phenotypic_feature 1498 1507	neurinoma
-T11	disease_or_phenotypic_feature 1518 1527	intrinsic
-T11	anatomical_site 1528 1537	brainstem
-T12	disease_or_phenotypic_feature 1601 1627	eye movement abnormalities
-T12	disease_or_phenotypic_feature 1629 1640	vision loss
-T12	disease_or_phenotypic_feature 1629 1640	vision loss
-T12	anatomical_site 1646 1657	optic nerve
-T12	anatomical_site 1646 1657	optic nerve
-T13	anatomical_site 1672 1684	hypothalamus
-T13	disease_or_phenotypic_feature 1689 1696	obesity
-T13	disease_or_phenotypic_feature 1689 1696	obesity
-T14	disease_or_phenotypic_feature 1762 1775	hyperglycemia
-T14	disease_or_phenotypic_feature 1762 1775	hyperglycemia
-T14	disease_or_phenotypic_feature 1780 1796	hyperinsulinemia
-T14	disease_or_phenotypic_feature 1780 1796	hyperinsulinemia
-T14	anatomical_site 1805 1810	liver
-T14	disease_or_phenotypic_feature 1811 1814	FFA
-T15	disease_or_phenotypic_feature 1848 1855	obesity
-T15	disease_or_phenotypic_feature 1848 1855	obesity
-T15	disease_or_phenotypic_feature 1873 1880	obesity
-T15	disease_or_phenotypic_feature 1873 1880	obesity
-T15	anatomical_site 1884 1890	adults
-T16	disease_or_phenotypic_feature 1892 1909	Osteogenic tumors
-T16	anatomical_site 1980 1991	bone tissue
-T17	disease_or_phenotypic_feature 2023 2033	arrhythmia
-T17	disease_or_phenotypic_feature 2023 2033	arrhythmia
-T17	disease_or_phenotypic_feature 2035 2048	heart failure
-T17	disease_or_phenotypic_feature 2035 2048	heart failure
-T17	anatomical_site 2072 2080	thrombus
-T18	anatomical_site 2129 2135	female
-T18	disease_or_phenotypic_feature 2169 2176	hepatic
-T18	anatomical_site 2191 2195	lobe
-T18	anatomical_site 2221 2229	thrombus
-T19	disease_or_phenotypic_feature 2268 2280	hypertension
-T19	disease_or_phenotypic_feature 2282 2306	congenital heart disease
-T19	disease_or_phenotypic_feature 2308 2317	neoplasms
-T19	anatomical_site 2323 2340	connective tissue
-T20	anatomical_site 2410 2415	blood
-T20	disease_or_phenotypic_feature 2458 2464	cancer
-T20	anatomical_site 2465 2471	tissue
-T20	anatomical_site 2511 2517	tissue
-T20	anatomical_site 2531 2543	renal cortex
-T20	anatomical_site 2544 2551	medulla
+T1	disease_or_phenotypic_feature 3 27	hepatocellular carcinoma
+T2	disease_or_phenotypic_feature 29 44	secondary tumor
+T3	anatomical_site 86 94	thrombus
+T4	anatomical_site 120 124	male
+T5	anatomical_site 135 139	lung
+T6	disease_or_phenotypic_feature 166 175	neoplasms
+T7	disease_or_phenotypic_feature 197 220	interstitial cell tumor
+T8	anatomical_site 251 257	adults
+T9	disease_or_phenotypic_feature 270 278	dystonia
+T10	disease_or_phenotypic_feature 299 317	movement disorders
+T11	disease_or_phenotypic_feature 327 344	cerebellar ataxia
+T12	disease_or_phenotypic_feature 367 378	gait ataxia
+T13	disease_or_phenotypic_feature 401 415	polyneuropathy
+T14	disease_or_phenotypic_feature 437 446	cataracts
+T15	anatomical_site 448 454	tendon
+T16	disease_or_phenotypic_feature 470 488	cognitive deficits
+T17	anatomical_site 502 507	liver
+T18	anatomical_site 513 519	kidney
+T19	disease_or_phenotypic_feature 520 530	overgrowth
+T20	disease_or_phenotypic_feature 547 554	hydrops
+T21	disease_or_phenotypic_feature 555 563	syndrome
+T22	disease_or_phenotypic_feature 611 625	prostate tumor
+T23	anatomical_site 626 636	epithelium
+T24	anatomical_site 644 650	stroma
+T25	anatomical_site 691 710	prostate epithelium
+T26	anatomical_site 715 721	stroma
+T27	disease_or_phenotypic_feature 741 769	cardiovascular abnormalities
+T28	disease_or_phenotypic_feature 771 783	cleft palate
+T29	disease_or_phenotypic_feature 789 797	clubfoot
+T30	anatomical_site 803 816	urinary tract
+T31	anatomical_site 840 848	vascular
+T32	disease_or_phenotypic_feature 904 911	obesity
+T33	disease_or_phenotypic_feature 922 939	diabetes mellitus
+T34	anatomical_site 941 946	blood
+T35	disease_or_phenotypic_feature 947 959	hypertension
+T36	disease_or_phenotypic_feature 961 981	hypertriglyceridemia
+T37	disease_or_phenotypic_feature 987 1005	metabolic syndrome
+T38	anatomical_site 1082 1090	forehead
+T39	disease_or_phenotypic_feature 1092 1105	hypertelorism
+T40	anatomical_site 1113 1125	nasal bridge
+T41	disease_or_phenotypic_feature 1148 1160	cleft palate
+T42	disease_or_phenotypic_feature 1193 1205	macrocephaly
+T43	disease_or_phenotypic_feature 1207 1230	congenital heart defect
+T44	disease_or_phenotypic_feature 1252 1267	renal anomalies
+T45	disease_or_phenotypic_feature 1289 1294	small
+T46	anatomical_site 1370 1383	blood vessels
+T47	anatomical_site 1487 1491	male
+T48	anatomical_site 1492 1497	brain
+T49	disease_or_phenotypic_feature 1508 1514	autism
+T50	disease_or_phenotypic_feature 1573 1579	autism
+T51	anatomical_site 1588 1603	trochlear nerve
+T52	disease_or_phenotypic_feature 1604 1613	neurinoma
+T53	disease_or_phenotypic_feature 1624 1633	intrinsic
+T54	anatomical_site 1634 1643	brainstem
+T55	disease_or_phenotypic_feature 1707 1733	eye movement abnormalities
+T56	disease_or_phenotypic_feature 1735 1746	vision loss
+T57	anatomical_site 1752 1763	optic nerve
+T58	anatomical_site 1778 1790	hypothalamus
+T59	disease_or_phenotypic_feature 1795 1802	obesity
+T60	disease_or_phenotypic_feature 1868 1881	hyperglycemia
+T61	disease_or_phenotypic_feature 1886 1902	hyperinsulinemia
+T62	anatomical_site 1911 1916	liver
+T63	disease_or_phenotypic_feature 1917 1920	FFA
+T64	disease_or_phenotypic_feature 1954 1961	obesity
+T65	disease_or_phenotypic_feature 1979 1986	obesity
+T66	anatomical_site 1990 1996	adults
+T67	disease_or_phenotypic_feature 1998 2015	Osteogenic tumors
+T68	anatomical_site 2086 2097	bone tissue
+T69	disease_or_phenotypic_feature 2129 2139	arrhythmia
+T70	disease_or_phenotypic_feature 2141 2154	heart failure
+T71	anatomical_site 2178 2186	thrombus
+T72	anatomical_site 2235 2241	female
+T73	disease_or_phenotypic_feature 2275 2282	hepatic
+T74	anatomical_site 2297 2301	lobe
+T75	anatomical_site 2327 2335	thrombus
+T76	disease_or_phenotypic_feature 2374 2386	hypertension
+T77	disease_or_phenotypic_feature 2388 2412	congenital heart disease
+T78	disease_or_phenotypic_feature 2414 2423	neoplasms
+T79	anatomical_site 2429 2446	connective tissue

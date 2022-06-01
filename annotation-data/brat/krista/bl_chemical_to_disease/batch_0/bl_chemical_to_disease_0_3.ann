@@ -70,7 +70,7 @@ T69	disease 3531 3544	Encephalocele
 T70	disease 3571 3583	birth defect
 T71	chemical 3593 3597	lead
 R1	treats Arg1:T47 Arg2:T50
-R2	causes Arg1:T38 Arg2:T40
+R2	causes_or_contributes_to Arg1:T38 Arg2:T40
 R3	treats Arg1:T64 Arg2:T62
 R4	treats Arg1:T64 Arg2:T63
 R5	treats Arg1:T16 Arg2:T17
@@ -78,8 +78,8 @@ R6	treats Arg1:T65 Arg2:T63
 R7	treats Arg1:T65 Arg2:T62
 R8	treats Arg1:T9 Arg2:T8
 R9	treats Arg1:T9 Arg2:T8
-R10	causes Arg1:T9 Arg2:T7
-R11	causes Arg1:T36 Arg2:T40
+R10	causes_or_contributes_to Arg1:T9 Arg2:T7
+R11	causes_or_contributes_to Arg1:T36 Arg2:T40
 R12	treats Arg1:T48 Arg2:T50
 R13	treats Arg1:T51 Arg2:T52
 R14	treats Arg1:T49 Arg2:T50

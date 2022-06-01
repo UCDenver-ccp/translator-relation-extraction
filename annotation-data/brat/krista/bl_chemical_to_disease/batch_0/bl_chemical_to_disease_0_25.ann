@@ -70,8 +70,8 @@ T69	disease 3518 3523	BPDCN
 R1	treats Arg1:T10 Arg2:T11
 R2	treats Arg1:T10 Arg2:T12
 R3	treats Arg1:T34 Arg2:T33
-R4	causes Arg1:T31 Arg2:T28
+R4	causes_or_contributes_to Arg1:T31 Arg2:T28
 R5	treats Arg1:T1 Arg2:T2
-R6	causes Arg1:T3 Arg2:T4
+R6	causes_or_contributes_to Arg1:T3 Arg2:T4
 R7	treats Arg1:T36 Arg2:T33
-R8	causes Arg1:T5 Arg2:T4
+R8	causes_or_contributes_to Arg1:T5 Arg2:T4

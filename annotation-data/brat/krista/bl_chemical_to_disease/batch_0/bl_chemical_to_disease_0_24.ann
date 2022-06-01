@@ -79,11 +79,11 @@ T78	chemical 3709 3729	receptor antagonists
 T79	chemical 3718 3729	antagonists
 T80	missed_disease 3744 3747	PHH
 R1	treats Arg1:T62 Arg2:T63
-R2	causes Arg1:T27 Arg2:T30
+R2	causes_or_contributes_to Arg1:T27 Arg2:T30
 R3	treats Arg1:T72 Arg2:T73
-R4	causes Arg1:T72 Arg2:T70
+R4	causes_or_contributes_to Arg1:T72 Arg2:T70
 R5	treats Arg1:T77 Arg2:T80
-R6	causes Arg1:T49 Arg2:T50
+R6	causes_or_contributes_to Arg1:T49 Arg2:T50
 R7	treats Arg1:T17 Arg2:T18
 R8	treats Arg1:T10 Arg2:T13
 R9	treats Arg1:T57 Arg2:T55

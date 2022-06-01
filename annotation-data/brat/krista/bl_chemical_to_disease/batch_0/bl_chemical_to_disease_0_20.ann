@@ -58,7 +58,7 @@ T57	disease 3545 3549	HIE.
 T58	chemical 3586 3594	tantalum
 R1	treats Arg1:T51 Arg2:T52
 R2	treats Arg1:T36 Arg2:T34
-R3	causes Arg1:T36 Arg2:T33
+R3	causes_or_contributes_to Arg1:T36 Arg2:T33
 R4	FIXME Arg1:T37 Arg2:T39
 R5	FIXME Arg1:T37 Arg2:T41
 R6	treats Arg1:T37 Arg2:T38

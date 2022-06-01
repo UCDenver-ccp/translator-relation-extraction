@@ -70,8 +70,8 @@ T69	chemical 99266 99271	HbA1c
 T70	chemical 99352 99356	zinc
 T71	chemical 99361 99366	lipid
 R1	treats Arg1:T63 Arg2:T64
-R2	causes Arg1:T63 Arg2:T62
-R3	causes Arg1:T46 Arg2:T48
-R4	causes Arg1:T43 Arg2:T48
-R5	causes Arg1:T13 Arg2:T9
-R6	causes Arg1:T13 Arg2:T11
+R2	causes_or_contributes_to Arg1:T63 Arg2:T62
+R3	causes_or_contributes_to Arg1:T46 Arg2:T48
+R4	causes_or_contributes_to Arg1:T43 Arg2:T48
+R5	causes_or_contributes_to Arg1:T13 Arg2:T9
+R6	causes_or_contributes_to Arg1:T13 Arg2:T11

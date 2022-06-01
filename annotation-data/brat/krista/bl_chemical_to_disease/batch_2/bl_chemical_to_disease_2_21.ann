@@ -59,4 +59,4 @@ T58	chemical 197323 197335	Nanocrystals
 T59	chemical 197356 197362	Oxides
 T60	chemical 197399 197405	Li-Ion
 T61	disease 197399 197405	Li-Ion
-R1	causes Arg1:T2 Arg2:T3
+R1	causes_or_contributes_to Arg1:T2 Arg2:T3

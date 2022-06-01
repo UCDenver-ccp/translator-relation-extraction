@@ -61,4 +61,4 @@ T60	chemical 197650 197658	electron
 T61	chemical 197918 197924	glycol
 T62	chemical 197939 197944	water
 T63	disease 197972 197975	MPa
-R1	causes Arg1:T52 Arg2:T53
+R1	causes_or_contributes_to Arg1:T52 Arg2:T53

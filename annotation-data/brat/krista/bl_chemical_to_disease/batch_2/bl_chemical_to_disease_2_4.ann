@@ -98,9 +98,9 @@ R6	treats Arg1:T69 Arg2:T71
 R7	treats Arg1:T38 Arg2:T39
 R8	treats Arg1:T1 Arg2:T2
 R9	treats Arg1:T1 Arg2:T3
-R10	causes Arg1:T33 Arg2:T34
+R10	causes_or_contributes_to Arg1:T33 Arg2:T34
 R11	treats Arg1:T31 Arg2:T34
 R12	FIXME Arg1:T40 Arg2:T47
-R13	causes Arg1:T80 Arg2:T77
-R14	causes Arg1:T80 Arg2:T79
-R15	causes Arg1:T80 Arg2:T75
+R13	causes_or_contributes_to Arg1:T80 Arg2:T77
+R14	causes_or_contributes_to Arg1:T80 Arg2:T79
+R15	causes_or_contributes_to Arg1:T80 Arg2:T75

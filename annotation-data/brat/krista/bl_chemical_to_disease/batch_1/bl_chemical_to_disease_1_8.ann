@@ -55,8 +55,8 @@ T54	chemical 99451 99461	nucleotide
 T55	disease 99532 99545	breast cancer
 T56	chemical 99719 99726	Cr-EDTA
 T57	disease 99784 99791	CKD-EPI
-R1	causes Arg1:T5 Arg2:T7
-R2	causes Arg1:T5 Arg2:T4
+R1	causes_or_contributes_to Arg1:T5 Arg2:T7
+R2	causes_or_contributes_to Arg1:T5 Arg2:T4
 R3	treats Arg1:T36 Arg2:T40
 R4	treats Arg1:T37 Arg2:T40
 R5	treats Arg1:T35 Arg2:T40

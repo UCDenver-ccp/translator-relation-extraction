@@ -59,4 +59,4 @@ R1	treats Arg1:T5 Arg2:T3
 R2	treats Arg1:T21 Arg2:T22
 R3	treats Arg1:T4 Arg2:T3
 R4	treats Arg1:T49 Arg2:T48
-R5	causes Arg1:T37 Arg2:T36
+R5	causes_or_contributes_to Arg1:T37 Arg2:T36

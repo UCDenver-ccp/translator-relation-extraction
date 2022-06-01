@@ -84,7 +84,7 @@ R3	treats Arg1:T30 Arg2:T36
 R4	treats Arg1:T74 Arg2:T75
 R5	treats Arg1:T52 Arg2:T48
 R6	treats Arg1:T51 Arg2:T48
-R7	causes Arg1:T32 Arg2:T35
+R7	causes_or_contributes_to Arg1:T32 Arg2:T35
 R8	treats Arg1:T49 Arg2:T48
 R9	treats Arg1:T63 Arg2:T64
 R10	treats Arg1:T29 Arg2:T26

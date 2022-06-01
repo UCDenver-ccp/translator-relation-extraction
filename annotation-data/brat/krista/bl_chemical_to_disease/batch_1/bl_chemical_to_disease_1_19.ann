@@ -61,7 +61,7 @@ T60	chemical 100195 100205	biomarkers
 T61	disease 100210 100213	CRC
 T62	disease 100260 100263	PCA
 T63	chemical 100374 100379	water
-R1	causes Arg1:T31 Arg2:T32
+R1	causes_or_contributes_to Arg1:T31 Arg2:T32
 R2	treats Arg1:T3 Arg2:T1
 R3	treats Arg1:T29 Arg2:T30
 R4	treats Arg1:T19 Arg2:T22

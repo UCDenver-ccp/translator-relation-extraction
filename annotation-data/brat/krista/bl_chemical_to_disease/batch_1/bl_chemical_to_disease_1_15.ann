@@ -65,8 +65,8 @@ R4	treats Arg1:T15 Arg2:T16
 R5	treats Arg1:T15 Arg2:T18
 R6	treats Arg1:T20 Arg2:T21
 R7	FIXME Arg1:T5 Arg2:T7
-R8	causes Arg1:T24 Arg2:T27
-R9	causes Arg1:T29 Arg2:T30
+R8	causes_or_contributes_to Arg1:T24 Arg2:T27
+R9	causes_or_contributes_to Arg1:T29 Arg2:T30
 R10	treats Arg1:T47 Arg2:T46
 R11	treats Arg1:T13 Arg2:T18
 R12	treats Arg1:T13 Arg2:T16

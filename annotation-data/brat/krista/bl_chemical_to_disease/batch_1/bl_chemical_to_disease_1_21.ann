@@ -62,7 +62,7 @@ T61	chemical 99624 99633	ibuprofen
 T62	disease 99662 99667	blood
 T63	chemical 99812 99821	cisplatin
 T64	disease 99838 99853	cervical cancer
-R1	causes Arg1:T51 Arg2:T50
+R1	causes_or_contributes_to Arg1:T51 Arg2:T50
 R2	treats Arg1:T15 Arg2:T14
 R3	treats Arg1:T59 Arg2:T57
 R4	treats Arg1:T56 Arg2:T57

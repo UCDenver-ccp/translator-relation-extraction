@@ -72,15 +72,15 @@ T71	chemical 3814 3822	collagen
 T72	disease 3852 3858	injury
 R1	treats Arg1:T54 Arg2:T57
 R2	treats Arg1:T53 Arg2:T57
-R3	causes Arg1:T71 Arg2:T70
-R4	causes Arg1:T35 Arg2:T31
-R5	causes Arg1:T34 Arg2:T31
-R6	causes Arg1:T65 Arg2:T68
-R7	causes Arg1:T43 Arg2:T44
+R3	causes_or_contributes_to Arg1:T71 Arg2:T70
+R4	causes_or_contributes_to Arg1:T35 Arg2:T31
+R5	causes_or_contributes_to Arg1:T34 Arg2:T31
+R6	causes_or_contributes_to Arg1:T65 Arg2:T68
+R7	causes_or_contributes_to Arg1:T43 Arg2:T44
 R8	treats Arg1:T17 Arg2:T18
-R9	causes Arg1:T32 Arg2:T31
-R10	causes Arg1:T67 Arg2:T68
+R9	causes_or_contributes_to Arg1:T32 Arg2:T31
+R10	causes_or_contributes_to Arg1:T67 Arg2:T68
 R11	treats Arg1:T27 Arg2:T26
-R12	causes Arg1:T38 Arg2:T40
-R13	causes Arg1:T33 Arg2:T31
+R12	causes_or_contributes_to Arg1:T38 Arg2:T40
+R13	causes_or_contributes_to Arg1:T33 Arg2:T31
 R14	treats Arg1:T60 Arg2:T63

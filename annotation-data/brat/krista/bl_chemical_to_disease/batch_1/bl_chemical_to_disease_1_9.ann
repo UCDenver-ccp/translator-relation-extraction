@@ -66,8 +66,8 @@ T65	disease 99319 99324	tumor
 R1	treats Arg1:T57 Arg2:T59
 R2	treats Arg1:T57 Arg2:T60
 R3	treats Arg1:T44 Arg2:T45
-R4	causes Arg1:T54 Arg2:T52
-R5	causes Arg1:T54 Arg2:T53
+R4	causes_or_contributes_to Arg1:T54 Arg2:T52
+R5	causes_or_contributes_to Arg1:T54 Arg2:T53
 R6	treats Arg1:T13 Arg2:T15
 R7	treats Arg1:T13 Arg2:T16
 R8	treats Arg1:T35 Arg2:T34

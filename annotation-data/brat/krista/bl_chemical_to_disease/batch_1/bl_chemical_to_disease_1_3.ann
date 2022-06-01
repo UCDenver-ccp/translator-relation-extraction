@@ -72,7 +72,7 @@ R4	treats Arg1:T60 Arg2:T62
 R5	treats Arg1:T60 Arg2:T61
 R6	treats Arg1:T3 Arg2:T4
 R7	treats Arg1:T29 Arg2:T30
-R8	causes Arg1:T29 Arg2:T27
+R8	causes_or_contributes_to Arg1:T29 Arg2:T27
 R9	treats Arg1:T38 Arg2:T42
 R10	treats Arg1:T43 Arg2:T46
 R11	treats Arg1:T55 Arg2:T54

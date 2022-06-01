@@ -5,8 +5,7 @@ T4	chemical 197 207	inhibitors
 T5	chemical 413 416	NPC
 T6	disease 413 416	NPC
 T7	disease 565 571	injury
-T8	chemical 604 619	dextran sulfate
-T9	chemical 620 634	sodium-induced
+T8	corrected_chemical 604 626	dextran sulfate sodium
 T10	disease 635 642	colitis
 T11	chemical 682 695	imidazolidine
 T12	chemical 707 758	3-(2-chloro-6-fluorobenzyl)-imidazolidine-2,4-dione
@@ -81,3 +80,4 @@ R2	treats Arg1:T3 Arg2:T1
 R3	treats Arg1:T12 Arg2:T14
 R4	treats Arg1:T22 Arg2:T20
 R5	treats Arg1:T31 Arg2:T32
+R6	causes_or_contributes_to Arg1:T8 Arg2:T10	

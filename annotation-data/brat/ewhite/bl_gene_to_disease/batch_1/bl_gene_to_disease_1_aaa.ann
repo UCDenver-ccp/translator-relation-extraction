@@ -50,7 +50,6 @@ T49	disease 3184 3201	pancreatic cancer
 T50	gene 3279 3284	ROCK2
 T51	gene 3408 3413	BRCA1
 T52	disease 3440 3445	tumor
-R1	contributes_to Arg1:T3 Arg2:T4	
 R3	contributes_to Arg1:T5 Arg2:T6	
 R4	contributes_to Arg1:T7 Arg2:T6	
 R7	contributes_to Arg1:T14 Arg2:T16	
@@ -82,10 +81,8 @@ R11	contributes_to Arg1:T45 Arg2:T44
 R6	contributes_to Arg1:T59 Arg2:T16	
 T63	corrected_gene 836 858	T-lymphocyte antigen-4
 T70	corrected_disease 209 222	iron overload
-R31	contributes_to Arg1:T3 Arg2:T70	
 T58	DONE 3457 3461	DONE
 T61	corrected_disease 170 195	restricted erythropoiesis
-R14	contributes_to Arg1:T3 Arg2:T61	
 T65	corrected_disease 1383 1412	cortico-striatal degeneration
 T66	corrected_disease 1383 1399;1417 1430	cortico-striatal disconnection
 R21	contributes_to Arg1:T22 Arg2:T66	
@@ -103,3 +100,6 @@ R30	contributes_to Arg1:T45 Arg2:T43
 T69	corrected_disease 2377 2391	urinary cancer
 R15	contributes_to Arg1:T35 Arg2:T36	
 #3	AnnotatorNotes T69	is urinary cancer a thing?
+R1	has_association_with Arg1:T3 Arg2:T61	
+R14	has_association_with Arg1:T3 Arg2:T4	
+R31	has_association_with Arg1:T3 Arg2:T70	

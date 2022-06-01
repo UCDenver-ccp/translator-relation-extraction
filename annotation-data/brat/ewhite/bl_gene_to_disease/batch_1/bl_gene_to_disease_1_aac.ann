@@ -51,7 +51,7 @@ T50	disease 3261 3268	obesity
 T51	gene 3274 3281	insulin
 T52	gene 3322 3326	GRK2
 T53	disease 3378 3393	medulloblastoma
-R3	contributes_to Arg1:T5 Arg2:T6	
+R3	has_association_with Arg1:T5 Arg2:T6	
 R4	contributes_to Arg1:T7 Arg2:T9	
 R5	contributes_to Arg1:T10 Arg2:T11	
 R6	contributes_to Arg1:T12 Arg2:T13	
@@ -85,3 +85,6 @@ T64	DONE 3478 3482	DONE
 R1	contributes_to Arg1:T3 Arg2:T4	
 T54	corrected_disease 1085 1114	acquired cisplatin resistance
 R2	contributes_to Arg1:T17 Arg2:T54	
+T65	missed_disease 449 464	HPV16 infection
+T66	missed_disease 854 871	inferior survival
+T67	missed_disease_or_phenotypic_feature 615 637	tumor sphere formation

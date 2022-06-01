@@ -65,3 +65,13 @@ T64	disease_or_phenotypic_feature 2054 2062	seizures
 T65	disease_or_phenotypic_feature 2064 2070	ataxia
 T66	disease_or_phenotypic_feature 2072 2080	myopathy
 T67	disease_or_phenotypic_feature 2086 2098	hypogonadism
+R1	has_phenotype Arg1:T1 Arg2:T4	
+R2	has_phenotype Arg1:T1 Arg2:T3	
+R3	has_phenotype Arg1:T1 Arg2:T5	
+R4	has_phenotype Arg1:T6 Arg2:T7	
+R5	has_phenotype Arg1:T6 Arg2:T8	
+T69	corrected_disease_or_phenotypic_feature 217 225	epilepsy
+R6	has_phenotype Arg1:T6 Arg2:T69	
+R8	has_phenotype Arg1:T26 Arg2:T25	
+T70	corrected_disease_or_phenotypic_feature 815 836	unilateral hypoplasia
+T68	corrected_phenotypic_feature 71 91	skeletal destruction

@@ -1,0 +1,109 @@
+T1	gene 15 20	HSV-1
+T2	disease 118 131	periodontitis
+T3	gene 188 194	ARID1B
+T4	disease 277 294	colorectal cancer
+T5	gene 336 342	ARID1A
+T6	gene 428 433	FOXL1
+T7	disease 476 482	glioma
+T8	gene 484 489	FOXL1
+T9	disease 554 560	glioma
+T10	gene 696 700	GLI1
+T11	gene 705 709	GLI2
+T12	disease 755 760	tumor
+T13	gene 781 789	hedgehog
+T14	disease 837 843	cancer
+T15	disease 928 935	colitis
+T16	gene 971 975	IKK2
+T17	gene 1015 1018	ILC
+T18	disease 1104 1111	colitis
+T19	gene 1188 1191	Akt
+T20	gene 1194 1200	SIRT-1
+T21	disease 1221 1248	insulin resistance syndrome
+T22	disease 1258 1264	tumour
+T23	gene 1284 1295	osteonectin
+T24	disease 1392 1398	tumour
+T25	gene 1452 1459	SLC38A1
+T26	disease 1509 1531	acute myeloid leukemia
+T27	gene 1605 1609	TLR2
+T28	disease 1615 1618	ALD
+T29	gene 1688 1692	Nav1
+T30	disease 1700 1703	FHM
+T31	gene 1727 1732	SCN1A
+T32	disease 1819 1824	tumor
+T33	gene 1897 1931	vascular endothelial growth factor
+T34	gene 1933 1937	VEGF
+T35	gene 2024 2028	IRF1
+T36	gene 2046 2050	IRF1
+T37	disease 2075 2098	squamous cell carcinoma
+T38	gene 2219 2224	GLP-1
+T39	disease 2288 2312	type 2 diabetes mellitus
+T40	gene 2446 2451	MMP-2
+T41	disease 2478 2483	tumor
+T42	gene 2568 2594	matrix metalloproteinase 2
+T43	gene 2596 2601	MMP-2
+T44	disease 2618 2623	tumor
+T45	disease 2624 2638	aggressiveness
+T46	disease 2774 2788	gastric cancer
+T47	gene 2833 2838	ROCK1
+T48	gene 2887 2891	KIM1
+T49	gene 2897 2901	RBP4
+T50	disease 2994 2997	CKD
+T51	gene 3101 3108	Insulin
+T52	disease 3252 3263	thalassemia
+R3	has_association_with Arg1:T8 Arg2:T9	
+T54	corrected_gene 745 747	Hh
+R4	contributes_to Arg1:T54 Arg2:T12	
+R5	contributes_to Arg1:T13 Arg2:T14	
+R6	contributes_to Arg1:T16 Arg2:T18	
+T55	corrected_disease 1123 1132	bone loss
+R7	contributes_to Arg1:T16 Arg2:T55	
+T56	corrected_gene 1358 1363	α-SMA
+T57	corrected_gene 1274 1279	α-SMA
+R11	contributes_to Arg1:T25 Arg2:T26	
+R12	contributes_to Arg1:T27 Arg2:T28	
+T58	corrected_gene 1662 1667	IL-10
+R13	contributes_to Arg1:T58 Arg2:T28	
+T59	corrected_gene 1605 1608;1610 1611	TLR 3
+R14	contributes_to Arg1:T59 Arg2:T28	
+R15	contributes_to Arg1:T38 Arg2:T39	
+R16	contributes_to Arg1:T31 Arg2:T30	
+T60	corrected_disease 1742 1746	FHM3
+R17	contributes_to Arg1:T31 Arg2:T60	
+T61	corrected_disease 2063 2098	oesophageal squamous cell carcinoma
+R18	contributes_to Arg1:T36 Arg2:T61	
+T62	corrected_disease 2100 2104	ESCC
+R19	contributes_to Arg1:T36 Arg2:T62	
+T63	corrected_gene 2229 2232	GIP
+R20	contributes_to Arg1:T63 Arg2:T39	
+T64	corrected_disease 2556 2559	NPC
+R21	contributes_to Arg1:T40 Arg2:T64	
+T65	corrected_gene 2759 2764	NORAD
+R24	contributes_to Arg1:T65 Arg2:T46	
+T66	corrected_gene 2828 2832	RhoA
+R25	contributes_to Arg1:T66 Arg2:T46	
+R26	contributes_to Arg1:T47 Arg2:T46	
+T67	corrected_disease 2314 2318	T2DM
+R27	contributes_to Arg1:T63 Arg2:T67	
+R28	contributes_to Arg1:T38 Arg2:T67	
+T68	corrected_disease 2970 2974	CKDu
+T53	corrected_gene 2882 2885	OPN
+R1	has_association_with Arg1:T53 Arg2:T68	
+R2	has_association_with Arg1:T48 Arg2:T68	
+R31	has_association_with Arg1:T49 Arg2:T68	
+T69	DONE 3271 3275	DONE
+T70	corrected_disease 2478 2498	tumor aggressiveness
+R8	contributes_to Arg1:T40 Arg2:T70	
+T71	corrected_disease 2618 2638	tumor aggressiveness
+T72	corrected_disease 2618 2623;2643 2651	tumor invasion
+R9	contributes_to Arg1:T43 Arg2:T71	
+R10	contributes_to Arg1:T42 Arg2:T71	
+R22	contributes_to Arg1:T43 Arg2:T72	
+R23	contributes_to Arg1:T42 Arg2:T71	
+T73	missed_disease 37 56	periodontal lesions
+R29	has_association_with Arg1:T1 Arg2:T73	
+T74	corrected_disease 118 143	periodontitis pathologies
+R30	has_contributive_association_with Arg1:T1 Arg2:T74	
+T75	missed_disease 1469 1483	poor prognosis
+R32	has_contributive_association_with Arg1:T25 Arg2:T75	
+T76	missed_gene 2193 2201	incretin
+R33	has_association_with Arg1:T76 Arg2:T39	

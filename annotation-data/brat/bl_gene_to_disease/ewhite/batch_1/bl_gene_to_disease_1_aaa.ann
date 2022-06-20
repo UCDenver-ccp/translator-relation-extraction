@@ -1,0 +1,109 @@
+T1	gene 0 5	AIFM3
+T2	disease 52 57	tumor
+T3	gene 134 142	hepcidin
+T4	disease 197 203	anemia
+T5	gene 224 229	CLDN8
+T6	disease 239 256	colorectal cancer
+T7	gene 315 319	MAPK
+T8	gene 459 463	MTNR
+T9	gene 559 562	TNF
+T10	gene 566 570	IL-6
+T11	disease 585 588	SLE
+T12	gene 865 870	CTLA4
+T13	disease 950 955	tumor
+T14	gene 984 988	HCP5
+T15	disease 1075 1081	cancer
+T16	disease 1091 1119	follicular thyroid carcinoma
+T17	disease 1144 1158	thyroid cancer
+T18	gene 1173 1177	HCP5
+T19	disease 1185 1190	tumor
+T20	disease 1230 1235	tumor
+T21	disease 1261 1286	anaplastic thyroid cancer
+T22	gene 1325 1335	huntingtin
+T23	disease 1434 1454	Huntington's disease
+T24	disease 1518 1541	squamous cell carcinoma
+T25	gene 1555 1560	SHOX2
+T26	gene 1610 1623	transthyretin
+T27	disease 1624 1635	amyloidosis
+T28	gene 1726 1731	TUBB3
+T29	disease 1812 1818	tumors
+T30	gene 2005 2012	tubulin
+T31	disease 2032 2038	cancer
+T32	gene 2065 2069	MAPK
+T33	gene 2117 2126	Claudin-1
+T34	disease 2219 2225	tumors
+T35	gene 2302 2307	BIRC5
+T36	disease 2385 2391	cancer
+T37	disease 2516 2529	breast cancer
+T38	gene 2549 2554	ROCK1
+T39	disease 2627 2649	chronic kidney disease
+T40	disease 2677 2680	CKD
+T41	gene 2819 2838	parathyroid hormone
+T42	gene 2840 2843	PTH
+T43	disease 2903 2938	autosomal dominant hypophosphatemia
+T44	disease 2922 2938	hypophosphatemia
+T45	gene 2990 2997	SLC34A1
+T46	disease 2999 3013	Retinoblastoma
+T47	gene 3032 3036	E2F3
+T48	gene 3137 3142	ROCK2
+T49	disease 3184 3201	pancreatic cancer
+T50	gene 3279 3284	ROCK2
+T51	gene 3408 3413	BRCA1
+T52	disease 3440 3445	tumor
+R3	contributes_to Arg1:T5 Arg2:T6	
+R4	contributes_to Arg1:T7 Arg2:T6	
+R7	contributes_to Arg1:T14 Arg2:T16	
+R9	contributes_to Arg1:T18 Arg2:T21	
+R10	contributes_to Arg1:T22 Arg2:T23	
+R16	contributes_to Arg1:T38 Arg2:T37	
+R17	contributes_to Arg1:T32 Arg2:T31	
+T55	corrected_gene 1957 1975	sphingosine kinase
+R18	contributes_to Arg1:T55 Arg2:T31	
+T54	corrected_gene 1461 1471	MiR-223-3p
+#1	AnnotatorNotes T54	microRNAs are encoded by genes
+T53	corrected_gene 320 323	ERK
+#2	AnnotatorNotes T53	Synonym
+R19	contributes_to Arg1:T48 Arg2:T49	
+T56	corrected_disease 3322 3326	PDAC
+#4	AnnotatorNotes T56	Pancreatic ductal adenocarcinoma
+R20	contributes_to Arg1:T50 Arg2:T56	
+T59	corrected_gene 968 982	HLA complex P5
+T62	corrected_gene 1247 1257	miR-128-3p
+R25	contributes_to Arg1:T62 Arg2:T21	
+T64	corrected_gene 2070 2074	PI3K
+R26	contributes_to Arg1:T64 Arg2:T31	
+R27	contributes_to Arg1:T53 Arg2:T6	
+T57	corrected_gene 2424 2431	miR-202
+R23	contributes_to Arg1:T57 Arg2:T37	
+R11	contributes_to Arg1:T45 Arg2:T44	
+R6	contributes_to Arg1:T59 Arg2:T16	
+T63	corrected_gene 836 858	T-lymphocyte antigen-4
+T70	corrected_disease 209 222	iron overload
+T58	DONE 3457 3461	DONE
+T61	corrected_disease 170 195	restricted erythropoiesis
+T65	corrected_disease 1383 1412	cortico-striatal degeneration
+T66	corrected_disease 1383 1399;1417 1430	cortico-striatal disconnection
+R21	contributes_to Arg1:T22 Arg2:T66	
+R22	contributes_to Arg1:T22 Arg2:T65	
+R2	has_association_with Arg1:T1 Arg2:T2	
+T67	corrected_disease 64 85	lymph node metastasis
+R24	has_association_with Arg1:T1 Arg2:T67	
+T68	corrected_disease 1121 1124	PTC
+R28	contributes_to Arg1:T59 Arg2:T68	
+R29	contributes_to Arg1:T14 Arg2:T68	
+T60	corrected_disease 950 966	tumor metastasis
+R5	contributes_to Arg1:T63 Arg2:T60	
+R8	contributes_to Arg1:T12 Arg2:T60	
+R30	contributes_to Arg1:T45 Arg2:T43	
+T69	corrected_disease 2377 2391	urinary cancer
+R15	contributes_to Arg1:T35 Arg2:T36	
+#3	AnnotatorNotes T69	is urinary cancer a thing?
+R1	has_association_with Arg1:T3 Arg2:T61	
+R14	has_association_with Arg1:T3 Arg2:T4	
+R31	has_association_with Arg1:T3 Arg2:T70	
+R32	has_association_with Arg1:T41 Arg2:T39	
+R33	has_association_with Arg1:T42 Arg2:T39	
+T71	corrected_disease 1513 1541	oral squamous cell carcinoma
+R12	contributes_to Arg1:T54 Arg2:T71	
+R13	contributes_to Arg1:T25 Arg2:T71	
+R34	contributes_to Arg1:T30 Arg2:T31	

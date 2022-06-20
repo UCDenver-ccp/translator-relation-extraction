@@ -1,0 +1,101 @@
+T1	gene 28 62	microtubule-associated protein tau
+T2	disease 125 144	Alzheimer's disease
+T3	disease 161 167	tumour
+T4	gene 240 243	ACS
+T5	gene 362 369	mCTLA-4
+T6	disease 457 463	tumors
+T7	disease 554 565	lung cancer
+T8	disease 582 595	breast cancer
+T9	disease 597 602	tumor
+T10	disease 703 711	melanoma
+T11	disease 719 727	lymphoma
+T12	disease 735 740	tumor
+T13	gene 792 795	PD1
+T14	disease 815 826	gliosarcoma
+T15	disease 828 834	tumors
+T16	disease 847 853	cancer
+T17	gene 928 931	p53
+T18	gene 958 961	p53
+T19	gene 977 980	p21
+T20	gene 1110 1114	Nrg4
+T21	disease 1157 1172	hyperthyroidism
+T22	gene 1277 1281	DDR1
+T23	disease 1360 1387	basal-like breast carcinoma
+T24	disease 1371 1387	breast carcinoma
+T25	gene 1496 1504	collagen
+T26	disease 1552 1556	PCOS
+T27	gene 1627 1632	omega
+T28	gene 1750 1755	SIRT1
+T29	gene 1812 1815	p53
+T30	disease 1887 1890	CTX
+T31	gene 1947 1951	CDK4
+T32	gene 1956 1962	VEGFR2
+T33	disease 1987 1993	cancer
+T34	gene 2053 2057	CDK4
+T35	gene 2062 2068	VEGFR2
+T36	gene 2189 2193	CDK4
+T37	gene 2198 2204	VEGFR2
+T38	disease 2381 2396	atherosclerosis
+T39	gene 2444 2448	PPAR
+T40	gene 2450 2455	ABCA1
+T41	gene 2569 2575	CTNNB1
+T42	gene 2577 2580	APC
+T43	gene 2582 2587	AXIN1
+T44	disease 2646 2655	neoplasms
+T45	disease 2852 2876	type 2 diabetes mellitus
+T46	gene 2980 2987	insulin
+T47	disease 3230 3237	anxiety
+T48	gene 3247 3252	GAD-7
+T49	disease 3300 3306	cancer
+T50	gene 3386 3390	HER2
+T51	disease 3462 3478	metastatic tumor
+T52	disease 3473 3478	tumor
+T53	gene 3536 3553	androgen-receptor
+T54	disease 3649 3675	metastatic prostate cancer
+T55	disease 3660 3675	prostate cancer
+T56	gene 3778 3785	LAPTM4B
+T57	gene 3790 3797	p27kip1
+T58	disease 3866 3895	triple-negative breast cancer
+T59	gene 3959 3966	LAPTM4B
+T60	gene 3971 3978	p27kip1
+T61	disease 3982 4011	triple-negative breast cancer
+T62	disease 3998 4011	breast cancer
+T63	gene 4175 4178	PTH
+T64	disease 4406 4409	CKD
+T65	gene 4501 4505	IL-4
+T66	gene 4507 4511	IL-6
+T67	gene 4513 4518	IL-10
+T68	disease 4520 4525	tumor
+T69	gene 4543 4546	TNF
+T70	corrected_gene 2413 2418	NF-κB
+R1	has_contributive_association_with Arg1:T1 Arg2:T2	
+R3	has_association_with Arg1:T22 Arg2:T23	
+R4	contributes_to Arg1:T25 Arg2:T23	
+T71	corrected_gene 1450 1453	BIK
+R5	contributes_to Arg1:T71 Arg2:T23	
+R6	contributes_to Arg1:T32 Arg2:T33	
+R7	contributes_to Arg1:T31 Arg2:T33	
+T72	corrected_gene 2444 2449	PPARα
+R8	contributes_to Arg1:T70 Arg2:T38	
+R9	contributes_to Arg1:T72 Arg2:T38	
+R10	contributes_to Arg1:T40 Arg2:T38	
+T73	corrected_disease 2669 2694	hepatocellular carcinomas
+R14	has_association_with Arg1:T41 Arg2:T73	
+R15	has_association_with Arg1:T42 Arg2:T73	
+R16	has_association_with Arg1:T43 Arg2:T73	
+R18	contributes_to Arg1:T18 Arg2:T16	
+R19	contributes_to Arg1:T19 Arg2:T16	
+T74	corrected_gene 1008 1011	Bid
+T75	corrected_gene 1016 1019	Bak
+T76	corrected_gene 1042 1046	PARP
+R20	contributes_to Arg1:T76 Arg2:T16	
+R21	contributes_to Arg1:T75 Arg2:T16	
+R22	contributes_to Arg1:T74 Arg2:T16	
+T77	corrected_disease 1848 1859	CTX-damaged
+T78	corrected_disease 2631 2655	hepatocellular neoplasms
+R11	has_association_with Arg1:T41 Arg2:T78	
+R12	has_association_with Arg1:T42 Arg2:T78	
+R13	has_association_with Arg1:T43 Arg2:T78	
+R17	contributes_to Arg1:T53 Arg2:T54	
+T79	DONE 4613 4617	DONE
+R24	has_association_with Arg1:T20 Arg2:T21	

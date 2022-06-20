@@ -55,13 +55,11 @@ R4	contributes_to Arg1:T7 Arg2:T6
 R7	contributes_to Arg1:T14 Arg2:T16	
 R9	contributes_to Arg1:T18 Arg2:T21	
 R10	contributes_to Arg1:T22 Arg2:T23	
-R13	contributes_to Arg1:T25 Arg2:T24	
 R16	contributes_to Arg1:T38 Arg2:T37	
 R17	contributes_to Arg1:T32 Arg2:T31	
 T55	corrected_gene 1957 1975	sphingosine kinase
 R18	contributes_to Arg1:T55 Arg2:T31	
 T54	corrected_gene 1461 1471	MiR-223-3p
-R12	contributes_to Arg1:T54 Arg2:T24	
 #1	AnnotatorNotes T54	microRNAs are encoded by genes
 T53	corrected_gene 320 323	ERK
 #2	AnnotatorNotes T53	Synonym
@@ -103,3 +101,9 @@ R15	contributes_to Arg1:T35 Arg2:T36
 R1	has_association_with Arg1:T3 Arg2:T61	
 R14	has_association_with Arg1:T3 Arg2:T4	
 R31	has_association_with Arg1:T3 Arg2:T70	
+R32	has_association_with Arg1:T41 Arg2:T39	
+R33	has_association_with Arg1:T42 Arg2:T39	
+T71	corrected_disease 1513 1541	oral squamous cell carcinoma
+R12	contributes_to Arg1:T54 Arg2:T71	
+R13	contributes_to Arg1:T25 Arg2:T71	
+R34	contributes_to Arg1:T30 Arg2:T31	

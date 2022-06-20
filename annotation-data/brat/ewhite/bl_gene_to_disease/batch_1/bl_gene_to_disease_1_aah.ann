@@ -56,8 +56,8 @@ T55	corrected_gene 116 135	histone deacetylase
 T56	corrected_gene 140 154	P-glycoprotein
 R1	contributes_to Arg1:T55 Arg2:T4	
 R2	contributes_to Arg1:T56 Arg2:T4	
-R3	contributes_to Arg1:T6 Arg2:T7	
-R4	contributes_to Arg1:T5 Arg2:T7	
+R3	has_contributive_association_with Arg1:T6 Arg2:T7	
+R4	has_contributive_association_with Arg1:T5 Arg2:T7	
 T57	corrected_gene 555 560	VIPAR
 T58	corrected_disease 418 477	Arthrogryposis, renal dysfunction, and cholestasis syndrome
 R5	contributes_to Arg1:T10 Arg2:T58	
@@ -69,10 +69,10 @@ T62	corrected_disease 1366 1378	autoimmunity
 T63	corrected_disease 1315 1335	chronic inflammation
 R7	contributes_to Arg1:T18 Arg2:T59	
 R8	contributes_to Arg1:T18 Arg2:T60	
-R9	contributes_to Arg1:T18 Arg2:T63	
-R10	contributes_to Arg1:T18 Arg2:T61	
-R11	contributes_to Arg1:T18 Arg2:T62	
-R12	contributes_to Arg1:T18 Arg2:T19	
+R9	has_association_with Arg1:T18 Arg2:T63	
+R10	has_association_with Arg1:T18 Arg2:T61	
+R11	has_association_with Arg1:T18 Arg2:T62	
+R12	has_association_with Arg1:T18 Arg2:T19	
 T64	corrected_gene 1573 1577	RICK
 R13	contributes_to Arg1:T64 Arg2:T25	
 R14	contributes_to Arg1:T64 Arg2:T26	
@@ -81,7 +81,7 @@ T69	corrected_gene 1894 1898	TNFα
 R17	contributes_to Arg1:T69 Arg2:T67	
 T70	corrected_disease 1970 1981	tumorigenic
 R19	contributes_to Arg1:T31 Arg2:T70	
-R20	contributes_to Arg1:T33 Arg2:T34	
+R20	has_association_with Arg1:T33 Arg2:T34	
 R21	contributes_to Arg1:T38 Arg2:T37	
 R22	contributes_to Arg1:T39 Arg2:T37	
 T73	corrected_gene 2517 2523	H2Bub1
@@ -89,8 +89,13 @@ R26	contributes_to Arg1:T73 Arg2:T45
 R27	contributes_to Arg1:T44 Arg2:T45	
 R28	contributes_to Arg1:T46 Arg2:T47	
 T74	corrected_gene 2819 2825	HIF-1α
-R29	contributes_to Arg1:T74 Arg2:T49	
-R30	contributes_to Arg1:T50 Arg2:T51	
+R29	has_contributive_association_with Arg1:T74 Arg2:T49	
+R30	has_contributive_association_with Arg1:T50 Arg2:T51	
 T65	corrected_gene 1860 1887	tumor necrosis factor alpha
 R15	contributes_to Arg1:T65 Arg2:T67	
 T66	DONE 3320 3324	DONE
+T68	missed_disease 2950 2971	paclitaxel resistance
+R16	has_contributive_association_with Arg1:T50 Arg2:T68	
+T71	missed_disease 2251 2275	Sensory hypersensitivity
+R18	has_association_with Arg1:T38 Arg2:T71	
+R23	has_association_with Arg1:T39 Arg2:T71	

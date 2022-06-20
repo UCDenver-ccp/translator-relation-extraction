@@ -59,3 +59,49 @@ T58	disease_or_phenotypic_feature 2067 2073	Asthma
 T59	disease_or_phenotypic_feature 2078 2085	obesity
 T60	disease_or_phenotypic_feature 2134 2145	hyperplasia
 T61	disease_or_phenotypic_feature 2147 2161	hyperkeratosis
+T62	missed_disease_or_phenotypic_feature 73 80	effects
+R1	has_phenotype Arg1:T62 Arg2:T4	
+R2	has_phenotype Arg1:T62 Arg2:T5	
+T63	missed_disease_or_phenotypic_feature 109 115	nausea
+T64	corrected_disease_or_phenotypic_feature 143 158	watery diarrhea
+T65	missed_disease_or_phenotypic_feature 160 166	chills
+T66	missed_disease_or_phenotypic_feature 175 192	hypovolemic shock
+T67	corrected_disease_or_phenotypic_feature 211 248	non-oligemic transitory renal failure
+T68	corrected_disease_or_phenotypic_feature 250 294	Remitting seronegative symmetrical synovitis
+T69	corrected_disease_or_phenotypic_feature 300 322	pitting edema syndrome
+T70	missed_disease_or_phenotypic_feature 337 346	neoplasia
+R3	has_phenotype Arg1:T68 Arg2:T69	
+R4	has_phenotype Arg1:T68 Arg2:T70	
+R5	has_phenotype Arg1:T62 Arg2:T64	
+R6	has_phenotype Arg1:T62 Arg2:T65	
+R7	has_phenotype Arg1:T62 Arg2:T7	
+R8	has_phenotype Arg1:T62 Arg2:T66	
+R9	has_phenotype Arg1:T62 Arg2:T8	
+R10	has_phenotype Arg1:T62 Arg2:T67	
+T71	missed_disease_or_phenotypic_feature 352 361	phenotype
+R11	has_phenotype Arg1:T71 Arg2:T13	
+R12	has_phenotype Arg1:T71 Arg2:T14	
+R13	has_phenotype Arg1:T71 Arg2:T15	
+R14	has_phenotype Arg1:T71 Arg2:T16	
+T72	missed_disease_or_phenotypic_feature 669 671	it
+R15	has_phenotype Arg1:T72 Arg2:T21	
+R16	has_phenotype Arg1:T72 Arg2:T22	
+R17	has_phenotype Arg1:T72 Arg2:T23	
+T73	missed_disease_or_phenotypic_feature 699 718	endocrine disorders
+T74	missed_disease_or_phenotypic_feature 720 728	baldness
+T75	missed_disease_or_phenotypic_feature 751 765	hyperglycaemia
+T76	disease_or_phenotypic_feature 649 668	myotonic phenomenon
+R18	has_phenotype Arg1:T72 Arg2:T76	
+R19	has_phenotype Arg1:T72 Arg2:T73	
+R20	has_phenotype Arg1:T72 Arg2:T74	
+R21	has_phenotype Arg1:T72 Arg2:T75	
+T77	missed_disease_or_phenotypic_feature 919 945	gastrointestinal neoplasia
+R22	has_phenotype Arg1:T28 Arg2:T77	
+T78	disease_or_phenotypic_feature 858 887	progressive neurodegeneration
+R23	has_phenotype Arg1:T24 Arg2:T25	
+R24	has_phenotype Arg1:T24 Arg2:T78	
+R25	has_phenotype Arg1:T24 Arg2:T26	
+R26	has_phenotype Arg1:T24 Arg2:T27	
+T79	missed_disease_or_phenotypic_feature 1210 1239	Abnormal retinal angiogenesis
+R27	has_phenotype Arg1:T79 Arg2:T33	
+R28	has_phenotype Arg1:T79 Arg2:T34	

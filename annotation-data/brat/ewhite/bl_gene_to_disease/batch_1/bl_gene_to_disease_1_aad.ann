@@ -57,8 +57,8 @@ T56	gene 3714 3718	ABL1
 T57	gene 3806 3813	BCR-ABL
 T58	gene 3810 3814	ABL1
 T59	disease 3824 3832	leukemia
-R1	contributes_to Arg1:T1 Arg2:T2	
-R2	contributes_to Arg1:T4 Arg2:T5	
+R1	has_inhibitory_association_with Arg1:T1 Arg2:T2	
+R2	has_contributive_association_with Arg1:T4 Arg2:T5	
 R3	contributes_to Arg1:T7 Arg2:T8	
 R4	contributes_to Arg1:T9 Arg2:T8	
 T60	corrected_gene 443 448	BCL7A
@@ -89,3 +89,6 @@ R7	contributes_to Arg1:T66 Arg2:T74
 R8	contributes_to Arg1:T65 Arg2:T74	
 T73	corrected_disease 2837 2854	cancer metastases
 R13	contributes_to Arg1:T44 Arg2:T73	
+R14	has_association_with Arg1:T62 Arg2:T13	
+R15	has_association_with Arg1:T61 Arg2:T13	
+R16	has_association_with Arg1:T12 Arg2:T13	

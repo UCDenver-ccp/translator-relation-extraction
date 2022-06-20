@@ -65,3 +65,96 @@ T64	disease_or_phenotypic_feature 2482 2503	peripheral neuropathy
 T65	disease_or_phenotypic_feature 2524 2546	dilated cardiomyopathy
 T66	disease_or_phenotypic_feature 2562 2575	heart failure
 T67	disease_or_phenotypic_feature 2579 2589	arrhythmia
+T68	missed_disease_or_phenotypic_feature 0 42	Paraneoplastic neurological manifestations
+R1	has_phenotype Arg1:T68 Arg2:T1	
+R2	has_phenotype Arg1:T68 Arg2:T2	
+R3	has_phenotype Arg1:T68 Arg2:T4	
+R4	has_phenotype Arg1:T68 Arg2:T5	
+R5	has_phenotype Arg1:T68 Arg2:T6	
+T69	missed_disease_or_phenotypic_feature 267 277	myelopathy
+T70	missed_disease_or_phenotypic_feature 244 262	brainstem disorder
+T71	missed_disease_or_phenotypic_feature 162 193	neuromuscular junction disorder
+T72	missed_disease_or_phenotypic_feature 124 141	cognitive decline
+R6	has_phenotype Arg1:T68 Arg2:T72	
+R7	has_phenotype Arg1:T68 Arg2:T3	
+R8	has_phenotype Arg1:T68 Arg2:T71	
+R9	has_phenotype Arg1:T68 Arg2:T70	
+R10	has_phenotype Arg1:T68 Arg2:T69	
+R11	has_phenotype Arg1:T7 Arg2:T8	
+T73	missed_disease_or_phenotypic_feature 744 763	developmental delay
+T74	missed_disease_or_phenotypic_feature 622 628	IMNEPD
+T75	corrected_disease_or_phenotypic_feature 695 717	postnatal microcephaly
+T76	missed_disease_or_phenotypic_feature 789 807	cerebellar atrophy
+R12	has_phenotype Arg1:T74 Arg2:T75	
+R13	has_phenotype Arg1:T74 Arg2:T13	
+R14	has_phenotype Arg1:T74 Arg2:T73	
+R15	has_phenotype Arg1:T74 Arg2:T14	
+R16	has_phenotype Arg1:T74 Arg2:T76	
+R17	has_phenotype Arg1:T74 Arg2:T15	
+R18	has_phenotype Arg1:T74 Arg2:T16	
+T77	missed_disease_or_phenotypic_feature 844 869	Neurologic manifestations
+T78	corrected_disease_or_phenotypic_feature 958 980	spinocerebellar ataxia
+T79	missed_disease_or_phenotypic_feature 875 890	myeloneuropathy
+R19	has_phenotype Arg1:T77 Arg2:T79	
+R20	has_phenotype Arg1:T77 Arg2:T17	
+R21	has_phenotype Arg1:T77 Arg2:T18	
+R22	has_phenotype Arg1:T77 Arg2:T78	
+T80	missed_disease_or_phenotypic_feature 1124 1128	MetS
+T81	missed_disease_or_phenotypic_feature 1172 1184	hypertension
+T82	corrected_disease_or_phenotypic_feature 1221 1237	visceral obesity
+R23	has_phenotype Arg1:T22 Arg2:T82	
+R24	has_phenotype Arg1:T22 Arg2:T81	
+R25	has_phenotype Arg1:T22 Arg2:T23	
+R26	has_phenotype Arg1:T22 Arg2:T24	
+R27	has_phenotype Arg1:T80 Arg2:T81	
+R28	has_phenotype Arg1:T80 Arg2:T23	
+R29	has_phenotype Arg1:T80 Arg2:T24	
+R30	has_phenotype Arg1:T80 Arg2:T82	
+R31	has_phenotype Arg1:T28 Arg2:T30	
+R32	has_phenotype Arg1:T28 Arg2:T31	
+T83	missed_disease_or_phenotypic_feature 1274 1291	Epithelial tumors
+R33	has_phenotype Arg1:T83 Arg2:T26	
+T84	missed_disease_or_phenotypic_feature 1320 1347	solid pseudopapillary tumor
+T85	missed_disease_or_phenotypic_feature 1394 1408	cystic lesions
+T86	corrected_disease_or_phenotypic_feature 1368 1388	islet cell neoplasms
+R34	has_phenotype Arg1:T83 Arg2:T84	
+R35	has_phenotype Arg1:T83 Arg2:T86	
+R36	has_phenotype Arg1:T83 Arg2:T85	
+R37	has_phenotype Arg1:T28 Arg2:T32	
+R38	has_phenotype Arg1:T28 Arg2:T33	
+R39	has_phenotype Arg1:T28 Arg2:T34	
+T87	missed_disease_or_phenotypic_feature 1648 1689	inherited tumor susceptibility conditions
+T88	missed_disease_or_phenotypic_feature 1721 1727	tremor
+T89	missed_disease_or_phenotypic_feature 1733 1741	epilepsy
+T90	missed_disease_or_phenotypic_feature 1794 1801	disease
+R41	has_phenotype Arg1:T90 Arg2:T41	
+R42	has_phenotype Arg1:T90 Arg2:T42	
+R43	has_phenotype Arg1:T90 Arg2:T43	
+R44	has_phenotype Arg1:T90 Arg2:T44	
+T91	missed_disease_or_phenotypic_feature 1823 1832	hypotonia
+R45	has_phenotype Arg1:T90 Arg2:T91	
+T92	missed_disease_or_phenotypic_feature 2116 2126	toxicities
+R46	has_phenotype Arg1:T92 Arg2:T57	
+R47	has_phenotype Arg1:T92 Arg2:T54	
+T93	missed_disease_or_phenotypic_feature 2141 2152	neutropenia
+R48	has_phenotype Arg1:T92 Arg2:T93	
+R49	has_phenotype Arg1:T92 Arg2:T55	
+R50	has_phenotype Arg1:T92 Arg2:T56	
+T94	missed_disease_or_phenotypic_feature 2320 2337	Clinical features
+R51	has_phenotype Arg1:T94 Arg2:T60	
+R52	has_phenotype Arg1:T94 Arg2:T61	
+T95	missed_disease_or_phenotypic_feature 2390 2399	psychosis
+T96	missed_disease_or_phenotypic_feature 2437 2447	myelopathy
+T97	missed_disease_or_phenotypic_feature 2368 2388	periodic obtundation
+T98	missed_disease_or_phenotypic_feature 2411 2435	intracerebral hemorrhage
+R53	has_phenotype Arg1:T94 Arg2:T97	
+R54	has_phenotype Arg1:T94 Arg2:T95	
+R55	has_phenotype Arg1:T94 Arg2:T98	
+R56	has_phenotype Arg1:T94 Arg2:T96	
+R57	has_phenotype Arg1:T94 Arg2:T62	
+R58	has_phenotype Arg1:T94 Arg2:T63	
+R59	has_phenotype Arg1:T94 Arg2:T64	
+T99	corrected_disease_or_phenotypic_feature 1977 2014	Autoimmune sensorineural hearing loss
+R60	has_phenotype Arg1:T51 Arg2:T99	
+T100	corrected_disease_or_phenotypic_feature 1763 1788	cardiomyopathy of obesity
+R40	has_phenotype Arg1:T38 Arg2:T100	

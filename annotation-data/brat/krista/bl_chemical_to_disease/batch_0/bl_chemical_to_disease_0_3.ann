@@ -84,3 +84,5 @@ R12	treats Arg1:T48 Arg2:T50
 R13	treats Arg1:T51 Arg2:T52
 R14	treats Arg1:T49 Arg2:T50
 R15	FIXME Arg1:T10 Arg2:T8
+T72	missed_disease 556 577	cartilage destruction
+R16	treats Arg1:T16 Arg2:T72	

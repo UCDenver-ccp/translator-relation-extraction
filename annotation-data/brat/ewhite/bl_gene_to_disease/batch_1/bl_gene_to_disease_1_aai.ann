@@ -60,15 +60,14 @@ T59	corrected_disease 1085 1098	Rett syndrome
 T60	corrected_disease 1100 1103	RTT
 T61	corrected_disease 1058 1083	autism spectrum disorders
 T62	corrected_disease 1020 1048	neurodevelopmental disorders
-R1	contributes_to Arg1:T15 Arg2:T62	
-R2	contributes_to Arg1:T16 Arg2:T62	
-R3	contributes_to Arg1:T15 Arg2:T61	
-R4	contributes_to Arg1:T16 Arg2:T61	
-R5	contributes_to Arg1:T15 Arg2:T59	
-R6	contributes_to Arg1:T16 Arg2:T60	
+R1	has_association_with Arg1:T15 Arg2:T62	
+R2	has_association_with Arg1:T16 Arg2:T62	
+R3	has_association_with Arg1:T15 Arg2:T61	
+R4	has_association_with Arg1:T16 Arg2:T61	
+R5	has_association_with Arg1:T15 Arg2:T59	
+R6	has_association_with Arg1:T16 Arg2:T60	
 T63	corrected_disease 1903 1934	X-linked stapes gusher syndrome
 R7	contributes_to Arg1:T22 Arg2:T63	
-R8	contributes_to Arg1:T24 Arg2:T26	
 R9	contributes_to Arg1:T29 Arg2:T30	
 R10	contributes_to Arg1:T34 Arg2:T36	
 R11	contributes_to Arg1:T35 Arg2:T36	
@@ -95,3 +94,8 @@ R25	contributes_to Arg1:T69 Arg2:T53
 R26	contributes_to Arg1:T57 Arg2:T58	
 T70	corrected_disease 4615 4621;4634 4640	breast cancer
 R27	contributes_to Arg1:T57 Arg2:T70	
+T71	missed_disease 1961 1983	vestibular diverticula
+R28	has_association_with Arg1:T22 Arg2:T71	
+R29	has_association_with Arg1:T22 Arg2:T23	
+R8	has_association_with Arg1:T24 Arg2:T25	
+T72	missed_gene 3615 3637	monoclonal light chain

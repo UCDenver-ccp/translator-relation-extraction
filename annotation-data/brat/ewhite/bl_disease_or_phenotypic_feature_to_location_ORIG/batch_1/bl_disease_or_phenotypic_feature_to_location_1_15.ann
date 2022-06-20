@@ -1,0 +1,93 @@
+T1	anatomical_site 0 17	Lymphatic vessels
+T2	disease_or_phenotypic_feature 93 100	cancers
+T3	disease_or_phenotypic_feature 135 146	hyperplasia
+T4	anatomical_site 226 236	lymph node
+T5	disease_or_phenotypic_feature 255 267	hypogonadism
+T6	disease_or_phenotypic_feature 272 286	hypothyroidism
+T7	disease_or_phenotypic_feature 304 308	coma
+T8	anatomical_site 315 319	head
+T9	anatomical_site 343 348	serum
+T10	disease_or_phenotypic_feature 366 381	hypoalbuminemia
+T11	disease_or_phenotypic_feature 386 407	hypogammaglobulinemia
+T12	anatomical_site 436 442	female
+T13	disease_or_phenotypic_feature 462 480	gonadal dysgenesis
+T14	disease_or_phenotypic_feature 485 497	microcephaly
+T15	disease_or_phenotypic_feature 522 546	palmoplantar keratoderma
+T16	disease_or_phenotypic_feature 548 558	hypodontia
+T17	disease_or_phenotypic_feature 560 573	hypotrichosis
+T18	anatomical_site 619 625	eyelid
+T19	disease_or_phenotypic_feature 682 694	nasal glioma
+T20	anatomical_site 723 733	ectodermal
+T21	anatomical_site 742 752	mesodermal
+T22	anatomical_site 791 813	central nervous system
+T23	disease_or_phenotypic_feature 825 837	microcephaly
+T24	disease_or_phenotypic_feature 839 852	hydrocephalus
+T25	disease_or_phenotypic_feature 854 872	mental retardation
+T26	disease_or_phenotypic_feature 874 890	hearing disorder
+T27	disease_or_phenotypic_feature 892 907	chorioretinitis
+T28	disease_or_phenotypic_feature 912 918	rarely
+T29	disease_or_phenotypic_feature 998 1023	severe mental retardation
+T30	disease_or_phenotypic_feature 1025 1048	congenital heart defect
+T31	disease_or_phenotypic_feature 1073 1079	palate
+T32	disease_or_phenotypic_feature 1081 1094	short stature
+T33	anatomical_site 1099 1111	craniofacial
+T34	disease_or_phenotypic_feature 1136 1148	microcephaly
+T35	anatomical_site 1185 1197	nasal bridge
+T36	disease_or_phenotypic_feature 1199 1215	malar hypoplasia
+T37	disease_or_phenotypic_feature 1221 1233	micrognathia
+T38	disease_or_phenotypic_feature 1361 1378	atopic dermatitis
+T39	disease_or_phenotypic_feature 1384 1391	obesity
+T40	disease_or_phenotypic_feature 1445 1452	obesity
+T41	anatomical_site 1469 1478	bronchial
+T42	disease_or_phenotypic_feature 1479 1485	asthma
+T43	disease_or_phenotypic_feature 1491 1498	obesity
+T44	disease_or_phenotypic_feature 1519 1526	obesity
+T45	disease_or_phenotypic_feature 1540 1557	atopic dermatitis
+T46	disease_or_phenotypic_feature 1563 1570	obesity
+T47	disease_or_phenotypic_feature 1610 1617	obesity
+T48	anatomical_site 1634 1643	bronchial
+T49	disease_or_phenotypic_feature 1644 1650	asthma
+T50	disease_or_phenotypic_feature 1656 1663	obesity
+T51	anatomical_site 1732 1735	eye
+T52	disease_or_phenotypic_feature 1746 1754	rhinitis
+T53	anatomical_site 1755 1758	ear
+T54	disease_or_phenotypic_feature 1759 1766	itching
+T55	disease_or_phenotypic_feature 1768 1774	asthma
+T56	disease_or_phenotypic_feature 1807 1815	vomiting
+T57	disease_or_phenotypic_feature 1817 1831	abdominal pain
+T58	disease_or_phenotypic_feature 1833 1842	diarrhoea
+T59	disease_or_phenotypic_feature 1855 1865	angioedema
+T60	anatomical_site 1893 1897	male
+T61	disease_or_phenotypic_feature 1913 1930	cerebellar ataxia
+T62	disease_or_phenotypic_feature 1932 1953	peripheral neuropathy
+T63	disease_or_phenotypic_feature 1955 1967	hearing loss
+T64	disease_or_phenotypic_feature 1973 1984	azoospermia
+T65	anatomical_site 2163 2172	brainstem
+T66	anatomical_site 2223 2232	brainstem
+T67	disease_or_phenotypic_feature 2233 2238	edema
+T68	anatomical_site 2243 2252	brainstem
+T69	disease_or_phenotypic_feature 2321 2330	malignant
+T70	anatomical_site 2345 2358	thyroid gland
+T71	anatomical_site 2387 2392	aorta
+T72	disease_or_phenotypic_feature 2394 2403	Arthritis
+T73	anatomical_site 2411 2435	temporomandibular joints
+T74	disease_or_phenotypic_feature 2447 2451	pain
+T75	disease_or_phenotypic_feature 2493 2500	obesity
+T76	anatomical_site 2505 2508	fat
+T77	disease_or_phenotypic_feature 2520 2527	obesity
+T78	disease_or_phenotypic_feature 2575 2591	dry eye syndrome
+T79	anatomical_site 2597 2600	eye
+T80	disease_or_phenotypic_feature 2602 2609	uveitis
+T81	disease_or_phenotypic_feature 2623 2635	hypertension
+T82	disease_or_phenotypic_feature 2637 2645	glaucoma
+T83	disease_or_phenotypic_feature 2651 2660	cataracts
+T84	disease_or_phenotypic_feature 2673 2680	obesity
+T85	anatomical_site 2685 2690	heart
+T86	disease_or_phenotypic_feature 2707 2722	Pulmonary edema
+T87	anatomical_site 2733 2737	head
+T88	disease_or_phenotypic_feature 2791 2798	obesity
+T89	disease_or_phenotypic_feature 2811 2816	upper
+T90	anatomical_site 2817 2821	body
+T91	disease_or_phenotypic_feature 2822 2829	obesity
+T92	disease_or_phenotypic_feature 2839 2846	obesity
+T93	anatomical_site 2851 2859	arterial

@@ -60,3 +60,40 @@ T59	disease_or_phenotypic_feature 1880 1903	adenosquamous carcinoma
 T60	disease_or_phenotypic_feature 1948 1957	carcinoma
 T61	disease_or_phenotypic_feature 2032 2040	glaucoma
 T62	disease_or_phenotypic_feature 2041 2050	blindness
+R1	has_phenotype Arg1:T3 Arg2:T4	
+T63	corrected_disease_or_phenotypic_feature 445 466	Hypocalcemic cataract
+R2	has_phenotype Arg1:T16 Arg2:T63	
+T64	corrected_disease_or_phenotypic_feature 613 631	May-white syndrome
+R3	has_phenotype Arg1:T64 Arg2:T23	
+T65	missed_disease_or_phenotypic_feature 633 642	myoclonus
+R4	has_phenotype Arg1:T64 Arg2:T65	
+R5	has_phenotype Arg1:T64 Arg2:T24	
+T66	missed_disease_or_phenotypic_feature 712 716	SPAR
+R6	has_phenotype Arg1:T66 Arg2:T27	
+R7	has_phenotype Arg1:T66 Arg2:T26	
+T67	corrected_disease_or_phenotypic_feature 664 682	Spastic paraplegia
+R8	has_phenotype Arg1:T66 Arg2:T67	
+T68	missed_disease_or_phenotypic_feature 1183 1195	WT1 mutation
+R9	has_phenotype Arg1:T68 Arg2:T40	
+R10	has_phenotype Arg1:T68 Arg2:T39	
+T69	corrected_disease_or_phenotypic_feature 1212 1238	familial cerebellar ataxia
+R11	has_phenotype Arg1:T69 Arg2:T42	
+R12	has_phenotype Arg1:T69 Arg2:T43	
+R13	has_phenotype Arg1:T61 Arg2:T62	
+T70	corrected_disease_or_phenotypic_feature 1408 1423	MCA/MR syndrome
+T71	missed_disease_or_phenotypic_feature 1311 1343	down-slanting palpebral fissures
+R14	has_phenotype Arg1:T70 Arg2:T47	
+R15	has_phenotype Arg1:T70 Arg2:T46	
+R16	has_phenotype Arg1:T70 Arg2:T45	
+R17	has_phenotype Arg1:T70 Arg2:T71	
+R18	has_phenotype Arg1:T70 Arg2:T44	
+R19	has_phenotype Arg1:T30 Arg2:T32	
+R20	has_phenotype Arg1:T30 Arg2:T33	
+T72	corrected_disease_or_phenotypic_feature 932 945	iris coloboma
+R21	has_phenotype Arg1:T30 Arg2:T72	
+R22	has_phenotype Arg1:T30 Arg2:T34	
+T73	missed_disease_or_phenotypic_feature 906 910	BaWS
+R23	has_phenotype Arg1:T73 Arg2:T72	
+R24	has_phenotype Arg1:T73 Arg2:T32	
+R25	has_phenotype Arg1:T73 Arg2:T33	
+R26	has_phenotype Arg1:T73 Arg2:T34	

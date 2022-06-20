@@ -64,3 +64,69 @@ T63	disease_or_phenotypic_feature 2185 2193	cataract
 T64	disease_or_phenotypic_feature 2232 2240	cataract
 T65	disease_or_phenotypic_feature 2249 2266	visual impairment
 T66	disease_or_phenotypic_feature 2288 2296	cataract
+T67	missed_disease_or_phenotypic_feature 52 62	dyscephaly
+T68	missed_disease_or_phenotypic_feature 124 135	beaked nose
+T69	missed_disease_or_phenotypic_feature 137 155	abnormal dentition
+T70	missed_disease_or_phenotypic_feature 172 189	cutaneous atrophy
+T71	missed_disease_or_phenotypic_feature 194 220	proportional small stature
+T72	missed_disease_or_phenotypic_feature 64 80	bird like facies
+T73	corrected_disease_or_phenotypic_feature 462 499	disseminated intravascular thrombosis
+T74	corrected_disease_or_phenotypic_feature 1029 1057	autosomal recessive syndrome
+T75	missed_disease_or_phenotypic_feature 1081 1089	epilepsy
+T76	disease_or_phenotypic_feature 1039 1048	recessive
+#1	AnnotatorNotes T76	seen before?
+T77	missed_disease_or_phenotypic_feature 1136 1158	systemic abnormalities
+T78	missed_disease_or_phenotypic_feature 1189 1199	megacystis
+T79	corrected_disease_or_phenotypic_feature 1201 1225	mild learning disability
+T80	corrected_disease_or_phenotypic_feature 1168 1187	hepatic dysfunction
+R1	has_phenotype Arg1:T77 Arg2:T80	
+R2	has_phenotype Arg1:T77 Arg2:T78	
+R3	has_phenotype Arg1:T77 Arg2:T79	
+R4	has_phenotype Arg1:T77 Arg2:T35	
+R5	has_phenotype Arg1:T77 Arg2:T36	
+R6	has_phenotype Arg1:T77 Arg2:T37	
+R7	has_phenotype Arg1:T74 Arg2:T30	
+R8	has_phenotype Arg1:T74 Arg2:T75	
+R9	has_phenotype Arg1:T74 Arg2:T31	
+R10	has_phenotype Arg1:T74 Arg2:T32	
+T81	missed_disease_or_phenotypic_feature 332 363	Postresuscitation complications
+R11	has_phenotype Arg1:T1 Arg2:T67	
+R12	has_phenotype Arg1:T1 Arg2:T72	
+R13	has_phenotype Arg1:T1 Arg2:T2	
+R14	has_phenotype Arg1:T1 Arg2:T3	
+R15	has_phenotype Arg1:T1 Arg2:T4	
+R16	has_phenotype Arg1:T1 Arg2:T68	
+R17	has_phenotype Arg1:T1 Arg2:T69	
+R18	has_phenotype Arg1:T1 Arg2:T5	
+R19	has_phenotype Arg1:T1 Arg2:T70	
+R20	has_phenotype Arg1:T1 Arg2:T71	
+R21	has_phenotype Arg1:T81 Arg2:T11	
+R22	has_phenotype Arg1:T81 Arg2:T12	
+R23	has_phenotype Arg1:T81 Arg2:T13	
+R24	has_phenotype Arg1:T81 Arg2:T14	
+R25	has_phenotype Arg1:T81 Arg2:T73	
+R26	has_phenotype Arg1:T81 Arg2:T16	
+T82	missed_disease_or_phenotypic_feature 1472 1480	leg pain
+R27	has_phenotype Arg1:T44 Arg2:T45	
+R28	has_phenotype Arg1:T44 Arg2:T82	
+R29	has_phenotype Arg1:T44 Arg2:T46	
+T83	corrected_disease_or_phenotypic_feature 1270 1294	1q21.1 deletion syndrome
+T84	missed_disease_or_phenotypic_feature 1314 1317	Tar
+R30	has_phenotype Arg1:T83 Arg2:T84	
+R31	has_phenotype Arg1:T83 Arg2:T39	
+R32	has_phenotype Arg1:T83 Arg2:T40	
+R33	has_phenotype Arg1:T83 Arg2:T41	
+R34	has_phenotype Arg1:T47 Arg2:T48	
+R35	has_phenotype Arg1:T47 Arg2:T49	
+R36	has_phenotype Arg1:T47 Arg2:T50	
+T85	missed_disease_or_phenotypic_feature 2097 2101	iPTH
+R37	has_phenotype Arg1:T85 Arg2:T61	
+R38	has_phenotype Arg1:T85 Arg2:T62	
+R39	has_phenotype Arg1:T56 Arg2:T57	
+R40	has_phenotype Arg1:T56 Arg2:T58	
+R41	has_phenotype Arg1:T56 Arg2:T60	
+T86	missed_disease_or_phenotypic_feature 1910 1932	Neurologic involvement
+R42	has_phenotype Arg1:T56 Arg2:T86	
+T87	corrected_disease_or_phenotypic_feature 2036 2058	intracranial neoplasms
+R43	has_phenotype Arg1:T56 Arg2:T87	
+R44	has_phenotype Arg1:T51 Arg2:T52	

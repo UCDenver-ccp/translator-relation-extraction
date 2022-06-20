@@ -1,0 +1,85 @@
+T1	anatomical_site 21 29	arterial
+T2	disease_or_phenotypic_feature 21 29	arterial
+T3	disease_or_phenotypic_feature 44 52	diabetes
+T4	disease_or_phenotypic_feature 54 68	hyperlipidemia
+T5	disease_or_phenotypic_feature 70 83	hyperuricemia
+T6	disease_or_phenotypic_feature 144 157	heart-failure
+T7	disease_or_phenotypic_feature 169 181	hypertension
+T8	disease_or_phenotypic_feature 209 235	restrictive cardiomyopathy
+T9	anatomical_site 247 253	tissue
+T10	anatomical_site 265 271	tissue
+T11	disease_or_phenotypic_feature 324 335	lung cancer
+T12	disease_or_phenotypic_feature 337 350	Xanthomatosis
+T13	anatomical_site 358 372	nervous system
+T14	anatomical_site 378 383	brain
+T15	disease_or_phenotypic_feature 399 406	obesity
+T16	disease_or_phenotypic_feature 491 498	hepatic
+T17	disease_or_phenotypic_feature 499 508	cirrhosis
+T18	anatomical_site 605 616	portal vein
+T19	anatomical_site 623 631	thrombus
+T20	anatomical_site 649 654	serum
+T21	anatomical_site 757 763	kidney
+T22	disease_or_phenotypic_feature 765 778	renal failure
+T23	disease_or_phenotypic_feature 806 819	hyperglycemia
+T24	disease_or_phenotypic_feature 832 848	hyperinsulinemia
+T25	disease_or_phenotypic_feature 942 949	obesity
+T26	disease_or_phenotypic_feature 954 961	obesity
+T27	anatomical_site 990 995	liver
+T28	anatomical_site 1040 1045	serum
+T29	disease_or_phenotypic_feature 1199 1207	cataract
+T30	disease_or_phenotypic_feature 1219 1227	cataract
+T31	disease_or_phenotypic_feature 1237 1245	cataract
+T32	disease_or_phenotypic_feature 1260 1268	cataract
+T33	disease_or_phenotypic_feature 1288 1303	senile cataract
+T34	anatomical_site 1317 1321	male
+T35	anatomical_site 1326 1332	female
+T36	disease_or_phenotypic_feature 1360 1369	malignant
+T37	anatomical_site 1401 1406	ovary
+T38	disease_or_phenotypic_feature 1440 1449	hamartoma
+T39	anatomical_site 1508 1524	peripheral nerve
+T40	disease_or_phenotypic_feature 1575 1587	macrocephaly
+T41	anatomical_site 1594 1602	forehead
+T42	disease_or_phenotypic_feature 1615 1628	hypertelorism
+T43	anatomical_site 1636 1648	nasal bridge
+T44	disease_or_phenotypic_feature 1657 1679	cleft lip and alveolar
+T45	disease_or_phenotypic_feature 1758 1772	limb shortness
+T46	disease_or_phenotypic_feature 1774 1787	brachydactyly
+T47	disease_or_phenotypic_feature 1789 1808	talipes equinovarus
+T48	anatomical_site 1847 1853	spleen
+T49	anatomical_site 1882 1890	pancreas
+T50	disease_or_phenotypic_feature 1896 1907	renal cysts
+T51	anatomical_site 2007 2014	kidneys
+T52	disease_or_phenotypic_feature 2016 2038	skeletal abnormalities
+T53	disease_or_phenotypic_feature 2040 2049	blindness
+T54	disease_or_phenotypic_feature 2051 2058	anosmia
+T55	disease_or_phenotypic_feature 2064 2071	obesity
+T56	disease_or_phenotypic_feature 2086 2095	malignant
+T57	anatomical_site 2096 2110	salivary gland
+T58	disease_or_phenotypic_feature 2140 2149	malignant
+T59	disease_or_phenotypic_feature 2174 2183	malignant
+T60	anatomical_site 2222 2227	blood
+T61	disease_or_phenotypic_feature 2238 2245	hepatic
+T62	anatomical_site 2255 2285	Proximal interphalangeal joint
+T63	disease_or_phenotypic_feature 2286 2295	arthritis
+T64	anatomical_site 2308 2313	child
+T65	anatomical_site 2337 2349	nasal bridge
+T66	disease_or_phenotypic_feature 2351 2363	micrognathia
+T67	disease_or_phenotypic_feature 2365 2374	cleft lip
+T68	disease_or_phenotypic_feature 2376 2389	hydrocephalus
+T69	anatomical_site 2415 2430	corpus callosum
+T70	disease_or_phenotypic_feature 2432 2457	Dandy-Walker malformation
+T71	disease_or_phenotypic_feature 2459 2483	congenital heart defects
+T72	anatomical_site 2496 2503	kidneys
+T73	anatomical_site 2625 2628	CNS
+T74	disease_or_phenotypic_feature 2652 2667	Ewing's sarcoma
+T75	disease_or_phenotypic_feature 2702 2711	neoplasms
+T76	anatomical_site 2738 2742	lung
+T77	disease_or_phenotypic_feature 2755 2764	neoplasms
+T78	anatomical_site 2772 2778	female
+T79	anatomical_site 2794 2806	External ear
+T80	disease_or_phenotypic_feature 2813 2826	cholesteatoma
+T81	anatomical_site 2835 2838	fat
+T82	disease_or_phenotypic_feature 2862 2884	ventricular arrhythmia
+T83	anatomical_site 2888 2894	female
+T84	disease_or_phenotypic_feature 2944 2951	obesity
+T85	disease_or_phenotypic_feature 2955 2969	hyperlipidemia

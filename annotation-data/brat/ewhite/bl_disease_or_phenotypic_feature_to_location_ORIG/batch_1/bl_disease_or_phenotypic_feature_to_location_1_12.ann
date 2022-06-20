@@ -1,0 +1,72 @@
+T1	disease_or_phenotypic_feature 0 9	Potential
+T2	anatomical_site 20 25	organ
+T3	disease_or_phenotypic_feature 59 73	abdominal pain
+T4	disease_or_phenotypic_feature 75 80	fever
+T5	disease_or_phenotypic_feature 90 98	vomiting
+T6	anatomical_site 112 115	fat
+T7	disease_or_phenotypic_feature 129 138	diarrhoea
+T8	disease_or_phenotypic_feature 174 189	skeletal tumors
+T9	anatomical_site 197 203	pelvis
+T10	disease_or_phenotypic_feature 204 220	malignant tumors
+T11	anatomical_site 263 269	breast
+T12	disease_or_phenotypic_feature 274 278	rare
+T13	disease_or_phenotypic_feature 287 305	Aseptic meningitis
+T14	disease_or_phenotypic_feature 349 362	hydrocephalus
+T15	disease_or_phenotypic_feature 364 370	ataxia
+T16	disease_or_phenotypic_feature 372 391	transverse myelitis
+T17	disease_or_phenotypic_feature 421 429	deafness
+T18	anatomical_site 443 465	central nervous system
+T19	anatomical_site 490 498	Midbrain
+T20	anatomical_site 499 502	eye
+T21	disease_or_phenotypic_feature 512 525	hydrocephalus
+T22	disease_or_phenotypic_feature 592 603	heart tumor
+T23	anatomical_site 617 633	ventricular wall
+T24	anatomical_site 653 669	ventricular wall
+T25	disease_or_phenotypic_feature 760 767	obesity
+T26	anatomical_site 772 779	thyroid
+T27	disease_or_phenotypic_feature 828 846	facial dysmorphism
+T28	disease_or_phenotypic_feature 863 877	microphthalmia
+T29	disease_or_phenotypic_feature 879 889	syndactyly
+T30	anatomical_site 891 896	tooth
+T31	disease_or_phenotypic_feature 915 932	enamel hypoplasia
+T32	anatomical_site 964 969	tooth
+T33	disease_or_phenotypic_feature 979 998	conductive deafness
+T34	anatomical_site 1010 1023	temporal bone
+T35	disease_or_phenotypic_feature 1024 1032	xanthoma
+T36	anatomical_site 1082 1098	renal parenchyma
+T37	anatomical_site 1149 1155	kidney
+T38	disease_or_phenotypic_feature 1172 1183	renal tumor
+T39	disease_or_phenotypic_feature 1189 1202	renal failure
+T40	anatomical_site 1291 1296	serum
+T41	disease_or_phenotypic_feature 1368 1380	hypoglycemia
+T42	anatomical_site 1390 1398	vascular
+T43	disease_or_phenotypic_feature 1454 1461	obesity
+T44	disease_or_phenotypic_feature 1463 1480	diabetes mellitus
+T45	anatomical_site 1482 1487	blood
+T46	disease_or_phenotypic_feature 1488 1500	hypertension
+T47	disease_or_phenotypic_feature 1502 1522	hypertriglyceridemia
+T48	disease_or_phenotypic_feature 1528 1546	metabolic syndrome
+T49	anatomical_site 1587 1592	fatty
+T50	disease_or_phenotypic_feature 1615 1630	type 2 diabetes
+T51	disease_or_phenotypic_feature 1645 1652	obesity
+T52	disease_or_phenotypic_feature 1654 1667	hyperglycemia
+T53	disease_or_phenotypic_feature 1672 1686	hyperlipidemia
+T54	anatomical_site 1712 1725	temporal bone
+T55	disease_or_phenotypic_feature 1750 1759	neoplasms
+T56	disease_or_phenotypic_feature 1761 1769	Chordoma
+T57	anatomical_site 1777 1791	cervical spine
+T58	anatomical_site 1844 1849	liver
+T59	disease_or_phenotypic_feature 1863 1876	hyperglycemia
+T60	disease_or_phenotypic_feature 1881 1895	hyperlipidemia
+T61	anatomical_site 1909 1914	brain
+T62	anatomical_site 1915 1925	parenchyma
+T63	disease_or_phenotypic_feature 1927 1940	hydrocephalus
+T64	anatomical_site 1956 1978	middle cerebral artery
+T65	disease_or_phenotypic_feature 2022 2037	cardiac failure
+T66	disease_or_phenotypic_feature 2049 2061	hypertension
+T67	disease_or_phenotypic_feature 2067 2083	encephalomalacia
+T68	disease_or_phenotypic_feature 2103 2123	hyperlipoproteinemia
+T69	anatomical_site 2128 2145	exocrine pancreas
+T70	anatomical_site 2246 2250	head
+T71	anatomical_site 2251 2255	neck
+T72	disease_or_phenotypic_feature 2260 2273	breast cancer

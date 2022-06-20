@@ -1,0 +1,101 @@
+T1	disease_or_phenotypic_feature 19 36	diabetes mellitus
+T2	disease_or_phenotypic_feature 38 51	optic atrophy
+T3	disease_or_phenotypic_feature 53 61	deafness
+T4	anatomical_site 84 97	urinary tract
+T5	disease_or_phenotypic_feature 126 138	microcephaly
+T6	disease_or_phenotypic_feature 140 153	short stature
+T7	anatomical_site 162 179	ductus arteriosus
+T8	disease_or_phenotypic_feature 181 207	sensorineural hearing loss
+T9	disease_or_phenotypic_feature 209 227	mental retardation
+T10	disease_or_phenotypic_feature 318 327	syndromic
+T11	disease_or_phenotypic_feature 336 345	syndromic
+T12	disease_or_phenotypic_feature 357 365	deafness
+T13	anatomical_site 395 404	inner ear
+T14	disease_or_phenotypic_feature 425 435	meningitis
+T15	disease_or_phenotypic_feature 436 444	deafness
+T16	anatomical_site 454 459	child
+T17	disease_or_phenotypic_feature 468 477	syndromic
+T18	disease_or_phenotypic_feature 489 497	deafness
+T19	anatomical_site 514 524	vestibular
+T20	anatomical_site 572 577	brain
+T21	disease_or_phenotypic_feature 578 582	pain
+T22	disease_or_phenotypic_feature 594 601	vertigo
+T23	disease_or_phenotypic_feature 603 609	ataxia
+T24	anatomical_site 623 628	urine
+T25	anatomical_site 665 679	Adipose tissue
+T26	disease_or_phenotypic_feature 684 691	obesity
+T27	anatomical_site 694 702	Arterial
+T28	disease_or_phenotypic_feature 716 723	obesity
+T29	disease_or_phenotypic_feature 785 803	growth retardation
+T30	disease_or_phenotypic_feature 805 817	hypoglycemia
+T31	anatomical_site 833 839	kidney
+T32	disease_or_phenotypic_feature 853 867	hyperlipidemia
+T33	disease_or_phenotypic_feature 869 882	hyperuricemia
+T34	disease_or_phenotypic_feature 929 941	microcephaly
+T35	disease_or_phenotypic_feature 943 956	facial clefts
+T36	disease_or_phenotypic_feature 974 989	ankyloblepharon
+T37	disease_or_phenotypic_feature 991 1001	syndactyly
+T38	anatomical_site 1013 1023	ectodermal
+T39	disease_or_phenotypic_feature 1060 1072	ectrodactyly
+T40	disease_or_phenotypic_feature 1113 1128	onychodysplasia
+T41	disease_or_phenotypic_feature 1130 1140	hypodontia
+T42	anatomical_site 1154 1159	teeth
+T43	disease_or_phenotypic_feature 1161 1173	hypohidrosis
+T44	anatomical_site 1281 1285	male
+T45	disease_or_phenotypic_feature 1357 1364	obesity
+T46	disease_or_phenotypic_feature 1366 1380	hyperlipidemia
+T47	disease_or_phenotypic_feature 1381 1401	hypercholesterolemia
+T48	disease_or_phenotypic_feature 1428 1441	heart failure
+T49	disease_or_phenotypic_feature 1476 1481	fever
+T50	disease_or_phenotypic_feature 1483 1494	hypotension
+T51	disease_or_phenotypic_feature 1560 1576	hemolytic anemia
+T52	disease_or_phenotypic_feature 1578 1594	thrombocytopenia
+T53	anatomical_site 1615 1621	kidney
+T54	anatomical_site 1646 1651	liver
+T55	disease_or_phenotypic_feature 1701 1713	hypoglycemia
+T56	disease_or_phenotypic_feature 1715 1724	blindness
+T57	anatomical_site 1860 1874	parotid glands
+T58	anatomical_site 1876 1886	lymph node
+T59	anatomical_site 1900 1904	skin
+T60	disease_or_phenotypic_feature 1905 1915	vasculitis
+T61	disease_or_phenotypic_feature 1917 1938	peripheral neuropathy
+T62	disease_or_phenotypic_feature 1940 1946	anemia
+T63	disease_or_phenotypic_feature 1951 1962	lymphopenia
+T64	disease_or_phenotypic_feature 1964 1986	Sensorineural deafness
+T65	disease_or_phenotypic_feature 1988 1996	cataract
+T66	anatomical_site 2021 2038	ductus arteriosus
+T67	anatomical_site 2102 2107	child
+T68	disease_or_phenotypic_feature 2122 2125	CRS
+T69	anatomical_site 2129 2135	female
+T70	disease_or_phenotypic_feature 2164 2176	microcephaly
+T71	disease_or_phenotypic_feature 2178 2191	hypertelorism
+T72	disease_or_phenotypic_feature 2193 2209	epicanthal folds
+T73	disease_or_phenotypic_feature 2229 2252	congenital heart defect
+T74	anatomical_site 2352 2363	blood serum
+T75	anatomical_site 2374 2380	tissue
+T76	disease_or_phenotypic_feature 2398 2407	neoplasms
+T77	disease_or_phenotypic_feature 2422 2435	hydrocephalus
+T78	disease_or_phenotypic_feature 2461 2469	seizures
+T79	disease_or_phenotypic_feature 2583 2598	pulmonary edema
+T80	disease_or_phenotypic_feature 2600 2619	cardiac arrhythmias
+T81	anatomical_site 2640 2650	myocardium
+T82	disease_or_phenotypic_feature 2652 2657	fever
+T83	disease_or_phenotypic_feature 2659 2665	anemia
+T84	disease_or_phenotypic_feature 2678 2691	hyperglycemia
+T85	disease_or_phenotypic_feature 2721 2741	Endocardial fibrosis
+T86	anatomical_site 2756 2764	thrombus
+T87	disease_or_phenotypic_feature 2785 2811	restrictive cardiomyopathy
+T88	disease_or_phenotypic_feature 2816 2829	heart failure
+T89	disease_or_phenotypic_feature 2837 2861	congenital abnormalities
+T90	disease_or_phenotypic_feature 2870 2882	micrognathia
+T91	disease_or_phenotypic_feature 2896 2902	palate
+T92	anatomical_site 2928 2940	nasal bridge
+T93	disease_or_phenotypic_feature 2942 2955	hypertelorism
+T94	anatomical_site 2968 2971	eye
+T95	disease_or_phenotypic_feature 2987 3001	microphthalmia
+T96	anatomical_site 3041 3047	tissue
+T97	anatomical_site 3051 3066	maxillary sinus
+T98	disease_or_phenotypic_feature 3142 3155	ameloblastoma
+T99	disease_or_phenotypic_feature 3174 3198	hepatocellular carcinoma
+T100	anatomical_site 3231 3236	liver
+T101	anatomical_site 3259 3263	duct

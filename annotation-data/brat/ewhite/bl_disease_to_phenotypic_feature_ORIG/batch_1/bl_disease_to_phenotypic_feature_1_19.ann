@@ -1,0 +1,53 @@
+T1	disease_or_phenotypic_feature 23 41	sensory neuropathy
+T2	disease_or_phenotypic_feature 80 96	thrombocytopenia
+T3	disease_or_phenotypic_feature 106 114	vomiting
+T4	disease_or_phenotypic_feature 129 143	abdominal pain
+T5	disease_or_phenotypic_feature 194 200	autism
+T6	disease_or_phenotypic_feature 205 237	pervasive developmental disorder
+T7	disease_or_phenotypic_feature 287 300	hyperglycemia
+T8	disease_or_phenotypic_feature 304 316	hypoglycemia
+T9	disease_or_phenotypic_feature 355 370	pulmonary edema
+T10	disease_or_phenotypic_feature 451 464	renal failure
+T11	disease_or_phenotypic_feature 466 479	hyperglycemia
+T12	disease_or_phenotypic_feature 485 496	hypokalemia
+T13	disease_or_phenotypic_feature 570 575	optic
+T14	disease_or_phenotypic_feature 592 600	Cataract
+T15	disease_or_phenotypic_feature 601 610	blindness
+T16	disease_or_phenotypic_feature 648 658	leukopenia
+T17	disease_or_phenotypic_feature 660 666	anemia
+T18	disease_or_phenotypic_feature 676 681	fever
+T19	disease_or_phenotypic_feature 687 701	abdominal pain
+T20	disease_or_phenotypic_feature 752 770	mental retardation
+T21	disease_or_phenotypic_feature 785 798	optic atrophy
+T22	disease_or_phenotypic_feature 800 817	cerebellar ataxia
+T23	disease_or_phenotypic_feature 839 860	peripheral neuropathy
+T24	disease_or_phenotypic_feature 868 879	visual loss
+T25	disease_or_phenotypic_feature 892 903	visual loss
+T26	disease_or_phenotypic_feature 908 919	visual loss
+T27	disease_or_phenotypic_feature 958 966	deafness
+T28	disease_or_phenotypic_feature 997 1015	multiple sclerosis
+T29	disease_or_phenotypic_feature 1118 1126	vomiting
+T30	disease_or_phenotypic_feature 1132 1140	diarrhea
+T31	disease_or_phenotypic_feature 1142 1153	weight loss
+T32	disease_or_phenotypic_feature 1165 1176	hypotension
+T33	disease_or_phenotypic_feature 1178 1187	cataracts
+T34	disease_or_phenotypic_feature 1243 1257	encephalopathy
+T35	disease_or_phenotypic_feature 1283 1289	anemia
+T36	disease_or_phenotypic_feature 1294 1311	hyperphosphatemia
+T37	disease_or_phenotypic_feature 1383 1393	overgrowth
+T38	disease_or_phenotypic_feature 1446 1458	hypoglycemia
+T39	disease_or_phenotypic_feature 1497 1502	edema
+T40	disease_or_phenotypic_feature 1583 1586	VSD
+T41	disease_or_phenotypic_feature 1877 1889	hypoglycemia
+T42	disease_or_phenotypic_feature 1919 1931	hypoglycemia
+T43	disease_or_phenotypic_feature 1942 1949	obesity
+T44	disease_or_phenotypic_feature 1955 1969	hyperlipidemia
+T45	disease_or_phenotypic_feature 2061 2070	syndromic
+T46	disease_or_phenotypic_feature 2071 2083	microcephaly
+T47	disease_or_phenotypic_feature 2085 2094	blindness
+T48	disease_or_phenotypic_feature 2112 2120	seizures
+T49	disease_or_phenotypic_feature 2163 2172	pneumonia
+T50	disease_or_phenotypic_feature 2177 2190	heart failure
+T51	disease_or_phenotypic_feature 2240 2249	neoplasms
+#1	AnnotatorNotes T52	dose-limiting toxicities (DLT)
+T85	disease_or_phenotypic_feature 1361 1375	tumor ingrowth

@@ -68,3 +68,54 @@ T67	disease_or_phenotypic_feature 2126 2135	blindness
 T68	disease_or_phenotypic_feature 2212 2224	cleft palate
 T69	disease_or_phenotypic_feature 2226 2238	microcephaly
 T70	disease_or_phenotypic_feature 2265 2275	syndactyly
+R1	has_phenotype Arg1:T11 Arg2:T12	
+R2	has_phenotype Arg1:T11 Arg2:T13	
+R3	has_phenotype Arg1:T11 Arg2:T14	
+R4	has_phenotype Arg1:T18 Arg2:T19	
+R5	has_phenotype Arg1:T18 Arg2:T20	
+R6	has_phenotype Arg1:T37 Arg2:T36	
+T71	missed_disease_or_phenotypic_feature 1365 1394	Neuroligin 2 nonsense variant
+R7	has_phenotype Arg1:T71 Arg2:T40	
+R8	has_phenotype Arg1:T71 Arg2:T41	
+R9	has_phenotype Arg1:T71 Arg2:T42	
+T72	missed_disease_or_phenotypic_feature 1453 1464	hyperphagia
+R10	has_phenotype Arg1:T71 Arg2:T72	
+R11	has_phenotype Arg1:T71 Arg2:T43	
+T73	missed_disease_or_phenotypic_feature 1479 1487	Toxicity
+T74	missed_disease_or_phenotypic_feature 1527 1535	anorexia
+T75	missed_disease_or_phenotypic_feature 1537 1544	nausea,
+T76	missed_disease_or_phenotypic_feature 1555 1565	stomatitis
+T77	missed_disease_or_phenotypic_feature 1567 1575	alopecia
+R13	has_phenotype Arg1:T73 Arg2:T44	
+R14	has_phenotype Arg1:T73 Arg2:T45	
+R15	has_phenotype Arg1:T73 Arg2:T74	
+R16	has_phenotype Arg1:T73 Arg2:T75	
+R17	has_phenotype Arg1:T73 Arg2:T46	
+R18	has_phenotype Arg1:T73 Arg2:T76	
+R19	has_phenotype Arg1:T73 Arg2:T77	
+R20	has_phenotype Arg1:T73 Arg2:T47	
+R22	has_phenotype Arg1:T73 Arg2:T49	
+T78	corrected_disease_or_phenotypic_feature 1592 1622	profound peripheral neuropathy
+R21	has_phenotype Arg1:T73 Arg2:T78	
+T79	corrected_disease_or_phenotypic_feature 1657 1677	Glaucoma like defect
+R12	has_phenotype Arg1:T51 Arg2:T79	
+R23	has_phenotype Arg1:T54 Arg2:T56	
+T80	missed_disease_or_phenotypic_feature 1835 1857	'happy natured' facies
+R24	has_phenotype Arg1:T54 Arg2:T80	
+R25	has_phenotype Arg1:T54 Arg2:T57	
+R26	has_phenotype Arg1:T54 Arg2:T58	
+R27	has_phenotype Arg1:T54 Arg2:T59	
+T81	missed_disease_or_phenotypic_feature 2059 2061	It
+R28	has_phenotype Arg1:T81 Arg2:T64	
+R29	has_phenotype Arg1:T81 Arg2:T65	
+R30	has_phenotype Arg1:T66 Arg2:T67	
+T82	missed_disease_or_phenotypic_feature 1102 1116	Adverse events
+T83	missed_disease_or_phenotypic_feature 1150 1157	fatigue
+T84	missed_disease_or_phenotypic_feature 1159 1163	rash
+R31	has_phenotype Arg1:T82 Arg2:T33	
+R32	has_phenotype Arg1:T82 Arg2:T34	
+R33	has_phenotype Arg1:T82 Arg2:T83	
+R34	has_phenotype Arg1:T82 Arg2:T84	
+R35	has_phenotype Arg1:T82 Arg2:T35	
+R36	has_phenotype Arg1:T38 Arg2:T36	
+R37	has_phenotype Arg1:T53 Arg2:T52	

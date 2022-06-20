@@ -68,3 +68,21 @@ T67	disease_or_phenotypic_feature 2441 2459	growth retardation
 T68	disease_or_phenotypic_feature 2474 2482	pterygia
 T69	disease_or_phenotypic_feature 2484 2501	Visual impairment
 T70	disease_or_phenotypic_feature 2506 2515	blindness
+R1	has_phenotype Arg1:T31 Arg2:T32	
+T71	missed_disease_or_phenotypic_feature 1087 1099	hypogonadism
+R2	has_phenotype Arg1:T31 Arg2:T71	
+R3	has_phenotype Arg1:T31 Arg2:T33	
+R4	has_phenotype Arg1:T31 Arg2:T34	
+R5	has_phenotype Arg1:T31 Arg2:T35	
+T72	missed_disease_or_phenotypic_feature 1640 1648	Ick null
+R6	has_phenotype Arg1:T72 Arg2:T45	
+R7	has_phenotype Arg1:T72 Arg2:T46	
+R8	has_phenotype Arg1:T72 Arg2:T47	
+R9	has_phenotype Arg1:T72 Arg2:T48	
+R10	has_phenotype Arg1:T49 Arg2:T48	
+R11	has_phenotype Arg1:T49 Arg2:T47	
+R12	has_phenotype Arg1:T49 Arg2:T46	
+R13	has_phenotype Arg1:T49 Arg2:T45	
+T73	missed_disease_or_phenotypic_feature 1907 1915	diabetes
+R15	has_phenotype Arg1:T54 Arg2:T53	
+R14	has_phenotype Arg1:T73 Arg2:T52	

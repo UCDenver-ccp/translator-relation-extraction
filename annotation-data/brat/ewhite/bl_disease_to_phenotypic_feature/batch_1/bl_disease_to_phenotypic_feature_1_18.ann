@@ -60,3 +60,40 @@ T59	disease_or_phenotypic_feature 2108 2119	telecanthus
 T60	disease_or_phenotypic_feature 2127 2145	hair abnormalities
 T61	disease_or_phenotypic_feature 2151 2173	sensorineural deafness
 T62	disease_or_phenotypic_feature 2262 2273	glucagonoma
+R1	has_phenotype Arg1:T13 Arg2:T14	
+T63	missed_disease_or_phenotypic_feature 690 702	hypertension
+T64	missed_disease_or_phenotypic_feature 707 725	insulin resistance
+R2	has_phenotype Arg1:T52 Arg2:T53	
+R3	has_phenotype Arg1:T52 Arg2:T54	
+R4	has_phenotype Arg1:T52 Arg2:T55	
+R5	has_phenotype Arg1:T51 Arg2:T53	
+R6	has_phenotype Arg1:T51 Arg2:T54	
+R7	has_phenotype Arg1:T51 Arg2:T55	
+T65	missed_disease_or_phenotypic_feature 1462 1474	side effects
+R8	has_phenotype Arg1:T65 Arg2:T40	
+R9	has_phenotype Arg1:T65 Arg2:T39	
+R10	has_phenotype Arg1:T65 Arg2:T38	
+T66	missed_disease_or_phenotypic_feature 1480 1489	headaches
+R11	has_phenotype Arg1:T65 Arg2:T66	
+R12	has_phenotype Arg1:T13 Arg2:T15	
+R13	has_phenotype Arg1:T13 Arg2:T16	
+R14	has_phenotype Arg1:T13 Arg2:T64	
+R15	has_phenotype Arg1:T13 Arg2:T63	
+R16	has_phenotype Arg1:T13 Arg2:T17	
+T67	missed_disease_or_phenotypic_feature 6 19	complications
+R18	has_phenotype Arg1:T67 Arg2:T1	
+R17	has_phenotype Arg1:T67 Arg2:T2	
+R19	has_phenotype Arg1:T67 Arg2:T3	
+T68	missed_disease_or_phenotypic_feature 1651 1677	Developmental disabilities
+R20	has_phenotype Arg1:T68 Arg2:T44	
+R21	has_phenotype Arg1:T68 Arg2:T45	
+R22	has_phenotype Arg1:T68 Arg2:T46	
+R23	has_phenotype Arg1:T68 Arg2:T47	
+R24	has_phenotype Arg1:T68 Arg2:T49	
+R25	has_phenotype Arg1:T68 Arg2:T50	
+T69	missed_disease_or_phenotypic_feature 1748 1762	cerebral palsy
+T70	missed_disease_or_phenotypic_feature 1778 1793	trouble hearing
+T71	corrected_disease_or_phenotypic_feature 1795 1814	learning disability
+R26	has_phenotype Arg1:T68 Arg2:T69	
+R27	has_phenotype Arg1:T68 Arg2:T70	
+R28	has_phenotype Arg1:T68 Arg2:T71	

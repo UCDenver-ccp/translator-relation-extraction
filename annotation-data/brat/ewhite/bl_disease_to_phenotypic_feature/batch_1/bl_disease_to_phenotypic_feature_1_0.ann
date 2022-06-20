@@ -68,10 +68,55 @@ T67	disease_or_phenotypic_feature 2086 2098	hypogonadism
 R1	has_phenotype Arg1:T1 Arg2:T4	
 R2	has_phenotype Arg1:T1 Arg2:T3	
 R3	has_phenotype Arg1:T1 Arg2:T5	
-R4	has_phenotype Arg1:T6 Arg2:T7	
-R5	has_phenotype Arg1:T6 Arg2:T8	
-T69	corrected_disease_or_phenotypic_feature 217 225	epilepsy
-R6	has_phenotype Arg1:T6 Arg2:T69	
+T69	missed_disease_or_phenotypic_feature 217 225	epilepsy
 R8	has_phenotype Arg1:T26 Arg2:T25	
-T70	corrected_disease_or_phenotypic_feature 815 836	unilateral hypoplasia
-T68	corrected_phenotypic_feature 71 91	skeletal destruction
+T70	missed_disease_or_phenotypic_feature 815 836	unilateral hypoplasia
+T68	missed_disease_or_phenotypic_feature 71 91	skeletal destruction
+R7	has_phenotype Arg1:T1 Arg2:T68	
+R9	has_phenotype Arg1:T26 Arg2:T70	
+T71	missed_disease_or_phenotypic_feature 1291 1299	myotonia
+T72	missed_disease_or_phenotypic_feature 1329 1350	endocrine dysfunction
+R14	has_phenotype Arg1:T38 Arg2:T71	
+R12	has_phenotype Arg1:T38 Arg2:T40	
+R13	has_phenotype Arg1:T38 Arg2:T41	
+R15	has_phenotype Arg1:T38 Arg2:T72	
+R16	has_phenotype Arg1:T38 Arg2:T42	
+T73	corrected_disease_or_phenotypic_feature 138 166	autosomal recessive syndrome
+R4	has_phenotype Arg1:T73 Arg2:T7	
+R5	has_phenotype Arg1:T73 Arg2:T8	
+R6	has_phenotype Arg1:T73 Arg2:T69	
+T74	missed_disease_or_phenotypic_feature 190 201	coarse face
+R10	has_phenotype Arg1:T73 Arg2:T74	
+R11	has_phenotype Arg1:T73 Arg2:T9	
+T75	corrected_disease_or_phenotypic_feature 603 621	Gurrieri syndrome.
+T76	missed_disease_or_phenotypic_feature 534 542	epilepsy
+R17	has_phenotype Arg1:T75 Arg2:T19	
+R18	has_phenotype Arg1:T75 Arg2:T18	
+R19	has_phenotype Arg1:T75 Arg2:T76	
+R20	has_phenotype Arg1:T75 Arg2:T17	
+T77	missed_disease_or_phenotypic_feature 258 266	syndrome
+R21	has_phenotype Arg1:T77 Arg2:T10	
+R22	has_phenotype Arg1:T77 Arg2:T11	
+R23	has_phenotype Arg1:T77 Arg2:T12	
+R24	has_phenotype Arg1:T77 Arg2:T13	
+R25	has_phenotype Arg1:T77 Arg2:T16	
+T78	missed_disease_or_phenotypic_feature 432 471	restricted movement of the large joints
+T79	missed_disease_or_phenotypic_feature 477 493	death in infancy
+T80	missed_disease_or_phenotypic_feature 477 485;497 512	death in early childhood
+T81	missed_disease_or_phenotypic_feature 336 360	severely impaired vision
+T82	corrected_disease_or_phenotypic_feature 377 398	severe hearing defect
+R26	has_phenotype Arg1:T77 Arg2:T81	
+R27	has_phenotype Arg1:T77 Arg2:T82	
+R28	has_phenotype Arg1:T77 Arg2:T15	
+R29	has_phenotype Arg1:T77 Arg2:T78	
+R30	has_phenotype Arg1:T77 Arg2:T79	
+R31	has_phenotype Arg1:T77 Arg2:T80	
+R32	has_phenotype Arg1:T31 Arg2:T32	
+T83	corrected_disease_or_phenotypic_feature 1104 1121	visual disability
+R33	has_phenotype Arg1:T31 Arg2:T83	
+T84	missed_disease_or_phenotypic_feature 1908 1932	Testicular abnormalities
+R34	has_phenotype Arg1:T84 Arg2:T62	
+T85	corrected_disease_or_phenotypic_feature 1957 1971	chronic anemia
+R35	has_phenotype Arg1:T84 Arg2:T85	
+T86	missed_disease_or_phenotypic_feature 1986 1995	neoplasia
+R36	has_phenotype Arg1:T84 Arg2:T86	

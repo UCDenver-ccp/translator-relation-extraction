@@ -63,3 +63,40 @@ T62	disease_or_phenotypic_feature 1721 1734	liver disease
 T63	disease_or_phenotypic_feature 1754 1761	obesity
 T64	disease_or_phenotypic_feature 1778 1785	obesity
 T65	disease_or_phenotypic_feature 1852 1861	hamartoma
+T66	missed_disease_or_phenotypic_feature 59 62	ARF
+R1	has_phenotype Arg1:T66 Arg2:T4	
+T67	missed_disease_or_phenotypic_feature 128 145	hyperglucagonemia
+T68	missed_disease_or_phenotypic_feature 81 89	azotemia
+R2	has_phenotype Arg1:T66 Arg2:T68	
+R3	has_phenotype Arg1:T66 Arg2:T5	
+R4	has_phenotype Arg1:T66 Arg2:T67	
+T69	missed_disease_or_phenotypic_feature 781 789	syndrome
+T70	missed_disease_or_phenotypic_feature 795 804	hypotonia
+R5	has_phenotype Arg1:T9 Arg2:T11	
+T71	missed_disease_or_phenotypic_feature 280 283;290 297	syn dactyly
+T72	missed_disease_or_phenotypic_feature 275 279;290 297	poly dactyly
+T73	missed_disease_or_phenotypic_feature 378 398	kidney abnormalities
+R6	has_phenotype Arg1:T9 Arg2:T10	
+R7	has_phenotype Arg1:T9 Arg2:T72	
+R8	has_phenotype Arg1:T9 Arg2:T71	
+R9	has_phenotype Arg1:T9 Arg2:T12	
+R10	has_phenotype Arg1:T9 Arg2:T13	
+R11	has_phenotype Arg1:T9 Arg2:T14	
+R12	has_phenotype Arg1:T9 Arg2:T15	
+R13	has_phenotype Arg1:T9 Arg2:T73	
+T74	corrected_disease_or_phenotypic_feature 1042 1054	ACD syndrome
+R14	has_phenotype Arg1:T74 Arg2:T36	
+R15	has_phenotype Arg1:T74 Arg2:T37	
+R16	has_phenotype Arg1:T74 Arg2:T38	
+R17	has_phenotype Arg1:T74 Arg2:T39	
+R18	has_phenotype Arg1:T69 Arg2:T70	
+R19	has_phenotype Arg1:T69 Arg2:T28	
+R20	has_phenotype Arg1:T69 Arg2:T29	
+R21	has_phenotype Arg1:T69 Arg2:T31	
+T75	corrected_disease_or_phenotypic_feature 838 844;869 878	facial anomalies
+T76	missed_disease_or_phenotypic_feature 846 850;869 878	oral anomalies
+T77	missed_disease_or_phenotypic_feature 852 858;869 878	ocular anomalies
+R22	has_phenotype Arg1:T69 Arg2:T75	
+R23	has_phenotype Arg1:T69 Arg2:T76	
+R24	has_phenotype Arg1:T69 Arg2:T77	
+R25	has_phenotype Arg1:T34 Arg2:T35	

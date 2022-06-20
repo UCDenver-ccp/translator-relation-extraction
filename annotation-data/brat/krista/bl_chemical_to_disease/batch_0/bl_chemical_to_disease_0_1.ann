@@ -1,5 +1,4 @@
 T1	disease 60 65	tumor
-T2	UNKNOWN 179 185	immune
 T3	corrected_chemical 179 207	immune checkpoint inhibitors
 T4	chemical 197 207	inhibitors
 T5	chemical 413 416	NPC
@@ -81,3 +80,8 @@ R3	treats Arg1:T12 Arg2:T14
 R4	treats Arg1:T22 Arg2:T20
 R5	treats Arg1:T31 Arg2:T32
 R6	causes_or_contributes_to Arg1:T8 Arg2:T10	
+T2	corrected_disease 548 571	small intestinal injury
+T9	missed_chemical 534 539	NSAID
+R7	causes_or_contributes_to Arg1:T9 Arg2:T2	
+T79	missed_chemical 760 765	PT-31
+R8	treats Arg1:T79 Arg2:T14	

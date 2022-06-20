@@ -71,7 +71,6 @@ R16	contributes_to Arg1:T27 Arg2:T28
 T59	corrected_disease 1600 1615	cystic fibrosis
 R17	contributes_to Arg1:T27 Arg2:T59	
 R18	contributes_to Arg1:T26 Arg2:T59	
-R20	contributes_to Arg1:T31 Arg2:T32	
 T60	corrected_gene 2009 2013	PARP
 T61	corrected_gene 2094 2098	PARP
 R21	contributes_to Arg1:T60 Arg2:T33	
@@ -88,3 +87,6 @@ R2	contributes_to Arg1:T17 Arg2:T54
 T65	missed_disease 449 464	HPV16 infection
 T66	missed_disease 854 871	inferior survival
 T67	missed_disease_or_phenotypic_feature 615 637	tumor sphere formation
+R7	has_association_with Arg1:T5 Arg2:T65	
+R25	has_association_with Arg1:T15 Arg2:T16	
+R20	has_association_with Arg1:T31 Arg2:T32	

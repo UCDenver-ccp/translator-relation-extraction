@@ -1,0 +1,57 @@
+T1	gene 0 5	AIFM3
+T2	disease 52 57	tumor
+T3	gene 134 142	hepcidin
+T4	disease 197 203	anemia
+T5	gene 224 229	CLDN8
+T6	disease 239 256	colorectal cancer
+T7	gene 315 319	MAPK
+T8	gene 459 463	MTNR
+T9	gene 559 562	TNF
+T10	gene 566 570	IL-6
+T11	disease 585 588	SLE
+T12	gene 865 870	CTLA4
+T13	disease 950 955	tumor
+T14	gene 984 988	HCP5
+T15	disease 1075 1081	cancer
+T16	disease 1091 1119	follicular thyroid carcinoma
+T17	disease 1144 1158	thyroid cancer
+T18	gene 1173 1177	HCP5
+T19	disease 1185 1190	tumor
+T20	disease 1230 1235	tumor
+T21	disease 1261 1286	anaplastic thyroid cancer
+T22	gene 1325 1335	huntingtin
+T23	disease 1434 1454	Huntington's disease
+T24	disease 1518 1541	squamous cell carcinoma
+T25	gene 1555 1560	SHOX2
+T26	gene 1610 1623	transthyretin
+T27	disease 1624 1635	amyloidosis
+T28	gene 1726 1731	TUBB3
+T29	disease 1812 1818	tumors
+T30	gene 2005 2012	tubulin
+T31	disease 2032 2038	cancer
+T32	gene 2065 2069	MAPK
+T33	gene 2117 2126	Claudin-1
+T34	disease 2219 2225	tumors
+T35	gene 2302 2307	BIRC5
+T36	disease 2385 2391	cancer
+T37	disease 2516 2529	breast cancer
+T38	gene 2549 2554	ROCK1
+T39	disease 2627 2649	chronic kidney disease
+T40	disease 2677 2680	CKD
+T41	gene 2819 2838	parathyroid hormone
+T42	gene 2840 2843	PTH
+T43	disease 2903 2938	autosomal dominant hypophosphatemia
+T44	disease 2922 2938	hypophosphatemia
+T45	gene 2990 2997	SLC34A1
+T46	disease 2999 3013	Retinoblastoma
+T47	gene 3032 3036	E2F3
+T48	gene 3137 3142	ROCK2
+T49	disease 3184 3201	pancreatic cancer
+T50	gene 3279 3284	ROCK2
+T51	gene 3408 3413	BRCA1
+T52	disease 3440 3445	tumor
+#1	AnnotatorNotes T54	microRNAs are encoded by genes
+#2	AnnotatorNotes T53	Synonym
+#4	AnnotatorNotes T56	Pancreatic ductal adenocarcinoma
+T58	DONE 3457 3461	DONE
+#3	AnnotatorNotes T69	is urinary cancer a thing?

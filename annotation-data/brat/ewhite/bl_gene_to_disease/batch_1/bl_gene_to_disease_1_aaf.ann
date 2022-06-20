@@ -102,7 +102,7 @@ R50	contributes_to Arg1:T48 Arg2:T47
 R51	contributes_to Arg1:T57 Arg2:T58	
 T81	corrected_disease 2724 2747	non-seminomatous tumors
 T82	corrected_disease 2760 2779	seminomatous tumors
-R52	contributes_to Arg1:T49 Arg2:T81	
+R52	has_contributive_association_with Arg1:T49 Arg2:T81	
 T83	corrected_gene 2812 2829	apolipoprotein E4
 T84	corrected_gene 2831 2836	APOE4
 T85	corrected_disease 2881 2889;2899 2901	sporadic AD

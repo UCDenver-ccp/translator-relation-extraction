@@ -1,0 +1,69 @@
+T1	chemical 50 66	prostaglandin E2
+T2	chemical 139 151	carbohydrate
+T3	chemical 152 159	antigen
+T4	disease 213 230	mucinous neoplasm
+T5	disease 232 237	IPMN)
+T6	chemical 264 274	biomarkers
+T7	disease_or_phenotypic_feature 299 305	Cancer
+T8	chemical 313 320	antigen
+T9	chemical 368 376	antigens
+T10	disease_or_phenotypic_feature 420 426	cancer
+T11	disease 466 506	idiopathic thrombocytopenic purpura(ITP)
+T12	disease 494 506	purpura(ITP)
+T13	chemical 494 506	purpura(ITP)
+T14	disease 508 519	hepatitis B
+T15	disease 525 542	diabetes mellitus
+T16	chemical 561 572	Scutellarin
+T17	disease 609 623	osteoarthritis
+T18	chemical 739 753	glucocorticoid
+T19	disease 869 878	infection
+T20	disease_or_phenotypic_feature 897 903	Asthma
+T21	chemical 921 928	agonist
+T22	chemical 948 962	growth hormone
+T23	disease_or_phenotypic_feature 967 990	gonadotropin deficiency
+T24	disease_or_phenotypic_feature 1018 1030	anophthalmia
+T25	disease_or_phenotypic_feature 1046 1060	cryptorchidism
+T26	disease_or_phenotypic_feature 1066 1084	mental retardation
+T27	chemical 1104 1108	drug
+T28	chemical 1110 1119	potassium
+T29	chemical 1120 1128	antimony
+T30	disease_or_phenotypic_feature 1201 1212	lung cancer
+T31	disease 1264 1274	mono-modal
+T32	chemical 1280 1291	hydrocarbon
+T33	chemical 1364 1374	kaempferol
+T34	chemical 1423 1430	protein
+T35	chemical 1561 1568	protein
+T36	disease 1600 1606	cancer
+T37	disease_or_phenotypic_feature 1631 1644	Heart failure
+T38	chemical 1762 1768	oxygen
+T39	disease_or_phenotypic_feature 1800 1815	pulmonary edema
+T40	disease 1817 1831	CHILD syndrome
+T41	chemical 1883 1893	lovastatin
+T42	chemical 1898 1909	cholesterol
+T43	disease_or_phenotypic_feature 1978 1988	thrombosis
+T44	chemical 2084 2090	oxygen
+T45	chemical 2095 2104	nutrients
+T46	chemical 2131 2138	antigen
+T47	chemical 2142 2145	TPA
+T48	disease_or_phenotypic_feature 2150 2164	bladder cancer
+T49	chemical 2192 2205	hyaluronidase
+T50	chemical 2235 2245	anesthesia
+T51	disease_or_phenotypic_feature 2250 2258	cataract
+T52	chemical 2273 2277	drug
+T53	disease_or_phenotypic_feature 2294 2312	metabolic syndrome
+T54	disease_or_phenotypic_feature 2317 2324	obesity
+T55	chemical 2345 2357	testosterone
+T56	chemical 2362 2381	dihydrotestosterone
+T57	chemical 2388 2396	androgen
+T58	disease_or_phenotypic_feature 2397 2406	dependent
+T59	disease 2485 2499	tumor-specific
+T60	chemical 2500 2508	peptides
+T61	disease 2646 2655	infertile
+T62	disease 2656 2659	men
+T63	chemical 2751 2763	antioxidants
+T64	disease_or_phenotypic_feature 2895 2908	hyperglycemia
+T65	disease_or_phenotypic_feature 2910 2922	hypoglycemia
+T66	disease_or_phenotypic_feature 2924 2938	hyperlipidemia
+T67	chemical 2973 2977	acid
+T68	chemical 3018 3027	manganese
+T69	disease_or_phenotypic_feature 3042 3064	metabolic bone disease

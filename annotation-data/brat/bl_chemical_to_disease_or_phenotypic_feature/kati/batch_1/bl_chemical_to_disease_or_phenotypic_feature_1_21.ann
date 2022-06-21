@@ -1,0 +1,68 @@
+T1	chemical 64 78	Cyclosporine-A
+T2	disease 102 121	Gingival Overgrowth
+T3	chemical 166 173	antigen
+T4	disease_or_phenotypic_feature 177 197	epidermoid carcinoma
+T5	chemical 204 214	inhibitors
+T6	disease_or_phenotypic_feature 219 233	kidney failure
+T7	disease_or_phenotypic_feature 237 250	heart failure
+T8	chemical 253 264	Biochemical
+T9	disease_or_phenotypic_feature 316 334	diabetes insipidus
+T10	disease_or_phenotypic_feature 336 353	diabetes mellitus
+T11	disease_or_phenotypic_feature 355 368	optic atrophy
+T12	disease_or_phenotypic_feature 374 382	deafness
+T13	chemical 405 418	hyaluronidase
+T14	chemical 453 463	anesthesia
+T15	disease_or_phenotypic_feature 467 475	cataract
+T16	disease_or_phenotypic_feature 499 524	X-linked hypophosphatemia
+T17	chemical 531 540	vitamin D
+T18	chemical 541 552	metabolites
+T19	chemical 557 566	phosphate
+T20	disease_or_phenotypic_feature 588 601	hypercalcemia
+T21	disease_or_phenotypic_feature 603 617	hypercalciuria
+T22	disease_or_phenotypic_feature 641 660	hyperparathyroidism
+T23	disease 756 774	metabolic syndrome
+T24	chemical 803 818	high-polyphenol
+T25	chemical 830 844	low-polyphenol
+T26	chemical 885 893	estrogen
+T27	disease_or_phenotypic_feature 933 940	obesity
+T28	chemical 945 952	alcohol
+T29	chemical 958 966	chloride
+T30	disease_or_phenotypic_feature 1007 1014	obesity
+T31	disease_or_phenotypic_feature 1049 1066	diabetes mellitus
+T32	chemical 1074 1081	mixture
+T33	disease_or_phenotypic_feature 1090 1102	hypoglycemic
+T34	chemical 1171 1179	antigens
+T35	disease_or_phenotypic_feature 1194 1200	cancer
+T36	chemical 1226 1234	antigens
+T37	disease 1306 1309	CKD
+T38	chemical 1310 1315	group
+T39	chemical 1342 1350	Androgen
+T40	disease_or_phenotypic_feature 1351 1360	dependent
+T41	chemical 1437 1447	Carvedilol
+T42	chemical 1453 1457	drug
+T43	disease_or_phenotypic_feature 1472 1485	heart failure
+T44	disease_or_phenotypic_feature 1505 1529	coronary artery diseases
+T45	chemical 1532 1535	DNA
+T46	disease_or_phenotypic_feature 1591 1600	syndromic
+T47	disease_or_phenotypic_feature 1647 1673	global developmental delay
+T48	disease_or_phenotypic_feature 1675 1698	intellectual disability
+T49	disease_or_phenotypic_feature 1721 1733	microcephaly
+T50	disease_or_phenotypic_feature 1735 1743	seizures
+T51	disease_or_phenotypic_feature 1749 1780	agenesis of the corpus callosum
+T52	chemical 1843 1855	drug-eluting
+T53	disease 1948 1951	PAD
+T54	chemical 2035 2038	fat
+T55	disease_or_phenotypic_feature 2051 2071	hypertriglyceridemia
+T56	disease_or_phenotypic_feature 2073 2089	hyperinsulinemia
+T57	chemical 2091 2098	glucose
+T58	chemical 2162 2167	lipid
+T59	chemical 2327 2348	nicotinamide-mediated
+T60	disease 2354 2359	blood
+T61	disease_or_phenotypic_feature 2476 2484	syndrome
+T62	disease_or_phenotypic_feature 2501 2521	rheumatoid arthritis
+T63	chemical 2553 2563	antagonist
+T64	chemical 2564 2574	etanercept
+T65	disease 2591 2600	condition
+T66	chemical 2635 2644	vitamin A
+T67	disease 2708 2715	rubella
+T68	disease 2771 2779	diarrhea

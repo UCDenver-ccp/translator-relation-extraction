@@ -1,0 +1,65 @@
+T1	chemical 35 45	anesthesia
+T2	disease_or_phenotypic_feature 50 58	cataract
+T3	disease_or_phenotypic_feature 95 102	obesity
+T4	chemical 142 157	dexmedetomidine
+T5	chemical 165 173	propofol
+T6	chemical 218 228	biological
+T7	chemical 257 266	oxidative
+T8	disease_or_phenotypic_feature 288 295	obesity
+T9	disease_or_phenotypic_feature 327 330	MVD
+T10	chemical 400 411	factor VIII
+T11	chemical 420 427	antigen
+T12	chemical 448 456	neomycin
+T13	chemical 472 481	inhibitor
+T14	disease_or_phenotypic_feature 498 507	dependent
+T15	chemical 670 678	antigens
+T16	disease_or_phenotypic_feature 725 744	bronchial carcinoma
+T17	disease_or_phenotypic_feature 805 816	nephropathy
+T18	chemical 821 829	glycerol
+T19	disease_or_phenotypic_feature 846 869	renal failure syndromes
+T20	disease_or_phenotypic_feature 880 891	proteinuria
+T21	disease_or_phenotypic_feature 893 908	hypoalbuminemia
+T22	disease_or_phenotypic_feature 910 924	hyperlipidemia
+T23	chemical 961 970	oxidative
+T24	chemical 1015 1023	nicotine
+T25	chemical 1040 1048	nicotine
+T26	disease_or_phenotypic_feature 1057 1065	seizures
+T27	chemical 1104 1118	growth hormone
+T28	disease_or_phenotypic_feature 1123 1130	obesity
+T29	chemical 1132 1140	Estrogen
+T30	chemical 1145 1157	progesterone
+T31	disease_or_phenotypic_feature 1235 1248	breast cancer
+T32	chemical 1259 1267	Hydrogen
+T33	chemical 1268 1274	saline
+T34	disease_or_phenotypic_feature 1301 1309	cataract
+T35	chemical 1330 1334	drug
+T36	disease_or_phenotypic_feature 1347 1360	renal failure
+T37	chemical 1416 1423	alcohol
+T38	chemical 1431 1435	food
+T39	disease_or_phenotypic_feature 1440 1447	obesity
+T40	chemical 1474 1487	ascorbic acid
+T41	chemical 1528 1535	hormone
+T42	disease_or_phenotypic_feature 1547 1562	prostate cancer
+T43	disease 1655 1663	allergic
+T44	chemical 1719 1726	steroid
+T45	chemical 1745 1754	Oxidative
+T46	disease_or_phenotypic_feature 1804 1819	atherosclerosis
+T47	disease_or_phenotypic_feature 1828 1835	obesity
+T48	disease_or_phenotypic_feature 1851 1865	hyperlipidemia
+T49	disease 2013 2019	injury
+T50	disease 2083 2090	colitis
+T51	chemical 2109 2116	Antigen
+T52	disease_or_phenotypic_feature 2143 2157	ovarian cancer
+T53	chemical 2175 2182	antigen
+T54	chemical 2239 2248	molecular
+T55	disease 2279 2289	infectious
+T56	disease 2290 2298	diseases
+T57	chemical 2344 2350	oxygen
+T58	disease_or_phenotypic_feature 2410 2423	heart failure
+T59	disease 2438 2447	disorders
+T60	disease 2464 2471	obesity
+T61	disease 2473 2488	type 2 diabetes
+T62	disease 2501 2534	non-alcoholic fatty liver disease
+T63	chemical 2515 2520	fatty
+T64	chemical 2563 2570	glycine
+T65	chemical 2687 2694	glycine

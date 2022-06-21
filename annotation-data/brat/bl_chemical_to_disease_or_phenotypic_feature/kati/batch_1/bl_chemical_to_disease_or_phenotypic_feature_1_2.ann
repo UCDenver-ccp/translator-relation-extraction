@@ -1,0 +1,63 @@
+T1	chemical 20 27	calcium
+T2	chemical 28 39	antagonists
+T3	disease_or_phenotypic_feature 74 96	ischemic heart disease
+T4	disease_or_phenotypic_feature 114 135	systemic hypertension
+T5	disease_or_phenotypic_feature 137 161	congestive heart failure
+T6	disease_or_phenotypic_feature 189 214	gastrointestinal diseases
+T7	chemical 216 226	Guanfacine
+T8	chemical 245 249	drug
+T9	disease_or_phenotypic_feature 275 281	autism
+T10	disease_or_phenotypic_feature 286 326	attention deficit hyperactivity disorder
+T11	disease_or_phenotypic_feature 352 363	lung cancer
+T12	chemical 393 400	antigen
+T13	chemical 413 420	leucine
+T14	chemical 436 446	Bortezomib
+T15	chemical 460 469	inhibitor
+T16	disease_or_phenotypic_feature 550 566	multiple myeloma
+T17	disease_or_phenotypic_feature 578 592	prostate tumor
+T18	chemical 593 601	antigens
+T19	chemical 685 693	antigens
+T20	chemical 737 744	antigen
+T21	chemical 774 782	chloride
+T22	disease_or_phenotypic_feature 818 828	hypertonic
+T23	disease_or_phenotypic_feature 829 841	contractures
+T24	chemical 855 863	antigens
+T25	disease_or_phenotypic_feature 868 874	cancer
+T26	disease_or_phenotypic_feature 933 949	malignant tumors
+T27	chemical 995 999	drug
+T28	disease 1074 1087	herpes zoster
+T29	chemical 1100 1107	retinal
+T30	disease 1100 1122	retinal vein occlusion
+T31	disease 1194 1213	active tuberculosis
+T32	chemical 1294 1304	inhibitors
+T33	chemical 1327 1332	LDL-C
+T34	disease 1396 1418	cardiovascular disease
+T35	disease_or_phenotypic_feature 1437 1469	Pancreatic neuroendocrine tumors
+T36	chemical 1538 1545	biology
+T37	disease_or_phenotypic_feature 1582 1598	muscle hypotonia
+T38	disease_or_phenotypic_feature 1685 1692	obesity
+T39	chemical 1697 1711	growth hormone
+T40	chemical 1716 1731	thyroid hormone
+T41	chemical 1745 1751	oxygen
+T42	disease_or_phenotypic_feature 1819 1832	renal failure
+T43	chemical 1837 1844	ethanol
+T44	chemical 1858 1869	antioxidant
+T45	disease_or_phenotypic_feature 1927 1935	cataract
+T46	disease_or_phenotypic_feature 1940 1955	atherosclerosis
+T47	disease 1957 1992	Thrombotic thrombocytopenic purpura
+T48	chemical 1994 1997	TTP
+T49	disease 1994 1997	TTP
+T50	chemical 2121 2131	Anesthesia
+T51	disease_or_phenotypic_feature 2135 2143	cataract
+T52	chemical 2171 2178	Glucose
+T53	disease_or_phenotypic_feature 2234 2247	heterogeneous
+T54	disease 2308 2328	basal cell carcinoma
+T55	disease 2329 2333	(BCC
+T56	chemical 2377 2385	residual
+T57	disease 2386 2391	tumor
+T58	chemical 2460 2471	alendronate
+T59	chemical 2472 2478	sodium
+T60	disease_or_phenotypic_feature 2511 2524	hypercalcemia
+T61	disease_or_phenotypic_feature 2525 2539	hypercalciuria
+T62	chemical 2639 2646	hormone
+T63	disease_or_phenotypic_feature 2661 2670	pituitary

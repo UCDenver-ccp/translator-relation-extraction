@@ -1,0 +1,68 @@
+T1	chemical 0 12	Ginsenosides
+T2	chemical 38 51	Panax ginseng
+T3	chemical 94 104	biological
+T4	disease_or_phenotypic_feature 132 145	hyperglycemia
+T5	disease_or_phenotypic_feature 147 154	obesity
+T6	disease_or_phenotypic_feature 159 183	type 2 diabetes mellitus
+T7	chemical 206 214	androgen
+T8	disease_or_phenotypic_feature 215 224	dependent
+T9	disease_or_phenotypic_feature 225 240	prostate tumors
+T10	chemical 268 276	androgen
+T11	chemical 297 306	Serotonin
+T12	chemical 316 326	inhibitors
+T13	chemical 336 351	dexfenfluramine
+T14	chemical 353 363	fluoxetine
+T15	chemical 368 379	fluvoxamine
+T16	disease_or_phenotypic_feature 465 472	obesity
+T17	chemical 492 499	mineral
+T18	disease_or_phenotypic_feature 534 543	essential
+T19	disease_or_phenotypic_feature 554 561	obesity
+T20	chemical 582 593	aldosterone
+T21	disease_or_phenotypic_feature 771 789	adenoacanthomatous
+T22	chemical 825 832	antigen
+T23	disease 905 914	infection
+T24	chemical 960 977	fluorescent probe
+T25	chemical 972 977	probe
+T26	chemical 1014 1021	trypsin
+T27	chemical 1022 1031	inhibitor
+T28	disease_or_phenotypic_feature 1043 1049	cancer
+T29	chemical 1050 1057	antigen
+T30	chemical 1117 1125	NK cells
+T31	disease_or_phenotypic_feature 1148 1154	cancer
+T32	chemical 1200 1208	NK cells
+T33	chemical 1253 1260	antigen
+T34	disease_or_phenotypic_feature 1274 1297	Squamous cell carcinoma
+T35	chemical 1298 1305	antigen
+T36	disease_or_phenotypic_feature 1379 1389	lung tumor
+T37	chemical 1414 1423	inhibitor
+T38	chemical 1427 1435	thrombin
+T39	chemical 1455 1459	drug
+T40	disease_or_phenotypic_feature 1488 1497	cataracts
+T41	chemical 1513 1526	disinfectants
+T42	disease 1643 1649	asthma
+T43	disease_or_phenotypic_feature 1765 1771	cancer
+T44	chemical 1784 1792	antigens
+T45	chemical 1827 1835	antigens
+T46	chemical 1920 1930	penicillin
+T47	chemical 1933 1943	benzathine
+T48	chemical 1970 1981	anesthetics
+T49	disease 2014 2022	syphilis
+T50	chemical 2084 2094	inhibitors
+T51	disease_or_phenotypic_feature 2099 2112	heart failure
+T52	chemical 2114 2124	Biomarkers
+T53	disease_or_phenotypic_feature 2150 2157	obesity
+T54	disease_or_phenotypic_feature 2162 2170	diabetes
+T55	disease_or_phenotypic_feature 2202 2219	mammary carcinoma
+T56	chemical 2254 2261	antigen
+T57	chemical 2416 2424	antigens
+T58	chemical 2463 2473	fluoxetine
+T59	disease_or_phenotypic_feature 2501 2508	obesity
+T60	chemical 2540 2546	oxygen
+T61	disease_or_phenotypic_feature 2591 2614	obstructive sleep apnea
+T62	disease_or_phenotypic_feature 2624 2632	syndrome
+T63	chemical 2659 2666	antigen
+T64	disease_or_phenotypic_feature 2680 2683	CEA
+T65	chemical 2726 2732	leptin
+T66	disease_or_phenotypic_feature 2734 2741	obesity
+T67	chemical 2743 2751	hormonal
+T68	disease_or_phenotypic_feature 2766 2782	male infertility

@@ -1,0 +1,63 @@
+T1	disease_or_phenotypic_feature 61 68	obesity
+T2	disease_or_phenotypic_feature 115 122	obesity
+T3	chemical 126 138	testosterone
+T4	chemical 170 177	hormone
+T5	disease_or_phenotypic_feature 222 229	obesity
+T6	chemical 263 269	oxygen
+T7	disease_or_phenotypic_feature 309 332	coronary artery disease
+T8	disease_or_phenotypic_feature 337 350	heart failure
+T9	disease_or_phenotypic_feature 368 381	heart failure
+T10	chemical 417 423	sodium
+T11	chemical 424 431	calcium
+T12	disease_or_phenotypic_feature 472 479	obesity
+T13	disease_or_phenotypic_feature 505 512	obesity
+T14	chemical 538 542	food
+T15	chemical 564 574	inhibitors
+T16	chemical 597 602	LDL-C
+T17	disease 666 688	cardiovascular disease
+T18	disease_or_phenotypic_feature 760 767	sarcoma
+T19	chemical 795 801	oxygen
+T20	disease 812 847	Thrombotic thrombocytopenic purpura
+T21	chemical 849 852	TTP
+T22	disease 849 852	TTP
+T23	chemical 1003 1011	epitopes
+T24	chemical 1022 1030	antigens
+T25	disease_or_phenotypic_feature 1057 1070	breast cancer
+T26	chemical 1079 1090	sibutramine
+T27	chemical 1119 1137	serotonergic drugs
+T28	disease_or_phenotypic_feature 1159 1166	obesity
+T29	chemical 1174 1181	calcium
+T30	chemical 1227 1234	hormone
+T31	disease_or_phenotypic_feature 1235 1244	dependent
+T32	disease 1289 1309	basal cell carcinoma
+T33	disease 1310 1314	(BCC
+T34	chemical 1358 1366	residual
+T35	disease 1367 1372	tumor
+T36	disease_or_phenotypic_feature 1455 1458	MVA
+T37	chemical 1455 1458	MVA
+T38	chemical 1500 1507	antigen
+T39	chemical 1513 1516	MVA
+T40	chemical 1586 1594	Apatinib
+T41	chemical 1604 1629	tyrosine kinase inhibitor
+T42	disease_or_phenotypic_feature 1658 1673	cervical cancer
+T43	chemical 1694 1704	Paclitaxel
+T44	chemical 1706 1720	Growth hormone
+T45	disease_or_phenotypic_feature 1745 1761	crouzon syndrome
+T46	disease_or_phenotypic_feature 1767 1780	hydrocephalus
+T47	disease_or_phenotypic_feature 1795 1822	transitional cell carcinoma
+T48	chemical 1867 1875	antigens
+T49	chemical 1893 1897	food
+T50	chemical 1902 1907	water
+T51	chemical 1918 1933	aurothioglucose
+T52	disease_or_phenotypic_feature 1934 1941	obesity
+T53	chemical 1979 1986	antigen
+T54	disease_or_phenotypic_feature 2051 2059	melanoma
+T55	chemical 2097 2104	antigen
+T56	disease 2160 2183	undifferentiated/poorly
+T57	disease 2160 2198	undifferentiated/poorly differentiated
+T58	disease 2199 2223	nasopharyngeal carcinoma
+T59	chemical 2251 2257	proton
+T60	chemical 2310 2320	inhibitors
+T61	disease_or_phenotypic_feature 2341 2354	heart failure
+T62	disease_or_phenotypic_feature 2356 2374	Malignant melanoma
+T63	chemical 2416 2424	antigens

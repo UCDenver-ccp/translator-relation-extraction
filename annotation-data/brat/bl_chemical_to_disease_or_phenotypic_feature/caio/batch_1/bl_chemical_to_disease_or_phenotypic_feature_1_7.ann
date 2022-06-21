@@ -1,0 +1,63 @@
+T1	chemical 23 33	biomarkers
+T2	disease_or_phenotypic_feature 39 48	psoriasis
+T3	disease_or_phenotypic_feature 53 60	obesity
+T4	chemical 154 160	oxygen
+T5	disease_or_phenotypic_feature 212 218	cancer
+T6	chemical 297 306	metformin
+T7	chemical 308 311	CTM
+T8	disease_or_phenotypic_feature 314 319	obese
+T9	disease_or_phenotypic_feature 339 344	obese
+T10	chemical 355 364	metformin
+T11	chemical 409 420	antioxidant
+T12	chemical 421 428	enzymes
+T13	disease_or_phenotypic_feature 444 452	cataract
+T14	disease_or_phenotypic_feature 457 460	AMD
+T15	chemical 457 460	AMD
+T16	chemical 497 505	Graphite
+T17	disease 517 522	K-Ion
+T18	chemical 517 522	K-Ion
+T19	chemical 564 569	nylon
+T20	disease_or_phenotypic_feature 586 595	cataracts
+T21	chemical 607 615	hormones
+T22	chemical 638 645	hormone
+T23	disease_or_phenotypic_feature 646 655	dependent
+T24	disease_or_phenotypic_feature 693 709	hyperinsulinemia
+T25	chemical 711 718	glucose
+T26	disease_or_phenotypic_feature 732 739	obesity
+T27	chemical 777 784	hormone
+T28	disease_or_phenotypic_feature 785 794	dependent
+T29	disease_or_phenotypic_feature 805 818	breast cancer
+T30	chemical 829 839	anesthesia
+T31	chemical 866 876	anesthesia
+T32	disease_or_phenotypic_feature 898 906	cataract
+T33	disease_or_phenotypic_feature 935 948	hypercalcemia
+T34	chemical 954 964	clodronate
+T35	chemical 1030 1044	Cyclosporine-A
+T36	disease 1068 1087	Gingival Overgrowth
+T37	chemical 1106 1115	Buspirone
+T38	chemical 1119 1138	5-hydroxytryptamine
+T39	chemical 1141 1148	agonist
+T40	disease_or_phenotypic_feature 1163 1180	cerebellar ataxia
+T41	chemical 1182 1191	Oxidative
+T42	disease_or_phenotypic_feature 1211 1219	cataract
+T43	chemical 1249 1255	oxygen
+T44	disease_or_phenotypic_feature 1364 1373	pneumonia
+T45	chemical 1375 1379	drug
+T46	chemical 1384 1390	oxygen
+T47	disease_or_phenotypic_feature 1461 1474	renal failure
+T48	disease_or_phenotypic_feature 1476 1481	Optic
+T49	disease_or_phenotypic_feature 1570 1579	pituitary
+T50	chemical 1604 1618	growth hormone
+T51	chemical 1750 1754	drug
+T52	chemical 1767 1776	cisplatin
+T53	disease_or_phenotypic_feature 1863 1879	laryngeal cancer
+T54	chemical 1881 1893	Nitric oxide
+T55	chemical 1898 1904	oxygen
+T56	disease_or_phenotypic_feature 1928 1941	heart failure
+T57	disease_or_phenotypic_feature 1946 1954	diabetes
+T58	chemical 1956 1967	Aldosterone
+T59	chemical 1968 1988	receptor antagonists
+T60	disease_or_phenotypic_feature 2009 2022	heart failure
+T61	chemical 2075 2082	gelatin
+T62	chemical 2083 2087	gold
+T63	disease_or_phenotypic_feature 2179 2185	glioma

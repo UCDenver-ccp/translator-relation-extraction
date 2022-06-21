@@ -1,0 +1,61 @@
+T1	disease_or_phenotypic_feature 0 11	Vaccination
+T2	chemical 33 41	antigens
+T3	chemical 99 107	nicotine
+T4	chemical 111 117	leptin
+T5	disease_or_phenotypic_feature 150 157	obesity
+T6	disease 160 165	Tumor
+T7	chemical 190 208	apoptosis-inducing
+T8	chemical 209 215	ligand
+T9	disease 322 328	cancer
+T10	chemical 445 451	sodium
+T11	disease_or_phenotypic_feature 474 480	autism
+T12	disease_or_phenotypic_feature 481 504	intellectual disability
+T13	chemical 519 529	anesthetic
+T14	chemical 561 568	balance
+T15	disease_or_phenotypic_feature 588 601	renal failure
+T16	chemical 642 646	drug
+T17	chemical 662 666	food
+T18	disease_or_phenotypic_feature 713 728	type 2 diabetes
+T19	chemical 735 746	cholesterol
+T20	disease_or_phenotypic_feature 748 761	heart disease
+T21	disease_or_phenotypic_feature 767 774	obesity
+T22	chemical 776 784	Orlistat
+T23	chemical 808 812	drug
+T24	disease_or_phenotypic_feature 853 860	obesity
+T25	chemical 874 883	biomarker
+T26	disease_or_phenotypic_feature 888 901	heart failure
+T27	chemical 924 948	CB1 receptor antagonists
+T28	disease_or_phenotypic_feature 953 960	obesity
+T29	chemical 966 977	methylation
+T30	disease 1092 1099	PPP2R2B
+T31	chemical 1165 1179	angiotensin II
+T32	chemical 1180 1190	antagonist
+T33	chemical 1191 1202	candesartan
+T34	disease_or_phenotypic_feature 1221 1234	renal failure
+T35	disease_or_phenotypic_feature 1263 1284	renal artery stenosis
+T36	chemical 1316 1328	thioridazine
+T37	chemical 1330 1338	diuretic
+T38	disease_or_phenotypic_feature 1390 1401	hypokalemia
+T39	disease_or_phenotypic_feature 1405 1417	hypocalcemia
+T40	chemical 1515 1525	anesthetic
+T41	chemical 1527 1533	oxygen
+T42	disease_or_phenotypic_feature 1566 1588	malignant hyperthermia
+T43	chemical 1645 1655	inhibitors
+T44	disease_or_phenotypic_feature 1660 1667	obesity
+T45	chemical 1695 1699	drug
+T46	chemical 1746 1756	paclitaxel
+T47	disease_or_phenotypic_feature 1795 1810	prostate cancer
+T48	chemical 1870 1874	drug
+T49	chemical 1916 1922	Fibrin
+T50	disease 1946 1951	Blood
+T51	chemical 2006 2018	Thallium-201
+T52	chemical 2019 2027	chloride
+T53	disease_or_phenotypic_feature 2040 2050	lung tumor
+T54	chemical 2138 2147	gefitinib
+T55	disease 2162 2174	glioblastoma
+T56	disease_or_phenotypic_feature 2296 2311	Down's syndrome
+T57	disease_or_phenotypic_feature 2316 2322	autism
+T58	chemical 2336 2346	fluoxetine
+T59	chemical 2485 2493	ion-pair
+T60	disease 2485 2493	ion-pair
+T61	chemical 2505 2510	lipid

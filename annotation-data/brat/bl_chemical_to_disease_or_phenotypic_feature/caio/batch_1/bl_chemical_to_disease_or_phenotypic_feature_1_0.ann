@@ -1,0 +1,68 @@
+T1	chemical 61 71	perampanel
+T2	chemical 92 111	receptor antagonist
+T3	disease_or_phenotypic_feature 116 124	seizures
+T4	disease_or_phenotypic_feature 150 156	glioma
+T5	chemical 220 228	agonists
+T6	chemical 236 247	antagonists
+T7	chemical 251 260	adenosine
+T8	disease_or_phenotypic_feature 289 296	obesity
+T9	chemical 310 319	adenosine
+T10	disease_or_phenotypic_feature 372 379	obesity
+T11	chemical 458 468	biological
+T12	disease_or_phenotypic_feature 516 529	breast cancer
+T13	chemical 531 540	Pazopanib
+T14	chemical 575 582	retinal
+T15	disease 583 588	wound
+T16	disease 667 671	pale
+T17	chemical 767 777	inhibitors
+T18	chemical 798 801	ras
+T19	disease_or_phenotypic_feature 802 811	dependent
+T20	chemical 923 927	drug
+T21	disease_or_phenotypic_feature 938 946	seizures
+T22	chemical 1051 1058	hormone
+T23	chemical 1092 1096	ACTH
+T24	disease_or_phenotypic_feature 1125 1143	Cushing's syndrome
+T25	disease 1182 1193	Sensitivity
+T26	disease 1300 1329	multiple chemical sensitivity
+T27	chemical 1309 1317	chemical
+T28	disease 1330 1335	(MCS)
+T29	chemical 1371 1385	Aminoguanidine
+T30	chemical 1399 1408	inhibitor
+T31	disease_or_phenotypic_feature 1444 1453	cataracts
+T32	chemical 1494 1503	potassium
+T33	chemical 1516 1522	sodium
+T34	chemical 1526 1535	potassium
+T35	disease_or_phenotypic_feature 1562 1569	obesity
+T36	chemical 1571 1583	Temozolomide
+T37	chemical 1591 1595	drug
+T38	disease_or_phenotypic_feature 1627 1636	malignant
+T39	chemical 1703 1707	drug
+T40	chemical 1709 1720	sibutramine
+T41	chemical 1728 1738	adrenaline
+T42	chemical 1764 1773	inhibitor
+T43	disease_or_phenotypic_feature 1817 1824	obesity
+T44	chemical 1853 1859	leptin
+T45	chemical 1860 1867	biology
+T46	chemical 1898 1904	leptin
+T47	disease_or_phenotypic_feature 1926 1933	obesity
+T48	disease_or_phenotypic_feature 1945 1953	diabetes
+T49	disease_or_phenotypic_feature 1958 1965	obesity
+T50	disease_or_phenotypic_feature 2029 2039	ameliorate
+T51	disease_or_phenotypic_feature 2040 2057	cerebral ischemia
+T52	chemical 2101 2107	oxygen
+T53	disease_or_phenotypic_feature 2117 2123	Anemia
+T54	chemical 2165 2171	oxygen
+T55	disease_or_phenotypic_feature 2327 2330	AML
+T56	chemical 2372 2380	antigens
+T57	chemical 2425 2429	date
+T58	chemical 2507 2514	antigen
+T59	chemical 2556 2566	biomarkers
+T60	disease_or_phenotypic_feature 2599 2605	cancer
+T61	chemical 2630 2641	biochemical
+T62	disease_or_phenotypic_feature 2659 2667	seminoma
+T63	chemical 2689 2692	sec
+T64	chemical 2694 2697	sed
+T65	disease 2714 2717	sei
+T66	chemical 2835 2845	inhibitors
+T67	chemical 2850 2858	platinum
+T68	disease_or_phenotypic_feature 2963 2980	pancreatic cancer

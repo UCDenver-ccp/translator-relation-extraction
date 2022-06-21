@@ -1,0 +1,65 @@
+T1	chemical 14 24	fluoxetine
+T2	disease_or_phenotypic_feature 57 64	obesity
+T3	disease_or_phenotypic_feature 66 86	Cognitive impairment
+T4	disease_or_phenotypic_feature 110 123	heart failure
+T5	chemical 137 147	biomarkers
+T6	disease_or_phenotypic_feature 194 207	renal failure
+T7	chemical 244 253	inhibitor
+T8	chemical 275 284	potassium
+T9	chemical 322 329	antigen
+T10	disease_or_phenotypic_feature 397 403	cancer
+T11	disease_or_phenotypic_feature 425 438	Breast Cancer
+T12	chemical 452 463	biochemical
+T13	disease_or_phenotypic_feature 578 592	ovarian tumors
+T14	chemical 654 660	oxygen
+T15	disease_or_phenotypic_feature 674 683	malignant
+T16	chemical 718 729	cauliflower
+T17	chemical 754 765	cauliflower
+T18	disease_or_phenotypic_feature 817 824	colitis
+T19	chemical 849 856	dextran
+T20	chemical 857 864	sulfate
+T21	chemical 865 871	sodium
+T22	chemical 873 880	Alcohol
+T23	chemical 891 898	solvent
+T24	disease_or_phenotypic_feature 954 962	dementia
+T25	disease_or_phenotypic_feature 967 988	cerebral degeneration
+T26	chemical 1018 1025	ghrelin
+T27	chemical 1054 1058	drug
+T28	disease_or_phenotypic_feature 1077 1084	obesity
+T29	disease_or_phenotypic_feature 1099 1105	ataxia
+T30	chemical 1156 1160	drug
+T31	chemical 1161 1171	gabapentin
+T32	chemical 1254 1257	II)
+T33	chemical 1259 1263	CDDP
+T34	chemical 1266 1277	carboplatin
+T35	chemical 1279 1295	cyclophosphamide
+T36	disease_or_phenotypic_feature 1297 1300	CTX
+T37	chemical 1306 1314	thiotepa
+T38	chemical 1370 1374	drug
+T39	chemical 1439 1463	high-density lipoprotein
+T40	chemical 1439 1475	high-density lipoprotein cholesterol
+T41	chemical 1477 1483	HDL-C)
+T42	disease 1519 1541	cardiovascular disease
+T43	chemical 1628 1634	Barium
+T44	disease 1650 1654	rare
+T45	chemical 1723 1729	barium
+T46	disease_or_phenotypic_feature 1820 1833	renal failure
+T47	disease_or_phenotypic_feature 1851 1864	hypercalcemia
+T48	disease_or_phenotypic_feature 1866 1883	hyperphosphatemia
+T49	chemical 1897 1916	parathyroid hormone
+T50	disease_or_phenotypic_feature 1932 1947	cardiac failure
+T51	chemical 1953 1964	angiotensin
+T52	chemical 1976 1993	enzyme inhibitors
+T53	disease_or_phenotypic_feature 2016 2029	breast cancer
+T54	disease_or_phenotypic_feature 2035 2048	heterogeneous
+T55	chemical 2080 2089	molecular
+T56	chemical 2108 2113	probe
+T57	disease_or_phenotypic_feature 2138 2144	asthma
+T58	disease_or_phenotypic_feature 2149 2156	obesity
+T59	chemical 2164 2167	Abl
+T60	chemical 2168 2177	inhibitor
+T61	chemical 2179 2188	nilotinib
+T62	disease_or_phenotypic_feature 2235 2252	cerebellar ataxia
+T63	chemical 2285 2288	air
+T64	disease_or_phenotypic_feature 2313 2320	obesity
+T65	chemical 2343 2347	food

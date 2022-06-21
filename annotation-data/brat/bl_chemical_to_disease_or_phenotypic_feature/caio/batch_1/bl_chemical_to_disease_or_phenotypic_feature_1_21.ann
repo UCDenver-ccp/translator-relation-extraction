@@ -1,0 +1,66 @@
+T1	disease_or_phenotypic_feature 0 15	Prostate cancer
+T2	chemical 17 20	PCa
+T3	chemical 35 43	androgen
+T4	chemical 96 104	androgen
+T5	chemical 148 157	Tolcapone
+T6	chemical 166 175	oxidative
+T7	disease_or_phenotypic_feature 238 251	Neuroblastoma
+T8	disease_or_phenotypic_feature 282 296	hypomagnesemic
+T9	disease_or_phenotypic_feature 297 308	hypokalemia
+T10	chemical 356 360	acid
+T11	chemical 361 365	base
+T12	disease_or_phenotypic_feature 407 418	hypokalemia
+T13	disease_or_phenotypic_feature 452 468	hypophosphatemia
+T14	disease_or_phenotypic_feature 472 478	rarely
+T15	disease_or_phenotypic_feature 479 496	hyperphosphatemia
+T16	chemical 552 556	acid
+T17	chemical 557 561	base
+T18	chemical 577 585	antigens
+T19	disease_or_phenotypic_feature 620 627	sarcoma
+T20	chemical 641 649	apatinib
+T21	chemical 650 658	solution
+T22	disease_or_phenotypic_feature 687 690	HCC
+T23	chemical 734 742	antigens
+T24	chemical 772 782	biomarkers
+T25	disease_or_phenotypic_feature 786 792	cancer
+T26	chemical 794 806	Benproperine
+T27	chemical 817 826	inhibitor
+T28	disease_or_phenotypic_feature 839 845	cancer
+T29	chemical 906 915	melatonin
+T30	chemical 919 925	sodium
+T31	disease_or_phenotypic_feature 943 951	cataract
+T32	chemical 975 983	fentanyl
+T33	chemical 998 1006	morphine
+T34	chemical 1024 1028	drug
+T35	disease_or_phenotypic_feature 1041 1058	refractory cancer
+T36	disease_or_phenotypic_feature 1059 1067	cachexia
+T37	chemical 1088 1095	cascade
+T38	chemical 1133 1137	drug
+T39	disease_or_phenotypic_feature 1151 1157	cancer
+T40	chemical 1185 1189	acid
+T41	disease_or_phenotypic_feature 1193 1206	renal failure
+T42	disease_or_phenotypic_feature 1241 1247	errors
+T43	chemical 1255 1259	urea
+T44	chemical 1267 1277	Biomarkers
+T45	disease_or_phenotypic_feature 1281 1287	cancer
+T46	disease_or_phenotypic_feature 1288 1296	cachexia
+T47	chemical 1328 1335	antigen
+T48	chemical 1397 1404	antigen
+T49	disease_or_phenotypic_feature 1412 1434	Ewing family of tumors
+T50	disease_or_phenotypic_feature 1463 1481	hyperprolactinemia
+T51	chemical 1538 1549	domperidone
+T52	disease_or_phenotypic_feature 1617 1630	heart failure
+T53	disease_or_phenotypic_feature 1649 1656	obesity
+T54	chemical 1669 1675	oxygen
+T55	disease_or_phenotypic_feature 1729 1742	breast cancer
+T56	disease_or_phenotypic_feature 1763 1770	obesity
+T57	chemical 1793 1799	oxygen
+T58	chemical 1835 1843	Estrogen
+T59	disease_or_phenotypic_feature 1848 1855	obesity
+T60	chemical 1893 1901	antigens
+T61	disease_or_phenotypic_feature 1905 1921	breast carcinoma
+T62	chemical 1935 1941	sodium
+T63	chemical 1942 1951	potassium
+T64	disease_or_phenotypic_feature 1963 1970	obesity
+T65	disease_or_phenotypic_feature 1985 1992	obesity
+T66	chemical 2032 2043	bupivacaine

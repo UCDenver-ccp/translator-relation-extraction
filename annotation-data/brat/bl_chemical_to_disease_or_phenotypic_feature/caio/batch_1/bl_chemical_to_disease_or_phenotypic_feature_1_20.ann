@@ -1,0 +1,70 @@
+T1	chemical 15 22	hormone
+T2	disease_or_phenotypic_feature 33 40	obesity
+T3	chemical 103 111	antigens
+T4	disease_or_phenotypic_feature 120 126	cancer
+T5	chemical 136 144	antigens
+T6	chemical 163 171	antigens
+T7	chemical 191 199	antigens
+T8	chemical 243 252	Buserelin
+T9	chemical 279 287	estrogen
+T10	disease_or_phenotypic_feature 331 346	mammary cancers
+T11	disease_or_phenotypic_feature 407 413	anemia
+T12	chemical 472 479	enzymes
+T13	disease_or_phenotypic_feature 487 495	azotemia
+T14	disease_or_phenotypic_feature 497 509	hyperkalemia
+T15	disease_or_phenotypic_feature 511 523	hypoglycemia
+T16	disease_or_phenotypic_feature 525 540	hypoalbuminemia
+T17	disease_or_phenotypic_feature 546 557	proteinuria
+T18	disease_or_phenotypic_feature 568 575	obesity
+T19	chemical 586 593	glucose
+T20	disease_or_phenotypic_feature 605 623	metabolic syndrome
+T21	chemical 629 643	growth hormone
+T22	chemical 694 704	biological
+T23	disease 745 748	UIP
+T24	disease 775 793	Systemic sclerosis
+T25	disease 795 798	SSc
+T26	chemical 795 798	SSc
+T27	disease 805 809	rare
+T28	disease 810 828	autoimmune disease
+T29	disease 951 956	tumor
+T30	chemical 1020 1024	drug
+T31	disease_or_phenotypic_feature 1036 1049	renal failure
+T32	disease 1115 1119	PCOS
+T33	chemical 1166 1172	-label
+T34	disease_or_phenotypic_feature 1256 1269	hyperglycemia
+T35	disease_or_phenotypic_feature 1271 1287	hyperinsulinemia
+T36	disease_or_phenotypic_feature 1289 1303	hyperlipidemia
+T37	chemical 1309 1318	oxidative
+T38	chemical 1436 1445	inhibitor
+T39	chemical 1455 1465	L-arginine
+T40	chemical 1467 1472	L-NNA
+T41	disease_or_phenotypic_feature 1658 1670	fibrosarcoma
+T42	chemical 1713 1718	group
+T43	disease 1801 1804	EDs
+T44	disease_or_phenotypic_feature 1854 1862	melanoma
+T45	chemical 1904 1911	antigen
+T46	chemical 1921 1929	effector
+T47	chemical 2014 2023	inhibitor
+T48	chemical 2025 2033	ramipril
+T49	disease_or_phenotypic_feature 2065 2078	heart failure
+T50	disease_or_phenotypic_feature 2140 2153	heart failure
+T51	chemical 2162 2169	antigen
+T52	chemical 2205 2212	antigen
+T53	disease_or_phenotypic_feature 2278 2293	ovarian cancers
+T54	disease_or_phenotypic_feature 2352 2363	lung cancer
+T55	chemical 2370 2374	gold
+T56	chemical 2388 2394	probes
+T57	chemical 2426 2433	trypsin
+T58	chemical 2442 2451	inhibitor
+T59	disease_or_phenotypic_feature 2480 2487	obesity
+T60	chemical 2520 2528	estrogen
+T61	chemical 2533 2545	progesterone
+T62	disease_or_phenotypic_feature 2617 2630	breast cancer
+T63	disease_or_phenotypic_feature 2655 2658	MDC
+T64	chemical 2655 2658	MDC
+T65	chemical 2674 2683	biomarker
+T66	chemical 2730 2741	Sibutramine
+T67	chemical 2747 2756	serotonin
+T68	chemical 2761 2775	norepinephrine
+T69	chemical 2785 2794	inhibitor
+T70	disease_or_phenotypic_feature 2821 2828	obesity

@@ -1,0 +1,68 @@
+T1	chemical 13 19	oxygen
+T2	disease_or_phenotypic_feature 95 104	cataracts
+T3	disease_or_phenotypic_feature 151 157	cancer
+T4	chemical 181 185	drug
+T5	chemical 186 193	alcohol
+T6	disease_or_phenotypic_feature 212 219	obesity
+T7	disease_or_phenotypic_feature 232 241	pneumonia
+T8	chemical 288 291	RAS
+T9	chemical 292 302	inhibitors
+T10	chemical 311 322	oxaliplatin
+T11	disease_or_phenotypic_feature 331 352	peripheral neuropathy
+T12	disease 518 527	infection
+T13	chemical 562 577	polysaccharides
+T14	chemical 648 658	Naltrexone
+T15	chemical 659 668	bupropion
+T16	disease_or_phenotypic_feature 690 697	obesity
+T17	disease_or_phenotypic_feature 702 709	obesity
+T18	disease_or_phenotypic_feature 715 730	Type 2 diabetes
+T19	chemical 732 735	FSH
+T20	disease_or_phenotypic_feature 784 799	prostate cancer
+T21	chemical 835 839	GnRH
+T22	chemical 840 847	agonist
+T23	chemical 851 861	antagonist
+T24	chemical 866 870	drug
+T25	disease_or_phenotypic_feature 884 897	heart failure
+T26	disease_or_phenotypic_feature 937 949	hypoglycemic
+T27	chemical 950 954	drug
+T28	chemical 985 993	nicotine
+T29	disease_or_phenotypic_feature 997 1004	obesity
+T30	disease_or_phenotypic_feature 1009 1027	ulcerative colitis
+T31	chemical 1062 1066	drug
+T32	disease_or_phenotypic_feature 1075 1093	movement disorders
+T33	disease 1156 1161	blood
+T34	disease 1194 1199	blood
+T35	chemical 1256 1261	lipid
+T36	chemical 1288 1294	Oxygen
+T37	chemical 1296 1305	oxidative
+T38	disease_or_phenotypic_feature 1327 1340	heart failure
+T39	chemical 1342 1353	Biochemical
+T40	disease_or_phenotypic_feature 1389 1401	hyperkalemia
+T41	disease_or_phenotypic_feature 1403 1420	hyperphosphatemia
+T42	disease_or_phenotypic_feature 1422 1435	myoglobinuria
+T43	chemical 1473 1482	ornithine
+T44	disease_or_phenotypic_feature 1532 1545	neuroblastoma
+T45	chemical 1581 1593	radiolabeled
+T46	chemical 1594 1608	norepinephrine
+T47	chemical 1618 1624	iodine
+T48	chemical 1629 1652	metaiodobenzylguanidine
+T49	chemical 1662 1666	MIBG
+T50	chemical 1679 1687	chloride
+T51	disease_or_phenotypic_feature 1732 1747	pulmonary edema
+T52	chemical 1752 1767	carbon monoxide
+T53	chemical 1779 1793	Growth hormone
+T54	disease_or_phenotypic_feature 1834 1847	heart failure
+T55	chemical 1888 1896	androgen
+T56	disease_or_phenotypic_feature 1909 1924	prostate cancer
+T57	disease_or_phenotypic_feature 1943 1957	MAGIC syndrome
+T58	chemical 2016 2025	inhibitor
+T59	chemical 2026 2036	infliximab
+T60	chemical 2071 2086	phosphorylation
+T61	chemical 2139 2154	phosphorylation
+T62	chemical 2344 2358	phosphorylated
+T63	chemical 2359 2367	residues
+T64	disease 2392 2396	rich
+T65	chemical 2407 2415	residues
+T66	chemical 2526 2533	antigen
+T67	disease_or_phenotypic_feature 2548 2560	hypertensive
+T68	disease_or_phenotypic_feature 2561 2574	renal failure

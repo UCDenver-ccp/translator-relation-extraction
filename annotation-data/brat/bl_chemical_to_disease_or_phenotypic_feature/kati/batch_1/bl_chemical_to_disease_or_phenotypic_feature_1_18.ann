@@ -1,0 +1,73 @@
+T1	chemical 185 200	steroid-induced
+T2	disease 185 209	steroid-induced glaucoma
+T3	disease 238 265	vernal keratoconjunctivitis
+T4	disease_or_phenotypic_feature 317 323	cancer
+T5	chemical 351 357	oxygen
+T6	chemical 408 414	oxygen
+T7	chemical 419 427	nutrient
+T8	chemical 480 483	CsA
+T9	disease_or_phenotypic_feature 532 539	obesity
+T10	disease_or_phenotypic_feature 544 551	obesity
+T11	disease_or_phenotypic_feature 560 573	hyperglycemia
+T12	disease_or_phenotypic_feature 594 609	pulmonary edema
+T13	chemical 640 653	pentobarbital
+T14	chemical 654 664	anesthesia
+T15	disease_or_phenotypic_feature 673 681	seizures
+T16	chemical 693 706	nitrous oxide
+T17	chemical 707 717	anesthesia
+T18	disease_or_phenotypic_feature 726 734	seizures
+T19	chemical 746 753	biology
+T20	disease_or_phenotypic_feature 765 777	mesothelioma
+T21	chemical 815 818	ras
+T22	disease_or_phenotypic_feature 835 847	Hypocalcemia
+T23	disease_or_phenotypic_feature 852 868	hypophosphatemia
+T24	chemical 893 904	biochemical
+T25	chemical 930 936	sodium
+T26	disease_or_phenotypic_feature 981 994	hypoglycaemia
+T27	chemical 1003 1011	dopamine
+T28	chemical 1030 1042	Homocysteine
+T29	disease_or_phenotypic_feature 1046 1067	chronic renal failure
+T30	disease_or_phenotypic_feature 1089 1095	anemia
+T31	chemical 1103 1112	oxidative
+T32	chemical 1152 1167	malondialdehyde
+T33	chemical 1192 1203	angiotensin
+T34	chemical 1215 1221	enzyme
+T35	disease_or_phenotypic_feature 1223 1226	ACE
+T36	chemical 1228 1238	inhibitors
+T37	disease_or_phenotypic_feature 1246 1259	renal failure
+T38	disease_or_phenotypic_feature 1314 1325	proteinuria
+T39	disease_or_phenotypic_feature 1354 1360	autism
+T40	chemical 1399 1410	antagonists
+T41	disease_or_phenotypic_feature 1436 1442	autism
+T42	chemical 1472 1481	cisplatin
+T43	chemical 1561 1565	drug
+T44	disease_or_phenotypic_feature 1588 1595	sarcoma
+T45	chemical 1629 1644	epitestosterone
+T46	chemical 1648 1655	hormone
+T47	disease_or_phenotypic_feature 1656 1665	dependent
+T48	chemical 1701 1707	oxygen
+T49	disease_or_phenotypic_feature 1783 1796	heart failure
+T50	chemical 1798 1811	Glibenclamide
+T51	disease_or_phenotypic_feature 1858 1870	hypoglycemic
+T52	chemical 1871 1875	drug
+T53	chemical 1905 1912	ghrelin
+T54	disease_or_phenotypic_feature 1984 1990	autism
+T55	chemical 2037 2044	hormone
+T56	chemical 2045 2052	ghrelin
+T57	disease_or_phenotypic_feature 2076 2082	autism
+T58	chemical 2084 2094	Carvedilol
+T59	chemical 2100 2104	drug
+T60	disease_or_phenotypic_feature 2137 2150	heart failure
+T61	disease_or_phenotypic_feature 2166 2185	cardiac arrhythmias
+T62	chemical 2213 2223	anesthesia
+T63	disease_or_phenotypic_feature 2228 2236	cataract
+T64	chemical 2256 2262	oxygen
+T65	chemical 2323 2329	oxygen
+T66	disease_or_phenotypic_feature 2354 2367	heart failure
+T67	chemical 2410 2417	antigen
+T68	disease_or_phenotypic_feature 2427 2445	immune suppression
+T69	chemical 2471 2479	antigens
+T70	chemical 2523 2526	His
+T71	disease_or_phenotypic_feature 2556 2570	hyperlipidemia
+T72	disease_or_phenotypic_feature 2575 2589	hypothyroidism
+T73	disease_or_phenotypic_feature 2602 2616	hypertrichosis

@@ -1,0 +1,63 @@
+T1	disease_or_phenotypic_feature 35 49	muscle wasting
+T2	disease_or_phenotypic_feature 57 70	heart failure
+T3	disease_or_phenotypic_feature 72 90	muscular dystrophy
+T4	disease_or_phenotypic_feature 106 112	cancer
+T5	chemical 145 154	oxidative
+T6	chemical 170 181	antioxidant
+T7	chemical 210 217	oxidant
+T8	chemical 230 237	Suramin
+T9	disease_or_phenotypic_feature 286 309	squamous cell carcinoma
+T10	chemical 329 333	drug
+T11	chemical 354 362	estrogen
+T12	disease_or_phenotypic_feature 377 384	obesity
+T13	chemical 411 419	antigens
+T14	disease_or_phenotypic_feature 432 440	glaucoma
+T15	disease_or_phenotypic_feature 453 461	glaucoma
+T16	disease_or_phenotypic_feature 491 497	ataxia
+T17	disease_or_phenotypic_feature 498 505	exhibit
+T18	disease_or_phenotypic_feature 506 520	cardiomyopathy
+T19	chemical 552 558	enzyme
+T20	chemical 601 605	iron
+T21	chemical 617 624	Calcium
+T22	chemical 625 636	antagonists
+T23	disease_or_phenotypic_feature 674 687	heart failure
+T24	chemical 749 765	Hsp90 inhibitors
+T25	disease_or_phenotypic_feature 778 785	cancers
+T26	chemical 895 911	Hsp90 inhibitors
+T27	chemical 922 930	nitrogen
+T28	chemical 935 941	oxygen
+T29	disease_or_phenotypic_feature 1023 1029	cancer
+T30	chemical 1081 1092	Angiotensin
+T31	chemical 1104 1110	enzyme
+T32	chemical 1117 1127	inhibitors
+T33	disease_or_phenotypic_feature 1164 1172	arterial
+T34	disease_or_phenotypic_feature 1190 1203	heart failure
+T35	chemical 1252 1258	oxygen
+T36	disease_or_phenotypic_feature 1308 1314	cancer
+T37	disease 1385 1390	tumor
+T38	chemical 1440 1449	molecular
+T39	disease 1493 1498	Tumor
+T40	chemical 1523 1541	apoptosis-inducing
+T41	chemical 1542 1548	ligand
+T42	disease 1655 1661	cancer
+T43	chemical 1751 1762	methylation
+T44	disease 1877 1884	PPP2R2B
+T45	chemical 1938 1945	alcohol
+T46	disease_or_phenotypic_feature 1966 1979	breast cancer
+T47	chemical 1994 2001	hormone
+T48	chemical 2099 2119	P(AAm-AMPS)/alginate
+T49	disease 2163 2166	air
+T50	chemical 2371 2380	oxidative
+T51	disease_or_phenotypic_feature 2401 2408	obesity
+T52	disease_or_phenotypic_feature 2413 2420	obesity
+T53	chemical 2465 2471	oxygen
+T54	disease_or_phenotypic_feature 2561 2567	cancer
+T55	chemical 2603 2609	Fibrin
+T56	disease 2633 2638	Blood
+T57	chemical 2701 2707	sodium
+T58	chemical 2708 2717	potassium
+T59	disease_or_phenotypic_feature 2729 2736	obesity
+T60	chemical 2738 2747	Phenytoin
+T61	chemical 2748 2754	sodium
+T62	chemical 2758 2764	oxygen
+T63	disease_or_phenotypic_feature 2782 2790	seizures

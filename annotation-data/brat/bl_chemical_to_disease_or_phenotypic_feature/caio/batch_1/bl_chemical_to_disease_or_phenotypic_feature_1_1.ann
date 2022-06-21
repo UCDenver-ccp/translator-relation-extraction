@@ -1,0 +1,70 @@
+T1	chemical 5 11	sodium
+T2	chemical 12 16	food
+T3	disease_or_phenotypic_feature 67 80	heart failure
+T4	disease_or_phenotypic_feature 97 104	obesity
+T5	disease_or_phenotypic_feature 106 127	Prader-Willi syndrome
+T6	disease_or_phenotypic_feature 177 191	hypothyroidism
+T7	chemical 193 207	growth hormone
+T8	disease_or_phenotypic_feature 224 253	hypogonadotropic hypogonadism
+T9	chemical 265 285	proteasome inhibitor
+T10	chemical 304 314	bortezomib
+T11	disease_or_phenotypic_feature 344 360	multiple myeloma
+T12	chemical 389 399	biomarkers
+T13	disease_or_phenotypic_feature 404 417	heart failure
+T14	chemical 443 451	Gartanin
+T15	chemical 570 576	enzyme
+T16	disease 578 581	NAE
+T17	disease 701 716	prostate cancer
+T18	chemical 789 799	Duloxetine
+T19	chemical 826 840	antidepressant
+T20	chemical 841 845	drug
+T21	disease_or_phenotypic_feature 905 913	diabetic
+T22	disease_or_phenotypic_feature 914 935	peripheral neuropathy
+T23	chemical 970 984	Growth hormone
+T24	disease_or_phenotypic_feature 1023 1030	obesity
+T25	chemical 1114 1123	magnesium
+T26	chemical 1140 1148	solution
+T27	chemical 1149 1158	Magnesium
+T28	disease_or_phenotypic_feature 1227 1240	hypercalcemia
+T29	disease_or_phenotypic_feature 1245 1261	hypophosphatemia
+T30	disease_or_phenotypic_feature 1317 1325	melanoma
+T31	chemical 1339 1346	antigen
+T32	chemical 1356 1362	MART-1
+T33	disease_or_phenotypic_feature 1387 1395	melanoma
+T34	chemical 1473 1487	growth hormone
+T35	disease_or_phenotypic_feature 1491 1509	skeletal dysplasia
+T36	chemical 1527 1539	misonidazole
+T37	disease_or_phenotypic_feature 1554 1565	gliosarcoma
+T38	chemical 1605 1611	oxygen
+T39	chemical 1692 1695	MCC
+T40	disease_or_phenotypic_feature 1692 1695	MCC
+T41	chemical 1712 1727	biological role
+T42	chemical 1731 1734	MCC
+T43	disease 1771 1784	herpes zoster
+T44	chemical 1797 1804	retinal
+T45	disease 1797 1819	retinal vein occlusion
+T46	disease 1891 1910	active tuberculosis
+T47	chemical 1985 1997	Testosterone
+T48	disease_or_phenotypic_feature 2026 2041	type 2 diabetes
+T49	disease_or_phenotypic_feature 2052 2059	obesity
+T50	chemical 2072 2080	androgen
+T51	chemical 2159 2170	fibronectin
+T52	disease_or_phenotypic_feature 2210 2217	obesity
+T53	disease_or_phenotypic_feature 2230 2237	obesity
+T54	chemical 2246 2256	biomarkers
+T55	chemical 2280 2294	mTOR inhibitor
+T56	chemical 2296 2308	temsirolimus
+T57	chemical 2361 2371	biomarkers
+T58	disease_or_phenotypic_feature 2442 2454	malignancies
+T59	chemical 2492 2501	Marizomib
+T60	disease_or_phenotypic_feature 2530 2551	peripheral neuropathy
+T61	chemical 2596 2617	proteasome inhibitors
+T62	disease 2670 2680	depression
+T63	chemical 2848 2857	serotonin
+T64	chemical 2862 2870	dopamine
+T65	chemical 2897 2903	oxygen
+T66	disease_or_phenotypic_feature 2963 2974	lung tumors
+T67	chemical 3006 3012	oxygen
+T68	disease_or_phenotypic_feature 3022 3032	lung tumor
+T69	chemical 3126 3142	antigen-specific
+T70	disease 3263 3274	hyperplasia

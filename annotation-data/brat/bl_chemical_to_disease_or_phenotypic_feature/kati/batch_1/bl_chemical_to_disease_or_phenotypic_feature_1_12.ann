@@ -1,0 +1,75 @@
+T1	disease 40 47	non-CKD
+T2	chemical 61 66	group
+T3	chemical 89 94	group
+T4	chemical 117 122	group
+T5	disease_or_phenotypic_feature 194 202	cataract
+T6	chemical 221 230	bromfenac
+T7	chemical 242 250	solution
+T8	chemical 265 279	growth hormone
+T9	disease_or_phenotypic_feature 303 310	obesity
+T10	chemical 342 346	drug
+T11	disease_or_phenotypic_feature 391 396	fever
+T12	disease_or_phenotypic_feature 414 422	vomiting
+T13	disease_or_phenotypic_feature 424 433	diarrhoea
+T14	disease_or_phenotypic_feature 438 452	abdominal pain
+T15	chemical 454 463	Oxycodone
+T16	chemical 471 494	opioid receptor agonist
+T17	disease_or_phenotypic_feature 527 533	cancer
+T18	disease_or_phenotypic_feature 534 538	pain
+T19	chemical 561 569	antigens
+T20	chemical 577 586	urokinase
+T21	disease_or_phenotypic_feature 676 693	metastatic cancer
+T22	disease_or_phenotypic_feature 736 743	obesity
+T23	chemical 763 769	oxygen
+T24	chemical 770 781	metabolites
+T25	chemical 853 862	molecular
+T26	disease 893 903	infectious
+T27	disease 904 912	diseases
+T28	chemical 968 976	antigens
+T29	disease_or_phenotypic_feature 1005 1022	metastatic tumors
+T30	disease_or_phenotypic_feature 1052 1059	Painful
+T31	disease_or_phenotypic_feature 1060 1081	peripheral neuropathy
+T32	chemical 1086 1092	sodium
+T33	chemical 1224 1228	food
+T34	disease_or_phenotypic_feature 1263 1282	metabolic disorders
+T35	disease_or_phenotypic_feature 1291 1305	hyperlipidemia
+T36	disease_or_phenotypic_feature 1307 1320	hyperglycemia
+T37	disease_or_phenotypic_feature 1322 1329	obesity
+T38	disease_or_phenotypic_feature 1334 1356	cardiovascular disease
+T39	chemical 1372 1376	food
+T40	disease_or_phenotypic_feature 1388 1395	obesity
+T41	disease_or_phenotypic_feature 1442 1450	vomiting
+T42	disease_or_phenotypic_feature 1455 1464	diarrhoea
+T43	chemical 1472 1482	fluoxetine
+T44	disease_or_phenotypic_feature 1504 1514	drowsiness
+T45	disease_or_phenotypic_feature 1519 1528	diarrhoea
+T46	chemical 1536 1545	dothiepin
+T47	chemical 1578 1586	thrombin
+T48	disease_or_phenotypic_feature 1601 1611	thrombosis
+T49	chemical 1671 1682	biochemical
+T50	disease_or_phenotypic_feature 1734 1744	thrombosis
+T51	chemical 1770 1777	antigen
+T52	chemical 1812 1819	monitor
+T53	disease_or_phenotypic_feature 1820 1835	prostate cancer
+T54	chemical 1846 1854	hormones
+T55	chemical 1872 1879	ghrelin
+T56	disease_or_phenotypic_feature 1922 1929	obesity
+T57	disease 1988 1992	rare
+T58	disease 1993 1998	tumor
+T59	chemical 2108 2115	biology
+T60	disease 2147 2156	disorders
+T61	disease 2173 2180	obesity
+T62	disease 2182 2197	type 2 diabetes
+T63	disease 2210 2243	non-alcoholic fatty liver disease
+T64	chemical 2224 2229	fatty
+T65	chemical 2272 2279	glycine
+T66	chemical 2396 2403	glycine
+T67	chemical 2461 2498	non-steroidal anti-inflammatory drugs
+T68	chemical 2502 2511	frusemide
+T69	disease_or_phenotypic_feature 2532 2547	cardiac failure
+T70	chemical 2549 2559	Duloxetine
+T71	chemical 2563 2572	serotonin
+T72	chemical 2577 2591	norepinephrine
+T73	chemical 2601 2610	inhibitor
+T74	disease_or_phenotypic_feature 2657 2665	diabetic
+T75	disease_or_phenotypic_feature 2666 2687	peripheral neuropathy

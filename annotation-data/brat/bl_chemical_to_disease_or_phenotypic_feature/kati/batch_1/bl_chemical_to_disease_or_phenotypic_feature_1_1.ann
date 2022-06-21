@@ -1,0 +1,62 @@
+T1	chemical 0 10	Metamizole
+T2	disease 28 34	injury
+T3	disease 221 232	Sensitivity
+T4	disease 339 368	multiple chemical sensitivity
+T5	chemical 348 356	chemical
+T6	disease 369 374	(MCS)
+T7	chemical 430 433	sec
+T8	chemical 435 438	sed
+T9	disease 455 458	sei
+T10	chemical 535 544	Sorafenib
+T11	chemical 578 587	inhibitor
+T12	disease_or_phenotypic_feature 635 652	pancreatic cancer
+T13	chemical 706 718	mitoxantrone
+T14	chemical 740 744	drug
+T15	disease_or_phenotypic_feature 773 787	carcinosarcoma
+T16	chemical 839 843	drug
+T17	chemical 1016 1020	drug
+T18	disease_or_phenotypic_feature 1046 1058	brain tumors
+T19	chemical 1089 1099	inhibitors
+T20	disease_or_phenotypic_feature 1103 1110	uveitis
+T21	chemical 1133 1142	serotonin
+T22	chemical 1164 1173	biomarker
+T23	disease_or_phenotypic_feature 1178 1184	autism
+T24	disease_or_phenotypic_feature 1223 1229	cancer
+T25	chemical 1230 1234	drug
+T26	chemical 1363 1369	oxygen
+T27	chemical 1438 1446	estrogen
+T28	chemical 1480 1492	progesterone
+T29	disease 1549 1562	breast cancer
+T30	chemical 1653 1663	carbon-ion
+T31	disease 1653 1663	carbon-ion
+T32	disease 1681 1704	head and neck carcinoma
+T33	chemical 1723 1738	Povidone-iodine
+T34	disease_or_phenotypic_feature 1754 1762	cataract
+T35	chemical 1822 1830	Gartanin
+T36	chemical 1949 1955	enzyme
+T37	disease 1957 1960	NAE
+T38	disease 2080 2095	prostate cancer
+T39	disease 2202 2219	pancreatic cancer
+T40	disease 2239 2256	pancreatic cancer
+T41	chemical 2257 2262	group
+T42	disease 2303 2311	diseases
+T43	disease 2338 2345	disease
+T44	chemical 2346 2351	group
+T45	chemical 2385 2395	anesthesia
+T46	disease_or_phenotypic_feature 2405 2413	cataract
+T47	disease_or_phenotypic_feature 2423 2434	Hypotensive
+T48	chemical 2435 2445	anesthesia
+T49	chemical 2486 2494	propofol
+T50	chemical 2508 2518	isoflurane
+T51	chemical 2526 2540	Apolipoprotein
+T52	chemical 2570 2577	Protein
+T53	disease 2633 2650	Colorectal Cancer
+T54	chemical 2684 2693	glucoside
+T55	chemical 2705 2714	oxidative
+T56	disease_or_phenotypic_feature 2752 2760	cataract
+T57	disease_or_phenotypic_feature 2784 2803	psoriatic arthritis
+T58	disease_or_phenotypic_feature 2808 2817	psoriasis
+T59	chemical 2858 2867	inhibitor
+T60	chemical 2868 2878	infliximab
+T61	chemical 2892 2906	growth-hormone
+T62	disease_or_phenotypic_feature 2929 2942	hyperglycemia

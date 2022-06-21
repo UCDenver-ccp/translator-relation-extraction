@@ -1,0 +1,62 @@
+T1	chemical 32 41	antigenic
+T2	chemical 68 75	polymer
+T3	chemical 76 84	adjuvant
+T4	disease_or_phenotypic_feature 99 105	cancer
+T5	disease 172 182	depression
+T6	chemical 350 359	serotonin
+T7	chemical 364 372	dopamine
+T8	disease_or_phenotypic_feature 405 426	peripheral neuropathy
+T9	chemical 440 444	drug
+T10	disease_or_phenotypic_feature 458 468	hypertonia
+T11	chemical 473 483	anesthesia
+T12	disease_or_phenotypic_feature 487 504	Angelman syndrome
+T13	disease_or_phenotypic_feature 574 583	malignant
+T14	chemical 620 627	mixture
+T15	disease_or_phenotypic_feature 646 655	malignant
+T16	chemical 685 690	water
+T17	chemical 709 713	acid
+T18	disease_or_phenotypic_feature 753 766	renal failure
+T19	chemical 771 775	date
+T20	disease_or_phenotypic_feature 804 807	HCC
+T21	chemical 866 874	antigens
+T22	chemical 876 885	Oxidative
+T23	disease_or_phenotypic_feature 908 915	obesity
+T24	disease_or_phenotypic_feature 919 932	breast cancer
+T25	disease_or_phenotypic_feature 945 958	ovarian cysts
+T26	chemical 1039 1049	biomarkers
+T27	chemical 1062 1068	oxygen
+T28	disease_or_phenotypic_feature 1165 1182	cerebral ischemia
+T29	disease_or_phenotypic_feature 1191 1208	cerebral ischemia
+T30	chemical 1332 1348	antigen-specific
+T31	disease 1469 1480	hyperplasia
+T32	disease_or_phenotypic_feature 1545 1553	melanoma
+T33	chemical 1565 1572	antigen
+T34	disease 1628 1651	undifferentiated/poorly
+T35	disease 1628 1666	undifferentiated/poorly differentiated
+T36	disease 1667 1691	nasopharyngeal carcinoma
+T37	chemical 1719 1725	proton
+T38	disease_or_phenotypic_feature 1822 1831	hamartoma
+T39	chemical 1850 1864	growth hormone
+T40	disease_or_phenotypic_feature 1880 1909	hypogonadotropic hypogonadism
+T41	chemical 1927 1935	estrogen
+T42	disease_or_phenotypic_feature 1963 1985	metabolic bone disease
+T43	chemical 2026 2034	estrogen
+T44	chemical 2103 2111	antigens
+T45	disease_or_phenotypic_feature 2115 2126	lung cancer
+T46	disease_or_phenotypic_feature 2191 2202	lung cancer
+T47	chemical 2252 2255	LCM
+T48	disease_or_phenotypic_feature 2294 2301	seizure
+T49	disease_or_phenotypic_feature 2313 2320	vertigo
+T50	disease_or_phenotypic_feature 2322 2328	ataxia
+T51	chemical 2368 2375	enzymes
+T52	chemical 2389 2399	inhibitors
+T53	chemical 2408 2415	glucose
+T54	disease_or_phenotypic_feature 2436 2449	hyperglycemia
+T55	disease_or_phenotypic_feature 2473 2480	alcohol
+T56	chemical 2473 2480	alcohol
+T57	disease_or_phenotypic_feature 2494 2502	diabetes
+T58	disease_or_phenotypic_feature 2507 2514	obesity
+T59	chemical 2580 2584	drug
+T60	disease 2650 2657	pan-RAF
+T61	chemical 2658 2667	inhibitor
+T62	disease 2685 2702	colorectal cancer

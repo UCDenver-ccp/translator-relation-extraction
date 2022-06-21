@@ -1,0 +1,60 @@
+T1	chemical 0 10	Infliximab
+T2	chemical 36 45	inhibitor
+T3	disease_or_phenotypic_feature 68 86	pustular psoriasis
+T4	disease_or_phenotypic_feature 109 126	pancreatic cancer
+T5	chemical 134 141	biology
+T6	disease_or_phenotypic_feature 199 207	melanoma
+T7	chemical 214 221	antigen
+T8	chemical 321 325	food
+T9	disease_or_phenotypic_feature 326 333	obesity
+T10	chemical 341 349	Oxytocin
+T11	chemical 368 372	drug
+T12	disease_or_phenotypic_feature 394 402	diabetes
+T13	disease_or_phenotypic_feature 407 414	obesity
+T14	chemical 425 433	antigens
+T15	disease_or_phenotypic_feature 448 461	breast cancer
+T16	chemical 575 579	drug
+T17	disease 602 616	ovarian cancer
+T18	disease 618 635	colorectal cancer
+T19	disease 641 655	gastric cancer
+T20	disease_or_phenotypic_feature 703 710	obesity
+T21	disease_or_phenotypic_feature 748 755	obesity
+T22	chemical 774 778	drug
+T23	chemical 780 789	sulpiride
+T24	disease_or_phenotypic_feature 799 806	obesity
+T25	disease_or_phenotypic_feature 855 861	cancer
+T26	chemical 862 872	biomarkers
+T27	chemical 908 922	Growth hormone
+T28	disease_or_phenotypic_feature 926 933	obesity
+T29	chemical 982 996	methoxyflurane
+T30	chemical 997 1007	anesthesia
+T31	disease_or_phenotypic_feature 1057 1070	renal failure
+T32	chemical 1083 1092	buspirone
+T33	chemical 1109 1113	5-HT
+T34	chemical 1117 1124	agonist
+T35	disease_or_phenotypic_feature 1128 1145	cerebellar ataxia
+T36	chemical 1162 1168	Buffer
+T37	disease_or_phenotypic_feature 1216 1229	hypercalcemia
+T38	chemical 1274 1281	calcium
+T39	chemical 1299 1305	buffer
+T40	disease_or_phenotypic_feature 1347 1360	hypercalcemia
+T41	disease_or_phenotypic_feature 1378 1391	hypercalcemia
+T42	chemical 1504 1514	drug-naïve
+T43	disease 1529 1542	schizophrenia
+T44	chemical 1569 1573	talc
+T45	disease 1616 1633	ovarian carcinoma
+T46	disease_or_phenotypic_feature 1713 1730	pituitary adenoma
+T47	chemical 1737 1745	propofol
+T48	chemical 1746 1756	anesthesia
+T49	chemical 1839 1846	antigen
+T50	disease_or_phenotypic_feature 1861 1867	cancer
+T51	disease_or_phenotypic_feature 1919 1930	hypokalemia
+T52	disease_or_phenotypic_feature 1932 1946	hypomagnesemia
+T53	chemical 1979 1986	hormone
+T54	chemical 2007 2016	thyroxine
+T55	disease 2063 2066	MPa
+T56	chemical 2068 2079	"ARG4.0MPa"
+T57	disease 2068 2079	"ARG4.0MPa"
+T58	disease_or_phenotypic_feature 2139 2161	central hypothyroidism
+T59	chemical 2163 2177	growth hormone
+T60	disease_or_phenotypic_feature 2206 2235	hypogonadotropic hypogonadism

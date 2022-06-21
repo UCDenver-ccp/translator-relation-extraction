@@ -1,0 +1,60 @@
+T1	disease_or_phenotypic_feature 55 61	mutant
+T2	chemical 89 100	simvastatin
+T3	chemical 146 155	inhibitor
+T4	chemical 156 165	cetuximab
+T5	chemical 189 199	inhibitors
+T6	disease_or_phenotypic_feature 204 217	heart failure
+T7	chemical 230 240	anesthesia
+T8	disease_or_phenotypic_feature 244 252	cataract
+T9	chemical 292 302	biomarkers
+T10	disease_or_phenotypic_feature 415 426	early tumor
+T11	chemical 510 521	biochemical
+T12	disease_or_phenotypic_feature 587 598	hypokalemic
+T13	disease_or_phenotypic_feature 599 617	hyperaldosteronism
+T14	chemical 620 630	Fluoxetine
+T15	disease_or_phenotypic_feature 635 641	autism
+T16	chemical 676 683	heparin
+T17	disease 798 808	congenital
+T18	chemical 843 857	Spironolactone
+T19	chemical 862 884	aldosterone antagonist
+T20	chemical 926 936	inhibitors
+T21	disease_or_phenotypic_feature 961 974	heart failure
+T22	chemical 1039 1046	biology
+T23	disease_or_phenotypic_feature 1050 1063	neuroblastoma
+T24	chemical 1126 1133	biology
+T25	chemical 1186 1194	estrogen
+T26	chemical 1266 1278	biologically
+T27	chemical 1289 1298	estradiol
+T28	disease_or_phenotypic_feature 1329 1336	obesity
+T29	chemical 1432 1440	estrogen
+T30	chemical 1445 1457	progesterone
+T31	chemical 1469 1485	Ticagrelor-based
+T32	disease 1541 1557	artery disease-A
+T33	chemical 1630 1639	midazolam
+T34	disease_or_phenotypic_feature 1680 1688	cataract
+T35	chemical 1710 1720	anesthesia
+T36	chemical 1737 1747	budesonide
+T37	chemical 1751 1755	drug
+T38	disease_or_phenotypic_feature 1776 1787	lung tumors
+T39	disease_or_phenotypic_feature 1844 1855	lung tumors
+T40	chemical 1877 1887	Fluoxetine
+T41	disease_or_phenotypic_feature 1929 1935	autism
+T42	disease_or_phenotypic_feature 1978 1989	hypophyseal
+T43	chemical 2006 2014	estrogen
+T44	chemical 2040 2050	anesthesia
+T45	disease_or_phenotypic_feature 2069 2078	cleft lip
+T46	disease_or_phenotypic_feature 2083 2095	cleft palate
+T47	chemical 2107 2117	hemoglobin
+T48	chemical 2118 2124	oxygen
+T49	disease_or_phenotypic_feature 2151 2163	pancreatitis
+T50	disease_or_phenotypic_feature 2193 2213	hyperlipoproteinemia
+T51	chemical 2221 2232	Angiotensin
+T52	chemical 2240 2251	antagonists
+T53	disease_or_phenotypic_feature 2283 2296	heart failure
+T54	disease 2338 2345	non-CKD
+T55	chemical 2359 2364	group
+T56	chemical 2387 2392	group
+T57	chemical 2415 2420	group
+T58	disease 2496 2500	rare
+T59	disease 2501 2506	tumor
+T60	chemical 2616 2623	biology

@@ -1,0 +1,57 @@
+T1	disease 12 15	CKD
+T2	chemical 16 21	group
+T3	chemical 48 58	Hemoglobin
+T4	chemical 65 71	oxygen
+T5	disease_or_phenotypic_feature 129 135	cancer
+T6	disease 160 169	condition
+T7	chemical 204 213	vitamin A
+T8	disease 277 284	rubella
+T9	disease 340 348	diarrhea
+T10	disease_or_phenotypic_feature 430 441	hypokalemia
+T11	chemical 459 467	chloride
+T12	disease_or_phenotypic_feature 505 519	hypomagnesemia
+T13	chemical 581 590	vitamin D
+T14	disease 603 622	atrial fibrillation
+T15	chemical 747 765	sodium bicarbonate
+T16	chemical 776 782	saline
+T17	chemical 793 799	saline
+T18	disease_or_phenotypic_feature 889 902	heart failure
+T19	disease_or_phenotypic_feature 919 934	pulmonary edema
+T20	chemical 940 944	drug
+T21	chemical 967 976	linezolid
+T22	disease_or_phenotypic_feature 1007 1020	renal failure
+T23	chemical 1113 1118	group
+T24	chemical 1137 1142	group
+T25	disease 1163 1169	injury
+T26	chemical 1188 1193	group
+T27	disease 1235 1241	injury
+T28	chemical 1298 1306	antigens
+T29	chemical 1379 1386	antigen
+T30	disease_or_phenotypic_feature 1423 1429	cancer
+T31	chemical 1435 1443	androgen
+T32	disease 1551 1566	prostate cancer
+T33	chemical 1590 1608	collagen-producing
+T34	disease 1635 1645	intra-scar
+T35	chemical 1666 1680	pro-fibrogenic
+T36	disease_or_phenotypic_feature 1808 1811	GAD
+T37	chemical 1825 1831	oxygen
+T38	disease_or_phenotypic_feature 1840 1848	seizures
+T39	chemical 1909 1916	cocaine
+T40	disease 1909 1926	cocaine addiction
+T41	chemical 2045 2049	drug
+T42	disease 2045 2060	drug withdrawal
+T43	chemical 2105 2115	anesthesia
+T44	disease_or_phenotypic_feature 2119 2127	cataract
+T45	chemical 2154 2163	manganese
+T46	disease 2268 2278	dependence
+T47	disease_or_phenotypic_feature 2334 2341	obesity
+T48	chemical 2378 2389	amphetamine
+T49	chemical 2434 2445	biochemical
+T50	disease_or_phenotypic_feature 2467 2485	metastatic disease
+T51	chemical 2564 2574	biomarkers
+T52	disease_or_phenotypic_feature 2579 2592	heart failure
+T53	chemical 2700 2708	residual
+T54	disease 2709 2720	astigmatism
+T55	disease_or_phenotypic_feature 2796 2802	glioma
+T56	chemical 2831 2835	CDDP
+T57	chemical 2860 2864	drug

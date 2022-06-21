@@ -1,0 +1,82 @@
+T1	chemical 0 8	Xanthine
+T2	chemical 17 27	inhibitors
+T3	disease_or_phenotypic_feature 60 73	heart failure
+T4	chemical 101 109	collagen
+T5	disease_or_phenotypic_feature 135 141	glioma
+T6	disease_or_phenotypic_feature 186 193	obesity
+T7	chemical 212 216	food
+T8	chemical 233 237	food
+T9	disease_or_phenotypic_feature 294 301	obesity
+T10	disease_or_phenotypic_feature 320 327	obesity
+T11	chemical 396 407	phentermine
+T12	chemical 412 422	topiramate
+T13	chemical 430 434	drug
+T14	disease_or_phenotypic_feature 468 475	obesity
+T15	chemical 546 552	oxygen
+T16	chemical 557 565	nutrient
+T17	disease_or_phenotypic_feature 640 646	cancer
+T18	chemical 663 669	oxygen
+T19	disease_or_phenotypic_feature 731 744	breast cancer
+T20	chemical 834 841	antigen
+T21	disease_or_phenotypic_feature 845 863	cervical carcinoma
+T22	chemical 897 905	androgen
+T23	chemical 920 928	androgen
+T24	chemical 954 962	androgen
+T25	chemical 1023 1030	heparin
+T26	chemical 1041 1045	5-Fu
+T27	chemical 1055 1063	platinum
+T28	disease_or_phenotypic_feature 1098 1116	metastatic disease
+T29	disease_or_phenotypic_feature 1118 1142	Williams-Beuren syndrome
+T30	disease_or_phenotypic_feature 1199 1223	congenital heart defects
+T31	disease_or_phenotypic_feature 1225 1240	abnormal facial
+T32	disease_or_phenotypic_feature 1251 1269	mental retardation
+T33	chemical 1318 1332	growth hormone
+T34	disease_or_phenotypic_feature 1355 1373	skeletal anomalies
+T35	disease_or_phenotypic_feature 1402 1416	hypercalcaemia
+T36	disease_or_phenotypic_feature 1418 1427	Carcinoid
+T37	disease_or_phenotypic_feature 1445 1454	neoplasms
+T38	chemical 1468 1476	hormones
+T39	chemical 1512 1521	serotonin
+T40	disease 1557 1574	pancreatic cancer
+T41	disease 1594 1611	pancreatic cancer
+T42	chemical 1612 1617	group
+T43	disease 1658 1666	diseases
+T44	disease 1693 1700	disease
+T45	chemical 1701 1706	group
+T46	disease_or_phenotypic_feature 1738 1757	psoriatic arthritis
+T47	chemical 1763 1773	etanercept
+T48	chemical 1800 1810	antagonist
+T49	chemical 1916 1923	hormone
+T50	disease_or_phenotypic_feature 1924 1933	dependent
+T51	chemical 1978 1985	hormone
+T52	chemical 2062 2068	oxygen
+T53	disease_or_phenotypic_feature 2119 2131	hyperthermia
+T54	disease_or_phenotypic_feature 2150 2161	hypotension
+T55	disease_or_phenotypic_feature 2190 2199	cataracts
+T56	chemical 2231 2239	estrogen
+T57	chemical 2240 2247	agonist
+T58	chemical 2259 2268	tamoxifen
+T59	disease_or_phenotypic_feature 2283 2290	obesity
+T60	chemical 2301 2308	alcohol
+T61	chemical 2379 2387	nutrient
+T62	chemical 2412 2426	growth hormone
+T63	chemical 2451 2460	clonidine
+T64	chemical 2462 2470	glucagon
+T65	chemical 2472 2482	propanolol
+T66	disease_or_phenotypic_feature 2484 2496	hypoglycemia
+T67	chemical 2498 2506	arginine
+T68	chemical 2511 2517	L-dopa
+T69	disease_or_phenotypic_feature 2537 2550	short stature
+T70	chemical 2590 2600	tryptophan
+T71	chemical 2614 2620	enzyme
+T72	disease_or_phenotypic_feature 2692 2711	bacterial infection
+T73	disease_or_phenotypic_feature 2734 2751	cerebral ischemia
+T74	chemical 2777 2791	Apolipoprotein
+T75	chemical 2821 2828	Protein
+T76	disease 2884 2901	Colorectal Cancer
+T77	chemical 2930 2939	tamoxifen
+T78	disease_or_phenotypic_feature 2953 2966	breast cancer
+T79	chemical 2981 2990	tamoxifen
+T80	disease_or_phenotypic_feature 3002 3015	breast cancer
+T81	chemical 3026 3034	estrogen
+T82	chemical 3063 3072	tamoxifen

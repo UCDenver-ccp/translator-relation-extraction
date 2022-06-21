@@ -1,0 +1,65 @@
+T1	disease_or_phenotypic_feature 37 43	anemia
+T2	chemical 56 62	oxygen
+T3	chemical 86 95	oxidation
+T4	chemical 271 281	biological
+T5	disease_or_phenotypic_feature 311 320	malignant
+T6	chemical 362 370	antigens
+T7	disease_or_phenotypic_feature 475 482	obesity
+T8	chemical 562 572	biomarkers
+T9	chemical 594 601	oxidant
+T10	chemical 602 613	antioxidant
+T11	chemical 614 621	balance
+T12	disease_or_phenotypic_feature 642 648	asthma
+T13	disease_or_phenotypic_feature 653 660	obesity
+T14	chemical 692 698	leptin
+T15	chemical 731 735	food
+T16	disease_or_phenotypic_feature 744 757	hyperglycemia
+T17	disease_or_phenotypic_feature 762 778	hyperinsulinemia
+T18	chemical 828 835	antigen
+T19	disease_or_phenotypic_feature 890 913	squamous cell carcinoma
+T20	chemical 987 997	anesthetic
+T21	disease_or_phenotypic_feature 1007 1015	cataract
+T22	disease_or_phenotypic_feature 1025 1046	Peripheral neuropathy
+T23	chemical 1073 1085	anesthetized
+T24	chemical 1100 1111	sevoflurane
+T25	disease_or_phenotypic_feature 1158 1167	leukaemia
+T26	disease_or_phenotypic_feature 1169 1177	lymphoma
+T27	disease_or_phenotypic_feature 1179 1195	multiple myeloma
+T28	chemical 1228 1233	label
+T29	chemical 1234 1245	ceftazidime
+T30	disease_or_phenotypic_feature 1259 1271	Wilms' tumor
+T31	chemical 1280 1287	antigen
+T32	chemical 1341 1349	antigens
+T33	chemical 1442 1449	antigen
+T34	disease_or_phenotypic_feature 1493 1510	metastatic cancer
+T35	chemical 1557 1560	DCs
+T36	chemical 1610 1622	radiolabeled
+T37	disease_or_phenotypic_feature 1672 1687	teratocarcinoma
+T38	chemical 1709 1718	Carnitine
+T39	chemical 1764 1770	oxygen
+T40	disease_or_phenotypic_feature 1805 1818	heart failure
+T41	disease_or_phenotypic_feature 1820 1823	AMD
+T42	chemical 1820 1823	AMD
+T43	disease_or_phenotypic_feature 1849 1866	visual impairment
+T44	disease_or_phenotypic_feature 1871 1880	blindness
+T45	chemical 1903 1913	anesthesia
+T46	disease_or_phenotypic_feature 1925 1933	cataract
+T47	chemical 1943 1956	Valproic acid
+T48	chemical 1982 1996	HDAC inhibitor
+T49	disease_or_phenotypic_feature 2078 2090	malignancies
+T50	disease_or_phenotypic_feature 2137 2148	lung cancer
+T51	chemical 2224 2232	antigens
+T52	chemical 2234 2245	Biochemical
+T53	disease_or_phenotypic_feature 2266 2274	cataract
+T54	disease_or_phenotypic_feature 2302 2308	cancer
+T55	chemical 2346 2353	mixture
+T56	chemical 2368 2371	BCG
+T57	chemical 2415 2418	BCG
+T58	chemical 2436 2439	BCG
+T59	disease_or_phenotypic_feature 2499 2507	melanoma
+T60	chemical 2514 2521	antigen
+T61	chemical 2645 2652	APR-246
+T62	chemical 2671 2675	drug
+T63	chemical 2755 2773	phosphatidylserine
+T64	chemical 2868 2875	hormone
+T65	disease_or_phenotypic_feature 2886 2899	breast cancer

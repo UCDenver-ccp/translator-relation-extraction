@@ -1,0 +1,57 @@
+T1	chemical 0 14	Growth hormone
+T2	disease_or_phenotypic_feature 18 25	obesity
+T3	disease_or_phenotypic_feature 30 38	diabetes
+T4	chemical 89 93	GnRH
+T5	chemical 150 161	sex-hormone
+T6	disease_or_phenotypic_feature 162 171	dependent
+T7	chemical 182 193	Biochemical
+T8	disease_or_phenotypic_feature 230 237	obesity
+T9	disease_or_phenotypic_feature 253 265	contractures
+T10	chemical 342 346	acid
+T11	chemical 350 353	lye
+T12	chemical 366 375	Cisplatin
+T13	disease 425 440	Cervical Cancer
+T14	disease_or_phenotypic_feature 568 575	obesity
+T15	disease_or_phenotypic_feature 577 596	hyperprolactinaemia
+T16	disease_or_phenotypic_feature 598 627	hypogonadotropic hypogonadism
+T17	chemical 632 646	growth hormone
+T18	disease_or_phenotypic_feature 659 672	Hyperglycemia
+T19	chemical 677 686	galactose
+T20	disease_or_phenotypic_feature 687 696	cataracts
+T21	disease_or_phenotypic_feature 698 705	sarcoma
+T22	chemical 745 752	antigen
+T23	chemical 793 817	high-density lipoprotein
+T24	chemical 793 829	high-density lipoprotein cholesterol
+T25	chemical 831 837	HDL-C)
+T26	disease 873 895	cardiovascular disease
+T27	chemical 1059 1067	adjuvant
+T28	disease_or_phenotypic_feature 1122 1128	ataxia
+T29	disease_or_phenotypic_feature 1157 1163	mutism
+T30	disease_or_phenotypic_feature 1164 1172	syndrome
+T31	disease_or_phenotypic_feature 1174 1177	CMS
+T32	disease_or_phenotypic_feature 1182 1188	ataxia
+T33	chemical 1219 1225	Barium
+T34	disease 1241 1245	rare
+T35	chemical 1314 1320	barium
+T36	chemical 1471 1481	drug-naïve
+T37	disease 1496 1509	schizophrenia
+T38	chemical 1539 1562	anti-inflammatory drugs
+T39	disease_or_phenotypic_feature 1573 1581	cataract
+T40	disease_or_phenotypic_feature 1635 1657	mammary adenocarcinoma
+T41	chemical 1674 1678	drug
+T42	chemical 1702 1711	Vitamin A
+T43	chemical 1717 1721	food
+T44	disease_or_phenotypic_feature 1741 1750	cataracts
+T45	disease_or_phenotypic_feature 1755 1763	glaucoma
+T46	disease_or_phenotypic_feature 1836 1843	obesity
+T47	chemical 1918 1922	food
+T48	disease_or_phenotypic_feature 1951 1958	obesity
+T49	chemical 1986 1991	urate
+T50	chemical 1992 2003	antioxidant
+T51	disease_or_phenotypic_feature 2040 2047	obesity
+T52	chemical 2120 2140	P(AAm-AMPS)/alginate
+T53	disease 2184 2187	air
+T54	chemical 2436 2447	biochemical
+T55	disease_or_phenotypic_feature 2527 2534	cancers
+T56	chemical 2605 2612	antigen
+T57	disease_or_phenotypic_feature 2617 2623	cancer

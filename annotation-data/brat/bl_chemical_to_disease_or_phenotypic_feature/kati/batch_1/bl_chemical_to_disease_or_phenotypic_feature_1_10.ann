@@ -1,0 +1,66 @@
+T1	chemical 76 84	antigens
+T2	disease_or_phenotypic_feature 120 123	MCC
+T3	chemical 120 123	MCC
+T4	chemical 201 205	drug
+T5	chemical 226 243	calcium gluconate
+T6	disease_or_phenotypic_feature 249 265	hyperinsulinemia
+T7	chemical 318 325	antigen
+T8	disease_or_phenotypic_feature 330 336	cancer
+T9	chemical 425 433	nicotine
+T10	disease_or_phenotypic_feature 437 444	obesity
+T11	disease_or_phenotypic_feature 449 467	ulcerative colitis
+T12	disease 560 568	allergic
+T13	chemical 624 631	steroid
+T14	chemical 668 676	antigens
+T15	disease_or_phenotypic_feature 682 688	cancer
+T16	chemical 699 706	Esmolol
+T17	disease_or_phenotypic_feature 711 722	hypotensive
+T18	chemical 723 733	anesthesia
+T19	chemical 757 765	Estrogen
+T20	chemical 766 777	metabolites
+T21	disease_or_phenotypic_feature 782 795	breast cancer
+T22	chemical 808 823	methylphenidate
+T23	chemical 843 847	food
+T24	disease_or_phenotypic_feature 871 878	obesity
+T25	chemical 899 906	antigen
+T26	disease_or_phenotypic_feature 927 948	breast adenocarcinoma
+T27	disease_or_phenotypic_feature 962 969	obesity
+T28	chemical 987 1006	luteinizing hormone
+T29	chemical 1010 1048	gonadotropin-releasing hormone agonist
+T30	disease_or_phenotypic_feature 1058 1065	obesity
+T31	chemical 1074 1082	hormones
+T32	chemical 1183 1190	antigen
+T33	chemical 1237 1248	mitomycin C
+T34	chemical 1261 1264	MMC
+T35	chemical 1278 1284	saline
+T36	chemical 1309 1317	adjuvant
+T37	disease_or_phenotypic_feature 1319 1322	FCA
+T38	chemical 1325 1336	Amphetamine
+T39	disease_or_phenotypic_feature 1365 1372	obesity
+T40	chemical 1402 1406	drug
+T41	disease_or_phenotypic_feature 1415 1433	movement disorders
+T42	chemical 1468 1475	heparin
+T43	disease 1590 1600	congenital
+T44	disease_or_phenotypic_feature 1752 1764	hypoglycemia
+T45	chemical 1803 1810	calcium
+T46	disease_or_phenotypic_feature 1827 1838	hypokalemia
+T47	disease_or_phenotypic_feature 1857 1872	hypoalbuminemia
+T48	disease_or_phenotypic_feature 1874 1891	hyperphosphatemia
+T49	chemical 1911 1920	uric acid
+T50	chemical 1931 1935	urea
+T51	chemical 1936 1944	nitrogen
+T52	chemical 1952 1958	oxygen
+T53	disease_or_phenotypic_feature 1991 2004	heart failure
+T54	disease_or_phenotypic_feature 2021 2036	sleep disturbed
+T55	disease_or_phenotypic_feature 2099 2106	obesity
+T56	disease_or_phenotypic_feature 2108 2117	hepatitis
+T57	chemical 2150 2154	drug
+T58	chemical 2160 2167	tobacco
+T59	disease_or_phenotypic_feature 2187 2202	inguinal hernia
+T60	chemical 2236 2256	cytosine arabinoside
+T61	chemical 2330 2334	drug
+T62	disease_or_phenotypic_feature 2343 2356	renal failure
+T63	chemical 2374 2384	biological
+T64	chemical 2422 2432	epirubicin
+T65	chemical 2437 2447	paclitaxel
+T66	disease_or_phenotypic_feature 2472 2485	breast cancer

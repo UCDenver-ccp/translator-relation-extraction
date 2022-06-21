@@ -1,0 +1,63 @@
+T1	disease 64 71	pan-RAF
+T2	chemical 72 81	inhibitor
+T3	disease 99 116	colorectal cancer
+T4	chemical 172 182	phosphorus
+T5	chemical 207 214	calcium
+T6	chemical 235 243	solution
+T7	disease_or_phenotypic_feature 287 300	hypercalcemia
+T8	disease_or_phenotypic_feature 305 321	hypophosphatemia
+T9	chemical 402 412	inhibitors
+T10	disease_or_phenotypic_feature 452 464	hypertensive
+T11	disease_or_phenotypic_feature 465 478	heart failure
+T12	chemical 489 503	Growth hormone
+T13	disease_or_phenotypic_feature 516 529	short stature
+T14	disease_or_phenotypic_feature 533 556	Diamond Blackfan anemia
+T15	chemical 558 567	Fulminant
+T16	disease 568 613	Reversible Cerebral Vasoconstriction Syndrome
+T17	chemical 730 737	glucose
+T18	disease_or_phenotypic_feature 755 768	hyperglycemia
+T19	disease_or_phenotypic_feature 769 785	hyperinsulinemia
+T20	chemical 808 815	antigen
+T21	disease_or_phenotypic_feature 817 826	cirrhosis
+T22	disease_or_phenotypic_feature 831 839	hepatoma
+T23	chemical 854 857	Ten
+T24	disease_or_phenotypic_feature 902 909	obesity
+T25	chemical 918 926	hormones
+T26	chemical 1047 1059	pioglitazone
+T27	disease 1072 1086	bladder cancer
+T28	chemical 1183 1187	drug
+T29	disease 1210 1224	ovarian cancer
+T30	disease 1226 1243	colorectal cancer
+T31	disease 1249 1263	gastric cancer
+T32	chemical 1290 1294	talc
+T33	disease 1337 1354	ovarian carcinoma
+T34	chemical 1440 1450	inhibitors
+T35	chemical 1451 1460	erlotinib
+T36	chemical 1465 1474	gefitinib
+T37	disease_or_phenotypic_feature 1540 1546	mutant
+T38	disease 1646 1649	MPa
+T39	chemical 1651 1662	"ARG4.0MPa"
+T40	disease 1651 1662	"ARG4.0MPa"
+T41	chemical 1682 1695	Teneligliptin
+T42	disease_or_phenotypic_feature 1732 1739	obesity
+T43	disease_or_phenotypic_feature 1744 1751	obesity
+T44	disease_or_phenotypic_feature 1763 1782	metabolic disorders
+T45	chemical 1784 1795	Biochemical
+T46	disease_or_phenotypic_feature 1807 1815	cataract
+T47	chemical 1847 1857	fatty acid
+T48	chemical 1858 1866	epoxides
+T49	chemical 1903 1906	fat
+T50	disease_or_phenotypic_feature 1920 1927	obesity
+T51	disease_or_phenotypic_feature 1984 1991	obesity
+T52	disease 2049 2054	tumor
+T53	chemical 2104 2113	molecular
+T54	disease_or_phenotypic_feature 2188 2194	cancer
+T55	chemical 2234 2238	drug
+T56	chemical 2310 2318	antigens
+T57	disease_or_phenotypic_feature 2361 2368	cancers
+T58	chemical 2406 2414	antigens
+T59	chemical 2437 2448	Angiotensin
+T60	chemical 2460 2466	enzyme
+T61	chemical 2473 2483	inhibitors
+T62	disease_or_phenotypic_feature 2550 2574	congestive heart failure
+T63	disease_or_phenotypic_feature 2594 2614	diabetic nephropathy

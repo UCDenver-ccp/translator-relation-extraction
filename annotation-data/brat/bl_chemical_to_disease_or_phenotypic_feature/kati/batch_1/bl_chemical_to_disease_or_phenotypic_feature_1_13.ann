@@ -1,0 +1,65 @@
+T1	chemical 47 54	antigen
+T2	disease_or_phenotypic_feature 56 73	pancreatic cancer
+T3	chemical 85 92	antigen
+T4	chemical 136 149	oxybuprocaine
+T5	chemical 170 180	anesthesia
+T6	disease_or_phenotypic_feature 188 196	cataract
+T7	disease_or_phenotypic_feature 228 233	Fetal
+T8	disease_or_phenotypic_feature 234 243	hypoxemia
+T9	chemical 279 285	oxygen
+T10	chemical 307 313	oxygen
+T11	chemical 318 332	carbon dioxide
+T12	chemical 444 450	oxygen
+T13	chemical 528 554	tyrosine kinase inhibitors
+T14	disease_or_phenotypic_feature 558 570	renal tumors
+T15	disease_or_phenotypic_feature 572 580	Acidosis
+T16	chemical 586 597	biochemical
+T17	chemical 688 704	prostaglandin E2
+T18	chemical 777 789	carbohydrate
+T19	chemical 790 797	antigen
+T20	disease 851 868	mucinous neoplasm
+T21	disease 870 875	IPMN)
+T22	chemical 902 912	biomarkers
+T23	chemical 937 946	Melatonin
+T24	chemical 1015 1022	hormone
+T25	disease_or_phenotypic_feature 1023 1032	dependent
+T26	disease 1069 1109	idiopathic thrombocytopenic purpura(ITP)
+T27	disease 1097 1109	purpura(ITP)
+T28	chemical 1097 1109	purpura(ITP)
+T29	disease 1111 1122	hepatitis B
+T30	disease 1128 1145	diabetes mellitus
+T31	chemical 1167 1175	guaiacol
+T32	chemical 1187 1194	hormone
+T33	disease_or_phenotypic_feature 1195 1204	dependent
+T34	chemical 1265 1272	hormone
+T35	chemical 1299 1309	inhibitors
+T36	disease_or_phenotypic_feature 1325 1338	heart failure
+T37	disease_or_phenotypic_feature 1341 1352	Vaccination
+T38	disease_or_phenotypic_feature 1384 1397	breast cancer
+T39	chemical 1415 1422	antigen
+T40	chemical 1434 1438	food
+T41	disease_or_phenotypic_feature 1460 1467	obesity
+T42	chemical 1469 1485	Propylthiouracil
+T43	disease_or_phenotypic_feature 1486 1502	hypersensitivity
+T44	chemical 1536 1540	drug
+T45	disease_or_phenotypic_feature 1560 1582	sensorineural deafness
+T46	chemical 1599 1610	Scutellarin
+T47	disease 1647 1661	osteoarthritis
+T48	chemical 1748 1765	Dopamine agonists
+T49	chemical 1770 1782	somatostatin
+T50	disease_or_phenotypic_feature 1844 1852	adenomas
+T51	chemical 1899 1907	antigens
+T52	disease_or_phenotypic_feature 1924 1938	hepatoblastoma
+T53	chemical 1940 1950	Vitamin B6
+T54	disease_or_phenotypic_feature 1961 1967	cancer
+T55	chemical 2013 2021	hormones
+T56	chemical 2078 2086	antigens
+T57	chemical 2100 2110	biomarkers
+T58	disease_or_phenotypic_feature 2115 2128	breast cancer
+T59	chemical 2195 2202	capture
+T60	chemical 2243 2249	oxygen
+T61	disease_or_phenotypic_feature 2289 2295	autism
+T62	chemical 2302 2306	date
+T63	chemical 2324 2328	date
+T64	disease_or_phenotypic_feature 2371 2377	cancer
+T65	chemical 2378 2385	antigen

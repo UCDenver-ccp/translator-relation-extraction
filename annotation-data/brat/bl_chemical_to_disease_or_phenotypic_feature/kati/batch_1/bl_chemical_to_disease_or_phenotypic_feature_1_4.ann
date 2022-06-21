@@ -1,0 +1,63 @@
+T1	disease_or_phenotypic_feature 39 53	adenocarcinoma
+T2	chemical 69 77	estrogen
+T3	chemical 82 94	progesterone
+T4	disease_or_phenotypic_feature 157 165	melanoma
+T5	chemical 177 184	antigen
+T6	chemical 201 207	rabbit
+T7	chemical 255 262	antigen
+T8	chemical 379 383	drug
+T9	disease_or_phenotypic_feature 419 423	pain
+T10	disease_or_phenotypic_feature 425 431	anemia
+T11	disease_or_phenotypic_feature 477 485	vomiting
+T12	chemical 511 521	anesthesia
+T13	disease_or_phenotypic_feature 535 543	cataract
+T14	disease_or_phenotypic_feature 548 556	glaucoma
+T15	chemical 589 596	antigen
+T16	chemical 604 607	DCs
+T17	disease_or_phenotypic_feature 780 795	B-cell lymphoma
+T18	chemical 805 812	polymer
+T19	chemical 834 843	phosphate
+T20	disease_or_phenotypic_feature 868 881	renal failure
+T21	chemical 920 929	phosphate
+T22	disease_or_phenotypic_feature 957 970	renal failure
+T23	chemical 989 993	drug
+T24	chemical 1124 1128	drug
+T25	disease_or_phenotypic_feature 1202 1218	malignant tumors
+T26	disease_or_phenotypic_feature 1335 1353	aseptic meningitis
+T27	chemical 1397 1406	inhibitor
+T28	chemical 1407 1417	infliximab
+T29	chemical 1419 1424	Water
+T30	chemical 1425 1432	mineral
+T31	disease_or_phenotypic_feature 1465 1472	obesity
+T32	chemical 1479 1487	estrogen
+T33	disease_or_phenotypic_feature 1546 1549	Tam
+T34	chemical 1615 1623	estrogen
+T35	chemical 1654 1658	drug
+T36	chemical 1696 1708	Pioglitazone
+T37	disease_or_phenotypic_feature 1745 1758	heart failure
+T38	chemical 1770 1780	inhibitors
+T39	disease_or_phenotypic_feature 1829 1842	heart failure
+T40	disease_or_phenotypic_feature 1858 1880	bronchogenic carcinoma
+T41	chemical 1927 1938	haemoglobin
+T42	chemical 1970 1976	oxygen
+T43	chemical 2066 2071	toxin
+T44	disease_or_phenotypic_feature 2093 2111	movement disorders
+T45	chemical 2113 2122	Fulminant
+T46	disease 2123 2168	Reversible Cerebral Vasoconstriction Syndrome
+T47	chemical 2253 2262	Cisplatin
+T48	disease 2312 2327	Cervical Cancer
+T49	disease_or_phenotypic_feature 2373 2390	pancreatic cancer
+T50	chemical 2441 2445	acid
+T51	chemical 2450 2461	chloroquine
+T52	chemical 2463 2474	Biochemical
+T53	disease_or_phenotypic_feature 2518 2533	hypoalbuminemia
+T54	disease_or_phenotypic_feature 2538 2554	hypophosphatemia
+T55	disease_or_phenotypic_feature 2556 2577	Peripheral neuropathy
+T56	disease_or_phenotypic_feature 2630 2636	cancer
+T57	chemical 2654 2658	drug
+T58	chemical 2659 2669	paclitaxel
+T59	chemical 2789 2801	pioglitazone
+T60	disease 2814 2828	bladder cancer
+T61	disease_or_phenotypic_feature 2887 2896	psoriasis
+T62	chemical 2943 2953	inhibitors
+T63	chemical 2961 2973	methotrexate

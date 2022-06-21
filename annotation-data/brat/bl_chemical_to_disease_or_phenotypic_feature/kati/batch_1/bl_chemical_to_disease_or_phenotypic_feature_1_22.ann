@@ -1,0 +1,62 @@
+T1	chemical 15 18	MPA
+T2	chemical 47 54	hormone
+T3	disease_or_phenotypic_feature 55 64	dependent
+T4	disease_or_phenotypic_feature 100 117	renal cell cancer
+T5	chemical 140 164	modified vaccinia Ankara
+T6	chemical 187 194	antigen
+T7	chemical 259 266	mineral
+T8	chemical 267 272	water
+T9	disease_or_phenotypic_feature 298 305	obesity
+T10	chemical 346 349	PCG
+T11	disease_or_phenotypic_feature 353 360	obesity
+T12	disease_or_phenotypic_feature 365 372	obesity
+T13	chemical 398 405	oxidant
+T14	disease_or_phenotypic_feature 455 484	Hypogonadotropic hypogonadism
+T15	chemical 489 503	growth hormone
+T16	disease_or_phenotypic_feature 541 549	syndrome
+T17	chemical 586 592	oxygen
+T18	chemical 613 616	air
+T19	disease_or_phenotypic_feature 642 648	anemia
+T20	chemical 676 685	vitamin D
+T21	disease 698 717	atrial fibrillation
+T22	chemical 802 809	hormone
+T23	disease_or_phenotypic_feature 826 833	obesity
+T24	chemical 835 842	17-DMAG
+T25	chemical 847 862	Hsp90 inhibitor
+T26	disease_or_phenotypic_feature 896 903	obesity
+T27	chemical 989 994	group
+T28	chemical 1013 1018	group
+T29	disease 1039 1045	injury
+T30	chemical 1064 1069	group
+T31	disease 1111 1117	injury
+T32	chemical 1211 1221	biological
+T33	chemical 1283 1293	paclitaxel
+T34	disease_or_phenotypic_feature 1334 1360	non-small cell lung cancer
+T35	disease_or_phenotypic_feature 1362 1367	NSCLC
+T36	chemical 1407 1413	enzyme
+T37	chemical 1446 1455	galactose
+T38	disease_or_phenotypic_feature 1494 1506	galactosemia
+T39	disease_or_phenotypic_feature 1517 1526	cataracts
+T40	disease_or_phenotypic_feature 1542 1560	growth retardation
+T41	chemical 1585 1592	digoxin
+T42	chemical 1596 1604	solution
+T43	disease_or_phenotypic_feature 1643 1656	heart failure
+T44	chemical 1659 1670	Biochemical
+T45	disease_or_phenotypic_feature 1681 1699	mental retardation
+T46	disease_or_phenotypic_feature 1703 1718	phenylketonuria
+T47	chemical 1727 1733	oxygen
+T48	disease_or_phenotypic_feature 1839 1848	essential
+T49	disease_or_phenotypic_feature 1849 1856	obesity
+T50	disease_or_phenotypic_feature 1885 1892	obesity
+T51	chemical 1894 1904	Fluoxetine
+T52	disease_or_phenotypic_feature 1938 1970	pervasive developmental disorder
+T53	chemical 2004 2011	antigen
+T54	disease_or_phenotypic_feature 2032 2059	medullary thyroid carcinoma
+T55	chemical 2065 2073	androgen
+T56	disease 2181 2196	prostate cancer
+T57	disease_or_phenotypic_feature 2256 2263	obesity
+T58	chemical 2287 2297	biomarkers
+T59	disease_or_phenotypic_feature 2299 2315	hyperinsulinemia
+T60	disease_or_phenotypic_feature 2317 2330	hyperglycemia
+T61	disease_or_phenotypic_feature 2413 2420	obesity
+T62	chemical 2422 2432	anesthesia

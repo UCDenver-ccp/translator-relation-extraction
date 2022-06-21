@@ -1,0 +1,56 @@
+T1	disease_or_phenotypic_feature 24 39	Type 2 diabetes
+T2	disease_or_phenotypic_feature 44 53	cataracts
+T3	chemical 88 94	oxygen
+T4	chemical 169 175	oxygen
+T5	disease_or_phenotypic_feature 190 198	cataract
+T6	chemical 267 273	oxygen
+T7	disease_or_phenotypic_feature 305 318	heart failure
+T8	chemical 349 361	nitric oxide
+T9	chemical 371 381	inhibitors
+T10	disease_or_phenotypic_feature 437 443	cancer
+T11	disease_or_phenotypic_feature 491 498	obesity
+T12	chemical 502 508	oxygen
+T13	chemical 557 566	Sirolimus
+T14	chemical 591 595	drug
+T15	disease_or_phenotypic_feature 636 642	anemia
+T16	disease_or_phenotypic_feature 704 715	early tumor
+T17	chemical 794 804	biological
+T18	chemical 882 892	biomarkers
+T19	disease_or_phenotypic_feature 896 911	prostate cancer
+T20	disease_or_phenotypic_feature 913 939	Sensorineural hearing loss
+T21	chemical 943 950	antigen
+T22	disease_or_phenotypic_feature 959 971	otitis media
+T23	chemical 974 985	Biochemical
+T24	disease_or_phenotypic_feature 995 1003	cataract
+T25	disease_or_phenotypic_feature 1044 1050	cancer
+T26	chemical 1066 1072	folate
+T27	chemical 1105 1112	heparin
+T28	chemical 1141 1145	drug
+T29	disease 1288 1309	peripheral neuropathy
+T30	chemical 1328 1332	lead
+T31	chemical 1392 1403	Sibutramine
+T32	chemical 1452 1461	inhibitor
+T33	disease_or_phenotypic_feature 1488 1495	obesity
+T34	chemical 1561 1575	growth hormone
+T35	disease_or_phenotypic_feature 1592 1600	adenomas
+T36	chemical 1602 1612	Ethambutol
+T37	chemical 1652 1656	drug
+T38	disease_or_phenotypic_feature 1684 1701	visual impairment
+T39	chemical 1730 1737	protein
+T40	disease 1776 1779	HCC
+T41	disease 1827 1830	HCC
+T42	disease_or_phenotypic_feature 1868 1883	colon carcinoma
+T43	chemical 1932 1940	antigens
+T44	chemical 2033 2042	inhibitor
+T45	disease_or_phenotypic_feature 2051 2069	hearing impairment
+T46	disease_or_phenotypic_feature 2071 2083	Eosinophilic
+T47	disease_or_phenotypic_feature 2118 2124	asthma
+T48	chemical 2135 2145	pranlukast
+T49	chemical 2147 2156	Cisplatin
+T50	chemical 2175 2179	drug
+T51	disease_or_phenotypic_feature 2241 2252	lung tumors
+T52	chemical 2315 2323	androgen
+T53	disease_or_phenotypic_feature 2348 2351	PAP
+T54	chemical 2374 2382	androgen
+T55	disease 2429 2436	One-Pot
+T56	chemical 2462 2471	Polyester

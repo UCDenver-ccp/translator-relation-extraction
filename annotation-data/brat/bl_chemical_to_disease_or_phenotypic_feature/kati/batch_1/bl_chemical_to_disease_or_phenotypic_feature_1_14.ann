@@ -1,0 +1,71 @@
+T1	chemical 0 11	Sibutramine
+T2	chemical 17 21	drug
+T3	disease_or_phenotypic_feature 56 63	obesity
+T4	disease_or_phenotypic_feature 97 104	obesity
+T5	chemical 154 161	hormone
+T6	chemical 162 192	gastric inhibitory polypeptide
+T7	disease_or_phenotypic_feature 257 264	obesity
+T8	disease_or_phenotypic_feature 265 273	diabetes
+T9	chemical 297 307	biomarkers
+T10	disease_or_phenotypic_feature 441 452	blood tumor
+T11	chemical 453 463	biomarkers
+T12	chemical 513 520	biology
+T13	chemical 578 586	antigens
+T14	chemical 607 615	antigens
+T15	disease_or_phenotypic_feature 660 666	cancer
+T16	chemical 724 731	antigen
+T17	chemical 756 764	naloxone
+T18	chemical 768 772	food
+T19	disease_or_phenotypic_feature 788 795	obesity
+T20	chemical 826 840	glucocorticoid
+T21	disease 956 965	infection
+T22	disease_or_phenotypic_feature 1028 1034	cancer
+T23	chemical 1044 1050	oxygen
+T24	chemical 1104 1115	cabergoline
+T25	disease_or_phenotypic_feature 1181 1200	hyperprolactinaemia
+T26	chemical 1216 1220	drug
+T27	chemical 1275 1283	antigens
+T28	chemical 1287 1297	biomarkers
+T29	disease_or_phenotypic_feature 1301 1307	cancer
+T30	disease 1375 1385	mono-modal
+T31	chemical 1391 1402	hydrocarbon
+T32	disease_or_phenotypic_feature 1620 1626	cancer
+T33	chemical 1643 1651	antigens
+T34	disease_or_phenotypic_feature 1653 1659	cancer
+T35	disease_or_phenotypic_feature 1674 1680	cancer
+T36	chemical 1716 1730	erythropoietin
+T37	chemical 1756 1762	oxygen
+T38	disease_or_phenotypic_feature 1805 1811	anemia
+T39	disease_or_phenotypic_feature 1815 1824	hypoxemia
+T40	disease 1878 1899	peripheral neuropathy
+T41	chemical 1918 1922	lead
+T42	chemical 1994 2004	kaempferol
+T43	chemical 2053 2060	protein
+T44	chemical 2191 2198	protein
+T45	disease 2230 2236	cancer
+T46	chemical 2288 2295	protein
+T47	disease 2334 2337	HCC
+T48	disease 2385 2388	HCC
+T49	disease_or_phenotypic_feature 2443 2462	vascularized tumors
+T50	disease_or_phenotypic_feature 2472 2495	glioblastoma multiforme
+T51	chemical 2594 2603	nutrients
+T52	chemical 2608 2614	oxygen
+T53	chemical 2656 2664	antigens
+T54	disease_or_phenotypic_feature 2673 2679	cancer
+T55	chemical 2699 2707	epitopes
+T56	chemical 2830 2840	kynurenine
+T57	chemical 2841 2852	metabolites
+T58	chemical 2869 2879	kynurenine
+T59	chemical 2888 2895	enzymes
+T60	disease_or_phenotypic_feature 2899 2912	renal failure
+T61	disease_or_phenotypic_feature 2973 2981	deafness
+T62	disease_or_phenotypic_feature 2983 2992	cataracts
+T63	disease_or_phenotypic_feature 2994 3011	cardiac anomalies
+T64	disease_or_phenotypic_feature 3096 3114	mental retardation
+T65	disease_or_phenotypic_feature 3150 3158	diabetes
+T66	disease_or_phenotypic_feature 3160 3175	thyroid disease
+T67	chemical 3177 3191	growth hormone
+T68	disease_or_phenotypic_feature 3348 3353	small
+T69	chemical 3391 3399	antigens
+T70	chemical 3415 3419	gold
+T71	chemical 3428 3431	OAT

@@ -1,0 +1,69 @@
+T1	disease_or_phenotypic_feature 0 6	Asthma
+T2	chemical 11 23	sex hormones
+T3	chemical 25 30	Fatty
+T4	chemical 25 36	Fatty acids
+T5	chemical 59 72	carbon-carbon
+T6	chemical 102 127	conjugated linoleic acids
+T7	disease 205 213	diabetes
+T8	disease 215 221	cancer
+T9	disease 227 242	atherosclerosis
+T10	disease_or_phenotypic_feature 261 278	Liddle's syndrome
+T11	disease_or_phenotypic_feature 296 307	hypokalemic
+T12	disease_or_phenotypic_feature 308 320	hypertension
+T13	chemical 358 364	sodium
+T14	disease_or_phenotypic_feature 358 364	sodium
+T15	chemical 437 446	potassium
+T16	disease_or_phenotypic_feature 486 493	sarcoma
+T17	chemical 506 515	pazopanib
+T18	chemical 520 529	valproate
+T19	chemical 613 617	drug
+T20	chemical 632 642	Mefloquine
+T21	disease_or_phenotypic_feature 651 668	grand mal seizure
+T22	disease_or_phenotypic_feature 676 683	malaria
+T23	disease 753 779	small bowel adenocarcinoma
+T24	chemical 874 893	glucose-transporter
+T25	disease_or_phenotypic_feature 956 962	cancer
+T26	chemical 978 981	CIT
+T27	chemical 1000 1007	antigen
+T28	chemical 1041 1044	DCs
+T29	chemical 1080 1088	antigens
+T30	chemical 1197 1201	drug
+T31	disease_or_phenotypic_feature 1264 1272	seizures
+T32	chemical 1290 1303	aminophylline
+T33	chemical 1309 1320	pilocarpine
+T34	disease_or_phenotypic_feature 1329 1337	seizures
+T35	disease_or_phenotypic_feature 1386 1393	obesity
+T36	disease_or_phenotypic_feature 1394 1406	hypertension
+T37	chemical 1408 1414	sodium
+T38	disease_or_phenotypic_feature 1485 1502	visual impairment
+T39	disease_or_phenotypic_feature 1513 1533	cognitive impairment
+T40	chemical 1573 1577	urea
+T41	chemical 1578 1586	nitrogen
+T42	chemical 1593 1603	creatinine
+T43	chemical 1631 1638	hormone
+T44	chemical 1737 1744	hormone
+T45	disease_or_phenotypic_feature 1745 1754	dependent
+T46	disease_or_phenotypic_feature 1763 1782	Laryngeal carcinoma
+T47	chemical 1799 1810	sex hormone
+T48	disease_or_phenotypic_feature 1811 1820	dependent
+T49	chemical 1858 1861	NPY
+T50	chemical 1862 1882	receptor antagonists
+T51	disease_or_phenotypic_feature 1901 1908	obesity
+T52	disease_or_phenotypic_feature 1913 1937	cardiovascular disorders
+T53	disease_or_phenotypic_feature 1950 1956	Asthma
+T54	chemical 1997 2003	oxygen
+T55	chemical 2059 2073	growth hormone
+T56	chemical 2082 2089	glucose
+T57	disease_or_phenotypic_feature 2108 2115	obesity
+T58	disease 2154 2157	ICC
+T59	chemical 2309 2312	DDD
+T60	chemical 2362 2368	saline
+T61	disease_or_phenotypic_feature 2424 2431	hepatic
+T62	disease_or_phenotypic_feature 2439 2454	Medulloblastoma
+T63	chemical 2474 2481	biology
+T64	chemical 2546 2554	Graphite
+T65	disease 2566 2571	K-Ion
+T66	chemical 2566 2571	K-Ion
+T67	disease_or_phenotypic_feature 2669 2681	mesothelioma
+T68	chemical 2711 2722	nimotuzumab
+T69	chemical 2776 2780	drug

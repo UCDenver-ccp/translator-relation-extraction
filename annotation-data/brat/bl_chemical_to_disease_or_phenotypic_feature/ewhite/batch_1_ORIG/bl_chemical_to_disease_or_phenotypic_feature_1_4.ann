@@ -1,0 +1,58 @@
+T1	disease 52 73	peripheral neuropathy
+T2	chemical 92 96	lead
+T3	chemical 163 177	growth hormone
+T4	chemical 185 192	glucose
+T5	disease_or_phenotypic_feature 216 223	obesity
+T6	chemical 252 259	protein
+T7	disease 298 301	HCC
+T8	disease 349 352	HCC
+T9	disease_or_phenotypic_feature 384 393	hamartoma
+T10	chemical 434 441	mixture
+T11	disease 453 460	One-Pot
+T12	chemical 486 495	Polyester
+T13	chemical 584 593	Histamine
+T14	chemical 599 610	antagonists
+T15	disease_or_phenotypic_feature 624 631	obesity
+T16	chemical 650 657	protein
+T17	chemical 658 667	biomarker
+T18	disease 672 685	schizophrenia
+T19	chemical 781 795	growth hormone
+T20	disease_or_phenotypic_feature 817 830	heart failure
+T21	disease 940 956	bipolar disorder
+T22	chemical 971 978	alcohol
+T23	chemical 1045 1055	Anesthesia
+T24	disease_or_phenotypic_feature 1060 1068	cataract
+T25	chemical 1081 1095	Growth hormone
+T26	chemical 1116 1128	thyrotrophin
+T27	disease_or_phenotypic_feature 1141 1158	pituitary adenoma
+T28	disease_or_phenotypic_feature 1182 1191	pituitary
+T29	chemical 1200 1212	Sulforaphane
+T30	chemical 1244 1253	oxidative
+T31	disease_or_phenotypic_feature 1279 1287	cataract
+T32	disease 1327 1342	cervical cancer
+T33	chemical 1400 1411	doxorubicin
+T34	chemical 1471 1480	drug-free
+T35	chemical 1537 1541	food
+T36	chemical 1556 1560	food
+T37	disease_or_phenotypic_feature 1573 1580	obesity
+T38	chemical 1661 1672	chlorophyll
+T39	chemical 1680 1691	carotenoids
+T40	chemical 1696 1708	xanthophylls
+T41	disease 1732 1748	mite infestation
+T42	chemical 1796 1805	inhibitor
+T43	chemical 1807 1818	omapatrilat
+T44	chemical 1824 1834	lisinopril
+T45	disease_or_phenotypic_feature 1888 1901	heart failure
+T46	chemical 1905 1911	Oxygen
+T47	disease_or_phenotypic_feature 1931 1952	cardiac insufficiency
+T48	chemical 1976 1982	oxygen
+T49	chemical 2032 2047	interferon alfa
+T50	disease_or_phenotypic_feature 2051 2060	carcinoma
+T51	disease_or_phenotypic_feature 2104 2113	carcinoma
+T52	chemical 2125 2133	antigens
+T53	chemical 2188 2195	antigen
+T54	chemical 2382 2397	steroid-induced
+T55	disease 2382 2406	steroid-induced glaucoma
+T56	disease 2435 2462	vernal keratoconjunctivitis
+T57	disease 2651 2660	infection
+T58	chemical 2695 2710	polysaccharides

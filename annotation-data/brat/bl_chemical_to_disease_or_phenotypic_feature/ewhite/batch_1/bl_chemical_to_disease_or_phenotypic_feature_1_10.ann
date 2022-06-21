@@ -1,0 +1,55 @@
+T1	chemical 5 15	inhibitors
+T2	disease_or_phenotypic_feature 36 49	heart failure
+T3	chemical 53 61	Hormonal
+T4	chemical 75 82	hormone
+T5	disease_or_phenotypic_feature 83 92	dependent
+T6	chemical 102 115	Tonapofylline
+T7	chemical 129 138	adenosine
+T8	chemical 141 160	receptor antagonist
+T9	disease_or_phenotypic_feature 182 195	heart failure
+T10	disease_or_phenotypic_feature 197 206	Meningeal
+T11	chemical 261 272	biochemical
+T12	disease_or_phenotypic_feature 288 305	Hodgkin's disease
+T13	chemical 339 346	antigen
+T14	chemical 357 369	glycyrrhizin
+T15	chemical 407 411	drug
+T16	disease_or_phenotypic_feature 430 441	hypokalemia
+T17	disease_or_phenotypic_feature 461 466	edema
+T18	disease_or_phenotypic_feature 468 486	Endometrial cancer
+T19	chemical 492 499	hormone
+T20	disease_or_phenotypic_feature 524 531	obesity
+T21	chemical 536 542	buffer
+T22	disease 620 643	undifferentiated/poorly
+T23	disease 620 658	undifferentiated/poorly differentiated
+T24	disease 659 683	nasopharyngeal carcinoma
+T25	chemical 711 717	proton
+T26	chemical 776 784	nicotine
+T27	disease_or_phenotypic_feature 803 810	obesity
+T28	disease_or_phenotypic_feature 815 829	hypothyroidism
+T29	disease 908 915	pan-RAF
+T30	chemical 916 925	inhibitor
+T31	disease 943 960	colorectal cancer
+T32	chemical 995 1004	Fulminant
+T33	disease 1005 1050	Reversible Cerebral Vasoconstriction Syndrome
+T34	disease_or_phenotypic_feature 1164 1170	cancer
+T35	chemical 1178 1185	antigen
+T36	disease_or_phenotypic_feature 1272 1279	obesity
+T37	chemical 1284 1288	food
+T38	chemical 1297 1302	E2012
+T39	disease_or_phenotypic_feature 1311 1319	cataract
+T40	chemical 1339 1349	biomarkers
+T41	disease_or_phenotypic_feature 1368 1371	ASD
+T42	chemical 1442 1451	serotonin
+T43	chemical 1461 1471	inhibitors
+T44	disease_or_phenotypic_feature 1493 1500	obesity
+T45	chemical 1510 1520	anesthesia
+T46	chemical 1538 1547	lidocaine
+T47	disease_or_phenotypic_feature 1563 1571	cataract
+T48	disease_or_phenotypic_feature 1629 1638	cataracts
+T49	disease_or_phenotypic_feature 1666 1674	cataract
+T50	chemical 1703 1713	anesthesia
+T51	chemical 1833 1845	pioglitazone
+T52	disease 1858 1872	bladder cancer
+T53	disease_or_phenotypic_feature 1932 1943	visual loss
+T54	chemical 1977 1987	anesthesia
+T55	disease_or_phenotypic_feature 1992 2000	cataract

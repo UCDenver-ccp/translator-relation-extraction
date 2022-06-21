@@ -1,0 +1,69 @@
+T1	chemical 33 40	antigen
+T2	disease_or_phenotypic_feature 44 55	lung tumors
+T3	chemical 101 109	androgen
+T4	disease_or_phenotypic_feature 118 130	liver tumors
+T5	chemical 224 233	oxidative
+T6	disease_or_phenotypic_feature 257 271	hyperlipidemia
+T7	disease_or_phenotypic_feature 276 289	hyperglycemia
+T8	disease_or_phenotypic_feature 301 308	obesity
+T9	disease_or_phenotypic_feature 313 321	diabetes
+T10	chemical 348 357	vitamin D
+T11	disease 370 389	atrial fibrillation
+T12	disease_or_phenotypic_feature 459 476	Gitelman syndrome
+T13	disease_or_phenotypic_feature 487 495	seizures
+T14	disease_or_phenotypic_feature 515 525	neuropathy
+T15	chemical 558 564	sodium
+T16	chemical 565 574	potassium
+T17	disease_or_phenotypic_feature 632 639	obesity
+T18	chemical 641 655	growth-hormone
+T19	chemical 660 668	cortisol
+T20	disease_or_phenotypic_feature 697 709	hypoglycemia
+T21	disease_or_phenotypic_feature 717 732	pulmonary edema
+T22	chemical 772 783	sevoflurane
+T23	chemical 784 794	anesthesia
+T24	disease_or_phenotypic_feature 829 842	renal failure
+T25	chemical 847 859	cyclosporine
+T26	chemical 860 864	drug
+T27	chemical 993 998	group
+T28	chemical 1017 1022	group
+T29	disease 1043 1049	injury
+T30	chemical 1068 1073	group
+T31	disease 1115 1121	injury
+T32	chemical 1140 1152	Capecitabine
+T33	chemical 1183 1197	5-fluorouracil
+T34	chemical 1260 1264	drug
+T35	chemical 1329 1333	drug
+T36	disease_or_phenotypic_feature 1360 1369	neoplasms
+T37	chemical 1432 1439	antigen
+T38	disease_or_phenotypic_feature 1479 1485	cancer
+T39	chemical 1499 1507	androgen
+T40	disease 1615 1630	prostate cancer
+T41	disease_or_phenotypic_feature 1679 1694	pulmonary edema
+T42	chemical 1722 1728	oxygen
+T43	chemical 1788 1798	estrogenic
+T44	disease_or_phenotypic_feature 1813 1820	obesity
+T45	chemical 1822 1840	collagen-producing
+T46	disease 1867 1877	intra-scar
+T47	chemical 1898 1912	pro-fibrogenic
+T48	disease_or_phenotypic_feature 2004 2010	cancer
+T49	chemical 2049 2056	antigen
+T50	chemical 2107 2114	antigen
+T51	disease_or_phenotypic_feature 2164 2170	cancer
+T52	chemical 2217 2225	antigens
+T53	chemical 2255 2263	antigens
+T54	disease_or_phenotypic_feature 2328 2338	Lung tumor
+T55	chemical 2363 2375	thallium 201
+T56	chemical 2376 2384	chloride
+T57	chemical 2464 2471	cocaine
+T58	disease 2464 2481	cocaine addiction
+T59	chemical 2600 2604	drug
+T60	disease 2600 2615	drug withdrawal
+T61	chemical 2758 2765	alcohol
+T62	chemical 2773 2777	drug
+T63	disease_or_phenotypic_feature 2785 2798	renal disease
+T64	disease_or_phenotypic_feature 2800 2810	hemiplegia
+T65	disease_or_phenotypic_feature 2814 2824	paraplegia
+T66	disease_or_phenotypic_feature 2830 2837	obesity
+T67	chemical 2879 2892	glibenclamide
+T68	disease_or_phenotypic_feature 2910 2922	hypoglycemia
+T69	chemical 2923 2927	drug

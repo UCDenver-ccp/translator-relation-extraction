@@ -1,0 +1,61 @@
+T1	disease_or_phenotypic_feature 0 13	Renal failure
+T2	disease_or_phenotypic_feature 18 40	interstitial nephritis
+T3	chemical 48 65	trichloroethylene
+T4	chemical 66 76	anesthesia
+T5	chemical 124 129	group
+T6	disease 248 261	schizophrenia
+T7	disease 265 275	depression
+T8	chemical 325 329	NADH
+T9	chemical 330 339	oxidation
+T10	disease_or_phenotypic_feature 352 359	obesity
+T11	chemical 413 419	oxygen
+T12	disease_or_phenotypic_feature 460 468	cataract
+T13	chemical 518 524	oxygen
+T14	disease_or_phenotypic_feature 555 561	anemia
+T15	disease_or_phenotypic_feature 566 573	malaria
+T16	disease_or_phenotypic_feature 590 607	methemoglobinemia
+T17	disease_or_phenotypic_feature 644 651	obesity
+T18	chemical 655 664	protein C
+T19	chemical 665 672	antigen
+T20	chemical 690 694	food
+T21	disease_or_phenotypic_feature 705 712	obesity
+T22	chemical 747 753	oxygen
+T23	chemical 844 850	oxygen
+T24	disease_or_phenotypic_feature 969 977	fraction
+T25	disease 1083 1086	ALS
+T26	chemical 1095 1099	drug
+T27	chemical 1155 1179	ropinirole hydrochloride
+T28	disease_or_phenotypic_feature 1285 1288	RCC
+T29	chemical 1355 1360	label
+T30	chemical 1479 1484	label
+T31	chemical 1537 1541	drug
+T32	disease_or_phenotypic_feature 1594 1603	diarrhoea
+T33	disease_or_phenotypic_feature 1605 1626	peripheral neuropathy
+T34	disease_or_phenotypic_feature 1661 1677	thrombocytopenia
+T35	disease_or_phenotypic_feature 1679 1687	vomiting
+T36	disease_or_phenotypic_feature 1689 1696	anaemia
+T37	disease_or_phenotypic_feature 1701 1730	peripheral sensory neuropathy
+T38	disease 1842 1864	cardiovascular disease
+T39	chemical 1952 1960	selenium
+T40	chemical 2085 2094	inhibitor
+T41	chemical 2098 2116	alpha-chymotrypsin
+T42	disease_or_phenotypic_feature 2120 2128	cataract
+T43	chemical 2175 2182	heparin
+T44	disease 2297 2307	congenital
+T45	chemical 2342 2358	Ticagrelor-based
+T46	disease 2414 2430	artery disease-A
+T47	disease 2533 2540	non-CKD
+T48	chemical 2554 2559	group
+T49	chemical 2582 2587	group
+T50	chemical 2610 2615	group
+T51	chemical 2657 2668	amino acids
+T52	chemical 2679 2687	nitrogen
+T53	disease_or_phenotypic_feature 2713 2726	renal failure
+T54	chemical 2761 2768	antigen
+T55	disease_or_phenotypic_feature 2773 2779	cancer
+T56	disease 2852 2856	rare
+T57	disease 2857 2862	tumor
+T58	chemical 2972 2979	biology
+T59	chemical 3072 3080	antigens
+T60	disease_or_phenotypic_feature 3152 3157	small
+T61	chemical 3164 3172	antigens

@@ -1,0 +1,63 @@
+T1	chemical 32 41	phosphate
+T2	chemical 75 90	hyaluronic acid
+T3	chemical 150 154	drug
+T4	chemical 247 257	paclitaxel
+T5	disease_or_phenotypic_feature 294 305	lung cancer
+T6	chemical 328 334	oxygen
+T7	disease_or_phenotypic_feature 362 370	melanoma
+T8	disease_or_phenotypic_feature 382 390	cataract
+T9	chemical 408 421	biochemically
+T10	disease 474 484	depression
+T11	chemical 652 661	serotonin
+T12	chemical 666 674	dopamine
+T13	chemical 708 716	antigens
+T14	disease_or_phenotypic_feature 726 735	neoplasms
+T15	disease_or_phenotypic_feature 753 767	virus infected
+T16	chemical 791 797	sodium
+T17	chemical 798 809	hyaluronate
+T18	chemical 819 825	sodium
+T19	chemical 826 837	hyaluronate
+T20	disease_or_phenotypic_feature 893 901	cataract
+T21	disease_or_phenotypic_feature 944 957	Breast cancer
+T22	chemical 965 972	biology
+T23	chemical 1005 1009	drug
+T24	chemical 1089 1105	antigen-specific
+T25	disease 1226 1237	hyperplasia
+T26	chemical 1267 1276	Cisplatin
+T27	disease 1326 1341	Cervical Cancer
+T28	chemical 1412 1418	oxygen
+T29	disease_or_phenotypic_feature 1466 1481	cardiac failure
+T30	chemical 1492 1502	paclitaxel
+T31	disease_or_phenotypic_feature 1530 1551	peripheral neuropathy
+T32	chemical 1557 1564	solvent
+T33	chemical 1571 1581	paclitaxel
+T34	chemical 1583 1587	HCTZ
+T35	disease_or_phenotypic_feature 1596 1607	hypokalemia
+T36	disease_or_phenotypic_feature 1612 1625	hyperglycemia
+T37	chemical 1679 1695	dopamine agonist
+T38	chemical 1696 1707	cabergoline
+T39	disease_or_phenotypic_feature 1728 1746	movement disorders
+T40	disease_or_phenotypic_feature 1748 1763	Pulmonary edema
+T41	chemical 1801 1811	furosemide
+T42	chemical 1816 1822	oxygen
+T43	chemical 1882 1906	high-density lipoprotein
+T44	chemical 1882 1918	high-density lipoprotein cholesterol
+T45	chemical 1920 1926	HDL-C)
+T46	disease 1962 1984	cardiovascular disease
+T47	chemical 2071 2083	Levosimendan
+T48	chemical 2106 2110	drug
+T49	disease_or_phenotypic_feature 2142 2155	heart failure
+T50	chemical 2161 2165	food
+T51	chemical 2170 2175	water
+T52	disease_or_phenotypic_feature 2195 2202	obesity
+T53	disease_or_phenotypic_feature 2216 2221	obese
+T54	chemical 2247 2256	nutrients
+T55	chemical 2330 2333	RAS
+T56	chemical 2334 2344	inhibitors
+T57	disease_or_phenotypic_feature 2437 2457	hypercholesterolemia
+T58	disease_or_phenotypic_feature 2459 2467	diabetes
+T59	disease_or_phenotypic_feature 2469 2487	metabolic syndrome
+T60	disease_or_phenotypic_feature 2491 2498	obesity
+T61	chemical 2555 2562	antigen
+T62	chemical 2568 2575	antigen
+T63	disease_or_phenotypic_feature 2606 2620	gastric cancer

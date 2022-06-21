@@ -1,0 +1,67 @@
+T1	chemical 29 43	glucocorticoid
+T2	disease 159 168	infection
+T3	chemical 239 243	milk
+T4	disease_or_phenotypic_feature 267 275	diabetes
+T5	disease_or_phenotypic_feature 277 283	autism
+T6	disease_or_phenotypic_feature 285 291	cancer
+T7	chemical 319 324	metal
+T8	disease_or_phenotypic_feature 335 342	colitis
+T9	chemical 348 355	alcohol
+T10	disease_or_phenotypic_feature 380 395	prostate cancer
+T11	chemical 399 406	hormone
+T12	disease_or_phenotypic_feature 499 506	obesity
+T13	chemical 532 539	hormone
+T14	chemical 563 571	estrogen
+T15	chemical 581 593	progesterone
+T16	chemical 659 667	hormones
+T17	chemical 675 682	hormone
+T18	disease 761 771	mono-modal
+T19	chemical 777 788	hydrocarbon
+T20	chemical 862 872	anesthesia
+T21	disease_or_phenotypic_feature 877 885	cataract
+T22	chemical 907 917	kaempferol
+T23	chemical 966 973	protein
+T24	chemical 1104 1111	protein
+T25	disease 1143 1149	cancer
+T26	chemical 1255 1262	antigen
+T27	chemical 1295 1302	antigen
+T28	disease_or_phenotypic_feature 1329 1347	malignant melanoma
+T29	chemical 1365 1373	dopamine
+T30	chemical 1392 1396	food
+T31	disease_or_phenotypic_feature 1425 1432	obesity
+T32	chemical 1438 1445	biology
+T33	disease_or_phenotypic_feature 1449 1455	autism
+T34	chemical 1493 1499	oxygen
+T35	chemical 1515 1521	oxygen
+T36	disease_or_phenotypic_feature 1547 1554	obesity
+T37	chemical 1574 1585	doxorubicin
+T38	disease_or_phenotypic_feature 1635 1648	breast cancer
+T39	disease_or_phenotypic_feature 1670 1677	uveitis
+T40	disease_or_phenotypic_feature 1682 1704	ankylosing spondylitis
+T41	chemical 1753 1763	inhibitors
+T42	chemical 1775 1784	golimumab
+T43	chemical 1786 1797	Sibutramine
+T44	chemical 1803 1807	drug
+T45	disease_or_phenotypic_feature 1841 1848	obesity
+T46	chemical 1859 1865	oxygen
+T47	disease_or_phenotypic_feature 1919 1939	diabetic retinopathy
+T48	disease_or_phenotypic_feature 1958 1967	cataracts
+T49	chemical 2000 2006	ZD6126
+T50	chemical 2016 2022	oxygen
+T51	disease_or_phenotypic_feature 2123 2135	glioblastoma
+T52	disease_or_phenotypic_feature 2165 2171	cancer
+T53	chemical 2197 2205	antigens
+T54	disease_or_phenotypic_feature 2207 2220	Hypercalcemia
+T55	disease_or_phenotypic_feature 2249 2260	hypokalemia
+T56	disease_or_phenotypic_feature 2266 2283	hyperphosphatemia
+T57	chemical 2316 2323	calcium
+T58	chemical 2325 2334	magnesium
+T59	chemical 2336 2345	potassium
+T60	chemical 2355 2364	phosphate
+T61	chemical 2370 2378	chloride
+T62	chemical 2410 2419	vitamin A
+T63	chemical 2438 2447	nutrients
+T64	disease_or_phenotypic_feature 2479 2488	cataracts
+T65	chemical 2521 2528	alcohol
+T66	chemical 2546 2555	cofactors
+T67	disease_or_phenotypic_feature 2564 2571	obesity

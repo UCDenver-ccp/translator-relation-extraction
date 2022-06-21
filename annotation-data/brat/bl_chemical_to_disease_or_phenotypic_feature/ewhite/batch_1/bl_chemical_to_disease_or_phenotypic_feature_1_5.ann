@@ -1,0 +1,81 @@
+T1	chemical 10 19	oxidation
+T2	disease_or_phenotypic_feature 21 28	obesity
+T3	disease_or_phenotypic_feature 97 111	arthrogryposis
+T4	disease_or_phenotypic_feature 113 125	cleft palate
+T5	disease_or_phenotypic_feature 127 133	ptosis
+T6	disease_or_phenotypic_feature 135 148	short stature
+T7	disease_or_phenotypic_feature 166 173	talipes
+T8	disease_or_phenotypic_feature 209 231	malignant hyperthermia
+T9	chemical 249 259	anesthesia
+T10	chemical 320 334	growth hormone
+T11	chemical 372 376	date
+T12	disease_or_phenotypic_feature 377 390	short stature
+T13	disease_or_phenotypic_feature 415 428	short stature
+T14	disease_or_phenotypic_feature 433 448	hypopituitarism
+T15	chemical 462 465	CRF
+T16	disease_or_phenotypic_feature 478 484	anemia
+T17	disease_or_phenotypic_feature 486 503	hyperphosphatemia
+T18	disease_or_phenotypic_feature 505 524	hyperparathyroidism
+T19	chemical 556 583	asymmetric dimethylarginine
+T20	chemical 588 597	oxidative
+T21	disease 675 680	blood
+T22	disease 713 718	blood
+T23	chemical 775 780	lipid
+T24	chemical 825 837	myo-inositol
+T25	chemical 877 888	biochemical
+T26	disease_or_phenotypic_feature 933 941	diabetic
+T27	disease_or_phenotypic_feature 942 963	peripheral neuropathy
+T28	chemical 965 976	Vincristine
+T29	chemical 994 998	drug
+T30	disease_or_phenotypic_feature 1026 1032	cancer
+T31	disease_or_phenotypic_feature 1065 1086	peripheral neuropathy
+T32	chemical 1121 1136	phosphorylation
+T33	chemical 1189 1204	phosphorylation
+T34	chemical 1394 1408	phosphorylated
+T35	chemical 1409 1417	residues
+T36	disease 1442 1446	rich
+T37	chemical 1457 1465	residues
+T38	chemical 1601 1613	radiolabeled
+T39	disease_or_phenotypic_feature 1635 1654	metastatic melanoma
+T40	chemical 1692 1704	radiolabeled
+T41	chemical 1810 1816	oxygen
+T42	chemical 1833 1839	oxygen
+T43	disease_or_phenotypic_feature 1864 1877	heart failure
+T44	disease_or_phenotypic_feature 1982 2000	mental retardation
+T45	disease_or_phenotypic_feature 2047 2055	seizures
+T46	disease_or_phenotypic_feature 2057 2081	congenital heart defects
+T47	chemical 2087 2101	growth hormone
+T48	disease_or_phenotypic_feature 2142 2162	Klinefelter syndrome
+T49	chemical 2165 2177	Atorvastatin
+T50	chemical 2182 2191	oxidative
+T51	disease_or_phenotypic_feature 2202 2224	coronary heart disease
+T52	disease_or_phenotypic_feature 2230 2237	obesity
+T53	disease 2264 2290	small bowel adenocarcinoma
+T54	chemical 2385 2404	glucose-transporter
+T55	disease 2475 2478	ICC
+T56	chemical 2630 2633	DDD
+T57	chemical 2667 2678	Amfepramone
+T58	disease_or_phenotypic_feature 2680 2683	AFP
+T59	chemical 2712 2716	drug
+T60	disease_or_phenotypic_feature 2742 2749	obesity
+T61	chemical 2786 2794	Graphite
+T62	disease 2806 2811	K-Ion
+T63	chemical 2806 2811	K-Ion
+T64	disease_or_phenotypic_feature 2868 2884	ischemic disease
+T65	disease_or_phenotypic_feature 2886 2896	arrhythmia
+T66	chemical 2911 2922	angiotensin
+T67	chemical 2923 2934	aldosterone
+T68	chemical 2946 2957	angiotensin
+T69	chemical 2969 2986	enzyme inhibitors
+T70	chemical 2989 2992	NPY
+T71	chemical 3032 3036	drug
+T72	disease_or_phenotypic_feature 3060 3072	hyperplastic
+T73	disease_or_phenotypic_feature 3073 3080	obesity
+T74	disease_or_phenotypic_feature 3098 3105	obesity
+T75	chemical 3183 3190	biology
+T76	disease_or_phenotypic_feature 3218 3223	edema
+T77	chemical 3291 3302	Angiotensin
+T78	chemical 3321 3328	hormone
+T79	disease_or_phenotypic_feature 3355 3362	obesity
+T80	disease_or_phenotypic_feature 3364 3372	diabetes
+T81	disease_or_phenotypic_feature 3377 3383	cancer

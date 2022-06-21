@@ -1,0 +1,56 @@
+T1	chemical 16 25	lidocaine
+T2	chemical 30 40	etidocaine
+T3	chemical 56 66	anesthesia
+T4	disease_or_phenotypic_feature 71 79	cataract
+T5	chemical 89 96	VEGF as
+T6	chemical 99 106	mitogen
+T7	disease_or_phenotypic_feature 127 147	renal cell carcinoma
+T8	disease_or_phenotypic_feature 236 244	melanoma
+T9	chemical 287 295	antigens
+T10	chemical 315 322	antigen
+T11	disease_or_phenotypic_feature 359 382	gastrointestinal tumors
+T12	chemical 411 415	drug
+T13	disease_or_phenotypic_feature 426 458	central nervous system infection
+T14	disease_or_phenotypic_feature 460 483	cerebrovascular disease
+T15	disease_or_phenotypic_feature 496 502	trauma
+T16	chemical 525 532	antigen
+T17	disease_or_phenotypic_feature 557 575	cervical carcinoma
+T18	disease 637 646	infection
+T19	chemical 692 709	fluorescent probe
+T20	chemical 704 709	probe
+T21	chemical 728 739	Rolofylline
+T22	chemical 753 762	adenosine
+T23	chemical 765 784	receptor antagonist
+T24	disease_or_phenotypic_feature 806 819	heart failure
+T25	chemical 821 831	Anesthesia
+T26	disease_or_phenotypic_feature 836 851	biliary atresia
+T27	chemical 867 880	disinfectants
+T28	disease 997 1003	asthma
+T29	chemical 1121 1131	penicillin
+T30	chemical 1134 1144	benzathine
+T31	chemical 1171 1182	anesthetics
+T32	disease 1215 1223	syphilis
+T33	chemical 1298 1302	drug
+T34	disease_or_phenotypic_feature 1328 1341	renal failure
+T35	chemical 1369 1378	inhibitor
+T36	chemical 1379 1391	Tanespimycin
+T37	chemical 1392 1398	17-AAG
+T38	disease_or_phenotypic_feature 1435 1447	angiosarcoma
+T39	chemical 1554 1565	biochemical
+T40	disease_or_phenotypic_feature 1600 1609	cataracts
+T41	disease_or_phenotypic_feature 1642 1648	cancer
+T42	chemical 1739 1747	antigens
+T43	disease_or_phenotypic_feature 1749 1754	Wilms
+T44	chemical 1780 1794	growth hormone
+T45	chemical 1829 1833	food
+T46	disease_or_phenotypic_feature 1856 1863	obesity
+T47	disease 1956 1964	allergic
+T48	chemical 2020 2027	steroid
+T49	chemical 2079 2089	inhibitors
+T50	disease_or_phenotypic_feature 2110 2131	Merkel cell carcinoma
+T51	chemical 2133 2136	MCC
+T52	disease_or_phenotypic_feature 2152 2155	MCC
+T53	chemical 2152 2155	MCC
+T54	chemical 2185 2189	food
+T55	chemical 2218 2222	food
+T56	disease_or_phenotypic_feature 2238 2245	obesity

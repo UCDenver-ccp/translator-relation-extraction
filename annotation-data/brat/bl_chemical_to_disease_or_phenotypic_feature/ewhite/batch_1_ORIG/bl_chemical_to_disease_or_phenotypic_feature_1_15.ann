@@ -1,0 +1,71 @@
+T1	disease 0 14	CHILD syndrome
+T2	chemical 66 76	lovastatin
+T3	chemical 81 92	cholesterol
+T4	chemical 162 169	glucose
+T5	chemical 198 212	streptozotocin
+T6	disease_or_phenotypic_feature 233 246	hyperglycemic
+T7	disease_or_phenotypic_feature 247 263	hyperinsulinemia
+T8	disease_or_phenotypic_feature 267 280	hyperglycemic
+T9	chemical 332 339	biology
+T10	chemical 430 440	biological
+T11	disease_or_phenotypic_feature 458 466	melanoma
+T12	disease 591 605	tumor-specific
+T13	chemical 606 614	peptides
+T14	disease 752 761	infertile
+T15	disease 762 765	men
+T16	chemical 857 869	antioxidants
+T17	chemical 945 951	oxygen
+T18	disease_or_phenotypic_feature 963 972	malignant
+T19	chemical 1018 1028	anesthesia
+T20	disease_or_phenotypic_feature 1033 1041	cataract
+T21	chemical 1065 1075	anesthesia
+T22	disease_or_phenotypic_feature 1079 1092	hydrocephalus
+T23	chemical 1127 1131	drug
+T24	chemical 1173 1177	drug
+T25	chemical 1194 1197	PCa
+T26	disease_or_phenotypic_feature 1194 1197	PCa
+T27	chemical 1290 1300	calcitriol
+T28	chemical 1304 1308	drug
+T29	disease_or_phenotypic_feature 1322 1335	hypercalcemia
+T30	disease_or_phenotypic_feature 1343 1360	hyperphosphatemia
+T31	disease 1501 1506	blood
+T32	chemical 1583 1593	hemoglobin
+T33	disease 1595 1600	blood
+T34	chemical 1644 1654	anesthesia
+T35	disease 1655 1659	(PCA
+T36	chemical 1661 1669	morphine
+T37	disease 1753 1763	Congenital
+T38	disease 1764 1776	microcephaly
+T39	chemical 1803 1808	group
+T40	disease 1812 1821	disorders
+T41	chemical 2005 2012	biology
+T42	disease 2081 2087	cancer
+T43	disease 2247 2254	pan-MMP
+T44	chemical 2255 2264	inhibitor
+T45	chemical 2387 2397	formoterol
+T46	disease_or_phenotypic_feature 2468 2474	cancer
+T47	disease_or_phenotypic_feature 2475 2483	cachexia
+T48	chemical 2499 2512	Nanoparticles
+T49	disease 2550 2561	Blood-Brain
+T50	disease 2593 2622	Triple Negative Breast Cancer
+T51	disease 2633 2649	Tumor-Associated
+T52	disease_or_phenotypic_feature 2692 2705	renal disease
+T53	chemical 2730 2740	creatinine
+T54	disease_or_phenotypic_feature 2742 2753	proteinuria
+T55	chemical 2764 2768	urea
+T56	chemical 2769 2777	nitrogen
+T57	disease_or_phenotypic_feature 2836 2843	obesity
+T58	disease_or_phenotypic_feature 2845 2862	diabetes mellitus
+T59	disease_or_phenotypic_feature 2864 2888	hypertensive retinopathy
+T60	disease_or_phenotypic_feature 2890 2903	heart failure
+T61	disease_or_phenotypic_feature 2905 2928	coronary artery disease
+T62	disease_or_phenotypic_feature 2930 2954	cerebral vascular events
+T63	disease_or_phenotypic_feature 2959 2986	hypertensive encephalopathy
+T64	disease 3014 3029	depression-like
+T65	chemical 3095 3103	dopamine
+T66	chemical 3141 3144	NAc
+T67	chemical 3189 3194	group
+T68	chemical 3284 3292	collagen
+T69	disease 3314 3331	B-cell lymphoma-2
+T70	chemical 3430 3452	HDAC inhibitor-induced
+T71	disease 3496 3509	breast cancer

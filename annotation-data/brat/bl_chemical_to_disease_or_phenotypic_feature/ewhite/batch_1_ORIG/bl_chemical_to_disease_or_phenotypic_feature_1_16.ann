@@ -1,0 +1,66 @@
+T1	chemical 0 5	Fatty
+T2	chemical 0 11	Fatty acids
+T3	chemical 34 47	carbon-carbon
+T4	chemical 77 102	conjugated linoleic acids
+T5	disease 180 188	diabetes
+T6	disease 190 196	cancer
+T7	disease 202 217	atherosclerosis
+T8	disease 330 348	metabolic syndrome
+T9	chemical 377 392	high-polyphenol
+T10	chemical 404 418	low-polyphenol
+T11	chemical 499 506	antigen
+T12	disease_or_phenotypic_feature 510 527	ovarian carcinoma
+T13	chemical 590 602	drug-eluting
+T14	disease 695 698	PAD
+T15	chemical 740 750	bexarotene
+T16	disease_or_phenotypic_feature 795 806	lung tumors
+T17	chemical 938 947	biomarker
+T18	chemical 1004 1008	drug
+T19	chemical 1052 1060	oxytocin
+T20	chemical 1078 1082	food
+T21	disease_or_phenotypic_feature 1139 1146	obesity
+T22	chemical 1286 1307	nicotinamide-mediated
+T23	disease 1313 1318	blood
+T24	chemical 1411 1418	glucose
+T25	chemical 1435 1445	inhibitors
+T26	disease_or_phenotypic_feature 1460 1473	heart failure
+T27	disease_or_phenotypic_feature 1477 1492	type 2 diabetes
+T28	chemical 1505 1512	calcium
+T29	chemical 1513 1524	antagonists
+T30	disease_or_phenotypic_feature 1542 1555	renal failure
+T31	chemical 1598 1608	biological
+T32	disease 1649 1652	UIP
+T33	chemical 1679 1690	Biochemical
+T34	disease_or_phenotypic_feature 1723 1730	hepatic
+T35	chemical 1741 1754	rainbow trout
+T36	disease 1777 1795	Systemic sclerosis
+T37	disease 1797 1800	SSc
+T38	chemical 1797 1800	SSc
+T39	disease 1807 1811	rare
+T40	disease 1812 1830	autoimmune disease
+T41	disease 1953 1958	tumor
+T42	chemical 2054 2061	glucose
+T43	chemical 2073 2081	solution
+T44	disease_or_phenotypic_feature 2137 2154	muscular weakness
+T45	disease_or_phenotypic_feature 2156 2166	neuropathy
+T46	disease_or_phenotypic_feature 2192 2196	coma
+T47	disease_or_phenotypic_feature 2220 2236	hypophosphatemia
+T48	disease 2302 2306	PCOS
+T49	chemical 2353 2359	-label
+T50	disease_or_phenotypic_feature 2427 2438	oral cancer
+T51	chemical 2453 2456	BCG
+T52	chemical 2468 2476	antigens
+T53	chemical 2512 2517	group
+T54	disease 2600 2603	EDs
+T55	chemical 2622 2626	Iron
+T56	chemical 2638 2645	hormone
+T57	disease_or_phenotypic_feature 2676 2689	heart failure
+T58	disease_or_phenotypic_feature 2704 2710	anemia
+T59	chemical 2757 2767	antagonist
+T60	chemical 2769 2779	etanercept
+T61	disease_or_phenotypic_feature 2844 2857	heart failure
+T62	disease_or_phenotypic_feature 2925 2933	cataract
+T63	chemical 2946 2951	metal
+T64	chemical 3015 3019	drug
+T65	chemical 3028 3037	metformin
+T66	disease_or_phenotypic_feature 3076 3083	obesity

@@ -1,0 +1,57 @@
+T1	chemical 78 82	drug
+T2	disease 105 119	ovarian cancer
+T3	disease 121 138	colorectal cancer
+T4	disease 144 158	gastric cancer
+T5	disease_or_phenotypic_feature 177 190	Heart failure
+T6	disease_or_phenotypic_feature 216 235	myocardial ischemia
+T7	disease_or_phenotypic_feature 237 247	arrhythmia
+T8	chemical 263 267	drug
+T9	chemical 289 293	drug
+T10	chemical 352 358	sodium
+T11	disease_or_phenotypic_feature 364 370	anemia
+T12	chemical 384 392	hormones
+T13	disease_or_phenotypic_feature 396 403	obesity
+T14	disease_or_phenotypic_feature 425 432	neuroma
+T15	disease_or_phenotypic_feature 433 437	pain
+T16	chemical 452 460	solution
+T17	chemical 470 474	talc
+T18	disease 517 534	ovarian carcinoma
+T19	chemical 585 592	ghrelin
+T20	disease_or_phenotypic_feature 638 645	obesity
+T21	chemical 650 654	food
+T22	chemical 699 706	trypsin
+T23	chemical 707 716	inhibitor
+T24	disease_or_phenotypic_feature 720 734	gastric cancer
+T25	chemical 767 774	Dextran
+T26	chemical 775 782	sulfate
+T27	chemical 783 789	sodium
+T28	disease_or_phenotypic_feature 798 805	colitis
+T29	disease 940 943	MPa
+T30	chemical 945 956	"ARG4.0MPa"
+T31	disease 945 956	"ARG4.0MPa"
+T32	disease 1032 1037	tumor
+T33	chemical 1087 1096	molecular
+T34	disease_or_phenotypic_feature 1174 1186	mixed tumors
+T35	chemical 1240 1247	antigen
+T36	disease 1249 1254	Tumor
+T37	chemical 1279 1297	apoptosis-inducing
+T38	chemical 1298 1304	ligand
+T39	disease 1411 1417	cancer
+T40	chemical 1507 1518	methylation
+T41	disease 1633 1640	PPP2R2B
+T42	chemical 1670 1681	Amphetamine
+T43	disease_or_phenotypic_feature 1790 1797	obesity
+T44	chemical 1821 1827	Fibrin
+T45	disease 1851 1856	Blood
+T46	chemical 1932 1943	biochemical
+T47	disease_or_phenotypic_feature 1961 1973	brain tumors
+T48	chemical 2016 2025	gefitinib
+T49	disease 2040 2052	glioblastoma
+T50	disease_or_phenotypic_feature 2137 2161	Cutaneous pseudolymphoma
+T51	chemical 2196 2206	inhibitors
+T52	chemical 2226 2237	ustekinumab
+T53	chemical 2376 2384	ion-pair
+T54	disease 2376 2384	ion-pair
+T55	chemical 2396 2401	lipid
+T56	chemical 2553 2563	inhibitors
+T57	disease_or_phenotypic_feature 2567 2589	ankylosing spondylitis

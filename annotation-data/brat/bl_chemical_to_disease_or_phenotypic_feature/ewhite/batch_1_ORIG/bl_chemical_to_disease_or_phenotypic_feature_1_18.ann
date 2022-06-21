@@ -1,0 +1,70 @@
+T1	disease_or_phenotypic_feature 53 67	breast cancers
+T2	chemical 102 113	trastuzumab
+T3	chemical 140 144	drug
+T4	chemical 204 211	hormone
+T5	disease_or_phenotypic_feature 212 221	dependent
+T6	chemical 280 287	hormone
+T7	disease_or_phenotypic_feature 361 369	cataract
+T8	chemical 391 401	anesthesia
+T9	chemical 417 427	anesthesia
+T10	chemical 445 454	lidocaine
+T11	chemical 461 467	folate
+T12	chemical 481 485	acid
+T13	chemical 496 505	chidamide
+T14	chemical 514 518	drug
+T15	disease_or_phenotypic_feature 634 640	cancer
+T16	chemical 737 745	Orlistat
+T17	chemical 751 755	drug
+T18	disease_or_phenotypic_feature 799 806	obesity
+T19	disease_or_phenotypic_feature 833 846	renal failure
+T20	chemical 854 864	anesthesia
+T21	chemical 904 912	mannitol
+T22	disease_or_phenotypic_feature 985 997	brain tumors
+T23	chemical 1008 1019	biochemical
+T24	chemical 1120 1124	DTPA
+T25	chemical 1170 1173	PCP
+T26	chemical 1174 1181	mixture
+T27	disease_or_phenotypic_feature 1203 1210	obesity
+T28	disease_or_phenotypic_feature 1212 1226	hyperlipidemia
+T29	disease_or_phenotypic_feature 1228 1235	hepatic
+T30	disease_or_phenotypic_feature 1251 1263	osteoporosis
+T31	chemical 1265 1276	Cholesterol
+T32	chemical 1327 1335	antigens
+T33	disease_or_phenotypic_feature 1377 1383	cancer
+T34	chemical 1496 1503	antigen
+T35	disease_or_phenotypic_feature 1518 1523	small
+T36	disease_or_phenotypic_feature 1656 1668	cleft palate
+T37	disease_or_phenotypic_feature 1670 1676	ptosis
+T38	disease_or_phenotypic_feature 1678 1691	short stature
+T39	disease_or_phenotypic_feature 1715 1737	malignant hyperthermia
+T40	chemical 1750 1760	anesthesia
+T41	disease_or_phenotypic_feature 1762 1772	Arrhythmia
+T42	disease_or_phenotypic_feature 1777 1804	Charcot-Marie-Tooth disease
+T43	chemical 1812 1822	anesthesia
+T44	chemical 1838 1842	food
+T45	disease_or_phenotypic_feature 1915 1929	hyperlipidemia
+T46	disease_or_phenotypic_feature 1931 1951	hypercholesterolemia
+T47	disease_or_phenotypic_feature 1956 1969	hyperglycemia
+T48	chemical 1984 1992	androgen
+T49	chemical 2065 2073	androgen
+T50	disease_or_phenotypic_feature 2074 2083	dependent
+T51	chemical 2119 2129	anesthesia
+T52	disease_or_phenotypic_feature 2148 2160	cleft palate
+T53	chemical 2199 2206	antigen
+T54	disease_or_phenotypic_feature 2210 2230	pancreatic carcinoma
+T55	chemical 2232 2243	Oxaliplatin
+T56	chemical 2247 2255	platinum
+T57	chemical 2279 2283	drug
+T58	disease_or_phenotypic_feature 2304 2325	peripheral neuropathy
+T59	chemical 2378 2382	food
+T60	disease_or_phenotypic_feature 2396 2409	hypoglycaemia
+T61	disease_or_phenotypic_feature 2411 2427	muscle hypotonia
+T62	disease_or_phenotypic_feature 2440 2448	cataract
+T63	chemical 2450 2463	Tetrabenazine
+T64	chemical 2500 2504	drug
+T65	disease_or_phenotypic_feature 2535 2553	movement disorders
+T66	chemical 2589 2599	inhibitors
+T67	chemical 2603 2610	ghrelin
+T68	chemical 2629 2639	inhibitors
+T69	disease_or_phenotypic_feature 2676 2683	obesity
+T70	disease_or_phenotypic_feature 2688 2696	diabetes

@@ -1,0 +1,77 @@
+T1	chemical 12 20	nicotine
+T2	chemical 21 28	agonist
+T3	chemical 29 40	varenicline
+T4	disease_or_phenotypic_feature 55 61	ataxia
+T5	chemical 104 112	estrogen
+T6	chemical 116 123	hormone
+T7	disease_or_phenotypic_feature 124 133	dependent
+T8	disease 266 272	injury
+T9	disease 336 343	colitis
+T10	disease_or_phenotypic_feature 382 389	obesity
+T11	chemical 408 415	hormone
+T12	chemical 420 429	melatonin
+T13	chemical 461 465	drug
+T14	disease_or_phenotypic_feature 492 498	cancer
+T15	disease_or_phenotypic_feature 539 546	obesity
+T16	chemical 560 571	amphetamine
+T17	chemical 581 591	biological
+T18	disease_or_phenotypic_feature 603 610	obesity
+T19	chemical 668 677	molecular
+T20	disease 708 718	infectious
+T21	disease 719 727	diseases
+T22	disease_or_phenotypic_feature 769 787	mental retardation
+T23	disease_or_phenotypic_feature 789 796	obesity
+T24	disease_or_phenotypic_feature 798 804	ataxia
+T25	disease_or_phenotypic_feature 810 827	visual impairment
+T26	chemical 889 900	cholesterol
+T27	chemical 905 914	vitamin E
+T28	disease 936 945	disorders
+T29	disease 962 969	obesity
+T30	disease 971 986	type 2 diabetes
+T31	disease 999 1032	non-alcoholic fatty liver disease
+T32	chemical 1013 1018	fatty
+T33	chemical 1061 1068	glycine
+T34	chemical 1185 1192	glycine
+T35	chemical 1228 1240	Somatotropin
+T36	chemical 1241 1248	hormone
+T37	disease_or_phenotypic_feature 1292 1298	ataxia
+T38	chemical 1365 1381	prostaglandin E2
+T39	chemical 1454 1466	carbohydrate
+T40	chemical 1467 1474	antigen
+T41	disease 1528 1545	mucinous neoplasm
+T42	disease 1547 1552	IPMN)
+T43	chemical 1579 1589	biomarkers
+T44	chemical 1614 1622	Naproxen
+T45	chemical 1624 1635	clenbuterol
+T46	disease_or_phenotypic_feature 1663 1674	ameliorates
+T47	disease_or_phenotypic_feature 1675 1681	cancer
+T48	disease_or_phenotypic_feature 1682 1690	cachexia
+T49	disease_or_phenotypic_feature 1765 1778	hypercalcemia
+T50	disease_or_phenotypic_feature 1783 1800	hyperphosphatemia
+T51	chemical 1835 1839	drug
+T52	chemical 1905 1917	methohexital
+T53	chemical 1918 1928	anesthesia
+T54	disease_or_phenotypic_feature 1939 1946	seizure
+T55	chemical 1964 1972	ketamine
+T56	chemical 1973 1983	anesthesia
+T57	disease_or_phenotypic_feature 2003 2010	seizure
+T58	chemical 2033 2043	anesthesia
+T59	disease_or_phenotypic_feature 2073 2081	seizures
+T60	disease 2111 2151	idiopathic thrombocytopenic purpura(ITP)
+T61	disease 2139 2151	purpura(ITP)
+T62	chemical 2139 2151	purpura(ITP)
+T63	disease 2153 2164	hepatitis B
+T64	disease 2170 2187	diabetes mellitus
+T65	chemical 2206 2217	Ropivacaine
+T66	chemical 2218 2227	lidocaine
+T67	chemical 2235 2246	bupivacaine
+T68	chemical 2247 2256	lidocaine
+T69	chemical 2273 2283	anesthesia
+T70	disease_or_phenotypic_feature 2287 2295	cataract
+T71	chemical 2305 2316	Scutellarin
+T72	disease 2353 2367	osteoarthritis
+T73	chemical 2482 2492	anesthesia
+T74	disease_or_phenotypic_feature 2497 2505	cataract
+T75	chemical 2547 2551	drug
+T76	disease_or_phenotypic_feature 2564 2581	Stargardt disease
+T77	disease_or_phenotypic_feature 2593 2613	retinal degeneration

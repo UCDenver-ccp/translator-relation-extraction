@@ -1,50 +1,50 @@
 T1	chemical 96046 96054	tyrosine
-T2	disease 96093 96115	acute myeloid leukemia
-T3	disease 96117 96121	AML)
-T4	disease 96220 96224	rare
+T2	disease_or_phenotypic_feature 96093 96115	acute myeloid leukemia
+T3	disease_or_phenotypic_feature 96117 96121	AML)
+T4	disease_or_phenotypic_feature 96220 96224	rare
 T5	chemical 96256 96270	greenhouse gas
 T6	chemical 96425 96428	NPC
-T7	disease 96425 96428	NPC
+T7	disease_or_phenotypic_feature 96425 96428	NPC
 T8	chemical 96548 96552	NPC.
-T9	disease 96548 96552	NPC.
-T10	disease 96720 96726	Cancer
-T11	disease 96739 96742	CSC
+T9	disease_or_phenotypic_feature 96548 96552	NPC.
+T10	disease_or_phenotypic_feature 96720 96726	Cancer
+T11	disease_or_phenotypic_feature 96739 96742	CSC
 T12	chemical 96804 96808	drug
 T13	chemical 96912 96922	biomarkers
-T14	disease 96950 96956	cancer
+T14	disease_or_phenotypic_feature 96950 96956	cancer
 T15	chemical 97015 97020	group
 T16	chemical 97024 97034	biomarkers
-T17	disease 97072 97078	cancer
+T17	disease_or_phenotypic_feature 97072 97078	cancer
 T18	chemical 97231 97242	drug-loaded
-T19	disease 97278 97295	stimuli-sensitive
-T20	disease 97407 97410	fed
+T19	disease_or_phenotypic_feature 97278 97295	stimuli-sensitive
+T20	disease_or_phenotypic_feature 97407 97410	fed
 T21	chemical 97459 97464	group
-T22	disease 97541 97548	obesity
+T22	disease_or_phenotypic_feature 97541 97548	obesity
 T23	chemical 97597 97602	group
-T24	disease 97662 97665	get
+T24	disease_or_phenotypic_feature 97662 97665	get
 T25	chemical 97674 97684	biomarkers
 T26	chemical 97724 97733	molecular
-T27	disease 97862 97874	osteoporosis
+T27	disease_or_phenotypic_feature 97862 97874	osteoporosis
 T28	chemical 97893 97897	GAS5
 T29	chemical 97947 97954	Lithium
 T30	chemical 97973 97977	salt
 T31	chemical 98014 98018	drug
-T32	disease 98040 98056	bipolar disorder
-T33	disease 98110 98123	CMV Retinitis
+T32	disease_or_phenotypic_feature 98040 98056	bipolar disorder
+T33	disease_or_phenotypic_feature 98110 98123	CMV Retinitis
 T34	chemical 98114 98123	Retinitis
-T35	disease 98197 98209	co-infection
+T35	disease_or_phenotypic_feature 98197 98209	co-infection
 T36	chemical 98292 98299	protein
 T37	chemical 98391 98396	group
-T38	disease 98407 98415	glaucoma
+T38	disease_or_phenotypic_feature 98407 98415	glaucoma
 T39	chemical 98643 98648	water
-T40	disease 98650 98653	air
+T40	disease_or_phenotypic_feature 98650 98653	air
 T41	chemical 98692 98699	methane
-T42	disease 98735 98747	constipation
+T42	disease_or_phenotypic_feature 98735 98747	constipation
 T43	chemical 98780 98787	methane
 T44	chemical 98815 98819	mRNA
 T45	chemical 98856 98862	ligand
 T46	chemical 98887 98907	phosphatidylinositol
-T47	disease 99014 99033	lung adenocarcinoma
+T47	disease_or_phenotypic_feature 99014 99033	lung adenocarcinoma
 T48	chemical 99162 99176	5-fluorouracil
 T49	chemical 99193 99209	cyclophosphamide
 T50	chemical 99233 99249	cyclophosphamide
@@ -52,9 +52,9 @@ T51	chemical 99278 99294	cyclophosphamide
 T52	chemical 99323 99337	5-fluorouracil
 T53	chemical 99354 99370	cyclophosphamide
 T54	chemical 99386 99402	cyclophosphamide
-T55	disease 99419 99423	arms
+T55	disease_or_phenotypic_feature 99419 99423	arms
 T56	chemical 99473 99489	cyclophosphamide
-T57	disease 99570 99573	CDs
+T57	disease_or_phenotypic_feature 99570 99573	CDs
 T58	chemical 99605 99618	nanoparticles
 R1	treats Arg1:T29 Arg2:T32
 R2	treats Arg1:T31 Arg2:T32

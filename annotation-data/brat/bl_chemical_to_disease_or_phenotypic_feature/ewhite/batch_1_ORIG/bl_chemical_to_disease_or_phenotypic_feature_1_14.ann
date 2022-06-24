@@ -1,5 +1,5 @@
 T1	chemical 29 43	glucocorticoid
-T2	disease 159 168	infection
+T2	disease_or_phenotypic_feature 159 168	infection
 T3	chemical 239 243	milk
 T4	disease_or_phenotypic_feature 267 275	diabetes
 T5	disease_or_phenotypic_feature 277 283	autism
@@ -15,14 +15,14 @@ T14	chemical 563 571	estrogen
 T15	chemical 581 593	progesterone
 T16	chemical 659 667	hormones
 T17	chemical 675 682	hormone
-T18	disease 761 771	mono-modal
+T18	disease_or_phenotypic_feature 761 771	mono-modal
 T19	chemical 777 788	hydrocarbon
 T20	chemical 862 872	anesthesia
 T21	disease_or_phenotypic_feature 877 885	cataract
 T22	chemical 907 917	kaempferol
 T23	chemical 966 973	protein
 T24	chemical 1104 1111	protein
-T25	disease 1143 1149	cancer
+T25	disease_or_phenotypic_feature 1143 1149	cancer
 T26	chemical 1255 1262	antigen
 T27	chemical 1295 1302	antigen
 T28	disease_or_phenotypic_feature 1329 1347	malignant melanoma

@@ -16,7 +16,7 @@ T15	disease_or_phenotypic_feature 669 678	cataracts
 T16	chemical 703 712	oxidation
 T17	disease_or_phenotypic_feature 754 763	cataracts
 T18	disease_or_phenotypic_feature 781 790	cataracts
-T19	disease 902 924	cardiovascular disease
+T19	disease_or_phenotypic_feature 902 924	cardiovascular disease
 T20	chemical 1012 1020	selenium
 T21	chemical 1134 1145	agomelatine
 T22	chemical 1153 1164	biochemical
@@ -47,7 +47,7 @@ T46	disease_or_phenotypic_feature 1902 1912	disability
 T47	chemical 1983 1993	paroxetine
 T48	disease_or_phenotypic_feature 2011 2014	SAD
 T49	chemical 2030 2043	disinfectants
-T50	disease 2160 2166	asthma
+T50	disease_or_phenotypic_feature 2160 2166	asthma
 T51	chemical 2275 2285	fluoxetine
 T52	disease_or_phenotypic_feature 2294 2302	seizures
 T53	disease_or_phenotypic_feature 2321 2334	Down syndrome
@@ -65,7 +65,7 @@ T64	disease_or_phenotypic_feature 2744 2757	renal failure
 T65	chemical 2778 2788	penicillin
 T66	chemical 2791 2801	benzathine
 T67	chemical 2828 2839	anesthetics
-T68	disease 2872 2880	syphilis
+T68	disease_or_phenotypic_feature 2872 2880	syphilis
 T69	chemical 2948 2955	agonist
 T70	chemical 2957 2968	liraglutide
 T71	disease_or_phenotypic_feature 2995 3002	obesity

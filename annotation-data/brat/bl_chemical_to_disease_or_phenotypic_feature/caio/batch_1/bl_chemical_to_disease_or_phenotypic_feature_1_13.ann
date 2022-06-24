@@ -3,10 +3,10 @@ T2	chemical 33 41	antigens
 T3	chemical 99 107	nicotine
 T4	chemical 111 117	leptin
 T5	disease_or_phenotypic_feature 150 157	obesity
-T6	disease 160 165	Tumor
+T6	disease_or_phenotypic_feature 160 165	Tumor
 T7	chemical 190 208	apoptosis-inducing
 T8	chemical 209 215	ligand
-T9	disease 322 328	cancer
+T9	disease_or_phenotypic_feature 322 328	cancer
 T10	chemical 445 451	sodium
 T11	disease_or_phenotypic_feature 474 480	autism
 T12	disease_or_phenotypic_feature 481 504	intellectual disability
@@ -27,7 +27,7 @@ T26	disease_or_phenotypic_feature 888 901	heart failure
 T27	chemical 924 948	CB1 receptor antagonists
 T28	disease_or_phenotypic_feature 953 960	obesity
 T29	chemical 966 977	methylation
-T30	disease 1092 1099	PPP2R2B
+T30	disease_or_phenotypic_feature 1092 1099	PPP2R2B
 T31	chemical 1165 1179	angiotensin II
 T32	chemical 1180 1190	antagonist
 T33	chemical 1191 1202	candesartan
@@ -47,15 +47,15 @@ T46	chemical 1746 1756	paclitaxel
 T47	disease_or_phenotypic_feature 1795 1810	prostate cancer
 T48	chemical 1870 1874	drug
 T49	chemical 1916 1922	Fibrin
-T50	disease 1946 1951	Blood
+T50	disease_or_phenotypic_feature 1946 1951	Blood
 T51	chemical 2006 2018	Thallium-201
 T52	chemical 2019 2027	chloride
 T53	disease_or_phenotypic_feature 2040 2050	lung tumor
 T54	chemical 2138 2147	gefitinib
-T55	disease 2162 2174	glioblastoma
+T55	disease_or_phenotypic_feature 2162 2174	glioblastoma
 T56	disease_or_phenotypic_feature 2296 2311	Down's syndrome
 T57	disease_or_phenotypic_feature 2316 2322	autism
 T58	chemical 2336 2346	fluoxetine
 T59	chemical 2485 2493	ion-pair
-T60	disease 2485 2493	ion-pair
+T60	disease_or_phenotypic_feature 2485 2493	ion-pair
 T61	chemical 2505 2510	lipid

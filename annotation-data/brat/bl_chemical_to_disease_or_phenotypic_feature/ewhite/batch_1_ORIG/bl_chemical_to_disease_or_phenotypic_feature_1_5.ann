@@ -18,8 +18,8 @@ T17	disease_or_phenotypic_feature 486 503	hyperphosphatemia
 T18	disease_or_phenotypic_feature 505 524	hyperparathyroidism
 T19	chemical 556 583	asymmetric dimethylarginine
 T20	chemical 588 597	oxidative
-T21	disease 675 680	blood
-T22	disease 713 718	blood
+T21	disease_or_phenotypic_feature 675 680	blood
+T22	disease_or_phenotypic_feature 713 718	blood
 T23	chemical 775 780	lipid
 T24	chemical 825 837	myo-inositol
 T25	chemical 877 888	biochemical
@@ -33,7 +33,7 @@ T32	chemical 1121 1136	phosphorylation
 T33	chemical 1189 1204	phosphorylation
 T34	chemical 1394 1408	phosphorylated
 T35	chemical 1409 1417	residues
-T36	disease 1442 1446	rich
+T36	disease_or_phenotypic_feature 1442 1446	rich
 T37	chemical 1457 1465	residues
 T38	chemical 1601 1613	radiolabeled
 T39	disease_or_phenotypic_feature 1635 1654	metastatic melanoma
@@ -50,16 +50,16 @@ T49	chemical 2165 2177	Atorvastatin
 T50	chemical 2182 2191	oxidative
 T51	disease_or_phenotypic_feature 2202 2224	coronary heart disease
 T52	disease_or_phenotypic_feature 2230 2237	obesity
-T53	disease 2264 2290	small bowel adenocarcinoma
+T53	disease_or_phenotypic_feature 2264 2290	small bowel adenocarcinoma
 T54	chemical 2385 2404	glucose-transporter
-T55	disease 2475 2478	ICC
+T55	disease_or_phenotypic_feature 2475 2478	ICC
 T56	chemical 2630 2633	DDD
 T57	chemical 2667 2678	Amfepramone
 T58	disease_or_phenotypic_feature 2680 2683	AFP
 T59	chemical 2712 2716	drug
 T60	disease_or_phenotypic_feature 2742 2749	obesity
 T61	chemical 2786 2794	Graphite
-T62	disease 2806 2811	K-Ion
+T62	disease_or_phenotypic_feature 2806 2811	K-Ion
 T63	chemical 2806 2811	K-Ion
 T64	disease_or_phenotypic_feature 2868 2884	ischemic disease
 T65	disease_or_phenotypic_feature 2886 2896	arrhythmia

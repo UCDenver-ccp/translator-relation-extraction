@@ -1,63 +1,63 @@
 T1	chemical 96087 96097	metal-free
-T2	disease 96112 96115	air
+T2	disease_or_phenotypic_feature 96112 96115	air
 T3	chemical 96151 96157	oxygen
-T4	disease 96203 96214	sensitivity
+T4	disease_or_phenotypic_feature 96203 96214	sensitivity
 T5	corrected_chemical 96593 96621	immune checkpoint inhibitors
 T6	chemical 96611 96621	inhibitors
-T7	disease 96701 96707	SCCHN.
-T8	disease 96752 96761	pituitary
-T9	disease 96809 96818	pituitary
+T7	disease_or_phenotypic_feature 96701 96707	SCCHN.
+T8	disease_or_phenotypic_feature 96752 96761	pituitary
+T9	disease_or_phenotypic_feature 96809 96818	pituitary
 T10	chemical 96871 96879	hormonal
 T11	chemical 97003 97014	metabolites
-T12	disease 97091 97095	ASD.
+T12	disease_or_phenotypic_feature 97091 97095	ASD.
 T13	chemical 97121 97137	thyroid hormones
 T14	chemical 97129 97137	hormones
 T15	chemical 97142 97151	prolactin
-T16	corrected_disease 97215 97235	major mood disorders
-T17	disease 97226 97235	disorders
-T18	corrected_disease 97240 97259	psychotic disorders
-T19	disease 97250 97259	disorders
+T16	corrected_disease_or_phenotypic_feature 97215 97235	major mood disorders
+T17	disease_or_phenotypic_feature 97226 97235	disorders
+T18	corrected_disease_or_phenotypic_feature 97240 97259	psychotic disorders
+T19	disease_or_phenotypic_feature 97250 97259	disorders
 T20	chemical 97308 97325	calcium-phosphate
-T21	disease 97390 97404	oral mucositis
+T21	disease_or_phenotypic_feature 97390 97404	oral mucositis
 T22	chemical 97459 97466	protein
-T23	disease 97492 97498	common
+T23	disease_or_phenotypic_feature 97492 97498	common
 T24	missed_chemical 97565 97583	immunosuppressants
 T25	corrected_chemical 97634 97655	5-aminosalicylic acid
 T26	chemical 97651 97655	acid
-T27	corrected_disease 97691 97714	opportunistic infection
-T28	disease 97705 97714	infection
+T27	corrected_disease_or_phenotypic_feature 97691 97714	opportunistic infection
+T28	disease_or_phenotypic_feature 97705 97714	infection
 T29	chemical 97800 97805	ozone
-T30	disease 97814 97820	injury
+T30	disease_or_phenotypic_feature 97814 97820	injury
 T31	chemical 97974 97980	sodium
 T32	chemical 97981 97992	thiosulfate
-T33	disease 97993 97997	(STS
-T34	disease 98159 98167	epilepsy
+T33	disease_or_phenotypic_feature 97993 97997	(STS
+T34	disease_or_phenotypic_feature 98159 98167	epilepsy
 T35	chemical 98208 98211	MES
 T36	chemical 98354 98359	 veno
 T37	chemical 98384 98391	 protei
-T38	disease 98429 98435	 cance
-T39	disease 98567 98585	pulmonary fibrosis
+T38	disease_or_phenotypic_feature 98429 98435	 cance
+T39	disease_or_phenotypic_feature 98567 98585	pulmonary fibrosis
 T40	chemical 98640 98648	molecule
 T41	chemical 98649 98659	inhibitors
 T42	chemical 98746 98754	androgen
-T43	disease 98792 98795	PCa
+T43	disease_or_phenotypic_feature 98792 98795	PCa
 T44	chemical 99011 99018	nucleus
-T45	disease 99022 99029	HFD-fed
-T46	disease 99154 99160	cancer
+T45	disease_or_phenotypic_feature 99022 99029	HFD-fed
+T46	disease_or_phenotypic_feature 99154 99160	cancer
 T47	chemical 99177 99181	drug
 T48	chemical 99284 99292	afatinib
-T49	corrected_disease 99306 99357	stage IV oligometastatic adenocarcinoma of the lung
-T50	disease 99331 99357	adenocarcinoma of the lung
+T49	corrected_disease_or_phenotypic_feature 99306 99357	stage IV oligometastatic adenocarcinoma of the lung
+T50	disease_or_phenotypic_feature 99331 99357	adenocarcinoma of the lung
 T51	chemical 99433 99438	group
-T52	disease 99486 99503	esophageal cancer
+T52	disease_or_phenotypic_feature 99486 99503	esophageal cancer
 T53	chemical 99528 99533	Lipid
 T54	chemical 99545 99557	Anti-oxidant
 T55	chemical 99577 99586	Gastrodin
-T56	corrected_disease 99590 99622	Nonalcoholic Fatty Liver Disease
+T56	corrected_disease_or_phenotypic_feature 99590 99622	Nonalcoholic Fatty Liver Disease
 T57	chemical 99603 99608	Fatty
-T58	disease 99603 99622	Fatty Liver Disease
+T58	disease_or_phenotypic_feature 99603 99622	Fatty Liver Disease
 T59	chemical 99713 99716	AOP
-T60	disease 99713 99716	AOP
+T60	disease_or_phenotypic_feature 99713 99716	AOP
 R1	treats Arg1:T55 Arg2:T56
 R2	treats Arg1:T48 Arg2:T49
 R3	treats Arg1:T48 Arg2:T50

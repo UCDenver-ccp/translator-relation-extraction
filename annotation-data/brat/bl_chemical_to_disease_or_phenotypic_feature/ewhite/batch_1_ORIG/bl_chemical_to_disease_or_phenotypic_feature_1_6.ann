@@ -23,7 +23,7 @@ T22	disease_or_phenotypic_feature 843 858	prostate cancer
 T23	chemical 860 863	PCa
 T24	disease_or_phenotypic_feature 890 906	muscular atrophy
 T25	chemical 972 986	Cyclosporine-A
-T26	disease 1010 1029	Gingival Overgrowth
+T26	disease_or_phenotypic_feature 1010 1029	Gingival Overgrowth
 T27	disease_or_phenotypic_feature 1089 1101	glioblastoma
 T28	chemical 1121 1134	interleukin-4
 T29	chemical 1135 1140	toxin
@@ -51,9 +51,9 @@ T50	chemical 1972 1982	anesthesia
 T51	disease_or_phenotypic_feature 1992 2000	cataract
 T52	chemical 2052 2056	food
 T53	disease_or_phenotypic_feature 2067 2074	obesity
-T54	disease 2088 2091	CKD
+T54	disease_or_phenotypic_feature 2088 2091	CKD
 T55	chemical 2092 2097	group
-T56	disease 2139 2148	condition
+T56	disease_or_phenotypic_feature 2139 2148	condition
 T57	chemical 2183 2192	vitamin A
-T58	disease 2256 2263	rubella
-T59	disease 2319 2327	diarrhea
+T58	disease_or_phenotypic_feature 2256 2263	rubella
+T59	disease_or_phenotypic_feature 2319 2327	diarrhea

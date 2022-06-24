@@ -1,57 +1,57 @@
-T1	disease 193631 193636	MPNST
+T1	disease_or_phenotypic_feature 193631 193636	MPNST
 T2	chemical 193696 193713	positron-emission
-T3	disease 193734 193738	scan
-T4	disease 193889 193898	sensitive
+T3	disease_or_phenotypic_feature 193734 193738	scan
+T4	disease_or_phenotypic_feature 193889 193898	sensitive
 T5	chemical 193902 193911	polymyxin
 T6	chemical 193918 193940	sodium dodecyl sulfate
-T7	disease 194038 194049	sarcoidosis
+T7	disease_or_phenotypic_feature 194038 194049	sarcoidosis
 T8	chemical 194050 194055	group
 T9	chemical 194232 194235	ion
-T10	disease 194232 194235	ion
+T10	disease_or_phenotypic_feature 194232 194235	ion
 T11	chemical 194287 194295	electron
 T12	chemical 194313 194320	neutron
 T13	chemical 194501 194511	anesthetic
-T14	disease 194543 194548	wound
+T14	disease_or_phenotypic_feature 194543 194548	wound
 T15	chemical 194761 194778	Dodecane-in-water
 T16	chemical 194814 194822	polymers
-T17	disease 194906 194909	SDS
+T17	disease_or_phenotypic_feature 194906 194909	SDS
 T18	chemical 194946 194953	neutron
-T19	disease 195035 195044	sensitive
+T19	disease_or_phenotypic_feature 195035 195044	sensitive
 T20	chemical 195061 195067	phenol
-T21	disease 195117 195122	blood
+T21	disease_or_phenotypic_feature 195117 195122	blood
 T22	chemical 195133 195140	glucose
 T23	chemical 195157 195162	lipid
-T24	disease 195174 195198	type 2 diabetes mellitus
-T25	disease 195302 195306	IDH2
-T26	disease 195310 195325	prostate cancer
+T24	disease_or_phenotypic_feature 195174 195198	type 2 diabetes mellitus
+T25	disease_or_phenotypic_feature 195302 195306	IDH2
+T26	disease_or_phenotypic_feature 195310 195325	prostate cancer
 T27	chemical 195341 195350	oxidative
 T28	chemical 195375 195398	reactive oxygen species
 T29	chemical 195751 195757	oxygen
-T30	disease 195782 195808	retinopathy of prematurity
-T31	disease 195989 195996	amyloid
+T30	disease_or_phenotypic_feature 195782 195808	retinopathy of prematurity
+T31	disease_or_phenotypic_feature 195989 195996	amyloid
 T32	chemical 196007 196014	protein
 T33	chemical 196090 196097	protein
-T34	disease 196225 196234	disorders
-T35	disease 196239 196247	diseases
+T34	disease_or_phenotypic_feature 196225 196234	disorders
+T35	disease_or_phenotypic_feature 196239 196247	diseases
 T36	chemical 196276 196282	proton
-T37	disease 196344 196349	tumor
-T38	disease 196400 196405	tumor
-T39	disease 196433 196438	tumor
+T37	disease_or_phenotypic_feature 196344 196349	tumor
+T38	disease_or_phenotypic_feature 196400 196405	tumor
+T39	disease_or_phenotypic_feature 196433 196438	tumor
 T40	chemical 196466 196472	proton
-T41	disease 196515 196525	high-grade
+T41	disease_or_phenotypic_feature 196515 196525	high-grade
 T42	chemical 196576 196584	adjuvant
 T43	chemical 196640 196651	methylation
-T44	disease 196751 196769	skeletal fluorosis
-T45	disease 196850 196857	obesity
+T44	disease_or_phenotypic_feature 196751 196769	skeletal fluorosis
+T45	disease_or_phenotypic_feature 196850 196857	obesity
 T46	chemical 196907 196916	oxidative
 T47	chemical 197009 197018	imiquimod
-T48	disease 197071 197078	lentigo
-T49	corrected_disease 197071 197086	lentigo maligna
-T50	disease 197232 197240	mastitis
+T48	disease_or_phenotypic_feature 197071 197078	lentigo
+T49	corrected_disease_or_phenotypic_feature 197071 197086	lentigo maligna
+T50	disease_or_phenotypic_feature 197232 197240	mastitis
 T51	chemical 197278 197287	lactating
 T52	chemical 197393 197396	met
-T53	disease 197429 197447	bipolar I disorder
-T54	disease 197672 197676	rare
-T55	disease 197693 197714	diabetic ketoacidosis
+T53	disease_or_phenotypic_feature 197429 197447	bipolar I disorder
+T54	disease_or_phenotypic_feature 197672 197676	rare
+T55	disease_or_phenotypic_feature 197693 197714	diabetic ketoacidosis
 T56	chemical 197767 197772	anion
 R1	treats Arg1:T47 Arg2:T49

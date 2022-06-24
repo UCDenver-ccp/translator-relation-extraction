@@ -2,11 +2,11 @@ T1	disease_or_phenotypic_feature 41 47	cancer
 T2	chemical 96 104	antigens
 T3	chemical 114 122	hormones
 T4	chemical 124 131	enzymes
-T5	disease 288 293	blood
+T5	disease_or_phenotypic_feature 288 293	blood
 T6	chemical 370 380	hemoglobin
-T7	disease 382 387	blood
+T7	disease_or_phenotypic_feature 382 387	blood
 T8	chemical 431 441	anesthesia
-T9	disease 442 446	(PCA
+T9	disease_or_phenotypic_feature 442 446	(PCA
 T10	chemical 448 456	morphine
 T11	chemical 540 551	Hydralazine
 T12	chemical 555 559	drug
@@ -25,15 +25,15 @@ T24	disease_or_phenotypic_feature 927 932	edema
 T25	chemical 934 944	Fluoxetine
 T26	disease_or_phenotypic_feature 981 999	serotonin syndrome
 T27	disease_or_phenotypic_feature 1001 1008	seizure
-T28	disease 1043 1053	Congenital
-T29	disease 1054 1066	microcephaly
+T28	disease_or_phenotypic_feature 1043 1053	Congenital
+T29	disease_or_phenotypic_feature 1054 1066	microcephaly
 T30	chemical 1093 1098	group
-T31	disease 1102 1111	disorders
+T31	disease_or_phenotypic_feature 1102 1111	disorders
 T32	chemical 1290 1298	antigens
 T33	disease_or_phenotypic_feature 1310 1328	pancreatic cancers
 T34	chemical 1382 1390	antigens
 T35	chemical 1465 1472	biology
-T36	disease 1541 1547	cancer
+T36	disease_or_phenotypic_feature 1541 1547	cancer
 T37	chemical 1632 1642	synephrine
 T38	chemical 1647 1657	anesthetic
 T39	disease_or_phenotypic_feature 1687 1695	cataract

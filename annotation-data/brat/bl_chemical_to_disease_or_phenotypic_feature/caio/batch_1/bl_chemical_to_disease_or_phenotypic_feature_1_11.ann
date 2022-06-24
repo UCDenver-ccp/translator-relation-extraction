@@ -14,12 +14,12 @@ T13	disease_or_phenotypic_feature 505 512	obesity
 T14	chemical 538 542	food
 T15	chemical 564 574	inhibitors
 T16	chemical 597 602	LDL-C
-T17	disease 666 688	cardiovascular disease
+T17	disease_or_phenotypic_feature 666 688	cardiovascular disease
 T18	disease_or_phenotypic_feature 760 767	sarcoma
 T19	chemical 795 801	oxygen
-T20	disease 812 847	Thrombotic thrombocytopenic purpura
+T20	disease_or_phenotypic_feature 812 847	Thrombotic thrombocytopenic purpura
 T21	chemical 849 852	TTP
-T22	disease 849 852	TTP
+T22	disease_or_phenotypic_feature 849 852	TTP
 T23	chemical 1003 1011	epitopes
 T24	chemical 1022 1030	antigens
 T25	disease_or_phenotypic_feature 1057 1070	breast cancer
@@ -29,10 +29,10 @@ T28	disease_or_phenotypic_feature 1159 1166	obesity
 T29	chemical 1174 1181	calcium
 T30	chemical 1227 1234	hormone
 T31	disease_or_phenotypic_feature 1235 1244	dependent
-T32	disease 1289 1309	basal cell carcinoma
-T33	disease 1310 1314	(BCC
+T32	disease_or_phenotypic_feature 1289 1309	basal cell carcinoma
+T33	disease_or_phenotypic_feature 1310 1314	(BCC
 T34	chemical 1358 1366	residual
-T35	disease 1367 1372	tumor
+T35	disease_or_phenotypic_feature 1367 1372	tumor
 T36	disease_or_phenotypic_feature 1455 1458	MVA
 T37	chemical 1455 1458	MVA
 T38	chemical 1500 1507	antigen
@@ -53,9 +53,9 @@ T52	disease_or_phenotypic_feature 1934 1941	obesity
 T53	chemical 1979 1986	antigen
 T54	disease_or_phenotypic_feature 2051 2059	melanoma
 T55	chemical 2097 2104	antigen
-T56	disease 2160 2183	undifferentiated/poorly
-T57	disease 2160 2198	undifferentiated/poorly differentiated
-T58	disease 2199 2223	nasopharyngeal carcinoma
+T56	disease_or_phenotypic_feature 2160 2183	undifferentiated/poorly
+T57	disease_or_phenotypic_feature 2160 2198	undifferentiated/poorly differentiated
+T58	disease_or_phenotypic_feature 2199 2223	nasopharyngeal carcinoma
 T59	chemical 2251 2257	proton
 T60	chemical 2310 2320	inhibitors
 T61	disease_or_phenotypic_feature 2341 2354	heart failure

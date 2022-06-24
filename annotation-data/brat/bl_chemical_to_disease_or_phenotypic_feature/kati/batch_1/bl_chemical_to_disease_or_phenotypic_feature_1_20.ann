@@ -4,9 +4,9 @@ T3	chemical 25 30	Fatty
 T4	chemical 25 36	Fatty acids
 T5	chemical 59 72	carbon-carbon
 T6	chemical 102 127	conjugated linoleic acids
-T7	disease 205 213	diabetes
-T8	disease 215 221	cancer
-T9	disease 227 242	atherosclerosis
+T7	disease_or_phenotypic_feature 205 213	diabetes
+T8	disease_or_phenotypic_feature 215 221	cancer
+T9	disease_or_phenotypic_feature 227 242	atherosclerosis
 T10	disease_or_phenotypic_feature 261 278	Liddle's syndrome
 T11	disease_or_phenotypic_feature 296 307	hypokalemic
 T12	disease_or_phenotypic_feature 308 320	hypertension
@@ -20,7 +20,7 @@ T19	chemical 613 617	drug
 T20	chemical 632 642	Mefloquine
 T21	disease_or_phenotypic_feature 651 668	grand mal seizure
 T22	disease_or_phenotypic_feature 676 683	malaria
-T23	disease 753 779	small bowel adenocarcinoma
+T23	disease_or_phenotypic_feature 753 779	small bowel adenocarcinoma
 T24	chemical 874 893	glucose-transporter
 T25	disease_or_phenotypic_feature 956 962	cancer
 T26	chemical 978 981	CIT
@@ -55,14 +55,14 @@ T54	chemical 1997 2003	oxygen
 T55	chemical 2059 2073	growth hormone
 T56	chemical 2082 2089	glucose
 T57	disease_or_phenotypic_feature 2108 2115	obesity
-T58	disease 2154 2157	ICC
+T58	disease_or_phenotypic_feature 2154 2157	ICC
 T59	chemical 2309 2312	DDD
 T60	chemical 2362 2368	saline
 T61	disease_or_phenotypic_feature 2424 2431	hepatic
 T62	disease_or_phenotypic_feature 2439 2454	Medulloblastoma
 T63	chemical 2474 2481	biology
 T64	chemical 2546 2554	Graphite
-T65	disease 2566 2571	K-Ion
+T65	disease_or_phenotypic_feature 2566 2571	K-Ion
 T66	chemical 2566 2571	K-Ion
 T67	disease_or_phenotypic_feature 2669 2681	mesothelioma
 T68	chemical 2711 2722	nimotuzumab

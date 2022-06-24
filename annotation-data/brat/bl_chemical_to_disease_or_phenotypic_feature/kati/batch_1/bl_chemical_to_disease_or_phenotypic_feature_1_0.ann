@@ -43,8 +43,8 @@ T42	chemical 1327 1337	anesthetic
 T43	disease_or_phenotypic_feature 1358 1369	hypokalemia
 T44	chemical 1371 1380	Pazopanib
 T45	chemical 1415 1422	retinal
-T46	disease 1423 1428	wound
-T47	disease 1507 1511	pale
+T46	disease_or_phenotypic_feature 1423 1428	wound
+T47	disease_or_phenotypic_feature 1507 1511	pale
 T48	chemical 1583 1593	anesthesia
 T49	disease_or_phenotypic_feature 1598 1606	cataract
 T50	chemical 1639 1649	alfentanil

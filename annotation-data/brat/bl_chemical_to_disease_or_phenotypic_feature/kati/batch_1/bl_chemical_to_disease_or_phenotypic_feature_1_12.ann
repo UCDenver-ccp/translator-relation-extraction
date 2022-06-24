@@ -1,4 +1,4 @@
-T1	disease 40 47	non-CKD
+T1	disease_or_phenotypic_feature 40 47	non-CKD
 T2	chemical 61 66	group
 T3	chemical 89 94	group
 T4	chemical 117 122	group
@@ -23,8 +23,8 @@ T22	disease_or_phenotypic_feature 736 743	obesity
 T23	chemical 763 769	oxygen
 T24	chemical 770 781	metabolites
 T25	chemical 853 862	molecular
-T26	disease 893 903	infectious
-T27	disease 904 912	diseases
+T26	disease_or_phenotypic_feature 893 903	infectious
+T27	disease_or_phenotypic_feature 904 912	diseases
 T28	chemical 968 976	antigens
 T29	disease_or_phenotypic_feature 1005 1022	metastatic tumors
 T30	disease_or_phenotypic_feature 1052 1059	Painful
@@ -54,13 +54,13 @@ T53	disease_or_phenotypic_feature 1820 1835	prostate cancer
 T54	chemical 1846 1854	hormones
 T55	chemical 1872 1879	ghrelin
 T56	disease_or_phenotypic_feature 1922 1929	obesity
-T57	disease 1988 1992	rare
-T58	disease 1993 1998	tumor
+T57	disease_or_phenotypic_feature 1988 1992	rare
+T58	disease_or_phenotypic_feature 1993 1998	tumor
 T59	chemical 2108 2115	biology
-T60	disease 2147 2156	disorders
-T61	disease 2173 2180	obesity
-T62	disease 2182 2197	type 2 diabetes
-T63	disease 2210 2243	non-alcoholic fatty liver disease
+T60	disease_or_phenotypic_feature 2147 2156	disorders
+T61	disease_or_phenotypic_feature 2173 2180	obesity
+T62	disease_or_phenotypic_feature 2182 2197	type 2 diabetes
+T63	disease_or_phenotypic_feature 2210 2243	non-alcoholic fatty liver disease
 T64	chemical 2224 2229	fatty
 T65	chemical 2272 2279	glycine
 T66	chemical 2396 2403	glycine

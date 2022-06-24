@@ -1,64 +1,64 @@
 T1	chemical 96060 96068	molecule
-T2	disease 96174 96178	ESRD
+T2	disease_or_phenotypic_feature 96174 96178	ESRD
 T3	chemical 96266 96273	mineral
-T4	disease 96303 96315	osteoporosis
-T5	disease 96346 96354	fracture
+T4	disease_or_phenotypic_feature 96303 96315	osteoporosis
+T5	disease_or_phenotypic_feature 96346 96354	fracture
 T6	chemical 96393 96397	drug
-T7	disease 96412 96418	cancer
+T7	disease_or_phenotypic_feature 96412 96418	cancer
 T8	chemical 96560 96569	molecular
 T9	chemical 96614 96617	RNA
 T10	chemical 96634 96643	cisplatin
 T11	missed_chemical 96645 96648	DDP
-T12	disease 96664 96678	gastric cancer
+T12	disease_or_phenotypic_feature 96664 96678	gastric cancer
 T13	chemical 96709 96723	Immunogenicity
-T14	disease 96744 96753	Influenza
+T14	disease_or_phenotypic_feature 96744 96753	Influenza
 T15	chemical 96889 96896	glucose
 T16	chemical 96919 96923	zinc
-T17	disease 96957 96972	type 2 diabetes
+T17	disease_or_phenotypic_feature 96957 96972	type 2 diabetes
 T18	chemical 97080 97090	tryptophan
-T19	disease 97105 97109	IBD.
+T19	disease_or_phenotypic_feature 97105 97109	IBD.
 T20	chemical 97127 97155	Persistent organic pollutant
-T21	disease 97188 97197	cold-brew
-T22	disease 97235 97241	common
-T23	disease 97251 97257	anemia
-T24	disease 97261 97281	rheumatoid arthritis
+T21	disease_or_phenotypic_feature 97188 97197	cold-brew
+T22	disease_or_phenotypic_feature 97235 97241	common
+T23	disease_or_phenotypic_feature 97251 97257	anemia
+T24	disease_or_phenotypic_feature 97261 97281	rheumatoid arthritis
 T25	chemical 97291 97295	iron
-T26	disease 97291 97313	iron deficiency anemia
-T27	missed_disease 97315 97318	IDA
-T28	disease 97324 97349	anemia of chronic disease
+T26	disease_or_phenotypic_feature 97291 97313	iron deficiency anemia
+T27	missed_disease_or_phenotypic_feature 97315 97318	IDA
+T28	disease_or_phenotypic_feature 97324 97349	anemia of chronic disease
 T29	chemical 97436 97452	Curcumin-Induced
-T30	disease 97512 97524	Glioblastoma
+T30	disease_or_phenotypic_feature 97512 97524	Glioblastoma
 T31	missed_chemical 97589 97592	SIM
 T32	missed_chemical 97633 97636	TAM
 T33	chemical 97672 97680	estrogen
-T34	corrected_disease 97672 97718	estrogen receptor-positive (ER+) breast cancer
-T35	disease 97705 97718	breast cancer
-T36	disease 97812 97819	PB-PCT)
+T34	corrected_disease_or_phenotypic_feature 97672 97718	estrogen receptor-positive (ER+) breast cancer
+T35	disease_or_phenotypic_feature 97705 97718	breast cancer
+T36	disease_or_phenotypic_feature 97812 97819	PB-PCT)
 T37	chemical 97892 97899	mineral
 T38	chemical 98040 98048	Cysteine
-T39	disease 98050 98057	C)-rich
+T39	disease_or_phenotypic_feature 98050 98057	C)-rich
 T40	chemical 98079 98083	zinc
 T41	chemical 98197 98205	residues
-T42	disease 98333 98337	mono
-T43	disease 98397 98407	rare-earth
+T42	disease_or_phenotypic_feature 98333 98337	mono
+T43	disease_or_phenotypic_feature 98397 98407	rare-earth
 T44	chemical 98412 98431	main-group elements
-T45	corrected_disease 98450 98484	Type II collagen-induced arthritis
+T45	corrected_disease_or_phenotypic_feature 98450 98484	Type II collagen-induced arthritis
 T46	chemical 98458 98474	collagen-induced
-T47	disease 98475 98484	arthritis
+T47	disease_or_phenotypic_feature 98475 98484	arthritis
 T48	chemical 98525 98537	paeoniflorin
-T49	disease 98655 98662	disease
+T49	disease_or_phenotypic_feature 98655 98662	disease
 T50	chemical 98695 98705	octreotide
 T51	chemical 98785 98795	biological
-T52	disease 98808 98818	infectious
-T53	disease 98819 98827	diseases
+T52	disease_or_phenotypic_feature 98808 98818	infectious
+T53	disease_or_phenotypic_feature 98819 98827	diseases
 T54	chemical 98859 98863	EETs
-T55	disease 98929 98935	asthma
+T55	disease_or_phenotypic_feature 98929 98935	asthma
 T56	chemical 99024 99031	Alcohol
-T57	corrected_disease 99024 99044	Alcohol Use Disorder
-T58	disease 99036 99044	Disorder
+T57	corrected_disease_or_phenotypic_feature 99024 99044	Alcohol Use Disorder
+T58	disease_or_phenotypic_feature 99036 99044	Disorder
 T59	chemical 99184 99195	antioxidant
 T60	chemical 99237 99244	agonist
-T61	disease 99245 99249	PMA.
+T61	disease_or_phenotypic_feature 99245 99249	PMA.
 R1	treats Arg1:T50 Arg2:T49
 R2	treats Arg1:T32 Arg2:T34
 R3	causes_or_contributes_to Arg1:T33 Arg2:T34

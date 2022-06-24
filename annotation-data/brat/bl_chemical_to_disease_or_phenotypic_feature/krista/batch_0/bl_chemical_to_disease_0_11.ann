@@ -1,69 +1,69 @@
 T1	chemical 83 98	graphene-coated
-T2	disease 122 133	sensitivity
+T2	disease_or_phenotypic_feature 122 133	sensitivity
 T3	chemical 179 189	Metamizole
-T4	corrected_disease 200 213	kidney injury
-T5	disease 207 213	injury
-T6	disease 389 396	obesity
+T4	corrected_disease_or_phenotypic_feature 200 213	kidney injury
+T5	disease_or_phenotypic_feature 207 213	injury
+T6	disease_or_phenotypic_feature 389 396	obesity
 T7	chemical 413 418	lipid
 T8	chemical 481 488	Retinal
-T9	disease 481 503	Retinal Vein Occlusion
+T9	disease_or_phenotypic_feature 481 503	Retinal Vein Occlusion
 T10	chemical 541 548	Retinal
 T11	chemical 638 653	Anticoagulation
-T12	disease 686 705	Atrial Fibrillation
+T12	disease_or_phenotypic_feature 686 705	Atrial Fibrillation
 T13	chemical 758 761	ITP
-T14	disease 758 761	ITP
-T15	disease 1049 1052	CDC
+T14	disease_or_phenotypic_feature 758 761	ITP
+T15	disease_or_phenotypic_feature 1049 1052	CDC
 T16	chemical 1080 1103	emtricitabine-tenofovir
 T17	chemical 1080 1123	emtricitabine-tenofovir disoproxil fumarate
 T18	chemical 1156 1161	Lipid
 T19	chemical 1175 1188	lipid-storage
 T20	chemical 1219 1224	lipid
-T21	disease 1258 1266	diabetes
-T22	disease 1268 1275	obesity
-T23	disease 1280 1295	atherosclerosis
+T21	disease_or_phenotypic_feature 1258 1266	diabetes
+T22	disease_or_phenotypic_feature 1268 1275	obesity
+T23	disease_or_phenotypic_feature 1280 1295	atherosclerosis
 T24	chemical 1361 1369	estrogen
 T25	chemical 1403 1415	progesterone
-T26	disease 1472 1485	breast cancer
+T26	disease_or_phenotypic_feature 1472 1485	breast cancer
 T27	chemical 1504 1512	Baicalin
-T28	disease 1523 1533	depression
+T28	disease_or_phenotypic_feature 1523 1533	depression
 T29	chemical 1705 1715	carbon-ion
-T30	disease 1705 1715	carbon-ion
-T31	disease 1733 1756	head and neck carcinoma
-T32	disease 1809 1826	pancreatic cancer
-T33	disease 1846 1863	pancreatic cancer
+T30	disease_or_phenotypic_feature 1705 1715	carbon-ion
+T31	disease_or_phenotypic_feature 1733 1756	head and neck carcinoma
+T32	disease_or_phenotypic_feature 1809 1826	pancreatic cancer
+T33	disease_or_phenotypic_feature 1846 1863	pancreatic cancer
 T34	chemical 1864 1869	group
-T35	disease 1910 1918	diseases
-T36	disease 1945 1952	disease
+T35	disease_or_phenotypic_feature 1910 1918	diseases
+T36	disease_or_phenotypic_feature 1945 1952	disease
 T37	chemical 1953 1958	group
-T38	disease 1981 2003	Constipation-Relieving
+T38	disease_or_phenotypic_feature 1981 2003	Constipation-Relieving
 T39	chemical 2016 2026	d-Tagatose
 T40	chemical 2099 2113	Apolipoprotein
 T41	chemical 2143 2150	Protein
-T42	disease 2206 2223	Colorectal Cancer
-T43	corrected_disease 2297 2317	sciatic never injury
-T44	disease 2311 2317	injury
+T42	disease_or_phenotypic_feature 2206 2223	Colorectal Cancer
+T43	corrected_disease_or_phenotypic_feature 2297 2317	sciatic never injury
+T44	disease_or_phenotypic_feature 2311 2317	injury
 T45	chemical 2349 2357	molecule
 T46	corrected_chemical 2387 2403	PCSK9 inhibitors
 T47	chemical 2393 2403	inhibitors
 T48	chemical 2426 2431	LDL-C
-T49	disease 2495 2517	cardiovascular disease
+T49	disease_or_phenotypic_feature 2495 2517	cardiovascular disease
 T50	chemical 2551 2559	residual
-T51	disease 2560 2565	blood
+T51	disease_or_phenotypic_feature 2560 2565	blood
 T52	chemical 2612 2619	heparin
 T53	chemical 2736 2740	heme
 T54	corrected_chemical 2736 2745	heme iron
 T55	chemical 2741 2745	iron
 T56	chemical 2769 2773	iron
-T57	disease 2785 2791	cancer
-T58	disease 2826 2843	colorectal cancer
-T59	disease 2845 2848	CRC
-T60	disease 2868 2903	Thrombotic thrombocytopenic purpura
+T57	disease_or_phenotypic_feature 2785 2791	cancer
+T58	disease_or_phenotypic_feature 2826 2843	colorectal cancer
+T59	disease_or_phenotypic_feature 2845 2848	CRC
+T60	disease_or_phenotypic_feature 2868 2903	Thrombotic thrombocytopenic purpura
 T61	chemical 2905 2908	TTP
-T62	disease 2905 2908	TTP
-T63	disease 3067 3087	basal cell carcinoma
-T64	disease 3088 3092	(BCC
+T62	disease_or_phenotypic_feature 2905 2908	TTP
+T63	disease_or_phenotypic_feature 3067 3087	basal cell carcinoma
+T64	disease_or_phenotypic_feature 3088 3092	(BCC
 T65	chemical 3136 3144	residual
-T66	disease 3145 3150	tumor
+T66	disease_or_phenotypic_feature 3145 3150	tumor
 R1	treats Arg1:T29 Arg2:T31
 R2	causes_or_contributes_to Arg1:T56 Arg2:T59
 R3	causes_or_contributes_to Arg1:T56 Arg2:T57
@@ -77,5 +77,5 @@ R10	causes_or_contributes_to Arg1:T3 Arg2:T4
 R11	causes_or_contributes_to Arg1:T54 Arg2:T59
 R12	causes_or_contributes_to Arg1:T54 Arg2:T57
 R13	causes_or_contributes_to Arg1:T54 Arg2:T58
-T67	corrected_disease 1981 1993	Constipation
+T67	corrected_disease_or_phenotypic_feature 1981 1993	Constipation
 R14	treats Arg1:T39 Arg2:T67	

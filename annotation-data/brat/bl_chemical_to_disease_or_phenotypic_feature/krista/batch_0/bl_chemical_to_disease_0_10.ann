@@ -1,68 +1,68 @@
-T1	disease 116 122	cancer
+T1	disease_or_phenotypic_feature 116 122	cancer
 T2	chemical 182 187	SASP)
 T3	chemical 265 272	cocaine
-T4	disease 265 282	cocaine addiction
+T4	disease_or_phenotypic_feature 265 282	cocaine addiction
 T5	chemical 401 405	drug
-T6	disease 401 416	drug withdrawal
+T6	disease_or_phenotypic_feature 401 416	drug withdrawal
 T7	chemical 447 450	fat
 T8	chemical 493 502	biomarker
-T9	disease 532 543	lung cancer
+T9	disease_or_phenotypic_feature 532 543	lung cancer
 T10	chemical 579 588	manganese
-T11	disease 693 703	dependence
+T11	disease_or_phenotypic_feature 693 703	dependence
 T12	chemical 739 747	Lycopene
 T13	chemical 749 761	sulforaphane
 T14	chemical 763 772	quercetin
 T15	chemical 778 786	curcumin
-T16	disease 849 861	colon cancer
+T16	disease_or_phenotypic_feature 849 861	colon cancer
 T17	chemical 932 940	proteins
-T18	disease 1063 1071	diseases
-T19	disease 1080 1088	diseases
-T20	disease 1097 1105	diseases
-T21	disease 1116 1124	diseases
+T18	disease_or_phenotypic_feature 1063 1071	diseases
+T19	disease_or_phenotypic_feature 1080 1088	diseases
+T20	disease_or_phenotypic_feature 1097 1105	diseases
+T21	disease_or_phenotypic_feature 1116 1124	diseases
 T22	chemical 1249 1257	residual
-T23	disease 1258 1269	astigmatism
+T23	disease_or_phenotypic_feature 1258 1269	astigmatism
 T24	corrected_chemical 1302 1327	Grape Seed Procyanidin B2
 T25	chemical 1313 1327	Procyanidin B2
 T26	chemical 1377 1386	Oxidative
-T27	missed_disease 1377 1411	Oxidative Stress-Induced Apoptosis
-T28	disease 1476 1479	add
+T27	missed_disease_or_phenotypic_feature 1377 1411	Oxidative Stress-Induced Apoptosis
+T28	disease_or_phenotypic_feature 1476 1479	add
 T29	chemical 1558 1585	triglycerides-independently
 T30	missed_chemical 1589 1599	medication
-T31	disease 1610 1623	schizophrenia
+T31	disease_or_phenotypic_feature 1610 1623	schizophrenia
 T32	chemical 1712 1719	glucose
-T33	disease 1813 1830	diabetes mellitus
+T33	disease_or_phenotypic_feature 1813 1830	diabetes mellitus
 T34	chemical 1895 1900	group
-T35	disease 1928 1931	KCs
-T36	disease 1953 1962	localized
-T37	disease 2087 2090	HCC
+T35	disease_or_phenotypic_feature 1928 1931	KCs
+T36	disease_or_phenotypic_feature 1953 1962	localized
+T37	disease_or_phenotypic_feature 2087 2090	HCC
 T38	chemical 2163 2171	electron
-T39	disease 2278 2288	DP-HCC1806
+T39	disease_or_phenotypic_feature 2278 2288	DP-HCC1806
 T40	chemical 2326 2337	doxorubicin
 T41	chemical 2342 2356	5-fluorouracil
 T42	chemical 2499 2506	protein
 T43	chemical 2510 2516	canine
-T44	disease 2517 2536	histiocytic sarcoma
+T44	disease_or_phenotypic_feature 2517 2536	histiocytic sarcoma
 T45	chemical 2630 2646	trinitrobenzenes
-T46	disease 2675 2686	sensitivity
+T46	disease_or_phenotypic_feature 2675 2686	sensitivity
 T47	chemical 2705 2719	RNA-sequencing
 T48	chemical 2721 2728	RNA-seq
-T49	disease 2870 2884	ovarian cancer
-T50	disease 2948 2963	type 2 diabetes
-T51	disease 2977 2985	dementia
+T49	disease_or_phenotypic_feature 2870 2884	ovarian cancer
+T50	disease_or_phenotypic_feature 2948 2963	type 2 diabetes
+T51	disease_or_phenotypic_feature 2977 2985	dementia
 T52	missed_chemical 3003 3027	oral diabetes medication
-T53	disease 3008 3016	diabetes
+T53	disease_or_phenotypic_feature 3008 3016	diabetes
 T54	chemical 3028 3033	group
 T55	chemical 3060 3065	group
-T56	disease 3138 3171	Non-alcoholic fatty liver disease
+T56	disease_or_phenotypic_feature 3138 3171	Non-alcoholic fatty liver disease
 T57	chemical 3152 3157	fatty
-T58	disease 3192 3198	common
-T59	disease 3207 3220	liver disease
+T58	disease_or_phenotypic_feature 3192 3198	common
+T59	disease_or_phenotypic_feature 3207 3220	liver disease
 T60	chemical 3275 3288	nanoparticles
-T61	disease 3296 3300	TiO₂
-T62	disease 3360 3364	PSC.
+T61	disease_or_phenotypic_feature 3296 3300	TiO₂
+T62	disease_or_phenotypic_feature 3360 3364	PSC.
 T63	chemical 3437 3445	chemical
 T64	chemical 3446 3451	probe
-T65	disease 3574 3581	disease
+T65	disease_or_phenotypic_feature 3574 3581	disease
 R1	treats Arg1:T15 Arg2:T16
 R2	treats Arg1:T14 Arg2:T16
 R3	treats Arg1:T52 Arg2:T51

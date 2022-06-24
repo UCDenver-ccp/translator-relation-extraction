@@ -15,21 +15,21 @@ T14	disease_or_phenotypic_feature 524 532	melanoma
 T15	chemical 562 570	antigens
 T16	chemical 659 674	Thyroid hormone
 T17	disease_or_phenotypic_feature 679 686	obesity
-T18	disease 770 773	HCC
+T18	disease_or_phenotypic_feature 770 773	HCC
 T19	chemical 846 854	electron
 T20	disease_or_phenotypic_feature 909 922	Breast cancer
 T21	chemical 928 935	hormone
 T22	chemical 996 1007	doxorubicin
 T23	chemical 1022 1026	drug
 T24	disease_or_phenotypic_feature 1085 1109	hepatocellular carcinoma
-T25	disease 1240 1250	DP-HCC1806
+T25	disease_or_phenotypic_feature 1240 1250	DP-HCC1806
 T26	chemical 1288 1299	doxorubicin
 T27	chemical 1304 1318	5-fluorouracil
 T28	chemical 1435 1445	Metamizole
-T29	disease 1463 1469	injury
+T29	disease_or_phenotypic_feature 1463 1469	injury
 T30	chemical 1666 1674	estrogen
 T31	chemical 1708 1720	progesterone
-T32	disease 1777 1790	breast cancer
+T32	disease_or_phenotypic_feature 1777 1790	breast cancer
 T33	chemical 1830 1836	oxygen
 T34	disease_or_phenotypic_feature 1899 1905	autism
 T35	chemical 1918 1927	oxidative
@@ -46,8 +46,8 @@ T45	chemical 2328 2335	alcohol
 T46	chemical 2360 2366	oxygen
 T47	disease_or_phenotypic_feature 2382 2389	obesity
 T48	chemical 2463 2473	carbon-ion
-T49	disease 2463 2473	carbon-ion
-T50	disease 2491 2514	head and neck carcinoma
+T49	disease_or_phenotypic_feature 2463 2473	carbon-ion
+T50	disease_or_phenotypic_feature 2491 2514	head and neck carcinoma
 T51	disease_or_phenotypic_feature 2540 2551	hypokalemia
 T52	disease_or_phenotypic_feature 2553 2569	hypophosphatemia
 T53	disease_or_phenotypic_feature 2571 2585	hypomagnesemia

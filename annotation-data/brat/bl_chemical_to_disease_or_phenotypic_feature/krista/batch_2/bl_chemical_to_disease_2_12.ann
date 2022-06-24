@@ -1,56 +1,56 @@
 T1	chemical 193586 193596	biological
-T2	disease 193658 193672	septate uterus
+T2	disease_or_phenotypic_feature 193658 193672	septate uterus
 T3	chemical 193750 193759	polyvinyl
 T4	chemical 193760 193767	alcohol
-T5	disease 193769 193779	PVA)-based
-T6	disease 193860 193887	hepatitis B virus infection
-T7	disease 193924 193935	hepatitis B
+T5	disease_or_phenotypic_feature 193769 193779	PVA)-based
+T6	disease_or_phenotypic_feature 193860 193887	hepatitis B virus infection
+T7	disease_or_phenotypic_feature 193924 193935	hepatitis B
 T8	chemical 193948 193951	DNA
 T9	chemical 194042 194049	lactate
-T10	disease 194134 194152	community-acquired
-T11	disease 194177 194186	infection
-T12	disease 194241 194250	Nephrosis
-T13	disease 194254 194261	disease
+T10	disease_or_phenotypic_feature 194134 194152	community-acquired
+T11	disease_or_phenotypic_feature 194177 194186	infection
+T12	disease_or_phenotypic_feature 194241 194250	Nephrosis
+T13	disease_or_phenotypic_feature 194254 194261	disease
 T14	chemical 194288 194295	protein
 T15	chemical 194466 194481	oxygen-carrying
-T16	disease 194503 194508	blood
+T16	disease_or_phenotypic_feature 194503 194508	blood
 T17	chemical 194647 194664	cisplatin-induced
-T18	disease 194722 194734	hearing loss
-T19	disease 194895 194916	air-tissue-interfaces
+T18	disease_or_phenotypic_feature 194722 194734	hearing loss
+T19	disease_or_phenotypic_feature 194895 194916	air-tissue-interfaces
 T20	chemical 194932 194940	bone-fat
 T21	chemical 195048 195059	abiraterone
 T22	chemical 195072 195086	anticoagulants
-T23	disease 195161 195180	atrial fibrillation
-T24	disease 195182 195204	venous thromboembolism
+T23	disease_or_phenotypic_feature 195161 195180	atrial fibrillation
+T24	disease_or_phenotypic_feature 195182 195204	venous thromboembolism
 T25	chemical 195252 195261	drug-drug
-T26	disease 195402 195414	CMC)-derived
-T27	disease 195437 195440	CMC
+T26	disease_or_phenotypic_feature 195402 195414	CMC)-derived
+T27	disease_or_phenotypic_feature 195437 195440	CMC
 T28	chemical 195441 195455	pro-angiogenic
 T29	chemical 195527 195530	fat
-T30	disease 195531 195534	pad
-T31	disease 195673 195696	obstructive sleep apnea
-T32	disease 195752 195758	common
+T30	disease_or_phenotypic_feature 195531 195534	pad
+T31	disease_or_phenotypic_feature 195673 195696	obstructive sleep apnea
+T32	disease_or_phenotypic_feature 195752 195758	common
 T33	chemical 195773 195777	drug
-T34	disease 195896 195915	Atrial Fibrillation
+T34	disease_or_phenotypic_feature 195896 195915	Atrial Fibrillation
 T35	chemical 195953 195966	anticoagulant
 T36	chemical 196031 196043	Methotrexate
-T37	disease 196082 196102	Rheumatoid Arthritis
-T38	disease 196107 196126	Psoriatic Arthritis
+T37	disease_or_phenotypic_feature 196082 196102	Rheumatoid Arthritis
+T38	disease_or_phenotypic_feature 196107 196126	Psoriatic Arthritis
 T39	chemical 196246 196259	Sphingolipids
-T40	missed_disease 196263 196275	Inflammation
-T41	disease 196284 196292	Diseases
-T42	disease 196415 196424	syndromes
+T40	missed_disease_or_phenotypic_feature 196263 196275	Inflammation
+T41	disease_or_phenotypic_feature 196284 196292	Diseases
+T42	disease_or_phenotypic_feature 196415 196424	syndromes
 T43	chemical 196492 196501	biomarker
 T44	chemical 196676 196683	thyroid
 T45	chemical 196737 196744	thyroid
-T46	disease 196816 196831	adenocarcinomas
-T47	disease 197014 197019	blood
+T46	disease_or_phenotypic_feature 196816 196831	adenocarcinomas
+T47	disease_or_phenotypic_feature 197014 197019	blood
 T48	chemical 197050 197054	urea
 T49	chemical 197059 197069	creatinine
 T50	missed_chemical 197143 197150	aspirin
 T51	chemical 197216 197226	biomarkers
-T52	disease 197255 197263	diseases
-T53	disease 197347 197350	HHT
+T52	disease_or_phenotypic_feature 197255 197263	diseases
+T53	disease_or_phenotypic_feature 197347 197350	HHT
 T54	chemical 197376 197390	mTOR inhibitor
 T55	chemical 197392 197401	sirolimus
 T56	corrected_chemical 197411 197445	receptor tyrosine-kinase inhibitor
@@ -58,10 +58,10 @@ T57	chemical 197420 197435	tyrosine-kinase
 T58	chemical 197420 197445	tyrosine-kinase inhibitor
 T59	chemical 197447 197457	nintedanib
 T60	chemical 197513 197520	retinal
-T61	missed_disease 197513 197525	retinal AVMs
+T61	missed_disease_or_phenotypic_feature 197513 197525	retinal AVMs
 T62	chemical 197535 197542	retinal
-T63	missed_disease 197535 197551	retinal bleeding
-T64	disease 197556 197562	anemia
+T63	missed_disease_or_phenotypic_feature 197535 197551	retinal bleeding
+T64	disease_or_phenotypic_feature 197556 197562	anemia
 R1	treats Arg1:T54 Arg2:T64
 R2	treats Arg1:T54 Arg2:T53
 R3	treats Arg1:T54 Arg2:T63

@@ -1,66 +1,66 @@
-T1	disease 193568 193581	Neurotoxicity
+T1	disease_or_phenotypic_feature 193568 193581	Neurotoxicity
 T2	chemical 193585 193595	pesticides
 T3	chemical 193760 193767	calcium
 T4	chemical 193772 193781	uric acid
-T5	disease 193834 193852	metabolic syndrome
+T5	disease_or_phenotypic_feature 193834 193852	metabolic syndrome
 T6	chemical 193890 193894	mRNA
-T7	disease 193915 193918	PBC
+T7	disease_or_phenotypic_feature 193915 193918	PBC
 T8	chemical 193919 193924	group
 T9	chemical 193949 193954	group
-T10	disease 194030 194034	case
+T10	disease_or_phenotypic_feature 194030 194034	case
 T11	chemical 194036 194045	molecular
 T12	chemical 194149 194152	DNA
 T13	chemical 194277 194282	Fatty
-T14	disease 194277 194296	Fatty Liver Disease
-T15	disease 194355 194363	Diseases
+T14	disease_or_phenotypic_feature 194277 194296	Fatty Liver Disease
+T15	disease_or_phenotypic_feature 194355 194363	Diseases
 T16	chemical 194435 194442	antigen
 T17	chemical 194479 194490	abiraterone
-T18	corrected_disease 194570 194604	castrate-resistant prostate cancer
-T19	disease 194589 194604	prostate cancer
+T18	corrected_disease_or_phenotypic_feature 194570 194604	castrate-resistant prostate cancer
+T19	disease_or_phenotypic_feature 194589 194604	prostate cancer
 T20	chemical 194792 194810	anti-citrullinated
 T21	chemical 194811 194818	peptide
-T22	disease 194869 194880	lung cancer
+T22	disease_or_phenotypic_feature 194869 194880	lung cancer
 T23	chemical 194951 194958	Glucose
 T24	chemical 194986 194994	Platinum
-T25	disease 195053 195068	Type 1 Diabetes
-T26	disease 195132 195138	cancer
+T25	disease_or_phenotypic_feature 195053 195068	Type 1 Diabetes
+T26	disease_or_phenotypic_feature 195132 195138	cancer
 T27	chemical 195176 195189	nanoparticles
 T28	chemical 195193 195197	drug
-T29	disease 195345 195362	cold-acclimatised
+T29	disease_or_phenotypic_feature 195345 195362	cold-acclimatised
 T30	chemical 195411 195416	water
 T31	chemical 195516 195524	estrogen
-T32	disease 195555 195568	breast cancer
+T32	disease_or_phenotypic_feature 195555 195568	breast cancer
 T33	missed_chemical 195625 195628	S-1
 T34	chemical 195629 195637	adjuvant
-T35	disease 195659 195668	mucositis
+T35	disease_or_phenotypic_feature 195659 195668	mucositis
 T36	missed_chemical 195687 195691	Drug
-T37	missed_disease 195753 195765	side effects
+T37	missed_disease_or_phenotypic_feature 195753 195765	side effects
 T38	chemical 195785 195789	drug
-T39	disease 195808 195814	cancer
+T39	disease_or_phenotypic_feature 195808 195814	cancer
 T40	chemical 195886 195900	pharmaceutical
-T41	disease 195963 195972	IndSR/Aml
+T41	disease_or_phenotypic_feature 195963 195972	IndSR/Aml
 T42	chemical 195984 196004	amlodipine/valsartan
 T43	chemical 196085 196097	vortioxetine
 T44	chemical 196105 196117	vortioxetine
-T45	missed_disease 196152 196158	nausea
-T46	disease 196171 196177	common
-T47	missed_disease 196178 196191	adverse event
-T48	disease 196281 196289	glaucoma
-T49	disease 196328 196337	localized
+T45	missed_disease_or_phenotypic_feature 196152 196158	nausea
+T46	disease_or_phenotypic_feature 196171 196177	common
+T47	missed_disease_or_phenotypic_feature 196178 196191	adverse event
+T48	disease_or_phenotypic_feature 196281 196289	glaucoma
+T49	disease_or_phenotypic_feature 196328 196337	localized
 T50	chemical 196338 196345	retinal
-T51	disease 196443 196461	depression/anxiety
+T51	disease_or_phenotypic_feature 196443 196461	depression/anxiety
 T52	chemical 196466 196491	antidepressant/anxiolytic
-T53	disease 196535 196544	disorders
-T54	disease 196591 196604	pre-eclampsia
-T55	disease 196615 196639	gestational hypertension
+T53	disease_or_phenotypic_feature 196535 196544	disorders
+T54	disease_or_phenotypic_feature 196591 196604	pre-eclampsia
+T55	disease_or_phenotypic_feature 196615 196639	gestational hypertension
 T56	chemical 196712 196716	mRNA
-T57	disease 196779 196794	cervical cancer
-T58	disease 196883 196889	stroke
+T57	disease_or_phenotypic_feature 196779 196794	cervical cancer
+T58	disease_or_phenotypic_feature 196883 196889	stroke
 T59	chemical 197029 197034	group
 T60	chemical 197296 197301	group
 T61	chemical 197355 197361	oxygen
-T62	disease 197373 197380	(L-SaO2
-T63	disease 197509 197515	cancer
+T62	disease_or_phenotypic_feature 197373 197380	(L-SaO2
+T63	disease_or_phenotypic_feature 197509 197515	cancer
 T64	chemical 197584 197587	DNA
 R1	causes_or_contributes_to Arg1:T44 Arg2:T45
 R2	causes_or_contributes_to Arg1:T44 Arg2:T47

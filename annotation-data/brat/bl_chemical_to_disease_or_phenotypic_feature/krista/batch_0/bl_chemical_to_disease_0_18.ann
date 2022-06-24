@@ -1,73 +1,73 @@
 T1	chemical 67 74	THYROID
-T2	disease 101 124	HASHIMOTO'S THYROIDITIS
+T2	disease_or_phenotypic_feature 101 124	HASHIMOTO'S THYROIDITIS
 T3	chemical 113 124	THYROIDITIS
 T4	chemical 260 265	group
-T5	disease 384 397	schizophrenia
-T6	disease 401 411	depression
+T5	disease_or_phenotypic_feature 384 397	schizophrenia
+T6	disease_or_phenotypic_feature 401 411	depression
 T7	chemical 457 465	histones
 T8	chemical 478 506	heparan sulfate proteoglycan
-T9	disease 567 579	immune-tumor
+T9	disease_or_phenotypic_feature 567 579	immune-tumor
 T10	chemical 775 790	ethanol-induced
 T11	chemical 791 800	aspartate
-T12	disease 815 819	ALT)
+T12	disease_or_phenotypic_feature 815 819	ALT)
 T13	chemical 821 830	aspartate
 T14	chemical 854 877	low density lipoprotein
 T15	chemical 879 882	LDL
 T16	chemical 906 930	high density lipoprotein
 T17	chemical 932 935	HDL
-T18	disease 1008 1026	Tumor-Infiltrating
+T18	disease_or_phenotypic_feature 1008 1026	Tumor-Infiltrating
 T19	chemical 1051 1065	Immunogenicity
-T20	disease 1090 1111	Merkel Cell Carcinoma
+T20	disease_or_phenotypic_feature 1090 1111	Merkel Cell Carcinoma
 T21	chemical 1193 1207	bioconjugation
 T22	chemical 1213 1232	peptides/antibodies
 T23	chemical 1241 1250	molecular
 T24	chemical 1251 1255	dyes
-T25	disease 1294 1300	cancer
+T25	disease_or_phenotypic_feature 1294 1300	cancer
 T26	chemical 1390 1399	molecular
 T27	missed_chemical 1457 1462	drugs
-T28	disease 1501 1504	ALS
+T28	disease_or_phenotypic_feature 1501 1504	ALS
 T29	chemical 1513 1517	drug
 T30	chemical 1573 1597	ropinirole hydrochloride
-T31	disease 1659 1673	cerebral palsy
+T31	disease_or_phenotypic_feature 1659 1673	cerebral palsy
 T32	chemical 1701 1706	group
 T33	chemical 1770 1775	group
-T34	disease 1812 1815	ion
+T34	disease_or_phenotypic_feature 1812 1815	ion
 T35	chemical 1812 1815	ion
 T36	chemical 1963 1967	Urea
-T37	disease 2064 2072	epilepsy
+T37	disease_or_phenotypic_feature 2064 2072	epilepsy
 T38	corrected_chemical 2352 2367	stress hormones
 T39	chemical 2359 2367	hormones
-T40	disease 2398 2405	obesity
-T41	disease 2611 2616	blood
-T42	disease 2723 2726	ALT
+T40	disease_or_phenotypic_feature 2398 2405	obesity
+T41	disease_or_phenotypic_feature 2611 2616	blood
+T42	disease_or_phenotypic_feature 2723 2726	ALT
 T43	chemical 2828 2837	uric acid
 T44	missed_chemical 2905 2916	medications
 T45	chemical 2920 2927	Alcohol
-T46	corrected_disease 2920 2940	Alcohol Use Disorder
-T47	disease 2932 2940	Disorder
-T48	disease 3047 3051	rich
+T46	corrected_disease_or_phenotypic_feature 2920 2940	Alcohol Use Disorder
+T47	disease_or_phenotypic_feature 2932 2940	Disorder
+T48	disease_or_phenotypic_feature 3047 3051	rich
 T49	chemical 3070 3078	hormones
-T50	disease 3202 3211	Arthritis
+T50	disease_or_phenotypic_feature 3202 3211	Arthritis
 T51	chemical 3348 3352	mRNA
 T52	chemical 3392 3396	mRNA
-T53	disease 3474 3479	tumor
-T54	disease 3625 3647	cardiovascular disease
+T53	disease_or_phenotypic_feature 3474 3479	tumor
+T54	disease_or_phenotypic_feature 3625 3647	cardiovascular disease
 T55	chemical 3735 3743	selenium
 T56	chemical 3830 3842	-resveratrol
 T57	chemical 3915 3919	lead
-T58	disease 3950 3964	osteoarthritis
+T58	disease_or_phenotypic_feature 3950 3964	osteoarthritis
 T59	chemical 4137 4140	CPP
-T60	disease 4137 4140	CPP
+T60	disease_or_phenotypic_feature 4137 4140	CPP
 T61	chemical 4225 4235	anesthesia
 T62	chemical 4252 4262	anesthesia
-T63	disease 4268 4272	[MAC
+T63	disease_or_phenotypic_feature 4268 4272	[MAC
 T64	chemical 4284 4294	anesthesia
 R1	treats Arg1:T55 Arg2:T54
 R2	causes_or_contributes_to Arg1:T38 Arg2:T40
 R3	treats Arg1:T44 Arg2:T46
 R4	treats Arg1:T30 Arg2:T28
 R5	treats Arg1:T27 Arg2:T28
-T65	missed_disease 1608 1616	MN death
+T65	missed_disease_or_phenotypic_feature 1608 1616	MN death
 R6	treats Arg1:T30 Arg2:T65	
 T66	corrected_chemical 3831 3842	resveratrol
 R7	treats Arg1:T66 Arg2:T58	

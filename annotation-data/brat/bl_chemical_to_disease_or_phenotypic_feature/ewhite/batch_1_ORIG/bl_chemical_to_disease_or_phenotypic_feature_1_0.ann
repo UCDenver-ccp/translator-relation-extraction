@@ -10,15 +10,15 @@ T9	disease_or_phenotypic_feature 597 604	obesity
 T10	disease_or_phenotypic_feature 609 616	obesity
 T11	chemical 635 644	Pazopanib
 T12	chemical 679 686	retinal
-T13	disease 687 692	wound
-T14	disease 771 775	pale
+T13	disease_or_phenotypic_feature 687 692	wound
+T14	disease_or_phenotypic_feature 771 775	pale
 T15	chemical 880 887	antigen
 T16	disease_or_phenotypic_feature 891 911	renal cell carcinoma
 T17	chemical 974 981	antigen
-T18	disease 1043 1054	Sensitivity
-T19	disease 1161 1190	multiple chemical sensitivity
+T18	disease_or_phenotypic_feature 1043 1054	Sensitivity
+T19	disease_or_phenotypic_feature 1161 1190	multiple chemical sensitivity
 T20	chemical 1170 1178	chemical
-T21	disease 1191 1196	(MCS)
+T21	disease_or_phenotypic_feature 1191 1196	(MCS)
 T22	disease_or_phenotypic_feature 1232 1245	Hyperglycemia
 T23	chemical 1312 1321	rapamycin
 T24	chemical 1322 1332	inhibitors
@@ -43,11 +43,11 @@ T42	chemical 2233 2242	inhibitor
 T43	disease_or_phenotypic_feature 2296 2309	heart failure
 T44	chemical 2331 2334	sec
 T45	chemical 2336 2339	sed
-T46	disease 2356 2359	sei
+T46	disease_or_phenotypic_feature 2356 2359	sei
 T47	chemical 2460 2468	Gartanin
 T48	chemical 2587 2593	enzyme
-T49	disease 2595 2598	NAE
-T50	disease 2718 2733	prostate cancer
+T49	disease_or_phenotypic_feature 2595 2598	NAE
+T50	disease_or_phenotypic_feature 2718 2733	prostate cancer
 T51	disease_or_phenotypic_feature 2822 2839	Hodgkin's disease
 T52	chemical 2857 2865	antigens
 T53	disease_or_phenotypic_feature 2880 2892	lens opacity
@@ -59,7 +59,7 @@ T58	disease_or_phenotypic_feature 3031 3039	autistic
 T59	disease_or_phenotypic_feature 3053 3071	mental retardation
 T60	disease_or_phenotypic_feature 3073 3097	Hepatocellular carcinoma
 T61	chemical 3127 3137	biomarkers
-T62	disease 3158 3171	herpes zoster
+T62	disease_or_phenotypic_feature 3158 3171	herpes zoster
 T63	chemical 3184 3191	retinal
-T64	disease 3184 3206	retinal vein occlusion
-T65	disease 3278 3297	active tuberculosis
+T64	disease_or_phenotypic_feature 3184 3206	retinal vein occlusion
+T65	disease_or_phenotypic_feature 3278 3297	active tuberculosis

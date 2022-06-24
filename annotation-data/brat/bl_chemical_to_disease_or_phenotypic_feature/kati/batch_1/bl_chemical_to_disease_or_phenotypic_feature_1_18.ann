@@ -1,6 +1,6 @@
 T1	chemical 185 200	steroid-induced
-T2	disease 185 209	steroid-induced glaucoma
-T3	disease 238 265	vernal keratoconjunctivitis
+T2	disease_or_phenotypic_feature 185 209	steroid-induced glaucoma
+T3	disease_or_phenotypic_feature 238 265	vernal keratoconjunctivitis
 T4	disease_or_phenotypic_feature 317 323	cancer
 T5	chemical 351 357	oxygen
 T6	chemical 408 414	oxygen

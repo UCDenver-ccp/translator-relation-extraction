@@ -1,66 +1,66 @@
-T1	disease 0 24	Papillary thyroid cancer
+T1	disease_or_phenotypic_feature 0 24	Papillary thyroid cancer
 T2	chemical 10 17	thyroid
 T3	chemical 118 128	Polyamines
-T4	disease 171 180	disorders
-T5	disease 185 193	epilepsy
+T4	disease_or_phenotypic_feature 171 180	disorders
+T5	disease_or_phenotypic_feature 185 193	epilepsy
 T6	chemical 381 386	fatty
 T7	chemical 381 391	fatty acid
 T8	chemical 396 403	glucose
-T9	disease 492 504	hypoglycemia
+T9	disease_or_phenotypic_feature 492 504	hypoglycemia
 T10	chemical 602 607	eosin
 T11	chemical 621 629	electron
-T12	disease 689 693	cold
+T12	disease_or_phenotypic_feature 689 693	cold
 T13	chemical 926 931	 wate
-T14	disease 994 1003	 infectio
-T15	disease 1073 1083	depression
+T14	disease_or_phenotypic_feature 994 1003	 infectio
+T15	disease_or_phenotypic_feature 1073 1083	depression
 T16	chemical 1251 1260	serotonin
 T17	chemical 1265 1273	dopamine
-T18	disease 1303 1316	periodontitis
+T18	disease_or_phenotypic_feature 1303 1316	periodontitis
 T19	chemical 1317 1322	group
 T20	chemical 1348 1353	HbA1c
-T21	disease 1414 1427	periodontitis
+T21	disease_or_phenotypic_feature 1414 1427	periodontitis
 T22	chemical 1479 1482	ion
-T23	disease 1479 1482	ion
+T23	disease_or_phenotypic_feature 1479 1482	ion
 T24	chemical 1701 1714	Nutrient-rich
-T25	disease 1701 1714	Nutrient-rich
+T25	disease_or_phenotypic_feature 1701 1714	Nutrient-rich
 T26	chemical 1848 1856	nitrogen
 T27	chemical 1950 1966	antigen-specific
-T28	disease 2087 2098	hyperplasia
+T28	disease_or_phenotypic_feature 2087 2098	hyperplasia
 T29	chemical 2164 2168	base
-T30	disease 2298 2315	Alzheimer disease
+T30	disease_or_phenotypic_feature 2298 2315	Alzheimer disease
 T31	missed_chemical 2373 2375	DS
 T32	chemical 2383 2402	antidepressant-like
-T33	corrected_disease 2424 2447	CSDS-induced depression
-T34	disease 2437 2447	depression
+T33	corrected_disease_or_phenotypic_feature 2424 2447	CSDS-induced depression
+T34	disease_or_phenotypic_feature 2437 2447	depression
 T35	chemical 2506 2515	monoamine
 T36	chemical 2516 2532	neurotransmitter
 T37	chemical 2815 2825	herbicides
 T38	chemical 2840 2853	non-mutagenic
-T39	disease 2858 2869	non-genetic
-T40	disease 2980 2985	tumor
+T39	disease_or_phenotypic_feature 2858 2869	non-genetic
+T40	disease_or_phenotypic_feature 2980 2985	tumor
 T41	chemical 3024 3031	protein
-T42	disease 3186 3215	gestational diabetes mellitus
-T43	disease 3217 3221	GDM)
-T44	disease 3289 3302	hyperglycemia
+T42	disease_or_phenotypic_feature 3186 3215	gestational diabetes mellitus
+T43	disease_or_phenotypic_feature 3217 3221	GDM)
+T44	disease_or_phenotypic_feature 3289 3302	hyperglycemia
 T45	chemical 3330 3333	fat
 T46	chemical 3432 3452	Glutathione-Chitosan
-T47	disease 3484 3493	Localized
+T47	disease_or_phenotypic_feature 3484 3493	Localized
 T48	chemical 3505 3517	Methotrexate
 T49	chemical 3557 3565	creatine
 T50	chemical 3576 3585	biomarker
-T51	disease 3681 3687	cancer
+T51	disease_or_phenotypic_feature 3681 3687	cancer
 T52	corrected_chemical 3727 3755	immune checkpoint inhibitors
 T53	chemical 3745 3755	inhibitors
-T54	disease 3821 3827	cancer
-T55	disease 3911 3914	BES
+T54	disease_or_phenotypic_feature 3821 3827	cancer
+T55	disease_or_phenotypic_feature 3911 3914	BES
 T56	chemical 3911 3914	BES
 T57	chemical 4098 4115	dimethyl fumarate
-T58	disease 4180 4218	relapsing-remitting multiple sclerosis
+T58	disease_or_phenotypic_feature 4180 4218	relapsing-remitting multiple sclerosis
 R1	treats Arg1:T52 Arg2:T51
 R2	treats Arg1:T57 Arg2:T58
 R3	treats Arg1:T31 Arg2:T33
 T59	corrected_chemical 2383 2397	antidepressant
 R4	treats Arg1:T59 Arg2:T34	
 T60	missed_chemical 3590 3598	levodopa
-T61	missed_disease 3607 3617	dyskinesia
+T61	missed_disease_or_phenotypic_feature 3607 3617	dyskinesia
 R5	causes_or_contributes_to Arg1:T60 Arg2:T61	

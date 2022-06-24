@@ -33,14 +33,14 @@ T32	disease_or_phenotypic_feature 946 970	behavioral abnormalities
 T33	disease_or_phenotypic_feature 972 981	blindness
 T34	disease_or_phenotypic_feature 983 989	facial
 T35	chemical 1035 1039	food
-T36	disease 1165 1171	injury
-T37	disease 1235 1242	colitis
+T36	disease_or_phenotypic_feature 1165 1171	injury
+T37	disease_or_phenotypic_feature 1235 1242	colitis
 T38	chemical 1305 1314	oxidation
 T39	disease_or_phenotypic_feature 1340 1347	obesity
 T40	disease_or_phenotypic_feature 1349 1357	diabetes
 T41	disease_or_phenotypic_feature 1363 1376	heart failure
 T42	chemical 1378 1394	Ticagrelor-based
-T43	disease 1450 1466	artery disease-A
+T43	disease_or_phenotypic_feature 1450 1466	artery disease-A
 T44	disease_or_phenotypic_feature 1542 1549	obesity
 T45	chemical 1566 1570	food
 T46	disease_or_phenotypic_feature 1637 1644	obesity

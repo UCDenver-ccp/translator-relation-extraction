@@ -3,10 +3,10 @@ T2	chemical 22 26	drug
 T3	disease_or_phenotypic_feature 63 72	malignant
 T4	chemical 135 142	protein
 T5	chemical 143 152	biomarker
-T6	disease 157 170	schizophrenia
-T7	disease 356 372	bipolar disorder
+T6	disease_or_phenotypic_feature 157 170	schizophrenia
+T7	disease_or_phenotypic_feature 356 372	bipolar disorder
 T8	chemical 387 394	alcohol
-T9	disease 488 503	cervical cancer
+T9	disease_or_phenotypic_feature 488 503	cervical cancer
 T10	chemical 561 572	doxorubicin
 T11	chemical 632 641	drug-free
 T12	chemical 694 703	rapamycin
@@ -19,10 +19,10 @@ T18	chemical 929 937	hormonal
 T19	chemical 1017 1028	chlorophyll
 T20	chemical 1036 1047	carotenoids
 T21	chemical 1052 1064	xanthophylls
-T22	disease 1088 1104	mite infestation
+T22	disease_or_phenotypic_feature 1088 1104	mite infestation
 T23	chemical 1308 1323	steroid-induced
-T24	disease 1308 1332	steroid-induced glaucoma
-T25	disease 1361 1388	vernal keratoconjunctivitis
+T24	disease_or_phenotypic_feature 1308 1332	steroid-induced glaucoma
+T25	disease_or_phenotypic_feature 1361 1388	vernal keratoconjunctivitis
 T26	chemical 1437 1451	growth hormone
 T27	disease_or_phenotypic_feature 1465 1472	obesity
 T28	chemical 1485 1499	chlorpromazine
@@ -34,10 +34,10 @@ T33	chemical 1701 1705	drug
 T34	chemical 1719 1722	DCs
 T35	chemical 1764 1772	antigens
 T36	disease_or_phenotypic_feature 1814 1820	cancer
-T37	disease 2000 2009	infection
+T37	disease_or_phenotypic_feature 2000 2009	infection
 T38	chemical 2044 2059	polysaccharides
-T39	disease 2191 2196	blood
-T40	disease 2229 2234	blood
+T39	disease_or_phenotypic_feature 2191 2196	blood
+T40	disease_or_phenotypic_feature 2229 2234	blood
 T41	chemical 2291 2296	lipid
 T42	disease_or_phenotypic_feature 2361 2376	prostate cancer
 T43	chemical 2418 2424	oxygen
@@ -48,11 +48,11 @@ T47	chemical 2639 2654	phosphorylation
 T48	chemical 2707 2722	phosphorylation
 T49	chemical 2912 2926	phosphorylated
 T50	chemical 2927 2935	residues
-T51	disease 2960 2964	rich
+T51	disease_or_phenotypic_feature 2960 2964	rich
 T52	chemical 2975 2983	residues
-T53	disease 3092 3118	small bowel adenocarcinoma
+T53	disease_or_phenotypic_feature 3092 3118	small bowel adenocarcinoma
 T54	chemical 3213 3232	glucose-transporter
-T55	disease 3303 3306	ICC
+T55	disease_or_phenotypic_feature 3303 3306	ICC
 T56	chemical 3458 3461	DDD
 T57	chemical 3522 3525	PDX
 T58	disease_or_phenotypic_feature 3562 3568	cancer

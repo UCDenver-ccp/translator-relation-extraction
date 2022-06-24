@@ -1,11 +1,11 @@
 T1	chemical 14 27	Nanoparticles
-T2	disease 65 76	Blood-Brain
-T3	disease 108 137	Triple Negative Breast Cancer
-T4	disease 148 164	Tumor-Associated
+T2	disease_or_phenotypic_feature 65 76	Blood-Brain
+T3	disease_or_phenotypic_feature 108 137	Triple Negative Breast Cancer
+T4	disease_or_phenotypic_feature 148 164	Tumor-Associated
 T5	chemical 265 276	chlorophyll
 T6	chemical 284 295	carotenoids
 T7	chemical 300 312	xanthophylls
-T8	disease 336 352	mite infestation
+T8	disease_or_phenotypic_feature 336 352	mite infestation
 T9	disease_or_phenotypic_feature 403 414	hypokalemia
 T10	disease_or_phenotypic_feature 416 428	hypocalcemia
 T11	disease_or_phenotypic_feature 430 444	hypercalciuria
@@ -23,7 +23,7 @@ T22	chemical 794 802	antigens
 T23	chemical 804 814	Zibotentan
 T24	chemical 819 851	endothelin-A receptor antagonist
 T25	disease_or_phenotypic_feature 895 919	cardiovascular disorders
-T26	disease 947 962	depression-like
+T26	disease_or_phenotypic_feature 947 962	depression-like
 T27	chemical 1028 1036	dopamine
 T28	chemical 1074 1077	NAc
 T29	chemical 1096 1100	Iron
@@ -45,7 +45,7 @@ T44	chemical 1762 1770	antigens
 T45	disease_or_phenotypic_feature 1829 1835	cancer
 T46	chemical 1873 1878	group
 T47	chemical 1968 1976	collagen
-T48	disease 1998 2015	B-cell lymphoma-2
+T48	disease_or_phenotypic_feature 1998 2015	B-cell lymphoma-2
 T49	chemical 2084 2088	food
 T50	disease_or_phenotypic_feature 2106 2113	obesity
 T51	chemical 2138 2142	drug
@@ -57,4 +57,4 @@ T56	disease_or_phenotypic_feature 2329 2342	heart failure
 T57	chemical 2491 2497	oxygen
 T58	disease_or_phenotypic_feature 2516 2522	cancer
 T59	chemical 2574 2596	HDAC inhibitor-induced
-T60	disease 2640 2653	breast cancer
+T60	disease_or_phenotypic_feature 2640 2653	breast cancer

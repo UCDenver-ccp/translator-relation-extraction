@@ -14,7 +14,7 @@ T13	disease_or_phenotypic_feature 444 452	cataract
 T14	disease_or_phenotypic_feature 457 460	AMD
 T15	chemical 457 460	AMD
 T16	chemical 497 505	Graphite
-T17	disease 517 522	K-Ion
+T17	disease_or_phenotypic_feature 517 522	K-Ion
 T18	chemical 517 522	K-Ion
 T19	chemical 564 569	nylon
 T20	disease_or_phenotypic_feature 586 595	cataracts
@@ -33,7 +33,7 @@ T32	disease_or_phenotypic_feature 898 906	cataract
 T33	disease_or_phenotypic_feature 935 948	hypercalcemia
 T34	chemical 954 964	clodronate
 T35	chemical 1030 1044	Cyclosporine-A
-T36	disease 1068 1087	Gingival Overgrowth
+T36	disease_or_phenotypic_feature 1068 1087	Gingival Overgrowth
 T37	chemical 1106 1115	Buspirone
 T38	chemical 1119 1138	5-hydroxytryptamine
 T39	chemical 1141 1148	agonist

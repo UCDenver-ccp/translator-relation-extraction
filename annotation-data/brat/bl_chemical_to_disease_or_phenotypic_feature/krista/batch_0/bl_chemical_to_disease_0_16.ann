@@ -1,56 +1,56 @@
-T1	disease 24 28	rich
+T1	disease_or_phenotypic_feature 24 28	rich
 T2	chemical 59 81	long-chain fatty acids
 T3	chemical 70 75	fatty
 T4	chemical 131 144	nervonic acid
 T5	chemical 230 239	acaricide
-T6	disease 259 264	blood
-T7	disease 354 365	sensitivity
-T8	disease 369 384	cervical cancer
-T9	disease 449 464	cervical cancer
+T6	disease_or_phenotypic_feature 259 264	blood
+T7	disease_or_phenotypic_feature 354 365	sensitivity
+T8	disease_or_phenotypic_feature 369 384	cervical cancer
+T9	disease_or_phenotypic_feature 449 464	cervical cancer
 T10	chemical 579 585	oxygen
-T11	disease 692 696	(PCA
+T11	disease_or_phenotypic_feature 692 696	(PCA
 T12	chemical 705 714	nanowires
 T13	chemical 791 800	Phloretin
 T14	chemical 806 815	metformin
-T15	disease 833 838	blood
+T15	disease_or_phenotypic_feature 833 838	blood
 T16	chemical 839 846	glucose
 T17	chemical 855 862	glucose
-T18	disease 886 897	sensitivity
-T19	missed_disease 901 916	type 2 diabetic
-T20	disease 961 965	face
+T18	disease_or_phenotypic_feature 886 897	sensitivity
+T19	missed_disease_or_phenotypic_feature 901 916	type 2 diabetic
+T20	disease_or_phenotypic_feature 961 965	face
 T21	chemical 976 985	molecular
 T22	chemical 995 1000	probe
 T23	chemical 1033 1044	acetylation
-T24	disease 1129 1132	PBC
-T25	disease 1170 1173	PBC
+T24	disease_or_phenotypic_feature 1129 1132	PBC
+T25	disease_or_phenotypic_feature 1170 1173	PBC
 T26	chemical 1203 1214	biochemical
 T27	chemical 1331 1334	his
-T28	disease 1335 1342	disease
+T28	disease_or_phenotypic_feature 1335 1342	disease
 T29	chemical 1438 1444	Fibrin
-T30	disease 1468 1473	Blood
+T30	disease_or_phenotypic_feature 1468 1473	Blood
 T31	chemical 1695 1707	ethanol-rich
-T32	disease 1695 1707	ethanol-rich
+T32	disease_or_phenotypic_feature 1695 1707	ethanol-rich
 T33	chemical 1708 1715	solvent
 T34	chemical 1810 1827	headgroup-solvent
 T35	chemical 1924 1932	peptides
-T36	disease 2036 2045	intrinsic
-T37	disease 2132 2137	Blood
+T36	disease_or_phenotypic_feature 2036 2045	intrinsic
+T37	disease_or_phenotypic_feature 2132 2137	Blood
 T38	chemical 2182 2191	molecular
-T39	disease 2251 2268	CdS/PPT/ITO-based
+T39	disease_or_phenotypic_feature 2251 2268	CdS/PPT/ITO-based
 T40	chemical 2299 2311	chlorpyrifos
-T41	disease 2337 2348	sensitivity
-T42	corrected_disease 2477 2506	pulmonary nocardial infection
-T43	disease 2497 2506	infection
-T44	corrected_disease 2529 2545	renal vasculitis
-T45	disease 2535 2545	vasculitis
+T41	disease_or_phenotypic_feature 2337 2348	sensitivity
+T42	corrected_disease_or_phenotypic_feature 2477 2506	pulmonary nocardial infection
+T43	disease_or_phenotypic_feature 2497 2506	infection
+T44	corrected_disease_or_phenotypic_feature 2529 2545	renal vasculitis
+T45	disease_or_phenotypic_feature 2535 2545	vasculitis
 T46	chemical 2560 2567	steroid
-T47	disease 2611 2614	GDM
+T47	disease_or_phenotypic_feature 2611 2614	GDM
 T48	chemical 2635 2640	group
 T49	chemical 2692 2697	group
-T50	disease 2737 2740	men
-T51	disease 2853 2856	men
-T52	disease 2877 2884	disease
-T53	disease 2888 2895	disease
+T50	disease_or_phenotypic_feature 2737 2740	men
+T51	disease_or_phenotypic_feature 2853 2856	men
+T52	disease_or_phenotypic_feature 2877 2884	disease
+T53	disease_or_phenotypic_feature 2888 2895	disease
 T54	chemical 2910 2922	enzalutamide
 T55	chemical 2941 2950	Glutamate
 T56	chemical 2975 2983	molecule
@@ -60,16 +60,16 @@ T59	chemical 3039 3047	arginine
 T60	chemical 3049 3052	Arg
 T61	chemical 3058 3067	ornithine
 T62	chemical 3069 3072	Orn
-T63	disease 3097 3103	common
+T63	disease_or_phenotypic_feature 3097 3103	common
 T64	chemical 3247 3256	molecular
-T65	disease 3298 3334	maturity onset diabetes of the young
-T66	disease 3336 3341	MODY)
-T67	disease 3496 3509	platelet-rich
+T65	disease_or_phenotypic_feature 3298 3334	maturity onset diabetes of the young
+T66	disease_or_phenotypic_feature 3336 3341	MODY)
+T67	disease_or_phenotypic_feature 3496 3509	platelet-rich
 T68	chemical 3510 3516	fibrin
 T69	chemical 3545 3548	fat
-T70	disease 3549 3552	pad
+T70	disease_or_phenotypic_feature 3549 3552	pad
 T71	chemical 3648 3651	RNA
-T72	disease 3663 3681	cholangiocarcinoma
+T72	disease_or_phenotypic_feature 3663 3681	cholangiocarcinoma
 R1	treats Arg1:T13 Arg2:T19
 R2	treats Arg1:T46 Arg2:T44
 R3	causes_or_contributes_to Arg1:T46 Arg2:T42

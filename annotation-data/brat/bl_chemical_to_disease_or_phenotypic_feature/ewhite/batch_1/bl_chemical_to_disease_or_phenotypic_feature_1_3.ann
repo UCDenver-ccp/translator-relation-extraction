@@ -3,8 +3,8 @@ T2	disease_or_phenotypic_feature 18 40	interstitial nephritis
 T3	chemical 48 65	trichloroethylene
 T4	chemical 66 76	anesthesia
 T5	chemical 124 129	group
-T6	disease 248 261	schizophrenia
-T7	disease 265 275	depression
+T6	disease_or_phenotypic_feature 248 261	schizophrenia
+T7	disease_or_phenotypic_feature 265 275	depression
 T8	chemical 325 329	NADH
 T9	chemical 330 339	oxidation
 T10	disease_or_phenotypic_feature 352 359	obesity
@@ -22,7 +22,7 @@ T21	disease_or_phenotypic_feature 705 712	obesity
 T22	chemical 747 753	oxygen
 T23	chemical 844 850	oxygen
 T24	disease_or_phenotypic_feature 969 977	fraction
-T25	disease 1083 1086	ALS
+T25	disease_or_phenotypic_feature 1083 1086	ALS
 T26	chemical 1095 1099	drug
 T27	chemical 1155 1179	ropinirole hydrochloride
 T28	disease_or_phenotypic_feature 1285 1288	RCC
@@ -35,16 +35,16 @@ T34	disease_or_phenotypic_feature 1661 1677	thrombocytopenia
 T35	disease_or_phenotypic_feature 1679 1687	vomiting
 T36	disease_or_phenotypic_feature 1689 1696	anaemia
 T37	disease_or_phenotypic_feature 1701 1730	peripheral sensory neuropathy
-T38	disease 1842 1864	cardiovascular disease
+T38	disease_or_phenotypic_feature 1842 1864	cardiovascular disease
 T39	chemical 1952 1960	selenium
 T40	chemical 2085 2094	inhibitor
 T41	chemical 2098 2116	alpha-chymotrypsin
 T42	disease_or_phenotypic_feature 2120 2128	cataract
 T43	chemical 2175 2182	heparin
-T44	disease 2297 2307	congenital
+T44	disease_or_phenotypic_feature 2297 2307	congenital
 T45	chemical 2342 2358	Ticagrelor-based
-T46	disease 2414 2430	artery disease-A
-T47	disease 2533 2540	non-CKD
+T46	disease_or_phenotypic_feature 2414 2430	artery disease-A
+T47	disease_or_phenotypic_feature 2533 2540	non-CKD
 T48	chemical 2554 2559	group
 T49	chemical 2582 2587	group
 T50	chemical 2610 2615	group
@@ -53,8 +53,8 @@ T52	chemical 2679 2687	nitrogen
 T53	disease_or_phenotypic_feature 2713 2726	renal failure
 T54	chemical 2761 2768	antigen
 T55	disease_or_phenotypic_feature 2773 2779	cancer
-T56	disease 2852 2856	rare
-T57	disease 2857 2862	tumor
+T56	disease_or_phenotypic_feature 2852 2856	rare
+T57	disease_or_phenotypic_feature 2857 2862	tumor
 T58	chemical 2972 2979	biology
 T59	chemical 3072 3080	antigens
 T60	disease_or_phenotypic_feature 3152 3157	small

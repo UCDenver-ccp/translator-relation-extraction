@@ -1,78 +1,78 @@
-T1	disease 60 65	tumor
+T1	disease_or_phenotypic_feature 60 65	tumor
 T3	corrected_chemical 179 207	immune checkpoint inhibitors
 T4	chemical 197 207	inhibitors
 T5	chemical 413 416	NPC
-T6	disease 413 416	NPC
-T7	disease 565 571	injury
+T6	disease_or_phenotypic_feature 413 416	NPC
+T7	disease_or_phenotypic_feature 565 571	injury
 T8	corrected_chemical 604 626	dextran sulfate sodium
-T10	disease 635 642	colitis
+T10	disease_or_phenotypic_feature 635 642	colitis
 T11	chemical 682 695	imidazolidine
 T12	chemical 707 758	3-(2-chloro-6-fluorobenzyl)-imidazolidine-2,4-dione
 T13	chemical 795 802	agonist
-T14	disease 912 925	schizophrenia
+T14	disease_or_phenotypic_feature 912 925	schizophrenia
 T15	chemical 1034 1043	glutamate
-T16	disease 1109 1112	HCl
+T16	disease_or_phenotypic_feature 1109 1112	HCl
 T17	chemical 1114 1121	benzene
 T18	chemical 1126 1133	toluene
 T19	chemical 1231 1242	fidaxomicin
-T20	disease 1268 1271	CDI
+T20	disease_or_phenotypic_feature 1268 1271	CDI
 T21	chemical 1319 1330	fidaxomicin
 T22	chemical 1368 1379	fidaxomicin
-T23	disease 1423 1431	acquired
-T24	disease 1445 1453	disorder
-T25	disease 1577 1581	rare
-T26	disease 1600 1636	idiopathic intracranial hypertension
-T27	disease 1702 1709	disease
-T28	disease 1742 1778	idiopathic intracranial hypertension
+T23	disease_or_phenotypic_feature 1423 1431	acquired
+T24	disease_or_phenotypic_feature 1445 1453	disorder
+T25	disease_or_phenotypic_feature 1577 1581	rare
+T26	disease_or_phenotypic_feature 1600 1636	idiopathic intracranial hypertension
+T27	disease_or_phenotypic_feature 1702 1709	disease
+T28	disease_or_phenotypic_feature 1742 1778	idiopathic intracranial hypertension
 T29	chemical 1802 1807	group
 T30	chemical 1920 1925	group
 T31	chemical 1952 1960	Adjuvant
-T32	disease 2095 2107	glioblastoma
+T32	disease_or_phenotypic_feature 2095 2107	glioblastoma
 T33	chemical 2223 2232	molecular
-T34	disease 2263 2273	infectious
-T35	disease 2274 2282	diseases
+T34	disease_or_phenotypic_feature 2263 2273	infectious
+T35	disease_or_phenotypic_feature 2274 2282	diseases
 T36	chemical 2301 2311	Hemoglobin
 T37	chemical 2317 2322	HbA1c
-T38	disease 2356 2368	hypoglycemia
-T39	disease 2373 2386	hyperglycemia
+T38	disease_or_phenotypic_feature 2356 2368	hypoglycemia
+T39	disease_or_phenotypic_feature 2373 2386	hyperglycemia
 T40	chemical 2555 2564	phenolics
-T41	disease 2614 2623	condition
+T41	disease_or_phenotypic_feature 2614 2623	condition
 T42	chemical 2695 2698	RNA
 T43	chemical 2711 2718	RNA-Seq
-T44	disease 2741 2761	colon adenocarcinoma
-T45	disease 2786 2792	Cancer
+T44	disease_or_phenotypic_feature 2741 2761	colon adenocarcinoma
+T45	disease_or_phenotypic_feature 2786 2792	Cancer
 T46	chemical 2831 2850	L-cysteine/hydrogen
 T47	chemical 2831 2858	L-cysteine/hydrogen sulfide
-T48	disease 2961 2981	erectile dysfunction
+T48	disease_or_phenotypic_feature 2961 2981	erectile dysfunction
 T49	chemical 3091 3094	DNA
 T50	chemical 3096 3118	interferon-γ-inducible
 T51	chemical 3119 3126	protein
 T52	chemical 3149 3156	GMP-AMP
-T53	disease 3188 3192	PRRs
+T53	disease_or_phenotypic_feature 3188 3192	PRRs
 T54	chemical 3249 3256	antigen
 T55	chemical 3303 3310	antigen
-T56	disease 3314 3319	blood
+T56	disease_or_phenotypic_feature 3314 3319	blood
 T57	chemical 3342 3347	group
-T58	disease 3353 3361	diabetes
+T58	disease_or_phenotypic_feature 3353 3361	diabetes
 T59	chemical 3436 3455	palmitoyl-carnitine
-T60	disease 3477 3482	blood
+T60	disease_or_phenotypic_feature 3477 3482	blood
 T61	chemical 3483 3490	glucose
 T62	chemical 3539 3548	oxidation
 T63	chemical 3552 3560	pyruvate
 T64	chemical 3816 3828	disinfection
-T65	disease 3830 3833	HLD
-T66	corrected_disease 3920 3939	metabolic disorders
-T67	disease 3930 3939	disorders
-T68	disease 3956 3963	obesity
-T69	disease 3965 3980	type 2 diabetes
-T70	disease 3993 4026	non-alcoholic fatty liver disease
+T65	disease_or_phenotypic_feature 3830 3833	HLD
+T66	corrected_disease_or_phenotypic_feature 3920 3939	metabolic disorders
+T67	disease_or_phenotypic_feature 3930 3939	disorders
+T68	disease_or_phenotypic_feature 3956 3963	obesity
+T69	disease_or_phenotypic_feature 3965 3980	type 2 diabetes
+T70	disease_or_phenotypic_feature 3993 4026	non-alcoholic fatty liver disease
 T71	chemical 4007 4012	fatty
 T72	chemical 4055 4062	glycine
 T73	chemical 4179 4186	glycine
-T74	disease 4283 4286	ASD
+T74	disease_or_phenotypic_feature 4283 4286	ASD
 T75	chemical 4302 4307	group
 T76	chemical 4451 4456	group
-T77	disease 4470 4473	ASD
+T77	disease_or_phenotypic_feature 4470 4473	ASD
 T78	chemical 4474 4479	group
 R1	treats Arg1:T73 Arg2:T66
 R2	treats Arg1:T3 Arg2:T1
@@ -80,7 +80,7 @@ R3	treats Arg1:T12 Arg2:T14
 R4	treats Arg1:T22 Arg2:T20
 R5	treats Arg1:T31 Arg2:T32
 R6	causes_or_contributes_to Arg1:T8 Arg2:T10	
-T2	corrected_disease 548 571	small intestinal injury
+T2	corrected_disease_or_phenotypic_feature 548 571	small intestinal injury
 T9	missed_chemical 534 539	NSAID
 R7	causes_or_contributes_to Arg1:T9 Arg2:T2	
 T79	missed_chemical 760 765	PT-31

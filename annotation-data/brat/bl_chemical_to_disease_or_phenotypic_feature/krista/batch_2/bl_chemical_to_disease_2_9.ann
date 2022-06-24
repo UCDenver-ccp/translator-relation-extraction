@@ -1,67 +1,67 @@
 T1	chemical 193641 193644	AMP
 T2	chemical 193666 193670	drug
-T3	corrected_disease 193679 193698	EBV-positive cancer
-T4	disease 193692 193698	cancer
+T3	corrected_disease_or_phenotypic_feature 193679 193698	EBV-positive cancer
+T4	disease_or_phenotypic_feature 193692 193698	cancer
 T5	chemical 193850 193857	hormone
-T6	disease 193893 193902	low-grade
-T7	disease 193920 193925	HSP70
-T8	disease 193993 193997	HAT1
+T6	disease_or_phenotypic_feature 193893 193902	low-grade
+T7	disease_or_phenotypic_feature 193920 193925	HSP70
+T8	disease_or_phenotypic_feature 193993 193997	HAT1
 T9	chemical 194068 194074	lysine
 T10	chemical 194077 194088	acetylation
 T11	chemical 194134 194141	histone
 T12	chemical 194229 194251	sesquiterpene lactones
-T13	disease 194302 194316	anti-influenza
+T13	disease_or_phenotypic_feature 194302 194316	anti-influenza
 T14	chemical 194401 194411	lurasidone
-T15	disease 194544 194557	schizophrenia
+T15	disease_or_phenotypic_feature 194544 194557	schizophrenia
 T16	chemical 194605 194608	DNA
 T17	chemical 194625 194635	biological
-T18	disease 194645 194650	blood
+T18	disease_or_phenotypic_feature 194645 194650	blood
 T19	chemical 194824 194834	biomarkers
-T20	disease 194866 194870	burn
-T21	disease 194916 194922	injury
-T22	disease 195031 195035	burn
-T23	disease 195054 195081	Papillary thyroid carcinoma
+T20	disease_or_phenotypic_feature 194866 194870	burn
+T21	disease_or_phenotypic_feature 194916 194922	injury
+T22	disease_or_phenotypic_feature 195031 195035	burn
+T23	disease_or_phenotypic_feature 195054 195081	Papillary thyroid carcinoma
 T24	chemical 195064 195071	thyroid
-T25	disease 195094 195100	common
-T26	disease 195111 195121	malignancy
+T25	disease_or_phenotypic_feature 195094 195100	common
+T26	disease_or_phenotypic_feature 195111 195121	malignancy
 T27	missed_chemical 195174 195182	CHR-6494
-T28	disease 195207 195223	intestinal polyp
+T28	disease_or_phenotypic_feature 195207 195223	intestinal polyp
 T29	chemical 195265 195268	Apc
-T30	disease 195390 195395	tumor
+T30	disease_or_phenotypic_feature 195390 195395	tumor
 T31	chemical 195546 195555	molecular
-T32	disease 195594 195604	-sensitive
+T32	disease_or_phenotypic_feature 195594 195604	-sensitive
 T33	chemical 195605 195616	isethionate
 T34	chemical 195617 195628	sulfo-lyase
 T35	chemical 195658 195666	sulfate-
 T36	chemical 195671 195687	sulfite-reducing
 T37	chemical 195715 195722	Thyroid
-T38	disease 195715 195729	Thyroid cancer
-T39	disease 195839 195849	malignancy
+T38	disease_or_phenotypic_feature 195715 195729	Thyroid cancer
+T39	disease_or_phenotypic_feature 195839 195849	malignancy
 T40	chemical 195925 195929	food
-T41	disease 195984 195993	condition
-T42	disease 196035 196038	fed
+T41	disease_or_phenotypic_feature 195984 195993	condition
+T42	disease_or_phenotypic_feature 196035 196038	fed
 T43	chemical 196110 196116	tannin
 T44	chemical 196157 196171	sodium-glucose
 T45	corrected_chemical 196157 196199	sodium-glucose co-transporter-2 inhibitors
 T46	chemical 196189 196199	inhibitors
 T47	chemical 196214 196218	lead
-T48	missed_disease 196249 196269	cardiovascular death
-T49	disease 196294 196307	heart failure
-T50	disease 196323 196347	Type 2 diabetes mellitus
-T51	disease 196390 196428	atherosclerotic cardiovascular disease
-T52	disease 196447 196471	Intracranial hypotension
+T48	missed_disease_or_phenotypic_feature 196249 196269	cardiovascular death
+T49	disease_or_phenotypic_feature 196294 196307	heart failure
+T50	disease_or_phenotypic_feature 196323 196347	Type 2 diabetes mellitus
+T51	disease_or_phenotypic_feature 196390 196428	atherosclerotic cardiovascular disease
+T52	disease_or_phenotypic_feature 196447 196471	Intracranial hypotension
 T53	chemical 196476 196480	lead
-T54	disease 196590 196599	intrinsic
+T54	disease_or_phenotypic_feature 196590 196599	intrinsic
 T55	chemical 196626 196629	DNA
 T56	chemical 196741 196750	inhibitor
-T57	disease 196816 196840	myelodysplastic syndrome
-T58	disease 196846 196868	acute myeloid leukemia
+T57	disease_or_phenotypic_feature 196816 196840	myelodysplastic syndrome
+T58	disease_or_phenotypic_feature 196846 196868	acute myeloid leukemia
 T59	chemical 196900 196909	bilirubin
-T60	disease 197084 197089	tumor
+T60	disease_or_phenotypic_feature 197084 197089	tumor
 T61	chemical 197155 197162	cocaine
-T62	corrected_disease 197155 197176	cocaine use disorders
-T63	disease 197167 197176	disorders
-T64	disease 197248 197251	men
+T62	corrected_disease_or_phenotypic_feature 197155 197176	cocaine use disorders
+T63	disease_or_phenotypic_feature 197167 197176	disorders
+T64	disease_or_phenotypic_feature 197248 197251	men
 R1	treats Arg1:T1 Arg2:T3
 R2	treats Arg1:T14 Arg2:T15
 R3	causes_or_contributes_to Arg1:T61 Arg2:T62

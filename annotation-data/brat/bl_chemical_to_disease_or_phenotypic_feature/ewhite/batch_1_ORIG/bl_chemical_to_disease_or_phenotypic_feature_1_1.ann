@@ -7,7 +7,7 @@ T6	chemical 328 334	oxygen
 T7	disease_or_phenotypic_feature 362 370	melanoma
 T8	disease_or_phenotypic_feature 382 390	cataract
 T9	chemical 408 421	biochemically
-T10	disease 474 484	depression
+T10	disease_or_phenotypic_feature 474 484	depression
 T11	chemical 652 661	serotonin
 T12	chemical 666 674	dopamine
 T13	chemical 708 716	antigens
@@ -22,9 +22,9 @@ T21	disease_or_phenotypic_feature 944 957	Breast cancer
 T22	chemical 965 972	biology
 T23	chemical 1005 1009	drug
 T24	chemical 1089 1105	antigen-specific
-T25	disease 1226 1237	hyperplasia
+T25	disease_or_phenotypic_feature 1226 1237	hyperplasia
 T26	chemical 1267 1276	Cisplatin
-T27	disease 1326 1341	Cervical Cancer
+T27	disease_or_phenotypic_feature 1326 1341	Cervical Cancer
 T28	chemical 1412 1418	oxygen
 T29	disease_or_phenotypic_feature 1466 1481	cardiac failure
 T30	chemical 1492 1502	paclitaxel
@@ -43,7 +43,7 @@ T42	chemical 1816 1822	oxygen
 T43	chemical 1882 1906	high-density lipoprotein
 T44	chemical 1882 1918	high-density lipoprotein cholesterol
 T45	chemical 1920 1926	HDL-C)
-T46	disease 1962 1984	cardiovascular disease
+T46	disease_or_phenotypic_feature 1962 1984	cardiovascular disease
 T47	chemical 2071 2083	Levosimendan
 T48	chemical 2106 2110	drug
 T49	disease_or_phenotypic_feature 2142 2155	heart failure

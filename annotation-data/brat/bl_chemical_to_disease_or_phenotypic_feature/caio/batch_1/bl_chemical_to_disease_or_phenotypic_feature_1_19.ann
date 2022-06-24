@@ -5,7 +5,7 @@ T4	chemical 288 291	DCs
 T5	disease_or_phenotypic_feature 314 320	cancer
 T6	chemical 344 352	antigens
 T7	chemical 480 502	HDAC inhibitor-induced
-T8	disease 546 559	breast cancer
+T8	disease_or_phenotypic_feature 546 559	breast cancer
 T9	chemical 602 608	oxygen
 T10	disease_or_phenotypic_feature 705 713	cataract
 T11	chemical 776 783	antigen
@@ -14,27 +14,27 @@ T13	chemical 825 830	Fatty
 T14	chemical 825 836	Fatty acids
 T15	chemical 859 872	carbon-carbon
 T16	chemical 902 927	conjugated linoleic acids
-T17	disease 1005 1013	diabetes
-T18	disease 1015 1021	cancer
-T19	disease 1027 1042	atherosclerosis
+T17	disease_or_phenotypic_feature 1005 1013	diabetes
+T18	disease_or_phenotypic_feature 1015 1021	cancer
+T19	disease_or_phenotypic_feature 1027 1042	atherosclerosis
 T20	disease_or_phenotypic_feature 1072 1079	seizure
 T21	disease_or_phenotypic_feature 1084 1099	pulmonary edema
 T22	chemical 1118 1124	oxygen
 T23	disease_or_phenotypic_feature 1148 1171	Obstructive sleep apnea
 T24	disease_or_phenotypic_feature 1181 1189	syndrome
 T25	chemical 1227 1233	oxygen
-T26	disease 1342 1360	metabolic syndrome
+T26	disease_or_phenotypic_feature 1342 1360	metabolic syndrome
 T27	chemical 1389 1404	high-polyphenol
 T28	chemical 1416 1430	low-polyphenol
 T29	chemical 1522 1534	drug-eluting
-T30	disease 1627 1630	PAD
+T30	disease_or_phenotypic_feature 1627 1630	PAD
 T31	chemical 1660 1668	Estrogen
 T32	disease_or_phenotypic_feature 1677 1684	cancers
 T33	chemical 1715 1722	hormone
 T34	chemical 1844 1850	oxygen
 T35	disease_or_phenotypic_feature 1942 1962	head and neck cancer
 T36	chemical 2102 2123	nicotinamide-mediated
-T37	disease 2129 2134	blood
+T37	disease_or_phenotypic_feature 2129 2134	blood
 T38	chemical 2260 2266	oxygen
 T39	disease_or_phenotypic_feature 2308 2334	thrombotic microangiopathy
 T40	chemical 2367 2375	nicotine

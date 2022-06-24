@@ -26,7 +26,7 @@ T25	disease_or_phenotypic_feature 1044 1050	cancer
 T26	chemical 1066 1072	folate
 T27	chemical 1105 1112	heparin
 T28	chemical 1141 1145	drug
-T29	disease 1288 1309	peripheral neuropathy
+T29	disease_or_phenotypic_feature 1288 1309	peripheral neuropathy
 T30	chemical 1328 1332	lead
 T31	chemical 1392 1403	Sibutramine
 T32	chemical 1452 1461	inhibitor
@@ -37,8 +37,8 @@ T36	chemical 1602 1612	Ethambutol
 T37	chemical 1652 1656	drug
 T38	disease_or_phenotypic_feature 1684 1701	visual impairment
 T39	chemical 1730 1737	protein
-T40	disease 1776 1779	HCC
-T41	disease 1827 1830	HCC
+T40	disease_or_phenotypic_feature 1776 1779	HCC
+T41	disease_or_phenotypic_feature 1827 1830	HCC
 T42	disease_or_phenotypic_feature 1868 1883	colon carcinoma
 T43	chemical 1932 1940	antigens
 T44	chemical 2033 2042	inhibitor
@@ -52,5 +52,5 @@ T51	disease_or_phenotypic_feature 2241 2252	lung tumors
 T52	chemical 2315 2323	androgen
 T53	disease_or_phenotypic_feature 2348 2351	PAP
 T54	chemical 2374 2382	androgen
-T55	disease 2429 2436	One-Pot
+T55	disease_or_phenotypic_feature 2429 2436	One-Pot
 T56	chemical 2462 2471	Polyester

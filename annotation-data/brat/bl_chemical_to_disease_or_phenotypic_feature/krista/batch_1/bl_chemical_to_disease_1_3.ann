@@ -1,70 +1,70 @@
 T1	chemical 96044 96053	molecular
-T2	disease 96066 96074	syndrome
+T2	disease_or_phenotypic_feature 96066 96074	syndrome
 T3	missed_chemical 96093 96105	therapeutics
-T4	corrected_disease 96126 96137	CP syndrome
-T5	disease 96129 96137	syndrome
-T6	disease 96156 96162	mEAK-7
+T4	corrected_disease_or_phenotypic_feature 96126 96137	CP syndrome
+T5	disease_or_phenotypic_feature 96129 96137	syndrome
+T6	disease_or_phenotypic_feature 96156 96162	mEAK-7
 T7	chemical 96179 96192	DNA-dependent
 T8	chemical 96193 96200	protein
 T9	chemical 96237 96245	DNA-PKcs
 T10	chemical 96404 96408	mRNA
-T11	disease 96442 96446	MLNs
+T11	disease_or_phenotypic_feature 96442 96446	MLNs
 T12	chemical 96569 96580	Antioxidant
 T13	chemical 96581 96587	enzyme
 T14	chemical 96609 96619	superoxide
-T15	disease 96631 96634	SOD
+T15	disease_or_phenotypic_feature 96631 96634	SOD
 T16	chemical 96637 96647	peroxidase
 T17	chemical 96669 96678	ascorbate
 T18	chemical 96679 96689	peroxidase
 T19	chemical 96821 96832	germination
-T20	disease 96865 96891	glaucoma/contraindications
+T20	disease_or_phenotypic_feature 96865 96891	glaucoma/contraindications
 T21	chemical 96895 96903	steroids
-T22	disease 96960 96975	type 2 diabetes
-T23	disease 97083 97088	blood
+T22	disease_or_phenotypic_feature 96960 96975	type 2 diabetes
+T23	disease_or_phenotypic_feature 97083 97088	blood
 T24	chemical 97089 97096	glucose
-T25	disease 97212 97224	fibromyalgia
+T25	disease_or_phenotypic_feature 97212 97224	fibromyalgia
 T26	chemical 97225 97230	group
-T27	disease 97302 97324	cardiovascular disease
+T27	disease_or_phenotypic_feature 97302 97324	cardiovascular disease
 T28	chemical 97344 97352	tyrosine
 T29	chemical 97344 97370	tyrosine kinase inhibitors
-T30	disease 97375 97395	renal cell carcinoma
+T30	disease_or_phenotypic_feature 97375 97395	renal cell carcinoma
 T31	chemical 97506 97509	His
 T32	chemical 97575 97578	his
-T33	disease 97585 97590	Blood
+T33	disease_or_phenotypic_feature 97585 97590	Blood
 T34	chemical 97652 97661	uric acid
-T35	disease 97691 97715	Plasmodium vivax malaria
+T35	disease_or_phenotypic_feature 97691 97715	Plasmodium vivax malaria
 T36	chemical 97799 97807	Val30Met
-T37	disease 97822 97833	amyloidosis
+T37	disease_or_phenotypic_feature 97822 97833	amyloidosis
 T38	corrected_chemical 97903 97913	zinc oxide
 T39	chemical 97903 97927	zinc oxide nanoparticles
 T40	chemical 97908 97913	oxide
 T41	chemical 97931 97945	drug-resistant
-T42	disease 97946 97959	breast cancer
+T42	disease_or_phenotypic_feature 97946 97959	breast cancer
 T43	missed_chemical 97984 97995	Toosendanin
 T44	chemical 98007 98022	dextran sulfate
 T45	chemical 98023 98037	sodium-induced
-T46	disease 98038 98045	colitis
+T46	disease_or_phenotypic_feature 98038 98045	colitis
 T47	chemical 98270 98279	indicator
-T48	disease 98305 98312	disease
-T49	disease 98434 98437	HCC
+T48	disease_or_phenotypic_feature 98305 98312	disease
+T49	disease_or_phenotypic_feature 98434 98437	HCC
 T50	chemical 98510 98518	molecule
-T51	disease 98536 98558	liver tumor-initiating
-T52	disease 98643 98649	stroke
+T51	disease_or_phenotypic_feature 98536 98558	liver tumor-initiating
+T52	disease_or_phenotypic_feature 98643 98649	stroke
 T53	chemical 98703 98708	group
-T54	disease 98738 98752	Ovarian cancer
+T54	disease_or_phenotypic_feature 98738 98752	Ovarian cancer
 T55	missed_chemical 98794 98810	chemotherapeutic
 T56	missed_chemical 98818 98826	biologic
-T57	disease 98858 98866	acquired
+T57	disease_or_phenotypic_feature 98858 98866	acquired
 T58	chemical 98894 98898	drug
 T59	chemical 98928 98939	Oxaliplatin
 T60	missed_chemical 98941 98943	OX
-T61	disease 98987 99004	colorectal cancer
-T62	disease 99006 99009	CRC
-T63	disease 99103 99117	ovarian cancer
+T61	disease_or_phenotypic_feature 98987 99004	colorectal cancer
+T62	disease_or_phenotypic_feature 99006 99009	CRC
+T63	disease_or_phenotypic_feature 99103 99117	ovarian cancer
 T64	chemical 99160 99168	residual
-T65	disease 99169 99174	tumor
+T65	disease_or_phenotypic_feature 99169 99174	tumor
 T66	chemical 99323 99332	Biomarker
-T67	disease 99336 99355	Acute Kidney Injury
+T67	disease_or_phenotypic_feature 99336 99355	Acute Kidney Injury
 R1	treats Arg1:T58 Arg2:T54
 R2	treats Arg1:T59 Arg2:T61
 R3	treats Arg1:T59 Arg2:T62

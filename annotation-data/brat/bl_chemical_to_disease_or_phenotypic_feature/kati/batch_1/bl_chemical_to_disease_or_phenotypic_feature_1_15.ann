@@ -4,7 +4,7 @@ T3	disease_or_phenotypic_feature 69 82	renal failure
 T4	disease_or_phenotypic_feature 102 120	glomerulonephritis
 T5	disease_or_phenotypic_feature 122 140	nephrotic syndrome
 T6	disease_or_phenotypic_feature 167 187	potassium deficiency
-T7	disease 189 203	CHILD syndrome
+T7	disease_or_phenotypic_feature 189 203	CHILD syndrome
 T8	chemical 255 265	lovastatin
 T9	chemical 270 281	cholesterol
 T10	disease_or_phenotypic_feature 316 323	obesity
@@ -22,13 +22,13 @@ T21	chemical 595 599	drug
 T22	disease_or_phenotypic_feature 610 625	Dravet syndrome
 T23	chemical 647 654	biology
 T24	disease_or_phenotypic_feature 672 687	prostate cancer
-T25	disease 689 696	One-Pot
+T25	disease_or_phenotypic_feature 689 696	One-Pot
 T26	chemical 722 731	Polyester
 T27	chemical 820 828	Collagen
 T28	chemical 833 844	fibronectin
 T29	disease_or_phenotypic_feature 862 869	obesity
 T30	disease_or_phenotypic_feature 874 887	breast cancer
-T31	disease 959 973	tumor-specific
+T31	disease_or_phenotypic_feature 959 973	tumor-specific
 T32	chemical 974 982	peptides
 T33	chemical 1116 1122	sodium
 T34	chemical 1123 1130	glucose
@@ -46,8 +46,8 @@ T45	disease_or_phenotypic_feature 1414 1432	muscular dystrophy
 T46	disease_or_phenotypic_feature 1448 1460	osteoporosis
 T47	chemical 1468 1479	antagonists
 T48	disease_or_phenotypic_feature 1501 1508	obesity
-T49	disease 1552 1561	infertile
-T50	disease 1562 1565	men
+T49	disease_or_phenotypic_feature 1552 1561	infertile
+T50	disease_or_phenotypic_feature 1562 1565	men
 T51	chemical 1657 1669	antioxidants
 T52	chemical 1730 1733	myc
 T53	disease_or_phenotypic_feature 1814 1823	neoplasms

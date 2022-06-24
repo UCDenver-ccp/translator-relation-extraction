@@ -18,7 +18,7 @@ T17	chemical 586 592	oxygen
 T18	chemical 613 616	air
 T19	disease_or_phenotypic_feature 642 648	anemia
 T20	chemical 676 685	vitamin D
-T21	disease 698 717	atrial fibrillation
+T21	disease_or_phenotypic_feature 698 717	atrial fibrillation
 T22	chemical 802 809	hormone
 T23	disease_or_phenotypic_feature 826 833	obesity
 T24	chemical 835 842	17-DMAG
@@ -26,9 +26,9 @@ T25	chemical 847 862	Hsp90 inhibitor
 T26	disease_or_phenotypic_feature 896 903	obesity
 T27	chemical 989 994	group
 T28	chemical 1013 1018	group
-T29	disease 1039 1045	injury
+T29	disease_or_phenotypic_feature 1039 1045	injury
 T30	chemical 1064 1069	group
-T31	disease 1111 1117	injury
+T31	disease_or_phenotypic_feature 1111 1117	injury
 T32	chemical 1211 1221	biological
 T33	chemical 1283 1293	paclitaxel
 T34	disease_or_phenotypic_feature 1334 1360	non-small cell lung cancer
@@ -53,7 +53,7 @@ T52	disease_or_phenotypic_feature 1938 1970	pervasive developmental disorder
 T53	chemical 2004 2011	antigen
 T54	disease_or_phenotypic_feature 2032 2059	medullary thyroid carcinoma
 T55	chemical 2065 2073	androgen
-T56	disease 2181 2196	prostate cancer
+T56	disease_or_phenotypic_feature 2181 2196	prostate cancer
 T57	disease_or_phenotypic_feature 2256 2263	obesity
 T58	chemical 2287 2297	biomarkers
 T59	disease_or_phenotypic_feature 2299 2315	hyperinsulinemia

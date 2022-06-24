@@ -43,9 +43,9 @@ T42	chemical 1970 1976	oxygen
 T43	chemical 2066 2071	toxin
 T44	disease_or_phenotypic_feature 2093 2111	movement disorders
 T45	chemical 2113 2122	Fulminant
-T46	disease 2123 2168	Reversible Cerebral Vasoconstriction Syndrome
+T46	disease_or_phenotypic_feature 2123 2168	Reversible Cerebral Vasoconstriction Syndrome
 T47	chemical 2253 2262	Cisplatin
-T48	disease 2312 2327	Cervical Cancer
+T48	disease_or_phenotypic_feature 2312 2327	Cervical Cancer
 T49	disease_or_phenotypic_feature 2373 2390	pancreatic cancer
 T50	chemical 2441 2445	acid
 T51	chemical 2450 2461	chloroquine
@@ -57,7 +57,7 @@ T56	disease_or_phenotypic_feature 2630 2636	cancer
 T57	chemical 2654 2658	drug
 T58	chemical 2659 2669	paclitaxel
 T59	chemical 2789 2801	pioglitazone
-T60	disease 2814 2828	bladder cancer
+T60	disease_or_phenotypic_feature 2814 2828	bladder cancer
 T61	disease_or_phenotypic_feature 2887 2896	psoriasis
 T62	chemical 2943 2953	inhibitors
 T63	chemical 2961 2973	methotrexate

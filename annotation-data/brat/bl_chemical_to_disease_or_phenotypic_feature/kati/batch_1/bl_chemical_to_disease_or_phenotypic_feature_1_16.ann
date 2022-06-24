@@ -6,7 +6,7 @@ T5	disease_or_phenotypic_feature 109 127	mental retardation
 T6	disease_or_phenotypic_feature 129 136	hepatic
 T7	chemical 191 198	protein
 T8	chemical 199 208	biomarker
-T9	disease 213 226	schizophrenia
+T9	disease_or_phenotypic_feature 213 226	schizophrenia
 T10	chemical 314 322	warfarin
 T11	disease_or_phenotypic_feature 338 346	cataract
 T12	chemical 369 379	anesthesia
@@ -31,23 +31,23 @@ T30	disease_or_phenotypic_feature 868 883	cardiac failure
 T31	disease_or_phenotypic_feature 923 941	prostate carcinoma
 T32	chemical 943 946	PCa
 T33	chemical 960 967	hormone
-T34	disease 1183 1199	bipolar disorder
+T34	disease_or_phenotypic_feature 1183 1199	bipolar disorder
 T35	chemical 1214 1221	alcohol
-T36	disease 1396 1401	blood
+T36	disease_or_phenotypic_feature 1396 1401	blood
 T37	chemical 1478 1488	hemoglobin
-T38	disease 1490 1495	blood
+T38	disease_or_phenotypic_feature 1490 1495	blood
 T39	chemical 1539 1549	anesthesia
-T40	disease 1550 1554	(PCA
+T40	disease_or_phenotypic_feature 1550 1554	(PCA
 T41	chemical 1556 1564	morphine
-T42	disease 1648 1658	Congenital
-T43	disease 1659 1671	microcephaly
+T42	disease_or_phenotypic_feature 1648 1658	Congenital
+T43	disease_or_phenotypic_feature 1659 1671	microcephaly
 T44	chemical 1698 1703	group
-T45	disease 1707 1716	disorders
+T45	disease_or_phenotypic_feature 1707 1716	disorders
 T46	chemical 1900 1907	biology
-T47	disease 1976 1982	cancer
+T47	disease_or_phenotypic_feature 1976 1982	cancer
 T48	chemical 2069 2073	drug
 T49	disease_or_phenotypic_feature 2099 2112	heart failure
-T50	disease 2142 2157	cervical cancer
+T50	disease_or_phenotypic_feature 2142 2157	cervical cancer
 T51	chemical 2215 2226	doxorubicin
 T52	chemical 2286 2295	drug-free
 T53	chemical 2373 2380	antigen
@@ -60,5 +60,5 @@ T59	disease_or_phenotypic_feature 2698 2711	heart failure
 T60	chemical 2713 2723	Eplerenone
 T61	chemical 2740 2762	aldosterone antagonist
 T62	disease_or_phenotypic_feature 2810 2823	heart failure
-T63	disease 2914 2921	pan-MMP
+T63	disease_or_phenotypic_feature 2914 2921	pan-MMP
 T64	chemical 2922 2931	inhibitor

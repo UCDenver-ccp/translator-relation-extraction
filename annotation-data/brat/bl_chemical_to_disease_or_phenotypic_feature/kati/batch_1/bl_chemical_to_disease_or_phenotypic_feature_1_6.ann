@@ -14,9 +14,9 @@ T13	disease_or_phenotypic_feature 407 414	obesity
 T14	chemical 425 433	antigens
 T15	disease_or_phenotypic_feature 448 461	breast cancer
 T16	chemical 575 579	drug
-T17	disease 602 616	ovarian cancer
-T18	disease 618 635	colorectal cancer
-T19	disease 641 655	gastric cancer
+T17	disease_or_phenotypic_feature 602 616	ovarian cancer
+T18	disease_or_phenotypic_feature 618 635	colorectal cancer
+T19	disease_or_phenotypic_feature 641 655	gastric cancer
 T20	disease_or_phenotypic_feature 703 710	obesity
 T21	disease_or_phenotypic_feature 748 755	obesity
 T22	chemical 774 778	drug
@@ -40,9 +40,9 @@ T39	chemical 1299 1305	buffer
 T40	disease_or_phenotypic_feature 1347 1360	hypercalcemia
 T41	disease_or_phenotypic_feature 1378 1391	hypercalcemia
 T42	chemical 1504 1514	drug-naïve
-T43	disease 1529 1542	schizophrenia
+T43	disease_or_phenotypic_feature 1529 1542	schizophrenia
 T44	chemical 1569 1573	talc
-T45	disease 1616 1633	ovarian carcinoma
+T45	disease_or_phenotypic_feature 1616 1633	ovarian carcinoma
 T46	disease_or_phenotypic_feature 1713 1730	pituitary adenoma
 T47	chemical 1737 1745	propofol
 T48	chemical 1746 1756	anesthesia
@@ -52,9 +52,9 @@ T51	disease_or_phenotypic_feature 1919 1930	hypokalemia
 T52	disease_or_phenotypic_feature 1932 1946	hypomagnesemia
 T53	chemical 1979 1986	hormone
 T54	chemical 2007 2016	thyroxine
-T55	disease 2063 2066	MPa
+T55	disease_or_phenotypic_feature 2063 2066	MPa
 T56	chemical 2068 2079	"ARG4.0MPa"
-T57	disease 2068 2079	"ARG4.0MPa"
+T57	disease_or_phenotypic_feature 2068 2079	"ARG4.0MPa"
 T58	disease_or_phenotypic_feature 2139 2161	central hypothyroidism
 T59	chemical 2163 2177	growth hormone
 T60	disease_or_phenotypic_feature 2206 2235	hypogonadotropic hypogonadism

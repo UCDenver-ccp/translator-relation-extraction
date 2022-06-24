@@ -17,17 +17,17 @@ T16	chemical 586 597	biochemical
 T17	chemical 688 704	prostaglandin E2
 T18	chemical 777 789	carbohydrate
 T19	chemical 790 797	antigen
-T20	disease 851 868	mucinous neoplasm
-T21	disease 870 875	IPMN)
+T20	disease_or_phenotypic_feature 851 868	mucinous neoplasm
+T21	disease_or_phenotypic_feature 870 875	IPMN)
 T22	chemical 902 912	biomarkers
 T23	chemical 937 946	Melatonin
 T24	chemical 1015 1022	hormone
 T25	disease_or_phenotypic_feature 1023 1032	dependent
-T26	disease 1069 1109	idiopathic thrombocytopenic purpura(ITP)
-T27	disease 1097 1109	purpura(ITP)
+T26	disease_or_phenotypic_feature 1069 1109	idiopathic thrombocytopenic purpura(ITP)
+T27	disease_or_phenotypic_feature 1097 1109	purpura(ITP)
 T28	chemical 1097 1109	purpura(ITP)
-T29	disease 1111 1122	hepatitis B
-T30	disease 1128 1145	diabetes mellitus
+T29	disease_or_phenotypic_feature 1111 1122	hepatitis B
+T30	disease_or_phenotypic_feature 1128 1145	diabetes mellitus
 T31	chemical 1167 1175	guaiacol
 T32	chemical 1187 1194	hormone
 T33	disease_or_phenotypic_feature 1195 1204	dependent
@@ -44,7 +44,7 @@ T43	disease_or_phenotypic_feature 1486 1502	hypersensitivity
 T44	chemical 1536 1540	drug
 T45	disease_or_phenotypic_feature 1560 1582	sensorineural deafness
 T46	chemical 1599 1610	Scutellarin
-T47	disease 1647 1661	osteoarthritis
+T47	disease_or_phenotypic_feature 1647 1661	osteoarthritis
 T48	chemical 1748 1765	Dopamine agonists
 T49	chemical 1770 1782	somatostatin
 T50	disease_or_phenotypic_feature 1844 1852	adenomas

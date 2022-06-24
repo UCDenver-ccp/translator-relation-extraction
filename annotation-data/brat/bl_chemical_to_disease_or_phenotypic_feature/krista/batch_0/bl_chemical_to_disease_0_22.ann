@@ -1,65 +1,65 @@
-T1	disease 0 20	infection-associated
-T2	disease 44 69	obstructive hydrocephalus
+T1	disease_or_phenotypic_feature 0 20	infection-associated
+T2	disease_or_phenotypic_feature 44 69	obstructive hydrocephalus
 T3	chemical 125 133	residual
 T4	missed_chemical 173 190	Dietary compounds
-T5	disease 221 236	atherosclerosis
+T5	disease_or_phenotypic_feature 221 236	atherosclerosis
 T6	chemical 262 273	cholesterol
-T7	missed_disease 289 301	inflammation
+T7	missed_disease_or_phenotypic_feature 289 301	inflammation
 T8	chemical 515 530	steroid-induced
-T9	disease 515 539	steroid-induced glaucoma
-T10	disease 568 595	vernal keratoconjunctivitis
+T9	disease_or_phenotypic_feature 515 539	steroid-induced glaucoma
+T10	disease_or_phenotypic_feature 568 595	vernal keratoconjunctivitis
 T11	chemical 709 715	toxins
-T12	disease 740 757	colorectal cancer
+T12	disease_or_phenotypic_feature 740 757	colorectal cancer
 T13	chemical 933 940	glucose
 T14	chemical 945 950	lipid
-T15	disease 1020 1028	diseases
-T16	disease 1211 1220	infection
+T15	disease_or_phenotypic_feature 1020 1028	diseases
+T16	disease_or_phenotypic_feature 1211 1220	infection
 T17	missed_chemical 1239 1242	LPS
 T18	chemical 1255 1270	polysaccharides
-T19	missed_disease 1296 1313	immunosuppressive
+T19	missed_disease_or_phenotypic_feature 1296 1313	immunosuppressive
 T20	chemical 1432 1441	inhibitor
-T21	disease 1480 1490	dependence
-T22	disease 1596 1601	blood
-T23	disease 1634 1639	blood
+T21	disease_or_phenotypic_feature 1480 1490	dependence
+T22	disease_or_phenotypic_feature 1596 1601	blood
+T23	disease_or_phenotypic_feature 1634 1639	blood
 T24	chemical 1696 1701	lipid
 T25	chemical 1761 1776	phosphorylation
 T26	chemical 1829 1844	phosphorylation
 T27	chemical 2034 2048	phosphorylated
 T28	chemical 2049 2057	residues
-T29	disease 2082 2086	rich
+T29	disease_or_phenotypic_feature 2082 2086	rich
 T30	chemical 2097 2105	residues
 T31	chemical 2324 2328	drug
-T32	disease 2376 2394	Takayasu arteritis
-T33	disease 2443 2446	ITP
+T32	disease_or_phenotypic_feature 2376 2394	Takayasu arteritis
+T33	disease_or_phenotypic_feature 2443 2446	ITP
 T34	chemical 2465 2497	thrombopoietin receptor agonists
 T35	chemical 2480 2497	receptor agonists
 T36	missed_chemical 2499 2506	TPO-RAs
 T37	chemical 2523 2534	eltrombopag
 T38	chemical 2633 2644	methylation
-T39	disease 2692 2704	cleft palate
+T39	disease_or_phenotypic_feature 2692 2704	cleft palate
 T40	chemical 2784 2800	sodium hydroxide
-T41	disease 2818 2831	osteoporosis]
+T41	disease_or_phenotypic_feature 2818 2831	osteoporosis]
 T42	chemical 2931 2934	ion
-T43	disease 2931 2934	ion
+T43	disease_or_phenotypic_feature 2931 2934	ion
 T44	chemical 2967 2977	Naringin-G
-T45	disease 3024 3027	SDS
+T45	disease_or_phenotypic_feature 3024 3027	SDS
 T46	chemical 3152 3159	alcohol
-T47	disease 3164 3173	disorders
+T47	disease_or_phenotypic_feature 3164 3173	disorders
 T48	corrected_chemical 3391 3432	Specialized Pro-resolving Lipid Mediators
 T49	chemical 3403 3416	Pro-resolving
 T50	chemical 3417 3422	Lipid
-T51	missed_disease 3454 3466	Inflammation
-T52	disease 3470 3485	Cystic Fibrosis
+T51	missed_disease_or_phenotypic_feature 3454 3466	Inflammation
+T52	disease_or_phenotypic_feature 3470 3485	Cystic Fibrosis
 T53	chemical 3523 3531	glucagon
-T54	disease 3544 3547	fed
-T55	disease 3661 3687	small bowel adenocarcinoma
+T54	disease_or_phenotypic_feature 3544 3547	fed
+T55	disease_or_phenotypic_feature 3661 3687	small bowel adenocarcinoma
 T56	chemical 3782 3801	glucose-transporter
 T57	chemical 3904 3907	TTP
-T58	disease 3904 3907	TTP
-T59	disease 3950 3957	obesity
+T58	disease_or_phenotypic_feature 3904 3907	TTP
+T59	disease_or_phenotypic_feature 3950 3957	obesity
 T60	chemical 3962 3965	NoP
-T61	disease 3976 3983	obesity
-T62	disease 4054 4061	obesity
+T61	disease_or_phenotypic_feature 3976 3983	obesity
+T62	disease_or_phenotypic_feature 4054 4061	obesity
 R1	treats Arg1:T48 Arg2:T51
 R2	treats Arg1:T48 Arg2:T52
 R3	treats Arg1:T31 Arg2:T32
@@ -70,7 +70,7 @@ R7	treats Arg1:T4 Arg2:T5
 R8	treats Arg1:T4 Arg2:T7
 R9	treats Arg1:T34 Arg2:T33
 R10	causes_or_contributes_to Arg1:T17 Arg2:T19
-T63	missed_disease 597 600	VKC
+T63	missed_disease_or_phenotypic_feature 597 600	VKC
 T64	corrected_chemical 515 522	steroid
 R11	causes_or_contributes_to Arg1:T64 Arg2:T9	
 R12	treats Arg1:T64 Arg2:T10	

@@ -1,60 +1,60 @@
-T1	disease 57 61	rare
-T2	disease 62 67	tumor
-T3	missed_disease 73 77	PSCC
+T1	disease_or_phenotypic_feature 57 61	rare
+T2	disease_or_phenotypic_feature 62 67	tumor
+T3	missed_disease_or_phenotypic_feature 73 77	PSCC
 T4	missed_chemical 121 127	agents
-T5	missed_disease 147 151	SCCs
+T5	missed_disease_or_phenotypic_feature 147 151	SCCs
 T6	chemical 177 184	biology
 T7	chemical 229 236	retinal
-T8	disease 229 247	retinal detachment
-T9	disease 252 256	rare
-T10	disease 358 362	mono
+T8	disease_or_phenotypic_feature 229 247	retinal detachment
+T9	disease_or_phenotypic_feature 252 256	rare
+T10	disease_or_phenotypic_feature 358 362	mono
 T11	chemical 426 435	molecular
-T12	disease 519 526	disease
+T12	disease_or_phenotypic_feature 519 526	disease
 T13	chemical 548 556	hormonal
-T14	disease 615 624	condition
+T14	disease_or_phenotypic_feature 615 624	condition
 T15	chemical 708 717	molecular
-T16	disease 894 909	cancer-specific
-T17	disease 958 963	tumor
+T16	disease_or_phenotypic_feature 894 909	cancer-specific
+T17	disease_or_phenotypic_feature 958 963	tumor
 T18	chemical 964 971	biology
-T19	disease 1122 1142	vesicular stomatitis
+T19	disease_or_phenotypic_feature 1122 1142	vesicular stomatitis
 T20	chemical 1173 1180	protein
 T21	chemical 1198 1205	antigen
-T22	disease 1251 1258	malaria
+T22	disease_or_phenotypic_feature 1251 1258	malaria
 T23	chemical 1308 1311	RNA
-T24	disease 1504 1511	obesity
+T24	disease_or_phenotypic_feature 1504 1511	obesity
 T25	chemical 1532 1541	celastrol
-T26	disease 1577 1595	obesity-associated
-T27	missed_disease 1577 1610	obesity-associated dyshomeostasis
+T26	disease_or_phenotypic_feature 1577 1595	obesity-associated
+T27	missed_disease_or_phenotypic_feature 1577 1610	obesity-associated dyshomeostasis
 T28	chemical 1727 1735	dopamine
-T29	disease 1785 1804	Parkinson's disease
+T29	disease_or_phenotypic_feature 1785 1804	Parkinson's disease
 T30	chemical 1901 1930	multi-walled carbon nanotubes
-T31	disease 2015 2032	mammary carcinoma
+T31	disease_or_phenotypic_feature 2015 2032	mammary carcinoma
 T32	chemical 2127 2134	Retinal
-T33	missed_disease 2127 2148	Retinal Complications
-T34	disease 2152 2180	Systemic Lupus Erythematosus
+T33	missed_disease_or_phenotypic_feature 2127 2148	Retinal Complications
+T34	disease_or_phenotypic_feature 2152 2180	Systemic Lupus Erythematosus
 T35	chemical 2203 2215	Antimalarial
 T36	corrected_chemical 2203 2221	Antimalarial Drugs
 T37	chemical 2283 2296	dexamethasone
-T38	corrected_disease 2349 2388	M0 castration-resistant prostate cancer
-T39	disease 2373 2388	prostate cancer
-T40	corrected_disease 2411 2450	M1 castration-resistant prostate cancer
-T41	disease 2435 2450	prostate cancer
+T38	corrected_disease_or_phenotypic_feature 2349 2388	M0 castration-resistant prostate cancer
+T39	disease_or_phenotypic_feature 2373 2388	prostate cancer
+T40	corrected_disease_or_phenotypic_feature 2411 2450	M1 castration-resistant prostate cancer
+T41	disease_or_phenotypic_feature 2435 2450	prostate cancer
 T42	chemical 2539 2549	lead-point
-T43	disease 2609 2624	intussusception
-T44	disease 2666 2681	intussusception
-T45	disease 2752 2773	peripheral neuropathy
+T43	disease_or_phenotypic_feature 2609 2624	intussusception
+T44	disease_or_phenotypic_feature 2666 2681	intussusception
+T45	disease_or_phenotypic_feature 2752 2773	peripheral neuropathy
 T46	chemical 2792 2796	lead
 T47	chemical 2899 2909	biomarkers
-T48	disease 2913 2918	blood
-T49	disease 2942 2946	CRC.
-T50	disease 3141 3147	add-on
+T48	disease_or_phenotypic_feature 2913 2918	blood
+T49	disease_or_phenotypic_feature 2942 2946	CRC.
+T50	disease_or_phenotypic_feature 3141 3147	add-on
 T51	chemical 3159 3168	metformin
-T52	missed_disease 3199 3202	T2D
+T52	missed_disease_or_phenotypic_feature 3199 3202	T2D
 T53	chemical 3265 3272	protein
-T54	disease 3311 3314	HCC
-T55	disease 3362 3365	HCC
+T54	disease_or_phenotypic_feature 3311 3314	HCC
+T55	disease_or_phenotypic_feature 3362 3365	HCC
 T56	chemical 3422 3433	biochemical
-T57	disease 3545 3549	HIE.
+T57	disease_or_phenotypic_feature 3545 3549	HIE.
 T58	chemical 3586 3594	tantalum
 R1	treats Arg1:T51 Arg2:T52
 R2	treats Arg1:T36 Arg2:T34
@@ -67,7 +67,7 @@ R8	treats Arg1:T4 Arg2:T5
 R9	treats Arg1:T4 Arg2:T3
 R10	treats Arg1:T28 Arg2:T29
 R11	treats Arg1:T25 Arg2:T27
-T59	missed_disease 1806 1808	PD
+T59	missed_disease_or_phenotypic_feature 1806 1808	PD
 R12	treats Arg1:T28 Arg2:T59	
 T60	missed_chemical 2240 2249	Docetaxel
 R13	treats Arg1:T60 Arg2:T38	

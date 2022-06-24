@@ -19,18 +19,18 @@ T18	disease_or_phenotypic_feature 468 486	Endometrial cancer
 T19	chemical 492 499	hormone
 T20	disease_or_phenotypic_feature 524 531	obesity
 T21	chemical 536 542	buffer
-T22	disease 620 643	undifferentiated/poorly
-T23	disease 620 658	undifferentiated/poorly differentiated
-T24	disease 659 683	nasopharyngeal carcinoma
+T22	disease_or_phenotypic_feature 620 643	undifferentiated/poorly
+T23	disease_or_phenotypic_feature 620 658	undifferentiated/poorly differentiated
+T24	disease_or_phenotypic_feature 659 683	nasopharyngeal carcinoma
 T25	chemical 711 717	proton
 T26	chemical 776 784	nicotine
 T27	disease_or_phenotypic_feature 803 810	obesity
 T28	disease_or_phenotypic_feature 815 829	hypothyroidism
-T29	disease 908 915	pan-RAF
+T29	disease_or_phenotypic_feature 908 915	pan-RAF
 T30	chemical 916 925	inhibitor
-T31	disease 943 960	colorectal cancer
+T31	disease_or_phenotypic_feature 943 960	colorectal cancer
 T32	chemical 995 1004	Fulminant
-T33	disease 1005 1050	Reversible Cerebral Vasoconstriction Syndrome
+T33	disease_or_phenotypic_feature 1005 1050	Reversible Cerebral Vasoconstriction Syndrome
 T34	disease_or_phenotypic_feature 1164 1170	cancer
 T35	chemical 1178 1185	antigen
 T36	disease_or_phenotypic_feature 1272 1279	obesity
@@ -49,7 +49,7 @@ T48	disease_or_phenotypic_feature 1629 1638	cataracts
 T49	disease_or_phenotypic_feature 1666 1674	cataract
 T50	chemical 1703 1713	anesthesia
 T51	chemical 1833 1845	pioglitazone
-T52	disease 1858 1872	bladder cancer
+T52	disease_or_phenotypic_feature 1858 1872	bladder cancer
 T53	disease_or_phenotypic_feature 1932 1943	visual loss
 T54	chemical 1977 1987	anesthesia
 T55	disease_or_phenotypic_feature 1992 2000	cataract

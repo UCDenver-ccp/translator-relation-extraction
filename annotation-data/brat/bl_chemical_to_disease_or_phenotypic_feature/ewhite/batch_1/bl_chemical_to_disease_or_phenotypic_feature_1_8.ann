@@ -1,5 +1,5 @@
 T1	chemical 17 26	manganese
-T2	disease 131 141	dependence
+T2	disease_or_phenotypic_feature 131 141	dependence
 T3	disease_or_phenotypic_feature 209 212	PCa
 T4	chemical 209 212	PCa
 T5	chemical 249 253	drug
@@ -13,7 +13,7 @@ T12	chemical 501 507	Oxygen
 T13	chemical 520 526	oxygen
 T14	disease_or_phenotypic_feature 592 616	congenital heart defects
 T15	chemical 724 732	residual
-T16	disease 733 744	astigmatism
+T16	disease_or_phenotypic_feature 733 744	astigmatism
 T17	disease_or_phenotypic_feature 916 921	fever
 T18	disease_or_phenotypic_feature 923 934	hypotension
 T19	disease_or_phenotypic_feature 940 947	dyspnea
@@ -36,19 +36,19 @@ T35	chemical 1622 1626	drug
 T36	chemical 1695 1699	food
 T37	chemical 1704 1711	alcohol
 T38	disease_or_phenotypic_feature 1740 1747	obesity
-T39	disease 1831 1834	HCC
+T39	disease_or_phenotypic_feature 1831 1834	HCC
 T40	chemical 1907 1915	electron
 T41	chemical 1974 1985	antagonists
 T42	disease_or_phenotypic_feature 1990 1997	obesity
 T43	chemical 2033 2043	rimonabant
-T44	disease 2097 2107	DP-HCC1806
+T44	disease_or_phenotypic_feature 2097 2107	DP-HCC1806
 T45	chemical 2145 2156	doxorubicin
 T46	chemical 2161 2175	5-fluorouracil
 T47	chemical 2319 2327	antigens
 T48	disease_or_phenotypic_feature 2365 2378	ovarian tumor
 T49	chemical 2401 2404	DCs
 T50	chemical 2478 2488	Metamizole
-T51	disease 2506 2512	injury
+T51	disease_or_phenotypic_feature 2506 2512	injury
 T52	chemical 2688 2695	antigen
 T53	chemical 2718 2725	monitor
 T54	disease_or_phenotypic_feature 2726 2751	epithelial ovarian cancer

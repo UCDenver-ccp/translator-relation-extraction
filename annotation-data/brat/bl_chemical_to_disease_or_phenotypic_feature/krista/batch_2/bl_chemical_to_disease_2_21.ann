@@ -1,62 +1,62 @@
 T1	chemical 193594 193603	molecular
 T2	chemical 193626 193635	bilirubin
-T3	disease 193636 193649	neurotoxicity
+T3	disease_or_phenotypic_feature 193636 193649	neurotoxicity
 T4	chemical 193695 193710	hydroxy-cocaine
 T5	chemical 193711 193722	metabolites
 T6	chemical 193738 193745	cocaine
-T7	disease 193784 193787	ion
+T7	disease_or_phenotypic_feature 193784 193787	ion
 T8	chemical 193784 193787	ion
 T9	chemical 193874 193889	dextran sulfate
 T10	chemical 193890 193904	sodium-induced
-T11	disease 193905 193912	colitis
-T12	disease 193975 193980	tumor
-T13	disease 194157 194164	disease
-T14	disease 194282 194285	ion
+T11	disease_or_phenotypic_feature 193905 193912	colitis
+T12	disease_or_phenotypic_feature 193975 193980	tumor
+T13	disease_or_phenotypic_feature 194157 194164	disease
+T14	disease_or_phenotypic_feature 194282 194285	ion
 T15	chemical 194282 194285	ion
 T16	chemical 194286 194299	intercalation
 T17	chemical 194373 194383	glycosides
-T18	disease 194398 194411	anti-allergic
+T18	disease_or_phenotypic_feature 194398 194411	anti-allergic
 T19	chemical 194455 194464	histamine
-T20	disease 194700 194705	blood
+T20	disease_or_phenotypic_feature 194700 194705	blood
 T21	chemical 194706 194713	glucose
-T22	disease 194926 194934	HSP90AA1
+T22	disease_or_phenotypic_feature 194926 194934	HSP90AA1
 T23	chemical 194994 194997	MET
-T24	disease 195301 195315	ovarian cancer
-T25	disease 195363 195368	blood
-T26	disease 195406 195413	non-kin
+T24	disease_or_phenotypic_feature 195301 195315	ovarian cancer
+T25	disease_or_phenotypic_feature 195363 195368	blood
+T26	disease_or_phenotypic_feature 195406 195413	non-kin
 T27	chemical 195471 195475	food
 T28	chemical 195526 195537	antioxidant
-T29	disease 195547 195550	SOD
+T29	disease_or_phenotypic_feature 195547 195550	SOD
 T30	chemical 195580 195585	Lysyl
-T31	disease 195597 195608	oral cancer
-T32	disease 195646 195660	DRS-AIMP2-EPRS
+T31	disease_or_phenotypic_feature 195597 195608	oral cancer
+T32	disease_or_phenotypic_feature 195646 195660	DRS-AIMP2-EPRS
 T33	chemical 195695 195705	multi-tRNA
 T34	chemical 195743 195763	RNA-sequencing-based
 T35	chemical 195905 195915	inhibitors
-T36	disease 195979 195984	tumor
-T37	disease 196078 196085	obesity
+T36	disease_or_phenotypic_feature 195979 195984	tumor
+T37	disease_or_phenotypic_feature 196078 196085	obesity
 T38	chemical 196149 196159	biomarkers
 T39	chemical 196177 196183	leptin
 T40	chemical 196188 196199	adiponectin
 T41	chemical 196259 196264	group
-T42	disease 196357 196363	injury
-T43	disease 196394 196399	tumor
-T44	disease 196477 196498	conjunctival melanoma
+T42	disease_or_phenotypic_feature 196357 196363	injury
+T43	disease_or_phenotypic_feature 196394 196399	tumor
+T44	disease_or_phenotypic_feature 196477 196498	conjunctival melanoma
 T45	chemical 196515 196519	lead
 T46	chemical 196582 196590	adjuvant
-T47	disease 196640 196648	melanoma
-T48	disease 196716 196719	HCC
+T47	disease_or_phenotypic_feature 196640 196648	melanoma
+T48	disease_or_phenotypic_feature 196716 196719	HCC
 T49	chemical 196720 196730	biomarkers
-T50	disease 196818 196822	HCC.
+T50	disease_or_phenotypic_feature 196818 196822	HCC.
 T51	chemical 196845 196851	sodium
-T52	disease 196921 196924	CKD
+T52	disease_or_phenotypic_feature 196921 196924	CKD
 T53	chemical 196964 196972	residual
-T54	disease 197010 197046	benign paroxysmal positional vertigo
+T54	disease_or_phenotypic_feature 197010 197046	benign paroxysmal positional vertigo
 T55	chemical 197060 197070	polyphenol
-T56	disease 197189 197214	Anaplastic Thyroid Cancer
+T56	disease_or_phenotypic_feature 197189 197214	Anaplastic Thyroid Cancer
 T57	chemical 197200 197207	Thyroid
 T58	chemical 197323 197335	Nanocrystals
 T59	chemical 197356 197362	Oxides
 T60	chemical 197399 197405	Li-Ion
-T61	disease 197399 197405	Li-Ion
+T61	disease_or_phenotypic_feature 197399 197405	Li-Ion
 R1	causes_or_contributes_to Arg1:T2 Arg2:T3

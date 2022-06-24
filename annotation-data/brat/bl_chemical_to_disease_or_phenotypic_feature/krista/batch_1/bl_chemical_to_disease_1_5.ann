@@ -1,73 +1,73 @@
 T1	chemical 96062 96067	lipid
-T2	disease 96136 96144	acidosis
-T3	disease 96434 96448	Osteoarthritis
+T2	disease_or_phenotypic_feature 96136 96144	acidosis
+T3	disease_or_phenotypic_feature 96434 96448	Osteoarthritis
 T4	chemical 96561 96564	THR
 T5	chemical 96625 96636	biochemical
-T6	disease 96674 96681	obesity
+T6	disease_or_phenotypic_feature 96674 96681	obesity
 T7	chemical 96710 96722	carbohydrate
 T8	chemical 96727 96732	lipid
 T9	chemical 96782 96797	steroid hormone
 T10	chemical 96790 96797	hormone
 T11	chemical 96826 96835	oxidative
 T12	chemical 97011 97017	ligand
-T13	disease 97042 97059	colorectal cancer
+T13	disease_or_phenotypic_feature 97042 97059	colorectal cancer
 T14	chemical 97139 97148	molecular
-T15	disease 97327 97333	common
-T16	disease 97629 97638	pleuritis
+T15	disease_or_phenotypic_feature 97327 97333	common
+T16	disease_or_phenotypic_feature 97629 97638	pleuritis
 T17	chemical 97719 97723	lead
-T18	disease 97744 97750	cancer
-T19	disease 97762 97792	malignant pleural mesothelioma
+T18	disease_or_phenotypic_feature 97744 97750	cancer
+T19	disease_or_phenotypic_feature 97762 97792	malignant pleural mesothelioma
 T20	chemical 97811 97819	Glucagon
 T21	chemical 97848 97855	glucose
-T22	disease 97916 97929	hyperglycemia
-T23	disease 97933 97941	diabetes
+T22	disease_or_phenotypic_feature 97916 97929	hyperglycemia
+T23	disease_or_phenotypic_feature 97933 97941	diabetes
 T24	chemical 97949 97957	glucagon
 T25	missed_chemical 98085 98095	clobetasol
 T26	chemical 98113 98133	methotrexate-induced
-T27	corrected_disease 98113 98149	methotrexate-induced oral ulceration
-T28	disease 98139 98149	ulceration
-T29	disease 98153 98173	rheumatoid arthritis
+T27	corrected_disease_or_phenotypic_feature 98113 98149	methotrexate-induced oral ulceration
+T28	disease_or_phenotypic_feature 98139 98149	ulceration
+T29	disease_or_phenotypic_feature 98153 98173	rheumatoid arthritis
 T30	chemical 98315 98322	Alcohol
-T31	disease 98327 98336	Disorders
+T31	disease_or_phenotypic_feature 98327 98336	Disorders
 T32	chemical 98371 98378	alcohol
-T33	disease 98395 98399	AHS)
+T33	disease_or_phenotypic_feature 98395 98399	AHS)
 T34	chemical 98528 98542	drug-resistant
-T35	disease 98543 98551	epilepsy
+T35	disease_or_phenotypic_feature 98543 98551	epilepsy
 T36	chemical 98602 98610	residues
-T37	disease 98755 98764	disorders
+T37	disease_or_phenotypic_feature 98755 98764	disorders
 T38	chemical 98817 98827	folic acid
-T39	corrected_disease 98847 98871	chronic hemolytic anemia
-T40	disease 98855 98871	hemolytic anemia
-T41	missed_disease 98926 98938	side effects
+T39	corrected_disease_or_phenotypic_feature 98847 98871	chronic hemolytic anemia
+T40	disease_or_phenotypic_feature 98855 98871	hemolytic anemia
+T41	missed_disease_or_phenotypic_feature 98926 98938	side effects
 T42	chemical 98985 98991	folate
-T43	disease 99024 99040	hemolytic anemia
+T43	disease_or_phenotypic_feature 99024 99040	hemolytic anemia
 T44	chemical 99059 99073	Antidepressive
-T45	disease 99186 99202	Depression-Model
+T45	disease_or_phenotypic_feature 99186 99202	Depression-Model
 T46	chemical 99290 99298	residual
 T47	chemical 99304 99307	Pap
-T48	disease 99401 99410	low-grade
-T49	disease 99411 99442	squamous intraepithelial lesion
-T50	disease 99522 99532	high-grade
-T51	disease 99533 99564	squamous intraepithelial lesion
-T52	disease 99572 99582	high-grade
-T53	disease 99583 99614	squamous intraepithelial lesion
+T48	disease_or_phenotypic_feature 99401 99410	low-grade
+T49	disease_or_phenotypic_feature 99411 99442	squamous intraepithelial lesion
+T50	disease_or_phenotypic_feature 99522 99532	high-grade
+T51	disease_or_phenotypic_feature 99533 99564	squamous intraepithelial lesion
+T52	disease_or_phenotypic_feature 99572 99582	high-grade
+T53	disease_or_phenotypic_feature 99583 99614	squamous intraepithelial lesion
 T54	chemical 99790 99803	poly(L-lysine
-T55	disease 99819 99826	PLL/PDA
-T56	disease 99944 99955	sensitivity
+T55	disease_or_phenotypic_feature 99819 99826	PLL/PDA
+T56	disease_or_phenotypic_feature 99944 99955	sensitivity
 T57	chemical 99995 100002	alcohol
-T58	disease 100095 100100	Lin11
+T58	disease_or_phenotypic_feature 100095 100100	Lin11
 T59	chemical 100152 100164	bacteriocins
 T60	chemical 100166 100171	nisin
 T61	chemical 100298 100320	bacteriocin-containing
 T62	chemical 100321 100329	solution
 T63	chemical 100436 100440	drug
 T64	chemical 100504 100508	drug
-T65	disease 100524 100551	Duchenne muscular dystrophy
-T66	disease 100708 100711	SCD
+T65	disease_or_phenotypic_feature 100524 100551	Duchenne muscular dystrophy
+T66	disease_or_phenotypic_feature 100708 100711	SCD
 T67	chemical 100712 100717	group
-T68	disease 100789 100799	depression
+T68	disease_or_phenotypic_feature 100789 100799	depression
 T69	chemical 100965 100975	hesperidin
-T70	disease 101005 101010	blood
+T70	disease_or_phenotypic_feature 101005 101010	blood
 T71	chemical 101011 101018	glucose
 R1	treats Arg1:T38 Arg2:T39
 R2	causes_or_contributes_to Arg1:T38 Arg2:T41

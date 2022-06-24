@@ -1,24 +1,24 @@
-T1	disease 193583 193590	disease
-T2	disease 193611 193620	disorders
+T1	disease_or_phenotypic_feature 193583 193590	disease
+T2	disease_or_phenotypic_feature 193611 193620	disorders
 T3	chemical 193677 193687	biomarkers
 T4	chemical 193759 193774	Tranexamic acid
 T5	missed_chemical 193776 193779	TXA
-T6	corrected_disease 193789 193813	perioperative blood loss
-T7	disease 193803 193808	blood
+T6	corrected_disease_or_phenotypic_feature 193789 193813	perioperative blood loss
+T7	disease_or_phenotypic_feature 193803 193808	blood
 T8	chemical 193946 193954	psoralen
-T9	corrected_disease 193958 193972	human hepatoma
-T10	disease 193964 193972	hepatoma
-T11	disease 194119 194138	Au25@ZIF-8@TiO2-ReP
+T9	corrected_disease_or_phenotypic_feature 193958 193972	human hepatoma
+T10	disease_or_phenotypic_feature 193964 193972	hepatoma
+T11	disease_or_phenotypic_feature 194119 194138	Au25@ZIF-8@TiO2-ReP
 T12	chemical 194139 194147	catalyst
 T13	chemical 194274 194282	electron
 T14	chemical 194317 194325	chemical
 T15	chemical 194330 194340	biological
-T16	disease 194381 194392	blood-brain
+T16	disease_or_phenotypic_feature 194381 194392	blood-brain
 T17	chemical 194402 194407	water
 T18	chemical 194454 194464	metabolite
 T19	chemical 194477 194485	chemical
 T20	chemical 194570 194580	brain-lead
-T21	disease 194665 194677	stress ulcer
+T21	disease_or_phenotypic_feature 194665 194677	stress ulcer
 T22	chemical 194706 194717	proton-pump
 T23	corrected_chemical 194706 194727	proton-pump inhibitor
 T24	chemical 194718 194727	inhibitor
@@ -28,48 +28,48 @@ T27	chemical 194741 194760	receptor antagonist
 T28	chemical 194750 194760	antagonist
 T29	chemical 194765 194775	sucralfate
 T30	chemical 194950 194959	oxidative
-T31	disease 195026 195039	liver disease
-T32	disease 195051 195070	portal hypertension
+T31	disease_or_phenotypic_feature 195026 195039	liver disease
+T32	disease_or_phenotypic_feature 195051 195070	portal hypertension
 T33	chemical 195166 195180	growth hormone
-T34	disease 195236 195240	burn
+T34	disease_or_phenotypic_feature 195236 195240	burn
 T35	missed_chemical 195285 195291	agents
-T36	disease 195328 195337	mucositis
-T37	missed_disease 195346 195350	pain
+T36	disease_or_phenotypic_feature 195328 195337	mucositis
+T37	missed_disease_or_phenotypic_feature 195346 195350	pain
 T38	chemical 195365 195375	biological
 T39	chemical 195501 195506	group
-T40	disease 195554 195578	hepatocellular carcinoma
+T40	disease_or_phenotypic_feature 195554 195578	hepatocellular carcinoma
 T41	chemical 195579 195584	group
-T42	disease 195616 195621	NSCLC
+T42	disease_or_phenotypic_feature 195616 195621	NSCLC
 T43	chemical 195720 195729	molecular
-T44	disease 195749 195754	NSCLC
+T44	disease_or_phenotypic_feature 195749 195754	NSCLC
 T45	chemical 195822 195831	molecular
 T46	chemical 195852 195860	lycorine
-T47	disease 195904 195930	non-small cell lung cancer
-T48	disease 195932 195937	NSCLC
-T49	disease 196069 196076	disease
+T47	disease_or_phenotypic_feature 195904 195930	non-small cell lung cancer
+T48	disease_or_phenotypic_feature 195932 195937	NSCLC
+T49	disease_or_phenotypic_feature 196069 196076	disease
 T50	chemical 196102 196111	indicator
-T51	disease 196193 196202	infection
-T52	disease 196236 196243	disease
-T53	disease 196337 196342	tumor
+T51	disease_or_phenotypic_feature 196193 196202	infection
+T52	disease_or_phenotypic_feature 196236 196243	disease
+T53	disease_or_phenotypic_feature 196337 196342	tumor
 T54	chemical 196445 196453	molecule
 T55	chemical 196609 196621	mifepristone
-T56	disease 196664 196667	CSC
+T56	disease_or_phenotypic_feature 196664 196667	CSC
 T57	chemical 196715 196727	enzalutamide
-T58	disease 196741 196744	CSC
-T59	disease 196826 196829	CRD
+T58	disease_or_phenotypic_feature 196741 196744	CSC
+T59	disease_or_phenotypic_feature 196826 196829	CRD
 T60	chemical 196833 196847	micronutrients
 T61	chemical 196903 196912	molecular
-T62	disease 196939 196969	post-traumatic stress disorder
-T63	disease 196971 196975	PTSD
+T62	disease_or_phenotypic_feature 196939 196969	post-traumatic stress disorder
+T63	disease_or_phenotypic_feature 196971 196975	PTSD
 T64	chemical 197027 197038	cholesterol
-T65	disease 197075 197090	prostate cancer
-T66	disease 197091 197095	(PCa
-T67	disease 197165 197173	disorder
+T65	disease_or_phenotypic_feature 197075 197090	prostate cancer
+T66	disease_or_phenotypic_feature 197091 197095	(PCa
+T67	disease_or_phenotypic_feature 197165 197173	disorder
 T68	chemical 197233 197240	protein
 T69	chemical 197256 197270	RNA-organizing
-T70	disease 197331 197338	amyloid
+T70	disease_or_phenotypic_feature 197331 197338	amyloid
 T71	chemical 197382 197392	biomarkers
-T72	disease 197483 197491	diseases
+T72	disease_or_phenotypic_feature 197483 197491	diseases
 R1	treats Arg1:T23 Arg2:T21
 R2	treats Arg1:T8 Arg2:T9
 R3	treats Arg1:T5 Arg2:T6

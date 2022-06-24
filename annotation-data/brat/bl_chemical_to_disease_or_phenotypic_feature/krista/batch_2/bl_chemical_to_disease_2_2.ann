@@ -1,85 +1,85 @@
-T1	disease 193609 193618	infection
+T1	disease_or_phenotypic_feature 193609 193618	infection
 T2	chemical 193646 193650	mRNA
-T3	disease 193708 193722	post-infection
-T4	disease 193819 193825	common
-T5	missed_disease 193826 193840	adverse events
-T6	missed_disease 193842 193854	dissociation
-T7	missed_disease 193856 193862	nausea
-T8	missed_disease 193864 193871	vertigo
-T9	missed_disease 193873 193882	dysgeusia
-T10	missed_disease 193888 193897	dizziness
+T3	disease_or_phenotypic_feature 193708 193722	post-infection
+T4	disease_or_phenotypic_feature 193819 193825	common
+T5	missed_disease_or_phenotypic_feature 193826 193840	adverse events
+T6	missed_disease_or_phenotypic_feature 193842 193854	dissociation
+T7	missed_disease_or_phenotypic_feature 193856 193862	nausea
+T8	missed_disease_or_phenotypic_feature 193864 193871	vertigo
+T9	missed_disease_or_phenotypic_feature 193873 193882	dysgeusia
+T10	missed_disease_or_phenotypic_feature 193888 193897	dizziness
 T11	chemical 193940 193950	esketamine
 T12	chemical 193956 193970	antidepressant
 T13	chemical 193987 194001	antidepressant
 T14	chemical 194098 194102	drug
-T15	missed_disease 194117 194130	adverse event
-T16	disease 194169 194196	leukocytoclastic vasculitis
+T15	missed_disease_or_phenotypic_feature 194117 194130	adverse event
+T16	disease_or_phenotypic_feature 194169 194196	leukocytoclastic vasculitis
 T17	chemical 194208 194212	drug
-T18	disease 194213 194229	hypersensitivity
+T18	disease_or_phenotypic_feature 194213 194229	hypersensitivity
 T19	chemical 194358 194370	Heme-Pigment
-T20	disease 194379 194398	Acute Kidney Injury
-T21	disease 194405 194425	Cavernous Hemangioma
+T20	disease_or_phenotypic_feature 194379 194398	Acute Kidney Injury
+T21	disease_or_phenotypic_feature 194405 194425	Cavernous Hemangioma
 T22	chemical 194491 194500	hydration
-T23	corrected_disease 194556 194577	degenerative diseases
-T24	disease 194569 194577	diseases
-T25	disease 194612 194620	dementia
-T26	disease 194622 194635	heart failure
-T27	missed_disease 194637 194640	HF)
-T28	corrected_disease 194646 194666	chronic lung disease
-T29	disease 194654 194666	lung disease
-T30	missed_disease 194668 194671	CLD
-T31	disease 194714 194722	diseases
-T32	disease 194824 194830	cancer
-T33	disease 194924 194930	Cancer
+T23	corrected_disease_or_phenotypic_feature 194556 194577	degenerative diseases
+T24	disease_or_phenotypic_feature 194569 194577	diseases
+T25	disease_or_phenotypic_feature 194612 194620	dementia
+T26	disease_or_phenotypic_feature 194622 194635	heart failure
+T27	missed_disease_or_phenotypic_feature 194637 194640	HF)
+T28	corrected_disease_or_phenotypic_feature 194646 194666	chronic lung disease
+T29	disease_or_phenotypic_feature 194654 194666	lung disease
+T30	missed_disease_or_phenotypic_feature 194668 194671	CLD
+T31	disease_or_phenotypic_feature 194714 194722	diseases
+T32	disease_or_phenotypic_feature 194824 194830	cancer
+T33	disease_or_phenotypic_feature 194924 194930	Cancer
 T34	chemical 194936 194940	Base
 T35	chemical 194948 194957	molecular
-T36	disease 194972 194978	Cancer
+T36	disease_or_phenotypic_feature 194972 194978	Cancer
 T37	chemical 195053 195062	molecular
 T38	chemical 195165 195178	AT-Lipoxin A4
-T39	corrected_disease 195228 195254	SAP-Associated Lung Injury
-T40	disease 195248 195254	Injury
-T41	disease 195329 195332	ILD
-T42	disease 195414 195421	SSc-ILD
+T39	corrected_disease_or_phenotypic_feature 195228 195254	SAP-Associated Lung Injury
+T40	disease_or_phenotypic_feature 195248 195254	Injury
+T41	disease_or_phenotypic_feature 195329 195332	ILD
+T42	disease_or_phenotypic_feature 195414 195421	SSc-ILD
 T43	corrected_chemical 195622 195639	inorganic nitrate
 T44	chemical 195632 195639	nitrate
 T45	chemical 195658 195671	monocrotaline
-T46	disease 195686 195690	PAH.
+T46	disease_or_phenotypic_feature 195686 195690	PAH.
 T47	chemical 195720 195730	Anesthetic
-T48	disease 195745 195751	cancer
+T48	disease_or_phenotypic_feature 195745 195751	cancer
 T49	chemical 195815 195826	anesthesia"
-T50	disease 195915 195927	tendinopathy
+T50	disease_or_phenotypic_feature 195915 195927	tendinopathy
 T51	chemical 195991 195997	saline
 T52	chemical 196001 196006	group
-T53	disease 196014 196019	blood
+T53	disease_or_phenotypic_feature 196014 196019	blood
 T54	chemical 196115 196120	group
-T55	disease 196212 196217	blood
-T56	disease 196260 196276	"cerebral palsy"
-T57	disease 196278 196292	"brain injury"
+T55	disease_or_phenotypic_feature 196212 196217	blood
+T56	disease_or_phenotypic_feature 196260 196276	"cerebral palsy"
+T57	disease_or_phenotypic_feature 196278 196292	"brain injury"
 T58	chemical 196310 196320	"oxidative
-T59	disease 196484 196496	disease-free
+T59	disease_or_phenotypic_feature 196484 196496	disease-free
 T60	chemical 196563 196568	group
 T61	chemical 196605 196614	Vitamin D
-T62	disease 196632 196645	Heart Failure
-T63	corrected_disease 196632 196676	Heart Failure with Reduced Ejection Fraction
-T64	disease 196802 196806	G6PD
+T62	disease_or_phenotypic_feature 196632 196645	Heart Failure
+T63	corrected_disease_or_phenotypic_feature 196632 196676	Heart Failure with Reduced Ejection Fraction
+T64	disease_or_phenotypic_feature 196802 196806	G6PD
 T65	chemical 196838 196845	protein
 T66	chemical 196863 196868	group
-T67	disease 196877 196883	1-G6PD
-T68	disease 196885 196901	FOXM1-HMGA1-G6PD
+T67	disease_or_phenotypic_feature 196877 196883	1-G6PD
+T68	disease_or_phenotypic_feature 196885 196901	FOXM1-HMGA1-G6PD
 T69	chemical 197008 197015	protein
-T70	disease 197034 197054	Non-skull base tumor
+T70	disease_or_phenotypic_feature 197034 197054	Non-skull base tumor
 T71	chemical 197044 197048	base
 T72	chemical 197329 197337	Fluorine
-T73	disease 197369 197373	PCOS
+T73	disease_or_phenotypic_feature 197369 197373	PCOS
 T74	chemical 197442 197447	group
 T75	chemical 197598 197609	biochemical
 T76	chemical 197611 197620	molecular
-T77	disease 197670 197678	adenomas
+T77	disease_or_phenotypic_feature 197670 197678	adenomas
 T78	chemical 197754 197757	SSc
-T79	disease 197754 197757	SSc
+T79	disease_or_phenotypic_feature 197754 197757	SSc
 T80	chemical 197774 197778	SSc.
-T81	disease 197774 197778	SSc.
-T82	disease 197853 197872	alcoholic cirrhosis
+T81	disease_or_phenotypic_feature 197774 197778	SSc.
+T82	disease_or_phenotypic_feature 197853 197872	alcoholic cirrhosis
 T83	chemical 197912 197919	alcohol
 R1	causes_or_contributes_to Arg1:T83 Arg2:T82
 R2	causes_or_contributes_to Arg1:T17 Arg2:T16

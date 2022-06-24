@@ -1,70 +1,70 @@
-T1	disease 0 3	TRS
+T1	disease_or_phenotypic_feature 0 3	TRS
 T2	missed_chemical 27 40	antipsychotic
 T3	chemical 75 84	clozapine
-T4	disease 138 141	TRS
+T4	disease_or_phenotypic_feature 138 141	TRS
 T5	missed_chemical 142 152	medication
-T6	disease 198 202	CMDh
+T6	disease_or_phenotypic_feature 198 202	CMDh
 T7	chemical 215 219	lead
 T8	chemical 259 275	sodium valproate
 T9	chemical 401 405	iron
-T10	disease 468 490	venous thromboembolism
-T11	missed_disease 588 592	PDAC
-T12	disease 629 634	tumor
+T10	disease_or_phenotypic_feature 468 490	venous thromboembolism
+T11	missed_disease_or_phenotypic_feature 588 592	PDAC
+T12	disease_or_phenotypic_feature 629 634	tumor
 T13	corrected_chemical 697 712	anti-ERBB2 drug
 T14	chemical 708 712	drug
 T15	corrected_chemical 735 749	KRAS inhibitor
 T16	chemical 740 749	inhibitor
-T17	missed_disease 753 770	ERBB2-mutant PDAC
-T18	disease 840 867	immunodeficiency-associated
-T19	disease 888 897	disorders
+T17	missed_disease_or_phenotypic_feature 753 770	ERBB2-mutant PDAC
+T18	disease_or_phenotypic_feature 840 867	immunodeficiency-associated
+T19	disease_or_phenotypic_feature 888 897	disorders
 T20	chemical 911 916	group
 T21	missed_chemical 1086 1105	chemotherapy agents
 T22	chemical 1121 1125	drug
-T23	disease 1148 1162	ovarian cancer
-T24	disease 1164 1181	colorectal cancer
-T25	disease 1187 1201	gastric cancer
+T23	disease_or_phenotypic_feature 1148 1162	ovarian cancer
+T24	disease_or_phenotypic_feature 1164 1181	colorectal cancer
+T25	disease_or_phenotypic_feature 1187 1201	gastric cancer
 T26	chemical 1220 1236	Antigen-antibody
-T27	disease 1329 1339	anti-tumor
-T28	disease 1459 1462	CRC
+T27	disease_or_phenotypic_feature 1329 1339	anti-tumor
+T28	disease_or_phenotypic_feature 1459 1462	CRC
 T29	chemical 1573 1590	group-disparities
-T30	disease 1641 1653	renal cancer
+T30	disease_or_phenotypic_feature 1641 1653	renal cancer
 T31	chemical 1715 1720	group
 T32	chemical 1739 1744	group
 T33	chemical 1764 1775	sh)RNA-Nrf2
 T34	chemical 1776 1781	group
-T35	disease 1850 1855	tumor
-T36	disease 1900 1905	tumor
-T37	disease 1949 1955	cancer
+T35	disease_or_phenotypic_feature 1850 1855	tumor
+T36	disease_or_phenotypic_feature 1900 1905	tumor
+T37	disease_or_phenotypic_feature 1949 1955	cancer
 T38	chemical 1956 1963	biology
 T39	chemical 2030 2034	food
-T40	disease 2035 2044	poisoning
+T40	disease_or_phenotypic_feature 2035 2044	poisoning
 T41	chemical 2127 2131	food
 T42	chemical 2177 2181	talc
-T43	disease 2224 2241	ovarian carcinoma
-T44	disease 2325 2328	MPa
+T43	disease_or_phenotypic_feature 2224 2241	ovarian carcinoma
+T44	disease_or_phenotypic_feature 2325 2328	MPa
 T45	chemical 2330 2341	"ARG4.0MPa"
-T46	disease 2330 2341	"ARG4.0MPa"
+T46	disease_or_phenotypic_feature 2330 2341	"ARG4.0MPa"
 T47	chemical 2427 2430	ion
-T48	disease 2427 2430	ion
+T48	disease_or_phenotypic_feature 2427 2430	ion
 T49	chemical 2482 2491	nutrients
-T50	disease 2559 2565	stroke
+T50	disease_or_phenotypic_feature 2559 2565	stroke
 T51	chemical 2601 2606	group
 T52	chemical 2639 2644	group
-T53	disease 2765 2774	condition
+T53	disease_or_phenotypic_feature 2765 2774	condition
 T54	chemical 2824 2842	lipopolysaccharide
-T55	disease 2935 2942	uveitis
-T56	disease 3056 3061	tumor
+T55	disease_or_phenotypic_feature 2935 2942	uveitis
+T56	disease_or_phenotypic_feature 3056 3061	tumor
 T57	chemical 3111 3120	molecular
-T58	disease 3164 3169	Tumor
+T58	disease_or_phenotypic_feature 3164 3169	Tumor
 T59	chemical 3194 3212	apoptosis-inducing
 T60	chemical 3213 3219	ligand
-T61	disease 3326 3332	cancer
+T61	disease_or_phenotypic_feature 3326 3332	cancer
 T62	chemical 3431 3444	catechol-rich
-T63	disease 3431 3444	catechol-rich
+T63	disease_or_phenotypic_feature 3431 3444	catechol-rich
 T64	chemical 3445 3452	melanin
 T65	chemical 3457 3469	melanin-like
 T66	chemical 3744 3755	methylation
-T67	disease 3870 3877	PPP2R2B
+T67	disease_or_phenotypic_feature 3870 3877	PPP2R2B
 R1	treats Arg1:T13 Arg2:T11
 R2	treats Arg1:T13 Arg2:T17
 R3	treats Arg1:T13 Arg2:T12

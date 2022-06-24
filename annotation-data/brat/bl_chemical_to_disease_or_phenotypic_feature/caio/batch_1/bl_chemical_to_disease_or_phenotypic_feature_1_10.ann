@@ -37,11 +37,11 @@ T36	disease_or_phenotypic_feature 1418 1427	Carcinoid
 T37	disease_or_phenotypic_feature 1445 1454	neoplasms
 T38	chemical 1468 1476	hormones
 T39	chemical 1512 1521	serotonin
-T40	disease 1557 1574	pancreatic cancer
-T41	disease 1594 1611	pancreatic cancer
+T40	disease_or_phenotypic_feature 1557 1574	pancreatic cancer
+T41	disease_or_phenotypic_feature 1594 1611	pancreatic cancer
 T42	chemical 1612 1617	group
-T43	disease 1658 1666	diseases
-T44	disease 1693 1700	disease
+T43	disease_or_phenotypic_feature 1658 1666	diseases
+T44	disease_or_phenotypic_feature 1693 1700	disease
 T45	chemical 1701 1706	group
 T46	disease_or_phenotypic_feature 1738 1757	psoriatic arthritis
 T47	chemical 1763 1773	etanercept
@@ -73,7 +73,7 @@ T72	disease_or_phenotypic_feature 2692 2711	bacterial infection
 T73	disease_or_phenotypic_feature 2734 2751	cerebral ischemia
 T74	chemical 2777 2791	Apolipoprotein
 T75	chemical 2821 2828	Protein
-T76	disease 2884 2901	Colorectal Cancer
+T76	disease_or_phenotypic_feature 2884 2901	Colorectal Cancer
 T77	chemical 2930 2939	tamoxifen
 T78	disease_or_phenotypic_feature 2953 2966	breast cancer
 T79	chemical 2981 2990	tamoxifen

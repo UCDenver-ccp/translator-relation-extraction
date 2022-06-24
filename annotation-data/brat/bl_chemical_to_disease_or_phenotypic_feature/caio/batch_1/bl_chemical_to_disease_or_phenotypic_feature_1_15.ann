@@ -40,26 +40,26 @@ T39	disease_or_phenotypic_feature 1440 1447	obesity
 T40	chemical 1474 1487	ascorbic acid
 T41	chemical 1528 1535	hormone
 T42	disease_or_phenotypic_feature 1547 1562	prostate cancer
-T43	disease 1655 1663	allergic
+T43	disease_or_phenotypic_feature 1655 1663	allergic
 T44	chemical 1719 1726	steroid
 T45	chemical 1745 1754	Oxidative
 T46	disease_or_phenotypic_feature 1804 1819	atherosclerosis
 T47	disease_or_phenotypic_feature 1828 1835	obesity
 T48	disease_or_phenotypic_feature 1851 1865	hyperlipidemia
-T49	disease 2013 2019	injury
-T50	disease 2083 2090	colitis
+T49	disease_or_phenotypic_feature 2013 2019	injury
+T50	disease_or_phenotypic_feature 2083 2090	colitis
 T51	chemical 2109 2116	Antigen
 T52	disease_or_phenotypic_feature 2143 2157	ovarian cancer
 T53	chemical 2175 2182	antigen
 T54	chemical 2239 2248	molecular
-T55	disease 2279 2289	infectious
-T56	disease 2290 2298	diseases
+T55	disease_or_phenotypic_feature 2279 2289	infectious
+T56	disease_or_phenotypic_feature 2290 2298	diseases
 T57	chemical 2344 2350	oxygen
 T58	disease_or_phenotypic_feature 2410 2423	heart failure
-T59	disease 2438 2447	disorders
-T60	disease 2464 2471	obesity
-T61	disease 2473 2488	type 2 diabetes
-T62	disease 2501 2534	non-alcoholic fatty liver disease
+T59	disease_or_phenotypic_feature 2438 2447	disorders
+T60	disease_or_phenotypic_feature 2464 2471	obesity
+T61	disease_or_phenotypic_feature 2473 2488	type 2 diabetes
+T62	disease_or_phenotypic_feature 2501 2534	non-alcoholic fatty liver disease
 T63	chemical 2515 2520	fatty
 T64	chemical 2563 2570	glycine
 T65	chemical 2687 2694	glycine

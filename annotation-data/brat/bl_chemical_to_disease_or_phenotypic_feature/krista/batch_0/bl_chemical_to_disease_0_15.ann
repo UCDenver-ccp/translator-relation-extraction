@@ -1,70 +1,70 @@
-T1	disease 28 33	blood
+T1	disease_or_phenotypic_feature 28 33	blood
 T2	chemical 60 67	iohexol
 T3	chemical 130 139	serotonin
-T4	disease 160 170	depression
+T4	disease_or_phenotypic_feature 160 170	depression
 T5	chemical 176 181	group
-T6	disease 202 212	depression
+T6	disease_or_phenotypic_feature 202 212	depression
 T7	chemical 218 223	group
 T8	chemical 239 244	group
 T9	chemical 288 296	androgen
 T10	chemical 336 344	androgen
 T11	missed_chemical 402 411	therapies
-T12	disease 489 495	cancer
-T13	disease 594 599	Blood
+T12	disease_or_phenotypic_feature 489 495	cancer
+T13	disease_or_phenotypic_feature 594 599	Blood
 T14	chemical 610 617	Glucose
 T15	chemical 622 633	Cholesterol
 T16	corrected_chemical 813 835	β-tricalcium phosphate
 T17	chemical 826 835	phosphate
-T18	disease 837 845	nano-TCP
-T19	disease 923 936	enamel caries
-T20	disease 973 984	blood-nerve
+T18	disease_or_phenotypic_feature 837 845	nano-TCP
+T19	disease_or_phenotypic_feature 923 936	enamel caries
+T20	disease_or_phenotypic_feature 973 984	blood-nerve
 T21	chemical 1037 1044	protein
-T22	disease 1058 1061	SCD
+T22	disease_or_phenotypic_feature 1058 1061	SCD
 T23	chemical 1111 1119	proteins
-T24	disease 1168 1183	adenocarcinomas
-T25	disease 1210 1216	cancer
+T24	disease_or_phenotypic_feature 1168 1183	adenocarcinomas
+T25	disease_or_phenotypic_feature 1210 1216	cancer
 T26	chemical 1268 1276	proteins
-T27	disease 1389 1412	undifferentiated/poorly
-T28	disease 1389 1427	undifferentiated/poorly differentiated
-T29	disease 1428 1452	nasopharyngeal carcinoma
+T27	disease_or_phenotypic_feature 1389 1412	undifferentiated/poorly
+T28	disease_or_phenotypic_feature 1389 1427	undifferentiated/poorly differentiated
+T29	disease_or_phenotypic_feature 1428 1452	nasopharyngeal carcinoma
 T30	chemical 1480 1486	proton
-T31	disease 1539 1550	parasitemia
+T31	disease_or_phenotypic_feature 1539 1550	parasitemia
 T32	missed_chemical 1620 1631	artemisinin
 T33	chemical 1632 1637	group
-T34	disease 1699 1705	injury
+T34	disease_or_phenotypic_feature 1699 1705	injury
 T35	chemical 1731 1739	dopamine
 T36	chemical 1752 1760	tyrosine
-T37	missed_disease 1870 1884	Dyslipidaemias
-T38	disease 1889 1911	cardiovascular disease
+T37	missed_disease_or_phenotypic_feature 1870 1884	Dyslipidaemias
+T38	disease_or_phenotypic_feature 1889 1911	cardiovascular disease
 T39	corrected_chemical 1934 1950	PCSK9 inhibitors
 T40	chemical 1940 1950	inhibitors
 T41	chemical 1995 2012	molecular-genetic
-T42	disease 2183 2192	disorders
-T43	disease 2322 2325	AAV
+T42	disease_or_phenotypic_feature 2183 2192	disorders
+T43	disease_or_phenotypic_feature 2322 2325	AAV
 T44	chemical 2391 2395	base
-T45	disease 2437 2445	diabetes
-T46	disease 2491 2499	diabetes
+T45	disease_or_phenotypic_feature 2437 2445	diabetes
+T46	disease_or_phenotypic_feature 2491 2499	diabetes
 T47	chemical 2613 2622	metformin
-T48	disease 2638 2651	breast cancer
+T48	disease_or_phenotypic_feature 2638 2651	breast cancer
 T49	chemical 2727 2736	metformin
 T50	missed_chemical 2830 2839	LY3214996
-T51	disease 2894 2901	pan-RAF
+T51	disease_or_phenotypic_feature 2894 2901	pan-RAF
 T52	corrected_chemical 2894 2911	pan-RAF inhibitor
 T53	chemical 2902 2911	inhibitor
-T54	corrected_disease 2917 2946	KRAS-mutant colorectal cancer
-T55	disease 2929 2946	colorectal cancer
-T56	disease 3116 3124	diabetes
+T54	corrected_disease_or_phenotypic_feature 2917 2946	KRAS-mutant colorectal cancer
+T55	disease_or_phenotypic_feature 2929 2946	colorectal cancer
+T56	disease_or_phenotypic_feature 3116 3124	diabetes
 T57	chemical 3141 3146	lipid
-T58	disease 3181 3188	amyloid
+T58	disease_or_phenotypic_feature 3181 3188	amyloid
 T59	chemical 3207 3216	Fulminant
-T60	disease 3217 3262	Reversible Cerebral Vasoconstriction Syndrome
+T60	disease_or_phenotypic_feature 3217 3262	Reversible Cerebral Vasoconstriction Syndrome
 T61	chemical 3336 3351	Corticosteroids
-T62	disease 3356 3374	Community-Acquired
-T63	corrected_disease 3356 3384	Community-Acquired Pneumonia
-T64	disease 3375 3384	Pneumonia
+T62	disease_or_phenotypic_feature 3356 3374	Community-Acquired
+T63	corrected_disease_or_phenotypic_feature 3356 3384	Community-Acquired Pneumonia
+T64	disease_or_phenotypic_feature 3375 3384	Pneumonia
 T65	chemical 3564 3576	pioglitazone
-T66	disease 3589 3603	bladder cancer
-T67	disease 3703 3717	osteoarthritis
+T66	disease_or_phenotypic_feature 3589 3603	bladder cancer
+T67	disease_or_phenotypic_feature 3703 3717	osteoarthritis
 T68	chemical 3844 3847	DNA
 T69	chemical 3848 3859	methylation
 R1	causes_or_contributes_to Arg1:T9 Arg2:T12

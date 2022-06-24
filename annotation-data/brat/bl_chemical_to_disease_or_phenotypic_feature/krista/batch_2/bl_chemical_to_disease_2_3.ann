@@ -1,64 +1,64 @@
-T1	disease 193568 193595	Allergic contact dermatitis
+T1	disease_or_phenotypic_feature 193568 193595	Allergic contact dermatitis
 T2	corrected_chemical 193606 193624	isobornyl acrylate
 T3	chemical 193616 193624	acrylate
 T4	chemical 193639 193646	glucose
 T5	chemical 193740 193744	iron
 T6	chemical 193756 193764	ferritin
-T7	disease 193811 193817	injury
-T8	disease 193837 193846	infection
+T7	disease_or_phenotypic_feature 193811 193817	injury
+T8	disease_or_phenotypic_feature 193837 193846	infection
 T9	missed_chemical 193908 193924	psychostimulants
 T10	chemical 194079 194086	glucose
-T11	disease 194079 194098	glucose intolerance
-T12	disease 194202 194219	diabetes mellitus
-T13	missed_disease 194248 194251	AHF
+T11	disease_or_phenotypic_feature 194079 194098	glucose intolerance
+T12	disease_or_phenotypic_feature 194202 194219	diabetes mellitus
+T13	missed_disease_or_phenotypic_feature 194248 194251	AHF
 T14	chemical 194279 194308	angiotensin-converting-enzyme
 T15	chemical 194279 194319	angiotensin-converting-enzyme inhibitors
 T16	chemical 194321 194332	aldosterone
 T17	corrected_chemical 194321 194341	aldosterone blockers
 T18	chemical 194343 194357	anticoagulants
 T19	missed_chemical 194363 194370	statins
-T20	disease 194627 194640	hypercalcemia
+T20	disease_or_phenotypic_feature 194627 194640	hypercalcemia
 T21	chemical 194651 194654	PTH
 T22	chemical 194724 194735	Hydrocarbon
-T23	disease 194762 194779	Pancreatic Cancer
+T23	disease_or_phenotypic_feature 194762 194779	Pancreatic Cancer
 T24	chemical 194832 194840	cortisol
-T25	disease 194856 194859	HCC
-T26	disease 194929 194959	hypothalamic-pituitary-adrenal
+T25	disease_or_phenotypic_feature 194856 194859	HCC
+T26	disease_or_phenotypic_feature 194929 194959	hypothalamic-pituitary-adrenal
 T27	chemical 195045 195053	Lycorine
-T28	disease 195140 195152	Osteosarcoma
-T29	disease 195300 195309	infection
+T28	disease_or_phenotypic_feature 195140 195152	Osteosarcoma
+T29	disease_or_phenotypic_feature 195300 195309	infection
 T30	chemical 195339 195353	drug-resistant
-T31	disease 195394 195405	hepatitis B
-T32	disease 195406 195413	disease
+T31	disease_or_phenotypic_feature 195394 195405	hepatitis B
+T32	disease_or_phenotypic_feature 195406 195413	disease
 T33	chemical 195445 195451	ketone
 T34	chemical 195465 195473	caffeine
 T35	chemical 195491 195504	triglycerides
-T36	disease 195556 195561	blood
+T36	disease_or_phenotypic_feature 195556 195561	blood
 T37	chemical 195576 195587	ketone body
 T38	chemical 195673 195681	chemical
-T39	disease 195752 195756	cold
-T40	disease 195811 195819	cold-dry
-T41	disease 195922 195932	arrhythmia
+T39	disease_or_phenotypic_feature 195752 195756	cold
+T40	disease_or_phenotypic_feature 195811 195819	cold-dry
+T41	disease_or_phenotypic_feature 195922 195932	arrhythmia
 T42	chemical 195956 195959	SSc
-T43	disease 195956 195959	SSc
-T44	disease 196046 196052	common
+T43	disease_or_phenotypic_feature 195956 195959	SSc
+T44	disease_or_phenotypic_feature 196046 196052	common
 T45	chemical 196065 196078	essential oil
-T46	disease 196174 196188	field-acquired
-T47	disease 196222 196234	mono-species
+T46	disease_or_phenotypic_feature 196174 196188	field-acquired
+T47	disease_or_phenotypic_feature 196222 196234	mono-species
 T48	chemical 196235 196239	food
-T49	disease 196345 196350	Tumor
+T49	disease_or_phenotypic_feature 196345 196350	Tumor
 T50	chemical 196388 196402	Immunogenicity
-T51	disease 196433 196455	Acute Myeloid Leukemia
-T52	disease 196500 196506	CHI3L1
+T51	disease_or_phenotypic_feature 196433 196455	Acute Myeloid Leukemia
+T52	disease_or_phenotypic_feature 196500 196506	CHI3L1
 T53	chemical 196546 196556	biomarkers
-T54	disease 196628 196643	TTR amyloidosis
-T55	disease 196649 196659	neuropathy
+T54	disease_or_phenotypic_feature 196628 196643	TTR amyloidosis
+T55	disease_or_phenotypic_feature 196649 196659	neuropathy
 T56	chemical 196678 196688	p.Val71Ala
-T57	disease 196757 196760	add
+T57	disease_or_phenotypic_feature 196757 196760	add
 T58	chemical 196831 196834	SST
 T59	chemical 197037 197044	nucleus
-T60	disease 197045 197050	(SCN)
-T61	disease 197119 197125	common
+T60	disease_or_phenotypic_feature 197045 197050	(SCN)
+T61	disease_or_phenotypic_feature 197119 197125	common
 T62	chemical 197313 197317	food
 R1	treats Arg1:T27 Arg2:T28
 R2	causes_or_contributes_to Arg1:T9 Arg2:T11

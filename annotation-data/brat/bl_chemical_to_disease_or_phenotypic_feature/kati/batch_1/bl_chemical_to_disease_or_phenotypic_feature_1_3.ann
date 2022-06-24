@@ -2,7 +2,7 @@ T1	chemical 32 41	antigenic
 T2	chemical 68 75	polymer
 T3	chemical 76 84	adjuvant
 T4	disease_or_phenotypic_feature 99 105	cancer
-T5	disease 172 182	depression
+T5	disease_or_phenotypic_feature 172 182	depression
 T6	chemical 350 359	serotonin
 T7	chemical 364 372	dopamine
 T8	disease_or_phenotypic_feature 405 426	peripheral neuropathy
@@ -28,12 +28,12 @@ T27	chemical 1062 1068	oxygen
 T28	disease_or_phenotypic_feature 1165 1182	cerebral ischemia
 T29	disease_or_phenotypic_feature 1191 1208	cerebral ischemia
 T30	chemical 1332 1348	antigen-specific
-T31	disease 1469 1480	hyperplasia
+T31	disease_or_phenotypic_feature 1469 1480	hyperplasia
 T32	disease_or_phenotypic_feature 1545 1553	melanoma
 T33	chemical 1565 1572	antigen
-T34	disease 1628 1651	undifferentiated/poorly
-T35	disease 1628 1666	undifferentiated/poorly differentiated
-T36	disease 1667 1691	nasopharyngeal carcinoma
+T34	disease_or_phenotypic_feature 1628 1651	undifferentiated/poorly
+T35	disease_or_phenotypic_feature 1628 1666	undifferentiated/poorly differentiated
+T36	disease_or_phenotypic_feature 1667 1691	nasopharyngeal carcinoma
 T37	chemical 1719 1725	proton
 T38	disease_or_phenotypic_feature 1822 1831	hamartoma
 T39	chemical 1850 1864	growth hormone
@@ -57,6 +57,6 @@ T56	chemical 2473 2480	alcohol
 T57	disease_or_phenotypic_feature 2494 2502	diabetes
 T58	disease_or_phenotypic_feature 2507 2514	obesity
 T59	chemical 2580 2584	drug
-T60	disease 2650 2657	pan-RAF
+T60	disease_or_phenotypic_feature 2650 2657	pan-RAF
 T61	chemical 2658 2667	inhibitor
-T62	disease 2685 2702	colorectal cancer
+T62	disease_or_phenotypic_feature 2685 2702	colorectal cancer

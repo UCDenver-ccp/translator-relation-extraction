@@ -1,62 +1,62 @@
 T1	chemical 20 24	drug
-T2	disease 92 98	cancer
+T2	disease_or_phenotypic_feature 92 98	cancer
 T3	chemical 136 140	drug
 T4	chemical 188 202	Spironolactone
 T5	chemical 204 214	Eplerenone
 T6	missed_chemical 220 229	cAnRenone
-T7	corrected_disease 247 268	Chronic Heart failure
-T8	disease 255 268	Heart failure
+T7	corrected_disease_or_phenotypic_feature 247 268	Chronic Heart failure
+T8	disease_or_phenotypic_feature 255 268	Heart failure
 T9	chemical 399 407	Protein1
-T10	disease 430 438	modifier
-T11	disease 562 577	cervical cancer
+T10	disease_or_phenotypic_feature 430 438	modifier
+T11	disease_or_phenotypic_feature 562 577	cervical cancer
 T12	chemical 635 646	doxorubicin
 T13	chemical 706 715	drug-free
 T14	chemical 885 889	mRNA
 T15	chemical 894 901	protein
-T16	disease 936 949	breast cancer
+T16	disease_or_phenotypic_feature 936 949	breast cancer
 T17	chemical 990 1005	protein-protein
-T18	disease 1045 1051	common
-T19	disease 1187 1196	[ALLERGIC
-T20	disease 1197 1205	diseaseS
+T18	disease_or_phenotypic_feature 1045 1051	common
+T19	disease_or_phenotypic_feature 1187 1196	[ALLERGIC
+T20	disease_or_phenotypic_feature 1197 1205	diseaseS
 T21	chemical 1221 1225	RNA]
-T22	disease 1244 1247	PAH
+T22	disease_or_phenotypic_feature 1244 1247	PAH
 T23	chemical 1329 1349	carbamate-pesticides
 T24	chemical 1533 1544	chlorophyll
 T25	chemical 1552 1563	carotenoids
 T26	chemical 1568 1580	xanthophylls
-T27	disease 1604 1620	mite infestation
+T27	disease_or_phenotypic_feature 1604 1620	mite infestation
 T28	chemical 1736 1746	flavonoids
-T29	disease 1750 1761	anti-cancer
+T29	disease_or_phenotypic_feature 1750 1761	anti-cancer
 T30	chemical 1762 1766	drug
-T31	disease 1805 1812	amyloid
+T31	disease_or_phenotypic_feature 1805 1812	amyloid
 T32	chemical 1805 1820	amyloid fibrils
-T33	disease 1951 1957	common
-T34	disease 2007 2014	amyloid
+T33	disease_or_phenotypic_feature 1951 1957	common
+T34	disease_or_phenotypic_feature 2007 2014	amyloid
 T35	chemical 2007 2022	amyloid fibrils
-T36	disease 2048 2061	calcification
+T36	disease_or_phenotypic_feature 2048 2061	calcification
 T37	chemical 2062 2068	buffer
 T38	chemical 2074 2090	calcium chloride
-T39	disease 2185 2188	CKD
+T39	disease_or_phenotypic_feature 2185 2188	CKD
 T40	chemical 2248 2255	thyroid
-T41	disease 2272 2298	clear cell renal carcinoma
+T41	disease_or_phenotypic_feature 2272 2298	clear cell renal carcinoma
 T42	chemical 2354 2365	Sitagliptin
-T43	disease 2437 2457	diabetic nephropathy
-T44	missed_disease 2553 2561	fibrosis
+T43	disease_or_phenotypic_feature 2437 2457	diabetic nephropathy
+T44	missed_disease_or_phenotypic_feature 2553 2561	fibrosis
 T45	chemical 2636 2642	enzyme
 T46	chemical 2651 2658	RNA-DNA
-T47	disease 2727 2731	Cas9
-T48	disease 2809 2840	CENTRAL RETINAL VEIN OCCLUSION.
+T47	disease_or_phenotypic_feature 2727 2731	Cas9
+T48	disease_or_phenotypic_feature 2809 2840	CENTRAL RETINAL VEIN OCCLUSION.
 T49	chemical 2817 2824	RETINAL
-T50	disease 2965 2981	multiple myeloma
+T50	disease_or_phenotypic_feature 2965 2981	multiple myeloma
 T51	chemical 2994 3006	lenalidomide
-T52	disease 3258 3263	blood
+T52	disease_or_phenotypic_feature 3258 3263	blood
 T53	chemical 3347 3358	prothrombin
 T54	chemical 3388 3402	thromboplastin
-T55	disease 3432 3436	PDD)
+T55	disease_or_phenotypic_feature 3432 3436	PDD)
 T56	chemical 3482 3492	biomarkers
 T57	chemical 3540 3543	PTH
-T58	disease 3613 3616	men
-T59	disease 3751 3754	AFM
+T58	disease_or_phenotypic_feature 3613 3616	men
+T59	disease_or_phenotypic_feature 3751 3754	AFM
 T60	chemical 3763 3771	collagen
 R1	treats Arg1:T51 Arg2:T50
 R2	treats Arg1:T6 Arg2:T7
@@ -67,9 +67,9 @@ R6	treats Arg1:T12 Arg2:T11
 R7	treats Arg1:T3 Arg2:T2
 R8	treats Arg1:T1 Arg2:T2
 R9	treats Arg1:T5 Arg2:T7
-T61	corrected_disease 1755 1761	cancer
+T61	corrected_disease_or_phenotypic_feature 1755 1761	cancer
 R10	treats Arg1:T30 Arg2:T61	
-T62	missed_disease 2983 2985	MM
+T62	missed_disease_or_phenotypic_feature 2983 2985	MM
 R11	treats Arg1:T51 Arg2:T62	
 T63	missed_chemical 2921 2931	medication
 R12	treats Arg1:T63 Arg2:T50	

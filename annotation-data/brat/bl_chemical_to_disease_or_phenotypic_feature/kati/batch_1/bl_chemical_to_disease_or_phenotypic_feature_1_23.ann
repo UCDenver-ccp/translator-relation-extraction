@@ -1,15 +1,15 @@
 T1	chemical 19 28	biomarker
 T2	disease_or_phenotypic_feature 63 88	epithelial ovarian cancer
 T3	chemical 166 176	biological
-T4	disease 217 220	UIP
+T4	disease_or_phenotypic_feature 217 220	UIP
 T5	chemical 254 268	growth hormone
 T6	disease_or_phenotypic_feature 291 303	hypoglycemia
-T7	disease 305 323	Systemic sclerosis
-T8	disease 325 328	SSc
+T7	disease_or_phenotypic_feature 305 323	Systemic sclerosis
+T8	disease_or_phenotypic_feature 325 328	SSc
 T9	chemical 325 328	SSc
-T10	disease 335 339	rare
-T11	disease 340 358	autoimmune disease
-T12	disease 481 486	tumor
+T10	disease_or_phenotypic_feature 335 339	rare
+T11	disease_or_phenotypic_feature 340 358	autoimmune disease
+T12	disease_or_phenotypic_feature 481 486	tumor
 T13	chemical 562 570	antigens
 T14	disease_or_phenotypic_feature 582 590	melanoma
 T15	chemical 642 649	hormone
@@ -45,7 +45,7 @@ T44	chemical 1411 1420	inhibitor
 T45	chemical 1424 1443	5-hydroxytryptamine
 T46	chemical 1448 1461	noradrenaline
 T47	disease_or_phenotypic_feature 1498 1505	obesity
-T48	disease 1571 1575	PCOS
+T48	disease_or_phenotypic_feature 1571 1575	PCOS
 T49	chemical 1622 1628	-label
 T50	disease_or_phenotypic_feature 1707 1719	spina bifida
 T51	chemical 1750 1756	oxygen

@@ -1,74 +1,74 @@
 T1	chemical 52 64	NMDA-induced
-T2	disease 78 91	Neurotoxicity
-T3	disease 198 207	disorders
+T2	disease_or_phenotypic_feature 78 91	Neurotoxicity
+T3	disease_or_phenotypic_feature 198 207	disorders
 T4	chemical 233 240	protein
 T5	chemical 263 275	amyloid-beta
-T6	disease 263 275	amyloid-beta
+T6	disease_or_phenotypic_feature 263 275	amyloid-beta
 T7	chemical 310 326	pro-inflammatory
-T8	disease 402 425	Frontotemporal dementia
-T9	disease 426 430	(FTD
+T8	disease_or_phenotypic_feature 402 425	Frontotemporal dementia
+T9	disease_or_phenotypic_feature 426 430	(FTD
 T10	chemical 451 456	group
-T11	disease 478 487	disorders
-T12	disease 637 655	metabolic syndrome
+T11	disease_or_phenotypic_feature 478 487	disorders
+T12	disease_or_phenotypic_feature 637 655	metabolic syndrome
 T13	chemical 684 699	high-polyphenol
 T14	chemical 711 725	low-polyphenol
-T15	disease 776 795	severe preeclampsia
+T15	disease_or_phenotypic_feature 776 795	severe preeclampsia
 T16	chemical 796 801	group
 T17	chemical 962 971	myricetin
-T18	disease 987 992	tumor
+T18	disease_or_phenotypic_feature 987 992	tumor
 T19	chemical 993 1002	inhibitor
 T20	chemical 1100 1112	drug-eluting
-T21	disease 1205 1208	PAD
+T21	disease_or_phenotypic_feature 1205 1208	PAD
 T22	chemical 1250 1257	protein
-T23	disease 1274 1277	SDS
+T23	disease_or_phenotypic_feature 1274 1277	SDS
 T24	chemical 1284 1291	trypsin
 T25	chemical 1394 1402	proteins
-T26	missed_disease 1469 1472	CHB
+T26	missed_disease_or_phenotypic_feature 1469 1472	CHB
 T27	corrected_chemical 1495 1516	nucleos(t)ide analogs
-T28	disease 1555 1566	hepatitis B
+T28	disease_or_phenotypic_feature 1555 1566	hepatitis B
 T29	chemical 1579 1600	deoxyribonucleic acid
 T30	chemical 1602 1605	DNA
-T31	disease 1661 1685	Ectopic Cushing syndrome
+T31	disease_or_phenotypic_feature 1661 1685	Ectopic Cushing syndrome
 T32	missed_chemical 1699 1712	corticotropin
 T33	chemical 1699 1730	corticotropin releasing hormone
 T34	missed_chemical 1757 1760	CRH
 T35	corrected_chemical 1765 1792	adrenocorticotropin hormone
 T36	chemical 1785 1792	hormone
-T37	disease 1825 1829	rare
+T37	disease_or_phenotypic_feature 1825 1829	rare
 T38	chemical 1932 1939	vitamin
-T39	disease 2030 2033	GBS
-T40	corrected_disease 2030 2046	GBS colonization
+T39	disease_or_phenotypic_feature 2030 2033	GBS
+T40	corrected_disease_or_phenotypic_feature 2030 2046	GBS colonization
 T41	chemical 2203 2224	nicotinamide-mediated
-T42	disease 2230 2235	blood
+T42	disease_or_phenotypic_feature 2230 2235	blood
 T43	chemical 2345 2357	ethanolamine
-T44	disease 2370 2379	infection
-T45	disease 2383 2405	Crohn's disease-linked
+T44	disease_or_phenotypic_feature 2370 2379	infection
+T45	disease_or_phenotypic_feature 2383 2405	Crohn's disease-linked
 T46	chemical 2503 2506	RNA
-T47	disease 2532 2547	Crohn's Disease
-T48	disease 2634 2639	tumor
-T49	disease 2660 2678	metastatic disease
+T47	disease_or_phenotypic_feature 2532 2547	Crohn's Disease
+T48	disease_or_phenotypic_feature 2634 2639	tumor
+T49	disease_or_phenotypic_feature 2660 2678	metastatic disease
 T50	chemical 2724 2735	biochemical
-T51	disease 2750 2765	prostate cancer
-T52	disease 2873 2885	AAV-mediated
+T51	disease_or_phenotypic_feature 2750 2765	prostate cancer
+T52	disease_or_phenotypic_feature 2873 2885	AAV-mediated
 T53	corrected_chemical 2900 2924	CaMKII peptide inhibitor
 T54	missed_chemical 2900 2924	CaMKII peptide inhibitor
 T55	chemical 2907 2914	peptide
 T56	chemical 2915 2924	inhibitor
-T57	missed_disease 2967 2978	arrhythmias
-T58	disease 3076 3083	obesity
+T57	missed_disease_or_phenotypic_feature 2967 2978	arrhythmias
+T58	disease_or_phenotypic_feature 3076 3083	obesity
 T59	chemical 3177 3190	micronutrient
 T60	missed_chemical 3288 3292	WPPs
 T61	chemical 3318 3322	food
 T62	chemical 3326 3334	adjuvant
-T63	disease 3372 3387	prostate cancer
-T64	disease 3468 3473	blood
+T63	disease_or_phenotypic_feature 3372 3387	prostate cancer
+T64	disease_or_phenotypic_feature 3468 3473	blood
 T65	missed_chemical 3511 3521	tacrolimus
 T66	chemical 3535 3545	metabolite
 T67	missed_chemical 3574 3584	tacrolimus
-T68	corrected_disease 3653 3665	renal injury
-T69	disease 3659 3665	injury
-T70	missed_disease 3684 3691	Keloids
-T72	disease 3852 3858	injury
+T68	corrected_disease_or_phenotypic_feature 3653 3665	renal injury
+T69	disease_or_phenotypic_feature 3659 3665	injury
+T70	missed_disease_or_phenotypic_feature 3684 3691	Keloids
+T72	disease_or_phenotypic_feature 3852 3858	injury
 R1	treats Arg1:T54 Arg2:T57
 R2	treats Arg1:T53 Arg2:T57
 R4	causes_or_contributes_to Arg1:T35 Arg2:T31
@@ -83,7 +83,7 @@ R12	causes_or_contributes_to Arg1:T38 Arg2:T40
 R13	causes_or_contributes_to Arg1:T33 Arg2:T31
 R14	treats Arg1:T60 Arg2:T63
 T73	corrected_chemical 52 56	NMDA
-T74	missed_disease 65 73	Seizures
+T74	missed_disease_or_phenotypic_feature 65 73	Seizures
 R15	causes_or_contributes_to Arg1:T73 Arg2:T74	
 R16	causes_or_contributes_to Arg1:T73 Arg2:T2	
 T75	corrected_chemical 1100 1104	drug

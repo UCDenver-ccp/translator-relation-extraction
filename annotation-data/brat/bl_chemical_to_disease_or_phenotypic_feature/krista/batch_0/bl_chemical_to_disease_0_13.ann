@@ -1,61 +1,61 @@
-T1	disease 36 39	ICC
+T1	disease_or_phenotypic_feature 36 39	ICC
 T2	chemical 191 194	DDD
 T3	chemical 244 251	alanine
-T4	disease 270 274	ALT)
+T4	disease_or_phenotypic_feature 270 274	ALT)
 T5	chemical 276 285	aspartate
 T6	chemical 314 321	lactate
 T7	chemical 422 430	Graphite
-T8	disease 442 447	K-Ion
+T8	disease_or_phenotypic_feature 442 447	K-Ion
 T9	chemical 442 447	K-Ion
 T10	chemical 476 487	Gallic acid
 T11	missed_chemical 489 491	GA
 T12	chemical 502 508	phenol
-T13	disease 581 599	ulcerative colitis
-T14	disease 638 645	SV-VATS
+T13	disease_or_phenotypic_feature 581 599	ulcerative colitis
+T14	disease_or_phenotypic_feature 638 645	SV-VATS
 T15	chemical 646 651	group
 T16	chemical 671 681	anesthesia
 T17	chemical 787 796	analgesic
 T18	corrected_chemical 787 802	analgesic drugs
 T19	missed_chemical 797 802	drugs
-T20	corrected_disease 825 860	bleaching-induced tooth sensitivity
-T21	disease 849 860	sensitivity
-T22	disease 936 939	fed
+T20	corrected_disease_or_phenotypic_feature 825 860	bleaching-induced tooth sensitivity
+T21	disease_or_phenotypic_feature 849 860	sensitivity
+T22	disease_or_phenotypic_feature 936 939	fed
 T23	chemical 970 973	fat
 T24	chemical 1104 1118	Cyclosporine-A
-T25	disease 1142 1161	Gingival Overgrowth
-T26	disease 1192 1195	CKD
+T25	disease_or_phenotypic_feature 1142 1161	Gingival Overgrowth
+T26	disease_or_phenotypic_feature 1192 1195	CKD
 T27	chemical 1196 1201	group
-T28	disease 1243 1248	tumor
-T29	disease 1260 1265	tumor
-T30	disease 1354 1362	hepatoma
+T28	disease_or_phenotypic_feature 1243 1248	tumor
+T29	disease_or_phenotypic_feature 1260 1265	tumor
+T30	disease_or_phenotypic_feature 1354 1362	hepatoma
 T31	chemical 1456 1463	protein
-T32	disease 1581 1601	IgG4-related disease
+T32	disease_or_phenotypic_feature 1581 1601	IgG4-related disease
 T33	chemical 1653 1667	glucocorticoid
 T34	chemical 1789 1797	chemical
 T35	corrected_chemical 1789 1807	chemical compounds
-T36	corrected_disease 1839 1866	osteoclast related diseases
-T37	disease 1858 1866	diseases
+T36	corrected_disease_or_phenotypic_feature 1839 1866	osteoclast related diseases
+T37	disease_or_phenotypic_feature 1858 1866	diseases
 T38	chemical 1885 1894	Azosemide
 T39	chemical 1957 1967	furosemide
-T40	disease 1985 2009	congestive heart failure
+T40	disease_or_phenotypic_feature 1985 2009	congestive heart failure
 T41	chemical 2039 2069	single-walled carbon nanotubes
-T42	disease 2112 2127	cancer-targeted
+T42	disease_or_phenotypic_feature 2112 2127	cancer-targeted
 T43	chemical 2318 2325	solvent
-T44	disease 2408 2412	rich
-T45	disease 2522 2531	pleuritis
+T44	disease_or_phenotypic_feature 2408 2412	rich
+T45	disease_or_phenotypic_feature 2522 2531	pleuritis
 T46	chemical 2532 2537	group
 T47	chemical 2774 2784	Anti-dsDNA
-T48	disease 2820 2848	systemic lupus erythematosus
-T49	disease 2850 2854	SLE)
+T48	disease_or_phenotypic_feature 2820 2848	systemic lupus erythematosus
+T49	disease_or_phenotypic_feature 2850 2854	SLE)
 T50	chemical 2921 2936	carbonyl groups
-T51	disease 3007 3010	SOD
+T51	disease_or_phenotypic_feature 3007 3010	SOD
 T52	missed_chemical 3057 3068	Radioiodine
-T53	disease 3089 3121	papillary thyroid microcarcinoma
+T53	disease_or_phenotypic_feature 3089 3121	papillary thyroid microcarcinoma
 T54	chemical 3099 3106	thyroid
-T55	disease 3172 3181	condition
+T55	disease_or_phenotypic_feature 3172 3181	condition
 T56	chemical 3216 3225	vitamin A
-T57	disease 3289 3296	rubella
-T58	disease 3352 3360	diarrhea
+T57	disease_or_phenotypic_feature 3289 3296	rubella
+T58	disease_or_phenotypic_feature 3352 3360	diarrhea
 R1	treats Arg1:T38 Arg2:T40
 R2	treats Arg1:T39 Arg2:T40
 R3	treats Arg1:T10 Arg2:T13

@@ -6,7 +6,7 @@ T5	disease_or_phenotypic_feature 184 191	obesity
 T6	chemical 207 214	biology
 T7	disease_or_phenotypic_feature 218 223	Wilms
 T8	chemical 232 238	Barium
-T9	disease 254 258	rare
+T9	disease_or_phenotypic_feature 254 258	rare
 T10	chemical 327 333	barium
 T11	disease_or_phenotypic_feature 381 397	Hypophosphatemic
 T12	disease_or_phenotypic_feature 398 410	osteomalacia
@@ -24,9 +24,9 @@ T23	disease_or_phenotypic_feature 760 773	hyperglycemia
 T24	chemical 790 796	enzyme
 T25	disease_or_phenotypic_feature 808 822	hyperlipidemia
 T26	chemical 927 937	drug-naïve
-T27	disease 952 965	schizophrenia
+T27	disease_or_phenotypic_feature 952 965	schizophrenia
 T28	chemical 1055 1075	P(AAm-AMPS)/alginate
-T29	disease 1119 1122	air
+T29	disease_or_phenotypic_feature 1119 1122	air
 T30	chemical 1312 1316	food
 T31	chemical 1331 1345	norepinephrine
 T32	disease_or_phenotypic_feature 1366 1373	obesity
@@ -34,8 +34,8 @@ T33	chemical 1440 1448	collagen
 T34	disease_or_phenotypic_feature 1498 1509	brain tumor
 T35	chemical 1543 1547	mRNA
 T36	chemical 1574 1577	RNA
-T37	disease 1590 1604	Bladder Cancer
-T38	disease 1618 1624	Cancer
+T37	disease_or_phenotypic_feature 1590 1604	Bladder Cancer
+T38	disease_or_phenotypic_feature 1618 1624	Cancer
 T39	chemical 1676 1687	biochemical
 T40	disease_or_phenotypic_feature 1723 1741	hyperprolactinemia
 T41	disease_or_phenotypic_feature 1743 1772	hypogonadotropic hypogonadism

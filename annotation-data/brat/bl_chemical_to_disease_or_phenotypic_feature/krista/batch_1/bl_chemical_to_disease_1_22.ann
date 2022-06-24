@@ -1,60 +1,60 @@
 T1	chemical 95996 96008	rubrofusarin
-T2	disease 96009 96023	dis-aggregated
-T3	disease 96177 96180	CAH
+T2	disease_or_phenotypic_feature 96009 96023	dis-aggregated
+T3	disease_or_phenotypic_feature 96177 96180	CAH
 T4	missed_chemical 96204 96218	hydrocortisone
 T5	missed_chemical 96220 96222	HC
 T6	chemical 96236 96248	testosterone
-T7	disease 96274 96298	Ductal carcinoma in situ
-T8	disease 96299 96304	(DCIS
+T7	disease_or_phenotypic_feature 96274 96298	Ductal carcinoma in situ
+T8	disease_or_phenotypic_feature 96299 96304	(DCIS
 T9	chemical 96299 96304	(DCIS
-T10	disease 96379 96397	invasive carcinoma
+T10	disease_or_phenotypic_feature 96379 96397	invasive carcinoma
 T11	chemical 96469 96476	protein
 T12	chemical 96487 96490	fat
-T13	disease 96520 96527	disease
+T13	disease_or_phenotypic_feature 96520 96527	disease
 T14	chemical 96786 96794	residual
 T15	chemical 96987 96994	retinal
-T16	disease 96987 97015	retinal cavernous hemangioma
+T16	disease_or_phenotypic_feature 96987 97015	retinal cavernous hemangioma
 T17	chemical 97122 97129	retinal
-T18	disease 97130 97145	vascular tumors
+T18	disease_or_phenotypic_feature 97130 97145	vascular tumors
 T19	chemical 97232 97237	group
-T20	disease 97273 97285	disease-free
+T20	disease_or_phenotypic_feature 97273 97285	disease-free
 T21	chemical 97473 97479	Proton
-T22	corrected_disease 97531 97552	Good Prognosis Glioma
-T23	disease 97546 97552	Glioma
+T22	corrected_disease_or_phenotypic_feature 97531 97552	Good Prognosis Glioma
+T23	disease_or_phenotypic_feature 97546 97552	Glioma
 T24	chemical 97597 97605	proteins
 T25	chemical 97627 97631	drug
 T26	chemical 97713 97727	immunogenicity
-T27	disease 97729 97740	anaphylaxis
+T27	disease_or_phenotypic_feature 97729 97740	anaphylaxis
 T28	chemical 97981 97985	TTP.
-T29	disease 97981 97985	TTP.
-T30	disease 98091 98100	air-water
+T29	disease_or_phenotypic_feature 97981 97985	TTP.
+T30	disease_or_phenotypic_feature 98091 98100	air-water
 T31	chemical 98091 98100	air-water
-T32	disease 98207 98213	cancer
-T33	disease 98236 98254	prostate carcinoma
+T32	disease_or_phenotypic_feature 98207 98213	cancer
+T33	disease_or_phenotypic_feature 98236 98254	prostate carcinoma
 T34	chemical 98269 98276	glucose
 T35	chemical 98350 98359	oxidative
-T36	missed_disease 98350 98366	oxidative stress
+T36	missed_disease_or_phenotypic_feature 98350 98366	oxidative stress
 T37	missed_chemical 98381 98384	ROS
-T38	disease 98407 98410	SOD
+T38	disease_or_phenotypic_feature 98407 98410	SOD
 T39	chemical 98524 98533	biomarker
-T40	disease 98537 98548	sensitivity
+T40	disease_or_phenotypic_feature 98537 98548	sensitivity
 T41	chemical 98552 98562	everolimus
-T42	disease 98581 98596	Ultra-Sensitive
-T43	disease 98643 98656	Breast Cancer
+T42	disease_or_phenotypic_feature 98581 98596	Ultra-Sensitive
+T43	disease_or_phenotypic_feature 98643 98656	Breast Cancer
 T44	chemical 98744 98757	Nanoparticles
 T45	chemical 98793 98803	metabolite
-T46	disease 98840 98847	disease
-T47	disease 98852 98870	multiple sclerosis
-T48	disease 98893 98898	tumor
+T46	disease_or_phenotypic_feature 98840 98847	disease
+T47	disease_or_phenotypic_feature 98852 98870	multiple sclerosis
+T48	disease_or_phenotypic_feature 98893 98898	tumor
 T49	chemical 98915 98925	paclitaxel
-T50	disease 99051 99054	pig
+T50	disease_or_phenotypic_feature 99051 99054	pig
 T51	chemical 99180 99184	food
 T52	chemical 99387 99391	lead
-T53	disease 99402 99419	nursing-sensitive
+T53	disease_or_phenotypic_feature 99402 99419	nursing-sensitive
 T54	chemical 99455 99462	Glucose
-T55	disease 99515 99523	diseases
-T56	disease 99533 99541	diabetes
-T57	disease 99546 99552	cancer
+T55	disease_or_phenotypic_feature 99515 99523	diseases
+T56	disease_or_phenotypic_feature 99533 99541	diabetes
+T57	disease_or_phenotypic_feature 99546 99552	cancer
 R1	treats Arg1:T5 Arg2:T3
 R2	treats Arg1:T21 Arg2:T22
 R3	treats Arg1:T4 Arg2:T3

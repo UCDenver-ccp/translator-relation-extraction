@@ -7,8 +7,8 @@ T6	disease_or_phenotypic_feature 362 368	cancer
 T7	chemical 393 403	tecemotide
 T8	chemical 425 429	mRNA
 T9	chemical 456 459	RNA
-T10	disease 472 486	Bladder Cancer
-T11	disease 500 506	Cancer
+T10	disease_or_phenotypic_feature 472 486	Bladder Cancer
+T11	disease_or_phenotypic_feature 500 506	Cancer
 T12	chemical 593 602	lidocaine
 T13	chemical 630 640	anesthesia
 T14	disease_or_phenotypic_feature 648 656	cataract
@@ -24,16 +24,16 @@ T23	disease_or_phenotypic_feature 964 980	hyperinsulinemia
 T24	disease_or_phenotypic_feature 982 996	hyperlipidemia
 T25	chemical 998 1007	oxidative
 T26	chemical 1077 1082	group
-T27	disease 1201 1214	schizophrenia
-T28	disease 1218 1228	depression
-T29	disease 1322 1325	ALS
+T27	disease_or_phenotypic_feature 1201 1214	schizophrenia
+T28	disease_or_phenotypic_feature 1218 1228	depression
+T29	disease_or_phenotypic_feature 1322 1325	ALS
 T30	chemical 1334 1338	drug
 T31	chemical 1394 1418	ropinirole hydrochloride
 T32	chemical 1514 1524	anesthesia
 T33	disease_or_phenotypic_feature 1528 1541	hydrocephalus
 T34	disease_or_phenotypic_feature 1543 1565	malignant hyperthermia
 T35	chemical 1620 1629	gefitinib
-T36	disease 1644 1656	glioblastoma
+T36	disease_or_phenotypic_feature 1644 1656	glioblastoma
 T37	chemical 1785 1792	balance
 T38	chemical 1796 1800	drug
 T39	chemical 1822 1829	biology
@@ -50,7 +50,7 @@ T49	chemical 2140 2150	creatinine
 T50	chemical 2155 2161	sodium
 T51	disease_or_phenotypic_feature 2205 2218	renal failure
 T52	chemical 2357 2365	ion-pair
-T53	disease 2357 2365	ion-pair
+T53	disease_or_phenotypic_feature 2357 2365	ion-pair
 T54	chemical 2377 2382	lipid
 T55	chemical 2489 2503	growth hormone
 T56	chemical 2508 2515	glucose
@@ -63,6 +63,6 @@ T62	chemical 2743 2749	rabbit
 T63	disease_or_phenotypic_feature 2759 2768	cataracts
 T64	chemical 2790 2794	drug
 T65	disease_or_phenotypic_feature 2814 2822	cataract
-T66	disease 2909 2918	infection
+T66	disease_or_phenotypic_feature 2909 2918	infection
 T67	chemical 2964 2981	fluorescent probe
 T68	chemical 2976 2981	probe

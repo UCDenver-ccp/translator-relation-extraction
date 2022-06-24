@@ -1,64 +1,64 @@
-T1	disease 193662 193665	air
+T1	disease_or_phenotypic_feature 193662 193665	air
 T2	chemical 193680 193694	carbon dioxide
 T3	chemical 193930 193938	collagen
-T4	disease 193985 193991	(α-SMA
+T4	disease_or_phenotypic_feature 193985 193991	(α-SMA
 T5	chemical 194054 194059	fatty
-T6	disease 194054 194073	fatty liver disease
+T6	disease_or_phenotypic_feature 194054 194073	fatty liver disease
 T7	chemical 194119 194126	oxidize
 T8	chemical 194149 194154	fatty
 T9	chemical 194149 194160	fatty acids
 T10	chemical 194278 194292	catecholamines
-T11	disease 194308 194311	men
+T11	disease_or_phenotypic_feature 194308 194311	men
 T12	chemical 194460 194465	HbA1c
-T13	disease 194596 194619	coronary artery disease
-T14	disease 194693 194714	environment-sensitive
+T13	disease_or_phenotypic_feature 194596 194619	coronary artery disease
+T14	disease_or_phenotypic_feature 194693 194714	environment-sensitive
 T15	chemical 194818 194826	chemical
 T16	chemical 194860 194866	cation
 T17	chemical 194867 194876	oxidation
 T18	chemical 194975 194984	molecular
 T19	chemical 194999 195007	chemical
 T20	chemical 195122 195130	collagen
-T21	disease 195158 195182	inflammation of the skin
-T22	disease 195502 195523	hyperglycemia-induced
+T21	disease_or_phenotypic_feature 195158 195182	inflammation of the skin
+T22	disease_or_phenotypic_feature 195502 195523	hyperglycemia-induced
 T23	chemical 195524 195533	oxidative
-T24	disease 195545 195551	injury
-T25	disease 195722 195730	diseases
-T26	disease 195735 195756	myocardial infarction
+T24	disease_or_phenotypic_feature 195545 195551	injury
+T25	disease_or_phenotypic_feature 195722 195730	diseases
+T26	disease_or_phenotypic_feature 195735 195756	myocardial infarction
 T27	chemical 195811 195815	drug
-T28	disease 195837 195841	VMC.
+T28	disease_or_phenotypic_feature 195837 195841	VMC.
 T29	chemical 195893 195906	cephalosporin
 T30	chemical 195968 195972	drug
-T31	disease 195982 196006	hepatocellular carcinoma
-T32	disease 196109 196114	blood
+T31	disease_or_phenotypic_feature 195982 196006	hepatocellular carcinoma
+T32	disease_or_phenotypic_feature 196109 196114	blood
 T33	chemical 196176 196187	haemoglobin
 T34	chemical 196277 196290	nanostructure
-T35	disease 196375 196391	defect-localized
+T35	disease_or_phenotypic_feature 196375 196391	defect-localized
 T36	chemical 196392 196400	excitons
-T37	disease 196471 196479	fracture
+T37	disease_or_phenotypic_feature 196471 196479	fracture
 T38	chemical 196504 196509	water
-T39	disease 196543 196549	trauma
-T40	disease 196619 196636	nuclear-localized
+T39	disease_or_phenotypic_feature 196543 196549	trauma
+T40	disease_or_phenotypic_feature 196619 196636	nuclear-localized
 T41	chemical 196637 196644	protein
 T42	chemical 196666 196673	solvent
 T43	chemical 196707 196718	amphiphilic
 T44	chemical 196811 196816	metal
-T45	disease 196817 196820	ion
+T45	disease_or_phenotypic_feature 196817 196820	ion
 T46	chemical 196817 196820	ion
 T47	chemical 196859 196866	solvent
-T48	disease 196903 196906	GDM
+T48	disease_or_phenotypic_feature 196903 196906	GDM
 T49	chemical 196999 197006	alcohol
 T50	chemical 197069 197079	biological
-T51	disease 197152 197174	infective endocarditis
+T51	disease_or_phenotypic_feature 197152 197174	infective endocarditis
 T52	chemical 197252 197266	anticoagulants
-T53	corrected_disease 197280 197310	acute intracerebral hemorrhage
-T54	disease 197286 197310	intracerebral hemorrhage
-T55	disease 197371 197374	fed
+T53	corrected_disease_or_phenotypic_feature 197280 197310	acute intracerebral hemorrhage
+T54	disease_or_phenotypic_feature 197286 197310	intracerebral hemorrhage
+T55	disease_or_phenotypic_feature 197371 197374	fed
 T56	chemical 197378 197396	ethanol-containing
-T57	disease 197463 197469	injury
+T57	disease_or_phenotypic_feature 197463 197469	injury
 T58	chemical 197547 197565	lactulose/mannitol
 T59	chemical 197578 197581	dye
 T60	chemical 197650 197658	electron
 T61	chemical 197918 197924	glycol
 T62	chemical 197939 197944	water
-T63	disease 197972 197975	MPa
+T63	disease_or_phenotypic_feature 197972 197975	MPa
 R1	causes_or_contributes_to Arg1:T52 Arg2:T53

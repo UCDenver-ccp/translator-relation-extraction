@@ -9,7 +9,7 @@ T8	disease_or_phenotypic_feature 330 336	cancer
 T9	chemical 425 433	nicotine
 T10	disease_or_phenotypic_feature 437 444	obesity
 T11	disease_or_phenotypic_feature 449 467	ulcerative colitis
-T12	disease 560 568	allergic
+T12	disease_or_phenotypic_feature 560 568	allergic
 T13	chemical 624 631	steroid
 T14	chemical 668 676	antigens
 T15	disease_or_phenotypic_feature 682 688	cancer
@@ -40,7 +40,7 @@ T39	disease_or_phenotypic_feature 1365 1372	obesity
 T40	chemical 1402 1406	drug
 T41	disease_or_phenotypic_feature 1415 1433	movement disorders
 T42	chemical 1468 1475	heparin
-T43	disease 1590 1600	congenital
+T43	disease_or_phenotypic_feature 1590 1600	congenital
 T44	disease_or_phenotypic_feature 1752 1764	hypoglycemia
 T45	chemical 1803 1810	calcium
 T46	disease_or_phenotypic_feature 1827 1838	hypokalemia

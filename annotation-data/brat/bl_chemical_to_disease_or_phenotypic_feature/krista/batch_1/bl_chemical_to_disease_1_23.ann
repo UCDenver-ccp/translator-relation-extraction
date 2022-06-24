@@ -1,43 +1,43 @@
-T1	disease 96026 96035	Intrinsic
+T1	disease_or_phenotypic_feature 96026 96035	Intrinsic
 T2	chemical 96093 96106	Tetra-N-Butyl
 T3	chemical 96107 96134	Ammonium Hydroxide/Dimethyl
 T4	chemical 96116 96144	Hydroxide/Dimethyl Sulfoxide
-T5	disease 96239 96248	sensitive
+T5	disease_or_phenotypic_feature 96239 96248	sensitive
 T6	chemical 96380 96390	biomarkers
-T7	disease 96412 96420	diseases
-T8	missed_disease 96489 96497	diabetic
-T9	missed_disease 96489 96505	diabetic ketosis
-T10	disease 96507 96532	DK)/diabetic ketoacidosis
-T11	missed_disease 96534 96537	DKA
+T7	disease_or_phenotypic_feature 96412 96420	diseases
+T8	missed_disease_or_phenotypic_feature 96489 96497	diabetic
+T9	missed_disease_or_phenotypic_feature 96489 96505	diabetic ketosis
+T10	disease_or_phenotypic_feature 96507 96532	DK)/diabetic ketoacidosis
+T11	missed_disease_or_phenotypic_feature 96534 96537	DKA
 T12	chemical 96561 96575	sodium-glucose
 T13	corrected_chemical 96561 96603	sodium-glucose co-transporter 2 inhibitors
 T14	chemical 96593 96603	inhibitors
-T15	disease 96773 96784	sensitivity
+T15	disease_or_phenotypic_feature 96773 96784	sensitivity
 T16	chemical 96842 96847	group
 T17	chemical 96873 96878	group
 T18	chemical 96953 96966	nanoparticles
 T19	chemical 97040 97061	methicillin-resistant
-T20	disease 97085 97089	MRSA
+T20	disease_or_phenotypic_feature 97085 97089	MRSA
 T21	chemical 97189 97195	thiols
 T22	chemical 97209 97212	ion
-T23	disease 97209 97212	ion
-T24	disease 97213 97217	scan
+T23	disease_or_phenotypic_feature 97209 97212	ion
+T24	disease_or_phenotypic_feature 97213 97217	scan
 T25	chemical 97252 97262	Biomarkers
-T26	disease 97279 97306	Cerebral Amyloid Angiopathy
+T26	disease_or_phenotypic_feature 97279 97306	Cerebral Amyloid Angiopathy
 T27	chemical 97420 97433	empagliflozin
 T28	chemical 97437 97450	dapagliflozin
-T29	disease 97490 97504	artery disease
+T29	disease_or_phenotypic_feature 97490 97504	artery disease
 T30	chemical 97634 97639	group
 T31	chemical 97661 97666	group
 T32	chemical 97705 97710	group
-T33	disease 97717 97738	cystoid macular edema
+T33	disease_or_phenotypic_feature 97717 97738	cystoid macular edema
 T34	chemical 97830 97839	biomarker
-T35	disease 97877 97883	stroke
+T35	disease_or_phenotypic_feature 97877 97883	stroke
 T36	chemical 97943 97952	molecular
-T37	disease 97999 98008	SDS-PAGE.
+T37	disease_or_phenotypic_feature 97999 98008	SDS-PAGE.
 T38	chemical 98092 98095	DNA
-T39	disease 98147 98150	LGs
-T40	disease 98170 98177	Obesity
+T39	disease_or_phenotypic_feature 98147 98150	LGs
+T40	disease_or_phenotypic_feature 98170 98177	Obesity
 T41	chemical 98189 98199	anesthesia
 T42	chemical 98243 98249	copper
 T43	corrected_chemical 98243 98255	copper oxide
@@ -45,25 +45,25 @@ T44	chemical 98250 98255	oxide
 T45	chemical 98256 98269	nanoparticles
 T46	chemical 98312 98319	alloxan
 T47	chemical 98328 98337	oxidative
-T48	missed_disease 98328 98344	oxidative stress
-T49	disease 98371 98377	injury
+T48	missed_disease_or_phenotypic_feature 98328 98344	oxidative stress
+T49	disease_or_phenotypic_feature 98371 98377	injury
 T50	chemical 98482 98487	group
-T51	disease 98491 98503	Lyme disease
+T51	disease_or_phenotypic_feature 98491 98503	Lyme disease
 T52	chemical 98530 98538	residual
-T53	disease 98566 98579	Periodontitis
+T53	disease_or_phenotypic_feature 98566 98579	Periodontitis
 T54	chemical 98699 98709	inhibitors
 T55	chemical 98782 98796	Nanostructures
 T56	chemical 98834 98856	Polystyrene/Poly(vinyl
 T57	chemical 98834 98865	Polystyrene/Poly(vinyl alcohol)
-T58	disease 98867 98873	PS/PVA
-T59	disease 98912 98919	disease
-T60	disease 98951 98959	disorder
+T58	disease_or_phenotypic_feature 98867 98873	PS/PVA
+T59	disease_or_phenotypic_feature 98912 98919	disease
+T60	disease_or_phenotypic_feature 98951 98959	disorder
 T61	chemical 98986 99006	hypoxanthine-guanine
-T62	missed_disease 99084 99100	Cardiac Toxicity
+T62	missed_disease_or_phenotypic_feature 99084 99100	Cardiac Toxicity
 T63	chemical 99107 99113	Proton
-T64	disease 99126 99142	Hodgkin Lymphoma
+T64	disease_or_phenotypic_feature 99126 99142	Hodgkin Lymphoma
 T65	chemical 99175 99186	biochemical
-T66	disease 99215 99220	blood
+T66	disease_or_phenotypic_feature 99215 99220	blood
 T67	chemical 99221 99228	glucose
 T68	chemical 99254 99264	hemoglobin
 T69	chemical 99266 99271	HbA1c

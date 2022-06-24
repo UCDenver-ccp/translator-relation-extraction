@@ -20,16 +20,16 @@ T19	chemical 586 593	glucose
 T20	disease_or_phenotypic_feature 605 623	metabolic syndrome
 T21	chemical 629 643	growth hormone
 T22	chemical 694 704	biological
-T23	disease 745 748	UIP
-T24	disease 775 793	Systemic sclerosis
-T25	disease 795 798	SSc
+T23	disease_or_phenotypic_feature 745 748	UIP
+T24	disease_or_phenotypic_feature 775 793	Systemic sclerosis
+T25	disease_or_phenotypic_feature 795 798	SSc
 T26	chemical 795 798	SSc
-T27	disease 805 809	rare
-T28	disease 810 828	autoimmune disease
-T29	disease 951 956	tumor
+T27	disease_or_phenotypic_feature 805 809	rare
+T28	disease_or_phenotypic_feature 810 828	autoimmune disease
+T29	disease_or_phenotypic_feature 951 956	tumor
 T30	chemical 1020 1024	drug
 T31	disease_or_phenotypic_feature 1036 1049	renal failure
-T32	disease 1115 1119	PCOS
+T32	disease_or_phenotypic_feature 1115 1119	PCOS
 T33	chemical 1166 1172	-label
 T34	disease_or_phenotypic_feature 1256 1269	hyperglycemia
 T35	disease_or_phenotypic_feature 1271 1287	hyperinsulinemia
@@ -40,7 +40,7 @@ T39	chemical 1455 1465	L-arginine
 T40	chemical 1467 1472	L-NNA
 T41	disease_or_phenotypic_feature 1658 1670	fibrosarcoma
 T42	chemical 1713 1718	group
-T43	disease 1801 1804	EDs
+T43	disease_or_phenotypic_feature 1801 1804	EDs
 T44	disease_or_phenotypic_feature 1854 1862	melanoma
 T45	chemical 1904 1911	antigen
 T46	chemical 1921 1929	effector

@@ -1,14 +1,14 @@
 T1	chemical 193580 193584	acid
-T2	disease 193662 193675	hyperglycemia
+T2	disease_or_phenotypic_feature 193662 193675	hyperglycemia
 T3	chemical 193833 193843	biomarkers
-T4	disease 193944 193947	CHD
+T4	disease_or_phenotypic_feature 193944 193947	CHD
 T5	chemical 194032 194038	ligand
-T6	disease 194064 194069	tumor
+T6	disease_or_phenotypic_feature 194064 194069	tumor
 T7	chemical 194442 194449	Alcohol
 T8	chemical 194477 194480	met
-T9	disease 194525 194534	Disorders
+T9	disease_or_phenotypic_feature 194525 194534	Disorders
 T10	chemical 194663 194672	acridines
-T11	disease 194715 194722	one-pot
+T11	disease_or_phenotypic_feature 194715 194722	one-pot
 T12	chemical 194774 194783	aldehydes
 T13	chemical 194785 194818	5,5-dimethyl-1,3-cyclohexanedione
 T14	chemical 194825 194831	amines
@@ -16,25 +16,25 @@ T15	chemical 194835 194852	ammonium acetates
 T16	chemical 194894 194908	cobalt-alanine
 T17	chemical 194909 194914	metal
 T18	chemical 194937 194944	ethanol
-T19	disease 195070 195080	infectious
-T20	disease 195098 195106	diseases
+T19	disease_or_phenotypic_feature 195070 195080	infectious
+T20	disease_or_phenotypic_feature 195098 195106	diseases
 T21	chemical 195140 195148	effector
 T22	chemical 195184 195193	oxidative
-T23	disease 195242 195247	traps
-T24	disease 195355 195368	HIT-suspected
+T23	disease_or_phenotypic_feature 195242 195247	traps
+T24	disease_or_phenotypic_feature 195355 195368	HIT-suspected
 T25	chemical 195417 195428	Heparin/PF4
 T26	chemical 195492 195507	aptamer/protein
 T27	chemical 195620 195631	enzyme-free
-T28	disease 195636 195645	sensitive
+T28	disease_or_phenotypic_feature 195636 195645	sensitive
 T29	chemical 195829 195833	lead
 T30	chemical 195863 195878	lead-associated
-T31	disease 195879 195891	endocarditis
+T31	disease_or_phenotypic_feature 195879 195891	endocarditis
 T32	chemical 195915 195925	biomarkers
 T33	chemical 195930 195937	retinol
-T34	disease 195965 195971	anemia
+T34	disease_or_phenotypic_feature 195965 195971	anemia
 T35	chemical 195984 195990	copper
-T36	disease 196025 196030	blood
-T37	disease 196086 196094	melanoma
+T36	disease_or_phenotypic_feature 196025 196030	blood
+T37	disease_or_phenotypic_feature 196086 196094	melanoma
 T38	chemical 196100 196106	folate
 T39	chemical 196107 196111	acid
 T40	chemical 196123 196130	dextran
@@ -42,31 +42,31 @@ T41	chemical 196142 196149	alcohol
 T42	missed_chemical 196162 196169	IMD0354
 T43	chemical 196215 196222	mixture
 T44	chemical 196236 196244	iturin A
-T45	corrected_disease 196294 196310	clubroot disease
-T46	disease 196303 196310	disease
+T45	corrected_disease_or_phenotypic_feature 196294 196310	clubroot disease
+T46	disease_or_phenotypic_feature 196303 196310	disease
 T47	chemical 196421 196435	Apolipoprotein
-T48	disease 196449 196464	type 2 diabetes
-T49	disease 196476 196488	brain injury
-T50	disease 196490 196500	depression
+T48	disease_or_phenotypic_feature 196449 196464	type 2 diabetes
+T49	disease_or_phenotypic_feature 196476 196488	brain injury
+T50	disease_or_phenotypic_feature 196490 196500	depression
 T51	chemical 196506 196514	hormonal
 T52	chemical 196593 196602	Sorafenib
-T53	disease 196658 196682	hepatocellular carcinoma
+T53	disease_or_phenotypic_feature 196658 196682	hepatocellular carcinoma
 T54	chemical 196760 196767	radical
-T55	disease 196796 196811	cervical cancer
+T55	disease_or_phenotypic_feature 196796 196811	cervical cancer
 T56	chemical 196829 196837	adjuvant
 T57	chemical 196966 196974	busulfan
-T58	disease 197056 197071	aplastic anemia
+T58	disease_or_phenotypic_feature 197056 197071	aplastic anemia
 T59	chemical 197132 197143	biochemical
-T60	disease 197144 197156	disease-free
-T61	disease 197333 197348	prostate cancer
-T62	disease 197349 197353	(PCa
+T60	disease_or_phenotypic_feature 197144 197156	disease-free
+T61	disease_or_phenotypic_feature 197333 197348	prostate cancer
+T62	disease_or_phenotypic_feature 197349 197353	(PCa
 T63	chemical 197373 197382	Aspartate
 T64	chemical 197407 197414	Alanine
-T65	disease 197433 197437	ALT)
+T65	disease_or_phenotypic_feature 197433 197437	ALT)
 T66	chemical 197620 197627	protein
-T67	disease 197645 197650	tumor
+T67	disease_or_phenotypic_feature 197645 197650	tumor
 T68	chemical 197809 197821	leucine-rich
-T69	disease 197809 197821	leucine-rich
+T69	disease_or_phenotypic_feature 197809 197821	leucine-rich
 T70	chemical 197840 197847	protein
 R1	treats Arg1:T44 Arg2:T45
 R2	treats Arg1:T52 Arg2:T53

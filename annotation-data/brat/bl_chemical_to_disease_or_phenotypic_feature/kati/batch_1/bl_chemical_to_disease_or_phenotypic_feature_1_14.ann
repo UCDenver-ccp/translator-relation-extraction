@@ -18,7 +18,7 @@ T17	chemical 756 764	naloxone
 T18	chemical 768 772	food
 T19	disease_or_phenotypic_feature 788 795	obesity
 T20	chemical 826 840	glucocorticoid
-T21	disease 956 965	infection
+T21	disease_or_phenotypic_feature 956 965	infection
 T22	disease_or_phenotypic_feature 1028 1034	cancer
 T23	chemical 1044 1050	oxygen
 T24	chemical 1104 1115	cabergoline
@@ -27,7 +27,7 @@ T26	chemical 1216 1220	drug
 T27	chemical 1275 1283	antigens
 T28	chemical 1287 1297	biomarkers
 T29	disease_or_phenotypic_feature 1301 1307	cancer
-T30	disease 1375 1385	mono-modal
+T30	disease_or_phenotypic_feature 1375 1385	mono-modal
 T31	chemical 1391 1402	hydrocarbon
 T32	disease_or_phenotypic_feature 1620 1626	cancer
 T33	chemical 1643 1651	antigens
@@ -37,15 +37,15 @@ T36	chemical 1716 1730	erythropoietin
 T37	chemical 1756 1762	oxygen
 T38	disease_or_phenotypic_feature 1805 1811	anemia
 T39	disease_or_phenotypic_feature 1815 1824	hypoxemia
-T40	disease 1878 1899	peripheral neuropathy
+T40	disease_or_phenotypic_feature 1878 1899	peripheral neuropathy
 T41	chemical 1918 1922	lead
 T42	chemical 1994 2004	kaempferol
 T43	chemical 2053 2060	protein
 T44	chemical 2191 2198	protein
-T45	disease 2230 2236	cancer
+T45	disease_or_phenotypic_feature 2230 2236	cancer
 T46	chemical 2288 2295	protein
-T47	disease 2334 2337	HCC
-T48	disease 2385 2388	HCC
+T47	disease_or_phenotypic_feature 2334 2337	HCC
+T48	disease_or_phenotypic_feature 2385 2388	HCC
 T49	disease_or_phenotypic_feature 2443 2462	vascularized tumors
 T50	disease_or_phenotypic_feature 2472 2495	glioblastoma multiforme
 T51	chemical 2594 2603	nutrients

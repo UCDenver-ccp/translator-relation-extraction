@@ -1,75 +1,75 @@
 T1	chemical 193579 193594	corticosteroids
-T2	disease 193615 193621	common
+T2	disease_or_phenotypic_feature 193615 193621	common
 T3	missed_chemical 193631 193641	medication
-T4	disease 193670 193678	rhinitis
-T5	missed_disease 193682 193696	rhinosinusitis
-T6	disease 193728 193749	non-allergic rhinitis
-T7	disease 193780 193784	rare
-T8	disease 193785 193792	disease
+T4	disease_or_phenotypic_feature 193670 193678	rhinitis
+T5	missed_disease_or_phenotypic_feature 193682 193696	rhinosinusitis
+T6	disease_or_phenotypic_feature 193728 193749	non-allergic rhinitis
+T7	disease_or_phenotypic_feature 193780 193784	rare
+T8	disease_or_phenotypic_feature 193785 193792	disease
 T9	chemical 193802 193806	lead
-T10	disease 193824 193843	portal hypertension
-T11	disease 194001 194028	papillary thyroid carcinoma
+T10	disease_or_phenotypic_feature 193824 193843	portal hypertension
+T11	disease_or_phenotypic_feature 194001 194028	papillary thyroid carcinoma
 T12	chemical 194011 194018	thyroid
 T13	chemical 194177 194191	5-fluorouracil
 T14	chemical 194315 194329	5-fluorouracil
-T15	corrected_disease 194413 194443	locally advanced rectal cancer
-T16	disease 194430 194443	rectal cancer
-T17	missed_disease 194445 194449	LARC
+T15	corrected_disease_or_phenotypic_feature 194413 194443	locally advanced rectal cancer
+T16	disease_or_phenotypic_feature 194430 194443	rectal cancer
+T17	missed_disease_or_phenotypic_feature 194445 194449	LARC
 T18	chemical 194493 194500	alcohol
-T19	corrected_disease 194493 194513	alcohol use disorder
-T20	disease 194505 194513	disorder
-T21	disease 194726 194735	condition
+T19	corrected_disease_or_phenotypic_feature 194493 194513	alcohol use disorder
+T20	disease_or_phenotypic_feature 194505 194513	disorder
+T21	disease_or_phenotypic_feature 194726 194735	condition
 T22	chemical 194755 194762	glucose
 T23	chemical 194786 194791	fatty
 T24	chemical 194786 194796	fatty acid
 T25	chemical 194922 194931	vitamin E
-T26	disease 194955 194959	scan
+T26	disease_or_phenotypic_feature 194955 194959	scan
 T27	chemical 195014 195023	Oxidative
-T28	disease 195069 195073	ALD.
+T28	disease_or_phenotypic_feature 195069 195073	ALD.
 T29	chemical 195115 195122	H3K4me3
-T30	disease 195169 195173	TSS)
+T30	disease_or_phenotypic_feature 195169 195173	TSS)
 T31	chemical 195332 195344	Pioglitazone
-T32	disease 195381 195410	Chronic Granulomatous Disease
-T33	disease 195432 195441	Infection
+T32	disease_or_phenotypic_feature 195381 195410	Chronic Granulomatous Disease
+T33	disease_or_phenotypic_feature 195432 195441	Infection
 T34	chemical 195460 195470	-exendin-4
 T35	chemical 195504 195510	tracer
-T36	disease 195532 195542	insulinoma
-T37	disease 195579 195584	HSP70
+T36	disease_or_phenotypic_feature 195532 195542	insulinoma
+T37	disease_or_phenotypic_feature 195579 195584	HSP70
 T38	chemical 195585 195589	mRNA
 T39	chemical 195631 195640	indicator
 T40	chemical 195726 195734	O-methyl
 T41	chemical 195735 195740	oxime
-T42	disease 195804 195808	MRSA
+T42	disease_or_phenotypic_feature 195804 195808	MRSA
 T43	chemical 195933 195942	biomarker
-T44	disease 195966 195990	hepatocellular carcinoma
+T44	disease_or_phenotypic_feature 195966 195990	hepatocellular carcinoma
 T45	chemical 196028 196036	sedation
 T46	chemical 196048 196056	sedation
 T47	chemical 196073 196083	anesthesia
-T48	disease 196175 196181	stroke
+T48	disease_or_phenotypic_feature 196175 196181	stroke
 T49	missed_chemical 196237 196244	VPR-254
 T50	missed_chemical 196275 196278	DSS
 T51	corrected_chemical 196280 196308	Trintirobenzenesulfonic acid
 T52	chemical 196304 196308	acid
 T53	chemical 196310 196314	TNBS
-T54	disease 196364 196371	colitis
-T55	disease 196407 196410	TTP
+T54	disease_or_phenotypic_feature 196364 196371	colitis
+T55	disease_or_phenotypic_feature 196407 196410	TTP
 T56	chemical 196407 196410	TTP
 T57	missed_chemical 196414 196416	TQ
-T58	disease 196475 196481	cancer
-T59	disease 196515 196518	fed
-T60	disease 196654 196662	calculus
+T58	disease_or_phenotypic_feature 196475 196481	cancer
+T59	disease_or_phenotypic_feature 196515 196518	fed
+T60	disease_or_phenotypic_feature 196654 196662	calculus
 T61	chemical 196685 196690	group
 T62	missed_chemical 196755 196767	pexidartinib
 T63	missed_chemical 196772 196783	binimetinib
-T64	disease 196884 196914	gastrointestinal stromal tumor
-T65	disease 196916 196920	GIST
+T64	disease_or_phenotypic_feature 196884 196914	gastrointestinal stromal tumor
+T65	disease_or_phenotypic_feature 196916 196920	GIST
 T66	chemical 196936 196944	tyrosine
 T67	chemical 196936 196962	tyrosine kinase inhibitors
 T68	missed_chemical 196964 196968	TKIs
-T69	disease 197262 197267	GIST.
-T70	disease 197308 197319	non-genetic
-T71	missed_disease 197329 197337	fibrosis
-T72	missed_disease 197350 197361	side effect
+T69	disease_or_phenotypic_feature 197262 197267	GIST.
+T70	disease_or_phenotypic_feature 197308 197319	non-genetic
+T71	missed_disease_or_phenotypic_feature 197329 197337	fibrosis
+T72	missed_disease_or_phenotypic_feature 197350 197361	side effect
 T73	chemical 197365 197374	bleomycin
 R1	treats Arg1:T31 Arg2:T32
 R2	causes_or_contributes_to Arg1:T53 Arg2:T54

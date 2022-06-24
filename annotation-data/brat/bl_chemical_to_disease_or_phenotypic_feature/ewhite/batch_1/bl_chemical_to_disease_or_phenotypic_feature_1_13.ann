@@ -5,8 +5,8 @@ T4	disease_or_phenotypic_feature 55 61	ataxia
 T5	chemical 104 112	estrogen
 T6	chemical 116 123	hormone
 T7	disease_or_phenotypic_feature 124 133	dependent
-T8	disease 266 272	injury
-T9	disease 336 343	colitis
+T8	disease_or_phenotypic_feature 266 272	injury
+T9	disease_or_phenotypic_feature 336 343	colitis
 T10	disease_or_phenotypic_feature 382 389	obesity
 T11	chemical 408 415	hormone
 T12	chemical 420 429	melatonin
@@ -17,18 +17,18 @@ T16	chemical 560 571	amphetamine
 T17	chemical 581 591	biological
 T18	disease_or_phenotypic_feature 603 610	obesity
 T19	chemical 668 677	molecular
-T20	disease 708 718	infectious
-T21	disease 719 727	diseases
+T20	disease_or_phenotypic_feature 708 718	infectious
+T21	disease_or_phenotypic_feature 719 727	diseases
 T22	disease_or_phenotypic_feature 769 787	mental retardation
 T23	disease_or_phenotypic_feature 789 796	obesity
 T24	disease_or_phenotypic_feature 798 804	ataxia
 T25	disease_or_phenotypic_feature 810 827	visual impairment
 T26	chemical 889 900	cholesterol
 T27	chemical 905 914	vitamin E
-T28	disease 936 945	disorders
-T29	disease 962 969	obesity
-T30	disease 971 986	type 2 diabetes
-T31	disease 999 1032	non-alcoholic fatty liver disease
+T28	disease_or_phenotypic_feature 936 945	disorders
+T29	disease_or_phenotypic_feature 962 969	obesity
+T30	disease_or_phenotypic_feature 971 986	type 2 diabetes
+T31	disease_or_phenotypic_feature 999 1032	non-alcoholic fatty liver disease
 T32	chemical 1013 1018	fatty
 T33	chemical 1061 1068	glycine
 T34	chemical 1185 1192	glycine
@@ -38,8 +38,8 @@ T37	disease_or_phenotypic_feature 1292 1298	ataxia
 T38	chemical 1365 1381	prostaglandin E2
 T39	chemical 1454 1466	carbohydrate
 T40	chemical 1467 1474	antigen
-T41	disease 1528 1545	mucinous neoplasm
-T42	disease 1547 1552	IPMN)
+T41	disease_or_phenotypic_feature 1528 1545	mucinous neoplasm
+T42	disease_or_phenotypic_feature 1547 1552	IPMN)
 T43	chemical 1579 1589	biomarkers
 T44	chemical 1614 1622	Naproxen
 T45	chemical 1624 1635	clenbuterol
@@ -57,11 +57,11 @@ T56	chemical 1973 1983	anesthesia
 T57	disease_or_phenotypic_feature 2003 2010	seizure
 T58	chemical 2033 2043	anesthesia
 T59	disease_or_phenotypic_feature 2073 2081	seizures
-T60	disease 2111 2151	idiopathic thrombocytopenic purpura(ITP)
-T61	disease 2139 2151	purpura(ITP)
+T60	disease_or_phenotypic_feature 2111 2151	idiopathic thrombocytopenic purpura(ITP)
+T61	disease_or_phenotypic_feature 2139 2151	purpura(ITP)
 T62	chemical 2139 2151	purpura(ITP)
-T63	disease 2153 2164	hepatitis B
-T64	disease 2170 2187	diabetes mellitus
+T63	disease_or_phenotypic_feature 2153 2164	hepatitis B
+T64	disease_or_phenotypic_feature 2170 2187	diabetes mellitus
 T65	chemical 2206 2217	Ropivacaine
 T66	chemical 2218 2227	lidocaine
 T67	chemical 2235 2246	bupivacaine
@@ -69,7 +69,7 @@ T68	chemical 2247 2256	lidocaine
 T69	chemical 2273 2283	anesthesia
 T70	disease_or_phenotypic_feature 2287 2295	cataract
 T71	chemical 2305 2316	Scutellarin
-T72	disease 2353 2367	osteoarthritis
+T72	disease_or_phenotypic_feature 2353 2367	osteoarthritis
 T73	chemical 2482 2492	anesthesia
 T74	disease_or_phenotypic_feature 2497 2505	cataract
 T75	chemical 2547 2551	drug

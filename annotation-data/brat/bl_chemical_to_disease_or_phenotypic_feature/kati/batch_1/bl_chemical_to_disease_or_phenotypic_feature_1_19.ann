@@ -9,7 +9,7 @@ T8	chemical 288 291	RAS
 T9	chemical 292 302	inhibitors
 T10	chemical 311 322	oxaliplatin
 T11	disease_or_phenotypic_feature 331 352	peripheral neuropathy
-T12	disease 518 527	infection
+T12	disease_or_phenotypic_feature 518 527	infection
 T13	chemical 562 577	polysaccharides
 T14	chemical 648 658	Naltrexone
 T15	chemical 659 668	bupropion
@@ -30,8 +30,8 @@ T29	disease_or_phenotypic_feature 997 1004	obesity
 T30	disease_or_phenotypic_feature 1009 1027	ulcerative colitis
 T31	chemical 1062 1066	drug
 T32	disease_or_phenotypic_feature 1075 1093	movement disorders
-T33	disease 1156 1161	blood
-T34	disease 1194 1199	blood
+T33	disease_or_phenotypic_feature 1156 1161	blood
+T34	disease_or_phenotypic_feature 1194 1199	blood
 T35	chemical 1256 1261	lipid
 T36	chemical 1288 1294	Oxygen
 T37	chemical 1296 1305	oxidative
@@ -61,7 +61,7 @@ T60	chemical 2071 2086	phosphorylation
 T61	chemical 2139 2154	phosphorylation
 T62	chemical 2344 2358	phosphorylated
 T63	chemical 2359 2367	residues
-T64	disease 2392 2396	rich
+T64	disease_or_phenotypic_feature 2392 2396	rich
 T65	chemical 2407 2415	residues
 T66	chemical 2526 2533	antigen
 T67	disease_or_phenotypic_feature 2548 2560	hypertensive

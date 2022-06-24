@@ -1,78 +1,78 @@
 T1	chemical 124 131	alcohol
 T2	chemical 139 144	fatty
-T3	disease 139 158	fatty liver disease
+T3	disease_or_phenotypic_feature 139 158	fatty liver disease
 T4	chemical 189 198	Pazopanib
 T5	chemical 233 240	retinal
-T6	disease 241 246	wound
-T7	disease 325 329	pale
-T8	corrected_disease 325 343	pale laser lesions
+T6	disease_or_phenotypic_feature 241 246	wound
+T7	disease_or_phenotypic_feature 325 329	pale
+T8	corrected_disease_or_phenotypic_feature 325 343	pale laser lesions
 T9	chemical 405 413	Nutrient
-T10	disease 427 442	Prostate Cancer
+T10	disease_or_phenotypic_feature 427 442	Prostate Cancer
 T11	chemical 466 474	Silicone
 T12	corrected_chemical 466 478	Silicone Oil
 T13	chemical 483 493	Iodine-125
-T14	disease 512 526	Uveal Melanoma
-T15	disease 594 597	men
+T14	disease_or_phenotypic_feature 512 526	Uveal Melanoma
+T15	disease_or_phenotypic_feature 594 597	men
 T16	chemical 751 758	protein
-T17	disease 895 906	Sensitivity
-T18	disease 1013 1042	multiple chemical sensitivity
+T17	disease_or_phenotypic_feature 895 906	Sensitivity
+T18	disease_or_phenotypic_feature 1013 1042	multiple chemical sensitivity
 T19	chemical 1022 1030	chemical
-T20	disease 1043 1048	(MCS)
-T21	disease 1119 1122	ORF
+T20	disease_or_phenotypic_feature 1043 1048	(MCS)
+T21	disease_or_phenotypic_feature 1119 1122	ORF
 T22	chemical 1143 1150	protein
 T23	chemical 1158 1169	amino acids
-T24	disease 1217 1220	ORF
+T24	disease_or_phenotypic_feature 1217 1220	ORF
 T25	chemical 1241 1248	protein
 T26	chemical 1256 1267	amino acids
 T27	chemical 1408 1418	biological
-T28	disease 1479 1484	tumor
+T28	disease_or_phenotypic_feature 1479 1484	tumor
 T29	missed_chemical 1520 1533	Acetaminophen
-T30	disease 1547 1553	common
+T30	disease_or_phenotypic_feature 1547 1553	common
 T31	missed_chemical 1554 1564	medication
-T32	disease 1579 1587	migraine
+T32	disease_or_phenotypic_feature 1579 1587	migraine
 T33	missed_chemical 1608 1644	nonsteroidal anti-inflammatory drugs
 T34	chemical 1621 1644	anti-inflammatory drugs
 T35	chemical 1710 1718	proteins
 T36	chemical 1800 1803	TTP
-T37	disease 1800 1803	TTP
+T37	disease_or_phenotypic_feature 1800 1803	TTP
 T38	chemical 1877 1889	chlorpyrifos
-T39	corrected_disease 1898 1916	head kidney injury
-T40	disease 1910 1916	injury
-T41	disease 1920 1926	common
+T39	corrected_disease_or_phenotypic_feature 1898 1916	head kidney injury
+T40	disease_or_phenotypic_feature 1910 1916	injury
+T41	disease_or_phenotypic_feature 1920 1926	common
 T42	chemical 2011 2014	sec
 T43	chemical 2016 2019	sed
-T44	disease 2036 2039	sei
+T44	disease_or_phenotypic_feature 2036 2039	sei
 T45	chemical 2128 2150	Long-Chain Fatty Acids
 T46	chemical 2139 2144	Fatty
-T47	disease 2154 2180	Inflammatory Bowel Disease
+T47	disease_or_phenotypic_feature 2154 2180	Inflammatory Bowel Disease
 T48	chemical 2238 2243	lipid
 T49	chemical 2311 2319	residues
-T50	disease 2320 2324	face
+T50	disease_or_phenotypic_feature 2320 2324	face
 T51	chemical 2329 2334	lipid
 T52	chemical 2358 2366	residues
 T53	chemical 2454 2462	Gartanin
 T54	chemical 2581 2587	enzyme
-T55	disease 2589 2592	NAE
-T56	disease 2712 2727	prostate cancer
-T57	disease 2859 2873	asthma-related
-T58	missed_disease 2859 2878	asthma-related SAEs
+T55	disease_or_phenotypic_feature 2589 2592	NAE
+T56	disease_or_phenotypic_feature 2712 2727	prostate cancer
+T57	disease_or_phenotypic_feature 2859 2873	asthma-related
+T58	missed_disease_or_phenotypic_feature 2859 2878	asthma-related SAEs
 T59	chemical 2905 2915	formoterol
 T60	missed_chemical 2920 2923	ICS
 T61	chemical 3141 3147	group.
 T62	chemical 3224 3236	Anthocyanins
-T63	disease 3307 3322	obesity-related
-T64	corrected_disease 3307 3335	obesity-related inflammation
-T65	disease 3411 3424	herpes zoster
+T63	disease_or_phenotypic_feature 3307 3322	obesity-related
+T64	corrected_disease_or_phenotypic_feature 3307 3335	obesity-related inflammation
+T65	disease_or_phenotypic_feature 3411 3424	herpes zoster
 T66	chemical 3437 3444	retinal
-T67	disease 3437 3459	retinal vein occlusion
+T67	disease_or_phenotypic_feature 3437 3459	retinal vein occlusion
 T68	missed_chemical 3479 3489	filgotinib
-T69	disease 3531 3550	active tuberculosis
-T70	missed_disease 3628 3633	fever
-T71	disease 3657 3666	infection
+T69	disease_or_phenotypic_feature 3531 3550	active tuberculosis
+T70	missed_disease_or_phenotypic_feature 3628 3633	fever
+T71	disease_or_phenotypic_feature 3657 3666	infection
 T72	chemical 3680 3684	drug
 T73	chemical 3721 3730	clozapine
-T74	disease 3783 3796	heart failure
-T75	missed_disease 3823 3857	diabetic-related heart hypertrophy
+T74	disease_or_phenotypic_feature 3783 3796	heart failure
+T75	missed_disease_or_phenotypic_feature 3823 3857	diabetic-related heart hypertrophy
 T76	chemical 3903 3913	sildenafil
 R1	treats Arg1:T31 Arg2:T32
 R2	treats Arg1:T13 Arg2:T14
@@ -88,8 +88,8 @@ R11	treats Arg1:T76 Arg2:T75
 R12	treats Arg1:T12 Arg2:T14
 R13	treats Arg1:T29 Arg2:T32
 R14	treats Arg1:T59 Arg2:T58
-T77	missed_disease 1626 1638	inflammatory
+T77	missed_disease_or_phenotypic_feature 1626 1638	inflammatory
 R15	treats Arg1:T34 Arg2:T77	
-T78	corrected_disease 2859 2865	asthma
+T78	corrected_disease_or_phenotypic_feature 2859 2865	asthma
 R16	treats Arg1:T59 Arg2:T78	
 R17	treats Arg1:T60 Arg2:T78	

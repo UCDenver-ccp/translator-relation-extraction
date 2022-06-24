@@ -1,72 +1,72 @@
 T1	corrected_chemical 1 13	P(0) protein
 T2	chemical 6 13	protein
-T3	disease 71 76	blood
+T3	disease_or_phenotypic_feature 71 76	blood
 T4	chemical 80 88	n-hexane
-T5	corrected_disease 80 99	n-hexane neuropathy
-T6	disease 89 99	neuropathy
+T5	corrected_disease_or_phenotypic_feature 80 99	n-hexane neuropathy
+T6	disease_or_phenotypic_feature 89 99	neuropathy
 T7	chemical 161 164	DNA
-T8	disease 195 200	blood
-T9	disease 352 363	sensitivity
+T8	disease_or_phenotypic_feature 195 200	blood
+T9	disease_or_phenotypic_feature 352 363	sensitivity
 T10	chemical 368 373	lipid
-T11	disease 489 496	amyloid
+T11	disease_or_phenotypic_feature 489 496	amyloid
 T12	chemical 497 505	peptides
-T13	disease 524 566	Low phospholipid-associated cholelithiasis
+T13	disease_or_phenotypic_feature 524 566	Low phospholipid-associated cholelithiasis
 T14	chemical 528 551	phospholipid-associated
-T15	disease 568 572	LPAC
-T16	disease 574 582	syndrome
-T17	disease 638 648	gallstones
-T18	disease 660 678	cholangitis, acute
-T19	disease 673 691	acute pancreatitis
+T15	disease_or_phenotypic_feature 568 572	LPAC
+T16	disease_or_phenotypic_feature 574 582	syndrome
+T17	disease_or_phenotypic_feature 638 648	gallstones
+T18	disease_or_phenotypic_feature 660 678	cholangitis, acute
+T19	disease_or_phenotypic_feature 673 691	acute pancreatitis
 T20	chemical 769 778	gefitinib
-T21	disease 793 805	glioblastoma
+T21	disease_or_phenotypic_feature 793 805	glioblastoma
 T22	chemical 903 912	molecular
-T23	disease 1017 1026	neoplasia
-T24	disease 1079 1085	common
-T25	disease 1092 1107	dysplastic nevi
-T26	disease 1125 1133	melanoma
+T23	disease_or_phenotypic_feature 1017 1026	neoplasia
+T24	disease_or_phenotypic_feature 1079 1085	common
+T25	disease_or_phenotypic_feature 1092 1107	dysplastic nevi
+T26	disease_or_phenotypic_feature 1125 1133	melanoma
 T27	chemical 1289 1297	ion-pair
-T28	disease 1289 1297	ion-pair
+T28	disease_or_phenotypic_feature 1289 1297	ion-pair
 T29	chemical 1309 1314	lipid
 T30	chemical 1458 1467	uric acid
 T31	chemical 1474 1484	creatinine
-T32	disease 1495 1500	blood
+T32	disease_or_phenotypic_feature 1495 1500	blood
 T33	chemical 1501 1505	urea
 T34	chemical 1506 1514	nitrogen
-T35	disease 1608 1617	infection
+T35	disease_or_phenotypic_feature 1608 1617	infection
 T36	chemical 1663 1680	fluorescent probe
 T37	chemical 1675 1680	probe
 T38	chemical 1734 1743	enalapril
 T39	chemical 1747 1767	sacubitril/valsartan
-T40	disease 1867 1880	heart failure
-T41	missed_disease 1945 1950	ADHF.
+T40	disease_or_phenotypic_feature 1867 1880	heart failure
+T41	missed_disease_or_phenotypic_feature 1945 1950	ADHF.
 T42	chemical 2207 2211	ions
 T43	chemical 2220 2226	carbon
 T44	chemical 2227 2230	ion
-T45	disease 2227 2230	ion
+T45	disease_or_phenotypic_feature 2227 2230	ion
 T46	chemical 2269 2282	disinfectants
-T47	disease 2399 2405	asthma
+T47	disease_or_phenotypic_feature 2399 2405	asthma
 T48	chemical 2523 2533	penicillin
 T49	corrected_chemical 2523 2546	penicillin G benzathine
 T50	chemical 2536 2546	benzathine
 T51	chemical 2573 2584	anesthetics
-T52	disease 2617 2625	syphilis
-T53	disease 2755 2764	infection
-T54	disease 2811 2820	dyspepsia
+T52	disease_or_phenotypic_feature 2617 2625	syphilis
+T53	disease_or_phenotypic_feature 2755 2764	infection
+T54	disease_or_phenotypic_feature 2811 2820	dyspepsia
 T55	chemical 2867 2874	antigen
 T56	chemical 2996 3015	adenosine-regulated
-T57	disease 3059 3064	tumor
-T58	disease 3092 3105	Breast cancer
+T57	disease_or_phenotypic_feature 3059 3064	tumor
+T58	disease_or_phenotypic_feature 3092 3105	Breast cancer
 T59	chemical 3115 3122	thyroid
-T60	disease 3115 3129	thyroid cancer
-T61	disease 3139 3145	common
-T62	disease 3231 3238	MSA-CID
-T63	disease 3298 3301	HCD
-T64	disease 3364 3367	MS2
+T60	disease_or_phenotypic_feature 3115 3129	thyroid cancer
+T61	disease_or_phenotypic_feature 3139 3145	common
+T62	disease_or_phenotypic_feature 3231 3238	MSA-CID
+T63	disease_or_phenotypic_feature 3298 3301	HCD
+T64	disease_or_phenotypic_feature 3364 3367	MS2
 T65	chemical 3397 3412	phosphorylation
-T66	missed_disease 3440 3442	OD
-T67	disease 3531 3539	allergic
+T66	missed_disease_or_phenotypic_feature 3440 3442	OD
+T67	disease_or_phenotypic_feature 3531 3539	allergic
 T68	chemical 3595 3602	steroid
-T69	disease 3621 3624	ion
+T69	disease_or_phenotypic_feature 3621 3624	ion
 T70	chemical 3621 3624	ion
 R1	treats Arg1:T68 Arg2:T66
 R2	treats Arg1:T38 Arg2:T40

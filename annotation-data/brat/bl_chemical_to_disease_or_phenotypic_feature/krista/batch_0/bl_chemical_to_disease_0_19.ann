@@ -1,69 +1,69 @@
 T1	chemical 17 28	Boron-Doped
 T2	chemical 49 61	Hydrocarbons
-T3	disease 73 80	One-Pot
+T3	disease_or_phenotypic_feature 73 80	One-Pot
 T4	chemical 177 187	over-water
 T5	chemical 188 193	ozone
 T6	chemical 242 252	land-water
-T7	disease 281 284	air
+T7	disease_or_phenotypic_feature 281 284	air
 T8	chemical 368 374	AMP-Na
-T9	disease 455 474	lung adenocarcinoma
-T10	disease 561 566	blood
+T9	disease_or_phenotypic_feature 455 474	lung adenocarcinoma
+T10	disease_or_phenotypic_feature 561 566	blood
 T11	chemical 567 574	glucose
 T12	chemical 585 596	metabolites
 T13	corrected_chemical 746 774	immune checkpoint inhibitors
 T14	chemical 764 774	inhibitors
-T15	disease 791 797	cancer
+T15	disease_or_phenotypic_feature 791 797	cancer
 T16	missed_chemical 791 810	cancer therapeutics
-T17	disease 815 820	SCCHN
+T17	disease_or_phenotypic_feature 815 820	SCCHN
 T18	chemical 945 953	FTLD-TDP
-T19	disease 993 1000	C9orf72
+T19	disease_or_phenotypic_feature 993 1000	C9orf72
 T20	chemical 1173 1191	lactulose/mannitol
-T21	disease 1223 1226	IBS
+T21	disease_or_phenotypic_feature 1223 1226	IBS
 T22	chemical 1366 1375	Biomarker
 T23	chemical 1503 1523	P(AAm-AMPS)/alginate
-T24	disease 1567 1570	air
+T24	disease_or_phenotypic_feature 1567 1570	air
 T25	chemical 1778 1785	cystine
-T26	disease 1825 1835	cystinosis
+T26	disease_or_phenotypic_feature 1825 1835	cystinosis
 T27	chemical 1888 1891	ion
-T28	disease 1888 1891	ion
-T29	disease 1970 1982	brain injury
-T30	disease 1987 2007	neurological disease
+T28	disease_or_phenotypic_feature 1888 1891	ion
+T29	disease_or_phenotypic_feature 1970 1982	brain injury
+T30	disease_or_phenotypic_feature 1987 2007	neurological disease
 T31	chemical 2096 2100	drug
-T32	disease 2163 2176	breast cancer
+T32	disease_or_phenotypic_feature 2163 2176	breast cancer
 T33	chemical 2219 2230	nanofibrous
-T34	disease 2251 2264	breast cancer
-T35	disease 2348 2353	tumor
+T34	disease_or_phenotypic_feature 2251 2264	breast cancer
+T35	disease_or_phenotypic_feature 2348 2353	tumor
 T36	chemical 2413 2423	inhibitors
 T37	corrected_chemical 2413 2439	inhibitors of angiogenesis
-T38	disease 2443 2449	cancer
+T38	disease_or_phenotypic_feature 2443 2449	cancer
 T39	chemical 2479 2497	Hydrogen-Deuterium
 T40	chemical 2556 2563	Peptide
-T41	disease 2606 2615	Influenza
+T41	disease_or_phenotypic_feature 2606 2615	Influenza
 T42	chemical 2636 2643	Protein
 T43	chemical 2710 2717	Peptide
-T44	disease 2905 2908	GDM
+T44	disease_or_phenotypic_feature 2905 2908	GDM
 T45	chemical 2935 2942	glucose
 T46	chemical 2955 2960	lipid
 T47	chemical 2981 2986	fatty
-T48	disease 2981 3000	fatty liver disease
-T49	disease 3114 3117	HCC
+T48	disease_or_phenotypic_feature 2981 3000	fatty liver disease
+T49	disease_or_phenotypic_feature 3114 3117	HCC
 T50	chemical 3134 3145	glutathione
 T51	chemical 3207 3220	prostaglandin
 T52	chemical 3277 3283	enzyme
 T53	chemical 3375 3379	mRNA
 T54	chemical 3406 3409	RNA
-T55	disease 3422 3436	Bladder Cancer
-T56	disease 3450 3456	Cancer
+T55	disease_or_phenotypic_feature 3422 3436	Bladder Cancer
+T56	disease_or_phenotypic_feature 3450 3456	Cancer
 T57	chemical 3516 3521	group
-T58	disease 3577 3583	lichen
+T58	disease_or_phenotypic_feature 3577 3583	lichen
 T59	chemical 3716 3734	residual/recurrent
-T60	disease 3735 3769	cervical intraepithelial neoplasia
-T61	disease 3771 3778	CIN 2-3
+T60	disease_or_phenotypic_feature 3735 3769	cervical intraepithelial neoplasia
+T61	disease_or_phenotypic_feature 3771 3778	CIN 2-3
 T62	chemical 3882 3890	Indolent
-T63	disease 3918 3925	disease
-T64	disease 3926 3932	(T-LPD
-T65	disease 3965 3969	rare
-T66	disease 3989 3996	disease
+T63	disease_or_phenotypic_feature 3918 3925	disease
+T64	disease_or_phenotypic_feature 3926 3932	(T-LPD
+T65	disease_or_phenotypic_feature 3965 3969	rare
+T66	disease_or_phenotypic_feature 3989 3996	disease
 R1	treats Arg1:T8 Arg2:T9
 R2	treats Arg1:T13 Arg2:T15
 R3	treats Arg1:T13 Arg2:T17

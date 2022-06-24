@@ -1,72 +1,72 @@
 T1	chemical 25 34	vitamin D
-T2	disease 47 66	atrial fibrillation
+T2	disease_or_phenotypic_feature 47 66	atrial fibrillation
 T3	chemical 136 144	Estrogen
 T4	chemical 160 172	progesterone
 T5	chemical 195 205	biomarkers
 T6	chemical 232 240	estrogen
-T7	disease 232 272	estrogen receptor-positive breast cancer
+T7	disease_or_phenotypic_feature 232 272	estrogen receptor-positive breast cancer
 T8	chemical 331 345	Immunogenicity
-T9	disease 369 376	Measles
-T10	disease 433 449	Immunodeficiency
+T9	disease_or_phenotypic_feature 369 376	Measles
+T10	disease_or_phenotypic_feature 433 449	Immunodeficiency
 T11	chemical 617 622	group
 T12	chemical 641 646	group
-T13	disease 667 673	injury
+T13	disease_or_phenotypic_feature 667 673	injury
 T14	chemical 692 697	group
-T15	disease 739 745	injury
+T15	disease_or_phenotypic_feature 739 745	injury
 T16	chemical 768 776	androgen
-T17	disease 884 899	prostate cancer
+T17	disease_or_phenotypic_feature 884 899	prostate cancer
 T18	missed_chemical 923 931	Arry-520
 T19	chemical 947 951	drug
 T20	corrected_chemical 971 984	Eg5 inhibitor
 T21	chemical 975 984	inhibitor
-T22	disease 1062 1078	multiple myeloma
-T23	disease 1196 1203	amnesia
+T22	disease_or_phenotypic_feature 1062 1078	multiple myeloma
+T23	disease_or_phenotypic_feature 1196 1203	amnesia
 T24	chemical 1266 1270	food
 T25	chemical 1398 1409	liraglutide
 T26	chemical 1481 1488	retinal
-T27	corrected_disease 1481 1498	retinal tauopathy
-T28	disease 1489 1498	tauopathy
-T29	missed_disease 1521 1524	DR.
+T27	corrected_disease_or_phenotypic_feature 1481 1498	retinal tauopathy
+T28	disease_or_phenotypic_feature 1489 1498	tauopathy
+T29	missed_disease_or_phenotypic_feature 1521 1524	DR.
 T30	chemical 1578 1583	fatty
-T31	disease 1578 1597	fatty liver disease
+T31	disease_or_phenotypic_feature 1578 1597	fatty liver disease
 T32	chemical 1801 1808	protein
-T33	disease 1906 1914	diseases
-T34	missed_disease 1997 2013	oxidative stress
-T35	disease 2074 2090	antioxidant-rich
+T33	disease_or_phenotypic_feature 1906 1914	diseases
+T34	missed_disease_or_phenotypic_feature 1997 2013	oxidative stress
+T35	disease_or_phenotypic_feature 2074 2090	antioxidant-rich
 T36	chemical 2074 2090	antioxidant-rich
 T37	chemical 2119 2130	antioxidant
-T38	disease 2174 2180	Cancer
+T38	disease_or_phenotypic_feature 2174 2180	Cancer
 T39	chemical 2381 2390	biomarker
 T40	chemical 2426 2442	pro-inflammatory
-T41	disease 2499 2540	experimental autoimmune encephalomyelitis
+T41	disease_or_phenotypic_feature 2499 2540	experimental autoimmune encephalomyelitis
 T42	chemical 2594 2601	calcium
 T43	chemical 2640 2659	parathyroid hormone
 T44	chemical 2652 2659	hormone
-T45	corrected_disease 2707 2744	recurrent primary hyperparathyroidism
-T46	disease 2717 2744	primary hyperparathyroidism
-T47	disease 2821 2836	cervical cancer
+T45	corrected_disease_or_phenotypic_feature 2707 2744	recurrent primary hyperparathyroidism
+T46	disease_or_phenotypic_feature 2717 2744	primary hyperparathyroidism
+T47	disease_or_phenotypic_feature 2821 2836	cervical cancer
 T48	chemical 2838 2841	Pap
-T49	disease 2880 2895	cervical cancer
-T50	corrected_disease 2987 3005	septicemic disease
-T51	disease 2998 3005	disease
-T52	disease 3061 3072	sensitivity
+T49	disease_or_phenotypic_feature 2880 2895	cervical cancer
+T50	corrected_disease_or_phenotypic_feature 2987 3005	septicemic disease
+T51	disease_or_phenotypic_feature 2998 3005	disease
+T52	disease_or_phenotypic_feature 3061 3072	sensitivity
 T53	chemical 3162 3177	oxytetracycline
 T54	missed_chemical 3179 3182	OTC
-T55	disease 3213 3220	disease
-T56	missed_disease 3289 3327	Severe cutaneous adverse drug reaction
+T55	disease_or_phenotypic_feature 3213 3220	disease
+T56	missed_disease_or_phenotypic_feature 3289 3327	Severe cutaneous adverse drug reaction
 T57	chemical 3314 3318	drug
-T58	disease 3328 3333	(SCAR
+T58	disease_or_phenotypic_feature 3328 3333	(SCAR
 T59	chemical 3372 3376	drug
 T60	chemical 3407 3425	collagen-producing
-T61	disease 3452 3462	intra-scar
+T61	disease_or_phenotypic_feature 3452 3462	intra-scar
 T62	chemical 3483 3497	pro-fibrogenic
-T63	disease 3664 3683	alcoholic hepatitis
+T63	disease_or_phenotypic_feature 3664 3683	alcoholic hepatitis
 T64	chemical 3687 3699	prednisolone
 T65	chemical 3812 3819	thyroid
-T66	disease 3812 3826	thyroid cancer
+T66	disease_or_phenotypic_feature 3812 3826	thyroid cancer
 T67	chemical 3858 3865	biology
 T68	chemical 3882 3889	thyroid
-T69	missed_disease 3882 3897	thyroid cancers
+T69	missed_disease_or_phenotypic_feature 3882 3897	thyroid cancers
 T70	missed_chemical 3973 3985	therapeutics
 R1	treats Arg1:T20 Arg2:T22
 R2	treats Arg1:T70 Arg2:T66
@@ -89,6 +89,6 @@ R18	treats Arg1:T53 Arg2:T55
 R19	treats Arg1:T25 Arg2:T29	
 T71	corrected_chemical 2074 2085	antioxidant
 R20	treats Arg1:T71 Arg2:T34	
-T72	corrected_disease 3329 3333	SCAR
+T72	corrected_disease_or_phenotypic_feature 3329 3333	SCAR
 R21	causes_or_contributes_to Arg1:T59 Arg2:T72	
 R22	causes_or_contributes_to Arg1:T57 Arg2:T72	

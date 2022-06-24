@@ -10,7 +10,7 @@ T9	disease_or_phenotypic_feature 253 265	contractures
 T10	chemical 342 346	acid
 T11	chemical 350 353	lye
 T12	chemical 366 375	Cisplatin
-T13	disease 425 440	Cervical Cancer
+T13	disease_or_phenotypic_feature 425 440	Cervical Cancer
 T14	disease_or_phenotypic_feature 568 575	obesity
 T15	disease_or_phenotypic_feature 577 596	hyperprolactinaemia
 T16	disease_or_phenotypic_feature 598 627	hypogonadotropic hypogonadism
@@ -23,7 +23,7 @@ T22	chemical 745 752	antigen
 T23	chemical 793 817	high-density lipoprotein
 T24	chemical 793 829	high-density lipoprotein cholesterol
 T25	chemical 831 837	HDL-C)
-T26	disease 873 895	cardiovascular disease
+T26	disease_or_phenotypic_feature 873 895	cardiovascular disease
 T27	chemical 1059 1067	adjuvant
 T28	disease_or_phenotypic_feature 1122 1128	ataxia
 T29	disease_or_phenotypic_feature 1157 1163	mutism
@@ -31,10 +31,10 @@ T30	disease_or_phenotypic_feature 1164 1172	syndrome
 T31	disease_or_phenotypic_feature 1174 1177	CMS
 T32	disease_or_phenotypic_feature 1182 1188	ataxia
 T33	chemical 1219 1225	Barium
-T34	disease 1241 1245	rare
+T34	disease_or_phenotypic_feature 1241 1245	rare
 T35	chemical 1314 1320	barium
 T36	chemical 1471 1481	drug-naïve
-T37	disease 1496 1509	schizophrenia
+T37	disease_or_phenotypic_feature 1496 1509	schizophrenia
 T38	chemical 1539 1562	anti-inflammatory drugs
 T39	disease_or_phenotypic_feature 1573 1581	cataract
 T40	disease_or_phenotypic_feature 1635 1657	mammary adenocarcinoma
@@ -50,7 +50,7 @@ T49	chemical 1986 1991	urate
 T50	chemical 1992 2003	antioxidant
 T51	disease_or_phenotypic_feature 2040 2047	obesity
 T52	chemical 2120 2140	P(AAm-AMPS)/alginate
-T53	disease 2184 2187	air
+T53	disease_or_phenotypic_feature 2184 2187	air
 T54	chemical 2436 2447	biochemical
 T55	disease_or_phenotypic_feature 2527 2534	cancers
 T56	chemical 2605 2612	antigen

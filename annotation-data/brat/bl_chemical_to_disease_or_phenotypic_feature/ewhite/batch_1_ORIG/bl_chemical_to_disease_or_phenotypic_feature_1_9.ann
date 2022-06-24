@@ -6,13 +6,13 @@ T5	chemical 234 246	anesthetized
 T6	chemical 281 288	glycine
 T7	chemical 337 345	estrogen
 T8	chemical 379 391	progesterone
-T9	disease 448 461	breast cancer
+T9	disease_or_phenotypic_feature 448 461	breast cancer
 T10	chemical 488 495	ghrelin
 T11	disease_or_phenotypic_feature 516 522	autism
 T12	chemical 556 564	hormonal
 T13	chemical 652 662	carbon-ion
-T14	disease 652 662	carbon-ion
-T15	disease 680 703	head and neck carcinoma
+T14	disease_or_phenotypic_feature 652 662	carbon-ion
+T15	disease_or_phenotypic_feature 680 703	head and neck carcinoma
 T16	chemical 740 750	cinacalcet
 T17	chemical 753 762	denosumab
 T18	disease_or_phenotypic_feature 801 814	hypercalcemia
@@ -29,33 +29,33 @@ T28	chemical 1071 1080	Biomarker
 T29	disease_or_phenotypic_feature 1100 1113	heart failure
 T30	disease_or_phenotypic_feature 1126 1133	obesity
 T31	chemical 1139 1147	hormones
-T32	disease 1183 1200	pancreatic cancer
-T33	disease 1220 1237	pancreatic cancer
+T32	disease_or_phenotypic_feature 1183 1200	pancreatic cancer
+T33	disease_or_phenotypic_feature 1220 1237	pancreatic cancer
 T34	chemical 1238 1243	group
-T35	disease 1284 1292	diseases
-T36	disease 1319 1326	disease
+T35	disease_or_phenotypic_feature 1284 1292	diseases
+T36	disease_or_phenotypic_feature 1319 1326	disease
 T37	chemical 1327 1332	group
 T38	chemical 1357 1371	Apolipoprotein
 T39	chemical 1401 1408	Protein
-T40	disease 1464 1481	Colorectal Cancer
+T40	disease_or_phenotypic_feature 1464 1481	Colorectal Cancer
 T41	chemical 1502 1514	Fenfluramine
 T42	chemical 1527 1536	serotonin
 T43	chemical 1559 1568	inhibitor
 T44	disease_or_phenotypic_feature 1614 1621	obesity
 T45	chemical 1629 1639	inhibitors
 T46	chemical 1662 1667	LDL-C
-T47	disease 1731 1753	cardiovascular disease
-T48	disease 1772 1807	Thrombotic thrombocytopenic purpura
+T47	disease_or_phenotypic_feature 1731 1753	cardiovascular disease
+T48	disease_or_phenotypic_feature 1772 1807	Thrombotic thrombocytopenic purpura
 T49	chemical 1809 1812	TTP
-T50	disease 1809 1812	TTP
+T50	disease_or_phenotypic_feature 1809 1812	TTP
 T51	chemical 1955 1964	oxidation
 T52	disease_or_phenotypic_feature 1969 1976	obesity
 T53	chemical 1983 1991	antigens
 T54	disease_or_phenotypic_feature 1996 2018	sensorineural deafness
-T55	disease 2057 2077	basal cell carcinoma
-T56	disease 2078 2082	(BCC
+T55	disease_or_phenotypic_feature 2057 2077	basal cell carcinoma
+T56	disease_or_phenotypic_feature 2078 2082	(BCC
 T57	chemical 2126 2134	residual
-T58	disease 2135 2140	tumor
+T58	disease_or_phenotypic_feature 2135 2140	tumor
 T59	chemical 2213 2224	angiotensin
 T60	chemical 2236 2253	enzyme inhibitors
 T61	disease_or_phenotypic_feature 2274 2289	cardiac failure

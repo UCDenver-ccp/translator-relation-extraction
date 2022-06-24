@@ -34,26 +34,26 @@ T33	disease_or_phenotypic_feature 1164 1172	arterial
 T34	disease_or_phenotypic_feature 1190 1203	heart failure
 T35	chemical 1252 1258	oxygen
 T36	disease_or_phenotypic_feature 1308 1314	cancer
-T37	disease 1385 1390	tumor
+T37	disease_or_phenotypic_feature 1385 1390	tumor
 T38	chemical 1440 1449	molecular
-T39	disease 1493 1498	Tumor
+T39	disease_or_phenotypic_feature 1493 1498	Tumor
 T40	chemical 1523 1541	apoptosis-inducing
 T41	chemical 1542 1548	ligand
-T42	disease 1655 1661	cancer
+T42	disease_or_phenotypic_feature 1655 1661	cancer
 T43	chemical 1751 1762	methylation
-T44	disease 1877 1884	PPP2R2B
+T44	disease_or_phenotypic_feature 1877 1884	PPP2R2B
 T45	chemical 1938 1945	alcohol
 T46	disease_or_phenotypic_feature 1966 1979	breast cancer
 T47	chemical 1994 2001	hormone
 T48	chemical 2099 2119	P(AAm-AMPS)/alginate
-T49	disease 2163 2166	air
+T49	disease_or_phenotypic_feature 2163 2166	air
 T50	chemical 2371 2380	oxidative
 T51	disease_or_phenotypic_feature 2401 2408	obesity
 T52	disease_or_phenotypic_feature 2413 2420	obesity
 T53	chemical 2465 2471	oxygen
 T54	disease_or_phenotypic_feature 2561 2567	cancer
 T55	chemical 2603 2609	Fibrin
-T56	disease 2633 2638	Blood
+T56	disease_or_phenotypic_feature 2633 2638	Blood
 T57	chemical 2701 2707	sodium
 T58	chemical 2708 2717	potassium
 T59	disease_or_phenotypic_feature 2729 2736	obesity

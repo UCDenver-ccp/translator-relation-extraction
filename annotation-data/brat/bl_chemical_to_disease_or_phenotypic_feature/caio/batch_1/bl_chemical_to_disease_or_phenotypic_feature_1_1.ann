@@ -13,8 +13,8 @@ T12	chemical 389 399	biomarkers
 T13	disease_or_phenotypic_feature 404 417	heart failure
 T14	chemical 443 451	Gartanin
 T15	chemical 570 576	enzyme
-T16	disease 578 581	NAE
-T17	disease 701 716	prostate cancer
+T16	disease_or_phenotypic_feature 578 581	NAE
+T17	disease_or_phenotypic_feature 701 716	prostate cancer
 T18	chemical 789 799	Duloxetine
 T19	chemical 826 840	antidepressant
 T20	chemical 841 845	drug
@@ -40,10 +40,10 @@ T39	chemical 1692 1695	MCC
 T40	disease_or_phenotypic_feature 1692 1695	MCC
 T41	chemical 1712 1727	biological role
 T42	chemical 1731 1734	MCC
-T43	disease 1771 1784	herpes zoster
+T43	disease_or_phenotypic_feature 1771 1784	herpes zoster
 T44	chemical 1797 1804	retinal
-T45	disease 1797 1819	retinal vein occlusion
-T46	disease 1891 1910	active tuberculosis
+T45	disease_or_phenotypic_feature 1797 1819	retinal vein occlusion
+T46	disease_or_phenotypic_feature 1891 1910	active tuberculosis
 T47	chemical 1985 1997	Testosterone
 T48	disease_or_phenotypic_feature 2026 2041	type 2 diabetes
 T49	disease_or_phenotypic_feature 2052 2059	obesity
@@ -59,7 +59,7 @@ T58	disease_or_phenotypic_feature 2442 2454	malignancies
 T59	chemical 2492 2501	Marizomib
 T60	disease_or_phenotypic_feature 2530 2551	peripheral neuropathy
 T61	chemical 2596 2617	proteasome inhibitors
-T62	disease 2670 2680	depression
+T62	disease_or_phenotypic_feature 2670 2680	depression
 T63	chemical 2848 2857	serotonin
 T64	chemical 2862 2870	dopamine
 T65	chemical 2897 2903	oxygen
@@ -67,4 +67,4 @@ T66	disease_or_phenotypic_feature 2963 2974	lung tumors
 T67	chemical 3006 3012	oxygen
 T68	disease_or_phenotypic_feature 3022 3032	lung tumor
 T69	chemical 3126 3142	antigen-specific
-T70	disease 3263 3274	hyperplasia
+T70	disease_or_phenotypic_feature 3263 3274	hyperplasia

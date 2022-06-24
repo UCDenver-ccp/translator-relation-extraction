@@ -39,9 +39,9 @@ T38	chemical 1370 1374	drug
 T39	chemical 1439 1463	high-density lipoprotein
 T40	chemical 1439 1475	high-density lipoprotein cholesterol
 T41	chemical 1477 1483	HDL-C)
-T42	disease 1519 1541	cardiovascular disease
+T42	disease_or_phenotypic_feature 1519 1541	cardiovascular disease
 T43	chemical 1628 1634	Barium
-T44	disease 1650 1654	rare
+T44	disease_or_phenotypic_feature 1650 1654	rare
 T45	chemical 1723 1729	barium
 T46	disease_or_phenotypic_feature 1820 1833	renal failure
 T47	disease_or_phenotypic_feature 1851 1864	hypercalcemia

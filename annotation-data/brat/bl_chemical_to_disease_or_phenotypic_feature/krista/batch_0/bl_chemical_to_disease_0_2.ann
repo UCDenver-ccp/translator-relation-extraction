@@ -1,53 +1,53 @@
 T1	chemical 22 26	drug
-T2	disease 83 89	cancer
-T3	disease 245 254	inherited
+T2	disease_or_phenotypic_feature 83 89	cancer
+T3	disease_or_phenotypic_feature 245 254	inherited
 T4	chemical 260 263	his
-T5	disease 384 398	tumor-specific
+T5	disease_or_phenotypic_feature 384 398	tumor-specific
 T6	chemical 399 407	peptides
 T7	chemical 536 543	protein
-T8	disease 582 589	amyloid
-T9	disease 639 648	infertile
-T10	disease 649 652	men
+T8	disease_or_phenotypic_feature 582 589	amyloid
+T9	disease_or_phenotypic_feature 639 648	infertile
+T10	disease_or_phenotypic_feature 649 652	men
 T11	chemical 744 756	antioxidants
 T12	chemical 819 833	neuropeptide Y
 T13	chemical 881 885	food
-T14	disease 950 957	obesity
-T15	disease 1037 1040	Ion
+T14	disease_or_phenotypic_feature 950 957	obesity
+T15	disease_or_phenotypic_feature 1037 1040	Ion
 T16	chemical 1037 1040	Ion
 T17	missed_chemical 1111 1122	ciclosporin
-T18	disease 1143 1154	blood-brain
-T19	missed_disease 1168 1171	TBI
+T18	disease_or_phenotypic_feature 1143 1154	blood-brain
+T19	missed_disease_or_phenotypic_feature 1168 1171	TBI
 T20	chemical 1207 1222	biomarker-based
 T21	chemical 1272 1277	water
 T22	corrected_chemical 1272 1283	water spray
-T23	disease 1325 1343	spinal cord injury
+T23	disease_or_phenotypic_feature 1325 1343	spinal cord injury
 T24	chemical 1486 1496	acrylamide
 T25	chemical 1518 1526	tantalum
-T26	disease 1536 1539	TaC
+T26	disease_or_phenotypic_feature 1536 1539	TaC
 T27	chemical 1541 1554	nanoparticles
 T28	chemical 1622 1629	protein
-T29	disease 1681 1690	infection
+T29	disease_or_phenotypic_feature 1681 1690	infection
 T30	chemical 1711 1719	high-fat
-T31	disease 1734 1737	CRC
+T31	disease_or_phenotypic_feature 1734 1737	CRC
 T32	chemical 1762 1771	bile acid
 T33	chemical 1797 1806	bile acid
-T34	disease 1843 1858	tumor-promoting
+T34	disease_or_phenotypic_feature 1843 1858	tumor-promoting
 T35	chemical 1859 1875	deoxycholic acid
-T36	disease 2004 2009	blood
+T36	disease_or_phenotypic_feature 2004 2009	blood
 T37	chemical 2114 2119	probe
-T38	disease 2181 2190	sensitive
-T39	disease 2351 2356	blood
+T38	disease_or_phenotypic_feature 2181 2190	sensitive
+T39	disease_or_phenotypic_feature 2351 2356	blood
 T40	chemical 2433 2443	hemoglobin
-T41	disease 2445 2450	blood
+T41	disease_or_phenotypic_feature 2445 2450	blood
 T42	chemical 2494 2504	anesthesia
-T43	disease 2505 2509	(PCA
+T43	disease_or_phenotypic_feature 2505 2509	(PCA
 T44	chemical 2511 2519	morphine
-T45	disease 2603 2613	Congenital
-T46	disease 2614 2626	microcephaly
+T45	disease_or_phenotypic_feature 2603 2613	Congenital
+T46	disease_or_phenotypic_feature 2614 2626	microcephaly
 T47	chemical 2653 2658	group
-T48	disease 2662 2671	disorders
+T48	disease_or_phenotypic_feature 2662 2671	disorders
 T49	chemical 2855 2862	biology
-T50	disease 2931 2937	cancer
+T50	disease_or_phenotypic_feature 2931 2937	cancer
 T51	chemical 3126 3178	6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase
 T52	chemical 3181 3186	fatty
 T53	chemical 3181 3191	fatty acid
@@ -66,12 +66,12 @@ T65	chemical 3442 3461	glucose-6-phosphate
 T66	chemical 3483 3494	cholesterol
 T67	chemical 3505 3541	(3-hydroxy-3-methylglutaryl-coenzyme
 T68	chemical 3505 3543	(3-hydroxy-3-methylglutaryl-coenzyme A
-T69	disease 3577 3582	blood
+T69	disease_or_phenotypic_feature 3577 3582	blood
 T70	chemical 3583 3596	triglycerides
 T71	chemical 3601 3612	cholesterol
 T72	chemical 3697 3701	lead
-T73	disease 3724 3732	melanoma
-T74	disease 3883 3896	heart failure
+T73	disease_or_phenotypic_feature 3724 3732	melanoma
+T74	disease_or_phenotypic_feature 3883 3896	heart failure
 T75	chemical 3960 3965	group
 T76	chemical 4005 4010	group
 R1	treats Arg1:T1 Arg2:T2
@@ -80,5 +80,5 @@ R3	FIXME Arg1:T22 Arg2:T23
 R4	causes_or_contributes_to Arg1:T35 Arg2:T31
 R5	treats Arg1:T11 Arg2:T9
 R6	treats Arg1:T17 Arg2:T19
-T77	corrected_disease 1843 1848	tumor
+T77	corrected_disease_or_phenotypic_feature 1843 1848	tumor
 R7	causes_or_contributes_to Arg1:T35 Arg2:T77	

@@ -1,65 +1,65 @@
-T1	disease 89 96	pan-MMP
+T1	disease_or_phenotypic_feature 89 96	pan-MMP
 T2	chemical 97 106	inhibitor
-T3	disease 250 257	trisomy
-T4	disease 262 265	CLL
+T3	disease_or_phenotypic_feature 250 257	trisomy
+T4	disease_or_phenotypic_feature 262 265	CLL
 T5	chemical 280 298	idelalisib-treated
-T6	disease 324 335	sensitivity
+T6	disease_or_phenotypic_feature 324 335	sensitivity
 T7	chemical 339 349	idelalisib
 T8	chemical 427 432	IGF1R
 T9	chemical 438 448	idelalisib
 T10	chemical 490 503	Nanoparticles
 T11	missed_chemical 524 529	Drugs
-T12	disease 541 552	Blood-Brain
-T13	disease 584 613	Triple Negative Breast Cancer
-T14	disease 624 640	Tumor-Associated
+T12	disease_or_phenotypic_feature 541 552	Blood-Brain
+T13	disease_or_phenotypic_feature 584 613	Triple Negative Breast Cancer
+T14	disease_or_phenotypic_feature 624 640	Tumor-Associated
 T15	chemical 720 727	protein
 T16	chemical 759 769	biological
-T17	disease 852 858	cancer
-T18	disease 952 967	depression-like
+T17	disease_or_phenotypic_feature 852 858	cancer
+T18	disease_or_phenotypic_feature 952 967	depression-like
 T19	chemical 1033 1041	dopamine
 T20	chemical 1079 1082	NAc
 T21	chemical 1101 1116	(-)-Epicatechin
 T22	corrected_chemical 1101 1128	(-)-Epicatechin metabolites
 T23	chemical 1117 1128	metabolites
-T24	corrected_disease 1237 1268	systemic low-grade inflammation
-T25	disease 1246 1255	low-grade
-T26	disease 1351 1360	localized
+T24	corrected_disease_or_phenotypic_feature 1237 1268	systemic low-grade inflammation
+T25	disease_or_phenotypic_feature 1246 1255	low-grade
+T26	disease_or_phenotypic_feature 1351 1360	localized
 T27	chemical 1514 1519	metal
-T28	disease 1626 1632	PE-GDM
+T28	disease_or_phenotypic_feature 1626 1632	PE-GDM
 T29	chemical 1633 1638	group
-T30	disease 1681 1692	sensitivity
+T30	disease_or_phenotypic_feature 1681 1692	sensitivity
 T31	chemical 1848 1858	Molybdenum
 T32	chemical 1929 1934	group
 T33	chemical 2024 2032	collagen
-T34	disease 2054 2071	B-cell lymphoma-2
-T35	disease 2230 2235	tumor
+T34	disease_or_phenotypic_feature 2054 2071	B-cell lymphoma-2
+T35	disease_or_phenotypic_feature 2230 2235	tumor
 T36	chemical 2295 2314	antigen-independent
 T37	chemical 2407 2414	alcohol
 T38	chemical 2449 2456	alcohol
-T39	disease 2482 2488	Asm-/-
+T39	disease_or_phenotypic_feature 2482 2488	Asm-/-
 T40	chemical 2610 2621	collagenous
-T41	disease 2643 2648	tumor
-T42	disease 2664 2667	HCC
-T43	disease 2723 2739	oral leukoplakia
-T44	disease 2749 2772	squamous cell carcinoma
+T41	disease_or_phenotypic_feature 2643 2648	tumor
+T42	disease_or_phenotypic_feature 2664 2667	HCC
+T43	disease_or_phenotypic_feature 2723 2739	oral leukoplakia
+T44	disease_or_phenotypic_feature 2749 2772	squamous cell carcinoma
 T45	chemical 2784 2787	DNA
-T46	disease 2917 2923	cancer
+T46	disease_or_phenotypic_feature 2917 2923	cancer
 T47	missed_chemical 2958 2962	RSL3
 T48	chemical 3002 3011	cisplatin
 T49	chemical 3095 3117	HDAC inhibitor-induced
-T50	disease 3161 3174	breast cancer
-T51	disease 3282 3294	cleft palate
+T50	disease_or_phenotypic_feature 3161 3174	breast cancer
+T51	disease_or_phenotypic_feature 3282 3294	cleft palate
 T52	chemical 3319 3328	molecular
 T53	chemical 3388 3402	nanostructured
 T54	chemical 3403 3417	chitosan-based
 T55	chemical 3443 3447	drug
-T56	disease 3468 3481	periodontitis
+T56	disease_or_phenotypic_feature 3468 3481	periodontitis
 T57	chemical 3528 3538	anesthesia
-T58	disease 3585 3593	acquired
-T59	disease 3689 3694	tumor
+T58	disease_or_phenotypic_feature 3585 3593	acquired
+T59	disease_or_phenotypic_feature 3689 3694	tumor
 T60	chemical 3785 3795	paclitaxel
 T61	missed_chemical 3797 3800	PTX
-T62	disease 3913 3928	redox-sensitive
+T62	disease_or_phenotypic_feature 3913 3928	redox-sensitive
 R1	treats Arg1:T55 Arg2:T56
 R2	treats Arg1:T60 Arg2:T59
 R3	treats Arg1:T48 Arg2:T46

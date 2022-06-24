@@ -1,63 +1,63 @@
-T1	disease 96006 96025	Fournier's gangrene
-T2	disease 96066 96081	type 2 diabetes
+T1	disease_or_phenotypic_feature 96006 96025	Fournier's gangrene
+T2	disease_or_phenotypic_feature 96066 96081	type 2 diabetes
 T3	chemical 96090 96103	empagliflozin
 T4	chemical 96152 96162	biological
-T5	disease 96185 96188	fed
-T6	disease 96354 96365	sensitivity
-T7	disease 96378 96383	tumor
+T5	disease_or_phenotypic_feature 96185 96188	fed
+T6	disease_or_phenotypic_feature 96354 96365	sensitivity
+T7	disease_or_phenotypic_feature 96378 96383	tumor
 T8	chemical 96430 96451	nanoparticle-enhanced
 T9	chemical 96499 96511	Atorvastatin
-T10	disease 96523 96535	Cold-Induced
-T11	corrected_disease 96523 96548	Cold-Induced Hypertension
-T12	corrected_disease 96563 96581	Gut Barrier Injury
-T13	disease 96575 96581	Injury
+T10	disease_or_phenotypic_feature 96523 96535	Cold-Induced
+T11	corrected_disease_or_phenotypic_feature 96523 96548	Cold-Induced Hypertension
+T12	corrected_disease_or_phenotypic_feature 96563 96581	Gut Barrier Injury
+T13	disease_or_phenotypic_feature 96575 96581	Injury
 T14	missed_chemical 96652 96665	necrostatin-1
 T15	missed_chemical 96667 96672	Nec-1
 T16	chemical 96684 96693	inhibitor
-T17	missed_disease 96697 96708	necroptosis
+T17	missed_disease_or_phenotypic_feature 96697 96708	necroptosis
 T18	chemical 96972 96980	residual
-T19	disease 96981 96988	disease
-T20	disease 97125 97134	psychosis
+T19	disease_or_phenotypic_feature 96981 96988	disease
+T20	disease_or_phenotypic_feature 97125 97134	psychosis
 T21	chemical 97194 97198	drug
 T22	chemical 97313 97325	hydrocarbons
-T23	disease 97327 97331	PAH)
+T23	disease_or_phenotypic_feature 97327 97331	PAH)
 T24	chemical 97352 97362	amino acid
 T25	chemical 97459 97472	nanoparticles
 T26	chemical 97546 97551	group
-T27	disease 97574 97577	GDs
-T28	disease 97815 97818	UTI
+T27	disease_or_phenotypic_feature 97574 97577	GDs
+T28	disease_or_phenotypic_feature 97815 97818	UTI
 T29	chemical 97913 97918	group
-T30	disease 97974 97989	depression-like
-T31	disease 98006 98009	GPS
+T30	disease_or_phenotypic_feature 97974 97989	depression-like
+T31	disease_or_phenotypic_feature 98006 98009	GPS
 T32	chemical 98028 98037	serotonin
 T33	chemical 98042 98050	dopamine
 T34	chemical 98403 98413	biological
 T35	chemical 98444 98448	drug
-T36	disease 98502 98510	diseases
+T36	disease_or_phenotypic_feature 98502 98510	diseases
 T37	chemical 98559 98566	sesamol
-T38	disease 98591 98602	anti-cancer
+T38	disease_or_phenotypic_feature 98591 98602	anti-cancer
 T39	chemical 98674 98677	met
 T40	chemical 98769 98778	metformin
-T41	corrected_disease 98816 98843	polycystic ovarian syndrome
-T42	disease 98835 98843	syndrome
+T41	corrected_disease_or_phenotypic_feature 98816 98843	polycystic ovarian syndrome
+T42	disease_or_phenotypic_feature 98835 98843	syndrome
 T43	chemical 98877 98883	folate
 T44	chemical 98885 98892	vitamin
-T45	disease 98926 98939	breast cancer
-T46	disease 99065 99073	disorder
+T45	disease_or_phenotypic_feature 98926 98939	breast cancer
+T46	disease_or_phenotypic_feature 99065 99073	disorder
 T47	chemical 99091 99099	residues
-T48	disease 99142 99166	secondary hypothyroidism
+T48	disease_or_phenotypic_feature 99142 99166	secondary hypothyroidism
 T49	chemical 99189 99205	thyroid hormones
 T50	chemical 99197 99205	hormones
 T51	chemical 99280 99307	thyroid stimulating hormone
 T52	chemical 99300 99307	hormone
-T53	disease 99332 99356	Fallopian tube carcinoma
+T53	disease_or_phenotypic_feature 99332 99356	Fallopian tube carcinoma
 T54	chemical 99418 99421	Pap
 T55	missed_chemical 99445 99448	DOX
 T56	chemical 99453 99467	P-glycoprotein
 T57	corrected_chemical 99453 99480	P-glycoprotein (P-gp) siRNA
 T58	chemical 99529 99549	cholesterol-mediated
-T59	disease 99601 99606	tumor
-T60	disease 99678 99688	dependence
+T59	disease_or_phenotypic_feature 99601 99606	tumor
+T60	disease_or_phenotypic_feature 99678 99688	dependence
 T61	chemical 99723 99732	molecular
 T62	chemical 99765 99775	pro)chiral
 R1	treats Arg1:T15 Arg2:T17

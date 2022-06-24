@@ -14,7 +14,7 @@ T13	disease_or_phenotypic_feature 599 617	hyperaldosteronism
 T14	chemical 620 630	Fluoxetine
 T15	disease_or_phenotypic_feature 635 641	autism
 T16	chemical 676 683	heparin
-T17	disease 798 808	congenital
+T17	disease_or_phenotypic_feature 798 808	congenital
 T18	chemical 843 857	Spironolactone
 T19	chemical 862 884	aldosterone antagonist
 T20	chemical 926 936	inhibitors
@@ -29,7 +29,7 @@ T28	disease_or_phenotypic_feature 1329 1336	obesity
 T29	chemical 1432 1440	estrogen
 T30	chemical 1445 1457	progesterone
 T31	chemical 1469 1485	Ticagrelor-based
-T32	disease 1541 1557	artery disease-A
+T32	disease_or_phenotypic_feature 1541 1557	artery disease-A
 T33	chemical 1630 1639	midazolam
 T34	disease_or_phenotypic_feature 1680 1688	cataract
 T35	chemical 1710 1720	anesthesia
@@ -51,10 +51,10 @@ T50	disease_or_phenotypic_feature 2193 2213	hyperlipoproteinemia
 T51	chemical 2221 2232	Angiotensin
 T52	chemical 2240 2251	antagonists
 T53	disease_or_phenotypic_feature 2283 2296	heart failure
-T54	disease 2338 2345	non-CKD
+T54	disease_or_phenotypic_feature 2338 2345	non-CKD
 T55	chemical 2359 2364	group
 T56	chemical 2387 2392	group
 T57	chemical 2415 2420	group
-T58	disease 2496 2500	rare
-T59	disease 2501 2506	tumor
+T58	disease_or_phenotypic_feature 2496 2500	rare
+T59	disease_or_phenotypic_feature 2501 2506	tumor
 T60	chemical 2616 2623	biology

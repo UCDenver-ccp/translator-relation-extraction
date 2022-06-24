@@ -15,7 +15,7 @@ T14	disease_or_phenotypic_feature 460 483	cerebrovascular disease
 T15	disease_or_phenotypic_feature 496 502	trauma
 T16	chemical 525 532	antigen
 T17	disease_or_phenotypic_feature 557 575	cervical carcinoma
-T18	disease 637 646	infection
+T18	disease_or_phenotypic_feature 637 646	infection
 T19	chemical 692 709	fluorescent probe
 T20	chemical 704 709	probe
 T21	chemical 728 739	Rolofylline
@@ -25,11 +25,11 @@ T24	disease_or_phenotypic_feature 806 819	heart failure
 T25	chemical 821 831	Anesthesia
 T26	disease_or_phenotypic_feature 836 851	biliary atresia
 T27	chemical 867 880	disinfectants
-T28	disease 997 1003	asthma
+T28	disease_or_phenotypic_feature 997 1003	asthma
 T29	chemical 1121 1131	penicillin
 T30	chemical 1134 1144	benzathine
 T31	chemical 1171 1182	anesthetics
-T32	disease 1215 1223	syphilis
+T32	disease_or_phenotypic_feature 1215 1223	syphilis
 T33	chemical 1298 1302	drug
 T34	disease_or_phenotypic_feature 1328 1341	renal failure
 T35	chemical 1369 1378	inhibitor
@@ -44,7 +44,7 @@ T43	disease_or_phenotypic_feature 1749 1754	Wilms
 T44	chemical 1780 1794	growth hormone
 T45	chemical 1829 1833	food
 T46	disease_or_phenotypic_feature 1856 1863	obesity
-T47	disease 1956 1964	allergic
+T47	disease_or_phenotypic_feature 1956 1964	allergic
 T48	chemical 2020 2027	steroid
 T49	chemical 2079 2089	inhibitors
 T50	disease_or_phenotypic_feature 2110 2131	Merkel cell carcinoma

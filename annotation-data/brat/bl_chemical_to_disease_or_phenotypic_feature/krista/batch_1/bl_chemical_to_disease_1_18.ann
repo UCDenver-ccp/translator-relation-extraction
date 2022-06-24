@@ -1,74 +1,74 @@
 T1	chemical 96068 96076	peptides
-T2	disease 96132 96139	amyloid
-T3	disease 96157 96166	intrinsic
+T2	disease_or_phenotypic_feature 96132 96139	amyloid
+T3	disease_or_phenotypic_feature 96157 96166	intrinsic
 T4	chemical 96183 96194	polypeptide
 T5	chemical 96248 96255	taurine
-T6	disease 96283 96292	infection
-T7	missed_disease 96283 96322	infection induced diaphragm dysfunction
+T6	disease_or_phenotypic_feature 96283 96292	infection
+T7	missed_disease_or_phenotypic_feature 96283 96322	infection induced diaphragm dysfunction
 T8	chemical 96370 96377	hormone
-T9	disease 96421 96433	blood-testis
-T10	disease 96479 96483	(SCs
+T9	disease_or_phenotypic_feature 96421 96433	blood-testis
+T10	disease_or_phenotypic_feature 96479 96483	(SCs
 T11	chemical 96538 96545	protein
 T12	chemical 96621 96629	phenolic
-T13	disease 96690 96693	air
-T14	disease 96914 96917	AML
+T13	disease_or_phenotypic_feature 96690 96693	air
+T14	disease_or_phenotypic_feature 96914 96917	AML
 T15	chemical 97023 97033	inhibitors
 T16	chemical 97113 97127	lithium/sodium
 T17	chemical 97128 97131	ion
-T18	disease 97128 97131	ion
+T18	disease_or_phenotypic_feature 97128 97131	ion
 T19	corrected_chemical 97183 97212	Direct Acting Antiviral Agent
 T20	chemical 97197 97212	Antiviral Agent
-T21	disease 97257 97284	Hepatitis C Virus Infection
-T22	disease 97351 97358	1.blood
+T21	disease_or_phenotypic_feature 97257 97284	Hepatitis C Virus Infection
+T22	disease_or_phenotypic_feature 97351 97358	1.blood
 T23	chemical 97359 97363	agar
 T24	chemical 97534 97543	surfactin
-T25	disease 97645 97651	cancer
+T25	disease_or_phenotypic_feature 97645 97651	cancer
 T26	chemical 97694 97703	molecular
-T27	disease 97718 97724	cancer
-T28	disease 97836 97842	cancer
+T27	disease_or_phenotypic_feature 97718 97724	cancer
+T28	disease_or_phenotypic_feature 97836 97842	cancer
 T29	chemical 97908 97918	biomarkers
-T30	disease 97961 97967	cancer
-T31	disease 98023 98029	trauma
-T32	disease 98048 98052	PTSD
+T30	disease_or_phenotypic_feature 97961 97967	cancer
+T31	disease_or_phenotypic_feature 98023 98029	trauma
+T32	disease_or_phenotypic_feature 98048 98052	PTSD
 T33	chemical 98072 98076	lead
 T34	chemical 98101 98108	alcohol
 T35	chemical 98188 98205	hematoxylin-eosin
-T36	disease 98235 98240	tumor
+T36	disease_or_phenotypic_feature 98235 98240	tumor
 T37	chemical 98339 98345	enzyme
 T38	chemical 98447 98455	proteins
-T39	disease 98459 98462	ERS
+T39	disease_or_phenotypic_feature 98459 98462	ERS
 T40	chemical 98488 98495	glucose
 T41	chemical 98507 98514	protein
 T42	chemical 98540 98559	adenosine phosphate
 T43	chemical 98619 98626	protein
 T44	chemical 98717 98721	urea
-T45	disease 98717 98736	urea cycle disorder
-T46	corrected_disease 98879 98913	non-metastatic soft tissue sarcoma
-T47	disease 98894 98913	soft tissue sarcoma
+T45	disease_or_phenotypic_feature 98717 98736	urea cycle disorder
+T46	corrected_disease_or_phenotypic_feature 98879 98913	non-metastatic soft tissue sarcoma
+T47	disease_or_phenotypic_feature 98894 98913	soft tissue sarcoma
 T48	chemical 98969 98980	doxorubicin
 T49	chemical 98985 98995	ifosfamide
-T50	disease 99084 99094	Thrombosis
+T50	disease_or_phenotypic_feature 99084 99094	Thrombosis
 T51	chemical 99133 99138	group
 T52	chemical 99167 99172	group
 T53	chemical 99204 99209	group
 T54	missed_chemical 99228 99235	aspirin
 T55	chemical 99236 99241	group
 T56	chemical 99303 99306	His
-T57	disease 99318 99337	atrial fibrillation
-T58	disease 99343 99362	bundle branch block
-T59	disease 99367 99377	arrhythmia
-T60	disease 99470 99473	NEC
+T57	disease_or_phenotypic_feature 99318 99337	atrial fibrillation
+T58	disease_or_phenotypic_feature 99343 99362	bundle branch block
+T59	disease_or_phenotypic_feature 99367 99377	arrhythmia
+T60	disease_or_phenotypic_feature 99470 99473	NEC
 T61	chemical 99474 99479	group
-T62	disease 99677 99684	HSP-RDL
+T62	disease_or_phenotypic_feature 99677 99684	HSP-RDL
 T63	chemical 99693 99698	probe
-T64	disease 99714 99725	sensitivity
+T64	disease_or_phenotypic_feature 99714 99725	sensitivity
 T65	chemical 99746 99755	hydrazine
 T66	chemical 99819 99826	cations
 T67	chemical 99828 99834	anions
-T68	disease 99923 99931	diabetes
+T68	disease_or_phenotypic_feature 99923 99931	diabetes
 T69	chemical 100046 100055	nutrients
-T70	disease 100077 100093	diabetes-related
-T71	disease 100131 100144	Hydrogen-Rich
+T70	disease_or_phenotypic_feature 100077 100093	diabetes-related
+T71	disease_or_phenotypic_feature 100131 100144	Hydrogen-Rich
 T72	chemical 100145 100150	Water
 R1	treats Arg1:T48 Arg2:T46
 R2	treats Arg1:T5 Arg2:T7

@@ -1,72 +1,72 @@
 T1	chemical 11 20	Cisplatin
-T2	disease 70 85	Cervical Cancer
+T2	disease_or_phenotypic_feature 70 85	Cervical Cancer
 T3	chemical 116 120	drug
-T4	corrected_disease 173 212	multiple drug hypersensitivity syndrome
+T4	corrected_disease_or_phenotypic_feature 173 212	multiple drug hypersensitivity syndrome
 T5	chemical 182 186	drug
-T6	disease 182 212	drug hypersensitivity syndrome
+T6	disease_or_phenotypic_feature 182 212	drug hypersensitivity syndrome
 T7	chemical 326 333	alcohol
-T8	disease 338 347	disorders
+T8	disease_or_phenotypic_feature 338 347	disorders
 T9	chemical 422 429	hormone
 T10	chemical 505 512	hormone
-T11	disease 549 561	osteoporosis
-T12	disease 566 574	fracture
+T11	disease_or_phenotypic_feature 549 561	osteoporosis
+T12	disease_or_phenotypic_feature 566 574	fracture
 T13	chemical 640 664	high-density lipoprotein
 T14	chemical 640 676	high-density lipoprotein cholesterol
 T15	chemical 678 684	HDL-C)
-T16	disease 720 742	cardiovascular disease
-T17	disease 896 899	GBM
+T16	disease_or_phenotypic_feature 720 742	cardiovascular disease
+T17	disease_or_phenotypic_feature 896 899	GBM
 T18	chemical 976 984	adjuvant
-T19	disease 1048 1056	fracture
+T19	disease_or_phenotypic_feature 1048 1056	fracture
 T20	chemical 1146 1161	polymer-ceramic
 T21	chemical 1243 1250	protein
-T22	disease 1262 1270	melanoma
+T22	disease_or_phenotypic_feature 1262 1270	melanoma
 T23	chemical 1308 1311	ATP
 T24	chemical 1312 1319	citrate
 T25	chemical 1339 1346	protein
-T26	disease 1387 1390	PCa
+T26	disease_or_phenotypic_feature 1387 1390	PCa
 T27	chemical 1571 1577	Barium
-T28	missed_disease 1571 1587	Barium retention
-T29	disease 1593 1597	rare
+T28	missed_disease_or_phenotypic_feature 1571 1587	Barium retention
+T29	disease_or_phenotypic_feature 1593 1597	rare
 T30	chemical 1666 1672	barium
 T31	corrected_chemical 1666 1681	barium sulphate
 T32	chemical 1746 1755	inhibitor
-T33	disease 1764 1771	disease
+T33	disease_or_phenotypic_feature 1764 1771	disease
 T34	corrected_chemical 1764 1801	disease modifying antirheumatic drugs
 T35	chemical 1782 1801	antirheumatic drugs
 T36	missed_chemical 1803 1809	DMARDs
 T37	chemical 1814 1829	corticosteroids
-T38	disease 1900 1903	fed
+T38	disease_or_phenotypic_feature 1900 1903	fed
 T39	chemical 1919 1927	high-fat
-T40	disease 1945 1961	PFE-supplemented
+T40	disease_or_phenotypic_feature 1945 1961	PFE-supplemented
 T41	chemical 2033 2038	ssDNA
-T42	disease 2075 2080	tumor
+T42	disease_or_phenotypic_feature 2075 2080	tumor
 T43	chemical 2081 2084	DNA
 T44	chemical 2113 2116	DNA
-T45	disease 2192 2200	syndrome
+T45	disease_or_phenotypic_feature 2192 2200	syndrome
 T46	chemical 2387 2397	bile acids
 T47	chemical 2434 2439	fatty
-T48	disease 2434 2453	fatty liver disease
-T49	disease 2591 2594	MAP
+T48	disease_or_phenotypic_feature 2434 2453	fatty liver disease
+T49	disease_or_phenotypic_feature 2591 2594	MAP
 T50	chemical 2645 2653	arginine
 T51	chemical 2645 2665	arginine vasopressin
 T52	chemical 2667 2670	AVP
 T53	chemical 2807 2817	drug-naïve
-T54	disease 2832 2845	schizophrenia
-T55	disease 2881 2892	sensitivity
+T54	disease_or_phenotypic_feature 2832 2845	schizophrenia
+T55	disease_or_phenotypic_feature 2881 2892	sensitivity
 T56	chemical 2960 2963	RNA
-T57	disease 3041 3046	tumor
-T58	disease 3047 3050	SOD
-T59	disease 3061 3066	tumor
-T60	disease 3120 3125	tumor
+T57	disease_or_phenotypic_feature 3041 3046	tumor
+T58	disease_or_phenotypic_feature 3047 3050	SOD
+T59	disease_or_phenotypic_feature 3061 3066	tumor
+T60	disease_or_phenotypic_feature 3120 3125	tumor
 T61	chemical 3134 3145	glutathione
 T62	chemical 3172 3195	reactive oxygen species
 T63	chemical 3197 3202	lipid
 T64	chemical 3203 3215	peroxidation
-T65	disease 3279 3285	cancer
+T65	disease_or_phenotypic_feature 3279 3285	cancer
 T66	chemical 3338 3341	APC
-T67	disease 3394 3399	tumor
+T67	disease_or_phenotypic_feature 3394 3399	tumor
 T68	chemical 3436 3446	open-label
-T69	disease 3518 3523	BPDCN
+T69	disease_or_phenotypic_feature 3518 3523	BPDCN
 R1	treats Arg1:T10 Arg2:T11
 R2	treats Arg1:T10 Arg2:T12
 R3	treats Arg1:T34 Arg2:T33
@@ -75,11 +75,11 @@ R5	treats Arg1:T1 Arg2:T2
 R6	causes_or_contributes_to Arg1:T3 Arg2:T4
 R7	treats Arg1:T36 Arg2:T33
 R8	causes_or_contributes_to Arg1:T5 Arg2:T4
-T70	missed_disease 214 217	MDH
+T70	missed_disease_or_phenotypic_feature 214 217	MDH
 R9	causes_or_contributes_to Arg1:T3 Arg2:T70	
 R10	causes_or_contributes_to Arg1:T5 Arg2:T70	
-T71	corrected_disease 326 347	alcohol use disorders
-T72	missed_disease 349 352	AUD
+T71	corrected_disease_or_phenotypic_feature 326 347	alcohol use disorders
+T72	missed_disease_or_phenotypic_feature 349 352	AUD
 R11	causes_or_contributes_to Arg1:T7 Arg2:T71	
 R12	causes_or_contributes_to Arg1:T7 Arg2:T72	
 T73	corrected_chemical 2807 2811	drug

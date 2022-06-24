@@ -12,8 +12,8 @@ T11	chemical 458 468	biological
 T12	disease_or_phenotypic_feature 516 529	breast cancer
 T13	chemical 531 540	Pazopanib
 T14	chemical 575 582	retinal
-T15	disease 583 588	wound
-T16	disease 667 671	pale
+T15	disease_or_phenotypic_feature 583 588	wound
+T16	disease_or_phenotypic_feature 667 671	pale
 T17	chemical 767 777	inhibitors
 T18	chemical 798 801	ras
 T19	disease_or_phenotypic_feature 802 811	dependent
@@ -22,10 +22,10 @@ T21	disease_or_phenotypic_feature 938 946	seizures
 T22	chemical 1051 1058	hormone
 T23	chemical 1092 1096	ACTH
 T24	disease_or_phenotypic_feature 1125 1143	Cushing's syndrome
-T25	disease 1182 1193	Sensitivity
-T26	disease 1300 1329	multiple chemical sensitivity
+T25	disease_or_phenotypic_feature 1182 1193	Sensitivity
+T26	disease_or_phenotypic_feature 1300 1329	multiple chemical sensitivity
 T27	chemical 1309 1317	chemical
-T28	disease 1330 1335	(MCS)
+T28	disease_or_phenotypic_feature 1330 1335	(MCS)
 T29	chemical 1371 1385	Aminoguanidine
 T30	chemical 1399 1408	inhibitor
 T31	disease_or_phenotypic_feature 1444 1453	cataracts
@@ -62,7 +62,7 @@ T61	chemical 2630 2641	biochemical
 T62	disease_or_phenotypic_feature 2659 2667	seminoma
 T63	chemical 2689 2692	sec
 T64	chemical 2694 2697	sed
-T65	disease 2714 2717	sei
+T65	disease_or_phenotypic_feature 2714 2717	sei
 T66	chemical 2835 2845	inhibitors
 T67	chemical 2850 2858	platinum
 T68	disease_or_phenotypic_feature 2963 2980	pancreatic cancer

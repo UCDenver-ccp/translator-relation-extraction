@@ -63,3 +63,8 @@ T62	disease 3158 3171	herpes zoster
 T63	chemical 3184 3191	retinal
 T64	disease 3184 3206	retinal vein occlusion
 T65	disease 3278 3297	active tuberculosis
+T66	corrected_chemical 1292 1332	mammalian target of rapamycin inhibitors
+T67	missed_disease 1250 1270	hypercholesterolemia
+R1	causes_or_contributes_to Arg1:T66 Arg2:T67	
+T68	corrected_chemical 2212 2242	aldosterone synthase inhibitor
+T69	missed_disease 2255 2264	mortality

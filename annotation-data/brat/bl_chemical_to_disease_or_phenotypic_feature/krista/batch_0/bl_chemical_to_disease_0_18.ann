@@ -67,3 +67,7 @@ R2	causes_or_contributes_to Arg1:T38 Arg2:T40
 R3	treats Arg1:T44 Arg2:T46
 R4	treats Arg1:T30 Arg2:T28
 R5	treats Arg1:T27 Arg2:T28
+T65	missed_disease 1608 1616	MN death
+R6	treats Arg1:T30 Arg2:T65	
+T66	corrected_chemical 3831 3842	resveratrol
+R7	treats Arg1:T66 Arg2:T58	

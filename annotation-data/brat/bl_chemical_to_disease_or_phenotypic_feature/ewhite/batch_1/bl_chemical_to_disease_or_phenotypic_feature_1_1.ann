@@ -61,3 +61,16 @@ T60	disease_or_phenotypic_feature 2491 2498	obesity
 T61	chemical 2555 2562	antigen
 T62	chemical 2568 2575	antigen
 T63	disease_or_phenotypic_feature 2606 2620	gastric cancer
+T64	corrected_chemical 1488 1502	nab-paclitaxel
+T65	corrected_chemical 1557 1581	solvent-based paclitaxel
+T66	missed_chemical 1633 1636	ARB
+T67	missed_disease 1654 1666	hyperkalemia
+T68	corrected_chemical 22 95	zirconium phosphate (ZP) nanoparticles modified with hyaluronic acid (HA)
+T69	missed_chemical 112 117	HA-ZP
+R1	treats Arg1:T11 Arg2:T10	
+R2	treats Arg1:T12 Arg2:T10	
+R3	treats Arg1:T26 Arg2:T27	
+T70	missed_chemical 1394 1407	cardiac drugs
+T71	corrected_disease 1450 1461;1474 1481	respiratory failure
+R4	treats Arg1:T70 Arg2:T71	
+R5	treats Arg1:T28 Arg2:T71	

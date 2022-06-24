@@ -72,3 +72,7 @@ R1	treats Arg1:T68 Arg2:T66
 R2	treats Arg1:T38 Arg2:T40
 R3	treats Arg1:T49 Arg2:T52
 R4	treats Arg1:T20 Arg2:T21
+T71	corrected_chemical 1747 1757	sacubitril
+T72	corrected_chemical 1758 1767	valsartan
+R5	treats Arg1:T71 Arg2:T40	
+R6	treats Arg1:T72 Arg2:T40	

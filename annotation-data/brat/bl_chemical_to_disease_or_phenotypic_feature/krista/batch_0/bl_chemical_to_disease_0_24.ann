@@ -89,3 +89,6 @@ R8	treats Arg1:T10 Arg2:T13
 R9	treats Arg1:T57 Arg2:T55
 R10	treats Arg1:T11 Arg2:T13
 R11	treats Arg1:T69 Arg2:T70
+T81	corrected_chemical 2059 2069	Ticagrelor
+T82	corrected_disease 2115 2145	atherosclerotic artery disease
+R12	treats Arg1:T81 Arg2:T82	

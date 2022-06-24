@@ -86,3 +86,9 @@ R15	causes_or_contributes_to Arg1:T42 Arg2:T45
 R16	causes_or_contributes_to Arg1:T3 Arg2:T7
 R17	treats Arg1:T18 Arg2:T22
 R18	treats Arg1:T53 Arg2:T55
+R19	treats Arg1:T25 Arg2:T29	
+T71	corrected_chemical 2074 2085	antioxidant
+R20	treats Arg1:T71 Arg2:T34	
+T72	corrected_disease 3329 3333	SCAR
+R21	causes_or_contributes_to Arg1:T59 Arg2:T72	
+R22	causes_or_contributes_to Arg1:T57 Arg2:T72	

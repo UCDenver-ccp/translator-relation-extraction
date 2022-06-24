@@ -67,3 +67,10 @@ R6	treats Arg1:T12 Arg2:T11
 R7	treats Arg1:T3 Arg2:T2
 R8	treats Arg1:T1 Arg2:T2
 R9	treats Arg1:T5 Arg2:T7
+T61	corrected_disease 1755 1761	cancer
+R10	treats Arg1:T30 Arg2:T61	
+T62	missed_disease 2983 2985	MM
+R11	treats Arg1:T51 Arg2:T62	
+T63	missed_chemical 2921 2931	medication
+R12	treats Arg1:T63 Arg2:T50	
+R13	treats Arg1:T63 Arg2:T62	

@@ -81,7 +81,6 @@ R9	causes_or_contributes_to Arg1:T7 Arg2:T5
 R10	treats Arg1:T40 Arg2:T41
 R11	treats Arg1:T40 Arg2:T41
 R12	causes_or_contributes_to Arg1:T40 Arg2:T44
-R13	causes_or_contributes_to Arg1:T40 Arg2:T45
 R14	treats Arg1:T58 Arg2:T54
 R15	treats Arg1:T14 Arg2:T16
 R16	treats Arg1:T70 Arg2:T71
@@ -90,3 +89,6 @@ R18	causes_or_contributes_to Arg1:T18 Arg2:T21
 R19	treats Arg1:T27 Arg2:T28
 R20	treats Arg1:T27 Arg2:T29
 R21	treats Arg1:T27 Arg2:T30
+T72	corrected_chemical 2210 2224	glucocorticoid
+R22	causes_or_contributes_to Arg1:T72 Arg2:T45	
+R13	causes_or_contributes_to Arg1:T40 Arg2:T42	

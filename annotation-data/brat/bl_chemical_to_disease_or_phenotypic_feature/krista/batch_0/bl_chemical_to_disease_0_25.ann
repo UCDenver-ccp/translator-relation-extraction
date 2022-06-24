@@ -75,3 +75,12 @@ R5	treats Arg1:T1 Arg2:T2
 R6	causes_or_contributes_to Arg1:T3 Arg2:T4
 R7	treats Arg1:T36 Arg2:T33
 R8	causes_or_contributes_to Arg1:T5 Arg2:T4
+T70	missed_disease 214 217	MDH
+R9	causes_or_contributes_to Arg1:T3 Arg2:T70	
+R10	causes_or_contributes_to Arg1:T5 Arg2:T70	
+T71	corrected_disease 326 347	alcohol use disorders
+T72	missed_disease 349 352	AUD
+R11	causes_or_contributes_to Arg1:T7 Arg2:T71	
+R12	causes_or_contributes_to Arg1:T7 Arg2:T72	
+T73	corrected_chemical 2807 2811	drug
+R13	treats Arg1:T73 Arg2:T54	

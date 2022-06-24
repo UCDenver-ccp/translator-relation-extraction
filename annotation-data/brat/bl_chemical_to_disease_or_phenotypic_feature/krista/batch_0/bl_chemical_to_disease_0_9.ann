@@ -88,3 +88,8 @@ R11	treats Arg1:T76 Arg2:T75
 R12	treats Arg1:T12 Arg2:T14
 R13	treats Arg1:T29 Arg2:T32
 R14	treats Arg1:T59 Arg2:T58
+T77	missed_disease 1626 1638	inflammatory
+R15	treats Arg1:T34 Arg2:T77	
+T78	corrected_disease 2859 2865	asthma
+R16	treats Arg1:T59 Arg2:T78	
+R17	treats Arg1:T60 Arg2:T78	

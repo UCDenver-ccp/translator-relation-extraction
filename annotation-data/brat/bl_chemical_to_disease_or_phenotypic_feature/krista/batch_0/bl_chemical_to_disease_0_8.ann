@@ -59,3 +59,8 @@ T58	disease 4180 4218	relapsing-remitting multiple sclerosis
 R1	treats Arg1:T52 Arg2:T51
 R2	treats Arg1:T57 Arg2:T58
 R3	treats Arg1:T31 Arg2:T33
+T59	corrected_chemical 2383 2397	antidepressant
+R4	treats Arg1:T59 Arg2:T34	
+T60	missed_chemical 3590 3598	levodopa
+T61	missed_disease 3607 3617	dyskinesia
+R5	causes_or_contributes_to Arg1:T60 Arg2:T61	

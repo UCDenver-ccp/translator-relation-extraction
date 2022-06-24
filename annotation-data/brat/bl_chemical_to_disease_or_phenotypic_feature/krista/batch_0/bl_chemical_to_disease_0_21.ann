@@ -55,3 +55,9 @@ R2	causes_or_contributes_to Arg1:T27 Arg2:T25
 R3	treats Arg1:T9 Arg2:T10
 R4	treats Arg1:T33 Arg2:T34
 R5	causes_or_contributes_to Arg1:T26 Arg2:T25
+T53	missed_disease 1756 1760	ANFH
+R6	causes_or_contributes_to Arg1:T26 Arg2:T53	
+R7	causes_or_contributes_to Arg1:T27 Arg2:T53	
+T54	missed_chemical 3274 3282	asbestos
+T55	corrected_disease 3274 3298	asbestos-related disease
+R8	causes_or_contributes_to Arg1:T54 Arg2:T55	

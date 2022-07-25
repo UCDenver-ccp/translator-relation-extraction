@@ -11,7 +11,6 @@ T10	chemical 535 544	Sorafenib
 T11	chemical 578 587	inhibitor
 T12	disease_or_phenotypic_feature 635 652	pancreatic cancer
 T13	chemical 706 718	mitoxantrone
-T14	chemical 740 744	drug
 T15	disease_or_phenotypic_feature 773 787	carcinosarcoma
 T16	chemical 839 843	drug
 T17	chemical 1016 1020	drug
@@ -28,7 +27,6 @@ T27	chemical 1438 1446	estrogen
 T28	chemical 1480 1492	progesterone
 T29	disease_or_phenotypic_feature 1549 1562	breast cancer
 T30	chemical 1653 1663	carbon-ion
-T31	disease_or_phenotypic_feature 1653 1663	carbon-ion
 T32	disease_or_phenotypic_feature 1681 1704	head and neck carcinoma
 T33	chemical 1723 1738	Povidone-iodine
 T34	disease_or_phenotypic_feature 1754 1762	cataract
@@ -60,3 +58,54 @@ T59	chemical 2858 2867	inhibitor
 T60	chemical 2868 2878	infliximab
 T61	chemical 2892 2906	growth-hormone
 T62	disease_or_phenotypic_feature 2929 2942	hyperglycemia
+T63	corrected_disease_or_phenotypic_feature 21 34	kidney injury
+R1	causes_or_contributes_to Arg1:T1 Arg2:T63	
+T64	corrected_chemical 566 587	multikinase inhibitor
+T65	missed_disease_or_phenotypic_feature 617 623	tumors
+R2	treats Arg1:T13 Arg2:T15	
+T67	missed_disease_or_phenotypic_feature 803 814	RG-2 tumors
+T68	missed_disease_or_phenotypic_feature 915 920	tumor
+T69	missed_disease_or_phenotypic_feature 924 929	tumor
+T70	missed_disease_or_phenotypic_feature 952 958	tumors
+T71	corrected_chemical 1067 1099	tumor necrosis factor inhibitors
+T72	missed_chemical 1147 1160	interleukin-6
+T73	missed_chemical 1334 1355	antineoplastic agents
+T74	missed_disease_or_phenotypic_feature 1186 1200	Tumour hypoxia
+T75	missed_chemical 1280 1321	bioreductive (hypoxia-activated) prodrugs
+T76	missed_disease_or_phenotypic_feature 1403 1417	breast cancers
+R3	treats Arg1:T30 Arg2:T32	
+T79	missed_disease_or_phenotypic_feature 1617 1646	nasolacrimal duct obstruction
+R4	treats Arg1:T33 Arg2:T31	
+R5	treats Arg1:T35 Arg2:T38	
+T86	corrected_disease_or_phenotypic_feature 2285 2311	benign pancreatic diseases
+T87	corrected_disease_or_phenotypic_feature 2331 2345	benign disease
+T88	corrected_chemical 2377 2395	topical anesthesia
+T89	corrected_chemical 2559 2577	C-Reactive Protein
+T90	corrected_chemical 2526 2544	Apolipoprotein A-I
+T91	corrected_chemical 2669 2693	Isorhamnetin-3-glucoside
+T92	missed_disease_or_phenotypic_feature 2705 2721	oxidative stress
+T93	missed_disease_or_phenotypic_feature 2726 2739	opacification
+T94	corrected_disease_or_phenotypic_feature 2743 2760	selenite cataract
+R11	treats Arg1:T91 Arg2:T92	
+R12	treats Arg1:T91 Arg2:T93	
+R13	treats Arg1:T91 Arg2:T94	
+T95	corrected_disease_or_phenotypic_feature 2808 2826	psoriasis vulgaris
+T96	corrected_chemical 2836 2878	tumor necrosis factor inhibitor infliximab
+R14	treats Arg1:T96 Arg2:T57	
+R15	treats Arg1:T96 Arg2:T95	
+T97	corrected_disease_or_phenotypic_feature 2920 2942	neonatal hyperglycemia
+T98	missed_chemical 2880 2887	Insulin
+R16	treats Arg1:T98 Arg2:T97	
+R18	treats Arg1:T10 Arg2:T65	
+R19	treats Arg1:T10 Arg2:T12	
+R20	treats Arg1:T64 Arg2:T65	
+R21	treats Arg1:T64 Arg2:T12	
+T99	missed_disease_or_phenotypic_feature 740 761	drug-resistant tumors
+R22	treats Arg1:T13 Arg2:T99	
+R23	treats Arg1:T71 Arg2:T20	
+R24	treats Arg1:T75 Arg2:T24	
+R25	treats Arg1:T73 Arg2:T24	
+R6	treats Arg1:T61 Arg2:T97	
+T14	missed_disease_or_phenotypic_feature 663 678	adverse effects
+R7	causes_or_contributes_to Arg1:T13 Arg2:T14	
+T31	missed_disease_or_phenotypic_feature 1739 1749	antisepsis

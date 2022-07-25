@@ -63,3 +63,30 @@ T62	disease_or_phenotypic_feature 2501 2534	non-alcoholic fatty liver disease
 T63	chemical 2515 2520	fatty
 T64	chemical 2563 2570	glycine
 T65	chemical 2687 2694	glycine
+T66	missed_disease_or_phenotypic_feature 240 252	inflammation
+T67	corrected_chemical 401 427	actor VIII-related antigen
+T68	corrected_disease_or_phenotypic_feature 485 513	angiogenesis-dependent tumor
+R1	treats Arg1:T12 Arg2:T68	
+T69	missed_disease_or_phenotypic_feature 926 953	serum electrolyte unbalance
+T70	missed_disease_or_phenotypic_feature 955 977	renal oxidative stress
+T71	missed_disease_or_phenotypic_feature 1200 1214	tumor hormonal
+T72	corrected_chemical 1259 1274	Hydrogen saline
+R2	treats Arg1:T72 Arg2:T34	
+T73	missed_chemical 1387 1395	asbestos
+T74	missed_chemical 1397 1404	smoking
+T75	missed_chemical 1406 1414	sunlight
+T76	corrected_chemical 1425 1435	fatty food
+R3	treats Arg1:T40 Arg2:T42	
+T77	missed_disease_or_phenotypic_feature 1584 1611	olfactory epithelial damage
+T78	missed_disease_or_phenotypic_feature 1664 1676	inflammation
+R4	treats Arg1:T44 Arg2:T78	
+T79	corrected_disease_or_phenotypic_feature 1655 1676	allergic inflammation
+T80	missed_disease_or_phenotypic_feature 1837 1849	hypertension
+T81	missed_disease_or_phenotypic_feature 1867 1875	diabetes
+T82	missed_chemical 1921 1938	epithelial Hif1-α
+T83	missed_chemical 1974 1978	IELs
+T84	corrected_disease_or_phenotypic_feature 1982 2019	NSAID-induced small intestinal injury
+T85	corrected_disease_or_phenotypic_feature 2052 2090	dextran sulfate sodium-induced colitis
+R5	treats Arg1:T65 Arg2:T60	
+R6	treats Arg1:T65 Arg2:T62	
+R7	treats Arg1:T65 Arg2:T60	

@@ -62,3 +62,20 @@ T61	chemical 2740 2762	aldosterone antagonist
 T62	disease_or_phenotypic_feature 2810 2823	heart failure
 T63	disease_or_phenotypic_feature 2914 2921	pan-MMP
 T64	chemical 2922 2931	inhibitor
+R1	treats Arg1:T15 Arg2:T65	
+T65	corrected_disease_or_phenotypic_feature 486 506	melanoma solid tumor
+R2	causes_or_contributes_to Arg1:T17 Arg2:T65	
+T66	corrected_chemical 2054 2073	Antiarrhythmic drug
+R3	treats Arg1:T66 Arg2:T49	
+T67	corrected_chemical 2357 2380	tumor-rejection antigen
+T68	corrected_disease_or_phenotypic_feature 2471 2488	epithelial cancer
+R4	treats Arg1:T67 Arg2:T68	
+T69	missed_chemical 2382 2390	SART1259
+R5	treats Arg1:T69 Arg2:T68	
+T70	corrected_chemical 2668 2682	ACE inhibitors
+R6	treats Arg1:T70 Arg2:T59	
+T71	missed_disease_or_phenotypic_feature 2784 2805	systemic hypertension
+R7	treats Arg1:T60 Arg2:T71	
+R8	treats Arg1:T61 Arg2:T71	
+R9	treats Arg1:T60 Arg2:T62	
+R10	treats Arg1:T61 Arg2:T62	

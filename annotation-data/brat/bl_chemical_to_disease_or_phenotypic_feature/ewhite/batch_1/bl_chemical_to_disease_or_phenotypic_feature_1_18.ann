@@ -68,3 +68,41 @@ T67	chemical 2603 2610	ghrelin
 T68	chemical 2629 2639	inhibitors
 T69	disease_or_phenotypic_feature 2676 2683	obesity
 T70	disease_or_phenotypic_feature 2688 2696	diabetes
+R1	treats Arg1:T2 Arg2:T1	
+T71	missed_chemical 191 195	DMBA
+T72	missed_disease_or_phenotypic_feature 222 228	tumors
+R2	causes_or_contributes_to Arg1:T71 Arg2:T72	
+R3	causes_or_contributes_to Arg1:T4 Arg2:T72	
+T73	missed_disease_or_phenotypic_feature 578 594	tumor metastasis
+T74	missed_chemical 537 541	FPPC
+R4	treats Arg1:T74 Arg2:T73	
+R5	treats Arg1:T74 Arg2:T15	
+T75	corrected_chemical 461 535	folate-mediated and acid-activated chidamide-grafted drug-delivery carrier
+R6	treats Arg1:T75 Arg2:T73	
+R7	treats Arg1:T75 Arg2:T15	
+R8	treats Arg1:T16 Arg2:T18	
+R9	treats Arg1:T21 Arg2:T19	
+T76	missed_chemical 1163 1165	RC
+R10	treats Arg1:T76 Arg2:T27	
+R11	treats Arg1:T76 Arg2:T28	
+R12	treats Arg1:T76 Arg2:T30	
+T77	corrected_disease_or_phenotypic_feature 1228 1245	hepatic steatosis
+R13	treats Arg1:T76 Arg2:T77	
+R14	treats Arg1:T25 Arg2:T27	
+R15	treats Arg1:T25 Arg2:T28	
+R16	treats Arg1:T25 Arg2:T77	
+R17	treats Arg1:T25 Arg2:T30	
+R18	causes_or_contributes_to Arg1:T40 Arg2:T39	
+T78	missed_chemical 1892 1895	DFs
+R19	treats Arg1:T78 Arg2:T45	
+R20	treats Arg1:T78 Arg2:T46	
+R21	treats Arg1:T78 Arg2:T47	
+T79	missed_disease_or_phenotypic_feature 2084 2090	tumors
+R22	causes_or_contributes_to Arg1:T49 Arg2:T79	
+R23	causes_or_contributes_to Arg1:T55 Arg2:T58	
+T80	corrected_chemical 2247 2283	platinum-based chemotherapeutic drug
+R24	causes_or_contributes_to Arg1:T80 Arg2:T58	
+R25	treats Arg1:T63 Arg2:T65	
+T81	corrected_chemical 2590 2639	nhibitors of ghrelin O-acyltransferase inhibitors
+R26	treats Arg1:T81 Arg2:T69	
+R27	treats Arg1:T81 Arg2:T70	

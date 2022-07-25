@@ -69,3 +69,24 @@ T68	disease_or_phenotypic_feature 2431 2445	hyperlipidemia
 T69	chemical 2468 2475	antigen
 T70	disease_or_phenotypic_feature 2485 2491	cancer
 T71	chemical 2549 2557	antigens
+T72	corrected_disease_or_phenotypic_feature 13 25	renal anemia
+T73	missed_chemical 72 77	BMSCs
+R1	causes_or_contributes_to Arg1:T73 Arg2:T4	
+T74	corrected_disease_or_phenotypic_feature 161 182	arterial hypertension
+T75	missed_disease_or_phenotypic_feature 666 679	porphyrinuria
+T76	missed_chemical 964 969	BCAAs
+T77	missed_chemical 998 1003	BCAAs
+T78	missed_chemical 1061 1065	BCAA
+T79	missed_chemical 1096 1113	alpha-adrenolytic
+R2	treats Arg1:T43 Arg2:T44	
+R3	treats Arg1:T43 Arg2:T45	
+R4	treats Arg1:T53 Arg2:T56	
+T80	corrected_chemical 2202 2221	Kv7 channel agonist
+R5	treats Arg1:T80 Arg2:T62	
+T81	missed_disease_or_phenotypic_feature 2239 2278	cisplatin-induced peripheral neuropathy
+T82	corrected_chemical 2280 2307	Buckwheat trypsin inhibitor
+T83	missed_chemical 2309 2312	BTI
+R6	treats Arg1:T82 Arg2:T66	
+R7	treats Arg1:T82 Arg2:T67	
+R8	treats Arg1:T82 Arg2:T68	
+T84	DONE 2559 2563	DONE

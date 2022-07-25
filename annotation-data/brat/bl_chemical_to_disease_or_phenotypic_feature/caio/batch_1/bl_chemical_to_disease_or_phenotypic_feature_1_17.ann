@@ -65,3 +65,29 @@ T64	disease_or_phenotypic_feature 2598 2606	cataract
 T65	chemical 2616 2626	anesthesia
 T66	chemical 2633 2642	lidocaine
 T67	disease_or_phenotypic_feature 2651 2659	cataract
+T68	corrected_chemical 106 122	ectopic hormones
+T69	corrected_disease_or_phenotypic_feature 273 298	intraoperative blood loss
+R1	treats Arg1:T11 Arg2:T13	
+T70	corrected_chemical 609 635	DNA methylation inhibitor.
+T71	missed_chemical 636 654	Carbonic anhydrase
+T72	corrected_chemical 702 731;738 748	Angiotensin converting enzyme inhibitors
+R2	treats Arg1:T72 Arg2:T20	
+T73	missed_disease_or_phenotypic_feature 895 910	fluid retention
+T74	missed_chemical 934 953	Fluoxetine overdose
+R3	causes_or_contributes_to Arg1:T74 Arg2:T26	
+R4	causes_or_contributes_to Arg1:T74 Arg2:T27	
+T75	missed_disease_or_phenotypic_feature 1027 1041	rhabdomyolysis
+R5	causes_or_contributes_to Arg1:T74 Arg2:T75	
+T76	corrected_disease_or_phenotypic_feature 1043 1066	Congenital microcephaly
+T77	missed_chemical 1246 1269	cytotoxic T-lymphocytes
+T78	missed_chemical 1658 1667	collyrium
+T79	missed_disease_or_phenotypic_feature 1809 1823	Hypomagnesemia
+T80	corrected_chemical 1941 1963	proton-pump inhibitors
+R6	treats Arg1:T48 Arg2:T49	
+T81	missed_disease_or_phenotypic_feature 2275 2285	narcolepsy
+R7	treats Arg1:T50 Arg2:T51	
+R8	treats Arg1:T50 Arg2:T81	
+R9	treats Arg1:T50 Arg2:T52	
+T82	corrected_disease_or_phenotypic_feature 2324 2365	malignant fibroblastic histiocytic tumors
+T83	corrected_disease_or_phenotypic_feature 2410 2429	hepatic dysfunction
+T84	DONE 2669 2673	DONE

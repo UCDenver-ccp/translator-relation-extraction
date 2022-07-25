@@ -1,61 +1,28 @@
 T1	chemical 0 14	Growth hormone
-T2	disease_or_phenotypic_feature 39 63	neurofibromatosis type 1
-T3	disease_or_phenotypic_feature 88 93	optic
 T4	disease_or_phenotypic_feature 110 121	Skin cancer
 T5	disease_or_phenotypic_feature 123 143	rheumatoid arthritis
-T6	chemical 171 181	inhibitors
 T7	chemical 183 193	Fluoxetine
 T8	disease_or_phenotypic_feature 211 217	autism
-T9	chemical 271 278	antigen
-T10	chemical 321 328	antigen
-T11	disease_or_phenotypic_feature 340 350	artificial
-T12	chemical 358 365	antigen
-T13	chemical 366 373	epitope
-T14	chemical 421 428	antigen
-T15	chemical 451 458	antigen
 T16	disease_or_phenotypic_feature 462 468	cancer
-T17	chemical 501 510	Oxidative
-T18	chemical 583 586	AMD
 T19	disease_or_phenotypic_feature 583 586	AMD
 T20	disease_or_phenotypic_feature 591 599	cataract
-T21	chemical 601 609	Dopamine
 T22	chemical 641 652	amphetamine
 T23	chemical 661 669	dopamine
 T24	disease_or_phenotypic_feature 681 688	obesity
-T25	chemical 694 704	inhibitors
 T26	chemical 710 717	digoxin
 T27	disease_or_phenotypic_feature 748 761	heart failure
-T28	chemical 763 772	Vitamin D
-T29	disease_or_phenotypic_feature 818 826	diabetic
-T30	disease_or_phenotypic_feature 827 848	peripheral neuropathy
-T31	chemical 872 881	biomarker
 T32	disease_or_phenotypic_feature 886 907	peripheral neuropathy
 T33	disease_or_phenotypic_feature 980 993	breast cancer
 T34	chemical 1040 1049	estradiol
-T35	chemical 1111 1118	hormone
-T36	chemical 1182 1190	estrogen
-T37	chemical 1200 1207	hormone
 T38	disease_or_phenotypic_feature 1231 1245	POEMS syndrome
 T39	disease_or_phenotypic_feature 1247 1271	congestive heart failure
 T40	chemical 1276 1287	thalidomide
-T41	chemical 1289 1293	food
-T42	chemical 1327 1337	anesthetic
 T43	disease_or_phenotypic_feature 1358 1369	hypokalemia
-T44	chemical 1371 1380	Pazopanib
-T45	chemical 1415 1422	retinal
-T46	disease_or_phenotypic_feature 1423 1428	wound
-T47	disease_or_phenotypic_feature 1507 1511	pale
-T48	chemical 1583 1593	anesthesia
-T49	disease_or_phenotypic_feature 1598 1606	cataract
-T50	chemical 1639 1649	alfentanil
-T51	chemical 1659 1662	N2O
 T52	chemical 1679 1691	Nitric oxide
-T53	chemical 1701 1708	biology
 T54	disease_or_phenotypic_feature 1713 1719	cancer
 T55	chemical 1729 1737	Propofol
 T56	chemical 1756 1766	anesthetic
-T57	disease_or_phenotypic_feature 1804 1821	cerebral ischemia
-T58	disease_or_phenotypic_feature 1833 1839	injury
+T57	disease_or_phenotypic_feature 1833 1839	injury
 T59	chemical 1853 1862	vitamin E
 T60	chemical 1884 1900	ferrous chloride
 T61	disease_or_phenotypic_feature 1901 1909	seizures
@@ -72,3 +39,57 @@ T71	disease_or_phenotypic_feature 2145 2162	cerebellar ataxia
 T72	disease_or_phenotypic_feature 2281 2287	ptosis
 T73	disease_or_phenotypic_feature 2330 2337	obesity
 T74	chemical 2355 2369	growth hormone
+T3	disease_or_phenotypic_feature 79 108	sporadic optic pathway tumors
+R2	causes_or_contributes_to Arg1:T1 Arg2:T3	
+T75	corrected_chemical 149 181	tumor necrosis factor inhibitors
+T9	chemical 391 428	Nipple fluid carcinoembryonic antigen
+T10	chemical 433 458	prostate-specific antigen
+T11	corrected_chemical 690 704	ACE inhibitors
+R13	treats Arg1:T11 Arg2:T27	
+R14	treats Arg1:T26 Arg2:T27	
+T14	missed_disease_or_phenotypic_feature 928 948	with type 2 diabetes
+T15	missed_chemical 1008 1022	growth factors
+R15	causes_or_contributes_to Arg1:T15 Arg2:T33	
+R16	causes_or_contributes_to Arg1:T34 Arg2:T33	
+T21	missed_disease_or_phenotypic_feature 1111 1159	hormone independent (HI) GR mouse mammary tumors
+T25	missed_disease_or_phenotypic_feature 1182 1229	estrogen-depleted hormone dependent (HD) tumors
+R17	treats Arg1:T52 Arg2:T54	
+T28	corrected_disease_or_phenotypic_feature 1825 1839	hypoxia injury
+T31	chemical 1583 1593	anesthesia
+T35	disease_or_phenotypic_feature 1598 1606	cataract
+T18	corrected_disease_or_phenotypic_feature 818 848	diabetic peripheral neuropathy
+T29	chemical 1371 1380	Pazopanib
+T36	disease_or_phenotypic_feature 1507 1525	pale laser lesions
+T41	corrected_disease_or_phenotypic_feature 1884 1909	ferrous chloride seizures
+R20	treats Arg1:T59 Arg2:T41	
+T42	corrected_disease_or_phenotypic_feature 1911 1937	hyperbaric oxygen seizures
+R21	treats Arg1:T59 Arg2:T42	
+T44	corrected_disease_or_phenotypic_feature 1942 1969	penicillin-induced seizures
+T45	corrected_chemical 1998 2023	prostate-specific antigen
+T46	corrected_chemical 2043 2059	antigen (CA)15.3
+T47	corrected_chemical 2104 2124	anticonvulsant drugs
+T48	missed_disease_or_phenotypic_feature 2130 2140	somnolence
+T50	missed_disease_or_phenotypic_feature 2230 2253	PurposePREPL deficiency
+T51	missed_disease_or_phenotypic_feature 2261 2279	neonatal hypotonia
+T53	missed_disease_or_phenotypic_feature 2289 2318	neonatal feeding difficulties
+T76	missed_disease_or_phenotypic_feature 2339 2349	xerostomia
+T77	corrected_disease_or_phenotypic_feature 2320 2337	childhood obesity
+T78	missed_disease_or_phenotypic_feature 2355 2380	growth hormone deficiency
+T79	missed_disease_or_phenotypic_feature 1321 1354	local anesthetic cardiac toxicity
+T80	chemical 763 772	Vitamin D
+R22	treats Arg1:T80 Arg2:T18	
+R25	treats Arg1:T59 Arg2:T44	
+T13	missed_chemical 1942 1952	penicillin
+R26	causes_or_contributes_to Arg1:T13 Arg2:T64	
+T82	disease_or_phenotypic_feature 102 108;39 74	tumors neurofibromatosis type 1-associated
+R1	causes_or_contributes_to Arg1:T1 Arg2:T82	
+T6	chemical 601 609	Dopamine
+R5	causes_or_contributes_to Arg1:T29 Arg2:T36	
+T12	disease_or_phenotypic_feature 1415 1428	retinal wound
+T17	disease_or_phenotypic_feature 1804 1821	cerebral ischemia
+R8	treats Arg1:T55 Arg2:T17	
+R9	treats Arg1:T55 Arg2:T28	
+R10	treats Arg1:T47 Arg2:T69	
+T30	chemical 2204 2228	low dose anticonvulsants
+R11	causes_or_contributes_to Arg1:T30 Arg2:T48	
+R12	causes_or_contributes_to Arg1:T30 Arg2:T71	

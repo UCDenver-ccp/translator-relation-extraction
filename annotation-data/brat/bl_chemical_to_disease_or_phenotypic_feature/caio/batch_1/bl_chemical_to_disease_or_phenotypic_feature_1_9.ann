@@ -53,3 +53,22 @@ T52	disease_or_phenotypic_feature 2553 2569	hypophosphatemia
 T53	disease_or_phenotypic_feature 2571 2585	hypomagnesemia
 T54	disease_or_phenotypic_feature 2590 2603	hyperglycemia
 T55	chemical 2631 2638	enzymes
+T56	missed_disease_or_phenotypic_feature 75 99	Oxidative Stress-Induced
+T57	corrected_chemical 315 338	Vasopressin antagonists
+R1	treats Arg1:T57 Arg2:T9	
+R2	causes_or_contributes_to Arg1:T10 Arg2:T12	
+T58	missed_disease_or_phenotypic_feature 928 951	hormone-dependent tumor
+R3	treats Arg1:T22 Arg2:T24	
+T59	missed_chemical 1376 1384	cytokine
+T60	corrected_disease_or_phenotypic_feature 1456 1469	kidney injury
+R4	causes_or_contributes_to Arg1:T28 Arg2:T60	
+T61	missed_disease_or_phenotypic_feature 1631 1645	breast cancers
+T62	corrected_chemical 1708 1738	progesterone receptor-positive
+R5	causes_or_contributes_to Arg1:T62 Arg2:T32	
+T63	corrected_chemical 1819 1836	hyperbaric oxygen
+R6	treats Arg1:T63 Arg2:T34	
+T64	missed_chemical 1948 1951	CPT
+R7	treats Arg1:T64 Arg2:T36	
+T65	missed_disease_or_phenotypic_feature 2233 2245	hypertension
+T66	missed_disease_or_phenotypic_feature 2287 2305	impaired pulmonary
+T67	DONE 2654 2658	DONE

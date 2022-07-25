@@ -51,3 +51,19 @@ T50	chemical 2475 2489	5-fluorouracil
 T51	chemical 2624 2632	nicotine
 T52	disease_or_phenotypic_feature 2673 2704	intrauterine growth retardation
 T53	disease_or_phenotypic_feature 2719 2743	behavioral abnormalities
+R1	treats Arg1:T17 Arg2:T19	
+R2	treats Arg1:T18 Arg2:T19	
+R3	treats Arg1:T24 Arg2:T26	
+T54	corrected_chemical 1165 1186	multikinase inhibitor
+R4	treats Arg1:T54 Arg2:T26	
+R5	treats Arg1:T34 Arg2:T35	
+T55	corrected_chemical 1905 1933	immune checkpoint inhibitors
+R6	treats Arg1:T55 Arg2:T40	
+T56	corrected_chemical 2248 2278	oral cocaine-morphine solution
+T57	corrected_chemical 2280 2296	Brompton mixture
+T58	missed_disease_or_phenotypic_feature 2318 2329	severe pain
+R7	treats Arg1:T56 Arg2:T58	
+R8	treats Arg1:T57 Arg2:T58	
+T59	corrected_disease_or_phenotypic_feature 2709 2743	postnatal behavioral abnormalities
+R9	causes_or_contributes_to Arg1:T51 Arg2:T52	
+R10	causes_or_contributes_to Arg1:T51 Arg2:T59	

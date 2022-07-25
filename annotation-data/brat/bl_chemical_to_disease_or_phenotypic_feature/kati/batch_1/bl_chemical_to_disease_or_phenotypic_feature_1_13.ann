@@ -21,7 +21,6 @@ T20	disease_or_phenotypic_feature 851 868	mucinous neoplasm
 T21	disease_or_phenotypic_feature 870 875	IPMN)
 T22	chemical 902 912	biomarkers
 T23	chemical 937 946	Melatonin
-T24	chemical 1015 1022	hormone
 T25	disease_or_phenotypic_feature 1023 1032	dependent
 T26	disease_or_phenotypic_feature 1069 1109	idiopathic thrombocytopenic purpura(ITP)
 T27	disease_or_phenotypic_feature 1097 1109	purpura(ITP)
@@ -29,7 +28,6 @@ T28	chemical 1097 1109	purpura(ITP)
 T29	disease_or_phenotypic_feature 1111 1122	hepatitis B
 T30	disease_or_phenotypic_feature 1128 1145	diabetes mellitus
 T31	chemical 1167 1175	guaiacol
-T32	chemical 1187 1194	hormone
 T33	disease_or_phenotypic_feature 1195 1204	dependent
 T34	chemical 1265 1272	hormone
 T35	chemical 1299 1309	inhibitors
@@ -41,7 +39,6 @@ T40	chemical 1434 1438	food
 T41	disease_or_phenotypic_feature 1460 1467	obesity
 T42	chemical 1469 1485	Propylthiouracil
 T43	disease_or_phenotypic_feature 1486 1502	hypersensitivity
-T44	chemical 1536 1540	drug
 T45	disease_or_phenotypic_feature 1560 1582	sensorineural deafness
 T46	chemical 1599 1610	Scutellarin
 T47	disease_or_phenotypic_feature 1647 1661	osteoarthritis
@@ -63,3 +60,28 @@ T62	chemical 2302 2306	date
 T63	chemical 2324 2328	date
 T64	disease_or_phenotypic_feature 2371 2377	cancer
 T65	chemical 2378 2385	antigen
+T66	corrected_chemical 275 289	low-oxygen gas
+T67	corrected_disease_or_phenotypic_feature 228 243	Fetal hypoxemia
+R1	causes_or_contributes_to Arg1:T66 Arg2:T67	
+T68	missed_disease_or_phenotypic_feature 500 515	anti-angiogenic
+R2	causes_or_contributes_to Arg1:T13 Arg2:T68	
+R3	treats Arg1:T13 Arg2:T14	
+T24	corrected_disease_or_phenotypic_feature 1015 1039	hormone-dependent tumors
+R4	treats Arg1:T23 Arg2:T24	
+T69	missed_chemical 1238 1248	peroxidase
+T32	corrected_disease_or_phenotypic_feature 1187 1212	hormone-dependent tumours
+R5	causes_or_contributes_to Arg1:T69 Arg2:T32	
+T70	corrected_chemical 1295 1309	ACE inhibitors
+R6	treats Arg1:T70 Arg2:T36	
+R7	causes_or_contributes_to Arg1:T42 Arg2:T72	
+T72	corrected_disease_or_phenotypic_feature 1536 1582	drug-induced reversible sensorineural deafness
+R8	causes_or_contributes_to Arg1:T42 Arg2:T43	
+T44	missed_disease_or_phenotypic_feature 1622 1643	cartilage destruction
+R9	treats Arg1:T46 Arg2:T44	
+R10	treats Arg1:T46 Arg2:T47	
+T71	corrected_disease_or_phenotypic_feature 1831 1852	GH secreting adenomas
+T73	missed_disease_or_phenotypic_feature 1856 1866	acromegaly
+R11	treats Arg1:T48 Arg2:T71	
+R12	treats Arg1:T49 Arg2:T71	
+R13	treats Arg1:T48 Arg2:T73	
+R14	treats Arg1:T49 Arg2:T73	

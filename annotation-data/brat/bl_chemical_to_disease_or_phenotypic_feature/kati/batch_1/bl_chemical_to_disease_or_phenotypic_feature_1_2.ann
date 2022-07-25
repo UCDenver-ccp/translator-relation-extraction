@@ -61,3 +61,35 @@ T60	disease_or_phenotypic_feature 2511 2524	hypercalcemia
 T61	disease_or_phenotypic_feature 2525 2539	hypercalciuria
 T62	chemical 2639 2646	hormone
 T63	disease_or_phenotypic_feature 2661 2670	pituitary
+T64	corrected_chemical 20 39	calcium antagonists
+T65	missed_disease_or_phenotypic_feature 101 112	arrhythmias
+T66	missed_disease_or_phenotypic_feature 175 184;206 214	pulmonary diseases
+R1	treats Arg1:T64 Arg2:T3	
+R2	treats Arg1:T64 Arg2:T65	
+R3	treats Arg1:T64 Arg2:T4	
+R4	treats Arg1:T64 Arg2:T5	
+R5	treats Arg1:T64 Arg2:T66	
+R6	treats Arg1:T64 Arg2:T6	
+T67	missed_disease_or_phenotypic_feature 235 258	lichenoid drug eruption
+R7	causes_or_contributes_to Arg1:T7 Arg2:T67	
+R8	treats Arg1:T14 Arg2:T16	
+T68	corrected_chemical 450 487	selective inhibitor of the proteasome
+R9	treats Arg1:T68 Arg2:T16	
+T69	missed_disease_or_phenotypic_feature 527 532	tumor
+R10	treats Arg1:T14 Arg2:T69	
+R11	treats Arg1:T68 Arg2:T69	
+T70	corrected_disease_or_phenotypic_feature 818 841	hypertonic contractures
+R12	causes_or_contributes_to Arg1:T21 Arg2:T70	
+T71	missed_chemical 1142 1152	filgotinib
+T72	corrected_disease_or_phenotypic_feature 1060 1087	uncomplicated herpes zoster
+T73	corrected_disease_or_phenotypic_feature 1100 1122	retinal vein occlusion
+R13	causes_or_contributes_to Arg1:T71 Arg2:T72	
+R14	causes_or_contributes_to Arg1:T71 Arg2:T30	
+T74	corrected_chemical 1288 1304	PCSK9 inhibitors
+T75	missed_disease_or_phenotypic_feature 1343 1347	T2DM
+R15	treats Arg1:T74 Arg2:T75	
+T76	missed_disease_or_phenotypic_feature 1320 1332	plasma LDL-C
+R16	treats Arg1:T74 Arg2:T76	
+T77	corrected_chemical 2455 2478	oral alendronate sodium
+R17	treats Arg1:T77 Arg2:T60	
+R18	treats Arg1:T77 Arg2:T61	

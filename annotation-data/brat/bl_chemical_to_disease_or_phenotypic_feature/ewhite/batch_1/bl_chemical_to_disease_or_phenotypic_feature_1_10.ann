@@ -53,3 +53,45 @@ T52	disease_or_phenotypic_feature 1858 1872	bladder cancer
 T53	disease_or_phenotypic_feature 1932 1943	visual loss
 T54	chemical 1977 1987	anesthesia
 T55	disease_or_phenotypic_feature 1992 2000	cataract
+T56	corrected_chemical 1 15	ACE inhibitors
+R1	treats Arg1:T56 Arg2:T2	
+T57	missed_disease_or_phenotypic_feature 19 31	hypertension
+R2	treats Arg1:T56 Arg2:T57	
+T58	missed_disease_or_phenotypic_feature 93 99	tumors
+R3	causes_or_contributes_to Arg1:T4 Arg2:T58	
+R4	treats Arg1:T6 Arg2:T9	
+T59	corrected_chemical 129 140	adenosine-1
+R5	causes_or_contributes_to Arg1:T59 Arg2:T9	
+T60	corrected_chemical 129 160	adenosine-1 receptor antagonist
+R6	treats Arg1:T59 Arg2:T9	
+T61	missed_disease_or_phenotypic_feature 399 421	adverse drug reactions
+T62	missed_disease_or_phenotypic_feature 443 455	hypertension
+R7	causes_or_contributes_to Arg1:T14 Arg2:T61	
+R8	causes_or_contributes_to Arg1:T14 Arg2:T16	
+R9	causes_or_contributes_to Arg1:T14 Arg2:T62	
+R10	causes_or_contributes_to Arg1:T14 Arg2:T17	
+R11	causes_or_contributes_to Arg1:T19 Arg2:T18	
+R12	treats Arg1:T25 Arg2:T24	
+R13	causes_or_contributes_to Arg1:T26 Arg2:T27	
+R14	causes_or_contributes_to Arg1:T26 Arg2:T28	
+T63	corrected_chemical 908 925	pan-RAF inhibitor
+T64	missed_chemical 844 853	LY3214996
+R15	treats Arg1:T64 Arg2:T31	
+R16	treats Arg1:T63 Arg2:T31	
+R17	causes_or_contributes_to Arg1:T38 Arg2:T39	
+T65	missed_chemical 1373 1389	mood stabilizers
+T66	missed_chemical 1391 1405	antipsychotics
+T67	missed_chemical 1407 1426	antiepileptic drugs
+T68	corrected_chemical 1432 1471	selective serotonin reuptake inhibitors
+R18	causes_or_contributes_to Arg1:T65 Arg2:T44	
+R19	causes_or_contributes_to Arg1:T66 Arg2:T44	
+R20	causes_or_contributes_to Arg1:T67 Arg2:T44	
+R21	causes_or_contributes_to Arg1:T68 Arg2:T44	
+R22	treats Arg1:T65 Arg2:T41	
+R23	treats Arg1:T66 Arg2:T41	
+R24	treats Arg1:T67 Arg2:T41	
+R25	treats Arg1:T68 Arg2:T41	
+R27	treats Arg1:T51 Arg2:T52	
+T69	missed_disease_or_phenotypic_feature 1948 1961	light flashes
+R28	causes_or_contributes_to Arg1:T54 Arg2:T69	
+R29	causes_or_contributes_to Arg1:T54 Arg2:T53	

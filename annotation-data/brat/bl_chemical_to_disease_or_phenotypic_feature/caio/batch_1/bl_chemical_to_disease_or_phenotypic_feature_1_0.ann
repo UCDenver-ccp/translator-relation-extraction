@@ -1,8 +1,6 @@
 T1	chemical 61 71	perampanel
-T2	chemical 92 111	receptor antagonist
 T3	disease_or_phenotypic_feature 116 124	seizures
 T4	disease_or_phenotypic_feature 150 156	glioma
-T5	chemical 220 228	agonists
 T6	chemical 236 247	antagonists
 T7	chemical 251 260	adenosine
 T8	disease_or_phenotypic_feature 289 296	obesity
@@ -11,18 +9,15 @@ T10	disease_or_phenotypic_feature 372 379	obesity
 T11	chemical 458 468	biological
 T12	disease_or_phenotypic_feature 516 529	breast cancer
 T13	chemical 531 540	Pazopanib
-T14	chemical 575 582	retinal
 T15	disease_or_phenotypic_feature 583 588	wound
 T16	disease_or_phenotypic_feature 667 671	pale
 T17	chemical 767 777	inhibitors
-T18	chemical 798 801	ras
 T19	disease_or_phenotypic_feature 802 811	dependent
 T20	chemical 923 927	drug
 T21	disease_or_phenotypic_feature 938 946	seizures
 T22	chemical 1051 1058	hormone
 T23	chemical 1092 1096	ACTH
 T24	disease_or_phenotypic_feature 1125 1143	Cushing's syndrome
-T25	disease_or_phenotypic_feature 1182 1193	Sensitivity
 T26	disease_or_phenotypic_feature 1300 1329	multiple chemical sensitivity
 T27	chemical 1309 1317	chemical
 T28	disease_or_phenotypic_feature 1330 1335	(MCS)
@@ -47,14 +42,12 @@ T46	chemical 1898 1904	leptin
 T47	disease_or_phenotypic_feature 1926 1933	obesity
 T48	disease_or_phenotypic_feature 1945 1953	diabetes
 T49	disease_or_phenotypic_feature 1958 1965	obesity
-T50	disease_or_phenotypic_feature 2029 2039	ameliorate
 T51	disease_or_phenotypic_feature 2040 2057	cerebral ischemia
 T52	chemical 2101 2107	oxygen
 T53	disease_or_phenotypic_feature 2117 2123	Anemia
 T54	chemical 2165 2171	oxygen
 T55	disease_or_phenotypic_feature 2327 2330	AML
 T56	chemical 2372 2380	antigens
-T57	chemical 2425 2429	date
 T58	chemical 2507 2514	antigen
 T59	chemical 2556 2566	biomarkers
 T60	disease_or_phenotypic_feature 2599 2605	cancer
@@ -62,7 +55,61 @@ T61	chemical 2630 2641	biochemical
 T62	disease_or_phenotypic_feature 2659 2667	seminoma
 T63	chemical 2689 2692	sec
 T64	chemical 2694 2697	sed
-T65	disease_or_phenotypic_feature 2714 2717	sei
 T66	chemical 2835 2845	inhibitors
 T67	chemical 2850 2858	platinum
 T68	disease_or_phenotypic_feature 2963 2980	pancreatic cancer
+T69	missed_chemical 73 76	PER
+T71	chemical 87 111	AMPA receptor antagonist
+T2	disease_or_phenotypic_feature 129 134	tumor
+#1	AnnotatorNotes T71	Compartment? 
+R1	treats Arg1:T1 Arg2:T3	
+R2	treats Arg1:T1 Arg2:T2	
+R3	treats Arg1:T1 Arg2:T4	
+R4	treats Arg1:T9 Arg2:T10	
+T5	chemical 220 228	agonists
+R5	treats Arg1:T7 Arg2:T8	
+T70	missed_disease_or_phenotypic_feature 401 419	nsulin sensitivity
+T72	missed_disease_or_phenotypic_feature 424 437	thermogenesis
+T73	missed_disease_or_phenotypic_feature 389 398	lipolysis
+T74	missed_disease_or_phenotypic_feature 452 457	tumor
+T75	missed_disease_or_phenotypic_feature 480 485	tumor
+T14	corrected_disease_or_phenotypic_feature 575 588	retinal wound
+R6	causes_or_contributes_to Arg1:T13 Arg2:T14	
+T76	missed_chemical 747 766	farnesyltransferase
+T77	missed_disease_or_phenotypic_feature 844 852	epilepsy
+T78	missed_disease_or_phenotypic_feature 864 870	tumors
+T79	missed_chemical 994 997	FDG
+T80	missed_disease_or_phenotypic_feature 1069 1075	tumors
+T25	missed_chemical 1395 1398	NOS
+R7	treats Arg1:T25 Arg2:T31	
+R8	causes_or_contributes_to Arg1:T34 Arg2:T35	
+R9	treats Arg1:T36 Arg2:T38	
+R10	treats Arg1:T40 Arg2:T43	
+T50	disease_or_phenotypic_feature 2184 2190	tumors
+T57	disease_or_phenotypic_feature 2581 2586	tumor
+T65	chemical 2830 2834	PARP
+T81	missed_disease_or_phenotypic_feature 2893 2898	tumor
+R11	treats Arg1:T67 Arg2:T81	
+T82	DONE 2982 2986	DONE
+T83	corrected_chemical 748 777	arnesyltransferase inhibitors
+R12	treats Arg1:T83 Arg2:T19	
+T84	corrected_disease_or_phenotypic_feature 798 818	ras-dependent tumors
+T18	corrected_disease_or_phenotypic_feature 1092 1113	ACTH-producing tumors
+T85	corrected_disease_or_phenotypic_feature 1627 1644	malignant gliomas
+T86	missed_chemical 1743 1753	serotonine
+T87	corrected_disease_or_phenotypic_feature 1958 1986	obesity-related hypertension
+T88	corrected_disease_or_phenotypic_feature 1926 1953	obesity-associated diabetes
+T89	missed_chemical 2004 2016	hemodilution
+T90	missed_chemical 2699 2702	see
+T91	missed_chemical 2704 2707	seg
+T92	missed_chemical 2709 2712	seh
+T93	missed_chemical 2714 2717	sei
+T94	missed_chemical 2719 2722	sej
+T95	missed_chemical 2728 2731	tst
+R13	treats Arg1:T9 Arg2:T73	
+R14	treats Arg1:T7 Arg2:T72	
+R15	treats Arg1:T7 Arg2:T70	
+T96	corrected_disease_or_phenotypic_feature 523 529	cancer
+T97	corrected_chemical 2830 2845	PARP inhibitors
+R16	treats Arg1:T97 Arg2:T81	
+R17	treats Arg1:T97 Arg2:T68	

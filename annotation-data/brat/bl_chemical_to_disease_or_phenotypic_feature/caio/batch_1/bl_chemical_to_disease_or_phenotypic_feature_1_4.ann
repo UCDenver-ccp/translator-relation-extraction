@@ -58,3 +58,22 @@ T57	chemical 2415 2420	group
 T58	disease_or_phenotypic_feature 2496 2500	rare
 T59	disease_or_phenotypic_feature 2501 2506	tumor
 T60	chemical 2616 2623	biology
+T61	missed_chemical 34 38	KRAS
+T62	corrected_disease_or_phenotypic_feature 50 68	KRAS mutant tumors
+R1	treats Arg1:T2 Arg2:T62	
+T63	corrected_chemical 167 199	Phosphodiesterase III inhibitors
+T64	missed_chemical 314 327	nucleic acids
+T65	missed_chemical 329 337	proteins
+T66	missed_chemical 339 352	carbohydrates
+T67	missed_disease_or_phenotypic_feature 739 747	bleeding
+R2	treats Arg1:T16 Arg2:T67	
+R3	treats Arg1:T18 Arg2:T21	
+R4	treats Arg1:T19 Arg2:T21	
+T68	corrected_chemical 922 936	ACE inhibitors
+R5	treats Arg1:T68 Arg2:T21	
+T69	missed_disease_or_phenotypic_feature 1355 1376	breast carcinogenesis
+T70	missed_disease_or_phenotypic_feature 1643 1650	anxiety
+R6	treats Arg1:T36 Arg2:T38	
+T71	corrected_chemical 2215 2251	Renin-Angiotensin system antagonists
+T72	missed_disease_or_phenotypic_feature 2346 2358	hypertensive
+T73	DONE 2642 2646	DONE

@@ -1,10 +1,8 @@
 T1	chemical 5 11	sodium
-T2	chemical 12 16	food
 T3	disease_or_phenotypic_feature 67 80	heart failure
 T4	disease_or_phenotypic_feature 97 104	obesity
 T5	disease_or_phenotypic_feature 106 127	Prader-Willi syndrome
 T6	disease_or_phenotypic_feature 177 191	hypothyroidism
-T7	chemical 193 207	growth hormone
 T8	disease_or_phenotypic_feature 224 253	hypogonadotropic hypogonadism
 T9	chemical 265 285	proteasome inhibitor
 T10	chemical 304 314	bortezomib
@@ -13,7 +11,7 @@ T12	chemical 389 399	biomarkers
 T13	disease_or_phenotypic_feature 404 417	heart failure
 T14	chemical 443 451	Gartanin
 T15	chemical 570 576	enzyme
-T16	disease_or_phenotypic_feature 578 581	NAE
+T16	corrected_chemical 578 581	NAE
 T17	disease_or_phenotypic_feature 701 716	prostate cancer
 T18	chemical 789 799	Duloxetine
 T19	chemical 826 840	antidepressant
@@ -23,7 +21,6 @@ T22	disease_or_phenotypic_feature 914 935	peripheral neuropathy
 T23	chemical 970 984	Growth hormone
 T24	disease_or_phenotypic_feature 1023 1030	obesity
 T25	chemical 1114 1123	magnesium
-T26	chemical 1140 1148	solution
 T27	chemical 1149 1158	Magnesium
 T28	disease_or_phenotypic_feature 1227 1240	hypercalcemia
 T29	disease_or_phenotypic_feature 1245 1261	hypophosphatemia
@@ -36,12 +33,9 @@ T35	disease_or_phenotypic_feature 1491 1509	skeletal dysplasia
 T36	chemical 1527 1539	misonidazole
 T37	disease_or_phenotypic_feature 1554 1565	gliosarcoma
 T38	chemical 1605 1611	oxygen
-T39	chemical 1692 1695	MCC
-T40	disease_or_phenotypic_feature 1692 1695	MCC
-T41	chemical 1712 1727	biological role
+T40	chemical 1692 1695	MCC
 T42	chemical 1731 1734	MCC
 T43	disease_or_phenotypic_feature 1771 1784	herpes zoster
-T44	chemical 1797 1804	retinal
 T45	disease_or_phenotypic_feature 1797 1819	retinal vein occlusion
 T46	disease_or_phenotypic_feature 1891 1910	active tuberculosis
 T47	chemical 1985 1997	Testosterone
@@ -68,3 +62,36 @@ T67	chemical 3006 3012	oxygen
 T68	disease_or_phenotypic_feature 3022 3032	lung tumor
 T69	chemical 3126 3142	antigen-specific
 T70	disease_or_phenotypic_feature 3263 3274	hyperplasia
+T2	missed_chemical 255 264	Syrbactin
+R1	treats Arg1:T2 Arg2:T11	
+R2	treats Arg1:T10 Arg2:T11	
+T71	missed_disease_or_phenotypic_feature 361 366	tumor
+T72	missed_chemical 552 557	NEDD8
+T73	missed_chemical 653 658	NEDD8
+T74	missed_disease_or_phenotypic_feature 867 877	depressive
+T75	missed_disease_or_phenotypic_feature 889 893	pain
+R4	treats Arg1:T18 Arg2:T74	
+T26	corrected_chemical 1149 1168	Magnesium-deficient
+T76	missed_chemical 1661 1668	miR-375
+T39	missed_chemical 1839 1849	filgotinib
+T41	missed_disease_or_phenotypic_feature 1879 1889	infections
+T44	missed_disease_or_phenotypic_feature 1912 1924	malignancies
+T77	missed_disease_or_phenotypic_feature 1926 1955	gastrointestinal perforations
+T78	missed_disease_or_phenotypic_feature 2339 2344	tumor
+T79	missed_disease_or_phenotypic_feature 2555 2575	hematologic toxicity
+T80	missed_chemical 2644 2649	PAI-1
+T81	missed_disease_or_phenotypic_feature 2979 2986	hypoxic
+T82	missed_chemical 3164 3172	cytokine
+T83	DONE 3293 3297	DONE
+T84	missed_disease_or_phenotypic_feature 941 968	stress urinary incontinence
+R5	treats Arg1:T18 Arg2:T75	
+T85	missed_chemical 200 207	hormone
+T7	corrected_disease_or_phenotypic_feature 193 218	growth hormone deficiency
+T86	missed_chemical 286 293	TIR-199
+T87	corrected_chemical 255 285	Syrbactin proteasome inhibitor
+R8	treats Arg1:T87 Arg2:T11	
+T88	corrected_chemical 789 813	Duloxetine hydrochloride
+R3	treats Arg1:T88 Arg2:T84	
+T89	missed_disease_or_phenotypic_feature 2400 2418;2442 2454	epithelial ovarian malignancies
+R6	causes_or_contributes_to Arg1:T61 Arg2:T79	
+R7	causes_or_contributes_to Arg1:T61 Arg2:T60	

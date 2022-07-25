@@ -60,3 +60,40 @@ T59	disease_or_phenotypic_feature 2078 2094	hyperinsulinemia
 T60	chemical 2096 2104	Androgen
 T61	chemical 2130 2137	hormone
 T62	disease_or_phenotypic_feature 2138 2147	dependent
+T63	corrected_chemical 0 18	COX-2 inhibitors a
+R1	causes_or_contributes_to Arg1:T63 Arg2:T2	
+R2	treats Arg1:T4 Arg2:T5	
+T64	corrected_chemical 58 71	D2 antagonist
+R3	treats Arg1:T64 Arg2:T5	
+T65	corrected_disease_or_phenotypic_feature 363 394	decompensation of heart failure
+T66	corrected_chemical 408 436	phosphodiesterase inhibitors
+R4	treats Arg1:T66 Arg2:T65	
+R5	treats Arg1:T16 Arg2:T65	
+R6	treats Arg1:T18 Arg2:T65	
+R7	treats Arg1:T21 Arg2:T23	
+T67	missed_chemical 617 626	liposomes
+R8	treats Arg1:T67 Arg2:T23	
+T68	corrected_disease_or_phenotypic_feature 1300 1310;1319 1329	peripheral neuropathy
+R9	causes_or_contributes_to Arg1:T32 Arg2:T68	
+T69	corrected_chemical 1331 1383	Nano-graphene oxide-manganese dioxide nanocomposites
+R10	treats Arg1:T69 Arg2:T37	
+T70	missed_disease_or_phenotypic_feature 1490 1513	lichenoid drug eruption
+R11	causes_or_contributes_to Arg1:T38 Arg2:T70	
+R12	treats Arg1:T38 Arg2:T39	
+T71	corrected_chemical 1578 1618	angiotensin converting enzyme inhibitors
+R13	treats Arg1:T71 Arg2:T43	
+R14	treats Arg1:T71 Arg2:T44	
+R15	treats Arg1:T48 Arg2:T49	
+R16	treats Arg1:T47 Arg2:T49	
+T72	missed_chemical 1705 1716	carotenoids
+R17	treats Arg1:T72 Arg2:T49	
+T73	corrected_chemical 1670 1691	Antioxidant nutrients
+R18	treats Arg1:T73 Arg2:T49	
+R19	causes_or_contributes_to Arg1:T53 Arg2:T52	
+R20	causes_or_contributes_to Arg1:T54 Arg2:T52	
+T74	missed_disease_or_phenotypic_feature 1964 1980	premature labor.
+R21	treats Arg1:T53 Arg2:T74	
+R22	treats Arg1:T54 Arg2:T74	
+T75	missed_disease_or_phenotypic_feature 2148 2155	tumours
+R23	causes_or_contributes_to Arg1:T60 Arg2:T75	
+R24	causes_or_contributes_to Arg1:T61 Arg2:T75	

@@ -66,3 +66,20 @@ T65	disease_or_phenotypic_feature 2591 2600	condition
 T66	chemical 2635 2644	vitamin A
 T67	disease_or_phenotypic_feature 2708 2715	rubella
 T68	disease_or_phenotypic_feature 2771 2779	diarrhea
+R1	causes_or_contributes_to Arg1:T1 Arg2:T2	
+T69	missed_chemical 83 93	Tacrolimus
+R2	causes_or_contributes_to Arg1:T69 Arg2:T2	
+T70	corrected_chemical 875 893	Exogenous estrogen
+T71	corrected_disease_or_phenotypic_feature 1007 1028	obesity complications
+T72	corrected_chemical 954 966	BER-chloride
+R3	treats Arg1:T72 Arg2:T71	
+T73	missed_chemical 1085 1109	oral hypoglycemic agents
+R4	treats Arg1:T73 Arg2:T31	
+T74	missed_disease_or_phenotypic_feature 1487 1499	hypertension
+R5	treats Arg1:T41 Arg2:T43	
+R6	treats Arg1:T41 Arg2:T74	
+R7	treats Arg1:T41 Arg2:T44	
+T75	corrected_disease_or_phenotypic_feature 2468 2484	Sweet's syndrome
+T76	corrected_chemical 2531 2563	tumor necrosis factor antagonist
+R8	treats Arg1:T76 Arg2:T75	
+R9	treats Arg1:T64 Arg2:T75	

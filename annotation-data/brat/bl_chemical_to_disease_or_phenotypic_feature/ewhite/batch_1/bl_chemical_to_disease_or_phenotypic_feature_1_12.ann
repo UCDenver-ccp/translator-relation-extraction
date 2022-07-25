@@ -54,3 +54,21 @@ T53	chemical 2152 2155	MCC
 T54	chemical 2185 2189	food
 T55	chemical 2218 2222	food
 T56	disease_or_phenotypic_feature 2238 2245	obesity
+R1	treats Arg1:T21 Arg2:T24	
+T57	corrected_chemical 753 784	adenosine 1 receptor antagonist
+R2	treats Arg1:T57 Arg2:T24	
+R3	causes_or_contributes_to Arg1:T22 Arg2:T24	
+T58	corrected_chemical 1121 1144	penicillin G benzathine
+R4	treats Arg1:T58 Arg2:T32	
+T59	corrected_chemical 1363 1378	NF-?B inhibitor
+R5	treats Arg1:T59 Arg2:T38	
+T60	corrected_chemical 1379 1398	Tanespimycin/17-AAG
+R6	treats Arg1:T60 Arg2:T38	
+T61	corrected_disease_or_phenotypic_feature 1749 1761	Wilms tumour
+R7	causes_or_contributes_to Arg1:T44 Arg2:T61	
+T62	missed_disease_or_phenotypic_feature 1865 1867	OD
+R8	treats Arg1:T48 Arg2:T62	
+T63	corrected_chemical 2068 2089	checkpoint inhibitors
+R9	treats Arg1:T63 Arg2:T50	
+T64	missed_disease_or_phenotypic_feature 2133 2136	MCC
+R10	treats Arg1:T63 Arg2:T64	

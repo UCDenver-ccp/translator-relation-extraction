@@ -39,7 +39,6 @@ T38	chemical 1305 1314	oxidation
 T39	disease_or_phenotypic_feature 1340 1347	obesity
 T40	disease_or_phenotypic_feature 1349 1357	diabetes
 T41	disease_or_phenotypic_feature 1363 1376	heart failure
-T42	chemical 1378 1394	Ticagrelor-based
 T43	disease_or_phenotypic_feature 1450 1466	artery disease-A
 T44	disease_or_phenotypic_feature 1542 1549	obesity
 T45	chemical 1566 1570	food
@@ -58,9 +57,44 @@ T57	chemical 1930 1942	progesterone
 T58	disease_or_phenotypic_feature 1974 2000	epithelial ovarian cancers
 T59	disease_or_phenotypic_feature 2009 2018	malignant
 T60	disease_or_phenotypic_feature 2019 2028	potential
-T61	chemical 2037 2042	Snail
 T62	chemical 2058 2064	ligand
 T63	disease_or_phenotypic_feature 2096 2125	non-small cell lung carcinoma
 T64	disease_or_phenotypic_feature 2263 2266	DTH
 T65	chemical 2276 2283	antigen
 T66	chemical 2337 2345	antigens
+T67	missed_chemical 65 88	chemotherapeutic agents
+T68	missed_disease_or_phenotypic_feature 92 98	tumors
+T69	missed_disease_or_phenotypic_feature 114 119	tumor
+T70	corrected_chemical 22 38	VEGFR2 inhibitor
+R1	treats Arg1:T1 Arg2:T68	
+R2	treats Arg1:T1 Arg2:T71	
+T71	corrected_disease_or_phenotypic_feature 131 148	LoVo colon cancer
+R3	treats Arg1:T67 Arg2:T68	
+R4	treats Arg1:T70 Arg2:T71	
+R5	treats Arg1:T70 Arg2:T68	
+R6	treats Arg1:T4 Arg2:T5	
+T72	corrected_chemical 220 236	Prostate antigen
+R7	treats Arg1:T15 Arg2:T17	
+T73	corrected_chemical 590 610	aromatase inhibitors
+R8	causes_or_contributes_to Arg1:T73 Arg2:T18	
+R9	causes_or_contributes_to Arg1:T73 Arg2:T19	
+T74	corrected_disease_or_phenotypic_feature 730 745	cancer cachexia
+R10	treats Arg1:T23 Arg2:T74	
+T75	corrected_chemical 783 797	ACE inhibitors
+R11	causes_or_contributes_to Arg1:T75 Arg2:T28	
+R12	causes_or_contributes_to Arg1:T75 Arg2:T29	
+T77	corrected_disease_or_phenotypic_feature 1134 1171	NSAID-induced small intestinal injury
+T78	corrected_disease_or_phenotypic_feature 1204 1242	dextran sulfate sodium-induced colitis
+T79	corrected_chemical 1292 1314	fatty acid ?-oxidation
+T80	missed_chemical 1261 1272	Acetylation
+T81	corrected_disease_or_phenotypic_feature 1434 1466	atherosclerotic artery disease-A
+R14	treats Arg1:T52 Arg2:T55	
+T84	corrected_chemical 1841 1886	antagonist drug of the endocannabinoid system
+R15	treats Arg1:T84 Arg2:T55	
+R16	treats Arg1:T67 Arg2:T71	
+T83	corrected_chemical 626 657	stemness-related tumor antigens
+R17	treats Arg1:T83 Arg2:T22	
+T85	missed_chemical 612 621;643 657	Universal tumor antigens
+R19	treats Arg1:T85 Arg2:T22	
+T42	missed_chemical 1378 1388	Ticagrelor
+R13	treats Arg1:T42 Arg2:T81	

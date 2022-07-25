@@ -66,3 +66,31 @@ T65	disease_or_phenotypic_feature 2601 2609	cataract
 T66	chemical 2643 2651	androgen
 T67	disease_or_phenotypic_feature 2652 2661	dependent
 T68	chemical 2729 2737	androgen
+T69	corrected_chemical 215 248	Histamine H3 receptor antagonists
+R1	treats Arg1:T69 Arg2:T10	
+R2	treats Arg1:T69 Arg2:T11	
+T70	corrected_disease_or_phenotypic_feature 316 338	Chitayat-Hall syndrome
+T71	missed_disease_or_phenotypic_feature 406 427	distal arthrogryposis
+T72	missed_disease_or_phenotypic_feature 454 464	dysmorphic
+T73	missed_disease_or_phenotypic_feature 509 534	growth hormone deficiency
+T74	missed_disease_or_phenotypic_feature 760 772	tumor growth
+R3	treats Arg1:T19 Arg2:T74	
+R4	treats Arg1:T27 Arg2:T28	
+T75	missed_disease_or_phenotypic_feature 1162 1180	nicotine addiction
+T76	corrected_chemical 1083 1106	CB receptor antagonists
+T77	corrected_disease_or_phenotypic_feature 1182 1218	Androgen-independent prostate cancer
+R5	treats Arg1:T36 Arg2:T35	
+T78	corrected_chemical 1405 1446	doxorubicin loaded polyaspartic acid gold
+R6	treats Arg1:T78 Arg2:T35	
+R7	treats Arg1:T48 Arg2:T50	
+R8	treats Arg1:T48 Arg2:T51	
+R9	treats Arg1:T48 Arg2:T52	
+T79	missed_disease_or_phenotypic_feature 1990 2012	Disordered food intake
+T80	corrected_chemical 2042 2068	holecystokinin A receptors
+T81	missed_disease_or_phenotypic_feature 2329 2353;2358 2367	cardiovascular morbidity mortality
+R10	treats Arg1:T61 Arg2:T60	
+R11	treats Arg1:T61 Arg2:T81	
+T82	missed_disease_or_phenotypic_feature 2521 2529	diabetes
+T83	missed_chemical 2628 2630	O2
+T84	missed_disease_or_phenotypic_feature 2643 2669	androgen-dependent tumours
+T85	DONE 2759 2763	DONE

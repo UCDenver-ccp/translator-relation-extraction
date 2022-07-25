@@ -65,3 +65,31 @@ T64	disease_or_phenotypic_feature 2479 2488	cataracts
 T65	chemical 2521 2528	alcohol
 T66	chemical 2546 2555	cofactors
 T67	disease_or_phenotypic_feature 2564 2571	obesity
+T68	missed_disease_or_phenotypic_feature 121 138	lung inflammation
+T69	corrected_disease_or_phenotypic_feature 143 168	Trichuris Muris infection
+R1	treats Arg1:T1 Arg2:T68	
+R2	treats Arg1:T1 Arg2:T69	
+T70	corrected_chemical 233 243	camel milk
+R3	treats Arg1:T70 Arg2:T4	
+R4	treats Arg1:T70 Arg2:T5	
+R5	treats Arg1:T70 Arg2:T6	
+T71	missed_disease_or_phenotypic_feature 301 311	infections
+T72	missed_disease_or_phenotypic_feature 313 333	heavy metal toxicity
+T73	missed_disease_or_phenotypic_feature 348 372	alcohol-induced toxicity
+R6	treats Arg1:T70 Arg2:T71	
+R7	treats Arg1:T70 Arg2:T72	
+R8	treats Arg1:T70 Arg2:T73	
+R9	treats Arg1:T70 Arg2:T8	
+R10	causes_or_contributes_to Arg1:T11 Arg2:T10	
+T74	missed_chemical 424 432	androgen
+R11	causes_or_contributes_to Arg1:T74 Arg2:T10	
+R12	treats Arg1:T22 Arg2:T25	
+R13	treats Arg1:T35 Arg2:T36	
+T75	corrected_chemical 1725 1769	tumor necrosis factor alpha inhibitors drugs
+R14	treats Arg1:T75 Arg2:T40	
+R15	treats Arg1:T75 Arg2:T39	
+R16	treats Arg1:T42 Arg2:T40	
+R17	treats Arg1:T42 Arg2:T39	
+R18	treats Arg1:T43 Arg2:T45	
+T76	corrected_disease_or_phenotypic_feature 1910 1939	ischemic diabetic retinopathy
+R19	causes_or_contributes_to Arg1:T46 Arg2:T48	

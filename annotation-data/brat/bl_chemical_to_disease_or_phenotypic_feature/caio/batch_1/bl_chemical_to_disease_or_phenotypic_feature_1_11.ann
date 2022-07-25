@@ -61,3 +61,35 @@ T60	chemical 2310 2320	inhibitors
 T61	disease_or_phenotypic_feature 2341 2354	heart failure
 T62	disease_or_phenotypic_feature 2356 2374	Malignant melanoma
 T63	chemical 2416 2424	antigens
+T64	missed_disease_or_phenotypic_feature 47 57	overweight
+T65	missed_chemical 16 21	MIDRL
+T66	missed_chemical 9 11	2D
+R1	causes_or_contributes_to Arg1:T65 Arg2:T64	
+R2	causes_or_contributes_to Arg1:T65 Arg2:T1	
+R3	causes_or_contributes_to Arg1:T66 Arg2:T64	
+R4	causes_or_contributes_to Arg1:T66 Arg2:T1	
+T67	missed_disease_or_phenotypic_feature 208 218	overweight
+T68	missed_disease_or_phenotypic_feature 352 363	Hypertrophy
+T69	missed_chemical 452 454	DD
+R5	causes_or_contributes_to Arg1:T69 Arg2:T12	
+T70	corrected_chemical 558 574	PCSK9 inhibitors
+T71	missed_disease_or_phenotypic_feature 727 742	tumour necrosis
+T72	corrected_disease_or_phenotypic_feature 812 852	Thrombotic thrombocytopenic purpura (TTP
+T73	corrected_chemical 989 1011	umor-specific epitopes
+T74	missed_chemical 1101 1114;1132 1137	noradrenergic drugs
+T75	missed_chemical 1429 1454	attenuated vaccinia virus
+T76	missed_chemical 1508 1511	5T4
+T77	corrected_chemical 1513 1520	MVA-5T4
+T78	missed_chemical 1522 1528	TroVax
+T79	missed_chemical 1541 1553	glycoprotein
+T80	missed_disease_or_phenotypic_feature 1642 1647	tumor
+R6	treats Arg1:T40 Arg2:T80	
+R7	causes_or_contributes_to Arg1:T44 Arg2:T45	
+T81	missed_disease_or_phenotypic_feature 1844 1855	viral tumor
+T82	missed_disease_or_phenotypic_feature 1956 1961	tumor
+T83	missed_disease_or_phenotypic_feature 2012 2017	tumor
+T84	missed_disease_or_phenotypic_feature 2130 2143	nonmetastatic
+T85	missed_disease_or_phenotypic_feature 2144 2159	nonkeratinizing
+T86	corrected_chemical 2306 2320	ACE inhibitors
+R8	treats Arg1:T86 Arg2:T61	
+T87	DONE 2426 2430	DONE

@@ -54,3 +54,22 @@ T53	disease_or_phenotypic_feature 2348 2351	PAP
 T54	chemical 2374 2382	androgen
 T55	disease_or_phenotypic_feature 2429 2436	One-Pot
 T56	chemical 2462 2471	Polyester
+T57	missed_chemical 330 344	cyclooxygenase
+T58	corrected_chemical 349 381	nitric oxide synthase inhibitors
+R1	causes_or_contributes_to Arg1:T13 Arg2:T15	
+T59	missed_disease_or_phenotypic_feature 644 667	Circulating tumor cells
+T60	missed_disease_or_phenotypic_feature 1185 1190	tumor
+R2	treats Arg1:T27 Arg2:T60	
+T61	corrected_disease_or_phenotypic_feature 1267 1309	chemotherapy-induced peripheral neuropathy
+T62	missed_disease_or_phenotypic_feature 1311 1315	CIPN
+T63	missed_chemical 1347 1363	chemotherapeutic
+R3	treats Arg1:T31 Arg2:T33	
+T64	missed_disease_or_phenotypic_feature 1529 1542	prolactinomas
+R4	causes_or_contributes_to Arg1:T36 Arg2:T38	
+T65	corrected_chemical 1715 1737	PcG associated protein
+T66	missed_chemical 1738 1742	RYBP
+T67	corrected_chemical 1915 1940	tumor-associated antigens
+T68	missed_chemical 1942 1946	TAAs
+T69	corrected_chemical 2008 2042	Phosphodiesterase type 5 inhibitor
+R5	treats Arg1:T49 Arg2:T51	
+T70	DONE 2560 2564	DONE

@@ -35,7 +35,7 @@ T34	chemical 1440 1450	inhibitors
 T35	chemical 1451 1460	erlotinib
 T36	chemical 1465 1474	gefitinib
 T37	disease_or_phenotypic_feature 1540 1546	mutant
-T38	disease_or_phenotypic_feature 1646 1649	MPa
+T38	corrected_chemical 1646 1649	MPa
 T39	chemical 1651 1662	"ARG4.0MPa"
 T40	disease_or_phenotypic_feature 1651 1662	"ARG4.0MPa"
 T41	chemical 1682 1695	Teneligliptin
@@ -61,3 +61,38 @@ T60	chemical 2460 2466	enzyme
 T61	chemical 2473 2483	inhibitors
 T62	disease_or_phenotypic_feature 2550 2574	congestive heart failure
 T63	disease_or_phenotypic_feature 2594 2614	diabetic nephropathy
+T64	corrected_chemical 64 81	pan-RAF inhibitor
+R1	treats Arg1:T5 Arg2:T7	
+R2	treats Arg1:T4 Arg2:T8	
+T65	corrected_chemical 398 412	ACE inhibitors
+R3	treats Arg1:T12 Arg2:T13	
+R4	treats Arg1:T12 Arg2:T14	
+T66	missed_disease_or_phenotypic_feature 647 668	Asymptomatic Stenosis
+T67	corrected_disease_or_phenotypic_feature 558 613	Fulminant Reversible Cerebral Vasoconstriction Syndrome
+T68	corrected_disease_or_phenotypic_feature 755 785	hyperglycemia-hyperinsulinemia
+T69	missed_disease_or_phenotypic_feature 787 796	Hepatitis
+T70	missed_chemical 911 926	stress hormones
+R5	treats Arg1:T26 Arg2:T27	
+T71	missed_chemical 1148 1160	chemotherapy
+T72	corrected_chemical 1282 1294	Genital talc
+R6	causes_or_contributes_to Arg1:T72 Arg2:T33	
+T73	missed_chemical 1412 1416	EGFR
+T74	missed_disease_or_phenotypic_feature 1495 1500	tumor
+T75	corrected_disease_or_phenotypic_feature 1535 1546	EGFR-mutant
+T76	corrected_disease_or_phenotypic_feature 1720 1739	HFD-induced obesity
+R7	treats Arg1:T41 Arg2:T76	
+R8	treats Arg1:T41 Arg2:T43	
+T77	missed_chemical 1835 1846	CYP-derived
+T78	missed_chemical 1891 1906	LMs in high-fat
+T79	missed_chemical 1951 1954	LMs
+T80	missed_disease_or_phenotypic_feature 2174 2183	infection
+T81	missed_chemical 2215 2228	free radicals
+T82	missed_disease_or_phenotypic_feature 2251 2257	tumors
+T83	missed_disease_or_phenotypic_feature 2304 2309	tumor
+T84	corrected_chemical 2437 2472	Angiotensin converting-enzyme (ACE)
+T85	missed_disease_or_phenotypic_feature 2576 2588	hypertension
+T86	corrected_chemical 2437 2483	Angiotensin converting-enzyme (ACE) inhibitors
+R9	treats Arg1:T86 Arg2:T62	
+R10	treats Arg1:T86 Arg2:T85	
+R11	treats Arg1:T86 Arg2:T63	
+T87	DONE 2616 2620	DONE

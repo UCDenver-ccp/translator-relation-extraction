@@ -57,3 +57,24 @@ T56	chemical 3458 3461	DDD
 T57	chemical 3522 3525	PDX
 T58	disease_or_phenotypic_feature 3562 3568	cancer
 T59	chemical 3569 3576	biology
+T60	corrected_disease_or_phenotypic_feature 63 80	malignant gliomas
+R1	treats Arg1:T1 Arg2:T60	
+T61	missed_chemical 118 129	Kininogen-1
+T62	corrected_chemical 694 727	rapamycin-derived mTOR inhibitors
+T63	corrected_disease_or_phenotypic_feature 784 798	hepatic tumour
+R2	treats Arg1:T62 Arg2:T63	
+R3	causes_or_contributes_to Arg1:T16 Arg2:T17	
+T64	missed_chemical 1425 1432	insulin
+T65	corrected_chemical 1747 1772	tumor-associated antigens
+T66	missed_chemical 1774 1777	TAA
+R4	treats Arg1:T65 Arg2:T36	
+R5	treats Arg1:T34 Arg2:T36	
+T67	missed_chemical 2028 2031	LPS
+T68	missed_chemical 2451 2455	HER2
+T69	missed_chemical 2677 2682	PfHP1
+T70	missed_chemical 2701 2706	PfHP1
+T71	missed_chemical 2809 2814	PfHP1
+T72	missed_chemical 3026 3041	casein kinase 2
+T73	missed_chemical 3043 3048	PfCK2
+T74	missed_chemical 3241 3247	GLUT-1
+T75	DONE 3578 3582	DONE

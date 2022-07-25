@@ -4,8 +4,6 @@ T3	disease_or_phenotypic_feature 60 73	heart failure
 T4	chemical 101 109	collagen
 T5	disease_or_phenotypic_feature 135 141	glioma
 T6	disease_or_phenotypic_feature 186 193	obesity
-T7	chemical 212 216	food
-T8	chemical 233 237	food
 T9	disease_or_phenotypic_feature 294 301	obesity
 T10	disease_or_phenotypic_feature 320 327	obesity
 T11	chemical 396 407	phentermine
@@ -39,15 +37,12 @@ T38	chemical 1468 1476	hormones
 T39	chemical 1512 1521	serotonin
 T40	disease_or_phenotypic_feature 1557 1574	pancreatic cancer
 T41	disease_or_phenotypic_feature 1594 1611	pancreatic cancer
-T42	chemical 1612 1617	group
 T43	disease_or_phenotypic_feature 1658 1666	diseases
 T44	disease_or_phenotypic_feature 1693 1700	disease
-T45	chemical 1701 1706	group
 T46	disease_or_phenotypic_feature 1738 1757	psoriatic arthritis
 T47	chemical 1763 1773	etanercept
 T48	chemical 1800 1810	antagonist
 T49	chemical 1916 1923	hormone
-T50	disease_or_phenotypic_feature 1924 1933	dependent
 T51	chemical 1978 1985	hormone
 T52	chemical 2062 2068	oxygen
 T53	disease_or_phenotypic_feature 2119 2131	hyperthermia
@@ -80,3 +75,42 @@ T79	chemical 2981 2990	tamoxifen
 T80	disease_or_phenotypic_feature 3002 3015	breast cancer
 T81	chemical 3026 3034	estrogen
 T82	chemical 3063 3072	tamoxifen
+T83	missed_disease_or_phenotypic_feature 116 126	GBC tumors
+T7	missed_disease_or_phenotypic_feature 282 292	overweight
+R2	treats Arg1:T11 Arg2:T14	
+R3	treats Arg1:T12 Arg2:T14	
+T8	missed_disease_or_phenotypic_feature 519 524	tumor
+T84	missed_chemical 777 789	chemotherapy
+T85	missed_disease_or_phenotypic_feature 884 889	tumor
+T86	missed_chemical 1032 1039	heparan
+R4	treats Arg1:T27 Arg2:T28	
+R5	treats Arg1:T26 Arg2:T28	
+R6	treats Arg1:T86 Arg2:T28	
+R7	treats Arg1:T25 Arg2:T28	
+T87	missed_disease_or_phenotypic_feature 1318 1343	growth hormone deficiency
+T88	missed_disease_or_phenotypic_feature 1345 1350	renal
+T89	missed_disease_or_phenotypic_feature 1375 1390	inguinal hernia
+T90	missed_chemical 1481 1496	biogenic amines
+R8	treats Arg1:T47 Arg2:T46	
+T42	missed_chemical 1825 1834	prolactin
+T45	missed_disease_or_phenotypic_feature 1860 1866	tumors
+T91	missed_chemical 1886 1895	prolactin
+T50	corrected_disease_or_phenotypic_feature 1934 1948	mammary tumors
+T92	missed_disease_or_phenotypic_feature 2083 2104	altered mental status
+T93	missed_disease_or_phenotypic_feature 2106 2117	hypothermia
+T94	missed_disease_or_phenotypic_feature 2133 2144	tachycardia
+T95	missed_chemical 2292 2299	smoking
+R9	causes_or_contributes_to Arg1:T62 Arg2:T69	
+T96	corrected_chemical 2553 2586	Indoleamine 2,3-dioxygenase (IDO)
+T98	missed_disease_or_phenotypic_feature 2713 2732	allograft rejection
+T99	missed_disease_or_phenotypic_feature 2757 2762	tumor
+T100	corrected_chemical 2771 2795	Serum Apolipoprotein A-I
+R10	treats Arg1:T77 Arg2:T78	
+T101	DONE 3085 3089	DONE
+T97	missed_disease_or_phenotypic_feature 2682 2687;2702 2711	viral infection
+T102	corrected_chemical 1 27	anthine oxidase inhibitors
+R11	treats Arg1:T102 Arg2:T3	
+T103	corrected_chemical 1051 1063	cis-platinum
+T104	missed_disease_or_phenotypic_feature 2169 2181	side effects
+R1	causes_or_contributes_to Arg1:T58 Arg2:T104	
+R12	causes_or_contributes_to Arg1:T79 Arg2:T80	

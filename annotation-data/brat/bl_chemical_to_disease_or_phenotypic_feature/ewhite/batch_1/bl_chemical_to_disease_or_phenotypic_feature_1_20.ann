@@ -78,3 +78,31 @@ T77	disease_or_phenotypic_feature 2103 2110	cancers
 T78	disease_or_phenotypic_feature 2129 2137	Chordoma
 T79	chemical 2143 2155	biologically
 T80	disease_or_phenotypic_feature 2177 2192	malignant tumor
+R1	treats Arg1:T1 Arg2:T4	
+T81	corrected_chemical 15 43	serotonin reuptake inhibitor
+R2	treats Arg1:T81 Arg2:T4	
+T82	corrected_chemical 129 144	PDE3 inhibitors
+R3	causes_or_contributes_to Arg1:T82 Arg2:T8	
+R4	treats Arg1:T16 Arg2:T15	
+R5	treats Arg1:T50 Arg2:T52	
+R6	treats Arg1:T53 Arg2:T56	
+R7	treats Arg1:T53 Arg2:T57	
+T83	missed_disease_or_phenotypic_feature 1396 1408	hypertension
+T84	corrected_chemical 1337 1355	dopamine-1 agonist
+R8	treats Arg1:T84 Arg2:T83	
+R9	treats Arg1:T84 Arg2:T56	
+R10	treats Arg1:T84 Arg2:T57	
+R11	treats Arg1:T53 Arg2:T83	
+T85	corrected_chemical 1469 1483	ACE inhibitors
+R12	causes_or_contributes_to Arg1:T85 Arg2:T58	
+R13	causes_or_contributes_to Arg1:T60 Arg2:T58	
+R14	treats Arg1:T60 Arg2:T61	
+R15	treats Arg1:T85 Arg2:T61	
+T86	corrected_chemical 1529 1546	Dantrolene sodium
+R16	treats Arg1:T86 Arg2:T64	
+T87	corrected_disease_or_phenotypic_feature 1581 1608	chronic spinal cord disease
+R17	treats Arg1:T86 Arg2:T87	
+T88	corrected_chemical 1698 1721	atropine methyl bromide
+T89	corrected_disease_or_phenotypic_feature 1610 1630	Postictal arrhythmia
+R18	causes_or_contributes_to Arg1:T67 Arg2:T68	
+R19	treats Arg1:T88 Arg2:T89	

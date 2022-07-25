@@ -75,3 +75,32 @@ T74	disease_or_phenotypic_feature 2497 2505	cataract
 T75	chemical 2547 2551	drug
 T76	disease_or_phenotypic_feature 2564 2581	Stargardt disease
 T77	disease_or_phenotypic_feature 2593 2613	retinal degeneration
+R1	treats Arg1:T3 Arg2:T4	
+T78	corrected_chemical 12 28	nicotine agonist
+R2	treats Arg1:T78 Arg2:T4	
+T79	missed_disease_or_phenotypic_feature 134 140	tumors
+R3	causes_or_contributes_to Arg1:T6 Arg2:T79	
+T80	missed_chemical 305 327	dextran sulfate sodium
+R4	causes_or_contributes_to Arg1:T80 Arg2:T9	
+R5	causes_or_contributes_to Arg1:T11 Arg2:T10	
+R6	causes_or_contributes_to Arg1:T12 Arg2:T10	
+R7	treats Arg1:T16 Arg2:T15	
+T81	missed_chemical 548 558	benzedrine
+R8	treats Arg1:T81 Arg2:T15	
+R9	treats Arg1:T34 Arg2:T31	
+R10	treats Arg1:T34 Arg2:T30	
+R11	treats Arg1:T34 Arg2:T29	
+T82	missed_disease_or_phenotypic_feature 988 992	T2DM
+R12	treats Arg1:T34 Arg2:T82	
+T83	corrected_disease_or_phenotypic_feature 1675 1690	cancer cachexia
+R13	treats Arg1:T44 Arg2:T83	
+R14	treats Arg1:T45 Arg2:T83	
+T84	missed_chemical 1640 1647	insulin
+R15	treats Arg1:T84 Arg2:T83	
+R16	causes_or_contributes_to Arg1:T51 Arg2:T50	
+R17	causes_or_contributes_to Arg1:T51 Arg2:T49	
+R18	treats Arg1:T52 Arg2:T54	
+R19	causes_or_contributes_to Arg1:T55 Arg2:T57	
+R20	treats Arg1:T71 Arg2:T72	
+T85	corrected_disease_or_phenotypic_feature 2564 2613	Stargardt disease-associated retinal degeneration
+R21	treats Arg1:T75 Arg2:T85	

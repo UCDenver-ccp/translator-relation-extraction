@@ -72,5 +72,49 @@ R2	treats Arg1:T12 Arg2:T10
 R3	treats Arg1:T26 Arg2:T27	
 T70	missed_chemical 1394 1407	cardiac drugs
 T71	corrected_disease_or_phenotypic_feature 1450 1461;1474 1481	respiratory failure
-R4	treats Arg1:T70 Arg2:T71	
-R5	treats Arg1:T28 Arg2:T71	
+R4	treats Arg1:T28 Arg2:T71	
+R5	treats Arg1:T28 Arg2:T29	
+R6	treats Arg1:T70 Arg2:T29	
+R7	treats Arg1:T70 Arg2:T71	
+T72	missed_disease_or_phenotypic_feature 858 882	postoperative discomfort
+T73	corrected_chemical 819 837	sodium hyaluronate
+T74	corrected_chemical 791 809	sodium hyaluronate
+R8	treats Arg1:T73 Arg2:T72	
+R9	treats Arg1:T74 Arg2:T72	
+R10	treats Arg1:T4 Arg2:T5	
+R11	treats Arg1:T68 Arg2:T5	
+R12	causes_or_contributes_to Arg1:T64 Arg2:T31	
+R13	causes_or_contributes_to Arg1:T65 Arg2:T31	
+R14	causes_or_contributes_to Arg1:T66 Arg2:T67	
+R15	causes_or_contributes_to Arg1:T34 Arg2:T35	
+R16	causes_or_contributes_to Arg1:T34 Arg2:T36	
+R17	treats Arg1:T37 Arg2:T39	
+R18	treats Arg1:T38 Arg2:T39	
+R19	treats Arg1:T41 Arg2:T40	
+R20	treats Arg1:T42 Arg2:T40	
+R21	causes_or_contributes_to Arg1:T44 Arg2:T46	
+R22	causes_or_contributes_to Arg1:T45 Arg2:T46	
+R23	treats Arg1:T47 Arg2:T49	
+T75	corrected_chemical 2095 2110	inodilator drug
+R24	treats Arg1:T75 Arg2:T49	
+T76	missed_disease_or_phenotypic_feature 2519 2522	CVD
+T77	missed_chemical 2318 2325	statins
+T78	corrected_chemical 2330 2344	RAS inhibitors
+T79	missed_disease_or_phenotypic_feature 2423 2435	hypertension
+R25	treats Arg1:T78 Arg2:T79	
+R26	treats Arg1:T78 Arg2:T57	
+R27	treats Arg1:T78 Arg2:T58	
+R28	treats Arg1:T78 Arg2:T59	
+R29	treats Arg1:T78 Arg2:T60	
+R30	treats Arg1:T78 Arg2:T76	
+R31	treats Arg1:T77 Arg2:T79	
+R32	treats Arg1:T77 Arg2:T57	
+R33	treats Arg1:T77 Arg2:T58	
+R34	treats Arg1:T77 Arg2:T59	
+R35	treats Arg1:T77 Arg2:T60	
+R36	treats Arg1:T77 Arg2:T76	
+T80	missed_disease_or_phenotypic_feature 1986 1989	CVD
+R37	causes_or_contributes_to Arg1:T44 Arg2:T80	
+R38	causes_or_contributes_to Arg1:T45 Arg2:T80	
+T81	missed_disease_or_phenotypic_feature 342 347	tumor
+R39	causes_or_contributes_to Arg1:T6 Arg2:T81	

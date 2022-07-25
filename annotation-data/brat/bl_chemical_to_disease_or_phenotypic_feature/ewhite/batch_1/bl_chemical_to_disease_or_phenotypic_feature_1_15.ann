@@ -69,3 +69,24 @@ T68	chemical 3284 3292	collagen
 T69	disease_or_phenotypic_feature 3314 3331	B-cell lymphoma-2
 T70	chemical 3430 3452	HDAC inhibitor-induced
 T71	disease_or_phenotypic_feature 3496 3509	breast cancer
+R1	treats Arg1:T2 Arg2:T1	
+R2	treats Arg1:T3 Arg2:T1	
+T72	missed_disease_or_phenotypic_feature 40 52	skin lesions
+R3	treats Arg1:T2 Arg2:T72	
+R4	treats Arg1:T3 Arg2:T72	
+T73	corrected_disease_or_phenotypic_feature 233 263	hyperglycemic hyperinsulinemia
+T74	corrected_disease_or_phenotypic_feature 267 296	hyperglycemic hypoinsulinemia
+R5	causes_or_contributes_to Arg1:T4 Arg2:T73	
+R6	causes_or_contributes_to Arg1:T4 Arg2:T74	
+R7	causes_or_contributes_to Arg1:T5 Arg2:T73	
+R8	causes_or_contributes_to Arg1:T5 Arg2:T74	
+R9	causes_or_contributes_to Arg1:T27 Arg2:T29	
+R10	causes_or_contributes_to Arg1:T27 Arg2:T30	
+T75	missed_disease_or_phenotypic_feature 1387 1391	SHPT
+R11	treats Arg1:T27 Arg2:T75	
+T76	corrected_disease_or_phenotypic_feature 2468 2483	cancer cachexia
+R12	treats Arg1:T45 Arg2:T76	
+T77	missed_chemical 2402 2410	sActRIIB
+R13	treats Arg1:T77 Arg2:T76	
+T78	missed_disease_or_phenotypic_feature 2573 2589	Brain Metastases
+R14	treats Arg1:T48 Arg2:T78	

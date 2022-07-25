@@ -55,3 +55,17 @@ T54	disease_or_phenotypic_feature 2709 2720	astigmatism
 T55	disease_or_phenotypic_feature 2796 2802	glioma
 T56	chemical 2831 2835	CDDP
 T57	chemical 2860 2864	drug
+T58	missed_disease_or_phenotypic_feature 443 457	hyperreninemia
+T59	missed_disease_or_phenotypic_feature 459 497	chloride-resistant metabolic alkalosis
+T60	missed_disease_or_phenotypic_feature 533 546	hypocalciuria
+T61	missed_disease_or_phenotypic_feature 856 868	hypertension
+T62	corrected_chemical 1379 1401	antigen-based vaccines
+R1	treats Arg1:T62 Arg2:T30	
+T63	corrected_chemical 1435 1452	androgen receptor
+T64	missed_chemical 1454 1456	AR
+R2	causes_or_contributes_to Arg1:T63 Arg2:T32	
+T65	missed_chemical 1756 1771;1775 1780	S-nitrosylation GAD65
+T66	missed_chemical 1775 1780	GAD65
+T67	missed_chemical 1808 1811	GAD
+R3	treats Arg1:T65 Arg2:T38	
+T68	DONE 2875 2879	DONE

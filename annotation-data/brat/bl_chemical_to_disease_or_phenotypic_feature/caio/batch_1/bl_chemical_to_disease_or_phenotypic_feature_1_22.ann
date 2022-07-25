@@ -72,3 +72,32 @@ T71	disease_or_phenotypic_feature 2239 2246	obesity
 T72	disease_or_phenotypic_feature 2255 2273	metabolic syndrome
 T73	chemical 2287 2291	food
 T74	chemical 2296 2300	food
+T75	missed_disease_or_phenotypic_feature 44 49	PHACE
+R1	treats Arg1:T1 Arg2:T75	
+R2	treats Arg1:T1 Arg2:T2	
+T76	missed_disease_or_phenotypic_feature 390 414	lobster claw deformities
+T77	missed_disease_or_phenotypic_feature 567 577	idiopathic
+T78	missed_disease_or_phenotypic_feature 579 585	anoxia
+T79	missed_disease_or_phenotypic_feature 608 618	hemorrhage
+T80	missed_disease_or_phenotypic_feature 620 629	infection
+T81	missed_disease_or_phenotypic_feature 638 651	drug overdose
+T82	missed_disease_or_phenotypic_feature 722 739	hyperlactacidemia
+T83	missed_disease_or_phenotypic_feature 789 802	hyperuricemia
+T84	corrected_chemical 927 945	Trypsin inhibitors
+R3	treats Arg1:T40 Arg2:T42	
+T85	corrected_disease_or_phenotypic_feature 1296 1318	traumatic brain injury
+T86	missed_disease_or_phenotypic_feature 1383 1395	Hyperthermia
+R4	treats Arg1:T53 Arg2:T51	
+T87	missed_disease_or_phenotypic_feature 1708 1720	solid tumors
+R5	treats Arg1:T56 Arg2:T87	
+R6	treats Arg1:T57 Arg2:T59	
+T88	missed_chemical 1924 1933	Herceptin
+R7	treats Arg1:T88 Arg2:T64	
+R8	treats Arg1:T65 Arg2:T64	
+T89	missed_disease_or_phenotypic_feature 2086 2104;2130 2136	androgen-dependent tumors
+T90	corrected_disease_or_phenotypic_feature 2109 2136	androgen-independent tumors
+R9	treats Arg1:T88 Arg2:T89	
+R10	treats Arg1:T88 Arg2:T90	
+R11	treats Arg1:T65 Arg2:T89	
+R12	treats Arg1:T65 Arg2:T89	
+T91	DONE 2313 2317	DONE

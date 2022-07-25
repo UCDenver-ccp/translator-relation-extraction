@@ -64,3 +64,24 @@ T63	chemical 2946 2951	metal
 T64	chemical 3015 3019	drug
 T65	chemical 3028 3037	metformin
 T66	disease_or_phenotypic_feature 3076 3083	obesity
+R1	treats Arg1:T4 Arg2:T5	
+R2	treats Arg1:T4 Arg2:T7	
+R3	treats Arg1:T4 Arg2:T6	
+T67	missed_chemical 104 108	CLAs
+R4	treats Arg1:T67 Arg2:T5	
+R5	treats Arg1:T67 Arg2:T6	
+R6	treats Arg1:T67 Arg2:T7	
+R7	treats Arg1:T19 Arg2:T21	
+T68	corrected_chemical 1505 1524	calcium antagonists
+R8	treats Arg1:T68 Arg2:T30	
+T69	missed_chemical 2062 2072	amino acid
+R9	treats Arg1:T60 Arg2:T61	
+T70	corrected_chemical 2735 2767	tumor necrosis factor antagonist
+R10	treats Arg1:T70 Arg2:T61	
+T72	missed_disease_or_phenotypic_feature 3107 3137	treatment resistance of tumors
+T71	missed_disease_or_phenotypic_feature 3091 3102;3128 3137	progression of tumors
+R12	treats Arg1:T65 Arg2:T71	
+T73	corrected_chemical 3001 3019	anti-diabetic drug
+R13	treats Arg1:T73 Arg2:T71	
+R14	treats Arg1:T73 Arg2:T72	
+R11	treats Arg1:T65 Arg2:T72	

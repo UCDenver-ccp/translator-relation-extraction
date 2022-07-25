@@ -68,3 +68,45 @@ T67	disease_or_phenotypic_feature 2323 2329	cancer
 T68	chemical 2357 2365	antigens
 T69	disease_or_phenotypic_feature 2399 2405	cancer
 T70	chemical 2503 2511	antigens
+T71	corrected_disease_or_phenotypic_feature 2311 2329	solid tumor cancer
+R1	treats Arg1:T65 Arg2:T71	
+T72	corrected_chemical 2225 2257	antineoplastic chemotherapy drug
+R2	treats Arg1:T72 Arg2:T71	
+T73	missed_disease_or_phenotypic_feature 2122 2134	solid tumors
+T74	missed_disease_or_phenotypic_feature 2145 2154	neoplasia
+T75	corrected_disease_or_phenotypic_feature 1959 1983	solid tumor malignancies
+R3	treats Arg1:T60 Arg2:T75	
+T76	corrected_chemical 1901 1919	obatoclax mesylate
+R4	treats Arg1:T76 Arg2:T75	
+T77	corrected_chemical 1923 1939	Bcl-2 antagonist
+R5	treats Arg1:T77 Arg2:T75	
+R6	causes_or_contributes_to Arg1:T52 Arg2:T53	
+R7	causes_or_contributes_to Arg1:T51 Arg2:T53	
+R8	treats Arg1:T45 Arg2:T46	
+T78	missed_disease_or_phenotypic_feature 1082 1104	atherosclerotic damage
+T79	missed_disease_or_phenotypic_feature 1109 1126	myocardial injury
+R9	treats Arg1:T36 Arg2:T78	
+R10	treats Arg1:T36 Arg2:T79	
+R11	causes_or_contributes_to Arg1:T34 Arg2:T35	
+R12	treats Arg1:T32 Arg2:T33	
+R13	treats Arg1:T31 Arg2:T33	
+R14	causes_or_contributes_to Arg1:T27 Arg2:T28	
+R15	causes_or_contributes_to Arg1:T27 Arg2:T29	
+T80	missed_disease_or_phenotypic_feature 752 760	Diplopia
+T81	corrected_chemical 767 789	sub-Tenon's anesthesia
+R16	causes_or_contributes_to Arg1:T81 Arg2:T80	
+R17	treats Arg1:T21 Arg2:T22	
+R18	treats Arg1:T20 Arg2:T22	
+T82	missed_disease_or_phenotypic_feature 746 748	HF
+R19	treats Arg1:T21 Arg2:T82	
+R20	treats Arg1:T20 Arg2:T82	
+R21	causes_or_contributes_to Arg1:T3 Arg2:T2	
+T83	missed_disease_or_phenotypic_feature 8 28	oxidative haemolysis
+R22	causes_or_contributes_to Arg1:T3 Arg2:T83	
+R23	causes_or_contributes_to Arg1:T6 Arg2:T8	
+R24	causes_or_contributes_to Arg1:T7 Arg2:T8	
+R25	causes_or_contributes_to Arg1:T6 Arg2:T9	
+T84	missed_disease_or_phenotypic_feature 285 301	pleural effusion
+R26	causes_or_contributes_to Arg1:T6 Arg2:T84	
+R27	causes_or_contributes_to Arg1:T7 Arg2:T84	
+R28	causes_or_contributes_to Arg1:T7 Arg2:T9	

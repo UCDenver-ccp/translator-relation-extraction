@@ -55,3 +55,32 @@ T54	disease_or_phenotypic_feature 2376 2384	ion-pair
 T55	chemical 2396 2401	lipid
 T56	chemical 2553 2563	inhibitors
 T57	disease_or_phenotypic_feature 2567 2589	ankylosing spondylitis
+T58	missed_chemical 28 62	ntraperitoneal chemotherapy agents
+R1	treats Arg1:T58 Arg2:T2	
+R2	treats Arg1:T58 Arg2:T3	
+R3	treats Arg1:T58 Arg2:T4	
+R4	causes_or_contributes_to Arg1:T8 Arg2:T5	
+T59	missed_chemical 317 330	beta-blockers
+R5	causes_or_contributes_to Arg1:T10 Arg2:T5	
+R6	causes_or_contributes_to Arg1:T59 Arg2:T5	
+R7	causes_or_contributes_to Arg1:T17 Arg2:T18	
+R8	causes_or_contributes_to Arg1:T19 Arg2:T20	
+T60	missed_chemical 673 694	plasminogen activator
+T61	corrected_chemical 699 716	trypsin inhibitor
+T62	missed_disease_or_phenotypic_feature 736 741	ulcer
+T63	missed_disease_or_phenotypic_feature 759 764	tumor
+R9	treats Arg1:T60 Arg2:T24	
+R10	treats Arg1:T60 Arg2:T62	
+R11	treats Arg1:T60 Arg2:T63	
+R12	treats Arg1:T61 Arg2:T24	
+R13	treats Arg1:T61 Arg2:T62	
+R14	treats Arg1:T61 Arg2:T63	
+T64	missed_disease_or_phenotypic_feature 817 826	neoplasia
+T65	corrected_chemical 767 789	Dextran sulfate sodium
+R15	causes_or_contributes_to Arg1:T65 Arg2:T64	
+R16	treats Arg1:T42 Arg2:T43	
+T66	missed_disease_or_phenotypic_feature 1755 1772	attention deficit
+T67	missed_disease_or_phenotypic_feature 1774 1784	narcolepsy
+R17	treats Arg1:T42 Arg2:T66	
+R18	treats Arg1:T42 Arg2:T67	
+R19	treats Arg1:T48 Arg2:T49	

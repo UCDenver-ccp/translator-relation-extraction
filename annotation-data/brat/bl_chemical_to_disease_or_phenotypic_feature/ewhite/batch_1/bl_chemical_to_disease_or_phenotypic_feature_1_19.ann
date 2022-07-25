@@ -74,3 +74,26 @@ T73	chemical 2672 2681	docetaxel
 T74	disease_or_phenotypic_feature 2693 2708	prostate cancer
 T75	chemical 2742 2749	biology
 T76	chemical 2757 2766	docetaxel
+T77	corrected_chemical 128 144	SGLT2 inhibitors
+T78	corrected_chemical 149 172	GLP-1 receptor agonists
+R1	treats Arg1:T78 Arg2:T7	
+R2	treats Arg1:T77 Arg2:T7	
+R3	treats Arg1:T77 Arg2:T8	
+R4	treats Arg1:T78 Arg2:T8	
+R5	treats Arg1:T19 Arg2:T21	
+R6	treats Arg1:T20 Arg2:T21	
+R7	treats Arg1:T24 Arg2:T25	
+T79	missed_chemical 726 738	chemotherapy
+R8	treats Arg1:T79 Arg2:T25	
+R9	treats Arg1:T44 Arg2:T46	
+T80	missed_chemical 1746 1754	nanocage
+R10	treats Arg1:T80 Arg2:T46	
+R11	treats Arg1:T54 Arg2:T55	
+T81	corrected_chemical 2371 2393	PI3K pathway inhibitor
+T82	corrected_disease_or_phenotypic_feature 2447 2511	aromatase-inhibitor-resistant ER-positive relapsed breast cancer
+R12	treats Arg1:T66 Arg2:T82	
+R13	treats Arg1:T81 Arg2:T82	
+T83	corrected_disease_or_phenotypic_feature 2605 2620	cancer cachexia
+R14	treats Arg1:T70 Arg2:T83	
+R15	treats Arg1:T69 Arg2:T83	
+R16	treats Arg1:T73 Arg2:T74	

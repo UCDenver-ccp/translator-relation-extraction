@@ -61,3 +61,19 @@ T60	disease_or_phenotypic_feature 2009 2022	heart failure
 T61	chemical 2075 2082	gelatin
 T62	chemical 2083 2087	gold
 T63	disease_or_phenotypic_feature 2179 2185	glioma
+T64	corrected_disease_or_phenotypic_feature 314 329	obese-MSG tumor
+T65	corrected_disease_or_phenotypic_feature 339 364	obese-MSG tumor metformin
+T66	corrected_disease_or_phenotypic_feature 638 662	hormone-dependent tumors
+T67	missed_disease_or_phenotypic_feature 679 691	hypertension
+T68	missed_disease_or_phenotypic_feature 711 730	glucose intolerance
+T69	missed_disease_or_phenotypic_feature 745 764	lipid abnormalities
+R1	treats Arg1:T34 Arg2:T33	
+T70	corrected_disease_or_phenotypic_feature 1049 1087	Tacrolimus-Induced Gingival Overgrowth
+T71	missed_disease_or_phenotypic_feature 1323 1348	diaphragmatic dysfunction
+T72	missed_disease_or_phenotypic_feature 1557 1589	hypothalamic-pituitary disorders
+T73	missed_disease_or_phenotypic_feature 1604 1634	growth hormone (GH) deficiency
+T74	missed_disease_or_phenotypic_feature 1695 1712	neurofibromatosis
+R2	treats Arg1:T52 Arg2:T53	
+T75	corrected_chemical 1956 1988	Aldosterone receptor antagonists
+R3	treats Arg1:T75 Arg2:T60	
+T76	DONE 2187 2191	DONE

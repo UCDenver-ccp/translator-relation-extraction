@@ -67,3 +67,27 @@ T66	chemical 2566 2571	K-Ion
 T67	disease_or_phenotypic_feature 2669 2681	mesothelioma
 T68	chemical 2711 2722	nimotuzumab
 T69	chemical 2776 2780	drug
+R1	treats Arg1:T6 Arg2:T7	
+T70	missed_chemical 129 133	CLAs
+R2	treats Arg1:T70 Arg2:T7	
+R3	treats Arg1:T6 Arg2:T8	
+R4	treats Arg1:T70 Arg2:T8	
+R5	treats Arg1:T6 Arg2:T9	
+R6	treats Arg1:T70 Arg2:T9	
+T71	corrected_chemical 25 85	Fatty acids containing conjugated carbon-carbon double bonds
+R7	treats Arg1:T71 Arg2:T7	
+R8	treats Arg1:T71 Arg2:T8	
+R9	treats Arg1:T71 Arg2:T9	
+T72	corrected_disease_or_phenotypic_feature 486 500	sarcoma tumors
+R10	treats Arg1:T17 Arg2:T72	
+R11	treats Arg1:T18 Arg2:T72	
+R12	causes_or_contributes_to Arg1:T20 Arg2:T21	
+T73	missed_chemical 1243 1255	pentetrazole
+R13	causes_or_contributes_to Arg1:T73 Arg2:T31	
+R14	causes_or_contributes_to Arg1:T32 Arg2:T34	
+R15	causes_or_contributes_to Arg1:T33 Arg2:T34	
+R16	causes_or_contributes_to Arg1:T47 Arg2:T46	
+T74	corrected_chemical 1858 1882	NPY receptor antagonists
+R17	treats Arg1:T74 Arg2:T51	
+R18	treats Arg1:T74 Arg2:T52	
+R19	treats Arg1:T68 Arg2:T67	

@@ -66,3 +66,27 @@ T65	chemical 2726 2732	leptin
 T66	disease_or_phenotypic_feature 2734 2741	obesity
 T67	chemical 2743 2751	hormonal
 T68	disease_or_phenotypic_feature 2766 2782	male infertility
+T69	corrected_disease_or_phenotypic_feature 206 240	androgen-dependent prostate tumors
+T70	missed_disease_or_phenotypic_feature 268 295	androgen-independent tumors
+T71	missed_disease_or_phenotypic_feature 444 460	eating disorders
+R1	treats Arg1:T13 Arg2:T71	
+R2	treats Arg1:T14 Arg2:T71	
+R3	treats Arg1:T15 Arg2:T71	
+R4	treats Arg1:T13 Arg2:T16	
+R5	treats Arg1:T14 Arg2:T16	
+R6	treats Arg1:T15 Arg2:T16	
+T72	corrected_disease_or_phenotypic_feature 885 914	Helicobacter pylori infection
+T73	corrected_chemical 923 977	γ-glutamyltranspeptidase-activatable fluorescent probe
+T74	missed_disease_or_phenotypic_feature 1074 1098	mucinous ovarian tumours
+R7	treats Arg1:T30 Arg2:T31	
+T76	missed_disease_or_phenotypic_feature 1368 1374;1384 1389	cervix tumor
+T77	missed_disease_or_phenotypic_feature 1359 1366;1384 1389	uterine tumor
+T75	missed_chemical 1391 1398	Hirudin
+T78	corrected_chemical 1442 1459	antithrombic drug
+R8	treats Arg1:T75 Arg2:T40	
+T79	corrected_disease_or_phenotypic_feature 1765 1783	cancer-testis (CT)
+T80	corrected_chemical 1920 1943	penicillin G benzathine
+R9	treats Arg1:T80 Arg2:T49	
+T81	corrected_chemical 2080 2094	ACE inhibitors
+T82	corrected_disease_or_phenotypic_feature 2176 2219	nonimmunogenic 4T1 murine mammary carcinoma
+T83	corrected_disease_or_phenotypic_feature 2591 2632	obstructive sleep apnea hypopnea syndrome

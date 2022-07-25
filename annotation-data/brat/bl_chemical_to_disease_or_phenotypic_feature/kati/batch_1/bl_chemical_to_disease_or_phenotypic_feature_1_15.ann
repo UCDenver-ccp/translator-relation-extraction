@@ -66,3 +66,38 @@ T65	disease_or_phenotypic_feature 2238 2245	obesity
 T66	chemical 2247 2257	Paclitaxel
 T67	chemical 2273 2277	drug
 T68	disease_or_phenotypic_feature 2305 2326	peripheral neuropathy
+T69	corrected_chemical 247 265	topical lovastatin
+T70	corrected_chemical 270 288	cholesterol lotion
+T71	missed_disease_or_phenotypic_feature 229 241	skin lesions
+R1	treats Arg1:T69 Arg2:T7	
+R2	treats Arg1:T70 Arg2:T7	
+R3	treats Arg1:T69 Arg2:T71	
+R4	treats Arg1:T70 Arg2:T71	
+T72	corrected_disease_or_phenotypic_feature 572 591	convulsive seizures
+R5	treats Arg1:T19 Arg2:T72	
+R6	treats Arg1:T19 Arg2:T22	
+T73	corrected_chemical 1116 1158	sodium-glucose co-transporter-2 inhibitors
+T74	corrected_chemical 1280 1312	arsenic-containing mineral water
+R7	treats Arg1:T74 Arg2:T38	
+T75	corrected_chemical 1360 1376	Ghrelin mimetics
+R8	treats Arg1:T75 Arg2:T44	
+T76	missed_disease_or_phenotypic_feature 1433 1443	sarcopenia
+R9	treats Arg1:T75 Arg2:T45	
+R10	treats Arg1:T75 Arg2:T76	
+R11	treats Arg1:T75 Arg2:T46	
+T77	missed_disease_or_phenotypic_feature 1513 1531	insulin resistance
+T78	corrected_chemical 1462 1479	GHS-R antagonists
+R12	treats Arg1:T78 Arg2:T48	
+R13	treats Arg1:T78 Arg2:T77	
+T79	corrected_chemical 1885 1916	multikinase inhibitor sorafenib
+T80	missed_disease_or_phenotypic_feature 1953 1958;1978 1987	renal carcinoma
+R14	treats Arg1:T79 Arg2:T80	
+R15	treats Arg1:T79 Arg2:T57	
+T81	missed_disease_or_phenotypic_feature 2000 2018	tumor angiogenesis
+T82	missed_disease_or_phenotypic_feature 2074 2088	rhabdomyolysis
+T83	missed_chemical 2059 2065	Statin
+R16	causes_or_contributes_to Arg1:T83 Arg2:T82	
+R17	causes_or_contributes_to Arg1:T83 Arg2:T58	
+R18	causes_or_contributes_to Arg1:T59 Arg2:T82	
+R19	causes_or_contributes_to Arg1:T59 Arg2:T58	
+R20	causes_or_contributes_to Arg1:T66 Arg2:T68	

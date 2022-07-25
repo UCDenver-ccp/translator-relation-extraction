@@ -60,3 +60,50 @@ T59	chemical 2580 2584	drug
 T60	disease_or_phenotypic_feature 2650 2657	pan-RAF
 T61	chemical 2658 2667	inhibitor
 T62	disease_or_phenotypic_feature 2685 2702	colorectal cancer
+T63	corrected_chemical 26 50	tumor antigenic peptides
+R1	treats Arg1:T63 Arg2:T4	
+R2	treats Arg1:T6 Arg2:T5	
+R3	treats Arg1:T7 Arg2:T5	
+T64	corrected_chemical 430 444	injection drug
+R4	causes_or_contributes_to Arg1:T64 Arg2:T8	
+T65	missed_disease_or_phenotypic_feature 1106 1118	brain injury
+T66	corrected_chemical 1051 1068	Hyperbaric oxygen
+T67	corrected_disease_or_phenotypic_feature 1159 1182	focal cerebral ischemia
+T68	corrected_disease_or_phenotypic_feature 1184 1208	global cerebral ischemia
+T69	missed_disease_or_phenotypic_feature 1210 1235	neonatal hypoxia-ischemia
+T70	missed_disease_or_phenotypic_feature 1240 1263	subarachnoid hemorrhage
+R5	treats Arg1:T66 Arg2:T65	
+R6	treats Arg1:T66 Arg2:T67	
+R7	treats Arg1:T66 Arg2:T68	
+R8	treats Arg1:T66 Arg2:T69	
+R9	treats Arg1:T66 Arg2:T70	
+T71	missed_chemical 1265 1271	Δpep27
+T72	missed_disease_or_phenotypic_feature 1317 1320	AAD
+R10	treats Arg1:T71 Arg2:T72	
+T73	corrected_disease_or_phenotypic_feature 1457 1480	goblet cell hyperplasia
+R11	treats Arg1:T71 Arg2:T73	
+T74	missed_disease_or_phenotypic_feature 1403 1413;1428 1451	peripheral eosinophil accumulation
+R12	treats Arg1:T71 Arg2:T74	
+T76	corrected_disease_or_phenotypic_feature 1418 1451	pulmonary eosinophil accumulation
+R13	treats Arg1:T71 Arg2:T76	
+T75	corrected_chemical 1545 1572	melanoma-associated antigen
+T77	missed_disease_or_phenotypic_feature 1503 1509	tumors
+R14	causes_or_contributes_to Arg1:T75 Arg2:T77	
+T78	corrected_chemical 1702 1725	double-scattered proton
+T79	corrected_disease_or_phenotypic_feature 1598 1644;1667 1691	nonmetastatic nonkeratinizing undifferentiated nasopharyngeal carcinoma
+T80	missed_disease_or_phenotypic_feature 1598 1627;1645 1691	nonmetastatic nonkeratinizing poorly differentiated nasopharyngeal carcinoma
+R15	treats Arg1:T78 Arg2:T80	
+R16	treats Arg1:T78 Arg2:T80	
+T81	corrected_chemical 1911 1950	Combinations of estrogen and progestins
+R17	treats Arg1:T81 Arg2:T42	
+T82	missed_disease_or_phenotypic_feature 2026 2052	estrogen induced neoplasia
+R18	treats Arg1:T81 Arg2:T82	
+T83	corrected_chemical 2383 2399	SGLT2 inhibitors
+T84	missed_disease_or_phenotypic_feature 2453 2461	diabetes
+R19	treats Arg1:T83 Arg2:T54	
+R20	treats Arg1:T83 Arg2:T84	
+T85	corrected_chemical 2650 2667	pan-RAF inhibitor
+T86	corrected_disease_or_phenotypic_feature 2673 2702	KRAS-mutant colorectal cancer
+R21	treats Arg1:T85 Arg2:T86	
+T87	missed_chemical 2586 2595	LY3214996
+R22	treats Arg1:T87 Arg2:T86	

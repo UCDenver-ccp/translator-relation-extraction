@@ -1,0 +1,69 @@
+T1	chemical 25 33	antigens
+T2	disease_or_phenotypic_feature 37 43	cancer
+T3	disease_or_phenotypic_feature 92 105	renal failure
+T4	chemical 126 140	methoxyflurane
+T5	chemical 141 151	anesthesia
+T6	chemical 177 186	valsartan
+T7	chemical 187 196	inhibitor
+T8	chemical 230 234	drug
+T9	disease_or_phenotypic_feature 239 247	arterial
+T10	disease_or_phenotypic_feature 265 278	heart failure
+T11	disease_or_phenotypic_feature 323 340	colloid carcinoma
+T12	chemical 401 408	antigen
+T13	chemical 476 483	antigen
+T14	chemical 505 513	collagen
+T15	disease_or_phenotypic_feature 514 523	hamartoma
+T16	disease_or_phenotypic_feature 527 553	tuberous sclerosis complex
+T17	chemical 557 564	dapsone
+T18	disease_or_phenotypic_feature 565 581	hypersensitivity
+T19	disease_or_phenotypic_feature 582 590	syndrome
+T20	disease_or_phenotypic_feature 606 611	fever
+T21	disease_or_phenotypic_feature 631 639	vomiting
+T22	disease_or_phenotypic_feature 658 667	hepatitis
+T23	chemical 759 763	drug
+T24	chemical 777 780	FCM
+T25	disease_or_phenotypic_feature 836 841	small
+T26	disease_or_phenotypic_feature 902 922	cognitive impairment
+T27	disease_or_phenotypic_feature 924 943	psychiatric disease
+T28	chemical 945 949	drug
+T29	chemical 960 967	alcohol
+T30	chemical 976 986	Fluoxetine
+T31	disease_or_phenotypic_feature 995 1013	movement disorders
+T32	disease_or_phenotypic_feature 1064 1073	cataracts
+T33	chemical 1089 1093	H-89
+T34	chemical 1105 1114	inhibitor
+T35	chemical 1142 1151	inhibitor
+T36	disease_or_phenotypic_feature 1218 1226	cataract
+T37	disease_or_phenotypic_feature 1249 1257	lymphoma
+T38	chemical 1309 1317	antigens
+T39	chemical 1349 1352	NPY
+T40	chemical 1353 1373	receptor antagonists
+T41	disease_or_phenotypic_feature 1392 1399	obesity
+T42	disease_or_phenotypic_feature 1404 1428	cardiovascular disorders
+T43	disease_or_phenotypic_feature 1450 1459	cancerous
+T44	chemical 1491 1494	MTX
+T45	chemical 1501 1504	MTX
+T46	chemical 1513 1521	solution
+T47	chemical 1523 1526	MTX
+T48	disease_or_phenotypic_feature 1598 1607	neoplasms
+T49	chemical 1620 1628	antigens
+T50	chemical 1659 1669	fluoxetine
+T51	chemical 1671 1681	sertraline
+T52	chemical 1686 1697	fluvoxamine
+T53	disease_or_phenotypic_feature 1775 1782	obesity
+T54	disease_or_phenotypic_feature 1787 1794	obesity
+T55	chemical 1796 1810	growth hormone
+T56	disease_or_phenotypic_feature 1895 1902	obesity
+T57	chemical 1904 1917	Valproic acid
+T58	disease_or_phenotypic_feature 1932 1938	cancer
+T59	chemical 1939 1943	drug
+T60	chemical 2012 2026	Growth hormone
+T61	disease_or_phenotypic_feature 2043 2059	islet cell tumor
+T62	disease_or_phenotypic_feature 2060 2072	hypoglycemia
+T63	disease_or_phenotypic_feature 2117 2127	lung tumor
+T64	chemical 2139 2146	antigen
+T65	disease_or_phenotypic_feature 2162 2172	lung tumor
+T66	disease_or_phenotypic_feature 2186 2193	obesity
+T67	chemical 2217 2228	amphetamine
+T68	chemical 2230 2237	cocaine
+T69	chemical 2242 2250	cannabis

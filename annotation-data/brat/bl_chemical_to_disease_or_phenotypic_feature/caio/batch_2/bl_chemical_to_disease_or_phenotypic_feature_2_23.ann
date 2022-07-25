@@ -1,0 +1,66 @@
+T1	chemical 0 11	Sibutramine
+T2	chemical 31 35	drug
+T3	disease_or_phenotypic_feature 62 69	obesity
+T4	chemical 109 118	inhibitor
+T5	chemical 120 129	celecoxib
+T6	chemical 134 143	cisplatin
+T7	disease_or_phenotypic_feature 152 163	lung tumors
+T8	disease_or_phenotypic_feature 174 186	hypocalcemia
+T9	disease_or_phenotypic_feature 187 201	hypomagnesemia
+T10	disease_or_phenotypic_feature 203 220	hyperphosphatemia
+T11	chemical 234 243	phosphate
+T12	chemical 302 314	moxifloxacin
+T13	chemical 331 339	solution
+T14	disease_or_phenotypic_feature 343 351	cataract
+T15	chemical 371 381	Anesthesia
+T16	disease_or_phenotypic_feature 396 408	cleft palate
+T17	chemical 432 436	food
+T18	disease_or_phenotypic_feature 453 460	obesity
+T19	disease_or_phenotypic_feature 487 494	obesity
+T20	chemical 557 566	inhibitor
+T21	chemical 567 578	roflumilast
+T22	disease_or_phenotypic_feature 580 588	Diplopia
+T23	disease_or_phenotypic_feature 595 603	cataract
+T24	chemical 669 679	anesthesia
+T25	chemical 730 740	anesthesia
+T26	disease_or_phenotypic_feature 745 753	cataract
+T27	chemical 763 774	mepivacaine
+T28	chemical 784 793	lidocaine
+T29	chemical 794 805	bupivacaine
+T30	chemical 806 813	mixture
+T31	chemical 840 850	inhibitors
+T32	disease_or_phenotypic_feature 860 868	cataract
+T33	chemical 878 895	Food antioxidants
+T34	disease_or_phenotypic_feature 907 915	cataract
+T35	disease_or_phenotypic_feature 927 945	skeletal dysplasia
+T36	disease_or_phenotypic_feature 946 964	mental retardation
+T37	disease_or_phenotypic_feature 965 973	syndrome
+T38	disease_or_phenotypic_feature 979 992	abnormal face
+T39	chemical 999 1008	uric acid
+T40	disease_or_phenotypic_feature 1009 1028	metabolism disorder
+T41	chemical 1081 1089	Bombesin
+T42	chemical 1094 1105	antagonists
+T43	disease_or_phenotypic_feature 1110 1125	prostate cancer
+T44	disease_or_phenotypic_feature 1153 1166	Heart failure
+T45	chemical 1168 1177	oxidative
+T46	chemical 1189 1200	allopurinol
+T47	chemical 1202 1216	Growth hormone
+T48	disease_or_phenotypic_feature 1245 1252	obesity
+T49	disease_or_phenotypic_feature 1344 1357	hydrocephalus
+T50	disease_or_phenotypic_feature 1383 1400	cerebral ischemia
+T51	disease_or_phenotypic_feature 1414 1422	seizures
+T52	chemical 1498 1504	sodium
+T53	chemical 1506 1511	water
+T54	chemical 1517 1524	glucose
+T55	disease_or_phenotypic_feature 1526 1546	Rheumatoid arthritis
+T56	chemical 1562 1572	infliximab
+T57	chemical 1598 1607	inhibitor
+T58	chemical 1627 1631	food
+T59	disease_or_phenotypic_feature 1655 1662	obesity
+T60	disease_or_phenotypic_feature 1664 1679	Agranulocytosis
+T61	disease_or_phenotypic_feature 1684 1693	hepatitis
+T62	chemical 1717 1721	drug
+T63	disease_or_phenotypic_feature 1771 1778	obesity
+T64	chemical 1794 1802	agonists
+T65	chemical 1812 1816	food
+T66	disease_or_phenotypic_feature 1845 1852	obesity

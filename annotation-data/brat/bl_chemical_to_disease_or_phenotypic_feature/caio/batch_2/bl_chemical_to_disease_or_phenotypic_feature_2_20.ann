@@ -1,0 +1,74 @@
+T1	chemical 49 57	solution
+T2	disease_or_phenotypic_feature 62 83	cardiac insufficiency
+T3	disease_or_phenotypic_feature 85 98	renal failure
+T4	chemical 100 105	water
+T5	disease_or_phenotypic_feature 165 173	melanoma
+T6	chemical 185 193	antigens
+T7	chemical 241 249	tyrosine
+T8	chemical 262 272	inhibitors
+T9	chemical 306 314	dopamine
+T10	disease_or_phenotypic_feature 353 371	hyperprolactinemia
+T11	disease_or_phenotypic_feature 376 394	hyperaldosteronism
+T12	disease_or_phenotypic_feature 418 424	autism
+T13	disease_or_phenotypic_feature 426 450	autism spectrum disorder
+T14	chemical 452 462	citalopram
+T15	chemical 464 476	escitalopram
+T16	chemical 478 488	fluoxetine
+T17	chemical 490 501	fluvoxamine
+T18	chemical 503 513	paroxetine
+T19	disease_or_phenotypic_feature 515 547	pervasive developmental disorder
+T20	chemical 559 568	serotonin
+T21	chemical 578 588	inhibitors
+T22	chemical 594 604	sertraline
+T23	chemical 606 618	Daunorubicin
+T24	chemical 698 702	drug
+T25	disease_or_phenotypic_feature 711 719	leukemia
+T26	chemical 728 739	Sibutramine
+T27	chemical 762 771	inhibitor
+T28	disease_or_phenotypic_feature 817 824	obesity
+T29	chemical 831 835	food
+T30	disease_or_phenotypic_feature 869 878	Americans
+T31	disease_or_phenotypic_feature 880 887	obesity
+T32	chemical 937 941	food
+T33	disease_or_phenotypic_feature 961 968	obesity
+T34	disease_or_phenotypic_feature 979 986	obesity
+T35	chemical 1018 1028	Anesthetic
+T36	disease_or_phenotypic_feature 1044 1052	cataract
+T37	chemical 1107 1120	levetiracetam
+T38	disease_or_phenotypic_feature 1153 1165	Glioblastoma
+T39	chemical 1193 1197	drug
+T40	chemical 1198 1210	temozolomide
+T41	disease_or_phenotypic_feature 1254 1262	seizures
+T42	disease_or_phenotypic_feature 1349 1357	seizures
+T43	disease_or_phenotypic_feature 1384 1392	seizures
+T44	chemical 1409 1423	anticonvulsant
+T45	chemical 1424 1428	drug
+T46	chemical 1511 1517	oxygen
+T47	disease_or_phenotypic_feature 1567 1590	head and neck carcinoma
+T48	chemical 1592 1610	alpha-Chymotrypsin
+T49	disease_or_phenotypic_feature 1627 1635	cataract
+T50	chemical 1645 1654	enzymatic
+T51	chemical 1674 1678	food
+T52	disease_or_phenotypic_feature 1692 1699	obesity
+T53	chemical 1712 1726	Growth hormone
+T54	disease_or_phenotypic_feature 1744 1750	cancer
+T55	disease_or_phenotypic_feature 1751 1759	cachexia
+T56	disease_or_phenotypic_feature 1775 1786	visual loss
+T57	chemical 1791 1801	anesthetic
+T58	chemical 1857 1861	123I
+T59	chemical 1884 1891	hormone
+T60	chemical 1926 1937	quinagolide
+T61	disease_or_phenotypic_feature 1955 1964	pituitary
+T62	disease_or_phenotypic_feature 1965 1973	adenomas
+T63	chemical 1985 1994	serotonin
+T64	chemical 2004 2013	inhibitor
+T65	disease_or_phenotypic_feature 2022 2040	movement disorders
+T66	chemical 2055 2065	gentamicin
+T67	chemical 2080 2093	chlorhexidine
+T68	chemical 2094 2102	solution
+T69	disease_or_phenotypic_feature 2106 2114	cataract
+T70	chemical 2159 2173	antidepressant
+T71	chemical 2182 2189	glucose
+T72	disease_or_phenotypic_feature 2205 2217	hypoglycemia
+T73	disease_or_phenotypic_feature 2219 2232	hyperglycemia
+T74	disease_or_phenotypic_feature 2234 2251	diabetes mellitus

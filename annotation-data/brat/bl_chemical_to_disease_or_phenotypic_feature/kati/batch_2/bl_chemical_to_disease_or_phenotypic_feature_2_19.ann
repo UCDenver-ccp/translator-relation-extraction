@@ -1,0 +1,61 @@
+T1	disease_or_phenotypic_feature 0 13	Renal failure
+T2	chemical 15 19	drug
+T3	chemical 41 45	drug
+T4	chemical 54 63	Melatonin
+T5	chemical 134 141	hormone
+T6	disease_or_phenotypic_feature 142 151	dependent
+T7	disease_or_phenotypic_feature 152 165	breast cancer
+T8	disease_or_phenotypic_feature 195 212	retinochoroiditis
+T9	chemical 229 239	adalimumab
+T10	chemical 267 277	antagonist
+T11	chemical 326 332	oxygen
+T12	disease_or_phenotypic_feature 345 358	renal failure
+T13	disease_or_phenotypic_feature 376 387	proteinuria
+T14	disease_or_phenotypic_feature 429 436	obesity
+T15	chemical 441 451	anesthetic
+T16	chemical 487 493	oxygen
+T17	chemical 514 524	biomarkers
+T18	disease_or_phenotypic_feature 568 585	colorectal cancer
+T19	disease_or_phenotypic_feature 610 617	obesity
+T20	chemical 639 643	drug
+T21	chemical 663 670	antigen
+T22	chemical 687 690	DIC
+T23	disease_or_phenotypic_feature 687 690	DIC
+T24	disease_or_phenotypic_feature 705 718	renal failure
+T25	chemical 787 797	plinabulin
+T26	chemical 849 859	biological
+T27	disease_or_phenotypic_feature 921 925	pain
+T28	disease_or_phenotypic_feature 1061 1069	vomiting
+T29	disease_or_phenotypic_feature 1071 1078	anxiety
+T30	chemical 1080 1086	oxygen
+T31	disease_or_phenotypic_feature 1096 1103	seizure
+T32	disease_or_phenotypic_feature 1139 1147	melanoma
+T33	chemical 1148 1155	antigen
+T34	chemical 1162 1170	antigens
+T35	chemical 1208 1215	Gelatin
+T36	disease_or_phenotypic_feature 1259 1271	hyperthermia
+T37	chemical 1285 1297	methotrexate
+T38	chemical 1324 1334	inhibitors
+T39	disease_or_phenotypic_feature 1368 1387	psoriatic arthritis
+T40	disease_or_phenotypic_feature 1408 1417	malignant
+T41	chemical 1543 1549	enzyme
+T42	chemical 1583 1591	antigens
+T43	disease_or_phenotypic_feature 1601 1614	hydrocephalus
+T44	disease_or_phenotypic_feature 1631 1644	short stature
+T45	chemical 1649 1663	growth hormone
+T46	chemical 1705 1709	drug
+T47	disease_or_phenotypic_feature 1723 1730	obesity
+T48	chemical 1758 1780	angiogenesis inhibitor
+T49	chemical 1781 1788	TNP-470
+T50	disease_or_phenotypic_feature 1829 1843	lung carcinoma
+T51	chemical 1846 1858	Homocysteine
+T52	chemical 1859 1868	oxidation
+T53	disease_or_phenotypic_feature 1905 1917	cleft palate
+T54	chemical 1960 1975	malondialdehyde
+T55	chemical 1977 1980	MDA
+T56	chemical 1986 1992	sodium
+T57	chemical 1993 1998	oxide
+T58	disease_or_phenotypic_feature 2010 2013	SOD
+T59	disease_or_phenotypic_feature 2123 2136	heart failure
+T60	disease_or_phenotypic_feature 2142 2155	heart failure
+T61	chemical 2185 2194	oxidative

@@ -1,0 +1,64 @@
+T1	chemical 63 72	inhibitor
+T2	chemical 141 152	gemcitabine
+T3	disease_or_phenotypic_feature 170 173	PDA
+T4	chemical 228 234	Leptin
+T5	disease_or_phenotypic_feature 257 264	obesity
+T6	chemical 276 286	biological
+T7	chemical 329 335	oxygen
+T8	disease_or_phenotypic_feature 420 435	pulmonary edema
+T9	disease_or_phenotypic_feature 441 449	seizures
+T10	disease_or_phenotypic_feature 511 531	colon adenocarcinoma
+T11	chemical 541 575	matrix metalloproteinase inhibitor
+T12	chemical 630 634	drug
+T13	chemical 652 662	biological
+T14	chemical 718 727	cisplatin
+T15	disease_or_phenotypic_feature 740 769	triple negative breast cancer
+T16	chemical 811 819	estrogen
+T17	disease_or_phenotypic_feature 830 837	obesity
+T18	chemical 842 849	glucose
+T19	disease_or_phenotypic_feature 884 887	MVD
+T20	chemical 959 970	Factor VIII
+T21	chemical 979 986	antigen
+T22	chemical 1030 1040	biomarkers
+T23	disease_or_phenotypic_feature 1044 1055	lung cancer
+T24	chemical 1063 1067	food
+T25	disease_or_phenotypic_feature 1088 1095	obesity
+T26	disease_or_phenotypic_feature 1109 1122	Hyperglycemia
+T27	disease_or_phenotypic_feature 1127 1143	hyperinsulinemia
+T28	chemical 1196 1206	biological
+T29	chemical 1208 1218	etanercept
+T30	chemical 1254 1257	ras
+T31	disease_or_phenotypic_feature 1258 1267	dependent
+T32	chemical 1300 1303	ras
+T33	chemical 1315 1325	antagonist
+T34	chemical 1337 1351	growth hormone
+T35	disease_or_phenotypic_feature 1386 1393	obesity
+T36	chemical 1404 1414	biological
+T37	disease_or_phenotypic_feature 1455 1460	NSCLC
+T38	chemical 1474 1486	radiolabeled
+T39	chemical 1526 1535	estradiol
+T40	disease_or_phenotypic_feature 1557 1569	Cleft palate
+T41	chemical 1617 1621	food
+T42	chemical 1626 1631	water
+T43	chemical 1633 1643	Fluoxetine
+T44	disease_or_phenotypic_feature 1703 1710	obesity
+T45	disease_or_phenotypic_feature 1715 1720	obese
+T46	chemical 1741 1745	drug
+T47	disease_or_phenotypic_feature 1771 1780	malignant
+T48	disease_or_phenotypic_feature 1853 1868	hypopituitarism
+T49	disease_or_phenotypic_feature 1901 1919	hypoparathyroidism
+T50	disease_or_phenotypic_feature 1921 1938	diabetes mellitus
+T51	chemical 1940 1954	growth hormone
+T52	disease_or_phenotypic_feature 1967 1986	hyperprolactinaemia
+T53	disease_or_phenotypic_feature 1988 2013	polycystic ovary syndrome
+T54	chemical 2015 2019	SAHA
+T55	disease_or_phenotypic_feature 2020 2028	syndrome
+T56	disease_or_phenotypic_feature 2030 2060	congenital adrenal hyperplasia
+T57	disease_or_phenotypic_feature 2062 2078	Cushing syndrome
+T58	disease_or_phenotypic_feature 2113 2118	edema
+T59	chemical 2136 2142	saline
+T60	disease_or_phenotypic_feature 2161 2169	cataract
+T61	chemical 2179 2182	dye
+T62	chemical 2198 2208	Fluoxetine
+T63	disease_or_phenotypic_feature 2262 2269	anxiety
+T64	disease_or_phenotypic_feature 2286 2292	autism

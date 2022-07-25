@@ -1,0 +1,75 @@
+T1	disease_or_phenotypic_feature 34 47	heart failure
+T2	chemical 52 56	drug
+T3	disease_or_phenotypic_feature 112 125	heart failure
+T4	chemical 127 144	Megestrol acetate
+T5	chemical 203 210	hormone
+T6	disease_or_phenotypic_feature 211 220	sensitive
+T7	chemical 313 320	hormone
+T8	disease_or_phenotypic_feature 369 379	thrombosis
+T9	chemical 381 389	thrombin
+T10	chemical 393 407	growth hormone
+T11	chemical 429 439	tacrolimus
+T12	chemical 443 455	methotrexate
+T13	chemical 538 547	inhibitor
+T14	disease_or_phenotypic_feature 551 571	rheumatoid arthritis
+T15	chemical 658 667	inhibitor
+T16	chemical 708 712	drug
+T17	disease_or_phenotypic_feature 721 741	tumor lysis syndrome
+T18	disease_or_phenotypic_feature 761 778	hyperphosphatemia
+T19	disease_or_phenotypic_feature 780 792	hyperkalemia
+T20	disease_or_phenotypic_feature 797 809	hypocalcemia
+T21	chemical 832 839	calcium
+T22	chemical 840 851	antagonists
+T23	disease_or_phenotypic_feature 870 883	heart failure
+T24	chemical 927 935	antigens
+T25	disease_or_phenotypic_feature 939 945	cancer
+T26	chemical 973 977	GNRH
+T27	chemical 1006 1013	hormone
+T28	disease_or_phenotypic_feature 1014 1023	dependent
+T29	chemical 1033 1054	Mycophenolate mofetil
+T30	disease_or_phenotypic_feature 1056 1062	cancer
+T31	chemical 1110 1120	inhibitors
+T32	disease_or_phenotypic_feature 1152 1166	abdominal pain
+T33	disease_or_phenotypic_feature 1172 1180	diarrhea
+T34	chemical 1182 1195	Carbamazepine
+T35	chemical 1197 1200	CBZ
+T36	chemical 1207 1211	drug
+T37	disease_or_phenotypic_feature 1252 1256	pain
+T38	disease_or_phenotypic_feature 1276 1292	bipolar disorder
+T39	chemical 1328 1339	metabolites
+T40	disease_or_phenotypic_feature 1343 1356	hydrocephalus
+T41	disease_or_phenotypic_feature 1376 1391	prostate cancer
+T42	chemical 1436 1444	antigens
+T43	chemical 1522 1533	doxorubicin
+T44	chemical 1628 1638	hemoglobin
+T45	disease_or_phenotypic_feature 1660 1672	growth delay
+T46	chemical 1715 1725	hemoglobin
+T47	chemical 1744 1748	drug
+T48	chemical 1765 1773	curcumin
+T49	disease_or_phenotypic_feature 1822 1835	hyperglycemia
+T50	disease_or_phenotypic_feature 1837 1851	hyperlipidemia
+T51	disease_or_phenotypic_feature 1882 1889	obesity
+T52	chemical 1902 1930	human chorionic gonadotropin
+T53	chemical 1932 1941	androgens
+T54	chemical 1963 1970	hormone
+T55	chemical 1972 1985	dexamethasone
+T56	disease_or_phenotypic_feature 1990 2008	hyperprolactinemia
+T57	chemical 2065 2072	antigen
+T58	disease_or_phenotypic_feature 2107 2124	colorectal cancer
+T59	chemical 2126 2140	Growth hormone
+T60	disease_or_phenotypic_feature 2151 2160	pituitary
+T61	chemical 2221 2230	oxidative
+T62	disease_or_phenotypic_feature 2275 2283	diabetic
+T63	disease_or_phenotypic_feature 2284 2305	peripheral neuropathy
+T64	chemical 2307 2310	DPN
+T65	chemical 2322 2332	anesthesia
+T66	disease_or_phenotypic_feature 2392 2407	pulmonary edema
+T67	disease_or_phenotypic_feature 2413 2426	renal failure
+T68	disease_or_phenotypic_feature 2451 2471	hypertensive disease
+T69	chemical 2489 2498	serotonin
+T70	chemical 2508 2518	inhibitors
+T71	disease_or_phenotypic_feature 2575 2581	autism
+T72	chemical 2583 2597	norepinephrine
+T73	chemical 2607 2617	inhibitors
+T74	disease_or_phenotypic_feature 2660 2700	attention-deficit hyperactivity disorder
+T75	disease_or_phenotypic_feature 2702 2706	ADHD

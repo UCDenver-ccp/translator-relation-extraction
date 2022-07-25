@@ -1,0 +1,66 @@
+T1	chemical 36 43	antigen
+T2	disease_or_phenotypic_feature 47 62	gastric cancers
+T3	chemical 74 83	serotonin
+T4	chemical 93 103	inhibitors
+T5	disease_or_phenotypic_feature 108 114	autism
+T6	disease_or_phenotypic_feature 170 182	Wilms' tumor
+T7	chemical 235 242	antigen
+T8	chemical 265 274	serotonin
+T9	chemical 284 294	inhibitors
+T10	disease_or_phenotypic_feature 298 304	autism
+T11	chemical 338 342	food
+T12	disease_or_phenotypic_feature 354 372	metabolic disorder
+T13	disease_or_phenotypic_feature 381 388	obesity
+T14	disease_or_phenotypic_feature 393 401	diabetes
+T15	chemical 415 426	pamidronate
+T16	disease_or_phenotypic_feature 458 468	osteolysis
+T17	chemical 472 483	biochemical
+T18	chemical 505 515	Biomarkers
+T19	disease_or_phenotypic_feature 532 545	breast cancer
+T20	disease_or_phenotypic_feature 566 573	obesity
+T21	chemical 591 601	inhibitors
+T22	chemical 606 613	taurine
+T23	disease_or_phenotypic_feature 652 659	obesity
+T24	disease_or_phenotypic_feature 661 685	Congestive heart failure
+T25	chemical 710 714	drug
+T26	disease_or_phenotypic_feature 787 800	breast cancer
+T27	chemical 844 851	gelatin
+T28	chemical 852 859	polymer
+T29	chemical 921 930	inhibitor
+T30	chemical 932 944	cabozantinib
+T31	disease_or_phenotypic_feature 1058 1064	cancer
+T32	chemical 1074 1083	Patiromer
+T33	disease_or_phenotypic_feature 1101 1115	kidney disease
+T34	disease_or_phenotypic_feature 1120 1132	hyperkalemia
+T35	chemical 1148 1158	inhibitors
+T36	chemical 1166 1169	CBD
+T37	chemical 1226 1229	CBD
+T38	chemical 1238 1242	drug
+T39	chemical 1243 1247	drug
+T40	disease_or_phenotypic_feature 1285 1293	diarrhea
+T41	disease_or_phenotypic_feature 1304 1312	vomiting
+T42	chemical 1362 1367	toxin
+T43	disease_or_phenotypic_feature 1372 1382	spasticity
+T44	disease_or_phenotypic_feature 1387 1395	dystonia
+T45	chemical 1418 1432	mTOR inhibitor
+T46	chemical 1433 1446	ridaforolimus
+T47	chemical 1455 1469	HDAC inhibitor
+T48	chemical 1470 1480	vorinostat
+T49	disease_or_phenotypic_feature 1493 1513	renal cell carcinoma
+T50	chemical 1538 1541	Ten
+T51	disease_or_phenotypic_feature 1554 1562	melanoma
+T52	chemical 1599 1607	estrogen
+T53	chemical 1654 1671	local anaesthetic
+T54	chemical 1672 1679	mixture
+T55	disease_or_phenotypic_feature 1684 1690	cancer
+T56	disease_or_phenotypic_feature 1691 1695	pain
+T57	chemical 1698 1702	Acid
+T58	chemical 1703 1707	base
+T59	chemical 1708 1715	balance
+T60	disease_or_phenotypic_feature 1780 1792	cleft palate
+T61	chemical 1795 1805	Ketanserin
+T62	chemical 1846 1850	drug
+T63	disease_or_phenotypic_feature 1885 1898	heart failure
+T64	disease_or_phenotypic_feature 1910 1916	asthma
+T65	chemical 1933 1937	food
+T66	disease_or_phenotypic_feature 1984 1999	speech disorder

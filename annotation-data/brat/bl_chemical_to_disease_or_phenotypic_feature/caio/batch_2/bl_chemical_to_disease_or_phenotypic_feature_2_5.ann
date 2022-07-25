@@ -1,0 +1,65 @@
+T1	chemical 0 11	Doxorubicin
+T2	chemical 36 40	drug
+T3	disease_or_phenotypic_feature 53 67	cardiomyopathy
+T4	disease_or_phenotypic_feature 72 85	heart failure
+T5	chemical 100 104	food
+T6	disease_or_phenotypic_feature 117 124	obesity
+T7	chemical 152 155	DCs
+T8	chemical 174 182	antigens
+T9	disease_or_phenotypic_feature 240 252	malignancies
+T10	chemical 285 295	anesthesia
+T11	disease_or_phenotypic_feature 300 308	cataract
+T12	chemical 328 337	serotonin
+T13	chemical 343 353	biological
+T14	disease_or_phenotypic_feature 364 370	autism
+T15	chemical 378 382	drug
+T16	chemical 467 474	biology
+T17	disease_or_phenotypic_feature 540 557	pancreatic cancer
+T18	disease_or_phenotypic_feature 560 569	Potential
+T19	chemical 598 605	hormone
+T20	chemical 621 629	Propofol
+T21	chemical 634 644	anesthesia
+T22	disease_or_phenotypic_feature 673 695	malignant hyperthermia
+T23	disease_or_phenotypic_feature 710 732	mammary adenocarcinoma
+T24	chemical 758 765	antigen
+T25	chemical 858 868	paclitaxel
+T26	chemical 885 888	DCs
+T27	disease_or_phenotypic_feature 890 895	Fetal
+T28	disease_or_phenotypic_feature 896 909	hyperglycemia
+T29	chemical 938 947	oxidative
+T30	chemical 967 976	antigenic
+T31	disease_or_phenotypic_feature 1040 1047	myeloma
+T32	chemical 1084 1091	antigen
+T33	chemical 1140 1147	oxidant
+T34	chemical 1181 1190	inhibitor
+T35	chemical 1192 1200	sorbinil
+T36	disease_or_phenotypic_feature 1232 1245	hyperglycemic
+T37	disease_or_phenotypic_feature 1246 1254	cataract
+T38	disease_or_phenotypic_feature 1361 1386	severe mental retardation
+T39	disease_or_phenotypic_feature 1388 1400	microcephaly
+T40	disease_or_phenotypic_feature 1402 1419	failure to thrive
+T41	disease_or_phenotypic_feature 1421 1434	ear anomalies
+T42	chemical 1449 1453	tags
+T43	disease_or_phenotypic_feature 1464 1476	cleft palate
+T44	disease_or_phenotypic_feature 1513 1528	renal anomalies
+T45	disease_or_phenotypic_feature 1561 1582	genital abnormalities
+T46	chemical 1624 1632	antigens
+T47	disease_or_phenotypic_feature 1636 1660	hepatocellular carcinoma
+T48	disease_or_phenotypic_feature 1709 1722	hypercalcemia
+T49	disease_or_phenotypic_feature 1724 1732	seizures
+T50	chemical 1772 1786	anticonvulsant
+T51	chemical 1825 1831	saline
+T52	chemical 1833 1843	furosemide
+T53	chemical 1932 1941	inhibitor
+T54	chemical 1942 1953	dutasteride
+T55	disease_or_phenotypic_feature 1988 2003	prostate cancer
+T56	chemical 2009 2016	antigen
+T57	disease_or_phenotypic_feature 2041 2049	melanoma
+T58	chemical 2082 2093	Biochemical
+T59	disease_or_phenotypic_feature 2113 2120	obesity
+T60	chemical 2170 2181	thymidylate
+T61	chemical 2191 2200	inhibitor
+T62	disease_or_phenotypic_feature 2236 2248	malignancies
+T63	chemical 2251 2262	Fibronectin
+T64	disease_or_phenotypic_feature 2266 2289	gastrointestinal tumors
+T65	chemical 2310 2320	biological

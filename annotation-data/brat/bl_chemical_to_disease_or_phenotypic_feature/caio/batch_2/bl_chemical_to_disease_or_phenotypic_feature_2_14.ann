@@ -1,0 +1,68 @@
+T1	disease_or_phenotypic_feature 38 46	cataract
+T2	disease_or_phenotypic_feature 68 76	cataract
+T3	chemical 104 114	anesthetic
+T4	chemical 146 156	anesthesia
+T5	disease_or_phenotypic_feature 160 168	cataract
+T6	chemical 255 265	anesthesia
+T7	chemical 267 270	PBA
+T8	chemical 309 319	anesthesia
+T9	disease_or_phenotypic_feature 370 378	cataract
+T10	disease_or_phenotypic_feature 419 427	cataract
+T11	disease_or_phenotypic_feature 429 434	Fetal
+T12	disease_or_phenotypic_feature 435 444	hypoxemia
+T13	chemical 479 485	oxygen
+T14	chemical 498 501	air
+T15	disease_or_phenotypic_feature 550 559	dependent
+T16	chemical 589 595	oxygen
+T17	chemical 600 608	nitrogen
+T18	disease_or_phenotypic_feature 619 625	Anemia
+T19	chemical 630 644	erythropoietin
+T20	disease_or_phenotypic_feature 648 661	heart failure
+T21	disease_or_phenotypic_feature 702 711	blindness
+T22	chemical 753 763	anesthesia
+T23	disease_or_phenotypic_feature 769 786	cerebellar ataxia
+T24	chemical 788 799	Resveratrol
+T25	chemical 811 815	food
+T26	disease_or_phenotypic_feature 850 857	obesity
+T27	disease_or_phenotypic_feature 887 917	Nonfunctioning pituitary tumor
+T28	chemical 937 944	hormone
+T29	chemical 1008 1016	agonists
+T30	disease_or_phenotypic_feature 1032 1044	spina bifida
+T31	disease_or_phenotypic_feature 1046 1055	cleft lip
+T32	disease_or_phenotypic_feature 1057 1069	anal atresia
+T33	disease_or_phenotypic_feature 1078 1102	congenital heart defects
+T34	disease_or_phenotypic_feature 1163 1174	potentially
+T35	chemical 1204 1212	antigens
+T36	disease_or_phenotypic_feature 1221 1227	cancer
+T37	chemical 1270 1277	antigen
+T38	disease_or_phenotypic_feature 1366 1378	hypocalcemia
+T39	disease_or_phenotypic_feature 1380 1398	hyperbilirubinemia
+T40	disease_or_phenotypic_feature 1404 1417	hyperglycemia
+T41	chemical 1429 1438	potassium
+T42	chemical 1443 1451	chloride
+T43	disease_or_phenotypic_feature 1544 1551	obesity
+T44	disease_or_phenotypic_feature 1553 1573	cleft lip and palate
+T45	chemical 1575 1589	growth hormone
+T46	disease_or_phenotypic_feature 1605 1623	mental retardation
+T47	disease_or_phenotypic_feature 1665 1677	brain tumors
+T48	chemical 1743 1747	drug
+T49	chemical 1781 1791	Red pepper
+T50	chemical 1797 1802	probe
+T51	disease_or_phenotypic_feature 1807 1814	obesity
+T52	chemical 1856 1864	nicotine
+T53	chemical 1869 1878	marijuana
+T54	disease_or_phenotypic_feature 1911 1918	obesity
+T55	chemical 1928 1935	alcohol
+T56	disease_or_phenotypic_feature 1928 1935	alcohol
+T57	disease_or_phenotypic_feature 2052 2065	early puberty
+T58	disease_or_phenotypic_feature 2152 2161	carcinoma
+T59	chemical 2162 2169	antigen
+T60	chemical 2192 2199	antigen
+T61	disease_or_phenotypic_feature 2205 2214	carcinoma
+T62	chemical 2215 2222	antigen
+T63	chemical 2235 2241	oxygen
+T64	disease_or_phenotypic_feature 2327 2342	pulmonary edema
+T65	chemical 2354 2361	biology
+T66	disease_or_phenotypic_feature 2365 2383	malignant melanoma
+T67	disease_or_phenotypic_feature 2425 2433	cataract
+T68	chemical 2467 2473	oxygen

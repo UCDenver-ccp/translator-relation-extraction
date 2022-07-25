@@ -1,0 +1,59 @@
+T1	chemical 18 22	drug
+T2	chemical 23 34	fenofibrate
+T3	disease_or_phenotypic_feature 80 98	myocardial disease
+T4	disease_or_phenotypic_feature 115 127	hypertension
+T5	disease_or_phenotypic_feature 132 146	hyperlipidemia
+T6	chemical 163 170	biology
+T7	disease_or_phenotypic_feature 186 202	C-cell carcinoma
+T8	chemical 205 216	Amphetamine
+T9	disease_or_phenotypic_feature 233 240	obesity
+T10	chemical 242 250	Caffeine
+T11	chemical 256 269	aminophylline
+T12	disease_or_phenotypic_feature 278 286	seizures
+T13	chemical 288 311	Aldosterone antagonists
+T14	disease_or_phenotypic_feature 329 342	heart failure
+T15	chemical 389 392	MVA
+T16	chemical 398 407	biomarker
+T17	disease_or_phenotypic_feature 411 417	glioma
+T18	chemical 462 470	antigens
+T19	chemical 485 495	biomarkers
+T20	disease_or_phenotypic_feature 499 523	hepatocellular carcinoma
+T21	chemical 548 558	Biomarkers
+T22	disease_or_phenotypic_feature 578 591	heart failure
+T23	chemical 617 621	acid
+T24	disease_or_phenotypic_feature 644 657	cholesteatoma
+T25	chemical 681 684	RAS
+T26	chemical 711 715	drug
+T27	disease_or_phenotypic_feature 789 804	pulmonary edema
+T28	disease_or_phenotypic_feature 826 839	heart failure
+T29	chemical 864 872	antigens
+T30	disease_or_phenotypic_feature 882 890	melanoma
+T31	chemical 897 904	aspirin
+T32	chemical 906 926	acetylsalicylic acid
+T33	chemical 936 946	inhibitors
+T34	disease_or_phenotypic_feature 1010 1023	heart failure
+T35	disease_or_phenotypic_feature 1038 1051	heart disease
+T36	disease_or_phenotypic_feature 1098 1111	heart failure
+T37	chemical 1113 1123	Dobutamine
+T38	chemical 1128 1136	dopamine
+T39	disease_or_phenotypic_feature 1171 1186	cardiac failure
+T40	disease_or_phenotypic_feature 1191 1204	renal failure
+T41	chemical 1220 1226	oxygen
+T42	disease_or_phenotypic_feature 1308 1321	heart failure
+T43	disease_or_phenotypic_feature 1323 1334	Lung tumors
+T44	chemical 1426 1434	antigens
+T45	chemical 1499 1510	cannabidiol
+T46	chemical 1532 1536	drug
+T47	disease_or_phenotypic_feature 1547 1555	seizures
+T48	disease_or_phenotypic_feature 1563 1578	Dravet syndrome
+T49	chemical 1590 1597	biology
+T50	disease_or_phenotypic_feature 1601 1614	cholesteatoma
+T51	chemical 1617 1628	Biochemical
+T52	chemical 1633 1641	hormonal
+T53	disease_or_phenotypic_feature 1653 1660	obesity
+T54	disease_or_phenotypic_feature 1675 1682	cancers
+T55	disease_or_phenotypic_feature 1779 1786	cancers
+T56	chemical 1862 1865	dye
+T57	disease_or_phenotypic_feature 1875 1904	hypogonadotropic hypogonadism
+T58	disease_or_phenotypic_feature 1906 1924	hyperprolactinemia
+T59	chemical 1929 1943	growth hormone

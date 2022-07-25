@@ -1,0 +1,73 @@
+T1	chemical 32 40	nitrogen
+T2	chemical 41 48	balance
+T3	disease_or_phenotypic_feature 69 76	obesity
+T4	disease_or_phenotypic_feature 97 103	cancer
+T5	chemical 110 117	biology
+T6	chemical 163 170	antigen
+T7	disease_or_phenotypic_feature 196 199	MCC
+T8	chemical 196 199	MCC
+T9	chemical 257 260	MCC
+T10	disease_or_phenotypic_feature 257 260	MCC
+T11	chemical 355 362	mineral
+T12	disease_or_phenotypic_feature 379 400	chronic renal failure
+T13	disease_or_phenotypic_feature 410 422	hypocalcemia
+T14	disease_or_phenotypic_feature 427 446	hyperparathyroidism
+T15	chemical 475 484	phosphate
+T16	chemical 509 516	antigen
+T17	chemical 545 548	DCs
+T18	chemical 632 640	antigens
+T19	disease_or_phenotypic_feature 644 650	cancer
+T20	chemical 661 671	Anesthesia
+T21	disease_or_phenotypic_feature 676 685	cleft lip
+T22	disease_or_phenotypic_feature 690 702	cleft palate
+T23	disease_or_phenotypic_feature 751 758	obesity
+T24	chemical 769 777	nitrogen
+T25	chemical 836 843	mixture
+T26	chemical 853 864	bupivacaine
+T27	chemical 876 885	lidocaine
+T28	chemical 904 917	hyaluronidase
+T29	disease_or_phenotypic_feature 922 930	cataract
+T30	disease_or_phenotypic_feature 991 1000	blindness
+T31	chemical 1080 1088	orlistat
+T32	disease_or_phenotypic_feature 1111 1118	obesity
+T33	chemical 1168 1172	drug
+T34	chemical 1173 1177	food
+T35	chemical 1191 1201	Paclitaxel
+T36	chemical 1222 1226	drug
+T37	disease_or_phenotypic_feature 1243 1264	peripheral neuropathy
+T38	chemical 1295 1299	drug
+T39	disease_or_phenotypic_feature 1338 1358	rheumatoid arthritis
+T40	chemical 1413 1422	inhibitor
+T41	chemical 1423 1433	infliximab
+T42	chemical 1491 1499	fructose
+T43	chemical 1536 1547	biochemical
+T44	chemical 1574 1582	fructose
+T45	disease_or_phenotypic_feature 1602 1614	hypoglycemia
+T46	disease_or_phenotypic_feature 1616 1632	hypophosphatemia
+T47	disease_or_phenotypic_feature 1634 1647	hyperuricemia
+T48	chemical 1684 1693	captopril
+T49	chemical 1698 1704	oxygen
+T50	disease_or_phenotypic_feature 1766 1781	cardiac failure
+T51	chemical 1841 1851	inhibitors
+T52	disease_or_phenotypic_feature 1877 1898	peripheral neuropathy
+T53	chemical 1900 1914	Growth hormone
+T54	disease_or_phenotypic_feature 1943 1956	renal failure
+T55	chemical 1999 2006	mixture
+T56	chemical 2040 2044	EGCG
+T57	disease_or_phenotypic_feature 2066 2073	obesity
+T58	disease_or_phenotypic_feature 2078 2085	obesity
+T59	disease_or_phenotypic_feature 2162 2193	central nervous system diseases
+T60	disease_or_phenotypic_feature 2232 2242	arrhythmia
+T61	disease_or_phenotypic_feature 2254 2271	vascular dementia
+T62	disease_or_phenotypic_feature 2273 2291	epileptic seizures
+T63	chemical 2293 2297	drug
+T64	disease_or_phenotypic_feature 2313 2330	cerebral ischemia
+T65	chemical 2379 2382	DCs
+T66	chemical 2411 2419	antigens
+T67	disease_or_phenotypic_feature 2478 2503	colorectal adenocarcinoma
+T68	chemical 2582 2590	antigens
+T69	chemical 2592 2599	Antigen
+T70	disease_or_phenotypic_feature 2641 2647	cancer
+T71	disease_or_phenotypic_feature 2683 2692	Hypoxemia
+T72	disease_or_phenotypic_feature 2697 2716	respiratory failure
+T73	chemical 2812 2818	oxygen

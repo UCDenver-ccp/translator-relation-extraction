@@ -1,0 +1,67 @@
+T1	chemical 10 21	pamidronate
+T2	disease_or_phenotypic_feature 39 52	renal failure
+T3	disease_or_phenotypic_feature 57 70	hypercalcemia
+T4	chemical 77 81	food
+T5	disease_or_phenotypic_feature 86 93	obesity
+T6	disease_or_phenotypic_feature 123 129	cancer
+T7	chemical 229 235	oxygen
+T8	chemical 240 249	nutrients
+T9	disease_or_phenotypic_feature 281 288	obesity
+T10	chemical 337 345	solution
+T11	disease_or_phenotypic_feature 354 361	obesity
+T12	chemical 379 387	antigens
+T13	disease_or_phenotypic_feature 424 439	choriocarcinoma
+T14	chemical 455 469	growth hormone
+T15	disease_or_phenotypic_feature 534 541	obesity
+T16	disease_or_phenotypic_feature 587 594	obesity
+T17	chemical 599 606	oxidant
+T18	disease_or_phenotypic_feature 635 642	obesity
+T19	disease_or_phenotypic_feature 647 662	atherosclerosis
+T20	disease_or_phenotypic_feature 684 694	lung tumor
+T21	chemical 705 717	radiolabeled
+T22	chemical 725 733	NK cells
+T23	chemical 860 872	radiolabeled
+T24	chemical 873 881	NK cells
+T25	disease_or_phenotypic_feature 903 913	lung tumor
+T26	chemical 1017 1020	Ser
+T27	chemical 1021 1024	Thr
+T28	chemical 1071 1078	antigen
+T29	disease_or_phenotypic_feature 1165 1178	breast cancer
+T30	disease_or_phenotypic_feature 1180 1186	Asthma
+T31	disease_or_phenotypic_feature 1191 1201	dermatitis
+T32	chemical 1227 1231	acid
+T33	chemical 1268 1274	oxygen
+T34	disease_or_phenotypic_feature 1298 1306	cataract
+T35	chemical 1316 1326	Anesthesia
+T36	disease_or_phenotypic_feature 1331 1350	hyperparathyroidism
+T37	disease_or_phenotypic_feature 1352 1358	Mature
+T38	chemical 1375 1378	DCs
+T39	chemical 1423 1430	antigen
+T40	chemical 1511 1520	Vitamin D
+T41	disease_or_phenotypic_feature 1530 1543	hypercalcemia
+T42	disease_or_phenotypic_feature 1547 1555	lymphoma
+T43	chemical 1570 1577	hormone
+T44	chemical 1620 1623	THA
+T45	chemical 1625 1632	Tacrine
+T46	chemical 1659 1663	drug
+T47	disease_or_phenotypic_feature 1686 1703	cognitive deficit
+T48	disease_or_phenotypic_feature 1707 1726	Alzheimer's disease
+T49	chemical 1729 1740	Biochemical
+T50	chemical 1755 1762	digoxin
+T51	disease_or_phenotypic_feature 1787 1800	heart failure
+T52	chemical 1803 1811	Estrogen
+T53	disease_or_phenotypic_feature 1812 1821	dependent
+T54	chemical 1842 1851	tamoxifen
+T55	chemical 1925 1933	estrogen
+T56	disease_or_phenotypic_feature 1945 1960	Medulloblastoma
+T57	chemical 1968 1978	biological
+T58	disease_or_phenotypic_feature 2006 2014	Dementia
+T59	disease_or_phenotypic_feature 2019 2039	motor neuron disease
+T60	chemical 2055 2066	biochemical
+T61	disease_or_phenotypic_feature 2127 2140	heart failure
+T62	disease_or_phenotypic_feature 2144 2153	potential
+T63	disease_or_phenotypic_feature 2154 2167	heart failure
+T64	chemical 2169 2176	digoxin
+T65	chemical 2181 2191	furosemide
+T66	disease_or_phenotypic_feature 2204 2228	congestive heart failure
+T67	disease_or_phenotypic_feature 2251 2261	arrhythmia

@@ -1,66 +1,66 @@
-T1	chemical 95990 95994	mRNA
-T2	disease_or_phenotypic_feature 96136 96150	PAM50-subtypic
-T3	chemical 96179 96191	drug-induced
-T4	missed_disease_or_phenotypic_feature 96179 96195	drug-induced PLG
-T5	chemical 96228 96251	immunosuppressive agent
-T6	chemical 96256 96260	lead
-T7	disease_or_phenotypic_feature 96264 96271	disease
-T8	chemical 96345 96354	biomarker
-T9	disease_or_phenotypic_feature 96366 96369	HCC
-T10	chemical 96472 96483	adiponectin
-T11	disease_or_phenotypic_feature 96510 96514	GDM.
-T12	disease_or_phenotypic_feature 96579 96603	hepatocellular carcinoma
-T13	chemical 96642 96652	biomarkers
-T14	chemical 96731 96743	Somatostatin
-T15	disease_or_phenotypic_feature 96818 96827	disorders
-T16	disease_or_phenotypic_feature 96971 96979	AEL)/CEL
-T17	chemical 97029 97038	cosmetics
-T18	chemical 97147 97156	cosmetics
-T19	chemical 97247 97254	peptide
-T20	disease_or_phenotypic_feature 97268 97273	IPS-1
-T21	disease_or_phenotypic_feature 97374 97380	common
-T22	chemical 97409 97420	rivaroxaban
-T23	chemical 97442 97450	warfarin
-T24	disease_or_phenotypic_feature 97524 97527	PCa
-T25	chemical 97528 97537	biomarker
-T26	disease_or_phenotypic_feature 97637 97665	benign prostatic hyperplasia
-T27	disease_or_phenotypic_feature 97670 97685	prostate cancer
-T28	chemical 97708 97723	silver-nanowire
-T29	chemical 97787 97795	electron
-T30	disease_or_phenotypic_feature 97879 97888	sensitive
-T31	chemical 98027 98037	biological
-T32	disease_or_phenotypic_feature 98038 98044	injury
-T33	chemical 98182 98189	thyroid
-T34	disease_or_phenotypic_feature 98182 98199	thyroid carcinoma
-T35	chemical 98227 98236	cisplatin
-T36	missed_chemical 98238 98242	CDDP
-T37	missed_chemical 98269 98290	chemotherapeutic drug
-T38	corrected_chemical 98269 98290	chemotherapeutic drug
-T39	chemical 98286 98290	drug
-T40	disease_or_phenotypic_feature 98295 98332	head and neck squamous cell carcinoma
-T41	disease_or_phenotypic_feature 98334 98340	HNSCC)
-T42	disease_or_phenotypic_feature 98427 98436	materials
-T43	chemical 98442 98455	nanoparticles
-T44	disease_or_phenotypic_feature 98480 98489	materials
-T45	disease_or_phenotypic_feature 98524 98533	fractions
-T46	disease_or_phenotypic_feature 98765 98768	CKD
-T47	chemical 98769 98774	group
-T48	chemical 98802 98813	cholesterol
-T49	chemical 98824 98829	group
-T50	disease_or_phenotypic_feature 98932 98938	cancer
-T51	chemical 98998 99008	biological
-T52	chemical 99273 99283	ivermectin
-T53	disease_or_phenotypic_feature 99350 99357	disease
-T54	chemical 99451 99461	nucleotide
-T55	disease_or_phenotypic_feature 99532 99545	breast cancer
-T56	chemical 99719 99726	Cr-EDTA
-T57	disease_or_phenotypic_feature 99784 99791	CKD-EPI
+T1	chemical 4 8	mRNA
+T2	disease_or_phenotypic_feature 150 164	PAM50-subtypic
+T3	chemical 193 205	drug-induced
+T4	missed_disease_or_phenotypic_feature 193 209	drug-induced PLG
+T5	chemical 242 265	immunosuppressive agent
+T6	chemical 270 274	lead
+T7	disease_or_phenotypic_feature 278 285	disease
+T8	chemical 359 368	biomarker
+T9	disease_or_phenotypic_feature 380 383	HCC
+T10	chemical 486 497	adiponectin
+T11	disease_or_phenotypic_feature 524 528	GDM.
+T12	disease_or_phenotypic_feature 593 617	hepatocellular carcinoma
+T13	chemical 656 666	biomarkers
+T14	chemical 745 757	Somatostatin
+T15	disease_or_phenotypic_feature 832 841	disorders
+T16	disease_or_phenotypic_feature 985 993	AEL)/CEL
+T17	chemical 1043 1052	cosmetics
+T18	chemical 1161 1170	cosmetics
+T19	chemical 1261 1268	peptide
+T20	disease_or_phenotypic_feature 1282 1287	IPS-1
+T21	disease_or_phenotypic_feature 1388 1394	common
+T22	chemical 1423 1434	rivaroxaban
+T23	chemical 1456 1464	warfarin
+T24	disease_or_phenotypic_feature 1538 1541	PCa
+T25	chemical 1542 1551	biomarker
+T26	disease_or_phenotypic_feature 1651 1679	benign prostatic hyperplasia
+T27	disease_or_phenotypic_feature 1684 1699	prostate cancer
+T28	chemical 1722 1737	silver-nanowire
+T29	chemical 1801 1809	electron
+T30	disease_or_phenotypic_feature 1893 1902	sensitive
+T31	chemical 2041 2051	biological
+T32	disease_or_phenotypic_feature 2052 2058	injury
+T33	chemical 2196 2203	thyroid
+T34	disease_or_phenotypic_feature 2196 2213	thyroid carcinoma
+T35	chemical 2241 2250	cisplatin
+T36	missed_chemical 2252 2256	CDDP
+T37	missed_chemical 2283 2304	chemotherapeutic drug
+T38	corrected_chemical 2283 2304	chemotherapeutic drug
+T39	chemical 2300 2304	drug
+T40	disease_or_phenotypic_feature 2309 2346	head and neck squamous cell carcinoma
+T41	disease_or_phenotypic_feature 2348 2354	HNSCC)
+T42	disease_or_phenotypic_feature 2441 2450	materials
+T43	chemical 2456 2469	nanoparticles
+T44	disease_or_phenotypic_feature 2494 2503	materials
+T45	disease_or_phenotypic_feature 2538 2547	fractions
+T46	disease_or_phenotypic_feature 2779 2782	CKD
+T47	chemical 2783 2788	group
+T48	chemical 2816 2827	cholesterol
+T49	chemical 2838 2843	group
+T50	disease_or_phenotypic_feature 2946 2952	cancer
+T51	chemical 3012 3022	biological
+T52	chemical 3287 3297	ivermectin
+T53	disease_or_phenotypic_feature 3364 3371	disease
+T54	chemical 3465 3475	nucleotide
+T55	disease_or_phenotypic_feature 3546 3559	breast cancer
+T56	chemical 3733 3740	Cr-EDTA
+T57	disease_or_phenotypic_feature 3798 3805	CKD-EPI
 R1	causes_or_contributes_to Arg1:T5 Arg2:T7
 R2	causes_or_contributes_to Arg1:T5 Arg2:T4
-R3	treats Arg1:T36 Arg2:T40
-R4	treats Arg1:T37 Arg2:T40
-R5	treats Arg1:T35 Arg2:T40
-R6	FIXME Arg1:T35 Arg2:T41
-R7	FIXME Arg1:T35 Arg2:T40
-R8	treats Arg1:T52 Arg2:T53
-R9	FIXME Arg1:T38 Arg2:T40
+R3	FIXME Arg1:T38 Arg2:T40
+R4	treats Arg1:T52 Arg2:T53
+R5	treats Arg1:T37 Arg2:T40
+R6	treats Arg1:T35 Arg2:T40
+R7	FIXME Arg1:T35 Arg2:T41
+R8	FIXME Arg1:T35 Arg2:T40
+R9	treats Arg1:T36 Arg2:T40

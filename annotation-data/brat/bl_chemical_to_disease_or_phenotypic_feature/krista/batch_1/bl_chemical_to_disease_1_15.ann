@@ -1,72 +1,72 @@
-T1	chemical 96087 96097	metal-free
-T2	disease_or_phenotypic_feature 96112 96115	air
-T3	chemical 96151 96157	oxygen
-T4	disease_or_phenotypic_feature 96203 96214	sensitivity
-T5	corrected_chemical 96593 96621	immune checkpoint inhibitors
-T6	chemical 96611 96621	inhibitors
-T7	disease_or_phenotypic_feature 96701 96707	SCCHN.
-T8	disease_or_phenotypic_feature 96752 96761	pituitary
-T9	disease_or_phenotypic_feature 96809 96818	pituitary
-T10	chemical 96871 96879	hormonal
-T11	chemical 97003 97014	metabolites
-T12	disease_or_phenotypic_feature 97091 97095	ASD.
-T13	chemical 97121 97137	thyroid hormones
-T14	chemical 97129 97137	hormones
-T15	chemical 97142 97151	prolactin
-T16	corrected_disease_or_phenotypic_feature 97215 97235	major mood disorders
-T17	disease_or_phenotypic_feature 97226 97235	disorders
-T18	corrected_disease_or_phenotypic_feature 97240 97259	psychotic disorders
-T19	disease_or_phenotypic_feature 97250 97259	disorders
-T20	chemical 97308 97325	calcium-phosphate
-T21	disease_or_phenotypic_feature 97390 97404	oral mucositis
-T22	chemical 97459 97466	protein
-T23	disease_or_phenotypic_feature 97492 97498	common
-T24	missed_chemical 97565 97583	immunosuppressants
-T25	corrected_chemical 97634 97655	5-aminosalicylic acid
-T26	chemical 97651 97655	acid
-T27	corrected_disease_or_phenotypic_feature 97691 97714	opportunistic infection
-T28	disease_or_phenotypic_feature 97705 97714	infection
-T29	chemical 97800 97805	ozone
-T30	disease_or_phenotypic_feature 97814 97820	injury
-T31	chemical 97974 97980	sodium
-T32	chemical 97981 97992	thiosulfate
-T33	disease_or_phenotypic_feature 97993 97997	(STS
-T34	disease_or_phenotypic_feature 98159 98167	epilepsy
-T35	chemical 98208 98211	MES
-T36	chemical 98354 98359	 veno
-T37	chemical 98384 98391	 protei
-T38	disease_or_phenotypic_feature 98429 98435	 cance
-T39	disease_or_phenotypic_feature 98567 98585	pulmonary fibrosis
-T40	chemical 98640 98648	molecule
-T41	chemical 98649 98659	inhibitors
-T42	chemical 98746 98754	androgen
-T43	disease_or_phenotypic_feature 98792 98795	PCa
-T44	chemical 99011 99018	nucleus
-T45	disease_or_phenotypic_feature 99022 99029	HFD-fed
-T46	disease_or_phenotypic_feature 99154 99160	cancer
-T47	chemical 99177 99181	drug
-T48	chemical 99284 99292	afatinib
-T49	corrected_disease_or_phenotypic_feature 99306 99357	stage IV oligometastatic adenocarcinoma of the lung
-T50	disease_or_phenotypic_feature 99331 99357	adenocarcinoma of the lung
-T51	chemical 99433 99438	group
-T52	disease_or_phenotypic_feature 99486 99503	esophageal cancer
-T53	chemical 99528 99533	Lipid
-T54	chemical 99545 99557	Anti-oxidant
-T55	chemical 99577 99586	Gastrodin
-T56	corrected_disease_or_phenotypic_feature 99590 99622	Nonalcoholic Fatty Liver Disease
-T57	chemical 99603 99608	Fatty
-T58	disease_or_phenotypic_feature 99603 99622	Fatty Liver Disease
-T59	chemical 99713 99716	AOP
-T60	disease_or_phenotypic_feature 99713 99716	AOP
-R1	treats Arg1:T55 Arg2:T56
-R2	treats Arg1:T48 Arg2:T49
-R3	treats Arg1:T48 Arg2:T50
-R4	treats Arg1:T15 Arg2:T16
-R5	treats Arg1:T15 Arg2:T18
-R6	treats Arg1:T20 Arg2:T21
-R7	FIXME Arg1:T5 Arg2:T7
-R8	causes_or_contributes_to Arg1:T24 Arg2:T27
-R9	causes_or_contributes_to Arg1:T29 Arg2:T30
-R10	treats Arg1:T47 Arg2:T46
-R11	treats Arg1:T13 Arg2:T18
-R12	treats Arg1:T13 Arg2:T16
+T1	chemical 101 111	metal-free
+T2	disease_or_phenotypic_feature 126 129	air
+T3	chemical 165 171	oxygen
+T4	disease_or_phenotypic_feature 217 228	sensitivity
+T5	corrected_chemical 607 635	immune checkpoint inhibitors
+T6	chemical 625 635	inhibitors
+T7	disease_or_phenotypic_feature 715 721	SCCHN.
+T8	disease_or_phenotypic_feature 766 775	pituitary
+T9	disease_or_phenotypic_feature 823 832	pituitary
+T10	chemical 885 893	hormonal
+T11	chemical 1017 1028	metabolites
+T12	disease_or_phenotypic_feature 1105 1109	ASD.
+T13	chemical 1135 1151	thyroid hormones
+T14	chemical 1143 1151	hormones
+T15	chemical 1156 1165	prolactin
+T16	corrected_disease_or_phenotypic_feature 1229 1249	major mood disorders
+T17	disease_or_phenotypic_feature 1240 1249	disorders
+T18	corrected_disease_or_phenotypic_feature 1254 1273	psychotic disorders
+T19	disease_or_phenotypic_feature 1264 1273	disorders
+T20	chemical 1322 1339	calcium-phosphate
+T21	disease_or_phenotypic_feature 1404 1418	oral mucositis
+T22	chemical 1473 1480	protein
+T23	disease_or_phenotypic_feature 1506 1512	common
+T24	missed_chemical 1579 1597	immunosuppressants
+T25	corrected_chemical 1648 1669	5-aminosalicylic acid
+T26	chemical 1665 1669	acid
+T27	corrected_disease_or_phenotypic_feature 1705 1728	opportunistic infection
+T28	disease_or_phenotypic_feature 1719 1728	infection
+T29	chemical 1814 1819	ozone
+T30	disease_or_phenotypic_feature 1828 1834	injury
+T31	chemical 1988 1994	sodium
+T32	chemical 1995 2006	thiosulfate
+T33	disease_or_phenotypic_feature 2007 2011	(STS
+T34	disease_or_phenotypic_feature 2173 2181	epilepsy
+T35	chemical 2222 2225	MES
+T36	chemical 2368 2373	 veno
+T37	chemical 2398 2405	 protei
+T38	disease_or_phenotypic_feature 2443 2449	 cance
+T39	disease_or_phenotypic_feature 2581 2599	pulmonary fibrosis
+T40	chemical 2654 2662	molecule
+T41	chemical 2663 2673	inhibitors
+T42	chemical 2760 2768	androgen
+T43	disease_or_phenotypic_feature 2806 2809	PCa
+T44	chemical 3025 3032	nucleus
+T45	disease_or_phenotypic_feature 3036 3043	HFD-fed
+T46	disease_or_phenotypic_feature 3168 3174	cancer
+T47	chemical 3191 3195	drug
+T48	chemical 3298 3306	afatinib
+T49	corrected_disease_or_phenotypic_feature 3320 3371	stage IV oligometastatic adenocarcinoma of the lung
+T50	disease_or_phenotypic_feature 3345 3371	adenocarcinoma of the lung
+T51	chemical 3447 3452	group
+T52	disease_or_phenotypic_feature 3500 3517	esophageal cancer
+T53	chemical 3542 3547	Lipid
+T54	chemical 3559 3571	Anti-oxidant
+T55	chemical 3591 3600	Gastrodin
+T56	corrected_disease_or_phenotypic_feature 3604 3636	Nonalcoholic Fatty Liver Disease
+T57	chemical 3617 3622	Fatty
+T58	disease_or_phenotypic_feature 3617 3636	Fatty Liver Disease
+T59	chemical 3727 3730	AOP
+T60	disease_or_phenotypic_feature 3727 3730	AOP
+R1	treats Arg1:T13 Arg2:T18
+R2	treats Arg1:T13 Arg2:T16
+R3	treats Arg1:T47 Arg2:T46
+R4	treats Arg1:T20 Arg2:T21
+R5	treats Arg1:T55 Arg2:T56
+R6	FIXME Arg1:T5 Arg2:T7
+R7	causes_or_contributes_to Arg1:T29 Arg2:T30
+R8	treats Arg1:T48 Arg2:T49
+R9	treats Arg1:T48 Arg2:T50
+R10	treats Arg1:T15 Arg2:T16
+R11	treats Arg1:T15 Arg2:T18
+R12	causes_or_contributes_to Arg1:T24 Arg2:T27

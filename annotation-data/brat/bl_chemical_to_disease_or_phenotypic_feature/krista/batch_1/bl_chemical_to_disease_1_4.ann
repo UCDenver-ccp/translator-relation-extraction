@@ -1,72 +1,72 @@
-T1	chemical 96045 96053	nanowire
-T2	disease_or_phenotypic_feature 96111 96114	ion
-T3	chemical 96111 96114	ion
-T4	chemical 96162 96170	nanowire
-T5	chemical 96446 96451	fatty
-T6	disease_or_phenotypic_feature 96446 96465	fatty liver disease
-T7	disease_or_phenotypic_feature 96510 96519	condition
-T8	chemical 96586 96591	group
-T9	chemical 96865 96874	Cobalt(II
-T10	corrected_chemical 96865 96894	Cobalt(II) Diphenylazodioxide
-T11	missed_disease_or_phenotypic_feature 96912 96921	Apoptosis
-T12	disease_or_phenotypic_feature 96925 96933	SK-HEP-1
-T13	chemical 97014 97021	retinol
-T14	disease_or_phenotypic_feature 97060 97075	prostate cancer
-T15	missed_disease_or_phenotypic_feature 97104 97116	lung cancers
-T16	chemical 97187 97196	carnitine
-T17	disease_or_phenotypic_feature 97224 97239	type 2 diabetes
-T18	chemical 97277 97285	propofol
-T19	disease_or_phenotypic_feature 97313 97335	cardiopulmonary arrest
-T20	chemical 97401 97409	fentanyl
-T21	chemical 97417 97426	midazolam
-T22	chemical 97480 97499	Silver nanoparticle
-T23	disease_or_phenotypic_feature 97532 97538	common
-T24	disease_or_phenotypic_feature 97629 97634	Blood
-T25	chemical 97721 97730	lactation
-T26	disease_or_phenotypic_feature 97763 97779	multiple myeloma
-T27	chemical 97874 97878	drug
-T28	chemical 98057 98068	imperialine
-T29	missed_disease_or_phenotypic_feature 98100 98112	side effects
-T30	disease_or_phenotypic_feature 98137 98142	NSCLC
-T31	disease_or_phenotypic_feature 98202 98216	dual-sensitive
-T32	chemical 98277 98285	cationic
-T33	chemical 98297 98305	peptides
-T34	chemical 98307 98320	nanoparticles
-T35	chemical 98495 98502	Leucine
-T36	disease_or_phenotypic_feature 98544 98549	FhCL1
-T37	disease_or_phenotypic_feature 98682 98719	Pituitary stalk interruption syndrome
-T38	disease_or_phenotypic_feature 98725 98735	congenital
-T39	disease_or_phenotypic_feature 98736 98743	disease
-T40	disease_or_phenotypic_feature 98749 98783	isolated growth hormone deficiency
-T41	chemical 98758 98772	growth hormone
-T42	corrected_chemical 98796 98822	anterior pituitary hormone
-T43	disease_or_phenotypic_feature 98805 98814	pituitary
-T44	chemical 98815 98822	hormone
-T45	chemical 98897 98904	nitrate
-T46	disease_or_phenotypic_feature 98986 98991	blood
-T47	missed_disease_or_phenotypic_feature 99022 99029	hypoxia
-T48	chemical 99077 99083	oxygen
-T49	chemical 99229 99236	agonist
-T50	disease_or_phenotypic_feature 99237 99252	tumor-targeting
-T51	disease_or_phenotypic_feature 99298 99317	congenital glaucoma
-T52	chemical 99322 99326	lead
-T53	disease_or_phenotypic_feature 99330 99346	lens subluxation
-T54	disease_or_phenotypic_feature 99363 99371	coloboma
-T55	disease_or_phenotypic_feature 99447 99450	CMC
-T56	chemical 99495 99500	group
-T57	disease_or_phenotypic_feature 99525 99534	cirrhosis
-T58	chemical 99559 99566	mixture
-T59	disease_or_phenotypic_feature 99621 99626	blood
-T60	chemical 99849 99864	protein-protein
-T61	disease_or_phenotypic_feature 100271 100274	ASD
-R1	treats Arg1:T13 Arg2:T15
-R2	causes_or_contributes_to Arg1:T13 Arg2:T14
-R3	causes_or_contributes_to Arg1:T10 Arg2:T11
-R4	treats Arg1:T27 Arg2:T26
+T1	chemical 59 67	nanowire
+T2	disease_or_phenotypic_feature 125 128	ion
+T3	chemical 125 128	ion
+T4	chemical 176 184	nanowire
+T5	chemical 460 465	fatty
+T6	disease_or_phenotypic_feature 460 479	fatty liver disease
+T7	disease_or_phenotypic_feature 524 533	condition
+T8	chemical 600 605	group
+T9	chemical 879 888	Cobalt(II
+T10	corrected_chemical 879 908	Cobalt(II) Diphenylazodioxide
+T11	missed_disease_or_phenotypic_feature 926 935	Apoptosis
+T12	disease_or_phenotypic_feature 939 947	SK-HEP-1
+T13	chemical 1028 1035	retinol
+T14	disease_or_phenotypic_feature 1074 1089	prostate cancer
+T15	missed_disease_or_phenotypic_feature 1118 1130	lung cancers
+T16	chemical 1201 1210	carnitine
+T17	disease_or_phenotypic_feature 1238 1253	type 2 diabetes
+T18	chemical 1291 1299	propofol
+T19	disease_or_phenotypic_feature 1327 1349	cardiopulmonary arrest
+T20	chemical 1415 1423	fentanyl
+T21	chemical 1431 1440	midazolam
+T22	chemical 1494 1513	Silver nanoparticle
+T23	disease_or_phenotypic_feature 1546 1552	common
+T24	disease_or_phenotypic_feature 1643 1648	Blood
+T25	chemical 1735 1744	lactation
+T26	disease_or_phenotypic_feature 1777 1793	multiple myeloma
+T27	chemical 1888 1892	drug
+T28	chemical 2071 2082	imperialine
+T29	missed_disease_or_phenotypic_feature 2114 2126	side effects
+T30	disease_or_phenotypic_feature 2151 2156	NSCLC
+T31	disease_or_phenotypic_feature 2216 2230	dual-sensitive
+T32	chemical 2291 2299	cationic
+T33	chemical 2311 2319	peptides
+T34	chemical 2321 2334	nanoparticles
+T35	chemical 2509 2516	Leucine
+T36	disease_or_phenotypic_feature 2558 2563	FhCL1
+T37	disease_or_phenotypic_feature 2696 2733	Pituitary stalk interruption syndrome
+T38	disease_or_phenotypic_feature 2739 2749	congenital
+T39	disease_or_phenotypic_feature 2750 2757	disease
+T40	disease_or_phenotypic_feature 2763 2797	isolated growth hormone deficiency
+T41	chemical 2772 2786	growth hormone
+T42	corrected_chemical 2810 2836	anterior pituitary hormone
+T43	disease_or_phenotypic_feature 2819 2828	pituitary
+T44	chemical 2829 2836	hormone
+T45	chemical 2911 2918	nitrate
+T46	disease_or_phenotypic_feature 3000 3005	blood
+T47	missed_disease_or_phenotypic_feature 3036 3043	hypoxia
+T48	chemical 3091 3097	oxygen
+T49	chemical 3243 3250	agonist
+T50	disease_or_phenotypic_feature 3251 3266	tumor-targeting
+T51	disease_or_phenotypic_feature 3312 3331	congenital glaucoma
+T52	chemical 3336 3340	lead
+T53	disease_or_phenotypic_feature 3344 3360	lens subluxation
+T54	disease_or_phenotypic_feature 3377 3385	coloboma
+T55	disease_or_phenotypic_feature 3461 3464	CMC
+T56	chemical 3509 3514	group
+T57	disease_or_phenotypic_feature 3539 3548	cirrhosis
+T58	chemical 3573 3580	mixture
+T59	disease_or_phenotypic_feature 3635 3640	blood
+T60	chemical 3863 3878	protein-protein
+T61	disease_or_phenotypic_feature 4285 4288	ASD
+R1	treats Arg1:T27 Arg2:T26
+R2	treats Arg1:T41 Arg2:T37
+R3	treats Arg1:T28 Arg2:T30
+R4	causes_or_contributes_to Arg1:T28 Arg2:T29
 R5	treats Arg1:T16 Arg2:T17
-R6	treats Arg1:T28 Arg2:T30
-R7	causes_or_contributes_to Arg1:T28 Arg2:T29
-R8	causes_or_contributes_to Arg1:T18 Arg2:T19
-R9	treats Arg1:T48 Arg2:T47
-R10	treats Arg1:T42 Arg2:T37
-R11	treats Arg1:T41 Arg2:T37
+R6	causes_or_contributes_to Arg1:T10 Arg2:T11
+R7	treats Arg1:T42 Arg2:T37
+R8	treats Arg1:T48 Arg2:T47
+R9	treats Arg1:T13 Arg2:T15
+R10	causes_or_contributes_to Arg1:T13 Arg2:T14
+R11	causes_or_contributes_to Arg1:T18 Arg2:T19

@@ -1,73 +1,73 @@
-T1	chemical 193683 193691	chemical
-T2	disease_or_phenotypic_feature 193692 193701	arms-race
-T3	disease_or_phenotypic_feature 193866 193878	folliculitis
-T4	disease_or_phenotypic_feature 193917 193925	scarring
-T5	disease_or_phenotypic_feature 193926 193934	alopecia
-T6	chemical 193981 193984	his
-T7	chemical 194134 194139	group
-T8	disease_or_phenotypic_feature 194199 194205	common
-T9	chemical 194324 194335	Carfilzomib
-T10	disease_or_phenotypic_feature 194358 194371	neurotoxicity
-T11	missed_disease_or_phenotypic_feature 194421 194423	PN
-T12	disease_or_phenotypic_feature 194568 194582	gastric cancer
-T13	chemical 194621 194626	fatty
-T14	chemical 194621 194631	fatty acid
-T15	disease_or_phenotypic_feature 194703 194717	gastric cancer
-T16	chemical 194742 194751	Inter-ion
-T17	disease_or_phenotypic_feature 194742 194751	Inter-ion
-T18	disease_or_phenotypic_feature 194756 194765	intra-ion
-T19	chemical 194756 194765	intra-ion
-T20	chemical 194829 194845	chlorine/bromine
-T21	chemical 194898 194902	ions
-T22	chemical 194982 194996	molecular ions
-T23	chemical 195034 195039	group
-T24	chemical 195063 195068	group
-T25	disease_or_phenotypic_feature 195088 195097	pneumonia
-T26	chemical 195116 195129	Levetiracetam
-T27	disease_or_phenotypic_feature 195177 195185	epilepsy
-T28	chemical 195218 195227	analgesic
-T29	chemical 195346 195355	meloxicam
-T30	corrected_disease_or_phenotypic_feature 195359 195378	knee osteoarthritis
-T31	disease_or_phenotypic_feature 195364 195378	osteoarthritis
-T32	corrected_disease_or_phenotypic_feature 195476 195501	Cutaneous Cellular Injury
-T33	disease_or_phenotypic_feature 195495 195501	Injury
-T34	missed_disease_or_phenotypic_feature 195514 195566	Mitochondria-Associated Endoplasmic Reticulum Stress
-T35	chemical 195590 195605	Ginsenoside Rb1
-T36	missed_chemical 195634 195638	DNBS
-T37	disease_or_phenotypic_feature 195697 195704	colitis
-T38	disease_or_phenotypic_feature 195774 195780	Dengue
-T39	chemical 195796 195803	protein
-T40	chemical 195823 195839	pro-inflammatory
-T41	disease_or_phenotypic_feature 195915 195924	sensitive
-T42	chemical 195990 195997	antigen
-T43	chemical 196007 196013	silver
-T44	chemical 196033 196041	graphene
-T45	chemical 196042 196047	oxide
-T46	chemical 196072 196078	carbon
-T47	chemical 196107 196125	Salvianolic acid A
-T48	corrected_chemical 196141 196162	cytotoxic polyphenols
-T49	chemical 196151 196162	polyphenols
-T50	disease_or_phenotypic_feature 196181 196187	cancer
-T51	chemical 196270 196281	methylation
-T52	disease_or_phenotypic_feature 196426 196437	lung cancer
-T53	disease_or_phenotypic_feature 196459 196462	LPD
-T54	chemical 196469 196474	group
-T55	chemical 196519 196522	fat
-T56	disease_or_phenotypic_feature 196523 196526	pad
-T57	chemical 196596 196608	progesterone
-T58	disease_or_phenotypic_feature 196692 196698	asthma
-T59	chemical 196737 196742	group
-T60	chemical 196799 196809	inhibitors
-T61	disease_or_phenotypic_feature 196998 197004	stroke
-T62	disease_or_phenotypic_feature 197113 197122	intrinsic
-T63	chemical 197164 197171	alcohol
-T64	chemical 197341 197353	biologically
-T65	disease_or_phenotypic_feature 197382 197391	disorders
-R1	causes_or_contributes_to Arg1:T9 Arg2:T11
-R2	treats Arg1:T29 Arg2:T30
-R3	treats Arg1:T35 Arg2:T32
-R4	treats Arg1:T35 Arg2:T34
-R5	treats Arg1:T47 Arg2:T50
-R6	treats Arg1:T26 Arg2:T27
+T1	chemical 115 123	chemical
+T2	disease_or_phenotypic_feature 124 133	arms-race
+T3	disease_or_phenotypic_feature 298 310	folliculitis
+T4	disease_or_phenotypic_feature 349 357	scarring
+T5	disease_or_phenotypic_feature 358 366	alopecia
+T6	chemical 413 416	his
+T7	chemical 566 571	group
+T8	disease_or_phenotypic_feature 631 637	common
+T9	chemical 756 767	Carfilzomib
+T10	disease_or_phenotypic_feature 790 803	neurotoxicity
+T11	missed_disease_or_phenotypic_feature 853 855	PN
+T12	disease_or_phenotypic_feature 1000 1014	gastric cancer
+T13	chemical 1053 1058	fatty
+T14	chemical 1053 1063	fatty acid
+T15	disease_or_phenotypic_feature 1135 1149	gastric cancer
+T16	chemical 1174 1183	Inter-ion
+T17	disease_or_phenotypic_feature 1174 1183	Inter-ion
+T18	disease_or_phenotypic_feature 1188 1197	intra-ion
+T19	chemical 1188 1197	intra-ion
+T20	chemical 1261 1277	chlorine/bromine
+T21	chemical 1330 1334	ions
+T22	chemical 1414 1428	molecular ions
+T23	chemical 1466 1471	group
+T24	chemical 1495 1500	group
+T25	disease_or_phenotypic_feature 1520 1529	pneumonia
+T26	chemical 1548 1561	Levetiracetam
+T27	disease_or_phenotypic_feature 1609 1617	epilepsy
+T28	chemical 1650 1659	analgesic
+T29	chemical 1778 1787	meloxicam
+T30	corrected_disease_or_phenotypic_feature 1791 1810	knee osteoarthritis
+T31	disease_or_phenotypic_feature 1796 1810	osteoarthritis
+T32	corrected_disease_or_phenotypic_feature 1908 1933	Cutaneous Cellular Injury
+T33	disease_or_phenotypic_feature 1927 1933	Injury
+T34	missed_disease_or_phenotypic_feature 1946 1998	Mitochondria-Associated Endoplasmic Reticulum Stress
+T35	chemical 2022 2037	Ginsenoside Rb1
+T36	missed_chemical 2066 2070	DNBS
+T37	disease_or_phenotypic_feature 2129 2136	colitis
+T38	disease_or_phenotypic_feature 2206 2212	Dengue
+T39	chemical 2228 2235	protein
+T40	chemical 2255 2271	pro-inflammatory
+T41	disease_or_phenotypic_feature 2347 2356	sensitive
+T42	chemical 2422 2429	antigen
+T43	chemical 2439 2445	silver
+T44	chemical 2465 2473	graphene
+T45	chemical 2474 2479	oxide
+T46	chemical 2504 2510	carbon
+T47	chemical 2539 2557	Salvianolic acid A
+T48	corrected_chemical 2573 2594	cytotoxic polyphenols
+T49	chemical 2583 2594	polyphenols
+T50	disease_or_phenotypic_feature 2613 2619	cancer
+T51	chemical 2702 2713	methylation
+T52	disease_or_phenotypic_feature 2858 2869	lung cancer
+T53	disease_or_phenotypic_feature 2891 2894	LPD
+T54	chemical 2901 2906	group
+T55	chemical 2951 2954	fat
+T56	disease_or_phenotypic_feature 2955 2958	pad
+T57	chemical 3028 3040	progesterone
+T58	disease_or_phenotypic_feature 3124 3130	asthma
+T59	chemical 3169 3174	group
+T60	chemical 3231 3241	inhibitors
+T61	disease_or_phenotypic_feature 3430 3436	stroke
+T62	disease_or_phenotypic_feature 3545 3554	intrinsic
+T63	chemical 3596 3603	alcohol
+T64	chemical 3773 3785	biologically
+T65	disease_or_phenotypic_feature 3814 3823	disorders
+R1	treats Arg1:T29 Arg2:T30
+R2	treats Arg1:T26 Arg2:T27
+R3	causes_or_contributes_to Arg1:T9 Arg2:T11
+R4	causes_or_contributes_to Arg1:T36 Arg2:T37
+R5	treats Arg1:T35 Arg2:T32
+R6	treats Arg1:T35 Arg2:T34
 R7	treats Arg1:T48 Arg2:T50
-R8	causes_or_contributes_to Arg1:T36 Arg2:T37
+R8	treats Arg1:T47 Arg2:T50

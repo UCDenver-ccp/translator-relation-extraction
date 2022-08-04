@@ -1,100 +1,100 @@
-T1	chemical 96058 96071	Forsythiaside
-T2	missed_chemical 96073 96075	FA
-T3	corrected_disease_or_phenotypic_feature 96095 96125	adriamycin-induced nephropathy
-T4	disease_or_phenotypic_feature 96114 96125	nephropathy
-T5	missed_disease_or_phenotypic_feature 96127 96129	AN
-T6	chemical 96149 96167	Platinum-resistant
-T7	disease_or_phenotypic_feature 96149 96174	Platinum-resistant cancer
-T8	disease_or_phenotypic_feature 96185 96194	sensitive
-T9	chemical 96232 96241	oxidative
-T10	chemical 96320 96327	histone
-T11	disease_or_phenotypic_feature 96366 96372	cancer
-T12	chemical 96473 96480	biology
-T13	chemical 96504 96511	histone
-T14	disease_or_phenotypic_feature 96678 96686	lymphoma
-T15	chemical 96687 96695	proteins
-T16	chemical 96744 96752	tyrosine
-T17	chemical 96858 96865	protein
-T18	chemical 96927 96932	lipid
-T19	chemical 96988 96996	inositol
-T20	chemical 96997 97010	polyphosphate
-T21	disease_or_phenotypic_feature 97112 97116	GvHD
-T22	chemical 97175 97186	ruxolitinib
-T23	missed_chemical 97215 97222	Omega-3
-T24	chemical 97227 97236	vitamin E
-T25	chemical 97265 97271	lipids
-T26	corrected_disease_or_phenotypic_feature 97315 97334	metabolic disorders
-T27	disease_or_phenotypic_feature 97325 97334	disorders
-T28	chemical 97424 97431	Wogonin
-T29	missed_disease_or_phenotypic_feature 97470 97479	ER stress
-T30	corrected_disease_or_phenotypic_feature 97548 97571	cardiovascular diseases
-T31	disease_or_phenotypic_feature 97563 97571	diseases
-T32	corrected_chemical 97643 97668	small molecule inhibitors
-T33	chemical 97649 97657	molecule
-T34	chemical 97658 97668	inhibitors
-T35	chemical 97680 97684	drug
-T36	disease_or_phenotypic_feature 97696 97701	tumor
-T37	chemical 97735 97742	Thyroid
-T38	disease_or_phenotypic_feature 97735 97766	Thyroid papillary carcinoma(PTC
-T39	disease_or_phenotypic_feature 97780 97786	common
-T40	chemical 97795 97802	thyroid
-T41	disease_or_phenotypic_feature 97795 97809	thyroid cancer
-T42	chemical 97828 97860	Pancreatic Polypeptide-Secreting
-T43	chemical 97839 97860	Polypeptide-Secreting
-T44	disease_or_phenotypic_feature 97894 97906	PPoma)-Ultra
-T45	disease_or_phenotypic_feature 97907 97911	Rare
-T46	disease_or_phenotypic_feature 98016 98020	rare
-T47	chemical 98032 98038	canine
-T48	disease_or_phenotypic_feature 98071 98076	blood
-T49	disease_or_phenotypic_feature 98188 98191	CMT
-T50	chemical 98256 98270	drug-resistant
-T51	disease_or_phenotypic_feature 98256 98283	drug-resistant tuberculosis
-T52	disease_or_phenotypic_feature 98386 98405	melanoma-associated
-T53	chemical 98406 98413	antigen
-T54	disease_or_phenotypic_feature 98488 98511	squamous cell carcinoma
-T55	disease_or_phenotypic_feature 98539 98542	men
-T56	disease_or_phenotypic_feature 98609 98619	depression
-T57	chemical 98658 98663	group
-T58	chemical 98692 98697	group
-T59	chemical 98727 98732	group
-T60	disease_or_phenotypic_feature 98751 98754	CSP
-T61	chemical 98799 98808	bile acid
-T62	disease_or_phenotypic_feature 98857 98868	histo-blood
-T63	chemical 98869 98874	group
-T64	chemical 98875 98883	antigens
-T65	chemical 99004 99010	enzyme
-T66	disease_or_phenotypic_feature 99036 99046	thrombosis
-T67	chemical 99100 99112	drug-eluting
-T68	disease_or_phenotypic_feature 99189 99201	DEB-TACE+RFA
-T69	disease_or_phenotypic_feature 99210 99218	DEB-TACE
-T70	disease_or_phenotypic_feature 99236 99260	hepatocellular carcinoma
-T71	disease_or_phenotypic_feature 99262 99265	HCC
-T72	disease_or_phenotypic_feature 99302 99314	DEB-TACE+RFA
-T73	disease_or_phenotypic_feature 99322 99325	HCC
-T74	disease_or_phenotypic_feature 99345 99353	DEB-TACE
-T75	disease_or_phenotypic_feature 99503 99506	NAM
-T76	disease_or_phenotypic_feature 99510 99513	PAM
-T77	chemical 99579 99594	cocaine-seeking
-T78	chemical 99677 99686	isoniazid
-T79	disease_or_phenotypic_feature 99697 99709	tuberculosis
-T80	chemical 99738 99747	isoniazid
-T81	disease_or_phenotypic_feature 99748 99762	mono-resistant
-T82	disease_or_phenotypic_feature 99763 99775	tuberculosis
-T83	disease_or_phenotypic_feature 99804 99816	tuberculosis
-T84	disease_or_phenotypic_feature 99830 99862	multidrug-resistant tuberculosis
-T85	chemical 99995 100000	metal
-T86	disease_or_phenotypic_feature 100001 100004	ion
-T87	chemical 100001 100004	ion
-R1	treats Arg1:T28 Arg2:T29
-R2	treats Arg1:T28 Arg2:T30
-R3	treats Arg1:T35 Arg2:T36
-R4	treats Arg1:T1 Arg2:T3
-R5	treats Arg1:T1 Arg2:T5
-R6	treats Arg1:T2 Arg2:T5
-R7	treats Arg1:T2 Arg2:T3
-R8	treats Arg1:T24 Arg2:T26
-R9	treats Arg1:T80 Arg2:T82
-R10	treats Arg1:T78 Arg2:T79
-R11	treats Arg1:T32 Arg2:T36
-R12	treats Arg1:T22 Arg2:T21
-R13	treats Arg1:T23 Arg2:T26
+T1	chemical 72 85	Forsythiaside
+T2	missed_chemical 87 89	FA
+T3	corrected_disease_or_phenotypic_feature 109 139	adriamycin-induced nephropathy
+T4	disease_or_phenotypic_feature 128 139	nephropathy
+T5	missed_disease_or_phenotypic_feature 141 143	AN
+T6	chemical 163 181	Platinum-resistant
+T7	disease_or_phenotypic_feature 163 188	Platinum-resistant cancer
+T8	disease_or_phenotypic_feature 199 208	sensitive
+T9	chemical 246 255	oxidative
+T10	chemical 334 341	histone
+T11	disease_or_phenotypic_feature 380 386	cancer
+T12	chemical 487 494	biology
+T13	chemical 518 525	histone
+T14	disease_or_phenotypic_feature 692 700	lymphoma
+T15	chemical 701 709	proteins
+T16	chemical 758 766	tyrosine
+T17	chemical 872 879	protein
+T18	chemical 941 946	lipid
+T19	chemical 1002 1010	inositol
+T20	chemical 1011 1024	polyphosphate
+T21	disease_or_phenotypic_feature 1126 1130	GvHD
+T22	chemical 1189 1200	ruxolitinib
+T23	missed_chemical 1229 1236	Omega-3
+T24	chemical 1241 1250	vitamin E
+T25	chemical 1279 1285	lipids
+T26	corrected_disease_or_phenotypic_feature 1329 1348	metabolic disorders
+T27	disease_or_phenotypic_feature 1339 1348	disorders
+T28	chemical 1438 1445	Wogonin
+T29	missed_disease_or_phenotypic_feature 1484 1493	ER stress
+T30	corrected_disease_or_phenotypic_feature 1562 1585	cardiovascular diseases
+T31	disease_or_phenotypic_feature 1577 1585	diseases
+T32	corrected_chemical 1657 1682	small molecule inhibitors
+T33	chemical 1663 1671	molecule
+T34	chemical 1672 1682	inhibitors
+T35	chemical 1694 1698	drug
+T36	disease_or_phenotypic_feature 1710 1715	tumor
+T37	chemical 1749 1756	Thyroid
+T38	disease_or_phenotypic_feature 1749 1780	Thyroid papillary carcinoma(PTC
+T39	disease_or_phenotypic_feature 1794 1800	common
+T40	chemical 1809 1816	thyroid
+T41	disease_or_phenotypic_feature 1809 1823	thyroid cancer
+T42	chemical 1842 1874	Pancreatic Polypeptide-Secreting
+T43	chemical 1853 1874	Polypeptide-Secreting
+T44	disease_or_phenotypic_feature 1908 1920	PPoma)-Ultra
+T45	disease_or_phenotypic_feature 1921 1925	Rare
+T46	disease_or_phenotypic_feature 2030 2034	rare
+T47	chemical 2046 2052	canine
+T48	disease_or_phenotypic_feature 2085 2090	blood
+T49	disease_or_phenotypic_feature 2202 2205	CMT
+T50	chemical 2270 2284	drug-resistant
+T51	disease_or_phenotypic_feature 2270 2297	drug-resistant tuberculosis
+T52	disease_or_phenotypic_feature 2400 2419	melanoma-associated
+T53	chemical 2420 2427	antigen
+T54	disease_or_phenotypic_feature 2502 2525	squamous cell carcinoma
+T55	disease_or_phenotypic_feature 2553 2556	men
+T56	disease_or_phenotypic_feature 2623 2633	depression
+T57	chemical 2672 2677	group
+T58	chemical 2706 2711	group
+T59	chemical 2741 2746	group
+T60	disease_or_phenotypic_feature 2765 2768	CSP
+T61	chemical 2813 2822	bile acid
+T62	disease_or_phenotypic_feature 2871 2882	histo-blood
+T63	chemical 2883 2888	group
+T64	chemical 2889 2897	antigens
+T65	chemical 3018 3024	enzyme
+T66	disease_or_phenotypic_feature 3050 3060	thrombosis
+T67	chemical 3114 3126	drug-eluting
+T68	disease_or_phenotypic_feature 3203 3215	DEB-TACE+RFA
+T69	disease_or_phenotypic_feature 3224 3232	DEB-TACE
+T70	disease_or_phenotypic_feature 3250 3274	hepatocellular carcinoma
+T71	disease_or_phenotypic_feature 3276 3279	HCC
+T72	disease_or_phenotypic_feature 3316 3328	DEB-TACE+RFA
+T73	disease_or_phenotypic_feature 3336 3339	HCC
+T74	disease_or_phenotypic_feature 3359 3367	DEB-TACE
+T75	disease_or_phenotypic_feature 3517 3520	NAM
+T76	disease_or_phenotypic_feature 3524 3527	PAM
+T77	chemical 3593 3608	cocaine-seeking
+T78	chemical 3691 3700	isoniazid
+T79	disease_or_phenotypic_feature 3711 3723	tuberculosis
+T80	chemical 3752 3761	isoniazid
+T81	disease_or_phenotypic_feature 3762 3776	mono-resistant
+T82	disease_or_phenotypic_feature 3777 3789	tuberculosis
+T83	disease_or_phenotypic_feature 3818 3830	tuberculosis
+T84	disease_or_phenotypic_feature 3844 3876	multidrug-resistant tuberculosis
+T85	chemical 4009 4014	metal
+T86	disease_or_phenotypic_feature 4015 4018	ion
+T87	chemical 4015 4018	ion
+R1	treats Arg1:T78 Arg2:T79
+R2	treats Arg1:T32 Arg2:T36
+R3	treats Arg1:T24 Arg2:T26
+R4	treats Arg1:T35 Arg2:T36
+R5	treats Arg1:T2 Arg2:T5
+R6	treats Arg1:T2 Arg2:T3
+R7	treats Arg1:T22 Arg2:T21
+R8	treats Arg1:T80 Arg2:T82
+R9	treats Arg1:T1 Arg2:T3
+R10	treats Arg1:T1 Arg2:T5
+R11	treats Arg1:T23 Arg2:T26
+R12	treats Arg1:T28 Arg2:T29
+R13	treats Arg1:T28 Arg2:T30

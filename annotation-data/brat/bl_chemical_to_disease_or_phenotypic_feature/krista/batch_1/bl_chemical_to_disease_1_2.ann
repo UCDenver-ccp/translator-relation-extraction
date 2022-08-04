@@ -1,76 +1,76 @@
-T1	disease_or_phenotypic_feature 96005 96022	Parkinson disease
-T2	chemical 96027 96031	lead
-T3	disease_or_phenotypic_feature 96137 96142	Blood
-T4	chemical 96226 96239	enzyme-linked
-T5	chemical 96321 96329	allergen
-T6	corrected_disease_or_phenotypic_feature 96359 96384	Th2 allergic inflammation
-T7	disease_or_phenotypic_feature 96363 96371	allergic
-T8	chemical 96447 96454	Protein
-T9	disease_or_phenotypic_feature 96514 96518	CDH3
-T10	chemical 96519 96526	protein
-T11	chemical 96742 96751	molecular
-T12	disease_or_phenotypic_feature 96784 96791	disease
-T13	chemical 96845 96852	protein
-T14	chemical 96880 96887	protein
-T15	chemical 96963 96970	glucose
-T16	disease_or_phenotypic_feature 96963 96982	glucose intolerance
-T17	missed_chemical 97013 97020	insulin
-T18	chemical 97296 97299	DNA
-T19	disease_or_phenotypic_feature 97354 97365	hepatitis B
-T20	corrected_chemical 97525 97542	miR-195 inhibitor
-T21	chemical 97533 97542	inhibitor
-T22	disease_or_phenotypic_feature 97600 97605	NSCLC
-T23	chemical 97630 97641	Methylation
-T24	disease_or_phenotypic_feature 97692 97697	blood
-T25	disease_or_phenotypic_feature 97729 97741	preeclampsia
-T26	disease_or_phenotypic_feature 97759 97788	gestational diabetes mellitus
-T27	disease_or_phenotypic_feature 97891 97896	blood
-T28	chemical 97897 97903	lipids
-T29	chemical 97924 97931	glucose
-T30	chemical 98036 98046	biomarkers
-T31	missed_chemical 98082 98096	chemoradiation
-T32	corrected_disease_or_phenotypic_feature 98169 98199	locally advanced rectal cancer
-T33	disease_or_phenotypic_feature 98186 98199	rectal cancer
-T34	chemical 98313 98318	group
-T35	disease_or_phenotypic_feature 98330 98334	PCOS
-T36	chemical 98335 98340	group
-T37	chemical 98414 98424	Biomarkers
-T38	disease_or_phenotypic_feature 98429 98446	Colorectal Cancer
-T39	disease_or_phenotypic_feature 98517 98521	rich
-T40	corrected_chemical 98525 98556	ω-3 polyunsaturated fatty acids
-T41	chemical 98529 98556	polyunsaturated fatty acids
-T42	chemical 98545 98550	fatty
-T43	missed_disease_or_phenotypic_feature 98590 98611	vascular inflammation
-T44	missed_disease_or_phenotypic_feature 98613 98630	neuroinflammation
-T45	missed_disease_or_phenotypic_feature 98632 98644	hypertension
-T46	disease_or_phenotypic_feature 98650 98660	thrombosis
-T47	disease_or_phenotypic_feature 98708 98716	syndrome
-T48	disease_or_phenotypic_feature 98737 98741	rare
-T49	disease_or_phenotypic_feature 98742 98751	condition
-T50	chemical 98793 98800	thyroid
-T51	disease_or_phenotypic_feature 98801 98809	disorder
-T52	disease_or_phenotypic_feature 98842 98850	diseases
-T53	disease_or_phenotypic_feature 98862 98877	type 1 diabetes
-T54	disease_or_phenotypic_feature 98981 98984	HIE
-T55	chemical 98985 98990	group
-T56	disease_or_phenotypic_feature 99338 99361	Hashimoto’s Thyroiditis
-T57	chemical 99350 99361	Thyroiditis
-T58	chemical 99370 99388	Thyroid-Associated
-T59	disease_or_phenotypic_feature 99465 99483	malignant lymphoma
-T60	chemical 99524 99531	radical
-T61	chemical 99574 99582	a factor
-T62	disease_or_phenotypic_feature 99625 99631	trauma
-T63	disease_or_phenotypic_feature 99655 99664	condition
-T64	chemical 99686 99699	calcimimetics
-T65	chemical 99705 99715	cinacalcet
-T66	chemical 99758 99765	calcium
-R1	causes_or_contributes_to Arg1:T11 Arg2:T12
-R2	treats Arg1:T17 Arg2:T16
-R3	causes_or_contributes_to Arg1:T5 Arg2:T6
-R4	treats Arg1:T40 Arg2:T43
-R5	treats Arg1:T40 Arg2:T45
-R6	treats Arg1:T40 Arg2:T46
-R7	treats Arg1:T40 Arg2:T44
+T1	disease_or_phenotypic_feature 19 36	Parkinson disease
+T2	chemical 41 45	lead
+T3	disease_or_phenotypic_feature 151 156	Blood
+T4	chemical 240 253	enzyme-linked
+T5	chemical 335 343	allergen
+T6	corrected_disease_or_phenotypic_feature 373 398	Th2 allergic inflammation
+T7	disease_or_phenotypic_feature 377 385	allergic
+T8	chemical 461 468	Protein
+T9	disease_or_phenotypic_feature 528 532	CDH3
+T10	chemical 533 540	protein
+T11	chemical 756 765	molecular
+T12	disease_or_phenotypic_feature 798 805	disease
+T13	chemical 859 866	protein
+T14	chemical 894 901	protein
+T15	chemical 977 984	glucose
+T16	disease_or_phenotypic_feature 977 996	glucose intolerance
+T17	missed_chemical 1027 1034	insulin
+T18	chemical 1310 1313	DNA
+T19	disease_or_phenotypic_feature 1368 1379	hepatitis B
+T20	corrected_chemical 1539 1556	miR-195 inhibitor
+T21	chemical 1547 1556	inhibitor
+T22	disease_or_phenotypic_feature 1614 1619	NSCLC
+T23	chemical 1644 1655	Methylation
+T24	disease_or_phenotypic_feature 1706 1711	blood
+T25	disease_or_phenotypic_feature 1743 1755	preeclampsia
+T26	disease_or_phenotypic_feature 1773 1802	gestational diabetes mellitus
+T27	disease_or_phenotypic_feature 1905 1910	blood
+T28	chemical 1911 1917	lipids
+T29	chemical 1938 1945	glucose
+T30	chemical 2050 2060	biomarkers
+T31	missed_chemical 2096 2110	chemoradiation
+T32	corrected_disease_or_phenotypic_feature 2183 2213	locally advanced rectal cancer
+T33	disease_or_phenotypic_feature 2200 2213	rectal cancer
+T34	chemical 2327 2332	group
+T35	disease_or_phenotypic_feature 2344 2348	PCOS
+T36	chemical 2349 2354	group
+T37	chemical 2428 2438	Biomarkers
+T38	disease_or_phenotypic_feature 2443 2460	Colorectal Cancer
+T39	disease_or_phenotypic_feature 2531 2535	rich
+T40	corrected_chemical 2539 2570	ω-3 polyunsaturated fatty acids
+T41	chemical 2543 2570	polyunsaturated fatty acids
+T42	chemical 2559 2564	fatty
+T43	missed_disease_or_phenotypic_feature 2604 2625	vascular inflammation
+T44	missed_disease_or_phenotypic_feature 2627 2644	neuroinflammation
+T45	missed_disease_or_phenotypic_feature 2646 2658	hypertension
+T46	disease_or_phenotypic_feature 2664 2674	thrombosis
+T47	disease_or_phenotypic_feature 2722 2730	syndrome
+T48	disease_or_phenotypic_feature 2751 2755	rare
+T49	disease_or_phenotypic_feature 2756 2765	condition
+T50	chemical 2807 2814	thyroid
+T51	disease_or_phenotypic_feature 2815 2823	disorder
+T52	disease_or_phenotypic_feature 2856 2864	diseases
+T53	disease_or_phenotypic_feature 2876 2891	type 1 diabetes
+T54	disease_or_phenotypic_feature 2995 2998	HIE
+T55	chemical 2999 3004	group
+T56	disease_or_phenotypic_feature 3352 3375	Hashimoto’s Thyroiditis
+T57	chemical 3364 3375	Thyroiditis
+T58	chemical 3384 3402	Thyroid-Associated
+T59	disease_or_phenotypic_feature 3479 3497	malignant lymphoma
+T60	chemical 3538 3545	radical
+T61	chemical 3588 3596	a factor
+T62	disease_or_phenotypic_feature 3639 3645	trauma
+T63	disease_or_phenotypic_feature 3669 3678	condition
+T64	chemical 3700 3713	calcimimetics
+T65	chemical 3719 3729	cinacalcet
+T66	chemical 3772 3779	calcium
+R1	treats Arg1:T17 Arg2:T16
+R2	causes_or_contributes_to Arg1:T11 Arg2:T12
+R3	treats Arg1:T40 Arg2:T43
+R4	treats Arg1:T40 Arg2:T45
+R5	treats Arg1:T40 Arg2:T46
+R6	treats Arg1:T40 Arg2:T44
+R7	causes_or_contributes_to Arg1:T5 Arg2:T6
 R8	treats Arg1:T64 Arg2:T63
 R9	treats Arg1:T65 Arg2:T63
 R10	treats Arg1:T31 Arg2:T32

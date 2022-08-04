@@ -1,62 +1,62 @@
-T1	chemical 193635 193642	iohexol
-T2	disease_or_phenotypic_feature 193644 193647	PAH
-T3	chemical 193652 193662	creatinine
-T4	chemical 193894 193906	sulfate-rich
-T5	disease_or_phenotypic_feature 193894 193906	sulfate-rich
-T6	chemical 193946 193954	proteins
-T7	disease_or_phenotypic_feature 194106 194115	intrinsic
-T8	chemical 194227 194237	cefotaxime
-T9	disease_or_phenotypic_feature 194256 194269	Selenium-rich
-T10	chemical 194256 194269	Selenium-rich
-T11	chemical 194304 194317	prostaglandin
-T12	chemical 194327 194356	lipopolysaccharide-stimulated
-T13	chemical 194396 194401	IGF-1
-T14	disease_or_phenotypic_feature 194447 194460	osteonecrosis
-T15	chemical 194542 194550	chromium
-T16	disease_or_phenotypic_feature 194598 194603	blood
-T17	disease_or_phenotypic_feature 194717 194721	SOD1
-T18	chemical 194826 194837	biochemical
-T19	chemical 194942 194951	G-protein
-T20	chemical 194971 194978	protein
-T21	chemical 195014 195036	angiotensin II-induced
-T22	chemical 195043 195052	oxidative
-T23	disease_or_phenotypic_feature 195078 195087	anxiety-,
-T24	disease_or_phenotypic_feature 195092 195107	depression-like
-T25	chemical 195207 195217	anesthesia
-T26	disease_or_phenotypic_feature 195251 195257	cancer
-T27	disease_or_phenotypic_feature 195331 195342	lung cancer
-T28	chemical 195374 195381	HGF-Met
-T29	disease_or_phenotypic_feature 195459 195470	lung cancer
-T30	disease_or_phenotypic_feature 195543 195557	injury-related
-T31	chemical 195573 195584	biochemical
-T32	disease_or_phenotypic_feature 195677 195687	infectious
-T33	disease_or_phenotypic_feature 195733 195742	infection
-T34	chemical 195845 195849	iron
-T35	chemical 195854 195863	vitamin A
-T36	chemical 195864 195874	biomarkers
-T37	chemical 195929 195939	biomarkers
-T38	chemical 196079 196086	Antigen
-T39	disease_or_phenotypic_feature 196149 196157	Melanoma
-T40	chemical 196275 196278	his
-T41	disease_or_phenotypic_feature 196294 196303	condition
-T42	disease_or_phenotypic_feature 196336 196342	cancer
-T43	chemical 196366 196371	group
-T44	chemical 196386 196391	group
-T45	disease_or_phenotypic_feature 196527 196536	psoriasis
-T46	chemical 196561 196571	biomarkers
-T47	disease_or_phenotypic_feature 196590 196599	psoriasis
-T48	chemical 196766 196781	PTH-independent
-T49	disease_or_phenotypic_feature 196789 196802	hypercalcemia
-T50	disease_or_phenotypic_feature 196927 196930	PCP
-T51	chemical 197082 197090	proteins
-T52	chemical 197111 197129	protease inhibitor
-T53	disease_or_phenotypic_feature 197207 197213	cancer
-T54	disease_or_phenotypic_feature 197235 197253	malignant melanoma
-T55	chemical 197299 197304	group
-T56	disease_or_phenotypic_feature 197318 197327	condition
-T57	chemical 197343 197348	group
-T58	disease_or_phenotypic_feature 197385 197392	anxiety
-T59	chemical 197475 197489	glucocorticoid
-T60	chemical 197504 197519	glucocorticoids
-T61	disease_or_phenotypic_feature 197558 197567	disorders
-T62	chemical 197572 197576	drug
+T1	chemical 67 74	iohexol
+T2	disease_or_phenotypic_feature 76 79	PAH
+T3	chemical 84 94	creatinine
+T4	chemical 326 338	sulfate-rich
+T5	disease_or_phenotypic_feature 326 338	sulfate-rich
+T6	chemical 378 386	proteins
+T7	disease_or_phenotypic_feature 538 547	intrinsic
+T8	chemical 659 669	cefotaxime
+T9	disease_or_phenotypic_feature 688 701	Selenium-rich
+T10	chemical 688 701	Selenium-rich
+T11	chemical 736 749	prostaglandin
+T12	chemical 759 788	lipopolysaccharide-stimulated
+T13	chemical 828 833	IGF-1
+T14	disease_or_phenotypic_feature 879 892	osteonecrosis
+T15	chemical 974 982	chromium
+T16	disease_or_phenotypic_feature 1030 1035	blood
+T17	disease_or_phenotypic_feature 1149 1153	SOD1
+T18	chemical 1258 1269	biochemical
+T19	chemical 1374 1383	G-protein
+T20	chemical 1403 1410	protein
+T21	chemical 1446 1468	angiotensin II-induced
+T22	chemical 1475 1484	oxidative
+T23	disease_or_phenotypic_feature 1510 1519	anxiety-,
+T24	disease_or_phenotypic_feature 1524 1539	depression-like
+T25	chemical 1639 1649	anesthesia
+T26	disease_or_phenotypic_feature 1683 1689	cancer
+T27	disease_or_phenotypic_feature 1763 1774	lung cancer
+T28	chemical 1806 1813	HGF-Met
+T29	disease_or_phenotypic_feature 1891 1902	lung cancer
+T30	disease_or_phenotypic_feature 1975 1989	injury-related
+T31	chemical 2005 2016	biochemical
+T32	disease_or_phenotypic_feature 2109 2119	infectious
+T33	disease_or_phenotypic_feature 2165 2174	infection
+T34	chemical 2277 2281	iron
+T35	chemical 2286 2295	vitamin A
+T36	chemical 2296 2306	biomarkers
+T37	chemical 2361 2371	biomarkers
+T38	chemical 2511 2518	Antigen
+T39	disease_or_phenotypic_feature 2581 2589	Melanoma
+T40	chemical 2707 2710	his
+T41	disease_or_phenotypic_feature 2726 2735	condition
+T42	disease_or_phenotypic_feature 2768 2774	cancer
+T43	chemical 2798 2803	group
+T44	chemical 2818 2823	group
+T45	disease_or_phenotypic_feature 2959 2968	psoriasis
+T46	chemical 2993 3003	biomarkers
+T47	disease_or_phenotypic_feature 3022 3031	psoriasis
+T48	chemical 3198 3213	PTH-independent
+T49	disease_or_phenotypic_feature 3221 3234	hypercalcemia
+T50	disease_or_phenotypic_feature 3359 3362	PCP
+T51	chemical 3514 3522	proteins
+T52	chemical 3543 3561	protease inhibitor
+T53	disease_or_phenotypic_feature 3639 3645	cancer
+T54	disease_or_phenotypic_feature 3667 3685	malignant melanoma
+T55	chemical 3731 3736	group
+T56	disease_or_phenotypic_feature 3750 3759	condition
+T57	chemical 3775 3780	group
+T58	disease_or_phenotypic_feature 3817 3824	anxiety
+T59	chemical 3907 3921	glucocorticoid
+T60	chemical 3936 3951	glucocorticoids
+T61	disease_or_phenotypic_feature 3990 3999	disorders
+T62	chemical 4004 4008	drug

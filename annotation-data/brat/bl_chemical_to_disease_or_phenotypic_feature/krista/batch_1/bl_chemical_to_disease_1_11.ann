@@ -1,64 +1,64 @@
-T1	chemical 96085 96101	neurotransmitter
-T2	chemical 96102 96115	acetylcholine
-T3	disease_or_phenotypic_feature 96145 96164	Alzheimer's disease
-T4	chemical 96310 96329	pilocarpine-induced
-T5	disease_or_phenotypic_feature 96330 96348	status epilepticus
-T6	chemical 96398 96407	Oxidative
-T7	disease_or_phenotypic_feature 96470 96501	Intrauterine Growth Restriction
-T8	chemical 96607 96617	biomarkers
-T9	disease_or_phenotypic_feature 96635 96638	CRC
-T10	disease_or_phenotypic_feature 96686 96691	blood
-T11	chemical 96735 96740	group
-T12	chemical 96844 96853	oxidative
-T13	chemical 96906 96911	lipid
-T14	chemical 96912 96924	peroxidation
-T15	chemical 96936 96947	antioxidant
-T16	chemical 96948 96954	enzyme
-T17	chemical 96984 96994	superoxide
-T18	disease_or_phenotypic_feature 97006 97009	SOD
-T19	chemical 97152 97155	fat
-T20	chemical 97167 97170	fat
-T21	disease_or_phenotypic_feature 97180 97185	blood
-T22	chemical 97186 97196	biomarkers
-T23	chemical 97284 97288	NAD+
-T24	disease_or_phenotypic_feature 97361 97375	polyneuropathy
-T25	disease_or_phenotypic_feature 97568 97579	CRISPR/Cas9
-T26	chemical 97597 97604	protein
-T27	chemical 97654 97661	RNA-seq
-T28	disease_or_phenotypic_feature 97672 97678	glioma
-T29	missed_chemical 97698 97704	dbcAMP
-T30	missed_chemical 97708 97722	cAMP activator
-T31	disease_or_phenotypic_feature 97772 97781	sensitive
-T32	chemical 97847 97854	protein
-T33	disease_or_phenotypic_feature 97880 97892	cold-induced
-T34	disease_or_phenotypic_feature 97935 97944	intrinsic
-T35	disease_or_phenotypic_feature 98104 98120	thrombophlebitis
-T36	chemical 98131 98135	lead
-T37	chemical 98171 98176	venom
-T38	disease_or_phenotypic_feature 98194 98200	injury
-T39	chemical 98201 98205	lead
-T40	disease_or_phenotypic_feature 98353 98364	sensitivity
-T41	chemical 98393 98397	lead
-T42	chemical 98420 98427	ethanol
-T43	chemical 98549 98557	cytosine
-T44	chemical 98561 98568	thymine
-T45	chemical 98569 98577	residues
-T46	chemical 98585 98598	dinucleotides
-T47	disease_or_phenotypic_feature 98602 98608	cancer
-T48	chemical 98696 98701	group
-T49	chemical 98712 98717	group
-T50	disease_or_phenotypic_feature 98770 98788	Acute Pancreatitis
-T51	chemical 98825 98832	protein
-T52	disease_or_phenotypic_feature 98862 98867	blood
-T53	chemical 98901 98908	protein
-T54	chemical 98941 98956	phosphorylation
-T55	chemical 98964 98971	protein
-T56	disease_or_phenotypic_feature 98986 98991	blood
-T57	disease_or_phenotypic_feature 99064 99089	anaplastic thyroid cancer
-T58	chemical 99075 99082	thyroid
-T59	chemical 99318 99325	neutron
-T60	disease_or_phenotypic_feature 99440 99443	GPa
-T61	chemical 99474 99490	pro-inflammatory
-T62	disease_or_phenotypic_feature 99533 99538	PFAPA
-R1	treats Arg1:T29 Arg2:T28
-R2	treats Arg1:T30 Arg2:T28
+T1	chemical 99 115	neurotransmitter
+T2	chemical 116 129	acetylcholine
+T3	disease_or_phenotypic_feature 159 178	Alzheimer's disease
+T4	chemical 324 343	pilocarpine-induced
+T5	disease_or_phenotypic_feature 344 362	status epilepticus
+T6	chemical 412 421	Oxidative
+T7	disease_or_phenotypic_feature 484 515	Intrauterine Growth Restriction
+T8	chemical 621 631	biomarkers
+T9	disease_or_phenotypic_feature 649 652	CRC
+T10	disease_or_phenotypic_feature 700 705	blood
+T11	chemical 749 754	group
+T12	chemical 858 867	oxidative
+T13	chemical 920 925	lipid
+T14	chemical 926 938	peroxidation
+T15	chemical 950 961	antioxidant
+T16	chemical 962 968	enzyme
+T17	chemical 998 1008	superoxide
+T18	disease_or_phenotypic_feature 1020 1023	SOD
+T19	chemical 1166 1169	fat
+T20	chemical 1181 1184	fat
+T21	disease_or_phenotypic_feature 1194 1199	blood
+T22	chemical 1200 1210	biomarkers
+T23	chemical 1298 1302	NAD+
+T24	disease_or_phenotypic_feature 1375 1389	polyneuropathy
+T25	disease_or_phenotypic_feature 1582 1593	CRISPR/Cas9
+T26	chemical 1611 1618	protein
+T27	chemical 1668 1675	RNA-seq
+T28	disease_or_phenotypic_feature 1686 1692	glioma
+T29	missed_chemical 1712 1718	dbcAMP
+T30	missed_chemical 1722 1736	cAMP activator
+T31	disease_or_phenotypic_feature 1786 1795	sensitive
+T32	chemical 1861 1868	protein
+T33	disease_or_phenotypic_feature 1894 1906	cold-induced
+T34	disease_or_phenotypic_feature 1949 1958	intrinsic
+T35	disease_or_phenotypic_feature 2118 2134	thrombophlebitis
+T36	chemical 2145 2149	lead
+T37	chemical 2185 2190	venom
+T38	disease_or_phenotypic_feature 2208 2214	injury
+T39	chemical 2215 2219	lead
+T40	disease_or_phenotypic_feature 2367 2378	sensitivity
+T41	chemical 2407 2411	lead
+T42	chemical 2434 2441	ethanol
+T43	chemical 2563 2571	cytosine
+T44	chemical 2575 2582	thymine
+T45	chemical 2583 2591	residues
+T46	chemical 2599 2612	dinucleotides
+T47	disease_or_phenotypic_feature 2616 2622	cancer
+T48	chemical 2710 2715	group
+T49	chemical 2726 2731	group
+T50	disease_or_phenotypic_feature 2784 2802	Acute Pancreatitis
+T51	chemical 2839 2846	protein
+T52	disease_or_phenotypic_feature 2876 2881	blood
+T53	chemical 2915 2922	protein
+T54	chemical 2955 2970	phosphorylation
+T55	chemical 2978 2985	protein
+T56	disease_or_phenotypic_feature 3000 3005	blood
+T57	disease_or_phenotypic_feature 3078 3103	anaplastic thyroid cancer
+T58	chemical 3089 3096	thyroid
+T59	chemical 3332 3339	neutron
+T60	disease_or_phenotypic_feature 3454 3457	GPa
+T61	chemical 3488 3504	pro-inflammatory
+T62	disease_or_phenotypic_feature 3547 3552	PFAPA
+R1	treats Arg1:T30 Arg2:T28
+R2	treats Arg1:T29 Arg2:T28

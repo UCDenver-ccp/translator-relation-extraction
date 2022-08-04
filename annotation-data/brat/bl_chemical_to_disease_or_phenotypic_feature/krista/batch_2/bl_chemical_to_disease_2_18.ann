@@ -1,98 +1,98 @@
-T1	chemical 193579 193594	corticosteroids
-T2	disease_or_phenotypic_feature 193615 193621	common
-T3	missed_chemical 193631 193641	medication
-T4	disease_or_phenotypic_feature 193670 193678	rhinitis
-T5	missed_disease_or_phenotypic_feature 193682 193696	rhinosinusitis
-T6	disease_or_phenotypic_feature 193728 193749	non-allergic rhinitis
-T7	disease_or_phenotypic_feature 193780 193784	rare
-T8	disease_or_phenotypic_feature 193785 193792	disease
-T9	chemical 193802 193806	lead
-T10	disease_or_phenotypic_feature 193824 193843	portal hypertension
-T11	disease_or_phenotypic_feature 194001 194028	papillary thyroid carcinoma
-T12	chemical 194011 194018	thyroid
-T13	chemical 194177 194191	5-fluorouracil
-T14	chemical 194315 194329	5-fluorouracil
-T15	corrected_disease_or_phenotypic_feature 194413 194443	locally advanced rectal cancer
-T16	disease_or_phenotypic_feature 194430 194443	rectal cancer
-T17	missed_disease_or_phenotypic_feature 194445 194449	LARC
-T18	chemical 194493 194500	alcohol
-T19	corrected_disease_or_phenotypic_feature 194493 194513	alcohol use disorder
-T20	disease_or_phenotypic_feature 194505 194513	disorder
-T21	disease_or_phenotypic_feature 194726 194735	condition
-T22	chemical 194755 194762	glucose
-T23	chemical 194786 194791	fatty
-T24	chemical 194786 194796	fatty acid
-T25	chemical 194922 194931	vitamin E
-T26	disease_or_phenotypic_feature 194955 194959	scan
-T27	chemical 195014 195023	Oxidative
-T28	disease_or_phenotypic_feature 195069 195073	ALD.
-T29	chemical 195115 195122	H3K4me3
-T30	disease_or_phenotypic_feature 195169 195173	TSS)
-T31	chemical 195332 195344	Pioglitazone
-T32	disease_or_phenotypic_feature 195381 195410	Chronic Granulomatous Disease
-T33	disease_or_phenotypic_feature 195432 195441	Infection
-T34	chemical 195460 195470	-exendin-4
-T35	chemical 195504 195510	tracer
-T36	disease_or_phenotypic_feature 195532 195542	insulinoma
-T37	disease_or_phenotypic_feature 195579 195584	HSP70
-T38	chemical 195585 195589	mRNA
-T39	chemical 195631 195640	indicator
-T40	chemical 195726 195734	O-methyl
-T41	chemical 195735 195740	oxime
-T42	disease_or_phenotypic_feature 195804 195808	MRSA
-T43	chemical 195933 195942	biomarker
-T44	disease_or_phenotypic_feature 195966 195990	hepatocellular carcinoma
-T45	chemical 196028 196036	sedation
-T46	chemical 196048 196056	sedation
-T47	chemical 196073 196083	anesthesia
-T48	disease_or_phenotypic_feature 196175 196181	stroke
-T49	missed_chemical 196237 196244	VPR-254
-T50	missed_chemical 196275 196278	DSS
-T51	corrected_chemical 196280 196308	Trintirobenzenesulfonic acid
-T52	chemical 196304 196308	acid
-T53	chemical 196310 196314	TNBS
-T54	disease_or_phenotypic_feature 196364 196371	colitis
-T55	disease_or_phenotypic_feature 196407 196410	TTP
-T56	chemical 196407 196410	TTP
-T57	missed_chemical 196414 196416	TQ
-T58	disease_or_phenotypic_feature 196475 196481	cancer
-T59	disease_or_phenotypic_feature 196515 196518	fed
-T60	disease_or_phenotypic_feature 196654 196662	calculus
-T61	chemical 196685 196690	group
-T62	missed_chemical 196755 196767	pexidartinib
-T63	missed_chemical 196772 196783	binimetinib
-T64	disease_or_phenotypic_feature 196884 196914	gastrointestinal stromal tumor
-T65	disease_or_phenotypic_feature 196916 196920	GIST
-T66	chemical 196936 196944	tyrosine
-T67	chemical 196936 196962	tyrosine kinase inhibitors
-T68	missed_chemical 196964 196968	TKIs
-T69	disease_or_phenotypic_feature 197262 197267	GIST.
-T70	disease_or_phenotypic_feature 197308 197319	non-genetic
-T71	missed_disease_or_phenotypic_feature 197329 197337	fibrosis
-T72	missed_disease_or_phenotypic_feature 197350 197361	side effect
-T73	chemical 197365 197374	bleomycin
-R1	treats Arg1:T31 Arg2:T32
-R2	causes_or_contributes_to Arg1:T53 Arg2:T54
-R3	treats Arg1:T63 Arg2:T64
-R4	treats Arg1:T63 Arg2:T65
-R5	causes_or_contributes_to Arg1:T73 Arg2:T71
-R6	causes_or_contributes_to Arg1:T73 Arg2:T72
-R7	treats Arg1:T57 Arg2:T58
-R8	treats Arg1:T68 Arg2:T64
-R9	treats Arg1:T68 Arg2:T65
-R10	treats Arg1:T3 Arg2:T6
-R11	treats Arg1:T3 Arg2:T4
-R12	treats Arg1:T3 Arg2:T5
-R13	treats Arg1:T49 Arg2:T54
-R14	causes_or_contributes_to Arg1:T18 Arg2:T19
-R15	treats Arg1:T1 Arg2:T4
-R16	treats Arg1:T1 Arg2:T5
-R17	treats Arg1:T1 Arg2:T6
-R18	treats Arg1:T67 Arg2:T65
-R19	treats Arg1:T67 Arg2:T64
-R20	treats Arg1:T14 Arg2:T17
-R21	treats Arg1:T14 Arg2:T15
-R22	treats Arg1:T62 Arg2:T65
-R23	treats Arg1:T62 Arg2:T64
-R24	causes_or_contributes_to Arg1:T50 Arg2:T54
-R25	causes_or_contributes_to Arg1:T51 Arg2:T54
+T1	chemical 11 26	corticosteroids
+T2	disease_or_phenotypic_feature 47 53	common
+T3	missed_chemical 63 73	medication
+T4	disease_or_phenotypic_feature 102 110	rhinitis
+T5	missed_disease_or_phenotypic_feature 114 128	rhinosinusitis
+T6	disease_or_phenotypic_feature 160 181	non-allergic rhinitis
+T7	disease_or_phenotypic_feature 212 216	rare
+T8	disease_or_phenotypic_feature 217 224	disease
+T9	chemical 234 238	lead
+T10	disease_or_phenotypic_feature 256 275	portal hypertension
+T11	disease_or_phenotypic_feature 433 460	papillary thyroid carcinoma
+T12	chemical 443 450	thyroid
+T13	chemical 609 623	5-fluorouracil
+T14	chemical 747 761	5-fluorouracil
+T15	corrected_disease_or_phenotypic_feature 845 875	locally advanced rectal cancer
+T16	disease_or_phenotypic_feature 862 875	rectal cancer
+T17	missed_disease_or_phenotypic_feature 877 881	LARC
+T18	chemical 925 932	alcohol
+T19	corrected_disease_or_phenotypic_feature 925 945	alcohol use disorder
+T20	disease_or_phenotypic_feature 937 945	disorder
+T21	disease_or_phenotypic_feature 1158 1167	condition
+T22	chemical 1187 1194	glucose
+T23	chemical 1218 1223	fatty
+T24	chemical 1218 1228	fatty acid
+T25	chemical 1354 1363	vitamin E
+T26	disease_or_phenotypic_feature 1387 1391	scan
+T27	chemical 1446 1455	Oxidative
+T28	disease_or_phenotypic_feature 1501 1505	ALD.
+T29	chemical 1547 1554	H3K4me3
+T30	disease_or_phenotypic_feature 1601 1605	TSS)
+T31	chemical 1764 1776	Pioglitazone
+T32	disease_or_phenotypic_feature 1813 1842	Chronic Granulomatous Disease
+T33	disease_or_phenotypic_feature 1864 1873	Infection
+T34	chemical 1892 1902	-exendin-4
+T35	chemical 1936 1942	tracer
+T36	disease_or_phenotypic_feature 1964 1974	insulinoma
+T37	disease_or_phenotypic_feature 2011 2016	HSP70
+T38	chemical 2017 2021	mRNA
+T39	chemical 2063 2072	indicator
+T40	chemical 2158 2166	O-methyl
+T41	chemical 2167 2172	oxime
+T42	disease_or_phenotypic_feature 2236 2240	MRSA
+T43	chemical 2365 2374	biomarker
+T44	disease_or_phenotypic_feature 2398 2422	hepatocellular carcinoma
+T45	chemical 2460 2468	sedation
+T46	chemical 2480 2488	sedation
+T47	chemical 2505 2515	anesthesia
+T48	disease_or_phenotypic_feature 2607 2613	stroke
+T49	missed_chemical 2669 2676	VPR-254
+T50	missed_chemical 2707 2710	DSS
+T51	corrected_chemical 2712 2740	Trintirobenzenesulfonic acid
+T52	chemical 2736 2740	acid
+T53	chemical 2742 2746	TNBS
+T54	disease_or_phenotypic_feature 2796 2803	colitis
+T55	disease_or_phenotypic_feature 2839 2842	TTP
+T56	chemical 2839 2842	TTP
+T57	missed_chemical 2846 2848	TQ
+T58	disease_or_phenotypic_feature 2907 2913	cancer
+T59	disease_or_phenotypic_feature 2947 2950	fed
+T60	disease_or_phenotypic_feature 3086 3094	calculus
+T61	chemical 3117 3122	group
+T62	missed_chemical 3187 3199	pexidartinib
+T63	missed_chemical 3204 3215	binimetinib
+T64	disease_or_phenotypic_feature 3316 3346	gastrointestinal stromal tumor
+T65	disease_or_phenotypic_feature 3348 3352	GIST
+T66	chemical 3368 3376	tyrosine
+T67	chemical 3368 3394	tyrosine kinase inhibitors
+T68	missed_chemical 3396 3400	TKIs
+T69	disease_or_phenotypic_feature 3694 3699	GIST.
+T70	disease_or_phenotypic_feature 3740 3751	non-genetic
+T71	missed_disease_or_phenotypic_feature 3761 3769	fibrosis
+T72	missed_disease_or_phenotypic_feature 3782 3793	side effect
+T73	chemical 3797 3806	bleomycin
+R1	treats Arg1:T67 Arg2:T65
+R2	treats Arg1:T67 Arg2:T64
+R3	causes_or_contributes_to Arg1:T73 Arg2:T71
+R4	causes_or_contributes_to Arg1:T73 Arg2:T72
+R5	treats Arg1:T14 Arg2:T17
+R6	treats Arg1:T14 Arg2:T15
+R7	causes_or_contributes_to Arg1:T53 Arg2:T54
+R8	treats Arg1:T31 Arg2:T32
+R9	treats Arg1:T1 Arg2:T4
+R10	treats Arg1:T1 Arg2:T5
+R11	treats Arg1:T1 Arg2:T6
+R12	treats Arg1:T68 Arg2:T64
+R13	treats Arg1:T68 Arg2:T65
+R14	treats Arg1:T49 Arg2:T54
+R15	treats Arg1:T3 Arg2:T6
+R16	treats Arg1:T3 Arg2:T4
+R17	treats Arg1:T3 Arg2:T5
+R18	causes_or_contributes_to Arg1:T51 Arg2:T54
+R19	treats Arg1:T63 Arg2:T64
+R20	treats Arg1:T63 Arg2:T65
+R21	causes_or_contributes_to Arg1:T50 Arg2:T54
+R22	causes_or_contributes_to Arg1:T18 Arg2:T19
+R23	treats Arg1:T62 Arg2:T65
+R24	treats Arg1:T62 Arg2:T64
+R25	treats Arg1:T57 Arg2:T58

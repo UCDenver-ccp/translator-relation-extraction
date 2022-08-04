@@ -1,73 +1,73 @@
-T1	chemical 96057 96062	group
-T2	disease_or_phenotypic_feature 96139 96144	blood
-T3	chemical 96220 96230	fluoxetine
-T4	disease_or_phenotypic_feature 96235 96251	anorexia nervosa
-T5	disease_or_phenotypic_feature 96292 96310	cholangiocarcinoma
-T6	chemical 96333 96343	kynurenine
-T7	disease_or_phenotypic_feature 96440 96452	osteoporosis
-T8	chemical 96528 96531	NAC
-T9	disease_or_phenotypic_feature 96561 96564	sCT
-T10	chemical 96582 96585	NAC
-T11	disease_or_phenotypic_feature 96692 96700	syndrome
-T12	chemical 96718 96723	group
-T13	disease_or_phenotypic_feature 96765 96783	metabolic syndrome
-T14	chemical 96808 96819	biochemical
-T15	chemical 97093 97103	biomarkers
-T16	disease_or_phenotypic_feature 97107 97116	low-grade
-T17	disease_or_phenotypic_feature 97171 97176	Blood
-T18	chemical 97177 97184	Glucose
-T19	disease_or_phenotypic_feature 97190 97199	Sensitive
-T20	chemical 97357 97376	nitritation-anammox
-T21	disease_or_phenotypic_feature 97520 97524	rich
-T22	chemical 97608 97624	oligosaccharides
-T23	chemical 97626 97639	disaccharides
-T24	chemical 97641 97656	monosaccharides
-T25	missed_chemical 97662 97670	polypols
-T26	disease_or_phenotypic_feature 97680 97704	irritable bowel syndrome
-T27	chemical 97912 97915	fat
-T28	disease_or_phenotypic_feature 97926 97934	diabetes
-T29	chemical 98013 98027	spironolactone
-T30	chemical 98032 98041	estradiol
-T31	disease_or_phenotypic_feature 98078 98089	azoospermia
-T32	disease_or_phenotypic_feature 98265 98281	glioma-targeting
-T33	chemical 98326 98330	drug
-T34	chemical 98371 98375	drug
-T35	disease_or_phenotypic_feature 98448 98459	sensitivity
-T36	chemical 98494 98502	graphene
-T37	chemical 98503 98508	oxide
-T38	disease_or_phenotypic_feature 98619 98622	OCR
-T39	chemical 98732 98744	cytochrome c
-T40	chemical 98769 98776	glucose
-T41	chemical 98831 98840	Diazoxide
-T42	corrected_disease_or_phenotypic_feature 98854 98889	Hepatic Ischemic Reperfusion Injury
-T43	disease_or_phenotypic_feature 98883 98889	Injury
-T44	disease_or_phenotypic_feature 99005 99010	blood
-T45	chemical 99169 99179	biomarkers
-T46	chemical 99183 99187	drug
-T47	chemical 99238 99247	molecular
-T48	disease_or_phenotypic_feature 99338 99341	ion
-T49	chemical 99338 99341	ion
-T50	disease_or_phenotypic_feature 99437 99447	anti-tumor
-T51	corrected_chemical 99460 99494	Bruton's Tyrosine Kinase inhibitor
-T52	chemical 99469 99477	Tyrosine
-T53	chemical 99469 99494	Tyrosine Kinase inhibitor
-T54	disease_or_phenotypic_feature 99498 99516	Hodgkin's Lymphoma
-T55	disease_or_phenotypic_feature 99543 99548	tumor
-T56	disease_or_phenotypic_feature 99660 99663	HCC
-T57	missed_chemical 99685 99695	interferon
-T58	missed_chemical 99697 99700	IFN
-T59	chemical 99701 99706	group
-T60	disease_or_phenotypic_feature 99729 99732	HCC
-T61	missed_chemical 99754 99778	direct acting antivirals
-T62	missed_chemical 99780 99783	DAA
-T63	chemical 99784 99789	group
-R1	treats Arg1:T62 Arg2:T60
-R2	causes_or_contributes_to Arg1:T30 Arg2:T31
-R3	treats Arg1:T51 Arg2:T54
-R4	treats Arg1:T51 Arg2:T55
-R5	treats Arg1:T41 Arg2:T42
+T1	chemical 71 76	group
+T2	disease_or_phenotypic_feature 153 158	blood
+T3	chemical 234 244	fluoxetine
+T4	disease_or_phenotypic_feature 249 265	anorexia nervosa
+T5	disease_or_phenotypic_feature 306 324	cholangiocarcinoma
+T6	chemical 347 357	kynurenine
+T7	disease_or_phenotypic_feature 454 466	osteoporosis
+T8	chemical 542 545	NAC
+T9	disease_or_phenotypic_feature 575 578	sCT
+T10	chemical 596 599	NAC
+T11	disease_or_phenotypic_feature 706 714	syndrome
+T12	chemical 732 737	group
+T13	disease_or_phenotypic_feature 779 797	metabolic syndrome
+T14	chemical 822 833	biochemical
+T15	chemical 1107 1117	biomarkers
+T16	disease_or_phenotypic_feature 1121 1130	low-grade
+T17	disease_or_phenotypic_feature 1185 1190	Blood
+T18	chemical 1191 1198	Glucose
+T19	disease_or_phenotypic_feature 1204 1213	Sensitive
+T20	chemical 1371 1390	nitritation-anammox
+T21	disease_or_phenotypic_feature 1534 1538	rich
+T22	chemical 1622 1638	oligosaccharides
+T23	chemical 1640 1653	disaccharides
+T24	chemical 1655 1670	monosaccharides
+T25	missed_chemical 1676 1684	polypols
+T26	disease_or_phenotypic_feature 1694 1718	irritable bowel syndrome
+T27	chemical 1926 1929	fat
+T28	disease_or_phenotypic_feature 1940 1948	diabetes
+T29	chemical 2027 2041	spironolactone
+T30	chemical 2046 2055	estradiol
+T31	disease_or_phenotypic_feature 2092 2103	azoospermia
+T32	disease_or_phenotypic_feature 2279 2295	glioma-targeting
+T33	chemical 2340 2344	drug
+T34	chemical 2385 2389	drug
+T35	disease_or_phenotypic_feature 2462 2473	sensitivity
+T36	chemical 2508 2516	graphene
+T37	chemical 2517 2522	oxide
+T38	disease_or_phenotypic_feature 2633 2636	OCR
+T39	chemical 2746 2758	cytochrome c
+T40	chemical 2783 2790	glucose
+T41	chemical 2845 2854	Diazoxide
+T42	corrected_disease_or_phenotypic_feature 2868 2903	Hepatic Ischemic Reperfusion Injury
+T43	disease_or_phenotypic_feature 2897 2903	Injury
+T44	disease_or_phenotypic_feature 3019 3024	blood
+T45	chemical 3183 3193	biomarkers
+T46	chemical 3197 3201	drug
+T47	chemical 3252 3261	molecular
+T48	disease_or_phenotypic_feature 3352 3355	ion
+T49	chemical 3352 3355	ion
+T50	disease_or_phenotypic_feature 3451 3461	anti-tumor
+T51	corrected_chemical 3474 3508	Bruton's Tyrosine Kinase inhibitor
+T52	chemical 3483 3491	Tyrosine
+T53	chemical 3483 3508	Tyrosine Kinase inhibitor
+T54	disease_or_phenotypic_feature 3512 3530	Hodgkin's Lymphoma
+T55	disease_or_phenotypic_feature 3557 3562	tumor
+T56	disease_or_phenotypic_feature 3674 3677	HCC
+T57	missed_chemical 3699 3709	interferon
+T58	missed_chemical 3711 3714	IFN
+T59	chemical 3715 3720	group
+T60	disease_or_phenotypic_feature 3743 3746	HCC
+T61	missed_chemical 3768 3792	direct acting antivirals
+T62	missed_chemical 3794 3797	DAA
+T63	chemical 3798 3803	group
+R1	treats Arg1:T51 Arg2:T54
+R2	treats Arg1:T51 Arg2:T55
+R3	treats Arg1:T3 Arg2:T4
+R4	treats Arg1:T41 Arg2:T42
+R5	treats Arg1:T61 Arg2:T60
 R6	causes_or_contributes_to Arg1:T29 Arg2:T31
-R7	treats Arg1:T57 Arg2:T56
-R8	treats Arg1:T3 Arg2:T4
-R9	treats Arg1:T58 Arg2:T56
-R10	treats Arg1:T61 Arg2:T60
+R7	causes_or_contributes_to Arg1:T30 Arg2:T31
+R8	treats Arg1:T57 Arg2:T56
+R9	treats Arg1:T62 Arg2:T60
+R10	treats Arg1:T58 Arg2:T56

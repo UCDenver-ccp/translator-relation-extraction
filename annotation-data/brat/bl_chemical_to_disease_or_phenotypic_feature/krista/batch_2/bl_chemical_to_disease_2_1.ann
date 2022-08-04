@@ -1,87 +1,87 @@
-T1	chemical 193635 193650	corticosteroids
-T2	disease_or_phenotypic_feature 193692 193696	rash
-T3	chemical 193731 193734	RNA
-T4	disease_or_phenotypic_feature 193752 193769	gastric carcinoma
-T5	chemical 193886 193893	Silicon
-T6	disease_or_phenotypic_feature 193905 193916	Lithium-Ion
-T7	chemical 193905 193916	Lithium-Ion
-T8	missed_chemical 194044 194057	chemohormonal
-T9	missed_chemical 194044 194065	chemohormonal therapy
-T10	chemical 194069 194080	abiraterone
-T11	disease_or_phenotypic_feature 194093 194096	men
-T12	missed_disease_or_phenotypic_feature 194102 194107	mHSPC
-T13	disease_or_phenotypic_feature 194152 194159	disease
-T14	disease_or_phenotypic_feature 194504 194513	condition
-T15	chemical 194514 194519	group
-T16	disease_or_phenotypic_feature 194552 194561	condition
-T17	chemical 194562 194567	group
-T18	disease_or_phenotypic_feature 194592 194595	fed
-T19	chemical 194733 194737	drug
-T20	disease_or_phenotypic_feature 194797 194813	Candida glabrata
-T21	chemical 194983 194986	fat
-T22	disease_or_phenotypic_feature 195046 195053	anxiety
-T23	disease_or_phenotypic_feature 195058 195068	depression
-T24	missed_chemical 195170 195176	agents
-T25	chemical 195205 195214	molecular
-T26	disease_or_phenotypic_feature 195234 195239	tumor
-T27	chemical 195273 195285	Pyridoxamine
-T28	disease_or_phenotypic_feature 195372 195387	PNPO Deficiency
-T29	chemical 195406 195415	Thyroxine
-T30	missed_disease_or_phenotypic_feature 195431 195448	Mø1/Mø2 imbalance
-T31	corrected_disease_or_phenotypic_feature 195544 195558	cardiac injury
-T32	disease_or_phenotypic_feature 195552 195558	injury
-T33	missed_disease_or_phenotypic_feature 195563 195582	cardiac dysfunction
-T34	corrected_disease_or_phenotypic_feature 195637 195669	non-valvular atrial fibrillation
-T35	disease_or_phenotypic_feature 195650 195669	atrial fibrillation
-T36	missed_disease_or_phenotypic_feature 195671 195675	NVAF
-T37	chemical 195699 195710	rivaroxaban
-T38	disease_or_phenotypic_feature 195798 195803	tumor
-T39	chemical 195943 195952	indicator
-T40	disease_or_phenotypic_feature 196038 196043	tumor
-T41	disease_or_phenotypic_feature 196066 196071	blood
-T42	chemical 196132 196139	nucleus
-T43	disease_or_phenotypic_feature 196190 196195	tumor
-T44	chemical 196278 196288	biological
-T45	disease_or_phenotypic_feature 196352 196356	HCC.
-T46	chemical 196413 196419	copper
-T47	chemical 196436 196440	zinc
-T48	chemical 196508 196519	biochemical
-T49	chemical 196520 196530	metabolite
-T50	disease_or_phenotypic_feature 196571 196574	MDD
-T51	chemical 196611 196627	boron-containing
-T52	chemical 196674 196680	sodium
-T53	chemical 196702 196707	boron
-T54	disease_or_phenotypic_feature 196728 196743	tumor-targeting
-T55	disease_or_phenotypic_feature 196804 196808	AIP1
-T56	chemical 196827 196836	Protein-1
-T57	chemical 196928 196937	Estradiol
-T58	disease_or_phenotypic_feature 197079 197095	major depression
-T59	disease_or_phenotypic_feature 197166 197171	blood
-T60	chemical 197189 197198	biomarker
-T61	disease_or_phenotypic_feature 197262 197267	tumor
-T62	chemical 197341 197350	Metformin
-T63	chemical 197356 197367	Liraglutide
-T64	disease_or_phenotypic_feature 197372 197387	type 2 diabetes
-T65	chemical 197407 197412	HbA1c
-T66	missed_chemical 197429 197435	GLP1RA
-T67	missed_chemical 197441 197454	basal insulin
-T68	missed_chemical 197470 197489	basal-bolus insulin
-T69	disease_or_phenotypic_feature 197543 197567	type 2 diabetes mellitus
-R1	treats Arg1:T62 Arg2:T64
-R2	treats Arg1:T29 Arg2:T31
-R3	treats Arg1:T29 Arg2:T33
-R4	treats Arg1:T29 Arg2:T30
-R5	treats Arg1:T24 Arg2:T26
-R6	treats Arg1:T66 Arg2:T69
-R7	FIXME Arg1:T9 Arg2:T12
-R8	treats Arg1:T27 Arg2:T28
-R9	treats Arg1:T67 Arg2:T69
-R10	treats Arg1:T8 Arg2:T12
-R11	treats Arg1:T37 Arg2:T34
-R12	treats Arg1:T37 Arg2:T36
-R13	FIXME Arg1:T10 Arg2:T13
-R14	FIXME Arg1:T10 Arg2:T12
-R15	treats Arg1:T10 Arg2:T12
-R16	treats Arg1:T1 Arg2:T2
-R17	treats Arg1:T63 Arg2:T64
-R18	treats Arg1:T68 Arg2:T69
+T1	chemical 67 82	corticosteroids
+T2	disease_or_phenotypic_feature 124 128	rash
+T3	chemical 163 166	RNA
+T4	disease_or_phenotypic_feature 184 201	gastric carcinoma
+T5	chemical 318 325	Silicon
+T6	disease_or_phenotypic_feature 337 348	Lithium-Ion
+T7	chemical 337 348	Lithium-Ion
+T8	missed_chemical 476 489	chemohormonal
+T9	missed_chemical 476 497	chemohormonal therapy
+T10	chemical 501 512	abiraterone
+T11	disease_or_phenotypic_feature 525 528	men
+T12	missed_disease_or_phenotypic_feature 534 539	mHSPC
+T13	disease_or_phenotypic_feature 584 591	disease
+T14	disease_or_phenotypic_feature 936 945	condition
+T15	chemical 946 951	group
+T16	disease_or_phenotypic_feature 984 993	condition
+T17	chemical 994 999	group
+T18	disease_or_phenotypic_feature 1024 1027	fed
+T19	chemical 1165 1169	drug
+T20	disease_or_phenotypic_feature 1229 1245	Candida glabrata
+T21	chemical 1415 1418	fat
+T22	disease_or_phenotypic_feature 1478 1485	anxiety
+T23	disease_or_phenotypic_feature 1490 1500	depression
+T24	missed_chemical 1602 1608	agents
+T25	chemical 1637 1646	molecular
+T26	disease_or_phenotypic_feature 1666 1671	tumor
+T27	chemical 1705 1717	Pyridoxamine
+T28	disease_or_phenotypic_feature 1804 1819	PNPO Deficiency
+T29	chemical 1838 1847	Thyroxine
+T30	missed_disease_or_phenotypic_feature 1863 1880	Mø1/Mø2 imbalance
+T31	corrected_disease_or_phenotypic_feature 1976 1990	cardiac injury
+T32	disease_or_phenotypic_feature 1984 1990	injury
+T33	missed_disease_or_phenotypic_feature 1995 2014	cardiac dysfunction
+T34	corrected_disease_or_phenotypic_feature 2069 2101	non-valvular atrial fibrillation
+T35	disease_or_phenotypic_feature 2082 2101	atrial fibrillation
+T36	missed_disease_or_phenotypic_feature 2103 2107	NVAF
+T37	chemical 2131 2142	rivaroxaban
+T38	disease_or_phenotypic_feature 2230 2235	tumor
+T39	chemical 2375 2384	indicator
+T40	disease_or_phenotypic_feature 2470 2475	tumor
+T41	disease_or_phenotypic_feature 2498 2503	blood
+T42	chemical 2564 2571	nucleus
+T43	disease_or_phenotypic_feature 2622 2627	tumor
+T44	chemical 2710 2720	biological
+T45	disease_or_phenotypic_feature 2784 2788	HCC.
+T46	chemical 2845 2851	copper
+T47	chemical 2868 2872	zinc
+T48	chemical 2940 2951	biochemical
+T49	chemical 2952 2962	metabolite
+T50	disease_or_phenotypic_feature 3003 3006	MDD
+T51	chemical 3043 3059	boron-containing
+T52	chemical 3106 3112	sodium
+T53	chemical 3134 3139	boron
+T54	disease_or_phenotypic_feature 3160 3175	tumor-targeting
+T55	disease_or_phenotypic_feature 3236 3240	AIP1
+T56	chemical 3259 3268	Protein-1
+T57	chemical 3360 3369	Estradiol
+T58	disease_or_phenotypic_feature 3511 3527	major depression
+T59	disease_or_phenotypic_feature 3598 3603	blood
+T60	chemical 3621 3630	biomarker
+T61	disease_or_phenotypic_feature 3694 3699	tumor
+T62	chemical 3773 3782	Metformin
+T63	chemical 3788 3799	Liraglutide
+T64	disease_or_phenotypic_feature 3804 3819	type 2 diabetes
+T65	chemical 3839 3844	HbA1c
+T66	missed_chemical 3861 3867	GLP1RA
+T67	missed_chemical 3873 3886	basal insulin
+T68	missed_chemical 3902 3921	basal-bolus insulin
+T69	disease_or_phenotypic_feature 3975 3999	type 2 diabetes mellitus
+R1	treats Arg1:T67 Arg2:T69
+R2	treats Arg1:T24 Arg2:T26
+R3	treats Arg1:T37 Arg2:T34
+R4	treats Arg1:T37 Arg2:T36
+R5	treats Arg1:T66 Arg2:T69
+R6	treats Arg1:T68 Arg2:T69
+R7	treats Arg1:T27 Arg2:T28
+R8	treats Arg1:T1 Arg2:T2
+R9	FIXME Arg1:T9 Arg2:T12
+R10	FIXME Arg1:T10 Arg2:T13
+R11	FIXME Arg1:T10 Arg2:T12
+R12	treats Arg1:T10 Arg2:T12
+R13	treats Arg1:T62 Arg2:T64
+R14	treats Arg1:T8 Arg2:T12
+R15	treats Arg1:T63 Arg2:T64
+R16	treats Arg1:T29 Arg2:T31
+R17	treats Arg1:T29 Arg2:T33
+R18	treats Arg1:T29 Arg2:T30

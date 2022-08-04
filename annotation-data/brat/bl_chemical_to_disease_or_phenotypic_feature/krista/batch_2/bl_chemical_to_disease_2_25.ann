@@ -1,66 +1,66 @@
-T1	chemical 193649 193656	retinal
-T2	disease_or_phenotypic_feature 193721 193752	proliferative vitreoretinopathy
-T3	disease_or_phenotypic_feature 193757 193789	age-related macular degeneration
-T4	disease_or_phenotypic_feature 193876 193883	amyloid
-T5	chemical 193894 193901	protein
-T6	missed_chemical 194043 194053	GSK3036656
-T7	chemical 194064 194075	Leucyl-tRNA
-T8	corrected_chemical 194064 194096	Leucyl-tRNA Synthetase Inhibitor
-T9	chemical 194076 194096	Synthetase Inhibitor
-T10	disease_or_phenotypic_feature 194101 194113	Tuberculosis
-T11	disease_or_phenotypic_feature 194236 194263	papillary thyroid carcinoma
-T12	chemical 194246 194253	thyroid
-T13	chemical 194330 194341	caprolactam
-T14	chemical 194361 194370	phosphate
-T15	disease_or_phenotypic_feature 194400 194407	sterile
-T16	chemical 194454 194460	carbon
-T17	chemical 194464 194472	nitrogen
-T18	disease_or_phenotypic_feature 194499 194506	sterile
-T19	chemical 194569 194579	metabolite
-T20	disease_or_phenotypic_feature 194592 194597	blood
-T21	chemical 194606 194613	calcium
-T22	disease_or_phenotypic_feature 194637 194645	dystocia
-T23	disease_or_phenotypic_feature 194757 194776	Alzheimer's Disease
-T24	chemical 194848 194856	cortisol
-T25	chemical 194901 194908	glucose
-T26	disease_or_phenotypic_feature 195036 195041	tumor
-T27	disease_or_phenotypic_feature 195082 195092	meningioma
-T28	chemical 195164 195172	adjuvant
-T29	chemical 195320 195327	radical
-T30	disease_or_phenotypic_feature 195359 195374	prostate cancer
-T31	disease_or_phenotypic_feature 195496 195508	tuberculosis
-T32	chemical 195570 195585	protein-protein
-T33	disease_or_phenotypic_feature 195646 195655	fed-batch
-T34	chemical 195720 195738	ammonium hydroxide
-T35	chemical 195892 195901	molecular
-T36	disease_or_phenotypic_feature 195930 195934	rare
-T37	chemical 195988 195998	biological
-T38	disease_or_phenotypic_feature 196033 196049	HMSNs-PDA-PEG@QD
-T39	disease_or_phenotypic_feature 196122 196139	HMSNs-PDA-PEG@DOX
-T40	chemical 196169 196178	biomarker
-T41	disease_or_phenotypic_feature 196223 196232	infection
-T42	disease_or_phenotypic_feature 196345 196354	inherited
-T43	disease_or_phenotypic_feature 196374 196380	common
-T44	chemical 196399 196404	group
-T45	disease_or_phenotypic_feature 196427 196436	disorders
-T46	chemical 196558 196566	apigenin
-T47	disease_or_phenotypic_feature 196595 196613	acute pancreatitis
-T48	chemical 196673 196683	inhibitors
-T49	disease_or_phenotypic_feature 196706 196711	NSCLC
-T50	chemical 196828 196832	drug
-T51	chemical 196886 196900	EGFR)-tyrosine
-T52	chemical 196886 196918	EGFR)-tyrosine kinase inhibitors
-T53	disease_or_phenotypic_feature 196940 196945	tumor
-T54	missed_disease_or_phenotypic_feature 196957 196969	lung cancers
-T55	missed_chemical 197011 197019	MPT0L145
-T56	corrected_chemical 197037 197053	PIK3C3 Inhibitor
-T57	chemical 197044 197053	Inhibitor
-T58	missed_chemical 197103 197126	Chemotherapeutic Agents
-T59	disease_or_phenotypic_feature 197130 197136	Cancer
-R1	treats Arg1:T6 Arg2:T10
+T1	chemical 81 88	retinal
+T2	disease_or_phenotypic_feature 153 184	proliferative vitreoretinopathy
+T3	disease_or_phenotypic_feature 189 221	age-related macular degeneration
+T4	disease_or_phenotypic_feature 308 315	amyloid
+T5	chemical 326 333	protein
+T6	missed_chemical 475 485	GSK3036656
+T7	chemical 496 507	Leucyl-tRNA
+T8	corrected_chemical 496 528	Leucyl-tRNA Synthetase Inhibitor
+T9	chemical 508 528	Synthetase Inhibitor
+T10	disease_or_phenotypic_feature 533 545	Tuberculosis
+T11	disease_or_phenotypic_feature 668 695	papillary thyroid carcinoma
+T12	chemical 678 685	thyroid
+T13	chemical 762 773	caprolactam
+T14	chemical 793 802	phosphate
+T15	disease_or_phenotypic_feature 832 839	sterile
+T16	chemical 886 892	carbon
+T17	chemical 896 904	nitrogen
+T18	disease_or_phenotypic_feature 931 938	sterile
+T19	chemical 1001 1011	metabolite
+T20	disease_or_phenotypic_feature 1024 1029	blood
+T21	chemical 1038 1045	calcium
+T22	disease_or_phenotypic_feature 1069 1077	dystocia
+T23	disease_or_phenotypic_feature 1189 1208	Alzheimer's Disease
+T24	chemical 1280 1288	cortisol
+T25	chemical 1333 1340	glucose
+T26	disease_or_phenotypic_feature 1468 1473	tumor
+T27	disease_or_phenotypic_feature 1514 1524	meningioma
+T28	chemical 1596 1604	adjuvant
+T29	chemical 1752 1759	radical
+T30	disease_or_phenotypic_feature 1791 1806	prostate cancer
+T31	disease_or_phenotypic_feature 1928 1940	tuberculosis
+T32	chemical 2002 2017	protein-protein
+T33	disease_or_phenotypic_feature 2078 2087	fed-batch
+T34	chemical 2152 2170	ammonium hydroxide
+T35	chemical 2324 2333	molecular
+T36	disease_or_phenotypic_feature 2362 2366	rare
+T37	chemical 2420 2430	biological
+T38	disease_or_phenotypic_feature 2465 2481	HMSNs-PDA-PEG@QD
+T39	disease_or_phenotypic_feature 2554 2571	HMSNs-PDA-PEG@DOX
+T40	chemical 2601 2610	biomarker
+T41	disease_or_phenotypic_feature 2655 2664	infection
+T42	disease_or_phenotypic_feature 2777 2786	inherited
+T43	disease_or_phenotypic_feature 2806 2812	common
+T44	chemical 2831 2836	group
+T45	disease_or_phenotypic_feature 2859 2868	disorders
+T46	chemical 2990 2998	apigenin
+T47	disease_or_phenotypic_feature 3027 3045	acute pancreatitis
+T48	chemical 3105 3115	inhibitors
+T49	disease_or_phenotypic_feature 3138 3143	NSCLC
+T50	chemical 3260 3264	drug
+T51	chemical 3318 3332	EGFR)-tyrosine
+T52	chemical 3318 3350	EGFR)-tyrosine kinase inhibitors
+T53	disease_or_phenotypic_feature 3372 3377	tumor
+T54	missed_disease_or_phenotypic_feature 3389 3401	lung cancers
+T55	missed_chemical 3443 3451	MPT0L145
+T56	corrected_chemical 3469 3485	PIK3C3 Inhibitor
+T57	chemical 3476 3485	Inhibitor
+T58	missed_chemical 3535 3558	Chemotherapeutic Agents
+T59	disease_or_phenotypic_feature 3562 3568	Cancer
+R1	treats Arg1:T46 Arg2:T47
 R2	treats Arg1:T55 Arg2:T59
-R3	treats Arg1:T56 Arg2:T59
-R4	treats Arg1:T50 Arg2:T54
-R5	treats Arg1:T58 Arg2:T59
-R6	treats Arg1:T46 Arg2:T47
-R7	treats Arg1:T8 Arg2:T10
+R3	treats Arg1:T58 Arg2:T59
+R4	treats Arg1:T56 Arg2:T59
+R5	treats Arg1:T8 Arg2:T10
+R6	treats Arg1:T6 Arg2:T10
+R7	treats Arg1:T50 Arg2:T54

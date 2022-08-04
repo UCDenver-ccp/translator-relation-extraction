@@ -1,75 +1,75 @@
-T1	disease_or_phenotypic_feature 193568 193581	Neurotoxicity
-T2	chemical 193585 193595	pesticides
-T3	chemical 193760 193767	calcium
-T4	chemical 193772 193781	uric acid
-T5	disease_or_phenotypic_feature 193834 193852	metabolic syndrome
-T6	chemical 193890 193894	mRNA
-T7	disease_or_phenotypic_feature 193915 193918	PBC
-T8	chemical 193919 193924	group
-T9	chemical 193949 193954	group
-T10	disease_or_phenotypic_feature 194030 194034	case
-T11	chemical 194036 194045	molecular
-T12	chemical 194149 194152	DNA
-T13	chemical 194277 194282	Fatty
-T14	disease_or_phenotypic_feature 194277 194296	Fatty Liver Disease
-T15	disease_or_phenotypic_feature 194355 194363	Diseases
-T16	chemical 194435 194442	antigen
-T17	chemical 194479 194490	abiraterone
-T18	corrected_disease_or_phenotypic_feature 194570 194604	castrate-resistant prostate cancer
-T19	disease_or_phenotypic_feature 194589 194604	prostate cancer
-T20	chemical 194792 194810	anti-citrullinated
-T21	chemical 194811 194818	peptide
-T22	disease_or_phenotypic_feature 194869 194880	lung cancer
-T23	chemical 194951 194958	Glucose
-T24	chemical 194986 194994	Platinum
-T25	disease_or_phenotypic_feature 195053 195068	Type 1 Diabetes
-T26	disease_or_phenotypic_feature 195132 195138	cancer
-T27	chemical 195176 195189	nanoparticles
-T28	chemical 195193 195197	drug
-T29	disease_or_phenotypic_feature 195345 195362	cold-acclimatised
-T30	chemical 195411 195416	water
-T31	chemical 195516 195524	estrogen
-T32	disease_or_phenotypic_feature 195555 195568	breast cancer
-T33	missed_chemical 195625 195628	S-1
-T34	chemical 195629 195637	adjuvant
-T35	disease_or_phenotypic_feature 195659 195668	mucositis
-T36	missed_chemical 195687 195691	Drug
-T37	missed_disease_or_phenotypic_feature 195753 195765	side effects
-T38	chemical 195785 195789	drug
-T39	disease_or_phenotypic_feature 195808 195814	cancer
-T40	chemical 195886 195900	pharmaceutical
-T41	disease_or_phenotypic_feature 195963 195972	IndSR/Aml
-T42	chemical 195984 196004	amlodipine/valsartan
-T43	chemical 196085 196097	vortioxetine
-T44	chemical 196105 196117	vortioxetine
-T45	missed_disease_or_phenotypic_feature 196152 196158	nausea
-T46	disease_or_phenotypic_feature 196171 196177	common
-T47	missed_disease_or_phenotypic_feature 196178 196191	adverse event
-T48	disease_or_phenotypic_feature 196281 196289	glaucoma
-T49	disease_or_phenotypic_feature 196328 196337	localized
-T50	chemical 196338 196345	retinal
-T51	disease_or_phenotypic_feature 196443 196461	depression/anxiety
-T52	chemical 196466 196491	antidepressant/anxiolytic
-T53	disease_or_phenotypic_feature 196535 196544	disorders
-T54	disease_or_phenotypic_feature 196591 196604	pre-eclampsia
-T55	disease_or_phenotypic_feature 196615 196639	gestational hypertension
-T56	chemical 196712 196716	mRNA
-T57	disease_or_phenotypic_feature 196779 196794	cervical cancer
-T58	disease_or_phenotypic_feature 196883 196889	stroke
-T59	chemical 197029 197034	group
-T60	chemical 197296 197301	group
-T61	chemical 197355 197361	oxygen
-T62	disease_or_phenotypic_feature 197373 197380	(L-SaO2
-T63	disease_or_phenotypic_feature 197509 197515	cancer
-T64	chemical 197584 197587	DNA
-R1	causes_or_contributes_to Arg1:T44 Arg2:T45
-R2	causes_or_contributes_to Arg1:T44 Arg2:T47
-R3	causes_or_contributes_to Arg1:T33 Arg2:T35
-R4	treats Arg1:T17 Arg2:T18
-R5	treats Arg1:T28 Arg2:T26
-R6	treats Arg1:T38 Arg2:T39
-R7	causes_or_contributes_to Arg1:T38 Arg2:T37
-R8	treats Arg1:T36 Arg2:T39
-R9	causes_or_contributes_to Arg1:T36 Arg2:T37
-R10	causes_or_contributes_to Arg1:T43 Arg2:T45
-R11	causes_or_contributes_to Arg1:T43 Arg2:T47
+T1	disease_or_phenotypic_feature 0 13	Neurotoxicity
+T2	chemical 17 27	pesticides
+T3	chemical 192 199	calcium
+T4	chemical 204 213	uric acid
+T5	disease_or_phenotypic_feature 266 284	metabolic syndrome
+T6	chemical 322 326	mRNA
+T7	disease_or_phenotypic_feature 347 350	PBC
+T8	chemical 351 356	group
+T9	chemical 381 386	group
+T10	disease_or_phenotypic_feature 462 466	case
+T11	chemical 468 477	molecular
+T12	chemical 581 584	DNA
+T13	chemical 709 714	Fatty
+T14	disease_or_phenotypic_feature 709 728	Fatty Liver Disease
+T15	disease_or_phenotypic_feature 787 795	Diseases
+T16	chemical 867 874	antigen
+T17	chemical 911 922	abiraterone
+T18	corrected_disease_or_phenotypic_feature 1002 1036	castrate-resistant prostate cancer
+T19	disease_or_phenotypic_feature 1021 1036	prostate cancer
+T20	chemical 1224 1242	anti-citrullinated
+T21	chemical 1243 1250	peptide
+T22	disease_or_phenotypic_feature 1301 1312	lung cancer
+T23	chemical 1383 1390	Glucose
+T24	chemical 1418 1426	Platinum
+T25	disease_or_phenotypic_feature 1485 1500	Type 1 Diabetes
+T26	disease_or_phenotypic_feature 1564 1570	cancer
+T27	chemical 1608 1621	nanoparticles
+T28	chemical 1625 1629	drug
+T29	disease_or_phenotypic_feature 1777 1794	cold-acclimatised
+T30	chemical 1843 1848	water
+T31	chemical 1948 1956	estrogen
+T32	disease_or_phenotypic_feature 1987 2000	breast cancer
+T33	missed_chemical 2057 2060	S-1
+T34	chemical 2061 2069	adjuvant
+T35	disease_or_phenotypic_feature 2091 2100	mucositis
+T36	missed_chemical 2119 2123	Drug
+T37	missed_disease_or_phenotypic_feature 2185 2197	side effects
+T38	chemical 2217 2221	drug
+T39	disease_or_phenotypic_feature 2240 2246	cancer
+T40	chemical 2318 2332	pharmaceutical
+T41	disease_or_phenotypic_feature 2395 2404	IndSR/Aml
+T42	chemical 2416 2436	amlodipine/valsartan
+T43	chemical 2517 2529	vortioxetine
+T44	chemical 2537 2549	vortioxetine
+T45	missed_disease_or_phenotypic_feature 2584 2590	nausea
+T46	disease_or_phenotypic_feature 2603 2609	common
+T47	missed_disease_or_phenotypic_feature 2610 2623	adverse event
+T48	disease_or_phenotypic_feature 2713 2721	glaucoma
+T49	disease_or_phenotypic_feature 2760 2769	localized
+T50	chemical 2770 2777	retinal
+T51	disease_or_phenotypic_feature 2875 2893	depression/anxiety
+T52	chemical 2898 2923	antidepressant/anxiolytic
+T53	disease_or_phenotypic_feature 2967 2976	disorders
+T54	disease_or_phenotypic_feature 3023 3036	pre-eclampsia
+T55	disease_or_phenotypic_feature 3047 3071	gestational hypertension
+T56	chemical 3144 3148	mRNA
+T57	disease_or_phenotypic_feature 3211 3226	cervical cancer
+T58	disease_or_phenotypic_feature 3315 3321	stroke
+T59	chemical 3461 3466	group
+T60	chemical 3728 3733	group
+T61	chemical 3787 3793	oxygen
+T62	disease_or_phenotypic_feature 3805 3812	(L-SaO2
+T63	disease_or_phenotypic_feature 3941 3947	cancer
+T64	chemical 4016 4019	DNA
+R1	treats Arg1:T28 Arg2:T26
+R2	causes_or_contributes_to Arg1:T33 Arg2:T35
+R3	treats Arg1:T36 Arg2:T39
+R4	causes_or_contributes_to Arg1:T36 Arg2:T37
+R5	causes_or_contributes_to Arg1:T43 Arg2:T45
+R6	causes_or_contributes_to Arg1:T43 Arg2:T47
+R7	causes_or_contributes_to Arg1:T44 Arg2:T45
+R8	causes_or_contributes_to Arg1:T44 Arg2:T47
+R9	treats Arg1:T17 Arg2:T18
+R10	treats Arg1:T38 Arg2:T39
+R11	causes_or_contributes_to Arg1:T38 Arg2:T37

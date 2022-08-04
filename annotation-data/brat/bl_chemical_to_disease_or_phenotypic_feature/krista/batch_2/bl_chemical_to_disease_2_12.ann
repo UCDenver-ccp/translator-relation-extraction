@@ -1,86 +1,86 @@
-T1	chemical 193586 193596	biological
-T2	disease_or_phenotypic_feature 193658 193672	septate uterus
-T3	chemical 193750 193759	polyvinyl
-T4	chemical 193760 193767	alcohol
-T5	disease_or_phenotypic_feature 193769 193779	PVA)-based
-T6	disease_or_phenotypic_feature 193860 193887	hepatitis B virus infection
-T7	disease_or_phenotypic_feature 193924 193935	hepatitis B
-T8	chemical 193948 193951	DNA
-T9	chemical 194042 194049	lactate
-T10	disease_or_phenotypic_feature 194134 194152	community-acquired
-T11	disease_or_phenotypic_feature 194177 194186	infection
-T12	disease_or_phenotypic_feature 194241 194250	Nephrosis
-T13	disease_or_phenotypic_feature 194254 194261	disease
-T14	chemical 194288 194295	protein
-T15	chemical 194466 194481	oxygen-carrying
-T16	disease_or_phenotypic_feature 194503 194508	blood
-T17	chemical 194647 194664	cisplatin-induced
-T18	disease_or_phenotypic_feature 194722 194734	hearing loss
-T19	disease_or_phenotypic_feature 194895 194916	air-tissue-interfaces
-T20	chemical 194932 194940	bone-fat
-T21	chemical 195048 195059	abiraterone
-T22	chemical 195072 195086	anticoagulants
-T23	disease_or_phenotypic_feature 195161 195180	atrial fibrillation
-T24	disease_or_phenotypic_feature 195182 195204	venous thromboembolism
-T25	chemical 195252 195261	drug-drug
-T26	disease_or_phenotypic_feature 195402 195414	CMC)-derived
-T27	disease_or_phenotypic_feature 195437 195440	CMC
-T28	chemical 195441 195455	pro-angiogenic
-T29	chemical 195527 195530	fat
-T30	disease_or_phenotypic_feature 195531 195534	pad
-T31	disease_or_phenotypic_feature 195673 195696	obstructive sleep apnea
-T32	disease_or_phenotypic_feature 195752 195758	common
-T33	chemical 195773 195777	drug
-T34	disease_or_phenotypic_feature 195896 195915	Atrial Fibrillation
-T35	chemical 195953 195966	anticoagulant
-T36	chemical 196031 196043	Methotrexate
-T37	disease_or_phenotypic_feature 196082 196102	Rheumatoid Arthritis
-T38	disease_or_phenotypic_feature 196107 196126	Psoriatic Arthritis
-T39	chemical 196246 196259	Sphingolipids
-T40	missed_disease_or_phenotypic_feature 196263 196275	Inflammation
-T41	disease_or_phenotypic_feature 196284 196292	Diseases
-T42	disease_or_phenotypic_feature 196415 196424	syndromes
-T43	chemical 196492 196501	biomarker
-T44	chemical 196676 196683	thyroid
-T45	chemical 196737 196744	thyroid
-T46	disease_or_phenotypic_feature 196816 196831	adenocarcinomas
-T47	disease_or_phenotypic_feature 197014 197019	blood
-T48	chemical 197050 197054	urea
-T49	chemical 197059 197069	creatinine
-T50	missed_chemical 197143 197150	aspirin
-T51	chemical 197216 197226	biomarkers
-T52	disease_or_phenotypic_feature 197255 197263	diseases
-T53	disease_or_phenotypic_feature 197347 197350	HHT
-T54	chemical 197376 197390	mTOR inhibitor
-T55	chemical 197392 197401	sirolimus
-T56	corrected_chemical 197411 197445	receptor tyrosine-kinase inhibitor
-T57	chemical 197420 197435	tyrosine-kinase
-T58	chemical 197420 197445	tyrosine-kinase inhibitor
-T59	chemical 197447 197457	nintedanib
-T60	chemical 197513 197520	retinal
-T61	missed_disease_or_phenotypic_feature 197513 197525	retinal AVMs
-T62	chemical 197535 197542	retinal
-T63	missed_disease_or_phenotypic_feature 197535 197551	retinal bleeding
-T64	disease_or_phenotypic_feature 197556 197562	anemia
-R1	treats Arg1:T54 Arg2:T64
-R2	treats Arg1:T54 Arg2:T53
-R3	treats Arg1:T54 Arg2:T63
-R4	treats Arg1:T54 Arg2:T61
+T1	chemical 18 28	biological
+T2	disease_or_phenotypic_feature 90 104	septate uterus
+T3	chemical 182 191	polyvinyl
+T4	chemical 192 199	alcohol
+T5	disease_or_phenotypic_feature 201 211	PVA)-based
+T6	disease_or_phenotypic_feature 292 319	hepatitis B virus infection
+T7	disease_or_phenotypic_feature 356 367	hepatitis B
+T8	chemical 380 383	DNA
+T9	chemical 474 481	lactate
+T10	disease_or_phenotypic_feature 566 584	community-acquired
+T11	disease_or_phenotypic_feature 609 618	infection
+T12	disease_or_phenotypic_feature 673 682	Nephrosis
+T13	disease_or_phenotypic_feature 686 693	disease
+T14	chemical 720 727	protein
+T15	chemical 898 913	oxygen-carrying
+T16	disease_or_phenotypic_feature 935 940	blood
+T17	chemical 1079 1096	cisplatin-induced
+T18	disease_or_phenotypic_feature 1154 1166	hearing loss
+T19	disease_or_phenotypic_feature 1327 1348	air-tissue-interfaces
+T20	chemical 1364 1372	bone-fat
+T21	chemical 1480 1491	abiraterone
+T22	chemical 1504 1518	anticoagulants
+T23	disease_or_phenotypic_feature 1593 1612	atrial fibrillation
+T24	disease_or_phenotypic_feature 1614 1636	venous thromboembolism
+T25	chemical 1684 1693	drug-drug
+T26	disease_or_phenotypic_feature 1834 1846	CMC)-derived
+T27	disease_or_phenotypic_feature 1869 1872	CMC
+T28	chemical 1873 1887	pro-angiogenic
+T29	chemical 1959 1962	fat
+T30	disease_or_phenotypic_feature 1963 1966	pad
+T31	disease_or_phenotypic_feature 2105 2128	obstructive sleep apnea
+T32	disease_or_phenotypic_feature 2184 2190	common
+T33	chemical 2205 2209	drug
+T34	disease_or_phenotypic_feature 2328 2347	Atrial Fibrillation
+T35	chemical 2385 2398	anticoagulant
+T36	chemical 2463 2475	Methotrexate
+T37	disease_or_phenotypic_feature 2514 2534	Rheumatoid Arthritis
+T38	disease_or_phenotypic_feature 2539 2558	Psoriatic Arthritis
+T39	chemical 2678 2691	Sphingolipids
+T40	missed_disease_or_phenotypic_feature 2695 2707	Inflammation
+T41	disease_or_phenotypic_feature 2716 2724	Diseases
+T42	disease_or_phenotypic_feature 2847 2856	syndromes
+T43	chemical 2924 2933	biomarker
+T44	chemical 3108 3115	thyroid
+T45	chemical 3169 3176	thyroid
+T46	disease_or_phenotypic_feature 3248 3263	adenocarcinomas
+T47	disease_or_phenotypic_feature 3446 3451	blood
+T48	chemical 3482 3486	urea
+T49	chemical 3491 3501	creatinine
+T50	missed_chemical 3575 3582	aspirin
+T51	chemical 3648 3658	biomarkers
+T52	disease_or_phenotypic_feature 3687 3695	diseases
+T53	disease_or_phenotypic_feature 3779 3782	HHT
+T54	chemical 3808 3822	mTOR inhibitor
+T55	chemical 3824 3833	sirolimus
+T56	corrected_chemical 3843 3877	receptor tyrosine-kinase inhibitor
+T57	chemical 3852 3867	tyrosine-kinase
+T58	chemical 3852 3877	tyrosine-kinase inhibitor
+T59	chemical 3879 3889	nintedanib
+T60	chemical 3945 3952	retinal
+T61	missed_disease_or_phenotypic_feature 3945 3957	retinal AVMs
+T62	chemical 3967 3974	retinal
+T63	missed_disease_or_phenotypic_feature 3967 3983	retinal bleeding
+T64	disease_or_phenotypic_feature 3988 3994	anemia
+R1	treats Arg1:T59 Arg2:T61
+R2	treats Arg1:T59 Arg2:T64
+R3	treats Arg1:T59 Arg2:T53
+R4	treats Arg1:T59 Arg2:T63
 R5	treats Arg1:T36 Arg2:T37
 R6	treats Arg1:T36 Arg2:T38
-R7	treats Arg1:T56 Arg2:T61
-R8	treats Arg1:T56 Arg2:T64
-R9	treats Arg1:T56 Arg2:T53
-R10	treats Arg1:T56 Arg2:T63
-R11	treats Arg1:T55 Arg2:T63
-R12	treats Arg1:T55 Arg2:T56
-R13	treats Arg1:T55 Arg2:T61
-R14	treats Arg1:T55 Arg2:T64
-R15	treats Arg1:T55 Arg2:T53
-R16	treats Arg1:T35 Arg2:T34
-R17	treats Arg1:T22 Arg2:T24
-R18	treats Arg1:T22 Arg2:T23
-R19	treats Arg1:T59 Arg2:T61
-R20	treats Arg1:T59 Arg2:T64
-R21	treats Arg1:T59 Arg2:T53
-R22	treats Arg1:T59 Arg2:T63
+R7	treats Arg1:T54 Arg2:T64
+R8	treats Arg1:T54 Arg2:T53
+R9	treats Arg1:T54 Arg2:T63
+R10	treats Arg1:T54 Arg2:T61
+R11	treats Arg1:T56 Arg2:T61
+R12	treats Arg1:T56 Arg2:T64
+R13	treats Arg1:T56 Arg2:T53
+R14	treats Arg1:T56 Arg2:T63
+R15	treats Arg1:T55 Arg2:T63
+R16	treats Arg1:T55 Arg2:T56
+R17	treats Arg1:T55 Arg2:T61
+R18	treats Arg1:T55 Arg2:T64
+R19	treats Arg1:T55 Arg2:T53
+R20	treats Arg1:T22 Arg2:T24
+R21	treats Arg1:T22 Arg2:T23
+R22	treats Arg1:T35 Arg2:T34

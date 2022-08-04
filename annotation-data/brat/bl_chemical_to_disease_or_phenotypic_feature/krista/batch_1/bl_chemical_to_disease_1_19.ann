@@ -1,69 +1,69 @@
-T1	disease_or_phenotypic_feature 96039 96045	cancer
-T2	chemical 96066 96076	biological
-T3	chemical 96137 96141	drug
-T4	chemical 96172 96177	Fatty
-T5	chemical 96172 96183	Fatty acids
-T6	disease_or_phenotypic_feature 96197 96206	sensitive
-T7	chemical 96306 96318	α-tocopherol
-T8	chemical 96319 96330	(vitamin E)
-T9	chemical 96342 96349	vitamin
-T10	chemical 96440 96443	fat
-T11	chemical 96456 96468	α-tocopherol
-T12	disease_or_phenotypic_feature 96483 96501	obesity-associated
-T13	chemical 96577 96590	α-tocopherols
-T14	chemical 96600 96616	d6-α-tocopherols
-T15	disease_or_phenotypic_feature 96754 96771	hospital-acquired
-T16	disease_or_phenotypic_feature 96772 96783	anaphylaxis
-T17	chemical 96812 96826	cephalosporins
-T18	chemical 96904 96915	Sulfonamide
-T19	missed_chemical 96968 96977	compounds
-T20	disease_or_phenotypic_feature 97017 97025	diseases
-T21	corrected_disease_or_phenotypic_feature 97039 97066	neglected tropical diseases
-T22	disease_or_phenotypic_feature 97058 97066	diseases
-T23	disease_or_phenotypic_feature 97401 97409	cataract
-T24	chemical 97431 97440	oxidative
-T25	disease_or_phenotypic_feature 97508 97514	cancer
-T26	chemical 97515 97530	antigen-binding
-T27	chemical 97538 97556	anti-α-galactoside
-T28	chemical 97611 97623	lipoprotein(
-T29	chemical 97644 97653	Isoniazid
-T30	disease_or_phenotypic_feature 97700 97712	tuberculosis
-T31	chemical 97758 97762	zinc
-T32	disease_or_phenotypic_feature 97858 97873	adenocarcinomas
-T33	chemical 97913 97918	group
-T34	chemical 97948 97964	serine/threonine
-T35	chemical 97965 97972	protein
-T36	chemical 98020 98028	proteins
-T37	disease_or_phenotypic_feature 98077 98082	blood
-T38	disease_or_phenotypic_feature 98127 98159	dystrophic epidermolysis bullosa
-T39	disease_or_phenotypic_feature 98202 98210	disorder
-T40	chemical 98274 98282	collagen
-T41	chemical 98423 98430	glucose
-T42	disease_or_phenotypic_feature 98469 98480	prediabetes
-T43	disease_or_phenotypic_feature 98654 98657	STS
-T44	chemical 98775 98780	group
-T45	disease_or_phenotypic_feature 98818 98821	STS
-T46	chemical 98904 98912	fluoride
-T47	disease_or_phenotypic_feature 98913 98924	sensitivity
-T48	chemical 98990 98996	saline
-T49	disease_or_phenotypic_feature 99143 99164	pulmonary sarcoidosis
-T50	chemical 99265 99279	phosphorylated
-T51	disease_or_phenotypic_feature 99280 99301	ataxia telangiectasia
-T52	disease_or_phenotypic_feature 99328 99349	ataxia telangiectasia
-T53	disease_or_phenotypic_feature 99354 99366	Rad3-related
-T54	chemical 99374 99381	protein
-T55	disease_or_phenotypic_feature 99540 99567	primary hyperparathyroidism
-T56	chemical 99649 99656	thyroid
-T57	chemical 99833 99846	messenger RNA
-T58	disease_or_phenotypic_feature 99868 99871	ABC
-T59	disease_or_phenotypic_feature 100143 100146	CRC
-T60	chemical 100195 100205	biomarkers
-T61	disease_or_phenotypic_feature 100210 100213	CRC
-T62	disease_or_phenotypic_feature 100260 100263	PCA
-T63	chemical 100374 100379	water
+T1	disease_or_phenotypic_feature 53 59	cancer
+T2	chemical 80 90	biological
+T3	chemical 151 155	drug
+T4	chemical 186 191	Fatty
+T5	chemical 186 197	Fatty acids
+T6	disease_or_phenotypic_feature 211 220	sensitive
+T7	chemical 320 332	α-tocopherol
+T8	chemical 333 344	(vitamin E)
+T9	chemical 356 363	vitamin
+T10	chemical 454 457	fat
+T11	chemical 470 482	α-tocopherol
+T12	disease_or_phenotypic_feature 497 515	obesity-associated
+T13	chemical 591 604	α-tocopherols
+T14	chemical 614 630	d6-α-tocopherols
+T15	disease_or_phenotypic_feature 768 785	hospital-acquired
+T16	disease_or_phenotypic_feature 786 797	anaphylaxis
+T17	chemical 826 840	cephalosporins
+T18	chemical 918 929	Sulfonamide
+T19	missed_chemical 982 991	compounds
+T20	disease_or_phenotypic_feature 1031 1039	diseases
+T21	corrected_disease_or_phenotypic_feature 1053 1080	neglected tropical diseases
+T22	disease_or_phenotypic_feature 1072 1080	diseases
+T23	disease_or_phenotypic_feature 1415 1423	cataract
+T24	chemical 1445 1454	oxidative
+T25	disease_or_phenotypic_feature 1522 1528	cancer
+T26	chemical 1529 1544	antigen-binding
+T27	chemical 1552 1570	anti-α-galactoside
+T28	chemical 1625 1637	lipoprotein(
+T29	chemical 1658 1667	Isoniazid
+T30	disease_or_phenotypic_feature 1714 1726	tuberculosis
+T31	chemical 1772 1776	zinc
+T32	disease_or_phenotypic_feature 1872 1887	adenocarcinomas
+T33	chemical 1927 1932	group
+T34	chemical 1962 1978	serine/threonine
+T35	chemical 1979 1986	protein
+T36	chemical 2034 2042	proteins
+T37	disease_or_phenotypic_feature 2091 2096	blood
+T38	disease_or_phenotypic_feature 2141 2173	dystrophic epidermolysis bullosa
+T39	disease_or_phenotypic_feature 2216 2224	disorder
+T40	chemical 2288 2296	collagen
+T41	chemical 2437 2444	glucose
+T42	disease_or_phenotypic_feature 2483 2494	prediabetes
+T43	disease_or_phenotypic_feature 2668 2671	STS
+T44	chemical 2789 2794	group
+T45	disease_or_phenotypic_feature 2832 2835	STS
+T46	chemical 2918 2926	fluoride
+T47	disease_or_phenotypic_feature 2927 2938	sensitivity
+T48	chemical 3004 3010	saline
+T49	disease_or_phenotypic_feature 3157 3178	pulmonary sarcoidosis
+T50	chemical 3279 3293	phosphorylated
+T51	disease_or_phenotypic_feature 3294 3315	ataxia telangiectasia
+T52	disease_or_phenotypic_feature 3342 3363	ataxia telangiectasia
+T53	disease_or_phenotypic_feature 3368 3380	Rad3-related
+T54	chemical 3388 3395	protein
+T55	disease_or_phenotypic_feature 3554 3581	primary hyperparathyroidism
+T56	chemical 3663 3670	thyroid
+T57	chemical 3847 3860	messenger RNA
+T58	disease_or_phenotypic_feature 3882 3885	ABC
+T59	disease_or_phenotypic_feature 4157 4160	CRC
+T60	chemical 4209 4219	biomarkers
+T61	disease_or_phenotypic_feature 4224 4227	CRC
+T62	disease_or_phenotypic_feature 4274 4277	PCA
+T63	chemical 4388 4393	water
 R1	causes_or_contributes_to Arg1:T31 Arg2:T32
-R2	treats Arg1:T3 Arg2:T1
-R3	treats Arg1:T29 Arg2:T30
-R4	treats Arg1:T19 Arg2:T22
-R5	treats Arg1:T19 Arg2:T20
-R6	treats Arg1:T19 Arg2:T21
+R2	treats Arg1:T29 Arg2:T30
+R3	treats Arg1:T19 Arg2:T22
+R4	treats Arg1:T19 Arg2:T20
+R5	treats Arg1:T19 Arg2:T21
+R6	treats Arg1:T3 Arg2:T1

@@ -1,70 +1,70 @@
-T1	chemical 193596 193603	histone
-T2	chemical 193634 193645	acetylation
-T3	disease_or_phenotypic_feature 193649 193654	Hsp90
-T4	disease_or_phenotypic_feature 193670 193681	Tsc1-mutant
-T5	corrected_disease_or_phenotypic_feature 193670 193696	Tsc1-mutant bladder cancer
-T6	disease_or_phenotypic_feature 193682 193696	bladder cancer
-T7	missed_chemical 193706 193716	ganetespib
-T8	chemical 193796 193802	ligand
-T9	disease_or_phenotypic_feature 193816 193821	tumor
-T10	disease_or_phenotypic_feature 193860 193863	PCa
-T11	chemical 193952 193958	leptin
-T12	chemical 193963 193974	adiponectin
-T13	disease_or_phenotypic_feature 193985 193992	HFr-fed
-T14	chemical 194053 194063	superoxide
-T15	disease_or_phenotypic_feature 194075 194078	SOD
-T16	disease_or_phenotypic_feature 194122 194138	regular-diet-fed
-T17	chemical 194293 194304	drug-coated
-T18	disease_or_phenotypic_feature 194400 194413	limb ischemia
-T19	chemical 194466 194477	metabolites
-T20	chemical 194478 194486	urobilin
-T21	chemical 194491 194504	sphingomyelin
-T22	disease_or_phenotypic_feature 194541 194554	heart failure
-T23	chemical 194678 194685	polymer
-T24	disease_or_phenotypic_feature 194720 194723	CML
-T25	disease_or_phenotypic_feature 194740 194748	K562/AO2
-T26	disease_or_phenotypic_feature 194791 194794	CML
-T27	chemical 194837 194844	lactate
-T28	disease_or_phenotypic_feature 194913 194918	blood
-T29	chemical 195011 195026	Zoledronic acid
-T30	disease_or_phenotypic_feature 195053 195065	osteoporosis
-T31	missed_disease_or_phenotypic_feature 195127 195148	acute-phase reactions
-T32	missed_disease_or_phenotypic_feature 195150 195154	APRs
-T33	chemical 195209 195214	group
-T34	disease_or_phenotypic_feature 195232 195240	diseases
-T35	disease_or_phenotypic_feature 195347 195354	disease
-T36	chemical 195463 195474	Phosphonate
-T37	chemical 195476 195487	Phosphonate
-T38	chemical 195508 195521	H-Phosphinate
-T39	disease_or_phenotypic_feature 195530 195534	Arms
-T40	chemical 195683 195698	phosphorylation
-T41	chemical 195702 195708	amides
-T42	disease_or_phenotypic_feature 195823 195826	ion
-T43	chemical 195823 195826	ion
-T44	chemical 195836 195844	hydrogen
-T45	chemical 195877 195883	proton
-T46	chemical 196015 196020	group
-T47	disease_or_phenotypic_feature 196041 196044	HCC
-T48	chemical 196107 196112	group
-T49	chemical 196116 196121	group
-T50	disease_or_phenotypic_feature 196170 196175	tumor
-T51	chemical 196262 196271	biomarker
-T52	disease_or_phenotypic_feature 196275 196282	disease
-T53	disease_or_phenotypic_feature 196323 196350	adult-onset Still's disease
-T54	disease_or_phenotypic_feature 196392 196410	multiple sclerosis
-T55	chemical 196463 196472	progestin
-T56	chemical 196525 196530	group
-T57	disease_or_phenotypic_feature 196550 196563	RP11-513G11.1
-T58	disease_or_phenotypic_feature 196591 196596	DLBCL
-T59	chemical 196757 196764	hormone
-T60	chemical 196776 196784	cortisol
-T61	disease_or_phenotypic_feature 196830 196839	pituitary
-T62	chemical 196840 196848	hormones
-T63	chemical 196872 196880	hormones
-T64	disease_or_phenotypic_feature 196981 196998	myasthenia gravis
-T65	chemical 197040 197050	anesthesia
-T66	chemical 197078 197086	effector
-T67	disease_or_phenotypic_feature 197151 197169	malignant melanoma
+T1	chemical 28 35	histone
+T2	chemical 66 77	acetylation
+T3	disease_or_phenotypic_feature 81 86	Hsp90
+T4	disease_or_phenotypic_feature 102 113	Tsc1-mutant
+T5	corrected_disease_or_phenotypic_feature 102 128	Tsc1-mutant bladder cancer
+T6	disease_or_phenotypic_feature 114 128	bladder cancer
+T7	missed_chemical 138 148	ganetespib
+T8	chemical 228 234	ligand
+T9	disease_or_phenotypic_feature 248 253	tumor
+T10	disease_or_phenotypic_feature 292 295	PCa
+T11	chemical 384 390	leptin
+T12	chemical 395 406	adiponectin
+T13	disease_or_phenotypic_feature 417 424	HFr-fed
+T14	chemical 485 495	superoxide
+T15	disease_or_phenotypic_feature 507 510	SOD
+T16	disease_or_phenotypic_feature 554 570	regular-diet-fed
+T17	chemical 725 736	drug-coated
+T18	disease_or_phenotypic_feature 832 845	limb ischemia
+T19	chemical 898 909	metabolites
+T20	chemical 910 918	urobilin
+T21	chemical 923 936	sphingomyelin
+T22	disease_or_phenotypic_feature 973 986	heart failure
+T23	chemical 1110 1117	polymer
+T24	disease_or_phenotypic_feature 1152 1155	CML
+T25	disease_or_phenotypic_feature 1172 1180	K562/AO2
+T26	disease_or_phenotypic_feature 1223 1226	CML
+T27	chemical 1269 1276	lactate
+T28	disease_or_phenotypic_feature 1345 1350	blood
+T29	chemical 1443 1458	Zoledronic acid
+T30	disease_or_phenotypic_feature 1485 1497	osteoporosis
+T31	missed_disease_or_phenotypic_feature 1559 1580	acute-phase reactions
+T32	missed_disease_or_phenotypic_feature 1582 1586	APRs
+T33	chemical 1641 1646	group
+T34	disease_or_phenotypic_feature 1664 1672	diseases
+T35	disease_or_phenotypic_feature 1779 1786	disease
+T36	chemical 1895 1906	Phosphonate
+T37	chemical 1908 1919	Phosphonate
+T38	chemical 1940 1953	H-Phosphinate
+T39	disease_or_phenotypic_feature 1962 1966	Arms
+T40	chemical 2115 2130	phosphorylation
+T41	chemical 2134 2140	amides
+T42	disease_or_phenotypic_feature 2255 2258	ion
+T43	chemical 2255 2258	ion
+T44	chemical 2268 2276	hydrogen
+T45	chemical 2309 2315	proton
+T46	chemical 2447 2452	group
+T47	disease_or_phenotypic_feature 2473 2476	HCC
+T48	chemical 2539 2544	group
+T49	chemical 2548 2553	group
+T50	disease_or_phenotypic_feature 2602 2607	tumor
+T51	chemical 2694 2703	biomarker
+T52	disease_or_phenotypic_feature 2707 2714	disease
+T53	disease_or_phenotypic_feature 2755 2782	adult-onset Still's disease
+T54	disease_or_phenotypic_feature 2824 2842	multiple sclerosis
+T55	chemical 2895 2904	progestin
+T56	chemical 2957 2962	group
+T57	disease_or_phenotypic_feature 2982 2995	RP11-513G11.1
+T58	disease_or_phenotypic_feature 3023 3028	DLBCL
+T59	chemical 3189 3196	hormone
+T60	chemical 3208 3216	cortisol
+T61	disease_or_phenotypic_feature 3262 3271	pituitary
+T62	chemical 3272 3280	hormones
+T63	chemical 3304 3312	hormones
+T64	disease_or_phenotypic_feature 3413 3430	myasthenia gravis
+T65	chemical 3472 3482	anesthesia
+T66	chemical 3510 3518	effector
+T67	disease_or_phenotypic_feature 3583 3601	malignant melanoma
 R1	treats Arg1:T29 Arg2:T30
 R2	causes_or_contributes_to Arg1:T29 Arg2:T31
 R3	causes_or_contributes_to Arg1:T29 Arg2:T32

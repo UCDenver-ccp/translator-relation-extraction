@@ -1,86 +1,86 @@
-T1	disease_or_phenotypic_feature 193580 193598	Schizophrenia-like
-T2	chemical 193639 193648	Melatonin
-T3	chemical 193667 193676	Memantine
-T4	corrected_chemical 193681 193705	NMDAR partial antagonist
-T5	chemical 193695 193705	antagonist
-T6	disease_or_phenotypic_feature 193743 193762	Alzheimer's disease
-T7	missed_disease_or_phenotypic_feature 193764 193766	AD
-T8	chemical 193797 193808	p.Arg535Cys
-T9	disease_or_phenotypic_feature 193826 193834	syndrome
-T10	disease_or_phenotypic_feature 193838 193857	pancreatic agenesis
-T11	disease_or_phenotypic_feature 193977 193982	blood
-T12	disease_or_phenotypic_feature 194028 194034	injury
-T13	chemical 194039 194046	protein
-T14	chemical 194078 194091	enzyme-linked
-T15	chemical 194163 194167	ions
-T16	chemical 194211 194219	hydrated
-T17	chemical 194220 194224	ions
-T18	disease_or_phenotypic_feature 194297 194306	air-water
-T19	chemical 194297 194306	air-water
-T20	chemical 194336 194346	Zonisamide
-T21	disease_or_phenotypic_feature 194360 194379	myoclonus-dystonia]
-T22	chemical 194404 194408	NAD+
-T23	chemical 194495 194504	oxidative
-T24	corrected_disease_or_phenotypic_feature 194495 194527	oxidative stress-related disease
-T25	disease_or_phenotypic_feature 194520 194527	disease
-T26	disease_or_phenotypic_feature 194543 194546	AMD
-T27	chemical 194564 194568	NAD+
-T28	disease_or_phenotypic_feature 194719 194728	sensitive
-T29	chemical 194758 194761	his
-T30	chemical 194836 194841	group
-T31	disease_or_phenotypic_feature 194854 194869	hepatitis viral
-T32	chemical 194878 194881	DNA
-T33	disease_or_phenotypic_feature 194914 194919	blood
-T34	chemical 194953 194963	creatinine
-T35	chemical 194965 194969	urea
-T36	chemical 194993 195001	creatine
-T37	chemical 195010 195017	lactate
-T38	chemical 195033 195042	aspartate
-T39	chemical 195047 195054	alanine
-T40	chemical 195073 195077	iron
-T41	chemical 195082 195091	magnesium
-T42	disease_or_phenotypic_feature 195133 195153	Ssc-novel-miR-106-5p
-T43	chemical 195133 195153	Ssc-novel-miR-106-5p
-T44	chemical 195161 195170	inhibitor
-T45	chemical 195209 195220	polypeptide
-T46	chemical 195246 195255	inhibitor
-T47	chemical 195270 195285	phosphorylation
-T48	chemical 195286 195295	inhibitor
-T49	disease_or_phenotypic_feature 195327 195330	EEC
-T50	chemical 195349 195364	phosphorylation
-T51	chemical 195429 195437	[Alcohol
-T52	disease_or_phenotypic_feature 195429 195448	[Alcohol dependence
-T53	disease_or_phenotypic_feature 195515 195518	Ion
-T54	chemical 195515 195518	Ion
-T55	chemical 195566 195579	nanostructure
-T56	disease_or_phenotypic_feature 195618 195621	gbM
-T57	disease_or_phenotypic_feature 195785 195794	inherited
-T58	chemical 195826 195829	DNA
-T59	chemical 195830 195841	methylation
-T60	chemical 195882 195891	molecular
-T61	disease_or_phenotypic_feature 195932 195951	Parkinson's disease
-T62	chemical 196050 196060	Furosemide
-T63	disease_or_phenotypic_feature 196081 196087	common
-T64	chemical 196088 196096	diuretic
-T65	chemical 196225 196229	lead
-T66	disease_or_phenotypic_feature 196291 196299	fracture
-T67	disease_or_phenotypic_feature 196328 196331	ten
-T68	chemical 196384 196392	tyrosine
-T69	chemical 196430 196438	molecule
-T70	chemical 196489 196495	ligand
-T71	chemical 196542 196550	molecule
-T72	disease_or_phenotypic_feature 196605 196620	prostate cancer
-T73	disease_or_phenotypic_feature 196672 196678	Cancer
-T74	chemical 196778 196785	biology
-T75	disease_or_phenotypic_feature 196831 196849	autoimmune disease
-T76	disease_or_phenotypic_feature 196855 196875	rheumatoid arthritis
-T77	disease_or_phenotypic_feature 196932 196939	disease
-T78	chemical 197072 197088	molecular marker
-T79	disease_or_phenotypic_feature 197147 197151	GBM.
-R1	treats Arg1:T27 Arg2:T26
-R2	treats Arg1:T20 Arg2:T21
-R3	treats Arg1:T22 Arg2:T24
-R4	treats Arg1:T3 Arg2:T7
-R5	treats Arg1:T3 Arg2:T6
-R6	treats Arg1:T4 Arg2:T7
-R7	treats Arg1:T4 Arg2:T6
+T1	disease_or_phenotypic_feature 12 30	Schizophrenia-like
+T2	chemical 71 80	Melatonin
+T3	chemical 99 108	Memantine
+T4	corrected_chemical 113 137	NMDAR partial antagonist
+T5	chemical 127 137	antagonist
+T6	disease_or_phenotypic_feature 175 194	Alzheimer's disease
+T7	missed_disease_or_phenotypic_feature 196 198	AD
+T8	chemical 229 240	p.Arg535Cys
+T9	disease_or_phenotypic_feature 258 266	syndrome
+T10	disease_or_phenotypic_feature 270 289	pancreatic agenesis
+T11	disease_or_phenotypic_feature 409 414	blood
+T12	disease_or_phenotypic_feature 460 466	injury
+T13	chemical 471 478	protein
+T14	chemical 510 523	enzyme-linked
+T15	chemical 595 599	ions
+T16	chemical 643 651	hydrated
+T17	chemical 652 656	ions
+T18	disease_or_phenotypic_feature 729 738	air-water
+T19	chemical 729 738	air-water
+T20	chemical 768 778	Zonisamide
+T21	disease_or_phenotypic_feature 792 811	myoclonus-dystonia]
+T22	chemical 836 840	NAD+
+T23	chemical 927 936	oxidative
+T24	corrected_disease_or_phenotypic_feature 927 959	oxidative stress-related disease
+T25	disease_or_phenotypic_feature 952 959	disease
+T26	disease_or_phenotypic_feature 975 978	AMD
+T27	chemical 996 1000	NAD+
+T28	disease_or_phenotypic_feature 1151 1160	sensitive
+T29	chemical 1190 1193	his
+T30	chemical 1268 1273	group
+T31	disease_or_phenotypic_feature 1286 1301	hepatitis viral
+T32	chemical 1310 1313	DNA
+T33	disease_or_phenotypic_feature 1346 1351	blood
+T34	chemical 1385 1395	creatinine
+T35	chemical 1397 1401	urea
+T36	chemical 1425 1433	creatine
+T37	chemical 1442 1449	lactate
+T38	chemical 1465 1474	aspartate
+T39	chemical 1479 1486	alanine
+T40	chemical 1505 1509	iron
+T41	chemical 1514 1523	magnesium
+T42	disease_or_phenotypic_feature 1565 1585	Ssc-novel-miR-106-5p
+T43	chemical 1565 1585	Ssc-novel-miR-106-5p
+T44	chemical 1593 1602	inhibitor
+T45	chemical 1641 1652	polypeptide
+T46	chemical 1678 1687	inhibitor
+T47	chemical 1702 1717	phosphorylation
+T48	chemical 1718 1727	inhibitor
+T49	disease_or_phenotypic_feature 1759 1762	EEC
+T50	chemical 1781 1796	phosphorylation
+T51	chemical 1861 1869	[Alcohol
+T52	disease_or_phenotypic_feature 1861 1880	[Alcohol dependence
+T53	disease_or_phenotypic_feature 1947 1950	Ion
+T54	chemical 1947 1950	Ion
+T55	chemical 1998 2011	nanostructure
+T56	disease_or_phenotypic_feature 2050 2053	gbM
+T57	disease_or_phenotypic_feature 2217 2226	inherited
+T58	chemical 2258 2261	DNA
+T59	chemical 2262 2273	methylation
+T60	chemical 2314 2323	molecular
+T61	disease_or_phenotypic_feature 2364 2383	Parkinson's disease
+T62	chemical 2482 2492	Furosemide
+T63	disease_or_phenotypic_feature 2513 2519	common
+T64	chemical 2520 2528	diuretic
+T65	chemical 2657 2661	lead
+T66	disease_or_phenotypic_feature 2723 2731	fracture
+T67	disease_or_phenotypic_feature 2760 2763	ten
+T68	chemical 2816 2824	tyrosine
+T69	chemical 2862 2870	molecule
+T70	chemical 2921 2927	ligand
+T71	chemical 2974 2982	molecule
+T72	disease_or_phenotypic_feature 3037 3052	prostate cancer
+T73	disease_or_phenotypic_feature 3104 3110	Cancer
+T74	chemical 3210 3217	biology
+T75	disease_or_phenotypic_feature 3263 3281	autoimmune disease
+T76	disease_or_phenotypic_feature 3287 3307	rheumatoid arthritis
+T77	disease_or_phenotypic_feature 3364 3371	disease
+T78	chemical 3504 3520	molecular marker
+T79	disease_or_phenotypic_feature 3579 3583	GBM.
+R1	treats Arg1:T3 Arg2:T7
+R2	treats Arg1:T3 Arg2:T6
+R3	treats Arg1:T20 Arg2:T21
+R4	treats Arg1:T4 Arg2:T7
+R5	treats Arg1:T4 Arg2:T6
+R6	treats Arg1:T27 Arg2:T26
+R7	treats Arg1:T22 Arg2:T24

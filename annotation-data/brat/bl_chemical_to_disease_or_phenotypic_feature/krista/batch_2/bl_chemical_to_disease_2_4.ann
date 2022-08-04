@@ -1,106 +1,106 @@
-T1	chemical 193610 193617	ethanol
-T2	disease_or_phenotypic_feature 193627 193632	tumor
-T3	disease_or_phenotypic_feature 193675 193688	breast cancer
-T4	disease_or_phenotypic_feature 193785 193799	homocystinuria
-T5	chemical 193811 193821	methionine
-T6	disease_or_phenotypic_feature 193939 193945	cancer
-T7	chemical 193966 193973	heparin
-T8	corrected_chemical 193966 193982	heparin mimetics
-T9	chemical 193987 193997	inhibitors
-T10	corrected_chemical 193987 194011	inhibitors of heparanase
-T11	corrected_chemical 194025 194048	TF pathway inhibitor 2.
-T12	chemical 194028 194045	pathway inhibitor
-T13	chemical 194078 194088	inhibitors
-T14	disease_or_phenotypic_feature 194130 194147	bleeding tendency
-T15	chemical 194170 194174	mRNA
-T16	disease_or_phenotypic_feature 194197 194200	PCa
-T17	chemical 194335 194355	ALOX12-12-HETE-GPR31
-T18	disease_or_phenotypic_feature 194384 194387	HCC
-T19	disease_or_phenotypic_feature 194453 194456	HCC
-T20	chemical 194485 194490	fatty
-T21	disease_or_phenotypic_feature 194579 194586	amyloid
-T22	chemical 194641 194650	histidine
-T23	chemical 194641 194659	histidine residues
-T24	disease_or_phenotypic_feature 194663 194672	amyloid-β
-T25	chemical 194752 194759	glucose
-T26	chemical 194761 194766	lipid
-T27	chemical 194772 194782	amino acid
-T28	chemical 194793 194799	enzyme
-T29	chemical 194830 194839	molecular
-T30	disease_or_phenotypic_feature 194871 194876	tumor
-T31	missed_chemical 194942 194953	Galantamine
-T32	chemical 194958 194978	Methadone-Maintained
-T33	chemical 194996 195003	Cocaine
-T34	corrected_disease_or_phenotypic_feature 194996 195016	Cocaine Use Disorder
-T35	disease_or_phenotypic_feature 195008 195016	Disorder
-T36	chemical 195096 195103	glucose
-T37	chemical 195128 195144	glucose-lowering
-T38	chemical 195168 195177	metformin
-T39	disease_or_phenotypic_feature 195203 195225	cardiovascular disease
-T40	chemical 195266 195307	glucagon-like peptide-1 receptor agonists
-T41	chemical 195280 195289	peptide-1
-T42	chemical 195290 195307	receptor agonists
-T43	missed_chemical 195309 195317	GLP-1RAs
-T44	chemical 195323 195337	sodium-glucose
-T45	corrected_chemical 195323 195369	sodium-glucose cotransporter type 2 inhibitors
-T46	chemical 195359 195369	inhibitors
-T47	missed_disease_or_phenotypic_feature 195474 195478	CVD.
-T48	chemical 195533 195541	polymers
-T49	disease_or_phenotypic_feature 195592 195596	(PCL
-T50	chemical 195598 195607	polyester
-T51	disease_or_phenotypic_feature 195861 195879	status epilepticus
-T52	chemical 195939 195949	monoamines
-T53	disease_or_phenotypic_feature 196038 196050	disease-free
-T54	chemical 196086 196091	group
-T55	chemical 196149 196158	Thiazides
-T56	disease_or_phenotypic_feature 196163 196186	nonmelanoma skin cancer
-T57	disease_or_phenotypic_feature 196245 196248	CPP
-T58	chemical 196245 196248	CPP
-T59	disease_or_phenotypic_feature 196346 196362	Undifferentiated
-T60	chemical 196427 196433	IGF-I-
-T61	chemical 196666 196672	carbon
-T62	disease_or_phenotypic_feature 196703 196706	CdS
-T63	chemical 196707 196716	nanowires
-T64	disease_or_phenotypic_feature 196718 196721	CdS
-T65	chemical 196731 196757	luminol-gold nanoparticles
-T66	chemical 196836 196849	Poly-Arginine
-T67	corrected_chemical 196836 196860	Poly-Arginine Peptide-18
-T68	chemical 196850 196860	Peptide-18
-T69	missed_chemical 196862 196865	R18
-T70	disease_or_phenotypic_feature 196875 196887	Brain Injury
-T71	disease_or_phenotypic_feature 196943 196949	Stroke
-T72	chemical 196999 197003	lead
-T73	chemical 197043 197047	zinc
-T74	chemical 197088 197091	DNA
-T75	missed_disease_or_phenotypic_feature 197088 197098	DNA damage
-T76	disease_or_phenotypic_feature 197100 197105	blood
-T77	corrected_disease_or_phenotypic_feature 197100 197121	blood cell aberration
-T78	chemical 197126 197135	oxidative
-T79	missed_disease_or_phenotypic_feature 197126 197142	oxidative stress
-T80	chemical 197153 197157	lead
-T81	disease_or_phenotypic_feature 197201 197206	blood
-T82	chemical 197275 197282	calcium
-T83	chemical 197291 197302	antagonists
-T84	chemical 197304 197315	angiotensin
-T85	chemical 197327 197333	enzyme
-T86	chemical 197327 197344	enzyme inhibitors
-T87	chemical 197350 197360	inhibitors
-T88	chemical 197460 197465	lipid
-T89	chemical 197466 197478	peroxidation
-T90	disease_or_phenotypic_feature 197510 197525	atherosclerosis
-T91	disease_or_phenotypic_feature 197529 197553	type 2 diabetes mellitus
-R1	FIXME Arg1:T43 Arg2:T47
-R2	FIXME Arg1:T45 Arg2:T47
-R3	treats Arg1:T67 Arg2:T70
-R4	treats Arg1:T67 Arg2:T71
-R5	treats Arg1:T69 Arg2:T70
-R6	treats Arg1:T69 Arg2:T71
-R7	treats Arg1:T38 Arg2:T39
-R8	treats Arg1:T1 Arg2:T2
-R9	treats Arg1:T1 Arg2:T3
-R10	causes_or_contributes_to Arg1:T33 Arg2:T34
-R11	treats Arg1:T31 Arg2:T34
-R12	FIXME Arg1:T40 Arg2:T47
-R13	causes_or_contributes_to Arg1:T80 Arg2:T77
-R14	causes_or_contributes_to Arg1:T80 Arg2:T79
-R15	causes_or_contributes_to Arg1:T80 Arg2:T75
+T1	chemical 42 49	ethanol
+T2	disease_or_phenotypic_feature 59 64	tumor
+T3	disease_or_phenotypic_feature 107 120	breast cancer
+T4	disease_or_phenotypic_feature 217 231	homocystinuria
+T5	chemical 243 253	methionine
+T6	disease_or_phenotypic_feature 371 377	cancer
+T7	chemical 398 405	heparin
+T8	corrected_chemical 398 414	heparin mimetics
+T9	chemical 419 429	inhibitors
+T10	corrected_chemical 419 443	inhibitors of heparanase
+T11	corrected_chemical 457 480	TF pathway inhibitor 2.
+T12	chemical 460 477	pathway inhibitor
+T13	chemical 510 520	inhibitors
+T14	disease_or_phenotypic_feature 562 579	bleeding tendency
+T15	chemical 602 606	mRNA
+T16	disease_or_phenotypic_feature 629 632	PCa
+T17	chemical 767 787	ALOX12-12-HETE-GPR31
+T18	disease_or_phenotypic_feature 816 819	HCC
+T19	disease_or_phenotypic_feature 885 888	HCC
+T20	chemical 917 922	fatty
+T21	disease_or_phenotypic_feature 1011 1018	amyloid
+T22	chemical 1073 1082	histidine
+T23	chemical 1073 1091	histidine residues
+T24	disease_or_phenotypic_feature 1095 1104	amyloid-β
+T25	chemical 1184 1191	glucose
+T26	chemical 1193 1198	lipid
+T27	chemical 1204 1214	amino acid
+T28	chemical 1225 1231	enzyme
+T29	chemical 1262 1271	molecular
+T30	disease_or_phenotypic_feature 1303 1308	tumor
+T31	missed_chemical 1374 1385	Galantamine
+T32	chemical 1390 1410	Methadone-Maintained
+T33	chemical 1428 1435	Cocaine
+T34	corrected_disease_or_phenotypic_feature 1428 1448	Cocaine Use Disorder
+T35	disease_or_phenotypic_feature 1440 1448	Disorder
+T36	chemical 1528 1535	glucose
+T37	chemical 1560 1576	glucose-lowering
+T38	chemical 1600 1609	metformin
+T39	disease_or_phenotypic_feature 1635 1657	cardiovascular disease
+T40	chemical 1698 1739	glucagon-like peptide-1 receptor agonists
+T41	chemical 1712 1721	peptide-1
+T42	chemical 1722 1739	receptor agonists
+T43	missed_chemical 1741 1749	GLP-1RAs
+T44	chemical 1755 1769	sodium-glucose
+T45	corrected_chemical 1755 1801	sodium-glucose cotransporter type 2 inhibitors
+T46	chemical 1791 1801	inhibitors
+T47	missed_disease_or_phenotypic_feature 1906 1910	CVD.
+T48	chemical 1965 1973	polymers
+T49	disease_or_phenotypic_feature 2024 2028	(PCL
+T50	chemical 2030 2039	polyester
+T51	disease_or_phenotypic_feature 2293 2311	status epilepticus
+T52	chemical 2371 2381	monoamines
+T53	disease_or_phenotypic_feature 2470 2482	disease-free
+T54	chemical 2518 2523	group
+T55	chemical 2581 2590	Thiazides
+T56	disease_or_phenotypic_feature 2595 2618	nonmelanoma skin cancer
+T57	disease_or_phenotypic_feature 2677 2680	CPP
+T58	chemical 2677 2680	CPP
+T59	disease_or_phenotypic_feature 2778 2794	Undifferentiated
+T60	chemical 2859 2865	IGF-I-
+T61	chemical 3098 3104	carbon
+T62	disease_or_phenotypic_feature 3135 3138	CdS
+T63	chemical 3139 3148	nanowires
+T64	disease_or_phenotypic_feature 3150 3153	CdS
+T65	chemical 3163 3189	luminol-gold nanoparticles
+T66	chemical 3268 3281	Poly-Arginine
+T67	corrected_chemical 3268 3292	Poly-Arginine Peptide-18
+T68	chemical 3282 3292	Peptide-18
+T69	missed_chemical 3294 3297	R18
+T70	disease_or_phenotypic_feature 3307 3319	Brain Injury
+T71	disease_or_phenotypic_feature 3375 3381	Stroke
+T72	chemical 3431 3435	lead
+T73	chemical 3475 3479	zinc
+T74	chemical 3520 3523	DNA
+T75	missed_disease_or_phenotypic_feature 3520 3530	DNA damage
+T76	disease_or_phenotypic_feature 3532 3537	blood
+T77	corrected_disease_or_phenotypic_feature 3532 3553	blood cell aberration
+T78	chemical 3558 3567	oxidative
+T79	missed_disease_or_phenotypic_feature 3558 3574	oxidative stress
+T80	chemical 3585 3589	lead
+T81	disease_or_phenotypic_feature 3633 3638	blood
+T82	chemical 3707 3714	calcium
+T83	chemical 3723 3734	antagonists
+T84	chemical 3736 3747	angiotensin
+T85	chemical 3759 3765	enzyme
+T86	chemical 3759 3776	enzyme inhibitors
+T87	chemical 3782 3792	inhibitors
+T88	chemical 3892 3897	lipid
+T89	chemical 3898 3910	peroxidation
+T90	disease_or_phenotypic_feature 3942 3957	atherosclerosis
+T91	disease_or_phenotypic_feature 3961 3985	type 2 diabetes mellitus
+R1	FIXME Arg1:T40 Arg2:T47
+R2	causes_or_contributes_to Arg1:T80 Arg2:T77
+R3	causes_or_contributes_to Arg1:T80 Arg2:T79
+R4	causes_or_contributes_to Arg1:T80 Arg2:T75
+R5	treats Arg1:T31 Arg2:T34
+R6	causes_or_contributes_to Arg1:T33 Arg2:T34
+R7	treats Arg1:T67 Arg2:T70
+R8	treats Arg1:T67 Arg2:T71
+R9	treats Arg1:T1 Arg2:T2
+R10	treats Arg1:T1 Arg2:T3
+R11	FIXME Arg1:T45 Arg2:T47
+R12	treats Arg1:T38 Arg2:T39
+R13	FIXME Arg1:T43 Arg2:T47
+R14	treats Arg1:T69 Arg2:T70
+R15	treats Arg1:T69 Arg2:T71

@@ -1,79 +1,79 @@
-T1	corrected_chemical 193620 193640	miR-27a-3p inhibitor
-T2	chemical 193631 193640	inhibitor
-T3	disease_or_phenotypic_feature 193659 193675	epilepsy-induced
-T4	corrected_disease_or_phenotypic_feature 193659 193697	epilepsy-induced inflammatory response
-T5	missed_disease_or_phenotypic_feature 193702 193732	hippocampal neuronal apoptosis
-T6	disease_or_phenotypic_feature 193746 193752	MAP2K4
-T7	disease_or_phenotypic_feature 193801 193807	common
-T8	disease_or_phenotypic_feature 193815 193824	infection
-T9	disease_or_phenotypic_feature 193842 193853	candidiasis
-T10	chemical 193873 193890	virulence factors
-T11	chemical 193996 194007	regorafenib
-T12	corrected_disease_or_phenotypic_feature 194029 194062	advanced hepatocellular carcinoma
-T13	disease_or_phenotypic_feature 194038 194062	hepatocellular carcinoma
-T14	chemical 194069 194078	sorafenib
-T15	chemical 194146 194153	glucose
-T16	disease_or_phenotypic_feature 194185 194200	type 1 diabetes
-T17	chemical 194256 194263	insulin
-T18	disease_or_phenotypic_feature 194450 194453	SSc
-T19	chemical 194450 194453	SSc
-T20	disease_or_phenotypic_feature 194525 194530	blood
-T21	chemical 194540 194546	oxygen
-T22	chemical 194649 194654	group
-T23	disease_or_phenotypic_feature 194660 194664	PTSD
-T24	chemical 194665 194670	group
-T25	disease_or_phenotypic_feature 194817 194820	AML
-T26	chemical 194851 194861	biomarkers
-T27	disease_or_phenotypic_feature 194924 194927	get
-T28	chemical 195008 195014	enzyme
-T29	disease_or_phenotypic_feature 195044 195064	polyarteritis nodosa
-T30	chemical 195070 195087	anti-phospholipid
-T31	disease_or_phenotypic_feature 195142 195155	Brain Disease
-T32	disease_or_phenotypic_feature 195159 195164	MPSII
-T33	chemical 195208 195221	Nanoparticles
-T34	disease_or_phenotypic_feature 195354 195357	DON
-T35	chemical 195405 195415	biomarkers
-T36	chemical 195420 195424	drug
-T37	disease_or_phenotypic_feature 195490 195496	common
-T38	chemical 195497 195506	mycotoxin
-T39	corrected_chemical 195568 195589	flupentixol decanoate
-T40	chemical 195580 195589	decanoate
-T41	disease_or_phenotypic_feature 195610 195623	schizophrenia
-T42	chemical 195867 195878	SP-EPN-MYCN
-T43	chemical 196038 196047	molecular
-T44	disease_or_phenotypic_feature 196055 196065	ependymoma
-T45	chemical 196107 196120	tetracyclines
-T46	chemical 196177 196196	anhydrotetracycline
-T47	disease_or_phenotypic_feature 196343 196347	OTCs
-T48	chemical 196375 196386	Tofacitinib
-T49	chemical 196396 196410	small-molecule
-T50	corrected_chemical 196396 196420	small-molecule inhibitor
-T51	chemical 196411 196420	inhibitor
-T52	disease_or_phenotypic_feature 196469 196489	rheumatoid arthritis
-T53	corrected_chemical 196512 196544	dipeptidyl peptidase-4 inhibitor
-T54	chemical 196535 196544	inhibitor
-T55	chemical 196545 196556	saxagliptin
-T56	missed_chemical 196574 196597	antihyperglycemic agent
-T57	disease_or_phenotypic_feature 196615 196630	type 2 diabetes
-T58	disease_or_phenotypic_feature 196837 196844	anxiety
-T59	disease_or_phenotypic_feature 196845 196854	disease-7
-T60	disease_or_phenotypic_feature 196868 196875	Anxiety
-T61	chemical 196967 196982	NEO-personality
-T62	chemical 196994 197001	NEO-PI)
-T63	chemical 197128 197137	molecular
-T64	disease_or_phenotypic_feature 197152 197155	CHM
-T65	chemical 197295 197302	protein
-T66	disease_or_phenotypic_feature 197375 197390	type 2 diabetes
-T67	disease_or_phenotypic_feature 197431 197444	liver disease
-R1	treats Arg1:T39 Arg2:T41
-R2	treats Arg1:T55 Arg2:T57
-R3	treats Arg1:T53 Arg2:T57
-R4	treats Arg1:T56 Arg2:T57
+T1	corrected_chemical 52 72	miR-27a-3p inhibitor
+T2	chemical 63 72	inhibitor
+T3	disease_or_phenotypic_feature 91 107	epilepsy-induced
+T4	corrected_disease_or_phenotypic_feature 91 129	epilepsy-induced inflammatory response
+T5	missed_disease_or_phenotypic_feature 134 164	hippocampal neuronal apoptosis
+T6	disease_or_phenotypic_feature 178 184	MAP2K4
+T7	disease_or_phenotypic_feature 233 239	common
+T8	disease_or_phenotypic_feature 247 256	infection
+T9	disease_or_phenotypic_feature 274 285	candidiasis
+T10	chemical 305 322	virulence factors
+T11	chemical 428 439	regorafenib
+T12	corrected_disease_or_phenotypic_feature 461 494	advanced hepatocellular carcinoma
+T13	disease_or_phenotypic_feature 470 494	hepatocellular carcinoma
+T14	chemical 501 510	sorafenib
+T15	chemical 578 585	glucose
+T16	disease_or_phenotypic_feature 617 632	type 1 diabetes
+T17	chemical 688 695	insulin
+T18	disease_or_phenotypic_feature 882 885	SSc
+T19	chemical 882 885	SSc
+T20	disease_or_phenotypic_feature 957 962	blood
+T21	chemical 972 978	oxygen
+T22	chemical 1081 1086	group
+T23	disease_or_phenotypic_feature 1092 1096	PTSD
+T24	chemical 1097 1102	group
+T25	disease_or_phenotypic_feature 1249 1252	AML
+T26	chemical 1283 1293	biomarkers
+T27	disease_or_phenotypic_feature 1356 1359	get
+T28	chemical 1440 1446	enzyme
+T29	disease_or_phenotypic_feature 1476 1496	polyarteritis nodosa
+T30	chemical 1502 1519	anti-phospholipid
+T31	disease_or_phenotypic_feature 1574 1587	Brain Disease
+T32	disease_or_phenotypic_feature 1591 1596	MPSII
+T33	chemical 1640 1653	Nanoparticles
+T34	disease_or_phenotypic_feature 1786 1789	DON
+T35	chemical 1837 1847	biomarkers
+T36	chemical 1852 1856	drug
+T37	disease_or_phenotypic_feature 1922 1928	common
+T38	chemical 1929 1938	mycotoxin
+T39	corrected_chemical 2000 2021	flupentixol decanoate
+T40	chemical 2012 2021	decanoate
+T41	disease_or_phenotypic_feature 2042 2055	schizophrenia
+T42	chemical 2299 2310	SP-EPN-MYCN
+T43	chemical 2470 2479	molecular
+T44	disease_or_phenotypic_feature 2487 2497	ependymoma
+T45	chemical 2539 2552	tetracyclines
+T46	chemical 2609 2628	anhydrotetracycline
+T47	disease_or_phenotypic_feature 2775 2779	OTCs
+T48	chemical 2807 2818	Tofacitinib
+T49	chemical 2828 2842	small-molecule
+T50	corrected_chemical 2828 2852	small-molecule inhibitor
+T51	chemical 2843 2852	inhibitor
+T52	disease_or_phenotypic_feature 2901 2921	rheumatoid arthritis
+T53	corrected_chemical 2944 2976	dipeptidyl peptidase-4 inhibitor
+T54	chemical 2967 2976	inhibitor
+T55	chemical 2977 2988	saxagliptin
+T56	missed_chemical 3006 3029	antihyperglycemic agent
+T57	disease_or_phenotypic_feature 3047 3062	type 2 diabetes
+T58	disease_or_phenotypic_feature 3269 3276	anxiety
+T59	disease_or_phenotypic_feature 3277 3286	disease-7
+T60	disease_or_phenotypic_feature 3300 3307	Anxiety
+T61	chemical 3399 3414	NEO-personality
+T62	chemical 3426 3433	NEO-PI)
+T63	chemical 3560 3569	molecular
+T64	disease_or_phenotypic_feature 3584 3587	CHM
+T65	chemical 3727 3734	protein
+T66	disease_or_phenotypic_feature 3807 3822	type 2 diabetes
+T67	disease_or_phenotypic_feature 3863 3876	liver disease
+R1	treats Arg1:T1 Arg2:T5
+R2	treats Arg1:T1 Arg2:T4
+R3	treats Arg1:T56 Arg2:T57
+R4	treats Arg1:T53 Arg2:T57
 R5	treats Arg1:T14 Arg2:T13
 R6	treats Arg1:T14 Arg2:T12
-R7	treats Arg1:T50 Arg2:T52
+R7	treats Arg1:T55 Arg2:T57
 R8	treats Arg1:T17 Arg2:T16
-R9	treats Arg1:T48 Arg2:T52
-R10	treats Arg1:T11 Arg2:T12
-R11	treats Arg1:T1 Arg2:T5
-R12	treats Arg1:T1 Arg2:T4
+R9	treats Arg1:T39 Arg2:T41
+R10	treats Arg1:T48 Arg2:T52
+R11	treats Arg1:T11 Arg2:T12
+R12	treats Arg1:T50 Arg2:T52

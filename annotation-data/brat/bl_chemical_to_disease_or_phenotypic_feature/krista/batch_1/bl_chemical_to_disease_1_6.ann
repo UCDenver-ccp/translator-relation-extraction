@@ -1,91 +1,91 @@
-T1	disease_or_phenotypic_feature 95991 95994	air
-T2	disease_or_phenotypic_feature 96049 96064	redox-sensitive
-T3	chemical 96085 96096	angiotensin
-T4	disease_or_phenotypic_feature 96149 96154	blood
-T5	chemical 96223 96231	proteins
-T6	disease_or_phenotypic_feature 96261 96266	blood
-T7	chemical 96288 96293	group
-T8	disease_or_phenotypic_feature 96396 96399	HCl
-T9	disease_or_phenotypic_feature 96408 96416	ion-pair
-T10	chemical 96408 96416	ion-pair
-T11	chemical 96440 96448	chloride
-T12	chemical 96449 96453	ions
-T13	chemical 96467 96471	gold
-T14	chemical 96495 96503	nitrogen
-T15	chemical 96514 96523	pteridine
-T16	chemical 96537 96554	γ-carboxylic acid
-T17	chemical 96562 96575	glutamic acid
-T18	chemical 96647 96650	RNA
-T19	chemical 96679 96690	AMP/RNA-seq
-T20	disease_or_phenotypic_feature 96911 96918	sarcoma
-T21	chemical 96937 96948	AMP/RNA-seq
-T22	disease_or_phenotypic_feature 96959 96975	disease-defining
-T23	disease_or_phenotypic_feature 97004 97039	undifferentiated round cell sarcoma
-T24	chemical 97283 97286	ion
-T25	disease_or_phenotypic_feature 97283 97286	ion
-T26	corrected_disease_or_phenotypic_feature 97402 97429	malignant testicular cancer
-T27	disease_or_phenotypic_feature 97412 97429	testicular cancer
-T28	chemical 97473 97481	chemical
-T29	corrected_chemical 97473 97487	chemical drugs
-T30	chemical 97506 97515	6-Shogaol
-T31	chemical 97527 97559	2-Amino-1-Methyl-6-Phenylimidazo
-T32	corrected_chemical 97527 97576	2-Amino-1-Methyl-6-Phenylimidazo [4,5-b] Pyridine
-T33	chemical 97568 97576	Pyridine
-T34	chemical 97578 97591	PhIP)-Induced
-T35	disease_or_phenotypic_feature 97604 97624	Renal Cell Carcinoma
-T36	missed_disease_or_phenotypic_feature 97655 97665	Metastatic
-T37	chemical 97709 97712	RNA
-T38	disease_or_phenotypic_feature 97776 97779	HCC
-T39	chemical 97820 97824	IGF2
-T40	disease_or_phenotypic_feature 97926 97936	depression
-T41	chemical 97973 97976	DNA
-T42	chemical 97977 97988	methylation
-T43	disease_or_phenotypic_feature 98075 98092	diabetes mellitus
-T44	disease_or_phenotypic_feature 98118 98135	diabetes mellitus
-T45	chemical 98136 98141	group
-T46	disease_or_phenotypic_feature 98192 98209	diabetes mellitus
-T47	chemical 98238 98243	group
-T48	disease_or_phenotypic_feature 98316 98334	multiple sclerosis
-T49	corrected_chemical 98384 98402	glatiramer acetate
-T50	chemical 98395 98402	acetate
-T51	missed_chemical 98410 98412	GA
-T52	missed_chemical 98428 98442	interferon β1a
-T53	missed_chemical 98470 98484	interferon β1a
-T54	missed_chemical 98514 98528	interferon β1b
-T55	chemical 98634 98648	small-molecule
-T56	corrected_chemical 98634 98658	small-molecule inhibitor
-T57	chemical 98649 98658	inhibitor
-T58	disease_or_phenotypic_feature 98719 98738	lung adenocarcinoma
-T59	disease_or_phenotypic_feature 98805 98820	SHIV-1157ipd3N4
-T60	disease_or_phenotypic_feature 98821 98830	infection
-T61	disease_or_phenotypic_feature 98857 98866	localized
-T62	chemical 98917 98925	SHIV-RNA
-T63	chemical 99035 99045	rifampicin
-T64	disease_or_phenotypic_feature 99083 99105	pulmonary tuberculosis
-T65	chemical 99157 99170	pro-apoptotic
-T66	disease_or_phenotypic_feature 99290 99293	APS
-T67	disease_or_phenotypic_feature 99399 99408	intrinsic
-T68	chemical 99448 99456	nitrogen
-T69	chemical 99460 99488	α-diazo-β-ketoesters/ketones
-T70	chemical 99593 99598	ylide
-T71	chemical 99690 99696	carbon
-T72	disease_or_phenotypic_feature 99731 99737	common
-T73	chemical 99751 99764	ethanol-flame
-T74	missed_chemical 99890 99899	rituximab
-T75	disease_or_phenotypic_feature 99918 99922	ITP.
-T76	chemical 100121 100126	lipid
-T77	disease_or_phenotypic_feature 100166 100175	infection
-T78	chemical 100281 100290	glutamine
-T79	chemical 100295 100304	glutamate
-T80	disease_or_phenotypic_feature 100354 100362	migraine
-R1	treats Arg1:T54 Arg2:T48
-R2	treats Arg1:T30 Arg2:T35
-R3	treats Arg1:T30 Arg2:T36
-R4	treats Arg1:T74 Arg2:T75
-R5	treats Arg1:T52 Arg2:T48
-R6	treats Arg1:T51 Arg2:T48
-R7	causes_or_contributes_to Arg1:T32 Arg2:T35
-R8	treats Arg1:T49 Arg2:T48
-R9	treats Arg1:T63 Arg2:T64
-R10	treats Arg1:T29 Arg2:T26
-R11	treats Arg1:T53 Arg2:T48
+T1	disease_or_phenotypic_feature 5 8	air
+T2	disease_or_phenotypic_feature 63 78	redox-sensitive
+T3	chemical 99 110	angiotensin
+T4	disease_or_phenotypic_feature 163 168	blood
+T5	chemical 237 245	proteins
+T6	disease_or_phenotypic_feature 275 280	blood
+T7	chemical 302 307	group
+T8	disease_or_phenotypic_feature 410 413	HCl
+T9	disease_or_phenotypic_feature 422 430	ion-pair
+T10	chemical 422 430	ion-pair
+T11	chemical 454 462	chloride
+T12	chemical 463 467	ions
+T13	chemical 481 485	gold
+T14	chemical 509 517	nitrogen
+T15	chemical 528 537	pteridine
+T16	chemical 551 568	γ-carboxylic acid
+T17	chemical 576 589	glutamic acid
+T18	chemical 661 664	RNA
+T19	chemical 693 704	AMP/RNA-seq
+T20	disease_or_phenotypic_feature 925 932	sarcoma
+T21	chemical 951 962	AMP/RNA-seq
+T22	disease_or_phenotypic_feature 973 989	disease-defining
+T23	disease_or_phenotypic_feature 1018 1053	undifferentiated round cell sarcoma
+T24	chemical 1297 1300	ion
+T25	disease_or_phenotypic_feature 1297 1300	ion
+T26	corrected_disease_or_phenotypic_feature 1416 1443	malignant testicular cancer
+T27	disease_or_phenotypic_feature 1426 1443	testicular cancer
+T28	chemical 1487 1495	chemical
+T29	corrected_chemical 1487 1501	chemical drugs
+T30	chemical 1520 1529	6-Shogaol
+T31	chemical 1541 1573	2-Amino-1-Methyl-6-Phenylimidazo
+T32	corrected_chemical 1541 1590	2-Amino-1-Methyl-6-Phenylimidazo [4,5-b] Pyridine
+T33	chemical 1582 1590	Pyridine
+T34	chemical 1592 1605	PhIP)-Induced
+T35	disease_or_phenotypic_feature 1618 1638	Renal Cell Carcinoma
+T36	missed_disease_or_phenotypic_feature 1669 1679	Metastatic
+T37	chemical 1723 1726	RNA
+T38	disease_or_phenotypic_feature 1790 1793	HCC
+T39	chemical 1834 1838	IGF2
+T40	disease_or_phenotypic_feature 1940 1950	depression
+T41	chemical 1987 1990	DNA
+T42	chemical 1991 2002	methylation
+T43	disease_or_phenotypic_feature 2089 2106	diabetes mellitus
+T44	disease_or_phenotypic_feature 2132 2149	diabetes mellitus
+T45	chemical 2150 2155	group
+T46	disease_or_phenotypic_feature 2206 2223	diabetes mellitus
+T47	chemical 2252 2257	group
+T48	disease_or_phenotypic_feature 2330 2348	multiple sclerosis
+T49	corrected_chemical 2398 2416	glatiramer acetate
+T50	chemical 2409 2416	acetate
+T51	missed_chemical 2424 2426	GA
+T52	missed_chemical 2442 2456	interferon β1a
+T53	missed_chemical 2484 2498	interferon β1a
+T54	missed_chemical 2528 2542	interferon β1b
+T55	chemical 2648 2662	small-molecule
+T56	corrected_chemical 2648 2672	small-molecule inhibitor
+T57	chemical 2663 2672	inhibitor
+T58	disease_or_phenotypic_feature 2733 2752	lung adenocarcinoma
+T59	disease_or_phenotypic_feature 2819 2834	SHIV-1157ipd3N4
+T60	disease_or_phenotypic_feature 2835 2844	infection
+T61	disease_or_phenotypic_feature 2871 2880	localized
+T62	chemical 2931 2939	SHIV-RNA
+T63	chemical 3049 3059	rifampicin
+T64	disease_or_phenotypic_feature 3097 3119	pulmonary tuberculosis
+T65	chemical 3171 3184	pro-apoptotic
+T66	disease_or_phenotypic_feature 3304 3307	APS
+T67	disease_or_phenotypic_feature 3413 3422	intrinsic
+T68	chemical 3462 3470	nitrogen
+T69	chemical 3474 3502	α-diazo-β-ketoesters/ketones
+T70	chemical 3607 3612	ylide
+T71	chemical 3704 3710	carbon
+T72	disease_or_phenotypic_feature 3745 3751	common
+T73	chemical 3765 3778	ethanol-flame
+T74	missed_chemical 3904 3913	rituximab
+T75	disease_or_phenotypic_feature 3932 3936	ITP.
+T76	chemical 4135 4140	lipid
+T77	disease_or_phenotypic_feature 4180 4189	infection
+T78	chemical 4295 4304	glutamine
+T79	chemical 4309 4318	glutamate
+T80	disease_or_phenotypic_feature 4368 4376	migraine
+R1	treats Arg1:T53 Arg2:T48
+R2	treats Arg1:T74 Arg2:T75
+R3	treats Arg1:T52 Arg2:T48
+R4	treats Arg1:T63 Arg2:T64
+R5	treats Arg1:T30 Arg2:T35
+R6	treats Arg1:T30 Arg2:T36
+R7	treats Arg1:T49 Arg2:T48
+R8	causes_or_contributes_to Arg1:T32 Arg2:T35
+R9	treats Arg1:T51 Arg2:T48
+R10	treats Arg1:T54 Arg2:T48
+R11	treats Arg1:T29 Arg2:T26

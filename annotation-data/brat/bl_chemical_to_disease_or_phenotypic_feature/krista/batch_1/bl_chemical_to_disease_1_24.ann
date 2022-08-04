@@ -1,81 +1,81 @@
-T1	chemical 95999 96014	microcystins-LR
-T2	disease_or_phenotypic_feature 96045 96058	neuroblastoma
-T3	disease_or_phenotypic_feature 96201 96208	AMD3100
-T4	chemical 96213 96221	LY294002
-T5	chemical 96259 96269	creatinine
-T6	disease_or_phenotypic_feature 96352 96363	proteinuria
-T7	chemical 96416 96422	biotin
-T8	chemical 96423 96426	tag
-T9	disease_or_phenotypic_feature 96444 96453	sensitive
-T10	chemical 96615 96636	radioactively-labeled
-T11	disease_or_phenotypic_feature 96849 96858	disorders
-T12	chemical 96870 96874	drug
-T13	chemical 96953 96970	single-nucleotide
-T14	disease_or_phenotypic_feature 97011 97020	:c.783del
-T15	chemical 97121 97132	oxaliplatin
-T16	corrected_disease_or_phenotypic_feature 97151 97172	central neurotoxicity
-T17	disease_or_phenotypic_feature 97159 97172	neurotoxicity
-T18	disease_or_phenotypic_feature 97184 97193	disorders
-T19	missed_disease_or_phenotypic_feature 97202 97218	mental confusion
-T20	missed_disease_or_phenotypic_feature 97220 97229	catatonia
-T21	missed_disease_or_phenotypic_feature 97231 97243	hyporeflexia
-T22	chemical 97267 97275	Curcumin
-T23	disease_or_phenotypic_feature 97285 97304	cerebral infarction
-T24	missed_disease_or_phenotypic_feature 97306 97318	nerve damage
-T25	missed_disease_or_phenotypic_feature 97323 97344	cognitive dysfunction
-T26	missed_disease_or_phenotypic_feature 97358 97361	CIR
-T27	disease_or_phenotypic_feature 97479 97495	Candida glabrata
-T28	chemical 97567 97584	antifungal agents
-T29	missed_chemical 97610 97614	AMXC
-T30	disease_or_phenotypic_feature 97653 97664	cholestasis
-T31	chemical 97683 97691	a factor
-T32	disease_or_phenotypic_feature 97754 97759	blood
-T33	chemical 97849 97863	phosphorylated
-T34	disease_or_phenotypic_feature 97932 97937	blood
-T35	chemical 97979 97989	biomarkers
-T36	chemical 98106 98118	carbon-fiber
-T37	chemical 98155 98161	purine
-T38	disease_or_phenotypic_feature 98177 98186	fast-scan
-T39	missed_chemical 98231 98241	Decitabine
-T40	chemical 98278 98287	molecular
-T41	disease_or_phenotypic_feature 98355 98358	AML
-T42	chemical 98431 98443	nucleic acid
-T43	chemical 98448 98455	antigen
-T44	disease_or_phenotypic_feature 98511 98524	leptospirosis
-T45	missed_disease_or_phenotypic_feature 98543 98575	Euglycemic diabetic ketoacidosis
-T46	disease_or_phenotypic_feature 98554 98575	diabetic ketoacidosis
-T47	chemical 98596 98609	dapagliflozin
-T48	disease_or_phenotypic_feature 98661 98686	type II diabetes mellitus
-T49	missed_chemical 98705 98708	LAA
-T50	chemical 98757 98764	protein
-T51	disease_or_phenotypic_feature 98780 98785	tumor
-T52	disease_or_phenotypic_feature 98805 98820	tumor-selective
-T53	chemical 98821 98830	oxidative
-T54	chemical 98910 98915	group
-T55	disease_or_phenotypic_feature 99019 99028	infection
-T56	disease_or_phenotypic_feature 99198 99203	tumor
-T57	chemical 99221 99224	DNA
-T58	disease_or_phenotypic_feature 99230 99235	tumor
-T59	chemical 99385 99402	hormone-sensitive
-T60	disease_or_phenotypic_feature 99385 99402	hormone-sensitive
-T61	chemical 99426 99434	proteins
-T62	missed_chemical 99548 99602	anti-cytotoxic T-lymphocyte-associated antigen 4 agent
-T63	chemical 99587 99594	antigen
-T64	corrected_disease_or_phenotypic_feature 99618 99637	late-stage melanoma
-T65	disease_or_phenotypic_feature 99629 99637	melanoma
-T66	missed_disease_or_phenotypic_feature 99752 99759	cancers
-R1	treats Arg1:T49 Arg2:T51
-R2	treats Arg1:T40 Arg2:T41
-R3	treats Arg1:T39 Arg2:T41
-R4	causes_or_contributes_to Arg1:T15 Arg2:T16
-R5	causes_or_contributes_to Arg1:T15 Arg2:T18
-R6	causes_or_contributes_to Arg1:T15 Arg2:T20
-R7	causes_or_contributes_to Arg1:T15 Arg2:T19
-R8	causes_or_contributes_to Arg1:T15 Arg2:T21
-R9	treats Arg1:T22 Arg2:T23
-R10	treats Arg1:T22 Arg2:T25
-R11	treats Arg1:T22 Arg2:T24
-R12	treats Arg1:T22 Arg2:T26
-R13	causes_or_contributes_to Arg1:T47 Arg2:T45
-R14	causes_or_contributes_to Arg1:T29 Arg2:T30
-R15	treats Arg1:T62 Arg2:T64
+T1	chemical 13 28	microcystins-LR
+T2	disease_or_phenotypic_feature 59 72	neuroblastoma
+T3	disease_or_phenotypic_feature 215 222	AMD3100
+T4	chemical 227 235	LY294002
+T5	chemical 273 283	creatinine
+T6	disease_or_phenotypic_feature 366 377	proteinuria
+T7	chemical 430 436	biotin
+T8	chemical 437 440	tag
+T9	disease_or_phenotypic_feature 458 467	sensitive
+T10	chemical 629 650	radioactively-labeled
+T11	disease_or_phenotypic_feature 863 872	disorders
+T12	chemical 884 888	drug
+T13	chemical 967 984	single-nucleotide
+T14	disease_or_phenotypic_feature 1025 1034	:c.783del
+T15	chemical 1135 1146	oxaliplatin
+T16	corrected_disease_or_phenotypic_feature 1165 1186	central neurotoxicity
+T17	disease_or_phenotypic_feature 1173 1186	neurotoxicity
+T18	disease_or_phenotypic_feature 1198 1207	disorders
+T19	missed_disease_or_phenotypic_feature 1216 1232	mental confusion
+T20	missed_disease_or_phenotypic_feature 1234 1243	catatonia
+T21	missed_disease_or_phenotypic_feature 1245 1257	hyporeflexia
+T22	chemical 1281 1289	Curcumin
+T23	disease_or_phenotypic_feature 1299 1318	cerebral infarction
+T24	missed_disease_or_phenotypic_feature 1320 1332	nerve damage
+T25	missed_disease_or_phenotypic_feature 1337 1358	cognitive dysfunction
+T26	missed_disease_or_phenotypic_feature 1372 1375	CIR
+T27	disease_or_phenotypic_feature 1493 1509	Candida glabrata
+T28	chemical 1581 1598	antifungal agents
+T29	missed_chemical 1624 1628	AMXC
+T30	disease_or_phenotypic_feature 1667 1678	cholestasis
+T31	chemical 1697 1705	a factor
+T32	disease_or_phenotypic_feature 1768 1773	blood
+T33	chemical 1863 1877	phosphorylated
+T34	disease_or_phenotypic_feature 1946 1951	blood
+T35	chemical 1993 2003	biomarkers
+T36	chemical 2120 2132	carbon-fiber
+T37	chemical 2169 2175	purine
+T38	disease_or_phenotypic_feature 2191 2200	fast-scan
+T39	missed_chemical 2245 2255	Decitabine
+T40	chemical 2292 2301	molecular
+T41	disease_or_phenotypic_feature 2369 2372	AML
+T42	chemical 2445 2457	nucleic acid
+T43	chemical 2462 2469	antigen
+T44	disease_or_phenotypic_feature 2525 2538	leptospirosis
+T45	missed_disease_or_phenotypic_feature 2557 2589	Euglycemic diabetic ketoacidosis
+T46	disease_or_phenotypic_feature 2568 2589	diabetic ketoacidosis
+T47	chemical 2610 2623	dapagliflozin
+T48	disease_or_phenotypic_feature 2675 2700	type II diabetes mellitus
+T49	missed_chemical 2719 2722	LAA
+T50	chemical 2771 2778	protein
+T51	disease_or_phenotypic_feature 2794 2799	tumor
+T52	disease_or_phenotypic_feature 2819 2834	tumor-selective
+T53	chemical 2835 2844	oxidative
+T54	chemical 2924 2929	group
+T55	disease_or_phenotypic_feature 3033 3042	infection
+T56	disease_or_phenotypic_feature 3212 3217	tumor
+T57	chemical 3235 3238	DNA
+T58	disease_or_phenotypic_feature 3244 3249	tumor
+T59	chemical 3399 3416	hormone-sensitive
+T60	disease_or_phenotypic_feature 3399 3416	hormone-sensitive
+T61	chemical 3440 3448	proteins
+T62	missed_chemical 3562 3616	anti-cytotoxic T-lymphocyte-associated antigen 4 agent
+T63	chemical 3601 3608	antigen
+T64	corrected_disease_or_phenotypic_feature 3632 3651	late-stage melanoma
+T65	disease_or_phenotypic_feature 3643 3651	melanoma
+T66	missed_disease_or_phenotypic_feature 3766 3773	cancers
+R1	treats Arg1:T22 Arg2:T23
+R2	treats Arg1:T22 Arg2:T25
+R3	treats Arg1:T22 Arg2:T24
+R4	treats Arg1:T22 Arg2:T26
+R5	treats Arg1:T39 Arg2:T41
+R6	causes_or_contributes_to Arg1:T47 Arg2:T45
+R7	treats Arg1:T62 Arg2:T64
+R8	treats Arg1:T40 Arg2:T41
+R9	treats Arg1:T49 Arg2:T51
+R10	causes_or_contributes_to Arg1:T15 Arg2:T16
+R11	causes_or_contributes_to Arg1:T15 Arg2:T18
+R12	causes_or_contributes_to Arg1:T15 Arg2:T20
+R13	causes_or_contributes_to Arg1:T15 Arg2:T19
+R14	causes_or_contributes_to Arg1:T15 Arg2:T21
+R15	causes_or_contributes_to Arg1:T29 Arg2:T30

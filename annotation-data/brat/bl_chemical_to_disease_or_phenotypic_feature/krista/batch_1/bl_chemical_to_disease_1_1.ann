@@ -1,59 +1,59 @@
-T1	chemical 96016 96031	anticoagulation
-T2	disease_or_phenotypic_feature 96035 96047	glioblastoma
-T3	chemical 96164 96167	ion
-T4	disease_or_phenotypic_feature 96164 96167	ion
-T5	disease_or_phenotypic_feature 96297 96300	ion
-T6	chemical 96297 96300	ion
-T7	chemical 96391 96401	Allergenic
-T8	chemical 96422 96432	biological
-T9	disease_or_phenotypic_feature 96474 96482	allergic
-T10	disease_or_phenotypic_feature 96495 96503	diseases
-T11	chemical 96562 96571	indicator
-T12	disease_or_phenotypic_feature 96576 96586	malignancy
-T13	chemical 96627 96644	lncRNA-miRNA-mRNA
-T14	chemical 96685 96688	RNA
-T15	disease_or_phenotypic_feature 96718 96737	Cerebral Infarction
-T16	chemical 96929 96936	alcohol
-T17	disease_or_phenotypic_feature 96958 96972	thyrotoxicosis
-T18	disease_or_phenotypic_feature 96982 97003	myocardial infarction
-T19	disease_or_phenotypic_feature 97030 97039	infection
-T20	chemical 97147 97152	NADPH
-T21	chemical 97161 97167	enzyme
-T22	chemical 97179 97202	reactive oxygen species
-T23	missed_chemical 97204 97207	ROS
-T24	disease_or_phenotypic_feature 97243 97251	diabetes
-T25	disease_or_phenotypic_feature 97256 97260	CRC.
-T26	disease_or_phenotypic_feature 97290 97300	dependence
-T27	chemical 97333 97340	protein
-T28	disease_or_phenotypic_feature 97426 97445	bacterial gastritis
-T29	chemical 97543 97553	duloxetine
-T30	disease_or_phenotypic_feature 97584 97589	blood
-T31	disease_or_phenotypic_feature 97651 97654	CAD
-T32	chemical 97784 97789	toxin
-T33	disease_or_phenotypic_feature 97894 97907	tumor-derived
-T34	chemical 97908 97911	DNA
-T35	disease_or_phenotypic_feature 97976 97998	cancer of the pancreas
-T36	disease_or_phenotypic_feature 98017 98044	Medullary thyroid carcinoma
-T37	chemical 98027 98034	thyroid
-T38	disease_or_phenotypic_feature 98046 98049	MTC
-T39	disease_or_phenotypic_feature 98093 98101	diseases
-T40	disease_or_phenotypic_feature 98232 98244	MCC/Eisosome
-T41	chemical 98255 98260	Lipid
-T42	chemical 98310 98315	water
-T43	disease_or_phenotypic_feature 98388 98392	cold
-T44	disease_or_phenotypic_feature 98573 98582	sensitive
-T45	chemical 98583 98588	probe
-T46	corrected_disease_or_phenotypic_feature 98735 98791	anti-MDA5 autoantibody-positive juvenile dermatomyositis
-T47	disease_or_phenotypic_feature 98767 98791	juvenile dermatomyositis
-T48	chemical 98798 98809	tofacitinib
-T49	chemical 98874 98878	pro-
-T50	disease_or_phenotypic_feature 98987 99015	acute lymphoblastic leukemia
-T51	chemical 99114 99121	nitrite
-T52	disease_or_phenotypic_feature 99152 99157	blood
-T53	chemical 99246 99257	water-water
-T54	disease_or_phenotypic_feature 99323 99326	GPa
-T55	disease_or_phenotypic_feature 99376 99379	PVA
-T56	chemical 99408 99420	water/cement
+T1	chemical 30 45	anticoagulation
+T2	disease_or_phenotypic_feature 49 61	glioblastoma
+T3	chemical 178 181	ion
+T4	disease_or_phenotypic_feature 178 181	ion
+T5	disease_or_phenotypic_feature 311 314	ion
+T6	chemical 311 314	ion
+T7	chemical 405 415	Allergenic
+T8	chemical 436 446	biological
+T9	disease_or_phenotypic_feature 488 496	allergic
+T10	disease_or_phenotypic_feature 509 517	diseases
+T11	chemical 576 585	indicator
+T12	disease_or_phenotypic_feature 590 600	malignancy
+T13	chemical 641 658	lncRNA-miRNA-mRNA
+T14	chemical 699 702	RNA
+T15	disease_or_phenotypic_feature 732 751	Cerebral Infarction
+T16	chemical 943 950	alcohol
+T17	disease_or_phenotypic_feature 972 986	thyrotoxicosis
+T18	disease_or_phenotypic_feature 996 1017	myocardial infarction
+T19	disease_or_phenotypic_feature 1044 1053	infection
+T20	chemical 1161 1166	NADPH
+T21	chemical 1175 1181	enzyme
+T22	chemical 1193 1216	reactive oxygen species
+T23	missed_chemical 1218 1221	ROS
+T24	disease_or_phenotypic_feature 1257 1265	diabetes
+T25	disease_or_phenotypic_feature 1270 1274	CRC.
+T26	disease_or_phenotypic_feature 1304 1314	dependence
+T27	chemical 1347 1354	protein
+T28	disease_or_phenotypic_feature 1440 1459	bacterial gastritis
+T29	chemical 1557 1567	duloxetine
+T30	disease_or_phenotypic_feature 1598 1603	blood
+T31	disease_or_phenotypic_feature 1665 1668	CAD
+T32	chemical 1798 1803	toxin
+T33	disease_or_phenotypic_feature 1908 1921	tumor-derived
+T34	chemical 1922 1925	DNA
+T35	disease_or_phenotypic_feature 1990 2012	cancer of the pancreas
+T36	disease_or_phenotypic_feature 2031 2058	Medullary thyroid carcinoma
+T37	chemical 2041 2048	thyroid
+T38	disease_or_phenotypic_feature 2060 2063	MTC
+T39	disease_or_phenotypic_feature 2107 2115	diseases
+T40	disease_or_phenotypic_feature 2246 2258	MCC/Eisosome
+T41	chemical 2269 2274	Lipid
+T42	chemical 2324 2329	water
+T43	disease_or_phenotypic_feature 2402 2406	cold
+T44	disease_or_phenotypic_feature 2587 2596	sensitive
+T45	chemical 2597 2602	probe
+T46	corrected_disease_or_phenotypic_feature 2749 2805	anti-MDA5 autoantibody-positive juvenile dermatomyositis
+T47	disease_or_phenotypic_feature 2781 2805	juvenile dermatomyositis
+T48	chemical 2812 2823	tofacitinib
+T49	chemical 2888 2892	pro-
+T50	disease_or_phenotypic_feature 3001 3029	acute lymphoblastic leukemia
+T51	chemical 3128 3135	nitrite
+T52	disease_or_phenotypic_feature 3166 3171	blood
+T53	chemical 3260 3271	water-water
+T54	disease_or_phenotypic_feature 3337 3340	GPa
+T55	disease_or_phenotypic_feature 3390 3393	PVA
+T56	chemical 3422 3434	water/cement
 R1	FIXME Arg1:T48 Arg2:T46
 R2	causes_or_contributes_to Arg1:T23 Arg2:T24
 R3	causes_or_contributes_to Arg1:T23 Arg2:T25

@@ -1,80 +1,80 @@
-T1	chemical 96087 96093	copper
-T2	disease_or_phenotypic_feature 96094 96097	ion
-T3	chemical 96094 96097	ion
-T4	chemical 96108 96118	surfactant
-T5	disease_or_phenotypic_feature 96181 96186	blood
-T6	chemical 96187 96195	ethyl-Hg
-T7	chemical 96250 96258	ethyl-Hg
-T8	chemical 96268 96273	group
-T9	chemical 96289 96297	ethyl-Hg
-T10	chemical 96348 96356	ethyl-Hg
-T11	chemical 96366 96371	group
-T12	chemical 96390 96402	Methotrexate
-T13	missed_chemical 96404 96407	MTX
-T14	chemical 96425 96436	anti-folate
-T15	disease_or_phenotypic_feature 96446 96484	pediatric acute lymphoblastic leukemia
-T16	missed_disease_or_phenotypic_feature 96486 96489	ALL
-T17	disease_or_phenotypic_feature 96599 96605	myopia
-T18	chemical 96636 96644	atropine
-T19	disease_or_phenotypic_feature 96804 96815	CRISPR-Cas9
-T20	chemical 96833 96841	graphene
-T21	chemical 96884 96890	Emodin
-T22	chemical 96908 96934	lipopolysaccharide-induced
-T23	corrected_disease_or_phenotypic_feature 96908 96954	lipopolysaccharide-induced inflammatory injury
-T24	disease_or_phenotypic_feature 96948 96954	injury
-T25	chemical 97019 97028	Carnitine
-T26	disease_or_phenotypic_feature 97065 97068	ALT
-T27	disease_or_phenotypic_feature 97236 97245	sensitive
-T28	disease_or_phenotypic_feature 97259 97264	tumor
-T29	chemical 97265 97275	biomarkers
-T30	missed_chemical 97316 97321	NeoCh
-T31	disease_or_phenotypic_feature 97403 97408	tumor
-T32	chemical 97446 97454	residual
-T33	chemical 97647 97675	low-molecular-weight-heparin
-T34	missed_disease_or_phenotypic_feature 97712 97735	intraoperative bleeding
-T35	chemical 97750 97757	heparin
-T36	disease_or_phenotypic_feature 97810 97821	lung cancer
-T37	chemical 97840 97845	HbA1c
-T38	disease_or_phenotypic_feature 97880 97888	SAPT-LGS
-T39	chemical 97889 97894	group
-T40	chemical 97957 97970	hydrogen atom
-T41	disease_or_phenotypic_feature 97981 97984	HAT
-T42	chemical 98000 98008	metal-QC
-T43	chemical 98057 98064	radical
-T44	chemical 98155 98159	drug
-T45	disease_or_phenotypic_feature 98244 98264	lymphatic filariasis
-T46	disease_or_phenotypic_feature 98281 98290	hydrocele
-T47	disease_or_phenotypic_feature 98306 98316	lymphedema
-T48	chemical 98380 98386	TDP-43
-T49	disease_or_phenotypic_feature 98442 98461	Alzheimer's Disease
-T50	chemical 98491 98510	signaling molecules
-T51	disease_or_phenotypic_feature 98624 98630	cancer
-T52	disease_or_phenotypic_feature 98667 98699	central serous chorioretinopathy
-T53	disease_or_phenotypic_feature 98701 98704	CSC
-T54	chemical 98739 98754	corticosteroids
-T55	chemical 98814 98835	Tiotropium/Olodaterol
-T56	disease_or_phenotypic_feature 98849 98853	COPD
-T57	chemical 98906 98914	lycopene
-T58	chemical 98958 98967	oxidative
-T59	missed_disease_or_phenotypic_feature 98958 98974	oxidative stress
-T60	disease_or_phenotypic_feature 98978 98987	infertile
-T61	disease_or_phenotypic_feature 98988 98991	men
-T62	chemical 99148 99161	micronutrient
-T63	disease_or_phenotypic_feature 99195 99235	attention deficit hyperactivity disorder
-T64	chemical 99292 99299	protein
-T65	disease_or_phenotypic_feature 99319 99324	tumor
-R1	treats Arg1:T57 Arg2:T59
-R2	treats Arg1:T57 Arg2:T60
-R3	treats Arg1:T44 Arg2:T45
-R4	causes_or_contributes_to Arg1:T54 Arg2:T52
-R5	causes_or_contributes_to Arg1:T54 Arg2:T53
-R6	treats Arg1:T13 Arg2:T15
-R7	treats Arg1:T13 Arg2:T16
-R8	treats Arg1:T35 Arg2:T34
-R9	treats Arg1:T62 Arg2:T63
-R10	treats Arg1:T12 Arg2:T15
-R11	treats Arg1:T12 Arg2:T16
-R12	treats Arg1:T18 Arg2:T17
-R13	treats Arg1:T33 Arg2:T34
-R14	treats Arg1:T21 Arg2:T23
-R15	treats Arg1:T30 Arg2:T28
+T1	chemical 101 107	copper
+T2	disease_or_phenotypic_feature 108 111	ion
+T3	chemical 108 111	ion
+T4	chemical 122 132	surfactant
+T5	disease_or_phenotypic_feature 195 200	blood
+T6	chemical 201 209	ethyl-Hg
+T7	chemical 264 272	ethyl-Hg
+T8	chemical 282 287	group
+T9	chemical 303 311	ethyl-Hg
+T10	chemical 362 370	ethyl-Hg
+T11	chemical 380 385	group
+T12	chemical 404 416	Methotrexate
+T13	missed_chemical 418 421	MTX
+T14	chemical 439 450	anti-folate
+T15	disease_or_phenotypic_feature 460 498	pediatric acute lymphoblastic leukemia
+T16	missed_disease_or_phenotypic_feature 500 503	ALL
+T17	disease_or_phenotypic_feature 613 619	myopia
+T18	chemical 650 658	atropine
+T19	disease_or_phenotypic_feature 818 829	CRISPR-Cas9
+T20	chemical 847 855	graphene
+T21	chemical 898 904	Emodin
+T22	chemical 922 948	lipopolysaccharide-induced
+T23	corrected_disease_or_phenotypic_feature 922 968	lipopolysaccharide-induced inflammatory injury
+T24	disease_or_phenotypic_feature 962 968	injury
+T25	chemical 1033 1042	Carnitine
+T26	disease_or_phenotypic_feature 1079 1082	ALT
+T27	disease_or_phenotypic_feature 1250 1259	sensitive
+T28	disease_or_phenotypic_feature 1273 1278	tumor
+T29	chemical 1279 1289	biomarkers
+T30	missed_chemical 1330 1335	NeoCh
+T31	disease_or_phenotypic_feature 1417 1422	tumor
+T32	chemical 1460 1468	residual
+T33	chemical 1661 1689	low-molecular-weight-heparin
+T34	missed_disease_or_phenotypic_feature 1726 1749	intraoperative bleeding
+T35	chemical 1764 1771	heparin
+T36	disease_or_phenotypic_feature 1824 1835	lung cancer
+T37	chemical 1854 1859	HbA1c
+T38	disease_or_phenotypic_feature 1894 1902	SAPT-LGS
+T39	chemical 1903 1908	group
+T40	chemical 1971 1984	hydrogen atom
+T41	disease_or_phenotypic_feature 1995 1998	HAT
+T42	chemical 2014 2022	metal-QC
+T43	chemical 2071 2078	radical
+T44	chemical 2169 2173	drug
+T45	disease_or_phenotypic_feature 2258 2278	lymphatic filariasis
+T46	disease_or_phenotypic_feature 2295 2304	hydrocele
+T47	disease_or_phenotypic_feature 2320 2330	lymphedema
+T48	chemical 2394 2400	TDP-43
+T49	disease_or_phenotypic_feature 2456 2475	Alzheimer's Disease
+T50	chemical 2505 2524	signaling molecules
+T51	disease_or_phenotypic_feature 2638 2644	cancer
+T52	disease_or_phenotypic_feature 2681 2713	central serous chorioretinopathy
+T53	disease_or_phenotypic_feature 2715 2718	CSC
+T54	chemical 2753 2768	corticosteroids
+T55	chemical 2828 2849	Tiotropium/Olodaterol
+T56	disease_or_phenotypic_feature 2863 2867	COPD
+T57	chemical 2920 2928	lycopene
+T58	chemical 2972 2981	oxidative
+T59	missed_disease_or_phenotypic_feature 2972 2988	oxidative stress
+T60	disease_or_phenotypic_feature 2992 3001	infertile
+T61	disease_or_phenotypic_feature 3002 3005	men
+T62	chemical 3162 3175	micronutrient
+T63	disease_or_phenotypic_feature 3209 3249	attention deficit hyperactivity disorder
+T64	chemical 3306 3313	protein
+T65	disease_or_phenotypic_feature 3333 3338	tumor
+R1	treats Arg1:T62 Arg2:T63
+R2	treats Arg1:T18 Arg2:T17
+R3	treats Arg1:T30 Arg2:T28
+R4	treats Arg1:T44 Arg2:T45
+R5	treats Arg1:T57 Arg2:T59
+R6	treats Arg1:T57 Arg2:T60
+R7	treats Arg1:T12 Arg2:T15
+R8	treats Arg1:T12 Arg2:T16
+R9	treats Arg1:T35 Arg2:T34
+R10	treats Arg1:T13 Arg2:T15
+R11	treats Arg1:T13 Arg2:T16
+R12	treats Arg1:T33 Arg2:T34
+R13	causes_or_contributes_to Arg1:T54 Arg2:T52
+R14	causes_or_contributes_to Arg1:T54 Arg2:T53
+R15	treats Arg1:T21 Arg2:T23

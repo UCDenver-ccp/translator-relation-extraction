@@ -1,71 +1,71 @@
-T1	missed_chemical 193622 193625	PLP
-T2	missed_chemical 193630 193633	DOX
-T3	disease_or_phenotypic_feature 193637 193645	melanoma
-T4	disease_or_phenotypic_feature 193719 193724	tumor
-T5	chemical 193741 193750	oxidative
-T6	disease_or_phenotypic_feature 193891 193894	RAd
-T7	disease_or_phenotypic_feature 193903 193916	cerviX cancer
-T8	chemical 194001 194008	radical
-T9	disease_or_phenotypic_feature 194269 194272	CSP
-T10	chemical 194326 194332	sodium
-T11	chemical 194344 194390	tetrakis[3,5-bis(trifluoromethyl)phenyl]borate
-T12	chemical 194344 194396	tetrakis[3,5-bis(trifluoromethyl)phenyl]borate salts
-T13	chemical 194461 194479	[hexane-2-propanol
-T14	chemical 194511 194519	Paraquat
-T15	disease_or_phenotypic_feature 194524 194543	Parkinson's disease
-T16	chemical 194672 194682	inhibitors
-T17	chemical 194744 194758	drug-resistant
-T18	disease_or_phenotypic_feature 194759 194770	influenza A
-T19	disease_or_phenotypic_feature 194791 194800	influenza
-T20	disease_or_phenotypic_feature 194829 194847	influenza-infected
-T21	chemical 194871 194880	Chalcones
-T22	chemical 194911 194915	drug
-T23	disease_or_phenotypic_feature 194956 194963	malaria
-T24	chemical 195026 195036	biomarkers
-T25	disease_or_phenotypic_feature 195105 195119	Chagas disease
-T26	chemical 195187 195191	mRNA
-T27	chemical 195196 195203	protein
-T28	disease_or_phenotypic_feature 195301 195307	injury
-T29	chemical 195415 195425	eplerenone
-T30	corrected_disease_or_phenotypic_feature 195443 195483	chronic central serous chorioretinopathy
-T31	disease_or_phenotypic_feature 195451 195483	central serous chorioretinopathy
-T32	chemical 195550 195554	CGRP
-T33	disease_or_phenotypic_feature 195587 195595	Migraine
-T34	chemical 195737 195747	biomarkers
-T35	disease_or_phenotypic_feature 195791 195804	breast cancer
-T36	chemical 195931 195937	oxygen
-T37	disease_or_phenotypic_feature 195968 195991	obstructive sleep apnea
-T38	chemical 196040 196043	NPC
-T39	disease_or_phenotypic_feature 196040 196043	NPC
-T40	chemical 196168 196171	RNA
-T41	disease_or_phenotypic_feature 196230 196241	sensitivity
-T42	chemical 196332 196340	Nanorods
-T43	chemical 196362 196371	Porphyrin
-T44	disease_or_phenotypic_feature 196436 196446	Anti-tumor
-T45	chemical 196539 196555	dabrafenib-based
-T46	disease_or_phenotypic_feature 196573 196581	melanoma
-T47	chemical 196634 196641	retinal
-T48	chemical 196642 196652	biomarkers
-T49	chemical 196686 196695	retinitis
-T50	disease_or_phenotypic_feature 196686 196706	retinitis pigmentosa
-T51	disease_or_phenotypic_feature 196884 196889	tumor
-T52	disease_or_phenotypic_feature 196928 196933	tumor
-T53	chemical 196960 196976	immunomodulation
-T54	chemical 196981 196985	drug
-T55	chemical 197084 197097	antibody-drug
-T56	disease_or_phenotypic_feature 197141 197163	acute myeloid leukemia
-T57	disease_or_phenotypic_feature 197165 197169	AML)
-T58	corrected_chemical 197234 197257	Topical Corticosteroids
-T59	chemical 197242 197257	Corticosteroids
-T60	corrected_disease_or_phenotypic_feature 197286 197313	Childhood Atopic Dermatitis
-T61	disease_or_phenotypic_feature 197296 197313	Atopic Dermatitis
-R1	treats Arg1:T36 Arg2:T37
-R2	treats Arg1:T21 Arg2:T23
-R3	treats Arg1:T1 Arg2:T4
-R4	treats Arg1:T1 Arg2:T3
-R5	treats Arg1:T58 Arg2:T60
-R6	treats Arg1:T29 Arg2:T30
-R7	treats Arg1:T22 Arg2:T23
-R8	treats Arg1:T2 Arg2:T3
-R9	treats Arg1:T2 Arg2:T4
+T1	missed_chemical 54 57	PLP
+T2	missed_chemical 62 65	DOX
+T3	disease_or_phenotypic_feature 69 77	melanoma
+T4	disease_or_phenotypic_feature 151 156	tumor
+T5	chemical 173 182	oxidative
+T6	disease_or_phenotypic_feature 323 326	RAd
+T7	disease_or_phenotypic_feature 335 348	cerviX cancer
+T8	chemical 433 440	radical
+T9	disease_or_phenotypic_feature 701 704	CSP
+T10	chemical 758 764	sodium
+T11	chemical 776 822	tetrakis[3,5-bis(trifluoromethyl)phenyl]borate
+T12	chemical 776 828	tetrakis[3,5-bis(trifluoromethyl)phenyl]borate salts
+T13	chemical 893 911	[hexane-2-propanol
+T14	chemical 943 951	Paraquat
+T15	disease_or_phenotypic_feature 956 975	Parkinson's disease
+T16	chemical 1104 1114	inhibitors
+T17	chemical 1176 1190	drug-resistant
+T18	disease_or_phenotypic_feature 1191 1202	influenza A
+T19	disease_or_phenotypic_feature 1223 1232	influenza
+T20	disease_or_phenotypic_feature 1261 1279	influenza-infected
+T21	chemical 1303 1312	Chalcones
+T22	chemical 1343 1347	drug
+T23	disease_or_phenotypic_feature 1388 1395	malaria
+T24	chemical 1458 1468	biomarkers
+T25	disease_or_phenotypic_feature 1537 1551	Chagas disease
+T26	chemical 1619 1623	mRNA
+T27	chemical 1628 1635	protein
+T28	disease_or_phenotypic_feature 1733 1739	injury
+T29	chemical 1847 1857	eplerenone
+T30	corrected_disease_or_phenotypic_feature 1875 1915	chronic central serous chorioretinopathy
+T31	disease_or_phenotypic_feature 1883 1915	central serous chorioretinopathy
+T32	chemical 1982 1986	CGRP
+T33	disease_or_phenotypic_feature 2019 2027	Migraine
+T34	chemical 2169 2179	biomarkers
+T35	disease_or_phenotypic_feature 2223 2236	breast cancer
+T36	chemical 2363 2369	oxygen
+T37	disease_or_phenotypic_feature 2400 2423	obstructive sleep apnea
+T38	chemical 2472 2475	NPC
+T39	disease_or_phenotypic_feature 2472 2475	NPC
+T40	chemical 2600 2603	RNA
+T41	disease_or_phenotypic_feature 2662 2673	sensitivity
+T42	chemical 2764 2772	Nanorods
+T43	chemical 2794 2803	Porphyrin
+T44	disease_or_phenotypic_feature 2868 2878	Anti-tumor
+T45	chemical 2971 2987	dabrafenib-based
+T46	disease_or_phenotypic_feature 3005 3013	melanoma
+T47	chemical 3066 3073	retinal
+T48	chemical 3074 3084	biomarkers
+T49	chemical 3118 3127	retinitis
+T50	disease_or_phenotypic_feature 3118 3138	retinitis pigmentosa
+T51	disease_or_phenotypic_feature 3316 3321	tumor
+T52	disease_or_phenotypic_feature 3360 3365	tumor
+T53	chemical 3392 3408	immunomodulation
+T54	chemical 3413 3417	drug
+T55	chemical 3516 3529	antibody-drug
+T56	disease_or_phenotypic_feature 3573 3595	acute myeloid leukemia
+T57	disease_or_phenotypic_feature 3597 3601	AML)
+T58	corrected_chemical 3666 3689	Topical Corticosteroids
+T59	chemical 3674 3689	Corticosteroids
+T60	corrected_disease_or_phenotypic_feature 3718 3745	Childhood Atopic Dermatitis
+T61	disease_or_phenotypic_feature 3728 3745	Atopic Dermatitis
+R1	treats Arg1:T1 Arg2:T4
+R2	treats Arg1:T1 Arg2:T3
+R3	treats Arg1:T2 Arg2:T3
+R4	treats Arg1:T2 Arg2:T4
+R5	treats Arg1:T36 Arg2:T37
+R6	treats Arg1:T22 Arg2:T23
+R7	treats Arg1:T21 Arg2:T23
+R8	treats Arg1:T58 Arg2:T60
+R9	treats Arg1:T29 Arg2:T30
 R10	treats Arg1:T54 Arg2:T51

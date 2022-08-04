@@ -1,59 +1,59 @@
-T1	disease_or_phenotypic_feature 193599 193606	anaemia
-T2	chemical 193676 193687	haemoglobin
-T3	chemical 193806 193817	adiponectin
-T4	disease_or_phenotypic_feature 193877 193888	sensitivity
-T5	disease_or_phenotypic_feature 193936 193940	GDM.
-T6	corrected_chemical 193958 193974	RORγ antagonists
-T7	chemical 193963 193974	antagonists
-T8	disease_or_phenotypic_feature 193981 193986	tumor
-T9	chemical 194112 194120	peptides
-T10	disease_or_phenotypic_feature 194152 194155	RCC
-T11	disease_or_phenotypic_feature 194217 194224	disease
-T12	chemical 194307 194312	water
-T13	disease_or_phenotypic_feature 194403 194406	hit
-T14	disease_or_phenotypic_feature 194430 194433	get
-T15	chemical 194576 194585	steroids(
-T16	disease_or_phenotypic_feature 194606 194613	disease
-T17	disease_or_phenotypic_feature 194645 194655	depression
-T18	disease_or_phenotypic_feature 194681 194688	anxiety
-T19	disease_or_phenotypic_feature 194754 194760	cancer
-T20	chemical 194832 194839	protein
-T21	chemical 194929 194936	protein
-T22	chemical 195048 195057	riociguat
-T23	corrected_disease_or_phenotypic_feature 195069 195085	inoperable CTEPH
-T24	disease_or_phenotypic_feature 195080 195085	CTEPH
-T25	chemical 195139 195148	biomarker
-T26	disease_or_phenotypic_feature 195216 195221	wound
-T27	chemical 195248 195265	Anti-phospholipid
-T28	disease_or_phenotypic_feature 195319 195334	atherosclerosis
-T29	chemical 195456 195465	magnesium
-T30	disease_or_phenotypic_feature 195483 195486	SOD
-T31	disease_or_phenotypic_feature 195565 195597	intervertebral disc degeneration
-T32	chemical 195770 195777	nucleus
-T33	disease_or_phenotypic_feature 195951 195956	blood
-T34	chemical 195977 195980	DNA
-T35	disease_or_phenotypic_feature 196009 196022	Leptospirosis
-T36	disease_or_phenotypic_feature 196028 196032	rare
-T37	disease_or_phenotypic_feature 196053 196060	disease
-T38	chemical 196077 196082	water
-T39	chemical 196189 196192	fat
-T40	disease_or_phenotypic_feature 196207 196212	blood
-T41	chemical 196213 196220	glucose
-T42	chemical 196228 196233	lipid
-T43	chemical 196320 196325	lipid
-T44	disease_or_phenotypic_feature 196350 196357	obesity
-T45	chemical 196427 196437	polyphenol
-T46	chemical 196441 196448	protein
-T47	disease_or_phenotypic_feature 196492 196500	diseases
-T48	disease_or_phenotypic_feature 196522 196525	get
-T49	chemical 196658 196672	nanostructured
-T50	chemical 196772 196783	Cannabidiol
-T51	disease_or_phenotypic_feature 196823 196828	PTSD.
-T52	disease_or_phenotypic_feature 196885 196890	tumor
-T53	chemical 196891 196907	antigen-specific
-T54	chemical 197147 197157	food/drugs
-T55	disease_or_phenotypic_feature 197178 197184	cancer
-T56	disease_or_phenotypic_feature 197212 197235	acute coronary syndrome
+T1	disease_or_phenotypic_feature 31 38	anaemia
+T2	chemical 108 119	haemoglobin
+T3	chemical 238 249	adiponectin
+T4	disease_or_phenotypic_feature 309 320	sensitivity
+T5	disease_or_phenotypic_feature 368 372	GDM.
+T6	corrected_chemical 390 406	RORγ antagonists
+T7	chemical 395 406	antagonists
+T8	disease_or_phenotypic_feature 413 418	tumor
+T9	chemical 544 552	peptides
+T10	disease_or_phenotypic_feature 584 587	RCC
+T11	disease_or_phenotypic_feature 649 656	disease
+T12	chemical 739 744	water
+T13	disease_or_phenotypic_feature 835 838	hit
+T14	disease_or_phenotypic_feature 862 865	get
+T15	chemical 1008 1017	steroids(
+T16	disease_or_phenotypic_feature 1038 1045	disease
+T17	disease_or_phenotypic_feature 1077 1087	depression
+T18	disease_or_phenotypic_feature 1113 1120	anxiety
+T19	disease_or_phenotypic_feature 1186 1192	cancer
+T20	chemical 1264 1271	protein
+T21	chemical 1361 1368	protein
+T22	chemical 1480 1489	riociguat
+T23	corrected_disease_or_phenotypic_feature 1501 1517	inoperable CTEPH
+T24	disease_or_phenotypic_feature 1512 1517	CTEPH
+T25	chemical 1571 1580	biomarker
+T26	disease_or_phenotypic_feature 1648 1653	wound
+T27	chemical 1680 1697	Anti-phospholipid
+T28	disease_or_phenotypic_feature 1751 1766	atherosclerosis
+T29	chemical 1888 1897	magnesium
+T30	disease_or_phenotypic_feature 1915 1918	SOD
+T31	disease_or_phenotypic_feature 1997 2029	intervertebral disc degeneration
+T32	chemical 2202 2209	nucleus
+T33	disease_or_phenotypic_feature 2383 2388	blood
+T34	chemical 2409 2412	DNA
+T35	disease_or_phenotypic_feature 2441 2454	Leptospirosis
+T36	disease_or_phenotypic_feature 2460 2464	rare
+T37	disease_or_phenotypic_feature 2485 2492	disease
+T38	chemical 2509 2514	water
+T39	chemical 2621 2624	fat
+T40	disease_or_phenotypic_feature 2639 2644	blood
+T41	chemical 2645 2652	glucose
+T42	chemical 2660 2665	lipid
+T43	chemical 2752 2757	lipid
+T44	disease_or_phenotypic_feature 2782 2789	obesity
+T45	chemical 2859 2869	polyphenol
+T46	chemical 2873 2880	protein
+T47	disease_or_phenotypic_feature 2924 2932	diseases
+T48	disease_or_phenotypic_feature 2954 2957	get
+T49	chemical 3090 3104	nanostructured
+T50	chemical 3204 3215	Cannabidiol
+T51	disease_or_phenotypic_feature 3255 3260	PTSD.
+T52	disease_or_phenotypic_feature 3317 3322	tumor
+T53	chemical 3323 3339	antigen-specific
+T54	chemical 3579 3589	food/drugs
+T55	disease_or_phenotypic_feature 3610 3616	cancer
+T56	disease_or_phenotypic_feature 3644 3667	acute coronary syndrome
 R1	treats Arg1:T22 Arg2:T23
 R2	treats Arg1:T22 Arg2:T24
 R3	treats Arg1:T6 Arg2:T8

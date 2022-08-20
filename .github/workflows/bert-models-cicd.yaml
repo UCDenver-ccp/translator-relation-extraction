@@ -71,7 +71,7 @@ jobs:
     #     echo "Your file ${{ env.DOCKERFILE }} has been modified."
     - name: Set up Cloud SDK
       # if: contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE)
-      uses: google-github-actions/setup-gcloud@master
+      uses: google-github-actions/setup-gcloud@main
       with:
         project_id: ${{ secrets.GCE_PROJECT }}
         service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -138,7 +138,7 @@ jobs:
 #         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       uses: google-github-actions/setup-gcloud@master
+#       uses: google-github-actions/setup-gcloud@main
 #       with:
 #         project_id: ${{ secrets.GCE_PROJECT }}
 #         service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -269,7 +269,7 @@ jobs:
 #         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       uses: google-github-actions/setup-gcloud@master
+#       uses: google-github-actions/setup-gcloud@main
 #       with:
 #         project_id: ${{ secrets.GCE_PROJECT }}
 #         service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -387,7 +387,7 @@ jobs:
 #         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       uses: google-github-actions/setup-gcloud@master
+#       uses: google-github-actions/setup-gcloud@main
 #       with:
 #         project_id: ${{ secrets.GCE_PROJECT }}
 #         service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -518,7 +518,7 @@ jobs:
 #         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       uses: google-github-actions/setup-gcloud@master
+#       uses: google-github-actions/setup-gcloud@main
 #       with:
 #         project_id: ${{ secrets.GCE_PROJECT }}
 #         service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -635,7 +635,7 @@ jobs:
 #         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       uses: google-github-actions/setup-gcloud@master
+#       uses: google-github-actions/setup-gcloud@main
 #       with:
 #         project_id: ${{ secrets.GCE_PROJECT }}
 #         service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -789,7 +789,7 @@ jobs:
 #         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
 #         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       uses: google-github-actions/setup-gcloud@master
+#       uses: google-github-actions/setup-gcloud@main
 #       with:
 #         project_id: ${{ secrets.GCE_PROJECT }}
 #         service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -906,7 +906,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-      uses: google-github-actions/setup-gcloud@master
+      uses: google-github-actions/setup-gcloud@main
       with:
         project_id: ${{ secrets.GCE_PROJECT }}
         service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -1037,7 +1037,7 @@ jobs:
         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-      uses: google-github-actions/setup-gcloud@master
+      uses: google-github-actions/setup-gcloud@main
       with:
         project_id: ${{ secrets.GCE_PROJECT }}
         service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -1154,7 +1154,7 @@ jobs:
   #       contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-  #     uses: google-github-actions/setup-gcloud@master
+  #     uses: google-github-actions/setup-gcloud@main
   #     with:
   #       project_id: ${{ secrets.GCE_PROJECT }}
   #       service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -1303,7 +1303,7 @@ jobs:
   #       contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-  #     uses: google-github-actions/setup-gcloud@master
+  #     uses: google-github-actions/setup-gcloud@main
   #     with:
   #       project_id: ${{ secrets.GCE_PROJECT }}
   #       service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -1420,7 +1420,7 @@ jobs:
   #       contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-  #     uses: google-github-actions/setup-gcloud@master
+  #     uses: google-github-actions/setup-gcloud@main
   #     with:
   #       project_id: ${{ secrets.GCE_PROJECT }}
   #       service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -1551,7 +1551,7 @@ jobs:
   #       contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-  #     uses: google-github-actions/setup-gcloud@master
+  #     uses: google-github-actions/setup-gcloud@main
   #     with:
   #       project_id: ${{ secrets.GCE_PROJECT }}
   #       service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -1668,7 +1668,7 @@ jobs:
   #       contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-  #     uses: google-github-actions/setup-gcloud@master
+  #     uses: google-github-actions/setup-gcloud@main
   #     with:
   #       project_id: ${{ secrets.GCE_PROJECT }}
   #       service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -1799,7 +1799,7 @@ jobs:
   #       contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
   #       contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-  #     uses: google-github-actions/setup-gcloud@master
+  #     uses: google-github-actions/setup-gcloud@main
   #     with:
   #       project_id: ${{ secrets.GCE_PROJECT }}
   #       service_account_key: ${{ secrets.GCE_SA_KEY }}

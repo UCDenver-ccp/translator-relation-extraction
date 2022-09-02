@@ -74,7 +74,6 @@ T72	corrected_chemical 1259 1274	Hydrogen saline
 R2	treats Arg1:T72 Arg2:T34	
 T73	missed_chemical 1387 1395	asbestos
 T74	missed_chemical 1397 1404	smoking
-T75	missed_chemical 1406 1414	sunlight
 T76	corrected_chemical 1425 1435	fatty food
 R3	treats Arg1:T40 Arg2:T42	
 T77	missed_disease_or_phenotypic_feature 1584 1611	olfactory epithelial damage
@@ -87,6 +86,22 @@ T82	missed_chemical 1921 1938	epithelial Hif1-α
 T83	missed_chemical 1974 1978	IELs
 T84	corrected_disease_or_phenotypic_feature 1982 2019	NSAID-induced small intestinal injury
 T85	corrected_disease_or_phenotypic_feature 2052 2090	dextran sulfate sodium-induced colitis
-R5	treats Arg1:T65 Arg2:T60	
 R6	treats Arg1:T65 Arg2:T62	
-R7	treats Arg1:T65 Arg2:T60	
+T86	missed_disease_or_phenotypic_feature 573 624	pathologies in which neovascularization is involved
+R8	treats Arg1:T12 Arg2:T86	
+T87	missed_chemical 771 775	NNAV
+T88	corrected_disease_or_phenotypic_feature 785 816	ADR-induced chronic nephropathy
+T89	corrected_disease_or_phenotypic_feature 821 869	glycerol-triggered acute renal failure syndromes
+T90	missed_disease_or_phenotypic_feature 983 1003	pathological damages
+R9	treats Arg1:T87 Arg2:T88	
+R10	treats Arg1:T87 Arg2:T89	
+R11	treats Arg1:T87 Arg2:T20	
+R12	treats Arg1:T87 Arg2:T21	
+R13	treats Arg1:T87 Arg2:T22	
+R14	treats Arg1:T87 Arg2:T69	
+R15	treats Arg1:T87 Arg2:T70	
+R16	treats Arg1:T87 Arg2:T90	
+R17	causes_or_contributes_to Arg1:T24 Arg2:T26	
+T75	missed_disease_or_phenotypic_feature 1564 1566	OD
+R18	treats Arg1:T44 Arg2:T75	
+R5	treats Arg1:T65 Arg2:T61	

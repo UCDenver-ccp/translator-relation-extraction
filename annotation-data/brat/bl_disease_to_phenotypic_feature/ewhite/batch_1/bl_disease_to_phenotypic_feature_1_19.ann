@@ -64,57 +64,17 @@ T60	missed_disease_or_phenotypic_feature 416 449	high anion gap metabolic acidos
 R3	has_phenotype Arg1:T59 Arg2:T60	
 R4	has_phenotype Arg1:T59 Arg2:T12	
 R5	has_phenotype Arg1:T59 Arg2:T11	
-R6	has_phenotype Arg1:T52 Arg2:T1	
-R7	has_phenotype Arg1:T52 Arg2:T53	
-R8	has_phenotype Arg1:T52 Arg2:T54	
-R9	has_phenotype Arg1:T52 Arg2:T2	
-R10	has_phenotype Arg1:T52 Arg2:T55	
-R11	has_phenotype Arg1:T52 Arg2:T3	
-R12	has_phenotype Arg1:T52 Arg2:T56	
-R13	has_phenotype Arg1:T52 Arg2:T4	
-R14	has_phenotype Arg1:T52 Arg2:T57	
 T61	missed_disease_or_phenotypic_feature 628 638	toxicities
-R15	has_phenotype Arg1:T61 Arg2:T16	
-R16	has_phenotype Arg1:T61 Arg2:T17	
-R17	has_phenotype Arg1:T61 Arg2:T18	
-R18	has_phenotype Arg1:T61 Arg2:T19	
 T62	missed_disease_or_phenotypic_feature 668 674	emesis
-R19	has_phenotype Arg1:T61 Arg2:T62	
 T63	missed_disease_or_phenotypic_feature 715 738	clinical manifestations
-R20	has_phenotype Arg1:T63 Arg2:T20	
 T64	missed_disease_or_phenotypic_feature 775 783	dementia
 T65	missed_disease_or_phenotypic_feature 819 834	pyramidal signs
-R21	has_phenotype Arg1:T63 Arg2:T64	
-R22	has_phenotype Arg1:T63 Arg2:T21	
-R23	has_phenotype Arg1:T63 Arg2:T22	
-R24	has_phenotype Arg1:T63 Arg2:T65	
-R25	has_phenotype Arg1:T63 Arg2:T23	
 T66	missed_disease_or_phenotypic_feature 1077 1085	Symptoms
 T67	missed_disease_or_phenotypic_feature 1090 1095	signs
-R26	has_phenotype Arg1:T66 Arg2:T29	
-R27	has_phenotype Arg1:T66 Arg2:T30	
-R28	has_phenotype Arg1:T66 Arg2:T31	
 T68	missed_disease_or_phenotypic_feature 1104 1116	poor feeding
-R29	has_phenotype Arg1:T66 Arg2:T68	
-R30	has_phenotype Arg1:T66 Arg2:T32	
 T69	missed_disease_or_phenotypic_feature 1155 1163	jaundice
-R31	has_phenotype Arg1:T66 Arg2:T33	
-R32	has_phenotype Arg1:T66 Arg2:T69	
-R33	has_phenotype Arg1:T66 Arg2:T34	
 T70	missed_disease_or_phenotypic_feature 1189 1207	hepatosplenomegaly
 T71	missed_disease_or_phenotypic_feature 1209 1237	hepatocellular insufficiency
-R34	has_phenotype Arg1:T66 Arg2:T70	
-R35	has_phenotype Arg1:T66 Arg2:T71	
-R36	has_phenotype Arg1:T67 Arg2:T68	
-R37	has_phenotype Arg1:T67 Arg2:T29	
-R38	has_phenotype Arg1:T67 Arg2:T30	
-R39	has_phenotype Arg1:T67 Arg2:T31	
-R40	has_phenotype Arg1:T67 Arg2:T69	
-R41	has_phenotype Arg1:T67 Arg2:T32	
-R42	has_phenotype Arg1:T67 Arg2:T33	
-R43	has_phenotype Arg1:T67 Arg2:T70	
-R44	has_phenotype Arg1:T67 Arg2:T71	
-R45	has_phenotype Arg1:T67 Arg2:T34	
 T72	missed_disease_or_phenotypic_feature 1266 1275	end stage
 R46	has_phenotype Arg1:T72 Arg2:T36	
 T73	corrected_disease_or_phenotypic_feature 1277 1289	renal anemia

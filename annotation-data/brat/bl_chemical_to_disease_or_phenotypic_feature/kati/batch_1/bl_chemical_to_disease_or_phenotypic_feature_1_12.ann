@@ -62,7 +62,7 @@ T61	disease_or_phenotypic_feature 2173 2180	obesity
 T62	disease_or_phenotypic_feature 2182 2197	type 2 diabetes
 T63	disease_or_phenotypic_feature 2210 2243	non-alcoholic fatty liver disease
 T65	chemical 2272 2279	glycine
-T66	chemical 2396 2403	glycine
+T66	corrected_chemical 2396 2419	glycine supplementation
 T67	chemical 2461 2498	non-steroidal anti-inflammatory drugs
 T68	chemical 2502 2511	frusemide
 T69	disease_or_phenotypic_feature 2532 2547	cardiac failure
@@ -118,4 +118,34 @@ R29	treats Arg1:T66 Arg2:T63
 R30	treats Arg1:T66 Arg2:T64	
 R31	treats Arg1:T66 Arg2:T88	
 T89	missed_disease_or_phenotypic_feature 2199 2203	T2DM
-R32	treats Arg1:T65 Arg2:T89	
+T90	missed_disease_or_phenotypic_feature 2502 2528	frusemide-induced diuresis
+R33	treats Arg1:T67 Arg2:T90	
+R34	causes_or_contributes_to Arg1:T10 Arg2:T11	
+T91	missed_disease_or_phenotypic_feature 2520 2528	diuresis
+R35	causes_or_contributes_to Arg1:T68 Arg2:T91	
+T92	missed_disease_or_phenotypic_feature 398 404	chills
+T93	missed_disease_or_phenotypic_feature 406 412	nausea
+R36	causes_or_contributes_to Arg1:T10 Arg2:T92	
+R37	causes_or_contributes_to Arg1:T10 Arg2:T93	
+R38	causes_or_contributes_to Arg1:T10 Arg2:T12	
+R39	causes_or_contributes_to Arg1:T10 Arg2:T13	
+R40	causes_or_contributes_to Arg1:T10 Arg2:T14	
+T94	missed_disease_or_phenotypic_feature 1696 1708	tumor spread
+T95	missed_disease_or_phenotypic_feature 1696 1701;1713 1719	tumor growth
+R41	causes_or_contributes_to Arg1:T47 Arg2:T94	
+R42	causes_or_contributes_to Arg1:T47 Arg2:T95	
+T96	corrected_chemical 2563 2610	serotonin and norepinephrine reuptake inhibitor
+T97	missed_chemical 2612 2616	SNRI
+T98	missed_disease_or_phenotypic_feature 2636 2653	analgesic effects
+T99	corrected_disease_or_phenotypic_feature 2657 2687	diabetic peripheral neuropathy
+T100	missed_disease_or_phenotypic_feature 2692 2704	fibromyalgia
+R43	causes_or_contributes_to Arg1:T70 Arg2:T98	
+R44	causes_or_contributes_to Arg1:T96 Arg2:T98	
+R45	causes_or_contributes_to Arg1:T97 Arg2:T98	
+R46	treats Arg1:T70 Arg2:T99	
+R47	treats Arg1:T96 Arg2:T99	
+R49	treats Arg1:T97 Arg2:T99	
+R48	treats Arg1:T70 Arg2:T100	
+R50	treats Arg1:T96 Arg2:T100	
+R51	treats Arg1:T97 Arg2:T100	
+R52	treats Arg1:T66 Arg2:T89	

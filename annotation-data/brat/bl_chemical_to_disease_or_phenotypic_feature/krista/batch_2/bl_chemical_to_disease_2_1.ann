@@ -60,19 +60,12 @@ T59	disease_or_phenotypic_feature 3598 3603	blood
 T60	chemical 3621 3630	biomarker
 T61	disease_or_phenotypic_feature 3694 3699	tumor
 T62	chemical 3773 3782	Metformin
-T63	chemical 3788 3799	Liraglutide
 T64	disease_or_phenotypic_feature 3804 3819	type 2 diabetes
 T65	chemical 3839 3844	HbA1c
-T66	missed_chemical 3861 3867	GLP1RA
-T67	missed_chemical 3873 3886	basal insulin
-T68	missed_chemical 3902 3921	basal-bolus insulin
 T69	disease_or_phenotypic_feature 3975 3999	type 2 diabetes mellitus
-R1	treats Arg1:T67 Arg2:T69
 R2	treats Arg1:T24 Arg2:T26
 R3	treats Arg1:T37 Arg2:T34
 R4	treats Arg1:T37 Arg2:T36
-R5	treats Arg1:T66 Arg2:T69
-R6	treats Arg1:T68 Arg2:T69
 R7	treats Arg1:T27 Arg2:T28
 R8	treats Arg1:T1 Arg2:T2
 R9	FIXME Arg1:T9 Arg2:T12
@@ -81,7 +74,16 @@ R11	FIXME Arg1:T10 Arg2:T12
 R12	treats Arg1:T10 Arg2:T12
 R13	treats Arg1:T62 Arg2:T64
 R14	treats Arg1:T8 Arg2:T12
-R15	treats Arg1:T63 Arg2:T64
 R16	treats Arg1:T29 Arg2:T31
 R17	treats Arg1:T29 Arg2:T33
 R18	treats Arg1:T29 Arg2:T30
+T70	corrected_disease_or_phenotypic_feature 3160 3165	tumor
+T71	missed_chemical 3074 3095	l-boronophenylalanine
+T72	missed_chemical 3097 3100	BPA
+T73	corrected_chemical 3106 3124	sodium borocaptate
+T74	corrected_chemical 3043 3065	boron-containing drugs
+R19	treats Arg1:T74 Arg2:T70	
+R20	treats Arg1:T71 Arg2:T70	
+R21	treats Arg1:T72 Arg2:T70	
+R22	treats Arg1:T73 Arg2:T70	
+R1	treats Arg1:T53 Arg2:T70	

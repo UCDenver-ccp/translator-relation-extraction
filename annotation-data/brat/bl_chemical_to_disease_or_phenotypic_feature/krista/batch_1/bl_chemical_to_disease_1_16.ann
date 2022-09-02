@@ -72,28 +72,27 @@ T71	disease_or_phenotypic_feature 3467 3482	depression-like
 T72	chemical 3515 3522	sucrose
 R1	treats Arg1:T32 Arg2:T35
 R2	treats Arg1:T32 Arg2:T34
-R3	treats Arg1:T6 Arg2:T4
-R4	treats Arg1:T6 Arg2:T5
 R5	FIXME Arg1:T6 Arg2:T5
 R6	FIXME Arg1:T6 Arg2:T4
 R7	FIXME Arg1:T7 Arg2:T4
 R8	FIXME Arg1:T7 Arg2:T5
-R9	treats Arg1:T11 Arg2:T4
-R10	treats Arg1:T11 Arg2:T5
 R11	FIXME Arg1:T11 Arg2:T5
 R12	FIXME Arg1:T11 Arg2:T4
-R13	treats Arg1:T10 Arg2:T5
-R14	treats Arg1:T10 Arg2:T4
 R15	FIXME Arg1:T10 Arg2:T4
 R16	FIXME Arg1:T10 Arg2:T5
 R17	treats Arg1:T16 Arg2:T19
 R18	treats Arg1:T1 Arg2:T3
 R19	FIXME Arg1:T8 Arg2:T4
 R20	FIXME Arg1:T8 Arg2:T5
-R21	treats Arg1:T8 Arg2:T4
-R22	treats Arg1:T8 Arg2:T5
-R23	treats Arg1:T9 Arg2:T5
-R24	treats Arg1:T9 Arg2:T4
 R25	FIXME Arg1:T9 Arg2:T5
 R26	FIXME Arg1:T9 Arg2:T4
 R27	treats Arg1:T50 Arg2:T52
+T73	missed_disease_or_phenotypic_feature 573 581	diabetic
+R3	treats Arg1:T16 Arg2:T73	
+R4	treats Arg1:T17 Arg2:T73	
+T74	corrected_disease_or_phenotypic_feature 605 611	cancer
+R9	treats Arg1:T16 Arg2:T74	
+T75	corrected_disease_or_phenotypic_feature 1762 1767	tumor
+T76	missed_chemical 1778 1783	GnRHa
+R10	treats Arg1:T76 Arg2:T75	
+R13	causes_or_contributes_to Arg1:T39 Arg2:T75	

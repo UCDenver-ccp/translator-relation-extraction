@@ -8,7 +8,6 @@ T7	disease_or_phenotypic_feature 170 183	renal failure
 T8	disease_or_phenotypic_feature 222 229	obesity
 T9	chemical 230 237	hormone
 T10	chemical 238 244	leptin
-T11	disease_or_phenotypic_feature 281 287	cancer
 T12	chemical 348 356	antigens
 T13	disease_or_phenotypic_feature 373 387	stomach tumors
 T14	disease_or_phenotypic_feature 390 408	Malignant melanoma
@@ -64,3 +63,56 @@ T63	disease_or_phenotypic_feature 2332 2336	pain
 T64	chemical 2338 2344	Yeasts
 T65	chemical 2361 2369	antigens
 T66	disease_or_phenotypic_feature 2373 2379	cancer
+T67	corrected_chemical 77 98	chemotherapeutic drug
+R1	causes_or_contributes_to Arg1:T67 Arg2:T1	
+R2	causes_or_contributes_to Arg1:T3 Arg2:T1	
+T68	corrected_chemical 222 237	obesity hormone
+T11	disease_or_phenotypic_feature 281 287	cancer
+T69	corrected_disease_or_phenotypic_feature 281 299	cancer development
+T70	missed_disease_or_phenotypic_feature 281 287;304 315	cancer progression
+R3	causes_or_contributes_to Arg1:T68 Arg2:T69	
+R4	causes_or_contributes_to Arg1:T10 Arg2:T69	
+R5	causes_or_contributes_to Arg1:T68 Arg2:T70	
+R6	causes_or_contributes_to Arg1:T10 Arg2:T70	
+T71	corrected_chemical 335 356	glycoprotein antigens
+R7	causes_or_contributes_to Arg1:T71 Arg2:T13	
+T72	corrected_chemical 482 529	common antigens which OK-432 shared with tumors
+T73	corrected_disease_or_phenotypic_feature 575 595	human bladder tumors
+R8	treats Arg1:T72 Arg2:T73	
+T74	missed_disease_or_phenotypic_feature 609 622	animal tumors
+R9	treats Arg1:T72 Arg2:T74	
+T75	missed_chemical 986 1000	glucocorticoid
+R10	causes_or_contributes_to Arg1:T75 Arg2:T24	
+R11	causes_or_contributes_to Arg1:T23 Arg2:T24	
+T76	corrected_disease_or_phenotypic_feature 1140 1163	intractable cancer pain
+T77	corrected_chemical 1100 1136	epidural bupivacaine-opioid infusion
+R12	treats Arg1:T77 Arg2:T76	
+T78	corrected_chemical 1251 1264	MK2 inhibitor
+T79	missed_disease_or_phenotypic_feature 1286 1310	murine tumor development
+R13	treats Arg1:T78 Arg2:T79	
+T80	corrected_disease_or_phenotypic_feature 1227 1249	colitis-associated CRC
+T81	corrected_chemical 1172 1207	azoxymethane/dextran sodium sulfate
+T82	missed_chemical 1209 1216	AOM/DSS
+R14	causes_or_contributes_to Arg1:T81 Arg2:T80	
+R15	causes_or_contributes_to Arg1:T82 Arg2:T80	
+T83	corrected_chemical 1349 1374	tumor-associated antigens
+T84	missed_disease_or_phenotypic_feature 1332 1338	tumors
+R16	treats Arg1:T83 Arg2:T84	
+T85	missed_chemical 1411 1429	synthetic peptides
+R17	treats Arg1:T85 Arg2:T84	
+T86	missed_chemical 1438 1448	immunogens
+R18	treats Arg1:T86 Arg2:T84	
+T87	corrected_chemical 1613 1627	MR antagonists
+R19	treats Arg1:T87 Arg2:T41	
+R20	treats Arg1:T87 Arg2:T42	
+T88	corrected_disease_or_phenotypic_feature 1835 1863	obesity-related hypertension
+R21	treats Arg1:T87 Arg2:T44	
+R22	treats Arg1:T87 Arg2:T45	
+R23	treats Arg1:T87 Arg2:T88	
+R24	treats Arg1:T87 Arg2:T47	
+T89	corrected_disease_or_phenotypic_feature 2325 2336	cancer pain
+T90	corrected_chemical 2272 2286	JNK inhibitors
+R25	treats Arg1:T90 Arg2:T89	
+R26	treats Arg1:T61 Arg2:T89	
+T91	corrected_chemical 2354 2369	tumour antigens
+R27	treats Arg1:T91 Arg2:T66	

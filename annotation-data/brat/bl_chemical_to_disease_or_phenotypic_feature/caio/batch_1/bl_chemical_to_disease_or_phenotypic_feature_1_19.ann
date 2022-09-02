@@ -69,13 +69,15 @@ T64	missed_disease_or_phenotypic_feature 1191 1196	OSAHS
 T65	missed_chemical 1406 1411	HighP
 T66	chemical 1432 1436	LowP
 T67	corrected_disease_or_phenotypic_feature 1660 1684	Estrogen-related cancers
-T68	corrected_disease_or_phenotypic_feature 1715 1730	hormone's tumor
 T69	corrected_chemical 2102 2134	nicotinamide-mediated cord blood
 T70	corrected_chemical 2236 2266	high-flow nasal cannula oxygen
 R5	treats Arg1:T70 Arg2:T39	
 T71	corrected_chemical 2336 2375	VPS33B negatively modulated by nicotine
-R6	treats Arg1:T71 Arg2:T41	
 T72	missed_chemical 2508 2520	Chromogranin
 R7	treats Arg1:T72 Arg2:T46	
 T73	missed_disease_or_phenotypic_feature 2757 2770	herpes zoster
 T74	DONE 2814 2818	DONE
+R8	causes_or_contributes_to Arg1:T22 Arg2:T20	
+R9	causes_or_contributes_to Arg1:T22 Arg2:T21	
+R10	causes_or_contributes_to Arg1:T31 Arg2:T67	
+R6	treats Arg1:T40 Arg2:T41	

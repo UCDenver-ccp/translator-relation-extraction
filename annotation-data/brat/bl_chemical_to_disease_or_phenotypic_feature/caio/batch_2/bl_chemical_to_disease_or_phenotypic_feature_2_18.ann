@@ -63,3 +63,52 @@ T62	disease_or_phenotypic_feature 2417 2432	type 2 diabetes
 T63	chemical 2491 2499	Platinum
 T64	chemical 2500 2508	Chloride
 T65	disease_or_phenotypic_feature 2541 2559	Squamous Carcinoma
+R1	causes_or_contributes_to Arg1:T1 Arg2:T2	
+T66	missed_disease_or_phenotypic_feature 151 159	flushing
+T67	missed_disease_or_phenotypic_feature 171 183	bronchospasm
+R2	causes_or_contributes_to Arg1:T3 Arg2:T66	
+R3	causes_or_contributes_to Arg1:T3 Arg2:T4	
+R4	causes_or_contributes_to Arg1:T3 Arg2:T67	
+R5	causes_or_contributes_to Arg1:T3 Arg2:T5	
+T68	missed_chemical 205 214	Estrogens
+T69	missed_chemical 234 243	prolactin
+T70	missed_disease_or_phenotypic_feature 288 301	mammary tumor
+R6	causes_or_contributes_to Arg1:T69 Arg2:T70	
+R7	causes_or_contributes_to Arg1:T6 Arg2:T70	
+R8	causes_or_contributes_to Arg1:T68 Arg2:T70	
+R9	treats Arg1:T21 Arg2:T22	
+R10	treats Arg1:T20 Arg2:T22	
+R11	treats Arg1:T19 Arg2:T22	
+R12	treats Arg1:T23 Arg2:T24	
+R13	treats Arg1:T25 Arg2:T27	
+R14	treats Arg1:T25 Arg2:T28	
+R15	treats Arg1:T25 Arg2:T29	
+R16	treats Arg1:T26 Arg2:T27	
+R17	treats Arg1:T26 Arg2:T28	
+R18	treats Arg1:T26 Arg2:T29	
+T71	missed_chemical 1156 1170	phytochemicals
+R19	treats Arg1:T71 Arg2:T27	
+R20	treats Arg1:T71 Arg2:T28	
+R21	treats Arg1:T71 Arg2:T29	
+T72	missed_disease_or_phenotypic_feature 1367 1372	tumor
+R22	causes_or_contributes_to Arg1:T30 Arg2:T72	
+R23	causes_or_contributes_to Arg1:T31 Arg2:T72	
+R24	treats Arg1:T33 Arg2:T35	
+R25	causes_or_contributes_to Arg1:T33 Arg2:T34	
+R26	causes_or_contributes_to Arg1:T38 Arg2:T39	
+T73	corrected_disease_or_phenotypic_feature 1729 1741	motor ataxia
+T74	corrected_disease_or_phenotypic_feature 1743 1760	oculomotor ataxia
+T75	corrected_disease_or_phenotypic_feature 1769 1788	Schmahmann syndrome
+R27	causes_or_contributes_to Arg1:T38 Arg2:T73	
+R28	causes_or_contributes_to Arg1:T38 Arg2:T41	
+R29	causes_or_contributes_to Arg1:T38 Arg2:T75	
+T76	corrected_chemical 1881 1899	Gemcitabine-loaded
+R30	treats Arg1:T76 Arg2:T49	
+R31	causes_or_contributes_to Arg1:T52 Arg2:T53	
+R32	causes_or_contributes_to Arg1:T52 Arg2:T54	
+R33	causes_or_contributes_to Arg1:T59 Arg2:T60	
+R34	causes_or_contributes_to Arg1:T59 Arg2:T61	
+R35	causes_or_contributes_to Arg1:T59 Arg2:T62	
+T77	corrected_chemical 2485 2508	Lipid Platinum Chloride
+R36	treats Arg1:T77 Arg2:T65	
+T78	DONE 2578 2582	DONE

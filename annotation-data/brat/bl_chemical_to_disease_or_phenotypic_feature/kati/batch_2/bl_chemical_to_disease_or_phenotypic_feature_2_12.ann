@@ -60,5 +60,36 @@ T59	chemical 2136 2142	saline
 T60	disease_or_phenotypic_feature 2161 2169	cataract
 T61	chemical 2179 2182	dye
 T62	chemical 2198 2208	Fluoxetine
-T63	disease_or_phenotypic_feature 2262 2269	anxiety
+T63	corrected_disease_or_phenotypic_feature 2262 2292	anxiety associated with autism
 T64	disease_or_phenotypic_feature 2286 2292	autism
+T65	missed_disease_or_phenotypic_feature 407 418	atelectasis
+T66	corrected_chemical 318 335	hyperbaric oxygen
+R1	causes_or_contributes_to Arg1:T66 Arg2:T65	
+R2	causes_or_contributes_to Arg1:T66 Arg2:T8	
+R3	causes_or_contributes_to Arg1:T66 Arg2:T9	
+T67	missed_disease_or_phenotypic_feature 463 481	tumor angiogenesis
+T68	missed_disease_or_phenotypic_feature 463 468;486 496	tumor metastasis
+T69	corrected_disease_or_phenotypic_feature 500 531	C26 murine colon adenocarcinoma
+R4	treats Arg1:T11 Arg2:T67	
+R5	treats Arg1:T11 Arg2:T68	
+R6	treats Arg1:T11 Arg2:T69	
+T70	missed_chemical 577 585	KB-R7785
+R7	treats Arg1:T70 Arg2:T67	
+R8	treats Arg1:T70 Arg2:T68	
+R9	treats Arg1:T70 Arg2:T69	
+R10	treats Arg1:T14 Arg2:T15	
+T71	missed_disease_or_phenotypic_feature 842 861	glucose intolerance
+R11	causes_or_contributes_to Arg1:T16 Arg2:T17	
+R12	causes_or_contributes_to Arg1:T16 Arg2:T71	
+T72	missed_chemical 1186 1194	anti-TNF
+R13	treats Arg1:T72 Arg2:T26	
+R14	treats Arg1:T72 Arg2:T27	
+T73	corrected_disease_or_phenotypic_feature 1254 1274	ras-dependent tumors
+T74	corrected_chemical 1300 1325	ras-dislodging antagonist
+R15	treats Arg1:T74 Arg2:T73	
+R16	treats Arg1:T43 Arg2:T44	
+T75	corrected_disease_or_phenotypic_feature 2107 2118	tumor edema
+R17	causes_or_contributes_to Arg1:T59 Arg2:T75	
+T76	missed_disease_or_phenotypic_feature 2237 2257;2270 2292	repetitive behaviors associated with autism
+R18	treats Arg1:T62 Arg2:T76	
+R19	treats Arg1:T62 Arg2:T63	

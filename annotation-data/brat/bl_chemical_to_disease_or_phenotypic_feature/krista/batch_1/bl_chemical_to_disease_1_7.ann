@@ -54,8 +54,6 @@ T53	chemical 3483 3508	Tyrosine Kinase inhibitor
 T54	disease_or_phenotypic_feature 3512 3530	Hodgkin's Lymphoma
 T55	disease_or_phenotypic_feature 3557 3562	tumor
 T56	disease_or_phenotypic_feature 3674 3677	HCC
-T57	missed_chemical 3699 3709	interferon
-T58	missed_chemical 3711 3714	IFN
 T59	chemical 3715 3720	group
 T60	disease_or_phenotypic_feature 3743 3746	HCC
 T61	missed_chemical 3768 3792	direct acting antivirals
@@ -68,6 +66,11 @@ R4	treats Arg1:T41 Arg2:T42
 R5	treats Arg1:T61 Arg2:T60
 R6	causes_or_contributes_to Arg1:T29 Arg2:T31
 R7	causes_or_contributes_to Arg1:T30 Arg2:T31
-R8	treats Arg1:T57 Arg2:T56
 R9	treats Arg1:T62 Arg2:T60
-R10	treats Arg1:T58 Arg2:T56
+T64	corrected_disease_or_phenotypic_feature 2279 2285	glioma
+R11	treats Arg1:T33 Arg2:T64	
+R12	treats Arg1:T34 Arg2:T64	
+T65	missed_chemical 2239 2253	phytocompounds
+R13	treats Arg1:T65 Arg2:T64	
+T66	corrected_disease_or_phenotypic_feature 3456 3461	tumor
+R14	treats Arg1:T51 Arg2:T66	

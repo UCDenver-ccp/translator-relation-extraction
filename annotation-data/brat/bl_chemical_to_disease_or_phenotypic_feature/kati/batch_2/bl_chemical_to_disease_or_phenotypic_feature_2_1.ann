@@ -77,3 +77,53 @@ T76	chemical 2815 2827	anesthetized
 T77	chemical 2833 2841	urethane
 T78	chemical 2845 2859	methoxyflurane
 T79	disease_or_phenotypic_feature 2892 2906	tumor vascular
+T80	corrected_disease_or_phenotypic_feature 36 54	first-ever seizure
+R1	causes_or_contributes_to Arg1:T2 Arg2:T80	
+T81	corrected_disease_or_phenotypic_feature 117 148	amphetamine-associated seizures
+R2	causes_or_contributes_to Arg1:T2 Arg2:T81	
+R3	causes_or_contributes_to Arg1:T2 Arg2:T5	
+T83	corrected_chemical 356 376	Zinc-desferrioxamine
+R6	treats Arg1:T83 Arg2:T13	
+T84	corrected_disease_or_phenotypic_feature 568 582	social anxiety
+T85	missed_disease_or_phenotypic_feature 587 600	social phobia
+R7	treats Arg1:T15 Arg2:T16	
+R8	treats Arg1:T15 Arg2:T84	
+R9	treats Arg1:T15 Arg2:T85	
+R10	causes_or_contributes_to Arg1:T33 Arg2:T32	
+T86	missed_disease_or_phenotypic_feature 1360 1373	solid tumours
+R11	treats Arg1:T33 Arg2:T86	
+T87	corrected_chemical 1402 1406;1416 1427	ActA antagonists
+T88	corrected_chemical 1411 1427	Mstn antagonists
+R12	treats Arg1:T87 Arg2:T36	
+R13	treats Arg1:T88 Arg2:T36	
+T89	corrected_chemical 1646 1660	vinyl chloride
+T90	missed_chemical 1662 1664	VC
+R14	causes_or_contributes_to Arg1:T89 Arg2:T43	
+R15	causes_or_contributes_to Arg1:T90 Arg2:T43	
+R16	causes_or_contributes_to Arg1:T89 Arg2:T44	
+R17	causes_or_contributes_to Arg1:T90 Arg2:T44	
+T92	corrected_chemical 1959 1967;1979 1995	Reactive nitrogen species
+T93	missed_disease_or_phenotypic_feature 2080 2092	hypertension
+T94	missed_disease_or_phenotypic_feature 2111 2121	restenosis
+T95	missed_disease_or_phenotypic_feature 2142 2173	diabetic vascular complications
+T91	corrected_chemical 1959 1974;1988 1995	Reactive oxygen species
+R18	causes_or_contributes_to Arg1:T91 Arg2:T56	
+R19	causes_or_contributes_to Arg1:T91 Arg2:T93	
+R20	causes_or_contributes_to Arg1:T91 Arg2:T57	
+R22	causes_or_contributes_to Arg1:T91 Arg2:T58	
+R23	causes_or_contributes_to Arg1:T91 Arg2:T95	
+R24	causes_or_contributes_to Arg1:T92 Arg2:T56	
+R25	causes_or_contributes_to Arg1:T92 Arg2:T93	
+R26	causes_or_contributes_to Arg1:T92 Arg2:T57	
+R27	causes_or_contributes_to Arg1:T92 Arg2:T94	
+R28	causes_or_contributes_to Arg1:T92 Arg2:T58	
+R29	causes_or_contributes_to Arg1:T92 Arg2:T95	
+R21	causes_or_contributes_to Arg1:T91 Arg2:T94	
+T96	missed_disease_or_phenotypic_feature 2663 2674	solid tumor
+T97	corrected_chemical 2592 2618	forodesine - PNP inhibitor
+R30	treats Arg1:T97 Arg2:T71	
+R31	treats Arg1:T97 Arg2:T72	
+R32	treats Arg1:T97 Arg2:T96	
+T98	missed_disease_or_phenotypic_feature 2861 2877	tumor blood flow
+R33	causes_or_contributes_to Arg1:T77 Arg2:T98	
+R34	causes_or_contributes_to Arg1:T78 Arg2:T98	

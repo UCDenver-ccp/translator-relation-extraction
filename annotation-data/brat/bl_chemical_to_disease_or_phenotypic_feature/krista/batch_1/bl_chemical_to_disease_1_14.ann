@@ -69,3 +69,7 @@ R7	causes_or_contributes_to Arg1:T56 Arg2:T57
 R8	treats Arg1:T48 Arg2:T45
 R9	treats Arg1:T50 Arg2:T49
 R10	treats Arg1:T32 Arg2:T34
+T62	corrected_chemical 1450 1458	Curcumin
+R11	treats Arg1:T62 Arg2:T30	
+T63	missed_disease_or_phenotypic_feature 2500 2503	CIA
+R12	treats Arg1:T48 Arg2:T63	

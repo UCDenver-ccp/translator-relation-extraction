@@ -33,7 +33,7 @@ T32	disease_or_phenotypic_feature 1063 1069	Asthma
 T33	disease_or_phenotypic_feature 1074 1081	obesity
 T34	disease_or_phenotypic_feature 1106 1129	Obstructive sleep apnea
 T35	disease_or_phenotypic_feature 1134 1141	obesity
-T36	disease_or_phenotypic_feature 1228 1237	syndromic
+T36	corrected_disease_or_phenotypic_feature 1219 1247	variable syndromic phenotype
 T37	disease_or_phenotypic_feature 1262 1268	autism
 T38	disease_or_phenotypic_feature 1270 1283	short stature
 T39	disease_or_phenotypic_feature 1285 1297	microcephaly
@@ -61,9 +61,6 @@ T60	missed_disease_or_phenotypic_feature 97 110	Stent failure
 T61	missed_disease_or_phenotypic_feature 136 151	stent migration
 T62	corrected_disease_or_phenotypic_feature 156 172	tumor overgrowth
 T63	corrected_disease_or_phenotypic_feature 177 191	tumor ingrowth
-R1	has_phenotype Arg1:T60 Arg2:T61	
-R2	has_phenotype Arg1:T60 Arg2:T62	
-R3	has_phenotype Arg1:T60 Arg2:T63	
 T64	missed_disease_or_phenotypic_feature 249 259	dyscephaly
 T65	missed_disease_or_phenotypic_feature 303 314	beaked nose
 R4	has_phenotype Arg1:T7 Arg2:T64	
@@ -75,7 +72,7 @@ R9	has_phenotype Arg1:T7 Arg2:T11
 R10	has_phenotype Arg1:T7 Arg2:T12	
 T66	missed_disease_or_phenotypic_feature 363 383	Skin matrical tumors
 T67	missed_disease_or_phenotypic_feature 437 459	purely matrical tumors
-T68	missed_disease_or_phenotypic_feature 460 487	and focally matrical tumors
+T68	missed_disease_or_phenotypic_feature 464 487	focally matrical tumors
 R11	has_phenotype Arg1:T66 Arg2:T67	
 R12	has_phenotype Arg1:T66 Arg2:T68	
 R13	has_phenotype Arg1:T16 Arg2:T17	
@@ -109,3 +106,15 @@ R34	has_phenotype Arg1:T54 Arg2:T57
 R35	has_phenotype Arg1:T54 Arg2:T58	
 T75	missed_disease_or_phenotypic_feature 2371 2389	hepatosplenomegaly
 R36	has_phenotype Arg1:T54 Arg2:T75	
+T76	missed_disease_or_phenotypic_feature 1802 1805	TSC
+R37	has_phenotype Arg1:T76 Arg2:T44	
+R38	has_phenotype Arg1:T76 Arg2:T45	
+R39	has_phenotype Arg1:T76 Arg2:T46	
+R40	has_phenotype Arg1:T76 Arg2:T74	
+T77	disease_or_phenotypic_feature 1228 1237	syndromic
+T78	missed_disease_or_phenotypic_feature 1258 1260	ID
+R41	has_phenotype Arg1:T36 Arg2:T78	
+T79	corrected_disease_or_phenotypic_feature 663 676	type 1 ataxia
+R42	has_phenotype Arg1:T20 Arg2:T21	
+T80	corrected_disease_or_phenotypic_feature 706 719	type 2 ataxia
+R43	has_phenotype Arg1:T80 Arg2:T23	

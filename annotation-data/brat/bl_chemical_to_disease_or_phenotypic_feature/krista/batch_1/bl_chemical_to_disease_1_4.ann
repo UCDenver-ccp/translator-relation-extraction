@@ -38,7 +38,6 @@ T37	disease_or_phenotypic_feature 2696 2733	Pituitary stalk interruption syndrom
 T38	disease_or_phenotypic_feature 2739 2749	congenital
 T39	disease_or_phenotypic_feature 2750 2757	disease
 T40	disease_or_phenotypic_feature 2763 2797	isolated growth hormone deficiency
-T41	chemical 2772 2786	growth hormone
 T42	corrected_chemical 2810 2836	anterior pituitary hormone
 T43	disease_or_phenotypic_feature 2819 2828	pituitary
 T44	chemical 2829 2836	hormone
@@ -60,7 +59,6 @@ T59	disease_or_phenotypic_feature 3635 3640	blood
 T60	chemical 3863 3878	protein-protein
 T61	disease_or_phenotypic_feature 4285 4288	ASD
 R1	treats Arg1:T27 Arg2:T26
-R2	treats Arg1:T41 Arg2:T37
 R3	treats Arg1:T28 Arg2:T30
 R4	causes_or_contributes_to Arg1:T28 Arg2:T29
 R5	treats Arg1:T16 Arg2:T17
@@ -70,3 +68,5 @@ R8	treats Arg1:T48 Arg2:T47
 R9	treats Arg1:T13 Arg2:T15
 R10	causes_or_contributes_to Arg1:T13 Arg2:T14
 R11	causes_or_contributes_to Arg1:T18 Arg2:T19
+T62	missed_disease_or_phenotypic_feature 1795 1797	MM
+R12	treats Arg1:T27 Arg2:T62	

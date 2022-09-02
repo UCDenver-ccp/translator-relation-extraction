@@ -79,7 +79,6 @@ T78	chemical 4295 4304	glutamine
 T79	chemical 4309 4318	glutamate
 T80	disease_or_phenotypic_feature 4368 4376	migraine
 R1	treats Arg1:T53 Arg2:T48
-R2	treats Arg1:T74 Arg2:T75
 R3	treats Arg1:T52 Arg2:T48
 R4	treats Arg1:T63 Arg2:T64
 R5	treats Arg1:T30 Arg2:T35
@@ -89,3 +88,7 @@ R8	causes_or_contributes_to Arg1:T32 Arg2:T35
 R9	treats Arg1:T51 Arg2:T48
 R10	treats Arg1:T54 Arg2:T48
 R11	treats Arg1:T29 Arg2:T26
+T81	corrected_chemical 1592 1596	PhIP
+R12	causes_or_contributes_to Arg1:T81 Arg2:T35	
+T82	corrected_disease_or_phenotypic_feature 3932 3935	ITP
+R2	treats Arg1:T74 Arg2:T82	

@@ -24,7 +24,6 @@ T23	corrected_disease_or_phenotypic_feature 988 1009	degenerative diseases
 T24	disease_or_phenotypic_feature 1001 1009	diseases
 T25	disease_or_phenotypic_feature 1044 1052	dementia
 T26	disease_or_phenotypic_feature 1054 1067	heart failure
-T27	missed_disease_or_phenotypic_feature 1069 1072	HF)
 T28	corrected_disease_or_phenotypic_feature 1078 1098	chronic lung disease
 T29	disease_or_phenotypic_feature 1086 1098	lung disease
 T30	missed_disease_or_phenotypic_feature 1100 1103	CLD
@@ -43,7 +42,6 @@ T42	disease_or_phenotypic_feature 1846 1853	SSc-ILD
 T43	corrected_chemical 2054 2071	inorganic nitrate
 T44	chemical 2064 2071	nitrate
 T45	chemical 2090 2103	monocrotaline
-T46	disease_or_phenotypic_feature 2118 2122	PAH.
 T47	chemical 2152 2162	Anesthetic
 T48	disease_or_phenotypic_feature 2177 2183	cancer
 T49	chemical 2247 2258	anesthesia"
@@ -84,7 +82,6 @@ T83	chemical 4344 4351	alcohol
 R1	treats Arg1:T38 Arg2:T39
 R2	causes_or_contributes_to Arg1:T83 Arg2:T82
 R3	treats Arg1:T22 Arg2:T23
-R4	treats Arg1:T22 Arg2:T27
 R5	treats Arg1:T22 Arg2:T30
 R6	treats Arg1:T22 Arg2:T31
 R7	treats Arg1:T22 Arg2:T25
@@ -99,3 +96,12 @@ R15	causes_or_contributes_to Arg1:T11 Arg2:T6
 R16	causes_or_contributes_to Arg1:T11 Arg2:T9
 R17	causes_or_contributes_to Arg1:T17 Arg2:T16
 R18	causes_or_contributes_to Arg1:T19 Arg2:T20
+T27	missed_disease_or_phenotypic_feature 1069 1071	HF
+R4	treats Arg1:T22 Arg2:T27	
+T84	missed_chemical 2105 2108	MCT
+T46	corrected_disease_or_phenotypic_feature 2118 2121	PAH
+R19	causes_or_contributes_to Arg1:T45 Arg2:T46	
+R20	causes_or_contributes_to Arg1:T84 Arg2:T46	
+R21	treats Arg1:T43 Arg2:T46	
+T85	missed_disease_or_phenotypic_feature 4309 4311	AH
+R22	causes_or_contributes_to Arg1:T83 Arg2:T85	

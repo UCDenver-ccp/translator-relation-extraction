@@ -91,3 +91,10 @@ R9	treats Arg1:T50 Arg2:T52
 T82	corrected_disease_or_phenotypic_feature 2324 2365	malignant fibroblastic histiocytic tumors
 T83	corrected_disease_or_phenotypic_feature 2410 2429	hepatic dysfunction
 T84	DONE 2669 2673	DONE
+R10	treats Arg1:T23 Arg2:T21	
+R11	treats Arg1:T23 Arg2:T22	
+R12	causes_or_contributes_to Arg1:T80 Arg2:T44	
+R13	causes_or_contributes_to Arg1:T80 Arg2:T43	
+R14	causes_or_contributes_to Arg1:T80 Arg2:T42	
+R15	causes_or_contributes_to Arg1:T80 Arg2:T79	
+T85	corrected_chemical 2162 2185	Amphetamine derivatives

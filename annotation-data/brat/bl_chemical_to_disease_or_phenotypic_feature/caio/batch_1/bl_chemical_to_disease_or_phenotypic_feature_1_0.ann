@@ -74,14 +74,12 @@ T73	missed_disease_or_phenotypic_feature 389 398	lipolysis
 T74	missed_disease_or_phenotypic_feature 452 457	tumor
 T75	missed_disease_or_phenotypic_feature 480 485	tumor
 T14	corrected_disease_or_phenotypic_feature 575 588	retinal wound
-R6	causes_or_contributes_to Arg1:T13 Arg2:T14	
 T76	missed_chemical 747 766	farnesyltransferase
 T77	missed_disease_or_phenotypic_feature 844 852	epilepsy
 T78	missed_disease_or_phenotypic_feature 864 870	tumors
 T79	missed_chemical 994 997	FDG
 T80	missed_disease_or_phenotypic_feature 1069 1075	tumors
 T25	missed_chemical 1395 1398	NOS
-R7	treats Arg1:T25 Arg2:T31	
 R8	causes_or_contributes_to Arg1:T34 Arg2:T35	
 R9	treats Arg1:T36 Arg2:T38	
 R10	treats Arg1:T40 Arg2:T43	
@@ -113,3 +111,18 @@ T96	corrected_disease_or_phenotypic_feature 523 529	cancer
 T97	corrected_chemical 2830 2845	PARP inhibitors
 R16	treats Arg1:T97 Arg2:T81	
 R17	treats Arg1:T97 Arg2:T68	
+T98	corrected_disease_or_phenotypic_feature 667 685	pale laser lesions
+R6	causes_or_contributes_to Arg1:T13 Arg2:T98	
+T99	missed_disease_or_phenotypic_feature 557 570	adverse effec
+R18	causes_or_contributes_to Arg1:T13 Arg2:T99	
+R7	treats Arg1:T29 Arg2:T31	
+T100	corrected_chemical 1488 1503	serum potassium
+R19	causes_or_contributes_to Arg1:T100 Arg2:T35	
+T101	corrected_chemical 1728 1773	adrenaline and serotonine re-uptake inhibitor
+R20	treats Arg1:T101 Arg2:T43	
+R21	treats Arg1:T46 Arg2:T88	
+R22	treats Arg1:T46 Arg2:T87	
+T102	corrected_chemical 2507 2531	antigen-specific vaccine
+R23	treats Arg1:T102 Arg2:T55	
+T103	missed_disease_or_phenotypic_feature 2384 2387	AML
+R24	treats Arg1:T102 Arg2:T103	

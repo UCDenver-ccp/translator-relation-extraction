@@ -78,3 +78,10 @@ R12	treats Arg1:T33 Arg2:T34
 R13	causes_or_contributes_to Arg1:T54 Arg2:T52
 R14	causes_or_contributes_to Arg1:T54 Arg2:T53
 R15	treats Arg1:T21 Arg2:T23
+T66	corrected_chemical 439 456	anti-folate agent
+R16	treats Arg1:T66 Arg2:T15	
+R17	treats Arg1:T66 Arg2:T16	
+T67	corrected_chemical 2828 2838	Tiotropium
+T68	corrected_chemical 2839 2849	Olodaterol
+R18	treats Arg1:T67 Arg2:T56	
+R19	treats Arg1:T68 Arg2:T56	

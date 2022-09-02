@@ -18,7 +18,6 @@ T17	disease_or_phenotypic_feature 702 709	obesity
 T18	disease_or_phenotypic_feature 715 730	Type 2 diabetes
 T19	chemical 732 735	FSH
 T20	disease_or_phenotypic_feature 784 799	prostate cancer
-T21	corrected_chemical 835 839;851 861	GnRH antagonist
 T22	chemical 840 847	agonist
 T23	chemical 851 861	antagonist
 T24	chemical 866 870	drug
@@ -72,16 +71,10 @@ R2	treats Arg1:T14 Arg2:T16
 R3	treats Arg1:T15 Arg2:T16	
 R4	treats Arg1:T14 Arg2:T69	
 R5	treats Arg1:T15 Arg2:T69	
-R6	causes_or_contributes_to Arg1:T19 Arg2:T20	
-T70	corrected_chemical 835 847	GnRH agonist
-R7	treats Arg1:T70 Arg2:T20	
-R8	treats Arg1:T21 Arg2:T20	
 T71	missed_chemical 807 815	androgen
 R9	causes_or_contributes_to Arg1:T71 Arg2:T20	
 T72	corrected_chemical 863 870	BP drug
 R10	treats Arg1:T72 Arg2:T25	
-R11	treats Arg1:T28 Arg2:T29	
-R12	treats Arg1:T28 Arg2:T30	
 T73	corrected_chemical 1048 1066	antipsychotic drug
 R13	causes_or_contributes_to Arg1:T73 Arg2:T32	
 T74	missed_disease_or_phenotypic_feature 1752 1777	carbon monoxide poisoning
@@ -91,3 +84,6 @@ R15	causes_or_contributes_to Arg1:T75 Arg2:T74
 T76	corrected_chemical 1988 2025	tumor necrosis factor-alpha inhibitor
 R16	treats Arg1:T76 Arg2:T57	
 R17	treats Arg1:T59 Arg2:T57	
+R18	causes_or_contributes_to Arg1:T10 Arg2:T11	
+T77	missed_disease_or_phenotypic_feature 961 973	inflammatory
+R6	treats Arg1:T28 Arg2:T77	

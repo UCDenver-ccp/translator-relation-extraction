@@ -60,4 +60,50 @@ T59	disease_or_phenotypic_feature 2729 2736	obesity
 T60	chemical 2738 2747	Phenytoin
 T61	chemical 2748 2754	sodium
 T62	chemical 2758 2764	oxygen
-T63	disease_or_phenotypic_feature 2782 2790	seizures
+T63	corrected_disease_or_phenotypic_feature 2758 2790	oxygen-toxicity-induced seizures
+T64	missed_disease_or_phenotypic_feature 92 98	sepsis
+T65	missed_disease_or_phenotypic_feature 100 104	COPD
+R1	causes_or_contributes_to Arg1:T7 Arg2:T1	
+R2	causes_or_contributes_to Arg1:T7 Arg2:T2	
+R3	causes_or_contributes_to Arg1:T7 Arg2:T3	
+R4	causes_or_contributes_to Arg1:T7 Arg2:T64	
+R5	causes_or_contributes_to Arg1:T7 Arg2:T65	
+R6	causes_or_contributes_to Arg1:T7 Arg2:T4	
+R7	treats Arg1:T6 Arg2:T1	
+R8	treats Arg1:T6 Arg2:T2	
+R9	treats Arg1:T6 Arg2:T3	
+R11	treats Arg1:T6 Arg2:T64	
+R12	treats Arg1:T6 Arg2:T65	
+R13	treats Arg1:T6 Arg2:T4	
+R10	causes_or_contributes_to Arg1:T8 Arg2:T9	
+T66	missed_disease_or_phenotypic_feature 657 669	hypertension
+T67	corrected_chemical 617 636	Calcium antagonists
+R14	treats Arg1:T67 Arg2:T66	
+R15	treats Arg1:T67 Arg2:T23	
+R16	treats Arg1:T24 Arg2:T25	
+T68	missed_chemical 1049 1061	antioxidants
+R17	treats Arg1:T68 Arg2:T29	
+T69	corrected_chemical 913 930	Reactive nitrogen
+T70	corrected_chemical 913 921;935 941	Reactive oxygen
+R18	causes_or_contributes_to Arg1:T69 Arg2:T29	
+R19	causes_or_contributes_to Arg1:T70 Arg2:T29	
+T71	corrected_disease_or_phenotypic_feature 1164 1185	arterial hypertension
+T72	corrected_chemical 1081 1110;1117 1127	Angiotensin converting enzyme inhibitors
+R20	treats Arg1:T72 Arg2:T71	
+R21	treats Arg1:T72 Arg2:T34	
+T73	missed_chemical 1205 1248	TaOx decorated perfluorocarbon nanodroplets
+R22	treats Arg1:T73 Arg2:T36	
+R23	treats Arg1:T35 Arg2:T36	
+T74	missed_disease_or_phenotypic_feature 1282 1295	tumor hypoxia
+R24	treats Arg1:T73 Arg2:T74	
+R25	treats Arg1:T35 Arg2:T74	
+R26	causes_or_contributes_to Arg1:T45 Arg2:T46	
+T75	missed_disease_or_phenotypic_feature 1994 2026	hormone receptor-positive tumors
+R27	causes_or_contributes_to Arg1:T45 Arg2:T75	
+T76	corrected_chemical 2738 2754	Phenytoin sodium
+R29	treats Arg1:T76 Arg2:T63	
+T77	missed_disease_or_phenotypic_feature 270 282	tumor growth
+R30	causes_or_contributes_to Arg1:T8 Arg2:T77	
+T78	missed_chemical 1112 1115;1117 1127	ACE inhibitors
+R31	treats Arg1:T78 Arg2:T71	
+R32	treats Arg1:T78 Arg2:T34	

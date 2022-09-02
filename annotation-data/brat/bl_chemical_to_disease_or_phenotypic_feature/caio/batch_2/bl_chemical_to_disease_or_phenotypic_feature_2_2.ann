@@ -65,3 +65,29 @@ T64	chemical 2169 2176	digoxin
 T65	chemical 2181 2191	furosemide
 T66	disease_or_phenotypic_feature 2204 2228	congestive heart failure
 T67	disease_or_phenotypic_feature 2251 2261	arrhythmia
+R1	treats Arg1:T1 Arg2:T2	
+R2	treats Arg1:T1 Arg2:T3	
+R3	causes_or_contributes_to Arg1:T4 Arg2:T5	
+T68	missed_disease_or_phenotypic_feature 493 510	hyperinsulinaemia
+R4	causes_or_contributes_to Arg1:T14 Arg2:T68	
+R5	causes_or_contributes_to Arg1:T14 Arg2:T15	
+R6	causes_or_contributes_to Arg1:T14 Arg2:T16	
+T69	corrected_chemical 1212 1231	chloroplatinic acid
+R7	causes_or_contributes_to Arg1:T69 Arg2:T31	
+R8	causes_or_contributes_to Arg1:T69 Arg2:T30	
+R9	treats Arg1:T45 Arg2:T47	
+R10	treats Arg1:T45 Arg2:T48	
+R11	treats Arg1:T50 Arg2:T51	
+T70	corrected_disease_or_phenotypic_feature 1803 1828	Estrogen-dependent tumors
+R12	causes_or_contributes_to Arg1:T52 Arg2:T53	
+R13	treats Arg1:T54 Arg2:T70	
+T71	missed_chemical 2107 2116	digitalis
+R14	treats Arg1:T71 Arg2:T61	
+R15	treats Arg1:T71 Arg2:T66	
+R16	treats Arg1:T64 Arg2:T66	
+R17	treats Arg1:T64 Arg2:T61	
+R18	treats Arg1:T65 Arg2:T66	
+R19	treats Arg1:T65 Arg2:T61	
+T72	missed_chemical 2233 2246	beta blockers
+R20	treats Arg1:T72 Arg2:T67	
+T73	DONE 2263 2267	DONE

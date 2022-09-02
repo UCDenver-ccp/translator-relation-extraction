@@ -62,12 +62,12 @@ T61	chemical 2370 2384	Growth hormone
 T62	missed_disease_or_phenotypic_feature 165 174	vasospasm
 T63	corrected_disease_or_phenotypic_feature 176 189	MethA sarcoma
 T64	missed_disease_or_phenotypic_feature 636 651	lactic acidosis
-R1	treats Arg1:T12 Arg2:T13	
-R2	treats Arg1:T12 Arg2:T14	
-R3	treats Arg1:T12 Arg2:T15	
-R4	treats Arg1:T12 Arg2:T16	
-R5	treats Arg1:T12 Arg2:T17	
-R6	treats Arg1:T12 Arg2:T64	
+R1	causes_or_contributes_to Arg1:T12 Arg2:T13	
+R2	causes_or_contributes_to Arg1:T12 Arg2:T14	
+R3	causes_or_contributes_to Arg1:T12 Arg2:T15	
+R4	causes_or_contributes_to Arg1:T12 Arg2:T16	
+R5	causes_or_contributes_to Arg1:T12 Arg2:T17	
+R6	causes_or_contributes_to Arg1:T12 Arg2:T64	
 T65	missed_chemical 677 683	VEGFR1
 T66	missed_chemical 713 731	WT-derived exosome
 T67	missed_chemical 734 757	Δexon4-derived exosomes

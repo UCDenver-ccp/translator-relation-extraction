@@ -77,3 +77,5 @@ R2	treats Arg1:T52 Arg2:T53
 T75	corrected_chemical 1956 1988	Aldosterone receptor antagonists
 R3	treats Arg1:T75 Arg2:T60	
 T76	DONE 2187 2191	DONE
+R4	causes_or_contributes_to Arg1:T21 Arg2:T66	
+R5	causes_or_contributes_to Arg1:T27 Arg2:T29	

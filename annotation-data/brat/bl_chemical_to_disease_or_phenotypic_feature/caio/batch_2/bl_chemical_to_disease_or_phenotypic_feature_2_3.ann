@@ -65,3 +65,22 @@ T64	disease_or_phenotypic_feature 1901 1909	melanoma
 T65	disease_or_phenotypic_feature 1969 1986	cerebellar ataxia
 T66	chemical 1988 1991	PCA
 T67	chemical 2081 2089	antigens
+R1	treats Arg1:T13 Arg2:T14	
+R2	causes_or_contributes_to Arg1:T15 Arg2:T16	
+T68	missed_disease_or_phenotypic_feature 668 680	hypertension
+T69	corrected_chemical 1026 1057	ursolic acid stearoyl glucoside
+R3	treats Arg1:T69 Arg2:T35	
+T70	missed_chemical 1126 1136	botanicals
+R4	treats Arg1:T36 Arg2:T37	
+R5	treats Arg1:T70 Arg2:T37	
+R6	treats Arg1:T39 Arg2:T38	
+R7	treats Arg1:T40 Arg2:T38	
+R8	treats Arg1:T41 Arg2:T38	
+R9	treats Arg1:T42 Arg2:T38	
+R10	causes_or_contributes_to Arg1:T43 Arg2:T45	
+R11	causes_or_contributes_to Arg1:T44 Arg2:T45	
+R12	treats Arg1:T46 Arg2:T47	
+R13	treats Arg1:T46 Arg2:T48	
+R14	treats Arg1:T50 Arg2:T48	
+R15	treats Arg1:T50 Arg2:T47	
+T71	DONE 2091 2095	DONE

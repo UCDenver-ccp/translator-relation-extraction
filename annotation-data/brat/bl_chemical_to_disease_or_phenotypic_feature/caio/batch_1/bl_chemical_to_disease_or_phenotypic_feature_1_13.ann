@@ -61,8 +61,8 @@ T60	disease_or_phenotypic_feature 2485 2493	ion-pair
 T61	chemical 2505 2510	lipid
 T62	corrected_chemical 0 11	Vaccination
 T63	corrected_disease_or_phenotypic_feature 142 157	android obesity
-T64	missed_chemical 248 278	TRAILR1/death receptor 4 (DR4)
-T65	missed_chemical 283 294	TRAILR2/DR5
+T64	missed_disease_or_phenotypic_feature 248 278	TRAILR1/death receptor 4 (DR4)
+T65	missed_disease_or_phenotypic_feature 283 294	TRAILR2/DR5
 T66	missed_chemical 538 543	fluid
 T67	missed_chemical 549 560	electrolyte
 T68	corrected_disease_or_phenotypic_feature 730 746	high cholesterol
@@ -70,7 +70,7 @@ R1	treats Arg1:T22 Arg2:T24
 R2	treats Arg1:T27 Arg2:T28	
 T69	missed_chemical 1092 1099	PPP2R2B
 T70	corrected_chemical 1165 1212	angiotensin II antagonist candesartan (Atacand)
-R3	treats Arg1:T70 Arg2:T34	
+R3	causes_or_contributes_to Arg1:T70 Arg2:T34	
 T71	missed_chemical 1349 1363	antiarrhythmic
 T72	missed_disease_or_phenotypic_feature 1429 1457	ventricular tachyarrhythmias
 T73	missed_disease_or_phenotypic_feature 1550 1564	cardiac arrest

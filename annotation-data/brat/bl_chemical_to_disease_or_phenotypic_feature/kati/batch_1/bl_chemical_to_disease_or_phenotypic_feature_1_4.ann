@@ -61,3 +61,38 @@ T60	disease_or_phenotypic_feature 2814 2828	bladder cancer
 T61	disease_or_phenotypic_feature 2887 2896	psoriasis
 T62	chemical 2943 2953	inhibitors
 T63	chemical 2961 2973	methotrexate
+T64	corrected_chemical 797 812	CH-FeCL polymer
+T65	missed_disease_or_phenotypic_feature 920 939	phosphate retention
+R1	treats Arg1:T64 Arg2:T22	
+R2	treats Arg1:T64 Arg2:T65	
+R3	treats Arg1:T64 Arg2:T20	
+T66	corrected_chemical 989 1005	drug combination
+R4	treats Arg1:T66 Arg2:T25	
+T67	corrected_chemical 1369 1406	tumor necrosis factor-alpha inhibitor
+R5	causes_or_contributes_to Arg1:T67 Arg2:T26	
+T68	missed_disease_or_phenotypic_feature 1479 1513	estrogen-stimulated T47D:E2 tumors
+T69	corrected_disease_or_phenotypic_feature 1546 1567	Tam-stimulated tumors
+T70	missed_disease_or_phenotypic_feature 1577 1585	T47D:Tam
+R6	causes_or_contributes_to Arg1:T34 Arg2:T70	
+R7	causes_or_contributes_to Arg1:T34 Arg2:T69	
+R8	causes_or_contributes_to Arg1:T34 Arg2:T68	
+T71	missed_chemical 1541 1544	Tam
+R9	treats Arg1:T71 Arg2:T68	
+R10	causes_or_contributes_to Arg1:T71 Arg2:T69	
+R11	causes_or_contributes_to Arg1:T71 Arg2:T70	
+R12	causes_or_contributes_to Arg1:T36 Arg2:T37	
+T72	corrected_chemical 1764 1780	DPP-4 inhibitors
+R13	causes_or_contributes_to Arg1:T72 Arg2:T39	
+T73	corrected_chemical 2056 2071	Botulinum toxin
+R14	treats Arg1:T73 Arg2:T44	
+R15	treats Arg1:T47 Arg2:T48	
+T74	corrected_chemical 2432 2445	gambogic acid
+R16	treats Arg1:T74 Arg2:T49	
+R17	treats Arg1:T51 Arg2:T49	
+T75	corrected_chemical 2630 2658	cancer chemotherapeutic drug
+R18	causes_or_contributes_to Arg1:T75 Arg2:T55	
+T76	missed_chemical 2919 2940	tumor necrosis factor
+R19	treats Arg1:T59 Arg2:T60	
+R20	treats Arg1:T76 Arg2:T61	
+R21	causes_or_contributes_to Arg1:T28 Arg2:T26	
+R22	causes_or_contributes_to Arg1:T58 Arg2:T55	

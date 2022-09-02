@@ -67,3 +67,6 @@ R8	treats Arg1:T57 Arg2:T58
 T59	corrected_disease_or_phenotypic_feature 2709 2743	postnatal behavioral abnormalities
 R9	causes_or_contributes_to Arg1:T51 Arg2:T52	
 R10	causes_or_contributes_to Arg1:T51 Arg2:T59	
+R11	treats Arg1:T6 Arg2:T7	
+T60	missed_disease_or_phenotypic_feature 607 625	induced plasticity
+R12	causes_or_contributes_to Arg1:T13 Arg2:T60	

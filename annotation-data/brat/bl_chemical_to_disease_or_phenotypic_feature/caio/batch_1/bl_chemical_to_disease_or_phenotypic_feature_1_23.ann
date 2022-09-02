@@ -90,3 +90,16 @@ R6	treats Arg1:T82 Arg2:T66
 R7	treats Arg1:T82 Arg2:T67	
 R8	treats Arg1:T82 Arg2:T68	
 T84	DONE 2559 2563	DONE
+R9	treats Arg1:T9 Arg2:T10	
+R10	causes_or_contributes_to Arg1:T12 Arg2:T11	
+R11	treats Arg1:T29 Arg2:T31	
+T85	corrected_disease_or_phenotypic_feature 1603 1629	hypertensive heart failure
+T86	corrected_chemical 1489 1507	vasopressin type 2
+R12	treats Arg1:T86 Arg2:T85	
+R13	causes_or_contributes_to Arg1:T61 Arg2:T62	
+T87	missed_disease_or_phenotypic_feature 2377 2395	metabolic diseases
+R14	treats Arg1:T82 Arg2:T87	
+R15	treats Arg1:T83 Arg2:T87	
+R16	treats Arg1:T83 Arg2:T68	
+R17	treats Arg1:T83 Arg2:T66	
+R18	treats Arg1:T83 Arg2:T67	

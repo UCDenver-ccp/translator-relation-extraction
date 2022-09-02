@@ -75,3 +75,9 @@ R10	treats Arg1:T13 Arg2:T10
 R11	treats Arg1:T12 Arg2:T10
 R12	treats Arg1:T12 Arg2:T11
 R13	treats Arg1:T58 Arg2:T57
+T65	missed_chemical 2238 2240	CU
+T66	corrected_disease_or_phenotypic_feature 2321 2326	tumor
+R14	treats Arg1:T38 Arg2:T66	
+R15	treats Arg1:T65 Arg2:T66	
+T67	missed_chemical 3178 3181	VPA
+R16	causes_or_contributes_to Arg1:T67 Arg2:T50	

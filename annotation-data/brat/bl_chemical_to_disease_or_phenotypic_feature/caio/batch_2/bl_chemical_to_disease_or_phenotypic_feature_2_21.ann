@@ -64,3 +64,23 @@ T63	chemical 2287 2293	ligand
 T64	disease_or_phenotypic_feature 2304 2331	papillary thyroid carcinoma
 T65	chemical 2344 2353	Oxidative
 T66	disease_or_phenotypic_feature 2386 2403	colorectal cancer
+T67	missed_disease_or_phenotypic_feature 518 543	tumor-associated antigens
+R1	causes_or_contributes_to Arg1:T12 Arg2:T67	
+T68	corrected_chemical 812 834	aldosterone inhibitors
+T69	missed_disease_or_phenotypic_feature 847 859	hypertension
+R2	treats Arg1:T68 Arg2:T69	
+R3	treats Arg1:T32 Arg2:T34	
+R4	causes_or_contributes_to Arg1:T35 Arg2:T37	
+T70	corrected_disease_or_phenotypic_feature 1427 1452	obesity-related disorders
+T71	corrected_chemical 1492 1507	COX-2 inhibitor
+R5	treats Arg1:T71 Arg2:T39	
+T72	corrected_disease_or_phenotypic_feature 1531 1559	colitis-associated neoplasia
+R6	treats Arg1:T40 Arg2:T72	
+T73	missed_disease_or_phenotypic_feature 1744 1750	Nausea
+R7	causes_or_contributes_to Arg1:T49 Arg2:T73	
+R8	causes_or_contributes_to Arg1:T49 Arg2:T46	
+R9	causes_or_contributes_to Arg1:T49 Arg2:T47	
+R10	causes_or_contributes_to Arg1:T53 Arg2:T55	
+T74	corrected_disease_or_phenotypic_feature 2119 2152	amiodarone-induced hypothyroidism
+R11	causes_or_contributes_to Arg1:T57 Arg2:T74	
+T75	DONE 2405 2409	DONE

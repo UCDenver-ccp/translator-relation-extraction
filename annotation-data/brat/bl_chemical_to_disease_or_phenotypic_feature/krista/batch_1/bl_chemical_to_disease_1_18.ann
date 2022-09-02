@@ -75,3 +75,5 @@ R2	treats Arg1:T19 Arg2:T21
 R3	treats Arg1:T69 Arg2:T68
 R4	treats Arg1:T48 Arg2:T46
 R5	treats Arg1:T5 Arg2:T7
+T73	corrected_disease_or_phenotypic_feature 4091 4099	diabetes
+R6	treats Arg1:T69 Arg2:T73	

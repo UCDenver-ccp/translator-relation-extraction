@@ -14,10 +14,8 @@ T13	chemical 859 866	protein
 T14	chemical 894 901	protein
 T15	chemical 977 984	glucose
 T16	disease_or_phenotypic_feature 977 996	glucose intolerance
-T17	missed_chemical 1027 1034	insulin
 T18	chemical 1310 1313	DNA
 T19	disease_or_phenotypic_feature 1368 1379	hepatitis B
-T20	corrected_chemical 1539 1556	miR-195 inhibitor
 T21	chemical 1547 1556	inhibitor
 T22	disease_or_phenotypic_feature 1614 1619	NSCLC
 T23	chemical 1644 1655	Methylation
@@ -64,7 +62,6 @@ T63	disease_or_phenotypic_feature 3669 3678	condition
 T64	chemical 3700 3713	calcimimetics
 T65	chemical 3719 3729	cinacalcet
 T66	chemical 3772 3779	calcium
-R1	treats Arg1:T17 Arg2:T16
 R2	causes_or_contributes_to Arg1:T11 Arg2:T12
 R3	treats Arg1:T40 Arg2:T43
 R4	treats Arg1:T40 Arg2:T45
@@ -74,3 +71,10 @@ R7	causes_or_contributes_to Arg1:T5 Arg2:T6
 R8	treats Arg1:T64 Arg2:T63
 R9	treats Arg1:T65 Arg2:T63
 R10	treats Arg1:T31 Arg2:T32
+T17	missed_disease_or_phenotypic_feature 2215 2219	LARC
+R1	treats Arg1:T31 Arg2:T17	
+T20	missed_chemical 2572 2577	PUFAs
+R11	treats Arg1:T20 Arg2:T43	
+R12	treats Arg1:T20 Arg2:T44	
+R13	treats Arg1:T20 Arg2:T45	
+R14	treats Arg1:T20 Arg2:T46	

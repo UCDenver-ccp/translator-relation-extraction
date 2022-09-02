@@ -66,13 +66,7 @@ T59	corrected_disease_or_phenotypic_feature 921 930;954 963	Inherited syndromes
 R7	has_phenotype Arg1:T59 Arg2:T35	
 R8	has_phenotype Arg1:T59 Arg2:T34	
 T60	missed_disease_or_phenotypic_feature 1334 1351	clinical features
-R9	has_phenotype Arg1:T60 Arg2:T44	
-R10	has_phenotype Arg1:T60 Arg2:T45	
-R11	has_phenotype Arg1:T60 Arg2:T46	
-R12	has_phenotype Arg1:T60 Arg2:T48	
 T61	missed_disease_or_phenotypic_feature 1479 1528	abnormalities in brain magnetic resonance imaging
-R13	has_phenotype Arg1:T60 Arg2:T61	
-R14	has_phenotype Arg1:T60 Arg2:T47	
 T62	missed_disease_or_phenotypic_feature 1530 1537	Allergy
 R15	has_phenotype Arg1:T62 Arg2:T49	
 R16	has_phenotype Arg1:T62 Arg2:T50	
@@ -89,3 +83,8 @@ R25	has_phenotype Arg1:T64 Arg2:T7
 R22	has_phenotype Arg1:T64 Arg2:T8	
 R24	has_phenotype Arg1:T64 Arg2:T9	
 R26	has_phenotype Arg1:T64 Arg2:T10	
+R27	has_phenotype Arg1:T11 Arg2:T12	
+R28	has_phenotype Arg1:T11 Arg2:T13	
+T66	missed_disease_or_phenotypic_feature 1721 1726	Death
+R29	has_phenotype Arg1:T56 Arg2:T66	
+R30	has_phenotype Arg1:T57 Arg2:T66	

@@ -100,7 +100,7 @@ T92	missed_disease_or_phenotypic_feature 2083 2104	altered mental status
 T93	missed_disease_or_phenotypic_feature 2106 2117	hypothermia
 T94	missed_disease_or_phenotypic_feature 2133 2144	tachycardia
 T95	missed_chemical 2292 2299	smoking
-R9	causes_or_contributes_to Arg1:T62 Arg2:T69	
+R9	treats Arg1:T62 Arg2:T69	
 T96	corrected_chemical 2553 2586	Indoleamine 2,3-dioxygenase (IDO)
 T98	missed_disease_or_phenotypic_feature 2713 2732	allograft rejection
 T99	missed_disease_or_phenotypic_feature 2757 2762	tumor
@@ -114,3 +114,12 @@ T103	corrected_chemical 1051 1063	cis-platinum
 T104	missed_disease_or_phenotypic_feature 2169 2181	side effects
 R1	causes_or_contributes_to Arg1:T58 Arg2:T104	
 R12	causes_or_contributes_to Arg1:T79 Arg2:T80	
+T105	missed_chemical 477 501	Anti-angiogenic therapy,
+R13	treats Arg1:T105 Arg2:T17	
+T106	corrected_chemical 1777 1810	tumour necrosis factor antagonist
+R14	treats Arg1:T106 Arg2:T46	
+R15	treats Arg1:T63 Arg2:T69	
+R16	treats Arg1:T64 Arg2:T69	
+R17	treats Arg1:T65 Arg2:T69	
+R18	treats Arg1:T67 Arg2:T69	
+R19	treats Arg1:T68 Arg2:T69	

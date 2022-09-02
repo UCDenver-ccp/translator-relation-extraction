@@ -92,31 +92,19 @@ R14	has_phenotype Arg1:T70 Arg2:T72
 R15	has_phenotype Arg1:T70 Arg2:T13	
 R16	has_phenotype Arg1:T70 Arg2:T14	
 T78	missed_disease_or_phenotypic_feature 158 185	Postoperative complications
-R17	has_phenotype Arg1:T78 Arg2:T8	
-R18	has_phenotype Arg1:T78 Arg2:T9	
 T79	corrected_disease_or_phenotypic_feature 195 213	cataract formation
-R19	has_phenotype Arg1:T78 Arg2:T79	
 T80	missed_disease_or_phenotypic_feature 246 275	epiretinal membrane formation
 T81	corrected_disease_or_phenotypic_feature 281 310	tractional retinal detachment
-R20	has_phenotype Arg1:T78 Arg2:T81	
-R21	has_phenotype Arg1:T78 Arg2:T80	
 T82	missed_disease_or_phenotypic_feature 712 729	Clinical features
-R22	has_phenotype Arg1:T82 Arg2:T24	
-R23	has_phenotype Arg1:T82 Arg2:T25	
 T83	missed_disease_or_phenotypic_feature 739 745	nausea
 T84	disease_or_phenotypic_feature 747 758	tachycardia
 T85	disease_or_phenotypic_feature 760 766	tremor
 R24	has_phenotype Arg1:T82 Arg2:T83	
-R25	has_phenotype Arg1:T82 Arg2:T84	
-R26	has_phenotype Arg1:T82 Arg2:T85	
 R27	has_phenotype Arg1:T34 Arg2:T35	
 T86	missed_disease_or_phenotypic_feature 1628 1643	clubbed fingers
 T87	missed_disease_or_phenotypic_feature 1677 1693	dental dysplasia
 T88	corrected_disease_or_phenotypic_feature 1598 1622	Keratosis palmoplantaris
 R28	has_phenotype Arg1:T88 Arg2:T86	
-R29	has_phenotype Arg1:T88 Arg2:T49	
-R30	has_phenotype Arg1:T88 Arg2:T50	
-R31	has_phenotype Arg1:T88 Arg2:T87	
 R32	has_phenotype Arg1:T65 Arg2:T64	
 R33	has_phenotype Arg1:T66 Arg2:T64	
 T89	missed_disease_or_phenotypic_feature 1924 1941	retinal dysplasia
@@ -135,15 +123,8 @@ R43	has_phenotype Arg1:T76 Arg2:T42
 R44	has_phenotype Arg1:T76 Arg2:T43	
 R45	has_phenotype Arg1:T44 Arg2:T77	
 R46	has_phenotype Arg1:T44 Arg2:T45	
-R47	has_phenotype Arg1:T90 Arg2:T53	
-R48	has_phenotype Arg1:T90 Arg2:T54	
-R49	has_phenotype Arg1:T90 Arg2:T55	
-R50	has_phenotype Arg1:T90 Arg2:T56	
-R51	has_phenotype Arg1:T90 Arg2:T57	
 T92	missed_disease_or_phenotypic_feature 1874 1888	white hairlock
 T93	missed_disease_or_phenotypic_feature 1829 1849	Hirschsprung disease
-R52	has_phenotype Arg1:T90 Arg2:T93	
-R53	has_phenotype Arg1:T90 Arg2:T92	
 R54	has_phenotype Arg1:T89 Arg2:T60	
 R55	has_phenotype Arg1:T89 Arg2:T61	
 R56	has_phenotype Arg1:T58 Arg2:T60	
@@ -152,3 +133,6 @@ R58	has_phenotype Arg1:T58 Arg2:T61
 R59	has_phenotype Arg1:T59 Arg2:T60	
 R60	has_phenotype Arg1:T34 Arg2:T36	
 R61	has_phenotype Arg1:T34 Arg2:T37	
+R17	has_phenotype Arg1:T88 Arg2:T49	
+R18	has_phenotype Arg1:T88 Arg2:T50	
+R19	has_phenotype Arg1:T88 Arg2:T87	

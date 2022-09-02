@@ -19,11 +19,11 @@ T18	disease_or_phenotypic_feature 817 824	colitis
 T19	chemical 849 856	dextran
 T20	chemical 857 864	sulfate
 T21	chemical 865 871	sodium
-T22	chemical 873 880	Alcohol
+T22	corrected_chemical 873 880;887 890;891 898;911 922	Alcohol and solvent combination
 T23	chemical 891 898	solvent
 T24	disease_or_phenotypic_feature 954 962	dementia
 T25	disease_or_phenotypic_feature 967 988	cerebral degeneration
-T26	chemical 1018 1025	ghrelin
+T26	chemical 1018 1025;1030 1048	ghrelin related substances
 T27	chemical 1054 1058	drug
 T28	disease_or_phenotypic_feature 1077 1084	obesity
 T29	disease_or_phenotypic_feature 1099 1105	ataxia
@@ -33,12 +33,11 @@ T32	chemical 1254 1257	II)
 T33	chemical 1259 1263	CDDP
 T34	chemical 1266 1277	carboplatin
 T35	chemical 1279 1295	cyclophosphamide
-T36	disease_or_phenotypic_feature 1297 1300	CTX
+T36	missed_chemical 1297 1300	CTX
 T37	chemical 1306 1314	thiotepa
 T38	chemical 1370 1374	drug
 T39	chemical 1439 1463	high-density lipoprotein
-T40	chemical 1439 1475	high-density lipoprotein cholesterol
-T41	chemical 1477 1483	HDL-C)
+T41	chemical 1477 1482	HDL-C
 T42	disease_or_phenotypic_feature 1519 1541	cardiovascular disease
 T43	chemical 1628 1634	Barium
 T44	disease_or_phenotypic_feature 1650 1654	rare
@@ -63,3 +62,45 @@ T62	disease_or_phenotypic_feature 2235 2252	cerebellar ataxia
 T63	chemical 2285 2288	air
 T64	disease_or_phenotypic_feature 2313 2320	obesity
 T65	chemical 2343 2347	food
+T66	missed_chemical 29 36	placebo
+R1	treats Arg1:T1 Arg2:T2	
+R2	treats Arg1:T66 Arg2:T2	
+T67	corrected_chemical 229 293	small-molecule inhibitor of inward-rectifying potassium channels
+R3	causes_or_contributes_to Arg1:T67 Arg2:T6	
+T68	corrected_disease_or_phenotypic_feature 817 845	colitis-associated neoplasia
+T69	corrected_chemical 849 871	dextran sulfate sodium
+R4	causes_or_contributes_to Arg1:T69 Arg2:T68	
+R5	causes_or_contributes_to Arg1:T22 Arg2:T24	
+R6	causes_or_contributes_to Arg1:T22 Arg2:T25	
+R10	causes_or_contributes_to Arg1:T26 Arg2:T28	
+T70	corrected_chemical 1146 1160	GABAergic drug
+T71	missed_disease_or_phenotypic_feature 1109 1136	cortical cerebellar atrophy
+R11	treats Arg1:T70 Arg2:T29	
+T40	corrected_chemical 1432 1475	plasma high-density lipoprotein cholesterol
+T72	missed_disease_or_phenotypic_feature 1543 1546	CVD
+T73	missed_disease_or_phenotypic_feature 1628 1644	Barium retention
+T74	corrected_chemical 1723 1738	barium sulphate
+R13	causes_or_contributes_to Arg1:T74 Arg2:T73	
+T76	corrected_chemical 1953 1993	angiotensin-converting enzyme inhibitors
+T77	missed_chemical 1998 2007	diuretics
+R15	treats Arg1:T76 Arg2:T50	
+R16	treats Arg1:T77 Arg2:T50	
+T78	corrected_chemical 2162 2177	c-Abl inhibitor
+T79	corrected_disease_or_phenotypic_feature 2227 2252	chronic cerebellar ataxia
+R17	treats Arg1:T78 Arg2:T79	
+R18	treats Arg1:T40 Arg2:T42	
+R19	treats Arg1:T41 Arg2:T42	
+R20	treats Arg1:T40 Arg2:T72	
+R21	treats Arg1:T41 Arg2:T72	
+T75	chemical 1018 1025	ghrelin
+R7	causes_or_contributes_to Arg1:T75 Arg2:T28	
+R8	treats Arg1:T31 Arg2:T29	
+T80	missed_disease_or_phenotypic_feature 1173 1200	EMT-6 murine mammary tumors
+T81	corrected_chemical 1225 1256	cis-diamminedichloroplatinum II
+R9	treats Arg1:T81 Arg2:T80	
+R12	treats Arg1:T33 Arg2:T80	
+R14	treats Arg1:T34 Arg2:T80	
+R22	treats Arg1:T35 Arg2:T80	
+R23	treats Arg1:T36 Arg2:T80	
+R24	treats Arg1:T37 Arg2:T80	
+R25	treats Arg1:T61 Arg2:T79	

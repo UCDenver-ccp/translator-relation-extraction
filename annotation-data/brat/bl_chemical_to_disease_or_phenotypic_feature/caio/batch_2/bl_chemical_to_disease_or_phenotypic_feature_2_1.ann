@@ -76,3 +76,45 @@ T75	disease_or_phenotypic_feature 2636 2653	movement disorder
 T76	chemical 2689 2698	melatonin
 T77	chemical 2768 2776	estrogen
 T78	disease_or_phenotypic_feature 2777 2786	dependent
+R1	treats Arg1:T7 Arg2:T9	
+R2	treats Arg1:T7 Arg2:T10	
+R3	treats Arg1:T8 Arg2:T9	
+R4	treats Arg1:T8 Arg2:T10	
+R5	causes_or_contributes_to Arg1:T11 Arg2:T12	
+T79	missed_disease_or_phenotypic_feature 541 551	depression
+R6	treats Arg1:T15 Arg2:T17	
+R7	treats Arg1:T15 Arg2:T18	
+R8	treats Arg1:T15 Arg2:T79	
+R9	treats Arg1:T16 Arg2:T17	
+R10	treats Arg1:T16 Arg2:T18	
+R11	treats Arg1:T16 Arg2:T79	
+R12	causes_or_contributes_to Arg1:T20 Arg2:T19	
+R13	causes_or_contributes_to Arg1:T21 Arg2:T19	
+T80	missed_chemical 796 803	statins
+R14	causes_or_contributes_to Arg1:T80 Arg2:T19	
+R15	causes_or_contributes_to Arg1:T27 Arg2:T29	
+T81	corrected_chemical 945 963	oxygen metabolites
+R16	treats Arg1:T31 Arg2:T30	
+R17	treats Arg1:T35 Arg2:T36	
+R18	treats Arg1:T46 Arg2:T45	
+T82	corrected_chemical 2143 2171	dopamine agonist cabergoline
+T83	corrected_disease_or_phenotypic_feature 2092 2110	pituitary adenomas
+R19	treats Arg1:T82 Arg2:T83	
+T84	missed_chemical 2445 2462	guanylate cyclase
+T85	corrected_chemical 2470 2498	phosphodiesterase inhibitors
+R20	treats Arg1:T85 Arg2:T68	
+R21	treats Arg1:T85 Arg2:T69	
+R22	treats Arg1:T85 Arg2:T70	
+R23	treats Arg1:T85 Arg2:T71	
+R24	treats Arg1:T85 Arg2:T72	
+R25	treats Arg1:T85 Arg2:T73	
+R26	treats Arg1:T84 Arg2:T68	
+R27	treats Arg1:T84 Arg2:T69	
+R28	treats Arg1:T84 Arg2:T70	
+R29	treats Arg1:T84 Arg2:T71	
+R30	treats Arg1:T84 Arg2:T72	
+R31	treats Arg1:T84 Arg2:T73	
+R32	causes_or_contributes_to Arg1:T74 Arg2:T75	
+R33	causes_or_contributes_to Arg1:T77 Arg2:T78	
+T86	corrected_disease_or_phenotypic_feature 2768 2792	estrogen-dependent tumor
+T87	DONE 2794 2798	DONE

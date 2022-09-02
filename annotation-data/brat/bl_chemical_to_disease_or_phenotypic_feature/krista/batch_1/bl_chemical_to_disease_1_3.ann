@@ -65,7 +65,6 @@ T64	chemical 3174 3182	residual
 T65	disease_or_phenotypic_feature 3183 3188	tumor
 T66	chemical 3337 3346	Biomarker
 T67	disease_or_phenotypic_feature 3350 3369	Acute Kidney Injury
-R1	treats Arg1:T38 Arg2:T42
 R2	treats Arg1:T56 Arg2:T54
 R3	treats Arg1:T55 Arg2:T54
 R4	treats Arg1:T60 Arg2:T62
@@ -77,3 +76,11 @@ R9	treats Arg1:T58 Arg2:T54
 R10	treats Arg1:T29 Arg2:T30
 R11	causes_or_contributes_to Arg1:T29 Arg2:T27
 R12	treats Arg1:T3 Arg2:T4
+T68	corrected_disease_or_phenotypic_feature 879 887	glaucoma
+R13	causes_or_contributes_to Arg1:T21 Arg2:T68	
+T69	corrected_chemical 1945 1949	drug
+R1	treats Arg1:T69 Arg2:T42	
+T70	missed_disease_or_phenotypic_feature 1945 1973	drug-resistant breast cancer
+R14	treats Arg1:T38 Arg2:T70	
+T71	corrected_chemical 2021 2043	dextran sulfate sodium
+R15	causes_or_contributes_to Arg1:T71 Arg2:T46	

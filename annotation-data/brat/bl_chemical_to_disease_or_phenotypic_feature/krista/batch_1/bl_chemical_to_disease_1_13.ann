@@ -98,3 +98,15 @@ R10	treats Arg1:T1 Arg2:T5
 R11	treats Arg1:T23 Arg2:T26
 R12	treats Arg1:T28 Arg2:T29
 R13	treats Arg1:T28 Arg2:T30
+T88	missed_chemical 109 119	adriamycin
+R14	causes_or_contributes_to Arg1:T88 Arg2:T3	
+R15	causes_or_contributes_to Arg1:T88 Arg2:T5	
+T89	corrected_disease_or_phenotypic_feature 182 188	cancer
+T90	corrected_chemical 163 171	Platinum
+R16	treats Arg1:T90 Arg2:T89	
+T91	corrected_disease_or_phenotypic_feature 2285 2297	tuberculosis
+T92	corrected_chemical 2270 2274	drug
+R17	treats Arg1:T92 Arg2:T91	
+T93	corrected_chemical 3114 3118	drug
+R18	treats Arg1:T93 Arg2:T70	
+R19	treats Arg1:T93 Arg2:T71	

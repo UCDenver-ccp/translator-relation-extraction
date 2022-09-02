@@ -94,3 +94,6 @@ T88	missed_disease_or_phenotypic_feature 2940 2951	hypercapnia
 T89	missed_disease_or_phenotypic_feature 2953 2971	refeeding syndrome
 T90	missed_disease_or_phenotypic_feature 2973 2995	acid-base disturbances
 T91	DONE 3066 3070	DONE
+R6	treats Arg1:T78 Arg2:T30	
+R7	treats Arg1:T41 Arg2:T40	
+R8	treats Arg1:T42 Arg2:T40	

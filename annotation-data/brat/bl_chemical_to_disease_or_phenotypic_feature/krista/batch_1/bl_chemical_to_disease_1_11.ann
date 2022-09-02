@@ -62,3 +62,11 @@ T61	chemical 3488 3504	pro-inflammatory
 T62	disease_or_phenotypic_feature 3547 3552	PFAPA
 R1	treats Arg1:T30 Arg2:T28
 R2	treats Arg1:T29 Arg2:T28
+T63	missed_disease_or_phenotypic_feature 364 368	PISE
+T64	corrected_chemical 324 335	pilocarpine
+R4	causes_or_contributes_to Arg1:T64 Arg2:T63	
+T65	corrected_disease_or_phenotypic_feature 324 362	pilocarpine-induced status epilepticus
+R3	causes_or_contributes_to Arg1:T64 Arg2:T65	
+T66	missed_chemical 815 818	BLM
+T67	missed_disease_or_phenotypic_feature 815 835	BLM-induced fibrosis
+R5	causes_or_contributes_to Arg1:T66 Arg2:T67	

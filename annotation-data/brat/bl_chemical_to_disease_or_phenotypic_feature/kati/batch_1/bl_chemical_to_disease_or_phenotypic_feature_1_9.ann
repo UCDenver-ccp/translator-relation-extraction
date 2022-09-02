@@ -69,3 +69,34 @@ T68	disease_or_phenotypic_feature 2872 2880	syphilis
 T69	chemical 2948 2955	agonist
 T70	chemical 2957 2968	liraglutide
 T71	disease_or_phenotypic_feature 2995 3002	obesity
+T72	corrected_disease_or_phenotypic_feature 237 261	Sugar cataract formation
+T73	corrected_chemical 308 341	sorbitol dehydrogenase inhibitors
+R1	causes_or_contributes_to Arg1:T73 Arg2:T72	
+R2	treats Arg1:T12 Arg2:T13	
+T74	missed_chemical 520 526	Prozac
+R3	treats Arg1:T74 Arg2:T13	
+T75	corrected_chemical 597 620	free radical scavengers
+T76	missed_chemical 624 636	antioxidants
+T77	missed_disease_or_phenotypic_feature 682 727	initial stage of the oxidation damage to lens
+R4	treats Arg1:T75 Arg2:T77	
+R5	treats Arg1:T76 Arg2:T77	
+T78	corrected_chemical 1012 1036	selenium supplementation
+R6	treats Arg1:T78 Arg2:T19	
+R7	causes_or_contributes_to Arg1:T23 Arg2:T24	
+T79	corrected_chemical 1611 1632;1651 1668	antioxidant nutrients from food sources
+R8	treats Arg1:T79 Arg2:T39	
+R9	treats Arg1:T79 Arg2:T40	
+R10	treats Arg1:T79 Arg2:T41	
+R11	treats Arg1:T79 Arg2:T42	
+R12	treats Arg1:T79 Arg2:T43	
+T80	corrected_chemical 1847 1862	Botulinum toxin
+R13	treats Arg1:T80 Arg2:T45	
+R14	treats Arg1:T47 Arg2:T48	
+R15	causes_or_contributes_to Arg1:T51 Arg2:T52	
+T81	corrected_chemical 2474 2492	Antipsychotic drug
+R16	causes_or_contributes_to Arg1:T81 Arg2:T59	
+T82	corrected_chemical 2775 2801	IM penicillin G benzathine
+R17	treats Arg1:T82 Arg2:T68	
+T83	corrected_chemical 2942 2955	GLP-1 agonist
+R18	treats Arg1:T83 Arg2:T71	
+R19	treats Arg1:T70 Arg2:T71	

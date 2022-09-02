@@ -87,10 +87,19 @@ R8	treats Arg1:T48 Arg2:T51
 R9	treats Arg1:T48 Arg2:T52	
 T79	missed_disease_or_phenotypic_feature 1990 2012	Disordered food intake
 T80	corrected_chemical 2042 2068	holecystokinin A receptors
-T81	missed_disease_or_phenotypic_feature 2329 2353;2358 2367	cardiovascular morbidity mortality
 R10	treats Arg1:T61 Arg2:T60	
-R11	treats Arg1:T61 Arg2:T81	
 T82	missed_disease_or_phenotypic_feature 2521 2529	diabetes
 T83	missed_chemical 2628 2630	O2
 T84	missed_disease_or_phenotypic_feature 2643 2669	androgen-dependent tumours
 T85	DONE 2759 2763	DONE
+R12	causes_or_contributes_to Arg1:T1 Arg2:T3	
+R13	treats Arg1:T76 Arg2:T30	
+R14	treats Arg1:T76 Arg2:T75	
+R15	treats Arg1:T43 Arg2:T41	
+T86	missed_disease_or_phenotypic_feature 1716 1718	MN
+R16	treats Arg1:T43 Arg2:T86	
+T81	missed_disease_or_phenotypic_feature 2329 2353	cardiovascular morbidity
+R11	treats Arg1:T61 Arg2:T81	
+T87	missed_disease_or_phenotypic_feature 2329 2343;2358 2367	cardiovascular mortality
+R17	treats Arg1:T61 Arg2:T87	
+R18	causes_or_contributes_to Arg1:T68 Arg2:T84	

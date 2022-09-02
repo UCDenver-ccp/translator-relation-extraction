@@ -67,3 +67,37 @@ T66	disease_or_phenotypic_feature 2186 2193	obesity
 T67	chemical 2217 2228	amphetamine
 T68	chemical 2230 2237	cocaine
 T69	chemical 2242 2250	cannabis
+R1	causes_or_contributes_to Arg1:T4 Arg2:T3	
+T70	corrected_disease_or_phenotypic_feature 239 260	arterial hypertension
+T71	corrected_chemical 177 196	valsartan-inhibitor
+R2	treats Arg1:T71 Arg2:T70	
+R3	treats Arg1:T71 Arg2:T10	
+T72	corrected_disease_or_phenotypic_feature 557 590	dapsone hypersensitivity syndrome
+R4	causes_or_contributes_to Arg1:T17 Arg2:T72	
+R5	treats Arg1:T23 Arg2:T72	
+R6	treats Arg1:T23 Arg2:T20	
+R7	treats Arg1:T23 Arg2:T21	
+R8	treats Arg1:T23 Arg2:T22	
+T73	missed_disease_or_phenotypic_feature 613 621	headache
+T74	missed_disease_or_phenotypic_feature 623 629	nausea
+T75	missed_disease_or_phenotypic_feature 641 656	lymphadenopathy
+T76	missed_disease_or_phenotypic_feature 669 678	hemolysis
+T77	missed_disease_or_phenotypic_feature 680 690	leukopenia
+T78	missed_disease_or_phenotypic_feature 696 709	mononucleosis
+R9	treats Arg1:T23 Arg2:T73	
+R10	treats Arg1:T23 Arg2:T74	
+R11	treats Arg1:T23 Arg2:T75	
+R12	treats Arg1:T23 Arg2:T76	
+R13	treats Arg1:T23 Arg2:T77	
+R14	treats Arg1:T23 Arg2:T78	
+R15	causes_or_contributes_to Arg1:T30 Arg2:T31	
+R16	causes_or_contributes_to Arg1:T33 Arg2:T32	
+T79	corrected_chemical 1349 1373	NPY receptor antagonists
+R17	treats Arg1:T79 Arg2:T41	
+R18	treats Arg1:T79 Arg2:T42	
+R19	treats Arg1:T52 Arg2:T53	
+R20	treats Arg1:T51 Arg2:T53	
+R21	treats Arg1:T50 Arg2:T53	
+T80	corrected_disease_or_phenotypic_feature 2039 2072	non-islet cell tumor hypoglycemia
+R22	treats Arg1:T60 Arg2:T80	
+T81	DONE 2264 2268	DONE

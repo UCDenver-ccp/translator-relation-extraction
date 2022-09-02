@@ -57,3 +57,29 @@ T56	chemical 1862 1865	dye
 T57	disease_or_phenotypic_feature 1875 1904	hypogonadotropic hypogonadism
 T58	disease_or_phenotypic_feature 1906 1924	hyperprolactinemia
 T59	chemical 1929 1943	growth hormone
+R1	treats Arg1:T2 Arg2:T3	
+R2	treats Arg1:T2 Arg2:T4	
+R3	treats Arg1:T2 Arg2:T5	
+R4	causes_or_contributes_to Arg1:T10 Arg2:T12	
+R5	causes_or_contributes_to Arg1:T11 Arg2:T12	
+T60	missed_disease_or_phenotypic_feature 445 470	tumor-associated antigens
+R6	causes_or_contributes_to Arg1:T18 Arg2:T60	
+T61	corrected_chemical 932 946	ACE inhibitors
+R7	treats Arg1:T31 Arg2:T34	
+T62	corrected_disease_or_phenotypic_feature 1028 1051	ischaemic heart disease
+R8	treats Arg1:T31 Arg2:T62	
+R9	treats Arg1:T32 Arg2:T34	
+R10	treats Arg1:T32 Arg2:T62	
+R11	treats Arg1:T61 Arg2:T34	
+R12	treats Arg1:T61 Arg2:T62	
+R13	treats Arg1:T37 Arg2:T39	
+R14	treats Arg1:T37 Arg2:T40	
+R15	treats Arg1:T38 Arg2:T39	
+R16	treats Arg1:T38 Arg2:T40	
+T63	missed_disease_or_phenotypic_feature 1399 1434	tumor-associated oncofetal antigens
+R17	causes_or_contributes_to Arg1:T44 Arg2:T63	
+T64	corrected_disease_or_phenotypic_feature 1532 1555	drug-resistant seizures
+R18	treats Arg1:T45 Arg2:T64	
+R19	treats Arg1:T45 Arg2:T48	
+T65	missed_disease_or_phenotypic_feature 1929 1954	growth hormone deficiency
+T66	DONE 1956 1960	DONE

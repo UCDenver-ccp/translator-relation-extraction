@@ -86,9 +86,6 @@ T74	missed_disease_or_phenotypic_feature 1403 1413;1428 1451	peripheral eosinoph
 R12	treats Arg1:T71 Arg2:T74	
 T76	corrected_disease_or_phenotypic_feature 1418 1451	pulmonary eosinophil accumulation
 R13	treats Arg1:T71 Arg2:T76	
-T75	corrected_chemical 1545 1572	melanoma-associated antigen
-T77	missed_disease_or_phenotypic_feature 1503 1509	tumors
-R14	causes_or_contributes_to Arg1:T75 Arg2:T77	
 T78	corrected_chemical 1702 1725	double-scattered proton
 T79	corrected_disease_or_phenotypic_feature 1598 1644;1667 1691	nonmetastatic nonkeratinizing undifferentiated nasopharyngeal carcinoma
 T80	missed_disease_or_phenotypic_feature 1598 1627;1645 1691	nonmetastatic nonkeratinizing poorly differentiated nasopharyngeal carcinoma
@@ -107,3 +104,9 @@ T86	corrected_disease_or_phenotypic_feature 2673 2702	KRAS-mutant colorectal can
 R21	treats Arg1:T85 Arg2:T86	
 T87	missed_chemical 2586 2595	LY3214996
 R22	treats Arg1:T87 Arg2:T86	
+T88	missed_disease_or_phenotypic_feature 2043 2052	neoplasia
+R23	causes_or_contributes_to Arg1:T43 Arg2:T88	
+T75	missed_disease_or_phenotypic_feature 2408 2425	glucose excretion
+R14	causes_or_contributes_to Arg1:T83 Arg2:T75	
+T77	missed_disease_or_phenotypic_feature 2535 2549	liver fibrosis
+R24	causes_or_contributes_to Arg1:T56 Arg2:T77	

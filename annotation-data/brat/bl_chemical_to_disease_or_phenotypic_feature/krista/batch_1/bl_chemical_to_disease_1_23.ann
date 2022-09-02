@@ -75,3 +75,12 @@ R3	treats Arg1:T63 Arg2:T64
 R4	causes_or_contributes_to Arg1:T63 Arg2:T62
 R5	causes_or_contributes_to Arg1:T13 Arg2:T9
 R6	causes_or_contributes_to Arg1:T13 Arg2:T11
+T72	missed_disease_or_phenotypic_feature 521 523	DK
+T73	corrected_disease_or_phenotypic_feature 525 546	diabetic ketoacidosis
+T74	missed_chemical 619 625	SGLT2i
+R7	causes_or_contributes_to Arg1:T13 Arg2:T73	
+R8	causes_or_contributes_to Arg1:T13 Arg2:T72	
+R9	causes_or_contributes_to Arg1:T74 Arg2:T9	
+R10	causes_or_contributes_to Arg1:T74 Arg2:T72	
+R11	causes_or_contributes_to Arg1:T74 Arg2:T73	
+R12	causes_or_contributes_to Arg1:T74 Arg2:T11	

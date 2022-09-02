@@ -58,3 +58,30 @@ T57	disease_or_phenotypic_feature 2068 2079	"ARG4.0MPa"
 T58	disease_or_phenotypic_feature 2139 2161	central hypothyroidism
 T59	chemical 2163 2177	growth hormone
 T60	disease_or_phenotypic_feature 2206 2235	hypogonadotropic hypogonadism
+T61	corrected_chemical 14 45	tumor necrosis factor inhibitor
+R1	treats Arg1:T61 Arg2:T3	
+R2	treats Arg1:T10 Arg2:T12	
+R3	treats Arg1:T10 Arg2:T13	
+T62	missed_chemical 351 353	OT
+R4	treats Arg1:T62 Arg2:T12	
+R5	treats Arg1:T62 Arg2:T13	
+T63	missed_chemical 524 559	intraperitoneal chemotherapy agents
+R6	treats Arg1:T63 Arg2:T17	
+R7	treats Arg1:T63 Arg2:T18	
+R8	treats Arg1:T63 Arg2:T19	
+T64	corrected_chemical 760 778	antipsychotic drug
+R9	causes_or_contributes_to Arg1:T64 Arg2:T24	
+T65	corrected_disease_or_phenotypic_feature 1038 1070	acute irreversible renal failure
+R10	causes_or_contributes_to Arg1:T29 Arg2:T65	
+T66	corrected_chemical 1096 1124	serotonergic 5-HT-1A agonist
+R11	treats Arg1:T66 Arg2:T35	
+T67	missed_disease_or_phenotypic_feature 1252 1281	increase of the serum calcium
+T68	corrected_chemical 1162 1176;1186 1229	Buffer extract of the tumors associated with hypercalcemia
+R12	causes_or_contributes_to Arg1:T68 Arg2:T67	
+T69	corrected_chemical 1561 1573	Genital talc
+R13	causes_or_contributes_to Arg1:T69 Arg2:T45	
+R14	treats Arg1:T1 Arg2:T3	
+T70	missed_chemical 725 739	cafeteria diet
+R15	causes_or_contributes_to Arg1:T70 Arg2:T21	
+R16	treats Arg1:T32 Arg2:T35	
+R17	causes_or_contributes_to Arg1:T23 Arg2:T24	

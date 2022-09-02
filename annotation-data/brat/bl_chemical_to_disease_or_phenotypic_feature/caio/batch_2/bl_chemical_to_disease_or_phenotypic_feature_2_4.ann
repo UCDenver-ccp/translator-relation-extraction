@@ -66,3 +66,14 @@ T65	chemical 1981 1990	urokinase
 T66	disease_or_phenotypic_feature 1994 2013	prostatic carcinoma
 T67	disease_or_phenotypic_feature 2022 2027	gland
 T68	chemical 2044 2058	anticonvulsant
+R1	causes_or_contributes_to Arg1:T13 Arg2:T14	
+T69	corrected_disease_or_phenotypic_feature 1045 1080	drug-induced cardiovascular disease
+R2	causes_or_contributes_to Arg1:T32 Arg2:T69	
+T70	corrected_chemical 1541 1567	farnesylthiosalicylic acid
+R3	treats Arg1:T70 Arg2:T46	
+R4	treats Arg1:T49 Arg2:T46	
+T71	corrected_chemical 1516 1528	Ras inhibito
+R5	treats Arg1:T71 Arg2:T46	
+T72	corrected_disease_or_phenotypic_feature 2016 2033	Lymph-gland tumor
+R6	causes_or_contributes_to Arg1:T68 Arg2:T72	
+T73	DONE 2067 2071	DONE

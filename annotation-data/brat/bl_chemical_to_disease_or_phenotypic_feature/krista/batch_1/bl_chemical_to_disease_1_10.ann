@@ -54,13 +54,11 @@ T53	disease_or_phenotypic_feature 3346 3370	Fallopian tube carcinoma
 T54	chemical 3432 3435	Pap
 T55	missed_chemical 3459 3462	DOX
 T56	chemical 3467 3481	P-glycoprotein
-T57	corrected_chemical 3467 3494	P-glycoprotein (P-gp) siRNA
 T58	chemical 3543 3563	cholesterol-mediated
 T59	disease_or_phenotypic_feature 3615 3620	tumor
 T60	disease_or_phenotypic_feature 3692 3702	dependence
 T61	chemical 3737 3746	molecular
 T62	chemical 3779 3789	pro)chiral
-R1	treats Arg1:T57 Arg2:T59
 R2	treats Arg1:T15 Arg2:T17
 R3	treats Arg1:T14 Arg2:T17
 R4	treats Arg1:T3 Arg2:T2
@@ -70,3 +68,5 @@ R7	treats Arg1:T9 Arg2:T11
 R8	treats Arg1:T9 Arg2:T12
 R9	treats Arg1:T16 Arg2:T17
 R10	treats Arg1:T40 Arg2:T41
+T63	corrected_disease_or_phenotypic_feature 2610 2616	cancer
+R11	treats Arg1:T37 Arg2:T63	

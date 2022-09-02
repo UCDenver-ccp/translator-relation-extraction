@@ -66,3 +66,43 @@ T65	disease_or_phenotypic_feature 2545 2560	pancreas cancer
 T66	chemical 2572 2579	antigen
 T67	disease_or_phenotypic_feature 2590 2598	melanoma
 T68	chemical 2622 2630	antigens
+T69	missed_chemical 185 188	GPC
+R1	causes_or_contributes_to Arg1:T69 Arg2:T3	
+R2	causes_or_contributes_to Arg1:T6 Arg2:T3	
+R3	causes_or_contributes_to Arg1:T4 Arg2:T3	
+T70	missed_disease_or_phenotypic_feature 463 494	gastrointestinal stromal tumour
+R5	treats Arg1:T13 Arg2:T70	
+T71	missed_disease_or_phenotypic_feature 602 618	iver dysfunction
+T72	corrected_chemical 665 681	COX-2 inhibitors
+T73	missed_disease_or_phenotypic_feature 688 704	sodium retention
+R4	causes_or_contributes_to Arg1:T72 Arg2:T73	
+R6	causes_or_contributes_to Arg1:T72 Arg2:T19	
+R7	causes_or_contributes_to Arg1:T72 Arg2:T20	
+T74	missed_disease_or_phenotypic_feature 743 755	hypertension
+R8	causes_or_contributes_to Arg1:T72 Arg2:T74	
+R9	causes_or_contributes_to Arg1:T21 Arg2:T22	
+R10	causes_or_contributes_to Arg1:T23 Arg2:T25	
+T75	missed_disease_or_phenotypic_feature 1082 1098	endocrinopathies
+T76	missed_disease_or_phenotypic_feature 1100 1122	granulomatous diseases
+T77	missed_chemical 1205 1212	lithium
+R11	causes_or_contributes_to Arg1:T34 Arg2:T76	
+R12	causes_or_contributes_to Arg1:T34 Arg2:T75	
+R13	causes_or_contributes_to Arg1:T34 Arg2:T32	
+R14	causes_or_contributes_to Arg1:T34 Arg2:T31	
+R15	causes_or_contributes_to Arg1:T35 Arg2:T76	
+R16	causes_or_contributes_to Arg1:T35 Arg2:T75	
+R17	causes_or_contributes_to Arg1:T35 Arg2:T31	
+R18	causes_or_contributes_to Arg1:T77 Arg2:T31	
+R19	causes_or_contributes_to Arg1:T77 Arg2:T32	
+R20	causes_or_contributes_to Arg1:T77 Arg2:T75	
+R21	causes_or_contributes_to Arg1:T77 Arg2:T76	
+T78	corrected_chemical 1215 1251	Nonsteroidal anti-inflammatory drugs
+R22	causes_or_contributes_to Arg1:T78 Arg2:T39	
+R23	causes_or_contributes_to Arg1:T37 Arg2:T39	
+R24	causes_or_contributes_to Arg1:T38 Arg2:T39	
+R25	causes_or_contributes_to Arg1:T53 Arg2:T52	
+R26	causes_or_contributes_to Arg1:T54 Arg2:T52	
+T79	corrected_chemical 2190 2204	ACE inhibitors
+R27	causes_or_contributes_to Arg1:T66 Arg2:T65	
+R28	causes_or_contributes_to Arg1:T68 Arg2:T67	
+T80	DONE 2707 2711	DONE

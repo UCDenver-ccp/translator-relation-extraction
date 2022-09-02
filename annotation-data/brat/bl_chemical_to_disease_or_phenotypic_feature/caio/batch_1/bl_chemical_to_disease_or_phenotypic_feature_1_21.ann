@@ -75,12 +75,20 @@ T73	corrected_chemical 811 827	ARPC2 inhibitor,
 R2	treats Arg1:T26 Arg2:T28	
 T74	missed_disease_or_phenotypic_feature 865 881	tumor metastasis
 R3	treats Arg1:T26 Arg2:T74	
-T75	corrected_chemical 919 951	sodium selenite-induced cataract
 T76	corrected_chemical 1167 1189	Guanidinosuccinic acid
 T77	missed_disease_or_phenotypic_feature 1221 1229	azotemia
 T78	missed_chemical 1305 1337	Ewing tumor-associated antigen 1
 T79	missed_chemical 1354 1360	ETAA16
 T80	missed_chemical 1298 1303	ETAA1
 T81	missed_disease_or_phenotypic_feature 1632 1644	hypertension
-T82	corrected_chemical 1923 1958	Erythrocyte sodium-potassium-ATPase
 T83	DONE 2045 2049	DONE
+R4	causes_or_contributes_to Arg1:T4 Arg2:T67	
+R5	treats Arg1:T73 Arg2:T28	
+R6	treats Arg1:T73 Arg2:T74	
+T84	corrected_chemical 919 934	sodium selenite
+R7	causes_or_contributes_to Arg1:T84 Arg2:T31	
+T75	corrected_disease_or_phenotypic_feature 1041 1067	refractory cancer cachexia
+R8	treats Arg1:T32 Arg2:T75	
+R9	treats Arg1:T33 Arg2:T75	
+R10	causes_or_contributes_to Arg1:T3 Arg2:T67	
+R11	causes_or_contributes_to Arg1:T3 Arg2:T1	

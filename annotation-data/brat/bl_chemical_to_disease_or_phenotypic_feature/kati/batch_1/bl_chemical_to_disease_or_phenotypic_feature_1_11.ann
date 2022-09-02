@@ -94,7 +94,7 @@ R15	treats Arg1:T84 Arg2:T55
 R16	treats Arg1:T67 Arg2:T71	
 T83	corrected_chemical 626 657	stemness-related tumor antigens
 R17	treats Arg1:T83 Arg2:T22	
-T85	missed_chemical 612 621;643 657	Universal tumor antigens
+T85	corrected_chemical 612 621;643 657	Universal tumor antigens
 R19	treats Arg1:T85 Arg2:T22	
 T42	missed_chemical 1378 1388	Ticagrelor
 R13	treats Arg1:T42 Arg2:T81	

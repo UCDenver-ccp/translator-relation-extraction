@@ -67,3 +67,9 @@ R3	treats Arg1:T19 Arg2:T22
 R4	treats Arg1:T19 Arg2:T20
 R5	treats Arg1:T19 Arg2:T21
 R6	treats Arg1:T3 Arg2:T1
+T64	missed_chemical 1669 1672	INH
+R7	treats Arg1:T64 Arg2:T30	
+T65	missed_chemical 1845 1855	chemically
+T66	missed_disease_or_phenotypic_feature 1845 1887	chemically-induced mammary adenocarcinomas
+R8	causes_or_contributes_to Arg1:T65 Arg2:T66	
+R9	causes_or_contributes_to Arg1:T31 Arg2:T66	

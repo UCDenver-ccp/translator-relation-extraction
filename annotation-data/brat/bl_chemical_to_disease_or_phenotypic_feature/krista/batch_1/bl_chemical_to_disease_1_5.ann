@@ -17,11 +17,9 @@ T16	disease_or_phenotypic_feature 1643 1652	pleuritis
 T17	chemical 1733 1737	lead
 T18	disease_or_phenotypic_feature 1758 1764	cancer
 T19	disease_or_phenotypic_feature 1776 1806	malignant pleural mesothelioma
-T20	chemical 1825 1833	Glucagon
 T21	chemical 1862 1869	glucose
 T22	disease_or_phenotypic_feature 1930 1943	hyperglycemia
 T23	disease_or_phenotypic_feature 1947 1955	diabetes
-T24	chemical 1963 1971	glucagon
 T25	missed_chemical 2099 2109	clobetasol
 T26	chemical 2127 2147	methotrexate-induced
 T27	corrected_disease_or_phenotypic_feature 2127 2163	methotrexate-induced oral ulceration
@@ -72,5 +70,9 @@ T71	chemical 5025 5032	glucose
 R1	treats Arg1:T38 Arg2:T39
 R2	causes_or_contributes_to Arg1:T38 Arg2:T41
 R3	treats Arg1:T64 Arg2:T65
-R4	causes_or_contributes_to Arg1:T20 Arg2:T22
 R5	treats Arg1:T25 Arg2:T27
+T20	corrected_chemical 2127 2139	methotrexate
+R4	causes_or_contributes_to Arg1:T20 Arg2:T27	
+R6	treats Arg1:T20 Arg2:T29	
+T24	corrected_chemical 2542 2546	drug
+R7	treats Arg1:T24 Arg2:T35	

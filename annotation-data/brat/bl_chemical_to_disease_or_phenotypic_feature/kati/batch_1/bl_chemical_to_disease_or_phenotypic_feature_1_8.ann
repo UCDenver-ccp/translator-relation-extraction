@@ -66,3 +66,15 @@ T65	disease_or_phenotypic_feature 2814 2822	cataract
 T66	disease_or_phenotypic_feature 2909 2918	infection
 T67	chemical 2964 2981	fluorescent probe
 T68	chemical 2976 2981	probe
+T69	missed_chemical 17 51	peptides isolated from tumor cells
+R1	treats Arg1:T69 Arg2:T2	
+R2	treats Arg1:T7 Arg2:T6	
+T70	missed_chemical 276 301	tumor-associated antigens
+R3	treats Arg1:T31 Arg2:T29	
+R4	treats Arg1:T35 Arg2:T36	
+R5	causes_or_contributes_to Arg1:T41 Arg2:T43	
+R6	causes_or_contributes_to Arg1:T41 Arg2:T44	
+T71	missed_disease_or_phenotypic_feature 1968 1980	inflammation
+T72	missed_disease_or_phenotypic_feature 1991 2004	tumorigenesis
+R7	treats Arg1:T41 Arg2:T71	
+R8	treats Arg1:T41 Arg2:T72	

@@ -19,7 +19,7 @@ T18	disease_or_phenotypic_feature 505 537	triple-negative breast carcinoma
 T19	chemical 539 550	Cannabidiol
 T20	disease_or_phenotypic_feature 583 591	seizures
 T21	chemical 595 599	drug
-T22	disease_or_phenotypic_feature 610 625	Dravet syndrome
+T22	missed_disease_or_phenotypic_feature 595 625	drug resistant Dravet syndrome
 T23	chemical 647 654	biology
 T24	disease_or_phenotypic_feature 672 687	prostate cancer
 T25	disease_or_phenotypic_feature 689 696	One-Pot
@@ -101,3 +101,13 @@ R17	causes_or_contributes_to Arg1:T83 Arg2:T58
 R18	causes_or_contributes_to Arg1:T59 Arg2:T82	
 R19	causes_or_contributes_to Arg1:T59 Arg2:T58	
 R20	causes_or_contributes_to Arg1:T66 Arg2:T68	
+R21	treats Arg1:T73 Arg2:T36	
+T84	missed_chemical 1918 1925	NEXAVAR
+R22	treats Arg1:T84 Arg2:T80	
+R23	treats Arg1:T84 Arg2:T57	
+R24	treats Arg1:T79 Arg2:T81	
+R25	treats Arg1:T84 Arg2:T81	
+T85	corrected_disease_or_phenotypic_feature 436 462	estrogen-dependent cancers
+R26	causes_or_contributes_to Arg1:T11 Arg2:T85	
+T86	corrected_chemical 2262 2277	anticancer drug
+R27	causes_or_contributes_to Arg1:T86 Arg2:T68	

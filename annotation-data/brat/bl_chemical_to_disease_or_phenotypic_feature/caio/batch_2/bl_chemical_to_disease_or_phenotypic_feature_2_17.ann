@@ -73,3 +73,37 @@ T72	chemical 2583 2597	norepinephrine
 T73	chemical 2607 2617	inhibitors
 T74	disease_or_phenotypic_feature 2660 2700	attention-deficit hyperactivity disorder
 T75	disease_or_phenotypic_feature 2702 2706	ADHD
+T76	missed_disease_or_phenotypic_feature 174 185	weight gain
+R1	causes_or_contributes_to Arg1:T4 Arg2:T76	
+T77	corrected_disease_or_phenotypic_feature 203 227	hormone-sensitive tumors
+R2	causes_or_contributes_to Arg1:T5 Arg2:T77	
+T78	missed_disease_or_phenotypic_feature 516 521	tumor
+R3	treats Arg1:T12 Arg2:T78	
+R4	treats Arg1:T11 Arg2:T78	
+T79	corrected_disease_or_phenotypic_feature 1006 1030	hormone dependent tumors
+R5	treats Arg1:T26 Arg2:T79	
+T80	missed_chemical 1063 1079	chemotherapeutic
+R6	causes_or_contributes_to Arg1:T80 Arg2:T32	
+R7	causes_or_contributes_to Arg1:T80 Arg2:T33	
+R8	causes_or_contributes_to Arg1:T29 Arg2:T32	
+R9	causes_or_contributes_to Arg1:T29 Arg2:T33	
+T81	missed_disease_or_phenotypic_feature 1230 1238	epilepsy
+T82	corrected_disease_or_phenotypic_feature 1240 1256	neuropathic pain
+T83	missed_disease_or_phenotypic_feature 1258 1271	schizophrenia
+R10	treats Arg1:T34 Arg2:T81	
+R11	treats Arg1:T34 Arg2:T82	
+R12	treats Arg1:T34 Arg2:T83	
+R13	treats Arg1:T34 Arg2:T38	
+T84	missed_disease_or_phenotypic_feature 1802 1820	insulin resistance
+R14	treats Arg1:T48 Arg2:T84	
+R15	treats Arg1:T48 Arg2:T49	
+R16	treats Arg1:T48 Arg2:T50	
+R17	treats Arg1:T48 Arg2:T51	
+R18	causes_or_contributes_to Arg1:T61 Arg2:T62	
+R19	causes_or_contributes_to Arg1:T61 Arg2:T63	
+T85	corrected_disease_or_phenotypic_feature 2275 2305	diabetic peripheral neuropathy
+T86	corrected_chemical 2479 2518	selective serotonin reuptake inhibitors
+R20	treats Arg1:T86 Arg2:T71	
+T87	corrected_chemical 2583 2617	norepinephrine reuptake inhibitors
+R21	treats Arg1:T87 Arg2:T74	
+T88	DONE 2709 2713	DONE

@@ -78,10 +78,8 @@ T72	corrected_chemical 1282 1294	Genital talc
 R6	causes_or_contributes_to Arg1:T72 Arg2:T33	
 T73	missed_chemical 1412 1416	EGFR
 T74	missed_disease_or_phenotypic_feature 1495 1500	tumor
-T75	corrected_disease_or_phenotypic_feature 1535 1546	EGFR-mutant
 T76	corrected_disease_or_phenotypic_feature 1720 1739	HFD-induced obesity
 R7	treats Arg1:T41 Arg2:T76	
-R8	treats Arg1:T41 Arg2:T43	
 T77	missed_chemical 1835 1846	CYP-derived
 T78	missed_chemical 1891 1906	LMs in high-fat
 T79	missed_chemical 1951 1954	LMs
@@ -96,3 +94,19 @@ R9	treats Arg1:T86 Arg2:T62
 R10	treats Arg1:T86 Arg2:T85	
 R11	treats Arg1:T86 Arg2:T63	
 T87	DONE 2616 2620	DONE
+R12	treats Arg1:T64 Arg2:T3	
+T88	missed_chemical 0 9	LY3214996
+R13	treats Arg1:T88 Arg2:T3	
+T89	missed_disease_or_phenotypic_feature 374 396	impaired mental status
+R14	treats Arg1:T4 Arg2:T89	
+R15	treats Arg1:T5 Arg2:T89	
+R16	treats Arg1:T6 Arg2:T89	
+T90	corrected_disease_or_phenotypic_feature 452 478	hypertensive heart failure
+R17	treats Arg1:T65 Arg2:T90	
+T75	corrected_disease_or_phenotypic_feature 1535 1553	EGFR-mutant tumors
+R19	treats Arg1:T35 Arg2:T75	
+R20	treats Arg1:T36 Arg2:T75	
+T91	missed_disease_or_phenotypic_feature 1744 1783	obesity-associated metabolic disorders.
+R8	treats Arg1:T41 Arg2:T91	
+T92	corrected_chemical 2278 2318	Immunization with defined tumor antigens
+R21	treats Arg1:T92 Arg2:T57	

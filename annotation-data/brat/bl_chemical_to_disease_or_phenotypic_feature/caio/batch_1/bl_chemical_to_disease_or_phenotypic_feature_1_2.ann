@@ -69,9 +69,8 @@ T66	missed_disease_or_phenotypic_feature 555 566	hyperkapnia
 T67	corrected_disease_or_phenotypic_feature 677 696	galactose cataracts
 T68	corrected_disease_or_phenotypic_feature 1157 1178	mutism syndrome (CMS)
 T69	corrected_chemical 1314 1329	barium sulphate
-T70	missed_chemical 1383 1389	5-HT2A
-T71	missed_chemical 1394 1398	DRD3
-R3	treats Arg1:T38 Arg2:T39	
+T70	missed_disease_or_phenotypic_feature 1383 1389	5-HT2A
+T71	missed_disease_or_phenotypic_feature 1394 1398	DRD3
 T72	missed_disease_or_phenotypic_feature 1614 1633	syngeneic JC tumors
 R4	treats Arg1:T42 Arg2:T44	
 R5	treats Arg1:T42 Arg2:T45	
@@ -79,3 +78,4 @@ T73	missed_chemical 2156 2164	hydrogel
 T74	corrected_chemical 2120 2164	P(AAm-AMPS)/alginate double-network hydrogel
 T75	missed_disease_or_phenotypic_feature 2540 2572	B-cell tumor-derived Ig receptor
 T76	DONE 2645 2649	DONE
+R6	causes_or_contributes_to Arg1:T5 Arg2:T58	

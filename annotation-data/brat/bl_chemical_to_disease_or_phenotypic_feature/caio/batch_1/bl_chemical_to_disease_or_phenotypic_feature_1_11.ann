@@ -83,8 +83,6 @@ T77	corrected_chemical 1513 1520	MVA-5T4
 T78	missed_chemical 1522 1528	TroVax
 T79	missed_chemical 1541 1553	glycoprotein
 T80	missed_disease_or_phenotypic_feature 1642 1647	tumor
-R6	treats Arg1:T40 Arg2:T80	
-R7	causes_or_contributes_to Arg1:T44 Arg2:T45	
 T81	missed_disease_or_phenotypic_feature 1844 1855	viral tumor
 T82	missed_disease_or_phenotypic_feature 1956 1961	tumor
 T83	missed_disease_or_phenotypic_feature 2012 2017	tumor
@@ -93,3 +91,14 @@ T85	missed_disease_or_phenotypic_feature 2144 2159	nonkeratinizing
 T86	corrected_chemical 2306 2320	ACE inhibitors
 R8	treats Arg1:T86 Arg2:T61	
 T87	DONE 2426 2430	DONE
+T88	missed_disease_or_phenotypic_feature 613 617	T2DM
+R9	treats Arg1:T70 Arg2:T88	
+R10	treats Arg1:T70 Arg2:T17	
+R11	treats Arg1:T26 Arg2:T28	
+R12	treats Arg1:T74 Arg2:T28	
+R13	treats Arg1:T27 Arg2:T28	
+R14	treats Arg1:T40 Arg2:T42	
+R6	treats Arg1:T43 Arg2:T42	
+R7	causes_or_contributes_to Arg1:T51 Arg2:T52	
+T89	corrected_disease_or_phenotypic_feature 2130 2223	nonmetastatic nonkeratinizing undifferentiated/poorly differentiated nasopharyngeal carcinoma
+R15	treats Arg1:T59 Arg2:T89	

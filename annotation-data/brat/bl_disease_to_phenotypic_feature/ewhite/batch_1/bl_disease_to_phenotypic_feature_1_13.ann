@@ -74,13 +74,8 @@ R7	has_phenotype Arg1:T66 Arg2:T26
 T67	corrected_disease_or_phenotypic_feature 664 682	Spastic paraplegia
 R8	has_phenotype Arg1:T66 Arg2:T67	
 T68	missed_disease_or_phenotypic_feature 1183 1195	WT1 mutation
-R9	has_phenotype Arg1:T68 Arg2:T40	
-R10	has_phenotype Arg1:T68 Arg2:T39	
-T69	corrected_disease_or_phenotypic_feature 1212 1238	familial cerebellar ataxia
-R11	has_phenotype Arg1:T69 Arg2:T42	
-R12	has_phenotype Arg1:T69 Arg2:T43	
 R13	has_phenotype Arg1:T61 Arg2:T62	
-T70	corrected_disease_or_phenotypic_feature 1408 1423	MCA/MR syndrome
+T70	corrected_disease_or_phenotypic_feature 1404 1423	new MCA/MR syndrome
 T71	missed_disease_or_phenotypic_feature 1311 1343	down-slanting palpebral fissures
 R14	has_phenotype Arg1:T70 Arg2:T47	
 R15	has_phenotype Arg1:T70 Arg2:T46	
@@ -97,3 +92,14 @@ R23	has_phenotype Arg1:T73 Arg2:T72
 R24	has_phenotype Arg1:T73 Arg2:T32	
 R25	has_phenotype Arg1:T73 Arg2:T33	
 R26	has_phenotype Arg1:T73 Arg2:T34	
+T74	missed_disease_or_phenotypic_feature 1089 1106	Intraspinal tumor
+T75	missed_disease_or_phenotypic_feature 1460 1479;1495 1506	highly vascularized brain tumor
+T69	corrected_disease_or_phenotypic_feature 1197 1238	New variant of familial cerebellar ataxia
+R9	has_phenotype Arg1:T69 Arg2:T42	
+R10	has_phenotype Arg1:T69 Arg2:T43	
+R11	has_phenotype Arg1:T50 Arg2:T75	
+T76	corrected_disease_or_phenotypic_feature 1484 1506	aggressive brain tumor
+R12	has_phenotype Arg1:T50 Arg2:T76	
+T77	missed_disease_or_phenotypic_feature 1450 1453	GBM
+R27	has_phenotype Arg1:T77 Arg2:T75	
+R28	has_phenotype Arg1:T77 Arg2:T76	

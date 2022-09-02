@@ -86,3 +86,13 @@ R13	has_phenotype Arg1:T49 Arg2:T45
 T73	missed_disease_or_phenotypic_feature 1907 1915	diabetes
 R15	has_phenotype Arg1:T54 Arg2:T53	
 R14	has_phenotype Arg1:T73 Arg2:T52	
+T74	missed_disease_or_phenotypic_feature 2247 2250	CDs
+T75	corrected_disease_or_phenotypic_feature 1793 1818	Progressive hydrocephalus
+R21	has_phenotype Arg1:T51 Arg2:T75	
+T76	missed_disease_or_phenotypic_feature 416 418	ND
+T77	missed_disease_or_phenotypic_feature 429 448	Parkinson's disease
+T78	missed_disease_or_phenotypic_feature 450 458	dementia
+T79	missed_disease_or_phenotypic_feature 460 466	stroke
+T80	missed_disease_or_phenotypic_feature 468 477	hear loss
+T81	missed_disease_or_phenotypic_feature 509 522	neurosyphilis
+T82	missed_disease_or_phenotypic_feature 548 556	epilepsy

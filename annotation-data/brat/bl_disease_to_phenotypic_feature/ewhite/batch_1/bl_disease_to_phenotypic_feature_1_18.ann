@@ -81,19 +81,15 @@ R14	has_phenotype Arg1:T13 Arg2:T64
 R15	has_phenotype Arg1:T13 Arg2:T63	
 R16	has_phenotype Arg1:T13 Arg2:T17	
 T67	missed_disease_or_phenotypic_feature 6 19	complications
-R18	has_phenotype Arg1:T67 Arg2:T1	
-R17	has_phenotype Arg1:T67 Arg2:T2	
-R19	has_phenotype Arg1:T67 Arg2:T3	
 T68	missed_disease_or_phenotypic_feature 1651 1677	Developmental disabilities
-R20	has_phenotype Arg1:T68 Arg2:T44	
-R21	has_phenotype Arg1:T68 Arg2:T45	
-R22	has_phenotype Arg1:T68 Arg2:T46	
-R23	has_phenotype Arg1:T68 Arg2:T47	
-R24	has_phenotype Arg1:T68 Arg2:T49	
-R25	has_phenotype Arg1:T68 Arg2:T50	
 T69	missed_disease_or_phenotypic_feature 1748 1762	cerebral palsy
 T70	missed_disease_or_phenotypic_feature 1778 1793	trouble hearing
 T71	corrected_disease_or_phenotypic_feature 1795 1814	learning disability
-R26	has_phenotype Arg1:T68 Arg2:T69	
-R27	has_phenotype Arg1:T68 Arg2:T70	
-R28	has_phenotype Arg1:T68 Arg2:T71	
+T72	missed_disease_or_phenotypic_feature 1943 1945	LS
+T73	missed_disease_or_phenotypic_feature 1917 1919	NS
+R17	has_phenotype Arg1:T73 Arg2:T53	
+R18	has_phenotype Arg1:T73 Arg2:T54	
+R19	has_phenotype Arg1:T73 Arg2:T55	
+R20	has_phenotype Arg1:T72 Arg2:T53	
+R21	has_phenotype Arg1:T72 Arg2:T54	
+R22	has_phenotype Arg1:T72 Arg2:T55	

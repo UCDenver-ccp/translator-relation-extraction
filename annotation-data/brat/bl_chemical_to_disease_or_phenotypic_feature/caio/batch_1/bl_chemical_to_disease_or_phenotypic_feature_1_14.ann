@@ -78,7 +78,6 @@ R6	treats Arg1:T15 Arg2:T16
 T72	corrected_disease_or_phenotypic_feature 885 914	Helicobacter pylori infection
 T73	corrected_chemical 923 977	γ-glutamyltranspeptidase-activatable fluorescent probe
 T74	missed_disease_or_phenotypic_feature 1074 1098	mucinous ovarian tumours
-R7	treats Arg1:T30 Arg2:T31	
 T76	missed_disease_or_phenotypic_feature 1368 1374;1384 1389	cervix tumor
 T77	missed_disease_or_phenotypic_feature 1359 1366;1384 1389	uterine tumor
 T75	missed_chemical 1391 1398	Hirudin
@@ -90,3 +89,4 @@ R9	treats Arg1:T80 Arg2:T49
 T81	corrected_chemical 2080 2094	ACE inhibitors
 T82	corrected_disease_or_phenotypic_feature 2176 2219	nonimmunogenic 4T1 murine mammary carcinoma
 T83	corrected_disease_or_phenotypic_feature 2591 2632	obstructive sleep apnea hypopnea syndrome
+R10	causes_or_contributes_to Arg1:T7 Arg2:T69	

@@ -101,3 +101,17 @@ R10	treats Arg1:T88 Arg2:T90
 R11	treats Arg1:T65 Arg2:T89	
 R12	treats Arg1:T65 Arg2:T89	
 T91	DONE 2313 2317	DONE
+T92	missed_disease_or_phenotypic_feature 434 443;449 457	cutaneous eruption
+T93	missed_disease_or_phenotypic_feature 449 457	eruption
+R13	causes_or_contributes_to Arg1:T14 Arg2:T92	
+T94	corrected_disease_or_phenotypic_feature 459 484	progressive renal failure
+T95	corrected_disease_or_phenotypic_feature 490 509	lupus-like syndrome
+R14	causes_or_contributes_to Arg1:T14 Arg2:T94	
+R15	causes_or_contributes_to Arg1:T14 Arg2:T95	
+R16	treats Arg1:T84 Arg2:T33	
+R17	treats Arg1:T84 Arg2:T34	
+R18	treats Arg1:T40 Arg2:T85	
+R19	causes_or_contributes_to Arg1:T45 Arg2:T46	
+R20	causes_or_contributes_to Arg1:T45 Arg2:T47	
+R21	causes_or_contributes_to Arg1:T66 Arg2:T64	
+R22	causes_or_contributes_to Arg1:T66 Arg2:T89	

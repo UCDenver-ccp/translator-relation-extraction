@@ -75,3 +75,19 @@ T74	chemical 2667 2673	enzyme
 T75	disease_or_phenotypic_feature 2706 2713	obesity
 T76	disease_or_phenotypic_feature 2741 2760	prostatic carcinoma
 T77	chemical 2812 2820	antigens
+T78	corrected_disease_or_phenotypic_feature 17 39	tumor-like hyperplasia
+R1	causes_or_contributes_to Arg1:T1 Arg2:T78	
+T79	corrected_chemical 685 708	Dextrogyral amphetamine
+R2	treats Arg1:T79 Arg2:T18	
+R3	treats Arg1:T26 Arg2:T28	
+R4	treats Arg1:T26 Arg2:T29	
+T80	corrected_chemical 1124 1167	Glucose-based peritoneal dialysis solutions
+R5	causes_or_contributes_to Arg1:T80 Arg2:T31	
+R6	causes_or_contributes_to Arg1:T80 Arg2:T32	
+R7	causes_or_contributes_to Arg1:T80 Arg2:T33	
+T81	corrected_chemical 1650 1731	multifunctional gold nanoparticles bearing tumor-associated glycopeptide antigens
+R8	treats Arg1:T81 Arg2:T44	
+T82	corrected_chemical 2398 2437	selective serotonin reuptake inhibitors
+R9	causes_or_contributes_to Arg1:T82 Arg2:T68	
+T83	corrected_chemical 2798 2852	soluble tumor antigens extracted from their own tumors
+R10	treats Arg1:T83 Arg2:T76	

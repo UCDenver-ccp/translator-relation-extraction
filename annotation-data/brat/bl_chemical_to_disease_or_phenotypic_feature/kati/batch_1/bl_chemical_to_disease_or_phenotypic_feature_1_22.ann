@@ -77,6 +77,8 @@ T67	missed_disease_or_phenotypic_feature 1528 1541	liver lesions
 R10	causes_or_contributes_to Arg1:T37 Arg2:T39	
 R11	causes_or_contributes_to Arg1:T37 Arg2:T67	
 R12	causes_or_contributes_to Arg1:T37 Arg2:T40	
-R13	treats Arg1:T41 Arg2:T43	
 T68	missed_disease_or_phenotypic_feature 1918 1934	selective mutism
 R14	treats Arg1:T51 Arg2:T68	
+T70	missed_disease_or_phenotypic_feature 65 71	tumors
+R15	causes_or_contributes_to Arg1:T2 Arg2:T70	
+R13	treats Arg1:T41 Arg2:T43	

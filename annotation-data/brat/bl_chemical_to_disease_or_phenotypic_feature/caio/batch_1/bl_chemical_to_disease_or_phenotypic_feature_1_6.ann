@@ -31,7 +31,6 @@ T30	disease_or_phenotypic_feature 1577 1592	pulmonary edema
 T31	chemical 1619 1633	pegcantratinib
 T32	disease_or_phenotypic_feature 1637 1647	skin tumor
 T33	chemical 1701 1705	drug
-T34	chemical 1719 1722	DCs
 T35	chemical 1764 1772	antigens
 T36	disease_or_phenotypic_feature 1814 1820	cancer
 T37	disease_or_phenotypic_feature 2000 2009	infection
@@ -68,7 +67,6 @@ T64	missed_chemical 1425 1432	insulin
 T65	corrected_chemical 1747 1772	tumor-associated antigens
 T66	missed_chemical 1774 1777	TAA
 R4	treats Arg1:T65 Arg2:T36	
-R5	treats Arg1:T34 Arg2:T36	
 T67	missed_chemical 2028 2031	LPS
 T68	missed_chemical 2451 2455	HER2
 T69	missed_chemical 2677 2682	PfHP1
@@ -78,3 +76,8 @@ T72	missed_chemical 3026 3041	casein kinase 2
 T73	missed_chemical 3043 3048	PfCK2
 T74	missed_chemical 3241 3247	GLUT-1
 T75	DONE 3578 3582	DONE
+R6	treats Arg1:T10 Arg2:T9	
+T76	corrected_chemical 1308 1315	steroid
+R7	causes_or_contributes_to Arg1:T76 Arg2:T24	
+R8	treats Arg1:T28 Arg2:T30	
+R9	treats Arg1:T31 Arg2:T32	

@@ -11,8 +11,6 @@ T10	chemical 354 361	antigen
 T11	chemical 458 465	antigen
 T12	disease_or_phenotypic_feature 477 483	cancer
 T13	chemical 500 507	biology
-T14	chemical 568 581	fosamprenavir
-T15	chemical 599 608	ritonavir
 T16	chemical 615 623	abacavir
 T17	chemical 628 638	lamivudine
 T18	disease_or_phenotypic_feature 644 653	diarrhoea
@@ -64,3 +62,41 @@ T63	disease_or_phenotypic_feature 1951 1957	cancer
 T64	chemical 2067 2075	antigens
 T65	chemical 2184 2192	antigens
 T66	disease_or_phenotypic_feature 2205 2216	lung cancer
+R1	treats Arg1:T4 Arg2:T5	
+T67	corrected_chemical 228 241;254 297	high-affinity antisense oligonucleotide inhibitor of KRAS
+T68	missed_chemical 217 224	AZD4785
+T69	corrected_disease_or_phenotypic_feature 190 211	KRAS-dependent tumors
+R2	treats Arg1:T68 Arg2:T69	
+R3	treats Arg1:T67 Arg2:T69	
+T70	missed_disease_or_phenotypic_feature 655 661	nausea
+T71	corrected_disease_or_phenotypic_feature 689 710	drug hypersensitivity
+T15	chemical 568 581	fosamprenavir
+T72	corrected_chemical 568 638	fosamprenavir, with or without ritonavir, plus abacavir and lamivudine
+R4	causes_or_contributes_to Arg1:T72 Arg2:T18	
+R5	causes_or_contributes_to Arg1:T72 Arg2:T70	
+R6	causes_or_contributes_to Arg1:T72 Arg2:T19	
+R7	causes_or_contributes_to Arg1:T72 Arg2:T20	
+R8	causes_or_contributes_to Arg1:T72 Arg2:T71	
+R9	causes_or_contributes_to Arg1:T72 Arg2:T23	
+R10	treats Arg1:T24 Arg2:T25	
+R11	treats Arg1:T30 Arg2:T33	
+R12	treats Arg1:T29 Arg2:T32	
+R13	treats Arg1:T31 Arg2:T34	
+T14	missed_chemical 1009 1020	progestagen
+R14	treats Arg1:T14 Arg2:T34	
+T73	missed_chemical 1204 1206	FE
+T74	corrected_chemical 1213 1247	halogenated amphetamine derivative
+R15	treats Arg1:T37 Arg2:T39	
+R16	treats Arg1:T73 Arg2:T39	
+R17	treats Arg1:T74 Arg2:T39	
+T75	corrected_chemical 1296 1307	TET enzymes
+R18	treats Arg1:T75 Arg2:T42	
+T76	corrected_chemical 1311 1345	oxygen-dependent tumor suppressors
+R19	treats Arg1:T76 Arg2:T42	
+T77	corrected_chemical 1546 1574	Pancreatic lipase inhibitors
+R20	treats Arg1:T77 Arg2:T49	
+T78	corrected_chemical 1695 1714	Calcium antagonists
+R21	treats Arg1:T78 Arg2:T56	
+R22	treats Arg1:T57 Arg2:T59	
+T79	corrected_chemical 1825 1842	hyperbaric oxygen
+R23	causes_or_contributes_to Arg1:T79 Arg2:T60	

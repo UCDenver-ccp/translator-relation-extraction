@@ -61,3 +61,19 @@ T60	chemical 1915 1922	hormone
 T61	disease_or_phenotypic_feature 1923 1932	dependent
 T62	disease_or_phenotypic_feature 1941 1959	Cervical carcinoma
 T63	chemical 1992 2003	biochemical
+R1	treats Arg1:T18 Arg2:T21	
+T64	corrected_chemical 547 563	sodium epicillin
+R2	treats Arg1:T64 Arg2:T21	
+R3	causes_or_contributes_to Arg1:T33 Arg2:T31	
+R4	causes_or_contributes_to Arg1:T33 Arg2:T32	
+T65	corrected_chemical 1064 1084	dopamine antagonists
+R5	causes_or_contributes_to Arg1:T65 Arg2:T39	
+R6	causes_or_contributes_to Arg1:T65 Arg2:T40	
+T66	missed_chemical 1366 1370	LHRH
+T67	corrected_disease_or_phenotypic_feature 1399 1424	hormone-dependent tumors]
+R7	causes_or_contributes_to Arg1:T47 Arg2:T67	
+R8	treats Arg1:T66 Arg2:T67	
+R9	treats Arg1:T51 Arg2:T50	
+T68	corrected_disease_or_phenotypic_feature 1915 1939	hormone-dependent tumors
+R10	causes_or_contributes_to Arg1:T60 Arg2:T68	
+T69	DONE 2019 2023	DONE

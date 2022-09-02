@@ -77,3 +77,43 @@ T76	chemical 2861 2873	nitric oxide
 T77	disease_or_phenotypic_feature 2896 2905	malignant
 T78	chemical 2976 2987	biochemical
 T79	disease_or_phenotypic_feature 3003 3009	malign
+T80	corrected_chemical 192 217	tumor-associated antigens
+R1	treats Arg1:T80 Arg2:T2	
+T81	corrected_disease_or_phenotypic_feature 509 527	Galactose cataract
+T82	corrected_chemical 557 583	aldose reductase inhibitor
+R2	treats Arg1:T15 Arg2:T81	
+R3	treats Arg1:T82 Arg2:T81	
+T83	missed_chemical 733 767	grapeseed proanthocyanidin extract
+T84	missed_chemical 769 773	GSPE
+T85	missed_chemical 825 827	OE
+R4	treats Arg1:T20 Arg2:T19	
+R5	treats Arg1:T85 Arg2:T19	
+T86	corrected_disease_or_phenotypic_feature 932 964	obesity-induced oxidative stress
+R6	treats Arg1:T83 Arg2:T86	
+R7	treats Arg1:T84 Arg2:T86	
+R8	treats Arg1:T20 Arg2:T86	
+R9	treats Arg1:T85 Arg2:T86	
+T87	missed_chemical 1037 1055	methylcholanthrene
+T88	missed_chemical 1057 1060	MCA
+T89	corrected_disease_or_phenotypic_feature 1070 1086	guinea pig tumor
+R10	causes_or_contributes_to Arg1:T87 Arg2:T89	
+R11	causes_or_contributes_to Arg1:T88 Arg2:T89	
+T90	missed_disease_or_phenotypic_feature 1818 1832	mammary tumors
+R12	causes_or_contributes_to Arg1:T42 Arg2:T44	
+R13	causes_or_contributes_to Arg1:T42 Arg2:T90	
+T91	corrected_chemical 1732 1744;1755 1783	Testosterone in combination with estrogen
+R14	causes_or_contributes_to Arg1:T91 Arg2:T44	
+R15	causes_or_contributes_to Arg1:T91 Arg2:T90	
+T92	corrected_disease_or_phenotypic_feature 2331 2346	cancer cachexia
+T93	corrected_chemical 2203 2232	supplementation with fish oil
+R16	treats Arg1:T93 Arg2:T92	
+T94	missed_disease_or_phenotypic_feature 2273 2289	body weight loss
+R17	treats Arg1:T93 Arg2:T94	
+T95	missed_disease_or_phenotypic_feature 2243 2255	tumor growth
+R18	treats Arg1:T93 Arg2:T95	
+T96	corrected_disease_or_phenotypic_feature 2375 2403	ganglioneuroma with seizures
+R19	treats Arg1:T61 Arg2:T96	
+R20	treats Arg1:T61 Arg2:T64	
+T97	missed_disease_or_phenotypic_feature 2555 2567	tumor growth
+R21	causes_or_contributes_to Arg1:T65 Arg2:T97	
+R22	causes_or_contributes_to Arg1:T66 Arg2:T97	

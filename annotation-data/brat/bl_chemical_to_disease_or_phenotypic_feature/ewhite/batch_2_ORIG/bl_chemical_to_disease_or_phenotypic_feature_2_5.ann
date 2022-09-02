@@ -1,0 +1,71 @@
+T1	chemical 20 23	BCG
+T2	chemical 24 31	mixture
+T3	disease_or_phenotypic_feature 66 80	lung carcinoma
+T4	chemical 211 217	sodium
+T5	chemical 222 227	water
+T6	disease_or_phenotypic_feature 241 256	cardiac failure
+T7	disease_or_phenotypic_feature 275 281	cancer
+T8	chemical 292 295	MYC
+T9	chemical 353 365	biologically
+T10	chemical 445 450	probe
+T11	disease_or_phenotypic_feature 470 476	hidden
+T12	chemical 486 494	Mazindol
+T13	chemical 540 544	food
+T14	disease_or_phenotypic_feature 555 562	obesity
+T15	chemical 589 595	oxygen
+T16	chemical 611 618	glucose
+T17	disease_or_phenotypic_feature 637 654	mammary carcinoma
+T18	disease_or_phenotypic_feature 662 668	glioma
+T19	chemical 692 700	solution
+T20	chemical 702 709	mixture
+T21	chemical 713 724	tropicamide
+T22	chemical 726 739	phenylephrine
+T23	chemical 759 769	diclofenac
+T24	disease_or_phenotypic_feature 782 790	cataract
+T25	chemical 813 817	drug
+T26	chemical 844 853	metformin
+T27	disease_or_phenotypic_feature 863 875	hypoglycemic
+T28	chemical 876 880	drug
+T29	disease_or_phenotypic_feature 952 965	renal failure
+T30	chemical 1002 1008	sodium
+T31	chemical 1043 1047	urea
+T32	chemical 1053 1063	creatinine
+T33	disease_or_phenotypic_feature 1065 1078	renal failure
+T34	chemical 1114 1120	sodium
+T35	chemical 1122 1125	NPY
+T36	chemical 1135 1143	agonists
+T37	chemical 1220 1231	antagonists
+T38	disease_or_phenotypic_feature 1254 1265	retinopathy
+T39	disease_or_phenotypic_feature 1279 1286	obesity
+T40	chemical 1303 1309	oxygen
+T41	disease_or_phenotypic_feature 1356 1377	peripheral neuropathy
+T42	disease_or_phenotypic_feature 1381 1396	type 2 diabetes
+T43	disease_or_phenotypic_feature 1407 1428	Peripheral neuropathy
+T44	chemical 1437 1445	collagen
+T45	disease_or_phenotypic_feature 1467 1478	scleroderma
+T46	disease_or_phenotypic_feature 1479 1489	neuropathy
+T47	disease_or_phenotypic_feature 1515 1523	melanoma
+T48	chemical 1535 1543	antigens
+T49	chemical 1564 1575	collagenase
+T50	chemical 1601 1609	antigens
+T51	chemical 1730 1739	serotonin
+T52	chemical 1745 1755	biological
+T53	disease_or_phenotypic_feature 1766 1772	autism
+T54	disease_or_phenotypic_feature 1776 1785	Potential
+T55	chemical 1814 1821	hormone
+T56	chemical 1837 1845	Propofol
+T57	chemical 1850 1860	anesthesia
+T58	disease_or_phenotypic_feature 1889 1911	malignant hyperthermia
+T59	chemical 1914 1924	Anesthesia
+T60	disease_or_phenotypic_feature 1951 1963	cleft palate
+T61	chemical 1966 1969	ABC
+T62	disease_or_phenotypic_feature 1973 1980	obesity
+T63	disease_or_phenotypic_feature 1982 1989	obesity
+T64	disease_or_phenotypic_feature 1994 2010	vascular disease
+T65	chemical 2034 2041	ebselen
+T66	chemical 2045 2051	sodium
+T67	disease_or_phenotypic_feature 2082 2090	cataract
+T68	chemical 2115 2125	biomarkers
+T69	disease_or_phenotypic_feature 2167 2182	thyroid disease
+T70	disease_or_phenotypic_feature 2184 2197	renal failure
+T71	disease_or_phenotypic_feature 2202 2226	congestive heart failure

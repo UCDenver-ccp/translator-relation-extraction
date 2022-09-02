@@ -1,0 +1,71 @@
+T1	disease_or_phenotypic_feature 32 45	heart failure
+T2	chemical 71 77	oxygen
+T3	chemical 115 125	Fluoxetine
+T4	chemical 134 145	risperidone
+T5	disease_or_phenotypic_feature 195 201	autism
+T6	disease_or_phenotypic_feature 222 228	cancer
+T7	chemical 246 250	drug
+T8	chemical 303 315	methotrexate
+T9	chemical 317 320	MTX
+T10	chemical 324 347	Angiogenesis inhibitors
+T11	chemical 357 366	sunitinib
+T12	disease_or_phenotypic_feature 410 422	glioblastoma
+T13	disease_or_phenotypic_feature 424 427	GBM
+T14	chemical 467 476	phenytoin
+T15	chemical 478 491	carbamazepine
+T16	chemical 493 506	phenobarbital
+T17	chemical 508 517	primidone
+T18	chemical 519 532	valproic acid
+T19	chemical 555 565	clomiphene
+T20	chemical 567 571	drug
+T21	disease_or_phenotypic_feature 580 600	abnormalities, spina
+T22	disease_or_phenotypic_feature 609 620	anencephaly
+T23	disease_or_phenotypic_feature 622 640	neural tube defect
+T24	chemical 642 648	folate
+T25	chemical 650 660	folic acid
+T26	chemical 666 676	folic acid
+T27	chemical 700 713	prostaglandin
+T28	chemical 724 734	inhibitors
+T29	disease_or_phenotypic_feature 747 768	cystoid macular edema
+T30	disease_or_phenotypic_feature 771 782	Hypophyseal
+T31	chemical 801 811	estrogenic
+T32	chemical 812 819	hormone
+T33	disease_or_phenotypic_feature 852 867	malignant tumor
+T34	chemical 925 931	oxygen
+T35	chemical 936 945	nutrients
+T36	chemical 1009 1021	fenfluramine
+T37	chemical 1039 1043	food
+T38	disease_or_phenotypic_feature 1079 1086	obesity
+T39	chemical 1144 1153	nutrients
+T40	chemical 1158 1164	oxygen
+T41	disease_or_phenotypic_feature 1169 1175	cancer
+T42	chemical 1197 1207	biological
+T43	chemical 1228 1232	urea
+T44	chemical 1238 1247	guanidine
+T45	disease_or_phenotypic_feature 1287 1294	obesity
+T46	disease_or_phenotypic_feature 1303 1310	hepatic
+T47	chemical 1358 1366	antigens
+T48	disease_or_phenotypic_feature 1370 1393	squamous cell carcinoma
+T49	chemical 1395 1404	Green tea
+T50	chemical 1419 1424	lemon
+T51	disease_or_phenotypic_feature 1471 1477	cancer
+T52	chemical 1478 1482	drug
+T53	chemical 1539 1546	biology
+T54	disease_or_phenotypic_feature 1547 1561	breast cancers
+T55	chemical 1564 1574	Anesthesia
+T56	disease_or_phenotypic_feature 1589 1601	cleft palate
+T57	chemical 1617 1628	Antioxidant
+T58	disease_or_phenotypic_feature 1648 1656	cataract
+T59	disease_or_phenotypic_feature 1668 1686	skeletal dysplasia
+T60	disease_or_phenotypic_feature 1687 1705	mental retardation
+T61	disease_or_phenotypic_feature 1706 1714	syndrome
+T62	disease_or_phenotypic_feature 1720 1733	abnormal face
+T63	chemical 1740 1749	uric acid
+T64	disease_or_phenotypic_feature 1750 1769	metabolism disorder
+T65	chemical 1771 1788	Food antioxidants
+T66	disease_or_phenotypic_feature 1800 1808	cataract
+T67	chemical 1827 1833	saline
+T68	disease_or_phenotypic_feature 1856 1863	hepatic
+T69	chemical 1903 1910	ethanol
+T70	chemical 1936 1944	chloride
+T71	disease_or_phenotypic_feature 2001 2019	liver angiosarcoma

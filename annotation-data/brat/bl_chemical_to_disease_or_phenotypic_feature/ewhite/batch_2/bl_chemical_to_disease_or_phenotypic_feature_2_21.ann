@@ -1,0 +1,69 @@
+T1	chemical 17 21	drug
+T2	chemical 43 54	doxorubicin
+T3	disease_or_phenotypic_feature 106 114	melanoma
+T4	disease_or_phenotypic_feature 197 204	obesity
+T5	chemical 252 259	antigen
+T6	chemical 293 303	gentamicin
+T7	chemical 318 331	chlorhexidine
+T8	chemical 332 340	solution
+T9	disease_or_phenotypic_feature 344 352	cataract
+T10	chemical 408 420	nitrendipine
+T11	chemical 421 429	solution
+T12	disease_or_phenotypic_feature 469 482	renal failure
+T13	chemical 494 503	bromfenac
+T14	chemical 515 523	solution
+T15	disease_or_phenotypic_feature 527 546	ocular inflammation
+T16	disease_or_phenotypic_feature 557 565	cataract
+T17	chemical 609 613	drug
+T18	disease_or_phenotypic_feature 626 633	obesity
+T19	chemical 638 656	signaling molecule
+T20	disease_or_phenotypic_feature 710 716	cancer
+T21	chemical 743 749	oxygen
+T22	chemical 775 782	Aspirin
+T23	chemical 834 844	inhibitors
+T24	disease_or_phenotypic_feature 862 875	heart failure
+T25	chemical 882 886	drug
+T26	disease_or_phenotypic_feature 898 905	obesity
+T27	disease_or_phenotypic_feature 983 996	breast cancer
+T28	chemical 1016 1025	tamoxifen
+T29	chemical 1040 1047	hormone
+T30	chemical 1077 1088	trastuzumab
+T31	chemical 1165 1173	estrogen
+T32	chemical 1174 1186	progesterone
+T33	disease_or_phenotypic_feature 1200 1207	obesity
+T34	chemical 1209 1219	Fluoxetine
+T35	chemical 1231 1240	serotonin
+T36	chemical 1250 1259	inhibitor
+T37	disease_or_phenotypic_feature 1295 1302	obesity
+T38	chemical 1404 1410	oxygen
+T39	disease_or_phenotypic_feature 1427 1442	cardiac failure
+T40	chemical 1464 1475	aldosterone
+T41	chemical 1476 1486	inhibitors
+T42	disease_or_phenotypic_feature 1515 1522	obesity
+T43	chemical 1531 1538	calcium
+T44	chemical 1539 1550	antagonists
+T45	disease_or_phenotypic_feature 1568 1590	ischemic heart disease
+T46	disease_or_phenotypic_feature 1595 1616	systemic hypertension
+T47	disease_or_phenotypic_feature 1626 1634	vomiting
+T48	disease_or_phenotypic_feature 1640 1649	diarrhoea
+T49	chemical 1674 1678	drug
+T50	chemical 1712 1724	levofloxacin
+T51	chemical 1732 1739	antigen
+T52	chemical 1811 1814	DCs
+T53	chemical 1869 1876	antigen
+T54	chemical 1931 1934	DCs
+T55	disease_or_phenotypic_feature 1981 1989	melanoma
+T56	chemical 1990 1997	antigen
+T57	disease_or_phenotypic_feature 2039 2064	melanoma of the esophagus
+T58	chemical 2091 2101	creatinine
+T59	disease_or_phenotypic_feature 2123 2133	arrhythmia
+T60	chemical 2142 2151	inhibitor
+T61	chemical 2167 2171	urea
+T62	chemical 2172 2180	nitrogen
+T63	chemical 2184 2194	creatinine
+T64	disease_or_phenotypic_feature 2254 2267	heart failure
+T65	chemical 2273 2277	drug
+T66	chemical 2299 2303	urea
+T67	chemical 2304 2312	nitrogen
+T68	chemical 2317 2327	creatinine
+T69	disease_or_phenotypic_feature 2343 2356	renal failure

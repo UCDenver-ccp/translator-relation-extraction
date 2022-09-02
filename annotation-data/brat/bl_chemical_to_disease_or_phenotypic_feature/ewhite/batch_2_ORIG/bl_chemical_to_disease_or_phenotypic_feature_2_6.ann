@@ -1,0 +1,70 @@
+T1	disease_or_phenotypic_feature 0 15	Dravet syndrome
+T2	disease_or_phenotypic_feature 44 52	epilepsy
+T3	disease_or_phenotypic_feature 65 88	intellectual disability
+T4	chemical 133 137	drug
+T5	disease_or_phenotypic_feature 148 156	seizures
+T6	chemical 188 199	biochemical
+T7	chemical 214 226	folinic acid
+T8	chemical 231 243	fluorouracil
+T9	chemical 247 258	gemcitabine
+T10	disease_or_phenotypic_feature 288 300	malignancies
+T11	disease_or_phenotypic_feature 302 308	Cancer
+T12	chemical 321 329	antigens
+T13	chemical 452 459	mixture
+T14	chemical 480 486	folate
+T15	disease_or_phenotypic_feature 503 522	neural tube defects
+T16	disease_or_phenotypic_feature 546 558	hypocalcemia
+T17	disease_or_phenotypic_feature 560 577	hyperphosphatemia
+T18	chemical 677 694	calcium gluconate
+T19	chemical 709 717	Nicotine
+T20	disease_or_phenotypic_feature 769 779	lung tumor
+T21	chemical 839 849	Mefloquine
+T22	disease_or_phenotypic_feature 858 875	grand mal seizure
+T23	disease_or_phenotypic_feature 879 900	tubercular meningitis
+T24	chemical 936 946	fluoxetine
+T25	chemical 951 961	sertraline
+T26	chemical 1022 1032	fluoxetine
+T27	disease_or_phenotypic_feature 1037 1044	obesity
+T28	chemical 1101 1111	cinacalcet
+T29	chemical 1135 1139	drug
+T30	disease_or_phenotypic_feature 1202 1215	hypercalcemia
+T31	disease_or_phenotypic_feature 1219 1235	hypophosphatemia
+T32	disease_or_phenotypic_feature 1237 1261	Hilar cholangiocarcinoma
+T33	chemical 1283 1290	biology
+T34	chemical 1292 1300	Estrogen
+T35	chemical 1305 1317	progesterone
+T36	disease_or_phenotypic_feature 1367 1377	malignancy
+T37	disease_or_phenotypic_feature 1389 1400	Hypokalemia
+T38	disease_or_phenotypic_feature 1405 1418	hyperglycemia
+T39	chemical 1454 1462	agonists
+T40	chemical 1472 1486	metaproterenol
+T41	chemical 1488 1496	Amrinone
+T42	disease_or_phenotypic_feature 1560 1568	syndrome
+T43	chemical 1576 1586	anesthesia
+T44	disease_or_phenotypic_feature 1628 1641	heart failure
+T45	disease_or_phenotypic_feature 1656 1668	hypertension
+T46	disease_or_phenotypic_feature 1716 1722	anemia
+T47	disease_or_phenotypic_feature 1723 1736	renal failure
+T48	chemical 1745 1752	biology
+T49	chemical 1756 1770	erythropoietin
+T50	disease_or_phenotypic_feature 1818 1824	autism
+T51	chemical 1923 1932	serotonin
+T52	chemical 1942 1952	inhibitors
+T53	disease_or_phenotypic_feature 1956 1962	autism
+T54	disease_or_phenotypic_feature 2002 2014	brain tumors
+T55	chemical 2068 2075	antigen
+T56	chemical 2079 2087	antigens
+T57	chemical 2150 2159	letrozole
+T58	chemical 2251 2258	hormone
+T59	disease_or_phenotypic_feature 2259 2268	sensitive
+T60	disease_or_phenotypic_feature 2277 2288	Proteinuria
+T61	disease_or_phenotypic_feature 2292 2310	nephrotic syndrome
+T62	chemical 2330 2336	sodium
+T63	disease_or_phenotypic_feature 2351 2356	edema
+T64	chemical 2395 2403	antigens
+T65	disease_or_phenotypic_feature 2407 2424	ovarian carcinoma
+T66	chemical 2436 2442	sodium
+T67	chemical 2443 2450	glucose
+T68	chemical 2467 2476	inhibitor
+T69	disease_or_phenotypic_feature 2489 2506	diabetes mellitus
+T70	disease_or_phenotypic_feature 2511 2524	heart failure

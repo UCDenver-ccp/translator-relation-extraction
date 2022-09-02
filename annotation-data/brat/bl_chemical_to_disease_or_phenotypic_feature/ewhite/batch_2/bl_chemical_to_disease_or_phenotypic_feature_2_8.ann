@@ -1,0 +1,70 @@
+T1	chemical 75 79	acid
+T2	disease_or_phenotypic_feature 157 170	hyperglycemia
+T3	disease_or_phenotypic_feature 187 207	hypertriglyceridemia
+T4	disease_or_phenotypic_feature 224 236	hypoglycemia
+T5	disease_or_phenotypic_feature 238 249	hypokalemia
+T6	disease_or_phenotypic_feature 251 267	hypophosphatemia
+T7	chemical 308 314	oxygen
+T8	disease_or_phenotypic_feature 384 397	heart failure
+T9	disease_or_phenotypic_feature 426 433	obesity
+T10	disease_or_phenotypic_feature 439 457	metabolic syndrome
+T11	chemical 471 478	glucose
+T12	chemical 497 508	biochemical
+T13	chemical 570 578	antigens
+T14	disease_or_phenotypic_feature 600 613	breast cancer
+T15	disease_or_phenotypic_feature 615 623	Seizures
+T16	chemical 629 638	etomidate
+T17	chemical 639 649	anesthesia
+T18	disease_or_phenotypic_feature 665 685	cutaneous vasculitis
+T19	disease_or_phenotypic_feature 687 697	leukopenia
+T20	chemical 730 746	antithyroid drug
+T21	chemical 748 764	propylthiouracil
+T22	chemical 785 791	ligand
+T23	disease_or_phenotypic_feature 831 845	tumor vascular
+T24	chemical 947 951	zinc
+T25	chemical 953 959	copper
+T26	chemical 965 976	antioxidant
+T27	disease_or_phenotypic_feature 992 999	obesity
+T28	chemical 1071 1082	antioxidant
+T29	chemical 1083 1089	enzyme
+T30	disease_or_phenotypic_feature 1122 1129	obesity
+T31	chemical 1131 1138	Heparin
+T32	chemical 1157 1165	solution
+T33	disease_or_phenotypic_feature 1173 1181	cataract
+T34	chemical 1191 1199	Nicotine
+T35	disease_or_phenotypic_feature 1256 1267	lung cancer
+T36	disease_or_phenotypic_feature 1269 1291	Cardiovascular disease
+T37	chemical 1297 1306	inhibitor
+T38	disease_or_phenotypic_feature 1318 1331	heart failure
+T39	chemical 1333 1341	Estrogen
+T40	chemical 1346 1358	progesterone
+T41	disease_or_phenotypic_feature 1508 1533	giant-celled glioblastoma
+T42	disease_or_phenotypic_feature 1557 1566	carcinoma
+T43	disease_or_phenotypic_feature 1569 1590	Peripheral neuropathy
+T44	chemical 1642 1646	drug
+T45	chemical 1647 1656	cisplatin
+T46	chemical 1694 1702	antigens
+T47	disease_or_phenotypic_feature 1731 1743	glioblastoma
+T48	disease_or_phenotypic_feature 1787 1794	obesity
+T49	chemical 1841 1849	propofol
+T50	chemical 1850 1860	anesthesia
+T51	chemical 1875 1885	desflurane
+T52	chemical 1886 1896	anesthesia
+T53	chemical 1904 1916	somatostatin
+T54	chemical 1929 1941	thyrotrophin
+T55	disease_or_phenotypic_feature 1952 1961	pituitary
+T56	chemical 1983 1994	D-thyroxine
+T57	chemical 1999 2016	dopamine agonists
+T58	chemical 2018 2030	Somatostatin
+T59	chemical 2043 2060	dopamine agonists
+T60	disease_or_phenotypic_feature 2116 2132	pituitary tumors
+T61	chemical 2142 2156	growth hormone
+T62	chemical 2277 2284	biology
+T63	disease_or_phenotypic_feature 2310 2317	obesity
+T64	disease_or_phenotypic_feature 2338 2345	obesity
+T65	chemical 2375 2386	amino acids
+T66	chemical 2387 2395	solution
+T67	disease_or_phenotypic_feature 2400 2413	renal failure
+T68	chemical 2440 2454	growth hormone
+T69	disease_or_phenotypic_feature 2507 2520	short stature
+T70	disease_or_phenotypic_feature 2524 2542	skeletal dysplasia

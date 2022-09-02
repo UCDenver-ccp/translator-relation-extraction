@@ -1,0 +1,75 @@
+T1	chemical 36 41	water
+T2	disease_or_phenotypic_feature 80 83	air
+T3	chemical 80 83	air
+T4	chemical 120 131	Clobenzorex
+T5	chemical 160 171	amphetamine
+T6	disease_or_phenotypic_feature 203 210	obesity
+T7	chemical 221 225	drug
+T8	disease_or_phenotypic_feature 238 247	malignant
+T9	disease_or_phenotypic_feature 282 290	melanoma
+T10	chemical 328 331	DCs
+T11	disease_or_phenotypic_feature 365 373	melanoma
+T12	chemical 383 390	antigen
+T13	chemical 473 480	hormone
+T14	chemical 520 526	ligand
+T15	chemical 566 570	GnRH
+T16	disease_or_phenotypic_feature 571 580	sensitive
+T17	chemical 598 607	enzymatic
+T18	disease_or_phenotypic_feature 662 678	hypophosphatemia
+T19	disease_or_phenotypic_feature 682 694	hypocalcemia
+T20	chemical 696 709	Bromocriptine
+T21	disease_or_phenotypic_feature 734 753	hyperprolactinaemia
+T22	disease_or_phenotypic_feature 754 766	hypogonadism
+T23	disease_or_phenotypic_feature 767 776	syndromes
+T24	disease_or_phenotypic_feature 814 832	serotonin syndrome
+T25	disease_or_phenotypic_feature 834 842	seizures
+T26	disease_or_phenotypic_feature 847 856	myoclonic
+T27	chemical 891 900	serotonin
+T28	chemical 910 920	inhibitors
+T29	chemical 988 995	hormone
+T30	chemical 1042 1050	estrogen
+T31	chemical 1055 1067	progesterone
+T32	chemical 1114 1121	hormone
+T33	disease_or_phenotypic_feature 1122 1131	dependent
+T34	chemical 1140 1146	Phenol
+T35	disease_or_phenotypic_feature 1196 1207	renal cysts
+T36	chemical 1229 1233	drug
+T37	chemical 1285 1295	inhibitors
+T38	disease_or_phenotypic_feature 1353 1362	neoplasms
+T39	disease_or_phenotypic_feature 1371 1379	melanoma
+T40	disease_or_phenotypic_feature 1384 1395	lung cancer
+T41	disease_or_phenotypic_feature 1461 1484	malignant breast tumors
+T42	chemical 1553 1564	biochemical
+T43	chemical 1565 1573	estrogen
+T44	chemical 1578 1590	progesterone
+T45	chemical 1609 1618	Cisplatin
+T46	chemical 1667 1675	platinum
+T47	chemical 1706 1710	drug
+T48	disease_or_phenotypic_feature 1761 1770	neoplasms
+T49	chemical 1814 1824	biomarkers
+T50	disease_or_phenotypic_feature 1828 1839	lung cancer
+T51	chemical 1841 1848	Sucrose
+T52	disease_or_phenotypic_feature 1850 1872	coronary heart disease
+T53	disease_or_phenotypic_feature 1874 1882	diabetes
+T54	disease_or_phenotypic_feature 1888 1895	obesity
+T55	chemical 1900 1908	hormones
+T56	chemical 1932 1940	dopamine
+T57	chemical 1941 1952	antagonists
+T58	chemical 1954 1963	adenosine
+T59	chemical 1964 1972	agonists
+T60	chemical 1983 1994	apomorphine
+T61	disease_or_phenotypic_feature 2043 2049	ataxia
+T62	chemical 2060 2070	biological
+T63	disease_or_phenotypic_feature 2111 2116	NSCLC
+T64	chemical 2130 2142	radiolabeled
+T65	chemical 2182 2191	estradiol
+T66	chemical 2213 2223	Fluoxetine
+T67	disease_or_phenotypic_feature 2283 2290	obesity
+T68	disease_or_phenotypic_feature 2295 2300	obese
+T69	disease_or_phenotypic_feature 2327 2333	cancer
+T70	chemical 2334 2344	biomarkers
+T71	disease_or_phenotypic_feature 2443 2452	carcinoma
+T72	chemical 2453 2460	antigen
+T73	chemical 2476 2485	oxidative
+T74	chemical 2508 2524	prostaglandin E2
+T75	chemical 2526 2530	PGE2

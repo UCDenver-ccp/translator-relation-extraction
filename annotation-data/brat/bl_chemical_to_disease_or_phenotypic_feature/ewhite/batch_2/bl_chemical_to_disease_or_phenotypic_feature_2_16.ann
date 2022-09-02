@@ -1,0 +1,69 @@
+T1	disease_or_phenotypic_feature 3 16	breast cancer
+T2	chemical 79 88	cofactors
+T3	chemical 93 101	tyrosine
+T4	chemical 133 140	mineral
+T5	disease_or_phenotypic_feature 172 183	visual loss
+T6	disease_or_phenotypic_feature 187 219	age-related macular degeneration
+T7	disease_or_phenotypic_feature 221 224	AMD
+T8	chemical 221 224	AMD
+T9	disease_or_phenotypic_feature 234 245	hypotension
+T10	chemical 251 259	glycerol
+T11	disease_or_phenotypic_feature 263 271	cataract
+T12	chemical 281 301	Proteasome inhibitor
+T13	chemical 302 312	bortezomib
+T14	disease_or_phenotypic_feature 360 375	T-cell leukemia
+T15	disease_or_phenotypic_feature 376 384	lymphoma
+T16	chemical 417 421	drug
+T17	disease_or_phenotypic_feature 430 443	renal failure
+T18	chemical 445 455	fenoldopam
+T19	chemical 481 491	fluoxetine
+T20	chemical 493 503	sertraline
+T21	chemical 508 519	fluvoxamine
+T22	disease_or_phenotypic_feature 597 604	obesity
+T23	chemical 625 642	receptor agonists
+T24	chemical 660 667	balance
+T25	disease_or_phenotypic_feature 687 693	ataxia
+T26	disease_or_phenotypic_feature 698 705	obesity
+T27	chemical 707 721	growth hormone
+T28	disease_or_phenotypic_feature 806 813	obesity
+T29	chemical 853 860	antigen
+T30	chemical 865 882	alpha-lactalbumin
+T31	disease_or_phenotypic_feature 948 970	cystosarcoma phyllodes
+T32	chemical 996 1010	growth hormone
+T33	disease_or_phenotypic_feature 1021 1028	obesity
+T34	disease_or_phenotypic_feature 1055 1062	obesity
+T35	chemical 1086 1097	amphetamine
+T36	chemical 1099 1106	cocaine
+T37	chemical 1111 1119	cannabis
+T38	disease_or_phenotypic_feature 1167 1180	heart failure
+T39	chemical 1185 1189	drug
+T40	disease_or_phenotypic_feature 1245 1258	heart failure
+T41	chemical 1311 1323	enzalutamide
+T42	chemical 1327 1335	androgen
+T43	disease_or_phenotypic_feature 1343 1357	ovarian cancer
+T44	chemical 1420 1427	antigen
+T45	disease_or_phenotypic_feature 1464 1470	cancer
+T46	chemical 1526 1534	antigens
+T47	chemical 1586 1593	antigen
+T48	disease_or_phenotypic_feature 1603 1609	cancer
+T49	chemical 1698 1706	nutrient
+T50	chemical 1760 1766	oxygen
+T51	chemical 1771 1779	nitrogen
+T52	disease_or_phenotypic_feature 1887 1893	cancer
+T53	chemical 1974 1978	drug
+T54	chemical 2037 2040	ABC
+T55	chemical 2062 2066	drug
+T56	disease_or_phenotypic_feature 2124 2130	cancer
+T57	disease_or_phenotypic_feature 2167 2176	or cancer
+T58	chemical 2216 2222	saline
+T59	disease_or_phenotypic_feature 2227 2240	cholesteatoma
+T60	chemical 2259 2263	acid
+T61	chemical 2265 2268	NAA
+T62	disease_or_phenotypic_feature 2285 2300	Canavan disease
+T63	disease_or_phenotypic_feature 2373 2391	mental retardation
+T64	disease_or_phenotypic_feature 2404 2416	macrocephaly
+T65	disease_or_phenotypic_feature 2422 2430	seizures
+T66	chemical 2464 2467	fat
+T67	chemical 2472 2484	carbohydrate
+T68	disease_or_phenotypic_feature 2567 2579	brain tumors
+T69	disease_or_phenotypic_feature 2584 2597	neuroblastoma

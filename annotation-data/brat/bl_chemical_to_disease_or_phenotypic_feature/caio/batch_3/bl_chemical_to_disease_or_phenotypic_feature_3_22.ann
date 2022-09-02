@@ -1,0 +1,75 @@
+T1	chemical 11 15	drug
+T2	disease_or_phenotypic_feature 29 36	obesity
+T3	chemical 41 49	antigens
+T4	disease_or_phenotypic_feature 74 77	EOC
+T5	chemical 115 121	sodium
+T6	chemical 122 129	glucose
+T7	chemical 146 155	inhibitor
+T8	disease_or_phenotypic_feature 173 197	type 2 diabetes mellitus
+T9	disease_or_phenotypic_feature 202 215	heart failure
+T10	chemical 241 249	epitopes
+T11	disease_or_phenotypic_feature 263 271	melanoma
+T12	chemical 272 279	antigen
+T13	disease_or_phenotypic_feature 428 434	cancer
+T14	chemical 453 461	antigens
+T15	disease_or_phenotypic_feature 499 505	cancer
+T16	disease_or_phenotypic_feature 527 544	pancreatic cancer
+T17	chemical 557 565	nicotine
+T18	chemical 634 642	nicotine
+T19	chemical 716 719	Met
+T20	chemical 824 828	drug
+T21	chemical 829 833	drug
+T22	chemical 874 883	clozapine
+T23	disease_or_phenotypic_feature 945 956	neutropenia
+T24	disease_or_phenotypic_feature 957 972	agranulocytosis
+T25	disease_or_phenotypic_feature 977 985	seizures
+T26	disease_or_phenotypic_feature 1045 1058	renal failure
+T27	chemical 1073 1083	anesthesia
+T28	chemical 1089 1100	sevoflurane
+T29	chemical 1105 1115	desflurane
+T30	disease_or_phenotypic_feature 1173 1189	thyroid diseases
+T31	chemical 1191 1199	cortisol
+T32	disease_or_phenotypic_feature 1223 1239	pheochromocytoma
+T33	disease_or_phenotypic_feature 1241 1260	hyperparathyroidism
+T34	disease_or_phenotypic_feature 1262 1280	hyperaldosteronism
+T35	disease_or_phenotypic_feature 1282 1300	hyperprolactinemia
+T36	chemical 1306 1320	growth hormone
+T37	chemical 1419 1425	Inulin
+T38	chemical 1435 1439	food
+T39	disease_or_phenotypic_feature 1507 1514	obesity
+T40	disease_or_phenotypic_feature 1516 1546	Adenocarcinoma of the pancreas
+T41	chemical 1550 1557	hormone
+T42	disease_or_phenotypic_feature 1634 1637	ASS
+T43	chemical 1688 1696	arginine
+T44	chemical 1712 1720	arginine
+T45	chemical 1731 1738	enzymes
+T46	disease_or_phenotypic_feature 1755 1763	melanoma
+T47	chemical 1770 1777	antigen
+T48	disease_or_phenotypic_feature 1838 1851	renal failure
+T49	disease_or_phenotypic_feature 1855 1864	cirrhosis
+T50	disease_or_phenotypic_feature 1932 1945	renal failure
+T51	disease_or_phenotypic_feature 1947 1956	intrinsic
+T52	disease_or_phenotypic_feature 1957 1971	renal diseases
+T53	disease_or_phenotypic_feature 1973 1993	hepatorenal syndrome
+T54	chemical 1999 2003	drug
+T55	disease_or_phenotypic_feature 2012 2025	renal failure
+T56	chemical 2065 2074	serotonin
+T57	chemical 2084 2094	inhibitors
+T58	disease_or_phenotypic_feature 2151 2157	autism
+T59	disease_or_phenotypic_feature 2168 2201	pervasive developmental disorders
+T60	disease_or_phenotypic_feature 2247 2259	fibrosarcoma
+T61	chemical 2297 2304	antigen
+T62	chemical 2306 2322	cyclophosphamide
+T63	chemical 2328 2341	interleukin-2
+T64	disease_or_phenotypic_feature 2382 2391	blindness
+T65	chemical 2433 2443	anesthesia
+T66	disease_or_phenotypic_feature 2449 2466	cerebellar ataxia
+T67	chemical 2468 2479	Resveratrol
+T68	chemical 2491 2495	food
+T69	disease_or_phenotypic_feature 2530 2537	obesity
+T70	chemical 2577 2581	food
+T71	disease_or_phenotypic_feature 2608 2615	obesity
+T72	chemical 2617 2640	Angiogenesis inhibitors
+T73	disease_or_phenotypic_feature 2689 2695	cancer
+T74	chemical 2816 2822	oxygen
+T75	chemical 2827 2835	nutrient

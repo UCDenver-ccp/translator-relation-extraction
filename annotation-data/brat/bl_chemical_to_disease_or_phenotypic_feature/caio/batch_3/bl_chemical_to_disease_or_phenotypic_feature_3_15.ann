@@ -1,0 +1,62 @@
+T1	chemical 13 24	epinephrine
+T2	chemical 58 67	halothane
+T3	chemical 68 78	anesthesia
+T4	disease_or_phenotypic_feature 94 106	cleft palate
+T5	chemical 148 155	digoxin
+T6	chemical 170 174	drug
+T7	disease_or_phenotypic_feature 191 206	cardiac failure
+T8	disease_or_phenotypic_feature 208 226	Malignant melanoma
+T9	chemical 270 278	antigens
+T10	disease_or_phenotypic_feature 305 310	small
+T11	disease_or_phenotypic_feature 329 335	medium
+T12	chemical 347 350	ten
+T13	chemical 375 383	agonists
+T14	disease_or_phenotypic_feature 388 401	heart failure
+T15	chemical 418 432	norepinephrine
+T16	chemical 447 454	biology
+T17	disease_or_phenotypic_feature 488 501	heart failure
+T18	chemical 516 525	biomarker
+T19	disease_or_phenotypic_feature 537 540	AML
+T20	chemical 645 655	biomarkers
+T21	disease_or_phenotypic_feature 687 700	pediatric AML
+T22	chemical 718 728	anesthesia
+T23	disease_or_phenotypic_feature 741 749	cataract
+T24	disease_or_phenotypic_feature 775 783	dementia
+T25	chemical 802 806	drug
+T26	chemical 807 817	cinacalcet
+T27	disease_or_phenotypic_feature 877 890	hypercalcemia
+T28	disease_or_phenotypic_feature 895 914	hyperparathyroidism
+T29	chemical 958 968	inhibitors
+T30	chemical 973 986	mycophenolate
+T31	chemical 1020 1028	nitrogen
+T32	disease_or_phenotypic_feature 1067 1074	obesity
+T33	disease_or_phenotypic_feature 1109 1116	obesity
+T34	chemical 1121 1125	food
+T35	chemical 1157 1164	hormone
+T36	chemical 1165 1171	leptin
+T37	disease_or_phenotypic_feature 1187 1194	obesity
+T38	disease_or_phenotypic_feature 1247 1254	obesity
+T39	chemical 1318 1325	antigen
+T40	disease_or_phenotypic_feature 1329 1347	cervical carcinoma
+T41	chemical 1367 1372	toxin
+T42	disease_or_phenotypic_feature 1400 1407	obesity
+T43	disease_or_phenotypic_feature 1409 1422	Short stature
+T44	disease_or_phenotypic_feature 1441 1461	Klinefelter syndrome
+T45	chemical 1466 1480	growth hormone
+T46	chemical 1518 1525	antigen
+T47	disease_or_phenotypic_feature 1548 1554	glioma
+T48	disease_or_phenotypic_feature 1577 1585	syndrome
+T49	disease_or_phenotypic_feature 1612 1630	growth retardation
+T50	chemical 1632 1642	surfactant
+T51	chemical 1690 1694	drug
+T52	chemical 1740 1743	CED
+T53	disease_or_phenotypic_feature 1740 1743	CED
+T54	chemical 1757 1761	drug
+T55	chemical 1835 1846	ganciclovir
+T56	disease_or_phenotypic_feature 1869 1885	thrombocytopenia
+T57	chemical 1887 1891	drug
+T58	disease_or_phenotypic_feature 1892 1897	fever
+T59	disease_or_phenotypic_feature 1903 1913	neuropathy
+T60	chemical 1971 1977	oxygen
+T61	disease_or_phenotypic_feature 2002 2015	heart failure
+T62	disease_or_phenotypic_feature 2016 2031	type 2 diabetes

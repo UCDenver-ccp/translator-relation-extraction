@@ -1,0 +1,80 @@
+T1	chemical 24 28	drug
+T2	chemical 34 41	ethanol
+T3	disease_or_phenotypic_feature 74 80	ataxia
+T4	chemical 82 91	Oxidative
+T5	disease_or_phenotypic_feature 114 121	obesity
+T6	disease_or_phenotypic_feature 156 163	obesity
+T7	chemical 217 225	antigens
+T8	disease_or_phenotypic_feature 229 237	melanoma
+T9	chemical 249 258	vitamin D
+T10	chemical 274 284	calcitriol
+T11	chemical 297 304	enzymes
+T12	disease_or_phenotypic_feature 308 321	renal failure
+T13	disease_or_phenotypic_feature 323 349	Metastatic prostate cancer
+T14	chemical 375 382	hormone
+T15	chemical 475 486	Biochemical
+T16	disease_or_phenotypic_feature 507 515	cataract
+T17	chemical 542 552	biological
+T18	disease_or_phenotypic_feature 568 586	metabolic diseases
+T19	disease_or_phenotypic_feature 591 598	obesity
+T20	chemical 617 625	estrogen
+T21	chemical 719 725	saline
+T22	chemical 737 744	glucose
+T23	disease_or_phenotypic_feature 746 759	hyperglycemia
+T24	disease_or_phenotypic_feature 760 776	hyperinsulinemia
+T25	chemical 779 786	glucose
+T26	disease_or_phenotypic_feature 801 817	hyperinsulinemia
+T27	chemical 825 834	diazoxide
+T28	chemical 855 862	glucose
+T29	disease_or_phenotypic_feature 873 886	hyperglycemia
+T30	chemical 900 907	hormone
+T31	disease_or_phenotypic_feature 941 959	hyperprolactinemia
+T32	disease_or_phenotypic_feature 981 993	hypogonadism
+T33	disease_or_phenotypic_feature 1031 1053	cardiovascular disease
+T34	disease_or_phenotypic_feature 1080 1091	bradycardia
+T35	disease_or_phenotypic_feature 1095 1105	arrhythmia
+T36	chemical 1111 1115	drug
+T37	chemical 1152 1159	dextran
+T38	chemical 1169 1175	sodium
+T39	disease_or_phenotypic_feature 1184 1191	colitis
+T40	chemical 1193 1206	Bromocriptine
+T41	chemical 1210 1218	dopamine
+T42	chemical 1224 1240	receptor agonist
+T43	disease_or_phenotypic_feature 1283 1295	prolactinoma
+T44	disease_or_phenotypic_feature 1300 1318	hyperprolactinemia
+T45	chemical 1346 1353	antigen
+T46	chemical 1365 1373	lentinan
+T47	disease_or_phenotypic_feature 1388 1412	hepatocellular carcinoma
+T48	chemical 1434 1441	Ghrelin
+T49	chemical 1469 1476	hormone
+T50	chemical 1518 1522	food
+T51	disease_or_phenotypic_feature 1524 1531	obesity
+T52	disease_or_phenotypic_feature 1536 1544	diabetes
+T53	chemical 1569 1583	angiotensin II
+T54	chemical 1593 1603	inhibitors
+T55	disease_or_phenotypic_feature 1621 1634	heart failure
+T56	chemical 1646 1657	angiotensin
+T57	disease_or_phenotypic_feature 1666 1686	hypertriglyceridemia
+T58	disease_or_phenotypic_feature 1688 1701	hyperglycemia
+T59	disease_or_phenotypic_feature 1706 1722	hyperinsulinemia
+T60	chemical 1728 1736	estrogen
+T61	chemical 1842 1854	desmopressin
+T62	chemical 1856 1867	L-thyroxine
+T63	chemical 1869 1877	estrogen
+T64	disease_or_phenotypic_feature 1921 1939	diabetes insipidus
+T65	disease_or_phenotypic_feature 1941 1965	secondary hypothyroidism
+T66	disease_or_phenotypic_feature 1970 1999	hypogonadotropic hypogonadism
+T67	chemical 2001 2011	Cinacalcet
+T68	disease_or_phenotypic_feature 2058 2071	hypercalcemic
+T69	disease_or_phenotypic_feature 2072 2091	hyperparathyroidism
+T70	chemical 2126 2133	mineral
+T71	chemical 2169 2188	parathyroid hormone
+T72	disease_or_phenotypic_feature 2219 2225	cancer
+T73	chemical 2243 2247	drug
+T74	disease_or_phenotypic_feature 2387 2395	syndrome
+T75	disease_or_phenotypic_feature 2408 2433	severe mental retardation
+T76	disease_or_phenotypic_feature 2435 2441	ataxia
+T77	disease_or_phenotypic_feature 2443 2460	speech impairment
+T78	disease_or_phenotypic_feature 2472 2485	short stature
+T79	disease_or_phenotypic_feature 2487 2499	microcephaly
+T80	chemical 2519 2533	growth hormone

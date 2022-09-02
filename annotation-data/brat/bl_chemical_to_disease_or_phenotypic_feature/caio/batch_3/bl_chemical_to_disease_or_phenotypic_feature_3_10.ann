@@ -1,0 +1,62 @@
+T1	chemical 16 31	dexfenfluramine
+T2	chemical 35 45	fluoxetine
+T3	disease_or_phenotypic_feature 66 73	obesity
+T4	disease_or_phenotypic_feature 109 116	obesity
+T5	chemical 121 128	alcohol
+T6	chemical 139 148	oxidative
+T7	chemical 210 216	oxygen
+T8	disease_or_phenotypic_feature 249 262	hyperglycemia
+T9	chemical 274 280	oxygen
+T10	chemical 285 293	nitrogen
+T11	disease_or_phenotypic_feature 394 406	hearing loss
+T12	disease_or_phenotypic_feature 414 424	meningitis
+T13	chemical 463 469	ligand
+T14	disease_or_phenotypic_feature 483 488	tumor
+T15	disease_or_phenotypic_feature 527 530	PCa
+T16	disease_or_phenotypic_feature 556 561	gland
+T17	chemical 578 592	anticonvulsant
+T18	chemical 601 609	Nicotine
+T19	disease_or_phenotypic_feature 664 679	atherosclerosis
+T20	chemical 710 717	antigen
+T21	chemical 743 750	antigen
+T22	disease_or_phenotypic_feature 798 804	cancer
+T23	chemical 805 812	antigen
+T24	chemical 851 861	superoxide
+T25	disease_or_phenotypic_feature 873 876	SOD
+T26	disease_or_phenotypic_feature 920 936	regular-diet-fed
+T27	chemical 964 975	metabolites
+T28	chemical 976 984	urobilin
+T29	chemical 989 1002	sphingomyelin
+T30	disease_or_phenotypic_feature 1039 1052	heart failure
+T31	chemical 1097 1112	Zoledronic acid
+T32	disease_or_phenotypic_feature 1139 1151	osteoporosis
+T33	disease_or_phenotypic_feature 1280 1289	pituitary
+T34	chemical 1322 1329	biology
+T35	chemical 1331 1342	Doxorubicin
+T36	chemical 1367 1371	drug
+T37	disease_or_phenotypic_feature 1384 1398	cardiomyopathy
+T38	disease_or_phenotypic_feature 1403 1416	heart failure
+T39	chemical 1423 1432	Oxidative
+T40	disease_or_phenotypic_feature 1443 1452	cataracts
+T41	chemical 1454 1465	Ustekinumab
+T42	disease_or_phenotypic_feature 1475 1484	psoriasis
+T43	chemical 1511 1518	antigen
+T44	chemical 1564 1574	eplerenone
+T45	disease_or_phenotypic_feature 1600 1632	central serous chorioretinopathy
+T46	chemical 1795 1802	hormone
+T47	chemical 1814 1822	cortisol
+T48	disease_or_phenotypic_feature 1868 1877	pituitary
+T49	chemical 1878 1886	hormones
+T50	chemical 1910 1918	hormones
+T51	chemical 1992 1995	DCs
+T52	chemical 2014 2022	antigens
+T53	disease_or_phenotypic_feature 2080 2092	malignancies
+T54	chemical 2166 2170	drug
+T55	chemical 2194 2204	creatinine
+T56	chemical 2216 2220	urea
+T57	chemical 2265 2275	flumazenil
+T58	disease_or_phenotypic_feature 2277 2290	hypercalcemia
+T59	disease_or_phenotypic_feature 2292 2304	hyperkalemia
+T60	chemical 2345 2355	creatinine
+T61	chemical 2367 2373	sodium
+T62	disease_or_phenotypic_feature 2402 2415	heart failure

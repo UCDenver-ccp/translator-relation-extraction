@@ -1,0 +1,63 @@
+T1	chemical 4 15	angiotensin
+T2	chemical 27 43	enzyme inhibitor
+T3	chemical 44 53	enalapril
+T4	disease_or_phenotypic_feature 72 85	renal failure
+T5	chemical 140 151	biochemical
+T6	chemical 218 221	myc
+T7	disease_or_phenotypic_feature 316 324	neoplasm
+T8	chemical 339 349	biological
+T9	chemical 403 406	AMD
+T10	disease_or_phenotypic_feature 403 406	AMD
+T11	disease_or_phenotypic_feature 439 457	Malignant melanoma
+T12	chemical 462 470	androgen
+T13	chemical 601 605	drug
+T14	disease_or_phenotypic_feature 715 721	cancer
+T15	disease_or_phenotypic_feature 821 834	breast cancer
+T16	chemical 853 867	anti-estrogens
+T17	chemical 881 891	inhibitors
+T18	chemical 997 1004	hormone
+T19	chemical 1005 1011	leptin
+T20	disease_or_phenotypic_feature 1041 1048	obesity
+T21	chemical 1071 1079	alginate
+T22	disease_or_phenotypic_feature 1118 1124	cancer
+T23	chemical 1125 1132	biology
+T24	chemical 1156 1166	biological
+T25	disease_or_phenotypic_feature 1232 1249	diabetes mellitus
+T26	chemical 1251 1255	drug
+T27	chemical 1259 1266	alcohol
+T28	chemical 1339 1349	fluoxetine
+T29	disease_or_phenotypic_feature 1367 1380	renal failure
+T30	chemical 1395 1402	Calcium
+T31	chemical 1403 1414	antagonists
+T32	disease_or_phenotypic_feature 1419 1432	heart failure
+T33	chemical 1434 1438	NMDA
+T34	chemical 1439 1449	antagonist
+T35	disease_or_phenotypic_feature 1515 1521	autism
+T36	chemical 1582 1589	dextran
+T37	chemical 1590 1604	sodium sulfate
+T38	disease_or_phenotypic_feature 1610 1613	DSS
+T39	disease_or_phenotypic_feature 1624 1631	colitis
+T40	chemical 1652 1661	inhibitor
+T41	disease_or_phenotypic_feature 1719 1725	cancer
+T42	chemical 1788 1795	antigen
+T43	chemical 1832 1840	effector
+T44	chemical 1881 1892	nicardipine
+T45	chemical 1910 1922	anesthetized
+T46	disease_or_phenotypic_feature 1939 1952	heart failure
+T47	chemical 1954 1977	Aldosterone antagonists
+T48	disease_or_phenotypic_feature 1998 2011	heart failure
+T49	chemical 2074 2083	ibuprofen
+T50	chemical 2085 2097	methotrexate
+T51	chemical 2120 2129	inhibitor
+T52	disease_or_phenotypic_feature 2192 2205	heart failure
+T53	disease_or_phenotypic_feature 2210 2220	arthralgia
+T54	chemical 2226 2236	inhibitors
+T55	chemical 2245 2253	D-JNKI-1
+T56	disease_or_phenotypic_feature 2275 2281	cancer
+T57	disease_or_phenotypic_feature 2282 2286	pain
+T58	chemical 2301 2308	hormone
+T59	chemical 2322 2332	leuprolide
+T60	chemical 2333 2340	acetate
+T61	disease_or_phenotypic_feature 2362 2391	hypogonadotropic hypogonadism
+T62	chemical 2429 2440	Amphetamine
+T63	disease_or_phenotypic_feature 2457 2464	obesity

@@ -1,0 +1,68 @@
+T1	chemical 50 57	antigen
+T2	disease_or_phenotypic_feature 68 83	pancreas cancer
+T3	chemical 95 102	antigen
+T4	chemical 123 132	oxidative
+T5	disease_or_phenotypic_feature 161 168	obesity
+T6	disease_or_phenotypic_feature 194 201	obesity
+T7	disease_or_phenotypic_feature 238 246	Diabetic
+T8	disease_or_phenotypic_feature 247 260	renal failure
+T9	chemical 291 301	creatinine
+T10	chemical 302 311	oxidative
+T11	chemical 446 449	ion
+T12	disease_or_phenotypic_feature 446 449	ion
+T13	chemical 501 509	electron
+T14	chemical 527 534	neutron
+T15	chemical 658 673	Tranexamic acid
+T16	disease_or_phenotypic_feature 702 707	blood
+T17	disease_or_phenotypic_feature 831 838	obesity
+T18	chemical 848 852	food
+T19	disease_or_phenotypic_feature 885 892	obesity
+T20	chemical 905 916	Oxaliplatin
+T21	chemical 944 948	drug
+T22	disease_or_phenotypic_feature 962 979	colorectal cancer
+T23	disease_or_phenotypic_feature 995 1016	peripheral neuropathy
+T24	chemical 1102 1112	anesthetic
+T25	disease_or_phenotypic_feature 1144 1149	wound
+T26	chemical 1393 1401	propofol
+T27	chemical 1402 1412	anesthesia
+T28	disease_or_phenotypic_feature 1440 1453	hydrocephalus
+T29	chemical 1463 1474	biochemical
+T30	disease_or_phenotypic_feature 1495 1502	obesity
+T31	chemical 1511 1518	hormone
+T32	chemical 1573 1581	antigens
+T33	disease_or_phenotypic_feature 1600 1606	cancer
+T34	chemical 1654 1664	clonazepam
+T35	chemical 1669 1679	fluoxetine
+T36	disease_or_phenotypic_feature 1681 1688	anxiety
+T37	disease_or_phenotypic_feature 1690 1707	sleep disturbance
+T38	chemical 1741 1749	Cerulein
+T39	chemical 1758 1767	oxidative
+T40	disease_or_phenotypic_feature 1789 1798	edematous
+T41	disease_or_phenotypic_feature 1807 1819	pancreatitis
+T42	disease_or_phenotypic_feature 1832 1844	stress ulcer
+T43	chemical 1873 1884	proton-pump
+T44	chemical 1885 1894	inhibitor
+T45	chemical 1896 1907	histamine-2
+T46	chemical 1908 1927	receptor antagonist
+T47	chemical 1917 1927	antagonist
+T48	chemical 1932 1942	sucralfate
+T49	chemical 2117 2127	forodesine
+T50	chemical 2134 2143	inhibitor
+T51	disease_or_phenotypic_feature 2165 2173	leukemia
+T52	disease_or_phenotypic_feature 2175 2183	lymphoma
+T53	chemical 2220 2225	label
+T54	chemical 2246 2255	quinapril
+T55	chemical 2263 2273	amlodipine
+T56	disease_or_phenotypic_feature 2293 2301	diabetic
+T57	disease_or_phenotypic_feature 2302 2315	renal failure
+T58	chemical 2326 2334	tyrosine
+T59	chemical 2372 2380	antigens
+T60	disease_or_phenotypic_feature 2413 2419	cancer
+T61	disease_or_phenotypic_feature 2520 2525	tumor
+T62	chemical 2628 2636	molecule
+T63	disease_or_phenotypic_feature 2788 2792	rare
+T64	disease_or_phenotypic_feature 2809 2830	diabetic ketoacidosis
+T65	chemical 2883 2888	anion
+T66	chemical 2982 2988	tagged
+T67	chemical 3004 3007	dye
+T68	disease_or_phenotypic_feature 3041 3055	gastric cancer

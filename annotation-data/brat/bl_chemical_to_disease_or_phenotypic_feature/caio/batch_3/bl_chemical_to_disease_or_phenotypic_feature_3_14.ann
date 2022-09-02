@@ -1,0 +1,64 @@
+T1	disease_or_phenotypic_feature 0 16	Thrombocytopenia
+T2	chemical 51 55	drug
+T3	disease_or_phenotypic_feature 103 111	cataract
+T4	chemical 121 129	sorbinil
+T5	disease_or_phenotypic_feature 165 173	cataract
+T6	disease_or_phenotypic_feature 207 220	hyperglycemic
+T7	disease_or_phenotypic_feature 221 229	cataract
+T8	chemical 245 254	inhibitor
+T9	chemical 255 264	letrozole
+T10	disease_or_phenotypic_feature 299 312	breast cancer
+T11	chemical 355 364	androgens
+T12	chemical 400 408	estrogen
+T13	chemical 423 434	ganciclovir
+T14	chemical 473 481	antigens
+T15	disease_or_phenotypic_feature 530 541	brain tumor
+T16	chemical 560 572	Sex hormones
+T17	disease_or_phenotypic_feature 574 581	obesity
+T18	disease_or_phenotypic_feature 586 601	type 2 diabetes
+T19	chemical 624 632	estrogen
+T20	disease_or_phenotypic_feature 633 642	dependent
+T21	chemical 736 744	collagen
+T22	chemical 754 762	estrogen
+T23	chemical 782 785	MDA
+T24	disease_or_phenotypic_feature 825 831	cancer
+T25	chemical 853 860	capture
+T26	chemical 867 876	antigenic
+T27	chemical 960 967	antigen
+T28	disease_or_phenotypic_feature 1037 1050	hypercalcemia
+T29	chemical 1056 1066	clodronate
+T30	chemical 1072 1078	oxygen
+T31	chemical 1083 1091	nutrient
+T32	disease_or_phenotypic_feature 1220 1230	malignancy
+T33	chemical 1267 1275	baclofen
+T34	disease_or_phenotypic_feature 1277 1287	spasticity
+T35	chemical 1301 1305	drug
+T36	disease_or_phenotypic_feature 1316 1335	spinal cord disease
+T37	disease_or_phenotypic_feature 1355 1372	Pancreatic cancer
+T38	chemical 1378 1382	drug
+T39	disease_or_phenotypic_feature 1431 1448	movement disorder
+T40	chemical 1460 1470	fluoxetine
+T41	disease_or_phenotypic_feature 1490 1498	dystonia
+T42	chemical 1502 1524	botulinum toxin type A
+T43	chemical 1547 1551	drug
+T44	chemical 1552 1563	vincristine
+T45	disease_or_phenotypic_feature 1602 1623	peripheral neuropathy
+T46	chemical 1642 1651	serotonin
+T47	chemical 1661 1671	inhibitors
+T48	disease_or_phenotypic_feature 1701 1707	autism
+T49	disease_or_phenotypic_feature 1735 1754	prostatic carcinoma
+T50	chemical 1806 1814	antigens
+T51	chemical 1865 1872	antigen
+T52	chemical 1905 1912	antigen
+T53	disease_or_phenotypic_feature 1916 1924	melanoma
+T54	chemical 1974 1981	biology
+T55	disease_or_phenotypic_feature 2009 2022	heart failure
+T56	disease_or_phenotypic_feature 2023 2031	syndrome
+T57	chemical 2033 2042	Metformin
+T58	disease_or_phenotypic_feature 2054 2067	hypoglycaemic
+T59	chemical 2068 2072	drug
+T60	disease_or_phenotypic_feature 2081 2096	type 2 diabetes
+T61	chemical 2098 2109	Amphetamine
+T62	disease_or_phenotypic_feature 2135 2148	renal failure
+T63	disease_or_phenotypic_feature 2187 2195	melanoma
+T64	chemical 2288 2296	antigens

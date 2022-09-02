@@ -1,0 +1,54 @@
+T1	chemical 42 50	adjuvant
+T2	disease_or_phenotypic_feature 72 81	mucositis
+T3	chemical 100 111	Biochemical
+T4	disease_or_phenotypic_feature 143 156	renal failure
+T5	chemical 179 183	food
+T6	disease_or_phenotypic_feature 200 207	obesity
+T7	chemical 231 238	antigen
+T8	disease_or_phenotypic_feature 277 290	neuroblastoma
+T9	chemical 351 369	2-Aminoadipic acid
+T10	disease_or_phenotypic_feature 387 394	obesity
+T11	disease_or_phenotypic_feature 399 407	diabetes
+T12	disease_or_phenotypic_feature 409 424	Pulmonary edema
+T13	chemical 435 444	ritodrine
+T14	chemical 445 451	saline
+T15	chemical 532 536	drug
+T16	chemical 565 569	drug
+T17	chemical 588 595	mixture
+T18	chemical 616 625	cisplatin
+T19	disease_or_phenotypic_feature 642 659	ovarian carcinoma
+T20	disease_or_phenotypic_feature 711 724	breast cancer
+T21	chemical 797 804	hormone
+T22	disease_or_phenotypic_feature 805 814	dependent
+T23	chemical 872 879	peptide
+T24	disease_or_phenotypic_feature 905 918	breast cancer
+T25	disease_or_phenotypic_feature 978 985	obesity
+T26	chemical 1010 1018	estrogen
+T27	chemical 1034 1043	tamoxifen
+T28	disease_or_phenotypic_feature 1154 1160	cancer
+T29	chemical 1205 1212	antigen
+T30	chemical 1214 1225	Antioxidant
+T31	chemical 1226 1230	food
+T32	disease_or_phenotypic_feature 1247 1254	obesity
+T33	chemical 1294 1301	antigen
+T34	disease_or_phenotypic_feature 1315 1328	renal failure
+T35	chemical 1364 1371	hormone
+T36	disease_or_phenotypic_feature 1372 1381	dependent
+T37	disease_or_phenotypic_feature 1410 1433	paraneoplastic syndrome
+T38	disease_or_phenotypic_feature 1442 1448	ataxia
+T39	disease_or_phenotypic_feature 1450 1467	cerebellar ataxia
+T40	chemical 1489 1502	glutamic acid
+T41	disease_or_phenotypic_feature 1587 1604	cerebellar ataxia
+T42	chemical 1612 1619	hormone
+T43	disease_or_phenotypic_feature 1620 1629	dependent
+T44	disease_or_phenotypic_feature 1644 1660	pheochromocytoma
+T45	chemical 1683 1694	biochemical
+T46	chemical 1784 1788	drug
+T47	chemical 1805 1812	hormone
+T48	disease_or_phenotypic_feature 1813 1822	dependent
+T49	chemical 1844 1851	agonist
+T50	disease_or_phenotypic_feature 1870 1881	lung cancer
+T51	disease_or_phenotypic_feature 1917 1928	lung tumors
+T52	chemical 1932 1943	carboplatin
+T53	chemical 1963 1968	nylon
+T54	disease_or_phenotypic_feature 1983 1991	cataract

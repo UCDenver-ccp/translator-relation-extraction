@@ -1,0 +1,73 @@
+T1	disease_or_phenotypic_feature 60 71	sleep apnea
+T2	disease_or_phenotypic_feature 73 80	obesity
+T3	chemical 160 169	oxidative
+T4	disease_or_phenotypic_feature 192 199	obesity
+T5	chemical 200 208	hormones
+T6	chemical 210 216	leptin
+T7	chemical 249 263	growth hormone
+T8	disease_or_phenotypic_feature 279 309	hypergonadotropic hypogonadism
+T9	disease_or_phenotypic_feature 315 326	azoospermia
+T10	chemical 374 377	RAS
+T11	chemical 378 388	inhibitors
+T12	disease_or_phenotypic_feature 478 498	hypercholesterolemia
+T13	disease_or_phenotypic_feature 500 508	diabetes
+T14	disease_or_phenotypic_feature 510 528	metabolic syndrome
+T15	disease_or_phenotypic_feature 533 540	obesity
+T16	chemical 568 578	biomarkers
+T17	disease_or_phenotypic_feature 582 593	lung cancer
+T18	chemical 602 610	dopamine
+T19	chemical 611 627	receptor agonist
+T20	chemical 628 641	bromocriptine
+T21	disease_or_phenotypic_feature 694 703	pituitary
+T22	disease_or_phenotypic_feature 704 712	adenomas
+T23	chemical 741 755	growth hormone
+T24	disease_or_phenotypic_feature 775 784	pituitary
+T25	chemical 817 833	Thyroid hormonal
+T26	disease_or_phenotypic_feature 861 868	obesity
+T27	chemical 885 889	drug
+T28	disease_or_phenotypic_feature 901 914	renal failure
+T29	disease_or_phenotypic_feature 942 955	heart failure
+T30	chemical 972 978	oxygen
+T31	disease_or_phenotypic_feature 1041 1051	arrhythmia
+T32	disease_or_phenotypic_feature 1061 1073	spina bifida
+T33	disease_or_phenotypic_feature 1078 1100	neurological disorders
+T34	chemical 1111 1121	anesthesia
+T35	disease_or_phenotypic_feature 1137 1153	secondary tumors
+T36	chemical 1231 1241	mefloquine
+T37	disease_or_phenotypic_feature 1257 1266	Exanthema
+T38	disease_or_phenotypic_feature 1271 1280	urticaria
+T39	chemical 1310 1314	drug
+T40	chemical 1333 1339	oxygen
+T41	disease_or_phenotypic_feature 1356 1364	seizures
+T42	disease_or_phenotypic_feature 1368 1383	Dravet syndrome
+T43	chemical 1393 1400	capture
+T44	disease_or_phenotypic_feature 1418 1424	cancer
+T45	chemical 1467 1472	boron
+T46	chemical 1515 1522	antigen
+T47	disease_or_phenotypic_feature 1556 1577	Prader-Willi syndrome
+T48	disease_or_phenotypic_feature 1589 1605	genetic disorder
+T49	disease_or_phenotypic_feature 1634 1641	obesity
+T50	chemical 1643 1657	growth hormone
+T51	disease_or_phenotypic_feature 1670 1691	genital abnormalities
+T52	disease_or_phenotypic_feature 1697 1726	hypogonadotropic hypogonadism
+T53	disease_or_phenotypic_feature 1728 1741	Breast cancer
+T54	chemical 1757 1764	hormone
+T55	chemical 1824 1832	hormones
+T56	chemical 1843 1851	estrogen
+T57	chemical 1856 1868	progesterone
+T58	chemical 1870 1881	Rolofylline
+T59	chemical 1886 1918	adenosine A1-receptor antagonist
+T60	disease_or_phenotypic_feature 1929 1942	heart failure
+T61	chemical 1950 1954	food
+T62	disease_or_phenotypic_feature 1975 1982	obesity
+T63	chemical 2036 2063	cyclooxygenase-2 inhibitors
+T64	chemical 2064 2073	rofecoxib
+T65	chemical 2078 2087	celecoxib
+T66	chemical 2115 2138	anti-inflammatory drugs
+T67	chemical 2140 2147	aspirin
+T68	chemical 2153 2166	acetaminophen
+T69	disease_or_phenotypic_feature 2192 2209	colorectal cancer
+T70	disease_or_phenotypic_feature 2211 2229	colorectal adenoma
+T71	chemical 2253 2259	sodium
+T72	chemical 2260 2269	potassium
+T73	disease_or_phenotypic_feature 2301 2308	obesity

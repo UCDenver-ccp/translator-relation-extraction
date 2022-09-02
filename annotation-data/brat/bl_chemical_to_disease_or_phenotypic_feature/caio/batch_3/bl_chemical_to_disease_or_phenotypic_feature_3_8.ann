@@ -1,0 +1,63 @@
+T1	chemical 56 63	glucose
+T2	chemical 65 70	lipid
+T3	chemical 76 86	amino acid
+T4	chemical 97 103	enzyme
+T5	chemical 134 143	molecular
+T6	disease_or_phenotypic_feature 175 180	tumor
+T7	chemical 268 276	antigens
+T8	disease_or_phenotypic_feature 308 314	cancer
+T9	chemical 338 346	antigens
+T10	chemical 415 423	antigens
+T11	chemical 445 455	biomarkers
+T12	chemical 470 480	inhibitors
+T13	disease_or_phenotypic_feature 484 489	hyper
+T14	chemical 510 514	NAD+
+T15	chemical 533 540	enzymes
+T16	disease_or_phenotypic_feature 576 604	chronic lymphocytic leukemia
+T17	chemical 650 658	silicone
+T18	disease_or_phenotypic_feature 689 695	trauma
+T19	disease_or_phenotypic_feature 776 782	cancer
+T20	chemical 783 787	drug
+T21	chemical 789 800	Oxaliplatin
+T22	chemical 819 823	drug
+T23	disease_or_phenotypic_feature 892 900	glaucoma
+T24	chemical 988 993	group
+T25	disease_or_phenotypic_feature 1012 1020	Melanoma
+T26	chemical 1055 1059	drug
+T27	chemical 1093 1103	fluoxetine
+T28	disease_or_phenotypic_feature 1149 1162	heart failure
+T29	disease_or_phenotypic_feature 1173 1195	dilated cardiomyopathy
+T30	chemical 1226 1250	modified vaccinia ankara
+T31	chemical 1285 1293	antigens
+T32	disease_or_phenotypic_feature 1297 1321	nasopharyngeal carcinoma
+T33	chemical 1343 1352	Thiazides
+T34	disease_or_phenotypic_feature 1357 1380	nonmelanoma skin cancer
+T35	chemical 1436 1442	sodium
+T36	chemical 1443 1454	hyaluronate
+T37	chemical 1459 1474	methylcellulose
+T38	disease_or_phenotypic_feature 1492 1500	cataract
+T39	chemical 1513 1519	Leptin
+T40	disease_or_phenotypic_feature 1543 1550	obesity
+T41	chemical 1569 1579	inhibitors
+T42	disease_or_phenotypic_feature 1607 1615	cataract
+T43	chemical 1634 1642	solution
+T44	disease_or_phenotypic_feature 1646 1654	cataract
+T45	disease_or_phenotypic_feature 1655 1664	blindness
+T46	chemical 1700 1706	oxygen
+T47	disease_or_phenotypic_feature 1740 1748	cataract
+T48	chemical 1812 1818	carbon
+T49	disease_or_phenotypic_feature 1849 1852	CdS
+T50	chemical 1853 1862	nanowires
+T51	disease_or_phenotypic_feature 1864 1867	CdS
+T52	chemical 1877 1903	luminol-gold nanoparticles
+T53	chemical 2007 2011	lead
+T54	chemical 2051 2055	zinc
+T55	chemical 2096 2099	DNA
+T56	disease_or_phenotypic_feature 2108 2113	blood
+T57	chemical 2134 2143	oxidative
+T58	chemical 2161 2165	lead
+T59	chemical 2194 2205	Antioxidant
+T60	disease_or_phenotypic_feature 2217 2225	diabetic
+T61	disease_or_phenotypic_feature 2226 2247	peripheral neuropathy
+T62	disease_or_phenotypic_feature 2256 2265	pituitary
+T63	chemical 2285 2299	growth hormone

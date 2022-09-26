@@ -63,3 +63,14 @@ T62	disease_or_phenotypic_feature 2053 2068	muscle weakness
 T63	disease_or_phenotypic_feature 2070 2078	deafness
 T64	disease_or_phenotypic_feature 2080 2097	cerebellar ataxia
 T65	disease_or_phenotypic_feature 2120 2133	renal failure
+T66	missed_disease_or_phenotypic_feature 32 41	condition
+R1	has_phenotype Arg1:T66 Arg2:T1	
+R2	has_phenotype Arg1:T66 Arg2:T2	
+R3	has_phenotype Arg1:T66 Arg2:T3	
+R4	has_phenotype Arg1:T66 Arg2:T4	
+R5	has_phenotype Arg1:T66 Arg2:T5	
+T67	corrected_disease_or_phenotypic_feature 1341 1357	HAIR-AN syndrome
+R6	has_phenotype Arg1:T67 Arg2:T40	
+R7	has_phenotype Arg1:T67 Arg2:T39	
+R8	has_phenotype Arg1:T67 Arg2:T38	
+R9	has_phenotype Arg1:T67 Arg2:T37	

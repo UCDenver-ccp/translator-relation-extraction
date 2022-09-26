@@ -83,7 +83,7 @@ T81	corrected_chemical 15 43	serotonin reuptake inhibitor
 R2	treats Arg1:T81 Arg2:T4	
 T82	corrected_chemical 129 144	PDE3 inhibitors
 R3	causes_or_contributes_to Arg1:T82 Arg2:T8	
-R4	treats Arg1:T16 Arg2:T15	
+R4	causes_or_contributes_to Arg1:T16 Arg2:T15	
 R5	treats Arg1:T50 Arg2:T52	
 R6	treats Arg1:T53 Arg2:T56	
 R7	treats Arg1:T53 Arg2:T57	
@@ -106,3 +106,12 @@ T88	corrected_chemical 1698 1721	atropine methyl bromide
 T89	corrected_disease_or_phenotypic_feature 1610 1630	Postictal arrhythmia
 R18	causes_or_contributes_to Arg1:T67 Arg2:T68	
 R19	treats Arg1:T88 Arg2:T89	
+T90	missed_disease_or_phenotypic_feature 106 112	tumors
+R20	causes_or_contributes_to Arg1:T5 Arg2:T90	
+R21	treats Arg1:T82 Arg2:T9	
+R22	treats Arg1:T10 Arg2:T9	
+T91	corrected_disease_or_phenotypic_feature 1641 1661	MES-induced seizures
+R23	treats Arg1:T88 Arg2:T91	
+T92	missed_chemical 1725 1768	peripherally acting parasympatholytic agent
+R24	treats Arg1:T92 Arg2:T89	
+R25	treats Arg1:T92 Arg2:T91	

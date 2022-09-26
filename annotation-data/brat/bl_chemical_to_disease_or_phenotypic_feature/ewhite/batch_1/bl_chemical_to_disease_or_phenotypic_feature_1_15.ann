@@ -90,3 +90,5 @@ T77	missed_chemical 2402 2410	sActRIIB
 R13	treats Arg1:T77 Arg2:T76	
 T78	missed_disease_or_phenotypic_feature 2573 2589	Brain Metastases
 R14	treats Arg1:T48 Arg2:T78	
+R15	treats Arg1:T23 Arg2:T26	
+R16	treats Arg1:T48 Arg2:T50	

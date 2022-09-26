@@ -85,3 +85,16 @@ T73	corrected_chemical 3001 3019	anti-diabetic drug
 R13	treats Arg1:T73 Arg2:T71	
 R14	treats Arg1:T73 Arg2:T72	
 R11	treats Arg1:T65 Arg2:T72	
+R15	causes_or_contributes_to Arg1:T69 Arg2:T44	
+R16	causes_or_contributes_to Arg1:T42 Arg2:T44	
+R17	causes_or_contributes_to Arg1:T42 Arg2:T45	
+R18	causes_or_contributes_to Arg1:T69 Arg2:T45	
+T74	corrected_disease_or_phenotypic_feature 2181 2188;2197 2236	precoma associated with severe hypophosphatemia
+T75	corrected_disease_or_phenotypic_feature 2192 2236	coma associated with severe hypophosphatemia
+T76	missed_disease_or_phenotypic_feature 2168 2176	lethargy
+R19	causes_or_contributes_to Arg1:T42 Arg2:T76	
+R20	causes_or_contributes_to Arg1:T69 Arg2:T76	
+R24	causes_or_contributes_to Arg1:T69 Arg2:T74	
+R23	causes_or_contributes_to Arg1:T42 Arg2:T74	
+R21	causes_or_contributes_to Arg1:T42 Arg2:T75	
+R22	causes_or_contributes_to Arg1:T69 Arg2:T75	

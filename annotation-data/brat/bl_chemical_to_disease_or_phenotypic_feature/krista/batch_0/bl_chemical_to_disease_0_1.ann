@@ -77,8 +77,6 @@ T78	chemical 4474 4479	group
 R1	treats Arg1:T73 Arg2:T66
 R2	treats Arg1:T3 Arg2:T1
 R3	treats Arg1:T12 Arg2:T14
-R4	treats Arg1:T22 Arg2:T20
-R5	treats Arg1:T31 Arg2:T32
 R6	causes_or_contributes_to Arg1:T8 Arg2:T10	
 T2	corrected_disease_or_phenotypic_feature 548 571	small intestinal injury
 T9	missed_chemical 534 539	NSAID

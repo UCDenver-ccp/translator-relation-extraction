@@ -105,3 +105,7 @@ R17	causes_or_contributes_to Arg1:T24 Arg2:T26
 T75	missed_disease_or_phenotypic_feature 1564 1566	OD
 R18	treats Arg1:T44 Arg2:T75	
 R5	treats Arg1:T65 Arg2:T61	
+R7	causes_or_contributes_to Arg1:T25 Arg2:T26	
+T91	missed_chemical 1284 1292	selenite
+R19	causes_or_contributes_to Arg1:T91 Arg2:T34	
+R20	treats Arg1:T65 Arg2:T60	

@@ -73,3 +73,49 @@ T72	disease_or_phenotypic_feature 2785 2793	adenomas
 T73	disease_or_phenotypic_feature 2798 2807	malignant
 T74	disease_or_phenotypic_feature 2863 2871	adenomas
 T75	disease_or_phenotypic_feature 2876 2885	malignant
+T76	missed_disease_or_phenotypic_feature 689 736	bilateral anterior temporal lobe cystic changes
+R1	has_phenotype Arg1:T76 Arg2:T25	
+T77	corrected_disease_or_phenotypic_feature 755 793	non-progressive neurological disorder,
+R2	has_phenotype Arg1:T76 Arg2:T77	
+R3	has_phenotype Arg1:T76 Arg2:T22	
+R4	has_phenotype Arg1:T76 Arg2:T23	
+R5	has_phenotype Arg1:T76 Arg2:T24	
+T78	missed_disease_or_phenotypic_feature 880 888	syndrome
+T79	missed_disease_or_phenotypic_feature 1072 1097	restricted joint motility
+T80	corrected_disease_or_phenotypic_feature 1014 1044	characteristic facial features
+T81	missed_disease_or_phenotypic_feature 960 976	decreased vision
+R6	has_phenotype Arg1:T28 Arg2:T81	
+R7	has_phenotype Arg1:T28 Arg2:T29	
+R8	has_phenotype Arg1:T78 Arg2:T26	
+R9	has_phenotype Arg1:T78 Arg2:T27	
+R10	has_phenotype Arg1:T78 Arg2:T28	
+R11	has_phenotype Arg1:T78 Arg2:T79	
+R12	has_phenotype Arg1:T78 Arg2:T33	
+T82	corrected_disease_or_phenotypic_feature 991 1012	severe hearing defect
+R13	has_phenotype Arg1:T78 Arg2:T82	
+R14	has_phenotype Arg1:T78 Arg2:T80	
+T83	corrected_disease_or_phenotypic_feature 1161 1174	hepatic tumor
+R15	has_phenotype Arg1:T48 Arg2:T47	
+R16	has_phenotype Arg1:T48 Arg2:T46	
+R17	has_phenotype Arg1:T49 Arg2:T47	
+R18	has_phenotype Arg1:T49 Arg2:T46	
+R19	has_phenotype Arg1:T50 Arg2:T47	
+R20	has_phenotype Arg1:T50 Arg2:T46	
+R21	has_phenotype Arg1:T51 Arg2:T47	
+R22	has_phenotype Arg1:T51 Arg2:T46	
+T84	missed_disease_or_phenotypic_feature 1763 1772	amblyopia
+R23	has_phenotype Arg1:T84 Arg2:T47	
+R24	has_phenotype Arg1:T84 Arg2:T46	
+T85	missed_disease_or_phenotypic_feature 2390 2406	clinical picture
+R25	has_phenotype Arg1:T85 Arg2:T64	
+R26	has_phenotype Arg1:T85 Arg2:T65	
+R27	has_phenotype Arg1:T85 Arg2:T68	
+T86	missed_disease_or_phenotypic_feature 2416 2425	myoclonus
+T87	missed_disease_or_phenotypic_feature 2427 2435	seizures
+T88	corrected_disease_or_phenotypic_feature 2456 2486	blindness due to optic atrophy
+T89	corrected_disease_or_phenotypic_feature 2456 2472;2491 2511	blindness due to retinal degeneration
+R28	has_phenotype Arg1:T85 Arg2:T89	
+R29	has_phenotype Arg1:T85 Arg2:T69	
+R30	has_phenotype Arg1:T85 Arg2:T89	
+T90	missed_disease_or_phenotypic_feature 2552 2591	relatively spared intellectual function
+R31	has_phenotype Arg1:T85 Arg2:T90	

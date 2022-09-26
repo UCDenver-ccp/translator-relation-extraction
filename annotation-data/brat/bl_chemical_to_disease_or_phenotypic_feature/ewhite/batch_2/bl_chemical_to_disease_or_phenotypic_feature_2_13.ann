@@ -67,3 +67,43 @@ T66	disease_or_phenotypic_feature 1995 2002	obesity
 T67	disease_or_phenotypic_feature 2008 2021	breast cancer
 T68	chemical 2047 2055	estrogen
 T69	chemical 2060 2072	progesterone
+T70	corrected_chemical 45 72	Cancer-testis (CT) antigens
+R1	treats Arg1:T70 Arg2:T7	
+R2	treats Arg1:T8 Arg2:T10	
+T71	missed_disease_or_phenotypic_feature 315 322	tumors,
+T72	missed_disease_or_phenotypic_feature 323 331	diabetes
+R3	treats Arg1:T8 Arg2:T71	
+R4	treats Arg1:T8 Arg2:T11	
+R5	treats Arg1:T8 Arg2:T72	
+T73	missed_chemical 152 170	flavonoid compound
+R6	treats Arg1:T73 Arg2:T10	
+R7	treats Arg1:T73 Arg2:T71	
+R8	treats Arg1:T73 Arg2:T72	
+R9	treats Arg1:T73 Arg2:T11	
+T74	missed_disease_or_phenotypic_feature 205 233	anti-inflammatory activities
+T75	missed_disease_or_phenotypic_feature 189 200;223 234	antioxidant activities,
+R10	causes_or_contributes_to Arg1:T8 Arg2:T75	
+R11	causes_or_contributes_to Arg1:T8 Arg2:T74	
+R12	treats Arg1:T15 Arg2:T16	
+T76	corrected_chemical 445 461	PPARalpha ligand
+R13	treats Arg1:T76 Arg2:T16	
+R14	treats Arg1:T28 Arg2:T29	
+T77	corrected_chemical 768 781	PDE inhibitor
+R15	treats Arg1:T77 Arg2:T29	
+R16	causes_or_contributes_to Arg1:T32 Arg2:T35	
+T78	corrected_disease_or_phenotypic_feature 1238 1253	Fetal hypoxemia
+R17	causes_or_contributes_to Arg1:T43 Arg2:T78	
+T79	corrected_chemical 1428 1457;1464 1474	Angiotensin converting enzyme inhibitors
+T80	corrected_chemical 1459 1462;1464 1474	ACE inhibitors
+T81	missed_disease_or_phenotypic_feature 1506 1518	hypertension
+R18	treats Arg1:T79 Arg2:T81	
+R19	treats Arg1:T79 Arg2:T51	
+R20	treats Arg1:T80 Arg2:T81	
+R21	treats Arg1:T80 Arg2:T51	
+T82	missed_disease_or_phenotypic_feature 1560 1589	obsessive-compulsive behavior
+R22	treats Arg1:T52 Arg2:T82	
+R23	treats Arg1:T57 Arg2:T60	
+T83	corrected_disease_or_phenotypic_feature 1804 1835	drug-induced movement disorders
+R24	treats Arg1:T57 Arg2:T83	
+T84	missed_disease_or_phenotypic_feature 1867 1869	TD
+R25	treats Arg1:T57 Arg2:T84	

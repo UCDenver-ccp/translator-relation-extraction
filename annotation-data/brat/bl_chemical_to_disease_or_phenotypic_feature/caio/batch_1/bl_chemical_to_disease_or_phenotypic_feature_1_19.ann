@@ -57,7 +57,6 @@ T56	missed_chemical 526 531	BRCA1
 T57	missed_disease_or_phenotypic_feature 620 628	diabetic
 T58	corrected_disease_or_phenotypic_feature 687 713	nuclear sclerotic cataract
 T59	corrected_chemical 584 616	Lower intraocular oxygen tension
-R1	treats Arg1:T59 Arg2:T58	
 T60	missed_chemical 785 789	TAMA
 T61	missed_disease_or_phenotypic_feature 800 823	murine Lewis lung tumor
 T62	missed_chemical 929 933	CLAs
@@ -74,10 +73,12 @@ T70	corrected_chemical 2236 2266	high-flow nasal cannula oxygen
 R5	treats Arg1:T70 Arg2:T39	
 T71	corrected_chemical 2336 2375	VPS33B negatively modulated by nicotine
 T72	missed_chemical 2508 2520	Chromogranin
-R7	treats Arg1:T72 Arg2:T46	
 T73	missed_disease_or_phenotypic_feature 2757 2770	herpes zoster
 T74	DONE 2814 2818	DONE
 R8	causes_or_contributes_to Arg1:T22 Arg2:T20	
 R9	causes_or_contributes_to Arg1:T22 Arg2:T21	
 R10	causes_or_contributes_to Arg1:T31 Arg2:T67	
-R6	treats Arg1:T40 Arg2:T41	
+R1	treats Arg1:T62 Arg2:T17	
+R11	treats Arg1:T62 Arg2:T18	
+R12	treats Arg1:T62 Arg2:T19	
+T68	corrected_chemical 2336 2342	VPS33B

@@ -67,3 +67,43 @@ T66	chemical 2299 2303	urea
 T67	chemical 2304 2312	nitrogen
 T68	chemical 2317 2327	creatinine
 T69	disease_or_phenotypic_feature 2343 2356	renal failure
+T70	corrected_chemical 43 71	doxorubicin-loaded liposomes
+T71	corrected_chemical 4 21	antivascular drug
+T72	corrected_disease_or_phenotypic_feature 91 134	B16-F10 murine melanoma experimental tumors
+R1	treats Arg1:T70 Arg2:T72	
+R2	treats Arg1:T71 Arg2:T72	
+T73	missed_disease_or_phenotypic_feature 433 445	hypertensive
+R3	treats Arg1:T10 Arg2:T73	
+R4	treats Arg1:T13 Arg2:T15	
+T74	corrected_chemical 830 844	ACE inhibitors
+R5	treats Arg1:T74 Arg2:T24	
+R6	causes_or_contributes_to Arg1:T22 Arg2:T24	
+T75	missed_disease_or_phenotypic_feature 1040 1072	hormone receptor-positive tumors
+T76	missed_disease_or_phenotypic_feature 1103 1123	HER2-positive tumors
+R7	treats Arg1:T28 Arg2:T75	
+R8	treats Arg1:T30 Arg2:T76	
+R9	treats Arg1:T28 Arg2:T27	
+R10	treats Arg1:T30 Arg2:T27	
+T77	missed_disease_or_phenotypic_feature 1307 1317	depression
+T78	corrected_chemical 1221 1259	selective serotonin reuptake inhibitor
+R11	treats Arg1:T78 Arg2:T37	
+R12	treats Arg1:T78 Arg2:T77	
+R13	treats Arg1:T34 Arg2:T37	
+R14	treats Arg1:T34 Arg2:T77	
+T79	missed_chemical 1261 1265	SSRI
+R15	treats Arg1:T79 Arg2:T37	
+R16	treats Arg1:T79 Arg2:T77	
+T80	corrected_chemical 1464 1486	aldosterone inhibitors
+T81	missed_disease_or_phenotypic_feature 1499 1511	hypertension
+R17	treats Arg1:T80 Arg2:T81	
+T82	corrected_chemical 1531 1550	calcium antagonists
+R18	treats Arg1:T82 Arg2:T45	
+R19	treats Arg1:T82 Arg2:T46	
+R20	causes_or_contributes_to Arg1:T50 Arg2:T48	
+R21	causes_or_contributes_to Arg1:T50 Arg2:T47	
+T83	missed_disease_or_phenotypic_feature 1618 1624	Nausea
+R22	treats Arg1:T50 Arg2:T83	
+T84	missed_disease_or_phenotypic_feature 1666 1688	adverse drug reactions
+T85	missed_disease_or_phenotypic_feature 1690 1694	ADRs
+R23	causes_or_contributes_to Arg1:T50 Arg2:T85	
+R24	causes_or_contributes_to Arg1:T50 Arg2:T84	

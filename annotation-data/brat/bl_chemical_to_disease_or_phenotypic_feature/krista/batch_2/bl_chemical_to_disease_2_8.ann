@@ -14,7 +14,6 @@ T13	disease_or_phenotypic_feature 470 494	hepatocellular carcinoma
 T14	chemical 501 510	sorafenib
 T15	chemical 578 585	glucose
 T16	disease_or_phenotypic_feature 617 632	type 1 diabetes
-T17	chemical 688 695	insulin
 T18	disease_or_phenotypic_feature 882 885	SSc
 T19	chemical 882 885	SSc
 T20	disease_or_phenotypic_feature 957 962	blood
@@ -72,8 +71,12 @@ R4	treats Arg1:T53 Arg2:T57
 R5	treats Arg1:T14 Arg2:T13
 R6	treats Arg1:T14 Arg2:T12
 R7	treats Arg1:T55 Arg2:T57
-R8	treats Arg1:T17 Arg2:T16
 R9	treats Arg1:T39 Arg2:T41
 R10	treats Arg1:T48 Arg2:T52
 R11	treats Arg1:T11 Arg2:T12
 R12	treats Arg1:T50 Arg2:T52
+T17	missed_chemical 1786 1789	DON
+T68	missed_disease_or_phenotypic_feature 1900 1913	toxic effects
+R8	causes_or_contributes_to Arg1:T17 Arg2:T68	
+R13	causes_or_contributes_to Arg1:T38 Arg2:T68	
+R14	treats Arg1:T36 Arg2:T68	

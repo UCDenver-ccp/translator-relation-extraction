@@ -112,3 +112,6 @@ T67	corrected_chemical 1453 1475	unfractionated heparin
 R1	causes_or_contributes_to Arg1:T67 Arg2:T85	
 T69	missed_chemical 1477 1480	UFH
 R2	causes_or_contributes_to Arg1:T69 Arg2:T85	
+T94	missed_disease_or_phenotypic_feature 401 413	inflammatory
+R20	treats Arg1:T9 Arg2:T94	
+T95	chemical 396 413	anti-inflammatory

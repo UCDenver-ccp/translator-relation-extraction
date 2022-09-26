@@ -56,3 +56,40 @@ T55	disease_or_phenotypic_feature 2099 2112	heart failure
 T56	chemical 2115 2122	Calcium
 T57	chemical 2123 2134	antagonists
 T58	disease_or_phenotypic_feature 2152 2165	heart failure
+T59	missed_chemical 101 121	3-methylcholanthrene
+T60	missed_disease_or_phenotypic_feature 138 151	fibrosarcomas
+T61	missed_disease_or_phenotypic_feature 32 46	Primary tumors
+R1	causes_or_contributes_to Arg1:T3 Arg2:T61	
+R2	causes_or_contributes_to Arg1:T59 Arg2:T61	
+R3	causes_or_contributes_to Arg1:T3 Arg2:T60	
+R4	causes_or_contributes_to Arg1:T59 Arg2:T60	
+R5	causes_or_contributes_to Arg1:T6 Arg2:T8	
+R6	causes_or_contributes_to Arg1:T7 Arg2:T8	
+T62	corrected_disease_or_phenotypic_feature 341 363	growth of the neoplasm
+R7	causes_or_contributes_to Arg1:T6 Arg2:T62	
+R8	causes_or_contributes_to Arg1:T7 Arg2:T62	
+R9	causes_or_contributes_to Arg1:T9 Arg2:T10	
+R10	causes_or_contributes_to Arg1:T9 Arg2:T11	
+R11	causes_or_contributes_to Arg1:T9 Arg2:T12	
+T63	corrected_disease_or_phenotypic_feature 484 501	postnatal obesity
+R12	causes_or_contributes_to Arg1:T13 Arg2:T63	
+T64	missed_disease_or_phenotypic_feature 506 550	altered perivascular adipose tissue function
+R13	causes_or_contributes_to Arg1:T13 Arg2:T64	
+T65	missed_disease_or_phenotypic_feature 652 681	angiogenesis-related diseases
+T66	corrected_disease_or_phenotypic_feature 690 705	tumor neoplasms
+T67	missed_chemical 552 560	HB-002.1
+R14	treats Arg1:T67 Arg2:T65	
+R15	treats Arg1:T15 Arg2:T65	
+R16	treats Arg1:T67 Arg2:T66	
+R17	treats Arg1:T15 Arg2:T66	
+R18	treats Arg1:T67 Arg2:T18	
+R19	treats Arg1:T15 Arg2:T18	
+R20	treats Arg1:T25 Arg2:T26	
+R21	treats Arg1:T36 Arg2:T37	
+T68	missed_disease_or_phenotypic_feature 1718 1727	apoptosis
+R22	causes_or_contributes_to Arg1:T43 Arg2:T68	
+T69	chemical 1624 1629	OVA12
+T70	corrected_chemical 1639 1652	tumor antigen
+T71	corrected_disease_or_phenotypic_feature 1663 1681	cancer cell growth
+R23	causes_or_contributes_to Arg1:T69 Arg2:T71	
+R24	causes_or_contributes_to Arg1:T70 Arg2:T71	

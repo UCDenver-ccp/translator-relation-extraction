@@ -82,3 +82,6 @@ T77	missed_chemical 2717 2720	CRT
 T78	missed_disease_or_phenotypic_feature 2725 2728	CCU
 R5	treats Arg1:T77 Arg2:T78	
 R6	treats Arg1:T66 Arg2:T70	
+T79	corrected_chemical 2761 2794	norepinephrine reuptake inhibitor
+R7	treats Arg1:T67 Arg2:T70	
+R8	treats Arg1:T79 Arg2:T70	

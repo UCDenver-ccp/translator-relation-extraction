@@ -65,3 +65,44 @@ T64	chemical 2027 2038	bupivacaine
 T65	chemical 2046 2055	lidocaine
 T66	chemical 2070 2080	anesthesia
 T67	disease_or_phenotypic_feature 2094 2102	cataract
+R1	treats Arg1:T14 Arg2:T15	
+R2	causes_or_contributes_to Arg1:T20 Arg2:T22	
+T68	missed_disease_or_phenotypic_feature 691 712	lower face dyskinesia
+T69	missed_disease_or_phenotypic_feature 675 678	LIP
+R3	causes_or_contributes_to Arg1:T20 Arg2:T69	
+R4	causes_or_contributes_to Arg1:T20 Arg2:T68	
+T70	corrected_chemical 792 802	NVP-BKM120
+T71	corrected_chemical 776 786	NVP-BEZ235
+R5	causes_or_contributes_to Arg1:T71 Arg2:T24	
+R6	causes_or_contributes_to Arg1:T71 Arg2:T23	
+R7	causes_or_contributes_to Arg1:T70 Arg2:T24	
+R8	causes_or_contributes_to Arg1:T70 Arg2:T23	
+T72	corrected_chemical 816 853	platelet activating factor antagonist
+T73	corrected_disease_or_phenotypic_feature 869 898	post-transplant renal failure
+R9	treats Arg1:T72 Arg2:T73	
+T74	missed_chemical 804 812	BN 52021
+R10	treats Arg1:T74 Arg2:T73	
+T75	missed_disease_or_phenotypic_feature 977 1009	airway obstructions due to tumor
+T76	corrected_disease_or_phenotypic_feature 1011 1023;977 1003	foreign body airway obstructions due to
+T77	missed_disease_or_phenotypic_feature 1025 1030;977 1003	edema airway obstructions due to
+T78	missed_disease_or_phenotypic_feature 1035 1054;977 1003	bronchoconstriction airway obstructions due to
+R11	treats Arg1:T30 Arg2:T75	
+R12	treats Arg1:T30 Arg2:T76	
+R13	treats Arg1:T30 Arg2:T77	
+R14	treats Arg1:T30 Arg2:T78	
+R15	treats Arg1:T31 Arg2:T76	
+R16	treats Arg1:T31 Arg2:T75	
+R17	treats Arg1:T31 Arg2:T77	
+R18	treats Arg1:T31 Arg2:T78	
+T79	corrected_chemical 1085 1107	angiotensin inhibitors
+R19	treats Arg1:T79 Arg2:T35	
+R20	treats Arg1:T37 Arg2:T39	
+R21	treats Arg1:T38 Arg2:T39	
+T80	corrected_chemical 1182 1199	dietary nutrients
+R22	treats Arg1:T80 Arg2:T39	
+T81	corrected_chemical 1273 1287	SRC inhibitors
+T82	corrected_disease_or_phenotypic_feature 1291 1314	solid tumor malignancie
+R23	treats Arg1:T81 Arg2:T82	
+T83	missed_chemical 1578 1585	insulin
+R24	treats Arg1:T55 Arg2:T57	
+R25	treats Arg1:T56 Arg2:T57	

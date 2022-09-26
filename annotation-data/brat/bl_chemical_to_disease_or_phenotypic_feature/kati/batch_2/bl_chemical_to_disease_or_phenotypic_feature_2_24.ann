@@ -64,3 +64,50 @@ T63	disease_or_phenotypic_feature 1885 1898	heart failure
 T64	disease_or_phenotypic_feature 1910 1916	asthma
 T65	chemical 1933 1937	food
 T66	disease_or_phenotypic_feature 1984 1999	speech disorder
+T67	corrected_chemical 255 294	selective serotonin reuptake inhibitors
+T68	corrected_disease_or_phenotypic_feature 298 304;309 326	autism related disorders
+R1	treats Arg1:T67 Arg2:T10	
+R2	treats Arg1:T67 Arg2:T68	
+T69	corrected_chemical 328 342	Excessive food
+R3	causes_or_contributes_to Arg1:T69 Arg2:T13	
+R4	causes_or_contributes_to Arg1:T69 Arg2:T14	
+T70	corrected_disease_or_phenotypic_feature 444 468	tumor-induced osteolysis
+T71	corrected_chemical 403 426	Intravenous pamidronate
+R5	treats Arg1:T71 Arg2:T70	
+T72	corrected_chemical 585 601	PTP1B inhibitors
+T73	corrected_disease_or_phenotypic_feature 641 659	adolescent obesity
+R6	treats Arg1:T72 Arg2:T73	
+R7	treats Arg1:T22 Arg2:T73	
+T74	missed_disease_or_phenotypic_feature 949 987	immune-mediated killing of tumor cells
+R8	causes_or_contributes_to Arg1:T30 Arg2:T74	
+R9	treats Arg1:T32 Arg2:T34	
+T75	missed_disease_or_phenotypic_feature 1262 1283	hepatic abnormalities
+R10	causes_or_contributes_to Arg1:T37 Arg2:T75	
+R11	causes_or_contributes_to Arg1:T37 Arg2:T40	
+T76	missed_disease_or_phenotypic_feature 1295 1302	fatigue
+R12	causes_or_contributes_to Arg1:T37 Arg2:T76	
+R13	causes_or_contributes_to Arg1:T37 Arg2:T41	
+T77	missed_disease_or_phenotypic_feature 1318 1328	somnolence
+R14	causes_or_contributes_to Arg1:T37 Arg2:T77	
+T78	corrected_chemical 1143 1158	RAAS inhibitors
+R15	treats Arg1:T78 Arg2:T33	
+T79	missed_disease_or_phenotypic_feature 1238 1260	drug-drug interactions
+R16	causes_or_contributes_to Arg1:T37 Arg2:T79	
+T80	corrected_chemical 1352 1367	botulinum toxin
+R17	treats Arg1:T80 Arg2:T43	
+R18	treats Arg1:T80 Arg2:T44	
+R19	treats Arg1:T45 Arg2:T49	
+R20	treats Arg1:T46 Arg2:T49	
+R21	treats Arg1:T47 Arg2:T49	
+R22	treats Arg1:T48 Arg2:T49	
+T81	missed_disease_or_phenotypic_feature 1524 1536	solid tumors
+R23	treats Arg1:T45 Arg2:T81	
+R24	treats Arg1:T46 Arg2:T81	
+R25	treats Arg1:T47 Arg2:T81	
+R26	treats Arg1:T48 Arg2:T81	
+T82	corrected_chemical 1647 1679	opioid/local anaesthetic mixture
+T83	corrected_disease_or_phenotypic_feature 1684 1695	cancer pain
+R27	treats Arg1:T82 Arg2:T83	
+R28	treats Arg1:T61 Arg2:T63	
+T84	corrected_chemical 1834 1850	vasodilator drug
+R29	treats Arg1:T84 Arg2:T63	

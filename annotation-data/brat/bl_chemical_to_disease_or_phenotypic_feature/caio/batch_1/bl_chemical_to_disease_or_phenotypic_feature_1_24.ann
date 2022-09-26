@@ -82,3 +82,7 @@ R11	treats Arg1:T29 Arg2:T25
 T66	missed_disease_or_phenotypic_feature 1200 1213	solid tumours
 R12	treats Arg1:T29 Arg2:T66	
 R13	treats Arg1:T38 Arg2:T40	
+T42	corrected_chemical 2656 2702	small-molecule drug that restores p53 function
+T75	corrected_chemical 2730 2782	an antibody that targets phosphatidylserine residues
+R4	treats Arg1:T42 Arg2:T73	
+R5	treats Arg1:T75 Arg2:T73	

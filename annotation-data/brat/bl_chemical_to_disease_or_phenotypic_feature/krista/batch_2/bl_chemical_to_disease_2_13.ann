@@ -62,3 +62,9 @@ T61	chemical 3521 3526	water
 T62	disease_or_phenotypic_feature 3544 3556	fibromyalgia
 R1	treats Arg1:T59 Arg2:T54
 R2	treats Arg1:T58 Arg2:T54
+T63	corrected_disease_or_phenotypic_feature 1567 1573	cancer
+R3	treats Arg1:T25 Arg2:T63	
+R4	treats Arg1:T26 Arg2:T63	
+T64	missed_disease_or_phenotypic_feature 3320 3324	ASUC
+R5	treats Arg1:T58 Arg2:T64	
+R6	treats Arg1:T59 Arg2:T64	

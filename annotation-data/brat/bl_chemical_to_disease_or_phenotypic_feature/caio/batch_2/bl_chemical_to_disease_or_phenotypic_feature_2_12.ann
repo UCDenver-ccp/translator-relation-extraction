@@ -89,15 +89,11 @@ R11	treats Arg1:T19 Arg2:T20
 R12	treats Arg1:T19 Arg2:T21	
 R13	treats Arg1:T24 Arg2:T27	
 R14	treats Arg1:T24 Arg2:T27	
-R15	treats Arg1:T25 Arg2:T27	
-R16	treats Arg1:T25 Arg2:T27	
 R17	causes_or_contributes_to Arg1:T38 Arg2:T39	
 T78	missed_disease_or_phenotypic_feature 1209 1238	hypogonadotpopic hypogonadism
-R18	causes_or_contributes_to Arg1:T38 Arg2:T78	
 T79	corrected_disease_or_phenotypic_feature 1574 1599	Estrogen-dependent tumors
 R19	causes_or_contributes_to Arg1:T49 Arg2:T79	
 T80	corrected_disease_or_phenotypic_feature 1277 1307	obesity-related glomerulopathy
-R20	causes_or_contributes_to Arg1:T41 Arg2:T80	
 T81	corrected_disease_or_phenotypic_feature 1616 1635	facial inflammation
 R21	treats Arg1:T53 Arg2:T52	
 R22	treats Arg1:T53 Arg2:T81	
@@ -108,3 +104,9 @@ R26	treats Arg1:T55 Arg2:T57
 T82	corrected_chemical 2150 2167	dantrolene sodium
 R27	treats Arg1:T82 Arg2:T62	
 T83	DONE 2628 2632	DONE
+T84	missed_chemical 113 131	PLGA nanoparticles
+R28	treats Arg1:T84 Arg2:T1	
+T85	missed_chemical 770 795	appetite-suppressant drug
+R15	treats Arg1:T85 Arg2:T27	
+R16	treats Arg1:T85 Arg2:T27	
+T86	missed_disease_or_phenotypic_feature 1257 1273	oxidative stress

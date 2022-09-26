@@ -20,7 +20,6 @@ T19	disease_or_phenotypic_feature 1044 1053	infection
 T20	chemical 1161 1166	NADPH
 T21	chemical 1175 1181	enzyme
 T22	chemical 1193 1216	reactive oxygen species
-T23	missed_chemical 1218 1221	ROS
 T24	disease_or_phenotypic_feature 1257 1265	diabetes
 T25	disease_or_phenotypic_feature 1270 1274	CRC.
 T26	disease_or_phenotypic_feature 1304 1314	dependence
@@ -55,7 +54,5 @@ T54	disease_or_phenotypic_feature 3337 3340	GPa
 T55	disease_or_phenotypic_feature 3390 3393	PVA
 T56	chemical 3422 3434	water/cement
 R1	FIXME Arg1:T48 Arg2:T46
-R2	causes_or_contributes_to Arg1:T23 Arg2:T24
-R3	causes_or_contributes_to Arg1:T23 Arg2:T25
-R4	causes_or_contributes_to Arg1:T22 Arg2:T24
-R5	causes_or_contributes_to Arg1:T22 Arg2:T25
+T57	missed_disease_or_phenotypic_feature 943 963	alcohol intoxication
+R6	causes_or_contributes_to Arg1:T16 Arg2:T57	

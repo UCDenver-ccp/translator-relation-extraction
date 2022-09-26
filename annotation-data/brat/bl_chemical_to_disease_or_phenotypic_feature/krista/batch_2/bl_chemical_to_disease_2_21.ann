@@ -60,3 +60,7 @@ T59	chemical 3788 3794	Oxides
 T60	chemical 3831 3837	Li-Ion
 T61	disease_or_phenotypic_feature 3831 3837	Li-Ion
 R1	causes_or_contributes_to Arg1:T2 Arg2:T3
+T62	corrected_chemical 306 328	dextran sulfate sodium
+R2	causes_or_contributes_to Arg1:T62 Arg2:T11	
+T63	missed_chemical 369 372	BDS
+R3	treats Arg1:T63 Arg2:T13	

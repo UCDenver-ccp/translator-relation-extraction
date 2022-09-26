@@ -70,7 +70,6 @@ T72	missed_chemical 552 557	NEDD8
 T73	missed_chemical 653 658	NEDD8
 T74	missed_disease_or_phenotypic_feature 867 877	depressive
 T75	missed_disease_or_phenotypic_feature 889 893	pain
-R4	treats Arg1:T18 Arg2:T74	
 T26	corrected_chemical 1149 1168	Magnesium-deficient
 T76	missed_chemical 1661 1668	miR-375
 T39	missed_chemical 1839 1849	filgotinib
@@ -84,7 +83,6 @@ T81	missed_disease_or_phenotypic_feature 2979 2986	hypoxic
 T82	missed_chemical 3164 3172	cytokine
 T83	DONE 3293 3297	DONE
 T84	missed_disease_or_phenotypic_feature 941 968	stress urinary incontinence
-R5	treats Arg1:T18 Arg2:T75	
 T85	missed_chemical 200 207	hormone
 T7	corrected_disease_or_phenotypic_feature 193 218	growth hormone deficiency
 T86	missed_chemical 286 293	TIR-199
@@ -107,3 +105,6 @@ T95	missed_disease_or_phenotypic_feature 3197 3207;3233 3245	peripheral accumula
 R12	treats Arg1:T91 Arg2:T95	
 R13	treats Arg1:T91 Arg2:T94	
 R14	treats Arg1:T91 Arg2:T93	
+R4	treats Arg1:T88 Arg2:T74	
+R5	treats Arg1:T88 Arg2:T75	
+R15	treats Arg1:T55 Arg2:T90	

@@ -130,3 +130,7 @@ R42	has_phenotype Arg1:T56 Arg2:T86
 T87	corrected_disease_or_phenotypic_feature 2036 2058	intracranial neoplasms
 R43	has_phenotype Arg1:T56 Arg2:T87	
 R44	has_phenotype Arg1:T51 Arg2:T52	
+R45	has_phenotype Arg1:T86 Arg2:T57	
+R46	has_phenotype Arg1:T86 Arg2:T58	
+R47	has_phenotype Arg1:T86 Arg2:T87	
+R48	has_phenotype Arg1:T86 Arg2:T60	

@@ -63,3 +63,32 @@ T62	disease_or_phenotypic_feature 2093 2110	speech impairment
 T63	disease_or_phenotypic_feature 2149 2157	seizures
 T64	disease_or_phenotypic_feature 2174 2191	movement disorder
 T65	disease_or_phenotypic_feature 2197 2221	autism spectrum disorder
+R1	has_phenotype Arg1:T20 Arg2:T21	
+T66	corrected_disease_or_phenotypic_feature 1297 1315	D-CHRAMPS syndrome
+R2	has_phenotype Arg1:T66 Arg2:T33	
+R3	has_phenotype Arg1:T66 Arg2:T34	
+R4	has_phenotype Arg1:T66 Arg2:T35	
+R5	has_phenotype Arg1:T66 Arg2:T36	
+R6	has_phenotype Arg1:T66 Arg2:T37	
+T67	missed_disease_or_phenotypic_feature 1252 1275	psychomotor retardation
+T68	missed_disease_or_phenotypic_feature 1228 1236	alopecia
+R7	has_phenotype Arg1:T66 Arg2:T68	
+R8	has_phenotype Arg1:T66 Arg2:T67	
+R9	has_phenotype Arg1:T47 Arg2:T48	
+R10	has_phenotype Arg1:T47 Arg2:T49	
+R11	has_phenotype Arg1:T47 Arg2:T50	
+T69	missed_disease_or_phenotypic_feature 1725 1749	midcranial malformations
+T70	missed_disease_or_phenotypic_feature 1751 1773	visceral abnormalities
+T71	disease_or_phenotypic_feature 1778 1797	perinatal lethality
+R12	has_phenotype Arg1:T47 Arg2:T69	
+R13	has_phenotype Arg1:T47 Arg2:T70	
+R14	has_phenotype Arg1:T47 Arg2:T71	
+R15	has_phenotype Arg1:T60 Arg2:T61	
+R16	has_phenotype Arg1:T60 Arg2:T63	
+T72	corrected_disease_or_phenotypic_feature 2093 2147	speech impairment especially affecting active language
+T73	corrected_disease_or_phenotypic_feature 2159 2191	extrapyramidal movement disorder
+T74	missed_disease_or_phenotypic_feature 2044 2071	global developmental delays
+R17	has_phenotype Arg1:T60 Arg2:T74	
+R18	has_phenotype Arg1:T60 Arg2:T73	
+R19	has_phenotype Arg1:T60 Arg2:T65	
+R20	has_phenotype Arg1:T60 Arg2:T72	

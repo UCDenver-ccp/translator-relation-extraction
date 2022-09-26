@@ -6,12 +6,11 @@ T5	chemical 107 114	antigen
 T6	disease_or_phenotypic_feature 157 172	prostate cancer
 T7	chemical 174 177	PCa
 T8	chemical 188 199	biochemical
-T9	disease_or_phenotypic_feature 235 244	cataracts
 T10	disease_or_phenotypic_feature 261 274	galactosaemia
 T11	disease_or_phenotypic_feature 304 313	cataracts
 T12	chemical 328 339	biochemical
 T13	disease_or_phenotypic_feature 365 370	edema
-T14	chemical 443 453	inhibitors
+T14	chemical 443 472	inhibitors of tumor promotion
 T15	disease_or_phenotypic_feature 474 485	Proteinuria
 T16	chemical 508 534	tyrosine kinase inhibitors
 T17	chemical 568 571	fat
@@ -73,3 +72,101 @@ T72	chemical 2668 2674	sodium
 T73	chemical 2675 2686	fluorescein
 T74	disease_or_phenotypic_feature 2746 2767	peripheral neuropathy
 T75	disease_or_phenotypic_feature 2802 2823	peripheral neuropathy
+T76	corrected_disease_or_phenotypic_feature 47 76	inhibited growth of AML tumor
+R1	causes_or_contributes_to Arg1:T1 Arg2:T76	
+R2	causes_or_contributes_to Arg1:T2 Arg2:T76	
+T77	missed_chemical 298 303	sugar
+T78	missed_disease_or_phenotypic_feature 457 472	tumor promotion
+R4	treats Arg1:T14 Arg2:T78	
+T79	missed_chemical 409 434	tumor promoting compounds
+R5	causes_or_contributes_to Arg1:T79 Arg2:T78	
+T80	corrected_disease_or_phenotypic_feature 355 370	mouse ear edema
+R6	causes_or_contributes_to Arg1:T79 Arg2:T80	
+R7	treats Arg1:T14 Arg2:T80	
+T81	missed_disease_or_phenotypic_feature 490 502	hypertension
+R8	causes_or_contributes_to Arg1:T16 Arg2:T15	
+R9	causes_or_contributes_to Arg1:T16 Arg2:T81	
+T82	missed_chemical 540 554	ketogenic diet
+R10	treats Arg1:T82 Arg2:T19	
+R11	treats Arg1:T82 Arg2:T20	
+T83	corrected_chemical 563 593	high-fat low-carbohydrate diet
+R12	treats Arg1:T83 Arg2:T19	
+R13	treats Arg1:T83 Arg2:T20	
+T84	missed_chemical 556 558	KD
+R14	treats Arg1:T84 Arg2:T19	
+R15	treats Arg1:T84 Arg2:T20	
+T85	corrected_disease_or_phenotypic_feature 708 735	functional pituitary tumors
+R16	treats Arg1:T22 Arg2:T85	
+T86	corrected_disease_or_phenotypic_feature 856 876	malignant alteration
+T87	missed_disease_or_phenotypic_feature 881 898	tumor progression
+T89	missed_chemical 824 836	Gangliosides
+T90	missed_chemical 838 841	GGs
+R17	causes_or_contributes_to Arg1:T89 Arg2:T86	
+R18	causes_or_contributes_to Arg1:T90 Arg2:T86	
+R19	causes_or_contributes_to Arg1:T89 Arg2:T87	
+R21	causes_or_contributes_to Arg1:T90 Arg2:T87	
+T91	corrected_chemical 976 991	satiety hormone
+R23	treats Arg1:T91 Arg2:T28	
+R24	treats Arg1:T27 Arg2:T28	
+R25	causes_or_contributes_to Arg1:T34 Arg2:T32	
+R26	causes_or_contributes_to Arg1:T34 Arg2:T33	
+T92	corrected_disease_or_phenotypic_feature 1518 1544	recurrent multiple myeloma
+T93	missed_disease_or_phenotypic_feature 1554 1566	solid tumors
+R27	treats Arg1:T36 Arg2:T92	
+R28	treats Arg1:T36 Arg2:T93	
+R29	treats Arg1:T37 Arg2:T92	
+R30	treats Arg1:T37 Arg2:T93	
+T94	corrected_disease_or_phenotypic_feature 1635 1666	autochthonous mammary carcinoma
+T95	missed_chemical 1623 1626	MNU
+R31	causes_or_contributes_to Arg1:T95 Arg2:T94	
+T96	corrected_disease_or_phenotypic_feature 1670 1699	solid hormone-dependent tumor
+R32	causes_or_contributes_to Arg1:T95 Arg2:T96	
+T97	corrected_chemical 1705 1738	combination of HECNU and nicotine
+R33	treats Arg1:T97 Arg2:T94	
+R34	treats Arg1:T97 Arg2:T96	
+T98	missed_chemical 1777 1782	HECNU
+R35	treats Arg1:T98 Arg2:T94	
+R36	treats Arg1:T98 Arg2:T96	
+T99	missed_disease_or_phenotypic_feature 1694 1699	tumor
+R37	causes_or_contributes_to Arg1:T43 Arg2:T99	
+T100	corrected_chemical 1810 1885	tumor microenvironment-responsive layer-by-layer (LbL) polymer drug carrier
+T101	missed_disease_or_phenotypic_feature 1908 1914	tumors
+R38	treats Arg1:T100 Arg2:T101	
+T102	corrected_disease_or_phenotypic_feature 2193 2205	renal injury
+T103	missed_disease_or_phenotypic_feature 2219 2253	elevated serum blood urea nitrogen
+R39	causes_or_contributes_to Arg1:T51 Arg2:T102	
+R40	causes_or_contributes_to Arg1:T51 Arg2:T103	
+T104	missed_disease_or_phenotypic_feature 2219 2233;2255 2258	elevated serum BUN
+R41	causes_or_contributes_to Arg1:T51 Arg2:T104	
+R42	causes_or_contributes_to Arg1:T51 Arg2:T57	
+R43	causes_or_contributes_to Arg1:T51 Arg2:T58	
+R44	causes_or_contributes_to Arg1:T51 Arg2:T59	
+T105	missed_disease_or_phenotypic_feature 2343 2368	decrease in serum glucose
+R45	causes_or_contributes_to Arg1:T51 Arg2:T105	
+T106	missed_disease_or_phenotypic_feature 2712 2720	diabetic
+T107	corrected_disease_or_phenotypic_feature 2419 2433	hepatic tumors
+R47	treats Arg1:T62 Arg2:T107	
+T108	corrected_disease_or_phenotypic_feature 2541 2552	cancer pain
+R48	treats Arg1:T65 Arg2:T108	
+T109	missed_chemical 2501 2510;2533 2537	analgesic drug
+R49	treats Arg1:T109 Arg2:T108	
+R50	treats Arg1:T66 Arg2:T108	
+R51	causes_or_contributes_to Arg1:T70 Arg2:T71	
+T110	disease_or_phenotypic_feature 235 244	cataracts
+R3	causes_or_contributes_to Arg1:T77 Arg2:T110	
+T9	missed_disease_or_phenotypic_feature 881 886;899 911	tumor invasiveness
+R20	causes_or_contributes_to Arg1:T89 Arg2:T9	
+R22	causes_or_contributes_to Arg1:T90 Arg2:T9	
+R52	treats Arg1:T91 Arg2:T29	
+R53	treats Arg1:T27 Arg2:T29	
+T88	corrected_chemical 1482 1497	anticancer drug
+R54	treats Arg1:T88 Arg2:T92	
+R55	treats Arg1:T88 Arg2:T93	
+T111	missed_disease_or_phenotypic_feature 1755 1771	tumor inhibition
+R56	causes_or_contributes_to Arg1:T97 Arg2:T111	
+R57	causes_or_contributes_to Arg1:T98 Arg2:T111	
+R58	treats Arg1:T100 Arg2:T50	
+T112	missed_disease_or_phenotypic_feature 2101 2107;2120 2126	breast cancer
+R59	treats Arg1:T100 Arg2:T112	
+T113	missed_disease_or_phenotypic_feature 2219 2233;2261 2271	elevated serum creatinine
+R60	causes_or_contributes_to Arg1:T51 Arg2:T113	

@@ -65,3 +65,46 @@ T64	chemical 2568 2572	drug
 T65	disease_or_phenotypic_feature 2612 2625	hyperglycemia
 T66	chemical 2648 2658	tacrolimus
 T67	chemical 2663 2675	cyclosporine
+T68	missed_disease_or_phenotypic_feature 570 575	tumor
+T69	corrected_chemical 570 597	tumor blood flow inhibitors
+R1	treats Arg1:T15 Arg2:T68	
+R2	treats Arg1:T14 Arg2:T68	
+T70	corrected_chemical 652 666	ACE inhibitors
+R3	treats Arg1:T70 Arg2:T17	
+R4	treats Arg1:T70 Arg2:T18	
+R5	treats Arg1:T70 Arg2:T19	
+T71	missed_disease_or_phenotypic_feature 788 794	tumors
+R6	causes_or_contributes_to Arg1:T21 Arg2:T71	
+R7	treats Arg1:T23 Arg2:T24	
+T72	missed_chemical 958 965	MSC-IDO
+R8	causes_or_contributes_to Arg1:T72 Arg2:T27	
+R9	causes_or_contributes_to Arg1:T72 Arg2:T26	
+T73	corrected_chemical 1046 1065	1-methyl-tryptophan
+R10	treats Arg1:T73 Arg2:T27	
+R11	treats Arg1:T73 Arg2:T26	
+T74	corrected_chemical 1032 1045	IDO inhibitor
+R12	treats Arg1:T74 Arg2:T27	
+R13	treats Arg1:T74 Arg2:T26	
+T75	missed_disease_or_phenotypic_feature 1266 1271	tumor
+R14	causes_or_contributes_to Arg1:T32 Arg2:T75	
+T76	missed_chemical 1339 1369	13-hydroxyoctadecadienoic acid
+T77	missed_chemical 1371 1378	13-HODE
+R15	causes_or_contributes_to Arg1:T76 Arg2:T75	
+R16	causes_or_contributes_to Arg1:T77 Arg2:T75	
+R17	treats Arg1:T38 Arg2:T36	
+T78	corrected_chemical 1450 1463	MEK inhibitor
+R18	treats Arg1:T78 Arg2:T36	
+R19	treats Arg1:T41 Arg2:T40	
+R20	treats Arg1:T42 Arg2:T40	
+T79	missed_disease_or_phenotypic_feature 2288 2293	tumor
+R21	causes_or_contributes_to Arg1:T56 Arg2:T79	
+T80	corrected_chemical 2329 2344	SGLT2 inhibitor
+R22	causes_or_contributes_to Arg1:T80 Arg2:T79	
+T81	missed_disease_or_phenotypic_feature 2581 2593	hypertension
+R23	causes_or_contributes_to Arg1:T66 Arg2:T81	
+T82	missed_disease_or_phenotypic_feature 2595 2607	dyslipidemia
+R24	causes_or_contributes_to Arg1:T66 Arg2:T82	
+R25	causes_or_contributes_to Arg1:T66 Arg2:T65	
+R26	causes_or_contributes_to Arg1:T67 Arg2:T81	
+R27	causes_or_contributes_to Arg1:T67 Arg2:T82	
+R28	causes_or_contributes_to Arg1:T67 Arg2:T65	

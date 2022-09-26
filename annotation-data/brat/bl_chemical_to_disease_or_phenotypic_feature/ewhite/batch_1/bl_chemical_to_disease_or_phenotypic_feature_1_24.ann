@@ -66,3 +66,38 @@ T65	chemical 2408 2416	thiamine
 T66	chemical 2427 2434	enzymes
 T67	disease_or_phenotypic_feature 2438 2445	obesity
 T68	disease_or_phenotypic_feature 2450 2457	obesity
+R1	treats Arg1:T2 Arg2:T3	
+R2	treats Arg1:T1 Arg2:T3	
+T69	corrected_disease_or_phenotypic_feature 164 183	acute heart failure
+R3	treats Arg1:T2 Arg2:T69	
+R4	treats Arg1:T1 Arg2:T69	
+R5	treats Arg1:T1 Arg2:T5	
+R6	treats Arg1:T2 Arg2:T5	
+T70	missed_disease_or_phenotypic_feature 185 188	AHF
+R7	treats Arg1:T1 Arg2:T70	
+R8	treats Arg1:T2 Arg2:T70	
+T71	missed_disease_or_phenotypic_feature 406 426	tumor aggressiveness
+T72	missed_disease_or_phenotypic_feature 406 411;431 441	tumor metastasis
+T73	corrected_chemical 600 613	GnRH agonists
+T74	corrected_disease_or_phenotypic_feature 533 549	pituitary tumour
+R9	causes_or_contributes_to Arg1:T73 Arg2:T74	
+T75	corrected_chemical 1006 1022	Raspberry ketone
+T76	corrected_disease_or_phenotypic_feature 1081 1114	obesity induced Alzheimer disease
+R10	treats Arg1:T75 Arg2:T76	
+T77	corrected_disease_or_phenotypic_feature 1440 1452	small tumors
+R11	treats Arg1:T41 Arg2:T77	
+T78	missed_disease_or_phenotypic_feature 2215 2220	tumor
+T79	corrected_chemical 2155 2210	Iodinated hyaluronic acid oligomer-based nanoassemblies
+R12	treats Arg1:T79 Arg2:T78	
+R13	treats Arg1:T60 Arg2:T78	
+T80	corrected_chemical 835 855	estrogen metabolites
+R14	causes_or_contributes_to Arg1:T80 Arg2:T24	
+T81	missed_disease_or_phenotypic_feature 1033 1053	cholinergic activity
+T82	missed_disease_or_phenotypic_feature 1058 1077	antioxidant defense
+R15	causes_or_contributes_to Arg1:T75 Arg2:T81	
+R16	causes_or_contributes_to Arg1:T75 Arg2:T82	
+T83	corrected_chemical 2113 2153	tumour-associated antigen melan-A/MART-1
+T84	corrected_disease_or_phenotypic_feature 2036 2070	Primary melanoma tumour regression
+R17	causes_or_contributes_to Arg1:T83 Arg2:T84	
+T85	corrected_disease_or_phenotypic_feature 2036 2059	Primary melanoma tumour
+R18	treats Arg1:T83 Arg2:T85	

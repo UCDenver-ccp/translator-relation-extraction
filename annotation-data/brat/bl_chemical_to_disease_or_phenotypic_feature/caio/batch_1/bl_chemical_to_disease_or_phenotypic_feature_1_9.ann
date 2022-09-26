@@ -80,3 +80,5 @@ R11	causes_or_contributes_to Arg1:T30 Arg2:T32
 R12	treats Arg1:T48 Arg2:T50	
 T62	missed_disease_or_phenotypic_feature 2427 2456	nasolacrimal duct obstruction
 R13	causes_or_contributes_to Arg1:T48 Arg2:T62	
+R14	treats Arg1:T68 Arg2:T24	
+R15	treats Arg1:T41 Arg2:T40	

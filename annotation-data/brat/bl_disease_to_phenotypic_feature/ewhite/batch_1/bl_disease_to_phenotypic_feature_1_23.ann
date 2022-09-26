@@ -67,3 +67,26 @@ T66	disease_or_phenotypic_feature 2124 2136	hypoglycemia
 T67	disease_or_phenotypic_feature 2277 2282	edema
 T68	disease_or_phenotypic_feature 2371 2382	hypokalemia
 T69	disease_or_phenotypic_feature 2387 2397	arrhythmia
+R1	has_phenotype Arg1:T11 Arg2:T13	
+R2	has_phenotype Arg1:T11 Arg2:T14	
+R3	has_phenotype Arg1:T11 Arg2:T15	
+R4	has_phenotype Arg1:T10 Arg2:T13	
+R5	has_phenotype Arg1:T10 Arg2:T14	
+R6	has_phenotype Arg1:T10 Arg2:T15	
+T70	missed_disease_or_phenotypic_feature 1287 1312	Human ciliary malfunction
+R7	has_phenotype Arg1:T70 Arg2:T39	
+R8	has_phenotype Arg1:T70 Arg2:T40	
+R9	has_phenotype Arg1:T70 Arg2:T41	
+R10	has_phenotype Arg1:T70 Arg2:T42	
+R11	has_phenotype Arg1:T70 Arg2:T43	
+T71	missed_disease_or_phenotypic_feature 1332 1346	situs inversus
+R12	has_phenotype Arg1:T70 Arg2:T71	
+R13	has_phenotype Arg1:T50 Arg2:T51	
+R14	has_phenotype Arg1:T57 Arg2:T58	
+R15	has_phenotype Arg1:T57 Arg2:T59	
+R16	has_phenotype Arg1:T57 Arg2:T60	
+T72	missed_disease_or_phenotypic_feature 1902 1922	skeletal destruction
+R17	has_phenotype Arg1:T57 Arg2:T72	
+T73	missed_disease_or_phenotypic_feature 2358 2369	hypothermia
+R18	has_phenotype Arg1:T73 Arg2:T68	
+R19	has_phenotype Arg1:T73 Arg2:T69	

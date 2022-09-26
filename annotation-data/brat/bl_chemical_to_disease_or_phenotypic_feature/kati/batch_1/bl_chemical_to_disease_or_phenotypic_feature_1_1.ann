@@ -75,7 +75,6 @@ T75	missed_chemical 1280 1321	bioreductive (hypoxia-activated) prodrugs
 T76	missed_disease_or_phenotypic_feature 1403 1417	breast cancers
 R3	treats Arg1:T30 Arg2:T32	
 T79	missed_disease_or_phenotypic_feature 1617 1646	nasolacrimal duct obstruction
-R4	treats Arg1:T33 Arg2:T31	
 R5	treats Arg1:T35 Arg2:T38	
 T86	corrected_disease_or_phenotypic_feature 2285 2311	benign pancreatic diseases
 T87	corrected_disease_or_phenotypic_feature 2331 2345	benign disease
@@ -90,7 +89,7 @@ R11	treats Arg1:T91 Arg2:T92
 R12	treats Arg1:T91 Arg2:T93	
 R13	treats Arg1:T91 Arg2:T94	
 T95	corrected_disease_or_phenotypic_feature 2808 2826	psoriasis vulgaris
-T96	corrected_chemical 2836 2878	tumor necrosis factor inhibitor infliximab
+T96	corrected_chemical 2836 2867	tumor necrosis factor inhibitor
 R14	treats Arg1:T96 Arg2:T57	
 R15	treats Arg1:T96 Arg2:T95	
 T97	corrected_disease_or_phenotypic_feature 2920 2942	neonatal hyperglycemia
@@ -109,3 +108,6 @@ R6	treats Arg1:T61 Arg2:T97
 T14	missed_disease_or_phenotypic_feature 663 678	adverse effects
 R7	causes_or_contributes_to Arg1:T13 Arg2:T14	
 T31	missed_disease_or_phenotypic_feature 1739 1749	antisepsis
+R8	causes_or_contributes_to Arg1:T30 Arg2:T79	
+R4	treats Arg1:T60 Arg2:T95	
+R9	treats Arg1:T60 Arg2:T57	

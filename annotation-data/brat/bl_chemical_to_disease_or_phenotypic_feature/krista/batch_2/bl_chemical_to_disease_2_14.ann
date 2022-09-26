@@ -79,8 +79,11 @@ T78	chemical 3504 3520	molecular marker
 T79	disease_or_phenotypic_feature 3579 3583	GBM.
 R1	treats Arg1:T3 Arg2:T7
 R2	treats Arg1:T3 Arg2:T6
-R3	treats Arg1:T20 Arg2:T21
 R4	treats Arg1:T4 Arg2:T7
 R5	treats Arg1:T4 Arg2:T6
 R6	treats Arg1:T27 Arg2:T26
 R7	treats Arg1:T22 Arg2:T24
+T80	missed_disease_or_phenotypic_feature 12 39	Schizophrenia-like Symptoms
+R8	treats Arg1:T2 Arg2:T80	
+T81	corrected_disease_or_phenotypic_feature 792 810	myoclonus-dystonia
+R3	treats Arg1:T20 Arg2:T81	

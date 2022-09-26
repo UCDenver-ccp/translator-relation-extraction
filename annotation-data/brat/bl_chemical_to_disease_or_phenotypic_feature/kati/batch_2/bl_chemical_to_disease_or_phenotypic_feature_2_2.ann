@@ -8,7 +8,7 @@ T7	disease_or_phenotypic_feature 334 341	obesity
 T8	disease_or_phenotypic_feature 358 365	obesity
 T9	chemical 414 424	inhibitors
 T10	chemical 439 447	estrogen
-T11	disease_or_phenotypic_feature 508 524	pituitary tumors
+T11	corrected_disease_or_phenotypic_feature 483 494;508 524	hemorrhagic pituitary tumors
 T12	disease_or_phenotypic_feature 592 602	lung tumor
 T13	chemical 641 649	thrombin
 T14	chemical 650 659	inhibitor
@@ -56,3 +56,48 @@ T55	disease_or_phenotypic_feature 2150 2162	Subcutaneous
 T56	chemical 2237 2246	polyvinyl
 T57	chemical 2247 2255	chloride
 T58	chemical 2322 2331	cellulose
+T59	corrected_disease_or_phenotypic_feature 323 341	Paediatric obesity
+T60	corrected_disease_or_phenotypic_feature 348 365	adulthood obesity
+T61	corrected_chemical 401 424	fibrinolysis inhibitors
+R1	causes_or_contributes_to Arg1:T61 Arg2:T59	
+R2	causes_or_contributes_to Arg1:T61 Arg2:T60	
+T62	corrected_disease_or_phenotypic_feature 499 507;508 524	invasive pituitary tumors
+R3	causes_or_contributes_to Arg1:T10 Arg2:T11	
+R4	causes_or_contributes_to Arg1:T10 Arg2:T62	
+T63	missed_disease_or_phenotypic_feature 545 563	tumor angiogenesis
+T64	missed_disease_or_phenotypic_feature 568 577	neoplasia
+R5	causes_or_contributes_to Arg1:T10 Arg2:T63	
+R6	causes_or_contributes_to Arg1:T10 Arg2:T64	
+T65	corrected_chemical 631 659	synthetic thrombin inhibitor
+T66	corrected_disease_or_phenotypic_feature 592 615	lung tumor colonization
+R7	causes_or_contributes_to Arg1:T65 Arg2:T66	
+R8	causes_or_contributes_to Arg1:T26 Arg2:T24	
+R9	causes_or_contributes_to Arg1:T26 Arg2:T25	
+T67	corrected_chemical 1199 1223	tumor-associated antigen
+R10	treats Arg1:T67 Arg2:T29	
+T68	missed_disease_or_phenotypic_feature 1258 1289	tumor-specific immune responses
+T69	missed_disease_or_phenotypic_feature 1294 1311	antitumor effects
+R13	causes_or_contributes_to Arg1:T67 Arg2:T69	
+R14	treats Arg1:T31 Arg2:T32	
+R15	treats Arg1:T31 Arg2:T33	
+T70	missed_chemical 1526 1533	vitamin
+R16	treats Arg1:T70 Arg2:T36	
+R17	treats Arg1:T70 Arg2:T37	
+R18	causes_or_contributes_to Arg1:T45 Arg2:T43	
+R19	causes_or_contributes_to Arg1:T45 Arg2:T44	
+T71	corrected_chemical 1963 2006	MART-1/Melan-A human melanoma tumor antigen
+T72	corrected_disease_or_phenotypic_feature 2072 2088	tumor regression
+R20	causes_or_contributes_to Arg1:T71 Arg2:T72	
+T73	corrected_disease_or_phenotypic_feature 2150 2169	Subcutaneous tumors
+T74	missed_chemical 2220 2235	silicone rubber
+T75	corrected_chemical 2237 2255	polyvinyl chloride
+T76	missed_chemical 2257 2265	zirconia
+T77	missed_chemical 2270 2295	alkyl-alpha-cyanoacrylate
+R21	causes_or_contributes_to Arg1:T74 Arg2:T73	
+R22	causes_or_contributes_to Arg1:T75 Arg2:T73	
+R23	causes_or_contributes_to Arg1:T76 Arg2:T73	
+R24	causes_or_contributes_to Arg1:T77 Arg2:T73	
+R25	causes_or_contributes_to Arg1:T19 Arg2:T20	
+T78	missed_disease_or_phenotypic_feature 1065 1090	generalized toxic effects
+R26	causes_or_contributes_to Arg1:T26 Arg2:T78	
+R11	causes_or_contributes_to Arg1:T67 Arg2:T68	

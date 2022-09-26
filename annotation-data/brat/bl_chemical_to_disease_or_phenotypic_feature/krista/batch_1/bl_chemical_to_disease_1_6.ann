@@ -46,12 +46,7 @@ T45	chemical 2150 2155	group
 T46	disease_or_phenotypic_feature 2206 2223	diabetes mellitus
 T47	chemical 2252 2257	group
 T48	disease_or_phenotypic_feature 2330 2348	multiple sclerosis
-T49	corrected_chemical 2398 2416	glatiramer acetate
 T50	chemical 2409 2416	acetate
-T51	missed_chemical 2424 2426	GA
-T52	missed_chemical 2442 2456	interferon β1a
-T53	missed_chemical 2484 2498	interferon β1a
-T54	missed_chemical 2528 2542	interferon β1b
 T55	chemical 2648 2662	small-molecule
 T56	corrected_chemical 2648 2672	small-molecule inhibitor
 T57	chemical 2663 2672	inhibitor
@@ -78,15 +73,10 @@ T77	disease_or_phenotypic_feature 4180 4189	infection
 T78	chemical 4295 4304	glutamine
 T79	chemical 4309 4318	glutamate
 T80	disease_or_phenotypic_feature 4368 4376	migraine
-R1	treats Arg1:T53 Arg2:T48
-R3	treats Arg1:T52 Arg2:T48
 R4	treats Arg1:T63 Arg2:T64
 R5	treats Arg1:T30 Arg2:T35
 R6	treats Arg1:T30 Arg2:T36
-R7	treats Arg1:T49 Arg2:T48
 R8	causes_or_contributes_to Arg1:T32 Arg2:T35
-R9	treats Arg1:T51 Arg2:T48
-R10	treats Arg1:T54 Arg2:T48
 R11	treats Arg1:T29 Arg2:T26
 T81	corrected_chemical 1592 1596	PhIP
 R12	causes_or_contributes_to Arg1:T81 Arg2:T35	

@@ -59,3 +59,50 @@ T58	disease_or_phenotypic_feature 2010 2013	SOD
 T59	disease_or_phenotypic_feature 2123 2136	heart failure
 T60	disease_or_phenotypic_feature 2142 2155	heart failure
 T61	chemical 2185 2194	oxidative
+R1	causes_or_contributes_to Arg1:T5 Arg2:T7	
+T62	corrected_disease_or_phenotypic_feature 134 165	hormone-dependent breast cancer
+T63	missed_disease_or_phenotypic_feature 112 118	tumors
+R2	treats Arg1:T4 Arg2:T63	
+R3	treats Arg1:T4 Arg2:T62	
+T64	corrected_disease_or_phenotypic_feature 167 212	Acute unilateral toxoplasma retinochoroiditis
+R4	causes_or_contributes_to Arg1:T9 Arg2:T64	
+T65	missed_chemical 243 264	tumor necrosis factor
+R5	causes_or_contributes_to Arg1:T65 Arg2:T64	
+T66	corrected_chemical 626 643	anorexigenic drug
+R6	treats Arg1:T66 Arg2:T19	
+T67	missed_disease_or_phenotypic_feature 884 913	decreases in tumor blood flow
+T68	corrected_disease_or_phenotypic_feature 884 896;915 925	decreases in tumor pain
+R7	causes_or_contributes_to Arg1:T25 Arg2:T67	
+R8	causes_or_contributes_to Arg1:T25 Arg2:T68	
+T69	missed_chemical 1016 1020	HBOT
+T70	missed_disease_or_phenotypic_feature 1032 1051	otologic barotrauma
+T71	missed_disease_or_phenotypic_feature 1053 1059	nausea
+T72	missed_disease_or_phenotypic_feature 1080 1095	oxygen toxicity
+T73	missed_disease_or_phenotypic_feature 1109 1123	myopic changes
+R9	causes_or_contributes_to Arg1:T69 Arg2:T70	
+R10	causes_or_contributes_to Arg1:T69 Arg2:T71	
+R11	causes_or_contributes_to Arg1:T69 Arg2:T28	
+R12	causes_or_contributes_to Arg1:T69 Arg2:T29	
+R13	causes_or_contributes_to Arg1:T69 Arg2:T72	
+R14	causes_or_contributes_to Arg1:T69 Arg2:T31	
+R15	causes_or_contributes_to Arg1:T69 Arg2:T73	
+T75	corrected_disease_or_phenotypic_feature 1361 1387	active psoriatic arthritis
+R17	treats Arg1:T37 Arg2:T75	
+T76	corrected_chemical 1302 1334	tumor necrosis factor inhibitors
+R18	treats Arg1:T76 Arg2:T75	
+T77	missed_chemical 1494 1513	chemical substances
+T78	corrected_disease_or_phenotypic_feature 1408 1427	malignant neoplasia
+R19	causes_or_contributes_to Arg1:T77 Arg2:T78	
+R20	treats Arg1:T46 Arg2:T47	
+T79	corrected_disease_or_phenotypic_feature 1823 1843	Lewis lung carcinoma
+R21	treats Arg1:T48 Arg2:T79	
+R22	treats Arg1:T49 Arg2:T79	
+T80	corrected_disease_or_phenotypic_feature 1792 1804;1820 1843	tumor growth of Lewis lung carcinoma
+R23	treats Arg1:T48 Arg2:T80	
+R24	treats Arg1:T49 Arg2:T80	
+T81	corrected_disease_or_phenotypic_feature 1809 1843	metastasis of Lewis lung carcinoma
+R25	treats Arg1:T48 Arg2:T81	
+R26	treats Arg1:T49 Arg2:T81	
+T82	missed_disease_or_phenotypic_feature 2046 2063	tumor progression
+R27	causes_or_contributes_to Arg1:T54 Arg2:T82	
+R28	causes_or_contributes_to Arg1:T55 Arg2:T82	

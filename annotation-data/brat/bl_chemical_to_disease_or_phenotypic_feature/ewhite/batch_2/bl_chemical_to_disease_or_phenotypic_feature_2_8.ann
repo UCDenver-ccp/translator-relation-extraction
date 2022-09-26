@@ -68,3 +68,34 @@ T67	disease_or_phenotypic_feature 2400 2413	renal failure
 T68	chemical 2440 2454	growth hormone
 T69	disease_or_phenotypic_feature 2507 2520	short stature
 T70	disease_or_phenotypic_feature 2524 2542	skeletal dysplasia
+R1	treats Arg1:T7 Arg2:T8	
+R2	causes_or_contributes_to Arg1:T16 Arg2:T15	
+R3	causes_or_contributes_to Arg1:T21 Arg2:T19	
+R4	causes_or_contributes_to Arg1:T21 Arg2:T18	
+T71	missed_disease_or_phenotypic_feature 703 715	splenomegaly
+R5	causes_or_contributes_to Arg1:T21 Arg2:T71	
+R6	causes_or_contributes_to Arg1:T20 Arg2:T71	
+R7	causes_or_contributes_to Arg1:T20 Arg2:T19	
+R8	causes_or_contributes_to Arg1:T20 Arg2:T18	
+R9	causes_or_contributes_to Arg1:T34 Arg2:T35	
+T72	corrected_chemical 1293 1306	BET inhibitor
+R10	treats Arg1:T72 Arg2:T38	
+R11	causes_or_contributes_to Arg1:T45 Arg2:T43	
+T73	missed_disease_or_phenotypic_feature 1611 1623	side effects
+R12	causes_or_contributes_to Arg1:T45 Arg2:T73	
+T74	corrected_disease_or_phenotypic_feature 1905 1968	omatostatin-insensitive thyrotrophin-secreting pituitary tumour
+R13	treats Arg1:T56 Arg2:T74	
+R14	treats Arg1:T57 Arg2:T74	
+R15	treats Arg1:T59 Arg2:T60	
+T75	corrected_chemical 2018 2038	Somatostatin analogs
+R16	treats Arg1:T75 Arg2:T60	
+T76	missed_disease_or_phenotypic_feature 2142 2157;2172 2188	growth hormone- secreting tumors
+T77	missed_disease_or_phenotypic_feature 2162 2188	prolactin-secreting tumors
+R17	treats Arg1:T59 Arg2:T76	
+R18	treats Arg1:T59 Arg2:T77	
+R20	treats Arg1:T75 Arg2:T77	
+R19	treats Arg1:T75 Arg2:T76	
+T78	corrected_chemical 2375 2395	amino acids solution
+R21	treats Arg1:T78 Arg2:T67	
+T79	missed_chemical 2359 2367	AMI-U-II
+R22	treats Arg1:T79 Arg2:T67	

@@ -62,7 +62,6 @@ T63	disease_or_phenotypic_feature 3669 3678	condition
 T64	chemical 3700 3713	calcimimetics
 T65	chemical 3719 3729	cinacalcet
 T66	chemical 3772 3779	calcium
-R2	causes_or_contributes_to Arg1:T11 Arg2:T12
 R3	treats Arg1:T40 Arg2:T43
 R4	treats Arg1:T40 Arg2:T45
 R5	treats Arg1:T40 Arg2:T46

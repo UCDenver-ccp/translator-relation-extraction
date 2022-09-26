@@ -59,7 +59,6 @@ T58	disease_or_phenotypic_feature 2881 2887	PS/PVA
 T59	disease_or_phenotypic_feature 2926 2933	disease
 T60	disease_or_phenotypic_feature 2965 2973	disorder
 T61	chemical 3000 3020	hypoxanthine-guanine
-T62	missed_disease_or_phenotypic_feature 3098 3114	Cardiac Toxicity
 T63	chemical 3121 3127	Proton
 T64	disease_or_phenotypic_feature 3140 3156	Hodgkin Lymphoma
 T65	chemical 3189 3200	biochemical
@@ -71,8 +70,6 @@ T70	chemical 3366 3370	zinc
 T71	chemical 3375 3380	lipid
 R1	causes_or_contributes_to Arg1:T43 Arg2:T48
 R2	causes_or_contributes_to Arg1:T46 Arg2:T48
-R3	treats Arg1:T63 Arg2:T64
-R4	causes_or_contributes_to Arg1:T63 Arg2:T62
 R5	causes_or_contributes_to Arg1:T13 Arg2:T9
 R6	causes_or_contributes_to Arg1:T13 Arg2:T11
 T72	missed_disease_or_phenotypic_feature 521 523	DK

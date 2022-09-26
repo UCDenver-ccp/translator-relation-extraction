@@ -105,3 +105,24 @@ R26	has_phenotype Arg1:T24 Arg2:T27
 T79	missed_disease_or_phenotypic_feature 1210 1239	Abnormal retinal angiogenesis
 R27	has_phenotype Arg1:T79 Arg2:T33	
 R28	has_phenotype Arg1:T79 Arg2:T34	
+R29	has_phenotype Arg1:T35 Arg2:T36	
+R30	has_phenotype Arg1:T35 Arg2:T37	
+R31	has_phenotype Arg1:T35 Arg2:T38	
+R32	has_phenotype Arg1:T35 Arg2:T39	
+R33	has_phenotype Arg1:T35 Arg2:T40	
+R34	has_phenotype Arg1:T46 Arg2:T51	
+R35	has_phenotype Arg1:T46 Arg2:T47	
+R36	has_phenotype Arg1:T46 Arg2:T48	
+R37	has_phenotype Arg1:T46 Arg2:T49	
+T80	missed_disease_or_phenotypic_feature 1774 1800	hepatopathy during infancy
+R38	has_phenotype Arg1:T46 Arg2:T80	
+R39	has_phenotype Arg1:T46 Arg2:T50	
+T81	missed_disease_or_phenotypic_feature 1848 1867	internal strabismus
+R40	has_phenotype Arg1:T46 Arg2:T81	
+T82	missed_disease_or_phenotypic_feature 1892 1912	stroke-like episodes
+T83	missed_disease_or_phenotypic_feature 1914 1926	Microcephaly
+T84	missed_disease_or_phenotypic_feature 1985 2004	Martsolf's syndrome
+R41	has_phenotype Arg1:T84 Arg2:T54	
+R42	has_phenotype Arg1:T84 Arg2:T53	
+R43	has_phenotype Arg1:T84 Arg2:T52	
+R44	has_phenotype Arg1:T84 Arg2:T83	

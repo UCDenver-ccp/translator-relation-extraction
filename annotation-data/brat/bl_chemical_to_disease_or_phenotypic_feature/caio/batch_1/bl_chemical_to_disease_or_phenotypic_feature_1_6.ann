@@ -81,3 +81,4 @@ T76	corrected_chemical 1308 1315	steroid
 R7	causes_or_contributes_to Arg1:T76 Arg2:T24	
 R8	treats Arg1:T28 Arg2:T30	
 R9	treats Arg1:T31 Arg2:T32	
+R5	treats Arg1:T66 Arg2:T36	

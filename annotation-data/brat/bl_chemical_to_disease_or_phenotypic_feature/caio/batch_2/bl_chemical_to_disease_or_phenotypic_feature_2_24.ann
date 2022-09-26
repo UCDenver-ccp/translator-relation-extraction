@@ -71,7 +71,6 @@ T70	disease_or_phenotypic_feature 2641 2647	cancer
 T71	disease_or_phenotypic_feature 2683 2692	Hypoxemia
 T72	disease_or_phenotypic_feature 2697 2716	respiratory failure
 T73	chemical 2812 2818	oxygen
-R1	treats Arg1:T1 Arg2:T3	
 R2	causes_or_contributes_to Arg1:T15 Arg2:T12	
 R3	causes_or_contributes_to Arg1:T15 Arg2:T13	
 R4	causes_or_contributes_to Arg1:T15 Arg2:T14	

@@ -35,7 +35,6 @@ T34	chemical 1666 1675	uric acid
 T35	disease_or_phenotypic_feature 1705 1729	Plasmodium vivax malaria
 T36	chemical 1813 1821	Val30Met
 T37	disease_or_phenotypic_feature 1836 1847	amyloidosis
-T38	corrected_chemical 1917 1927	zinc oxide
 T39	chemical 1917 1941	zinc oxide nanoparticles
 T40	chemical 1922 1927	oxide
 T41	chemical 1945 1959	drug-resistant
@@ -53,7 +52,6 @@ T52	disease_or_phenotypic_feature 2657 2663	stroke
 T53	chemical 2717 2722	group
 T54	disease_or_phenotypic_feature 2752 2766	Ovarian cancer
 T55	missed_chemical 2808 2824	chemotherapeutic
-T56	missed_chemical 2832 2840	biologic
 T57	disease_or_phenotypic_feature 2872 2880	acquired
 T58	chemical 2908 2912	drug
 T59	chemical 2942 2953	Oxaliplatin
@@ -65,22 +63,16 @@ T64	chemical 3174 3182	residual
 T65	disease_or_phenotypic_feature 3183 3188	tumor
 T66	chemical 3337 3346	Biomarker
 T67	disease_or_phenotypic_feature 3350 3369	Acute Kidney Injury
-R2	treats Arg1:T56 Arg2:T54
 R3	treats Arg1:T55 Arg2:T54
 R4	treats Arg1:T60 Arg2:T62
 R5	treats Arg1:T60 Arg2:T61
 R6	treats Arg1:T59 Arg2:T61
 R7	treats Arg1:T59 Arg2:T62
-R8	treats Arg1:T43 Arg2:T46
 R9	treats Arg1:T58 Arg2:T54
 R10	treats Arg1:T29 Arg2:T30
 R11	causes_or_contributes_to Arg1:T29 Arg2:T27
 R12	treats Arg1:T3 Arg2:T4
-T68	corrected_disease_or_phenotypic_feature 879 887	glaucoma
-R13	causes_or_contributes_to Arg1:T21 Arg2:T68	
-T69	corrected_chemical 1945 1949	drug
-R1	treats Arg1:T69 Arg2:T42	
-T70	missed_disease_or_phenotypic_feature 1945 1973	drug-resistant breast cancer
-R14	treats Arg1:T38 Arg2:T70	
 T71	corrected_chemical 2021 2043	dextran sulfate sodium
 R15	causes_or_contributes_to Arg1:T71 Arg2:T46	
+T38	missed_disease_or_phenotypic_feature 2021 2059	dextran sulfate sodium-induced colitis
+R1	treats Arg1:T43 Arg2:T38	

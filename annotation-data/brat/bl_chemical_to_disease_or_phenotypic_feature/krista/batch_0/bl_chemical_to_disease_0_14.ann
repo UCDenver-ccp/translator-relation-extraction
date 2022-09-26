@@ -71,7 +71,6 @@ R3	treats Arg1:T13 Arg2:T12
 R4	treats Arg1:T22 Arg2:T23
 R5	treats Arg1:T22 Arg2:T24
 R6	treats Arg1:T22 Arg2:T25
-R7	causes_or_contributes_to Arg1:T54 Arg2:T53
 R8	treats Arg1:T2 Arg2:T1
 R9	treats Arg1:T15 Arg2:T12
 R10	treats Arg1:T15 Arg2:T11
@@ -83,5 +82,3 @@ R15	treats Arg1:T21 Arg2:T23
 R16	treats Arg1:T21 Arg2:T24
 R17	treats Arg1:T3 Arg2:T1
 R18	treats Arg1:T3 Arg2:T4	
-T68	missed_chemical 2917 2926	endotoxin
-R19	causes_or_contributes_to Arg1:T68 Arg2:T55	

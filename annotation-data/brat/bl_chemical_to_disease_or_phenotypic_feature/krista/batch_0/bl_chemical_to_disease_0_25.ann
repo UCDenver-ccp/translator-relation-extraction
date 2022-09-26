@@ -84,3 +84,5 @@ R11	causes_or_contributes_to Arg1:T7 Arg2:T71
 R12	causes_or_contributes_to Arg1:T7 Arg2:T72	
 T73	corrected_chemical 2807 2811	drug
 R13	treats Arg1:T73 Arg2:T54	
+T74	missed_disease_or_phenotypic_feature 1598 1654	complication of upper gastrointestinal tract examination
+R14	causes_or_contributes_to Arg1:T31 Arg2:T74	

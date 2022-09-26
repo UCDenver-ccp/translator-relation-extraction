@@ -100,7 +100,6 @@ R13	treats Arg1:T88 Arg2:T3
 T89	missed_disease_or_phenotypic_feature 374 396	impaired mental status
 R14	treats Arg1:T4 Arg2:T89	
 R15	treats Arg1:T5 Arg2:T89	
-R16	treats Arg1:T6 Arg2:T89	
 T90	corrected_disease_or_phenotypic_feature 452 478	hypertensive heart failure
 R17	treats Arg1:T65 Arg2:T90	
 T75	corrected_disease_or_phenotypic_feature 1535 1553	EGFR-mutant tumors
@@ -110,3 +109,10 @@ T91	missed_disease_or_phenotypic_feature 1744 1783	obesity-associated metabolic 
 R8	treats Arg1:T41 Arg2:T91	
 T92	corrected_chemical 2278 2318	Immunization with defined tumor antigens
 R21	treats Arg1:T92 Arg2:T57	
+T93	corrected_chemical 1132 1167	intraperitoneal chemotherapy agents
+R16	treats Arg1:T93 Arg2:T29	
+R18	treats Arg1:T93 Arg2:T30	
+R22	treats Arg1:T93 Arg2:T31	
+T94	corrected_chemical 1425 1450	small molecule inhibitors
+R23	treats Arg1:T94 Arg2:T75	
+T95	corrected_chemical 2437 2466;2473 2483	Angiotensin converting-enzyme inhibitors

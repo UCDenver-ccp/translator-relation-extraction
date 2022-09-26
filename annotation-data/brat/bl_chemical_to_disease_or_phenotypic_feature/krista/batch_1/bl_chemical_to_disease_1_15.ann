@@ -64,7 +64,6 @@ R3	treats Arg1:T47 Arg2:T46
 R4	treats Arg1:T20 Arg2:T21
 R5	treats Arg1:T55 Arg2:T56
 R6	FIXME Arg1:T5 Arg2:T7
-R7	causes_or_contributes_to Arg1:T29 Arg2:T30
 R8	treats Arg1:T48 Arg2:T49
 R9	treats Arg1:T48 Arg2:T50
 R10	treats Arg1:T15 Arg2:T16
@@ -72,8 +71,6 @@ R11	treats Arg1:T15 Arg2:T18
 R12	causes_or_contributes_to Arg1:T24 Arg2:T27
 T61	corrected_disease_or_phenotypic_feature 715 720	SCCHN
 R13	treats Arg1:T5 Arg2:T61	
-T62	corrected_disease_or_phenotypic_feature 1105 1108	ASD
-R14	causes_or_contributes_to Arg1:T11 Arg2:T62	
 R15	causes_or_contributes_to Arg1:T25 Arg2:T27	
 T63	corrected_disease_or_phenotypic_feature 1814 1834	ozone induced injury
 R16	causes_or_contributes_to Arg1:T29 Arg2:T63	

@@ -88,3 +88,5 @@ R11	treats Arg1:T33 Arg2:T70
 T77	missed_disease_or_phenotypic_feature 1661 1676	pain perception
 R12	treats Arg1:T33 Arg2:T77	
 R13	treats Arg1:T40 Arg2:T41	
+T78	corrected_chemical 141 155	EGFR inhibitor
+R14	treats Arg1:T78 Arg2:T62	

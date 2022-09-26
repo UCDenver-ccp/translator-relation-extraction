@@ -67,3 +67,58 @@ T66	disease_or_phenotypic_feature 2422 2430	cataract
 T67	chemical 2454 2465	bupivacaine
 T68	chemical 2470 2481	bupivacaine
 T69	chemical 2482 2491	lidocaine
+R1	causes_or_contributes_to Arg1:T4 Arg2:T5	
+T70	corrected_chemical 158 206	nonaspirin nonsteroidal anti-inflammatory agents
+R2	causes_or_contributes_to Arg1:T70 Arg2:T5	
+T71	missed_disease_or_phenotypic_feature 550 556	tumors
+R3	causes_or_contributes_to Arg1:T10 Arg2:T71	
+R4	causes_or_contributes_to Arg1:T9 Arg2:T71	
+T72	corrected_chemical 468 478	cows' milk
+R5	causes_or_contributes_to Arg1:T72 Arg2:T71	
+T73	corrected_disease_or_phenotypic_feature 1335 1366	diabetic peripheral neuropathy.
+R6	treats Arg1:T29 Arg2:T73	
+T74	missed_chemical 1283 1290	Kinedak
+R7	treats Arg1:T74 Arg2:T73	
+T75	corrected_chemical 1298 1324	aldose reductase inhibitor
+T76	missed_chemical 1326 1329	ARI
+R8	treats Arg1:T76 Arg2:T73	
+R9	treats Arg1:T75 Arg2:T73	
+R10	treats Arg1:T35 Arg2:T37	
+T77	missed_disease_or_phenotypic_feature 1514 1526	solid tumors
+R11	treats Arg1:T35 Arg2:T77	
+T78	corrected_chemical 1566 1599	valsartan-inhibitor of neprilysin
+R12	treats Arg1:T78 Arg2:T42	
+T79	corrected_disease_or_phenotypic_feature 1628 1649	arterial hypertension
+R13	treats Arg1:T78 Arg2:T79	
+R14	treats Arg1:T46 Arg2:T48	
+T80	missed_disease_or_phenotypic_feature 1830 1836	tumors
+R15	causes_or_contributes_to Arg1:T47 Arg2:T80	
+T81	missed_disease_or_phenotypic_feature 1810 1836	estrogen-responsive tumors
+R16	treats Arg1:T46 Arg2:T81	
+R17	treats Arg1:T50 Arg2:T51	
+T82	missed_disease_or_phenotypic_feature 1955 1972	smoking cessation
+R18	treats Arg1:T50 Arg2:T52	
+R19	causes_or_contributes_to Arg1:T50 Arg2:T82	
+T83	corrected_chemical 1871 1886	CB1 antagonists
+R20	treats Arg1:T83 Arg2:T51	
+R21	treats Arg1:T83 Arg2:T52	
+R22	causes_or_contributes_to Arg1:T83 Arg2:T82	
+T84	corrected_disease_or_phenotypic_feature 2067 2092	hypersensitivity syndrome
+R23	causes_or_contributes_to Arg1:T55 Arg2:T84	
+R24	causes_or_contributes_to Arg1:T55 Arg2:T58	
+T85	missed_disease_or_phenotypic_feature 2115 2123	headache
+T86	missed_disease_or_phenotypic_feature 2125 2131	nausea
+T87	missed_disease_or_phenotypic_feature 2143 2158	lymphadenopathy
+T88	missed_disease_or_phenotypic_feature 2171 2180	hemolysis
+T89	missed_disease_or_phenotypic_feature 2198 2211	mononucleosis
+T90	missed_disease_or_phenotypic_feature 2182 2192	leukopenia
+T91	missed_disease_or_phenotypic_feature 2270 2277	leprosy
+R25	treats Arg1:T55 Arg2:T91	
+R26	causes_or_contributes_to Arg1:T55 Arg2:T85	
+R27	causes_or_contributes_to Arg1:T55 Arg2:T86	
+R28	causes_or_contributes_to Arg1:T55 Arg2:T59	
+R29	causes_or_contributes_to Arg1:T55 Arg2:T87	
+R30	causes_or_contributes_to Arg1:T55 Arg2:T60	
+R31	causes_or_contributes_to Arg1:T55 Arg2:T88	
+R32	causes_or_contributes_to Arg1:T55 Arg2:T90	
+R33	causes_or_contributes_to Arg1:T55 Arg2:T89	

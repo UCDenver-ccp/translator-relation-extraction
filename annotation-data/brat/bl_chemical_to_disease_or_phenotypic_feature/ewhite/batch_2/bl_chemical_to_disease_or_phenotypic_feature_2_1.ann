@@ -58,3 +58,32 @@ T57	disease_or_phenotypic_feature 2397 2406	cataracts
 T58	chemical 2416 2424	nitrogen
 T59	disease_or_phenotypic_feature 2478 2500	coronary heart disease
 T60	disease_or_phenotypic_feature 2516 2526	arrhythmia
+R1	causes_or_contributes_to Arg1:T4 Arg2:T3	
+T61	missed_disease_or_phenotypic_feature 199 212	solid tumours
+R2	treats Arg1:T4 Arg2:T61	
+T62	corrected_chemical 241 245;255 266	ActA antagonists
+T64	corrected_chemical 250 266	Mstn antagonists
+R3	treats Arg1:T64 Arg2:T7	
+R4	treats Arg1:T62 Arg2:T7	
+T63	missed_disease_or_phenotypic_feature 297 306	mortality
+R5	treats Arg1:T62 Arg2:T63	
+R6	treats Arg1:T64 Arg2:T63	
+T65	missed_disease_or_phenotypic_feature 1156 1168	solid tumors
+T66	corrected_chemical 1118 1140	cancer-testis antigens
+T67	missed_chemical 1142 1146	CTAs
+R7	treats Arg1:T25 Arg2:T65	
+R8	treats Arg1:T66 Arg2:T65	
+R9	treats Arg1:T67 Arg2:T65	
+R10	treats Arg1:T28 Arg2:T29	
+T68	missed_disease_or_phenotypic_feature 1291 1306	angina pectoris
+T69	missed_disease_or_phenotypic_feature 1247 1268	myocardial infarction
+R11	treats Arg1:T28 Arg2:T69	
+R12	treats Arg1:T28 Arg2:T30	
+R13	treats Arg1:T28 Arg2:T31	
+R14	treats Arg1:T28 Arg2:T68	
+R15	treats Arg1:T39 Arg2:T37	
+R16	causes_or_contributes_to Arg1:T46 Arg2:T47	
+T70	corrected_chemical 2102 2117	MCH antagonists
+R17	treats Arg1:T70 Arg2:T50	
+R18	causes_or_contributes_to Arg1:T56 Arg2:T57	
+R19	treats Arg1:T58 Arg2:T59	

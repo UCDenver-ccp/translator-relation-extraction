@@ -90,3 +90,7 @@ T81	corrected_chemical 2080 2094	ACE inhibitors
 T82	corrected_disease_or_phenotypic_feature 2176 2219	nonimmunogenic 4T1 murine mammary carcinoma
 T83	corrected_disease_or_phenotypic_feature 2591 2632	obstructive sleep apnea hypopnea syndrome
 R10	causes_or_contributes_to Arg1:T7 Arg2:T69	
+T84	corrected_chemical 297 326	Serotonin reuptake inhibitors
+R7	treats Arg1:T84 Arg2:T71	
+R11	treats Arg1:T84 Arg2:T16	
+R12	treats Arg1:T78 Arg2:T40	

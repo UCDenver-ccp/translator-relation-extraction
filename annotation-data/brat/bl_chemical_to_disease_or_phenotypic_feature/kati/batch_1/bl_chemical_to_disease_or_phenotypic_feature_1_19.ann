@@ -87,3 +87,6 @@ R17	treats Arg1:T59 Arg2:T57
 R18	causes_or_contributes_to Arg1:T10 Arg2:T11	
 T77	missed_disease_or_phenotypic_feature 961 973	inflammatory
 R6	treats Arg1:T28 Arg2:T77	
+R7	causes_or_contributes_to Arg1:T27 Arg2:T26	
+R8	treats Arg1:T28 Arg2:T29	
+R11	treats Arg1:T28 Arg2:T30	

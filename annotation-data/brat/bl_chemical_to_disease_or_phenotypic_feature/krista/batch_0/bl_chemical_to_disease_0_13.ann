@@ -70,3 +70,6 @@ R11	FIXME Arg1:T19 Arg2:T20
 R12	treats Arg1:T19 Arg2:T20	
 T59	missed_chemical 1123 1133	Tacrolimus
 R13	causes_or_contributes_to Arg1:T59 Arg2:T25	
+T60	missed_disease_or_phenotypic_feature 601 603	UC
+R14	treats Arg1:T10 Arg2:T60	
+R15	treats Arg1:T11 Arg2:T60	

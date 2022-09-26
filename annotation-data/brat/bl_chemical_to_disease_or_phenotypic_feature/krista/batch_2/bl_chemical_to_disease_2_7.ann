@@ -69,3 +69,26 @@ R7	treats Arg1:T21 Arg2:T23
 R8	treats Arg1:T58 Arg2:T60
 R9	treats Arg1:T29 Arg2:T30
 R10	treats Arg1:T54 Arg2:T51
+T62	corrected_chemical 1090 1114	neuraminidase inhibitors
+T63	corrected_chemical 1176 1180	drug
+T64	corrected_disease_or_phenotypic_feature 1223 1234	influenza B
+T65	corrected_disease_or_phenotypic_feature 1261 1270	influenza
+T66	missed_chemical 1126 1135	compounds
+T67	missed_disease_or_phenotypic_feature 1176 1202	drug-resistant influenza A
+R11	treats Arg1:T62 Arg2:T18	
+R12	treats Arg1:T66 Arg2:T18	
+R13	treats Arg1:T66 Arg2:T67	
+R14	treats Arg1:T66 Arg2:T64	
+R15	treats Arg1:T66 Arg2:T65	
+T68	corrected_chemical 2971 2981	dabrafenib
+R16	treats Arg1:T68 Arg2:T46	
+T69	corrected_chemical 3525 3529	drug
+T70	missed_chemical 3458 3468	ozogamicin
+T71	corrected_disease_or_phenotypic_feature 3559 3595	CD33-positive acute myeloid leukemia
+R17	treats Arg1:T70 Arg2:T71	
+R18	treats Arg1:T69 Arg2:T71	
+R19	treats Arg1:T69 Arg2:T56	
+T72	corrected_disease_or_phenotypic_feature 3597 3600	AML
+R20	treats Arg1:T69 Arg2:T72	
+R21	treats Arg1:T70 Arg2:T56	
+R22	treats Arg1:T70 Arg2:T72	

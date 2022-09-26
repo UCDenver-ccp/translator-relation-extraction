@@ -73,3 +73,9 @@ R8	causes_or_contributes_to Arg1:T44 Arg2:T47
 R9	treats Arg1:T17 Arg2:T18
 R10	treats Arg1:T38 Arg2:T39
 R11	causes_or_contributes_to Arg1:T38 Arg2:T37
+T65	corrected_disease_or_phenotypic_feature 2875 2885	depression
+T66	corrected_disease_or_phenotypic_feature 2886 2893	anxiety
+T67	corrected_chemical 2898 2912	antidepressant
+T68	corrected_chemical 2913 2923	anxiolytic
+R12	treats Arg1:T67 Arg2:T65	
+R13	treats Arg1:T68 Arg2:T66	

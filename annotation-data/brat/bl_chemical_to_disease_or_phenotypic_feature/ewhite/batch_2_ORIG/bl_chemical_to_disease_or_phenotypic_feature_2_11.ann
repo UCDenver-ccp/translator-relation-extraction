@@ -55,3 +55,5 @@ T54	disease_or_phenotypic_feature 1888 1901	hypercalcemia
 T55	chemical 1902 1909	hormone
 T56	chemical 1965 1973	androgen
 T57	disease_or_phenotypic_feature 1974 1983	dependent
+T58	corrected_chemical 1018 1052	pyridinium analogues of clomiphene
+T59	corrected_chemical 1018 1041;1057 1066	pyridinium analogues of tamoxifen

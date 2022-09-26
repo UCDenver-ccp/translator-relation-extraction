@@ -62,3 +62,8 @@ T61	disease_or_phenotypic_feature 2044 2057	short stature
 T62	disease_or_phenotypic_feature 2059 2076	facial dysmorphia
 T63	disease_or_phenotypic_feature 2078 2102	congenital heart defects
 T64	disease_or_phenotypic_feature 2107 2125	skeletal anomalies
+R1	has_phenotype Arg1:T8 Arg2:T10	
+R2	has_phenotype Arg1:T8 Arg2:T11	
+R3	has_phenotype Arg1:T8 Arg2:T12	
+R4	has_phenotype Arg1:T8 Arg2:T13	
+T65	missed_disease_or_phenotypic_feature 494 531	cerebro-oculo-facio-skeletal syndrome

@@ -58,3 +58,35 @@ T57	disease_or_phenotypic_feature 2088 2108	ocular motor apraxia
 T58	disease_or_phenotypic_feature 2113 2129	hypoalbuminaemia
 T59	disease_or_phenotypic_feature 2130 2136	ataxia
 T60	disease_or_phenotypic_feature 2185 2191	ataxia
+T61	missed_disease_or_phenotypic_feature 273 293	diabetic retinopathy
+R1	has_phenotype Arg1:T61 Arg2:T7	
+R2	has_phenotype Arg1:T61 Arg2:T8	
+T62	missed_disease_or_phenotypic_feature 704 722	spontaneous tumors
+T63	missed_disease_or_phenotypic_feature 727 756	burden of transplanted tumors
+T64	corrected_disease_or_phenotypic_feature 1375 1400	malignant Spiegler tumors
+R3	has_phenotype Arg1:T64 Arg2:T33	
+T65	missed_disease_or_phenotypic_feature 1424 1436	racket-nails
+R4	has_phenotype Arg1:T64 Arg2:T65	
+T66	missed_disease_or_phenotypic_feature 1796 1808	Wistar fatty
+R5	has_phenotype Arg1:T66 Arg2:T46	
+R6	has_phenotype Arg1:T66 Arg2:T47	
+T67	missed_disease_or_phenotypic_feature 1867 1875	polyuria
+T68	missed_disease_or_phenotypic_feature 1810 1812	WF
+R7	has_phenotype Arg1:T66 Arg2:T48	
+R8	has_phenotype Arg1:T66 Arg2:T49	
+R9	has_phenotype Arg1:T66 Arg2:T50	
+R10	has_phenotype Arg1:T66 Arg2:T67	
+R11	has_phenotype Arg1:T68 Arg2:T46	
+R12	has_phenotype Arg1:T68 Arg2:T67	
+R13	has_phenotype Arg1:T68 Arg2:T47	
+R14	has_phenotype Arg1:T68 Arg2:T50	
+R15	has_phenotype Arg1:T68 Arg2:T49	
+R16	has_phenotype Arg1:T68 Arg2:T48	
+T69	missed_disease_or_phenotypic_feature 1997 2016	infantile hypotonia
+R17	has_phenotype Arg1:T51 Arg2:T69	
+R18	has_phenotype Arg1:T51 Arg2:T53	
+R19	has_phenotype Arg1:T51 Arg2:T54	
+R20	has_phenotype Arg1:T51 Arg2:T55	
+T70	corrected_disease_or_phenotypic_feature 2064 2082	Early onset ataxia
+R21	has_phenotype Arg1:T70 Arg2:T57	
+R22	has_phenotype Arg1:T70 Arg2:T58	

@@ -78,8 +78,7 @@ T73	corrected_disease_or_phenotypic_feature 326 357	functional impairment of aut
 T74	corrected_chemical 363 402	selective serotonin-reuptake inhibitors
 R5	treats Arg1:T74 Arg2:T73	
 T75	corrected_disease_or_phenotypic_feature 522 542	peripheral arthritis
-T76	corrected_chemical 431 479	selective cyclo-oxygenase-2 inhibitor, rofecoxib
-R6	treats Arg1:T76 Arg2:T13	
+T76	corrected_chemical 431 468	selective cyclo-oxygenase-2 inhibitor
 R7	treats Arg1:T76 Arg2:T75	
 R8	treats Arg1:T76 Arg2:T15	
 T77	missed_disease_or_phenotypic_feature 850 871	cholesterol granuloma
@@ -108,3 +107,8 @@ T88	corrected_chemical 2241 2270	The hepatitis surface antigen
 T89	missed_disease_or_phenotypic_feature 2326 2331	tumor
 R25	treats Arg1:T88 Arg2:T89	
 R26	treats Arg1:T68 Arg2:T89	
+R6	treats Arg1:T12 Arg2:T75	
+R11	treats Arg1:T12 Arg2:T15	
+T81	missed_disease_or_phenotypic_feature 2303 2312	antitumor
+R15	causes_or_contributes_to Arg1:T88 Arg2:T81	
+R16	causes_or_contributes_to Arg1:T68 Arg2:T81	

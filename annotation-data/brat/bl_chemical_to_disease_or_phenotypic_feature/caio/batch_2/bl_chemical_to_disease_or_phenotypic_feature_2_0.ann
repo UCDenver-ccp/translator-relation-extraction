@@ -21,7 +21,6 @@ T20	disease_or_phenotypic_feature 723 738	cardiac failure
 T21	chemical 782 789	calcium
 T22	disease_or_phenotypic_feature 800 813	hypercalcemia
 T23	chemical 816 823	Alcohol
-T24	chemical 843 848	toxin
 T25	disease_or_phenotypic_feature 883 896	heart failure
 T26	chemical 908 915	mineral
 T27	disease_or_phenotypic_feature 937 944	obesity
@@ -69,7 +68,6 @@ T68	chemical 2622 2630	antigens
 T69	missed_chemical 185 188	GPC
 R1	causes_or_contributes_to Arg1:T69 Arg2:T3	
 R2	causes_or_contributes_to Arg1:T6 Arg2:T3	
-R3	causes_or_contributes_to Arg1:T4 Arg2:T3	
 T70	missed_disease_or_phenotypic_feature 463 494	gastrointestinal stromal tumour
 R5	treats Arg1:T13 Arg2:T70	
 T71	missed_disease_or_phenotypic_feature 602 618	iver dysfunction
@@ -106,3 +104,11 @@ T79	corrected_chemical 2190 2204	ACE inhibitors
 R27	causes_or_contributes_to Arg1:T66 Arg2:T65	
 R28	causes_or_contributes_to Arg1:T68 Arg2:T67	
 T80	DONE 2707 2711	DONE
+T24	corrected_chemical 154 175	phosphate metabolites
+R3	causes_or_contributes_to Arg1:T24 Arg2:T3	
+T81	missed_disease_or_phenotypic_feature 1646 1652	tumors
+R29	causes_or_contributes_to Arg1:T48 Arg2:T81	
+T82	missed_chemical 1671 1685	tumor extracts
+R30	treats Arg1:T82 Arg2:T50	
+T83	corrected_chemical 2042 2056	tumor antigens
+T84	missed_disease_or_phenotypic_feature 2042 2047	tumor

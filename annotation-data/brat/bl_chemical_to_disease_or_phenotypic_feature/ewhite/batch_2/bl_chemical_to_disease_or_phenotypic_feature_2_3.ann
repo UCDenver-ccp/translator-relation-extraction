@@ -69,3 +69,41 @@ T68	disease_or_phenotypic_feature 2692 2708	hypophosphatemia
 T69	chemical 2721 2725	acid
 T70	chemical 2794 2813	parathyroid hormone
 T71	chemical 2832 2842	cyclic AMP
+T72	missed_disease_or_phenotypic_feature 58 63	tumor
+R1	treats Arg1:T1 Arg2:T72	
+R2	treats Arg1:T3 Arg2:T72	
+R3	treats Arg1:T12 Arg2:T14	
+R4	treats Arg1:T12 Arg2:T15	
+R5	treats Arg1:T11 Arg2:T14	
+R6	treats Arg1:T11 Arg2:T15	
+T73	corrected_chemical 622 645	anticholinesterase drug
+R7	treats Arg1:T73 Arg2:T14	
+R8	treats Arg1:T73 Arg2:T15	
+R9	causes_or_contributes_to Arg1:T19 Arg2:T20	
+R10	causes_or_contributes_to Arg1:T19 Arg2:T21	
+R11	causes_or_contributes_to Arg1:T19 Arg2:T22	
+R12	causes_or_contributes_to Arg1:T19 Arg2:T23	
+R13	causes_or_contributes_to Arg1:T19 Arg2:T24	
+T74	missed_disease_or_phenotypic_feature 948 954	stroke
+T75	missed_disease_or_phenotypic_feature 976 983	obesity
+R14	causes_or_contributes_to Arg1:T19 Arg2:T74	
+R15	causes_or_contributes_to Arg1:T19 Arg2:T75	
+R16	causes_or_contributes_to Arg1:T27 Arg2:T28	
+R17	causes_or_contributes_to Arg1:T27 Arg2:T29	
+T76	corrected_chemical 1380 1393	ACE inhibitor
+R18	causes_or_contributes_to Arg1:T76 Arg2:T29	
+R19	causes_or_contributes_to Arg1:T76 Arg2:T28	
+T77	missed_disease_or_phenotypic_feature 1238 1253	adverse effects
+R20	causes_or_contributes_to Arg1:T27 Arg2:T77	
+T78	missed_disease_or_phenotypic_feature 1348 1363	adverse effects
+R21	causes_or_contributes_to Arg1:T76 Arg2:T78	
+T79	corrected_chemical 1945 1976	sphingosine 1-phosphate agonist
+T80	missed_chemical 1977 1983	FTY720
+R22	causes_or_contributes_to Arg1:T80 Arg2:T48	
+R23	causes_or_contributes_to Arg1:T79 Arg2:T48	
+T81	corrected_chemical 1993 2012	enteral foam oxygen
+R24	treats Arg1:T81 Arg2:T53	
+T82	corrected_disease_or_phenotypic_feature 2458 2476	convulsive seizure
+R25	treats Arg1:T63 Arg2:T62	
+R26	treats Arg1:T59 Arg2:T82	
+R27	treats Arg1:T59 Arg2:T61	

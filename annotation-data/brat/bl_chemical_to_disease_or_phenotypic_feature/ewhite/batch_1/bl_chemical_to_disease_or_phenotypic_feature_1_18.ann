@@ -103,6 +103,6 @@ R23	causes_or_contributes_to Arg1:T55 Arg2:T58
 T80	corrected_chemical 2247 2283	platinum-based chemotherapeutic drug
 R24	causes_or_contributes_to Arg1:T80 Arg2:T58	
 R25	treats Arg1:T63 Arg2:T65	
-T81	corrected_chemical 2590 2639	nhibitors of ghrelin O-acyltransferase inhibitors
+T81	corrected_chemical 2589 2639	inhibitors of ghrelin O-acyltransferase inhibitors
 R26	treats Arg1:T81 Arg2:T69	
 R27	treats Arg1:T81 Arg2:T70	

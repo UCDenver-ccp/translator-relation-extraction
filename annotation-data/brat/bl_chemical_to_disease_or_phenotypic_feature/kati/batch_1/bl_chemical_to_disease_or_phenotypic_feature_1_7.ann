@@ -101,9 +101,10 @@ R26	causes_or_contributes_to Arg1:T45 Arg2:T46
 T75	missed_disease_or_phenotypic_feature 1994 2026	hormone receptor-positive tumors
 R27	causes_or_contributes_to Arg1:T45 Arg2:T75	
 T76	corrected_chemical 2738 2754	Phenytoin sodium
-R29	treats Arg1:T76 Arg2:T63	
 T77	missed_disease_or_phenotypic_feature 270 282	tumor growth
 R30	causes_or_contributes_to Arg1:T8 Arg2:T77	
 T78	missed_chemical 1112 1115;1117 1127	ACE inhibitors
 R31	treats Arg1:T78 Arg2:T71	
 R32	treats Arg1:T78 Arg2:T34	
+T79	missed_disease_or_phenotypic_feature 2782 2790	seizures
+R28	causes_or_contributes_to Arg1:T62 Arg2:T79	

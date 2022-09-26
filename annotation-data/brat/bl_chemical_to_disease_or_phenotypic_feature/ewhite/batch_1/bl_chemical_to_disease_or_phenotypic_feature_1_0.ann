@@ -82,7 +82,6 @@ R8	causes_or_contributes_to Arg1:T11 Arg2:T73
 R9	causes_or_contributes_to Arg1:T11 Arg2:T72	
 T74	missed_disease_or_phenotypic_feature 306 310	CIMT
 R10	causes_or_contributes_to Arg1:T5 Arg2:T74	
-R11	causes_or_contributes_to Arg1:T6 Arg2:T74	
 T75	missed_chemical 394 401	smoking
 R12	causes_or_contributes_to Arg1:T75 Arg2:T74	
 R13	treats Arg1:T55 Arg2:T56	
@@ -95,3 +94,4 @@ R18	causes_or_contributes_to Arg1:T55 Arg2:T53
 T77	missed_chemical 3226 3236	filgotinib
 R19	causes_or_contributes_to Arg1:T77 Arg2:T64	
 R20	causes_or_contributes_to Arg1:T77 Arg2:T62	
+R11	treats Arg1:T47 Arg2:T50	

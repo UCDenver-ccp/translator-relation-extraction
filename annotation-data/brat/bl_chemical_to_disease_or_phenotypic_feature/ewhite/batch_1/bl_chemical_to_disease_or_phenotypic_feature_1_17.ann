@@ -97,3 +97,8 @@ R22	treats Arg1:T54 Arg2:T74
 T75	missed_disease_or_phenotypic_feature 2148 2155	tumours
 R23	causes_or_contributes_to Arg1:T60 Arg2:T75	
 R24	causes_or_contributes_to Arg1:T61 Arg2:T75	
+T76	missed_disease_or_phenotypic_feature 1284 1290	tumors
+R25	treats Arg1:T32 Arg2:T76	
+T77	missed_chemical 1620 1625	ACEIs
+R26	treats Arg1:T77 Arg2:T43	
+R27	treats Arg1:T77 Arg2:T44	

@@ -69,3 +69,54 @@ T68	disease_or_phenotypic_feature 1856 1863	hepatic
 T69	chemical 1903 1910	ethanol
 T70	chemical 1936 1944	chloride
 T71	disease_or_phenotypic_feature 2001 2019	liver angiosarcoma
+R1	treats Arg1:T3 Arg2:T5	
+T72	missed_disease_or_phenotypic_feature 156 167	sociability
+R2	causes_or_contributes_to Arg1:T3 Arg2:T72	
+R3	treats Arg1:T8 Arg2:T6	
+R4	treats Arg1:T9 Arg2:T6	
+T73	missed_chemical 284 295	antifolates
+R5	treats Arg1:T73 Arg2:T6	
+T74	missed_disease_or_phenotypic_feature 240 261	tumor drug resistance
+R6	causes_or_contributes_to Arg1:T73 Arg2:T74	
+R7	causes_or_contributes_to Arg1:T8 Arg2:T74	
+R8	causes_or_contributes_to Arg1:T9 Arg2:T74	
+R9	treats Arg1:T11 Arg2:T12	
+R10	treats Arg1:T11 Arg2:T13	
+R11	treats Arg1:T10 Arg2:T12	
+R12	treats Arg1:T10 Arg2:T13	
+T75	corrected_disease_or_phenotypic_feature 738 768	diabetic cystoid macular edema
+T76	corrected_chemical 700 734	prostaglandin synthesis inhibitors
+R13	treats Arg1:T76 Arg2:T75	
+T77	corrected_chemical 801 819	estrogenic hormone
+T78	corrected_disease_or_phenotypic_feature 771 789	Hypophyseal tumors
+R14	causes_or_contributes_to Arg1:T77 Arg2:T78	
+T79	missed_disease_or_phenotypic_feature 949 954	tumor
+R15	causes_or_contributes_to Arg1:T35 Arg2:T79	
+R16	causes_or_contributes_to Arg1:T34 Arg2:T79	
+R17	treats Arg1:T36 Arg2:T38	
+R18	causes_or_contributes_to Arg1:T39 Arg2:T41	
+R19	causes_or_contributes_to Arg1:T40 Arg2:T41	
+T80	corrected_disease_or_phenotypic_feature 1287 1320	obesity-related hepatic steatosis
+T81	corrected_chemical 1238 1265	guanidine-based derivatives
+T82	corrected_chemical 1228 1233;1248 1265	urea- based derivatives
+R20	treats Arg1:T82 Arg2:T80	
+R21	treats Arg1:T81 Arg2:T80	
+T83	missed_disease_or_phenotypic_feature 1454 1459	tumor
+T84	corrected_disease_or_phenotypic_feature 1471 1491	cancer drug toxicity
+R22	treats Arg1:T49 Arg2:T84	
+R23	treats Arg1:T49 Arg2:T83	
+T85	corrected_chemical 1419 1433	lemon extracts
+T86	missed_chemical 1406 1414	red wine
+R24	treats Arg1:T86 Arg2:T83	
+R25	treats Arg1:T86 Arg2:T84	
+R26	treats Arg1:T85 Arg2:T83	
+R27	treats Arg1:T85 Arg2:T84	
+R28	treats Arg1:T65 Arg2:T66	
+T87	corrected_chemical 1823 1833	hot saline
+T88	corrected_disease_or_phenotypic_feature 1856 1870	hepatic tumors
+R29	treats Arg1:T69 Arg2:T88	
+R30	treats Arg1:T87 Arg2:T88	
+T89	corrected_chemical 1930 1944	Vinyl chloride
+T90	missed_chemical 1946 1948	VC
+R31	causes_or_contributes_to Arg1:T90 Arg2:T71	
+R32	causes_or_contributes_to Arg1:T89 Arg2:T71	

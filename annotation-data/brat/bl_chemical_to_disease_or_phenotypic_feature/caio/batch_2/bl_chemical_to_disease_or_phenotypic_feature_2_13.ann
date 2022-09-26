@@ -31,7 +31,6 @@ T30	disease_or_phenotypic_feature 1329 1350	chronic renal failure
 T31	disease_or_phenotypic_feature 1352 1371	adrenal hyperplasia
 T32	chemical 1383 1394	amphetamine
 T33	chemical 1396 1408	cyclosporine
-T34	disease_or_phenotypic_feature 1485 1497	gynecomastia
 T35	chemical 1524 1528	acid
 T36	chemical 1534 1541	balance
 T37	disease_or_phenotypic_feature 1589 1602	heart failure
@@ -78,21 +77,23 @@ T77	chemical 3030 3037	monitor
 T78	disease_or_phenotypic_feature 3087 3112	epithelial ovarian cancer
 R1	treats Arg1:T4 Arg2:T3	
 R2	causes_or_contributes_to Arg1:T10 Arg2:T11	
-R3	causes_or_contributes_to Arg1:T17 Arg2:T19	
-R4	causes_or_contributes_to Arg1:T17 Arg2:T18	
 T79	missed_disease_or_phenotypic_feature 1137 1162	drug-related hypertension
 R5	causes_or_contributes_to Arg1:T24 Arg2:T79	
-T80	missed_disease_or_phenotypic_feature 1456 1468	hypertension
 T81	missed_chemical 1414 1431	anabolic steroids
-R6	causes_or_contributes_to Arg1:T81 Arg2:T80	
-R7	causes_or_contributes_to Arg1:T81 Arg2:T34	
-R8	causes_or_contributes_to Arg1:T33 Arg2:T80	
-R9	causes_or_contributes_to Arg1:T33 Arg2:T34	
-R10	causes_or_contributes_to Arg1:T32 Arg2:T80	
-R11	causes_or_contributes_to Arg1:T32 Arg2:T34	
 T82	corrected_disease_or_phenotypic_feature 2192 2220	pancreatic cancer xenografts
 R12	causes_or_contributes_to Arg1:T59 Arg2:T82	
 R13	causes_or_contributes_to Arg1:T64 Arg2:T65	
 R14	causes_or_contributes_to Arg1:T64 Arg2:T66	
 R15	causes_or_contributes_to Arg1:T64 Arg2:T67	
 T83	DONE 3114 3118	DONE
+T84	missed_chemical 1009 1027	oncolytic vaccines
+T85	missed_disease_or_phenotypic_feature 1056 1061	tumor
+R3	treats Arg1:T84 Arg2:T85	
+T86	corrected_disease_or_phenotypic_feature 1456 1497	hypertension associated with gynecomastia
+R4	causes_or_contributes_to Arg1:T32 Arg2:T86	
+R6	causes_or_contributes_to Arg1:T33 Arg2:T86	
+R7	causes_or_contributes_to Arg1:T81 Arg2:T86	
+R8	causes_or_contributes_to Arg1:T47 Arg2:T46	
+T34	corrected_chemical 2056 2098	sodium-glucose co-transporter-2 inhibitors
+R9	treats Arg1:T34 Arg2:T50	
+R10	treats Arg1:T34 Arg2:T49	

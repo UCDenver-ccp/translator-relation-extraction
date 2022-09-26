@@ -14,9 +14,7 @@ T13	chemical 933 940	glucose
 T14	chemical 945 950	lipid
 T15	disease_or_phenotypic_feature 1020 1028	diseases
 T16	disease_or_phenotypic_feature 1211 1220	infection
-T17	missed_chemical 1239 1242	LPS
 T18	chemical 1255 1270	polysaccharides
-T19	missed_disease_or_phenotypic_feature 1296 1313	immunosuppressive
 T20	chemical 1432 1441	inhibitor
 T21	disease_or_phenotypic_feature 1480 1490	dependence
 T22	disease_or_phenotypic_feature 1596 1601	blood
@@ -64,12 +62,10 @@ R1	treats Arg1:T48 Arg2:T51
 R2	treats Arg1:T48 Arg2:T52
 R3	treats Arg1:T31 Arg2:T32
 R4	treats Arg1:T37 Arg2:T33
-R5	causes_or_contributes_to Arg1:T18 Arg2:T19
 R6	treats Arg1:T36 Arg2:T33
 R7	treats Arg1:T4 Arg2:T5
 R8	treats Arg1:T4 Arg2:T7
 R9	treats Arg1:T34 Arg2:T33
-R10	causes_or_contributes_to Arg1:T17 Arg2:T19
 T63	missed_disease_or_phenotypic_feature 597 600	VKC
 T64	corrected_chemical 515 522	steroid
 R11	causes_or_contributes_to Arg1:T64 Arg2:T9	

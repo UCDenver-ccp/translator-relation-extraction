@@ -86,3 +86,6 @@ R6	treats Arg1:T58 Arg2:T79
 T80	missed_chemical 2389 2400	fenretinide
 T81	missed_chemical 2420 2449	bionanofenretinide (Bio-nFeR)
 T82	DONE 2611 2615	DONE
+T83	missed_chemical 1204 1211	Atacand
+R7	causes_or_contributes_to Arg1:T83 Arg2:T34	
+R8	treats Arg1:T54 Arg2:T55	

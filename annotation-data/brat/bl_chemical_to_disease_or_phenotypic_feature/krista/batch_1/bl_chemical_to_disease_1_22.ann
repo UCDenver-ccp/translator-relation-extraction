@@ -19,7 +19,6 @@ T18	disease_or_phenotypic_feature 1144 1159	vascular tumors
 T19	chemical 1246 1251	group
 T20	disease_or_phenotypic_feature 1287 1299	disease-free
 T21	chemical 1487 1493	Proton
-T22	corrected_disease_or_phenotypic_feature 1545 1566	Good Prognosis Glioma
 T23	disease_or_phenotypic_feature 1560 1566	Glioma
 T24	chemical 1611 1619	proteins
 T25	chemical 1641 1645	drug
@@ -57,6 +56,5 @@ T56	disease_or_phenotypic_feature 3547 3555	diabetes
 T57	disease_or_phenotypic_feature 3560 3566	cancer
 R1	treats Arg1:T5 Arg2:T3
 R2	causes_or_contributes_to Arg1:T37 Arg2:T36
-R3	treats Arg1:T21 Arg2:T22
 R4	treats Arg1:T4 Arg2:T3
 R5	treats Arg1:T49 Arg2:T48

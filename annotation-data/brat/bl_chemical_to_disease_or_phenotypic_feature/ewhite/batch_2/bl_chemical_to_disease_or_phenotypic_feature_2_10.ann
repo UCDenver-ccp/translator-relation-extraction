@@ -69,3 +69,23 @@ T68	disease_or_phenotypic_feature 2252 2275	Squamous cell carcinoma
 T69	chemical 2276 2283	antigen
 T70	chemical 2336 2343	antigen
 T71	disease_or_phenotypic_feature 2362 2369	cancers
+R1	treats Arg1:T4 Arg2:T6	
+R2	treats Arg1:T5 Arg2:T6	
+T72	corrected_disease_or_phenotypic_feature 302 322;335 357	repetitive behaviors associated with autism
+T73	corrected_disease_or_phenotypic_feature 327 357	anxiety associated with autism
+R3	treats Arg1:T7 Arg2:T72	
+R4	treats Arg1:T7 Arg2:T73	
+R5	causes_or_contributes_to Arg1:T10 Arg2:T11	
+R6	treats Arg1:T12 Arg2:T11	
+T74	corrected_chemical 407 433	aldose reductase inhibitor
+R7	treats Arg1:T74 Arg2:T11	
+R8	causes_or_contributes_to Arg1:T49 Arg2:T51	
+R9	causes_or_contributes_to Arg1:T49 Arg2:T52	
+R10	causes_or_contributes_to Arg1:T50 Arg2:T51	
+R11	causes_or_contributes_to Arg1:T50 Arg2:T52	
+R12	causes_or_contributes_to Arg1:T56 Arg2:T57	
+T75	corrected_disease_or_phenotypic_feature 1952 1980	subcutaneous air pouch edema
+T76	corrected_disease_or_phenotypic_feature 1921 1947	adjuvant-induced arthritis
+R13	treats Arg1:T55 Arg2:T76	
+R14	treats Arg1:T55 Arg2:T75	
+R15	causes_or_contributes_to Arg1:T63 Arg2:T61	

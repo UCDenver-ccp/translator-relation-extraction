@@ -126,3 +126,15 @@ T102	corrected_chemical 2507 2531	antigen-specific vaccine
 R23	treats Arg1:T102 Arg2:T55	
 T103	missed_disease_or_phenotypic_feature 2384 2387	AML
 R24	treats Arg1:T102 Arg2:T103	
+R25	treats Arg1:T69 Arg2:T3	
+R26	treats Arg1:T69 Arg2:T2	
+R27	treats Arg1:T69 Arg2:T4	
+T104	missed_disease_or_phenotypic_feature 186 194	epilepsy
+R28	treats Arg1:T69 Arg2:T104	
+R29	treats Arg1:T1 Arg2:T104	
+R30	treats Arg1:T71 Arg2:T3	
+R31	treats Arg1:T71 Arg2:T2	
+R32	treats Arg1:T71 Arg2:T4	
+R33	treats Arg1:T71 Arg2:T104	
+T105	corrected_chemical 1395 1408	NOS inhibitor
+R34	treats Arg1:T105 Arg2:T31	

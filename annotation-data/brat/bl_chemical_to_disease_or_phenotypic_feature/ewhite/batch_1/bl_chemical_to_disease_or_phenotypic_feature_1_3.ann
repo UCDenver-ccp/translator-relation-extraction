@@ -59,3 +59,57 @@ T58	chemical 2972 2979	biology
 T59	chemical 3072 3080	antigens
 T60	disease_or_phenotypic_feature 3152 3157	small
 T61	chemical 3164 3172	antigens
+T62	corrected_chemical 48 76	trichloroethylene anesthesia
+T63	corrected_chemical 81 101	high-dose penicillin
+R1	causes_or_contributes_to Arg1:T63 Arg2:T2	
+R2	causes_or_contributes_to Arg1:T63 Arg2:T1	
+T64	corrected_chemical 398 419	metabolites of oxygen
+R3	causes_or_contributes_to Arg1:T64 Arg2:T12	
+T65	corrected_chemical 325 339	NADH oxidation
+T66	corrected_disease_or_phenotypic_feature 352 382	obesity and related phenotypes
+R4	treats Arg1:T65 Arg2:T66	
+R5	treats Arg1:T27 Arg2:T25	
+T67	missed_disease_or_phenotypic_feature 1190 1198	MN death
+R6	treats Arg1:T27 Arg2:T67	
+R7	causes_or_contributes_to Arg1:T31 Arg2:T32	
+R8	causes_or_contributes_to Arg1:T31 Arg2:T33	
+R9	causes_or_contributes_to Arg1:T31 Arg2:T34	
+R10	causes_or_contributes_to Arg1:T31 Arg2:T35	
+R11	causes_or_contributes_to Arg1:T31 Arg2:T36	
+R12	causes_or_contributes_to Arg1:T31 Arg2:T37	
+T68	missed_disease_or_phenotypic_feature 1628 1639	neutropenia
+T69	missed_disease_or_phenotypic_feature 1641 1659	decreased appetite
+R13	causes_or_contributes_to Arg1:T31 Arg2:T68	
+R14	causes_or_contributes_to Arg1:T31 Arg2:T69	
+T70	missed_disease_or_phenotypic_feature 1897 1921	cardiovascular morbidity
+T71	missed_disease_or_phenotypic_feature 1897 1911;1926 1936	cardiovascular mortality,
+R15	treats Arg1:T39 Arg2:T70	
+R16	treats Arg1:T39 Arg2:T71	
+T72	corrected_chemical 2074 2116	pancreatic inhibitor of alpha-chymotrypsin
+T73	missed_disease_or_phenotypic_feature 2048 2061	Complications
+R17	causes_or_contributes_to Arg1:T72 Arg2:T73	
+T74	missed_disease_or_phenotypic_feature 2238 2246	bleeding
+T75	corrected_chemical 2160 2182	unfractionated heparin
+R18	causes_or_contributes_to Arg1:T75 Arg2:T74	
+T76	missed_chemical 2184 2187	UFH
+R19	causes_or_contributes_to Arg1:T76 Arg2:T74	
+T77	missed_chemical 2203 2212	protamine
+R20	treats Arg1:T77 Arg2:T74	
+R21	causes_or_contributes_to Arg1:T75 Arg2:T74	
+T78	corrected_disease_or_phenotypic_feature 2297 2315	congenital cardiac
+R22	treats Arg1:T77 Arg2:T78	
+T79	corrected_chemical 2342 2380	Ticagrelor-based antiplatelet regimens
+T80	corrected_disease_or_phenotypic_feature 2398 2428	atherosclerotic artery disease
+R23	treats Arg1:T79 Arg2:T80	
+T81	corrected_chemical 2342 2352	Ticagrelor
+R24	treats Arg1:T81 Arg2:T80	
+T82	corrected_chemical 2647 2668	essential amino acids
+T83	corrected_chemical 2647 2668;2679 2702	essential amino acids nitrogen-free analogues
+R25	treats Arg1:T83 Arg2:T53	
+R26	treats Arg1:T82 Arg2:T53	
+R27	causes_or_contributes_to Arg1:T62 Arg2:T2	
+R28	causes_or_contributes_to Arg1:T62 Arg2:T1	
+T84	missed_disease_or_phenotypic_feature 1576 1584	asthenia
+T85	missed_disease_or_phenotypic_feature 1586 1592	nausea
+R29	causes_or_contributes_to Arg1:T31 Arg2:T84	
+R30	causes_or_contributes_to Arg1:T31 Arg2:T85	

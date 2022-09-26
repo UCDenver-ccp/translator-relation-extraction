@@ -73,3 +73,55 @@ T72	chemical 2453 2460	antigen
 T73	chemical 2476 2485	oxidative
 T74	chemical 2508 2524	prostaglandin E2
 T75	chemical 2526 2530	PGE2
+R1	treats Arg1:T4 Arg2:T6	
+T76	corrected_chemical 137 171	metabolic precursor of amphetamine
+R2	treats Arg1:T76 Arg2:T6	
+T77	missed_disease_or_phenotypic_feature 581 587	tumors
+R3	causes_or_contributes_to Arg1:T15 Arg2:T77	
+R4	treats Arg1:T20 Arg2:T21	
+R5	treats Arg1:T20 Arg2:T22	
+T78	corrected_disease_or_phenotypic_feature 734 776	hyperprolactinaemia-hypogonadism syndromes
+R6	treats Arg1:T20 Arg2:T78	
+T79	missed_disease_or_phenotypic_feature 1132 1138	tumors
+R7	causes_or_contributes_to Arg1:T32 Arg2:T79	
+T80	corrected_chemical 1140 1149	Phenol II
+R8	causes_or_contributes_to Arg1:T80 Arg2:T35	
+T81	corrected_chemical 1155 1173	cystogenic chemica
+R9	causes_or_contributes_to Arg1:T81 Arg2:T35	
+T82	corrected_chemical 881 920	selective serotonin reuptake inhibitors
+R10	causes_or_contributes_to Arg1:T82 Arg2:T25	
+T83	corrected_disease_or_phenotypic_feature 847 866	myoclonic movements
+R11	causes_or_contributes_to Arg1:T82 Arg2:T83	
+T84	missed_chemical 922 927	SSRIs
+R12	causes_or_contributes_to Arg1:T84 Arg2:T83	
+R13	causes_or_contributes_to Arg1:T84 Arg2:T25	
+T85	missed_chemical 814 823	serotonin
+R14	causes_or_contributes_to Arg1:T85 Arg2:T25	
+R15	causes_or_contributes_to Arg1:T85 Arg2:T83	
+T86	corrected_chemical 1274 1295	checkpoint inhibitors
+R16	treats Arg1:T86 Arg2:T38	
+R17	treats Arg1:T86 Arg2:T39	
+R18	treats Arg1:T86 Arg2:T40	
+R19	treats Arg1:T45 Arg2:T48	
+T87	corrected_chemical 1667 1710	platinum based standard antineoplastic drug
+T88	missed_chemical 1620 1622	CP
+T89	missed_chemical 1627 1661	cis-diammine dichloroplatinum (II)
+T90	missed_disease_or_phenotypic_feature 1744 1756	solid tumors
+R20	treats Arg1:T87 Arg2:T90	
+R21	treats Arg1:T89 Arg2:T90	
+R22	treats Arg1:T88 Arg2:T90	
+R23	treats Arg1:T45 Arg2:T90	
+R24	treats Arg1:T88 Arg2:T48	
+R25	treats Arg1:T89 Arg2:T48	
+R26	treats Arg1:T87 Arg2:T48	
+T91	missed_disease_or_phenotypic_feature 2003 2016	cage climbing
+R27	causes_or_contributes_to Arg1:T60 Arg2:T91	
+T92	corrected_chemical 1954 1972	adenosine agonists
+T93	corrected_chemical 1932 1952	dopamine antagonists
+R28	causes_or_contributes_to Arg1:T92 Arg2:T61	
+T94	missed_disease_or_phenotypic_feature 1983 2016	apomorphine-induced cage climbing
+R29	treats Arg1:T92 Arg2:T94	
+R30	treats Arg1:T93 Arg2:T94	
+R31	treats Arg1:T66 Arg2:T67	
+T95	corrected_disease_or_phenotypic_feature 2295 2310	obese diabetics
+R32	treats Arg1:T66 Arg2:T95	

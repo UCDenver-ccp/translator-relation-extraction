@@ -69,3 +69,28 @@ T68	chemical 2115 2125	biomarkers
 T69	disease_or_phenotypic_feature 2167 2182	thyroid disease
 T70	disease_or_phenotypic_feature 2184 2197	renal failure
 T71	disease_or_phenotypic_feature 2202 2226	congestive heart failure
+R1	causes_or_contributes_to Arg1:T4 Arg2:T6	
+R2	causes_or_contributes_to Arg1:T5 Arg2:T6	
+R3	causes_or_contributes_to Arg1:T13 Arg2:T14	
+T72	corrected_disease_or_phenotypic_feature 540 562	food-dependent obesity
+R4	treats Arg1:T12 Arg2:T72	
+T73	missed_chemical 496 503	Teronac
+R5	treats Arg1:T73 Arg2:T72	
+R6	causes_or_contributes_to Arg1:T26 Arg2:T27	
+T74	corrected_chemical 1122 1143	NPY-Y2-DPPIV agonists
+T75	missed_disease_or_phenotypic_feature 1166 1192	ischemic revascularization
+T76	missed_disease_or_phenotypic_feature 1197 1210	wound healing
+T77	missed_disease_or_phenotypic_feature 1267 1273	tumors
+R7	causes_or_contributes_to Arg1:T74 Arg2:T75	
+R8	causes_or_contributes_to Arg1:T74 Arg2:T76	
+T78	corrected_chemical 1122 1134;1220 1231	NPY-Y2-DPPIV antagonists
+R9	treats Arg1:T78 Arg2:T38	
+R10	treats Arg1:T78 Arg2:T39	
+R11	treats Arg1:T78 Arg2:T77	
+T79	missed_disease_or_phenotypic_feature 1786 1791	tumor
+R12	treats Arg1:T55 Arg2:T79	
+R13	treats Arg1:T56 Arg2:T58	
+T80	corrected_chemical 2045 2060	sodium-selenite
+R14	causes_or_contributes_to Arg1:T80 Arg2:T67	
+T81	missed_disease_or_phenotypic_feature 2045 2090	sodium-selenite-induced experimental cataract
+R15	treats Arg1:T65 Arg2:T81	

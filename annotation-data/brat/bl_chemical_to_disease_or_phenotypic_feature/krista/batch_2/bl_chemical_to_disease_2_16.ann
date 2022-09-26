@@ -69,3 +69,11 @@ R1	treats Arg1:T29 Arg2:T30
 R2	causes_or_contributes_to Arg1:T29 Arg2:T31
 R3	causes_or_contributes_to Arg1:T29 Arg2:T32
 R4	treats Arg1:T7 Arg2:T5
+T68	corrected_chemical 725 729	drug
+T69	corrected_disease_or_phenotypic_feature 823 845	critical limb ischemia
+T70	missed_disease_or_phenotypic_feature 847 850	CLI
+R5	treats Arg1:T68 Arg2:T69	
+R6	treats Arg1:T68 Arg2:T70	
+T71	missed_disease_or_phenotypic_feature 2844 2846	MS
+R7	causes_or_contributes_to Arg1:T55 Arg2:T54	
+R8	causes_or_contributes_to Arg1:T55 Arg2:T71	

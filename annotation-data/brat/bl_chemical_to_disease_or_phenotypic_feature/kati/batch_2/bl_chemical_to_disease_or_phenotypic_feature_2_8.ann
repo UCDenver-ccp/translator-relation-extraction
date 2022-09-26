@@ -1,6 +1,6 @@
 T1	disease_or_phenotypic_feature 44 51	obesity
 T2	disease_or_phenotypic_feature 109 116	obesity
-T3	chemical 118 125	ghrelin
+T3	corrected_chemical 118 125;140 164	ghrelin partial inverse agonists
 T4	chemical 126 136	antagonist
 T5	chemical 156 164	agonists
 T6	disease_or_phenotypic_feature 207 214	obesity
@@ -23,7 +23,7 @@ T22	chemical 783 787	food
 T23	disease_or_phenotypic_feature 804 811	obesity
 T24	disease_or_phenotypic_feature 865 871	cancer
 T25	disease_or_phenotypic_feature 872 876	pain
-T26	chemical 893 904	bupivacaine
+T26	corrected_chemical 886 904	0.125% bupivacaine
 T27	chemical 967 971	drug
 T28	chemical 972 981	cisplatin
 T29	disease_or_phenotypic_feature 1045 1058	breast cancer
@@ -59,7 +59,48 @@ T58	disease_or_phenotypic_feature 1955 1973	endometrial cancer
 T59	chemical 1975 1981	Leptin
 T60	chemical 1988 1995	hormone
 T61	disease_or_phenotypic_feature 2015 2022	obesity
-T62	chemical 2084 2094	cinacalcet
+T62	corrected_chemical 2084 2094;2096 2111	cinacalcet 60 mg/d or more
 T63	chemical 2118 2122	drug
 T64	disease_or_phenotypic_feature 2185 2198	hypercalcemia
 T65	disease_or_phenotypic_feature 2202 2218	hypophosphatemia
+T66	corrected_chemical 118 136	ghrelin antagonist
+R1	treats Arg1:T66 Arg2:T6	
+R2	treats Arg1:T3 Arg2:T6	
+T67	missed_disease_or_phenotypic_feature 470 476	tumors
+R3	causes_or_contributes_to Arg1:T13 Arg2:T67	
+T68	corrected_disease_or_phenotypic_feature 693 714	acute pulmonary edema
+R4	causes_or_contributes_to Arg1:T20 Arg2:T68	
+T69	corrected_disease_or_phenotypic_feature 865 876	cancer pain
+R5	treats Arg1:T26 Arg2:T69	
+T70	chemical 893 904	bupivacaine
+T71	missed_disease_or_phenotypic_feature 1021 1034	solid tumours
+T72	corrected_chemical 952 971	Antineoplastic drug
+R6	treats Arg1:T72 Arg2:T71	
+R7	treats Arg1:T28 Arg2:T71	
+R8	treats Arg1:T72 Arg2:T29	
+R9	treats Arg1:T28 Arg2:T29	
+T73	missed_disease_or_phenotypic_feature 1241 1269	tumors of the adrenal cortex
+R10	causes_or_contributes_to Arg1:T35 Arg2:T73	
+T74	corrected_disease_or_phenotypic_feature 1390 1414	solid tumor malignancies
+R11	treats Arg1:T38 Arg2:T74	
+R12	treats Arg1:T39 Arg2:T74	
+R13	treats Arg1:T40 Arg2:T74	
+T75	corrected_chemical 1535 1559	pituitary growth hormone
+T76	missed_disease_or_phenotypic_feature 1501 1511	Acromegaly
+R14	causes_or_contributes_to Arg1:T75 Arg2:T76	
+T77	missed_chemical 1561 1563	GH
+R15	causes_or_contributes_to Arg1:T77 Arg2:T76	
+R16	treats Arg1:T48 Arg2:T50	
+R17	treats Arg1:T49 Arg2:T50	
+R18	treats Arg1:T48 Arg2:T51	
+R19	treats Arg1:T49 Arg2:T51	
+T78	corrected_disease_or_phenotypic_feature 1934 1973	metastatic recurrent endometrial cancer
+R20	treats Arg1:T57 Arg2:T78	
+T79	missed_disease_or_phenotypic_feature 1902 1907	tumor
+R21	treats Arg1:T57 Arg2:T79	
+T80	corrected_chemical 2084 2103	cinacalcet, 60 mg/d
+R22	treats Arg1:T80 Arg2:T64	
+T81	chemical 2084 2094	cinacalcet
+R23	treats Arg1:T62 Arg2:T64	
+R24	treats Arg1:T80 Arg2:T65	
+R25	treats Arg1:T62 Arg2:T65	

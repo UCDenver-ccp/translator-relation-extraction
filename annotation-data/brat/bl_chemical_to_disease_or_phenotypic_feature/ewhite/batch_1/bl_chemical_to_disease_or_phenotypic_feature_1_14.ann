@@ -93,3 +93,4 @@ R17	treats Arg1:T42 Arg2:T39
 R18	treats Arg1:T43 Arg2:T45	
 T76	corrected_disease_or_phenotypic_feature 1910 1939	ischemic diabetic retinopathy
 R19	causes_or_contributes_to Arg1:T46 Arg2:T48	
+R20	treats Arg1:T46 Arg2:T76	

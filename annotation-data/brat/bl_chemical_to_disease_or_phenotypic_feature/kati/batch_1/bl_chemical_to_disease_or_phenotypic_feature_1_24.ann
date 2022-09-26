@@ -70,3 +70,7 @@ R10	causes_or_contributes_to Arg1:T51 Arg2:T59
 R11	treats Arg1:T6 Arg2:T7	
 T60	missed_disease_or_phenotypic_feature 607 625	induced plasticity
 R12	causes_or_contributes_to Arg1:T13 Arg2:T60	
+T61	missed_disease_or_phenotypic_feature 1778 1812	Oxidative Stress-Induced Apoptosis
+R13	treats Arg1:T36 Arg2:T61	
+T62	missed_chemical 1875 1899	prostate cancer vaccines
+R14	treats Arg1:T62 Arg2:T40	

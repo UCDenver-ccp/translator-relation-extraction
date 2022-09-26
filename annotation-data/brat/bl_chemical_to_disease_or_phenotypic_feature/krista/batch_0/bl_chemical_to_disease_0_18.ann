@@ -62,7 +62,6 @@ T61	chemical 4225 4235	anesthesia
 T62	chemical 4252 4262	anesthesia
 T63	disease_or_phenotypic_feature 4268 4272	[MAC
 T64	chemical 4284 4294	anesthesia
-R1	treats Arg1:T55 Arg2:T54
 R2	causes_or_contributes_to Arg1:T38 Arg2:T40
 R3	treats Arg1:T44 Arg2:T46
 R4	treats Arg1:T30 Arg2:T28
@@ -71,3 +70,4 @@ T65	missed_disease_or_phenotypic_feature 1608 1616	MN death
 R6	treats Arg1:T30 Arg2:T65	
 T66	corrected_chemical 3831 3842	resveratrol
 R7	treats Arg1:T66 Arg2:T58	
+R8	causes_or_contributes_to Arg1:T45 Arg2:T46	

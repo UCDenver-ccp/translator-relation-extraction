@@ -41,9 +41,7 @@ T40	chemical 2411 2416	group
 T41	chemical 2445 2449	acid
 T42	chemical 2487 2491	acid
 T43	disease_or_phenotypic_feature 2487 2498	acid reflux
-T44	missed_disease_or_phenotypic_feature 2703 2712	tocolysis
 T45	chemical 2744 2753	magnesium
-T46	corrected_chemical 2744 2762	magnesium sulphate
 T47	chemical 2981 2985	lead
 T48	disease_or_phenotypic_feature 3037 3060	coronary artery disease
 T49	disease_or_phenotypic_feature 3062 3065	CAD
@@ -67,7 +65,6 @@ R2	treats Arg1:T32 Arg2:T31
 R3	treats Arg1:T56 Arg2:T57
 R4	causes_or_contributes_to Arg1:T51 Arg2:T50
 R5	treats Arg1:T63 Arg2:T64
-R6	treats Arg1:T46 Arg2:T44
 R7	treats Arg1:T15 Arg2:T14
 R8	treats Arg1:T59 Arg2:T57
 R9	treats Arg1:T13 Arg2:T11

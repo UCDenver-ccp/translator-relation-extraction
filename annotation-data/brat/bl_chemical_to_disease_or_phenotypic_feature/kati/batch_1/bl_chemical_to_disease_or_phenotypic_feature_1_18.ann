@@ -90,9 +90,9 @@ R11	treats Arg1:T76 Arg2:T79
 R12	treats Arg1:T77 Arg2:T79	
 T80	corrected_chemical 1389 1410	glutamate antagonists
 R13	treats Arg1:T80 Arg2:T41	
-R14	treats Arg1:T50 Arg2:T51	
+R14	causes_or_contributes_to Arg1:T50 Arg2:T51	
 T81	missed_chemical 1815 1845	second generation sulfonylurea
-R15	treats Arg1:T81 Arg2:T51	
+R15	causes_or_contributes_to Arg1:T81 Arg2:T51	
 R17	treats Arg1:T58 Arg2:T60	
 R18	treats Arg1:T58 Arg2:T61	
 T82	missed_disease_or_phenotypic_feature 2187 2195	Diplopia
@@ -105,3 +105,6 @@ T84	corrected_disease_or_phenotypic_feature 201 209	glaucoma
 R21	causes_or_contributes_to Arg1:T1 Arg2:T84	
 T85	missed_disease_or_phenotypic_feature 1543 1548	tumor
 R22	treats Arg1:T42 Arg2:T85	
+T86	missed_disease_or_phenotypic_feature 2267 2298	detrimental hemodynamic effects
+T87	corrected_chemical 2246 2262	High dose oxygen
+R23	causes_or_contributes_to Arg1:T87 Arg2:T86	

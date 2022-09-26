@@ -66,3 +66,34 @@ T65	disease_or_phenotypic_feature 2144 2156	hypogonadism
 T66	disease_or_phenotypic_feature 2185 2193	melanoma
 T67	disease_or_phenotypic_feature 2217 2225	melanoma
 T68	chemical 2237 2245	antigens
+R1	treats Arg1:T2 Arg2:T4	
+R2	treats Arg1:T1 Arg2:T4	
+T69	missed_disease_or_phenotypic_feature 82 97	drug resistance
+R3	treats Arg1:T2 Arg2:T69	
+R4	treats Arg1:T1 Arg2:T69	
+T70	corrected_chemical 228 251	glucagon-like peptide 1
+R5	treats Arg1:T70 Arg2:T9	
+R6	treats Arg1:T17 Arg2:T19	
+T71	corrected_chemical 574 595	imidazole carboxamide
+R7	treats Arg1:T71 Arg2:T21	
+R8	causes_or_contributes_to Arg1:T29 Arg2:T28	
+T72	corrected_chemical 883 953	Acid-sensitive lipidated doxorubicin prodrug entrapped in nanoemulsion
+R9	treats Arg1:T72 Arg2:T33	
+T73	corrected_disease_or_phenotypic_feature 962 983	lung tumor metastasis
+R10	treats Arg1:T72 Arg2:T73	
+R11	causes_or_contributes_to Arg1:T39 Arg2:T40	
+T74	corrected_disease_or_phenotypic_feature 1242 1272	dexamethasone-induced cataract
+R12	treats Arg1:T38 Arg2:T74	
+T75	corrected_chemical 1328 1355	Immuno-checkpoint inhibitor
+T76	corrected_disease_or_phenotypic_feature 1367 1385	hyper-eosinophilia
+T77	missed_disease_or_phenotypic_feature 1390 1395	tumor
+R13	treats Arg1:T75 Arg2:T77	
+R14	causes_or_contributes_to Arg1:T75 Arg2:T76	
+R15	causes_or_contributes_to Arg1:T56 Arg2:T58	
+T78	missed_disease_or_phenotypic_feature 1916 1953	left ventricular systolic dysfunction
+T79	missed_disease_or_phenotypic_feature 1955 1967	hypertension
+R16	causes_or_contributes_to Arg1:T56 Arg2:T78	
+R17	causes_or_contributes_to Arg1:T56 Arg2:T79	
+R18	causes_or_contributes_to Arg1:T56 Arg2:T59	
+T80	corrected_disease_or_phenotypic_feature 2125 2156	hyperprolactinemic hypogonadism
+R19	treats Arg1:T63 Arg2:T80	

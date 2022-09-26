@@ -83,3 +83,7 @@ R18	treats Arg1:T45 Arg2:T64
 R19	treats Arg1:T45 Arg2:T48	
 T65	missed_disease_or_phenotypic_feature 1929 1954	growth hormone deficiency
 T66	DONE 1956 1960	DONE
+T67	missed_chemical 4 22	hypolipidemic drug
+R20	treats Arg1:T67 Arg2:T3	
+R21	treats Arg1:T67 Arg2:T4	
+R22	treats Arg1:T67 Arg2:T5	

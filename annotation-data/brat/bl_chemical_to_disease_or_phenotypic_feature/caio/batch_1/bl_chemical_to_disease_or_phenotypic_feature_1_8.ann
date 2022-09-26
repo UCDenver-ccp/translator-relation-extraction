@@ -68,4 +68,6 @@ T69	corrected_chemical 48 79	Hemoglobin-based oxygen carrier
 R4	treats Arg1:T69 Arg2:T5	
 R5	treats Arg1:T11 Arg2:T59	
 R2	causes_or_contributes_to Arg1:T37 Arg2:T38	
-R3	treats Arg1:T48 Arg2:T47	
+T63	corrected_chemical 2378 2399	amphetamine compounds
+R3	treats Arg1:T63 Arg2:T47	
+R6	treats Arg1:T56 Arg2:T55	

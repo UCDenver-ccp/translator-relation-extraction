@@ -64,3 +64,6 @@ R4	treats Arg1:T56 Arg2:T59
 R5	treats Arg1:T8 Arg2:T10
 R6	treats Arg1:T6 Arg2:T10
 R7	treats Arg1:T50 Arg2:T54
+T60	missed_disease_or_phenotypic_feature 2967 2979	inflammatory
+R8	treats Arg1:T46 Arg2:T60	
+T61	corrected_chemical 3284 3350	epidermal growth factor receptor (EGFR)-tyrosine kinase inhibitors

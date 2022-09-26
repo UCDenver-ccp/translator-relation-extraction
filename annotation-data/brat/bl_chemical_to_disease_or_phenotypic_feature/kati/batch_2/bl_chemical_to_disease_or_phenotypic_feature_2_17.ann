@@ -63,3 +63,57 @@ T62	disease_or_phenotypic_feature 2331 2337	autism
 T63	disease_or_phenotypic_feature 2348 2381	pervasive developmental disorders
 T64	chemical 2403 2408	metal
 T65	disease_or_phenotypic_feature 2426 2432	autism
+T66	corrected_disease_or_phenotypic_feature 332 354	colitis induced tumors
+T67	missed_disease_or_phenotypic_feature 719 739	CEA-producing tumors
+T68	corrected_chemical 597 621	carcinoembryonic antigen
+T69	missed_chemical 623 626	CEA
+R1	treats Arg1:T68 Arg2:T14	
+R2	treats Arg1:T69 Arg2:T14	
+R3	treats Arg1:T68 Arg2:T67	
+R4	treats Arg1:T69 Arg2:T67	
+R5	treats Arg1:T68 Arg2:T12	
+R6	treats Arg1:T69 Arg2:T12	
+T70	corrected_chemical 832 863	tumor necrosis factor inhibitor
+R7	treats Arg1:T70 Arg2:T15	
+R8	treats Arg1:T70 Arg2:T16	
+R9	treats Arg1:T18 Arg2:T15	
+R10	treats Arg1:T18 Arg2:T16	
+T71	corrected_chemical 902 926	small molecule inhibitor
+T72	corrected_disease_or_phenotypic_feature 935 955	MYC-dependent tumors
+R11	treats Arg1:T71 Arg2:T72	
+R12	treats Arg1:T34 Arg2:T33	
+T73	corrected_chemical 1386 1418	tumor necrosis factor inhibitors
+T74	corrected_chemical 1439 1460	glutathione enhancers
+T75	missed_disease_or_phenotypic_feature 1300 1332	inefficient cell differentiation
+R13	treats Arg1:T36 Arg2:T35	
+R14	treats Arg1:T36 Arg2:T75	
+R15	treats Arg1:T73 Arg2:T35	
+R16	treats Arg1:T73 Arg2:T75	
+R17	treats Arg1:T38 Arg2:T35	
+R18	treats Arg1:T38 Arg2:T75	
+R19	treats Arg1:T74 Arg2:T35	
+R20	treats Arg1:T74 Arg2:T75	
+T76	missed_disease_or_phenotypic_feature 1486 1500	antineoplastic
+R21	causes_or_contributes_to Arg1:T40 Arg2:T76	
+T77	corrected_disease_or_phenotypic_feature 1517 1556	irreversible sensorineural hearing loss
+R22	causes_or_contributes_to Arg1:T40 Arg2:T77	
+T78	corrected_disease_or_phenotypic_feature 1561 1577	serious tinnitus
+R23	causes_or_contributes_to Arg1:T40 Arg2:T78	
+T79	missed_disease_or_phenotypic_feature 1612 1623	ototoxicity
+R24	causes_or_contributes_to Arg1:T44 Arg2:T79	
+T80	corrected_chemical 1486 1505	antineoplastic drug
+R25	causes_or_contributes_to Arg1:T80 Arg2:T77	
+R26	causes_or_contributes_to Arg1:T80 Arg2:T78	
+R27	causes_or_contributes_to Arg1:T80 Arg2:T79	
+T81	corrected_chemical 1983 1987	CCl4
+T82	missed_disease_or_phenotypic_feature 1996 2012	oxidative stress
+R28	causes_or_contributes_to Arg1:T81 Arg2:T82	
+T83	corrected_chemical 2143 2156	PDE inhibitor
+R29	treats Arg1:T83 Arg2:T59	
+R30	treats Arg1:T58 Arg2:T59	
+T84	corrected_chemical 2235 2274	selective serotonin reuptake inhibitors
+T85	missed_chemical 2276 2281	SSRIs
+R31	treats Arg1:T84 Arg2:T62	
+R32	treats Arg1:T85 Arg2:T62	
+R33	treats Arg1:T84 Arg2:T63	
+R34	treats Arg1:T85 Arg2:T63	

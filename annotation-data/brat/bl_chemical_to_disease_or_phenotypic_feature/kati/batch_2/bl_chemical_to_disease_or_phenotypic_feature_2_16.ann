@@ -89,8 +89,6 @@ T74	corrected_chemical 1213 1247	halogenated amphetamine derivative
 R15	treats Arg1:T37 Arg2:T39	
 R16	treats Arg1:T73 Arg2:T39	
 R17	treats Arg1:T74 Arg2:T39	
-T75	corrected_chemical 1296 1307	TET enzymes
-R18	treats Arg1:T75 Arg2:T42	
 T76	corrected_chemical 1311 1345	oxygen-dependent tumor suppressors
 R19	treats Arg1:T76 Arg2:T42	
 T77	corrected_chemical 1546 1574	Pancreatic lipase inhibitors

@@ -78,9 +78,7 @@ R7	treats Arg1:T70 Arg2:T67
 R8	treats Arg1:T70 Arg2:T68	
 R9	treats Arg1:T70 Arg2:T69	
 R10	treats Arg1:T14 Arg2:T15	
-T71	missed_disease_or_phenotypic_feature 842 861	glucose intolerance
 R11	causes_or_contributes_to Arg1:T16 Arg2:T17	
-R12	causes_or_contributes_to Arg1:T16 Arg2:T71	
 T72	missed_chemical 1186 1194	anti-TNF
 R13	treats Arg1:T72 Arg2:T26	
 R14	treats Arg1:T72 Arg2:T27	
@@ -93,3 +91,12 @@ R17	causes_or_contributes_to Arg1:T59 Arg2:T75
 T76	missed_disease_or_phenotypic_feature 2237 2257;2270 2292	repetitive behaviors associated with autism
 R18	treats Arg1:T62 Arg2:T76	
 R19	treats Arg1:T62 Arg2:T63	
+T77	corrected_chemical 63 94	inhibitor of cytidine deaminase
+T78	missed_disease_or_phenotypic_feature 133 159	elevate gemcitabine levels
+R20	causes_or_contributes_to Arg1:T77 Arg2:T78	
+T79	missed_disease_or_phenotypic_feature 370 388	pulmonary toxicity
+T80	missed_disease_or_phenotypic_feature 343 365;380 388	central nervous system toxicity
+R21	causes_or_contributes_to Arg1:T66 Arg2:T80	
+R22	causes_or_contributes_to Arg1:T66 Arg2:T79	
+T71	corrected_disease_or_phenotypic_feature 1758 1788	disseminated malignant tumours
+R12	treats Arg1:T46 Arg2:T71	

@@ -80,7 +80,6 @@ R1	causes_or_contributes_to Arg1:T1 Arg2:T78
 T79	corrected_chemical 685 708	Dextrogyral amphetamine
 R2	treats Arg1:T79 Arg2:T18	
 R3	treats Arg1:T26 Arg2:T28	
-R4	treats Arg1:T26 Arg2:T29	
 T80	corrected_chemical 1124 1167	Glucose-based peritoneal dialysis solutions
 R5	causes_or_contributes_to Arg1:T80 Arg2:T31	
 R6	causes_or_contributes_to Arg1:T80 Arg2:T32	
@@ -91,3 +90,8 @@ T82	corrected_chemical 2398 2437	selective serotonin reuptake inhibitors
 R9	causes_or_contributes_to Arg1:T82 Arg2:T68	
 T83	corrected_chemical 2798 2852	soluble tumor antigens extracted from their own tumors
 R10	treats Arg1:T83 Arg2:T76	
+R11	causes_or_contributes_to Arg1:T10 Arg2:T9	
+T84	missed_chemical 744 760	appetite reducer
+R12	treats Arg1:T84 Arg2:T18	
+T85	missed_disease_or_phenotypic_feature 1337 1353	antihypertensive
+R4	causes_or_contributes_to Arg1:T34 Arg2:T85	

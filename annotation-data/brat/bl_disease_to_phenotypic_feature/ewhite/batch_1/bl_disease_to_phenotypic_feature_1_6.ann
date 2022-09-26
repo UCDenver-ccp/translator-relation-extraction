@@ -49,3 +49,7 @@ T48	disease_or_phenotypic_feature 1872 1880	melanoma
 T49	disease_or_phenotypic_feature 1883 1897	uveal melanoma
 T50	disease_or_phenotypic_feature 1899 1911	mesothelioma
 T51	disease_or_phenotypic_feature 1913 1944	clear cell renal cell carcinoma
+T52	missed_disease_or_phenotypic_feature 579 588	neoplasia
+T53	corrected_disease_or_phenotypic_feature 547 575	nonparathyroid hypercalcemia
+R1	has_phenotype Arg1:T52 Arg2:T53	
+R2	has_phenotype Arg1:T12 Arg2:T13	

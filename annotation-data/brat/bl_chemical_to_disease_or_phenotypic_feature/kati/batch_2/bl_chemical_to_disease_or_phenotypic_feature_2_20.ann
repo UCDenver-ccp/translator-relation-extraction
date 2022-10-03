@@ -79,7 +79,7 @@ R6	treats Arg1:T72 Arg2:T29
 T73	corrected_chemical 1366 1407	Sodium-glucose cotransporter-2 inhibitors
 R7	treats Arg1:T73 Arg2:T39	
 R8	treats Arg1:T73 Arg2:T38	
-T74	corrected_disease_or_phenotypic_feature 1627 1644	guinea pig tumors
+T74	missed_disease_or_phenotypic_feature 1638 1644	tumors
 T75	missed_chemical 1600 1618	diethylnitrosamine
 R9	causes_or_contributes_to Arg1:T75 Arg2:T74	
 T76	missed_disease_or_phenotypic_feature 1711 1738	Raised intraocular pressure
@@ -98,12 +98,3 @@ R19	treats Arg1:T78 Arg2:T55
 T79	corrected_disease_or_phenotypic_feature 2167 2175	diabetes
 T80	missed_chemical 2149 2156	insulin
 R20	treats Arg1:T80 Arg2:T79	
-R21	causes_or_contributes_to Arg1:T12 Arg2:T13	
-R22	causes_or_contributes_to Arg1:T12 Arg2:T14	
-R23	causes_or_contributes_to Arg1:T12 Arg2:T15	
-T81	missed_disease_or_phenotypic_feature 507 511	pain
-R24	causes_or_contributes_to Arg1:T12 Arg2:T81	
-T82	missed_disease_or_phenotypic_feature 401 424	pathological conditions
-R25	causes_or_contributes_to Arg1:T12 Arg2:T82	
-T83	missed_disease_or_phenotypic_feature 519 534	drug dependence
-R26	causes_or_contributes_to Arg1:T12 Arg2:T83	

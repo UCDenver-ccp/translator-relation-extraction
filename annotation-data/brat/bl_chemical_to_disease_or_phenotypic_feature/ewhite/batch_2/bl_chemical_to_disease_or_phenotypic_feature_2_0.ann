@@ -100,3 +100,5 @@ T82	missed_chemical 2223 2234	palbociclib
 T83	missed_chemical 2239 2250	fulvestrant
 R18	treats Arg1:T83 Arg2:T69	
 R19	treats Arg1:T82 Arg2:T69	
+T84	missed_disease_or_phenotypic_feature 1986 1992	tumors
+R20	causes_or_contributes_to Arg1:T63 Arg2:T84	

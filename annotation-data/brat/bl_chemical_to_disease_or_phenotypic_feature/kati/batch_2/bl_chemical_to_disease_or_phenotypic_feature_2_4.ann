@@ -61,7 +61,7 @@ T60	chemical 2213 2227	growth hormone
 T61	chemical 2288 2303	growth hormones
 T62	disease_or_phenotypic_feature 2334 2352	hyperprolactinemia
 T63	disease_or_phenotypic_feature 2357 2367	acromegaly
-T64	chemical 2390 2399	tamoxifen
+T64	chemical 2390 2407	tamoxifen and MCD
 T65	disease_or_phenotypic_feature 2404 2407	MCD
 T66	chemical 2500 2504	drug
 R1	treats Arg1:T1 Arg2:T3	
@@ -91,3 +91,9 @@ R16	causes_or_contributes_to Arg1:T58 Arg2:T74
 T75	missed_disease_or_phenotypic_feature 2427 2452	reduction in tumor volume
 R17	causes_or_contributes_to Arg1:T64 Arg2:T75	
 T76	missed_disease_or_phenotypic_feature 2427 2439;2457 2469	reduction in tumor weight
+T77	missed_chemical 66 70	diet
+R18	causes_or_contributes_to Arg1:T77 Arg2:T3	
+T78	missed_chemical 2274 2283	prolactin
+R19	causes_or_contributes_to Arg1:T78 Arg2:T62	
+R20	causes_or_contributes_to Arg1:T61 Arg2:T63	
+R21	causes_or_contributes_to Arg1:T64 Arg2:T76	

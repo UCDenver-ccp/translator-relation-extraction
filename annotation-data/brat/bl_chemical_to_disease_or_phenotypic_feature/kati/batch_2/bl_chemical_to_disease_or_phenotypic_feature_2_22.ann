@@ -10,7 +10,7 @@ T10	disease_or_phenotypic_feature 261 274	galactosaemia
 T11	disease_or_phenotypic_feature 304 313	cataracts
 T12	chemical 328 339	biochemical
 T13	disease_or_phenotypic_feature 365 370	edema
-T14	chemical 443 472	inhibitors of tumor promotion
+T14	chemical 443 453	inhibitors
 T15	disease_or_phenotypic_feature 474 485	Proteinuria
 T16	chemical 508 534	tyrosine kinase inhibitors
 T17	chemical 568 571	fat
@@ -77,24 +77,9 @@ R1	causes_or_contributes_to Arg1:T1 Arg2:T76
 R2	causes_or_contributes_to Arg1:T2 Arg2:T76	
 T77	missed_chemical 298 303	sugar
 T78	missed_disease_or_phenotypic_feature 457 472	tumor promotion
-R4	treats Arg1:T14 Arg2:T78	
-T79	missed_chemical 409 434	tumor promoting compounds
-R5	causes_or_contributes_to Arg1:T79 Arg2:T78	
-T80	corrected_disease_or_phenotypic_feature 355 370	mouse ear edema
-R6	causes_or_contributes_to Arg1:T79 Arg2:T80	
-R7	treats Arg1:T14 Arg2:T80	
 T81	missed_disease_or_phenotypic_feature 490 502	hypertension
 R8	causes_or_contributes_to Arg1:T16 Arg2:T15	
 R9	causes_or_contributes_to Arg1:T16 Arg2:T81	
-T82	missed_chemical 540 554	ketogenic diet
-R10	treats Arg1:T82 Arg2:T19	
-R11	treats Arg1:T82 Arg2:T20	
-T83	corrected_chemical 563 593	high-fat low-carbohydrate diet
-R12	treats Arg1:T83 Arg2:T19	
-R13	treats Arg1:T83 Arg2:T20	
-T84	missed_chemical 556 558	KD
-R14	treats Arg1:T84 Arg2:T19	
-R15	treats Arg1:T84 Arg2:T20	
 T85	corrected_disease_or_phenotypic_feature 708 735	functional pituitary tumors
 R16	treats Arg1:T22 Arg2:T85	
 T86	corrected_disease_or_phenotypic_feature 856 876	malignant alteration
@@ -143,7 +128,6 @@ R43	causes_or_contributes_to Arg1:T51 Arg2:T58
 R44	causes_or_contributes_to Arg1:T51 Arg2:T59	
 T105	missed_disease_or_phenotypic_feature 2343 2368	decrease in serum glucose
 R45	causes_or_contributes_to Arg1:T51 Arg2:T105	
-T106	missed_disease_or_phenotypic_feature 2712 2720	diabetic
 T107	corrected_disease_or_phenotypic_feature 2419 2433	hepatic tumors
 R47	treats Arg1:T62 Arg2:T107	
 T108	corrected_disease_or_phenotypic_feature 2541 2552	cancer pain
@@ -157,8 +141,6 @@ R3	causes_or_contributes_to Arg1:T77 Arg2:T110
 T9	missed_disease_or_phenotypic_feature 881 886;899 911	tumor invasiveness
 R20	causes_or_contributes_to Arg1:T89 Arg2:T9	
 R22	causes_or_contributes_to Arg1:T90 Arg2:T9	
-R52	treats Arg1:T91 Arg2:T29	
-R53	treats Arg1:T27 Arg2:T29	
 T88	corrected_chemical 1482 1497	anticancer drug
 R54	treats Arg1:T88 Arg2:T92	
 R55	treats Arg1:T88 Arg2:T93	
@@ -170,3 +152,4 @@ T112	missed_disease_or_phenotypic_feature 2101 2107;2120 2126	breast cancer
 R59	treats Arg1:T100 Arg2:T112	
 T113	missed_disease_or_phenotypic_feature 2219 2233;2261 2271	elevated serum creatinine
 R60	causes_or_contributes_to Arg1:T51 Arg2:T113	
+R4	treats Arg1:T14 Arg2:T78	

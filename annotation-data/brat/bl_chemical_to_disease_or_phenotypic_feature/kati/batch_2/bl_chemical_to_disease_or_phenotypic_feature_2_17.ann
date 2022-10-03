@@ -63,16 +63,7 @@ T62	disease_or_phenotypic_feature 2331 2337	autism
 T63	disease_or_phenotypic_feature 2348 2381	pervasive developmental disorders
 T64	chemical 2403 2408	metal
 T65	disease_or_phenotypic_feature 2426 2432	autism
-T66	corrected_disease_or_phenotypic_feature 332 354	colitis induced tumors
-T67	missed_disease_or_phenotypic_feature 719 739	CEA-producing tumors
-T68	corrected_chemical 597 621	carcinoembryonic antigen
 T69	missed_chemical 623 626	CEA
-R1	treats Arg1:T68 Arg2:T14	
-R2	treats Arg1:T69 Arg2:T14	
-R3	treats Arg1:T68 Arg2:T67	
-R4	treats Arg1:T69 Arg2:T67	
-R5	treats Arg1:T68 Arg2:T12	
-R6	treats Arg1:T69 Arg2:T12	
 T70	corrected_chemical 832 863	tumor necrosis factor inhibitor
 R7	treats Arg1:T70 Arg2:T15	
 R8	treats Arg1:T70 Arg2:T16	

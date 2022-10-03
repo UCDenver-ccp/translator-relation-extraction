@@ -71,7 +71,7 @@ R3	treats Arg1:T67 Arg2:T69
 T70	missed_disease_or_phenotypic_feature 655 661	nausea
 T71	corrected_disease_or_phenotypic_feature 689 710	drug hypersensitivity
 T15	chemical 568 581	fosamprenavir
-T72	corrected_chemical 568 638	fosamprenavir, with or without ritonavir, plus abacavir and lamivudine
+T72	corrected_chemical 568 581;610 638	fosamprenavir plus abacavir and lamivudine
 R4	causes_or_contributes_to Arg1:T72 Arg2:T18	
 R5	causes_or_contributes_to Arg1:T72 Arg2:T70	
 R6	causes_or_contributes_to Arg1:T72 Arg2:T19	
@@ -89,8 +89,6 @@ T74	corrected_chemical 1213 1247	halogenated amphetamine derivative
 R15	treats Arg1:T37 Arg2:T39	
 R16	treats Arg1:T73 Arg2:T39	
 R17	treats Arg1:T74 Arg2:T39	
-T76	corrected_chemical 1311 1345	oxygen-dependent tumor suppressors
-R19	treats Arg1:T76 Arg2:T42	
 T77	corrected_chemical 1546 1574	Pancreatic lipase inhibitors
 R20	treats Arg1:T77 Arg2:T49	
 T78	corrected_chemical 1695 1714	Calcium antagonists
@@ -98,3 +96,9 @@ R21	treats Arg1:T78 Arg2:T56
 R22	treats Arg1:T57 Arg2:T59	
 T79	corrected_chemical 1825 1842	hyperbaric oxygen
 R23	causes_or_contributes_to Arg1:T79 Arg2:T60	
+T75	corrected_chemical 329 361	vaccinia-expressed tumor antigen
+T80	missed_disease_or_phenotypic_feature 425 465	immunological ignorance to tumor antigen
+R18	treats Arg1:T75 Arg2:T80	
+T81	missed_disease_or_phenotypic_feature 831 847	tumor regression
+R24	causes_or_contributes_to Arg1:T26 Arg2:T81	
+R25	treats Arg1:T26 Arg2:T25	

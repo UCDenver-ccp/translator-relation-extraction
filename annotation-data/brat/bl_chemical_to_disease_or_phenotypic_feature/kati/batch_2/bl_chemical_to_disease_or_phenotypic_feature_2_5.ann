@@ -57,13 +57,7 @@ T56	chemical 2443 2448	Tc-99
 T57	chemical 2522 2530	chloride
 T58	disease_or_phenotypic_feature 2533 2549	Mucoid carcinoma
 T59	chemical 2550 2557	antigen
-T60	missed_chemical 276 279	DHL
-T61	missed_disease_or_phenotypic_feature 289 320	hypoxia-induced chemoresistance
-T62	missed_disease_or_phenotypic_feature 344 361	antitumor effects
-R1	treats Arg1:T60 Arg2:T61	
-R2	causes_or_contributes_to Arg1:T60 Arg2:T62	
 R3	treats Arg1:T4 Arg2:T5	
-R4	treats Arg1:T60 Arg2:T5	
 T63	missed_chemical 451 465	Symplostatin 1
 T64	missed_disease_or_phenotypic_feature 494 524	drug-insensitive mammary tumor
 T65	corrected_disease_or_phenotypic_feature 531 559	drug-insensitive colon tumor
@@ -84,3 +78,6 @@ R12	causes_or_contributes_to Arg1:T38 Arg2:T36
 R13	causes_or_contributes_to Arg1:T44 Arg2:T45	
 R14	causes_or_contributes_to Arg1:T44 Arg2:T46	
 R15	causes_or_contributes_to Arg1:T53 Arg2:T54	
+T60	corrected_chemical 1662 1680	general anesthesia
+R1	causes_or_contributes_to Arg1:T60 Arg2:T36	
+R2	causes_or_contributes_to Arg1:T60 Arg2:T71	

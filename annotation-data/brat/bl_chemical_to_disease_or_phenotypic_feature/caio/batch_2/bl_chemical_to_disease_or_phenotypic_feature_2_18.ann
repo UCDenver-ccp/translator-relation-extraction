@@ -80,9 +80,6 @@ R9	treats Arg1:T21 Arg2:T22
 R10	treats Arg1:T20 Arg2:T22	
 R11	treats Arg1:T19 Arg2:T22	
 R12	treats Arg1:T23 Arg2:T24	
-R13	treats Arg1:T25 Arg2:T27	
-R14	treats Arg1:T25 Arg2:T28	
-R15	treats Arg1:T25 Arg2:T29	
 R16	treats Arg1:T26 Arg2:T27	
 R17	treats Arg1:T26 Arg2:T28	
 R18	treats Arg1:T26 Arg2:T29	
@@ -103,12 +100,28 @@ R27	causes_or_contributes_to Arg1:T38 Arg2:T73
 R28	causes_or_contributes_to Arg1:T38 Arg2:T41	
 R29	causes_or_contributes_to Arg1:T38 Arg2:T75	
 T76	corrected_chemical 1881 1899	Gemcitabine-loaded
-R30	treats Arg1:T76 Arg2:T49	
 R31	causes_or_contributes_to Arg1:T52 Arg2:T53	
 R32	causes_or_contributes_to Arg1:T52 Arg2:T54	
-R33	causes_or_contributes_to Arg1:T59 Arg2:T60	
-R34	causes_or_contributes_to Arg1:T59 Arg2:T61	
-R35	causes_or_contributes_to Arg1:T59 Arg2:T62	
 T77	corrected_chemical 2485 2508	Lipid Platinum Chloride
-R36	treats Arg1:T77 Arg2:T65	
 T78	DONE 2578 2582	DONE
+T79	missed_chemical 328 335	insulin
+T80	corrected_disease_or_phenotypic_feature 346 360	mammary tumors
+R38	causes_or_contributes_to Arg1:T79 Arg2:T80	
+R37	causes_or_contributes_to Arg1:T8 Arg2:T80	
+T81	corrected_chemical 1133 1147	Almond kernels
+R13	treats Arg1:T81 Arg2:T27	
+R14	treats Arg1:T81 Arg2:T28	
+R15	treats Arg1:T81 Arg2:T29	
+T82	missed_chemical 1900 1904	ATBP
+R39	treats Arg1:T82 Arg2:T49	
+R30	treats Arg1:T47 Arg2:T49	
+T83	corrected_chemical 2344 2367	Wnt signaling molecules
+T84	missed_disease_or_phenotypic_feature 2434 2437	T2D
+R33	treats Arg1:T83 Arg2:T60	
+R34	treats Arg1:T83 Arg2:T61	
+R35	treats Arg1:T83 Arg2:T62	
+R40	treats Arg1:T83 Arg2:T84	
+T85	corrected_chemical 2485 2522	Lipid Platinum Chloride Nanoparticles
+T86	missed_chemical 2459 2479	Photodynamic Therapy
+R41	treats Arg1:T86 Arg2:T65	
+R36	treats Arg1:T85 Arg2:T65	

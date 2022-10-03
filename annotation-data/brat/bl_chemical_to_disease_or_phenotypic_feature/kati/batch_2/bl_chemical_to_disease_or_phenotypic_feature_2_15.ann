@@ -39,13 +39,13 @@ T39	chemical 1443 1450	antigen
 T40	disease_or_phenotypic_feature 1486 1491	Wilms
 T41	disease_or_phenotypic_feature 1524 1529	Wilms
 T42	chemical 1558 1563	metal
-T43	chemical 1604 1608	drug
+T43	corrected_chemical 1558 1624	metal-organic framework based tumor targeting drug delivery system
 T44	disease_or_phenotypic_feature 1629 1635	cancer
 T45	disease_or_phenotypic_feature 1684 1697	hypoglycaemia
 T46	chemical 1723 1734	biochemical
 T47	disease_or_phenotypic_feature 1735 1748	hypoglycaemia
 T48	chemical 1760 1772	teriparatide
-T49	disease_or_phenotypic_feature 1788 1804	hypophosphatemia
+T49	corrected_disease_or_phenotypic_feature 1781 1804	severe hypophosphatemia
 T50	disease_or_phenotypic_feature 1809 1822	hypercalcemia
 T51	chemical 1835 1839	food
 T52	chemical 1871 1887	gold thioglucose
@@ -73,9 +73,8 @@ R3	treats Arg1:T9 Arg2:T70
 T71	missed_chemical 257 270	thioacetamide
 R4	causes_or_contributes_to Arg1:T71 Arg2:T70	
 T72	corrected_disease_or_phenotypic_feature 630 650	Osteonecrosis of jaw
-R6	treats Arg1:T17 Arg2:T72	
 R7	causes_or_contributes_to Arg1:T48 Arg2:T49	
-R8	causes_or_contributes_to Arg1:T48 Arg2:T50	
+R8	causes_or_contributes_to Arg1:T48 Arg2:T81	
 R9	causes_or_contributes_to Arg1:T52 Arg2:T53	
 T73	corrected_disease_or_phenotypic_feature 1983 2001	spastic hypertonia
 R10	treats Arg1:T57 Arg2:T73	
@@ -92,3 +91,9 @@ R5	causes_or_contributes_to Arg1:T27 Arg2:T16
 T77	corrected_chemical 1119 1140	"self" tumor antigens
 R16	treats Arg1:T77 Arg2:T32	
 R17	treats Arg1:T43 Arg2:T44	
+T78	missed_disease_or_phenotypic_feature 667 701	hormone-refractory prostate cancer
+R6	treats Arg1:T17 Arg2:T78	
+R18	causes_or_contributes_to Arg1:T17 Arg2:T72	
+T79	chemical 1604 1608	drug
+T80	disease_or_phenotypic_feature 1788 1804	hypophosphatemia
+T81	corrected_disease_or_phenotypic_feature 1781 1787;1809 1822	severe hypercalcemia

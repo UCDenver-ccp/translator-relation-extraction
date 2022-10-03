@@ -78,11 +78,6 @@ T65	corrected_chemical 1828 1863	Bromfenac ophthalmic solution 0.09%
 R13	treats Arg1:T65 Arg2:T55	
 R14	treats Arg1:T56 Arg2:T57	
 R15	treats Arg1:T59 Arg2:T58	
-T66	missed_chemical 1130 1147	tumor suppressors
-R16	treats Arg1:T66 Arg2:T37	
-T67	missed_disease_or_phenotypic_feature 677 693	eating disorders
-R17	causes_or_contributes_to Arg1:T22 Arg2:T67	
-R18	causes_or_contributes_to Arg1:T23 Arg2:T67	
 T68	missed_disease_or_phenotypic_feature 915 949	tumor-endothelial cell interaction
 R19	treats Arg1:T30 Arg2:T68	
 R20	treats Arg1:T31 Arg2:T68	

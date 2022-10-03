@@ -77,9 +77,7 @@ R6	causes_or_contributes_to Arg1:T10 Arg2:T70
 T71	corrected_chemical 335 356	glycoprotein antigens
 R7	causes_or_contributes_to Arg1:T71 Arg2:T13	
 T72	corrected_chemical 482 529	common antigens which OK-432 shared with tumors
-T73	corrected_disease_or_phenotypic_feature 575 595	human bladder tumors
-R8	treats Arg1:T72 Arg2:T73	
-T74	missed_disease_or_phenotypic_feature 609 622	animal tumors
+T74	missed_disease_or_phenotypic_feature 616 622	tumors
 R9	treats Arg1:T72 Arg2:T74	
 T75	missed_chemical 986 1000	glucocorticoid
 R10	causes_or_contributes_to Arg1:T75 Arg2:T24	
@@ -88,7 +86,7 @@ T76	corrected_disease_or_phenotypic_feature 1140 1163	intractable cancer pain
 T77	corrected_chemical 1109 1136	bupivacaine-opioid infusion
 R12	treats Arg1:T77 Arg2:T76	
 T78	corrected_chemical 1251 1264	MK2 inhibitor
-T79	missed_disease_or_phenotypic_feature 1286 1310	murine tumor development
+T79	missed_disease_or_phenotypic_feature 1293 1310	tumor development
 R13	treats Arg1:T78 Arg2:T79	
 T80	corrected_disease_or_phenotypic_feature 1227 1249	colitis-associated CRC
 T81	corrected_chemical 1172 1207	azoxymethane/dextran sodium sulfate
@@ -98,21 +96,21 @@ R15	causes_or_contributes_to Arg1:T82 Arg2:T80
 T83	corrected_chemical 1349 1374	tumor-associated antigens
 T84	missed_disease_or_phenotypic_feature 1332 1338	tumors
 R16	treats Arg1:T83 Arg2:T84	
-T85	missed_chemical 1411 1429	synthetic peptides
+T85	missed_chemical 1411 1448	synthetic peptides used as immunogens
 R17	treats Arg1:T85 Arg2:T84	
-T86	missed_chemical 1438 1448	immunogens
-R18	treats Arg1:T86 Arg2:T84	
 T87	corrected_chemical 1613 1627	MR antagonists
 R19	treats Arg1:T87 Arg2:T41	
 R20	treats Arg1:T87 Arg2:T42	
 T88	corrected_disease_or_phenotypic_feature 1835 1863	obesity-related hypertension
-R21	treats Arg1:T87 Arg2:T44	
-R22	treats Arg1:T87 Arg2:T45	
-R23	treats Arg1:T87 Arg2:T88	
-R24	treats Arg1:T87 Arg2:T47	
 T89	corrected_disease_or_phenotypic_feature 2325 2336	cancer pain
 T90	corrected_chemical 2272 2286	JNK inhibitors
 R25	treats Arg1:T90 Arg2:T89	
 R26	treats Arg1:T61 Arg2:T89	
 T91	corrected_chemical 2354 2369	tumour antigens
 R27	treats Arg1:T91 Arg2:T66	
+R8	treats Arg1:T72 Arg2:T17	
+T73	corrected_chemical 1756 1770	MR antagonists
+R18	treats Arg1:T73 Arg2:T44	
+R21	treats Arg1:T73 Arg2:T45	
+R22	treats Arg1:T73 Arg2:T88	
+R23	treats Arg1:T73 Arg2:T47	

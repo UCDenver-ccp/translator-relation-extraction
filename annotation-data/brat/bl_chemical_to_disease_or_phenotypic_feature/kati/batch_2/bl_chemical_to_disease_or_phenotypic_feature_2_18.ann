@@ -106,38 +106,22 @@ T89	missed_disease_or_phenotypic_feature 1644 1658	mammary tumors
 R17	causes_or_contributes_to Arg1:T44 Arg2:T89	
 R18	causes_or_contributes_to Arg1:T46 Arg2:T88	
 R19	causes_or_contributes_to Arg1:T47 Arg2:T88	
-T90	corrected_disease_or_phenotypic_feature 2175 2200	severe autoimmune disease
-T91	corrected_chemical 2210 2224;2261 2303	tumor antigens expressed in peripheral nonlymphoid organs
-R20	causes_or_contributes_to Arg1:T91 Arg2:T90	
 R21	causes_or_contributes_to Arg1:T70 Arg2:T69	
 T92	corrected_chemical 2493 2506	CYP inhibitor
 R22	causes_or_contributes_to Arg1:T92 Arg2:T69	
-R23	causes_or_contributes_to Arg1:T73 Arg2:T72	
+R23	causes_or_contributes_to Arg1:T73 Arg2:T101	
 T93	missed_chemical 2558 2569	CYP inducer
-R24	causes_or_contributes_to Arg1:T93 Arg2:T72	
+R24	causes_or_contributes_to Arg1:T93 Arg2:T101	
 T94	missed_disease_or_phenotypic_feature 87 99	angiogenesis
 R25	treats Arg1:T1 Arg2:T94	
 T95	missed_disease_or_phenotypic_feature 117 129	tumor growth
 R26	treats Arg1:T1 Arg2:T95	
 R27	causes_or_contributes_to Arg1:T83 Arg2:T82	
 R28	causes_or_contributes_to Arg1:T84 Arg2:T82	
-T96	missed_disease_or_phenotypic_feature 1574 1591	tumor progression
-R29	treats Arg1:T41 Arg2:T96	
-T97	missed_disease_or_phenotypic_feature 1574 1579;1596 1606	tumor metastases
-R30	treats Arg1:T41 Arg2:T97	
-T98	corrected_disease_or_phenotypic_feature 1610 1624	human melanoma
-R31	treats Arg1:T41 Arg2:T98	
-T99	corrected_chemical 1539 1550;1555 1570	Glutathione related enzymes
-R32	treats Arg1:T99 Arg2:T96	
-R33	treats Arg1:T99 Arg2:T97	
-R34	treats Arg1:T99 Arg2:T98	
 T100	disease_or_phenotypic_feature 2468 2476	cataract
 T101	corrected_disease_or_phenotypic_feature 2515 2538	early onset of cataract
 T102	missed_disease_or_phenotypic_feature 2635 2657	initiation of cataract
-T103	missed_disease_or_phenotypic_feature 2649 2657;2670 2680	cataract maturation
 R35	causes_or_contributes_to Arg1:T73 Arg2:T102	
 R36	causes_or_contributes_to Arg1:T93 Arg2:T102	
-R37	treats Arg1:T70 Arg2:T102	
-R38	treats Arg1:T92 Arg2:T102	
-R39	treats Arg1:T70 Arg2:T103	
-R40	treats Arg1:T92 Arg2:T103	
+R20	treats Arg1:T70 Arg2:T74	
+R29	treats Arg1:T92 Arg2:T74	

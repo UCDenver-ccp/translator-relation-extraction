@@ -27,7 +27,7 @@ T26	disease_or_phenotypic_feature 787 800	breast cancer
 T27	chemical 844 851	gelatin
 T28	chemical 852 859	polymer
 T29	chemical 921 930	inhibitor
-T30	chemical 932 944	cabozantinib
+T30	corrected_chemical 1042 1072;932 944	combined with a cancer vaccine cabozantinib
 T31	disease_or_phenotypic_feature 1058 1064	cancer
 T32	chemical 1074 1083	Patiromer
 T33	disease_or_phenotypic_feature 1101 1115	kidney disease
@@ -79,7 +79,6 @@ T73	corrected_disease_or_phenotypic_feature 641 659	adolescent obesity
 R6	treats Arg1:T72 Arg2:T73	
 R7	treats Arg1:T22 Arg2:T73	
 T74	missed_disease_or_phenotypic_feature 949 987	immune-mediated killing of tumor cells
-R8	causes_or_contributes_to Arg1:T30 Arg2:T74	
 R9	treats Arg1:T32 Arg2:T34	
 T75	missed_disease_or_phenotypic_feature 1262 1283	hepatic abnormalities
 R10	causes_or_contributes_to Arg1:T37 Arg2:T75	
@@ -111,3 +110,18 @@ R27	treats Arg1:T82 Arg2:T83
 R28	treats Arg1:T61 Arg2:T63	
 T84	corrected_chemical 1834 1850	vasodilator drug
 R29	treats Arg1:T84 Arg2:T63	
+T86	missed_disease_or_phenotypic_feature 992 1036	immune tumor microenvironment permissiveness
+T87	corrected_chemical 1042 1072;906 930	combined with a cancer vaccine small-molecule inhibitor
+R30	causes_or_contributes_to Arg1:T87 Arg2:T74	
+R8	causes_or_contributes_to Arg1:T30 Arg2:T74	
+R31	causes_or_contributes_to Arg1:T87 Arg2:T86	
+R32	causes_or_contributes_to Arg1:T30 Arg2:T86	
+T85	chemical 932 944	cabozantinib
+T88	missed_disease_or_phenotypic_feature 1182 1190	epilepsy
+T89	missed_disease_or_phenotypic_feature 1195 1216	psychiatric disorders
+R33	treats Arg1:T36 Arg2:T88	
+R34	treats Arg1:T36 Arg2:T89	
+T90	missed_disease_or_phenotypic_feature 1330 1346	Chemodenervation
+R35	causes_or_contributes_to Arg1:T80 Arg2:T90	
+T91	missed_disease_or_phenotypic_feature 1632 1641	analgesia
+R36	causes_or_contributes_to Arg1:T82 Arg2:T91	

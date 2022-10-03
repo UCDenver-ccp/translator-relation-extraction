@@ -93,3 +93,6 @@ T70	corrected_chemical 1639 1652	tumor antigen
 T71	corrected_disease_or_phenotypic_feature 1663 1681	cancer cell growth
 R23	causes_or_contributes_to Arg1:T69 Arg2:T71	
 R24	causes_or_contributes_to Arg1:T70 Arg2:T71	
+R25	treats Arg1:T45 Arg2:T46	
+T72	missed_disease_or_phenotypic_feature 2056 2081	Cheyne-Stokes respiration
+R26	treats Arg1:T54 Arg2:T72	

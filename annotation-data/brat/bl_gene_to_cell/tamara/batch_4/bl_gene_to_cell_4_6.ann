@@ -1,0 +1,121 @@
+T1	gene 0 4	BMP2
+T2	gene 58 90	microtubule-associated protein 2
+T3	cell_type 94 102	neuronal
+T4	gene 132 138	nestin
+T5	gene 193 197	BMP2
+T6	cell_type 253 263	astrocytic
+T7	gene 272 276	Rac2
+T8	gene 282 285	Rho
+T9	cell_type 355 366	neutrophils
+T10	cell_type 371 382	macrophages
+T11	gene 412 415	CD4
+T12	cell_type 419 425	T cell
+T13	cell_type 427 434	NK cell
+T14	gene 436 441	CD11b
+T15	cell_type 445 453	monocyte
+T16	gene 458 463	CD11b
+T17	cell_type 475 489	dendritic cell
+T18	cell_type 541 548	T cells
+T19	gene 627 630	CD4
+T20	cell_type 634 641	T cells
+T21	cell_type 651 660	TH1 cells
+T22	cell_type 666 676	TH17 cells
+T23	gene 686 690	Cav1
+T24	cell_type 718 727	TH2 cells
+T25	gene 762 778	cyclooxygenase-1
+T26	gene 794 818	prostaglandin E synthase
+T27	cell_type 839 855	epithelial cells
+T28	cell_type 857 874	endothelial cells
+T29	cell_type 879 889	fibroblast
+T30	cell_type 895 918	connective tissue cells
+T31	cell_type 920 928	Monocyte
+T32	gene 941 973	mitogen-activated protein kinase
+T33	gene 986 995	TNF-alpha
+T34	gene 1000 1004	IL-6
+T35	cell_type 1019 1028	monocytes
+T36	cell_type 1053 1062	monocytes
+T37	cell_type 1067 1079	granulocytes
+T38	cell_type 1128 1136	monocyte
+T39	gene 1149 1155	ICAM-1
+T40	gene 1197 1202	COX-2
+T41	cell_type 1263 1272	monocytes
+T42	gene 1274 1278	CD68
+T43	cell_type 1282 1293	lymphocytes
+T44	gene 1295 1299	CD68
+T45	gene 1308 1311	CD4
+T46	cell_type 1345 1352	T cells
+T47	cell_type 1372 1388	brown adipocytes
+T48	gene 1407 1418	thermogenin
+T49	gene 1420 1425	Myf-5
+T50	gene 1427 1431	MyoD
+T51	gene 1433 1441	myogenin
+T52	gene 1515 1521	MASH-1
+T53	cell_type 1554 1562	neuronal
+T54	gene 1683 1687	CD14
+T55	cell_type 1699 1718	classical monocytes
+T56	gene 1720 1724	CD14
+T57	gene 1728 1732	CD16
+T58	cell_type 1736 1758	intermediate monocytes
+T59	gene 1764 1768	CD14
+T60	gene 1771 1775	CD16
+T61	cell_type 1780 1803	non-classical monocytes
+T62	gene 1805 1810	MMP-1
+T63	cell_type 1854 1867	keratinocytes
+T64	gene 1877 1882	MMP-2
+T65	gene 1884 1890	TIMP-1
+T66	cell_type 1901 1912	fibroblasts
+T67	gene 1914 1918	Nox1
+T68	gene 1920 1924	Nox2
+T69	gene 1926 1930	Nox4
+T70	gene 1936 1940	Nox5
+T71	cell_type 1971 1999	vascular smooth muscle cells
+T72	cell_type 2001 2012	fibroblasts
+T73	cell_type 2030 2040	adipocytes
+T74	cell_type 2111 2119	monocyte
+T75	gene 2120 2129	TNF alpha
+T76	cell_type 2154 2164	lymphocyte
+T77	gene 2165 2169	IL-2
+T78	gene 2174 2178	IL-6
+T79	gene 2224 2230	SAMHD1
+T80	cell_type 2242 2250	monocyte
+T81	cell_type 2259 2270	macrophages
+T82	gene 2290 2294	CD14
+T83	cell_type 2324 2332	monocyte
+T84	gene 2342 2346	CD14
+T85	gene 2350 2354	CD16
+T86	gene 2359 2363	CD14
+T87	gene 2367 2371	CD16
+T88	gene 2380 2384	CD14
+T89	gene 2389 2393	CD16
+T90	cell_type 2466 2475	monocytes
+T91	cell_type 2504 2517	mature T-cell
+T92	gene 2528 2531	CD4
+T93	gene 2533 2537	CD25
+T94	gene 2590 2594	CCL2
+T95	gene 2595 2600	MCP-1
+T96	gene 2602 2607	CXCL8
+T97	gene 2608 2612	IL-8
+T98	gene 2614 2618	CCL3
+T99	gene 2631 2637	CXCL10
+T100	gene 2645 2649	CCL4
+T101	gene 2665 2669	CCL5
+T102	cell_type 2694 2705	neutrophils
+T103	cell_type 2707 2716	monocytes
+T104	cell_type 2732 2739	T cells
+T105	gene 2769 2773	NF-L
+T106	gene 2792 2799	tubulin
+T107	cell_type 2804 2810	neuron
+T108	cell_type 2968 2989	retinal ganglion cell
+T109	cell_type 2990 2997	neurons
+T110	cell_type 3019 3030	fibroblasts
+T111	gene 3096 3100	ATF5
+T112	gene 3102 3107	PROX1
+T113	gene 3109 3114	FOXA2
+T114	gene 3116 3121	FOXA3
+T115	gene 3127 3132	HNF4A
+T116	gene 3143 3162	alpha-1 antitrypsin
+T117	gene 3177 3206	asialoglycoprotein receptor 1
+T118	gene 3254 3264	epimorphin
+T119	cell_type 3280 3290	hepatocyte
+T120	gene 3301 3311	epimorphin
+T121	cell_type 3347 3358	hepatocytes

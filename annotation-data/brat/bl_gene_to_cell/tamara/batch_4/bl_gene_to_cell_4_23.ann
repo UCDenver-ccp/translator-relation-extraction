@@ -1,0 +1,116 @@
+T1	cell_type 14 25	macrophages
+T2	cell_type 30 41	macrophages
+T3	gene 100 104	HNF4
+T4	cell_type 147 158	fibroblasts
+T5	cell_type 198 206	neuronal
+T6	gene 224 229	Slit2
+T7	gene 239 244	Slit2
+T8	cell_type 260 269	fibrocyte
+T9	gene 287 292	GAD65
+T10	cell_type 360 367	neurons
+T11	gene 369 374	GAD67
+T12	cell_type 409 416	neurons
+T13	gene 418 423	SEPT4
+T14	gene 425 430	SEPT5
+T15	gene 436 441	SEPT7
+T16	cell_type 476 488	pillar cells
+T17	cell_type 493 507	Deiters' cells
+T18	cell_type 557 571	Deiters' cells
+T19	cell_type 626 635	monocytes
+T20	cell_type 636 647	macrophages
+T21	gene 661 665	ILT5
+T22	gene 719 722	CD4
+T23	cell_type 724 731	T cells
+T24	gene 733 737	Ncf1
+T25	cell_type 772 789	regulatory T cell
+T26	gene 814 817	CD4
+T27	cell_type 819 835	effector T cells
+T28	gene 888 896	vimentin
+T29	gene 923 927	CD44
+T30	cell_type 993 1003	osteocytes
+T31	cell_type 1005 1015	adipocytes
+T32	cell_type 1020 1032	chondrocytes
+T33	cell_type 1070 1079	stem cell
+T34	gene 1126 1131	LFA-1
+T35	gene 1136 1142	ICAM-1
+T36	gene 1155 1160	LFA-3
+T37	cell_type 1176 1183	T-cells
+T38	cell_type 1198 1213	dendritic cells
+T39	cell_type 1219 1230	macrophages
+T40	cell_type 1235 1248	keratinocytes
+T41	cell_type 1265 1284	smooth muscle cells
+T42	cell_type 1306 1323	Neural stem cells
+T43	cell_type 1325 1329	NSCs
+T44	gene 1336 1340	Oct4
+T45	gene 1353 1357	Sox2
+T46	gene 1380 1384	Oct6
+T47	gene 1386 1390	Brn1
+T48	gene 1395 1399	Brn2
+T49	gene 1415 1419	TRAP
+T50	cell_type 1454 1464	osteoclast
+T51	gene 1481 1485	TRAP
+T52	gene 1487 1506	calcitonin receptor
+T53	gene 1508 1519	cathepsin K
+T54	gene 1524 1529	MMP-9
+T55	gene 1591 1594	E2a
+T56	gene 1595 1599	Pbx1
+T57	cell_type 1646 1657	fibroblasts
+T58	gene 1707 1711	CCL2
+T59	cell_type 1762 1771	microglia
+T60	cell_type 1776 1786	astrocytes
+T61	cell_type 1788 1797	microglia
+T62	gene 1832 1836	CCL2
+T63	cell_type 1846 1856	astrocytes
+T64	gene 1899 1903	CCL2
+T65	gene 2007 2010	Tia
+T66	gene 2019 2022	Tia
+T67	cell_type 2032 2047	epithelial cell
+T68	gene 2102 2106	AIM2
+T69	cell_type 2156 2165	monocytes
+T70	gene 2167 2171	CD14
+T71	gene 2187 2190	THP
+T72	cell_type 2193 2202	monocytic
+T73	gene 2241 2249	integrin
+T74	cell_type 2272 2282	macrophage
+T75	gene 2283 2308	colony-stimulating factor
+T76	gene 2310 2315	M-CSF
+T77	cell_type 2325 2335	osteoclast
+T78	cell_type 2380 2391	osteoclasts
+T79	gene 2399 2407	TGF-beta
+T80	cell_type 2433 2440	oocytes
+T81	cell_type 2510 2519	germ cell
+T82	cell_type 2525 2531	oocyte
+T83	gene 2558 2564	Sohlh1
+T84	gene 2580 2584	Gdf9
+T85	gene 2586 2592	Pou5f1
+T86	gene 2609 2614	Oosp1
+T87	gene 2616 2622	Nlrp14
+T88	gene 2635 2640	Stra8
+T89	cell_type 2642 2651	Monocytes
+T90	cell_type 2714 2724	macrophage
+T91	cell_type 2748 2759	granulocyte
+T92	cell_type 2760 2770	macrophage
+T93	cell_type 2808 2819	granulocyte
+T94	cell_type 2820 2830	macrophage
+T95	gene 2831 2834	CSF
+T96	cell_type 2835 2846	macrophages
+T97	cell_type 2860 2870	macrophage
+T98	gene 2871 2896	colony-stimulating factor
+T99	gene 2898 2903	M-CSF
+T100	gene 2963 2974	cathepsin D
+T101	cell_type 2984 2995	glial cells
+T102	cell_type 3033 3043	astrocytes
+T103	gene 3057 3068	cathepsin E
+T104	cell_type 3078 3089	glial cells
+T105	cell_type 3112 3128	microglial cells
+T106	cell_type 3155 3164	monocytic
+T107	gene 3186 3196	E-selectin
+T108	gene 3205 3215	P-selectin
+T109	cell_type 3217 3236	Auditory hair cells
+T110	gene 3260 3264	Fzd2
+T111	gene 3269 3273	Fzd9
+T112	cell_type 3315 3336	vestibular hair cells
+T113	gene 3341 3345	Fzd1
+T114	gene 3350 3354	Fzd7
+T115	gene 3371 3375	Fzd2
+T116	gene 3380 3384	Fzd9

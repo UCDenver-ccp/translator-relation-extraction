@@ -1,0 +1,103 @@
+T1	gene 0 42	Peroxisome proliferator-activated receptor
+T2	gene 46 50	PPAR
+T3	gene 57 92	runt-related transcription factor 2
+T4	gene 94 99	RUNX2
+T5	cell_type 135 144	stem cell
+T6	cell_type 174 184	adipocytes
+T7	cell_type 189 200	osteoblasts
+T8	cell_type 225 235	macrophage
+T9	gene 249 253	CD14
+T10	gene 263 267	CD68
+T11	cell_type 283 293	osteoclast
+T12	gene 307 311	CD45
+T13	gene 371 376	REDD1
+T14	cell_type 380 391	macrophages
+T15	gene 421 428	insulin
+T16	cell_type 443 452	adipocyte
+T17	cell_type 453 463	macrophage
+T18	cell_type 487 502	dendritic cells
+T19	gene 510 513	CD4
+T20	gene 566 569	CD4
+T21	gene 570 574	CD25
+T22	cell_type 585 601	effector T cells
+T23	cell_type 659 666	neurons
+T24	cell_type 671 681	astrocytes
+T25	gene 696 700	BDNF
+T26	gene 736 741	HDAC2
+T27	gene 746 751	HDAC5
+T28	gene 775 779	CD34
+T29	gene 783 787	CD41
+T30	gene 795 799	CD34
+T31	gene 803 807	CD61
+T32	cell_type 857 865	platelet
+T33	gene 899 903	CD34
+T34	gene 927 932	Wnt5a
+T35	cell_type 957 971	stellate cells
+T36	gene 979 983	Ror2
+T37	cell_type 995 1006	hepatocytes
+T38	cell_type 1066 1073	T cells
+T39	cell_type 1078 1085	B cells
+T40	gene 1128 1133	renin
+T41	cell_type 1145 1152	T cells
+T42	cell_type 1157 1168	macrophages
+T43	gene 1204 1209	Runx2
+T44	cell_type 1226 1236	osteoblast
+T45	cell_type 1276 1287	fibroblasts
+T46	gene 1319 1322	MC3
+T47	gene 1322 1326	T3-E
+T48	cell_type 1337 1347	osteoblast
+T49	gene 1360 1373	Interleukin-4
+T50	gene 1375 1379	IL-4
+T51	gene 1415 1429	interleukin-13
+T52	gene 1431 1436	IL-13
+T53	cell_type 1494 1507	B lymphocytes
+T54	cell_type 1509 1518	monocytes
+T55	cell_type 1520 1535	dendritic cells
+T56	cell_type 1540 1551	fibroblasts
+T57	gene 1580 1584	IL-7
+T58	cell_type 1614 1620	B cell
+T59	cell_type 1648 1654	B cell
+T60	gene 1675 1679	CD70
+T61	cell_type 1700 1707	T cells
+T62	cell_type 1742 1749	Neurons
+T63	gene 1765 1775	Calretinin
+T64	cell_type 1776 1783	Neurons
+T65	gene 1816 1820	CD25
+T66	gene 1822 1825	CD4
+T67	cell_type 1827 1845	regulatory T cells
+T68	cell_type 1868 1883	dendritic cells
+T69	gene 1885 1890	Fra-1
+T70	cell_type 1913 1927	cholangiocytes
+T71	cell_type 1932 1950	inflammatory cells
+T72	cell_type 1981 1991	germ cells
+T73	cell_type 2017 2030	spermatocytes
+T74	gene 2040 2046	RHOXF2
+T75	cell_type 2069 2079	germ cells
+T76	cell_type 2091 2104	spermatocytes
+T77	gene 2135 2141	RHOXF1
+T78	gene 2188 2193	bcl-2
+T79	gene 2223 2226	MC3
+T80	gene 2226 2230	T3-E
+T81	cell_type 2232 2244	osteoblastic
+T82	gene 2273 2277	IL-4
+T83	gene 2278 2283	IL-10
+T84	gene 2294 2302	TGF-beta
+T85	cell_type 2304 2322	regulatory T cells
+T86	gene 2336 2339	CD4
+T87	cell_type 2371 2378	T cells
+T88	gene 2393 2396	CD4
+T89	cell_type 2407 2414	T cells
+T90	gene 2427 2432	FOXP3
+T91	gene 2437 2442	FOXP3
+T92	cell_type 2503 2519	effector T cells
+T93	cell_type 2533 2542	monocytes
+T94	gene 2558 2564	CXCL12
+T95	gene 2569 2575	CXCL12
+T96	cell_type 2595 2603	platelet
+T97	gene 2694 2699	CXCR7
+T98	cell_type 2743 2751	platelet
+T99	gene 2760 2766	CXCL12
+T100	gene 2768 2772	PAX4
+T101	gene 2782 2786	PDX1
+T102	cell_type 2826 2836	stem cells
+T103	cell_type 2842 2865	insulin-secreting cells

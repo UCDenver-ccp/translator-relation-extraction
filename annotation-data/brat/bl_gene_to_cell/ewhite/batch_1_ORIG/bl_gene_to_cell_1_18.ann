@@ -1,0 +1,109 @@
+T1	cell_type 6 15	monocytes
+T2	gene 87 91	CD14
+T3	gene 93 97	CD16
+T4	gene 113 117	CD14
+T5	gene 119 123	CD16
+T6	gene 142 146	CD14
+T7	gene 147 151	CD16
+T8	cell_type 154 163	monocytes
+T9	gene 201 206	STAT3
+T10	cell_type 214 221	T cells
+T11	cell_type 226 235	monocytes
+T12	gene 265 270	STAT5
+T13	cell_type 278 285	T cells
+T14	cell_type 290 297	B cells
+T15	cell_type 308 325	endothelial cells
+T16	gene 344 350	CXCL12
+T17	gene 355 361	CXCL13
+T18	cell_type 378 388	astrocytes
+T19	cell_type 393 409	microglial cells
+T20	gene 420 426	CXCL12
+T21	gene 428 432	CCR5
+T22	gene 438 442	CCR6
+T23	gene 444 459	Protocadherin-1
+T24	gene 461 466	Pcdh1
+T25	gene 541 546	Pcdh7
+T26	gene 551 557	Pcdh17
+T27	cell_type 584 600	supporting cells
+T28	gene 665 670	Pcdh9
+T29	gene 842 848	Pcdh10
+T30	gene 988 992	AQP3
+T31	cell_type 996 1009	Kupffer cells
+T32	gene 1011 1015	AQP7
+T33	cell_type 1019 1030	hepatocytes
+T34	cell_type 1035 1052	endothelial cells
+T35	gene 1058 1062	AQP9
+T36	cell_type 1066 1080	cholangiocytes
+T37	gene 1097 1113	heme oxygenase-1
+T38	gene 1115 1119	HO-1
+T39	cell_type 1152 1180	vascular smooth muscle cells
+T40	cell_type 1182 1199	endothelial cells
+T41	cell_type 1205 1216	macrophages
+T42	cell_type 1228 1237	adipocyte
+T43	gene 1238 1243	GLUT4
+T44	cell_type 1264 1274	adipocytes
+T45	gene 1312 1316	RBP4
+T46	cell_type 1318 1336	Regulatory T-cells
+T47	gene 1395 1398	CD4
+T48	gene 1399 1403	CD25
+T49	cell_type 1405 1423	regulatory T-cells
+T50	gene 1425 1429	GFAP
+T51	gene 1430 1434	Cx43
+T52	cell_type 1456 1466	astrocytes
+T53	cell_type 1510 1517	neurons
+T54	cell_type 1519 1530	Lymphocytes
+T55	gene 1557 1562	ezrin
+T56	gene 1567 1573	moesin
+T57	cell_type 1643 1659	epithelial cells
+T58	gene 1668 1672	LCN2
+T59	cell_type 1678 1688	leucocytes
+T60	gene 1690 1695	DUOX2
+T61	gene 1700 1704	LCN2
+T62	gene 1707 1710	NGF
+T63	gene 1712 1716	BDNF
+T64	gene 1721 1725	NT-3
+T65	cell_type 1789 1804	sensory neurons
+T66	cell_type 1811 1830	sympathetic neurons
+T67	gene 1849 1852	NGF
+T68	gene 1865 1869	BDNF
+T69	gene 1871 1875	NT-3
+T70	gene 1880 1884	BDNF
+T71	gene 1894 1897	NGF
+T72	cell_type 1919 1934	sensory neurons
+T73	gene 1973 1979	Foxo3a
+T74	gene 1995 1998	p21
+T75	gene 2000 2006	reelin
+T76	cell_type 2029 2037	neuronal
+T77	gene 2067 2073	Foxo3a
+T78	gene 2105 2108	p21
+T79	gene 2110 2116	reelin
+T80	gene 2188 2193	BMP-4
+T81	gene 2197 2203	Noggin
+T82	cell_type 2235 2244	astrocyte
+T83	cell_type 2248 2254	neuron
+T84	gene 2277 2284	insulin
+T85	gene 2292 2299	insulin
+T86	cell_type 2314 2322	platelet
+T87	cell_type 2327 2354	vascular smooth muscle cell
+T88	gene 2455 2463	collagen
+T89	gene 2472 2479	elastin
+T90	gene 2493 2496	CD4
+T91	cell_type 2498 2505	T cells
+T92	cell_type 2507 2518	macrophages
+T93	cell_type 2524 2543	smooth muscle cells
+T94	cell_type 2564 2576	fibroblastic
+T95	gene 2598 2615	estrogen receptor
+T96	gene 2631 2636	Myt1l
+T97	cell_type 2669 2678	pericytes
+T98	cell_type 2684 2703	cholinergic neurons
+T99	gene 2767 2770	CD4
+T100	cell_type 2797 2804	T cells
+T101	gene 2809 2813	CD68
+T102	cell_type 2823 2832	microglia
+T103	cell_type 2837 2848	macrophages
+T104	cell_type 2850 2861	neutrophils
+T105	gene 2915 2920	Spag6
+T106	cell_type 2975 2982	neurons
+T107	gene 3010 3014	Brn2
+T108	gene 3028 3032	GFAP
+T109	cell_type 3042 3052	astrocytes

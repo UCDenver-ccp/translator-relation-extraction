@@ -1,0 +1,90 @@
+T1	gene 18 23	GPIIb
+T2	cell_type 38 52	megakaryocytic
+T3	gene 68 73	STAT6
+T4	gene 153 157	CCR1
+T5	gene 160 164	CCR4
+T6	gene 167 171	CCR5
+T7	gene 174 178	CCR6
+T8	gene 185 189	CCR8
+T9	cell_type 208 218	macrophage
+T10	cell_type 235 247	T lymphocyte
+T11	cell_type 334 341	neurons
+T12	gene 373 378	Slit1
+T13	gene 396 400	Robo
+T14	cell_type 418 428	astrocytes
+T15	gene 430 435	SNAT3
+T16	gene 440 445	SNAT5
+T17	gene 447 451	LAT1
+T18	gene 456 460	LAT2
+T19	cell_type 478 490	acinar cells
+T20	cell_type 492 500	Platelet
+T21	cell_type 501 509	monocyte
+T22	gene 539 543	CD14
+T23	cell_type 549 564	CD16- monocytes
+T24	gene 579 583	CD14
+T25	cell_type 588 603	CD16+ monocytes
+T26	gene 613 617	EGFR
+T27	gene 637 640	EGF
+T28	cell_type 684 695	hepatocytes
+T29	cell_type 717 728	hepatocytes
+T30	gene 795 800	STAT1
+T31	gene 810 815	STAT3
+T32	gene 829 835	STAT5a
+T33	cell_type 847 856	monocytes
+T34	cell_type 858 870	granulocytes
+T35	cell_type 876 887	lymphocytes
+T36	cell_type 889 902	myeloid cells
+T37	gene 918 923	CXCL1
+T38	gene 928 933	CXCL2
+T39	gene 935 944	TNF-alpha
+T40	gene 962 965	CD4
+T41	gene 966 971	FoxP3
+T42	gene 972 977	TNFR2
+T43	cell_type 979 997	regulatory T cells
+T44	gene 999 1004	PAR-2
+T45	cell_type 1039 1042	ICC
+T46	gene 1108 1112	CD19
+T47	cell_type 1116 1123	B cells
+T48	gene 1125 1129	CD19
+T49	gene 1132 1136	CD27
+T50	cell_type 1140 1147	B cells
+T51	gene 1153 1157	CD19
+T52	cell_type 1169 1176	B cells
+T53	cell_type 1335 1350	epithelial cell
+T54	cell_type 1355 1367	keratinocyte
+T55	gene 1385 1389	CDH1
+T56	gene 1391 1396	CLDN1
+T57	gene 1398 1403	KRT10
+T58	cell_type 1427 1438	macrophages
+T59	gene 1447 1450	Tat
+T60	cell_type 1486 1493	neurons
+T61	cell_type 1513 1523	Osteoblast
+T62	gene 1553 1557	Mdm2
+T63	gene 1572 1575	p53
+T64	cell_type 1638 1648	osteoblast
+T65	gene 1675 1680	Runx2
+T66	gene 1720 1724	CCL1
+T67	gene 1729 1734	CCL18
+T68	gene 1781 1785	CCR8
+T69	cell_type 1814 1823	Th2 cells
+T70	gene 1825 1831	Ephrin
+T71	gene 1832 1844	Eph receptor
+T72	cell_type 1869 1879	macrophage
+T73	cell_type 1917 1930	erythroblasts
+T74	gene 1957 1963	Piezo1
+T75	cell_type 2020 2030	osteoblast
+T76	gene 2039 2044	IL-18
+T77	cell_type 2085 2095	astrocytes
+T78	cell_type 2111 2120	microglia
+T79	gene 2190 2196	CXCL12
+T80	gene 2227 2232	CXCR4
+T81	cell_type 2244 2254	leukocytes
+T82	cell_type 2256 2268	granulocytes
+T83	cell_type 2273 2286	myeloid cells
+T84	cell_type 2321 2332	fibroblasts
+T85	cell_type 2365 2373	myocytes
+T86	gene 2385 2390	Gata4
+T87	gene 2392 2397	Hand2
+T88	gene 2399 2404	Mef2c
+T89	gene 2410 2414	Tbx5
+T90	cell_type 2476 2492	cardiac myocytes

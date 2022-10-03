@@ -1,0 +1,109 @@
+T1	cell_type 14 32	inflammatory cells
+T2	gene 84 92	vimentin
+T3	cell_type 102 112	astrocytes
+T4	gene 130 134	GFAP
+T5	cell_type 144 154	astrocytes
+T6	gene 185 218	Intercellular adhesion molecule-1
+T7	gene 220 226	ICAM-1
+T8	cell_type 251 257	T-cell
+T9	cell_type 259 265	B-cell
+T10	cell_type 269 279	macrophage
+T11	cell_type 280 288	monocyte
+T12	gene 319 324	ApoA1
+T13	gene 333 337	IL-6
+T14	gene 339 344	MMP-1
+T15	gene 349 354	MMP-3
+T16	cell_type 377 389	chondrocytes
+T17	cell_type 394 404	fibroblast
+T18	cell_type 410 422	synoviocytes
+T19	gene 431 435	TLR4
+T20	gene 446 453	AdipoR1
+T21	cell_type 471 480	microglia
+T22	cell_type 482 489	neurons
+T23	cell_type 495 505	astrocytes
+T24	cell_type 540 556	epithelial cells
+T25	gene 561 565	TLR3
+T26	cell_type 573 586	stromal cells
+T27	gene 591 595	TLR4
+T28	cell_type 627 643	epithelial cells
+T29	cell_type 648 661	stromal cells
+T30	gene 666 670	TLR2
+T31	gene 675 679	TLR9
+T32	gene 696 707	MIP-1 alpha
+T33	cell_type 728 738	stem cells
+T34	gene 757 765	TGF-beta
+T35	gene 802 813	MIP-1 alpha
+T36	gene 850 858	TGF-beta
+T37	gene 862 882	MIP-1 alpha receptor
+T38	cell_type 918 927	stem cell
+T39	cell_type 934 945	Lymphocytes
+T40	cell_type 950 959	monocytes
+T41	cell_type 973 983	lymphocyte
+T42	gene 1015 1020	LFA-1
+T43	cell_type 1039 1052	keratinocytes
+T44	gene 1064 1070	ICAM-1
+T45	cell_type 1072 1081	Monocytes
+T46	cell_type 1086 1094	monocyte
+T47	cell_type 1103 1114	macrophages
+T48	gene 1148 1151	CD4
+T49	gene 1172 1176	Cx37
+T50	cell_type 1245 1256	osteoclasts
+T51	cell_type 1258 1269	osteoblasts
+T52	cell_type 1275 1285	osteocytes
+T53	gene 1322 1328	SEMA3C
+T54	gene 1330 1334	CCL2
+T55	gene 1336 1341	CXCL6
+T56	gene 1360 1365	IFI30
+T57	cell_type 1414 1425	keratocytes
+T58	cell_type 1447 1472	corneal endothelial cells
+T59	cell_type 1482 1493	keratocytes
+T60	gene 1495 1538	Platelet endothelial cell adhesion molecule
+T61	gene 1542 1549	PECAM-1
+T62	gene 1550 1554	CD31
+T63	cell_type 1583 1592	leukocyte
+T64	cell_type 1593 1609	endothelial cell
+T65	gene 1657 1663	Pitx2c
+T66	gene 1667 1670	Sol
+T67	cell_type 1672 1681	myoblasts
+T68	cell_type 1692 1699	myocyte
+T69	cell_type 1753 1763	osteoblast
+T70	gene 1769 1772	MC3
+T71	gene 1772 1776	T3-E
+T72	cell_type 1811 1821	Lymphocyte
+T73	gene 1842 1846	Ag-1
+T74	gene 1848 1853	LFA-1
+T75	gene 1864 1868	CD18
+T76	cell_type 1878 1888	lymphocyte
+T77	cell_type 1910 1936	vascular endothelial cells
+T78	cell_type 1986 1995	stem cell
+T79	gene 2013 2017	Sox2
+T80	gene 2021 2024	myc
+T81	gene 2030 2034	Klf4
+T82	cell_type 2069 2083	cells in vitro
+T83	cell_type 2095 2102	neurons
+T84	gene 2104 2109	MMP-1
+T85	cell_type 2139 2155	epithelial cells
+T86	gene 2161 2166	MMP-2
+T87	gene 2171 2177	TIMP-2
+T88	cell_type 2195 2211	epithelial cells
+T89	cell_type 2221 2238	mesenchymal cells
+T90	gene 2269 2272	p42
+T91	gene 2273 2276	p44
+T92	gene 2277 2287	MAP kinase
+T93	gene 2291 2303	endothelin-1
+T94	gene 2312 2325	interleukin-6
+T95	cell_type 2339 2349	osteoblast
+T96	gene 2362 2367	SDF-1
+T97	gene 2372 2377	CXCR4
+T98	cell_type 2422 2435	stromal cells
+T99	cell_type 2440 2451	macrophages
+T100	gene 2513 2516	CD4
+T101	cell_type 2524 2531	T cells
+T102	gene 2624 2633	TGF-beta1
+T103	cell_type 2637 2652	effector T cell
+T104	gene 2681 2689	TGF-beta
+T105	gene 2694 2699	Smad3
+T106	gene 2732 2736	LDB1
+T107	gene 2747 2754	insulin
+T108	gene 2780 2787	NEUROG3
+T109	cell_type 2815 2829	endocrine cell

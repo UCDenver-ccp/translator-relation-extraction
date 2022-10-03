@@ -1,0 +1,130 @@
+T1	gene 0 8	TGF-beta
+T2	cell_type 17 26	microglia
+T3	cell_type 34 64	oligodendrocyte precursor cell
+T4	gene 88 91	HGF
+T5	gene 94 97	Met
+T6	gene 203 206	p67
+T7	gene 218 221	p47
+T8	cell_type 253 262	myelocyte
+T9	cell_type 271 281	myelocytes
+T10	cell_type 283 297	metamyelocytes
+T11	gene 341 344	p22
+T12	gene 352 355	p40
+T13	gene 367 372	rac-2
+T14	cell_type 396 408	promyelocyte
+T15	gene 451 455	ULK1
+T16	gene 460 467	GABARAP
+T17	gene 495 499	ULK1
+T18	gene 508 515	GABARAP
+T19	cell_type 554 561	neurons
+T20	cell_type 570 585	pyramidal cells
+T21	cell_type 606 618	mitral cells
+T22	cell_type 646 660	Purkinje cells
+T23	cell_type 700 711	neural cell
+T24	gene 720 726	nestin
+T25	cell_type 736 753	neural stem cells
+T26	gene 755 759	NCAM
+T27	gene 801 808	tubulin
+T28	cell_type 839 846	neurons
+T29	cell_type 899 911	neural cells
+T30	cell_type 912 922	astrocytes
+T31	gene 933 937	GFAP
+T32	cell_type 939 955	oligodendrocytes
+T33	cell_type 993 1013	dopaminergic neurons
+T34	cell_type 1112 1123	blood cells
+T35	cell_type 1146 1159	B lymphocytes
+T36	gene 1168 1172	CD21
+T37	gene 1175 1179	CD22
+T38	gene 1197 1201	CD30
+T39	cell_type 1208 1216	NK cells
+T40	gene 1218 1222	CD16
+T41	cell_type 1313 1323	lymphocyte
+T42	gene 1342 1345	CD4
+T43	gene 1358 1362	CD28
+T44	gene 1365 1368	CD4
+T45	gene 1377 1381	CD28
+T46	cell_type 1391 1398	T cells
+T47	gene 1400 1404	CD19
+T48	cell_type 1408 1415	B cells
+T49	gene 1427 1431	CD16
+T50	gene 1434 1438	CD56
+T51	cell_type 1442 1462	natural killer cells
+T52	gene 1469 1492	Thymic shared antigen 1
+T53	gene 1494 1499	TSA-1
+T54	gene 1513 1529	membrane protein
+T55	gene 1537 1541	Ly-6
+T56	cell_type 1567 1577	thymocytes
+T57	cell_type 1586 1599	stromal cells
+T58	gene 1693 1697	PCNA
+T59	cell_type 1701 1711	astrocytes
+T60	gene 1716 1732	active-caspase-3
+T61	cell_type 1736 1743	neurons
+T62	cell_type 1777 1786	astrocyte
+T63	cell_type 1805 1813	neuronal
+T64	gene 1835 1841	Apelin
+T65	gene 1843 1847	Apln
+T66	cell_type 1874 1900	vascular endothelial cells
+T67	cell_type 1923 1940	endothelial cells
+T68	gene 1957 1960	APC
+T69	cell_type 1976 1983	T cells
+T70	gene 2027 2030	CD4
+T71	gene 2052 2055	APC
+T72	gene 2068 2071	CD4
+T73	cell_type 2073 2080	T cells
+T74	cell_type 2113 2120	T cells
+T75	cell_type 2134 2145	glial cells
+T76	cell_type 2150 2161	fibroblasts
+T77	gene 2201 2209	SERPINE2
+T78	gene 2210 2226	Protease Nexin-1
+T79	gene 2228 2236	SERPINE2
+T80	gene 2237 2241	PN-1
+T81	cell_type 2258 2286	polymorphonuclear leukocytes
+T82	cell_type 2298 2306	monocyte
+T83	cell_type 2307 2317	macrophage
+T84	gene 2337 2345	vimentin
+T85	cell_type 2361 2371	astrocytes
+T86	gene 2376 2407	glial fibrillary acidic protein
+T87	gene 2409 2413	GFAP
+T88	cell_type 2424 2434	astrocytes
+T89	gene 2481 2485	IL-5
+T90	gene 2488 2492	IL-6
+T91	gene 2499 2504	IL-13
+T92	cell_type 2534 2544	mast cells
+T93	gene 2618 2622	CD45
+T94	gene 2626 2630	CD13
+T95	gene 2634 2639	flk-1
+T96	gene 2661 2665	Tie2
+T97	cell_type 2677 2686	monocytes
+T98	gene 2690 2694	CD45
+T99	gene 2698 2703	CD11b
+T100	gene 2707 2711	Tie2
+T101	gene 2755 2759	CD45
+T102	gene 2763 2768	CD11b
+T103	gene 2772 2775	Gr1
+T104	gene 2805 2810	HOXA4
+T105	gene 2812 2817	HOXA7
+T106	gene 2819 2825	HOXA10
+T107	gene 2827 2833	HOXA11
+T108	gene 2838 2843	MEIS1
+T109	cell_type 2851 2859	monocyte
+T110	cell_type 2926 2943	trophoblast cells
+T111	cell_type 2957 2970	stromal cells
+T112	gene 2992 2998	CXCL16
+T113	gene 3020 3025	CXCR6
+T114	cell_type 3050 3063	stromal cells
+T115	cell_type 3065 3069	ESCs
+T116	cell_type 3145 3155	macrophage
+T117	gene 3170 3190	Toll-like receptor 4
+T118	gene 3211 3216	Mtgr1
+T119	gene 3226 3232	Prdm14
+T120	cell_type 3246 3255	stem cell
+T121	cell_type 3272 3292	primordial germ cell
+T122	cell_type 3342 3352	fibroblast
+T123	gene 3385 3388	Ela
+T124	cell_type 3482 3492	astrocytic
+T125	gene 3501 3505	GFAP
+T126	gene 3551 3556	B5, a
+T127	cell_type 3617 3625	neuronal
+T128	gene 3634 3666	microtubule associated protein-2
+T129	cell_type 3676 3686	fibroblast
+T130	gene 3695 3706	fibronectin

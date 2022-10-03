@@ -1,0 +1,103 @@
+T1	gene 0 43	Platelet-endothelial cell adhesion molecule
+T2	gene 47 54	PECAM-1
+T3	cell_type 109 126	endothelial cells
+T4	cell_type 128 137	platelets
+T5	cell_type 139 148	monocytes
+T6	cell_type 150 161	neutrophils
+T7	cell_type 175 181	T cell
+T8	gene 204 208	CD45
+T9	gene 212 216	CD31
+T10	cell_type 259 267	monocyte
+T11	gene 285 289	CD14
+T12	gene 294 298	CD68
+T13	cell_type 347 354	neurons
+T14	cell_type 359 370	glial cells
+T15	cell_type 385 393	neuronal
+T16	gene 395 427	microtubule associated protein 2
+T17	gene 429 434	MAP-2
+T18	cell_type 437 447	astrocytic
+T19	gene 449 480	Glial fibrillary acidic protein
+T20	gene 482 486	GFAP
+T21	gene 530 534	Galc
+T22	gene 597 607	dystrophin
+T23	cell_type 633 642	stem cell
+T24	gene 662 666	CD34
+T25	gene 671 676	Sca-1
+T26	cell_type 691 700	monocytes
+T27	cell_type 711 722	macrophages
+T28	gene 730 735	EAAT1
+T29	cell_type 763 770	T cells
+T30	cell_type 783 790	T cells
+T31	gene 809 814	STAT3
+T32	gene 867 872	STAT1
+T33	gene 874 879	STAT5
+T34	gene 885 890	STAT6
+T35	gene 903 908	SIK-2
+T36	cell_type 926 935	microglia
+T37	cell_type 940 947	neurons
+T38	cell_type 973 981	neuronal
+T39	cell_type 1000 1008	neuronal
+T40	cell_type 1066 1082	skin fibroblasts
+T41	cell_type 1111 1119	neuronal
+T42	gene 1143 1148	ASCL1
+T43	gene 1150 1154	BRN2
+T44	gene 1166 1173	NEUROD1
+T45	cell_type 1183 1190	oocytes
+T46	gene 1210 1215	grp58
+T47	gene 1285 1290	grp58
+T48	cell_type 1300 1303	NCC
+T49	cell_type 1316 1323	oocytes
+T50	gene 1325 1330	CD11b
+T51	gene 1332 1336	Gr-1
+T52	cell_type 1338 1362	myeloid suppressor cells
+T53	cell_type 1369 1375	T cell
+T54	gene 1412 1443	Glial fibrillary acidic protein
+T55	gene 1445 1449	GFAP
+T56	cell_type 1465 1474	astrocyte
+T57	cell_type 1479 1487	neuronal
+T58	gene 1535 1543	tryptase
+T59	gene 1545 1549	CD68
+T60	cell_type 1554 1565	erythrocyte
+T61	cell_type 1600 1614	red blood cell
+T62	gene 1632 1643	prothrombin
+T63	cell_type 1653 1661	platelet
+T64	gene 1669 1676	Insulin
+T65	gene 1686 1712	matrix metalloproteinase-9
+T66	cell_type 1727 1736	monocytes
+T67	gene 1772 1779	insulin
+T68	gene 1814 1821	insulin
+T69	cell_type 1833 1845	erythrocytes
+T70	cell_type 1856 1867	fibroblasts
+T71	cell_type 1885 1896	lymphocytes
+T72	gene 1911 1915	BDNF
+T73	gene 1956 1965	calbindin
+T74	cell_type 1975 1991	efferent neurons
+T75	gene 2035 2046	parvalbumin
+T76	cell_type 2095 2105	osteoblast
+T77	cell_type 2110 2119	osteocyte
+T78	gene 2162 2167	Bcl-2
+T79	gene 2199 2204	PMP22
+T80	cell_type 2243 2259	oligodendrocytes
+T81	cell_type 2269 2282	Schwann cells
+T82	gene 2293 2298	PMP22
+T83	gene 2312 2315	miR
+T84	cell_type 2338 2348	macrophage
+T85	gene 2349 2374	colony-stimulating factor
+T86	gene 2376 2381	M-CSF
+T87	cell_type 2391 2402	macrophages
+T88	cell_type 2432 2449	bone marrow cells
+T89	gene 2476 2482	afadin
+T90	cell_type 2527 2535	platelet
+T91	gene 2594 2597	Rac
+T92	gene 2614 2618	Vav2
+T93	gene 2675 2689	integrin beta3
+T94	gene 2700 2704	CD61
+T95	gene 2708 2714	GPIIIa
+T96	gene 2794 2798	CD41
+T97	gene 2799 2803	CD61
+T98	gene 2807 2811	CD51
+T99	cell_type 2871 2882	lymphocytes
+T100	cell_type 2884 2893	monocytes
+T101	cell_type 2895 2907	granulocytes
+T102	cell_type 2909 2918	platelets
+T103	cell_type 2920 2932	erythrocytes

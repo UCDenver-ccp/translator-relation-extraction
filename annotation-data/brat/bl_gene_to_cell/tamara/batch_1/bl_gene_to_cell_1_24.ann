@@ -1,0 +1,98 @@
+T1	cell_type 0 8	Platelet
+T2	gene 19 25	PTPN11
+T3	cell_type 52 61	platelets
+T4	cell_type 66 75	monocytes
+T5	gene 91 125	Monocyte chemoattractant protein-1
+T6	gene 127 132	MCP-1
+T7	gene 133 137	CCL2
+T8	cell_type 212 221	monocytes
+T9	cell_type 222 233	macrophages
+T10	gene 243 250	insulin
+T11	cell_type 306 316	adipocytes
+T12	gene 318 331	Neurofibromin
+T13	cell_type 342 355	Schwann cells
+T14	gene 396 399	Nf1
+T15	cell_type 403 413	mast cells
+T16	gene 426 429	Th1
+T17	cell_type 434 443	Th2 cells
+T18	cell_type 474 483	Th1 cells
+T19	gene 492 525	intercellular adhesion molecule-1
+T20	gene 527 533	ICAM-1
+T21	cell_type 549 558	microglia
+T22	cell_type 598 609	lymphocytes
+T23	cell_type 633 640	T cells
+T24	gene 648 651	CD4
+T25	cell_type 661 668	B cells
+T26	cell_type 682 702	natural killer cells
+T27	gene 704 708	CD16
+T28	gene 718 738	Alpha2-Macroglobulin
+T29	cell_type 770 781	Lymphocytes
+T30	cell_type 786 797	Fibroblasts
+T31	cell_type 799 815	Oligodendrocytes
+T32	cell_type 861 871	astrocytes
+T33	gene 910 914	Cx32
+T34	cell_type 922 937	oligodendrocyte
+T35	gene 947 951	Cx26
+T36	gene 953 957	Cx30
+T37	gene 962 966	Cx43
+T38	cell_type 974 983	astrocyte
+T39	gene 990 994	CD44
+T40	cell_type 1017 1026	astrocyte
+T41	cell_type 1064 1070	neuron
+T42	cell_type 1090 1096	neuron
+T43	gene 1106 1113	tubulin
+T44	gene 1115 1118	APP
+T45	gene 1123 1135	beta-amyloid
+T46	cell_type 1154 1161	neurons
+T47	cell_type 1188 1198	astrocytes
+T48	gene 1218 1222	CCR7
+T49	gene 1228 1234	TREM-1
+T50	cell_type 1276 1287	neutrophils
+T51	cell_type 1292 1301	monocytes
+T52	cell_type 1343 1358	mesangial cells
+T53	gene 1360 1364	CCL2
+T54	gene 1366 1370	CCL7
+T55	gene 1372 1377	CCL20
+T56	gene 1379 1384	CXCL1
+T57	gene 1386 1391	CXCL2
+T58	gene 1396 1401	CXCL5
+T59	gene 1476 1480	HCN2
+T60	gene 1485 1489	HCN4
+T61	gene 1516 1520	HCN1
+T62	gene 1525 1529	HCN3
+T63	cell_type 1580 1599	sympathetic neurons
+T64	cell_type 1601 1612	Osteoblasts
+T65	gene 1639 1647	collagen
+T66	gene 1671 1679	collagen
+T67	cell_type 1685 1697	chondrocytes
+T68	gene 1720 1728	collagen
+T69	cell_type 1768 1791	airway epithelial cells
+T70	cell_type 1796 1816	alveolar macrophages
+T71	cell_type 1872 1895	airway epithelial cells
+T72	gene 1904 1908	CCL2
+T73	gene 1909 1943	monocyte chemoattractant protein-1
+T74	gene 1945 1949	CCL5
+T75	gene 1958 1964	CXCL10
+T76	cell_type 2040 2060	alveolar macrophages
+T77	gene 2073 2077	CCL5
+T78	cell_type 2082 2092	macrophage
+T79	gene 2166 2170	FRS2
+T80	cell_type 2184 2192	neuronal
+T81	cell_type 2214 2230	cortical neurons
+T82	gene 2240 2244	Grb2
+T83	gene 2250 2254	Shp2
+T84	gene 2281 2293	glycoprotein
+T85	gene 2294 2298	CD36
+T86	gene 2314 2337	thrombospondin receptor
+T87	cell_type 2393 2402	platelets
+T88	cell_type 2404 2412	monocyte
+T89	cell_type 2413 2424	macrophages
+T90	cell_type 2430 2447	endothelial cells
+T91	gene 2469 2473	PCNA
+T92	gene 2492 2498	nestin
+T93	cell_type 2508 2534	vascular endothelial cells
+T94	gene 2559 2563	PCNA
+T95	gene 2576 2580	CD34
+T96	gene 2658 2662	IL-4
+T97	gene 2664 2667	CD4
+T98	cell_type 2669 2676	T cells

@@ -1,0 +1,97 @@
+T1	gene 0 33	Intercellular adhesion molecule-1
+T2	gene 35 41	ICAM-1
+T3	cell_type 80 89	leukocyte
+T4	cell_type 105 120	epithelial cell
+T5	gene 121 127	ICAM-1
+T6	cell_type 143 159	endothelial cell
+T7	gene 197 213	interferon-gamma
+T8	gene 227 231	TLR4
+T9	gene 256 261	MMP10
+T10	cell_type 276 287	macrophages
+T11	gene 289 293	Ccl3
+T12	cell_type 340 348	platelet
+T13	gene 349 357	selectin
+T14	cell_type 385 403	inflammatory cells
+T15	cell_type 410 421	hepatocytes
+T16	cell_type 426 437	neutrophils
+T17	gene 491 495	LCN2
+T18	gene 511 515	LCN2
+T19	cell_type 528 539	hepatocytes
+T20	cell_type 585 596	neutrophils
+T21	gene 603 607	LCN2
+T22	cell_type 686 694	Neuronal
+T23	gene 724 728	IL-6
+T24	gene 733 739	GM-CSF
+T25	cell_type 775 785	macrophage
+T26	gene 786 811	colony-stimulating factor
+T27	gene 816 821	M-CSF
+T28	cell_type 873 883	macrophage
+T29	gene 884 909	colony-stimulating factor
+T30	gene 911 916	M-CSF
+T31	gene 968 972	IL-8
+T32	gene 973 978	CXCL8
+T33	cell_type 1044 1055	lymphocytes
+T34	cell_type 1057 1066	monocytes
+T35	cell_type 1068 1085	endothelial cells
+T36	cell_type 1091 1102	fibroblasts
+T37	cell_type 1112 1123	neutrophils
+T38	gene 1125 1159	Monocyte chemoattractant protein-1
+T39	cell_type 1185 1196	fibroblasts
+T40	gene 1207 1210	CD4
+T41	cell_type 1212 1218	T cell
+T42	cell_type 1231 1243	Keratinocyte
+T43	gene 1244 1250	ICAM-1
+T44	cell_type 1262 1268	T cell
+T45	gene 1282 1286	CD18
+T46	cell_type 1332 1345	keratinocytes
+T47	cell_type 1347 1353	T-cell
+T48	cell_type 1369 1379	lymphocyte
+T49	cell_type 1419 1425	T-cell
+T50	gene 1450 1454	CD16
+T51	gene 1456 1460	CD56
+T52	gene 1502 1507	DACH1
+T53	cell_type 1532 1541	podocytes
+T54	gene 1579 1587	cyclin D
+T55	gene 1618 1621	p21
+T56	gene 1626 1629	p53
+T57	gene 1652 1657	DACH1
+T58	cell_type 1682 1691	podocytes
+T59	cell_type 1736 1742	M cell
+T60	gene 1751 1776	Colony stimulating factor
+T61	gene 1780 1785	CSF-1
+T62	gene 1842 1845	EGF
+T63	cell_type 1849 1860	macrophages
+T64	gene 1883 1888	Birc5
+T65	gene 1922 1928	Nkx2.5
+T66	cell_type 1958 1972	cardiomyocytes
+T67	gene 1990 2018	thymic stromal lymphopoietin
+T68	gene 2042 2046	CD80
+T69	gene 2056 2060	CD14
+T70	cell_type 2062 2071	monocytes
+T71	cell_type 2072 2083	macrophages
+T72	cell_type 2090 2101	hepatocytes
+T73	gene 2112 2120	collagen
+T74	gene 2125 2136	fibronectin
+T75	cell_type 2167 2178	fibroblasts
+T76	gene 2206 2213	alpha 1
+T77	cell_type 2241 2249	neuronal
+T78	cell_type 2293 2309	cardiac myocytes
+T79	gene 2315 2325	caveolin-1
+T80	cell_type 2330 2347	endothelial cells
+T81	gene 2353 2363	caveolin-2
+T82	gene 2400 2404	GFAP
+T83	gene 2446 2451	Mash1
+T84	cell_type 2456 2464	neuronal
+T85	gene 2500 2504	GFAP
+T86	cell_type 2548 2556	neuronal
+T87	gene 2590 2619	neural cell adhesion molecule
+T88	gene 2649 2654	Bcl-2
+T89	gene 2659 2662	Bax
+T90	gene 2723 2728	Bcl-2
+T91	gene 2733 2736	Bax
+T92	cell_type 2759 2766	T cells
+T93	cell_type 2775 2785	thymocytes
+T94	cell_type 2829 2835	T cell
+T95	gene 2848 2851	TKT
+T96	cell_type 2886 2897	fibroblasts
+T97	cell_type 2910 2921	keratocytes

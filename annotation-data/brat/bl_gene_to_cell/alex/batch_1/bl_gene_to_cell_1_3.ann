@@ -1,0 +1,92 @@
+T1	cell_type 13 24	fibroblasts
+T2	gene 35 39	CCR5
+T3	gene 44 47	HGF
+T4	cell_type 113 118	sperm
+T5	gene 125 134	myoglobin
+T6	cell_type 155 160	sperm
+T7	gene 167 176	myoglobin
+T8	gene 190 199	myoglobin
+T9	gene 201 207	Nestin
+T10	gene 212 236	small heat shock protein
+T11	cell_type 260 270	astrocytes
+T12	cell_type 275 292	endothelial cells
+T13	gene 314 319	BACE2
+T14	cell_type 332 342	melanocyte
+T15	gene 351 355	PMEL
+T16	cell_type 359 372	pigment cells
+T17	cell_type 436 445	thymocyte
+T18	gene 446 450	CD45
+T19	gene 462 465	p56
+T20	gene 507 513	CD45AP
+T21	cell_type 589 600	fibroblasts
+T22	cell_type 602 613	macrophages
+T23	cell_type 618 635	endothelial cells
+T24	gene 644 649	COX-2
+T25	gene 659 668	TNF-alpha
+T26	gene 710 714	IL-8
+T27	gene 719 724	MCP-1
+T28	cell_type 756 767	neutrophils
+T29	cell_type 772 781	monocytes
+T30	cell_type 782 793	macrophages
+T31	gene 809 815	TIMP-1
+T32	gene 887 893	TIMP-1
+T33	cell_type 929 940	fibroblasts
+T34	gene 952 956	TrkA
+T35	gene 1017 1021	TrkB
+T36	gene 1031 1035	TrkC
+T37	cell_type 1092 1107	dendritic cells
+T38	cell_type 1112 1123	macrophages
+T39	gene 1152 1156	CD56
+T40	cell_type 1175 1190	dendritic cells
+T41	gene 1202 1208	GM-CSF
+T42	gene 1209 1213	IL-4
+T43	gene 1218 1222	CD56
+T44	cell_type 1234 1242	NK cells
+T45	cell_type 1281 1288	T cells
+T46	cell_type 1337 1353	oligodendrocytes
+T47	cell_type 1377 1384	neurons
+T48	gene 1399 1402	NGF
+T49	gene 1425 1429	Numb
+T50	gene 1441 1445	MUC2
+T51	cell_type 1488 1499	goblet cell
+T52	cell_type 1547 1555	monocyte
+T53	gene 1608 1612	CD14
+T54	gene 1643 1647	CD14
+T55	cell_type 1649 1663	CD16-monocytes
+T56	gene 1665 1669	CD16
+T57	gene 1678 1682	CD14
+T58	cell_type 1683 1698	CD16+ monocytes
+T59	gene 1700 1704	CD16
+T60	gene 1716 1720	Msi1
+T61	cell_type 1762 1772	astrocytes
+T62	gene 1807 1811	GFAP
+T63	gene 1815 1821	Nestin
+T64	gene 1889 1893	CD34
+T65	gene 1908 1912	CD41
+T66	cell_type 1916 1930	megakaryocytes
+T67	cell_type 1935 1943	platelet
+T68	cell_type 1997 2013	skin fibroblasts
+T69	gene 2019 2024	HOXB4
+T70	gene 2026 2031	HOXB5
+T71	gene 2037 2042	HOXB2
+T72	cell_type 2071 2090	hematopoietic cells
+T73	gene 2092 2095	NGF
+T74	gene 2097 2101	BDNF
+T75	gene 2106 2110	NT-3
+T76	gene 2118 2122	TrkB
+T77	gene 2127 2131	TrkC
+T78	gene 2156 2160	BDNF
+T79	gene 2165 2169	NT-3
+T80	cell_type 2189 2199	astrocytes
+T81	cell_type 2209 2218	pericytes
+T82	gene 2256 2260	BMP9
+T83	cell_type 2292 2300	myoblast
+T84	gene 2320 2325	Runx2
+T85	gene 2327 2333	Merlin
+T86	cell_type 2358 2371	Schwann cells
+T87	cell_type 2373 2380	neurons
+T88	cell_type 2425 2436	neutrophils
+T89	gene 2461 2466	DAPK2
+T90	cell_type 2484 2494	leukocytes
+T91	gene 2499 2504	DAPK1
+T92	gene 2508 2513	DAPK3

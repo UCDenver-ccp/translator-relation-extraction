@@ -1,0 +1,130 @@
+T1	cell_type 9 16	neurons
+T2	gene 41 54	interleukin 1
+T3	gene 63 67	IL-6
+T4	gene 69 107	macrophage inflammatory protein 1alpha
+T5	gene 144 175	transforming growth factor beta
+T6	gene 178 187	TGF-beta1
+T7	gene 190 195	IL-10
+T8	cell_type 201 212	granulocyte
+T9	cell_type 213 223	macrophage
+T10	cell_type 285 295	macrophage
+T11	gene 296 321	colony-stimulating factor
+T12	gene 330 334	IL-2
+T13	cell_type 377 387	macrophage
+T14	gene 388 413	colony-stimulating factor
+T15	cell_type 425 434	monocytes
+T16	gene 466 497	transcription factor NF-kappa B
+T17	cell_type 535 542	T cells
+T18	gene 570 573	CD4
+T19	gene 574 578	CD25
+T20	gene 579 584	Foxp3
+T21	cell_type 586 593	T cells
+T22	cell_type 622 633	lymphocytic
+T23	gene 687 691	Gr-1
+T24	cell_type 693 705	granulocytes
+T25	cell_type 727 738	macrophages
+T26	gene 740 744	Iba1
+T27	cell_type 746 755	microglia
+T28	gene 757 761	GFAP
+T29	cell_type 763 773	astrocytes
+T30	cell_type 784 801	endothelial cells
+T31	cell_type 811 818	neurons
+T32	gene 853 856	TCR
+T33	gene 859 862	TCR
+T34	gene 869 872	TCR
+T35	cell_type 885 892	T cells
+T36	cell_type 897 904	B cells
+T37	cell_type 952 962	lymphocyte
+T38	gene 988 993	TIM-1
+T39	gene 1016 1020	CD68
+T40	cell_type 1024 1035	macrophages
+T41	cell_type 1049 1065	epithelial cells
+T42	gene 1073 1078	TIM-3
+T43	cell_type 1152 1159	T cells
+T44	gene 1161 1165	CD68
+T45	cell_type 1169 1180	macrophages
+T46	gene 1182 1187	CD11c
+T47	cell_type 1191 1206	dendritic cells
+T48	gene 1208 1212	CD16
+T49	cell_type 1216 1224	NK Cells
+T50	gene 1226 1230	CD31
+T51	cell_type 1234 1251	endothelial cells
+T52	cell_type 1265 1281	epithelial cells
+T53	cell_type 1287 1295	monocyte
+T54	gene 1304 1317	interleukin 1
+T55	gene 1352 1365	interleukin 1
+T56	cell_type 1426 1439	B lymphocytes
+T57	cell_type 1441 1455	synovial cells
+T58	cell_type 1461 1473	chondrocytes
+T59	cell_type 1488 1498	fibroblast
+T60	gene 1516 1520	FGF8
+T61	gene 1572 1577	Fgfr1
+T62	gene 1582 1587	Fgfr3
+T63	cell_type 1592 1600	neuronal
+T64	cell_type 1613 1623	Macrophage
+T65	gene 1624 1649	colony-stimulating factor
+T66	gene 1651 1656	CSF-1
+T67	cell_type 1687 1698	macrophages
+T68	gene 1734 1737	APC
+T69	cell_type 1758 1769	osteoblasts
+T70	cell_type 1774 1785	osteoclasts
+T71	cell_type 1797 1807	osteocytes
+T72	gene 1809 1819	Sclerostin
+T73	gene 1821 1834	interleukin-6
+T74	gene 1836 1840	IL-6
+T75	gene 1847 1875	insulin-like growth factor-I
+T76	gene 1877 1882	IGF-I
+T77	cell_type 1888 1897	osteocyte
+T78	cell_type 1922 1933	osteoblasts
+T79	gene 1955 1959	IL-2
+T80	gene 1961 1965	IL-4
+T81	gene 1967 1971	IL-6
+T82	gene 1973 1978	IL-10
+T83	gene 1987 1992	IL-13
+T84	cell_type 2005 2016	granulocyte
+T85	gene 2017 2020	CSF
+T86	cell_type 2022 2032	macrophage
+T87	gene 2033 2036	CSF
+T88	gene 2042 2050	TGF-beta
+T89	cell_type 2163 2173	leukocytes
+T90	cell_type 2219 2230	lymphocytes
+T91	cell_type 2251 2262	lymphocytic
+T92	gene 2279 2282	CD4
+T93	gene 2291 2295	CD16
+T94	gene 2298 2302	CD22
+T95	gene 2338 2346	resistin
+T96	gene 2375 2380	MCP-1
+T97	gene 2385 2392	PECAM-1
+T98	cell_type 2409 2418	monocytes
+T99	cell_type 2422 2439	endothelial cells
+T100	gene 2441 2446	RGS10
+T101	cell_type 2518 2527	microglia
+T102	cell_type 2529 2540	macrophages
+T103	cell_type 2542 2556	megakaryocytes
+T104	cell_type 2562 2571	platelets
+T105	cell_type 2599 2606	T cells
+T106	cell_type 2612 2619	T cells
+T107	gene 2669 2674	CXCR3
+T108	gene 2678 2682	CCR5
+T109	cell_type 2717 2725	monocyte
+T110	cell_type 2726 2736	macrophage
+T111	gene 2745 2749	IL-6
+T112	gene 2783 2787	IL-6
+T113	gene 2792 2796	MUC1
+T114	gene 2840 2845	IL-10
+T115	gene 2870 2875	CCL18
+T116	gene 2906 2910	IL-4
+T117	gene 2914 2919	IL-13
+T118	cell_type 2923 2932	monocytes
+T119	cell_type 2937 2945	monocyte
+T120	gene 2977 2982	CD11b
+T121	cell_type 3014 3025	macrophages
+T122	cell_type 3030 3041	neutrophils
+T123	gene 3059 3063	Cnr2
+T124	cell_type 3106 3116	macrophage
+T125	gene 3136 3146	arginase-1
+T126	gene 3161 3166	IL-10
+T127	cell_type 3182 3191	stem cell
+T128	gene 3251 3255	CD44
+T129	gene 3257 3261	CD24
+T130	gene 3276 3280	CD24

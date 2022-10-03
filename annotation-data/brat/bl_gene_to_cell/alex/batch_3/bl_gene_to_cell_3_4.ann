@@ -1,0 +1,101 @@
+T1	gene 0 3	HGF
+T2	cell_type 4 15	fibroblasts
+T3	gene 32 35	HGF
+T4	cell_type 36 49	keratinocytes
+T5	gene 91 99	collagen
+T6	gene 104 110	TIMP-1
+T7	gene 137 142	Smad1
+T8	cell_type 148 159	lymphocytes
+T9	gene 197 201	MSX2
+T10	gene 213 217	BMP4
+T11	gene 243 247	IL-4
+T12	gene 252 256	IL-4
+T13	gene 262 271	TNF-alpha
+T14	gene 275 282	eotaxin
+T15	gene 311 314	Enp
+T16	cell_type 315 326	fibroblasts
+T17	cell_type 346 357	fibroblasts
+T18	gene 372 378	SPATA2
+T19	gene 380 416	Spermatogenesis-Associated Protein 2
+T20	cell_type 424 437	Sertoli Cells
+T21	cell_type 441 462	Pancreatic Beta-Cells
+T22	gene 464 468	Vav1
+T23	gene 494 498	JNK1
+T24	cell_type 514 521	T cells
+T25	cell_type 540 553	T lymphocytes
+T26	gene 569 574	MAPK8
+T27	gene 575 579	JNK1
+T28	gene 584 589	MAPK9
+T29	gene 590 594	JNK2
+T30	cell_type 677 688	fibroblasts
+T31	cell_type 693 709	epithelial cells
+T32	gene 724 740	cyclooxygenase-2
+T33	gene 744 765	heat shock protein 60
+T34	cell_type 769 780	macrophages
+T35	cell_type 785 802	endothelial cells
+T36	gene 886 890	CD68
+T37	gene 904 908	CD45
+T38	cell_type 918 929	macrophages
+T39	gene 934 938	CD31
+T40	cell_type 962 988	vascular endothelial cells
+T41	cell_type 990 1012	Cytotoxic T-lymphocyte
+T42	gene 1035 1041	CTLA-4
+T43	cell_type 1095 1102	T cells
+T44	cell_type 1107 1125	regulatory T cells
+T45	gene 1145 1148	EGF
+T46	cell_type 1166 1175	platelets
+T47	cell_type 1185 1198	megakaryocyte
+T48	cell_type 1200 1214	megakaryocytes
+T49	gene 1268 1271	EGF
+T50	gene 1334 1337	EGF
+T51	cell_type 1352 1366	megakaryocytes
+T52	gene 1384 1387	uPA
+T53	cell_type 1431 1442	macrophages
+T54	gene 1455 1458	THP
+T55	cell_type 1461 1470	monocytes
+T56	cell_type 1480 1491	macrophages
+T57	cell_type 1517 1528	macrophages
+T58	cell_type 1549 1581	granulocyte-monocyte progenitors
+T59	cell_type 1585 1601	mononuclear cell
+T60	gene 1648 1664	stem cell factor
+T61	gene 1666 1679	interleukin-3
+T62	cell_type 1684 1695	granulocyte
+T63	cell_type 1696 1704	monocyte
+T64	gene 1705 1730	colony stimulating factor
+T65	gene 1753 1757	GDNF
+T66	gene 1762 1771	neurturin
+T67	cell_type 1800 1807	neurons
+T68	cell_type 1812 1823	glial cells
+T69	gene 1857 1864	Jagged2
+T70	gene 1866 1872	Delta1
+T71	gene 1877 1883	Delta4
+T72	cell_type 1905 1913	NK cells
+T73	gene 1946 1950	CD33
+T74	cell_type 1977 1997	pancreatic beta-cell
+T75	gene 2045 2052	insulin
+T76	gene 2071 2078	insulin
+T77	gene 2158 2162	CD28
+T78	cell_type 2166 2172	T cell
+T79	gene 2176 2179	CD4
+T80	cell_type 2183 2190	T cells
+T81	gene 2195 2199	CD38
+T82	cell_type 2203 2209	T cell
+T83	gene 2220 2223	CD4
+T84	cell_type 2227 2234	T cells
+T85	gene 2253 2257	CD38
+T86	cell_type 2261 2267	T cell
+T87	gene 2296 2300	NPC2
+T88	cell_type 2329 2339	astrocytes
+T89	gene 2374 2382	resistin
+T90	cell_type 2423 2434	neutrophils
+T91	cell_type 2444 2453	monocytes
+T92	cell_type 2459 2468	monocytic
+T93	gene 2481 2485	TLR2
+T94	gene 2490 2494	TLR4
+T95	gene 2522 2525	THP
+T96	cell_type 2531 2541	macrophage
+T97	gene 2567 2573	S100A4
+T98	gene 2575 2581	S100A6
+T99	gene 2587 2597	galectin-1
+T100	gene 2631 2634	CD4
+T101	cell_type 2640 2649	thymocyte

@@ -1,0 +1,144 @@
+T1	gene 30 34	HCN2
+T2	cell_type 44 51	neurons
+T3	gene 96 100	HCN2
+T4	cell_type 125 144	cholinergic neurons
+T5	cell_type 149 159	hepatocyte
+T6	gene 209 215	Abcb1a
+T7	gene 217 223	Abcb1b
+T8	gene 225 230	Abcc2
+T9	gene 232 238	Cyp1a1
+T10	gene 240 246	Cyp1a2
+T11	gene 263 269	Abcb1a
+T12	gene 271 277	Abcb1b
+T13	gene 279 284	Abcg2
+T14	gene 286 292	Cyp1a1
+T15	gene 294 300	Cyp1a2
+T16	gene 367 371	IL-5
+T17	cell_type 375 384	Th2 cells
+T18	gene 403 407	IL-4
+T19	gene 409 414	IL-13
+T20	gene 420 426	GATA-3
+T21	gene 439 443	IL-5
+T22	cell_type 447 456	Th2 cells
+T23	gene 472 475	p38
+T24	gene 476 480	MAPK
+T25	gene 544 553	TNF-alpha
+T26	gene 558 567	IL-1 beta
+T27	cell_type 571 582	macrophages
+T28	cell_type 587 597	fibroblast
+T29	cell_type 603 615	synoviocytes
+T30	gene 623 627	CD20
+T31	gene 631 635	CD27
+T32	cell_type 683 690	B1 cell
+T33	gene 705 709	CD27
+T34	cell_type 713 720	B cells
+T35	gene 722 727	IL-10
+T36	gene 743 746	CD4
+T37	cell_type 759 772	B lymphocytes
+T38	cell_type 774 784	mast cells
+T39	cell_type 799 808	monocytes
+T40	cell_type 810 821	macrophages
+T41	cell_type 826 839	keratinocytes
+T42	gene 841 850	Kindlin-3
+T43	cell_type 867 886	hematopoietic cells
+T44	cell_type 888 897	platelets
+T45	cell_type 903 920	endothelial cells
+T46	gene 933 939	Zscan4
+T47	cell_type 966 979	spermatocytes
+T48	cell_type 1022 1035	Sertoli cells
+T49	gene 1062 1066	IL-5
+T50	cell_type 1081 1092	neutrophils
+T51	gene 1094 1098	CD68
+T52	gene 1136 1141	HIF-1
+T53	gene 1181 1188	elastin
+T54	cell_type 1202 1220	smooth muscle cell
+T55	cell_type 1279 1290	macrophages
+T56	cell_type 1292 1299	T cells
+T57	cell_type 1305 1312	B cells
+T58	cell_type 1351 1359	neuronal
+T59	gene 1382 1386	CLN8
+T60	cell_type 1403 1411	neuronal
+T61	cell_type 1416 1424	neuronal
+T62	gene 1446 1449	p38
+T63	gene 1450 1454	MAPK
+T64	cell_type 1486 1495	mast cell
+T65	gene 1506 1515	TNF-alpha
+T66	gene 1538 1547	TNF-alpha
+T67	gene 1570 1580	P-selectin
+T68	cell_type 1585 1595	neutrophil
+T69	cell_type 1608 1625	endothelial cells
+T70	cell_type 1651 1656	sperm
+T71	gene 1693 1699	IZUMO1
+T72	gene 1719 1725	Inpp5b
+T73	cell_type 1731 1736	sperm
+T74	gene 1738 1743	Rab27
+T75	gene 1803 1814	granuphilin
+T76	cell_type 1818 1839	pancreatic beta cells
+T77	gene 1844 1856	melanophilin
+T78	cell_type 1860 1871	melanocytes
+T79	gene 1873 1877	CCR1
+T80	cell_type 1915 1924	monocytes
+T81	gene 1926 1930	CD20
+T82	cell_type 1940 1947	B cells
+T83	cell_type 1969 1984	dendritic cells
+T84	gene 2017 2021	CD14
+T85	gene 2026 2030	CD16
+T86	cell_type 2037 2046	monocytic
+T87	gene 2057 2061	CD14
+T88	gene 2069 2073	CD16
+T89	cell_type 2080 2089	monocytic
+T90	gene 2104 2108	CD14
+T91	gene 2116 2120	CD16
+T92	gene 2194 2199	CXCL5
+T93	gene 2204 2209	CXCL8
+T94	cell_type 2234 2250	epithelial cells
+T95	gene 2260 2265	CXCL1
+T96	gene 2267 2272	CXCL2
+T97	gene 2278 2283	CXCL3
+T98	cell_type 2309 2320	blood cells
+T99	gene 2355 2359	Dlx3
+T100	gene 2361 2365	Dlx4
+T101	gene 2367 2371	Emx2
+T102	gene 2373 2377	Lhx2
+T103	gene 2379 2384	Meis1
+T104	gene 2386 2390	Pbx3
+T105	gene 2392 2398	Pknox2
+T106	gene 2400 2406	Pou6f1
+T107	gene 2408 2413	Tshz2
+T108	gene 2415 2419	Zhx1
+T109	gene 2421 2425	Zhx3
+T110	cell_type 2462 2469	neurons
+T111	gene 2489 2493	Pax6
+T112	gene 2495 2499	Six1
+T113	gene 2501 2506	Tgif1
+T114	gene 2508 2513	Zfhx3
+T115	cell_type 2546 2554	neuronal
+T116	gene 2578 2582	Pax6
+T117	gene 2584 2588	Six1
+T118	gene 2593 2598	Tgif1
+T119	cell_type 2622 2630	neuronal
+T120	gene 2678 2682	Adnp
+T121	gene 2684 2688	Cux1
+T122	gene 2690 2694	Dlx5
+T123	gene 2696 2700	Dlx6
+T124	gene 2702 2707	Meis2
+T125	gene 2709 2713	Pbx2
+T126	gene 2715 2721	Pknox1
+T127	gene 2723 2729	Pou2f1
+T128	gene 2731 2736	Satb1
+T129	gene 2738 2743	Tshz1
+T130	gene 2745 2750	Tshz3
+T131	gene 2752 2756	Zhx2
+T132	cell_type 2782 2790	neuronal
+T133	cell_type 2799 2807	neuronal
+T134	gene 2849 2853	Hopx
+T135	gene 2917 2927	Huntingtin
+T136	cell_type 2970 2977	neurons
+T137	cell_type 2982 2995	somatic cells
+T138	gene 3044 3051	KIR3DS1
+T139	gene 3054 3061	KIR2DL5
+T140	gene 3066 3073	KIR3DS1
+T141	gene 3076 3083	KIR2DS1
+T142	gene 3088 3095	KIR3DS1
+T143	gene 3098 3105	KIR2DS5
+T144	cell_type 3109 3117	NK cells

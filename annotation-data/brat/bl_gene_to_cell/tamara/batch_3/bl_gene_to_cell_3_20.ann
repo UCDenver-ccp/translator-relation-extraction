@@ -1,0 +1,100 @@
+T1	cell_type 33 43	macrophage
+T2	gene 52 56	Erk1
+T3	gene 62 65	p38
+T4	gene 66 71	Stat3
+T5	cell_type 116 132	cortical neurons
+T6	gene 151 155	TLR3
+T7	cell_type 169 176	neurons
+T8	gene 204 209	HSV-1
+T9	gene 211 215	GDF9
+T10	gene 220 225	BMP15
+T11	cell_type 281 296	granulosa cells
+T12	cell_type 305 312	oocytes
+T13	gene 390 394	IL-2
+T14	cell_type 416 424	Th1 cell
+T15	gene 445 454	TNF-alpha
+T16	gene 456 465	IL-1 beta
+T17	gene 471 475	IL-8
+T18	cell_type 483 491	monocyte
+T19	cell_type 492 502	macrophage
+T20	gene 538 541	Col
+T21	gene 546 551	Runx2
+T22	cell_type 596 606	osteoblast
+T23	cell_type 611 621	fibroblast
+T24	gene 657 683	leukemia inhibitory factor
+T25	cell_type 685 695	macrophage
+T26	gene 696 721	colony-stimulating factor
+T27	gene 723 756	macrophage inflammatory protein-2
+T28	gene 761 795	vascular endothelial growth factor
+T29	gene 840 844	LacZ
+T30	gene 869 873	LacZ
+T31	gene 887 893	ICAM-1
+T32	gene 898 908	E-selectin
+T33	cell_type 912 929	endothelial cells
+T34	gene 956 960	CD25
+T35	gene 963 966	CD4
+T36	cell_type 970 977	T cells
+T37	cell_type 982 991	Tr1 cells
+T38	gene 1058 1062	Iba1
+T39	gene 1067 1071	CD68
+T40	gene 1097 1103	LYVE-1
+T41	cell_type 1105 1116	macrophages
+T42	gene 1186 1189	OPG
+T43	cell_type 1206 1216	osteoblast
+T44	gene 1298 1303	RANKL
+T45	cell_type 1320 1330	osteoblast
+T46	gene 1340 1344	RANK
+T47	cell_type 1369 1379	osteoclast
+T48	cell_type 1426 1434	platelet
+T49	gene 1435 1440	GpIIb
+T50	cell_type 1477 1485	platelet
+T51	gene 1486 1497	plasminogen
+T52	gene 1527 1532	PAI-1
+T53	gene 1555 1560	LFA-1
+T54	cell_type 1583 1593	Th17 cells
+T55	gene 1611 1615	CD14
+T56	gene 1619 1623	CD16
+T57	cell_type 1641 1650	monocytes
+T58	gene 1652 1658	NLRP12
+T59	gene 1684 1691	Blimp-1
+T60	cell_type 1693 1705	B-lymphocyte
+T61	gene 1736 1741	PRDM1
+T62	gene 1801 1808	Blimp-1
+T63	gene 1817 1823	NLRP12
+T64	cell_type 1851 1860	monocytes
+T65	cell_type 1861 1872	macrophages
+T66	gene 1874 1879	GPR41
+T67	gene 1884 1889	GPR43
+T68	gene 1914 1941	G protein-coupled receptors
+T69	gene 1943 1948	GPCRs
+T70	cell_type 1969 1979	adipocytes
+T71	cell_type 1981 2003	colon epithelial cells
+T72	cell_type 2026 2043	mononuclear cells
+T73	gene 2092 2096	Dll4
+T74	gene 2101 2107	Notch1
+T75	cell_type 2111 2128	endothelial cells
+T76	cell_type 2130 2139	microglia
+T77	cell_type 2140 2151	macrophages
+T78	cell_type 2170 2180	astrocytes
+T79	gene 2209 2217	lubricin
+T80	gene 2246 2277	transforming growth factor beta
+T81	cell_type 2328 2350	articular chondrocytes
+T82	cell_type 2355 2367	synoviocytes
+T83	gene 2385 2391	VEGF-A
+T84	cell_type 2430 2437	oocytes
+T85	cell_type 2439 2454	granulosa cells
+T86	gene 2497 2501	Reg3
+T87	gene 2507 2511	Reg3
+T88	cell_type 2541 2556	epithelial cell
+T89	cell_type 2571 2582	enterocytes
+T90	cell_type 2584 2596	Paneth cells
+T91	cell_type 2602 2614	goblet cells
+T92	gene 2616 2620	TLR2
+T93	gene 2625 2629	TLR9
+T94	cell_type 2644 2650	B cell
+T95	gene 2651 2655	TLR4
+T96	cell_type 2711 2717	B cell
+T97	cell_type 2802 2814	promonocytic
+T98	cell_type 2831 2841	macrophage
+T99	gene 2883 2892	cyclin T1
+T100	gene 2951 2955	Cdk9

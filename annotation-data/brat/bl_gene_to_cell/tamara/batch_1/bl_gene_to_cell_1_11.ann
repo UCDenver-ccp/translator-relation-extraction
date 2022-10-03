@@ -1,0 +1,146 @@
+T1	gene 20 24	IL-4
+T2	cell_type 34 49	epithelial cell
+T3	gene 50 56	ICAM-1
+T4	gene 72 76	IL-4
+T5	gene 105 108	THP
+T6	cell_type 111 119	monocyte
+T7	cell_type 120 130	macrophage
+T8	cell_type 140 156	epithelial cells
+T9	cell_type 179 194	epithelial cell
+T10	gene 195 201	ICAM-1
+T11	gene 216 220	IL-4
+T12	cell_type 293 303	stem cells
+T13	gene 324 329	Foxp3
+T14	cell_type 331 348	regulatory T cell
+T15	gene 398 401	Th1
+T16	cell_type 406 416	Th17 cells
+T17	gene 418 421	CD4
+T18	gene 423 427	CCR4
+T19	cell_type 438 449	lymphocytes
+T20	gene 464 468	IL-4
+T21	gene 493 496	CD4
+T22	gene 498 502	CCR4
+T23	gene 513 523	Grancalcin
+T24	cell_type 563 574	neutrophils
+T25	cell_type 579 588	monocytes
+T26	cell_type 589 600	macrophages
+T27	gene 642 646	CD56
+T28	gene 648 652	CD68
+T29	gene 664 668	CD1a
+T30	cell_type 693 713	natural killer cells
+T31	cell_type 715 726	macrophages
+T32	cell_type 728 738	mast cells
+T33	cell_type 743 759	Langerhans cells
+T34	gene 775 779	TLR1
+T35	cell_type 812 821	monocytes
+T36	cell_type 826 837	neutrophils
+T37	cell_type 844 853	monocytes
+T38	gene 891 895	TLR2
+T39	cell_type 920 931	hepatocytes
+T40	gene 940 944	CD14
+T41	cell_type 954 964	hepatocyte
+T42	gene 965 969	CD14
+T43	cell_type 1031 1042	Lymphocytes
+T44	gene 1066 1072	GM-CSF
+T45	gene 1077 1081	IL-3
+T46	gene 1113 1117	IL-4
+T47	gene 1122 1125	LIF
+T48	cell_type 1133 1144	histiocytes
+T49	gene 1153 1162	TNF alpha
+T50	gene 1164 1173	IL-1 beta
+T51	gene 1178 1184	GM-CSF
+T52	cell_type 1234 1247	naive T cells
+T53	gene 1249 1252	CD4
+T54	cell_type 1256 1263	T cells
+T55	gene 1281 1284	CD4
+T56	gene 1297 1301	CD25
+T57	cell_type 1306 1313	T cells
+T58	cell_type 1324 1335	neuroblasts
+T59	cell_type 1355 1362	neurons
+T60	gene 1426 1458	microtubule-associated protein 2
+T61	gene 1460 1464	MAP2
+T62	gene 1467 1470	tau
+T63	cell_type 1525 1531	neuron
+T64	gene 1553 1566	synaptophysin
+T65	cell_type 1598 1605	neurons
+T66	gene 1607 1611	CCL2
+T67	gene 1616 1629	interleukin-6
+T68	gene 1656 1661	CD11b
+T69	cell_type 1680 1697	mononuclear cells
+T70	cell_type 1717 1727	macrophage
+T71	gene 1762 1767	Bcl-2
+T72	cell_type 1830 1837	B cells
+T73	cell_type 1839 1846	T cells
+T74	cell_type 1852 1861	monocytes
+T75	gene 1869 1873	GFAP
+T76	gene 1875 1879	IBA1
+T77	cell_type 1931 1938	neurons
+T78	cell_type 1940 1950	astrocytes
+T79	cell_type 1952 1961	microglia
+T80	cell_type 2010 2018	monocyte
+T81	gene 2048 2052	CSF2
+T82	gene 2069 2085	cyclooxygenase-2
+T83	cell_type 2112 2120	monocyte
+T84	gene 2164 2168	CSF2
+T85	gene 2208 2212	Ang1
+T86	cell_type 2227 2238	osteoblasts
+T87	gene 2284 2294	connexin43
+T88	gene 2348 2352	Ang2
+T89	gene 2364 2378	integrin beta1
+T90	cell_type 2472 2494	pluripotent stem cells
+T91	gene 2496 2500	CD14
+T92	gene 2506 2510	CD45
+T93	gene 2520 2524	CD34
+T94	cell_type 2531 2539	monocyte
+T95	cell_type 2580 2588	monocyte
+T96	gene 2622 2626	CD14
+T97	gene 2632 2636	CD45
+T98	gene 2642 2646	CD34
+T99	gene 2652 2655	Col
+T100	gene 2663 2668	CD11b
+T101	gene 2674 2678	CD68
+T102	gene 2699 2705	VEGFR1
+T103	cell_type 2748 2752	EPCs
+T104	cell_type 2757 2766	monocytic
+T105	cell_type 2782 2801	hematopoietic cells
+T106	cell_type 2817 2836	hematopoietic cells
+T107	gene 2838 2842	CD14
+T108	gene 2848 2852	CD45
+T109	gene 2858 2862	CD34
+T110	gene 2872 2878	VEGFR2
+T111	gene 2886 2891	CXCR4
+T112	gene 2935 2939	CD14
+T113	gene 2956 2962	VEGFR2
+T114	gene 2979 2990	VE-cadherin
+T115	cell_type 3013 3023	fibroblast
+T116	cell_type 3068 3077	monocytes
+T117	gene 3079 3083	CD14
+T118	gene 3089 3093	CD45
+T119	gene 3099 3103	CD34
+T120	gene 3115 3118	Col
+T121	cell_type 3131 3141	fibrocytes
+T122	gene 3143 3147	CD14
+T123	gene 3153 3157	CD45
+T124	gene 3163 3167	CD34
+T125	gene 3173 3176	Col
+T126	gene 3188 3193	CXCR4
+T127	gene 3204 3210	GPIIIa
+T128	cell_type 3249 3268	smooth muscle cells
+T129	cell_type 3303 3311	platelet
+T130	gene 3334 3339	GPIIb
+T131	cell_type 3389 3397	platelet
+T132	gene 3398 3403	GPIIb
+T133	gene 3424 3435	Follistatin
+T134	gene 3444 3449	FSTL1
+T135	cell_type 3481 3502	skeletal muscle cells
+T136	cell_type 3507 3523	cardiac myocytes
+T137	cell_type 3525 3534	Th1 cells
+T138	gene 3543 3547	IL-2
+T139	cell_type 3603 3612	Th2 cells
+T140	gene 3621 3625	IL-4
+T141	gene 3627 3631	IL-5
+T142	gene 3633 3637	IL-6
+T143	gene 3643 3648	IL-10
+T144	gene 3702 3707	TIP39
+T145	gene 3712 3720	tuftelin
+T146	cell_type 3733 3743	ameloblast

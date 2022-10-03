@@ -1,0 +1,103 @@
+T1	gene 3 6	mex
+T2	gene 9 12	gld
+T3	cell_type 24 34	germ cells
+T4	cell_type 67 79	somatic cell
+T5	cell_type 105 112	neurons
+T6	gene 114 118	IRF8
+T7	gene 165 169	IRF8
+T8	cell_type 214 224	mast cells
+T9	cell_type 230 238	basophil
+T10	cell_type 239 248	mast cell
+T11	gene 296 300	TLR3
+T12	gene 302 306	TLR5
+T13	gene 308 312	TLR7
+T14	gene 318 322	TLR9
+T15	cell_type 326 335	monocytes
+T16	gene 355 367	butyrophilin
+T17	gene 384 390	Btn2a2
+T18	gene 417 420	APC
+T19	gene 431 435	CD19
+T20	cell_type 439 446	B cells
+T21	cell_type 465 487	peritoneal macrophages
+T22	gene 493 498	CD11c
+T23	cell_type 522 537	dendritic cells
+T24	cell_type 613 626	T lymphocytes
+T25	gene 628 635	Insulin
+T26	cell_type 647 654	T cells
+T27	cell_type 665 682	regulatory T-cell
+T28	gene 703 710	insulin
+T29	gene 722 727	RANKL
+T30	cell_type 756 767	lymphocytes
+T31	cell_type 772 783	macrophages
+T32	cell_type 796 803	B cells
+T33	gene 822 826	NOD1
+T34	gene 831 835	NOD2
+T35	cell_type 868 875	B cells
+T36	gene 896 900	NOD1
+T37	gene 915 919	CD34
+T38	cell_type 921 934	keratinocytes
+T39	gene 964 972	integrin
+T40	gene 993 997	CD34
+T41	gene 1015 1018	NGF
+T42	gene 1020 1024	GDNF
+T43	gene 1038 1042	TrkA
+T44	gene 1048 1052	BDNF
+T45	cell_type 1077 1087	basal cell
+T46	cell_type 1128 1137	stem cell
+T47	gene 1161 1165	GATA
+T48	gene 1185 1190	GATA4
+T49	cell_type 1195 1213	neural crest cells
+T50	cell_type 1215 1219	NCCs
+T51	cell_type 1251 1262	macrophages
+T52	gene 1268 1273	SIRT1
+T53	gene 1305 1310	SIRT1
+T54	cell_type 1329 1340	hepatocytes
+T55	cell_type 1391 1402	macrophages
+T56	gene 1424 1428	CD14
+T57	cell_type 1451 1462	macrophages
+T58	gene 1466 1470	CD45
+T59	gene 1471 1475	CD14
+T60	cell_type 1480 1488	b- cells
+T61	gene 1509 1514	PTHrP
+T62	gene 1518 1521	Tax
+T63	cell_type 1534 1541	T cells
+T64	cell_type 1553 1559	B-cell
+T65	cell_type 1569 1580	fibroblasts
+T66	gene 1582 1587	MCP-2
+T67	gene 1592 1597	MCP-3
+T68	gene 1631 1636	MCP-1
+T69	cell_type 1671 1680	monocytes
+T70	cell_type 1690 1701	neutrophils
+T71	gene 1713 1724	Tricellulin
+T72	cell_type 1746 1753	neurons
+T73	cell_type 1758 1768	astrocytes
+T74	cell_type 1813 1823	astrocytes
+T75	cell_type 1835 1842	neurons
+T76	gene 1885 1890	TNFR1
+T77	gene 1896 1901	TNFR2
+T78	cell_type 1926 1933	neurons
+T79	cell_type 1935 1945	astrocytes
+T80	cell_type 1951 1967	oligodendrocytes
+T81	cell_type 2016 2022	neuron
+T82	cell_type 2058 2065	neurons
+T83	gene 2092 2123	glial fibrillary acidic protein
+T84	cell_type 2125 2135	astrocytes
+T85	gene 2141 2152	transferrin
+T86	cell_type 2154 2170	oligodendrocytes
+T87	cell_type 2259 2266	B-cells
+T88	gene 2275 2279	CD19
+T89	gene 2282 2286	CD24
+T90	gene 2327 2331	CD19
+T91	gene 2334 2338	CD24
+T92	gene 2365 2369	CD19
+T93	gene 2372 2376	CD24
+T94	cell_type 2460 2476	epithelial cells
+T95	cell_type 2488 2504	epithelial cells
+T96	gene 2606 2614	loricrin
+T97	cell_type 2727 2742	epithelial cell
+T98	cell_type 2827 2840	erythroblasts
+T99	gene 2873 2877	GATA
+T100	gene 2896 2901	GATA2
+T101	gene 2904 2909	GATA1
+T102	gene 2914 2930	Friend of gata-1
+T103	gene 2932 2936	FOG1

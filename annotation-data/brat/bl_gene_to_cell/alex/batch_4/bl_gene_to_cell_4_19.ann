@@ -1,0 +1,103 @@
+T1	gene 4 9	Bcl-2
+T2	gene 59 64	Bcl-2
+T3	cell_type 91 101	adipocytes
+T4	cell_type 103 115	chondrocytes
+T5	cell_type 121 132	osteoblasts
+T6	cell_type 134 144	Mast cells
+T7	gene 158 171	interleukin-9
+T8	cell_type 184 193	mast cell
+T9	gene 246 250	IL-5
+T10	gene 252 256	IL-6
+T11	gene 258 262	IL-9
+T12	gene 267 272	IL-13
+T13	gene 274 278	IL-8
+T14	gene 326 330	CD10
+T15	cell_type 334 347	stromal cells
+T16	gene 352 356	CD14
+T17	cell_type 360 371	macrophages
+T18	gene 418 422	CD14
+T19	gene 462 465	CD4
+T20	gene 482 487	IL-22
+T21	cell_type 491 498	T cells
+T22	cell_type 500 510	Th22 cells
+T23	gene 513 516	CD4
+T24	gene 526 531	IL-22
+T25	cell_type 542 549	T cells
+T26	cell_type 556 566	Th17 cells
+T27	gene 569 572	CD4
+T28	cell_type 583 590	T cells
+T29	cell_type 592 602	Th17 cells
+T30	cell_type 623 630	T cells
+T31	cell_type 632 641	Th1 cells
+T32	cell_type 729 740	Osteoblasts
+T33	cell_type 750 760	osteocytes
+T34	gene 791 802	osteopontin
+T35	gene 807 818	osteopontin
+T36	gene 833 837	IL-7
+T37	gene 884 887	CD4
+T38	cell_type 891 898	T cells
+T39	cell_type 903 911	monocyte
+T40	cell_type 912 923	macrophages
+T41	gene 925 938	Interleukin-6
+T42	gene 956 963	insulin
+T43	cell_type 978 989	hepatocytes
+T44	gene 1005 1010	NKCC1
+T45	cell_type 1042 1052	astrocytes
+T46	cell_type 1057 1073	oligodendrocytes
+T47	gene 1075 1079	TLR7
+T48	gene 1111 1115	CD14
+T49	cell_type 1117 1126	monocytes
+T50	gene 1184 1188	TLR7
+T51	gene 1189 1193	CD14
+T52	cell_type 1238 1246	monocyte
+T53	gene 1276 1281	MMP-3
+T54	cell_type 1298 1309	osteoblasts
+T55	cell_type 1314 1324	osteocytes
+T56	gene 1330 1336	TIMP-1
+T57	cell_type 1361 1372	osteoblasts
+T58	gene 1408 1411	Cl2
+T59	gene 1411 1414	MDP
+T60	cell_type 1443 1454	osteoclasts
+T61	cell_type 1459 1470	osteoblasts
+T62	gene 1482 1486	CD48
+T63	gene 1487 1490	Gr1
+T64	gene 1491 1495	Gfi1
+T65	gene 1575 1579	Gfi1
+T66	cell_type 1599 1608	monocytes
+T67	cell_type 1617 1628	granulocyte
+T68	cell_type 1646 1657	blood cells
+T69	gene 1661 1665	CD34
+T70	cell_type 1667 1684	bone marrow cells
+T71	gene 1705 1721	stem cell factor
+T72	gene 1735 1739	IL-4
+T73	cell_type 1743 1755	stromal cell
+T74	gene 1785 1789	NHE3
+T75	gene 1796 1800	CFTR
+T76	gene 1814 1819	NKCC1
+T77	gene 1821 1825	NCC2
+T78	cell_type 1853 1862	ionocytes
+T79	gene 1898 1902	NHE3
+T80	gene 1912 1916	NCC2
+T81	cell_type 1938 1954	myometrial cells
+T82	gene 1963 1967	OCT4
+T83	cell_type 2012 2028	epithelial cells
+T84	gene 2030 2034	IL-6
+T85	gene 2036 2040	IL-8
+T86	cell_type 2046 2057	granulocyte
+T87	cell_type 2058 2068	macrophage
+T88	cell_type 2152 2161	stem cell
+T89	gene 2192 2196	CD44
+T90	gene 2198 2202	CD24
+T91	gene 2231 2234	CD4
+T92	gene 2236 2240	CCR5
+T93	gene 2245 2250	CXCR4
+T94	cell_type 2282 2292	macrophage
+T95	cell_type 2298 2304	T cell
+T96	gene 2363 2366	CD4
+T97	cell_type 2367 2374	T-cells
+T98	gene 2380 2384	CD14
+T99	cell_type 2385 2394	monocytes
+T100	cell_type 2446 2455	monocytes
+T101	cell_type 2464 2475	fibroblasts
+T102	gene 2503 2513	uromodulin
+T103	gene 2519 2531	glycoprotein

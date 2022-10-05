@@ -1,0 +1,63 @@
+T1	chemical 0 4	IGF2
+T2	chemical 43 47	IGF2
+T3	chemical 85 94	biomarker
+T4	disease_or_phenotypic_feature 109 123	ovarian tumors
+T5	disease_or_phenotypic_feature 151 154	RCC
+T6	chemical 219 227	antigens
+T7	disease_or_phenotypic_feature 257 264	obesity
+T8	chemical 283 298	thyroid hormone
+T9	chemical 300 314	growth hormone
+T10	chemical 340 349	Phenytoin
+T11	chemical 350 358	rifampin
+T12	chemical 359 363	drug
+T13	disease_or_phenotypic_feature 398 411	renal failure
+T14	chemical 453 460	balance
+T15	chemical 462 466	food
+T16	disease_or_phenotypic_feature 485 492	obesity
+T17	chemical 592 600	antigens
+T18	disease_or_phenotypic_feature 684 698	bladder tumors
+T19	chemical 869 877	antigens
+T20	chemical 923 931	antigens
+T21	disease_or_phenotypic_feature 940 949	neoplasms
+T22	chemical 951 960	Vitamin D
+T23	chemical 970 977	mineral
+T24	disease_or_phenotypic_feature 1024 1031	obesity
+T25	chemical 1033 1044	Biochemical
+T26	chemical 1077 1086	phenytoin
+T27	disease_or_phenotypic_feature 1095 1107	cleft palate
+T28	chemical 1127 1131	drug
+T29	chemical 1132 1143	fenofibrate
+T30	disease_or_phenotypic_feature 1189 1207	myocardial disease
+T31	disease_or_phenotypic_feature 1224 1236	hypertension
+T32	disease_or_phenotypic_feature 1241 1255	hyperlipidemia
+T33	chemical 1262 1266	food
+T34	disease_or_phenotypic_feature 1271 1278	obesity
+T35	chemical 1304 1311	biology
+T36	disease_or_phenotypic_feature 1327 1343	C-cell carcinoma
+T37	chemical 1364 1370	oxygen
+T38	disease_or_phenotypic_feature 1408 1415	anxiety
+T39	chemical 1427 1433	oxygen
+T40	disease_or_phenotypic_feature 1449 1462	heart failure
+T41	disease_or_phenotypic_feature 1549 1557	melanoma
+T42	chemical 1589 1598	phosphate
+T43	chemical 1599 1607	buffered
+T44	chemical 1608 1614	saline
+T45	chemical 1640 1648	estrogen
+T46	chemical 1653 1665	progesterone
+T47	chemical 1719 1727	antigens
+T48	disease_or_phenotypic_feature 1731 1744	breast cancer
+T49	chemical 1790 1798	antigens
+T50	chemical 1813 1823	biomarkers
+T51	disease_or_phenotypic_feature 1827 1851	hepatocellular carcinoma
+T52	chemical 1876 1886	Biomarkers
+T53	disease_or_phenotypic_feature 1906 1919	heart failure
+T54	chemical 1922 1933	Biochemical
+T55	disease_or_phenotypic_feature 1948 1956	cataract
+T56	chemical 2002 2013	biochemical
+T57	disease_or_phenotypic_feature 2024 2031	hepatic
+T58	chemical 2057 2068	tannic acid
+T59	chemical 2085 2095	Nifedipine
+T60	disease_or_phenotypic_feature 2099 2111	hypertensive
+T61	chemical 2112 2135	calcium channel blocker
+T62	disease_or_phenotypic_feature 2179 2201	coronary heart disease
+T63	disease_or_phenotypic_feature 2220 2234	hyperlipidemia

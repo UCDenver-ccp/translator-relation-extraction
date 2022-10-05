@@ -1,0 +1,63 @@
+T1	disease_or_phenotypic_feature 52 66	tumor vascular
+T2	chemical 141 147	oxygen
+T3	chemical 196 202	oxygen
+T4	disease_or_phenotypic_feature 231 252	Peripheral neuropathy
+T5	disease_or_phenotypic_feature 257 275	serotonin syndrome
+T6	chemical 282 291	serotonin
+T7	chemical 301 310	inhibitor
+T8	chemical 403 408	Snail
+T9	disease_or_phenotypic_feature 418 424	cancer
+T10	chemical 475 479	drug
+T11	chemical 525 536	Haloperidol
+T12	chemical 557 561	drug
+T13	disease_or_phenotypic_feature 597 615	movement disorders
+T14	chemical 633 643	fluoxetine
+T15	chemical 648 659	fluvoxamine
+T16	disease_or_phenotypic_feature 686 697	weight loss
+T17	disease_or_phenotypic_feature 713 720	anxiety
+T18	disease_or_phenotypic_feature 768 786	hyperprolactinemia
+T19	disease_or_phenotypic_feature 791 803	hypogonadism
+T20	chemical 830 838	estrogen
+T21	chemical 847 851	drug
+T22	disease_or_phenotypic_feature 894 902	vomiting
+T23	disease_or_phenotypic_feature 904 910	anemia
+T24	disease_or_phenotypic_feature 912 928	thrombocytopenia
+T25	chemical 972 981	biomarker
+T26	disease_or_phenotypic_feature 999 1010	lung tumors
+T27	chemical 1041 1051	bexarotene
+T28	chemical 1156 1162	oxygen
+T29	disease_or_phenotypic_feature 1278 1284	cancer
+T30	disease_or_phenotypic_feature 1455 1463	cataract
+T31	chemical 1486 1496	anesthesia
+T32	chemical 1513 1528	dexmedetomidine
+T33	disease_or_phenotypic_feature 1542 1549	hepatic
+T34	chemical 1591 1595	drug
+T35	disease_or_phenotypic_feature 1657 1663	cancer
+T36	chemical 1664 1674	biomarkers
+T37	chemical 1715 1723	antigens
+T38	chemical 1774 1782	antigens
+T39	disease_or_phenotypic_feature 1843 1858	adenocarcinomas
+T40	chemical 1860 1870	Fluoxetine
+T41	chemical 1884 1893	serotonin
+T42	chemical 1903 1912	inhibitor
+T43	disease_or_phenotypic_feature 1971 1977	autism
+T44	chemical 1988 1997	inhibitor
+T45	chemical 1998 2007	gefitinib
+T46	disease_or_phenotypic_feature 2114 2131	colorectal cancer
+T47	disease_or_phenotypic_feature 2160 2166	cancer
+T48	chemical 2180 2186	oxygen
+T49	chemical 2191 2200	nutrients
+T50	disease_or_phenotypic_feature 2310 2317	obesity
+T51	chemical 2346 2350	acid
+T52	chemical 2352 2359	Aspirin
+T53	chemical 2383 2387	acid
+T54	disease_or_phenotypic_feature 2434 2449	pulmonary edema
+T55	disease_or_phenotypic_feature 2460 2469	hepatitis
+T56	disease_or_phenotypic_feature 2471 2479	seizures
+T57	disease_or_phenotypic_feature 2499 2509	alteration
+T58	chemical 2569 2576	aspirin
+T59	disease_or_phenotypic_feature 2634 2647	breast cancer
+T60	chemical 2662 2670	estrogen
+T61	disease_or_phenotypic_feature 2671 2680	dependent
+T62	disease_or_phenotypic_feature 2699 2708	pneumonia
+T63	chemical 2713 2719	oxygen

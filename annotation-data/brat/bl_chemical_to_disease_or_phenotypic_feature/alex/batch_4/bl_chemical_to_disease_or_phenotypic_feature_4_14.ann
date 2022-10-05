@@ -1,0 +1,61 @@
+T1	chemical 10 19	oxidative
+T2	disease_or_phenotypic_feature 64 72	diabetic
+T3	disease_or_phenotypic_feature 73 94	peripheral neuropathy
+T4	chemical 96 99	DPN
+T5	chemical 102 115	Valproic acid
+T6	chemical 117 120	VPA
+T7	chemical 144 148	drug
+T8	disease_or_phenotypic_feature 164 176	spina bifida
+T9	chemical 188 198	Indoprofen
+T10	chemical 220 242	anti-inflammatory drug
+T11	disease_or_phenotypic_feature 246 252	cancer
+T12	disease_or_phenotypic_feature 253 257	pain
+T13	chemical 269 275	sodium
+T14	chemical 276 287	fluorescein
+T15	disease_or_phenotypic_feature 347 368	peripheral neuropathy
+T16	disease_or_phenotypic_feature 403 424	peripheral neuropathy
+T17	chemical 451 460	oxidation
+T18	disease_or_phenotypic_feature 473 481	cataract
+T19	chemical 500 503	CoA
+T20	disease_or_phenotypic_feature 546 552	cancer
+T21	chemical 553 562	biomarker
+T22	chemical 596 605	Puromycin
+T23	disease_or_phenotypic_feature 622 633	proteinuria
+T24	disease_or_phenotypic_feature 635 655	hypercholesterolemia
+T25	disease_or_phenotypic_feature 661 676	hypoalbuminemia
+T26	disease_or_phenotypic_feature 691 698	obesity
+T27	chemical 743 749	oxygen
+T28	chemical 788 798	Pyridoxine
+T29	disease_or_phenotypic_feature 809 817	seizures
+T30	disease_or_phenotypic_feature 822 834	microcephaly
+T31	chemical 870 880	anesthesia
+T32	disease_or_phenotypic_feature 885 893	cataract
+T33	disease_or_phenotypic_feature 935 958	congenital heart defect
+T34	chemical 964 968	drug
+T35	chemical 973 978	toxin
+T36	chemical 987 990	PAH
+T37	chemical 1058 1065	antigen
+T38	disease_or_phenotypic_feature 1081 1090	neoplasms
+T39	disease_or_phenotypic_feature 1092 1109	Testicular cancer
+T40	chemical 1119 1129	biological
+T41	disease_or_phenotypic_feature 1174 1190	muscular atrophy
+T42	chemical 1205 1213	nitrogen
+T43	chemical 1214 1221	balance
+T44	chemical 1264 1274	biomarkers
+T45	chemical 1299 1310	trastuzumab
+T46	disease_or_phenotypic_feature 1321 1334	breast cancer
+T47	chemical 1340 1350	biological
+T48	chemical 1361 1371	calcitriol
+T49	disease_or_phenotypic_feature 1375 1388	renal failure
+T50	disease_or_phenotypic_feature 1390 1399	Hypoxemia
+T51	disease_or_phenotypic_feature 1410 1420	infections
+T52	chemical 1438 1444	oxygen
+T53	chemical 1565 1572	hormone
+T54	chemical 1597 1604	hormone
+T55	disease_or_phenotypic_feature 1605 1614	dependent
+T56	chemical 1681 1689	Chlorine
+T57	disease_or_phenotypic_feature 1719 1734	pulmonary edema
+T58	disease_or_phenotypic_feature 1763 1782	respiratory failure
+T59	chemical 1827 1833	oxygen
+T60	disease_or_phenotypic_feature 1857 1864	obesity
+T61	disease_or_phenotypic_feature 1865 1879	hyperlipidemia

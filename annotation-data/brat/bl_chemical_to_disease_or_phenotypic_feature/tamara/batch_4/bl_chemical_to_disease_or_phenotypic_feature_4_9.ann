@@ -1,0 +1,83 @@
+T1	chemical 0 10	Pregabalin
+T2	disease_or_phenotypic_feature 22 31	myoclonic
+T3	disease_or_phenotypic_feature 32 46	encephalopathy
+T4	chemical 67 71	drug
+T5	disease_or_phenotypic_feature 103 122	acute renal failure
+T6	chemical 160 168	antigens
+T7	disease_or_phenotypic_feature 227 244	esophageal cancer
+T8	chemical 263 273	anesthesia
+T9	disease_or_phenotypic_feature 299 312	heart failure
+T10	disease_or_phenotypic_feature 315 329	Polyneuropathy
+T11	disease_or_phenotypic_feature 335 357	skin hyperpigmentation
+T12	disease_or_phenotypic_feature 359 373	hypertrichosis
+T13	disease_or_phenotypic_feature 375 380	edema
+T14	chemical 424 435	biochemical
+T15	chemical 501 508	Glucose
+T16	disease_or_phenotypic_feature 589 605	hyperinsulinemia
+T17	disease_or_phenotypic_feature 607 621	hyperlipidemia
+T18	disease_or_phenotypic_feature 627 634	obesity
+T19	chemical 644 658	growth hormone
+T20	chemical 682 696	pyridostigmine
+T21	disease_or_phenotypic_feature 700 707	obesity
+T22	disease_or_phenotypic_feature 773 779	anemia
+T23	disease_or_phenotypic_feature 801 816	hypoalbuminemia
+T24	disease_or_phenotypic_feature 818 831	hyperglycemia
+T25	disease_or_phenotypic_feature 833 850	hyperphosphatemia
+T26	chemical 865 872	alanine
+T27	chemical 897 901	urea
+T28	chemical 902 910	nitrogen
+T29	chemical 916 926	creatinine
+T30	disease_or_phenotypic_feature 946 952	pyuria
+T31	chemical 1047 1061	growth hormone
+T32	disease_or_phenotypic_feature 1077 1101	congenital heart defects
+T33	chemical 1111 1115	drug
+T34	disease_or_phenotypic_feature 1124 1152	tubulointerstitial nephritis
+T35	disease_or_phenotypic_feature 1158 1171	renal failure
+T36	chemical 1188 1204	propylthiouracil
+T37	chemical 1217 1221	food
+T38	disease_or_phenotypic_feature 1237 1244	obesity
+T39	chemical 1269 1273	drug
+T40	chemical 1285 1298	serum albumin
+T41	disease_or_phenotypic_feature 1306 1319	renal failure
+T42	disease_or_phenotypic_feature 1321 1341	Retinitis pigmentosa
+T43	chemical 1343 1357	growth hormone
+T44	disease_or_phenotypic_feature 1384 1402	skeletal dysplasia
+T45	disease_or_phenotypic_feature 1438 1452	RHYNS syndrome
+T46	chemical 1456 1464	adefovir
+T47	disease_or_phenotypic_feature 1489 1494	edema
+T48	disease_or_phenotypic_feature 1504 1512	arterial
+T49	disease_or_phenotypic_feature 1513 1524	hypotension
+T50	disease_or_phenotypic_feature 1567 1572	edema
+T51	chemical 1573 1578	toxin
+T52	chemical 1600 1608	chloride
+T53	chemical 1609 1618	phosphate
+T54	disease_or_phenotypic_feature 1680 1693	hypercalcemia
+T55	disease_or_phenotypic_feature 1699 1715	hyperparathyroid
+T56	disease_or_phenotypic_feature 1716 1729	hypercalcemia
+T57	chemical 1764 1774	cyclic AMP
+T58	chemical 1839 1842	PTH
+T59	chemical 1847 1850	PTH
+T60	chemical 1901 1905	acid
+T61	chemical 1911 1918	balance
+T62	disease_or_phenotypic_feature 1946 1970	congenital heart defects
+T63	chemical 1989 1995	folate
+T64	chemical 2016 2028	homocysteine
+T65	chemical 2040 2049	oxidative
+T66	disease_or_phenotypic_feature 2074 2088	hyperlipidemia
+T67	disease_or_phenotypic_feature 2093 2113	hyperhomocysteinemia
+T68	chemical 2115 2124	Serotonin
+T69	chemical 2134 2144	inhibitors
+T70	chemical 2154 2164	fluoxetine
+T71	chemical 2166 2178	fenfluramine
+T72	chemical 2184 2199	dexfenfluramine
+T73	disease_or_phenotypic_feature 2230 2237	obesity
+T74	chemical 2297 2303	oxygen
+T75	disease_or_phenotypic_feature 2388 2403	pulmonary edema
+T76	disease_or_phenotypic_feature 2409 2417	seizures
+T77	chemical 2430 2434	drug
+T78	disease_or_phenotypic_feature 2463 2493	neuroleptic malignant syndrome
+T79	disease_or_phenotypic_feature 2495 2507	parkinsonism
+T80	disease_or_phenotypic_feature 2521 2529	syndrome
+T81	chemical 2535 2544	serotonin
+T82	chemical 2593 2600	antigen
+T83	disease_or_phenotypic_feature 2604 2619	cervical cancer

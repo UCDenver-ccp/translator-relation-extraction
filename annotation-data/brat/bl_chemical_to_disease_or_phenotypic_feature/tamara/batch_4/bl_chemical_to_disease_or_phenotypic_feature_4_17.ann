@@ -1,0 +1,70 @@
+T1	chemical 30 37	mixture
+T2	chemical 41 52	ropivacaine
+T3	chemical 57 66	lidocaine
+T4	chemical 74 81	mixture
+T5	chemical 85 96	bupivacaine
+T6	chemical 101 110	lidocaine
+T7	chemical 136 146	anesthesia
+T8	disease_or_phenotypic_feature 151 159	cataract
+T9	chemical 199 203	drug
+T10	chemical 266 278	temozolomide
+T11	disease_or_phenotypic_feature 282 288	glioma
+T12	disease_or_phenotypic_feature 324 332	melanoma
+T13	chemical 344 352	antigens
+T14	disease_or_phenotypic_feature 411 418	obesity
+T15	chemical 438 445	antigen
+T16	chemical 525 536	Sibutramine
+T17	chemical 559 568	inhibitor
+T18	disease_or_phenotypic_feature 614 621	obesity
+T19	chemical 654 665	amphetamine
+T20	chemical 671 678	alcohol
+T21	disease_or_phenotypic_feature 718 721	DIS
+T22	disease_or_phenotypic_feature 722 737	mental disorder
+T23	chemical 739 742	Fad
+T24	chemical 761 769	solution
+T25	disease_or_phenotypic_feature 773 780	obesity
+T26	chemical 782 796	Growth hormone
+T27	disease_or_phenotypic_feature 814 820	cancer
+T28	disease_or_phenotypic_feature 821 829	cachexia
+T29	disease_or_phenotypic_feature 894 909	hypopituitarism
+T30	disease_or_phenotypic_feature 942 960	hypoparathyroidism
+T31	disease_or_phenotypic_feature 962 979	diabetes mellitus
+T32	chemical 981 995	growth hormone
+T33	disease_or_phenotypic_feature 1008 1027	hyperprolactinaemia
+T34	disease_or_phenotypic_feature 1029 1054	polycystic ovary syndrome
+T35	chemical 1056 1060	SAHA
+T36	disease_or_phenotypic_feature 1061 1069	syndrome
+T37	disease_or_phenotypic_feature 1071 1101	congenital adrenal hyperplasia
+T38	disease_or_phenotypic_feature 1103 1119	Cushing syndrome
+T39	chemical 1170 1180	anesthesia
+T40	disease_or_phenotypic_feature 1185 1193	cataract
+T41	disease_or_phenotypic_feature 1203 1218	Pulmonary edema
+T42	chemical 1222 1228	oxygen
+T43	disease_or_phenotypic_feature 1241 1254	Short stature
+T44	disease_or_phenotypic_feature 1258 1280	chronic kidney disease
+T45	chemical 1317 1331	growth hormone
+T46	disease_or_phenotypic_feature 1342 1348	cancer
+T47	chemical 1445 1453	antigens
+T48	chemical 1481 1492	amphetamine
+T49	disease_or_phenotypic_feature 1504 1511	obesity
+T50	disease_or_phenotypic_feature 1543 1552	cataracts
+T51	disease_or_phenotypic_feature 1554 1574	retinal degeneration
+T52	chemical 1576 1583	mineral
+T53	disease_or_phenotypic_feature 1617 1633	anterior uveitis
+T54	chemical 1639 1646	mineral
+T55	disease_or_phenotypic_feature 1679 1689	Multifocal
+T56	chemical 1709 1712	fat
+T57	chemical 1795 1806	biochemical
+T58	chemical 1836 1846	amiodarone
+T59	disease_or_phenotypic_feature 1855 1869	hypothyroidism
+T60	disease_or_phenotypic_feature 1871 1874	AIH
+T61	disease_or_phenotypic_feature 1903 1922	cardiac arrhythmias
+T62	disease_or_phenotypic_feature 1958 1964	cancer
+T63	chemical 2029 2037	nutrient
+T64	chemical 2042 2048	oxygen
+T65	disease_or_phenotypic_feature 2072 2078	cancer
+T66	chemical 2135 2143	antigens
+T67	chemical 2185 2188	DCs
+T68	chemical 2221 2229	estrogen
+T69	chemical 2264 2272	estrogen
+T70	disease_or_phenotypic_feature 2273 2282	sensitive

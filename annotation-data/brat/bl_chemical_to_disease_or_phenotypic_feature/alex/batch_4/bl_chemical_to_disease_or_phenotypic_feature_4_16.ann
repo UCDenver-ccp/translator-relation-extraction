@@ -1,0 +1,67 @@
+T1	chemical 6 20	peptidomimetic
+T2	chemical 21 31	inhibitors
+T3	chemical 35 38	ras
+T4	chemical 103 106	ras
+T5	disease_or_phenotypic_feature 107 116	dependent
+T6	chemical 131 141	anesthesia
+T7	disease_or_phenotypic_feature 166 174	cataract
+T8	chemical 203 207	camp
+T9	disease_or_phenotypic_feature 215 233	malignant melanoma
+T10	chemical 261 269	antigens
+T11	chemical 280 286	rabbit
+T12	chemical 297 304	Alcohol
+T13	chemical 342 346	food
+T14	disease_or_phenotypic_feature 389 396	obesity
+T15	chemical 422 430	tyrosine
+T16	chemical 443 453	inhibitors
+T17	chemical 487 495	dopamine
+T18	disease_or_phenotypic_feature 534 552	hyperprolactinemia
+T19	disease_or_phenotypic_feature 557 575	hyperaldosteronism
+T20	chemical 603 609	sodium
+T21	chemical 610 621	fluorescein
+T22	disease_or_phenotypic_feature 671 684	hyperglycemia
+T23	disease_or_phenotypic_feature 688 704	hyperinsulinemia
+T24	chemical 717 726	verapamil
+T25	chemical 736 760	calcium-channel blockers
+T26	chemical 796 800	drug
+T27	disease_or_phenotypic_feature 809 827	movement disorders
+T28	chemical 877 881	food
+T29	disease_or_phenotypic_feature 901 908	obesity
+T30	disease_or_phenotypic_feature 919 926	obesity
+T31	chemical 958 968	Anesthetic
+T32	disease_or_phenotypic_feature 984 992	cataract
+T33	chemical 1023 1029	oxygen
+T34	disease_or_phenotypic_feature 1079 1102	head and neck carcinoma
+T35	chemical 1113 1123	anesthesia
+T36	disease_or_phenotypic_feature 1128 1136	cataract
+T37	chemical 1171 1180	lidocaine
+T38	chemical 1187 1198	ropivacaine
+T39	disease_or_phenotypic_feature 1271 1275	HMPS
+T40	chemical 1298 1304	oxygen
+T41	chemical 1305 1316	metabolites
+T42	chemical 1492 1496	123I
+T43	chemical 1519 1526	hormone
+T44	chemical 1561 1572	quinagolide
+T45	disease_or_phenotypic_feature 1590 1599	pituitary
+T46	disease_or_phenotypic_feature 1600 1608	adenomas
+T47	chemical 1644 1655	theobromine
+T48	chemical 1656 1673	calcium gluconate
+T49	disease_or_phenotypic_feature 1696 1720	congestive heart failure
+T50	disease_or_phenotypic_feature 1733 1741	syndrome
+T51	chemical 1779 1787	antigens
+T52	disease_or_phenotypic_feature 1839 1855	malignant tumors
+T53	chemical 1857 1865	Tagatose
+T54	disease_or_phenotypic_feature 1890 1897	obesity
+T55	chemical 1906 1910	drug
+T56	chemical 1951 1959	antigens
+T57	disease_or_phenotypic_feature 1974 1988	bladder tumors
+T58	chemical 1990 2004	Growth hormone
+T59	chemical 2019 2031	somatostatin
+T60	disease_or_phenotypic_feature 2043 2049	cancer
+T61	disease_or_phenotypic_feature 2050 2058	cachexia
+T62	chemical 2070 2077	sucrose
+T63	chemical 2078 2086	solution
+T64	disease_or_phenotypic_feature 2125 2132	obesity
+T65	chemical 2142 2150	Nicotine
+T66	chemical 2204 2211	tobacco
+T67	disease_or_phenotypic_feature 2238 2249	lung tumors

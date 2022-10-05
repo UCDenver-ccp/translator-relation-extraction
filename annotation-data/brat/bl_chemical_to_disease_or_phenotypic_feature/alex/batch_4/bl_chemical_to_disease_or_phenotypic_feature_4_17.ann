@@ -1,0 +1,67 @@
+T1	chemical 14 19	probe
+T2	chemical 57 64	monitor
+T3	disease_or_phenotypic_feature 65 78	thyroid tumor
+T4	disease_or_phenotypic_feature 142 150	Melanoma
+T5	chemical 162 169	Antigen
+T6	chemical 193 201	antigens
+T7	chemical 275 280	toxin
+T8	disease_or_phenotypic_feature 308 318	overgrowth
+T9	chemical 374 383	Oxidative
+T10	disease_or_phenotypic_feature 442 449	obesity
+T11	disease_or_phenotypic_feature 483 490	obesity
+T12	chemical 588 596	antigens
+T13	chemical 607 610	DCs
+T14	disease_or_phenotypic_feature 614 620	cancer
+T15	chemical 631 641	Paclitaxel
+T16	chemical 672 676	drug
+T17	disease_or_phenotypic_feature 703 724	peripheral neuropathy
+T18	chemical 726 729	hCG
+T19	disease_or_phenotypic_feature 748 763	choriocarcinoma
+T20	disease_or_phenotypic_feature 782 799	ovarian carcinoma
+T21	chemical 862 865	hCG
+T22	chemical 899 904	toxin
+T23	chemical 916 925	inhibitor
+T24	chemical 956 966	antagonist
+T25	chemical 1009 1012	hCG
+T26	chemical 1051 1054	Met
+T27	chemical 1055 1064	inhibitor
+T28	chemical 1129 1135	ligand
+T29	disease_or_phenotypic_feature 1146 1173	papillary thyroid carcinoma
+T30	chemical 1186 1196	Biomarkers
+T31	disease_or_phenotypic_feature 1222 1229	obesity
+T32	disease_or_phenotypic_feature 1250 1263	renal failure
+T33	chemical 1271 1275	urea
+T34	chemical 1276 1284	nitrogen
+T35	disease_or_phenotypic_feature 1327 1342	growth retarded
+T36	chemical 1382 1390	adjuvant
+T37	chemical 1411 1422	carboplatin
+T38	chemical 1427 1436	docetaxel
+T39	disease_or_phenotypic_feature 1474 1485	hypokalemia
+T40	disease_or_phenotypic_feature 1490 1503	hyperglycemia
+T41	chemical 1601 1610	inhibitor
+T42	chemical 1611 1622	palbociclib
+T43	disease_or_phenotypic_feature 1716 1725	carcinoma
+T44	chemical 1881 1891	anesthesia
+T45	disease_or_phenotypic_feature 1919 1931	hypoglycemia
+T46	disease_or_phenotypic_feature 1981 1994	hyperglycemia
+T47	disease_or_phenotypic_feature 2047 2054	obesity
+T48	disease_or_phenotypic_feature 2075 2082	obesity
+T49	disease_or_phenotypic_feature 2118 2125	obesity
+T50	disease_or_phenotypic_feature 2160 2167	obesity
+T51	chemical 2195 2199	food
+T52	chemical 2260 2269	histamine
+T53	chemical 2297 2301	food
+T54	disease_or_phenotypic_feature 2313 2320	obesity
+T55	chemical 2337 2341	drug
+T56	disease_or_phenotypic_feature 2378 2403	anaplastic thyroid cancer
+T57	chemical 2435 2439	drug
+T58	disease_or_phenotypic_feature 2452 2465	breast cancer
+T59	disease_or_phenotypic_feature 2487 2498	lung tumors
+T60	chemical 2502 2512	budesonide
+T61	chemical 2535 2545	biomarkers
+T62	chemical 2564 2570	oxygen
+T63	disease_or_phenotypic_feature 2606 2615	pneumonia
+T64	chemical 2685 2693	thiamine
+T65	chemical 2704 2711	enzymes
+T66	disease_or_phenotypic_feature 2715 2722	obesity
+T67	disease_or_phenotypic_feature 2727 2734	obesity

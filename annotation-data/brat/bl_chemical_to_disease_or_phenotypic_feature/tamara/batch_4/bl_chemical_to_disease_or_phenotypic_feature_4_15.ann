@@ -1,0 +1,58 @@
+T1	chemical 21 28	calcium
+T2	chemical 29 40	antagonists
+T3	disease_or_phenotypic_feature 59 72	heart failure
+T4	chemical 85 92	hormone
+T5	disease_or_phenotypic_feature 104 119	prostate cancer
+T6	chemical 158 167	docetaxel
+T7	chemical 173 185	prednisolone
+T8	chemical 208 215	hormone
+T9	chemical 216 222	leptin
+T10	disease_or_phenotypic_feature 271 278	obesity
+T11	disease_or_phenotypic_feature 283 291	diabetes
+T12	chemical 318 326	warfarin
+T13	disease_or_phenotypic_feature 342 350	cataract
+T14	chemical 373 383	anesthesia
+T15	chemical 430 437	alcohol
+T16	disease_or_phenotypic_feature 445 452	obesity
+T17	chemical 463 467	drug
+T18	chemical 504 518	carbon dioxide
+T19	chemical 523 529	oxygen
+T20	disease_or_phenotypic_feature 576 589	heart failure
+T21	disease_or_phenotypic_feature 606 612	cancer
+T22	chemical 673 683	biological
+T23	chemical 754 761	biology
+T24	chemical 807 817	mivacurium
+T25	chemical 821 831	anesthesia
+T26	disease_or_phenotypic_feature 859 872	renal failure
+T27	chemical 892 898	oxygen
+T28	chemical 924 931	digoxin
+T29	disease_or_phenotypic_feature 960 973	heart failure
+T30	chemical 975 978	PCA
+T31	disease_or_phenotypic_feature 983 998	prostate cancer
+T32	chemical 1051 1058	biology
+T33	disease_or_phenotypic_feature 1068 1079	myelolipoma
+T34	chemical 1102 1115	biochemically
+T35	chemical 1156 1160	drug
+T36	chemical 1184 1194	bortezomib
+T37	disease_or_phenotypic_feature 1199 1220	peripheral neuropathy
+T38	chemical 1286 1304	carcinogenic agent
+T39	chemical 1364 1368	milk
+T40	disease_or_phenotypic_feature 1416 1431	adenocarcinomas
+T41	chemical 1437 1446	oxidative
+T42	chemical 1496 1505	galactose
+T43	disease_or_phenotypic_feature 1506 1514	cataract
+T44	chemical 1519 1522	hCG
+T45	chemical 1596 1603	hormone
+T46	disease_or_phenotypic_feature 1642 1650	neoplasm
+T47	chemical 1673 1681	nicotine
+T48	disease_or_phenotypic_feature 1699 1706	obesity
+T49	disease_or_phenotypic_feature 1814 1823	neoplasms
+T50	chemical 1873 1881	estrogen
+T51	chemical 1955 1967	progesterone
+T52	chemical 2012 2026	Growth hormone
+T53	disease_or_phenotypic_feature 2036 2049	short stature
+T54	disease_or_phenotypic_feature 2067 2090	Diamond-Blackfan anemia
+T55	chemical 2118 2124	oxygen
+T56	disease_or_phenotypic_feature 2160 2166	autism
+T57	chemical 2183 2189	oxygen
+T58	disease_or_phenotypic_feature 2250 2265	cardiac failure

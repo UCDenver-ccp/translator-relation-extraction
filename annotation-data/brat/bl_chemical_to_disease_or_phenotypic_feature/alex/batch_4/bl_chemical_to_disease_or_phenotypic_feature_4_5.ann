@@ -1,0 +1,65 @@
+T1	disease_or_phenotypic_feature 17 30	breast cancer
+T2	disease_or_phenotypic_feature 39 46	obesity
+T3	disease_or_phenotypic_feature 48 55	alcohol
+T4	chemical 48 55	alcohol
+T5	chemical 73 81	estrogen
+T6	chemical 91 99	Sulindac
+T7	chemical 123 132	inhibitor
+T8	disease_or_phenotypic_feature 145 155	lung tumor
+T9	chemical 177 209	Cannabinoid receptor antagonists
+T10	disease_or_phenotypic_feature 214 221	obesity
+T11	chemical 289 298	erlotinib
+T12	chemical 311 320	inhibitor
+T13	disease_or_phenotypic_feature 462 475	breast tumors
+T14	disease_or_phenotypic_feature 477 494	colorectal tumors
+T15	disease_or_phenotypic_feature 500 523	squamous cell carcinoma
+T16	chemical 596 603	biology
+T17	disease_or_phenotypic_feature 607 615	melanoma
+T18	disease_or_phenotypic_feature 646 667	neuroectodermal tumor
+T19	chemical 910 914	drug
+T20	chemical 946 957	factor VIII
+T21	disease_or_phenotypic_feature 1013 1019	cancer
+T22	chemical 1033 1042	inhibitor
+T23	chemical 1075 1084	lidocaine
+T24	chemical 1118 1128	anesthetic
+T25	disease_or_phenotypic_feature 1139 1147	cataract
+T26	disease_or_phenotypic_feature 1170 1185	cardiac failure
+T27	disease_or_phenotypic_feature 1191 1198	myeloma
+T28	chemical 1214 1234	proteasome inhibitor
+T29	chemical 1235 1245	bortezomib
+T30	disease_or_phenotypic_feature 1247 1260	Renal failure
+T31	chemical 1285 1289	drug
+T32	chemical 1309 1314	toxin
+T33	disease_or_phenotypic_feature 1324 1330	glioma
+T34	disease_or_phenotypic_feature 1367 1378	Vaccination
+T35	disease_or_phenotypic_feature 1382 1397	prostate cancer
+T36	chemical 1412 1436	modified vaccinia ankara
+T37	chemical 1458 1465	antigen
+T38	chemical 1533 1542	dimension
+T39	chemical 1557 1564	biology
+T40	disease_or_phenotypic_feature 1589 1597	leukemia
+T41	disease_or_phenotypic_feature 1599 1617	Cervical carcinoma
+T42	chemical 1650 1661	biochemical
+T43	chemical 1677 1688	Risperidone
+T44	chemical 1709 1713	drug
+T45	disease_or_phenotypic_feature 1752 1773	psychiatric disorders
+T46	disease_or_phenotypic_feature 1782 1788	autism
+T47	disease_or_phenotypic_feature 1847 1854	obesity
+T48	disease_or_phenotypic_feature 1856 1869	hyperglycemia
+T49	disease_or_phenotypic_feature 1871 1891	hypertriglyceridemia
+T50	chemical 1931 1940	oxidative
+T51	chemical 1949 1960	Tesofensine
+T52	chemical 1983 1992	inhibitor
+T53	disease_or_phenotypic_feature 2014 2021	obesity
+T54	disease_or_phenotypic_feature 2023 2030	Myeloma
+T55	chemical 2057 2064	antigen
+T56	chemical 2171 2175	gold
+T57	chemical 2228 2236	antigens
+T58	disease_or_phenotypic_feature 2240 2249	potential
+T59	disease_or_phenotypic_feature 2250 2256	cancer
+T60	chemical 2267 2275	Platinum
+T61	chemical 2276 2280	drug
+T62	disease_or_phenotypic_feature 2297 2303	cancer
+T63	chemical 2322 2332	Biomarkers
+T64	disease_or_phenotypic_feature 2342 2366	congenital heart disease
+T65	disease_or_phenotypic_feature 2367 2380	heart failure

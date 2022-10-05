@@ -1,0 +1,77 @@
+T1	chemical 62 69	hormone
+T2	disease_or_phenotypic_feature 70 79	dependent
+T3	chemical 151 160	inhibitor
+T4	chemical 229 240	gemcitabine
+T5	disease_or_phenotypic_feature 258 261	PDA
+T6	chemical 316 322	Leptin
+T7	disease_or_phenotypic_feature 345 352	obesity
+T8	chemical 364 374	biological
+T9	chemical 406 409	CRF
+T10	chemical 416 419	CRF
+T11	chemical 482 485	CRF
+T12	chemical 515 525	inhibitors
+T13	disease_or_phenotypic_feature 557 563	cancer
+T14	chemical 577 589	radiolabeled
+T15	chemical 590 593	CRF
+T16	disease_or_phenotypic_feature 618 624	cancer
+T17	disease_or_phenotypic_feature 700 711	skin rashes
+T18	disease_or_phenotypic_feature 713 727	abdominal pain
+T19	disease_or_phenotypic_feature 733 742	gastritis
+T20	chemical 755 759	drug
+T21	chemical 769 782	Interleukin 7
+T22	chemical 814 822	effector
+T23	disease_or_phenotypic_feature 871 891	renal-cell carcinoma
+T24	chemical 897 907	inhibitors
+T25	disease_or_phenotypic_feature 960 983	ventricular arrhythmias
+T26	disease_or_phenotypic_feature 1001 1014	heart failure
+T27	disease_or_phenotypic_feature 1081 1105	hepatocellular carcinoma
+T28	chemical 1150 1159	inhibitor
+T29	chemical 1160 1169	sorafenib
+T30	chemical 1193 1197	drug
+T31	chemical 1215 1225	biological
+T32	chemical 1281 1290	cisplatin
+T33	disease_or_phenotypic_feature 1303 1332	triple negative breast cancer
+T34	disease_or_phenotypic_feature 1344 1350	cancer
+T35	chemical 1394 1402	antigens
+T36	disease_or_phenotypic_feature 1453 1460	obesity
+T37	disease_or_phenotypic_feature 1469 1488	metabolic disorders
+T38	chemical 1492 1499	mixture
+T39	chemical 1546 1551	grape
+T40	chemical 1561 1578	green tea extract
+T41	chemical 1583 1594	l-carnitine
+T42	disease_or_phenotypic_feature 1622 1629	obesity
+T43	disease_or_phenotypic_feature 1631 1645	hyperlipidemia
+T44	disease_or_phenotypic_feature 1650 1683	non-alcoholic fatty liver disease
+T45	chemical 1694 1702	Curcumin
+T46	disease_or_phenotypic_feature 1724 1731	obesity
+T47	disease_or_phenotypic_feature 1736 1743	obesity
+T48	disease_or_phenotypic_feature 1752 1759	cancers
+T49	chemical 1761 1769	Dopamine
+T50	chemical 1770 1787	receptor agonists
+T51	disease_or_phenotypic_feature 1838 1851	heart failure
+T52	disease_or_phenotypic_feature 1906 1917	hypokalemia
+T53	disease_or_phenotypic_feature 1922 1934	hyperkalemia
+T54	disease_or_phenotypic_feature 1936 1950	hypomagnesemia
+T55	disease_or_phenotypic_feature 1952 1965	hypercalcemia
+T56	disease_or_phenotypic_feature 1970 1982	hypocalcemia
+T57	disease_or_phenotypic_feature 1984 2000	hypophosphatemia
+T58	chemical 2041 2045	acid
+T59	chemical 2051 2058	balance
+T60	disease_or_phenotypic_feature 2062 2068	cancer
+T61	disease_or_phenotypic_feature 2079 2105	Gallbladder adenocarcinoma
+T62	chemical 2140 2144	acid
+T63	disease_or_phenotypic_feature 2176 2184	cataract
+T64	chemical 2194 2197	dye
+T65	chemical 2218 2228	inhibitors
+T66	disease_or_phenotypic_feature 2232 2240	diabetic
+T67	disease_or_phenotypic_feature 2241 2262	peripheral neuropathy
+T68	disease_or_phenotypic_feature 2264 2281	Pancreatic cancer
+T69	chemical 2348 2358	inhibitors
+T70	chemical 2359 2368	erlotinib
+T71	chemical 2373 2382	cetuximab
+T72	chemical 2400 2410	biological
+T73	chemical 2434 2457	anti-inflammatory drugs
+T74	disease_or_phenotypic_feature 2462 2470	cataract
+T75	chemical 2514 2524	biomarkers
+T76	disease_or_phenotypic_feature 2559 2566	obesity
+T77	disease_or_phenotypic_feature 2571 2578	obesity

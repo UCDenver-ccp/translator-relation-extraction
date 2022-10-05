@@ -1,0 +1,63 @@
+T1	chemical 0 4	Acid
+T2	chemical 10 17	balance
+T3	disease_or_phenotypic_feature 49 62	renal failure
+T4	disease_or_phenotypic_feature 89 95	Asthma
+T5	chemical 115 123	agonists
+T6	chemical 143 152	lidocaine
+T7	chemical 168 178	anesthesia
+T8	disease_or_phenotypic_feature 182 190	cataract
+T9	disease_or_phenotypic_feature 264 270	cancer
+T10	chemical 323 329	oxygen
+T11	chemical 390 396	oxygen
+T12	chemical 487 498	biochemical
+T13	disease_or_phenotypic_feature 533 543	leukopenia
+T14	disease_or_phenotypic_feature 552 569	hypophosphataemia
+T15	disease_or_phenotypic_feature 579 592	hypocalcaemia
+T16	chemical 604 608	food
+T17	disease_or_phenotypic_feature 614 621	obesity
+T18	chemical 651 665	angiotensin II
+T19	chemical 666 676	inhibitors
+T20	disease_or_phenotypic_feature 701 714	heart failure
+T21	chemical 778 787	nutrients
+T22	chemical 792 798	oxygen
+T23	disease_or_phenotypic_feature 850 856	cancer
+T24	chemical 858 867	Patiromer
+T25	disease_or_phenotypic_feature 885 899	kidney disease
+T26	disease_or_phenotypic_feature 904 916	hyperkalemia
+T27	chemical 932 942	inhibitors
+T28	chemical 950 953	CBD
+T29	chemical 1010 1013	CBD
+T30	chemical 1022 1026	drug
+T31	chemical 1027 1031	drug
+T32	disease_or_phenotypic_feature 1069 1077	diarrhea
+T33	disease_or_phenotypic_feature 1088 1096	vomiting
+T34	disease_or_phenotypic_feature 1147 1158	visual loss
+T35	disease_or_phenotypic_feature 1163 1176	optic atrophy
+T36	chemical 1249 1257	solution
+T37	chemical 1261 1276	chloramphenicol
+T38	chemical 1293 1297	acid
+T39	chemical 1303 1310	balance
+T40	disease_or_phenotypic_feature 1349 1362	heart failure
+T41	chemical 1364 1368	Iron
+T42	disease_or_phenotypic_feature 1381 1388	obesity
+T43	chemical 1394 1398	food
+T44	chemical 1441 1447	sodium
+T45	chemical 1448 1459	fluorescein
+T46	disease_or_phenotypic_feature 1513 1519	glioma
+T47	chemical 1561 1568	antigen
+T48	disease_or_phenotypic_feature 1584 1593	neoplasms
+T49	disease_or_phenotypic_feature 1624 1640	muscular atrophy
+T50	chemical 1655 1663	nitrogen
+T51	chemical 1664 1671	balance
+T52	disease_or_phenotypic_feature 1673 1682	Hypoxemia
+T53	disease_or_phenotypic_feature 1693 1703	infections
+T54	chemical 1721 1727	oxygen
+T55	chemical 1786 1794	Chlorine
+T56	disease_or_phenotypic_feature 1824 1839	pulmonary edema
+T57	disease_or_phenotypic_feature 1868 1887	respiratory failure
+T58	chemical 1902 1908	oxygen
+T59	disease_or_phenotypic_feature 1966 1981	cardiac failure
+T60	disease_or_phenotypic_feature 1985 2000	pulmonary edema
+T61	chemical 2011 2018	Hormone
+T62	disease_or_phenotypic_feature 2019 2028	dependent
+T63	chemical 2088 2096	hormones

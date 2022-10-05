@@ -1,0 +1,66 @@
+T1	chemical 19 23	drug
+T2	disease_or_phenotypic_feature 73 87	tumor vascular
+T3	chemical 117 126	rapamycin
+T4	chemical 127 137	inhibitors
+T5	chemical 166 177	aldosterone
+T6	disease_or_phenotypic_feature 191 202	hypokalemia
+T7	disease_or_phenotypic_feature 207 223	hypophosphatemia
+T8	chemical 230 240	inhibitors
+T9	disease_or_phenotypic_feature 273 286	heart failure
+T10	disease_or_phenotypic_feature 308 318	arrhythmia
+T11	chemical 359 363	drug
+T12	disease_or_phenotypic_feature 412 424	hypertension
+T13	disease_or_phenotypic_feature 432 444	hypertensive
+T14	disease_or_phenotypic_feature 445 458	heart failure
+T15	chemical 597 601	drug
+T16	chemical 602 613	bezafibrate
+T17	chemical 710 714	drug
+T18	chemical 715 726	bezafibrate
+T19	disease_or_phenotypic_feature 806 812	cancer
+T20	disease_or_phenotypic_feature 813 821	cachexia
+T21	chemical 823 834	Thalidomide
+T22	chemical 851 855	drug
+T23	disease_or_phenotypic_feature 877 899	ankylosing spondylitis
+T24	disease_or_phenotypic_feature 917 938	peripheral neuropathy
+T25	chemical 950 960	anesthetic
+T26	disease_or_phenotypic_feature 970 980	lung tumor
+T27	chemical 1024 1036	ferric oxide
+T28	chemical 1042 1046	food
+T29	chemical 1061 1065	IL 2
+T30	disease_or_phenotypic_feature 1078 1084	cancer
+T31	disease_or_phenotypic_feature 1145 1150	fever
+T32	disease_or_phenotypic_feature 1162 1170	vomiting
+T33	disease_or_phenotypic_feature 1176 1184	diarrhea
+T34	chemical 1187 1198	Biochemical
+T35	chemical 1213 1220	digoxin
+T36	disease_or_phenotypic_feature 1245 1258	heart failure
+T37	chemical 1305 1316	nisoldipine
+T38	disease_or_phenotypic_feature 1359 1372	heart failure
+T39	chemical 1374 1382	Sulindac
+T40	chemical 1406 1415	inhibitor
+T41	disease_or_phenotypic_feature 1428 1438	lung tumor
+T42	chemical 1460 1492	Cannabinoid receptor antagonists
+T43	disease_or_phenotypic_feature 1497 1504	obesity
+T44	chemical 1512 1518	leptin
+T45	disease_or_phenotypic_feature 1558 1565	obesity
+T46	chemical 1571 1579	estrogen
+T47	chemical 1604 1612	hormones
+T48	disease_or_phenotypic_feature 1617 1624	obesity
+T49	disease_or_phenotypic_feature 1626 1635	Pneumonia
+T50	chemical 1644 1654	inhibitors
+T51	chemical 1679 1696	receptor agonists
+T52	disease_or_phenotypic_feature 1701 1708	obesity
+T53	disease_or_phenotypic_feature 1709 1717	diabetes
+T54	chemical 1738 1749	factor VIII
+T55	disease_or_phenotypic_feature 1805 1811	cancer
+T56	chemical 1825 1834	inhibitor
+T57	chemical 1867 1876	lidocaine
+T58	chemical 1910 1920	anesthetic
+T59	disease_or_phenotypic_feature 1931 1939	cataract
+T60	chemical 1985 1994	dimension
+T61	chemical 2009 2016	biology
+T62	disease_or_phenotypic_feature 2041 2049	leukemia
+T63	chemical 2058 2065	ghrelin
+T64	disease_or_phenotypic_feature 2067 2074	obesity
+T65	disease_or_phenotypic_feature 2084 2109	polycystic ovary syndrome
+T66	chemical 2151 2159	androgen

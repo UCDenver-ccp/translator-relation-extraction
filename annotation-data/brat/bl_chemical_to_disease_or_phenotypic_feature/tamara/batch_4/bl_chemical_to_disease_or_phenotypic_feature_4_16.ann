@@ -1,0 +1,68 @@
+T1	chemical 0 21	Sacituzumab govitecan
+T2	chemical 32 36	drug
+T3	disease_or_phenotypic_feature 50 79	triple-negative breast cancer
+T4	chemical 177 183	oxygen
+T5	disease_or_phenotypic_feature 203 223	head and neck tumors
+T6	disease_or_phenotypic_feature 253 260	obesity
+T7	chemical 269 278	oxidative
+T8	chemical 325 333	curcumin
+T9	disease_or_phenotypic_feature 369 376	obesity
+T10	chemical 385 394	oxidative
+T11	disease_or_phenotypic_feature 433 456	Glioblastoma multiforme
+T12	chemical 497 501	drug
+T13	chemical 543 551	antigens
+T14	disease_or_phenotypic_feature 555 577	malignant mesothelioma
+T15	disease_or_phenotypic_feature 579 591	Wilms' tumor
+T16	chemical 644 651	antigen
+T17	chemical 658 669	vinblastine
+T18	disease_or_phenotypic_feature 759 764	small
+T19	chemical 781 785	drug
+T20	chemical 837 848	biochemical
+T21	disease_or_phenotypic_feature 874 881	obesity
+T22	disease_or_phenotypic_feature 886 893	obesity
+T23	chemical 933 943	inhibitors
+T24	chemical 948 955	taurine
+T25	disease_or_phenotypic_feature 994 1001	obesity
+T26	disease_or_phenotypic_feature 1003 1025	Malignant hyperthermia
+T27	chemical 1049 1060	biochemical
+T28	chemical 1095 1102	calcium
+T29	chemical 1203 1210	hormone
+T30	chemical 1250 1257	hormone
+T31	disease_or_phenotypic_feature 1258 1267	dependent
+T32	chemical 1319 1328	inhibitor
+T33	chemical 1330 1342	cabozantinib
+T34	disease_or_phenotypic_feature 1456 1462	cancer
+T35	chemical 1510 1517	ghrelin
+T36	chemical 1518 1525	agonist
+T37	disease_or_phenotypic_feature 1557 1563	cancer
+T38	disease_or_phenotypic_feature 1564 1572	cachexia
+T39	chemical 1586 1594	hormones
+T40	chemical 1657 1667	desflurane
+T41	chemical 1684 1693	labetalol
+T42	disease_or_phenotypic_feature 1698 1709	hypotensive
+T43	chemical 1710 1720	anesthesia
+T44	chemical 1770 1784	mTOR inhibitor
+T45	chemical 1785 1798	ridaforolimus
+T46	chemical 1807 1821	HDAC inhibitor
+T47	chemical 1822 1832	vorinostat
+T48	disease_or_phenotypic_feature 1845 1865	renal cell carcinoma
+T49	chemical 1896 1905	antigenic
+T50	disease_or_phenotypic_feature 1906 1914	glaucoma
+T51	disease_or_phenotypic_feature 1939 1947	cataract
+T52	chemical 1962 1969	antigen
+T53	disease_or_phenotypic_feature 1990 2005	cervical tumors
+T54	disease_or_phenotypic_feature 2060 2074	cervical tumor
+T55	chemical 2136 2142	oxygen
+T56	chemical 2214 2220	oxygen
+T57	disease_or_phenotypic_feature 2254 2261	seizure
+T58	disease_or_phenotypic_feature 2297 2307	arrhythmia
+T59	disease_or_phenotypic_feature 2309 2320	hypotension
+T60	disease_or_phenotypic_feature 2328 2336	vomiting
+T61	chemical 2427 2437	levamisole
+T62	disease_or_phenotypic_feature 2500 2509	neoplasms
+T63	chemical 2626 2632	saline
+T64	chemical 2661 2671	levamisole
+T65	chemical 2741 2745	acid
+T66	chemical 2786 2797	doxorubicin
+T67	chemical 2839 2843	drug
+T68	disease_or_phenotypic_feature 2864 2870	cancer

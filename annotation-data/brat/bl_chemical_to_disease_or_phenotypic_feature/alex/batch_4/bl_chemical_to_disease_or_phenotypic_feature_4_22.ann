@@ -1,0 +1,67 @@
+T1	disease_or_phenotypic_feature 0 13	Breast cancer
+T2	chemical 36 43	hormone
+T3	chemical 99 107	estrogen
+T4	disease_or_phenotypic_feature 118 131	breast cancer
+T5	chemical 169 178	genistein
+T6	disease_or_phenotypic_feature 263 276	breast cancer
+T7	chemical 289 297	estrogen
+T8	chemical 302 314	progesterone
+T9	disease_or_phenotypic_feature 326 347	Peripheral neuropathy
+T10	chemical 381 391	paclitaxel
+T11	chemical 412 416	drug
+T12	disease_or_phenotypic_feature 520 526	cancer
+T13	chemical 601 608	antigen
+T14	disease_or_phenotypic_feature 619 639	personality disorder
+T15	chemical 675 685	anesthetic
+T16	chemical 686 694	propofol
+T17	disease_or_phenotypic_feature 723 731	seizures
+T18	chemical 733 753	receptor antagonists
+T19	chemical 757 760	RAs
+T20	disease_or_phenotypic_feature 777 790	heart failure
+T21	disease_or_phenotypic_feature 862 869	obesity
+T22	chemical 918 925	glucose
+T23	chemical 926 935	oxidation
+T24	disease_or_phenotypic_feature 939 946	obesity
+T25	chemical 968 971	ras
+T26	disease_or_phenotypic_feature 985 996	lung tumors
+T27	chemical 1077 1082	oxide
+T28	chemical 1127 1134	aspirin
+T29	chemical 1165 1175	biological
+T30	disease_or_phenotypic_feature 1201 1208	obesity
+T31	chemical 1218 1228	Anesthesia
+T32	disease_or_phenotypic_feature 1243 1252	cleft lip
+T33	disease_or_phenotypic_feature 1257 1269	cleft palate
+T34	chemical 1286 1290	acid
+T35	chemical 1291 1295	base
+T36	disease_or_phenotypic_feature 1337 1348	hypokalemia
+T37	disease_or_phenotypic_feature 1350 1364	hypercalciuria
+T38	chemical 1438 1442	urea
+T39	chemical 1443 1451	nitrogen
+T40	chemical 1494 1503	biomarker
+T41	disease_or_phenotypic_feature 1526 1539	heart failure
+T42	disease_or_phenotypic_feature 1544 1566	coronary heart disease
+T43	chemical 1568 1578	Eplerenone
+T44	chemical 1598 1620	aldosterone antagonist
+T45	disease_or_phenotypic_feature 1652 1660	arterial
+T46	disease_or_phenotypic_feature 1678 1691	heart failure
+T47	chemical 1694 1710	Thyroid hormones
+T48	disease_or_phenotypic_feature 1731 1738	obesity
+T49	disease_or_phenotypic_feature 1763 1772	pneumonia
+T50	chemical 1789 1797	collagen
+T51	disease_or_phenotypic_feature 1798 1814	vascular disease
+T52	disease_or_phenotypic_feature 1853 1863	malignancy
+T53	disease_or_phenotypic_feature 1865 1880	cardiac failure
+T54	disease_or_phenotypic_feature 1886 1899	renal failure
+T55	disease_or_phenotypic_feature 1901 1914	Breast cancer
+T56	chemical 1930 1937	hormone
+T57	chemical 2005 2013	hormones
+T58	chemical 2014 2022	estrogen
+T59	chemical 2027 2039	progesterone
+T60	disease_or_phenotypic_feature 2175 2184	or cancer
+T61	chemical 2270 2274	drug
+T62	chemical 2302 2316	growth hormone
+T63	disease_or_phenotypic_feature 2328 2351	multiple system atrophy
+T64	disease_or_phenotypic_feature 2353 2372	Parkinson's disease
+T65	disease_or_phenotypic_feature 2388 2405	cerebellar ataxia
+T66	chemical 2408 2418	Anesthesia
+T67	disease_or_phenotypic_feature 2431 2443	cleft palate

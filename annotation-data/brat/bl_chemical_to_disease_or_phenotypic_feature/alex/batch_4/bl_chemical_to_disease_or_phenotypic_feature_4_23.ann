@@ -1,0 +1,62 @@
+T1	chemical 28 37	chamomile
+T2	disease_or_phenotypic_feature 99 106	obesity
+T3	disease_or_phenotypic_feature 108 121	hyperglycemia
+T4	disease_or_phenotypic_feature 126 140	hyperlipidemia
+T5	disease_or_phenotypic_feature 142 171	Hypogonadotropic hypogonadism
+T6	disease_or_phenotypic_feature 173 187	hypothyroidism
+T7	chemical 193 207	growth hormone
+T8	chemical 250 259	Modafinil
+T9	chemical 289 293	drug
+T10	disease_or_phenotypic_feature 320 332	hypoglycemia
+T11	disease_or_phenotypic_feature 334 351	cerebral ischemia
+T12	chemical 399 408	melatonin
+T13	chemical 412 421	oxidative
+T14	chemical 436 443	balance
+T15	disease_or_phenotypic_feature 448 456	cataract
+T16	chemical 511 518	epitope
+T17	chemical 635 641	oxygen
+T18	chemical 693 705	biologically
+T19	disease_or_phenotypic_feature 715 721	cancer
+T20	disease_or_phenotypic_feature 741 750	cancerous
+T21	chemical 790 797	antigen
+T22	chemical 807 824	molecular markers
+T23	disease_or_phenotypic_feature 863 876	cholesteatoma
+T24	chemical 918 927	inhibitor
+T25	disease_or_phenotypic_feature 958 971	heart failure
+T26	disease_or_phenotypic_feature 975 981	asthma
+T27	chemical 1006 1012	oxygen
+T28	disease_or_phenotypic_feature 1024 1039	cardiac failure
+T29	disease_or_phenotypic_feature 1044 1062	cardiac arrhythmia
+T30	disease_or_phenotypic_feature 1122 1133	Hepatitis B
+T31	chemical 1134 1142	antigens
+T32	chemical 1190 1195	HBsAg
+T33	chemical 1277 1281	drug
+T34	disease_or_phenotypic_feature 1304 1315	hypotension
+T35	disease_or_phenotypic_feature 1346 1366	hepatorenal syndrome
+T36	disease_or_phenotypic_feature 1372 1385	hypercalcemia
+T37	disease_or_phenotypic_feature 1386 1399	hyperuricemia
+T38	disease_or_phenotypic_feature 1401 1418	Hyperphosphatemia
+T39	chemical 1431 1442	biochemical
+T40	disease_or_phenotypic_feature 1467 1480	renal failure
+T41	chemical 1503 1507	drug
+T42	chemical 1508 1519	doxorubicin
+T43	disease_or_phenotypic_feature 1566 1592	hematological malignancies
+T44	disease_or_phenotypic_feature 1624 1641	cerebellar ataxia
+T45	chemical 1647 1651	5-HT
+T46	chemical 1654 1661	agonist
+T47	chemical 1694 1703	Sunitinib
+T48	disease_or_phenotypic_feature 1715 1744	hyperinsulinemic hypoglycemia
+T49	disease_or_phenotypic_feature 1762 1783	neuroendocrine tumors
+T50	chemical 1785 1789	drug
+T51	chemical 1898 1918	proteasome inhibitor
+T52	chemical 1919 1929	bortezomib
+T53	disease_or_phenotypic_feature 1933 1945	mesothelioma
+T54	chemical 2024 2030	sodium
+T55	chemical 2085 2096	angiotensin
+T56	chemical 2108 2125	enzyme inhibitors
+T57	disease_or_phenotypic_feature 2136 2149	renal failure
+T58	disease_or_phenotypic_feature 2167 2191	congestive heart failure
+T59	disease_or_phenotypic_feature 2205 2224	renal insufficiency
+T60	chemical 2250 2255	label
+T61	chemical 2270 2279	Phenytoin
+T62	disease_or_phenotypic_feature 2307 2328	peripheral neuropathy

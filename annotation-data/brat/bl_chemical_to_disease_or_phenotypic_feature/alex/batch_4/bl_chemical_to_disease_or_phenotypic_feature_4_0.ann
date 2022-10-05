@@ -1,0 +1,80 @@
+T1	disease_or_phenotypic_feature 70 76	cancer
+T2	chemical 124 130	oxygen
+T3	chemical 135 144	nutrients
+T4	chemical 217 228	antioxidant
+T5	chemical 260 266	kaolin
+T6	disease_or_phenotypic_feature 275 288	hydrocephalus
+T7	chemical 321 327	papain
+T8	chemical 381 388	antigen
+T9	chemical 421 429	antigens
+T10	disease_or_phenotypic_feature 482 489	sarcoma
+T11	disease_or_phenotypic_feature 515 529	thyroid tumors
+T12	chemical 583 590	PLX4720
+T13	chemical 622 631	inhibitor
+T14	disease_or_phenotypic_feature 676 688	growth delay
+T15	disease_or_phenotypic_feature 778 796	metabolic diseases
+T16	disease_or_phenotypic_feature 806 819	heart failure
+T17	disease_or_phenotypic_feature 820 828	syndrome
+T18	disease_or_phenotypic_feature 843 849	oedema
+T19	chemical 917 923	oxygen
+T20	chemical 971 975	drug
+T21	disease_or_phenotypic_feature 1024 1036	hypertension
+T22	disease_or_phenotypic_feature 1044 1056	hypertensive
+T23	disease_or_phenotypic_feature 1057 1070	heart failure
+T24	chemical 1072 1082	Eplerenone
+T25	chemical 1096 1107	aldosterone
+T26	chemical 1108 1127	receptor antagonist
+T27	disease_or_phenotypic_feature 1149 1162	heart failure
+T28	disease_or_phenotypic_feature 1164 1180	Hypophosphatemia
+T29	chemical 1212 1222	furosemide
+T30	chemical 1224 1232	dopamine
+T31	chemical 1250 1257	agonist
+T32	chemical 1301 1307	oxygen
+T33	disease_or_phenotypic_feature 1327 1335	melanoma
+T34	chemical 1396 1402	oxygen
+T35	chemical 1438 1442	Zinc
+T36	chemical 1443 1458	desferrioxamine
+T37	disease_or_phenotypic_feature 1487 1495	cataract
+T38	disease_or_phenotypic_feature 1558 1566	cataract
+T39	chemical 1617 1631	anticonvulsant
+T40	chemical 1632 1636	drug
+T41	disease_or_phenotypic_feature 1667 1674	anaemia
+T42	disease_or_phenotypic_feature 1679 1705	neurological abnormalities
+T43	disease_or_phenotypic_feature 1728 1736	dementia
+T44	disease_or_phenotypic_feature 1788 1794	ataxia
+T45	disease_or_phenotypic_feature 1818 1826	syndrome
+T46	chemical 1830 1834	drug
+T47	disease_or_phenotypic_feature 1859 1867	cataract
+T48	disease_or_phenotypic_feature 1906 1920	abdominal pain
+T49	disease_or_phenotypic_feature 1922 1930	diarrhea
+T50	disease_or_phenotypic_feature 1932 1940	vomiting
+T51	chemical 1942 1946	food
+T52	disease_or_phenotypic_feature 1964 1973	dyspepsia
+T53	chemical 1975 1978	His
+T54	disease_or_phenotypic_feature 2045 2059	polyneuropathy
+T55	disease_or_phenotypic_feature 2071 2080	cataracts
+T56	disease_or_phenotypic_feature 2082 2096	unusual facies
+T57	disease_or_phenotypic_feature 2098 2107	scoliosis
+T58	disease_or_phenotypic_feature 2109 2122	short stature
+T59	chemical 2136 2150	growth hormone
+T60	disease_or_phenotypic_feature 2184 2193	arthritis
+T61	disease_or_phenotypic_feature 2199 2211	hypoglycemia
+T62	chemical 2242 2248	silver
+T63	chemical 2256 2281	tyrosine kinase inhibitor
+T64	chemical 2319 2327	imatinib
+T65	disease_or_phenotypic_feature 2331 2359	chronic myelogenous leukemia
+T66	disease_or_phenotypic_feature 2361 2367	Cancer
+T67	chemical 2375 2383	antigens
+T68	chemical 2493 2505	anesthetized
+T69	chemical 2511 2519	urethane
+T70	chemical 2523 2537	methoxyflurane
+T71	disease_or_phenotypic_feature 2570 2584	tumor vascular
+T72	chemical 2658 2668	biomarkers
+T73	disease_or_phenotypic_feature 2771 2774	ADC
+T74	disease_or_phenotypic_feature 2818 2838	rheumatoid arthritis
+T75	chemical 2869 2880	tocilizumab
+T76	chemical 2908 2918	inhibitors
+T77	disease_or_phenotypic_feature 2928 2947	renal insufficiency
+T78	chemical 2962 2976	growth hormone
+T79	disease_or_phenotypic_feature 2989 3004	Turner syndrome
+T80	disease_or_phenotypic_feature 3021 3034	short stature

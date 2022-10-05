@@ -1,0 +1,66 @@
+T1	chemical 3 13	furosemide
+T2	chemical 62 66	drug
+T3	disease_or_phenotypic_feature 154 167	renal failure
+T4	disease_or_phenotypic_feature 178 193	cardiac failure
+T5	disease_or_phenotypic_feature 249 255	cancer
+T6	chemical 256 260	drug
+T7	disease_or_phenotypic_feature 271 282	Hypokalemia
+T8	disease_or_phenotypic_feature 284 297	hyperuricemia
+T9	chemical 309 320	Triamterene
+T10	chemical 348 357	rapamycin
+T11	chemical 381 395	mTOR inhibitor
+T12	disease_or_phenotypic_feature 430 435	HNSCC
+T13	chemical 466 473	biology
+T14	disease_or_phenotypic_feature 477 484	obesity
+T15	disease_or_phenotypic_feature 517 537	cognitive impairment
+T16	disease_or_phenotypic_feature 539 558	psychiatric disease
+T17	chemical 560 564	drug
+T18	chemical 575 582	alcohol
+T19	chemical 624 629	Tc-99
+T20	chemical 631 640	sestamibi
+T21	disease_or_phenotypic_feature 682 709	primary hyperparathyroidism
+T22	disease_or_phenotypic_feature 753 772	hyperparathyroidism
+T23	disease_or_phenotypic_feature 817 823	glioma
+T24	chemical 835 856	5-aminolevulinic acid
+T25	chemical 858 863	5-ALA
+T26	chemical 869 880	fluorescein
+T27	chemical 881 887	sodium
+T28	chemical 998 1006	antigens
+T29	disease_or_phenotypic_feature 1010 1018	melanoma
+T30	chemical 1061 1075	growth hormone
+T31	disease_or_phenotypic_feature 1091 1103	hypogonadism
+T32	chemical 1104 1117	Valproic acid
+T33	disease_or_phenotypic_feature 1132 1138	cancer
+T34	chemical 1139 1143	drug
+T35	chemical 1227 1230	PCG
+T36	disease_or_phenotypic_feature 1234 1241	obesity
+T37	disease_or_phenotypic_feature 1246 1253	obesity
+T38	chemical 1275 1282	oxidant
+T39	chemical 1339 1353	Growth hormone
+T40	disease_or_phenotypic_feature 1370 1386	islet cell tumor
+T41	disease_or_phenotypic_feature 1387 1399	hypoglycemia
+T42	chemical 1441 1447	oxygen
+T43	disease_or_phenotypic_feature 1498 1516	prostate carcinoma
+T44	chemical 1529 1532	Ras
+T45	chemical 1565 1568	Ras
+T46	chemical 1581 1589	estrogen
+T47	chemical 1607 1616	inhibitor
+T48	disease_or_phenotypic_feature 1655 1668	breast cancer
+T49	chemical 1764 1767	Ras
+T50	chemical 1781 1798	Megestrol acetate
+T51	chemical 1857 1864	hormone
+T52	disease_or_phenotypic_feature 1865 1874	sensitive
+T53	chemical 1967 1974	hormone
+T54	disease_or_phenotypic_feature 2009 2016	obesity
+T55	chemical 2028 2032	drug
+T56	chemical 2048 2052	drug
+T57	disease_or_phenotypic_feature 2061 2081	tumor lysis syndrome
+T58	disease_or_phenotypic_feature 2101 2118	hyperphosphatemia
+T59	disease_or_phenotypic_feature 2120 2132	hyperkalemia
+T60	disease_or_phenotypic_feature 2137 2149	hypocalcemia
+T61	chemical 2190 2199	rapamycin
+T62	chemical 2200 2210	inhibitors
+T63	disease_or_phenotypic_feature 2248 2274	hematological malignancies
+T64	chemical 2327 2341	growth hormone
+T65	disease_or_phenotypic_feature 2376 2396	valvular abnormality
+T66	disease_or_phenotypic_feature 2401 2411	arrhythmia

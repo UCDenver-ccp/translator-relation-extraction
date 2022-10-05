@@ -1,0 +1,68 @@
+T1	chemical 72 76	drug
+T2	chemical 155 158	DIC
+T3	disease_or_phenotypic_feature 155 158	DIC
+T4	chemical 203 210	enzymes
+T5	disease_or_phenotypic_feature 264 269	upper
+T6	chemical 285 296	aldosterone
+T7	chemical 354 362	cortisol
+T8	disease_or_phenotypic_feature 383 389	cancer
+T9	chemical 444 451	antigen
+T10	chemical 488 496	effector
+T11	disease_or_phenotypic_feature 568 577	arthritis
+T12	chemical 619 627	antigens
+T13	disease_or_phenotypic_feature 643 648	edema
+T14	chemical 721 731	inhibitors
+T15	disease_or_phenotypic_feature 763 773	ulcerative
+T16	disease_or_phenotypic_feature 774 783	keratitis
+T17	chemical 788 796	collagen
+T18	disease_or_phenotypic_feature 797 813	vascular disease
+T19	chemical 816 826	Anesthesia
+T20	disease_or_phenotypic_feature 859 866	obesity
+T21	chemical 882 889	omega-3
+T22	chemical 917 924	hormone
+T23	disease_or_phenotypic_feature 925 934	dependent
+T24	disease_or_phenotypic_feature 1009 1029	esophageal disorders
+T25	chemical 1038 1047	adenosine
+T26	chemical 1048 1059	antagonists
+T27	chemical 1061 1070	serotonin
+T28	chemical 1071 1079	agonists
+T29	disease_or_phenotypic_feature 1129 1150	peripheral neuropathy
+T30	chemical 1153 1163	Anesthesia
+T31	disease_or_phenotypic_feature 1168 1175	obesity
+T32	chemical 1240 1243	MCC
+T33	disease_or_phenotypic_feature 1262 1274	hypertension
+T34	disease_or_phenotypic_feature 1275 1289	hyperlipidemia
+T35	disease_or_phenotypic_feature 1290 1297	obesity
+T36	disease_or_phenotypic_feature 1299 1302	MVD
+T37	chemical 1318 1325	TNP-470
+T38	disease_or_phenotypic_feature 1430 1433	MVD
+T39	chemical 1490 1497	TNP-470
+T40	chemical 1504 1526	angiogenesis inhibitor
+T41	chemical 1528 1549	Mycophenolate mofetil
+T42	disease_or_phenotypic_feature 1551 1557	cancer
+T43	chemical 1605 1615	inhibitors
+T44	disease_or_phenotypic_feature 1647 1661	abdominal pain
+T45	disease_or_phenotypic_feature 1667 1675	diarrhea
+T46	chemical 1677 1690	Carbamazepine
+T47	chemical 1692 1695	CBZ
+T48	chemical 1702 1706	drug
+T49	disease_or_phenotypic_feature 1747 1751	pain
+T50	disease_or_phenotypic_feature 1771 1787	bipolar disorder
+T51	chemical 1804 1811	antigen
+T52	disease_or_phenotypic_feature 1821 1832	sarcomatous
+T53	chemical 1848 1856	curcumin
+T54	disease_or_phenotypic_feature 1905 1918	hyperglycemia
+T55	disease_or_phenotypic_feature 1920 1934	hyperlipidemia
+T56	disease_or_phenotypic_feature 1965 1972	obesity
+T57	chemical 1974 1988	Growth hormone
+T58	disease_or_phenotypic_feature 2000 2006	autism
+T59	chemical 2020 2027	ghrelin
+T60	disease_or_phenotypic_feature 2044 2051	obesity
+T61	chemical 2068 2075	ghrelin
+T62	chemical 2092 2096	food
+T63	disease_or_phenotypic_feature 2107 2112	obese
+T64	chemical 2136 2143	antigen
+T65	disease_or_phenotypic_feature 2178 2195	colorectal cancer
+T66	chemical 2210 2217	ethanol
+T67	disease_or_phenotypic_feature 2231 2238	hepatic
+T68	chemical 2283 2293	anesthesia

@@ -172,7 +172,7 @@ public class CraftToBertRelationTrainingFile {
 
 					String label;
 					if (assertion.getRelation() == null) {
-						label = "null";
+						label = "false";
 					} else {
 						label = relationToLabelMap.get(assertion.getRelation());
 						if (label == null) {

@@ -130,57 +130,58 @@ public class CraftToBertRelationTrainingFile {
 		TextAnnotation sentenceAnnot = assertion.getSentenceAnnot();
 		TextAnnotation subjectAnnot = assertion.getSubjectAnnot();
 		TextAnnotation objectAnnot = assertion.getObjectAnnot();
+		if (sentenceAnnot != null) {
+			if (subjectAnnot.getSpans().size() == 1 && objectAnnot.getSpans().size() == 1) {
+				// exclude any assertions that make use of an annotation with multiple spans
+				// since we can't represent that using the placeholder schema
 
-		if (subjectAnnot.getSpans().size() == 1 && objectAnnot.getSpans().size() == 1) {
-			// exclude any assertions that make use of an annotation with multiple spans
-			// since we can't represent that using the placeholder schema
+				String sentenceText = sentenceAnnot.getCoveredText();
 
-			String sentenceText = sentenceAnnot.getCoveredText();
+				// add placeholders working from the end of the sentence to the beginning --
+				// this way the character offsets at the end don't change when you adjust the
+				// sentence at the beginning.
 
-			// add placeholders working from the end of the sentence to the beginning --
-			// this way the character offsets at the end don't change when you adjust the
-			// sentence at the beginning.
+				String subjectPlaceholder = SUBJECT_PLACEHOLDER;
+				String objectPlaceholder = OBJECT_PLACEHOLDER;
 
-//			String subjectPlaceholder = SUBJECT_PLACEHOLDER;
-//			String objectPlaceholder = OBJECT_PLACEHOLDER;
-			
-			String subjectPlaceholder = "@" + getCategory(subjectAnnot.getClassMention().getMentionName()) + "$";
-			String objectPlaceholder = "@" + getCategory(objectAnnot.getClassMention().getMentionName()) + "$";
+//			String subjectPlaceholder = "@" + getCategory(subjectAnnot.getClassMention().getMentionName()) + "_SUBJ$";
+//			String objectPlaceholder = "@" + getCategory(objectAnnot.getClassMention().getMentionName()) + "_OBJ$";
 
-			if (subjectAnnot.getAnnotationSpanStart() > objectAnnot.getAnnotationSpanStart()) {
-				// do subject then object
-				sentenceText = addPlaceholder(sentenceText, sentenceAnnot.getAnnotationSpanStart(), subjectAnnot,
-						subjectPlaceholder);
-				if (sentenceText != null) {
-					sentenceText = addPlaceholder(sentenceText, sentenceAnnot.getAnnotationSpanStart(), objectAnnot,
-							objectPlaceholder);
-				}
-			} else {
-				// do object then subject
-				sentenceText = addPlaceholder(sentenceText, sentenceAnnot.getAnnotationSpanStart(), objectAnnot,
-						objectPlaceholder);
-				if (sentenceText != null) {
+				if (subjectAnnot.getAnnotationSpanStart() > objectAnnot.getAnnotationSpanStart()) {
+					// do subject then object
 					sentenceText = addPlaceholder(sentenceText, sentenceAnnot.getAnnotationSpanStart(), subjectAnnot,
 							subjectPlaceholder);
-				}
-			}
-			if (sentenceText != null) {
-				String sentenceId = DigestUtils.sha256Hex(sentenceText);
-
-				if (!alreadyWrittenSentenceIds.contains(sentenceId)) {
-					alreadyWrittenSentenceIds.add(sentenceId);
-
-					String label;
-					if (assertion.getRelation() == null) {
-						label = "false";
-					} else {
-						label = relationToLabelMap.get(assertion.getRelation());
-						if (label == null) {
-							throw new IllegalStateException(
-									"Expectd non-null label for relation: " + assertion.getRelation());
-						}
+					if (sentenceText != null) {
+						sentenceText = addPlaceholder(sentenceText, sentenceAnnot.getAnnotationSpanStart(), objectAnnot,
+								objectPlaceholder);
 					}
-					writer.write(String.format("%s\t%s\t%s\n", sentenceId, sentenceText, label));
+				} else {
+					// do object then subject
+					sentenceText = addPlaceholder(sentenceText, sentenceAnnot.getAnnotationSpanStart(), objectAnnot,
+							objectPlaceholder);
+					if (sentenceText != null) {
+						sentenceText = addPlaceholder(sentenceText, sentenceAnnot.getAnnotationSpanStart(),
+								subjectAnnot, subjectPlaceholder);
+					}
+				}
+				if (sentenceText != null) {
+					String sentenceId = DigestUtils.sha256Hex(sentenceText);
+
+					if (!alreadyWrittenSentenceIds.contains(sentenceId)) {
+						alreadyWrittenSentenceIds.add(sentenceId);
+
+						String label;
+						if (assertion.getRelation() == null) {
+							label = "false";
+						} else {
+							label = relationToLabelMap.get(assertion.getRelation());
+							if (label == null) {
+								throw new IllegalStateException(
+										"Expectd non-null label for relation: " + assertion.getRelation());
+							}
+						}
+						writer.write(String.format("%s\t%s\t%s\n", sentenceId, sentenceText, label));
+					}
 				}
 			}
 		}

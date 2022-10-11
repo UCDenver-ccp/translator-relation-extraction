@@ -2017,7 +2017,7 @@ jobs:
             ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
             BASE_DOCKERFILE: base.Dockerfile
             MODEL_VERSION_KEY: CRAFT_RELATIONS
-            CLASSIFICATION_LABELS: "bears_constitution_of_or_situatedness_at_or_possession_by_or_derivation_from  null"
+            CLASSIFICATION_LABELS: "bears_constitution_of_or_situatedness_at_or_possession_by_or_derivation_from  false"
             DATA_FILE: data/craft_relations/data.tsv
           steps:
           - uses: actions/checkout@v2

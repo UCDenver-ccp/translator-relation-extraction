@@ -75,7 +75,7 @@ jobs:
       with:
         project_id: ${{ secrets.GCE_PROJECT }}
         service_account_key: ${{ secrets.GCE_SA_KEY }}
-        #version: '290.0.1'
+        version: '290.0.1'
     - name: Configure Docker Authentication
       # if: contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE)
       run: gcloud --quiet auth configure-docker

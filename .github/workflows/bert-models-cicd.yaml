@@ -84,7 +84,7 @@ jobs:
       run: echo "MODEL_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
     - name: Build Docker Image
       # if: contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE)
-      run: docker build --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" -f ${{ env.DOCKERFILE }} .
+      run: docker build --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" -f ${{ env.DOCKERFILE }} . 
     - name: Publish Docker Image to Google Container Registry
       # if: contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE)
       run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"

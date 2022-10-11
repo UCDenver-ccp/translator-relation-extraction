@@ -1882,7 +1882,7 @@ jobs:
           # needs: "build_push-bert-base"
           runs-on: ubuntu-latest
           env:
-            TASK_NAME: craft_relations
+            TASK_NAME: craft
             DOCKERFILE: train.Dockerfile
             ENTRYPOINT_FILE: scripts/train.entrypoint.sh
             BASE_DOCKERFILE: base.Dockerfile
@@ -2007,7 +2007,7 @@ jobs:
           needs: "build_push_train-craft_relations-train"
           runs-on: ubuntu-latest
           env:
-            TASK_NAME: craft_relations
+            TASK_NAME: craft
             DOCKERFILE: predict.Dockerfile
             TRAIN_DOCKERFILE: train.Dockerfile
             TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh

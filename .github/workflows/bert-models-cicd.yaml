@@ -2015,7 +2015,7 @@ jobs:
           
         build_push-craft_relations-predict:
           name: "build/push craft_relations predict container"
-          needs: "build_push_train-craft_relations-train"
+          # needs: "build_push_train-craft_relations-train"
           runs-on: ubuntu-latest
           env:
             TASK_NAME: craft_relations

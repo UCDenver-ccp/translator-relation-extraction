@@ -61,13 +61,12 @@ R1	treats Arg1:T3 Arg2:T59
 R2	treats Arg1:T11 Arg2:T10	
 R3	treats Arg1:T13 Arg2:T10	
 T60	corrected_disease_or_phenotypic_feature 1232 1249	pituitary tumours
-R4	causes_or_contributes_to Arg1:T30 Arg2:T60	
-R5	treats Arg1:T33 Arg2:T35	
 T61	missed_disease_or_phenotypic_feature 1508 1520	hyponatremia
 T62	missed_disease_or_phenotypic_feature 1535 1548	hypochloremia
-R6	causes_or_contributes_to Arg1:T44 Arg2:T45	
-R7	causes_or_contributes_to Arg1:T44 Arg2:T46	
-R8	causes_or_contributes_to Arg1:T44 Arg2:T47	
 T63	corrected_disease_or_phenotypic_feature 2156 2175	facial cancer pain.
 R9	treats Arg1:T52 Arg2:T63	
 T64	DONE 2297 2301	DONE
+T65	corrected_chemical 1341 1362	PEGylated doxorubicin
+R4	treats Arg1:T65 Arg2:T35	
+T66	missed_disease_or_phenotypic_feature 2114 2137	evoked hypersensitivity
+R5	treats Arg1:T52 Arg2:T66	

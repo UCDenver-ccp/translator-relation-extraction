@@ -66,3 +66,27 @@ T65	chemical 2258 2262	drug
 T66	chemical 2345 2355	biomarkers
 T67	chemical 2403 2413	everolimus
 T68	disease_or_phenotypic_feature 2438 2456	endometrial cancer
+R1	treats Arg1:T15 Arg2:T17	
+R2	treats Arg1:T16 Arg2:T17	
+T69	corrected_chemical 560 580	aromatase inhibitors
+R3	treats Arg1:T21 Arg2:T22	
+R4	treats Arg1:T20 Arg2:T22	
+T70	missed_chemical 644 660;665 666	Salvianolic acid B
+R5	treats Arg1:T70 Arg2:T22	
+T71	missed_disease_or_phenotypic_feature 814 838	tumor-associated antigen
+R6	causes_or_contributes_to Arg1:T23 Arg2:T71	
+R7	causes_or_contributes_to Arg1:T24 Arg2:T71	
+T72	missed_disease_or_phenotypic_feature 977 1002	tumor-associated antigens
+R8	causes_or_contributes_to Arg1:T28 Arg2:T72	
+T73	missed_disease_or_phenotypic_feature 1342 1366	Hormone-dependent tumors
+R9	causes_or_contributes_to Arg1:T39 Arg2:T73	
+R10	causes_or_contributes_to Arg1:T41 Arg2:T42	
+R11	causes_or_contributes_to Arg1:T41 Arg2:T44	
+R12	treats Arg1:T52 Arg2:T53	
+T74	corrected_chemical 1689 1710	telomerase antagonist
+R13	treats Arg1:T74 Arg2:T53	
+R14	treats Arg1:T57 Arg2:T58	
+R15	treats Arg1:T57 Arg2:T59	
+R16	treats Arg1:T56 Arg2:T58	
+R17	treats Arg1:T56 Arg2:T59	
+T75	DONE 2458 2462	DONE

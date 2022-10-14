@@ -128,3 +128,6 @@ R41	treats Arg1:T86 Arg2:T71
 R42	treats Arg1:T86 Arg2:T72	
 R43	treats Arg1:T73 Arg2:T71	
 R44	treats Arg1:T73 Arg2:T72	
+T88	missed_chemical 1385 1422	tumor necrosis factor alpha inhibitor
+R1	treats Arg1:T88 Arg2:T39	
+R45	treats Arg1:T41 Arg2:T39	

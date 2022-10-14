@@ -99,10 +99,6 @@ R21	treats Arg1:T74 Arg2:T29
 R22	treats Arg1:T74 Arg2:T77	
 T78	corrected_chemical 1345 1383	colchicine site microtubule inhibitors
 R23	treats Arg1:T78 Arg2:T38	
-T79	corrected_chemical 1553 1583	Antibodies against factor VIII
-T80	missed_disease_or_phenotypic_feature 1601 1613	solid tumors
-R24	treats Arg1:T79 Arg2:T80	
-R25	treats Arg1:T79 Arg2:T42	
 T81	missed_disease_or_phenotypic_feature 1877 1890	core deficits
 T82	corrected_chemical 1817 1856	selective serotonin reuptake inhibitors
 T83	missed_chemical 1858 1863	SSRIs
@@ -110,11 +106,11 @@ R26	treats Arg1:T82 Arg2:T81
 R27	treats Arg1:T83 Arg2:T81	
 R28	treats Arg1:T82 Arg2:T51	
 R29	treats Arg1:T83 Arg2:T51	
-T84	missed_chemical 2100 2103	GOF
-R30	causes_or_contributes_to Arg1:T84 Arg2:T55	
 T85	missed_disease_or_phenotypic_feature 2234 2264	tumor-associated complications
 R31	treats Arg1:T59 Arg2:T85	
 T86	corrected_chemical 2202 2215	diuretic drug
 R32	treats Arg1:T86 Arg2:T85	
 R33	treats Arg1:T59 Arg2:T61	
 R34	treats Arg1:T86 Arg2:T61	
+T79	corrected_chemical 2100 2114	GOF anesthesia
+R24	causes_or_contributes_to Arg1:T79 Arg2:T55	

@@ -94,3 +94,11 @@ T74	missed_disease_or_phenotypic_feature 2230 2235	tumor
 R20	treats Arg1:T72 Arg2:T74	
 R21	treats Arg1:T73 Arg2:T74	
 T75	DONE 2348 2352	DONE
+T76	missed_disease_or_phenotypic_feature 87 89	HF
+R22	causes_or_contributes_to Arg1:T1 Arg2:T76	
+T77	corrected_chemical 1135 1147	anti-oxidant
+T78	missed_chemical 1149 1155	trolox
+R23	treats Arg1:T78 Arg2:T66	
+R24	treats Arg1:T77 Arg2:T66	
+T79	missed_chemical 2131 2137	ZD1694
+R25	treats Arg1:T79 Arg2:T74	

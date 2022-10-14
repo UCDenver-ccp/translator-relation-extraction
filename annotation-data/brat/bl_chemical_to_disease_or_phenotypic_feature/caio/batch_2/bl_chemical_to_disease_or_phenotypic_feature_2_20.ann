@@ -88,3 +88,10 @@ R8	treats Arg1:T26 Arg2:T28
 R9	causes_or_contributes_to Arg1:T29 Arg2:T31	
 R10	treats Arg1:T40 Arg2:T38	
 T80	DONE 2280 2284	DONE
+T81	corrected_chemical 606 646	Daunorubicin--nanoerythrosome conjugates
+R11	treats Arg1:T81 Arg2:T25	
+T82	missed_chemical 743 772	monoamine reuptake inhibitor,
+R12	treats Arg1:T82 Arg2:T28	
+R13	treats Arg1:T37 Arg2:T38	
+T83	corrected_chemical 1975 2013	Selective serotonin-reuptake inhibitor
+R14	causes_or_contributes_to Arg1:T83 Arg2:T65	

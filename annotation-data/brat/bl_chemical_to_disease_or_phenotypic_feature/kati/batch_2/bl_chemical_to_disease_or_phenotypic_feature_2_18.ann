@@ -120,8 +120,3 @@ R27	causes_or_contributes_to Arg1:T83 Arg2:T82
 R28	causes_or_contributes_to Arg1:T84 Arg2:T82	
 T100	disease_or_phenotypic_feature 2468 2476	cataract
 T101	corrected_disease_or_phenotypic_feature 2515 2538	early onset of cataract
-T102	missed_disease_or_phenotypic_feature 2635 2657	initiation of cataract
-R35	causes_or_contributes_to Arg1:T73 Arg2:T102	
-R36	causes_or_contributes_to Arg1:T93 Arg2:T102	
-R20	treats Arg1:T70 Arg2:T74	
-R29	treats Arg1:T92 Arg2:T74	

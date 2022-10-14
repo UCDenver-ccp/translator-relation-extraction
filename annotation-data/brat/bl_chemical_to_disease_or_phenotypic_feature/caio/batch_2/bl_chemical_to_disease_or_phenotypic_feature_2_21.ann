@@ -70,7 +70,6 @@ T68	corrected_chemical 812 834	aldosterone inhibitors
 T69	missed_disease_or_phenotypic_feature 847 859	hypertension
 R2	treats Arg1:T68 Arg2:T69	
 R3	treats Arg1:T32 Arg2:T34	
-R4	causes_or_contributes_to Arg1:T35 Arg2:T37	
 T70	corrected_disease_or_phenotypic_feature 1427 1452	obesity-related disorders
 T71	corrected_chemical 1492 1507	COX-2 inhibitor
 R5	treats Arg1:T71 Arg2:T39	
@@ -84,3 +83,7 @@ R10	causes_or_contributes_to Arg1:T53 Arg2:T55
 T74	corrected_disease_or_phenotypic_feature 2119 2152	amiodarone-induced hypothyroidism
 R11	causes_or_contributes_to Arg1:T57 Arg2:T74	
 T75	DONE 2405 2409	DONE
+T76	corrected_chemical 1258 1291	cannabinoid-1 receptor antagonist
+R12	treats Arg1:T76 Arg2:T34	
+T77	corrected_chemical 2207 2222	c-Met inhibitor
+R4	treats Arg1:T77 Arg2:T64	

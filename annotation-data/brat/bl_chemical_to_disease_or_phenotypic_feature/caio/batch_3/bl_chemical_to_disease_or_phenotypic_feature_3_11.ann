@@ -24,7 +24,7 @@ T23	chemical 1249 1259	inhibitors
 T24	disease_or_phenotypic_feature 1264 1277	heart failure
 T25	disease_or_phenotypic_feature 1323 1330	obesity
 T26	disease_or_phenotypic_feature 1388 1395	obesity
-T27	chemical 1397 1404	ghrelin
+T27	chemical 1397 1404;1427 1443	ghrelin inverse agonists
 T28	chemical 1405 1415	antagonist
 T29	chemical 1435 1443	agonists
 T30	disease_or_phenotypic_feature 1486 1493	obesity
@@ -55,3 +55,46 @@ T54	disease_or_phenotypic_feature 2311 2326	cardiac failure
 T55	chemical 2339 2348	antigenic
 T56	disease_or_phenotypic_feature 2412 2419	myeloma
 T57	chemical 2456 2463	antigen
+T58	missed_chemical 39 48	nivolumab
+R1	treats Arg1:T58 Arg2:T2	
+R2	causes_or_contributes_to Arg1:T8 Arg2:T9	
+R3	causes_or_contributes_to Arg1:T18 Arg2:T20	
+R4	causes_or_contributes_to Arg1:T18 Arg2:T21	
+T59	missed_chemical 1138 1144	LL-PAP
+R5	treats Arg1:T59 Arg2:T22	
+T60	missed_chemical 1189 1192	PBS
+R6	treats Arg1:T60 Arg2:T22	
+T61	missed_chemical 1197 1205	LL-empty
+R7	treats Arg1:T61 Arg2:T22	
+T62	missed_disease_or_phenotypic_feature 1368 1384	GH hyposecretion
+T63	missed_chemical 1291 1298	ghrelin
+R8	causes_or_contributes_to Arg1:T63 Arg2:T62	
+T64	corrected_chemical 1397 1415	ghrelin antagonist
+R9	treats Arg1:T64 Arg2:T30	
+T65	corrected_chemical 1427 1443	inverse agonists
+R10	treats Arg1:T27 Arg2:T30	
+T66	missed_disease_or_phenotypic_feature 1631 1643	anophthalmia
+T67	missed_disease_or_phenotypic_feature 1645 1663	hypoplastic orbits
+T68	missed_disease_or_phenotypic_feature 1665 1682	digital dysplasia
+T69	missed_chemical 1592 1594	GH
+R11	causes_or_contributes_to Arg1:T33 Arg2:T66	
+R12	causes_or_contributes_to Arg1:T33 Arg2:T67	
+R13	causes_or_contributes_to Arg1:T33 Arg2:T68	
+R14	causes_or_contributes_to Arg1:T33 Arg2:T34	
+R15	causes_or_contributes_to Arg1:T33 Arg2:T35	
+R16	causes_or_contributes_to Arg1:T33 Arg2:T36	
+R17	causes_or_contributes_to Arg1:T69 Arg2:T66	
+R18	causes_or_contributes_to Arg1:T69 Arg2:T67	
+R19	causes_or_contributes_to Arg1:T69 Arg2:T68	
+R21	causes_or_contributes_to Arg1:T69 Arg2:T34	
+R20	causes_or_contributes_to Arg1:T69 Arg2:T35	
+R22	causes_or_contributes_to Arg1:T69 Arg2:T36	
+R23	causes_or_contributes_to Arg1:T44 Arg2:T45	
+T70	corrected_chemical 1995 2023	Adrenocorticotrophic hormone
+R24	causes_or_contributes_to Arg1:T70 Arg2:T45	
+T71	corrected_disease_or_phenotypic_feature 2234 2266	obesity-induced oxidative stress
+R25	treats Arg1:T49 Arg2:T71	
+R26	treats Arg1:T50 Arg2:T71	
+R27	treats Arg1:T53 Arg2:T54	
+R28	treats Arg1:T57 Arg2:T56	
+T72	DONE 2490 2494	DONE

@@ -86,4 +86,8 @@ T71	DONE 2383 2387	DONE
 T72	missed_chemical 549 556	SHR6390
 R15	treats Arg1:T72 Arg2:T20	
 T73	missed_chemical 499 505	CDK4/6
-R16	treats Arg1:T73 Arg2:T20	
+R17	causes_or_contributes_to Arg1:T6 Arg2:T11	
+T74	corrected_chemical 499 515	CDK4/6 inhibitor
+R18	treats Arg1:T74 Arg2:T20	
+R16	treats Arg1:T31 Arg2:T29	
+R19	treats Arg1:T32 Arg2:T29	

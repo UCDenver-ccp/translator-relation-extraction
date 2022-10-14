@@ -85,7 +85,7 @@ R17	treats Arg1:T15 Arg2:T66
 R18	treats Arg1:T67 Arg2:T18	
 R19	treats Arg1:T15 Arg2:T18	
 R20	treats Arg1:T25 Arg2:T26	
-R21	treats Arg1:T36 Arg2:T37	
+R21	causes_or_contributes_to Arg1:T36 Arg2:T37	
 T68	missed_disease_or_phenotypic_feature 1718 1727	apoptosis
 R22	causes_or_contributes_to Arg1:T43 Arg2:T68	
 T69	chemical 1624 1629	OVA12
@@ -96,3 +96,5 @@ R24	causes_or_contributes_to Arg1:T70 Arg2:T71
 R25	treats Arg1:T45 Arg2:T46	
 T72	missed_disease_or_phenotypic_feature 2056 2081	Cheyne-Stokes respiration
 R26	treats Arg1:T54 Arg2:T72	
+T73	chemical 1859 1874	liquid nitrogen
+R27	treats Arg1:T73 Arg2:T48	

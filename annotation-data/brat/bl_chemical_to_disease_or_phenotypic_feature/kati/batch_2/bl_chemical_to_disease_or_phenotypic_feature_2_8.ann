@@ -17,7 +17,7 @@ T16	chemical 618 626	hormones
 T17	disease_or_phenotypic_feature 631 638	obesity
 T18	disease_or_phenotypic_feature 699 714	pulmonary edema
 T19	disease_or_phenotypic_feature 721 726	hyper
-T20	chemical 758 763	ether
+T20	chemical 758 774	ether anesthesia
 T21	chemical 764 774	anesthesia
 T22	chemical 783 787	food
 T23	disease_or_phenotypic_feature 804 811	obesity
@@ -61,8 +61,8 @@ T60	chemical 1988 1995	hormone
 T61	disease_or_phenotypic_feature 2015 2022	obesity
 T62	corrected_chemical 2084 2094;2096 2111	cinacalcet 60 mg/d or more
 T63	chemical 2118 2122	drug
-T64	disease_or_phenotypic_feature 2185 2198	hypercalcemia
-T65	disease_or_phenotypic_feature 2202 2218	hypophosphatemia
+T64	corrected_disease_or_phenotypic_feature 2170 2198	development of hypercalcemia
+T65	corrected_disease_or_phenotypic_feature 2170 2184;2202 2218	development of hypophosphatemia
 T66	corrected_chemical 118 136	ghrelin antagonist
 R1	treats Arg1:T66 Arg2:T6	
 R2	treats Arg1:T3 Arg2:T6	
@@ -85,11 +85,7 @@ T74	corrected_disease_or_phenotypic_feature 1390 1414	solid tumor malignancies
 R11	treats Arg1:T38 Arg2:T74	
 R12	treats Arg1:T39 Arg2:T74	
 R13	treats Arg1:T40 Arg2:T74	
-T75	corrected_chemical 1535 1559	pituitary growth hormone
 T76	missed_disease_or_phenotypic_feature 1501 1511	Acromegaly
-R14	causes_or_contributes_to Arg1:T75 Arg2:T76	
-T77	missed_chemical 1561 1563	GH
-R15	causes_or_contributes_to Arg1:T77 Arg2:T76	
 R16	treats Arg1:T48 Arg2:T50	
 R17	treats Arg1:T49 Arg2:T50	
 R18	treats Arg1:T48 Arg2:T51	
@@ -104,3 +100,5 @@ T81	chemical 2084 2094	cinacalcet
 R23	treats Arg1:T62 Arg2:T64	
 R24	treats Arg1:T80 Arg2:T65	
 R25	treats Arg1:T62 Arg2:T65	
+T75	disease_or_phenotypic_feature 2185 2198	hypercalcemia
+T77	disease_or_phenotypic_feature 2202 2218	hypophosphatemia

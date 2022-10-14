@@ -99,3 +99,8 @@ R18	treats Arg1:T66 Arg2:T80
 T81	corrected_chemical 2080 2104	progesterone antagonists
 R19	treats Arg1:T81 Arg2:T80	
 T82	DONE 2304 2308	DONE
+T83	missed_chemical 1881 1883	TH
+R20	causes_or_contributes_to Arg1:T83 Arg2:T59	
+R21	causes_or_contributes_to Arg1:T83 Arg2:T60	
+T84	missed_chemical 2122 2131	ZK 112993
+R22	treats Arg1:T84 Arg2:T80	

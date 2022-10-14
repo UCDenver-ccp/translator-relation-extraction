@@ -5,7 +5,7 @@ T4	chemical 117 124	calcium
 T5	chemical 125 136	antagonists
 T6	disease_or_phenotypic_feature 154 176	advanced heart failure
 T7	disease_or_phenotypic_feature 233 246	heart failure
-T8	disease_or_phenotypic_feature 251 264	heart failure
+T8	disease_or_phenotypic_feature 251 271	heart failure deaths
 T9	chemical 282 291	oxidative
 T10	disease_or_phenotypic_feature 349 356	obesity
 T11	disease_or_phenotypic_feature 374 387	heart failure
@@ -88,9 +88,9 @@ T75	missed_disease_or_phenotypic_feature 1961 1978	glucose tolerance
 R13	causes_or_contributes_to Arg1:T49 Arg2:T75	
 T76	missed_disease_or_phenotypic_feature 1980 1999	reduced weight gain
 R14	causes_or_contributes_to Arg1:T49 Arg2:T76	
-T77	missed_disease_or_phenotypic_feature 2001 2020	myocardial fibrosis
+T77	missed_disease_or_phenotypic_feature 1980 1987;2001 2020	reduced myocardial fibrosis
 R15	treats Arg1:T49 Arg2:T77	
-T78	missed_disease_or_phenotypic_feature 2025 2041	oxidative stress
+T78	missed_disease_or_phenotypic_feature 1980 1987;2025 2041	reduced oxidative stress
 R16	treats Arg1:T49 Arg2:T78	
 R17	treats Arg1:T49 Arg2:T47	
 R18	treats Arg1:T49 Arg2:T48	
@@ -100,3 +100,5 @@ T79	missed_disease_or_phenotypic_feature 2217 2239	carbohydrate oxidation
 R21	causes_or_contributes_to Arg1:T56 Arg2:T79	
 T80	missed_chemical 2196 2203	insulin
 R22	causes_or_contributes_to Arg1:T80 Arg2:T79	
+T81	corrected_chemical 389 403	ACE inhibitors
+R23	treats Arg1:T81 Arg2:T13	

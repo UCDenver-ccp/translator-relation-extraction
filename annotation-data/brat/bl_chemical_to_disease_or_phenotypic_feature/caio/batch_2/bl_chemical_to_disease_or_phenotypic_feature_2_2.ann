@@ -91,3 +91,14 @@ R19	treats Arg1:T65 Arg2:T61
 T72	missed_chemical 2233 2246	beta blockers
 R20	treats Arg1:T72 Arg2:T67	
 T73	DONE 2263 2267	DONE
+T74	missed_chemical 964 990	Glycodendrimers bearing Tn
+T75	missed_chemical 964 987;992 1024	Glycodendrimers bearing alpha-D-GalNAc-(1 --> O)-Ser/Thr
+R21	treats Arg1:T75 Arg2:T29	
+R22	treats Arg1:T74 Arg2:T29	
+T76	missed_disease_or_phenotypic_feature 1139 1145	tumors
+R23	treats Arg1:T75 Arg2:T76	
+R24	treats Arg1:T74 Arg2:T76	
+R25	treats Arg1:T44 Arg2:T47	
+R26	treats Arg1:T44 Arg2:T48	
+T77	corrected_disease_or_phenotypic_feature 2144 2167	potential heart failure
+R27	treats Arg1:T71 Arg2:T77	

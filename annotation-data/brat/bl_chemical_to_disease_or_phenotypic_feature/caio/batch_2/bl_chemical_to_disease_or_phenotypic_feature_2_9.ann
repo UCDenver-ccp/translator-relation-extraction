@@ -101,3 +101,6 @@ R20	treats Arg1:T55 Arg2:T56
 R21	treats Arg1:T55 Arg2:T57	
 R22	treats Arg1:T59 Arg2:T60	
 T81	DONE 2503 2507	DONE
+T82	corrected_chemical 471 490	hormone replacement
+R23	treats Arg1:T82 Arg2:T15	
+R24	treats Arg1:T82 Arg2:T16	

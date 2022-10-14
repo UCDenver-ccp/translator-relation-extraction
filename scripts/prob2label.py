@@ -29,6 +29,12 @@ elif model_key == 'bl_gene_loss_gain_of_function_to_disease':
 elif model_key == 'bl_gene_to_expression_site':
     labels[0]="expressed_in"
     labels[1]="false"
+elif model_key == 'craft_relations':
+    labels[0]="bears_constitution_of_or_situatedness_at_or_possession_by_or_derivation_from"
+    labels[1]="coexists_as"
+    labels[2]="realizes_or_attribute_or_bearer_of_occurrence_in_or_possession_by"
+    labels[3]="realizes_or_bears_or_is_attribute_of_derivation_or_situatedness_or_possession_from"
+    labels[4]="false"
 # elif model_key == 'bl_gene_to_go_term':
 #   labels[0]="????"
 #   labels[1]="????"

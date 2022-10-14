@@ -7,7 +7,8 @@ model_key = sys.argv[1]
 labels = {}
 if model_key == 'bl_chemical_to_disease_or_phenotypic_feature':
     labels[0]="treats"
-    labels[1]="false"
+    labels[1]="causes_or_contributes_to"
+    labels[2]="false"
 elif model_key == 'bl_chemical_to_gene':
     labels[0]="positively_regulates"
     labels[1]="negatively_regulates"

@@ -1,0 +1,89 @@
+T1	cell_type 9 22	myeloid cells
+T2	gene 24 28	IL-4
+T3	gene 99 103	IL-3
+T4	cell_type 105 116	granulocyte
+T5	cell_type 117 127	macrophage
+T6	gene 128 131	CSF
+T7	gene 133 139	GM-CSF
+T8	gene 194 200	Vangl2
+T9	gene 211 221	E-cadherin
+T10	cell_type 225 241	epithelial cells
+T11	cell_type 257 267	astrocytes
+T12	gene 300 304	GFAP
+T13	gene 310 318	vimentin
+T14	cell_type 328 338	astrocytes
+T15	cell_type 398 409	neutrophils
+T16	cell_type 414 425	macrophages
+T17	gene 445 449	IL-3
+T18	gene 454 460	GM-CSF
+T19	cell_type 472 487	sensory neurons
+T20	gene 498 502	TLR2
+T21	gene 507 511	TLR5
+T22	gene 513 522	TGF-beta1
+T23	cell_type 532 543	fibroblasts
+T24	cell_type 619 630	fibroblasts
+T25	cell_type 702 711	microglia
+T26	gene 726 731	Iba-1
+T27	gene 736 746	coronin-1a
+T28	cell_type 827 838	macrophages
+T29	gene 840 844	CD68
+T30	cell_type 846 857	macrophages
+T31	gene 859 863	CD1a
+T32	cell_type 865 880	dendritic cells
+T33	gene 882 890	tryptase
+T34	cell_type 900 910	mast cells
+T35	cell_type 950 957	B cells
+T36	cell_type 968 975	T cells
+T37	gene 1021 1024	p38
+T38	cell_type 1035 1046	fibroblasts
+T39	gene 1051 1057	Gadd45
+T40	cell_type 1076 1090	Cultured cells
+T41	cell_type 1129 1139	hepatocyte
+T42	cell_type 1165 1175	hepatocyte
+T43	gene 1210 1227	alpha-fetoprotein
+T44	gene 1229 1243	cytokeratin-18
+T45	gene 1245 1259	cytokeratin-19
+T46	gene 1324 1330	nestin
+T47	gene 1367 1371	GFAP
+T48	cell_type 1375 1387	Schwann-cell
+T49	cell_type 1440 1448	neuronal
+T50	cell_type 1469 1476	neurons
+T51	gene 1496 1506	HIF-1alpha
+T52	gene 1510 1517	VEGFR-2
+T53	gene 1519 1523	CD16
+T54	cell_type 1529 1544	CD16- monocytes
+T55	gene 1554 1558	IL-6
+T56	gene 1643 1647	IL-6
+T57	cell_type 1678 1693	CD16+ monocytes
+T58	cell_type 1699 1714	CD16- monocytes
+T59	gene 1732 1736	CD14
+T60	cell_type 1737 1752	CD16+ monocytes
+T61	cell_type 1848 1856	Monocyte
+T62	cell_type 1857 1873	Endothelial Cell
+T63	gene 1904 1908	MCP1
+T64	gene 1910 1915	Hsp60
+T65	gene 1920 1926	ADAM17
+T66	cell_type 1936 1948	osteoblastic
+T67	gene 1968 1973	RANKL
+T68	gene 1978 1983	M-CSF
+T69	gene 2044 2048	FGFR
+T70	cell_type 2084 2097	keratinocytes
+T71	gene 2144 2149	FGFR2
+T72	cell_type 2194 2207	keratinocytes
+T73	gene 2267 2271	CD80
+T74	cell_type 2304 2311	B cells
+T75	cell_type 2313 2324	macrophages
+T76	cell_type 2330 2345	dendritic cells
+T77	gene 2347 2358	Osteopontin
+T78	gene 2360 2371	osteocalcin
+T79	gene 2376 2387	OB-cadherin
+T80	cell_type 2465 2477	Osteoblastic
+T81	gene 2525 2529	LEF1
+T82	gene 2530 2542	beta-catenin
+T83	gene 2582 2586	Dll1
+T84	cell_type 2590 2602	fibroblastic
+T85	gene 2626 2631	B7-H4
+T86	cell_type 2633 2644	macrophages
+T87	gene 2654 2657	CD4
+T88	gene 2663 2668	FOXP3
+T89	cell_type 2670 2688	regulatory T cells

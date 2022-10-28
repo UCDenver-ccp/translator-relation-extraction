@@ -1,0 +1,109 @@
+T1	gene 12 26	thrombomodulin
+T2	cell_type 30 45	dendritic cells
+T3	gene 99 113	thrombomodulin
+T4	cell_type 117 132	dendritic cells
+T5	gene 134 139	CXCR3
+T6	gene 145 171	G-protein-coupled receptor
+T7	cell_type 210 217	T cells
+T8	cell_type 219 227	NK cells
+T9	cell_type 233 248	dendritic cells
+T10	gene 250 264	Interleukin-10
+T11	gene 266 271	IL-10
+T12	cell_type 317 324	T cells
+T13	cell_type 326 333	B cells
+T14	cell_type 339 348	monocytic
+T15	gene 356 360	GFAP
+T16	cell_type 376 386	astrocytes
+T17	cell_type 391 400	astrocyte
+T18	gene 424 449	Colony-stimulating factor
+T19	gene 453 458	CSF-1
+T20	cell_type 528 545	hemopoietic cells
+T21	cell_type 553 561	monocyte
+T22	cell_type 562 572	macrophage
+T23	gene 582 588	Leptin
+T24	gene 664 673	TNF-alpha
+T25	cell_type 677 685	monocyte
+T26	cell_type 694 705	macrophages
+T27	cell_type 723 739	brown adipocytes
+T28	cell_type 766 781	brown-adipocyte
+T29	gene 815 819	Ucp1
+T30	gene 821 825	Pgc1
+T31	gene 832 838	Prdm16
+T32	gene 853 858	IL-13
+T33	gene 869 874	STAT6
+T34	cell_type 908 915	B cells
+T35	gene 940 953	ceruloplasmin
+T36	gene 967 979	glycoprotein
+T37	cell_type 997 1010	Sertoli cells
+T38	cell_type 1064 1076	spermatocyte
+T39	gene 1117 1140	sulfated glycoprotein-2
+T40	gene 1145 1156	transferrin
+T41	cell_type 1172 1185	Sertoli cells
+T42	cell_type 1243 1255	spermatocyte
+T43	gene 1282 1293	tricellulin
+T44	cell_type 1325 1341	epithelial cells
+T45	cell_type 1349 1365	epithelial cells
+T46	cell_type 1378 1399	duct epithelial cells
+T47	cell_type 1410 1421	hepatocytes
+T48	cell_type 1431 1447	epithelial cells
+T49	cell_type 1449 1464	dendritic cells
+T50	cell_type 1469 1482	Schwann cells
+T51	gene 1548 1556	occludin
+T52	gene 1609 1620	tricellulin
+T53	gene 1646 1650	CD15
+T54	cell_type 1652 1662	neutrophil
+T55	cell_type 1663 1675	granulocytes
+T56	cell_type 1717 1724	B cells
+T57	gene 1777 1781	CD27
+T58	gene 1783 1787	CD38
+T59	cell_type 1831 1840	monocytes
+T60	cell_type 1842 1853	lymphocytes
+T61	cell_type 1859 1887	polymorphonuclear leukocytes
+T62	gene 1913 1917	CCR1
+T63	gene 1922 1926	CCR8
+T64	gene 1927 1946	chemokine receptors
+T65	cell_type 1986 1996	macrophage
+T66	cell_type 1997 2006	monocytic
+T67	gene 2021 2024	Src
+T68	gene 2025 2028	Akt
+T69	gene 2033 2038	STAT3
+T70	gene 2083 2093	IL-1 alpha
+T71	gene 2095 2104	IL-1 beta
+T72	gene 2106 2110	IL-6
+T73	gene 2112 2116	IL-8
+T74	gene 2118 2123	IL-10
+T75	gene 2131 2134	p35
+T76	gene 2142 2145	p40
+T77	gene 2147 2186	macrophage inflammatory protein-1 alpha
+T78	cell_type 2188 2199	granulocyte
+T79	cell_type 2200 2210	macrophage
+T80	gene 2211 2214	CSF
+T81	cell_type 2216 2227	granulocyte
+T82	gene 2228 2231	CSF
+T83	gene 2248 2257	TNF alpha
+T84	cell_type 2261 2270	monocytes
+T85	gene 2309 2313	MDA5
+T86	cell_type 2321 2327	T cell
+T87	gene 2365 2368	CD4
+T88	cell_type 2371 2377	T cell
+T89	gene 2401 2404	CD4
+T90	cell_type 2407 2414	T cells
+T91	gene 2419 2423	MDA5
+T92	cell_type 2441 2447	T cell
+T93	gene 2485 2498	Transthyretin
+T94	cell_type 2518 2526	monocyte
+T95	cell_type 2531 2547	endothelial cell
+T96	gene 2548 2561	interleukin-1
+T97	gene 2594 2603	caspase-3
+T98	gene 2616 2621	PTP1B
+T99	gene 2625 2630	PTP1B
+T100	cell_type 2632 2643	hepatocytes
+T101	gene 2672 2677	PTP1B
+T102	cell_type 2708 2717	astrocyte
+T103	cell_type 2722 2731	microglia
+T104	gene 2771 2775	GFAP
+T105	gene 2780 2785	iba-1
+T106	cell_type 2787 2798	Granulocyte
+T107	cell_type 2799 2807	monocyte
+T108	gene 2808 2833	colony-stimulating factor
+T109	gene 2835 2841	GM-CSF

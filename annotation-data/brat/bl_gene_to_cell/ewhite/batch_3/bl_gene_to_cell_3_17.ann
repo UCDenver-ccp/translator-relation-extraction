@@ -1,0 +1,113 @@
+T1	gene 13 16	BMP
+T2	cell_type 29 39	hepatocyte
+T3	gene 40 48	hepcidin
+T4	gene 110 114	Hfe2
+T5	cell_type 118 129	hepatocytes
+T6	cell_type 175 184	microglia
+T7	gene 190 194	MAC1
+T8	gene 203 207	MAC1
+T9	gene 226 230	MAC1
+T10	cell_type 236 242	neuron
+T11	cell_type 273 282	microglia
+T12	gene 299 303	MAC1
+T13	cell_type 333 342	microglia
+T14	gene 381 386	GLP-1
+T15	cell_type 413 419	b-cell
+T16	gene 427 432	GLUT2
+T17	gene 434 445	glucokinase
+T18	gene 447 454	insulin
+T19	gene 460 465	PDX-1
+T20	cell_type 480 486	b-cell
+T21	cell_type 539 562	insulin secreting cells
+T22	cell_type 580 597	mesothelial cells
+T23	gene 643 649	CXCL12
+T24	gene 650 655	CXCR4
+T25	gene 660 666	CXCL16
+T26	gene 667 672	CXCR6
+T27	cell_type 681 698	mesothelial cells
+T28	cell_type 726 733	neurons
+T29	gene 753 758	GluR2
+T30	gene 765 771	NMDAR1
+T31	cell_type 800 807	neurons
+T32	gene 820 825	GluR1
+T33	gene 827 832	GluR4
+T34	gene 838 843	GluR5
+T35	cell_type 926 939	T lymphocytes
+T36	gene 948 952	CD21
+T37	gene 977 981	CD21
+T38	gene 982 994	glycoprotein
+T39	cell_type 1009 1016	B cells
+T40	gene 1018 1021	CD4
+T41	cell_type 1032 1039	T cells
+T42	cell_type 1062 1079	mononuclear cells
+T43	cell_type 1099 1107	Neuronal
+T44	cell_type 1134 1142	neuronal
+T45	gene 1153 1180	neuronal pentraxin receptor
+T46	gene 1206 1227	transmembrane protein
+T47	cell_type 1235 1243	neuronal
+T48	gene 1266 1286	neuronal pentraxin-1
+T49	gene 1297 1305	Tryptase
+T50	gene 1319 1324	PAR-2
+T51	cell_type 1328 1341	keratinocytes
+T52	cell_type 1346 1363	endothelial cells
+T53	gene 1398 1402	IL-6
+T54	cell_type 1417 1427	astrocytes
+T55	cell_type 1429 1440	macrophages
+T56	cell_type 1442 1451	microglia
+T57	cell_type 1457 1474	endothelial cells
+T58	gene 1502 1506	Fmr1
+T59	cell_type 1508 1519	fibroblasts
+T60	gene 1590 1594	Fmr1
+T61	gene 1642 1646	Fmr1
+T62	gene 1667 1671	Fmr1
+T63	gene 1684 1696	Somatostatin
+T64	gene 1701 1713	Somatostatin
+T65	cell_type 1725 1732	Neurons
+T66	cell_type 1744 1752	Neuronal
+T67	gene 1778 1783	PECAM
+T68	gene 1800 1806	LYVE-1
+T69	cell_type 1827 1844	endothelial cells
+T70	cell_type 1846 1855	pericytes
+T71	cell_type 1857 1876	smooth muscle cells
+T72	cell_type 1882 1909	lymphatic endothelial cells
+T73	gene 1966 1970	Sox9
+T74	cell_type 1974 1986	chondrocytes
+T75	gene 2003 2007	Sox9
+T76	cell_type 2035 2051	oligodendrocytes
+T77	cell_type 2056 2067	melanocytes
+T78	gene 2154 2160	GM-CSF
+T79	cell_type 2215 2225	fibroblast
+T80	cell_type 2231 2243	synoviocytes
+T81	gene 2279 2288	IL-1 beta
+T82	gene 2290 2299	TNF-alpha
+T83	cell_type 2301 2311	macrophage
+T84	gene 2312 2315	CSF
+T85	gene 2328 2332	IL-6
+T86	gene 2338 2346	TGF-beta
+T87	cell_type 2349 2369	Transitional B cells
+T88	cell_type 2380 2400	marginal zone B cell
+T89	gene 2409 2414	Taok3
+T90	gene 2446 2452	ADAM10
+T91	gene 2475 2479	BCL6
+T92	gene 2505 2509	BCL6
+T93	cell_type 2569 2575	B-cell
+T94	cell_type 2608 2620	plasma cells
+T95	gene 2651 2656	FoxP3
+T96	gene 2681 2684	CD4
+T97	cell_type 2691 2701	thymocytes
+T98	gene 2715 2718	CD4
+T99	cell_type 2752 2762	thymocytes
+T100	gene 2764 2773	Caspase-2
+T101	cell_type 2794 2803	thymocyte
+T102	cell_type 2807 2815	neuronal
+T103	gene 2850 2859	caspase-2
+T104	gene 2881 2887	Apaf-1
+T105	gene 2892 2901	caspase-9
+T106	gene 2928 2933	HMGB1
+T107	gene 2950 2954	NOX2
+T108	gene 2955 2960	NLRP1
+T109	cell_type 2977 2985	neuronal
+T110	gene 2993 2998	MCP-1
+T111	cell_type 3040 3047	neurons
+T112	gene 3055 3060	MCP-1
+T113	cell_type 3086 3103	endothelial cells

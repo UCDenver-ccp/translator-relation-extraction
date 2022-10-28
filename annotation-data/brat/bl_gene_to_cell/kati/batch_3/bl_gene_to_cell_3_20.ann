@@ -1,0 +1,91 @@
+T1	gene 11 21	calmodulin
+T2	cell_type 31 39	platelet
+T3	gene 68 71	EGF
+T4	cell_type 82 90	platelet
+T5	cell_type 101 123	Hepatic stellate cells
+T6	gene 144 175	glial fibrillary acidic protein
+T7	gene 177 181	GFAP
+T8	cell_type 218 235	endothelial cells
+T9	cell_type 240 251	hepatocytes
+T10	gene 263 268	IL-29
+T11	gene 278 282	IL-4
+T12	gene 287 292	IL-13
+T13	cell_type 306 315	mast cell
+T14	gene 345 348	Akt
+T15	gene 359 364	STAT3
+T16	cell_type 406 415	mast cell
+T17	cell_type 445 455	mast cells
+T18	gene 457 471	Interleukin-21
+T19	gene 473 478	IL-21
+T20	cell_type 485 491	T cell
+T21	cell_type 520 526	T cell
+T22	cell_type 528 534	B cell
+T23	cell_type 540 559	natural killer cell
+T24	gene 571 578	PECAM-1
+T25	gene 580 584	CD31
+T26	cell_type 618 627	platelets
+T27	cell_type 633 650	endothelial cells
+T28	gene 670 675	Rab10
+T29	gene 709 714	Glut4
+T30	gene 718 725	insulin
+T31	cell_type 737 747	adipocytes
+T32	cell_type 773 783	adipocytes
+T33	cell_type 790 801	fibroblasts
+T34	cell_type 832 848	epithelial cells
+T35	cell_type 854 866	goblet cells
+T36	gene 883 888	PEPT2
+T37	cell_type 901 912	macrophages
+T38	gene 940 944	FGF2
+T39	cell_type 949 957	monocyte
+T40	gene 983 988	MCP-1
+T41	cell_type 1000 1010	macrophage
+T42	cell_type 1036 1046	Mast cells
+T43	gene 1048 1053	VIPR1
+T44	cell_type 1056 1067	macrophages
+T45	gene 1069 1074	VIPR1
+T46	gene 1079 1084	VIPR2
+T47	cell_type 1087 1094	B cells
+T48	cell_type 1100 1107	T cells
+T49	gene 1109 1114	VIPR1
+T50	gene 1116 1121	VIPR2
+T51	gene 1126 1131	VIPR1
+T52	gene 1136 1141	VIPR2
+T53	gene 1244 1249	VIPR1
+T54	gene 1254 1259	VIPR2
+T55	gene 1261 1274	Interleukin-8
+T56	gene 1279 1285	CXCL10
+T57	cell_type 1305 1318	keratinocytes
+T58	cell_type 1323 1334	fibroblasts
+T59	cell_type 1388 1396	neuronal
+T60	gene 1433 1439	IFITM1
+T61	gene 1444 1450	IFITM3
+T62	gene 1457 1460	LXR
+T63	gene 1467 1470	LXR
+T64	cell_type 1491 1498	neurons
+T65	cell_type 1503 1512	microglia
+T66	cell_type 1554 1564	astrocytes
+T67	gene 1582 1586	COX1
+T68	gene 1591 1595	FTH1
+T69	cell_type 1650 1661	melanocytes
+T70	cell_type 1666 1679	keratinocytes
+T71	gene 1682 1686	arr2
+T72	gene 1737 1753	cyclooxygenase-2
+T73	gene 1755 1789	monocyte chemoattractant protein-1
+T74	cell_type 1791 1801	macrophage
+T75	cell_type 1831 1841	macrophage
+T76	cell_type 1860 1871	melanocytic
+T77	gene 1938 1944	MART-1
+T78	cell_type 1984 1992	platelet
+T79	gene 2014 2031	platelet factor 4
+T80	gene 2033 2037	TSLP
+T81	cell_type 2041 2056	epithelial cell
+T82	cell_type 2061 2075	dendritic cell
+T83	gene 2166 2170	CD34
+T84	cell_type 2174 2192	hematopoietic cell
+T85	cell_type 2253 2260	neurons
+T86	gene 2285 2289	Cx43
+T87	gene 2293 2297	Cx30
+T88	gene 2352 2361	Annexin V
+T89	gene 2362 2365	CD4
+T90	gene 2410 2413	CD4
+T91	cell_type 2432 2443	lymphocytes

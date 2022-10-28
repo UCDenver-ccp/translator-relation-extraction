@@ -1,0 +1,129 @@
+T1	cell_type 73 90	white blood cells
+T2	cell_type 104 115	lymphocytes
+T3	cell_type 123 136	T lymphocytes
+T4	cell_type 145 165	helper T lymphocytes
+T5	cell_type 185 198	T lymphocytes
+T6	gene 207 210	CD4
+T7	cell_type 224 237	B lymphocytes
+T8	cell_type 244 257	B lymphocytes
+T9	cell_type 269 282	T lymphocytes
+T10	gene 299 302	CD4
+T11	cell_type 312 323	lymphocytes
+T12	gene 325 328	CD4
+T13	gene 341 344	CD4
+T14	cell_type 355 366	lymphocytes
+T15	gene 368 371	CD4
+T16	cell_type 387 398	lymphocytes
+T17	gene 400 404	CD16
+T18	cell_type 412 427	red blood cells
+T19	gene 510 514	GFAP
+T20	cell_type 550 560	astrocytes
+T21	gene 566 570	GFAP
+T22	gene 605 608	MBP
+T23	cell_type 645 661	oligodendrocytes
+T24	cell_type 727 734	neurons
+T25	cell_type 781 792	basal cells
+T26	gene 794 835	low-affinity nerve growth factor receptor
+T27	gene 840 844	NGFR
+T28	cell_type 868 875	neurons
+T29	gene 877 905	growth-associated protein 43
+T30	gene 907 912	GAP43
+T31	cell_type 927 953	olfactory receptor neurons
+T32	gene 955 979	olfactory marker protein
+T33	cell_type 999 1010	hepatocytes
+T34	cell_type 1012 1025	Kupffer cells
+T35	cell_type 1031 1048	endothelial cells
+T36	gene 1094 1099	STAT1
+T37	gene 1101 1106	STAT3
+T38	gene 1112 1117	IRF-1
+T39	gene 1145 1151	VCAM-1
+T40	gene 1153 1159	ICAM-1
+T41	cell_type 1197 1214	Endothelial cells
+T42	cell_type 1216 1235	smooth muscle cells
+T43	cell_type 1237 1244	T cells
+T44	cell_type 1250 1261	macrophages
+T45	gene 1341 1345	CD68
+T46	gene 1368 1371	CD4
+T47	cell_type 1380 1387	T cells
+T48	cell_type 1433 1439	T cell
+T49	cell_type 1485 1492	T cells
+T50	gene 1494 1497	CD4
+T51	cell_type 1506 1513	T cells
+T52	gene 1532 1535	CD4
+T53	cell_type 1536 1542	T cell
+T54	cell_type 1578 1584	T cell
+T55	gene 1628 1633	Fgfr2
+T56	gene 1643 1648	Runx2
+T57	cell_type 1653 1663	osteoblast
+T58	gene 1706 1711	Fgfr2
+T59	gene 1730 1735	Runx2
+T60	cell_type 1773 1784	osteoblasts
+T61	gene 1816 1821	Fgfr2
+T62	cell_type 1851 1861	osteoblast
+T63	cell_type 1884 1895	osteoblasts
+T64	cell_type 1948 1964	Langerhans cells
+T65	gene 2004 2008	CD34
+T66	cell_type 2010 2038	hemopoietic progenitor cells
+T67	cell_type 2058 2069	granulocyte
+T68	cell_type 2070 2080	macrophage
+T69	gene 2086 2092	GM-CSF
+T70	gene 2096 2105	TNF-alpha
+T71	gene 2107 2111	CD68
+T72	cell_type 2133 2147	synovial cells
+T73	gene 2165 2170	MUC-1
+T74	gene 2175 2179	CD68
+T75	cell_type 2189 2200	macrophages
+T76	cell_type 2237 2254	mononuclear cells
+T77	gene 2291 2295	TACE
+T78	gene 2306 2315	TNF-alpha
+T79	cell_type 2365 2373	neuronal
+T80	cell_type 2381 2393	Keratinocyte
+T81	gene 2394 2400	ICAM-1
+T82	cell_type 2412 2418	T cell
+T83	gene 2432 2436	CD18
+T84	cell_type 2482 2495	keratinocytes
+T85	cell_type 2497 2503	T-cell
+T86	cell_type 2519 2529	lymphocyte
+T87	cell_type 2569 2575	T-cell
+T88	gene 2600 2604	CD16
+T89	gene 2606 2610	CD56
+T90	gene 2652 2657	DACH1
+T91	cell_type 2682 2691	podocytes
+T92	gene 2729 2737	cyclin D
+T93	gene 2768 2771	p21
+T94	gene 2776 2779	p53
+T95	gene 2802 2807	DACH1
+T96	cell_type 2832 2841	podocytes
+T97	cell_type 2886 2892	M cell
+T98	gene 2901 2926	Colony stimulating factor
+T99	gene 2930 2935	CSF-1
+T100	gene 2992 2995	EGF
+T101	cell_type 2999 3010	macrophages
+T102	gene 3012 3026	Interleukin-32
+T103	gene 3028 3033	IL-32
+T104	cell_type 3083 3092	monocytes
+T105	cell_type 3116 3125	monocytes
+T106	cell_type 3131 3141	macrophage
+T107	gene 3154 3167	Interleukin-8
+T108	gene 3169 3173	IL-8
+T109	cell_type 3225 3234	monocytes
+T110	cell_type 3236 3247	macrophages
+T111	cell_type 3249 3262	Kupffer cells
+T112	cell_type 3267 3278	hepatocytes
+T113	cell_type 3293 3304	neutrophils
+T114	gene 3306 3311	Runx1
+T115	cell_type 3368 3385	mesenchymal cells
+T116	gene 3395 3400	Runx2
+T117	gene 3405 3410	Runx3
+T118	cell_type 3454 3466	chondrocytes
+T119	gene 3468 3473	DCST2
+T120	gene 3519 3527	DC-STAMP
+T121	cell_type 3534 3544	osteoclast
+T122	gene 3644 3647	CD4
+T123	gene 3648 3651	p24
+T124	cell_type 3653 3664	lymphocytes
+T125	gene 3686 3689	p24
+T126	gene 3729 3736	CEACAM1
+T127	gene 3753 3761	paxillin
+T128	cell_type 3765 3777	granulocytes
+T129	cell_type 3797 3814	endothelial cells

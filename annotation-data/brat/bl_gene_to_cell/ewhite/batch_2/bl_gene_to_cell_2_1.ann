@@ -1,0 +1,100 @@
+T1	gene 0 39	Macrophage-inflammatory protein 1 alpha
+T2	gene 41 52	MIP-1 alpha
+T3	cell_type 80 89	monocytes
+T4	cell_type 94 105	macrophages
+T5	cell_type 136 143	T cells
+T6	cell_type 145 154	monocytes
+T7	cell_type 160 171	macrophages
+T8	cell_type 181 191	Th17 cells
+T9	gene 238 241	CD4
+T10	cell_type 256 269	keratinocytes
+T11	gene 275 279	MMP9
+T12	gene 281 285	IL-9
+T13	gene 291 296	IL-17
+T14	gene 345 350	TSP-1
+T15	cell_type 373 383	macrophage
+T16	cell_type 393 409	endothelial cell
+T17	gene 411 425	angiopoietin-2
+T18	gene 450 454	Ccl3
+T19	cell_type 478 487	microglia
+T20	cell_type 502 511	microglia
+T21	gene 558 562	Ccl2
+T22	cell_type 575 582	neurons
+T23	gene 601 605	PPT1
+T24	gene 627 653	synaptic vesicle protein 2
+T25	gene 658 671	synaptophysin
+T26	gene 707 711	PPT1
+T27	cell_type 740 748	neuronal
+T28	gene 756 765	Annexin 2
+T29	cell_type 803 815	osteoblastic
+T30	cell_type 885 895	Th17 cells
+T31	cell_type 957 967	fibrocytes
+T32	cell_type 981 991	fibrocytes
+T33	cell_type 1001 1010	Th17 cell
+T34	cell_type 1034 1044	Th17 cells
+T35	gene 1050 1083	macrophage inflammatory protein 3
+T36	gene 1085 1090	MIP-3
+T37	gene 1092 1096	CCR6
+T38	cell_type 1124 1131	neurons
+T39	gene 1162 1166	TLR4
+T40	gene 1184 1188	TLR4
+T41	cell_type 1203 1210	neurons
+T42	gene 1228 1260	P-selectin glycoprotein ligand 1
+T43	gene 1277 1287	L-selectin
+T44	cell_type 1291 1302	neutrophils
+T45	cell_type 1304 1313	monocytes
+T46	gene 1319 1323	CD34
+T47	cell_type 1385 1395	macrophage
+T48	gene 1396 1421	colony-stimulating factor
+T49	gene 1423 1428	M-CSF
+T50	gene 1460 1465	RAE-1
+T51	cell_type 1480 1489	microglia
+T52	gene 1491 1495	Sox4
+T53	cell_type 1527 1538	lymphocytes
+T54	cell_type 1540 1561	pancreatic beta cells
+T55	cell_type 1563 1574	osteoblasts
+T56	gene 1603 1608	Sox11
+T57	gene 1646 1650	BDNF
+T58	gene 1689 1694	KCNQ4
+T59	cell_type 1709 1716	neurons
+T60	cell_type 1730 1750	embryonic stem cells
+T61	cell_type 1792 1805	T lymphocytes
+T62	gene 1814 1823	TNF-alpha
+T63	gene 1828 1836	IL-1beta
+T64	cell_type 1840 1849	monocytes
+T65	cell_type 1884 1894	fibroblast
+T66	cell_type 1900 1912	synoviocytes
+T67	gene 1946 1951	Mesp1
+T68	gene 1971 1976	Meis1
+T69	gene 1981 1986	Meis2
+T70	cell_type 1990 2007	endothelial cells
+T71	cell_type 2021 2041	embryonic stem cells
+T72	gene 2081 2084	CD4
+T73	gene 2110 2114	CD34
+T74	cell_type 2141 2167	peripheral blood stem cell
+T75	gene 2185 2190	TRAF1
+T76	gene 2214 2219	TRAF2
+T77	cell_type 2248 2259	lymphocytes
+T78	gene 2284 2288	CD19
+T79	cell_type 2292 2299	B cells
+T80	cell_type 2301 2319	Regulatory T cells
+T81	gene 2361 2364	CD4
+T82	gene 2366 2370	CD25
+T83	gene 2375 2380	Foxp3
+T84	cell_type 2414 2425	macrophages
+T85	cell_type 2445 2456	macrophages
+T86	gene 2570 2586	cyclooxygenase-2
+T87	cell_type 2598 2615	endothelial cells
+T88	cell_type 2620 2631	macrophages
+T89	gene 2633 2661	Fatty acid-binding protein 4
+T90	gene 2663 2668	FABP4
+T91	cell_type 2685 2694	adipocyte
+T92	cell_type 2703 2712	adipocyte
+T93	cell_type 2733 2743	adipocytes
+T94	cell_type 2745 2756	macrophages
+T95	cell_type 2762 2789	capillary endothelial cells
+T96	gene 2824 2832	vimentin
+T97	gene 2834 2847	synaptophysin
+T98	gene 2849 2880	glial fibrillary acidic protein
+T99	cell_type 2882 2888	neuron
+T100	cell_type 3027 3035	neuronal

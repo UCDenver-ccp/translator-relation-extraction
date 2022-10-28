@@ -1,0 +1,100 @@
+T1	cell_type 14 23	monocytic
+T2	gene 45 49	TGR5
+T3	gene 68 72	TGR5
+T4	gene 116 120	TGR5
+T5	gene 133 138	Bcl-2
+T6	cell_type 192 199	neurons
+T7	cell_type 207 214	neurons
+T8	gene 229 232	NGF
+T9	cell_type 243 250	neurons
+T10	gene 265 269	Mfn2
+T11	cell_type 294 301	oocytes
+T12	gene 331 334	p38
+T13	gene 335 339	MAPK
+T14	cell_type 343 349	oocyte
+T15	gene 413 417	CD25
+T16	gene 419 422	CD4
+T17	gene 432 436	CD56
+T18	cell_type 440 451	lymphocytes
+T19	cell_type 487 498	hepatocytes
+T20	gene 503 507	Atg3
+T21	gene 553 561	Beclin-1
+T22	gene 566 570	Atg3
+T23	gene 620 625	Runx2
+T24	gene 666 671	Runx2
+T25	cell_type 694 705	osteoblasts
+T26	cell_type 710 722	chondrocytes
+T27	gene 777 784	vigilin
+T28	cell_type 796 807	macrophages
+T29	cell_type 813 823	foam cells
+T30	gene 833 840	vigilin
+T31	cell_type 893 904	macrophages
+T32	gene 919 930	cathepsin S
+T33	gene 960 964	CD68
+T34	cell_type 966 976	macrophage
+T35	cell_type 982 994	synoviocytes
+T36	cell_type 1023 1040	endothelial cells
+T37	gene 1065 1070	FoxP2
+T38	cell_type 1080 1087	neurons
+T39	gene 1106 1111	GAD65
+T40	cell_type 1151 1165	amacrine cells
+T41	gene 1167 1175	Collagen
+T42	cell_type 1176 1184	platelet
+T43	gene 1236 1244	collagen
+T44	cell_type 1250 1258	platelet
+T45	cell_type 1301 1309	platelet
+T46	gene 1310 1315	GPIIb
+T47	gene 1352 1364	Phospho-ERK1
+T48	gene 1388 1419	glial fibrillary acidic protein
+T49	gene 1421 1425	GFAP
+T50	gene 1445 1450	Iba-1
+T51	cell_type 1452 1461	microglia
+T52	cell_type 1462 1473	macrophages
+T53	gene 1515 1559	Osteoclast stimulatory transmembrane protein
+T54	gene 1564 1609	dendritic cell?specific transmembrane protein
+T55	cell_type 1658 1669	osteoclasts
+T56	cell_type 1674 1698	foreign body giant cells
+T57	gene 1715 1720	TRPA1
+T58	gene 1743 1748	TRPA1
+T59	cell_type 1797 1805	neuronal
+T60	gene 1806 1811	TRPA1
+T61	gene 1856 1861	TRPA1
+T62	gene 1902 1907	TRPA1
+T63	gene 1912 1917	TRPV1
+T64	gene 1958 1962	CD34
+T65	gene 1975 1980	Sca-1
+T66	cell_type 2034 2042	platelet
+T67	gene 2062 2072	P-selectin
+T68	gene 2085 2093	integrin
+T69	gene 2094 2099	Mac-1
+T70	gene 2101 2106	CD11b
+T71	gene 2107 2111	CD18
+T72	cell_type 2175 2184	platelets
+T73	gene 2186 2190	TLR7
+T74	cell_type 2210 2219	monocytes
+T75	cell_type 2224 2239	dendritic cells
+T76	gene 2304 2307	p70
+T77	gene 2309 2313	IL-6
+T78	gene 2319 2323	CCL2
+T79	gene 2325 2329	GFAP
+T80	cell_type 2333 2343	astrocytes
+T81	gene 2395 2401	nestin
+T82	gene 2412 2416	GFAP
+T83	cell_type 2436 2446	astrocytes
+T84	gene 2463 2467	Ubc9
+T85	cell_type 2528 2539	fibroblasts
+T86	gene 2541 2545	Ubc9
+T87	cell_type 2563 2582	embryonic stem cell
+T88	cell_type 2584 2587	ESC
+T89	gene 2626 2629	pan
+T90	gene 2630 2638	cadherin
+T91	cell_type 2659 2685	bronchial epithelial cells
+T92	gene 2752 2756	CD14
+T93	gene 2760 2764	CD16
+T94	cell_type 2768 2777	monocytes
+T95	gene 2825 2832	IGFBP-3
+T96	cell_type 2855 2879	colonic epithelial cells
+T97	gene 2900 2903	p53
+T98	gene 2934 2937	p53
+T99	gene 2969 2975	IGFBP3
+T100	gene 2996 2999	p53

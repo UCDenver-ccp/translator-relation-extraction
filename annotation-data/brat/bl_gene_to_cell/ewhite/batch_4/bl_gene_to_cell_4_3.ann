@@ -1,0 +1,107 @@
+T1	gene 0 5	MMP-1
+T2	cell_type 49 62	keratinocytes
+T3	gene 72 77	MMP-2
+T4	gene 79 85	TIMP-1
+T5	cell_type 96 107	fibroblasts
+T6	gene 127 131	CD14
+T7	cell_type 161 169	monocyte
+T8	gene 179 183	CD14
+T9	gene 187 191	CD16
+T10	gene 196 200	CD14
+T11	gene 204 208	CD16
+T12	gene 217 221	CD14
+T13	gene 226 230	CD16
+T14	cell_type 303 312	monocytes
+T15	gene 346 356	epimorphin
+T16	cell_type 372 382	hepatocyte
+T17	gene 393 403	epimorphin
+T18	cell_type 439 450	hepatocytes
+T19	cell_type 483 496	keratinocytes
+T20	gene 533 539	VEGF-A
+T21	cell_type 545 556	fibroblasts
+T22	cell_type 568 579	lymphocytes
+T23	gene 605 618	interleukin-2
+T24	gene 620 624	IL-2
+T25	cell_type 686 697	granulocyte
+T26	cell_type 698 706	monocyte
+T27	gene 707 732	colony-stimulating-factor
+T28	gene 734 740	GM-CSF
+T29	cell_type 787 798	Macrophages
+T30	gene 824 828	TLR4
+T31	gene 833 841	dectin-1
+T32	gene 892 897	MKP-1
+T33	cell_type 924 935	fibroblasts
+T34	gene 1003 1006	p38
+T35	gene 1016 1019	p38
+T36	cell_type 1060 1071	fibroblasts
+T37	gene 1087 1092	CXCR4
+T38	gene 1097 1101	CCR5
+T39	cell_type 1129 1136	T cells
+T40	cell_type 1141 1149	monocyte
+T41	cell_type 1158 1169	macrophages
+T42	gene 1185 1200	Interleukin-HP1
+T43	gene 1202 1205	HP1
+T44	gene 1207 1211	IL-6
+T45	cell_type 1246 1257	macrophages
+T46	cell_type 1259 1270	fibroblasts
+T47	cell_type 1284 1290	T cell
+T48	cell_type 1310 1318	platelet
+T49	cell_type 1319 1328	leukocyte
+T50	gene 1360 1364	CD45
+T51	gene 1366 1370	CD14
+T52	gene 1430 1435	CXCR1
+T53	gene 1437 1442	CXCR2
+T54	gene 1448 1452	CD14
+T55	cell_type 1468 1479	neutrophils
+T56	cell_type 1484 1493	monocytes
+T57	gene 1526 1531	SDF-1
+T58	gene 1537 1541	Cx37
+T59	cell_type 1568 1575	oocytes
+T60	cell_type 1580 1595	granulosa cells
+T61	gene 1685 1689	CD68
+T62	cell_type 1699 1710	macrophages
+T63	cell_type 1711 1722	histiocytes
+T64	gene 1727 1731	CD20
+T65	cell_type 1741 1754	B lymphocytes
+T66	cell_type 1774 1782	fat-cell
+T67	gene 1802 1809	adipsin
+T68	gene 1811 1819	resistin
+T69	gene 1825 1836	adiponectin
+T70	cell_type 1845 1854	adipocyte
+T71	gene 1870 1874	CD36
+T72	gene 1876 1887	Aquaporin 1
+T73	gene 1889 1893	AQP1
+T74	cell_type 1911 1927	epithelial cells
+T75	gene 1958 1962	AQP4
+T76	gene 1964 1968	AQP5
+T77	gene 1973 1977	AQP9
+T78	cell_type 1996 2006	astrocytes
+T79	cell_type 2011 2026	ependymal cells
+T80	gene 2044 2050	CXCL13
+T81	cell_type 2094 2101	B cells
+T82	cell_type 2108 2115	T cells
+T83	cell_type 2124 2136	plasma cells
+T84	gene 2141 2145	CD35
+T85	cell_type 2147 2173	follicular dendritic cells
+T86	gene 2216 2219	K14
+T87	gene 2225 2229	Sox2
+T88	cell_type 2278 2288	stem cells
+T89	gene 2294 2301	insulin
+T90	cell_type 2313 2323	adipocytes
+T91	cell_type 2328 2345	mononuclear cells
+T92	gene 2373 2380	insulin
+T93	gene 2476 2483	insulin
+T94	gene 2494 2501	insulin
+T95	cell_type 2513 2523	adipocytes
+T96	gene 2564 2581	insulin receptors
+T97	cell_type 2585 2595	adipocytes
+T98	gene 2613 2630	insulin receptors
+T99	cell_type 2634 2651	mononuclear cells
+T100	gene 2687 2690	Pam
+T101	gene 2691 2694	CSK
+T102	gene 2700 2703	Ara
+T103	cell_type 2709 2715	B-cell
+T104	cell_type 2737 2745	NK cells
+T105	cell_type 2771 2778	NK cell
+T106	gene 2801 2806	NKG2D
+T107	gene 2812 2818	DNAM-1

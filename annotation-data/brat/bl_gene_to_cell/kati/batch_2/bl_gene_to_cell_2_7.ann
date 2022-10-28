@@ -1,0 +1,101 @@
+T1	gene 35 39	CD1a
+T2	gene 41 45	CD68
+T3	cell_type 61 76	epidermal cells
+T4	gene 124 128	CD1a
+T5	gene 130 134	CD68
+T6	cell_type 140 156	Langerhans cells
+T7	gene 165 169	CD1a
+T8	gene 171 175	CD68
+T9	cell_type 350 376	epidermal Langerhans cells
+T10	cell_type 378 385	Neurons
+T11	cell_type 425 447	pluripotent stem cells
+T12	gene 472 478	ANKS1B
+T13	gene 495 501	AIDA-1
+T14	cell_type 547 555	neuronal
+T15	gene 566 569	Cbl
+T16	cell_type 573 584	macrophages
+T17	gene 623 628	CSF-1
+T18	gene 669 672	Cbl
+T19	cell_type 676 687	macrophages
+T20	gene 703 709	CXCL12
+T21	gene 737 742	CXCR4
+T22	cell_type 761 770	monocytes
+T23	cell_type 780 787	T cells
+T24	gene 814 824	P-selectin
+T25	gene 826 839	interleukin-6
+T26	cell_type 888 896	platelet
+T27	cell_type 898 906	monocyte
+T28	cell_type 911 922	granulocyte
+T29	cell_type 968 982	nucleate cells
+T30	gene 984 988	CD34
+T31	gene 1002 1006	CD34
+T32	gene 1086 1091	Krt15
+T33	cell_type 1093 1104	basal cells
+T34	gene 1135 1140	Krt15
+T35	cell_type 1142 1153	basal cells
+T36	gene 1155 1161	S100A4
+T37	cell_type 1232 1242	lymphocyte
+T38	cell_type 1247 1257	neutrophil
+T39	gene 1274 1279	IL-16
+T40	gene 1306 1309	CD4
+T41	cell_type 1313 1320	T cells
+T42	gene 1334 1338	CD20
+T43	gene 1355 1359	CD83
+T44	cell_type 1363 1378	dendritic cells
+T45	gene 1384 1389	Mac-1
+T46	cell_type 1393 1402	microglia
+T47	cell_type 1439 1449	astrocytes
+T48	gene 1458 1462	MCT4
+T49	cell_type 1472 1479	neurons
+T50	gene 1488 1492	MCT2
+T51	gene 1494 1505	Protein 4.1
+T52	cell_type 1540 1551	erythrocyte
+T53	cell_type 1598 1610	erythrocytes
+T54	gene 1647 1651	TLR4
+T55	gene 1671 1676	CD11b
+T56	gene 1707 1711	GFAP
+T57	cell_type 1715 1725	astrocytes
+T58	cell_type 1759 1768	monocytes
+T59	cell_type 1769 1780	macrophages
+T60	gene 1789 1794	RCAS1
+T61	gene 1836 1840	MMP1
+T62	gene 1856 1861	LAMA5
+T63	cell_type 1882 1898	endothelial cell
+T64	cell_type 1913 1922	Stem cell
+T65	gene 1946 1950	Dax1
+T66	gene 1967 1972	STAT3
+T67	gene 1977 1981	Oct3
+T68	cell_type 1987 2007	embryonic stem cells
+T69	cell_type 2137 2150	T lymphocytes
+T70	cell_type 2161 2174	B lymphocytes
+T71	gene 2177 2181	CD18
+T72	gene 2190 2198	integrin
+T73	gene 2222 2226	CD54
+T74	gene 2228 2234	ICAM-1
+T75	cell_type 2250 2259	monocytes
+T76	cell_type 2264 2275	macrophages
+T77	gene 2377 2381	CD68
+T78	cell_type 2436 2450	dendritic cell
+T79	gene 2469 2475	fascin
+T80	gene 2499 2503	CD1a
+T81	cell_type 2505 2520	Langerhans cell
+T82	gene 2530 2534	CD21
+T83	gene 2535 2539	CD35
+T84	cell_type 2541 2566	follicular dendritic cell
+T85	cell_type 2577 2583	B-cell
+T86	cell_type 2589 2595	T cell
+T87	gene 2605 2617	Endothelin-1
+T88	gene 2619 2623	ET-1
+T89	cell_type 2640 2657	endothelial cells
+T90	cell_type 2662 2678	cardiac myocytes
+T91	cell_type 2706 2715	stem cell
+T92	gene 2724 2728	Oct3
+T93	gene 2739 2743	Sox2
+T94	gene 2749 2753	SSEA
+T95	cell_type 2806 2825	activated microglia
+T96	cell_type 2843 2854	macrophages
+T97	cell_type 2870 2879	microglia
+T98	gene 2906 2909	Ak1
+T99	gene 2917 2922	Sall1
+T100	gene 2924 2930	Phlda3
+T101	gene 2936 2941	Spns2

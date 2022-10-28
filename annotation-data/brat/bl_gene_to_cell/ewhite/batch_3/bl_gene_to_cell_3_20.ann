@@ -1,0 +1,103 @@
+T1	gene 68 72	CCL2
+T2	gene 74 79	CXCL1
+T3	gene 85 91	CXCL10
+T4	cell_type 106 116	osteoblast
+T5	cell_type 148 159	osteoblasts
+T6	cell_type 220 230	astrocytes
+T7	gene 232 236	GFAP
+T8	cell_type 239 248	microglia
+T9	gene 250 254	IBA1
+T10	gene 256 260	CD68
+T11	gene 280 283	APP
+T12	gene 291 295	IL-6
+T13	gene 323 328	IL-6R
+T14	cell_type 347 354	neurons
+T15	cell_type 359 370	glial cells
+T16	cell_type 381 391	astrocytes
+T17	gene 393 398	Gata4
+T18	gene 400 405	Mef2c
+T19	gene 411 415	Tbx5
+T20	cell_type 508 519	fibroblasts
+T21	cell_type 535 549	cardiomyocytes
+T22	cell_type 562 575	cardiomyocyte
+T23	gene 592 595	CD4
+T24	cell_type 614 621	T cells
+T25	gene 661 664	CD4
+T26	cell_type 683 690	T cells
+T27	cell_type 695 708	keratinocytes
+T28	cell_type 722 738	epithelial cells
+T29	gene 740 743	Rho
+T30	gene 748 751	Rac
+T31	gene 780 790	E-cadherin
+T32	cell_type 811 820	Th1 cells
+T33	cell_type 897 906	Th2 cells
+T34	cell_type 915 934	hematopoietic cells
+T35	gene 943 947	IL-4
+T36	gene 949 953	IL-5
+T37	gene 955 959	IL-6
+T38	gene 961 966	IL-10
+T39	gene 971 976	IL-13
+T40	gene 1002 1007	PIAS3
+T41	gene 1013 1018	STAT3
+T42	cell_type 1022 1032	mast cells
+T43	cell_type 1037 1048	melanocytes
+T44	gene 1050 1058	tryptase
+T45	cell_type 1060 1070	mast cells
+T46	gene 1084 1088	CD68
+T47	cell_type 1090 1101	macrophages
+T48	cell_type 1120 1128	myoblast
+T49	gene 1173 1179	desmin
+T50	gene 1184 1192	vimentin
+T51	cell_type 1210 1219	myoblasts
+T52	gene 1225 1233	vimentin
+T53	cell_type 1300 1316	epithelial cells
+T54	cell_type 1334 1344	leukocytes
+T55	gene 1373 1377	IL-8
+T56	gene 1382 1387	MCP-1
+T57	cell_type 1389 1397	Platelet
+T58	gene 1406 1412	CXCL12
+T59	gene 1418 1426	collagen
+T60	cell_type 1436 1445	platelets
+T61	gene 1462 1468	CXCL12
+T62	gene 1518 1523	CXCR4
+T63	gene 1536 1541	IL-10
+T64	cell_type 1550 1559	monocytes
+T65	cell_type 1564 1571	T cells
+T66	gene 1634 1637	Th2
+T67	cell_type 1638 1648	lymphocyte
+T68	cell_type 1723 1734	fibroblasts
+T69	gene 1736 1742	Twist1
+T70	cell_type 1758 1769	fibroblasts
+T71	gene 1804 1810	Twist1
+T72	cell_type 1812 1822	fibroblast
+T73	gene 1847 1853	CXCL14
+T74	cell_type 1894 1913	hippocampal neurons
+T75	gene 1915 1920	Sfxn3
+T76	cell_type 1951 1958	neurons
+T77	cell_type 1976 1983	neurons
+T78	gene 2005 2010	ORAI2
+T79	gene 2015 2020	ORAI3
+T80	cell_type 2057 2064	neurons
+T81	cell_type 2069 2079	astrocytes
+T82	gene 2108 2112	SSEA
+T83	gene 2142 2146	BMP4
+T84	gene 2169 2174	STRA8
+T85	gene 2176 2180	SCP3
+T86	gene 2182 2187	DMRT1
+T87	cell_type 2237 2242	sperm
+T88	cell_type 2329 2338	fat cells
+T89	cell_type 2370 2380	adipocytes
+T90	gene 2436 2471	runt-related transcription factor 2
+T91	gene 2473 2478	Runx2
+T92	cell_type 2483 2495	osteoblastic
+T93	cell_type 2503 2514	Osteoclasts
+T94	gene 2525 2532	VEGFR-2
+T95	gene 2537 2544	VEGFR-3
+T96	cell_type 2584 2594	fibroblast
+T97	gene 2651 2654	Nf1
+T98	gene 2659 2663	Rac1
+T99	cell_type 2667 2678	osteoclasts
+T100	gene 2695 2698	Erk
+T101	gene 2724 2727	Nf1
+T102	cell_type 2731 2742	osteoclasts
+T103	cell_type 2780 2790	osteoclast

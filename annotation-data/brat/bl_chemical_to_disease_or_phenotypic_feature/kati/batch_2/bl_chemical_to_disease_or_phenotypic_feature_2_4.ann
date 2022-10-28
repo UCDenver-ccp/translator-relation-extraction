@@ -99,3 +99,5 @@ R20	causes_or_contributes_to Arg1:T61 Arg2:T63
 R21	causes_or_contributes_to Arg1:T64 Arg2:T76	
 T79	missed_disease_or_phenotypic_feature 2485 2511	enhancement of drug uptake
 R22	causes_or_contributes_to Arg1:T64 Arg2:T79	
+T80	missed_disease_or_phenotypic_feature 491 497	tumors
+R23	causes_or_contributes_to Arg1:T15 Arg2:T80	

@@ -115,3 +115,5 @@ R25	causes_or_contributes_to Arg1:T88 Arg2:T89
 T90	corrected_chemical 699 718	intravenous glucose
 T91	corrected_disease_or_phenotypic_feature 720 750	hyperglycemic hyperinsulinemia
 R26	causes_or_contributes_to Arg1:T90 Arg2:T91	
+T92	missed_disease_or_phenotypic_feature 611 626	tumor shrinkage
+R27	causes_or_contributes_to Arg1:T74 Arg2:T92	

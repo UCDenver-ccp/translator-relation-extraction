@@ -82,13 +82,6 @@ T74	corrected_chemical 433 456	antihyperlipidemic drug
 T75	missed_disease_or_phenotypic_feature 346 368	decreased LPL activity
 R8	causes_or_contributes_to Arg1:T74 Arg2:T75	
 R9	causes_or_contributes_to Arg1:T11 Arg2:T75	
-T76	corrected_disease_or_phenotypic_feature 661 676	cancer cachexia
-T77	corrected_chemical 546 569	antihyperlipidemic drug
-T78	missed_disease_or_phenotypic_feature 614 649	tumor-induced metabolic alterations
-R10	causes_or_contributes_to Arg1:T77 Arg2:T78	
-R11	causes_or_contributes_to Arg1:T13 Arg2:T78	
-R12	causes_or_contributes_to Arg1:T77 Arg2:T76	
-R13	causes_or_contributes_to Arg1:T13 Arg2:T76	
 R14	treats Arg1:T16 Arg2:T17	
 R15	treats Arg1:T22 Arg2:T24	
 R16	treats Arg1:T22 Arg2:T25	

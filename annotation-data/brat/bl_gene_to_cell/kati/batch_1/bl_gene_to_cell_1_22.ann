@@ -1,0 +1,95 @@
+T1	gene 46 56	N-cadherin
+T2	cell_type 81 97	oligodendrocytes
+T3	cell_type 102 112	astrocytes
+T4	cell_type 118 133	oligodendrocyte
+T5	gene 170 180	N-cadherin
+T6	gene 203 208	EphA4
+T7	cell_type 212 219	neurons
+T8	gene 226 231	EphA4
+T9	cell_type 244 251	neurons
+T10	gene 307 312	Smad2
+T11	gene 317 322	Smad3
+T12	cell_type 381 392	fibroblasts
+T13	cell_type 397 413	epithelial cells
+T14	gene 415 428	Thy-1 antigen
+T15	cell_type 448 456	neuronal
+T16	cell_type 493 503	glial cell
+T17	gene 529 542	Thy-1 antigen
+T18	gene 544 550	CXCL12
+T19	cell_type 585 595	fibroblast
+T20	cell_type 601 613	synoviocytes
+T21	cell_type 623 640	endothelial cells
+T22	gene 657 663	CXCL12
+T23	gene 731 737	Siah1a
+T24	gene 742 748	Siah1b
+T25	gene 794 797	p53
+T26	cell_type 835 846	fibroblasts
+T27	cell_type 857 867	thymocytes
+T28	gene 869 872	HSS
+T29	cell_type 903 912	Th2 cells
+T30	gene 924 927	CD4
+T31	cell_type 929 942	naive T cells
+T32	gene 950 954	HSS1
+T33	gene 959 962	HSS
+T34	cell_type 993 1002	Th2 cells
+T35	gene 1020 1024	CD34
+T36	gene 1027 1035	vimentin
+T37	gene 1057 1065	collagen
+T38	cell_type 1087 1097	fibrocytes
+T39	gene 1099 1104	SIRT1
+T40	cell_type 1106 1114	neuronal
+T41	gene 1137 1144	insulin
+T42	cell_type 1171 1182	lymphocytes
+T43	gene 1207 1210	CD4
+T44	cell_type 1212 1223	lymphocytes
+T45	cell_type 1239 1247	neuronal
+T46	gene 1274 1278	CD34
+T47	gene 1280 1284	ATF3
+T48	gene 1294 1304	Tenascin-C
+T49	cell_type 1313 1322	Foam Cell
+T50	gene 1351 1354	THP
+T51	cell_type 1357 1368	Macrophages
+T52	gene 1391 1397	ACVR2B
+T53	gene 1399 1403	FZD2
+T54	gene 1405 1409	FZD5
+T55	gene 1414 1418	SOX2
+T56	cell_type 1448 1464	skin fibroblasts
+T57	cell_type 1473 1484	fibroblasts
+T58	cell_type 1489 1506	endothelial cells
+T59	gene 1570 1584	phosphoprotein
+T60	cell_type 1613 1621	neuronal
+T61	cell_type 1632 1640	neuronal
+T62	cell_type 1678 1686	neuronal
+T63	cell_type 1687 1701	cells in vitro
+T64	gene 1711 1716	NPSR1
+T65	cell_type 1739 1750	macrophages
+T66	cell_type 1752 1763	neutrophils
+T67	cell_type 1769 1796	intraepithelial lymphocytes
+T68	gene 1900 1916	interferon gamma
+T69	gene 1927 1932	NPSR1
+T70	gene 1951 1954	THP
+T71	cell_type 1957 1966	monocytic
+T72	gene 2005 2012	AdipoR1
+T73	gene 2017 2024	AdipoR2
+T74	cell_type 2037 2047	adipocytes
+T75	cell_type 2096 2106	adipocytes
+T76	cell_type 2186 2193	T cells
+T77	gene 2195 2199	CD10
+T78	cell_type 2212 2225	stromal cells
+T79	gene 2227 2231	CD14
+T80	cell_type 2232 2243	macrophages
+T81	gene 2245 2249	CD56
+T82	cell_type 2261 2281	natural killer cells
+T83	gene 2343 2347	IL-6
+T84	cell_type 2402 2415	T-lymphocytes
+T85	gene 2427 2430	CD4
+T86	gene 2486 2490	Swi2
+T87	gene 2491 2495	Swi5
+T88	gene 2593 2596	SRE
+T89	cell_type 2601 2608	M cells
+T90	gene 2613 2616	SRE
+T91	cell_type 2621 2628	P cells
+T92	cell_type 2630 2641	Lymphocytes
+T93	gene 2682 2686	CD20
+T94	cell_type 2696 2703	B-cells
+T95	gene 2730 2735	bcl-2

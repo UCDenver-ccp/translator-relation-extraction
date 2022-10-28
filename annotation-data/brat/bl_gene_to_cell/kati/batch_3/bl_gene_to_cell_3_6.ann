@@ -1,0 +1,112 @@
+T1	cell_type 12 24	stromal cell
+T2	gene 33 37	CCL2
+T3	cell_type 49 60	plasma cell
+T4	gene 91 96	STAT3
+T5	gene 114 118	PAX5
+T6	gene 145 150	CXCR4
+T7	gene 155 160	CXCR7
+T8	cell_type 175 183	monocyte
+T9	cell_type 184 194	macrophage
+T10	gene 214 223	perilipin
+T11	gene 225 236	adipophilin
+T12	gene 270 275	TIP47
+T13	cell_type 309 320	hepatocytes
+T14	gene 322 333	adipophilin
+T15	gene 338 343	TIP47
+T16	gene 353 362	perilipin
+T17	cell_type 420 442	pluripotent stem cells
+T18	cell_type 466 479	somatic cells
+T19	cell_type 505 514	stem cell
+T20	gene 523 527	OCT4
+T21	gene 529 533	SOX2
+T22	gene 543 547	KLF4
+T23	cell_type 587 602	dendritic cells
+T24	cell_type 676 687	granulocyte
+T25	cell_type 688 698	macrophage
+T26	gene 699 702	CSF
+T27	gene 704 720	stem cell factor
+T28	gene 722 731	TNF-alpha
+T29	gene 737 741	IL-4
+T30	gene 763 773	prealbumin
+T31	gene 797 816	alpha 1-antitrypsin
+T32	gene 818 829	haptoglobin
+T33	gene 834 845	transferrin
+T34	cell_type 927 938	lymphocytes
+T35	cell_type 940 949	monocytes
+T36	cell_type 954 966	granulocytes
+T37	cell_type 982 995	promyelocytic
+T38	cell_type 1182 1189	neurons
+T39	gene 1208 1212	GFAP
+T40	cell_type 1214 1224	astrocytes
+T41	gene 1228 1231	APC
+T42	cell_type 1233 1249	oligodendrocytes
+T43	gene 1262 1268	E-Tmod
+T44	gene 1269 1273	lacZ
+T45	cell_type 1305 1312	neurons
+T46	gene 1320 1329	TNF-alpha
+T47	gene 1331 1339	IL-1beta
+T48	gene 1344 1348	IL-6
+T49	cell_type 1368 1378	leukocytes
+T50	cell_type 1380 1391	neutrophils
+T51	cell_type 1393 1404	lymphocytes
+T52	cell_type 1467 1484	mesenchymal cells
+T53	cell_type 1511 1522	osteoblasts
+T54	cell_type 1526 1536	adipocytes
+T55	gene 1545 1550	RUNX2
+T56	gene 1555 1559	PPAR
+T57	gene 1584 1589	Thy-1
+T58	gene 1602 1610	integrin
+T59	cell_type 1632 1638	neuron
+T60	cell_type 1642 1651	astrocyte
+T61	gene 1667 1671	CD14
+T62	gene 1682 1686	CD14
+T63	cell_type 1722 1730	monocyte
+T64	cell_type 1739 1754	dendritic cells
+T65	gene 1762 1775	Interleukin-8
+T66	gene 1777 1781	IL-8
+T67	cell_type 1834 1843	monocytes
+T68	cell_type 1845 1856	macrophages
+T69	cell_type 1858 1871	Kupffer cells
+T70	cell_type 1876 1887	hepatocytes
+T71	cell_type 1902 1913	neutrophils
+T72	gene 1915 1919	CD68
+T73	cell_type 1921 1932	histiocytes
+T74	cell_type 1943 1959	Langerhans cells
+T75	cell_type 1986 1996	Macrophage
+T76	gene 1997 2022	colony-stimulating factor
+T77	gene 2024 2029	CSF-1
+T78	cell_type 2082 2093	ameloblasts
+T79	gene 2105 2110	CSF-1
+T80	gene 2112 2119	CYP27A1
+T81	gene 2126 2132	CYP2R1
+T82	gene 2142 2149	CYP27A1
+T83	cell_type 2190 2201	fibroblasts
+T84	cell_type 2218 2232	ligament cells
+T85	gene 2242 2248	CYP2R1
+T86	cell_type 2266 2274	Platelet
+T87	gene 2288 2296	collagen
+T88	cell_type 2308 2320	erythrocytes
+T89	gene 2356 2369	interleukin-1
+T90	gene 2394 2397	p80
+T91	cell_type 2440 2447	T-cells
+T92	cell_type 2449 2460	fibroblasts
+T93	gene 2492 2495	p68
+T94	cell_type 2527 2534	B-cells
+T95	cell_type 2539 2550	macrophages
+T96	gene 2573 2578	Thbs4
+T97	gene 2583 2587	GFAP
+T98	gene 2589 2620	Glial Fibrillary Acidic Protein
+T99	cell_type 2631 2641	astrocytes
+T100	gene 2643 2649	Cox7a2
+T101	cell_type 2682 2693	leydig cell
+T102	cell_type 2698 2710	spermatocyte
+T103	gene 2741 2747	CX3CL1
+T104	gene 2764 2770	CX3CR1
+T105	cell_type 2822 2830	NK cells
+T106	gene 2832 2836	CD14
+T107	cell_type 2840 2849	monocytes
+T108	cell_type 2861 2877	effector T cells
+T109	cell_type 2879 2886	B cells
+T110	cell_type 2888 2895	neurons
+T111	cell_type 2897 2906	microglia
+T112	cell_type 2908 2927	smooth muscle cells

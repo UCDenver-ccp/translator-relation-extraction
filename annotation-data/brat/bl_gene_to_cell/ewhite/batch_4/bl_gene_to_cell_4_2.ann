@@ -1,0 +1,135 @@
+T1	gene 15 21	Phox2b
+T2	gene 23 28	Hand2
+T3	gene 33 38	Gata3
+T4	cell_type 57 64	neurons
+T5	cell_type 123 131	neuronal
+T6	cell_type 146 152	neuron
+T7	gene 172 176	RFX1
+T8	gene 180 183	CD4
+T9	cell_type 187 194	T cells
+T10	cell_type 235 241	B cell
+T11	gene 280 284	RFX1
+T12	cell_type 296 302	T cell
+T13	cell_type 315 325	Osteoblast
+T14	gene 327 332	Runx2
+T15	gene 334 345	Osteocalcin
+T16	cell_type 351 361	osteoclast
+T17	gene 370 381	Cathepsin K
+T18	gene 383 387	TRAP
+T19	cell_type 501 511	astrocytic
+T20	gene 512 516	Cx43
+T21	gene 517 521	Cx30
+T22	gene 543 547	Cx47
+T23	gene 548 552	Cx32
+T24	cell_type 580 590	astrocytic
+T25	cell_type 595 610	oligodendrocyte
+T26	gene 653 657	NOX2
+T27	cell_type 696 713	GABAergic neurons
+T28	gene 740 744	NOX2
+T29	cell_type 789 809	dopaminergic neurons
+T30	cell_type 822 832	astrocytes
+T31	cell_type 837 846	microglia
+T32	cell_type 863 877	cultured cells
+T33	cell_type 879 892	keratinocytes
+T34	gene 912 917	PAR-1
+T35	gene 926 937	prothrombin
+T36	cell_type 939 956	endothelial cells
+T37	gene 961 966	PAR-1
+T38	cell_type 979 990	fibroblasts
+T39	gene 995 1000	PAR-1
+T40	gene 1042 1068	dentin sialophosphoprotein
+T41	gene 1073 1096	dentin matrix protein 1
+T42	gene 1112 1121	TGF-beta3
+T43	cell_type 1142 1159	dental pulp cells
+T44	cell_type 1186 1197	osteoblasts
+T45	gene 1212 1223	osteopontin
+T46	gene 1228 1239	osteonectin
+T47	gene 1286 1295	TGF-beta3
+T48	cell_type 1304 1321	dental pulp cells
+T49	cell_type 1335 1346	osteoblasts
+T50	gene 1356 1359	p43
+T51	gene 1364 1368	EMAP
+T52	cell_type 1424 1441	endothelial cells
+T53	cell_type 1443 1455	immune cells
+T54	cell_type 1460 1471	fibroblasts
+T55	gene 1526 1529	CD4
+T56	cell_type 1536 1543	T cells
+T57	gene 1579 1582	CD4
+T58	gene 1583 1587	CD25
+T59	cell_type 1594 1601	T cells
+T60	gene 1648 1651	CD4
+T61	gene 1652 1656	CD25
+T62	cell_type 1680 1687	T cells
+T63	cell_type 1694 1701	T cells
+T64	cell_type 1706 1717	macrophages
+T65	gene 1730 1734	CCR5
+T66	gene 1770 1774	CCR5
+T67	gene 1801 1805	CCL5
+T68	gene 1891 1905	erythropoietin
+T69	cell_type 1924 1948	hematopoietic stem cells
+T70	gene 1959 1964	sca-1
+T71	gene 1968 1973	lin-1
+T72	cell_type 1978 1987	KSL-cells
+T73	gene 2025 2029	CD34
+T74	gene 2051 2096	vascular endothelial growth factor receptor 2
+T75	gene 2140 2144	CD34
+T76	gene 2148 2153	Flk-1
+T77	cell_type 2279 2285	B-cell
+T78	gene 2305 2309	CD80
+T79	cell_type 2319 2326	B cells
+T80	gene 2328 2332	CD45
+T81	gene 2334 2338	CD19
+T82	gene 2340 2344	CD27
+T83	cell_type 2353 2378	unswitched memory B cells
+T84	gene 2380 2384	CD45
+T85	gene 2386 2390	CD19
+T86	gene 2392 2396	CD27
+T87	cell_type 2418 2432	memory B cells
+T88	gene 2434 2438	CD45
+T89	gene 2440 2444	CD19
+T90	gene 2446 2450	CD27
+T91	cell_type 2490 2504	memory B cells
+T92	cell_type 2598 2609	neutrophils
+T93	gene 2619 2624	CXCL2
+T94	gene 2626 2631	CXCL3
+T95	gene 2633 2638	CXCL5
+T96	gene 2640 2645	CXCL6
+T97	gene 2651 2656	CXCL8
+T98	cell_type 2676 2696	memory T lymphocytes
+T99	cell_type 2698 2707	monocytes
+T100	cell_type 2778 2786	platelet
+T101	cell_type 2787 2803	endothelial cell
+T102	gene 2804 2819	surface protein
+T103	gene 2821 2827	SCUBE1
+T104	gene 2829 2836	Insulin
+T105	gene 2837 2851	activated ERK1
+T106	cell_type 2857 2864	neurons
+T107	gene 2916 2920	SOD1
+T108	gene 2959 2964	Hsp25
+T109	cell_type 2968 2975	neurons
+T110	cell_type 2980 2990	astrocytes
+T111	gene 2994 2998	SMAD
+T112	cell_type 3059 3066	oocytes
+T113	gene 3098 3103	SMAD3
+T114	gene 3108 3113	SMAD1
+T115	cell_type 3121 3136	granulosa cells
+T116	cell_type 3149 3156	oocytes
+T117	gene 3167 3172	SMAD3
+T118	gene 3179 3183	BMP2
+T119	gene 3237 3269	microtubule-associated protein 2
+T120	cell_type 3273 3281	neuronal
+T121	gene 3311 3317	nestin
+T122	gene 3372 3376	BMP2
+T123	cell_type 3432 3442	astrocytic
+T124	gene 3487 3490	CD4
+T125	cell_type 3494 3501	T cells
+T126	cell_type 3511 3520	TH1 cells
+T127	cell_type 3526 3536	TH17 cells
+T128	gene 3546 3550	Cav1
+T129	cell_type 3578 3587	TH2 cells
+T130	gene 3622 3638	cyclooxygenase-1
+T131	gene 3654 3678	prostaglandin E synthase
+T132	cell_type 3699 3715	epithelial cells
+T133	cell_type 3717 3734	endothelial cells
+T134	cell_type 3739 3749	fibroblast
+T135	cell_type 3755 3778	connective tissue cells

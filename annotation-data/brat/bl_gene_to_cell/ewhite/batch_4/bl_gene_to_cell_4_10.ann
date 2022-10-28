@@ -1,0 +1,107 @@
+T1	gene 17 22	casp3
+T2	cell_type 64 74	astrocytic
+T3	gene 82 86	GFAP
+T4	cell_type 108 116	neuronal
+T5	gene 117 122	casp3
+T6	gene 150 159	TNF-alpha
+T7	cell_type 175 184	monocytic
+T8	gene 255 262	insulin
+T9	cell_type 278 287	adipocyte
+T10	gene 296 305	TNF-alpha
+T11	cell_type 342 352	leukocytes
+T12	cell_type 384 395	neutrophils
+T13	cell_type 400 409	monocytes
+T14	gene 437 441	CD33
+T15	gene 447 451	CD14
+T16	cell_type 471 487	epithelial cells
+T17	gene 554 558	TSLP
+T18	gene 564 569	IL-33
+T19	cell_type 616 633	endothelial cells
+T20	cell_type 638 648	mast cells
+T21	cell_type 650 661	neutrophils
+T22	cell_type 667 678	fibroblasts
+T23	gene 688 693	IL-25
+T24	cell_type 763 780	endothelial cells
+T25	cell_type 782 792	mast cells
+T26	cell_type 798 809	fibroblasts
+T27	gene 845 849	TLR4
+T28	cell_type 885 902	endothelial cells
+T29	cell_type 916 924	monocyte
+T30	cell_type 925 941	endothelial cell
+T31	gene 976 980	TLR4
+T32	cell_type 991 1008	endothelial cells
+T33	cell_type 1065 1071	neuron
+T34	gene 1113 1117	NF-L
+T35	gene 1131 1144	synaptophysin
+T36	cell_type 1208 1215	neurons
+T37	gene 1226 1242	tubulin beta III
+T38	cell_type 1247 1253	neuron
+T39	cell_type 1298 1304	neuron
+T40	gene 1331 1363	microtubule-associated protein-2
+T41	gene 1365 1369	MAP2
+T42	cell_type 1401 1411	fibroblast
+T43	cell_type 1417 1429	synoviocytes
+T44	gene 1445 1454	protein I
+T45	gene 1498 1502	IL-6
+T46	gene 1507 1511	IL-8
+T47	cell_type 1537 1546	Stem cell
+T48	cell_type 1554 1579	neuroepithelial stem cell
+T49	gene 1589 1595	nestin
+T50	cell_type 1598 1614	enteric neuronal
+T51	cell_type 1674 1682	platelet
+T52	cell_type 1684 1693	monocytes
+T53	cell_type 1713 1729	endothelial cell
+T54	gene 1730 1740	P-selectin
+T55	gene 1753 1759	ICAM-1
+T56	cell_type 1821 1832	lymphocytes
+T57	cell_type 1837 1848	neutrophils
+T58	cell_type 1852 1869	endothelial cells
+T59	gene 1881 1887	ICAM-1
+T60	cell_type 1904 1915	macrophages
+T61	cell_type 1917 1932	dendritic cells
+T62	cell_type 1943 1950	B cells
+T63	gene 1974 1978	ART2
+T64	cell_type 2019 2026	T cells
+T65	gene 2040 2044	ART2
+T66	gene 2073 2077	ART2
+T67	cell_type 2097 2107	astrocytes
+T68	gene 2121 2124	EGF
+T69	gene 2180 2184	GFAP
+T70	gene 2189 2195	nestin
+T71	gene 2214 2218	CCL2
+T72	gene 2219 2224	MCP-1
+T73	cell_type 2269 2278	monocytes
+T74	cell_type 2280 2291	lymphocytes
+T75	cell_type 2293 2302	basophils
+T76	cell_type 2304 2314	mast cells
+T77	gene 2401 2404	p53
+T78	cell_type 2436 2458	thymic epithelial cell
+T79	gene 2480 2483	CD4
+T80	cell_type 2487 2497	thymocytes
+T81	gene 2501 2504	p53
+T82	cell_type 2537 2545	neuronal
+T83	gene 2620 2651	glial fibrillary acidic protein
+T84	gene 2653 2657	GFAP
+T85	cell_type 2679 2686	B cells
+T86	cell_type 2692 2704	plasma cells
+T87	gene 2714 2737	X-box binding protein-1
+T88	gene 2739 2744	XBP-1
+T89	cell_type 2756 2769	stromal cells
+T90	cell_type 2774 2785	macrophages
+T91	gene 2795 2822	tumor necrosis factor-alpha
+T92	gene 2827 2840	interleukin-6
+T93	gene 2886 2890	BMP4
+T94	gene 2891 2897	Notch1
+T95	cell_type 2911 2921	stem cells
+T96	cell_type 2955 2965	stem cells
+T97	cell_type 2969 2980	hepatocytes
+T98	cell_type 3061 3066	sperm
+T99	gene 3120 3129	integrins
+T100	cell_type 3134 3140	oocyte
+T101	cell_type 3181 3186	sperm
+T102	cell_type 3205 3210	sperm
+T103	gene 3255 3261	CRISP1
+T104	gene 3266 3272	CRISP2
+T105	gene 3274 3278	VEGF
+T106	cell_type 3309 3335	vascular endothelial cells
+T107	cell_type 3349 3361	lining cells

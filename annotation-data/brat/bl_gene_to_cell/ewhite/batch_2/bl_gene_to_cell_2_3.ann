@@ -1,0 +1,113 @@
+T1	gene 13 17	NRP2
+T2	gene 27 31	NRP1
+T3	cell_type 76 83	neurons
+T4	gene 85 90	IL-15
+T5	gene 119 123	IL-2
+T6	cell_type 139 150	lymphocytes
+T7	cell_type 188 199	macrophages
+T8	cell_type 220 232	muscle cells
+T9	cell_type 237 248	fibroblasts
+T10	gene 249 258	TGF-beta1
+T11	gene 260 265	Smad7
+T12	gene 272 280	collagen
+T13	gene 313 317	BDNF
+T14	cell_type 331 339	neuronal
+T15	gene 351 357	PTPN11
+T16	cell_type 468 481	T lymphocytes
+T17	cell_type 483 496	B lymphocytes
+T18	cell_type 498 506	NK cells
+T19	gene 564 568	IL-2
+T20	gene 570 574	IL-6
+T21	gene 575 584	TNF alpha
+T22	gene 592 597	IL-10
+T23	gene 606 611	IL-13
+T24	gene 624 630	GM-CSF
+T25	gene 685 689	LRP1
+T26	cell_type 700 709	microglia
+T27	gene 770 783	interleukin-1
+T28	gene 789 802	interleukin-6
+T29	cell_type 845 855	macrophage
+T30	cell_type 861 877	Langerhans cells
+T31	cell_type 879 892	keratinocytes
+T32	cell_type 904 919	epidermal cells
+T33	cell_type 1012 1026	epidermal cell
+T34	cell_type 1035 1044	thymocyte
+T35	gene 1074 1087	interleukin 3
+T36	cell_type 1089 1103	Epidermal cell
+T37	gene 1112 1125	interleukin 3
+T38	gene 1130 1134	IL-3
+T39	cell_type 1142 1152	lymphocyte
+T40	gene 1161 1165	IL-3
+T41	cell_type 1211 1220	mast cell
+T42	cell_type 1252 1259	neurons
+T43	cell_type 1264 1275	glial cells
+T44	gene 1324 1337	synaptophysin
+T45	cell_type 1339 1347	neuronal
+T46	gene 1384 1415	glial fibrillary acidic protein
+T47	gene 1417 1421	GFAP
+T48	gene 1505 1509	Nod2
+T49	cell_type 1515 1526	macrophages
+T50	gene 1575 1579	Nod1
+T51	cell_type 1608 1619	macrophages
+T52	gene 1633 1637	Nod1
+T53	gene 1642 1646	Nod2
+T54	gene 1648 1653	CXCR4
+T55	gene 1658 1664	CXCL12
+T56	gene 1720 1725	CXCR7
+T57	cell_type 1755 1772	endothelial cells
+T58	gene 1777 1783	CXCL11
+T59	cell_type 1787 1796	pericytes
+T60	cell_type 1802 1818	horizontal cells
+T61	gene 1829 1839	R-cadherin
+T62	cell_type 1845 1857	Muller cells
+T63	gene 1868 1878	N-cadherin
+T64	gene 1883 1894	cadherin-11
+T65	gene 1933 1943	L-selectin
+T66	gene 1948 1953	Mac-1
+T67	cell_type 1957 1966	monocytes
+T68	cell_type 1971 1982	neutrophils
+T69	gene 1984 1994	P-selectin
+T70	gene 1998 2004	PSGL-1
+T71	cell_type 2052 2060	platelet
+T72	gene 2061 2066	MMP-2
+T73	cell_type 2086 2097	neutrophils
+T74	cell_type 2110 2118	platelet
+T75	cell_type 2180 2198	sensory hair cells
+T76	gene 2200 2205	Csmd1
+T77	gene 2213 2220	Slc16a6
+T78	gene 2225 2231	Gabrg3
+T79	gene 2286 2291	Dclk1
+T80	gene 2318 2322	Grm8
+T81	gene 2331 2335	Evi5
+T82	gene 2337 2343	Rimbp2
+T83	gene 2345 2349	Ank2
+T84	gene 2391 2397	Plasma
+T85	cell_type 2398 2408	macrophage
+T86	gene 2409 2434	colony-stimulating factor
+T87	gene 2435 2440	M-CSF
+T88	cell_type 2472 2498	peripheral blood stem cell
+T89	cell_type 2522 2531	stem cell
+T90	gene 2623 2626	MC3
+T91	gene 2626 2630	T3-E
+T92	cell_type 2632 2642	osteoblast
+T93	cell_type 2666 2676	astrocytes
+T94	cell_type 2682 2698	oligodendrocytes
+T95	cell_type 2708 2715	neurons
+T96	gene 2725 2729	TLR2
+T97	gene 2731 2735	CD14
+T98	cell_type 2737 2746	monocytes
+T99	gene 2834 2838	CD14
+T100	cell_type 2840 2849	monocytes
+T101	gene 2896 2903	Tubulin
+T102	gene 2936 2940	GFAP
+T103	gene 2946 2966	myelin basic protein
+T104	gene 2968 2971	MBP
+T105	cell_type 3001 3008	neurons
+T106	cell_type 3010 3020	astrocytes
+T107	cell_type 3025 3041	oligodendrocytes
+T108	gene 3057 3062	Stat3
+T109	cell_type 3096 3103	neurons
+T110	cell_type 3128 3147	activated microglia
+T111	cell_type 3149 3159	astrocytes
+T112	cell_type 3165 3182	endothelial cells
+T113	gene 3201 3206	Stat3

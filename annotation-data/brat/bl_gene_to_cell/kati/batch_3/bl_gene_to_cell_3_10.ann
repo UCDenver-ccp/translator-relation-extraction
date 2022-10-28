@@ -1,0 +1,103 @@
+T1	cell_type 68 74	T cell
+T2	cell_type 91 99	monocyte
+T3	gene 118 121	Env
+T4	gene 168 171	CD4
+T5	gene 172 177	CXCR4
+T6	gene 181 184	CD4
+T7	gene 185 189	CCR5
+T8	gene 239 243	Mrp1
+T9	gene 248 252	Mrp3
+T10	gene 304 309	Mdr1b
+T11	cell_type 332 343	hepatocytes
+T12	gene 372 376	CD91
+T13	gene 381 385	CD10
+T14	gene 406 410	CD45
+T15	cell_type 433 443	fibroblast
+T16	gene 475 484	TNF-alpha
+T17	gene 494 500	ICAM-1
+T18	cell_type 515 529	synovial cells
+T19	cell_type 534 551	endothelial cells
+T20	gene 561 567	VCAM-1
+T21	gene 571 581	E-selectin
+T22	gene 693 701	vimentin
+T23	gene 775 779	CD99
+T24	gene 780 784	MIC2
+T25	cell_type 809 822	Sertoli cells
+T26	cell_type 827 842	granulosa cells
+T27	gene 867 871	NPM1
+T28	cell_type 904 915	blood cells
+T29	gene 927 931	CD14
+T30	cell_type 935 944	monocytes
+T31	cell_type 958 970	granulocytes
+T32	gene 977 988	vasopressin
+T33	cell_type 989 996	neurons
+T34	gene 1010 1017	galanin
+T35	gene 1029 1043	phosphoprotein
+T36	gene 1044 1049	AHNAK
+T37	cell_type 1071 1091	ventricular myocytes
+T38	cell_type 1096 1122	aortic smooth muscle cells
+T39	gene 1151 1177	matrix metalloproteinase-1
+T40	gene 1218 1221	HGF
+T41	gene 1241 1244	HGF
+T42	cell_type 1281 1292	fibroblasts
+T43	cell_type 1305 1316	fibroblasts
+T44	gene 1331 1334	Bax
+T45	gene 1335 1340	Bcl-2
+T46	gene 1369 1372	p53
+T47	cell_type 1376 1387	fibroblasts
+T48	gene 1396 1399	p53
+T49	cell_type 1424 1434	fibroblast
+T50	gene 1477 1489	calreticulin
+T51	gene 1504 1516	calreticulin
+T52	gene 1598 1606	vinculin
+T53	gene 1694 1699	CXCR3
+T54	cell_type 1709 1723	memory T cells
+T55	gene 1725 1729	CCR4
+T56	gene 1801 1806	FOXP3
+T57	gene 1807 1811	CD25
+T58	cell_type 1828 1839	lymphocytes
+T59	gene 1853 1858	FOXP3
+T60	cell_type 1860 1871	lymphocytes
+T61	gene 1920 1925	FOXP3
+T62	cell_type 1927 1938	lymphocytes
+T63	gene 1980 1985	FOXP3
+T64	gene 2047 2052	CXCL1
+T65	gene 2057 2062	CXCR2
+T66	cell_type 2088 2098	astrocytes
+T67	cell_type 2103 2110	neurons
+T68	gene 2132 2180	granulocyte-macrophage colony stimulating factor
+T69	gene 2182 2188	GM-CSF
+T70	cell_type 2237 2244	T cells
+T71	cell_type 2246 2263	endothelial cells
+T72	cell_type 2265 2276	fibroblasts
+T73	cell_type 2281 2292	macrophages
+T74	cell_type 2309 2327	projection neurons
+T75	cell_type 2374 2381	neurons
+T76	cell_type 2397 2404	neurons
+T77	gene 2439 2448	calbindin
+T78	cell_type 2465 2472	neurons
+T79	gene 2500 2505	GluR1
+T80	gene 2509 2514	GluR4
+T81	cell_type 2587 2596	stem cell
+T82	gene 2605 2609	Lgr5
+T83	gene 2611 2620	Musashi-1
+T84	gene 2625 2633	Dcamkl-1
+T85	gene 2695 2699	ETV5
+T86	gene 2704 2708	GDNF
+T87	cell_type 2710 2722	Sertoli cell
+T88	cell_type 2761 2770	stem cell
+T89	cell_type 2794 2804	Th17 cells
+T90	gene 2809 2814	Foxp3
+T91	gene 2863 2871	TGF-beta
+T92	gene 2880 2885	Foxp3
+T93	cell_type 2895 2902	T cells
+T94	gene 2908 2916	TGF-beta
+T95	gene 2921 2925	IL-6
+T96	cell_type 2959 2969	Th17 cells
+T97	gene 2992 3011	calcitonin receptor
+T98	gene 3055 3061	amylin
+T99	cell_type 3075 3082	neurons
+T100	gene 3106 3112	amylin
+T101	cell_type 3122 3129	neurons
+T102	gene 3142 3147	GLP-1
+T103	cell_type 3162 3169	neurons

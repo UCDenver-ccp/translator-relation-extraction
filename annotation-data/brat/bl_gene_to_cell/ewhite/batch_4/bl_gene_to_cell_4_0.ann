@@ -1,0 +1,129 @@
+T1	cell_type 4 23	embryonic stem cell
+T2	cell_type 41 62	pluripotent stem cell
+T3	gene 77 81	Oct4
+T4	gene 83 87	SOX2
+T5	gene 89 96	Notch-2
+T6	cell_type 144 159	epidermal cells
+T7	gene 161 166	IL-21
+T8	cell_type 197 204	T cells
+T9	cell_type 206 213	B cells
+T10	cell_type 215 224	monocytes
+T11	cell_type 225 236	macrophages
+T12	cell_type 250 261	fibroblasts
+T13	gene 307 311	STAT
+T14	gene 313 317	MAPK
+T15	gene 367 371	HCN2
+T16	gene 373 377	HCN3
+T17	gene 382 386	HCN4
+T18	cell_type 415 422	neurons
+T19	cell_type 435 443	neuronal
+T20	cell_type 471 477	T cell
+T21	gene 480 483	CD4
+T22	cell_type 486 499	helper T cell
+T23	cell_type 519 535	cytotoxic T cell
+T24	cell_type 545 551	B cell
+T25	gene 558 562	CD16
+T26	gene 564 568	CD56
+T27	cell_type 571 578	NK cell
+T28	cell_type 698 707	leukocyte
+T29	gene 715 721	VEGFR2
+T30	cell_type 807 824	white blood cells
+T31	cell_type 826 837	lymphocytes
+T32	cell_type 839 848	monocytes
+T33	cell_type 850 862	granulocytes
+T34	gene 903 916	interleukin-1
+T35	gene 919 933	interleukin-10
+T36	gene 935 948	interleukin-6
+T37	gene 954 988	vascular endothelial growth factor
+T38	cell_type 1013 1022	Astrocyte
+T39	gene 1050 1053	Hsp
+T40	gene 1059 1063	SOD2
+T41	cell_type 1072 1080	neuronal
+T42	gene 1182 1219	granulocyte colony-stimulating factor
+T43	gene 1221 1226	G-CSF
+T44	cell_type 1229 1240	granulocyte
+T45	cell_type 1241 1251	macrophage
+T46	gene 1252 1255	CSF
+T47	gene 1257 1263	GM-CSF
+T48	gene 1266 1271	M-CSF
+T49	gene 1303 1307	IL-8
+T50	gene 1341 1346	IL-10
+T51	cell_type 1420 1428	monocyte
+T52	gene 1471 1475	NRP1
+T53	gene 1547 1551	NRP1
+T54	cell_type 1581 1598	endothelial cells
+T55	cell_type 1603 1616	T lymphocytes
+T56	gene 1637 1641	CD34
+T57	cell_type 1645 1662	hemopoietic cells
+T58	gene 1664 1674	Galectin-9
+T59	gene 1717 1721	CD14
+T60	cell_type 1723 1750	plasmacytoid dendritic cell
+T61	cell_type 1756 1767	macrophages
+T62	gene 1769 1774	IL-1b
+T63	gene 1779 1784	COX-2
+T64	cell_type 1812 1820	neuronal
+T65	cell_type 1825 1836	glial cells
+T66	gene 1897 1901	AQP1
+T67	gene 1903 1907	AQP2
+T68	gene 1913 1917	AQP4
+T69	cell_type 1943 1950	neurons
+T70	cell_type 1952 1967	enteric neurons
+T71	cell_type 1972 1983	glial cells
+T72	cell_type 2034 2041	neurons
+T73	cell_type 2046 2073	vomeronasal sensory neurons
+T74	gene 2139 2152	interleukin-2
+T75	gene 2157 2173	interferon-gamma
+T76	gene 2212 2215	CD4
+T77	cell_type 2217 2230	T lymphocytes
+T78	cell_type 2237 2250	T lymphocytes
+T79	cell_type 2256 2272	microglial cells
+T80	gene 2300 2305	Mcl-1
+T81	cell_type 2339 2350	neutrophils
+T82	cell_type 2359 2370	macrophages
+T83	gene 2372 2377	CXCR3
+T84	gene 2379 2383	CCR5
+T85	gene 2389 2393	CCR4
+T86	cell_type 2420 2427	T cells
+T87	gene 2432 2437	CXCR3
+T88	cell_type 2457 2464	T cells
+T89	gene 2486 2500	interleukin-15
+T90	gene 2502 2507	IL-15
+T91	gene 2522 2525	TEL
+T92	gene 2526 2530	AML1
+T93	cell_type 2610 2630	embryonic stem cells
+T94	cell_type 2632 2636	ESCs
+T95	gene 2652 2657	Mybl2
+T96	gene 2659 2664	Tgif2
+T97	gene 2666 2670	Pim2
+T98	gene 2676 2681	Hmgb3
+T99	cell_type 2748 2759	pro-B cells
+T100	gene 2777 2781	CCR1
+T101	cell_type 2797 2805	neuronal
+T102	cell_type 2826 2839	granule cells
+T103	cell_type 2872 2886	Purkinje cells
+T104	cell_type 2888 2899	Golgi cells
+T105	cell_type 2950 2960	astrocytes
+T106	cell_type 2966 2983	resting microglia
+T107	gene 2999 3003	CCR1
+T108	cell_type 3029 3037	monocyte
+T109	gene 3062 3075	interleukin 6
+T110	cell_type 3090 3107	endothelial cells
+T111	cell_type 3122 3133	granulocyte
+T112	cell_type 3134 3144	macrophage
+T113	gene 3145 3148	CSF
+T114	gene 3150 3156	GM-CSF
+T115	gene 3159 3190	transforming growth factor-beta
+T116	gene 3192 3200	TGF-beta
+T117	cell_type 3221 3231	osteoclast
+T118	cell_type 3245 3262	skin fibroblastic
+T119	cell_type 3268 3284	hemopoietic cell
+T120	cell_type 3313 3323	osteoclast
+T121	cell_type 3376 3388	erythroblast
+T122	cell_type 3393 3403	normoblast
+T123	gene 3472 3475	Epo
+T124	gene 3478 3483	IL-11
+T125	gene 3487 3490	Epo
+T126	gene 3499 3504	IL-11
+T127	gene 3508 3511	Epo
+T128	gene 3520 3524	IL-3
+T129	gene 3527 3532	IL-11

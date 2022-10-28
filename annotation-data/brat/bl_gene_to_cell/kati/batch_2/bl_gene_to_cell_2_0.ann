@@ -1,0 +1,108 @@
+T1	cell_type 60 68	monocyte
+T2	cell_type 78 86	monocyte
+T3	gene 103 107	CD14
+T4	gene 108 112	CD16
+T5	gene 115 119	CD14
+T6	gene 120 124	CD16
+T7	gene 127 131	CD14
+T8	gene 141 145	CCR5
+T9	gene 148 152	CD18
+T10	gene 155 160	CD11b
+T11	cell_type 173 182	monocytes
+T12	cell_type 250 261	macrophages
+T13	cell_type 263 274	lymphocytes
+T14	cell_type 276 291	dendritic cells
+T15	gene 339 350	fibronectin
+T16	gene 352 362	tenascin-C
+T17	gene 377 385	collagen
+T18	gene 387 392	FOXP3
+T19	gene 404 407	CD4
+T20	gene 408 412	CD25
+T21	gene 418 423	Foxp3
+T22	cell_type 424 431	T cells
+T23	cell_type 521 531	osteoblast
+T24	gene 577 581	Dlx2
+T25	gene 583 587	Dlx5
+T26	gene 592 596	Dlx6
+T27	cell_type 640 651	osteoblasts
+T28	gene 661 665	Dlx3
+T29	cell_type 709 720	osteoblasts
+T30	cell_type 725 735	osteocytes
+T31	gene 737 746	TGF-beta1
+T32	gene 757 760	p42
+T33	gene 761 769	p44 MAPK
+T34	cell_type 794 802	myocytes
+T35	cell_type 834 842	neuronal
+T36	cell_type 847 857	astrocytic
+T37	cell_type 879 889	astrocytic
+T38	gene 890 894	Cx43
+T39	cell_type 965 973	neuronal
+T40	gene 974 978	Cx36
+T41	gene 1005 1011	noggin
+T42	cell_type 1045 1064	photoreceptor cells
+T43	gene 1070 1073	EGF
+T44	gene 1089 1137	Peroxisome proliferator-activated receptor gamma
+T45	gene 1139 1149	PPAR gamma
+T46	cell_type 1225 1235	adipocytes
+T47	cell_type 1237 1246	monocytes
+T48	cell_type 1262 1275	keratinocytes
+T49	gene 1315 1318	Gem
+T50	gene 1319 1335	active-caspase-3
+T51	gene 1340 1343	Gem
+T52	cell_type 1382 1386	RGCs
+T53	cell_type 1410 1418	platelet
+T54	gene 1431 1435	Epac
+T55	gene 1461 1464	CD4
+T56	cell_type 1466 1482	effector T cells
+T57	cell_type 1521 1536	dendritic cells
+T58	gene 1560 1563	CD4
+T59	gene 1564 1568	CD25
+T60	gene 1569 1574	Foxp3
+T61	cell_type 1576 1594	regulatory T cells
+T62	cell_type 1618 1627	monocytes
+T63	cell_type 1638 1649	macrophages
+T64	gene 1657 1662	EAAT1
+T65	gene 1681 1686	IL-10
+T66	gene 1687 1695	TGF-beta
+T67	cell_type 1705 1716	macrophages
+T68	cell_type 1717 1742	induce regulatory T cells
+T69	cell_type 1794 1801	T cells
+T70	cell_type 1814 1821	T cells
+T71	gene 1840 1845	STAT3
+T72	gene 1898 1903	STAT1
+T73	gene 1905 1910	STAT5
+T74	gene 1916 1921	STAT6
+T75	gene 1948 1954	afadin
+T76	cell_type 1999 2007	platelet
+T77	gene 2066 2069	Rac
+T78	gene 2086 2090	Vav2
+T79	gene 2147 2161	integrin beta3
+T80	gene 2172 2176	CD61
+T81	gene 2180 2186	GPIIIa
+T82	gene 2266 2270	CD41
+T83	gene 2271 2275	CD61
+T84	gene 2279 2283	CD51
+T85	cell_type 2343 2354	lymphocytes
+T86	cell_type 2356 2365	monocytes
+T87	cell_type 2367 2379	granulocytes
+T88	cell_type 2381 2390	platelets
+T89	cell_type 2392 2404	erythrocytes
+T90	cell_type 2509 2518	microglia
+T91	gene 2530 2533	Th2
+T92	gene 2556 2561	CCL11
+T93	cell_type 2594 2603	microglia
+T94	gene 2615 2618	Th1
+T95	gene 2641 2647	CXCL11
+T96	gene 2653 2658	TRPV4
+T97	cell_type 2702 2713	crypt cells
+T98	gene 2748 2753	TRPV4
+T99	gene 2770 2774	ApoE
+T100	cell_type 2806 2817	hepatocytes
+T101	cell_type 2819 2830	macrophages
+T102	cell_type 2835 2845	astrocytes
+T103	gene 2862 2866	CCR7
+T104	gene 2870 2874	PD-1
+T105	gene 2892 2897	CXCR5
+T106	gene 2901 2904	CD4
+T107	cell_type 2908 2915	T cells
+T108	cell_type 2929 2932	Tfh

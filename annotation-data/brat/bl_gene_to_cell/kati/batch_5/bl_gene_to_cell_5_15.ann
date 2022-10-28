@@ -1,0 +1,96 @@
+T1	gene 34 47	thyroglobulin
+T2	gene 49 59	calcitonin
+T3	gene 61 69	vimentin
+T4	cell_type 89 95	neuron
+T5	gene 120 126	GM-CSF
+T6	gene 173 179	CXCL12
+T7	gene 181 187	CXCL13
+T8	gene 193 198	CXCL8
+T9	cell_type 219 232	T lymphocytes
+T10	cell_type 234 243	monocytes
+T11	cell_type 249 260	neutrophils
+T12	cell_type 315 323	monocyte
+T13	gene 336 363	tumor necrosis factor-alpha
+T14	gene 365 374	TNF-alpha
+T15	cell_type 384 401	endothelial cells
+T16	gene 444 448	CD36
+T17	cell_type 452 461	monocytes
+T18	cell_type 487 498	fibroblasts
+T19	cell_type 505 516	fibroblasts
+T20	gene 532 536	IL-6
+T21	gene 538 543	COX-2
+T22	gene 549 554	M-CSF
+T23	cell_type 611 622	fibroblasts
+T24	cell_type 638 648	osteoclast
+T25	cell_type 733 744	fibroblasts
+T26	cell_type 809 819	astrocytic
+T27	gene 820 824	Cx43
+T28	gene 825 829	Cx30
+T29	gene 848 852	Cx47
+T30	gene 853 857	Cx32
+T31	gene 870 874	AQP4
+T32	cell_type 885 895	astrocytic
+T33	gene 1038 1042	CD68
+T34	cell_type 1056 1067	macrophages
+T35	gene 1138 1157	interleukin-1 alpha
+T36	gene 1159 1169	IL-1 alpha
+T37	gene 1172 1176	IL-3
+T38	gene 1178 1182	IL-6
+T39	cell_type 1187 1198	granulocyte
+T40	cell_type 1199 1207	monocyte
+T41	gene 1208 1233	colony stimulating factor
+T42	gene 1235 1241	GM-CSF
+T43	cell_type 1329 1338	stem cell
+T44	gene 1347 1353	nestin
+T45	gene 1358 1362	CD34
+T46	cell_type 1384 1396	keratinocyte
+T47	gene 1404 1414	keratin 15
+T48	gene 1430 1442	somatostatin
+T49	gene 1444 1455	cortistatin
+T50	gene 1461 1483	somatostatin receptors
+T51	cell_type 1493 1502	monocytes
+T52	cell_type 1504 1515	macrophages
+T53	cell_type 1521 1536	dendritic cells
+T54	gene 1554 1558	FPR1
+T55	cell_type 1583 1605	cytotoxic T lymphocyte
+T56	cell_type 1661 1669	monocyte
+T57	cell_type 1678 1693	dendritic cells
+T58	gene 1702 1705	p38
+T59	gene 1706 1710	MAPK
+T60	cell_type 1760 1769	adipocyte
+T61	cell_type 1796 1805	adipocyte
+T62	gene 1836 1844	resistin
+T63	gene 1849 1857	resistin
+T64	gene 1859 1863	CD14
+T65	cell_type 1874 1882	monocyte
+T66	gene 1961 1967	GM-CSF
+T67	cell_type 1976 1987	macrophages
+T68	gene 1989 1998	Perilipin
+T69	cell_type 2047 2057	adipocytes
+T70	cell_type 2105 2121	endothelial cell
+T71	gene 2135 2140	TRAF4
+T72	gene 2234 2242	resistin
+T73	cell_type 2254 2264	adipocytes
+T74	cell_type 2266 2277	macrophages
+T75	gene 2306 2314	resistin
+T76	gene 2331 2334	CD4
+T77	gene 2337 2341	CD25
+T78	cell_type 2345 2352	T cells
+T79	gene 2387 2390	CD4
+T80	cell_type 2401 2408	T cells
+T81	gene 2410 2415	TRPV4
+T82	cell_type 2445 2456	osteoblasts
+T83	cell_type 2461 2472	osteoclasts
+T84	gene 2474 2481	Insulin
+T85	cell_type 2515 2536	skeletal muscle cells
+T86	gene 2551 2557	Notch2
+T87	gene 2566 2570	CD19
+T88	cell_type 2574 2581	B cells
+T89	gene 2592 2595	Fos
+T90	cell_type 2610 2617	B cells
+T91	gene 2624 2629	SIRT1
+T92	gene 2634 2639	SIRT2
+T93	cell_type 2715 2731	epithelial cells
+T94	cell_type 2733 2743	Melanocyte
+T95	cell_type 2748 2760	keratinocyte
+T96	gene 2777 2780	p53

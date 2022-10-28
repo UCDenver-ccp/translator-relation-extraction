@@ -1,0 +1,127 @@
+T1	gene 0 18	Chemokine receptor
+T2	cell_type 50 57	T cells
+T3	gene 75 79	CCR6
+T4	gene 80 85	CXCR3
+T5	cell_type 87 96	Th1 cells
+T6	gene 122 126	CCR6
+T7	gene 127 131	CCR4
+T8	cell_type 133 142	Th2 cells
+T9	gene 173 177	CCR6
+T10	gene 178 182	CCR4
+T11	cell_type 184 194	Th17 cells
+T12	gene 284 288	NCX1
+T13	gene 293 297	NCX3
+T14	gene 330 334	NCX3
+T15	cell_type 354 362	neuronal
+T16	gene 385 389	NCX1
+T17	cell_type 399 416	neural stem cells
+T18	cell_type 426 435	microglia
+T19	gene 458 464	CXCL12
+T20	gene 465 470	CXCR4
+T21	cell_type 507 514	neurons
+T22	cell_type 519 530	glial cells
+T23	gene 561 571	tenascin-R
+T24	cell_type 582 589	neurons
+T25	gene 634 656	cartilage link protein
+T26	gene 675 680	Bral2
+T27	gene 702 710	netrin-5
+T28	gene 738 743	Mash1
+T29	cell_type 813 824	neuroblasts
+T30	gene 837 841	GFAP
+T31	cell_type 851 861	astrocytes
+T32	cell_type 912 927	red blood cells
+T33	cell_type 929 933	RBCs
+T34	cell_type 936 964	polymorphonuclear leukocytes
+T35	cell_type 973 984	macrophages
+T36	cell_type 1056 1067	fibroblasts
+T37	cell_type 1069 1086	endothelial cells
+T38	cell_type 1121 1131	astrocytes
+T39	cell_type 1176 1186	astrocytes
+T40	cell_type 1188 1196	neuronal
+T41	gene 1236 1248	beta-amyloid
+T42	gene 1249 1258	precursor
+T43	gene 1268 1276	beta-APP
+T44	cell_type 1334 1341	neurons
+T45	cell_type 1347 1357	hepatocyte
+T46	cell_type 1411 1422	hepatocytes
+T47	gene 1448 1461	transthyretin
+T48	gene 1463 1484	glucose 6-phosphatase
+T49	gene 1486 1499	cytokeratin-8
+T50	gene 1504 1521	alpha-fetoprotein
+T51	cell_type 1523 1533	hepatocyte
+T52	cell_type 1580 1592	neutrophilic
+T53	cell_type 1593 1605	granulocytes
+T54	gene 1614 1619	MAC-1
+T55	gene 1645 1650	LFA-1
+T56	gene 1665 1670	IL-13
+T57	cell_type 1691 1701	macrophage
+T58	gene 1747 1751	IL-3
+T59	gene 1756 1770	erythropoietin
+T60	gene 1772 1820	granulocyte-macrophage colony-stimulating factor
+T61	cell_type 1825 1835	macrophage
+T62	gene 1836 1861	colony-stimulating factor
+T63	gene 1863 1870	CREB: a
+T64	cell_type 1889 1897	neuronal
+T65	gene 1898 1910	neurotrophin
+T66	gene 1972 1975	THP
+T67	gene 2001 2004	THP
+T68	cell_type 2006 2015	monocytes
+T69	cell_type 2020 2031	macrophages
+T70	gene 2049 2057	langerin
+T71	gene 2121 2127	fascin
+T72	cell_type 2138 2155	endothelial cells
+T73	gene 2168 2172	CD1a
+T74	cell_type 2183 2192	monocytes
+T75	cell_type 2194 2204	foam cells
+T76	gene 2209 2213	CD83
+T77	cell_type 2224 2235	lymphocytes
+T78	gene 2253 2262	TNF-alpha
+T79	gene 2267 2271	CD68
+T80	gene 2319 2328	TNF-alpha
+T81	cell_type 2348 2359	macrophages
+T82	gene 2378 2415	granulocyte-colony stimulating factor
+T83	gene 2417 2422	G-CSF
+T84	cell_type 2425 2436	granulocyte
+T85	cell_type 2437 2445	monocyte
+T86	gene 2446 2471	colony stimulating factor
+T87	gene 2473 2479	GM-CSF
+T88	gene 2482 2495	interleukin-6
+T89	gene 2497 2501	IL-6
+T90	gene 2504 2520	stem cell factor
+T91	cell_type 2531 2541	macrophage
+T92	gene 2686 2691	SLIT2
+T93	gene 2727 2732	SLIT2
+T94	gene 2733 2738	ROBO2
+T95	cell_type 2752 2759	neurons
+T96	gene 2786 2789	BMP
+T97	cell_type 2802 2811	myoblasts
+T98	cell_type 2816 2827	fibroblasts
+T99	gene 2846 2850	BDNF
+T100	cell_type 2883 2898	sensory neurons
+T101	gene 2910 2913	NTR
+T102	cell_type 2934 2941	neurons
+T103	gene 2955 2958	NTR
+T104	cell_type 3003 3010	neurons
+T105	gene 3024 3027	NTR
+T106	cell_type 3067 3078	fibroblasts
+T107	cell_type 3087 3098	granulocyte
+T108	gene 3099 3102	CSF
+T109	cell_type 3104 3114	macrophage
+T110	cell_type 3124 3135	granulocyte
+T111	cell_type 3136 3146	macrophage
+T112	gene 3147 3150	CSF
+T113	gene 3176 3189	interleukin-1
+T114	gene 3213 3229	Apolipoprotein E
+T115	cell_type 3281 3292	hepatocytes
+T116	cell_type 3297 3308	macrophages
+T117	gene 3338 3350	beta-amyloid
+T118	gene 3351 3360	precursor
+T119	cell_type 3399 3406	neurons
+T120	cell_type 3411 3421	astrocytes
+T121	cell_type 3462 3477	oligodendrocyte
+T122	gene 3487 3491	Cx47
+T123	cell_type 3504 3514	astrocytic
+T124	gene 3523 3527	Cx43
+T125	gene 3566 3570	Cx43
+T126	gene 3583 3587	Cx47
+T127	cell_type 3595 3611	oligodendrocytes

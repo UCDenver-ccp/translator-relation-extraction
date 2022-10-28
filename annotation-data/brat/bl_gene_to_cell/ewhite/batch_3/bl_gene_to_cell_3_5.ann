@@ -1,0 +1,126 @@
+T1	gene 34 47	interleukin-1
+T2	gene 72 75	p80
+T3	cell_type 118 125	T-cells
+T4	cell_type 127 138	fibroblasts
+T5	gene 170 173	p68
+T6	cell_type 205 212	B-cells
+T7	cell_type 217 228	macrophages
+T8	gene 230 236	Cox7a2
+T9	cell_type 269 280	leydig cell
+T10	cell_type 285 297	spermatocyte
+T11	gene 328 334	CX3CL1
+T12	gene 351 357	CX3CR1
+T13	cell_type 409 417	NK cells
+T14	gene 419 423	CD14
+T15	cell_type 427 436	monocytes
+T16	cell_type 448 464	effector T cells
+T17	cell_type 466 473	B cells
+T18	cell_type 475 482	neurons
+T19	cell_type 484 493	microglia
+T20	cell_type 495 514	smooth muscle cells
+T21	gene 552 556	GFAP
+T22	cell_type 592 602	astrocytes
+T23	gene 608 612	GFAP
+T24	gene 647 650	MBP
+T25	cell_type 687 703	oligodendrocytes
+T26	cell_type 769 776	neurons
+T27	cell_type 823 834	basal cells
+T28	gene 836 877	low-affinity nerve growth factor receptor
+T29	gene 882 886	NGFR
+T30	cell_type 910 917	neurons
+T31	gene 919 947	growth-associated protein 43
+T32	gene 949 954	GAP43
+T33	cell_type 969 995	olfactory receptor neurons
+T34	gene 997 1021	olfactory marker protein
+T35	cell_type 1041 1052	hepatocytes
+T36	cell_type 1054 1067	Kupffer cells
+T37	cell_type 1073 1090	endothelial cells
+T38	gene 1136 1141	STAT1
+T39	gene 1143 1148	STAT3
+T40	gene 1154 1159	IRF-1
+T41	gene 1187 1193	VCAM-1
+T42	gene 1195 1201	ICAM-1
+T43	cell_type 1239 1256	Endothelial cells
+T44	cell_type 1258 1277	smooth muscle cells
+T45	cell_type 1279 1286	T cells
+T46	cell_type 1292 1303	macrophages
+T47	gene 1383 1387	CD68
+T48	gene 1410 1413	CD4
+T49	cell_type 1422 1429	T cells
+T50	cell_type 1475 1481	T cell
+T51	cell_type 1527 1534	T cells
+T52	gene 1536 1539	CD4
+T53	cell_type 1548 1555	T cells
+T54	gene 1574 1577	CD4
+T55	cell_type 1578 1584	T cell
+T56	cell_type 1620 1626	T cell
+T57	cell_type 1685 1701	Langerhans cells
+T58	gene 1741 1745	CD34
+T59	cell_type 1747 1775	hemopoietic progenitor cells
+T60	cell_type 1795 1806	granulocyte
+T61	cell_type 1807 1817	macrophage
+T62	gene 1823 1829	GM-CSF
+T63	gene 1833 1842	TNF-alpha
+T64	gene 1844 1848	CD68
+T65	cell_type 1870 1884	synovial cells
+T66	gene 1902 1907	MUC-1
+T67	gene 1912 1916	CD68
+T68	cell_type 1926 1937	macrophages
+T69	cell_type 1974 1991	mononuclear cells
+T70	cell_type 2027 2037	macrophage
+T71	gene 2038 2063	colony-stimulating factor
+T72	gene 2065 2070	CSF-1
+T73	cell_type 2073 2084	granulocyte
+T74	cell_type 2085 2095	macrophage
+T75	gene 2101 2107	GM-CSF
+T76	gene 2114 2127	interleukin 3
+T77	cell_type 2137 2147	macrophage
+T78	cell_type 2252 2263	macrophages
+T79	cell_type 2284 2306	peritoneal macrophages
+T80	cell_type 2343 2355	Keratinocyte
+T81	gene 2356 2362	ICAM-1
+T82	cell_type 2374 2380	T cell
+T83	gene 2394 2398	CD18
+T84	cell_type 2444 2457	keratinocytes
+T85	gene 2459 2464	CSF-1
+T86	cell_type 2469 2480	granulocyte
+T87	cell_type 2481 2489	monocyte
+T88	gene 2490 2493	CSF
+T89	gene 2495 2501	GM-CSF
+T90	cell_type 2594 2605	macrophages
+T91	cell_type 2613 2619	T-cell
+T92	cell_type 2635 2645	lymphocyte
+T93	cell_type 2685 2691	T-cell
+T94	gene 2716 2720	CD16
+T95	gene 2722 2726	CD56
+T96	gene 2768 2773	DACH1
+T97	cell_type 2798 2807	podocytes
+T98	gene 2845 2853	cyclin D
+T99	gene 2884 2887	p21
+T100	gene 2892 2895	p53
+T101	gene 2918 2923	DACH1
+T102	cell_type 2948 2957	podocytes
+T103	cell_type 3002 3008	M cell
+T104	gene 3017 3042	Colony stimulating factor
+T105	gene 3046 3051	CSF-1
+T106	gene 3108 3111	EGF
+T107	cell_type 3115 3126	macrophages
+T108	gene 3128 3142	Interleukin-32
+T109	gene 3144 3149	IL-32
+T110	cell_type 3199 3208	monocytes
+T111	cell_type 3232 3241	monocytes
+T112	cell_type 3247 3257	macrophage
+T113	gene 3270 3275	Runx1
+T114	cell_type 3332 3349	mesenchymal cells
+T115	gene 3359 3364	Runx2
+T116	gene 3369 3374	Runx3
+T117	cell_type 3418 3430	chondrocytes
+T118	gene 3432 3437	DCST2
+T119	gene 3483 3491	DC-STAMP
+T120	cell_type 3498 3508	osteoclast
+T121	cell_type 3579 3605	intestinal epithelial cell
+T122	cell_type 3651 3660	monocytes
+T123	cell_type 3666 3677	macrophages
+T124	gene 3741 3747	PTPRZ1
+T125	gene 3767 3772	IL-34
+T126	gene 3777 3782	CSF-1

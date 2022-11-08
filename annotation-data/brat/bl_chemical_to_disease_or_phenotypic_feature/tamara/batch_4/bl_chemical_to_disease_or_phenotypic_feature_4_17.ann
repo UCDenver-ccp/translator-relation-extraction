@@ -68,3 +68,21 @@ T67	chemical 2185 2188	DCs
 T68	chemical 2221 2229	estrogen
 T69	chemical 2264 2272	estrogen
 T70	disease_or_phenotypic_feature 2273 2282	sensitive
+T71	missed_chemical 583 591	racemate
+R1	treats Arg1:T71 Arg2:T18	
+R2	treats Arg1:T16 Arg2:T18	
+T72	missed_chemical 623 634	Barbiturate
+T73	missed_chemical 635 643	sedative
+T74	missed_chemical 644 652	hypnotic
+R3	causes_or_contributes_to Arg1:T20 Arg2:T22	
+R4	causes_or_contributes_to Arg1:T19 Arg2:T22	
+R5	causes_or_contributes_to Arg1:T74 Arg2:T22	
+R6	causes_or_contributes_to Arg1:T73 Arg2:T22	
+R7	causes_or_contributes_to Arg1:T72 Arg2:T22	
+R8	causes_or_contributes_to Arg1:T42 Arg2:T41	
+R9	treats Arg1:T45 Arg2:T43	
+T75	missed_chemical 1455 1462	Thyroid
+R10	treats Arg1:T48 Arg2:T49	
+R11	treats Arg1:T75 Arg2:T49	
+R12	causes_or_contributes_to Arg1:T58 Arg2:T59	
+R13	causes_or_contributes_to Arg1:T64 Arg2:T62	

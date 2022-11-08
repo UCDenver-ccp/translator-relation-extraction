@@ -61,3 +61,44 @@ T60	disease_or_phenotypic_feature 2235 2244	pituitary
 T61	disease_or_phenotypic_feature 2245 2253	adenomas
 T62	chemical 2295 2309	growth hormone
 T63	chemical 2364 2371	hormone
+R1	treats Arg1:T4 Arg2:T3	
+R2	treats Arg1:T6 Arg2:T7	
+T64	corrected_chemical 229 251	proton-pump inhibitors
+T65	corrected_disease_or_phenotypic_feature 296 329	hypomagnesemic hypoparathyroidism
+R3	causes_or_contributes_to Arg1:T64 Arg2:T65	
+T66	corrected_disease_or_phenotypic_feature 629 648	acute heart failure
+R4	treats Arg1:T18 Arg2:T66	
+R5	treats Arg1:T18 Arg2:T20	
+R6	treats Arg1:T31 Arg2:T32	
+T67	corrected_chemical 1276 1288	SK inhibitor
+T68	missed_disease_or_phenotypic_feature 1255 1260	tumor
+R7	treats Arg1:T67 Arg2:T68	
+T69	missed_chemical 1155 1167	azoxymethane
+T70	missed_chemical 1169 1172	AOM
+T71	corrected_chemical 1174 1196	dextran sulfate sodium
+T72	missed_chemical 1198 1201	DSS
+R8	causes_or_contributes_to Arg1:T69 Arg2:T68	
+R9	causes_or_contributes_to Arg1:T70 Arg2:T68	
+R10	causes_or_contributes_to Arg1:T71 Arg2:T68	
+R11	causes_or_contributes_to Arg1:T72 Arg2:T68	
+T73	missed_chemical 1276 1278	SK
+R12	causes_or_contributes_to Arg1:T73 Arg2:T68	
+T74	corrected_chemical 1480 1500	oxygen free radicals
+R13	causes_or_contributes_to Arg1:T74 Arg2:T42	
+R14	causes_or_contributes_to Arg1:T74 Arg2:T43	
+T75	missed_disease_or_phenotypic_feature 1623 1630	mycoses
+T76	missed_disease_or_phenotypic_feature 1692 1706	hypoadrenalism
+T77	missed_disease_or_phenotypic_feature 1736 1748	dyslipidemia
+T78	missed_disease_or_phenotypic_feature 1750 1763	hypernatremia
+T79	missed_disease_or_phenotypic_feature 1831 1845	hypomagnesemia
+R15	treats Arg1:T44 Arg2:T75	
+R16	causes_or_contributes_to Arg1:T44 Arg2:T76	
+R17	causes_or_contributes_to Arg1:T44 Arg2:T45	
+R18	causes_or_contributes_to Arg1:T44 Arg2:T46	
+R19	causes_or_contributes_to Arg1:T44 Arg2:T77	
+R20	causes_or_contributes_to Arg1:T44 Arg2:T78	
+R21	causes_or_contributes_to Arg1:T44 Arg2:T47	
+R22	causes_or_contributes_to Arg1:T44 Arg2:T48	
+R23	causes_or_contributes_to Arg1:T44 Arg2:T49	
+R24	causes_or_contributes_to Arg1:T44 Arg2:T50	
+R25	causes_or_contributes_to Arg1:T44 Arg2:T79	

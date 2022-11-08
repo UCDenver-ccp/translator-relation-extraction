@@ -108,3 +108,75 @@ T107	gene 3142 3167	colony-stimulating factor
 T108	gene 3169 3172	CSF
 T109	cell_type 3181 3192	granulocyte
 T110	cell_type 3193 3203	macrophage
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T1 Arg2:T3	
+R3	located_in Arg1:T2 Arg2:T4	
+R4	located_in Arg1:T1 Arg2:T4	
+R5	located_in Arg1:T7 Arg2:T9	
+R6	located_in Arg1:T8 Arg2:T9	
+R7	located_in Arg1:T10 Arg2:T11	
+R8	located_in Arg1:T12 Arg2:T14	
+R9	located_in Arg1:T13 Arg2:T14	
+T111	missed_gene 489 492	HR6
+R10	located_in Arg1:T111 Arg2:T19	
+T112	missed_gene 552 557	SNMP1
+R11	located_in Arg1:T112 Arg2:T19	
+T113	missed_gene 516 549	sensory neuron membrane protein 1
+R12	located_in Arg1:T113 Arg2:T19	
+R13	located_in Arg1:T24 Arg2:T25	
+R14	located_in Arg1:T24 Arg2:T26	
+R15	located_in Arg1:T24 Arg2:T27	
+R16	located_in Arg1:T29 Arg2:T28	
+R17	located_in Arg1:T30 Arg2:T28	
+R18	located_in Arg1:T31 Arg2:T28	
+R19	located_in Arg1:T32 Arg2:T34	
+R20	located_in Arg1:T33 Arg2:T34	
+T114	corrected_cell_type 1086 1105	synovial fibroblast
+R21	located_in Arg1:T36 Arg2:T114	
+R22	located_in Arg1:T37 Arg2:T114	
+R23	located_in Arg1:T41 Arg2:T42	
+T115	missed_gene 1205 1209	Ly6C
+R24	located_in Arg1:T115 Arg2:T42	
+R25	located_in Arg1:T47 Arg2:T51	
+R26	located_in Arg1:T48 Arg2:T51	
+R27	located_in Arg1:T49 Arg2:T51	
+R28	located_in Arg1:T50 Arg2:T51	
+R29	located_in Arg1:T52 Arg2:T54	
+R30	located_in Arg1:T53 Arg2:T54	
+T116	missed_gene 1484 1492	IL-1beta
+R31	located_in Arg1:T116 Arg2:T54	
+T117	corrected_gene 1546 1554;1561 1566	Integrin beta1
+T118	corrected_gene 1615 1621;1627 1635	alpha2 integrin
+T119	corrected_gene 1621 1626;1627 1635	beta1 integrin
+R32	located_in Arg1:T55 Arg2:T56	
+R33	located_in Arg1:T117 Arg2:T56	
+R34	located_in Arg1:T119 Arg2:T60	
+R35	located_in Arg1:T118 Arg2:T60	
+R36	located_in Arg1:T119 Arg2:T61	
+R37	located_in Arg1:T118 Arg2:T61	
+R38	located_in Arg1:T59 Arg2:T60	
+R39	located_in Arg1:T59 Arg2:T61	
+T120	missed_cell_type 1782 1807;1815 1820	Madin-Darby canine kidney cells
+T121	missed_cell_type 1809 1813;1815 1820	MDCK cells
+R40	located_in Arg1:T68 Arg2:T64	
+R41	located_in Arg1:T69 Arg2:T64	
+R42	located_in Arg1:T68 Arg2:T120	
+R43	located_in Arg1:T69 Arg2:T120	
+R44	located_in Arg1:T69 Arg2:T121	
+R45	located_in Arg1:T68 Arg2:T120	
+R46	located_in Arg1:T70 Arg2:T71	
+R47	located_in Arg1:T72 Arg2:T73	
+R48	located_in Arg1:T82 Arg2:T83	
+R49	located_in Arg1:T85 Arg2:T86	
+T122	missed_gene 2522 2526	NeuN
+R50	located_in Arg1:T122 Arg2:T84	
+R51	located_in Arg1:T95 Arg2:T94	
+R52	located_in Arg1:T95 Arg2:T93	
+R53	located_in Arg1:T95 Arg2:T92	
+T123	missed_gene 2880 2883	ALX
+R54	located_in Arg1:T123 Arg2:T94	
+R55	located_in Arg1:T123 Arg2:T93	
+R56	located_in Arg1:T123 Arg2:T92	
+R57	located_in Arg1:T96 Arg2:T94	
+R58	located_in Arg1:T96 Arg2:T93	
+R59	located_in Arg1:T96 Arg2:T92	

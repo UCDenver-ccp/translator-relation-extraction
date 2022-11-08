@@ -75,3 +75,37 @@ T74	chemical 2561 2565	drug
 T75	disease_or_phenotypic_feature 2617 2630	heart failure
 T76	chemical 2632 2641	Oxidative
 T77	disease_or_phenotypic_feature 2668 2675	obesity
+T78	corrected_disease_or_phenotypic_feature 151 182	childhood psychiatric disorders
+T79	corrected_chemical 104 122	antipsychotic drug
+R1	treats Arg1:T5 Arg2:T78	
+R2	treats Arg1:T5 Arg2:T8	
+R3	treats Arg1:T79 Arg2:T78	
+R4	treats Arg1:T79 Arg2:T8	
+R5	treats Arg1:T9 Arg2:T11	
+T80	corrected_chemical 214 242	monoamine reuptake inhibitor
+R6	treats Arg1:T80 Arg2:T11	
+T81	corrected_chemical 514 530	sodium epicillin
+T82	corrected_disease_or_phenotypic_feature 551 570	childhood pneumonia
+R7	treats Arg1:T16 Arg2:T82	
+R8	treats Arg1:T81 Arg2:T82	
+T83	missed_chemical 631 633	AZ
+T84	corrected_chemical 647 675	carbonic anhydrase inhibitor
+R9	causes_or_contributes_to Arg1:T22 Arg2:T24	
+R10	causes_or_contributes_to Arg1:T83 Arg2:T24	
+R11	causes_or_contributes_to Arg1:T84 Arg2:T24	
+R12	causes_or_contributes_to Arg1:T22 Arg2:T25	
+R13	causes_or_contributes_to Arg1:T83 Arg2:T25	
+R14	causes_or_contributes_to Arg1:T84 Arg2:T25	
+R15	causes_or_contributes_to Arg1:T26 Arg2:T27	
+R16	treats Arg1:T30 Arg2:T31	
+R17	treats Arg1:T52 Arg2:T55	
+T85	corrected_chemical 1625 1652	platinum-based chemotherapy
+R18	treats Arg1:T85 Arg2:T55	
+R19	causes_or_contributes_to Arg1:T56 Arg2:T57	
+T86	missed_chemical 1869 1878	prolactin
+R20	causes_or_contributes_to Arg1:T86 Arg2:T60	
+R21	causes_or_contributes_to Arg1:T59 Arg2:T61	
+T87	corrected_chemical 1970 2046	nonestrogenic steroidal inhibitor of 17?-hydroxysteroid dehydrogenase type I
+T88	corrected_disease_or_phenotypic_feature 2058 2090	estrogen-dependent breast cancer
+R22	causes_or_contributes_to Arg1:T65 Arg2:T88	
+R23	treats Arg1:T87 Arg2:T88	

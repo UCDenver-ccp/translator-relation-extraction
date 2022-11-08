@@ -96,3 +96,71 @@ T95	gene 2747 2751	CD34
 T96	gene 2754 2758	CD13
 T97	gene 2761 2765	CD33
 T98	cell_type 2806 2825	hematopoietic cells
+R1	located_in Arg1:T2 Arg2:T1	
+T99	missed_cell_type 24 38	myotomal cells
+R2	located_in Arg1:T2 Arg2:T99	
+R3	located_in Arg1:T5 Arg2:T4	
+T100	corrected_cell_type 334 356	phagocytic macrophages
+R4	located_in Arg1:T13 Arg2:T100	
+R5	located_in Arg1:T34 Arg2:T35	
+R6	located_in Arg1:T33 Arg2:T35	
+T101	missed_gene 1041 1045	GPIb
+R7	located_in Arg1:T101 Arg2:T36	
+R8	located_in Arg1:T37 Arg2:T36	
+R9	located_in Arg1:T38 Arg2:T36	
+T102	corrected_cell_type 1206 1233	ibroblast-like synoviocytes
+R10	located_in Arg1:T40 Arg2:T102	
+R11	located_in Arg1:T41 Arg2:T102	
+T103	missed_gene 1156 1165	cadherins
+R12	located_in Arg1:T103 Arg2:T102	
+T104	missed_gene 1285 1290	RANKL
+T105	corrected_cell_type 1306 1324	osteoblastic cells
+R13	located_in Arg1:T104 Arg2:T105	
+R14	located_in Arg1:T68 Arg2:T67	
+R15	located_in Arg1:T68 Arg2:T66	
+R16	located_in Arg1:T44 Arg2:T105	
+R17	located_in Arg1:T45 Arg2:T105	
+R18	located_in Arg1:T50 Arg2:T49	
+R19	located_in Arg1:T51 Arg2:T49	
+T106	missed_gene 1399 1403	Rela
+R20	located_in Arg1:T106 Arg2:T49	
+T107	missed_gene 1406 1411	c-Rel
+T108	missed_gene 1413 1417	Crel
+T109	missed_gene 1429 1438	Nfkappab1
+R21	located_in Arg1:T107 Arg2:T49	
+R22	located_in Arg1:T108 Arg2:T49	
+R23	located_in Arg1:T52 Arg2:T49	
+R24	located_in Arg1:T109 Arg2:T49	
+T110	corrected_cell_type 1326 1351	Neutrophilic granulocytes
+R25	located_in Arg1:T50 Arg2:T110	
+R26	located_in Arg1:T51 Arg2:T110	
+R27	located_in Arg1:T106 Arg2:T110	
+R28	located_in Arg1:T107 Arg2:T110	
+R29	located_in Arg1:T108 Arg2:T110	
+R30	located_in Arg1:T52 Arg2:T110	
+R31	located_in Arg1:T109 Arg2:T110	
+R32	located_in Arg1:T58 Arg2:T56	
+R33	located_in Arg1:T57 Arg2:T56	
+R34	located_in Arg1:T75 Arg2:T74	
+R35	located_in Arg1:T62 Arg2:T63	
+T111	corrected_cell_type 2412 2419;2426 2435	primary monocytes
+T112	corrected_cell_type 2440 2468	monocyte-derived macrophages
+T113	missed_cell_type 2470 2473	MDM
+R36	located_in Arg1:T86 Arg2:T111	
+R37	located_in Arg1:T87 Arg2:T111	
+R38	located_in Arg1:T88 Arg2:T111	
+R39	located_in Arg1:T89 Arg2:T111	
+T114	missed_gene 2516 2521	CD62L
+R40	located_in Arg1:T114 Arg2:T112	
+T115	missed_gene 2606 2610	CD20
+T116	missed_gene 2693 2696	CD5
+T117	missed_gene 2703 2706	CD8
+T118	corrected_cell_type 2791 2799;2806 2825	immature hematopoietic cells
+R41	located_in Arg1:T96 Arg2:T118	
+R42	located_in Arg1:T95 Arg2:T118	
+R43	located_in Arg1:T115 Arg2:T90	
+R44	located_in Arg1:T91 Arg2:T90	
+R45	located_in Arg1:T92 Arg2:T90	
+R46	located_in Arg1:T94 Arg2:T93	
+R47	located_in Arg1:T116 Arg2:T93	
+R48	located_in Arg1:T117 Arg2:T93	

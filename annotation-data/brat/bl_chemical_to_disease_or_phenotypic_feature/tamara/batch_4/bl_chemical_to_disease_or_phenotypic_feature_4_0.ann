@@ -63,3 +63,30 @@ T62	chemical 2001 2008	antigen
 T63	chemical 2045 2053	bombesin
 T64	chemical 2063 2069	ligand
 T65	disease_or_phenotypic_feature 2166 2181	prostate cancer
+T66	missed_disease_or_phenotypic_feature 164 182	lens opacification
+T67	missed_chemical 275 279	H2O2
+T68	missed_chemical 111 115	H2O2
+R1	causes_or_contributes_to Arg1:T68 Arg2:T66	
+R2	causes_or_contributes_to Arg1:T67 Arg2:T8	
+T69	corrected_chemical 344 384	tumor antigen-derived peptide loaded DCs
+R3	treats Arg1:T69 Arg2:T11	
+T70	corrected_chemical 494 523	serotonin-reuptake inhibitors
+R4	treats Arg1:T70 Arg2:T12	
+R5	treats Arg1:T15 Arg2:T16	
+R8	treats Arg1:T23 Arg2:T25	
+T71	corrected_disease_or_phenotypic_feature 940 957	pituitary tumours
+T72	corrected_chemical 875 897	somatostatin analogues
+R9	treats Arg1:T72 Arg2:T71	
+R10	treats Arg1:T27 Arg2:T71	
+T73	corrected_chemical 1233 1246	MYC inhibitor
+T75	missed_disease_or_phenotypic_feature 1353 1378	estrogen-dependent tumors
+R12	treats Arg1:T41 Arg2:T75	
+T77	missed_disease_or_phenotypic_feature 1489 1494	tumor
+T79	corrected_chemical 1589 1598;1620 1635	synthetic A2AR antagonist
+R11	treats Arg1:T73 Arg2:T40	
+R6	causes_or_contributes_to Arg1:T21 Arg2:T22	
+T74	corrected_chemical 1612 1659	natural A2AR antagonist 1,3,7-trimethylxanthine
+R7	treats Arg1:T79 Arg2:T77	
+R13	treats Arg1:T74 Arg2:T77	
+R14	treats Arg1:T50 Arg2:T77	
+R15	treats Arg1:T49 Arg2:T77	

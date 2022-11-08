@@ -66,3 +66,33 @@ T65	chemical 2741 2745	acid
 T66	chemical 2786 2797	doxorubicin
 T67	chemical 2839 2843	drug
 T68	disease_or_phenotypic_feature 2864 2870	cancer
+R1	treats Arg1:T1 Arg2:T3	
+T69	missed_disease_or_phenotypic_feature 90 102	solid tumors
+R2	treats Arg1:T1 Arg2:T69	
+T70	corrected_disease_or_phenotypic_feature 369 401	obesity-induced oxidative stress
+T71	missed_disease_or_phenotypic_feature 406 431	mitochondrial dysfunction
+R3	treats Arg1:T8 Arg2:T70	
+R4	treats Arg1:T8 Arg2:T71	
+T72	missed_disease_or_phenotypic_feature 810 815	tumor
+R5	treats Arg1:T17 Arg2:T72	
+R6	causes_or_contributes_to Arg1:T28 Arg2:T26	
+R7	treats Arg1:T33 Arg2:T34	
+T73	corrected_chemical 1295 1328	targeted small-molecule inhibitor
+R8	treats Arg1:T73 Arg2:T34	
+T74	missed_chemical 1472 1491	Z-505 hydrochloride
+T75	corrected_chemical 1510 1525	ghrelin agonist
+T76	corrected_disease_or_phenotypic_feature 1557 1572	cancer cachexia
+R9	treats Arg1:T74 Arg2:T76	
+R10	treats Arg1:T75 Arg2:T76	
+T77	missed_disease_or_phenotypic_feature 1876 1888	solid tumors
+R11	treats Arg1:T44 Arg2:T48	
+R12	treats Arg1:T45 Arg2:T48	
+R13	treats Arg1:T45 Arg2:T77	
+R14	treats Arg1:T44 Arg2:T77	
+R15	treats Arg1:T46 Arg2:T48	
+R16	treats Arg1:T46 Arg2:T77	
+R17	treats Arg1:T47 Arg2:T48	
+R18	treats Arg1:T47 Arg2:T77	
+R19	causes_or_contributes_to Arg1:T61 Arg2:T62	
+T78	corrected_chemical 2776 2818	PEGylated doxorubicin prodrug nanoparticle
+R20	treats Arg1:T78 Arg2:T68	

@@ -65,3 +65,7 @@ T64	chemical 2363 2373	antagonist
 T65	chemical 2375 2385	naltrexone
 T66	disease_or_phenotypic_feature 2458 2464	autism
 T67	disease_or_phenotypic_feature 2468 2486	mental retardation
+R1	causes_or_contributes_to Arg1:T6 Arg2:T8	
+R2	causes_or_contributes_to Arg1:T7 Arg2:T8	
+R3	causes_or_contributes_to Arg1:T10 Arg2:T9	
+R4	treats Arg1:T17 Arg2:T18	

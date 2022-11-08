@@ -65,3 +65,17 @@ T64	disease_or_phenotypic_feature 2195 2208	hypoglycaemia
 T65	chemical 2226 2230	drug
 T66	chemical 2262 2272	lorcaserin
 T67	disease_or_phenotypic_feature 2294 2301	obesity
+T69	missed_chemical 91 97	4-1BBL
+R5	treats Arg1:T7 Arg2:T8	
+R7	causes_or_contributes_to Arg1:T20 Arg2:T21	
+R13	causes_or_contributes_to Arg1:T32 Arg2:T34	
+R14	causes_or_contributes_to Arg1:T33 Arg2:T34	
+R15	causes_or_contributes_to Arg1:T33 Arg2:T35	
+R16	causes_or_contributes_to Arg1:T32 Arg2:T35	
+R17	treats Arg1:T66 Arg2:T67	
+R1	treats Arg1:T69 Arg2:T1	
+T68	missed_chemical 21 28	vaccine
+R2	treats Arg1:T68 Arg2:T1	
+R3	treats Arg1:T58 Arg2:T61	
+R4	treats Arg1:T59 Arg2:T61	
+R6	treats Arg1:T60 Arg2:T61	

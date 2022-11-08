@@ -101,3 +101,11 @@ T100	gene 2782 2786	NF-M
 T101	gene 2788 2792	NF-H
 T102	gene 2794 2799	MAP-2
 T103	gene 2810 2817	tubulin
+R1	located_in Arg1:T3 Arg2:T5	
+T104	missed_cell_type 155 159	APCs
+R2	located_in Arg1:T7 Arg2:T104	
+R3	located_in Arg1:T8 Arg2:T104	
+R4	located_in Arg1:T9 Arg2:T104	
+R5	located_in Arg1:T9 Arg2:T10	
+R6	located_in Arg1:T8 Arg2:T10	
+R7	located_in Arg1:T7 Arg2:T10	

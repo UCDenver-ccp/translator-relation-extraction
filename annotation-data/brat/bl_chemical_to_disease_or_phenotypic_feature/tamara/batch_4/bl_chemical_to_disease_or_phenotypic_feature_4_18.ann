@@ -54,3 +54,19 @@ T53	chemical 1955 1963	estrogen
 T54	chemical 1979 1991	progesterone
 T55	chemical 2056 2066	inhibitors
 T56	disease_or_phenotypic_feature 2076 2084	cataract
+R1	treats Arg1:T3 Arg2:T1	
+T57	missed_disease_or_phenotypic_feature 127 134	Hypoxia
+T58	missed_disease_or_phenotypic_feature 287 290	HCC
+R2	treats Arg1:T4 Arg2:T57	
+R3	treats Arg1:T4 Arg2:T5	
+R4	treats Arg1:T4 Arg2:T58	
+T59	corrected_disease_or_phenotypic_feature 580 613	BRAF inhibitor-resistant melanoma
+R5	treats Arg1:T16 Arg2:T15	
+R6	treats Arg1:T16 Arg2:T59	
+R7	treats Arg1:T18 Arg2:T19	
+R8	treats Arg1:T31 Arg2:T33	
+T60	corrected_chemical 1700 1714	ACE inhibitors
+R9	treats Arg1:T46 Arg2:T48	
+R10	treats Arg1:T60 Arg2:T48	
+R11	treats Arg1:T46 Arg2:T49	
+R12	treats Arg1:T60 Arg2:T49	

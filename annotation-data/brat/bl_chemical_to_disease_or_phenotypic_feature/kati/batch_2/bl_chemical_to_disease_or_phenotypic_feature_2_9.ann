@@ -114,3 +114,5 @@ R33	treats Arg1:T59 Arg2:T61
 R34	treats Arg1:T86 Arg2:T61	
 T79	corrected_chemical 2100 2114	GOF anesthesia
 R24	causes_or_contributes_to Arg1:T79 Arg2:T55	
+T80	missed_chemical 360 368	androgen
+R25	causes_or_contributes_to Arg1:T80 Arg2:T16	

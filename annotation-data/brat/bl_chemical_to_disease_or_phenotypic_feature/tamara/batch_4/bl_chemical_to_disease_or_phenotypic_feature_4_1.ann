@@ -67,3 +67,43 @@ T66	disease_or_phenotypic_feature 2961 2972	Weight loss
 T67	disease_or_phenotypic_feature 2974 2980	anemia
 T68	chemical 3019 3023	drug
 T69	chemical 3045 3055	furosemide
+R2	treats Arg1:T13 Arg2:T14	
+T71	corrected_chemical 1264 1305	Dopamine receptor antagonist thioridazine
+R3	treats Arg1:T71 Arg2:T24	
+T72	missed_chemical 1468 1479	antibiotics
+R4	causes_or_contributes_to Arg1:T28 Arg2:T25	
+R5	causes_or_contributes_to Arg1:T72 Arg2:T25	
+R6	causes_or_contributes_to Arg1:T29 Arg2:T25	
+T73	corrected_disease_or_phenotypic_feature 1378 1412	colitis with Clostridium difficile
+R7	causes_or_contributes_to Arg1:T28 Arg2:T73	
+R8	causes_or_contributes_to Arg1:T72 Arg2:T73	
+R9	causes_or_contributes_to Arg1:T29 Arg2:T73	
+R10	treats Arg1:T36 Arg2:T40	
+T75	missed_chemical 2162 2171	Olprinone
+R12	treats Arg1:T75 Arg2:T48	
+R13	treats Arg1:T75 Arg2:T49	
+T76	missed_disease_or_phenotypic_feature 2377 2389	solid tumors
+T78	corrected_chemical 2889 2922	angiogenesis inhibitor squalamine
+R16	treats Arg1:T62 Arg2:T63	
+R17	treats Arg1:T78 Arg2:T63	
+T70	corrected_chemical 515 534	Two-deoxy-D-glucose
+R1	treats Arg1:T8 Arg2:T11	
+R18	treats Arg1:T70 Arg2:T11	
+T79	corrected_chemical 612 633	chemotherapeutic drug
+R19	treats Arg1:T79 Arg2:T11	
+T80	corrected_chemical 1184 1207	Sodium ferric gluconate
+R20	treats Arg1:T80 Arg2:T20	
+R21	treats Arg1:T23 Arg2:T24	
+T74	corrected_chemical 2175 2206	phosphodiesterase III inhibitor
+R11	treats Arg1:T74 Arg2:T48	
+R22	treats Arg1:T74 Arg2:T49	
+T77	missed_chemical 2301 2304	Dox
+R14	treats Arg1:T77 Arg2:T52	
+R15	treats Arg1:T77 Arg2:T76	
+R23	treats Arg1:T51 Arg2:T52	
+R24	treats Arg1:T51 Arg2:T76	
+T81	corrected_chemical 2266 2287	chemotherapeutic drug
+R25	treats Arg1:T81 Arg2:T52	
+R26	treats Arg1:T81 Arg2:T76	
+R27	treats Arg1:T64 Arg2:T63	
+R28	treats Arg1:T65 Arg2:T63	

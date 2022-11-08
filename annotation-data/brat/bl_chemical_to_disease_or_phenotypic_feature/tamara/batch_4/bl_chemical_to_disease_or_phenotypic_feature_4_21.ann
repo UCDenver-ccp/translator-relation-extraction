@@ -60,3 +60,25 @@ T59	disease_or_phenotypic_feature 2218 2226	Melanoma
 T60	chemical 2273 2280	antigen
 T61	chemical 2325 2348	HIV protease inhibitors
 T62	disease_or_phenotypic_feature 2353 2360	obesity
+T63	missed_chemical 0 15	Thrombospondins
+R1	treats Arg1:T63 Arg2:T2	
+T64	missed_disease_or_phenotypic_feature 215 222	hypoxia
+R2	treats Arg1:T5 Arg2:T64	
+R3	treats Arg1:T11 Arg2:T13	
+T65	corrected_disease_or_phenotypic_feature 893 914	Hepatic angiosarcomas
+T66	corrected_chemical 970 984	vinyl chloride
+R4	causes_or_contributes_to Arg1:T66 Arg2:T65	
+R5	causes_or_contributes_to Arg1:T24 Arg2:T25	
+T67	missed_chemical 1205 1219	phenothiazines
+R6	treats Arg1:T67 Arg2:T29	
+T68	missed_chemical 1501 1504	BLM
+R7	treats Arg1:T39 Arg2:T41	
+R8	treats Arg1:T68 Arg2:T41	
+T69	corrected_chemical 1652 1666	ROCK inhibitor
+T70	corrected_disease_or_phenotypic_feature 1560 1578	Subcutaneous tumor
+R9	treats Arg1:T69 Arg2:T70	
+R10	treats Arg1:T44 Arg2:T70	
+T71	missed_disease_or_phenotypic_feature 1748 1775	Nontraumatic rhabdomyolysis
+R11	causes_or_contributes_to Arg1:T47 Arg2:T71	
+T72	corrected_chemical 2178 2216	tumor necrosis factor alpha inhibitors
+R12	causes_or_contributes_to Arg1:T72 Arg2:T57	

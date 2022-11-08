@@ -61,3 +61,24 @@ T60	disease_or_phenotypic_feature 1985 2000	pulmonary edema
 T61	chemical 2011 2018	Hormone
 T62	disease_or_phenotypic_feature 2019 2028	dependent
 T63	chemical 2088 2096	hormones
+R2	causes_or_contributes_to Arg1:T16 Arg2:T17	
+T64	corrected_chemical 316 329	active oxygen
+R1	treats Arg1:T64 Arg2:T9	
+R3	causes_or_contributes_to Arg1:T22 Arg2:T23	
+T65	missed_disease_or_phenotypic_feature 1046 1067	hepatic abnormalities
+T66	missed_disease_or_phenotypic_feature 1079 1086	fatigue
+T67	missed_disease_or_phenotypic_feature 1102 1112	somnolence
+R4	causes_or_contributes_to Arg1:T29 Arg2:T65	
+R5	causes_or_contributes_to Arg1:T29 Arg2:T32	
+R6	causes_or_contributes_to Arg1:T29 Arg2:T66	
+R7	causes_or_contributes_to Arg1:T29 Arg2:T33	
+R8	causes_or_contributes_to Arg1:T29 Arg2:T67	
+R9	causes_or_contributes_to Arg1:T37 Arg2:T34	
+R10	causes_or_contributes_to Arg1:T37 Arg2:T35	
+R11	causes_or_contributes_to Arg1:T43 Arg2:T42	
+R12	treats Arg1:T54 Arg2:T52	
+T68	missed_chemical 1758 1769	antibiotics
+R13	treats Arg1:T68 Arg2:T53	
+T69	corrected_disease_or_phenotypic_feature 1852 1887	acute hypoxemic respiratory failure
+R14	causes_or_contributes_to Arg1:T55 Arg2:T56	
+R15	causes_or_contributes_to Arg1:T55 Arg2:T69	

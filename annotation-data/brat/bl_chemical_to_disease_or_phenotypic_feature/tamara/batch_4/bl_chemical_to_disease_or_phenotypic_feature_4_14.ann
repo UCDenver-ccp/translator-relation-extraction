@@ -64,3 +64,25 @@ T63	disease_or_phenotypic_feature 2248 2274	hematological malignancies
 T64	chemical 2327 2341	growth hormone
 T65	disease_or_phenotypic_feature 2376 2396	valvular abnormality
 T66	disease_or_phenotypic_feature 2401 2411	arrhythmia
+T67	corrected_disease_or_phenotypic_feature 430 440	HNSCC-tumo
+R1	treats Arg1:T10 Arg2:T67	
+R2	treats Arg1:T11 Arg2:T67	
+R3	treats Arg1:T32 Arg2:T33	
+T68	corrected_disease_or_phenotypic_feature 1366 1399	non-islet cell tumor hypoglycemia
+R4	treats Arg1:T39 Arg2:T68	
+T69	corrected_chemical 1529 1563	Ras GTPase superfamily member RERG
+R5	treats Arg1:T69 Arg2:T48	
+T70	corrected_chemical 1565 1616	Ras-related and estrogen-regulated growth inhibitor
+R6	treats Arg1:T70 Arg2:T48	
+T71	corrected_chemical 2190 2210	rapamycin inhibitors
+T72	missed_disease_or_phenotypic_feature 2231 2243	solid tumors
+R8	treats Arg1:T71 Arg2:T72	
+R9	treats Arg1:T71 Arg2:T63	
+T73	missed_disease_or_phenotypic_feature 1198 1210	solid tumors
+R10	treats Arg1:T32 Arg2:T73	
+T74	corrected_chemical 1121 1143	epigenetic cancer drug
+R11	treats Arg1:T74 Arg2:T73	
+T75	corrected_chemical 1559 1563	RERG
+R12	treats Arg1:T75 Arg2:T48	
+T76	missed_disease_or_phenotypic_feature 1828 1839	weight gain
+R13	causes_or_contributes_to Arg1:T50 Arg2:T76	

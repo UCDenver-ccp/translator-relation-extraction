@@ -63,3 +63,29 @@ T62	chemical 2499 2506	biology
 T63	chemical 2535 2542	calcium
 T64	chemical 2554 2561	hormone
 T65	disease_or_phenotypic_feature 2603 2616	hypercalcemia
+R1	causes_or_contributes_to Arg1:T2 Arg2:T3	
+T66	missed_chemical 333 336	DHL
+R2	treats Arg1:T66 Arg2:T9	
+T67	corrected_chemical 774 801	phosphaturic hormone FGF-23
+R3	causes_or_contributes_to Arg1:T15 Arg2:T14	
+R4	treats Arg1:T16 Arg2:T14	
+R5	treats Arg1:T67 Arg2:T14	
+T68	corrected_chemical 795 801	FGF-23
+R6	treats Arg1:T68 Arg2:T14	
+R7	causes_or_contributes_to Arg1:T15 Arg2:T13	
+R8	treats Arg1:T16 Arg2:T13	
+R9	treats Arg1:T67 Arg2:T13	
+R10	treats Arg1:T68 Arg2:T13	
+R11	treats Arg1:T24 Arg2:T27	
+R12	treats Arg1:T24 Arg2:T28	
+R13	treats Arg1:T26 Arg2:T27	
+R14	treats Arg1:T26 Arg2:T28	
+R15	causes_or_contributes_to Arg1:T32 Arg2:T31	
+R16	causes_or_contributes_to Arg1:T32 Arg2:T30	
+R17	causes_or_contributes_to Arg1:T37 Arg2:T38	
+T69	missed_disease_or_phenotypic_feature 2331 2349	insulin resistance
+R18	treats Arg1:T56 Arg2:T69	
+R19	treats Arg1:T56 Arg2:T57	
+R20	treats Arg1:T56 Arg2:T58	
+R21	treats Arg1:T56 Arg2:T59	
+R22	causes_or_contributes_to Arg1:T63 Arg2:T65	

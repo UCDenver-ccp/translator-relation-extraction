@@ -61,3 +61,42 @@ T60	chemical 2662 2670	estrogen
 T61	disease_or_phenotypic_feature 2671 2680	dependent
 T62	disease_or_phenotypic_feature 2699 2708	pneumonia
 T63	chemical 2713 2719	oxygen
+T64	corrected_chemical 403 409	Snail1
+R1	causes_or_contributes_to Arg1:T64 Arg2:T9	
+T65	missed_disease_or_phenotypic_feature 513 523	metastasis
+R2	causes_or_contributes_to Arg1:T64 Arg2:T65	
+R3	causes_or_contributes_to Arg1:T11 Arg2:T13	
+T66	missed_disease_or_phenotypic_feature 699 707	insomnia
+T67	missed_disease_or_phenotypic_feature 678 684	nausea
+R4	causes_or_contributes_to Arg1:T14 Arg2:T67	
+R5	causes_or_contributes_to Arg1:T14 Arg2:T16	
+R6	causes_or_contributes_to Arg1:T14 Arg2:T66	
+R7	causes_or_contributes_to Arg1:T14 Arg2:T17	
+R8	causes_or_contributes_to Arg1:T15 Arg2:T67	
+R9	causes_or_contributes_to Arg1:T15 Arg2:T16	
+R10	causes_or_contributes_to Arg1:T15 Arg2:T66	
+R11	causes_or_contributes_to Arg1:T15 Arg2:T17	
+T68	missed_disease_or_phenotypic_feature 722 731	Bone loss
+R12	treats Arg1:T20 Arg2:T68	
+T70	missed_chemical 1914 1918	SSRI
+R13	treats Arg1:T40 Arg2:T43	
+T69	corrected_chemical 1874 1912	selective serotonin reuptake inhibitor
+R14	treats Arg1:T69 Arg2:T43	
+R15	treats Arg1:T70 Arg2:T43	
+T71	missed_disease_or_phenotypic_feature 2099 2109;2125 2131	pancreatic cancer
+T72	corrected_chemical 1983 1997	EGFR inhibitor
+R16	treats Arg1:T72 Arg2:T71	
+R17	treats Arg1:T72 Arg2:T46	
+R18	treats Arg1:T45 Arg2:T71	
+R19	treats Arg1:T45 Arg2:T46	
+T73	missed_disease_or_phenotypic_feature 2383 2405	acid-base disturbances
+T74	missed_disease_or_phenotypic_feature 2407 2432	electrolyte abnormalities
+T75	corrected_disease_or_phenotypic_feature 2451 2469	chemical hepatitis
+T76	corrected_disease_or_phenotypic_feature 2485 2509	mental status alteration
+R20	causes_or_contributes_to Arg1:T52 Arg2:T73	
+R21	causes_or_contributes_to Arg1:T52 Arg2:T74	
+R22	causes_or_contributes_to Arg1:T52 Arg2:T54	
+R23	causes_or_contributes_to Arg1:T52 Arg2:T75	
+R24	causes_or_contributes_to Arg1:T52 Arg2:T56	
+R25	causes_or_contributes_to Arg1:T52 Arg2:T76	
+R26	treats Arg1:T63 Arg2:T62	

@@ -57,3 +57,27 @@ T56	chemical 1961 1968	mixture
 T57	disease_or_phenotypic_feature 1974 1987	breast cancer
 T58	disease_or_phenotypic_feature 2068 2075	hepatic
 T59	chemical 2082 2086	drug
+R2	treats Arg1:T8 Arg2:T10	
+R3	treats Arg1:T7 Arg2:T10	
+R4	treats Arg1:T16 Arg2:T18	
+T60	corrected_chemical 621 655	halogenated amphetamine derivative
+R5	treats Arg1:T60 Arg2:T18	
+T61	corrected_chemical 704 732	Pancreatic lipase inhibitors
+R6	treats Arg1:T61 Arg2:T21	
+R7	treats Arg1:T29 Arg2:T31	
+R8	causes_or_contributes_to Arg1:T29 Arg2:T32	
+T62	corrected_chemical 980 1001	chemotherapeutic drug
+R9	treats Arg1:T62 Arg2:T31	
+R10	causes_or_contributes_to Arg1:T62 Arg2:T32	
+R11	causes_or_contributes_to Arg1:T43 Arg2:T41	
+T63	corrected_disease_or_phenotypic_feature 1697 1708	cancer pain
+R12	treats Arg1:T46 Arg2:T63	
+R13	treats Arg1:T54 Arg2:T57	
+T64	corrected_chemical 1875 1909	prostaglandin synthetase inhibitor
+R14	treats Arg1:T64 Arg2:T57	
+T65	missed_chemical 612 614	FE
+R1	treats Arg1:T65 Arg2:T18	
+T66	missed_disease_or_phenotypic_feature 1469 1471	PN
+R15	causes_or_contributes_to Arg1:T43 Arg2:T66	
+R16	causes_or_contributes_to Arg1:T42 Arg2:T41	
+R17	causes_or_contributes_to Arg1:T42 Arg2:T66	

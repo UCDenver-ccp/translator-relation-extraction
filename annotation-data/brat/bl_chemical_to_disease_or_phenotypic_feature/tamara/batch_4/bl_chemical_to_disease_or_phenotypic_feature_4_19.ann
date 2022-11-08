@@ -70,3 +70,28 @@ T69	chemical 2686 2694	antigens
 T70	disease_or_phenotypic_feature 2795 2801	cancer
 T71	chemical 2813 2824	Biochemical
 T72	disease_or_phenotypic_feature 2865 2872	obesity
+R1	causes_or_contributes_to Arg1:T1 Arg2:T3	
+T73	corrected_chemical 45 65	anticonvulsant drugs
+R2	causes_or_contributes_to Arg1:T73 Arg2:T3	
+T74	corrected_chemical 148 176	serotonin reuptake inhibitor
+R3	causes_or_contributes_to Arg1:T74 Arg2:T4	
+R4	treats Arg1:T5 Arg2:T4	
+R5	causes_or_contributes_to Arg1:T7 Arg2:T4	
+T75	missed_disease_or_phenotypic_feature 124 142	breast enlargement
+R6	treats Arg1:T5 Arg2:T75	
+R7	causes_or_contributes_to Arg1:T74 Arg2:T75	
+R8	causes_or_contributes_to Arg1:T7 Arg2:T75	
+R9	causes_or_contributes_to Arg1:T12 Arg2:T14	
+T76	missed_disease_or_phenotypic_feature 399 404	death
+R10	causes_or_contributes_to Arg1:T12 Arg2:T76	
+R11	causes_or_contributes_to Arg1:T12 Arg2:T15	
+T81	missed_chemical 805 828	lysophosphatidylcholine
+T77	missed_chemical 1170 1185	Glycodendrimers
+R12	treats Arg1:T77 Arg2:T39	
+T78	missed_chemical 2012 2029	hexabromobiphenyl
+T79	corrected_disease_or_phenotypic_feature 1962 1975	Hepatic tumor
+R13	causes_or_contributes_to Arg1:T78 Arg2:T79	
+T80	missed_disease_or_phenotypic_feature 2572 2584	hypertension
+R14	treats Arg1:T64 Arg2:T80	
+R15	treats Arg1:T64 Arg2:T66	
+R16	causes_or_contributes_to Arg1:T64 Arg2:T67	

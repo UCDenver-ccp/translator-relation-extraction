@@ -86,10 +86,6 @@ T77	corrected_chemical 1208 1260	combination of polythiazide with a potassium mi
 R9	treats Arg1:T77 Arg2:T27	
 T78	corrected_disease_or_phenotypic_feature 1390 1421	hyperprolactinemic hypogonadism
 R10	treats Arg1:T30 Arg2:T78	
-T79	corrected_chemical 1443 1454	BCG mixture
-R11	treats Arg1:T79 Arg2:T35	
-T80	missed_disease_or_phenotypic_feature 1537 1546;1562 1567	rejecting tumor
-R12	causes_or_contributes_to Arg1:T79 Arg2:T80	
 R13	causes_or_contributes_to Arg1:T43 Arg2:T44	
 T81	missed_disease_or_phenotypic_feature 1865 1868	PCa
 R14	causes_or_contributes_to Arg1:T43 Arg2:T81	

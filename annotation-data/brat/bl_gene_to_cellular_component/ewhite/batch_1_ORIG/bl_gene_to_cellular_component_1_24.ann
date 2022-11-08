@@ -1,0 +1,125 @@
+T1	cellular_component 31 39	membrane
+T2	gene 49 54	Tim17
+T3	gene 59 64	Tim23
+T4	cellular_component 73 100	peripheral membrane protein
+T5	gene 101 106	Tim44
+T6	cellular_component 123 136	mitochondrial
+T7	gene 137 142	Hsp70
+T8	cellular_component 175 188	Intracellular
+T9	gene 189 193	Smad
+T10	cellular_component 189 193	Smad
+T11	gene 238 269	transforming growth factor-beta
+T12	gene 271 279	TGF-beta
+T13	cellular_component 367 380	intracellular
+T14	cellular_component 381 385	Smad
+T15	gene 381 385	Smad
+T16	gene 443 453	Calmodulin
+T17	cellular_component 481 492	calcineurin
+T18	gene 481 492	calcineurin
+T19	gene 494 504	Calmodulin
+T20	gene 516 527	calcineurin
+T21	cellular_component 516 527	calcineurin
+T22	gene 529 534	Bcl-2
+T23	gene 536 539	Bax
+T24	gene 544 549	Bcl-x
+T25	cellular_component 674 683	chromatin
+T26	cellular_component 715 725	antibodies
+T27	gene 729 734	Bcl-2
+T28	gene 736 739	Bax
+T29	gene 743 748	Bcl-x
+T30	gene 769 794	glutathione S-transferase
+T31	cellular_component 825 836	cytoplasmic
+T32	gene 845 856	connexin-43
+T33	gene 873 883	MAP kinase
+T34	cellular_component 901 911	Antibodies
+T35	gene 915 922	tubulin
+T36	cellular_component 927 938	microtubule
+T37	cellular_component 978 986	antibody
+T38	gene 995 998	APC
+T39	gene 1060 1063	APC
+T40	gene 1075 1078	APC
+T41	cellular_component 1125 1133	trimeric
+T42	gene 1134 1150	membrane protein
+T43	gene 1162 1185	glutathione transferase
+T44	gene 1189 1194	MGST1
+T45	gene 1206 1229	glutathione transferase
+T46	gene 1259 1284	GTPase-activating protein
+T47	gene 1285 1290	ASAP1
+T48	gene 1306 1311	Rab11
+T49	gene 1321 1325	FIP3
+T50	cellular_component 1402 1420	recycling endosome
+T51	cellular_component 1450 1459	cell wall
+T52	gene 1508 1523	small G-protein
+T53	gene 1524 1527	Rho
+T54	gene 1530 1546	protein kinase C
+T55	gene 1548 1552	Pkc1
+T56	gene 1560 1570	MAP kinase
+T57	gene 1584 1589	smad7
+T58	gene 1600 1608	TGF-beta
+T59	cellular_component 1627 1631	Smad
+T60	gene 1627 1631	Smad
+T61	cellular_component 1673 1677	Smad
+T62	gene 1673 1677	Smad
+T63	gene 1742 1750	TGF-beta
+T64	cellular_component 1751 1755	Smad
+T65	gene 1751 1755	Smad
+T66	cellular_component 1783 1793	antibodies
+T67	gene 1797 1813	insulin receptor
+T68	gene 1818 1823	IRS-1
+T69	cellular_component 1878 1888	antibodies
+T70	gene 1913 1920	insulin
+T71	gene 1932 1948	insulin receptor
+T72	gene 1966 1971	IRS-1
+T73	gene 2022 2027	IRS-1
+T74	gene 2108 2113	Smad4
+T75	cellular_component 2145 2158	intracellular
+T76	gene 2159 2162	BMP
+T77	gene 2163 2167	Smad
+T78	cellular_component 2163 2167	Smad
+T79	gene 2231 2234	BMP
+T80	cellular_component 2235 2239	Smad
+T81	gene 2235 2239	Smad
+T82	gene 2279 2289	caveolin-1
+T83	gene 2291 2296	Cav-1
+T84	gene 2332 2341	integrins
+T85	cellular_component 2332 2341	integrins
+T86	gene 2405 2420	integrin alpha1
+T87	gene 2435 2439	EGFR
+T88	gene 2452 2461	TGF-beta1
+T89	gene 2478 2483	Smad2
+T90	gene 2519 2527	integrin
+T91	cellular_component 2519 2527	integrin
+T92	cellular_component 2553 2561	integrin
+T93	gene 2553 2561	integrin
+T94	cellular_component 2562 2570	antibody
+T95	cellular_component 2589 2597	integrin
+T96	gene 2589 2597	integrin
+T97	gene 2655 2664	TGF-beta1
+T98	gene 2681 2686	Smad2
+T99	gene 2704 2708	Smad
+T100	cellular_component 2704 2708	Smad
+T101	gene 2733 2737	EGFR
+T102	gene 2753 2759	TM4SF5
+T103	gene 2800 2804	EGFR
+T104	gene 2828 2831	EGF
+T105	cellular_component 2852 2856	Smad
+T106	gene 2852 2856	Smad
+T107	gene 2927 2942	Leptin receptor
+T108	cellular_component 2991 3000	cytosolic
+T109	gene 3051 3055	STAT
+T110	gene 3099 3104	STAT3
+T111	gene 3108 3113	STAT3
+T112	cellular_component 3116 3129	Mitochondrial
+T113	gene 3130 3145	creatine kinase
+T114	cellular_component 3165 3173	Membrane
+T115	gene 3183 3187	CD14
+T116	gene 3216 3220	TLR4
+T117	gene 3236 3240	TLR4
+T118	gene 3246 3250	CD14
+T119	gene 3277 3282	Smad1
+T120	gene 3287 3292	Smad5
+T121	cellular_component 3301 3314	intracellular
+T122	gene 3356 3359	BMP
+T123	gene 3370 3375	Smad2
+T124	gene 3380 3385	Smad3
+T125	gene 3396 3404	TGF-beta

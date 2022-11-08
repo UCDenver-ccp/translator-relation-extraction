@@ -1,0 +1,132 @@
+T1	cellular_component 4 19	cell-associated
+T2	gene 41 77	urokinase-type plasminogen activator
+T3	gene 79 82	uPA
+T4	gene 84 87	uPA
+T5	gene 98 102	uPAR
+T6	gene 104 115	plasminogen
+T7	gene 144 149	PAI-1
+T8	gene 213 225	calreticulin
+T9	cellular_component 269 274	lumen
+T10	cellular_component 282 303	endoplasmic reticulum
+T11	gene 306 311	MAP-2
+T12	cellular_component 315 326	microtubule
+T13	cellular_component 368 377	dendrites
+T14	gene 383 396	synaptophysin
+T15	cellular_component 421 438	synaptic vesicles
+T16	gene 467 472	IL-31
+T17	gene 552 556	IL-6
+T18	gene 583 588	CXCL1
+T19	gene 590 595	CXCL8
+T20	gene 597 601	CCL2
+T21	cellular_component 645 657	cell surface
+T22	gene 658 663	IL-31
+T23	gene 674 677	Spa
+T24	gene 695 699	Mkk1
+T25	gene 705 709	Mpk1
+T26	cellular_component 716 724	membrane
+T27	gene 731 734	Spa
+T28	gene 762 766	Mkk1
+T29	gene 772 776	Mpk1
+T30	gene 792 803	MAP kinases
+T31	cellular_component 811 822	cell cortex
+T32	gene 824 829	Cyr61
+T33	gene 843 846	Akt
+T34	gene 847 851	GSK3
+T35	cellular_component 893 904	subcellular
+T36	gene 948 951	p21
+T37	gene 952 956	Cip1
+T38	gene 957 961	WAF1
+T39	gene 1070 1074	ZEB1
+T40	gene 1090 1105	thrombospondin1
+T41	gene 1107 1112	Thbs1
+T42	gene 1139 1142	EMT
+T43	cellular_component 1193 1205	gap junction
+T44	gene 1214 1225	connexin 43
+T45	gene 1227 1231	Cx43
+T46	gene 1234 1239	Mets1
+T47	gene 1241 1245	Add1
+T48	gene 1245 1251	Scarb1
+T49	gene 1256 1264	MARCKSL1
+T50	gene 1357 1361	CIZ1
+T51	gene 1363 1368	BIRC6
+T52	gene 1370 1375	RBBP6
+T53	gene 1389 1394	LTBP4
+T54	gene 1396 1402	Notch2
+T55	gene 1404 1410	TOM1L1
+T56	gene 1412 1417	STK24
+T57	cellular_component 1423 1431	membrane
+T58	gene 1442 1448	PLSCR1
+T59	gene 1450 1455	DDEF2
+T60	gene 1482 1489	insulin
+T61	gene 1537 1544	insulin
+T62	cellular_component 1559 1574	plasma membrane
+T63	gene 1625 1641	insulin receptor
+T64	gene 1647 1657	calmodulin
+T65	cellular_component 1693 1702	cytosolic
+T66	gene 1734 1738	BR-3
+T67	gene 1740 1745	Anxa2
+T68	gene 1750 1755	Anxa2
+T69	gene 1766 1771	Anxa2
+T70	gene 1829 1834	Stat3
+T71	gene 1884 1889	Nrdp1
+T72	gene 1921 1926	ErbB3
+T73	cellular_component 1936 1948	cell surface
+T74	cellular_component 1952 1965	intracellular
+T75	gene 2010 2015	ErbB3
+T76	gene 2020 2025	ErbB4
+T77	gene 2050 2082	epidermal growth factor receptor
+T78	gene 2086 2091	ErbB2
+T79	cellular_component 2108 2119	cytoplasmic
+T80	gene 2127 2131	XAB1
+T81	gene 2166 2169	XPA
+T82	cellular_component 2241 2263	mitochondrial membrane
+T83	gene 2285 2294	caspase-3
+T84	gene 2296 2305	caspase-8
+T85	gene 2310 2319	caspase-9
+T86	gene 2333 2336	Bax
+T87	gene 2368 2373	Bcl-2
+T88	cellular_component 2383 2396	Intracellular
+T89	gene 2435 2438	p38
+T90	gene 2439 2471	mitogen-activated protein kinase
+T91	cellular_component 2509 2522	intracellular
+T92	gene 2533 2538	Ste12
+T93	gene 2540 2544	Gpa2
+T94	gene 2550 2554	Cln1
+T95	cellular_component 2657 2666	integrins
+T96	gene 2657 2666	integrins
+T97	gene 2667 2672	CD11a
+T98	gene 2673 2677	CD18
+T99	gene 2685 2689	CD18
+T100	gene 2694 2699	CD11c
+T101	gene 2700 2704	CD18
+T102	cellular_component 2845 2854	ribosomal
+T103	cellular_component 2869 2880	preribosome
+T104	gene 2932 2936	Yph1
+T105	gene 2939 2944	PAI-1
+T106	gene 2970 2977	VEGFR-2
+T107	cellular_component 2984 2992	integrin
+T108	gene 2984 2992	integrin
+T109	gene 2994 3001	VEGFR-2
+T110	cellular_component 3019 3032	intracellular
+T111	gene 3066 3073	VEGFR-2
+T112	cellular_component 3118 3130	cytoskeleton
+T113	gene 3132 3137	CKAP5
+T114	gene 3142 3146	ACT2
+T115	gene 3193 3219	G protein-coupled receptor
+T116	gene 3245 3250	SVEP1
+T117	gene 3278 3283	CCNB3
+T118	gene 3387 3403	insulin receptor
+T119	gene 3452 3468	insulin receptor
+T120	gene 3487 3503	insulin receptor
+T121	gene 3523 3530	tubulin
+T122	gene 3552 3568	insulin receptor
+T123	cellular_component 3588 3599	microtubule
+T124	gene 3688 3699	osteopontin
+T125	cellular_component 3704 3724	extracellular matrix
+T126	gene 3741 3746	zyxin
+T127	gene 3751 3759	integrin
+T128	cellular_component 3751 3759	integrin
+T129	cellular_component 3775 3788	intracellular
+T130	gene 3875 3883	integrin
+T131	cellular_component 3875 3883	integrin
+T132	cellular_component 3915 3935	extracellular matrix

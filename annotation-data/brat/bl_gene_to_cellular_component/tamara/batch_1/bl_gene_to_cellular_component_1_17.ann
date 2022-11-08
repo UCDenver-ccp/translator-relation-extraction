@@ -1,0 +1,142 @@
+T1	cellular_component 4 24	extracellular matrix
+T2	gene 33 38	Edil3
+T3	cellular_component 89 97	integrin
+T4	gene 89 97	integrin
+T5	gene 107 112	Runx2
+T6	gene 122 131	Kindlin 2
+T7	cellular_component 171 179	integrin
+T8	gene 171 179	integrin
+T9	gene 225 233	integrin
+T10	cellular_component 225 233	integrin
+T11	cellular_component 266 279	intracellular
+T12	gene 280 283	Shh
+T13	gene 312 322	Smoothened
+T14	gene 324 327	Smo
+T15	gene 389 415	G-protein coupled receptor
+T16	cellular_component 443 454	microtubule
+T17	gene 471 475	Hec1
+T18	gene 494 500	Aurora
+T19	gene 539 543	Mps1
+T20	gene 588 593	ADCY5
+T21	cellular_component 617 625	membrane
+T22	gene 632 636	RGS2
+T23	cellular_component 646 653	nucleus
+T24	gene 681 685	RGS2
+T25	gene 691 695	HIF1
+T26	gene 705 709	MKP7
+T27	gene 730 734	MKP7
+T28	gene 796 806	calmodulin
+T29	gene 815 823	spectrin
+T30	cellular_component 815 823	spectrin
+T31	cellular_component 850 859	chromatin
+T32	gene 871 881	ARGONAUTE4
+T33	gene 886 890	SPT5
+T34	gene 892 896	KTF1
+T35	gene 942 948	SREBP2
+T36	gene 949 953	LDLR
+T37	cellular_component 1005 1026	endoplasmic reticulum
+T38	cellular_component 1039 1047	membrane
+T39	gene 1048 1080	low-density lipoprotein receptor
+T40	gene 1082 1086	LDLR
+T41	gene 1148 1154	SREBP2
+T42	gene 1205 1210	PCSK9
+T43	gene 1238 1242	LDLR
+T44	gene 1255 1263	integrin
+T45	cellular_component 1255 1263	integrin
+T46	gene 1289 1294	Flk-1
+T47	gene 1295 1338	vascular endothelial growth factor receptor
+T48	gene 1370 1402	epidermal growth factor receptor
+T49	gene 1404 1408	EGFR
+T50	gene 1457 1460	Tyr
+T51	cellular_component 1509 1513	SMAD
+T52	gene 1509 1513	SMAD
+T53	gene 1532 1536	ZEB2
+T54	cellular_component 1553 1562	ribosomal
+T55	gene 1606 1610	CRE1
+T56	gene 1658 1663	CREB1
+T57	cellular_component 1674 1684	antibodies
+T58	gene 1703 1708	CREB1
+T59	gene 1723 1727	Fra2
+T60	gene 1735 1740	Runx2
+T61	gene 1742 1746	Dlx5
+T62	gene 1751 1756	Smad1
+T63	cellular_component 1757 1767	antibodies
+T64	gene 1777 1781	Nrf2
+T65	gene 1797 1801	Smad
+T66	cellular_component 1797 1801	Smad
+T67	gene 1825 1829	ATF3
+T68	gene 1845 1849	Nrf2
+T69	gene 1883 1892	TGF-beta1
+T70	gene 1917 1925	palladin
+T71	gene 1946 1950	Smad
+T72	cellular_component 1946 1950	Smad
+T73	gene 1955 1987	mitogen-activated protein kinase
+T74	gene 2019 2022	NGF
+T75	gene 2056 2077	endothelin-A receptor
+T76	gene 2101 2104	Src
+T77	gene 2113 2117	EGFR
+T78	cellular_component 2119 2132	extracellular
+T79	gene 2158 2161	p38
+T80	gene 2161 2165	MAPK
+T81	gene 2167 2186	activator protein-1
+T82	gene 2196 2232	CCAAT/enhancer-binding protein delta
+T83	gene 2242 2249	Insulin
+T84	cellular_component 2250 2260	antibodies
+T85	gene 2303 2306	Akt
+T86	gene 2307 2314	insulin
+T87	gene 2359 2370	glucokinase
+T88	cellular_component 2441 2451	antibodies
+T89	gene 2460 2464	TPI1
+T90	gene 2466 2471	HOOK2
+T91	gene 2473 2478	PUF60
+T92	gene 2480 2485	PRDX4
+T93	gene 2495 2501	TUBA1B
+T94	gene 2503 2510	TACSTD2
+T95	gene 2527 2533	DCAF15
+T96	cellular_component 2548 2558	antibodies
+T97	gene 2567 2571	TPI1
+T98	gene 2573 2578	HOOK2
+T99	gene 2580 2585	PUF60
+T100	gene 2587 2592	PRDX4
+T101	gene 2594 2601	TACSTD2
+T102	gene 2618 2624	DCAF15
+T103	cellular_component 2641 2651	antibodies
+T104	gene 2660 2664	TPI1
+T105	gene 2666 2671	HOOK2
+T106	gene 2673 2678	PUF60
+T107	gene 2790 2799	calpain 1
+T108	cellular_component 2790 2799	calpain 1
+T109	gene 2812 2822	mu-calpain
+T110	cellular_component 2812 2822	mu-calpain
+T111	gene 2827 2832	CAPN1
+T112	cellular_component 2838 2847	calpain 2
+T113	gene 2838 2847	calpain 2
+T114	cellular_component 2861 2870	m-calpain
+T115	gene 2861 2870	m-calpain
+T116	gene 2875 2880	CAPN2
+T117	gene 2896 2901	VAMP2
+T118	gene 2913 2916	GST
+T119	gene 2917 2922	Cdc42
+T120	gene 2937 2940	GST
+T121	gene 2941 2946	Cdc42
+T122	gene 2972 2977	Cdc42
+T123	gene 2978 2983	VAMP2
+T124	cellular_component 3014 3023	cytosolic
+T125	gene 3034 3039	Cdc42
+T126	cellular_component 3044 3059	plasma membrane
+T127	gene 3070 3075	Cdc42
+T128	gene 3103 3106	LMP
+T129	gene 3118 3122	Tbx5
+T130	cellular_component 3131 3142	subcellular
+T131	gene 3228 3237	caspase-3
+T132	gene 3239 3272	intercellular adhesion molecule 1
+T133	gene 3283 3307	cell adhesion molecule 1
+T134	gene 3309 3317	occludin
+T135	gene 3319 3353	vascular endothelial growth factor
+T136	gene 3363 3372	caspase-3
+T137	cellular_component 3408 3421	extracellular
+T138	cellular_component 3455 3468	extracellular
+T139	gene 3520 3523	p65
+T140	gene 3525 3540	I kappa B alpha
+T141	gene 3557 3572	I kappa B alpha
+T142	gene 3625 3634	claudin-5

@@ -1,0 +1,129 @@
+T1	gene 4 10	girdin
+T2	gene 33 38	Exo70
+T3	gene 67 72	GLUT4
+T4	cellular_component 81 89	vesicles
+T5	gene 91 99	Integrin
+T6	cellular_component 91 99	Integrin
+T7	gene 100 103	FAK
+T8	cellular_component 144 157	mitochondrial
+T9	gene 175 180	STAT3
+T10	gene 182 186	CFTR
+T11	cellular_component 256 268	cell surface
+T12	cellular_component 274 287	intracellular
+T13	gene 375 391	membrane protein
+T14	gene 393 404	lactoferrin
+T15	cellular_component 445 456	lipoprotein
+T16	gene 458 469	lactoferrin
+T17	gene 478 487	protein B
+T18	gene 506 511	GLUT4
+T19	cellular_component 523 531	vesicles
+T20	cellular_component 541 556	plasma membrane
+T21	gene 560 567	insulin
+T22	gene 654 664	syntaxin 4
+T23	gene 665 671	SNAP23
+T24	gene 672 677	VAMP2
+T25	cellular_component 678 693	SNARE complexes
+T26	gene 758 774	insulin receptor
+T27	cellular_component 809 820	microtubule
+T28	gene 830 837	tubulin
+T29	gene 839 843	MAP2
+T30	gene 845 848	tau
+T31	gene 880 890	calmodulin
+T32	gene 908 912	KCBP
+T33	cellular_component 919 930	microtubule
+T34	gene 1021 1046	cyclin-dependent kinase 2
+T35	gene 1048 1052	Cdk2
+T36	gene 1065 1068	p21
+T37	gene 1069 1073	CIP1
+T38	gene 1079 1082	p27
+T39	gene 1083 1087	KIP1
+T40	gene 1176 1184	integrin
+T41	cellular_component 1176 1184	integrin
+T42	gene 1212 1216	Cdk2
+T43	gene 1229 1232	Tub
+T44	gene 1251 1267	insulin receptor
+T45	gene 1295 1310	leptin receptor
+T46	gene 1334 1338	JAK2
+T47	cellular_component 1356 1362	nuclei
+T48	gene 1364 1368	Pin1
+T49	gene 1421 1426	CRTC2
+T50	gene 1428 1432	CREB
+T51	gene 1479 1483	PPAR
+T52	cellular_component 1486 1496	peroxisome
+T53	gene 1559 1566	insulin
+T54	gene 1588 1593	IRS-1
+T55	gene 1595 1623	insulin receptor substrate-1
+T56	gene 1626 1636	Akt kinase
+T57	gene 1642 1647	Smad3
+T58	gene 1649 1654	Smads
+T59	cellular_component 1649 1654	Smads
+T60	cellular_component 1664 1677	intracellular
+T61	gene 1691 1722	transforming growth factor beta
+T62	gene 1724 1732	TGF-beta
+T63	cellular_component 1746 1754	Integrin
+T64	gene 1746 1754	Integrin
+T65	cellular_component 1771 1780	lysosomal
+T66	gene 1788 1793	LAMP1
+T67	gene 1880 1890	L-selectin
+T68	gene 1892 1925	intercellular adhesion molecule-1
+T69	gene 1927 1933	ICAM-1
+T70	gene 1948 1980	P-selectin glycoprotein ligand-1
+T71	gene 1982 1988	PSGL-1
+T72	gene 2032 2041	integrins
+T73	cellular_component 2032 2041	integrins
+T74	cellular_component 2055 2063	integrin
+T75	gene 2055 2063	integrin
+T76	cellular_component 2121 2130	integrins
+T77	gene 2121 2130	integrins
+T78	cellular_component 2194 2207	intracellular
+T79	gene 2221 2229	TGF-beta
+T80	gene 2245 2249	Smad
+T81	cellular_component 2245 2249	Smad
+T82	gene 2275 2283	ARHGEF11
+T83	gene 2294 2298	FGF4
+T84	gene 2307 2311	PTK2
+T85	gene 2313 2317	ANK3
+T86	gene 2324 2329	NTNG2
+T87	gene 2339 2343	NID2
+T88	gene 2358 2362	MAPK
+T89	cellular_component 2411 2431	extracellular matrix
+T90	gene 2455 2459	PTK2
+T91	gene 2509 2513	CD18
+T92	gene 2560 2564	CD18
+T93	gene 2566 2571	Mac-1
+T94	cellular_component 2585 2593	integrin
+T95	gene 2585 2593	integrin
+T96	gene 2599 2604	CD11c
+T97	gene 2605 2609	CD18
+T98	gene 2632 2640	integrin
+T99	cellular_component 2632 2640	integrin
+T100	gene 2680 2684	CD18
+T101	gene 2705 2713	integrin
+T102	cellular_component 2705 2713	integrin
+T103	gene 2731 2737	TIMP-1
+T104	gene 2738 2742	CD63
+T105	gene 2743 2751	Integrin
+T106	cellular_component 2743 2751	Integrin
+T107	gene 2770 2773	Src
+T108	gene 2787 2791	RhoA
+T109	cellular_component 2801 2808	F-actin
+T110	gene 2830 2835	LATS1
+T111	gene 2874 2878	FGF9
+T112	gene 2887 2890	p70
+T113	cellular_component 2891 2900	ribosomal
+T114	gene 2912 2916	S6K1
+T115	gene 2935 2941	cyclin
+T116	gene 3037 3040	Akt
+T117	gene 3146 3167	focal adhesion kinase
+T118	gene 3175 3184	caspase-6
+T119	gene 3200 3204	FAF1
+T120	cellular_component 3256 3264	integrin
+T121	gene 3256 3264	integrin
+T122	gene 3269 3277	integrin
+T123	cellular_component 3269 3277	integrin
+T124	gene 3287 3290	Akt
+T125	gene 3336 3342	CXCL12
+T126	gene 3378 3383	CXCR4
+T127	gene 3395 3405	E-cadherin
+T128	gene 3452 3481	Rho-associated protein kinase
+T129	cellular_component 3497 3504	F-actin

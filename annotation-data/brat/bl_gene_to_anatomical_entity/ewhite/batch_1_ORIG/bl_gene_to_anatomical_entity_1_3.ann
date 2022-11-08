@@ -1,0 +1,114 @@
+T1	anatomical_site 0 9	Body-wall
+T2	anatomical_site 10 16	muscle
+T3	anatomical_site 53 60	embryos
+T4	gene 75 79	MyoD
+T5	gene 88 93	hlh-1
+T6	anatomical_site 117 122	liver
+T7	anatomical_site 123 126	fat
+T8	gene 128 135	insulin
+T9	anatomical_site 148 153	serum
+T10	gene 154 172	C-reactive protein
+T11	anatomical_site 220 226	neural
+T12	anatomical_site 231 237	retina
+T13	gene 259 265	Noggin
+T14	gene 275 279	Tbx3
+T15	gene 281 285	Fgf8
+T16	gene 319 323	Fgf8
+T17	gene 344 348	Fgf8
+T18	anatomical_site 384 392	midbrain
+T19	anatomical_site 397 407	cerebellum
+T20	anatomical_site 435 441	eyelid
+T21	anatomical_site 472 478	eyelid
+T22	gene 527 532	FGF10
+T23	gene 582 586	Tgfa
+T24	anatomical_site 627 644	eyelid epithelium
+T25	gene 652 657	FGF10
+T26	gene 676 689	semaphorin-6B
+T27	gene 694 703	plexin-A2
+T28	anatomical_site 739 750	hippocampal
+T29	anatomical_site 751 763	mossy fibers
+T30	gene 776 782	leptin
+T31	gene 786 793	insulin
+T32	gene 810 816	amylin
+T33	anatomical_site 826 831	brain
+T34	anatomical_site 850 854	body
+T35	anatomical_site 914 918	body
+T36	anatomical_site 935 940	serum
+T37	gene 941 952	transferrin
+T38	gene 969 980	transferrin
+T39	gene 1050 1054	CCL2
+T40	gene 1056 1060	CCL5
+T41	gene 1062 1067	CXCL9
+T42	gene 1069 1075	CXCL10
+T43	gene 1081 1086	CCL11
+T44	anatomical_site 1149 1154	blood
+T45	anatomical_site 1159 1164	liver
+T46	anatomical_site 1193 1198	serum
+T47	gene 1199 1210	adiponectin
+T48	anatomical_site 1219 1225	tissue
+T49	gene 1240 1245	SIRT1
+T50	gene 1304 1311	AdipoR1
+T51	gene 1317 1324	insulin
+T52	gene 1426 1430	BDNF
+T53	anatomical_site 1442 1447	serum
+T54	anatomical_site 1452 1457	brain
+T55	anatomical_site 1458 1464	tissue
+T56	gene 1476 1480	BDNF
+T57	gene 1518 1522	TrkB
+T58	anatomical_site 1544 1550	retina
+T59	anatomical_site 1576 1589	visual cortex
+T60	gene 1591 1595	AQP3
+T61	gene 1597 1601	AQP4
+T62	gene 1607 1611	AQP5
+T63	gene 1655 1659	AQP1
+T64	anatomical_site 1690 1708	connective tissues
+T65	anatomical_site 1713 1724	capillaries
+T66	gene 1743 1746	NGF
+T67	gene 1748 1752	NT-3
+T68	gene 1754 1758	BDNF
+T69	gene 1764 1769	Trk A
+T70	gene 1771 1776	Trk B
+T71	gene 1778 1783	Trk C
+T72	gene 1789 1794	Trk E
+T73	anatomical_site 1847 1857	epithelium
+T74	anatomical_site 1862 1868	stroma
+T75	anatomical_site 1885 1890	liver
+T76	anatomical_site 1892 1898	muscle
+T77	anatomical_site 1904 1918	adipose tissue
+T78	gene 1930 1937	insulin
+T79	gene 1963 1966	Syp
+T80	gene 1968 1972	Grb2
+T81	gene 2011 2014	p60
+T82	anatomical_site 2018 2032	adipose tissue
+T83	anatomical_site 2039 2045	Cortex
+T84	anatomical_site 2047 2058	hippocampus
+T85	anatomical_site 2063 2075	hypothalamus
+T86	gene 2151 2156	Bcl-2
+T87	gene 2161 2164	Bax
+T88	gene 2225 2229	TPM1
+T89	anatomical_site 2236 2249	smooth muscle
+T90	anatomical_site 2274 2291	cerebral arteries
+T91	anatomical_site 2348 2365	cerebral arteries
+T92	gene 2405 2410	HSP70
+T93	anatomical_site 2429 2446	cerebral arteries
+T94	anatomical_site 2488 2505	cerebral arteries
+T95	gene 2537 2541	Cav3
+T96	gene 2548 2552	Cav3
+T97	anatomical_site 2573 2586	blood vessels
+T98	anatomical_site 2592 2598	kidney
+T99	anatomical_site 2608 2613	heart
+T100	gene 2626 2633	insulin
+T101	gene 2659 2666	insulin
+T102	gene 2715 2722	insulin
+T103	anatomical_site 2752 2757	blood
+T104	anatomical_site 2795 2800	blood
+T105	gene 2801 2808	insulin
+T106	anatomical_site 2815 2820	blood
+T107	anatomical_site 2837 2842	blood
+T108	anatomical_site 2860 2874	amniotic fluid
+T109	gene 2875 2882	insulin
+T110	gene 2884 2889	Sirt3
+T111	gene 2894 2899	Sirt5
+T112	anatomical_site 2940 2944	male
+T113	anatomical_site 2949 2955	female
+T114	gene 2968 2973	Sirt4

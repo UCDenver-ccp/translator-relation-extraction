@@ -1,0 +1,122 @@
+T1	anatomical_site 13 16	fat
+T2	anatomical_site 44 49	blood
+T3	anatomical_site 68 73	blood
+T4	gene 83 101	C-reactive protein
+T5	gene 109 116	insulin
+T6	gene 132 139	insulin
+T7	gene 208 214	leptin
+T8	gene 216 227	adiponectin
+T9	gene 232 240	resistin
+T10	gene 328 331	AP1
+T11	gene 332 335	AP2
+T12	anatomical_site 358 362	bone
+T13	gene 372 375	AP1
+T14	anatomical_site 381 385	bone
+T15	gene 418 421	AP2
+T16	anatomical_site 448 452	bone
+T17	gene 482 485	AP1
+T18	gene 489 492	AP2
+T19	anatomical_site 535 540	blood
+T20	gene 585 598	interleukin 3
+T21	gene 600 604	IL-3
+T22	gene 607 611	IL-6
+T23	gene 613 661	granulocyte-macrophage colony stimulating factor
+T24	gene 663 669	GM-CSF
+T25	gene 675 691	stem cell factor
+T26	anatomical_site 701 706	serum
+T27	anatomical_site 724 729	serum
+T28	gene 759 765	orexin
+T29	gene 766 776	hypocretin
+T30	anatomical_site 801 806	brain
+T31	anatomical_site 812 816	male
+T32	gene 890 897	elastin
+T33	anatomical_site 911 917	tissue
+T34	gene 929 937	collagen
+T35	anatomical_site 944 952	vascular
+T36	anatomical_site 968 972	body
+T37	anatomical_site 987 990	leg
+T38	anatomical_site 991 994	fat
+T39	gene 1041 1052	adiponectin
+T40	gene 1086 1090	RBP4
+T41	gene 1095 1100	PAI-1
+T42	gene 1153 1157	IL-6
+T43	gene 1162 1166	IL-8
+T44	anatomical_site 1180 1185	serum
+T45	anatomical_site 1192 1197	blood
+T46	anatomical_site 1209 1214	serum
+T47	anatomical_site 1261 1276	skeletal muscle
+T48	gene 1277 1280	HSP
+T49	gene 1289 1292	HSP
+T50	anatomical_site 1308 1313	serum
+T51	gene 1314 1317	HSP
+T52	gene 1377 1381	Otx2
+T53	gene 1383 1387	Gbx2
+T54	gene 1393 1397	Fgf8
+T55	anatomical_site 1425 1430	chick
+T56	anatomical_site 1442 1451	inner ear
+T57	anatomical_site 1509 1520	innervation
+T58	anatomical_site 1558 1569	fat tissues
+T59	anatomical_site 1574 1580	muscle
+T60	gene 1591 1597	emerin
+T61	gene 1600 1606	POLR2A
+T62	gene 1632 1637	LRP10
+T63	anatomical_site 1684 1697	mammary gland
+T64	gene 1703 1711	MARVELD1
+T65	anatomical_site 1765 1770	liver
+T66	gene 1776 1782	HPCAL1
+T67	gene 1805 1810	LRP10
+T68	gene 1816 1821	EIF3K
+T69	gene 1916 1921	HSP25
+T70	gene 1945 1948	HSP
+T71	gene 1952 1957	OSP94
+T72	anatomical_site 2013 2019	cortex
+T73	anatomical_site 2024 2031	papilla
+T74	anatomical_site 2052 2058	cortex
+T75	anatomical_site 2088 2095	medulla
+T76	anatomical_site 2100 2107	papilla
+T77	anatomical_site 2172 2175	fat
+T78	anatomical_site 2190 2195	fatty
+T79	anatomical_site 2210 2215	brain
+T80	anatomical_site 2216 2221	fatty
+T81	gene 2260 2276	insulin receptor
+T82	gene 2281 2309	insulin receptor substrate-1
+T83	gene 2372 2379	insulin
+T84	anatomical_site 2392 2396	male
+T85	anatomical_site 2409 2420	Fast muscle
+T86	gene 2438 2450	beta-enolase
+T87	anatomical_site 2461 2466	serum
+T88	gene 2467 2487	alkaline phosphatase
+T89	anatomical_site 2492 2497	serum
+T90	gene 2498 2509	osteocalcin
+T91	anatomical_site 2555 2560	femur
+T92	anatomical_site 2561 2565	neck
+T93	anatomical_site 2578 2584	myelin
+T94	gene 2597 2607	Connexin32
+T95	anatomical_site 2644 2650	tissue
+T96	gene 2674 2683	myostatin
+T97	anatomical_site 2695 2710	skeletal muscle
+T98	anatomical_site 2724 2730	muscle
+T99	gene 2762 2766	BDNF
+T100	gene 2771 2774	NGF
+T101	anatomical_site 2803 2820	prefrontal cortex
+T102	anatomical_site 2822 2833	hippocampus
+T103	anatomical_site 2838 2846	amygdala
+T104	anatomical_site 2861 2865	body
+T105	anatomical_site 2874 2879	blood
+T106	gene 2889 2894	GLP-1
+T107	gene 2899 2906	insulin
+T108	gene 2919 2924	GLP-1
+T109	anatomical_site 2943 2950	jejunum
+T110	gene 2976 2980	BDNF
+T111	anatomical_site 3022 3033	hippocampal
+T112	anatomical_site 3053 3058	hilus
+T113	anatomical_site 3066 3079	dentate gyrus
+T114	anatomical_site 3094 3099	blood
+T115	anatomical_site 3112 3118	dermal
+T116	gene 3166 3170	IL-6
+T117	gene 3180 3184	CCL2
+T118	gene 3190 3198	collagen
+T119	gene 3221 3226	Alpha
+T120	gene 3232 3237	TIMP1
+T121	gene 3243 3247	MMP9
+T122	anatomical_site 3262 3268	dermal

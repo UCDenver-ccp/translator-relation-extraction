@@ -1,0 +1,124 @@
+T1	gene 0 4	Fgf8
+T2	gene 9 13	Fgf3
+T3	anatomical_site 41 44	ear
+T4	anatomical_site 45 52	placode
+T5	anatomical_site 80 89	inner ear
+T6	gene 169 174	MMP-9
+T7	anatomical_site 178 187	epidermis
+T8	anatomical_site 192 198	dermis
+T9	gene 203 209	TIMP-1
+T10	anatomical_site 213 222	epidermis
+T11	gene 273 278	Traf2
+T12	anatomical_site 331 341	epithelium
+T13	gene 380 385	Traf1
+T14	gene 387 392	Traf3
+T15	gene 394 399	Traf4
+T16	gene 404 409	Traf6
+T17	anatomical_site 453 479	external enamel epithelium
+T18	gene 534 541	insulin
+T19	anatomical_site 553 559	muscle
+T20	anatomical_site 564 578	adipose tissue
+T21	gene 579 586	insulin
+T22	anatomical_site 607 614	kidneys
+T23	gene 630 634	Ampk
+T24	gene 639 644	Sirt1
+T25	anatomical_site 663 669	female
+T26	gene 722 727	UNC5A
+T27	gene 729 734	UNC5B
+T28	gene 739 744	UNC5C
+T29	anatomical_site 805 811	breast
+T30	anatomical_site 813 818	ovary
+T31	anatomical_site 820 826	uterus
+T32	anatomical_site 828 835	stomach
+T33	anatomical_site 837 841	lung
+T34	gene 882 898	alpha-internexin
+T35	gene 911 916	mSOD1
+T36	anatomical_site 924 935	spinal cord
+T37	anatomical_site 936 942	tissue
+T38	gene 1010 1014	Nav1
+T39	gene 1018 1022	Nav1
+T40	gene 1026 1030	Nav1
+T41	gene 1038 1042	Nav1
+T42	anatomical_site 1066 1074	ganglion
+T43	anatomical_site 1075 1085	cell layer
+T44	gene 1117 1120	HGF
+T45	anatomical_site 1124 1129	liver
+T46	anatomical_site 1134 1140	cortex
+T47	anatomical_site 1154 1159	liver
+T48	gene 1160 1164	VEGF
+T49	gene 1174 1178	GDNF
+T50	anatomical_site 1186 1191	liver
+T51	gene 1206 1209	NGF
+T52	anatomical_site 1221 1232	hippocampus
+T53	anatomical_site 1237 1243	cortex
+T54	anatomical_site 1338 1342	body
+T55	anatomical_site 1353 1357	body
+T56	gene 1435 1440	HOXA6
+T57	gene 1442 1447	HOXA5
+T58	gene 1449 1454	HOXA3
+T59	gene 1456 1460	IRX2
+T60	gene 1465 1469	TBX5
+T61	anatomical_site 1473 1510	subcutaneous abdominal adipose tissue
+T62	gene 1523 1528	SHOX2
+T63	gene 1533 1539	HOXC11
+T64	anatomical_site 1557 1571	adipose tissue
+T65	anatomical_site 1618 1623	serum
+T66	gene 1624 1635	somatomedin
+T67	anatomical_site 1679 1684	liver
+T68	gene 1693 1704	somatomedin
+T69	gene 1778 1792	VEGF receptors
+T70	gene 1794 1800	PROKR1
+T71	gene 1805 1811	PROKR2
+T72	anatomical_site 1830 1844	umbilical cord
+T73	anatomical_site 1845 1851	tissue
+T74	gene 1853 1860	Insulin
+T75	gene 1894 1899	GLUT4
+T76	anatomical_site 1920 1926	muscle
+T77	anatomical_site 1928 1933	heart
+T78	anatomical_site 1938 1953	adipose tissues
+T79	gene 1971 1977	leptin
+T80	gene 1979 1987	resistin
+T81	gene 1989 2000	adiponectin
+T82	gene 2002 2015	Interleukin-6
+T83	gene 2020 2029	TNF alpha
+T84	anatomical_site 2031 2036	blood
+T85	gene 2063 2078	selenoprotein P
+T86	anatomical_site 2095 2100	serum
+T87	anatomical_site 2150 2155	serum
+T88	gene 2166 2171	IGF-1
+T89	anatomical_site 2248 2253	brain
+T90	anatomical_site 2272 2277	brain
+T91	gene 2319 2324	IGF-1
+T92	anatomical_site 2328 2333	brain
+T93	gene 2344 2349	TEM-7
+T94	anatomical_site 2378 2382	head
+T95	anatomical_site 2387 2391	neck
+T96	anatomical_site 2393 2401	prostate
+T97	anatomical_site 2492 2496	bone
+T98	anatomical_site 2522 2526	bone
+T99	anatomical_site 2556 2565	vertebral
+T100	gene 2575 2578	Nf1
+T101	gene 2597 2600	Nf1
+T102	gene 2607 2610	Col
+T103	anatomical_site 2626 2632	cornea
+T104	anatomical_site 2633 2639	tissue
+T105	gene 2641 2646	SPRR1
+T106	gene 2655 2664	filaggrin
+T107	gene 2670 2680	involucrin
+T108	anatomical_site 2763 2773	epithelium
+T109	anatomical_site 2825 2830	fatty
+T110	anatomical_site 2841 2846	liver
+T111	anatomical_site 2850 2864	adipose tissue
+T112	anatomical_site 2892 2897	fatty
+T113	gene 2917 2945	fatty acid binding protein-4
+T114	anatomical_site 2953 2958	fatty
+T115	gene 2977 2981	CD36
+T116	gene 2984 3002	lipoprotein lipase
+T117	gene 3013 3043	fatty acid transport protein-1
+T118	gene 3045 3051	FATP-1
+T119	gene 3075 3116	sterol regulatory element binding protein
+T120	gene 3128 3135	SREBP-1
+T121	gene 3141 3164	stearoyl-CoA desaturase
+T122	gene 3176 3181	SCD-1
+T123	anatomical_site 3187 3201	adipose tissue
+T124	anatomical_site 3228 3233	liver

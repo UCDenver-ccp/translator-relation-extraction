@@ -1,0 +1,113 @@
+T1	gene 0 4	Fgf3
+T2	gene 6 10	Fgf6
+T3	gene 12 17	Fgfr2
+T4	gene 22 27	Spry2
+T5	anatomical_site 60 70	epithelium
+T6	gene 79 84	Fgf10
+T7	anatomical_site 114 124	mesenchyme
+T8	gene 172 175	PTH
+T9	anatomical_site 188 192	tail
+T10	anatomical_site 193 199	artery
+T11	gene 219 239	arginine vasopressin
+T12	gene 241 244	AVP
+T13	anatomical_site 261 266	serum
+T14	gene 277 284	alpha-1
+T15	gene 300 320	beta-2-microglobulin
+T16	anatomical_site 363 368	blood
+T17	gene 389 422	brain-derived neurotrophic factor
+T18	gene 424 428	BDNF
+T19	gene 431 441	synapsin I
+T20	gene 446 474	growth associated protein-43
+T21	gene 476 482	GAP-43
+T22	anatomical_site 491 502	spinal cord
+T23	anatomical_site 507 518	hippocampus
+T24	gene 556 561	TOM34
+T25	gene 563 566	AL1
+T26	gene 570 575	PADI2
+T27	anatomical_site 625 629	lung
+T28	anatomical_site 630 636	tissue
+T29	gene 638 642	IL-6
+T30	gene 714 725	haptoglobin
+T31	anatomical_site 727 732	serum
+T32	gene 743 750	insulin
+T33	gene 754 782	insulin-like growth factor-I
+T34	anatomical_site 806 811	heart
+T35	anatomical_site 813 818	liver
+T36	anatomical_site 820 827	kidneys
+T37	anatomical_site 843 849	spleen
+T38	gene 896 902	SLC2A1
+T39	gene 904 908	TP-1
+T40	gene 933 939	AKR1B1
+T41	anatomical_site 972 978	female
+T42	anatomical_site 979 986	embryos
+T43	gene 997 1004	omentin
+T44	anatomical_site 1007 1012	serum
+T45	anatomical_site 1051 1063	femoral neck
+T46	anatomical_site 1072 1077	serum
+T47	gene 1088 1099	osteocalcin
+T48	gene 1104 1115	osteopontin
+T49	gene 1150 1154	BDNF
+T50	gene 1159 1163	NT-3
+T51	gene 1167 1172	Trk B
+T52	gene 1177 1182	Trk C
+T53	anatomical_site 1204 1215	innervation
+T54	anatomical_site 1223 1232	inner ear
+T55	gene 1240 1247	Adamts9
+T56	anatomical_site 1277 1281	limb
+T57	anatomical_site 1282 1290	mesoderm
+T58	gene 1297 1301	Prx1
+T59	anatomical_site 1320 1325	blood
+T60	anatomical_site 1347 1352	serum
+T61	gene 1377 1382	ApoA1
+T62	gene 1384 1388	ApoB
+T63	gene 1440 1443	p35
+T64	anatomical_site 1486 1491	brain
+T65	gene 1503 1507	Cdk5
+T66	anatomical_site 1555 1558	fat
+T67	anatomical_site 1586 1589	fat
+T68	anatomical_site 1628 1633	serum
+T69	gene 1634 1640	leptin
+T70	anatomical_site 1663 1666	fat
+T71	anatomical_site 1689 1694	serum
+T72	gene 1695 1699	IL-6
+T73	gene 1701 1706	TNF-a
+T74	anatomical_site 1715 1718	fat
+T75	anatomical_site 1731 1736	serum
+T76	gene 1737 1744	insulin
+T77	anatomical_site 1779 1782	fat
+T78	anatomical_site 1796 1799	fat
+T79	gene 1818 1825	insulin
+T80	gene 1854 1867	Neurofibromin
+T81	gene 1896 1917	Endothelin receptor B
+T82	anatomical_site 1932 1936	tail
+T83	anatomical_site 1937 1943	dermis
+T84	gene 1949 1955	ELOVL3
+T85	anatomical_site 1985 1990	fatty
+T86	anatomical_site 2014 2019	liver
+T87	anatomical_site 2021 2025	skin
+T88	anatomical_site 2031 2052	brown adipose tissues
+T89	gene 2103 2107	TLR4
+T90	anatomical_site 2139 2144	liver
+T91	anatomical_site 2146 2152	muscle
+T92	anatomical_site 2158 2172	adipose tissue
+T93	gene 2212 2217	SHP-1
+T94	gene 2230 2235	NFAT5
+T95	gene 2236 2242	TonEBP
+T96	anatomical_site 2265 2271	kidney
+T97	anatomical_site 2278 2285	medulla
+T98	gene 2287 2296	IL-1 beta
+T99	gene 2312 2317	IGF-I
+T100	anatomical_site 2333 2338	liver
+T101	anatomical_site 2343 2349	muscle
+T102	anatomical_site 2378 2384	kidney
+T103	gene 2428 2436	hornerin
+T104	anatomical_site 2465 2486	stratified epithelium
+T105	anatomical_site 2502 2507	trunk
+T106	anatomical_site 2508 2517	epidermis
+T107	anatomical_site 2519 2525	tongue
+T108	anatomical_site 2531 2540	esophagus
+T109	anatomical_site 2551 2565	synovial fluid
+T110	gene 2566 2571	IL-33
+T111	gene 2576 2580	IL-6
+T112	anatomical_site 2592 2601	cartilage
+T113	anatomical_site 2649 2661	femoral head

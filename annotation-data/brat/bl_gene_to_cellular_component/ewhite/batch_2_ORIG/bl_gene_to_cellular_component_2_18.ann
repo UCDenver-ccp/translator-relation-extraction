@@ -1,0 +1,128 @@
+T1	gene 12 17	HMGB1
+T2	cellular_component 36 44	integrin
+T3	gene 36 44	integrin
+T4	cellular_component 66 74	integrin
+T5	gene 66 74	integrin
+T6	cellular_component 93 104	subcellular
+T7	cellular_component 160 169	ribosomal
+T8	gene 179 184	RPS3a
+T9	gene 186 190	RPL7
+T10	gene 192 197	RPL18
+T11	gene 211 216	GAPDH
+T12	cellular_component 249 257	membrane
+T13	gene 314 319	KIF14
+T14	gene 321 326	KIFC3
+T15	gene 328 334	STARD9
+T16	gene 335 341	KIF16A
+T17	gene 388 393	KIF14
+T18	gene 395 399	BUB1
+T19	gene 401 405	ODF2
+T20	gene 406 413	cenexin
+T21	gene 415 420	RHAMM
+T22	gene 455 459	RAD6
+T23	cellular_component 553 568	heterochromatin
+T24	gene 577 580	HP1
+T25	gene 593 596	p53
+T26	gene 601 606	Hsp27
+T27	gene 629 645	protein kinase C
+T28	gene 651 683	mitogen activated protein kinase
+T29	cellular_component 701 713	cytoskeleton
+T30	gene 730 734	Smad
+T31	cellular_component 730 734	Smad
+T32	cellular_component 738 742	Smad
+T33	gene 738 742	Smad
+T34	gene 744 749	Smad6
+T35	gene 800 809	TGF-beta1
+T36	gene 841 854	Interleukin-1
+T37	gene 855 873	Toll-like receptor
+T38	gene 875 880	IL-1R
+T39	gene 915 924	Pellino-1
+T40	gene 948 990	interleukin-1 receptor associated kinase 1
+T41	gene 991 996	IRAK1
+T42	gene 1017 1021	ATG7
+T43	gene 1023 1027	ATG5
+T44	gene 1031 1036	BECN1
+T45	gene 1069 1078	caspase-3
+T46	cellular_component 1091 1100	lysosomal
+T47	gene 1134 1138	CR-1
+T48	cellular_component 1148 1160	cell surface
+T49	gene 1161 1171	Glypican-1
+T50	gene 1184 1188	Erk1
+T51	gene 1191 1195	MAPK
+T52	gene 1200 1203	Akt
+T53	cellular_component 1267 1280	intracellular
+T54	gene 1300 1303	Tyr
+T55	gene 1309 1313	Pyk2
+T56	gene 1351 1354	Tyr
+T57	gene 1363 1366	Src
+T58	gene 1371 1375	Pyk2
+T59	gene 1376 1379	Src
+T60	cellular_component 1437 1450	intracellular
+T61	gene 1464 1472	TGF-beta
+T62	cellular_component 1491 1495	Smad
+T63	gene 1491 1495	Smad
+T64	gene 1575 1607	epidermal growth factor receptor
+T65	gene 1633 1636	p38
+T66	gene 1637 1669	mitogen-activated protein kinase
+T67	gene 1673 1676	p38
+T68	gene 1677 1681	MAPK
+T69	cellular_component 1702 1715	extracellular
+T70	gene 1761 1769	integrin
+T71	cellular_component 1761 1769	integrin
+T72	gene 1788 1806	chemokine receptor
+T73	gene 1812 1817	CCL25
+T74	gene 1818 1822	CCR9
+T75	cellular_component 1895 1908	extracellular
+T76	gene 1932 1936	ERK1
+T77	gene 1944 1947	p38
+T78	gene 1948 1980	mitogen activated protein kinase
+T79	gene 1982 1985	p38
+T80	gene 1986 1990	MAPK
+T81	gene 2025 2035	Axotrophin
+T82	gene 2036 2042	MARCH7
+T83	gene 2092 2095	tau
+T84	cellular_component 2123 2134	microtubule
+T85	gene 2144 2147	p38
+T86	gene 2148 2180	mitogen-activated protein kinase
+T87	gene 2182 2186	MAPK
+T88	cellular_component 2230 2233	LDL
+T89	gene 2306 2310	CDH3
+T90	cellular_component 2313 2327	tight junction
+T91	gene 2338 2343	CLDN4
+T92	gene 2357 2361	DDR1
+T93	cellular_component 2364 2373	integrins
+T94	gene 2364 2373	integrins
+T95	gene 2375 2380	ITGB4
+T96	gene 2414 2421	TACSTD1
+T97	cellular_component 2424 2436	cell surface
+T98	gene 2453 2458	PROM1
+T99	gene 2460 2465	ANXA3
+T100	gene 2523 2534	protein MRP
+T101	gene 2536 2541	ABCC4
+T102	gene 2573 2577	CD51
+T103	gene 2578 2582	CD61
+T104	gene 2584 2595	vitronectin
+T105	gene 2607 2611	CD36
+T106	gene 2613 2636	thrombospondin receptor
+T107	cellular_component 2744 2758	cell membranes
+T108	gene 2764 2768	CD14
+T109	gene 2805 2808	EGF
+T110	cellular_component 2825 2838	intracellular
+T111	gene 2839 2855	protein kinase C
+T112	gene 2860 2892	mitogen-activated protein kinase
+T113	gene 2893 2897	MEK1
+T114	gene 2927 2932	Bcl-2
+T115	gene 2934 2937	Bax
+T116	cellular_component 2966 2979	extracellular
+T117	gene 3020 3023	p42
+T118	gene 3024 3027	p44
+T119	gene 3122 3126	Smad
+T120	cellular_component 3122 3126	Smad
+T121	gene 3149 3182	mitogen-activated protein kinases
+T122	cellular_component 3184 3197	extracellular
+T123	gene 3249 3252	p38
+T124	gene 3281 3284	Src
+T125	gene 3318 3324	cyclin
+T126	gene 3344 3373	rho-associated protein kinase
+T127	gene 3383 3393	calmodulin
+T128	gene 3415 3441	glycogen synthase kinase-3

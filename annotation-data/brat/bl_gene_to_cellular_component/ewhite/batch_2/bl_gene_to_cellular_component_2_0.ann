@@ -1,0 +1,125 @@
+T1	gene 19 30	connexin-32
+T2	gene 34 50	protein kinase C
+T3	cellular_component 79 89	mu-calpain
+T4	gene 79 89	mu-calpain
+T5	cellular_component 94 103	m-calpain
+T6	gene 94 103	m-calpain
+T7	cellular_component 177 190	mitochondrial
+T8	gene 225 228	Bax
+T9	gene 238 247	caspase-9
+T10	gene 257 266	caspase-3
+T11	gene 352 357	Bcl-2
+T12	gene 359 367	cyclin D
+T13	gene 370 376	CDC25A
+T14	gene 382 386	CDK2
+T15	cellular_component 403 411	Antibody
+T16	cellular_component 445 457	cell-surface
+T17	gene 458 470	beta-amyloid
+T18	gene 471 480	precursor
+T19	gene 495 499	NOD1
+T20	gene 500 505	CARD4
+T21	gene 510 514	NOD2
+T22	gene 515 521	CARD15
+T23	cellular_component 526 539	intracellular
+T24	cellular_component 619 627	membrane
+T25	gene 686 691	CD11b
+T26	gene 693 701	integrin
+T27	cellular_component 693 701	integrin
+T28	gene 713 717	CD14
+T29	gene 722 726	CD31
+T30	gene 728 771	platelet endothelial cell adhesion molecule
+T31	gene 784 803	chemokine receptors
+T32	gene 804 808	CCR5
+T33	gene 813 818	CXCR4
+T34	gene 831 835	CCR2
+T35	cellular_component 848 856	antibody
+T36	gene 883 893	tyrosinase
+T37	gene 945 949	ALK5
+T38	gene 969 973	ALK5
+T39	cellular_component 1010 1014	Smad
+T40	gene 1010 1014	Smad
+T41	gene 1033 1037	ALK5
+T42	gene 1080 1085	Smad3
+T43	gene 1098 1102	Smad
+T44	cellular_component 1098 1102	Smad
+T45	gene 1150 1154	PAR2
+T46	gene 1230 1259	mammalian target of rapamycin
+T47	cellular_component 1344 1357	extracellular
+T48	gene 1419 1422	Akt
+T49	gene 1502 1505	Bak
+T50	gene 1507 1510	p53
+T51	gene 1512 1517	Bcl-2
+T52	gene 1522 1531	caspase-3
+T53	cellular_component 1582 1596	tight junction
+T54	gene 1617 1626	claudin-1
+T55	gene 1628 1636	occludin
+T56	gene 1641 1645	ZO-1
+T57	gene 1717 1722	NDEL1
+T58	gene 1742 1748	Aurora
+T59	cellular_component 1775 1786	centrosomal
+T60	gene 1815 1820	TACC3
+T61	gene 1843 1846	Src
+T62	gene 1862 1865	EGF
+T63	gene 1887 1891	EGFR
+T64	cellular_component 1932 1941	endosomes
+T65	cellular_component 1943 1956	Intracellular
+T66	gene 1980 1988	integrin
+T67	cellular_component 1980 1988	integrin
+T68	cellular_component 1989 2000	cytoplasmic
+T69	gene 2015 2023	integrin
+T70	cellular_component 2015 2023	integrin
+T71	cellular_component 2038 2051	extracellular
+T72	gene 2071 2079	integrin
+T73	cellular_component 2071 2079	integrin
+T74	gene 2131 2135	MCAD
+T75	cellular_component 2163 2170	cytosol
+T76	cellular_component 2210 2222	mitochondria
+T77	gene 2246 2250	MCAD
+T78	gene 2362 2367	GAPDH
+T79	gene 2383 2388	Siah1
+T80	gene 2407 2412	GAPDH
+T81	gene 2413 2418	Siah1
+T82	cellular_component 2426 2433	nucleus
+T83	cellular_component 2462 2472	Antibodies
+T84	gene 2523 2555	mitogen-activated protein kinase
+T85	gene 2557 2561	MAPK
+T86	gene 2573 2577	MKK5
+T87	gene 2583 2622	extracellular signal-regulated kinase 5
+T88	gene 2624 2628	ERK5
+T89	gene 2715 2718	EGF
+T90	gene 2742 2746	MKK5
+T91	gene 2751 2755	ERK5
+T92	gene 2795 2799	ERK1
+T93	gene 2804 2808	ERK2
+T94	cellular_component 2851 2863	cell-surface
+T95	gene 2864 2875	GH receptor
+T96	gene 2907 2910	GHR
+T97	gene 2939 2943	JAK2
+T98	gene 3007 3011	STAT
+T99	gene 3017 3020	Raf
+T100	gene 3021 3025	MEK1
+T101	gene 3026 3036	MAP kinase
+T102	gene 3042 3070	insulin receptor substrate-1
+T103	gene 3071 3076	IRS-1
+T104	gene 3098 3103	Alpha
+T105	cellular_component 3130 3138	antibody
+T106	gene 3151 3157	IGF1-R
+T107	gene 3166 3170	IGF1
+T108	gene 3197 3209	Beta-amyloid
+T109	gene 3210 3219	precursor
+T110	gene 3229 3232	APP
+T111	cellular_component 3239 3247	membrane
+T112	cellular_component 3278 3291	extracellular
+T113	cellular_component 3318 3331	intracellular
+T114	cellular_component 3340 3350	Antibodies
+T115	gene 3371 3379	integrin
+T116	cellular_component 3371 3379	integrin
+T117	gene 3398 3402	CD18
+T118	cellular_component 3410 3418	integrin
+T119	gene 3410 3418	integrin
+T120	gene 3423 3427	CD31
+T121	gene 3429 3436	PECAM-1
+T122	gene 3464 3468	Fis1
+T123	gene 3473 3476	Mff
+T124	gene 3481 3485	Drp1
+T125	cellular_component 3516 3528	mitochondria

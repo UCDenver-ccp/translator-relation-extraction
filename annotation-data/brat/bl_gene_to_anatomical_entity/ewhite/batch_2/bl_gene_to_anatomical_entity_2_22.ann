@@ -1,0 +1,131 @@
+T1	gene 5 9	ALT2
+T2	anatomical_site 37 42	heart
+T3	anatomical_site 47 62	skeletal muscle
+T4	gene 73 77	ALT2
+T5	anatomical_site 102 107	liver
+T6	anatomical_site 111 117	kidney
+T7	anatomical_site 119 130	Subcellular
+T8	gene 166 169	p60
+T9	gene 169 172	src
+T10	anatomical_site 232 236	limb
+T11	anatomical_site 237 245	ectoderm
+T12	anatomical_site 285 295	epithelium
+T13	anatomical_site 303 326	apical ectodermal ridge
+T14	anatomical_site 365 369	bone
+T15	gene 393 396	BMP
+T16	gene 429 433	BMP2
+T17	gene 435 439	BMP4
+T18	gene 444 448	BMP7
+T19	anatomical_site 459 465	tissue
+T20	gene 496 499	BMP
+T21	gene 511 517	Noggin
+T22	anatomical_site 550 562	craniofacial
+T23	anatomical_site 563 571	skeleton
+T24	gene 596 600	BMP7
+T25	gene 609 613	FGF2
+T26	gene 616 620	FGF8
+T27	anatomical_site 636 640	skin
+T28	anatomical_site 658 663	organ
+T29	anatomical_site 665 669	limb
+T30	anatomical_site 719 728	vertebrae
+T31	gene 741 745	ATF4
+T32	gene 758 762	Fgf2
+T33	anatomical_site 768 774	tissue
+T34	gene 795 798	PTH
+T35	gene 809 813	ATF4
+T36	gene 826 830	Fgf2
+T37	gene 871 875	Fgf2
+T38	anatomical_site 881 887	tissue
+T39	anatomical_site 911 916	serum
+T40	gene 917 928	adiponectin
+T41	gene 938 944	leptin
+T42	gene 946 954	resistin
+T43	anatomical_site 976 980	bone
+T44	anatomical_site 1002 1006	bone
+T45	gene 1119 1123	ESR1
+T46	gene 1125 1131	BMPR1B
+T47	gene 1137 1142	FOXL2
+T48	anatomical_site 1150 1155	ovary
+T49	anatomical_site 1157 1162	brain
+T50	anatomical_site 1168 1174	uterus
+T51	gene 1187 1191	ESR1
+T52	anatomical_site 1278 1283	brain
+T53	anatomical_site 1289 1293	body
+T54	gene 1314 1318	ESR1
+T55	anatomical_site 1337 1342	ovary
+T56	anatomical_site 1348 1354	female
+T57	anatomical_site 1383 1388	serum
+T58	gene 1422 1444	estrogen receptor beta
+T59	gene 1452 1456	Bcl2
+T60	gene 1458 1461	Bax
+T61	gene 1467 1510	vascular endothelial growth factor receptor
+T62	anatomical_site 1522 1527	ovary
+T63	anatomical_site 1539 1544	liver
+T64	anatomical_site 1545 1548	fat
+T65	gene 1559 1566	insulin
+T66	anatomical_site 1594 1608	adipose tissue
+T67	gene 1609 1616	insulin
+T68	gene 1656 1660	Sox5
+T69	anatomical_site 1687 1694	cranial
+T70	gene 1722 1728	leptin
+T71	gene 1730 1741	adiponectin
+T72	gene 1771 1779	resistin
+T73	gene 1795 1801	apelin
+T74	anatomical_site 1824 1827	fat
+T75	anatomical_site 1829 1835	muscle
+T76	anatomical_site 1918 1922	male
+T77	anatomical_site 1927 1933	female
+T78	gene 1967 1973	leptin
+T79	gene 1975 1986	adiponectin
+T80	gene 1988 1996	resistin
+T81	gene 2011 2018	insulin
+T82	anatomical_site 2019 2024	serum
+T83	anatomical_site 2131 2136	teeth
+T84	anatomical_site 2141 2157	dermal denticles
+T85	gene 2159 2163	Dlx3
+T86	gene 2165 2169	Dlx4
+T87	gene 2174 2178	Dlx5
+T88	gene 2223 2227	Dlx1
+T89	anatomical_site 2231 2247	dermal denticles
+T90	anatomical_site 2252 2257	teeth
+T91	gene 2267 2271	Dlx2
+T92	anatomical_site 2275 2291	dermal denticles
+T93	gene 2311 2316	Runx2
+T94	anatomical_site 2347 2356	tooth bud
+T95	anatomical_site 2357 2367	mesenchyme
+T96	gene 2371 2375	Osr2
+T97	anatomical_site 2394 2401	embryos
+T98	anatomical_site 2435 2451	tooth mesenchyme
+T99	gene 2455 2459	Msx1
+T100	gene 2464 2468	Osr2
+T101	gene 2501 2505	Msx1
+T102	anatomical_site 2525 2532	embryos
+T103	anatomical_site 2534 2545	Spinal cord
+T104	anatomical_site 2547 2559	motor cortex
+T105	anatomical_site 2565 2575	cerebellum
+T106	gene 2612 2616	BDNF
+T107	gene 2621 2649	insulin-like growth factor-1
+T108	gene 2651 2656	IGF-1
+T109	anatomical_site 2717 2729	neural crest
+T110	anatomical_site 2774 2786	neural plate
+T111	anatomical_site 2798 2810	neural crest
+T112	gene 2827 2832	Msx-1
+T113	gene 2834 2838	Pax7
+T114	gene 2851 2856	Sox10
+T115	gene 2889 2892	FAS
+T116	gene 2894 2901	SREBP-1
+T117	anatomical_site 2922 2927	liver
+T118	anatomical_site 2996 3001	liver
+T119	gene 3002 3009	insulin
+T120	gene 3047 3052	GDF11
+T121	gene 3101 3106	GDF11
+T122	anatomical_site 3142 3146	limb
+T123	anatomical_site 3170 3188	cartilage elements
+T124	anatomical_site 3197 3203	muscle
+T125	gene 3234 3242	vinculin
+T126	anatomical_site 3288 3292	head
+T127	anatomical_site 3293 3297	tail
+T128	gene 3320 3332	metavinculin
+T129	anatomical_site 3377 3381	head
+T130	gene 3403 3411	vinculin
+T131	anatomical_site 3412 3416	tail

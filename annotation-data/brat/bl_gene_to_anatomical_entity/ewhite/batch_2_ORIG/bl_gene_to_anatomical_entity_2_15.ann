@@ -1,0 +1,126 @@
+T1	gene 0 33	Glial hyaluronate-binding protein
+T2	gene 35 39	GHAP
+T3	anatomical_site 44 55	optic nerve
+T4	anatomical_site 60 66	retina
+T5	anatomical_site 85 90	serum
+T6	gene 91 120	insulin-like growth factor -1
+T7	gene 122 127	IGF-1
+T8	gene 178 181	p65
+T9	gene 184 200	cyclooxygenase-2
+T10	gene 202 207	COX-2
+T11	gene 223 227	MyoD
+T12	anatomical_site 231 244	gastrocnemius
+T13	anatomical_site 249 255	soleus
+T14	anatomical_site 298 303	serum
+T15	gene 311 316	IGF-1
+T16	anatomical_site 356 364	muscular
+T17	gene 383 388	SNAT2
+T18	anatomical_site 396 420	longissimus dorsi muscle
+T19	anatomical_site 522 532	lymph node
+T20	anatomical_site 566 571	blood
+T21	anatomical_site 576 587	bone marrow
+T22	gene 602 612	L-selectin
+T23	gene 614 619	CD11a
+T24	gene 620 624	CD18
+T25	gene 626 631	LFA-1
+T26	gene 634 638	CD54
+T27	gene 640 646	ICAM-1
+T28	gene 649 653	CD44
+T29	gene 668 672	CD18
+T30	gene 695 699	CD29
+T31	anatomical_site 758 761	fat
+T32	anatomical_site 779 784	serum
+T33	gene 785 791	leptin
+T34	gene 796 807	adiponectin
+T35	gene 848 854	leptin
+T36	gene 859 870	adiponectin
+T37	anatomical_site 896 906	epithelium
+T38	gene 920 924	Cdx2
+T39	gene 929 933	Sox9
+T40	anatomical_site 961 971	epithelium
+T41	gene 983 987	Sox9
+T42	anatomical_site 1029 1034	serum
+T43	gene 1058 1069	osteocalcin
+T44	anatomical_site 1082 1087	serum
+T45	gene 1094 1105	osteocalcin
+T46	anatomical_site 1118 1122	bone
+T47	gene 1132 1152	alkaline phosphatase
+T48	anatomical_site 1161 1166	serum
+T49	anatomical_site 1171 1176	urine
+T50	gene 1202 1210	collagen
+T51	anatomical_site 1226 1231	urine
+T52	gene 1267 1275	collagen
+T53	anatomical_site 1317 1322	serum
+T54	gene 1323 1334	transferrin
+T55	gene 1339 1352	ceruloplasmin
+T56	anatomical_site 1384 1390	female
+T57	gene 1402 1407	LRIG1
+T58	anatomical_site 1466 1472	breast
+T59	anatomical_site 1473 1479	tissue
+T60	gene 1481 1488	Megalin
+T61	gene 1494 1526	low-density lipoprotein receptor
+T62	gene 1544 1548	LRP2
+T63	anatomical_site 1567 1582	neuroepithelium
+T64	anatomical_site 1591 1599	yolk sac
+T65	anatomical_site 1607 1619	early embryo
+T66	gene 1627 1631	BMP2
+T67	anatomical_site 1633 1638	serum
+T68	gene 1639 1643	BMP4
+T69	anatomical_site 1648 1653	serum
+T70	gene 1654 1658	BMP6
+T71	gene 1756 1760	IL-5
+T72	gene 1762 1767	IL-13
+T73	gene 1769 1774	IL-31
+T74	gene 1776 1781	IL-32
+T75	anatomical_site 1813 1816	ear
+T76	anatomical_site 1817 1823	tissue
+T77	gene 1848 1852	CD31
+T78	gene 1853 1857	CD34
+T79	gene 1862 1865	vWF
+T80	anatomical_site 1909 1927	granulation tissue
+T81	anatomical_site 1931 1937	eyelid
+T82	gene 1950 1953	Bax
+T83	anatomical_site 1975 1982	kidneys
+T84	gene 1988 1993	Bcl-2
+T85	anatomical_site 2015 2022	kidneys
+T86	gene 2052 2055	Ad5
+T87	gene 2056 2061	IGF-1
+T88	anatomical_site 2093 2097	lung
+T89	gene 2165 2170	IGF-1
+T90	anatomical_site 2174 2179	serum
+T91	anatomical_site 2184 2188	lung
+T92	anatomical_site 2237 2248	mesenchymal
+T93	gene 2263 2269	Hoxb-5
+T94	gene 2317 2323	Nkx2.1
+T95	gene 2328 2332	SP-C
+T96	anatomical_site 2352 2360	cuboidal
+T97	anatomical_site 2389 2397	saccules
+T98	anatomical_site 2452 2463	mesenchymal
+T99	gene 2573 2576	NGF
+T100	gene 2582 2615	brain derived neurotrophic factor
+T101	gene 2617 2621	BDNF
+T102	anatomical_site 2651 2661	cerebellum
+T103	anatomical_site 2663 2674	hippocampus
+T104	anatomical_site 2676 2682	cortex
+T105	anatomical_site 2688 2702	adrenal glands
+T106	gene 2720 2731	cathepsin D
+T107	anatomical_site 2737 2746	cartilage
+T108	anatomical_site 2751 2757	uterus
+T109	anatomical_site 2814 2823	cartilage
+T110	anatomical_site 2857 2862	organ
+T111	gene 2883 2887	TTF1
+T112	gene 2889 2919	thyroid transcription factor 1
+T113	anatomical_site 2921 2925	lung
+T114	gene 2928 2932	CDX2
+T115	gene 2955 2977	transcription factor 2
+T116	gene 2992 2996	ISL1
+T117	gene 3022 3026	PAX8
+T118	anatomical_site 3050 3058	pancreas
+T119	anatomical_site 3063 3069	rectum
+T120	anatomical_site 3127 3132	brain
+T121	anatomical_site 3133 3139	tissue
+T122	anatomical_site 3143 3149	vessel
+T123	gene 3197 3228	glial fibrillary acidic protein
+T124	gene 3230 3234	GFAP
+T125	gene 3265 3269	GFAP
+T126	anatomical_site 3290 3296	tissue

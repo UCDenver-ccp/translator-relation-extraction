@@ -1,0 +1,129 @@
+T1	anatomical_site 6 12	tissue
+T2	gene 27 31	MMP9
+T3	gene 41 45	MMP9
+T4	gene 87 96	TNF-alpha
+T5	gene 108 112	IL-6
+T6	anatomical_site 135 140	brain
+T7	anatomical_site 141 147	tissue
+T8	anatomical_site 202 222	Pulmonary surfactant
+T9	gene 234 238	SP-A
+T10	anatomical_site 254 259	serum
+T11	anatomical_site 264 268	lung
+T12	anatomical_site 269 275	tissue
+T13	gene 304 308	SP-A
+T14	gene 313 316	Prx
+T15	anatomical_site 338 342	lung
+T16	gene 390 394	HFE2
+T17	anatomical_site 435 440	liver
+T18	anatomical_site 442 447	heart
+T19	anatomical_site 452 467	skeletal muscle
+T20	gene 488 496	hepcidin
+T21	gene 569 599	thyroid transcription factor-1
+T22	gene 601 606	TTF-1
+T23	gene 609 622	thyroglobulin
+T24	gene 629 639	calcitonin
+T25	gene 656 675	parathyroid hormone
+T26	gene 677 680	PTH
+T27	anatomical_site 742 749	thyroid
+T28	anatomical_site 750 756	tissue
+T29	anatomical_site 791 798	thyroid
+T30	anatomical_site 799 805	tissue
+T31	gene 852 856	MRAP
+T32	anatomical_site 878 891	adrenal gland
+T33	anatomical_site 893 898	liver
+T34	anatomical_site 900 906	spleen
+T35	anatomical_site 918 925	stomach
+T36	anatomical_site 930 935	lungs
+T37	gene 943 948	MRAP2
+T38	anatomical_site 983 996	adrenal gland
+T39	gene 998 1002	EZH1
+T40	gene 1007 1011	EZH2
+T41	anatomical_site 1028 1033	liver
+T42	anatomical_site 1058 1063	liver
+T43	gene 1115 1119	IL-2
+T44	gene 1121 1125	IL-4
+T45	gene 1127 1131	IL-5
+T46	gene 1133 1142	TNF-alpha
+T47	gene 1148 1153	IL-13
+T48	anatomical_site 1158 1164	breast
+T49	anatomical_site 1165 1169	milk
+T50	gene 1265 1270	SSTR4
+T51	gene 1275 1280	SSTR2
+T52	anatomical_site 1331 1335	iris
+T53	anatomical_site 1336 1348	ciliary body
+T54	anatomical_site 1353 1359	retina
+T55	gene 1384 1389	SSTR1
+T56	gene 1391 1396	SSTR3
+T57	gene 1401 1406	SSTR5
+T58	anatomical_site 1458 1480	posterior eye segments
+T59	anatomical_site 1495 1501	retina
+T60	gene 1509 1513	HNF6
+T61	gene 1514 1518	CUX2
+T62	anatomical_site 1593 1597	male
+T63	anatomical_site 1606 1612	female
+T64	anatomical_site 1619 1624	liver
+T65	anatomical_site 1671 1675	male
+T66	gene 1701 1705	CUX2
+T67	gene 1722 1726	HNF6
+T68	gene 1766 1770	CUX2
+T69	anatomical_site 1785 1789	male
+T70	anatomical_site 1806 1812	female
+T71	anatomical_site 1813 1818	liver
+T72	anatomical_site 1820 1831	Hippocampal
+T73	gene 1832 1836	BDNF
+T74	gene 1885 1890	TIMP3
+T75	gene 1895 1902	ADAMTS1
+T76	anatomical_site 1912 1920	vascular
+T77	anatomical_site 1937 1943	kidney
+T78	anatomical_site 1959 1969	cerebellum
+T79	anatomical_site 1974 1983	brainstem
+T80	gene 1985 1989	BDNF
+T81	gene 2025 2028	NGF
+T82	gene 2046 2050	UCP2
+T83	gene 2055 2059	UCP3
+T84	anatomical_site 2063 2069	muscle
+T85	anatomical_site 2082 2086	body
+T86	gene 2107 2115	collagen
+T87	gene 2117 2121	COL6
+T88	anatomical_site 2202 2206	lung
+T89	anatomical_site 2207 2213	tissue
+T90	anatomical_site 2238 2255	pharyngeal arches
+T91	gene 2259 2264	HAND2
+T92	gene 2267 2273	Apaf-1
+T93	anatomical_site 2277 2284	embryos
+T94	anatomical_site 2322 2329	embryos
+T95	anatomical_site 2349 2360	aortic arch
+T96	anatomical_site 2361 2369	arteries
+T97	anatomical_site 2371 2388	Connective tissue
+T98	anatomical_site 2412 2416	lung
+T99	gene 2458 2466	collagen
+T100	anatomical_site 2481 2485	lung
+T101	anatomical_site 2512 2517	serum
+T102	gene 2528 2533	IGF-I
+T103	gene 2538 2545	IGFBP-3
+T104	anatomical_site 2552 2558	adults
+T105	gene 2580 2585	ALDH2
+T106	anatomical_site 2603 2608	liver
+T107	anatomical_site 2613 2619	kidney
+T108	gene 2644 2648	HNF4
+T109	anatomical_site 2658 2663	heart
+T110	anatomical_site 2713 2724	bone marrow
+T111	anatomical_site 2740 2745	blood
+T112	gene 2780 2795	leptin receptor
+T113	gene 2797 2801	CD33
+T114	gene 2803 2810	adipsin
+T115	gene 2828 2832	MB-1
+T116	gene 2834 2842	cyclin D
+T117	gene 2870 2876	HkrT-1
+T118	anatomical_site 2960 2965	blood
+T119	gene 2985 2988	myb
+T120	gene 2990 2995	HOXA9
+T121	gene 3002 3012	cystatin c
+T122	anatomical_site 3073 3084	bone marrow
+T123	anatomical_site 3100 3105	blood
+T124	gene 3131 3137	Dicer1
+T125	gene 3141 3163	Steroidogenic factor 1
+T126	anatomical_site 3187 3193	tissue
+T127	gene 3219 3225	Dicer1
+T128	anatomical_site 3238 3244	testis
+T129	anatomical_site 3250 3255	ovary

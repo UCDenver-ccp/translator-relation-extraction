@@ -1,0 +1,128 @@
+T1	anatomical_site 16 21	serum
+T2	gene 22 33	adiponectin
+T3	gene 38 46	resistin
+T4	anatomical_site 74 77	fat
+T5	gene 115 128	semaphorin-6B
+T6	gene 133 142	plexin-A2
+T7	anatomical_site 178 189	hippocampal
+T8	anatomical_site 190 202	mossy fibers
+T9	anatomical_site 219 224	serum
+T10	gene 237 244	insulin
+T11	gene 257 264	insulin
+T12	gene 266 274	glucagon
+T13	gene 276 288	somatostatin
+T14	anatomical_site 330 336	tissue
+T15	anatomical_site 365 376	Vagus nerve
+T16	anatomical_site 409 414	serum
+T17	gene 425 431	S100A8
+T18	gene 462 466	BMP4
+T19	gene 481 485	Fgf3
+T20	gene 506 510	Bmp4
+T21	anatomical_site 525 542	dental mesenchyme
+T22	gene 592 596	Msx1
+T23	gene 601 605	Msx1
+T24	gene 623 627	Fgf3
+T25	gene 632 636	Bmp4
+T26	anatomical_site 651 668	dental mesenchyme
+T27	gene 699 704	TRPV3
+T28	gene 706 711	TRPV4
+T29	gene 713 718	TRPV5
+T30	gene 720 725	TRPM4
+T31	gene 730 735	TRPC6
+T32	anatomical_site 748 754	female
+T33	anatomical_site 762 766	male
+T34	anatomical_site 823 829	tissue
+T35	anatomical_site 852 858	tissue
+T36	gene 871 881	Uromodulin
+T37	anatomical_site 937 943	kidney
+T38	anatomical_site 996 1001	urine
+T39	gene 1003 1010	Insulin
+T40	gene 1109 1116	insulin
+T41	anatomical_site 1129 1134	blood
+T42	gene 1183 1190	insulin
+T43	anatomical_site 1194 1199	liver
+T44	anatomical_site 1201 1207	muscle
+T45	anatomical_site 1212 1226	adipose tissue
+T46	gene 1228 1232	LAT1
+T47	gene 1283 1288	SNAT2
+T48	gene 1294 1298	CAT1
+T49	anatomical_site 1312 1320	placenta
+T50	anatomical_site 1322 1337	skeletal muscle
+T51	anatomical_site 1342 1347	colon
+T52	gene 1349 1352	NGF
+T53	gene 1364 1376	NGF receptor
+T54	gene 1378 1382	TrkA
+T55	gene 1390 1393	NTR
+T56	anatomical_site 1427 1438	hippocampus
+T57	anatomical_site 1450 1465	basal forebrain
+T58	gene 1501 1512	aquaporin 1
+T59	gene 1517 1528	aquaporin 5
+T60	anatomical_site 1550 1554	lung
+T61	anatomical_site 1555 1561	tissue
+T62	gene 1577 1581	IL-6
+T63	anatomical_site 1603 1607	lung
+T64	anatomical_site 1612 1617	heart
+T65	anatomical_site 1618 1624	tissue
+T66	gene 1642 1647	NKCC1
+T67	anatomical_site 1655 1662	cochlea
+T68	anatomical_site 1685 1692	cochlea
+T69	gene 1696 1701	NKCC1
+T70	gene 1732 1737	Wnt3a
+T71	gene 1739 1744	Msgn1
+T72	gene 1749 1753	Tbx6
+T73	anatomical_site 1757 1763	neural
+T74	anatomical_site 1771 1788	paraxial mesoderm
+T75	anatomical_site 1812 1829	paraxial mesoderm
+T76	anatomical_site 1859 1865	embryo
+T77	anatomical_site 1887 1892	brain
+T78	gene 1893 1900	gastrin
+T79	gene 1901 1916	cholecystokinin
+T80	gene 1986 1990	CCL2
+T81	gene 1992 1996	CCL5
+T82	gene 1998 2003	CXCL9
+T83	gene 2005 2011	CXCL10
+T84	gene 2017 2022	CCL11
+T85	anatomical_site 2085 2090	blood
+T86	anatomical_site 2095 2100	liver
+T87	gene 2148 2152	BMP4
+T88	gene 2157 2161	BMP9
+T89	anatomical_site 2190 2195	liver
+T90	gene 2197 2202	BMP13
+T91	anatomical_site 2232 2237	liver
+T92	anatomical_site 2282 2286	body
+T93	anatomical_site 2300 2312	craniofacial
+T94	anatomical_site 2313 2321	skeleton
+T95	gene 2368 2376	collagen
+T96	gene 2381 2385	Pax9
+T97	gene 2387 2391	Pax1
+T98	gene 2397 2403	Noggin
+T99	gene 2461 2466	ezrin
+T100	gene 2468 2475	radixin
+T101	gene 2481 2487	moesin
+T102	anatomical_site 2510 2521	spinal cord
+T103	anatomical_site 2528 2544	peripheral nerve
+T104	gene 2578 2581	Hjv
+T105	gene 2628 2631	Hfe
+T106	gene 2635 2639	Tfr2
+T107	gene 2649 2653	Bmp6
+T108	gene 2714 2719	Smad5
+T109	gene 2758 2762	Bmp6
+T110	gene 2801 2809	hepcidin
+T111	anatomical_site 2840 2845	serum
+T112	gene 2846 2854	hepcidin
+T113	anatomical_site 2902 2907	liver
+T114	anatomical_site 2924 2932	pancreas
+T115	anatomical_site 2938 2943	heart
+T116	anatomical_site 2953 2960	kidneys
+T117	gene 2987 3000	interleukin-6
+T118	gene 3002 3006	IL-6
+T119	gene 3009 3023	interleukin-10
+T120	gene 3025 3030	IL-10
+T121	gene 3033 3047	interleukin-32
+T122	gene 3049 3054	IL-32
+T123	gene 3057 3075	C-reactive protein
+T124	anatomical_site 3103 3108	serum
+T125	gene 3113 3117	IL-6
+T126	gene 3119 3124	IL-10
+T127	anatomical_site 3153 3159	testis
+T128	anatomical_site 3160 3166	tissue

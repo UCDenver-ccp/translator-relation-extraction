@@ -1,0 +1,131 @@
+T1	gene 45 50	NKCC1
+T2	gene 97 101	KCC2
+T3	anatomical_site 134 139	brain
+T4	anatomical_site 140 146	cortex
+T5	gene 148 160	Glycoprotein
+T6	gene 161 164	M6a
+T7	anatomical_site 212 221	forebrain
+T8	anatomical_site 226 236	cerebellum
+T9	gene 279 282	NGF
+T10	anatomical_site 297 308	hippocampus
+T11	gene 321 324	NGF
+T12	anatomical_site 339 354	basal forebrain
+T13	gene 367 370	NTR
+T14	anatomical_site 389 400	hippocampus
+T15	gene 423 427	TrkA
+T16	anatomical_site 446 461	basal forebrain
+T17	gene 529 535	Notch1
+T18	gene 537 541	Hes1
+T19	gene 546 550	Hes5
+T20	anatomical_site 558 563	brain
+T21	anatomical_site 564 570	tissue
+T22	anatomical_site 584 589	brain
+T23	anatomical_site 650 655	serum
+T24	gene 666 675	TNF-alpha
+T25	gene 698 702	IL-6
+T26	gene 712 717	MCP-1
+T27	anatomical_site 719 725	tissue
+T28	gene 736 745	TNF-alpha
+T29	gene 747 751	IL-6
+T30	gene 757 762	MCP-1
+T31	gene 764 770	ICAM-1
+T32	gene 776 782	VCAM-1
+T33	anatomical_site 813 818	heart
+T34	anatomical_site 820 825	lungs
+T35	anatomical_site 827 832	liver
+T36	anatomical_site 838 844	kidney
+T37	anatomical_site 870 875	serum
+T38	gene 979 985	CTNNA1
+T39	gene 987 993	CTNNA2
+T40	gene 995 1001	CTNNB1
+T41	anatomical_site 1025 1042	prefrontal cortex
+T42	anatomical_site 1047 1058	hippocampus
+T43	anatomical_site 1060 1064	Lens
+T44	anatomical_site 1124 1128	lens
+T45	gene 1149 1154	MIP26
+T46	gene 1159 1170	Aquaporin 0
+T47	anatomical_site 1201 1211	lens fiber
+T48	gene 1212 1228	membrane protein
+T49	gene 1239 1248	ubiquitin
+T50	gene 1259 1262	tau
+T51	gene 1267 1282	alpha-synuclein
+T52	anatomical_site 1337 1352	cerebral cortex
+T53	anatomical_site 1378 1391	dentate gyrus
+T54	anatomical_site 1394 1411	cerebellar cortex
+T55	anatomical_site 1413 1423	brain stem
+T56	anatomical_site 1429 1440	spinal cord
+T57	gene 1487 1521	vascular endothelial growth factor
+T58	gene 1523 1527	VEGF
+T59	anatomical_site 1538 1548	epithelium
+T60	gene 1572 1580	occludin
+T61	gene 1594 1597	p42
+T62	gene 1598 1601	p44
+T63	gene 1602 1612	MAP kinase
+T64	anatomical_site 1616 1622	retina
+T65	anatomical_site 1623 1629	tissue
+T66	gene 1669 1681	somatostatin
+T67	anatomical_site 1703 1708	brain
+T68	anatomical_site 1709 1715	cortex
+T69	gene 1731 1743	somatostatin
+T70	gene 1751 1763	somatostatin
+T71	gene 1782 1794	ferroportin1
+T72	gene 1796 1806	hephaestin
+T73	gene 1811 1824	ceruloplasmin
+T74	anatomical_site 1832 1837	heart
+T75	gene 1857 1864	Zcchc11
+T76	gene 1900 1905	IGF-1
+T77	anatomical_site 1918 1923	liver
+T78	gene 1928 1933	IGF-1
+T79	anatomical_site 1949 1954	blood
+T80	gene 1985 1989	HO-1
+T81	anatomical_site 2010 2014	lung
+T82	anatomical_site 2015 2021	tissue
+T83	gene 2052 2059	insulin
+T84	anatomical_site 2078 2086	vascular
+T85	anatomical_site 2087 2098	endothelium
+T86	gene 2114 2121	insulin
+T87	gene 2134 2141	Insulin
+T88	gene 2159 2166	insulin
+T89	anatomical_site 2170 2175	serum
+T90	gene 2179 2186	insulin
+T91	anatomical_site 2281 2289	vascular
+T92	anatomical_site 2290 2296	muscle
+T93	gene 2363 2367	Cx37
+T94	gene 2369 2373	Cx40
+T95	gene 2375 2379	Cx43
+T96	gene 2385 2389	Cx45
+T97	anatomical_site 2397 2410	caudal artery
+T98	anatomical_site 2420 2434	thoracic aorta
+T99	gene 2497 2501	CRLR
+T100	gene 2503 2508	RAMP1
+T101	gene 2514 2519	RAMP2
+T102	anatomical_site 2529 2534	heart
+T103	anatomical_site 2547 2560	blood vessels
+T104	gene 2625 2636	transferrin
+T105	gene 2638 2656	C-reactive protein
+T106	gene 2658 2671	precerebellin
+T107	gene 2686 2699	Complement C3
+T108	gene 2734 2752	interleukin-1 beta
+T109	anatomical_site 2757 2762	liver
+T110	anatomical_site 2764 2770	kidney
+T111	anatomical_site 2775 2781	spleen
+T112	gene 2799 2807	Cullin-3
+T113	anatomical_site 2818 2840	vascular smooth muscle
+T114	anatomical_site 2854 2868	arterial blood
+T115	gene 2882 2886	PPAR
+T116	gene 2892 2896	RhoA
+T117	gene 2897 2900	Rho
+T118	gene 2939 2950	adiponectin
+T119	gene 2993 2998	GLUT4
+T120	gene 3026 3068	peroxisome proliferator-activated receptor
+T121	anatomical_site 3078 3083	liver
+T122	gene 3085 3091	leptin
+T123	gene 3093 3104	adiponectin
+T124	gene 3110 3134	hormone-sensitive lipase
+T125	anatomical_site 3138 3152	adipose tissue
+T126	gene 3154 3160	leptin
+T127	gene 3162 3177	leptin-receptor
+T128	anatomical_site 3191 3203	hypothalamus
+T129	gene 3215 3220	GLUT4
+T130	gene 3226 3235	insulin 1
+T131	anatomical_site 3243 3256	gastrocnemius

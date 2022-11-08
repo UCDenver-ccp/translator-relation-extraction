@@ -1,0 +1,126 @@
+T1	gene 0 3	Kir
+T2	anatomical_site 40 45	heart
+T3	anatomical_site 60 68	vascular
+T4	anatomical_site 87 93	spleen
+T5	anatomical_site 98 103	brain
+T6	anatomical_site 135 140	liver
+T7	anatomical_site 145 151	kidney
+T8	gene 153 163	Galectin-9
+T9	gene 192 202	galectin-3
+T10	anatomical_site 230 236	cortex
+T11	anatomical_site 241 252	hippocampus
+T12	anatomical_site 298 304	breast
+T13	anatomical_site 305 311	tissue
+T14	gene 322 326	IL-8
+T15	gene 331 336	IL-18
+T16	gene 338 343	COX-2
+T17	anatomical_site 384 389	liver
+T18	anatomical_site 390 396	tissue
+T19	gene 418 423	HIN-1
+T20	gene 428 434	UGRP-1
+T21	anatomical_site 465 469	lung
+T22	gene 489 494	HIN-1
+T23	anatomical_site 530 537	stomach
+T24	anatomical_site 539 544	heart
+T25	anatomical_site 546 561	small intestine
+T26	anatomical_site 575 589	mammary glands
+T27	gene 591 594	Fos
+T28	anatomical_site 617 622	brain
+T29	anatomical_site 627 638	spinal cord
+T30	anatomical_site 710 715	serum
+T31	gene 716 734	interleukin-1 beta
+T32	gene 743 756	interleukin-6
+T33	gene 758 785	tumor necrosis factor alpha
+T34	gene 787 801	interleukin-10
+T35	gene 803 813	L-selectin
+T36	gene 815 825	E-selectin
+T37	gene 827 860	intercellular adhesion molecule-1
+T38	anatomical_site 866 874	vascular
+T39	gene 875 899	cell adhesion molecule-1
+T40	gene 901 907	VCAM-1
+T41	gene 1017 1044	tumor necrosis factor-alpha
+T42	gene 1046 1055	TNF-alpha
+T43	gene 1058 1089	glial fibrillary acidic protein
+T44	gene 1091 1095	GFAP
+T45	gene 1098 1131	intercellular adhesion molecule-1
+T46	gene 1133 1139	ICAM-1
+T47	anatomical_site 1142 1150	vascular
+T48	gene 1151 1175	cell adhesion molecule-1
+T49	gene 1177 1183	VCAM-1
+T50	anatomical_site 1201 1207	tissue
+T51	anatomical_site 1225 1247	central nervous system
+T52	anatomical_site 1249 1252	CNS
+T53	gene 1309 1313	IL-6
+T54	gene 1315 1318	NGF
+T55	gene 1320 1324	BDNF
+T56	gene 1329 1333	GDNF
+T57	anatomical_site 1367 1375	striatum
+T58	anatomical_site 1381 1392	hippocampus
+T59	gene 1406 1410	GFAP
+T60	gene 1411 1415	GDNF
+T61	anatomical_site 1438 1450	nerve fibers
+T62	anatomical_site 1489 1494	nerve
+T63	gene 1527 1530	Myo
+T64	gene 1531 1535	GDNF
+T65	gene 1553 1557	Pbx1
+T66	gene 1558 1562	Pbx2
+T67	anatomical_site 1632 1640	mesoderm
+T68	gene 1645 1649	Pax1
+T69	gene 1650 1654	Pax9
+T70	anatomical_site 1658 1668	sclerotome
+T71	anatomical_site 1675 1680	serum
+T72	gene 1681 1694	interleukin-6
+T73	anatomical_site 1752 1757	serum
+T74	gene 1758 1768	prealbumin
+T75	anatomical_site 1770 1788	Bone marrow stroma
+T76	gene 1789 1802	interleukin-1
+T77	gene 1807 1820	interleukin-6
+T78	anatomical_site 1885 1896	bone marrow
+T79	anatomical_site 1918 1923	serum
+T80	gene 1934 1939	IL-25
+T81	gene 1941 1946	IL-33
+T82	gene 1948 1952	TSLP
+T83	gene 1954 1959	ezrin
+T84	gene 1961 1965	IL-4
+T85	gene 1970 1975	IL-13
+T86	anatomical_site 1983 1992	bronchial
+T87	anatomical_site 2087 2092	liver
+T88	anatomical_site 2093 2096	fat
+T89	gene 2107 2114	insulin
+T90	anatomical_site 2142 2156	adipose tissue
+T91	gene 2157 2164	insulin
+T92	gene 2270 2278	hedgehog
+T93	gene 2280 2287	Patched
+T94	gene 2293 2297	Gli1
+T95	anatomical_site 2329 2333	skin
+T96	gene 2337 2342	Runx2
+T97	anatomical_site 2348 2355	embryos
+T98	gene 2375 2379	Cx37
+T99	anatomical_site 2390 2407	jugular lymph sac
+T100	gene 2427 2431	Cx37
+T101	gene 2436 2440	Cx43
+T102	anatomical_site 2465 2478	thoracic duct
+T103	anatomical_site 2502 2507	valve
+T104	anatomical_site 2538 2543	brain
+T105	gene 2633 2636	PND
+T106	gene 2639 2642	PND
+T107	gene 2645 2648	PND
+T108	gene 2652 2655	PND
+T109	gene 2662 2665	PND
+T110	gene 2679 2683	CPT2
+T111	anatomical_site 2766 2772	cortex
+T112	anatomical_site 2774 2785	hippocampus
+T113	anatomical_site 2787 2795	midbrain
+T114	anatomical_site 2801 2811	cerebellum
+T115	gene 2838 2841	BMP
+T116	anatomical_site 2877 2882	chick
+T117	anatomical_site 2883 2889	embryo
+T118	anatomical_site 2890 2901	spinal cord
+T119	gene 2963 2968	ATOH1
+T120	gene 2969 2974	ASCL1
+T121	gene 3027 3034	NEUROG1
+T122	gene 3037 3042	PTF1a
+T123	gene 3054 3060	GM-CSF
+T124	gene 3065 3069	IL-4
+T125	anatomical_site 3073 3078	serum
+T126	anatomical_site 3096 3105	bronchial

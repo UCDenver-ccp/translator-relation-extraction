@@ -1,0 +1,113 @@
+T1	gene 0 4	Sox9
+T2	gene 9 13	Fgf9
+T3	anatomical_site 19 25	gonads
+T4	anatomical_site 34 40	testis
+T5	anatomical_site 60 66	tissue
+T6	anatomical_site 98 103	organ
+T7	anatomical_site 120 125	organ
+T8	gene 130 139	protein/g
+T9	anatomical_site 140 146	tissue
+T10	anatomical_site 182 187	liver
+T11	anatomical_site 189 195	uterus
+T12	anatomical_site 197 205	placenta
+T13	anatomical_site 216 221	liver
+T14	anatomical_site 226 232	kidney
+T15	anatomical_site 233 239	tissue
+T16	gene 263 268	DAPK3
+T17	anatomical_site 328 340	renal tubule
+T18	gene 342 346	IGF2
+T19	anatomical_site 370 384	salivary gland
+T20	gene 409 414	PLAG1
+T21	gene 424 428	IGF2
+T22	gene 477 482	PLAG1
+T23	anatomical_site 508 522	salivary gland
+T24	anatomical_site 523 529	tissue
+T25	gene 572 577	PLAG1
+T26	gene 582 586	IGF2
+T27	gene 599 605	Prox 1
+T28	anatomical_site 659 663	lens
+T29	anatomical_site 694 697	eye
+T30	gene 729 735	Prox 1
+T31	anatomical_site 773 777	iris
+T32	gene 842 847	Dlx-2
+T33	gene 854 859	DLX-2
+T34	anatomical_site 900 909	forebrain
+T35	anatomical_site 918 922	tail
+T36	anatomical_site 932 940	tubercle
+T37	anatomical_site 946 962	branchial arches
+T38	gene 964 968	CD34
+T39	gene 974 978	CD34
+T40	gene 979 985	VEGFR2
+T41	anatomical_site 1030 1041	endothelium
+T42	anatomical_site 1046 1054	vascular
+T43	gene 1110 1126	insulin receptor
+T44	gene 1136 1164	insulin receptor substrate-1
+T45	anatomical_site 1168 1174	muscle
+T46	anatomical_site 1179 1193	adipose tissue
+T47	gene 1205 1216	adiponectin
+T48	gene 1221 1232	adiponectin
+T49	anatomical_site 1258 1261	fat
+T50	gene 1269 1277	collagen
+T51	anatomical_site 1279 1284	liver
+T52	anatomical_site 1300 1305	serum
+T53	gene 1320 1325	IGF-I
+T54	gene 1344 1348	CDX2
+T55	anatomical_site 1353 1362	intestine
+T56	gene 1434 1438	MUC2
+T57	anatomical_site 1440 1445	mucus
+T58	gene 1446 1458	core protein
+T59	anatomical_site 1479 1484	serum
+T60	gene 1485 1494	myoglobin
+T61	anatomical_site 1506 1511	urine
+T62	gene 1512 1521	myoglobin
+T63	gene 1619 1622	p70
+T64	gene 1627 1630	p40
+T65	anatomical_site 1653 1658	blood
+T66	anatomical_site 1663 1667	lung
+T67	gene 1722 1726	OPA1
+T68	gene 1728 1732	Mfn1
+T69	gene 1734 1740	NDUFV2
+T70	gene 1748 1752	CYC1
+T71	anatomical_site 1771 1776	liver
+T72	anatomical_site 1777 1783	tissue
+T73	gene 1833 1846	VEGF receptor
+T74	anatomical_site 1852 1870	interstitial fluid
+T75	gene 1879 1883	VEGF
+T76	gene 1885 1901	thrombospondin-1
+T77	gene 1903 1908	TSP-1
+T78	anatomical_site 1914 1920	tissue
+T79	gene 1934 1960	matrix metalloproteinase-1
+T80	gene 1962 1967	TIMP1
+T81	anatomical_site 1972 1978	muscle
+T82	anatomical_site 2068 2074	muscle
+T83	gene 2124 2128	Cx31
+T84	gene 2133 2137	Cx43
+T85	anatomical_site 2173 2180	embryos
+T86	anatomical_site 2215 2223	placenta
+T87	anatomical_site 2235 2244	epidermis
+T88	gene 2246 2252	ArgBP2
+T89	anatomical_site 2313 2319	tissue
+T90	anatomical_site 2337 2348	subcellular
+T91	gene 2367 2375	palladin
+T92	gene 2378 2383	Renin
+T93	gene 2384 2395	angiotensin
+T94	anatomical_site 2412 2423	bone marrow
+T95	gene 2426 2453	Angiopoietin-like protein 4
+T96	gene 2455 2462	Angptl4
+T97	anatomical_site 2532 2546	adipose tissue
+T98	anatomical_site 2551 2556	liver
+T99	gene 2558 2563	Bmal1
+T100	gene 2572 2576	Per2
+T101	gene 2578 2582	Per3
+T102	gene 2584 2588	Cry1
+T103	gene 2590 2594	Cry2
+T104	gene 2599 2604	Npas2
+T105	gene 2652 2656	Cry2
+T106	anatomical_site 2660 2672	hypothalamus
+T107	anatomical_site 2685 2694	intestine
+T108	anatomical_site 2707 2713	muscle
+T109	anatomical_site 2714 2719	blood
+T110	anatomical_site 2740 2748	muscular
+T111	gene 2773 2776	HSP
+T112	gene 2781 2790	myostatin
+T113	gene 2796 2801	NOS-1

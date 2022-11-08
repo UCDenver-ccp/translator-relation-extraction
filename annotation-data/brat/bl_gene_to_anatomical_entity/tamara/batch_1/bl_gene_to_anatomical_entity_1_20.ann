@@ -1,0 +1,133 @@
+T1	gene 0 5	Smad2
+T2	gene 10 15	Smad4
+T3	anatomical_site 49 60	spinal cord
+T4	anatomical_site 65 71	muscle
+T5	gene 77 82	SMAD2
+T6	anatomical_site 131 135	male
+T7	anatomical_site 142 148	muscle
+T8	gene 172 177	SVCT1
+T9	gene 182 187	SVCT2
+T10	anatomical_site 211 216	liver
+T11	gene 221 226	SVCT1
+T12	gene 231 236	GLUT4
+T13	anatomical_site 260 275	small intestine
+T14	anatomical_site 292 300	cerebrum
+T15	anatomical_site 304 310	kidney
+T16	anatomical_site 365 371	tissue
+T17	gene 401 405	FMO1
+T18	anatomical_site 409 415	kidney
+T19	gene 417 421	FMO2
+T20	anatomical_site 425 429	lung
+T21	gene 440 444	FMO5
+T22	anatomical_site 454 459	liver
+T23	gene 462 466	FMO4
+T24	anatomical_site 533 538	liver
+T25	anatomical_site 540 546	kidney
+T26	anatomical_site 548 552	lung
+T27	anatomical_site 558 573	small intestine
+T28	anatomical_site 603 608	fatty
+T29	anatomical_site 654 659	fatty
+T30	gene 675 680	FFAR1
+T31	gene 681 686	GPR40
+T32	gene 691 696	FFAR4
+T33	anatomical_site 740 748	vascular
+T34	gene 749 773	cell adhesion molecule 1
+T35	gene 775 781	VCAM-1
+T36	anatomical_site 787 792	serum
+T37	gene 793 824	Rho-associated protein kinase 1
+T38	gene 826 832	ROCK-1
+T39	anatomical_site 898 903	aorta
+T40	anatomical_site 940 949	hindbrain
+T41	gene 953 957	Gli2
+T42	anatomical_site 963 970	embryos
+T43	gene 1038 1041	Shh
+T44	anatomical_site 1047 1054	embryos
+T45	anatomical_site 1086 1097	spinal cord
+T46	anatomical_site 1112 1121	hindbrain
+T47	gene 1123 1127	Gli3
+T48	gene 1162 1166	Gli2
+T49	gene 1189 1192	Shh
+T50	anatomical_site 1238 1247	hindbrain
+T51	gene 1266 1277	adiponectin
+T52	gene 1282 1289	insulin
+T53	anatomical_site 1346 1350	body
+T54	anatomical_site 1351 1354	fat
+T55	anatomical_site 1363 1368	blood
+T56	gene 1381 1386	GLP-1
+T57	gene 1423 1439	insulin receptor
+T58	anatomical_site 1465 1470	liver
+T59	gene 1489 1494	IRS-1
+T60	gene 1499 1515	protein kinase C
+T61	gene 1519 1526	insulin
+T62	anatomical_site 1530 1535	liver
+T63	anatomical_site 1540 1546	muscle
+T64	gene 1558 1561	Akt
+T65	anatomical_site 1594 1600	muscle
+T66	gene 1602 1607	IL-10
+T67	gene 1609 1614	IL-16
+T68	gene 1616 1621	IL-17
+T69	gene 1623 1628	IL-18
+T70	anatomical_site 1685 1696	spinal disc
+T71	anatomical_site 1697 1703	tissue
+T72	anatomical_site 1739 1745	tissue
+T73	gene 1787 1791	TLR2
+T74	gene 1793 1797	TLR3
+T75	gene 1799 1803	TLR4
+T76	gene 1805 1809	TLR5
+T77	gene 1811 1815	TLR7
+T78	gene 1820 1824	TLR9
+T79	anatomical_site 1839 1844	heart
+T80	anatomical_site 1845 1851	tissue
+T81	gene 1890 1894	HL-1
+T82	gene 1937 1941	BDNF
+T83	anatomical_site 1971 1975	head
+T84	anatomical_site 1977 1981	neck
+T85	anatomical_site 1987 1991	tail
+T86	gene 2036 2042	RhoGAP
+T87	gene 2051 2058	Stard13
+T88	anatomical_site 2088 2096	pancreas
+T89	anatomical_site 2097 2103	tissue
+T90	anatomical_site 2134 2140	embryo
+T91	gene 2169 2172	Bax
+T92	anatomical_site 2195 2206	hippocampus
+T93	anatomical_site 2208 2214	cortex
+T94	anatomical_site 2220 2230	cerebellum
+T95	gene 2278 2289	aquaporin 3
+T96	gene 2294 2305	aquaporin 9
+T97	anatomical_site 2349 2355	amnion
+T98	anatomical_site 2367 2374	chorion
+T99	anatomical_site 2406 2417	trophoblast
+T100	gene 2419 2427	Glucagon
+T101	gene 2432 2439	insulin
+T102	anatomical_site 2443 2473	pancreatic exocrine secretions
+T103	anatomical_site 2490 2495	serum
+T104	gene 2496 2503	insulin
+T105	anatomical_site 2505 2510	serum
+T106	anatomical_site 2525 2530	brain
+T107	anatomical_site 2555 2560	brain
+T108	gene 2576 2585	precursor
+T109	gene 2611 2616	BACE1
+T110	anatomical_site 2619 2624	brain
+T111	anatomical_site 2656 2661	brain
+T112	gene 2740 2745	GPR91
+T113	anatomical_site 2786 2790	male
+T114	anatomical_site 2795 2801	female
+T115	anatomical_site 2805 2812	kidneys
+T116	gene 2865 2868	PTH
+T117	gene 2869 2874	PTHrP
+T118	anatomical_site 2887 2893	kidney
+T119	anatomical_site 2895 2900	liver
+T120	anatomical_site 2906 2911	heart
+T121	gene 2913 2920	Jagged1
+T122	gene 2925 2931	Notch1
+T123	anatomical_site 2963 2985	Peyer's patch follicle
+T124	anatomical_site 2986 2996	epithelium
+T125	gene 3061 3066	Foxa1
+T126	gene 3068 3079	Hnf-3 alpha
+T127	gene 3082 3087	Foxa2
+T128	gene 3089 3099	Hnf-3 beta
+T129	anatomical_site 3182 3186	lung
+T130	anatomical_site 3188 3193	liver
+T131	anatomical_site 3195 3203	pancreas
+T132	anatomical_site 3205 3212	stomach
+T133	anatomical_site 3218 3227	intestine

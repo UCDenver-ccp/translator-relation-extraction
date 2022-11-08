@@ -1,0 +1,121 @@
+T1	gene 0 4	PHB2
+T2	gene 28 34	SQSTM1
+T3	anatomical_site 51 55	bile
+T4	anatomical_site 95 100	liver
+T5	anatomical_site 143 148	serum
+T6	gene 166 198	tumor necrosis factor receptor 2
+T7	gene 247 280	intercellular adhesion molecule-1
+T8	gene 282 288	ICAM-1
+T9	anatomical_site 291 299	vascular
+T10	gene 300 324	cell adhesion molecule-1
+T11	gene 326 332	VCAM-1
+T12	gene 335 345	P-Selectin
+T13	gene 351 361	E-Selectin
+T14	anatomical_site 367 382	coronary artery
+T15	anatomical_site 416 421	blood
+T16	gene 446 453	insulin
+T17	gene 455 460	IGF-1
+T18	anatomical_site 474 479	serum
+T19	gene 496 503	AdipoR1
+T20	anatomical_site 532 541	cartilage
+T21	anatomical_site 543 547	bone
+T22	gene 578 585	AdipoR2
+T23	anatomical_site 635 640	serum
+T24	gene 641 645	IL-2
+T25	gene 650 654	IL-6
+T26	anatomical_site 656 661	liver
+T27	gene 662 680	interleukin 1 beta
+T28	gene 693 707	interleukin 10
+T29	gene 709 714	IL-10
+T30	anatomical_site 721 726	liver
+T31	gene 727 737	E-selectin
+T32	gene 753 759	IFITM1
+T33	gene 764 770	IFITM3
+T34	anatomical_site 788 794	tissue
+T35	anatomical_site 824 828	lung
+T36	anatomical_site 830 835	heart
+T37	anatomical_site 837 842	liver
+T38	anatomical_site 844 850	spleen
+T39	anatomical_site 852 858	kidney
+T40	anatomical_site 863 868	brain
+T41	anatomical_site 874 880	tissue
+T42	gene 924 930	LYVE-1
+T43	gene 958 962	CD34
+T44	gene 967 978	aquaporin-1
+T45	anatomical_site 998 1015	lymphatic vessels
+T46	anatomical_site 1017 1023	nerves
+T47	anatomical_site 1025 1038	blood vessels
+T48	gene 1100 1107	insulin
+T49	anatomical_site 1149 1168	cerebrospinal fluid
+T50	anatomical_site 1172 1183	optic nerve
+T51	gene 1184 1191	insulin
+T52	gene 1223 1230	insulin
+T53	gene 1244 1249	FoxO1
+T54	anatomical_site 1291 1294	fat
+T55	gene 1308 1315	insulin
+T56	gene 1341 1389	peroxisome proliferator-activated receptor gamma
+T57	anatomical_site 1404 1418	adipose tissue
+T58	gene 1429 1436	elastin
+T59	gene 1451 1456	Fstl1
+T60	anatomical_site 1460 1464	lung
+T61	anatomical_site 1485 1498	renal capsule
+T62	gene 1500 1520	Antidiuretic hormone
+T63	gene 1524 1544	arginine vasopressin
+T64	gene 1546 1549	AVP
+T65	anatomical_site 1587 1603	collecting ducts
+T66	anatomical_site 1611 1617	kidney
+T67	anatomical_site 1623 1628	brain
+T68	anatomical_site 1629 1635	tissue
+T69	gene 1671 1675	IL-6
+T70	gene 1684 1687	TNF
+T71	gene 1691 1696	Bcl-2
+T72	gene 1698 1701	Bax
+T73	gene 1703 1709	Casp-3
+T74	gene 1714 1720	ICAM-1
+T75	anatomical_site 1776 1787	hippocampus
+T76	anatomical_site 1814 1819	brain
+T77	gene 1880 1883	NGF
+T78	gene 1891 1894	KBp
+T79	gene 1919 1923	Pax3
+T80	anatomical_site 1938 1949	neural tube
+T81	anatomical_site 1954 1966	neural crest
+T82	anatomical_site 1989 1996	embryos
+T83	gene 2030 2033	p53
+T84	gene 2037 2041	Mdm2
+T85	gene 2043 2047	BDNF
+T86	anatomical_site 2059 2071	nerve fibers
+T87	gene 2101 2110	calbindin
+T88	anatomical_site 2133 2147	lateral septum
+T89	gene 2161 2165	TrkB
+T90	gene 2198 2202	BDNF
+T91	anatomical_site 2224 2229	aorta
+T92	gene 2270 2279	myocardin
+T93	anatomical_site 2306 2311	aorta
+T94	gene 2328 2334	Smad 1
+T95	gene 2339 2345	Smad 3
+T96	gene 2427 2433	Smad 1
+T97	gene 2438 2444	Smad 3
+T98	gene 2446 2452	Smad 3
+T99	anatomical_site 2487 2491	duct
+T100	anatomical_site 2492 2502	epithelium
+T101	gene 2504 2507	Af9
+T102	anatomical_site 2544 2560	stria vascularis
+T103	anatomical_site 2562 2581	Reissner's membrane
+T104	anatomical_site 2602 2617	spiral ganglion
+T105	gene 2672 2679	basigin
+T106	gene 2697 2701	ESR1
+T107	gene 2711 2715	ESR2
+T108	anatomical_site 2724 2730	uterus
+T109	anatomical_site 2735 2752	efferent ductules
+T110	gene 2776 2793	estrogen receptor
+T111	anatomical_site 2801 2806	ovary
+T112	anatomical_site 2817 2823	testis
+T113	gene 2848 2859	transferrin
+T114	anatomical_site 2882 2903	cerebral spinal fluid
+T115	anatomical_site 2908 2917	inner ear
+T116	anatomical_site 2918 2927	perilymph
+T117	anatomical_site 2940 2945	blood
+T118	anatomical_site 2957 2960	ear
+T119	gene 2991 2996	GLUT4
+T120	anatomical_site 3049 3062	soleus muscle
+T121	anatomical_site 3067 3092	extensor digitorum longus

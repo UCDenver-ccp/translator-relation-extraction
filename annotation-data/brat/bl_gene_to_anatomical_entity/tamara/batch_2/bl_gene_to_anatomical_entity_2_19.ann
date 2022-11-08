@@ -1,0 +1,121 @@
+T1	gene 27 31	MyoD
+T2	gene 36 44	myogenin
+T3	anatomical_site 60 65	nerve
+T4	anatomical_site 74 80	muscle
+T5	gene 106 110	Lrp4
+T6	anatomical_site 125 129	bone
+T7	anatomical_site 152 157	serum
+T8	gene 158 168	sclerostin
+T9	anatomical_site 184 188	bone
+T10	gene 203 207	Sost
+T11	gene 221 231	sclerostin
+T12	gene 276 280	Lrp4
+T13	gene 289 299	sclerostin
+T14	anatomical_site 307 311	bone
+T15	gene 331 334	HGF
+T16	anatomical_site 373 383	epithelium
+T17	anatomical_site 398 404	vessel
+T18	anatomical_site 405 416	endothelium
+T19	anatomical_site 465 469	tail
+T20	anatomical_site 470 474	head
+T21	anatomical_site 475 478	fat
+T22	anatomical_site 480 484	back
+T23	anatomical_site 485 488	fat
+T24	anatomical_site 490 503	perirenal fat
+T25	anatomical_site 505 523	longissimus muscle
+T26	anatomical_site 529 534	liver
+T27	gene 566 573	GPR109A
+T28	gene 652 659	GPR109A
+T29	gene 738 743	VAMP5
+T30	anatomical_site 782 787	brain
+T31	anatomical_site 792 807	small intestine
+T32	gene 849 854	PRPF8
+T33	gene 859 864	GRIA1
+T34	anatomical_site 868 874	testis
+T35	anatomical_site 879 884	brain
+T36	anatomical_site 885 891	cortex
+T37	gene 929 934	FGFR2
+T38	anatomical_site 939 945	breast
+T39	anatomical_site 950 958	prostate
+T40	gene 1029 1035	Slit-2
+T41	gene 1040 1046	Slit-3
+T42	anatomical_site 1065 1085	pulmonary mesenchyme
+T43	anatomical_site 1097 1107	epithelium
+T44	gene 1127 1132	GLUT4
+T45	anatomical_site 1136 1151	skeletal muscle
+T46	anatomical_site 1167 1171	body
+T47	gene 1172 1179	insulin
+T48	gene 1188 1192	Msx1
+T49	gene 1197 1201	Msx2
+T50	anatomical_site 1224 1231	sutural
+T51	anatomical_site 1232 1242	mesenchyme
+T52	anatomical_site 1284 1288	bone
+T53	gene 1314 1318	BMP4
+T54	anatomical_site 1387 1395	ectoderm
+T55	gene 1397 1401	BMP4
+T56	anatomical_site 1419 1425	neural
+T57	anatomical_site 1442 1451	epidermis
+T58	gene 1503 1528	choline acetyltransferase
+T59	gene 1532 1539	insulin
+T60	anatomical_site 1553 1558	chick
+T61	anatomical_site 1559 1565	retina
+T62	gene 1578 1582	AQP1
+T63	gene 1584 1588	AQP4
+T64	gene 1594 1598	AQP9
+T65	anatomical_site 1623 1628	brain
+T66	anatomical_site 1664 1669	brain
+T67	gene 1693 1696	GHR
+T68	gene 1703 1706	GHR
+T69	anatomical_site 1728 1734	tissue
+T70	anatomical_site 1760 1765	liver
+T71	anatomical_site 1767 1776	intestine
+T72	anatomical_site 1778 1785	kidneys
+T73	anatomical_site 1787 1793	muscle
+T74	anatomical_site 1805 1810	brain
+T75	gene 1847 1850	p42
+T76	gene 1851 1858	p44MAPK
+T77	gene 1903 1906	p42
+T78	gene 1907 1914	p44MAPK
+T79	anatomical_site 1932 1943	subcellular
+T80	anatomical_site 1960 1965	brain
+T81	gene 1975 1980	GLP-1
+T82	gene 2029 2043	GLP-1 receptor
+T83	anatomical_site 2061 2078	pancreatic islets
+T84	anatomical_site 2080 2084	lung
+T85	anatomical_site 2086 2098	hypothalamus
+T86	anatomical_site 2100 2107	stomach
+T87	anatomical_site 2109 2114	heart
+T88	anatomical_site 2119 2125	kidney
+T89	gene 2149 2157	glucagon
+T90	gene 2162 2169	insulin
+T91	anatomical_site 2208 2212	bone
+T92	anatomical_site 2214 2217	fat
+T93	anatomical_site 2219 2224	liver
+T94	anatomical_site 2230 2236	muscle
+T95	anatomical_site 2268 2280	forearm skin
+T96	gene 2292 2297	TRPV2
+T97	gene 2302 2307	TRPM8
+T98	anatomical_site 2323 2335	nerve fibers
+T99	anatomical_site 2339 2348	epidermis
+T100	anatomical_site 2349 2365	papillary dermis
+T101	anatomical_site 2377 2390	blood vessels
+T102	anatomical_site 2395 2409	hair follicles
+T103	anatomical_site 2413 2419	dermis
+T104	anatomical_site 2436 2448	nerve fibers
+T105	gene 2473 2478	TRPV1
+T106	anatomical_site 2494 2506	nerve fibers
+T107	anatomical_site 2522 2526	skin
+T108	anatomical_site 2535 2539	lung
+T109	gene 2543 2547	Sod3
+T110	gene 2557 2562	Hoxa5
+T111	gene 2567 2572	Hoxb5
+T112	gene 2584 2615	Transforming growth factor beta
+T113	gene 2618 2654	urokinase-type plasminogen activator
+T114	gene 2659 2692	plasminogen activator inhibitor-1
+T115	anatomical_site 2712 2716	head
+T116	anatomical_site 2721 2725	neck
+T117	anatomical_site 2765 2771	mucosa
+T118	gene 2777 2782	IREG1
+T119	anatomical_site 2827 2832	liver
+T120	anatomical_site 2872 2878	kidney
+T121	anatomical_site 2893 2899	spleen

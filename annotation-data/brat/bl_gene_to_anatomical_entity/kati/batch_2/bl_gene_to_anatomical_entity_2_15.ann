@@ -1,0 +1,111 @@
+T1	gene 35 41	noggin
+T2	anatomical_site 60 65	organ
+T3	anatomical_site 93 102	forelimbs
+T4	gene 154 159	BMP-7
+T5	anatomical_site 177 185	forelimb
+T6	gene 203 209	noggin
+T7	anatomical_site 228 243	limb mesenchyme
+T8	gene 271 275	IL-2
+T9	gene 277 281	IL-6
+T10	gene 283 287	IL-4
+T11	gene 289 294	IL-10
+T12	anatomical_site 316 321	serum
+T13	gene 349 353	IL-4
+T14	gene 355 359	IL-6
+T15	anatomical_site 378 387	bile duct
+T16	gene 392 396	IL-6
+T17	anatomical_site 402 407	urine
+T18	gene 424 428	Grg4
+T19	anatomical_site 460 478	epithelial tissues
+T20	anatomical_site 490 501	mesenchymal
+T21	gene 530 534	Grg3
+T22	gene 536 542	Notch1
+T23	gene 547 551	Hes1
+T24	anatomical_site 616 620	lung
+T25	anatomical_site 621 627	tissue
+T26	gene 642 647	CXCR4
+T27	gene 649 654	CXCR7
+T28	gene 659 665	CXCL12
+T29	gene 701 706	FSP27
+T30	anatomical_site 734 748	adipose tissue
+T31	gene 756 761	CIDEB
+T32	anatomical_site 782 787	liver
+T33	gene 789 796	Insulin
+T34	anatomical_site 809 814	fatty
+T35	anatomical_site 815 820	liver
+T36	anatomical_site 827 832	serum
+T37	gene 833 839	leptin
+T38	anatomical_site 947 958	mesothelium
+T39	anatomical_site 971 979	vascular
+T40	gene 1002 1008	c-erbB
+T41	gene 1010 1015	HER-2
+T42	gene 1025 1032	VEGFR-2
+T43	gene 1060 1064	AQP1
+T44	gene 1077 1081	AQP3
+T45	anatomical_site 1116 1122	cortex
+T46	anatomical_site 1130 1137	medulla
+T47	anatomical_site 1148 1155	medulla
+T48	gene 1157 1162	BMP-4
+T49	anatomical_site 1173 1189	ventral mesoderm
+T50	anatomical_site 1219 1225	neural
+T51	gene 1301 1307	noggin
+T52	gene 1325 1332	chordin
+T53	anatomical_site 1333 1351	dorsalize mesoderm
+T54	anatomical_site 1364 1370	neural
+T55	gene 1382 1386	Rip2
+T56	anatomical_site 1452 1457	mucus
+T57	anatomical_site 1488 1492	lung
+T58	gene 1526 1532	ICAM-1
+T59	gene 1534 1540	VCAM-1
+T60	gene 1542 1552	E-selectin
+T61	gene 1562 1567	IL-17
+T62	gene 1576 1604	thymic stromal lymphopoietin
+T63	anatomical_site 1643 1647	lung
+T64	anatomical_site 1687 1697	mesodermal
+T65	gene 1720 1731	VE-cadherin
+T66	gene 1733 1740	PECAM-1
+T67	gene 1742 1746	Tie2
+T68	gene 1748 1756	endoglin
+T69	gene 1762 1766	CD34
+T70	anatomical_site 1780 1786	embryo
+T71	anatomical_site 1812 1818	tissue
+T72	anatomical_site 1909 1915	mucosa
+T73	anatomical_site 1950 1956	tissue
+T74	gene 1967 1970	p53
+T75	gene 1972 1975	p21
+T76	gene 1976 1980	WAF1
+T77	gene 1981 1985	CIP1
+T78	gene 1987 1995	cyclin E
+T79	gene 1997 2002	Bcl-2
+T80	gene 2036 2039	Fak
+T81	anatomical_site 2068 2074	cortex
+T82	anatomical_site 2105 2114	notochord
+T83	anatomical_site 2115 2121	somite
+T84	anatomical_site 2150 2156	muscle
+T85	gene 2157 2164	insulin
+T86	gene 2181 2186	GLUT4
+T87	gene 2234 2238	HO-1
+T88	gene 2240 2243	p21
+T89	gene 2248 2252	LCAD
+T90	anatomical_site 2272 2277	heart
+T91	anatomical_site 2282 2287	aorta
+T92	anatomical_site 2290 2305	Lung surfactant
+T93	gene 2317 2321	SP-A
+T94	anatomical_site 2356 2376	pulmonary surfactant
+T95	gene 2429 2435	ICAM-1
+T96	anatomical_site 2461 2471	epithelium
+T97	anatomical_site 2476 2487	endothelium
+T98	gene 2506 2512	VCAM-1
+T99	gene 2513 2519	ELAM-1
+T100	anatomical_site 2553 2564	endothelium
+T101	gene 2583 2589	Cyp1a1
+T102	gene 2594 2600	Cyp1b1
+T103	anatomical_site 2610 2614	lung
+T104	anatomical_site 2619 2624	liver
+T105	anatomical_site 2625 2631	tissue
+T106	anatomical_site 2690 2698	Vascular
+T107	gene 2711 2718	insulin
+T108	gene 2719 2724	IGF-1
+T109	anatomical_site 2744 2748	skin
+T110	gene 2773 2787	Thrombomodulin
+T111	anatomical_site 2791 2796	urine

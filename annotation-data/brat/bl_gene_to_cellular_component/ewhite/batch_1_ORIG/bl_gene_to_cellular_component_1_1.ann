@@ -1,0 +1,134 @@
+T1	gene 9 14	Rab20
+T2	gene 36 40	Rab5
+T3	gene 45 50	Rab21
+T4	cellular_component 54 68	macropinosomal
+T5	cellular_component 69 78	membranes
+T6	gene 99 104	Rab20
+T7	gene 167 171	Rab5
+T8	gene 176 181	Rab21
+T9	cellular_component 187 201	macropinosomal
+T10	cellular_component 202 211	membranes
+T11	gene 227 236	recoverin
+T12	gene 245 261	rhodopsin kinase
+T13	cellular_component 265 274	membranes
+T14	gene 286 295	rhodopsin
+T15	gene 317 341	peroxisomal Lon protease
+T16	gene 342 347	LonP2
+T17	cellular_component 401 414	mitochondrial
+T18	gene 415 427	Lon protease
+T19	gene 428 433	LonP1
+T20	cellular_component 439 448	lysosomal
+T21	gene 457 462	Lamp1
+T22	gene 475 479	Rab5
+T23	gene 481 485	Rab7
+T24	gene 487 491	Rab9
+T25	gene 497 502	Rab11
+T26	cellular_component 528 546	vacuolar membranes
+T27	gene 596 601	CDC47
+T28	gene 603 608	CDC46
+T29	gene 609 613	MCM5
+T30	gene 615 620	Cdc21
+T31	gene 622 629	P1/MCM3
+T32	gene 631 635	Mis5
+T33	gene 646 650	MCM2
+T34	cellular_component 683 691	antibody
+T35	gene 733 738	Macf1
+T36	gene 795 799	Bmp2
+T37	cellular_component 800 804	Smad
+T38	gene 800 804	Smad
+T39	gene 805 810	Runx2
+T40	gene 820 830	Optineurin
+T41	cellular_component 903 910	vesicle
+T42	cellular_component 943 956	Golgi complex
+T43	gene 1021 1025	Rab8
+T44	gene 1027 1035	myosin 6
+T45	gene 1037 1041	MYO6
+T46	gene 1044 1054	huntingtin
+T47	gene 1061 1064	Src
+T48	gene 1069 1073	ERK1
+T49	cellular_component 1111 1119	integrin
+T50	gene 1111 1119	integrin
+T51	gene 1146 1149	Src
+T52	gene 1187 1191	ERK1
+T53	gene 1209 1212	uPA
+T54	gene 1246 1278	epidermal growth factor receptor
+T55	gene 1318 1321	uPA
+T56	gene 1356 1361	TWSG1
+T57	gene 1377 1380	BMP
+T58	gene 1412 1415	BMP
+T59	cellular_component 1443 1462	extracellular space
+T60	gene 1464 1468	Pin2
+T61	gene 1469 1473	TRF1
+T62	gene 1498 1503	PinX1
+T63	cellular_component 1508 1517	nucleolar
+T64	cellular_component 1597 1617	extracellular matrix
+T65	gene 1626 1637	vitronectin
+T66	cellular_component 1699 1709	antibodies
+T67	gene 1726 1730	BP-1
+T68	gene 1758 1762	AP-1
+T69	gene 1766 1771	BMP-2
+T70	gene 1776 1784	TGF-beta
+T71	gene 1802 1806	Smad
+T72	cellular_component 1802 1806	Smad
+T73	gene 1827 1832	Smad4
+T74	cellular_component 1833 1841	antibody
+T75	gene 1858 1862	AP-1
+T76	gene 1884 1889	Smad7
+T77	gene 1893 1898	Smad7
+T78	gene 1927 1939	Smad protein
+T79	cellular_component 1927 1939	Smad protein
+T80	gene 1957 1965	TGF-beta
+T81	cellular_component 2012 2016	Smad
+T82	gene 2012 2016	Smad
+T83	gene 2056 2060	CD36
+T84	gene 2065 2090	colony-stimulating factor
+T85	gene 2103 2108	CSF1R
+T86	gene 2133 2136	Fas
+T87	gene 2152 2155	Fas
+T88	cellular_component 2167 2184	cellular membrane
+T89	gene 2193 2200	insulin
+T90	cellular_component 2249 2261	as complexes
+T91	gene 2303 2310	insulin
+T92	gene 2371 2380	integrins
+T93	cellular_component 2371 2380	integrins
+T94	gene 2381 2386	LFA-1
+T95	gene 2388 2393	Mac-1
+T96	gene 2413 2417	CD18
+T97	gene 2425 2429	CD18
+T98	gene 2431 2436	CD11c
+T99	gene 2437 2441	CD18
+T100	gene 2529 2534	Smads
+T101	cellular_component 2529 2534	Smads
+T102	cellular_component 2656 2661	Smads
+T103	gene 2656 2661	Smads
+T104	cellular_component 2716 2721	Smads
+T105	gene 2716 2721	Smads
+T106	gene 2723 2727	Cdr2
+T107	cellular_component 2748 2761	cell polarity
+T108	gene 2769 2773	Pom1
+T109	cellular_component 2812 2825	cell polarity
+T110	gene 2843 2847	Cdr1
+T111	gene 2848 2852	Cdr2
+T112	gene 2921 2948	Protein disulfide isomerase
+T113	gene 2950 2953	PDI
+T114	cellular_component 3059 3072	extracellular
+T115	gene 3117 3122	KIF11
+T116	gene 3124 3130	KIF21A
+T117	gene 3132 3137	KIF25
+T118	gene 3139 3143	MYH1
+T119	gene 3147 3151	TPM2
+T120	cellular_component 3175 3193	lysosomal membrane
+T121	cellular_component 3274 3283	lysosomal
+T122	cellular_component 3312 3321	lysosomal
+T123	gene 3330 3335	KIF11
+T124	gene 3337 3343	KIF20A
+T125	gene 3345 3350	KIF25
+T126	gene 3352 3357	MYO1G
+T127	gene 3359 3363	MYH1
+T128	gene 3405 3411	KIF20A
+T129	gene 3413 3418	KIF25
+T130	gene 3453 3458	KIF25
+T131	gene 3460 3464	MYH1
+T132	gene 3466 3470	TPM2
+T133	gene 3505 3511	KIF20A
+T134	gene 3549 3553	MYH1

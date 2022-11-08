@@ -1,0 +1,99 @@
+T1	anatomical_site 45 50	liver
+T2	gene 51 55	ALT1
+T3	anatomical_site 56 71	skeletal muscle
+T4	gene 72 76	ALT1
+T5	anatomical_site 77 92	skeletal muscle
+T6	gene 93 97	ALT2
+T7	gene 145 152	insulin
+T8	gene 158 166	glucagon
+T9	anatomical_site 174 177	eye
+T10	gene 190 198	glucagon
+T11	gene 202 209	insulin
+T12	anatomical_site 224 227	eye
+T13	gene 229 270	Limbic system-associated membrane protein
+T14	gene 272 276	LAMP
+T15	anatomical_site 289 297	amygdala
+T16	anatomical_site 302 313	hippocampus
+T17	gene 343 347	BDNF
+T18	anatomical_site 359 375	peripheral nerve
+T19	anatomical_site 380 386	muscle
+T20	anatomical_site 406 411	brain
+T21	anatomical_site 446 451	brain
+T22	gene 452 457	renin
+T23	gene 458 469	angiotensin
+T24	gene 493 498	Foxn1
+T25	gene 509 513	Dsc2
+T26	anatomical_site 546 558	hair medulla
+T27	gene 584 588	Dsc2
+T28	anatomical_site 670 676	cortex
+T29	anatomical_site 685 692	medulla
+T30	gene 758 762	LacZ
+T31	anatomical_site 775 779	bone
+T32	anatomical_site 784 788	skin
+T33	gene 792 796	LacZ
+T34	anatomical_site 798 802	limb
+T35	anatomical_site 821 827	muscle
+T36	gene 831 835	LacZ
+T37	gene 863 868	FoxO4
+T38	anatomical_site 901 907	amnion
+T39	anatomical_site 908 918	epithelium
+T40	gene 936 943	insulin
+T41	gene 1016 1023	insulin
+T42	gene 1053 1059	PIK3R1
+T43	anatomical_site 1074 1081	gonadal
+T44	anatomical_site 1082 1085	fat
+T45	anatomical_site 1090 1095	liver
+T46	gene 1147 1152	Hoxd8
+T47	gene 1157 1162	Hoxd9
+T48	anatomical_site 1186 1199	gastrocnemius
+T49	anatomical_site 1212 1222	quadriceps
+T50	anatomical_site 1226 1232	soleus
+T51	gene 1260 1264	Dkk3
+T52	anatomical_site 1305 1318	gastrocnemius
+T53	anatomical_site 1323 1329	soleus
+T54	gene 1381 1386	CREB1
+T55	gene 1388 1393	WDR92
+T56	gene 1398 1403	ETAA1
+T57	anatomical_site 1428 1431	fat
+T58	anatomical_site 1432 1436	tail
+T59	gene 1450 1454	Gpc4
+T60	gene 1459 1463	Gpc6
+T61	anatomical_site 1518 1521	CNS
+T62	gene 1528 1532	Gpc4
+T63	anatomical_site 1560 1571	hippocampus
+T64	gene 1576 1580	Gpc6
+T65	anatomical_site 1597 1607	cerebellum
+T66	anatomical_site 1654 1659	serum
+T67	anatomical_site 1664 1670	tissue
+T68	gene 1681 1685	HER2
+T69	anatomical_site 1711 1721	epithelium
+T70	gene 1732 1746	cytokeratin 14
+T71	gene 1768 1776	occludin
+T72	gene 1784 1795	neuroglobin
+T73	anatomical_site 1807 1826	cerebrospinal fluid
+T74	anatomical_site 1834 1838	body
+T75	anatomical_site 1843 1849	muscle
+T76	gene 1850 1857	insulin
+T77	gene 1930 1937	insulin
+T78	anatomical_site 1951 1966	skeletal muscle
+T79	anatomical_site 2003 2011	epiblast
+T80	gene 2037 2042	Nodal
+T81	gene 2043 2048	Smad2
+T82	anatomical_site 2062 2079	visceral endoderm
+T83	gene 2122 2127	SVCT2
+T84	anatomical_site 2143 2148	liver
+T85	anatomical_site 2150 2154	lung
+T86	anatomical_site 2159 2165	kidney
+T87	gene 2169 2174	SVCT2
+T88	gene 2235 2241	ClC-K1
+T89	gene 2246 2252	ClC-K2
+T90	anatomical_site 2286 2292	kidney
+T91	gene 2300 2305	ClC-3
+T92	anatomical_site 2349 2354	brain
+T93	anatomical_site 2356 2360	lung
+T94	anatomical_site 2366 2372	kidney
+T95	gene 2393 2398	PLAC1
+T96	anatomical_site 2432 2440	placenta
+T97	gene 2447 2452	DPPA2
+T98	anatomical_site 2486 2494	placenta
+T99	anatomical_site 2499 2505	testis

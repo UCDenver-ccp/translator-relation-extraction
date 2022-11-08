@@ -1,0 +1,132 @@
+T1	cellular_component 25 37	mitochondria
+T2	gene 39 76	gross cystic disease fluid protein 15
+T3	gene 92 109	estrogen receptor
+T4	gene 134 151	androgen receptor
+T5	gene 153 157	HER2
+T6	gene 158 161	Neu
+T7	gene 163 176	cytokeratin 7
+T8	gene 178 192	cytokeratin 14
+T9	cellular_component 327 336	cytosolic
+T10	gene 362 365	p21
+T11	gene 390 393	Akt
+T12	gene 395 398	p38
+T13	gene 399 431	mitogen-activated protein kinase
+T14	gene 433 436	p38
+T15	gene 436 440	MAPK
+T16	gene 443 480	extracellular signal-regulated kinase
+T17	gene 482 486	ERK1
+T18	gene 543 546	p53
+T19	gene 561 564	p21
+T20	gene 591 594	p53
+T21	cellular_component 626 635	chromatin
+T22	cellular_component 641 650	cytosolic
+T23	gene 688 691	p21
+T24	gene 702 705	p21
+T25	gene 754 757	p53
+T26	gene 759 762	BMP
+T27	cellular_component 771 775	SMAD
+T28	gene 771 775	SMAD
+T29	gene 790 796	BMPR1A
+T30	gene 847 853	BMPR1A
+T31	cellular_component 868 877	Calpain-1
+T32	gene 868 877	Calpain-1
+T33	gene 879 882	Src
+T34	cellular_component 889 897	spectrin
+T35	gene 889 897	spectrin
+T36	gene 976 979	p27
+T37	gene 980 984	Kip1
+T38	gene 995 999	PAX3
+T39	gene 1061 1065	Skp2
+T40	gene 1114 1118	Skp1
+T41	gene 1119 1125	Cullin
+T42	gene 1196 1199	p27
+T43	gene 1200 1204	Kip1
+T44	cellular_component 1230 1240	proteasome
+T45	gene 1305 1310	Cdc42
+T46	gene 1315 1318	Rac
+T47	gene 1346 1349	Src
+T48	gene 1395 1403	cadherin
+T49	cellular_component 1410 1428	adherens junctions
+T50	cellular_component 1459 1477	actin cytoskeleton
+T51	gene 1519 1551	mitogen-activated protein kinase
+T52	cellular_component 1565 1582	cell polarization
+T53	cellular_component 1591 1604	cell polarity
+T54	gene 1677 1697	cytochrome c protein
+T55	cellular_component 1707 1719	mitochondria
+T56	cellular_component 1727 1734	cytosol
+T57	gene 1797 1800	Bax
+T58	gene 1810 1819	caspase-3
+T59	gene 1829 1838	caspase-9
+T60	gene 1843 1846	p53
+T61	gene 1901 1906	Bcl-2
+T62	gene 1931 1934	Rac
+T63	gene 1964 1969	ezrin
+T64	gene 1970 1977	radixin
+T65	gene 1978 1984	moesin
+T66	gene 2052 2060	stathmin
+T67	cellular_component 2094 2105	microtubule
+T68	cellular_component 2131 2140	cytosolic
+T69	gene 2141 2145	Ku70
+T70	cellular_component 2160 2169	cytosolic
+T71	gene 2170 2174	Ku80
+T72	gene 2176 2180	Ku70
+T73	cellular_component 2206 2213	nucleus
+T74	cellular_component 2324 2332	vacuoles
+T75	cellular_component 2344 2351	F-actin
+T76	gene 2383 2393	caveolin 1
+T77	gene 2395 2399	Arf6
+T78	gene 2408 2415	insulin
+T79	gene 2424 2440	membrane protein
+T80	gene 2441 2448	phogrin
+T81	gene 2457 2464	insulin
+T82	gene 2508 2512	PCNA
+T83	gene 2516 2519	Tyr
+T84	gene 2531 2543	EGF receptor
+T85	gene 2545 2549	EGFR
+T86	gene 2560 2564	PCNA
+T87	cellular_component 2690 2699	chromatin
+T88	gene 2729 2733	PCNA
+T89	gene 2788 2792	MMP3
+T90	gene 2803 2808	GAPDH
+T91	gene 2846 2849	BMP
+T92	gene 2851 2855	MAPK
+T93	cellular_component 2862 2866	SMAD
+T94	gene 2862 2866	SMAD
+T95	gene 2871 2921	tumor necrosis factor ligand superfamily member 11
+T96	gene 2923 2930	TNFSF11
+T97	gene 2976 3008	mitogen-activated protein kinase
+T98	gene 3009 3012	p38
+T99	gene 3014 3018	MAPK
+T100	gene 3019 3022	p38
+T101	gene 3135 3139	MAPK
+T102	cellular_component 3144 3154	antibodies
+T103	gene 3182 3214	epidermal growth factor receptor
+T104	gene 3216 3220	EGFR
+T105	gene 3243 3246	Src
+T106	gene 3270 3280	E-cadherin
+T107	cellular_component 3300 3309	lysosomal
+T108	gene 3333 3337	SIP1
+T109	gene 3355 3358	BMP
+T110	cellular_component 3383 3387	Smad
+T111	gene 3383 3387	Smad
+T112	cellular_component 3411 3424	mitochondrial
+T113	gene 3425 3437	cytochrome c
+T114	cellular_component 3453 3460	cytosol
+T115	gene 3478 3481	Bax
+T116	gene 3526 3531	Bcl-2
+T117	cellular_component 3533 3541	Membrane
+T118	gene 3600 3632	epidermal growth factor receptor
+T119	gene 3634 3638	EGFR
+T120	gene 3644 3650	ErbB-2
+T121	gene 3652 3656	Smad
+T122	cellular_component 3652 3656	Smad
+T123	cellular_component 3670 3683	intracellular
+T124	gene 3697 3728	transforming growth factor-beta
+T125	gene 3730 3738	TGF-beta
+T126	gene 3763 3769	NHERF1
+T127	gene 3819 3824	ezrin
+T128	gene 3825 3832	radixin
+T129	gene 3833 3839	moesin
+T130	gene 3854 3868	phosphoprotein
+T131	gene 3885 3914	PDZ domain-containing protein
+T132	cellular_component 3954 3969	plasma membrane

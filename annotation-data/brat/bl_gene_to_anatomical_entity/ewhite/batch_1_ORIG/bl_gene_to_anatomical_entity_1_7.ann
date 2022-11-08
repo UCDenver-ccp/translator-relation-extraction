@@ -1,0 +1,128 @@
+T1	gene 0 6	ADSSL1
+T2	gene 8 12	CDO1
+T3	gene 14 20	DNAJB1
+T4	gene 30 36	HSPA1B
+T5	gene 38 43	HSPA2
+T6	gene 45 50	HSPB8
+T7	gene 52 58	IGFBP5
+T8	gene 60 66	OLFML3
+T9	anatomical_site 71 74	fat
+T10	gene 94 101	Ceacam1
+T11	gene 103 106	Cc1
+T12	gene 150 157	insulin
+T13	anatomical_site 173 178	fatty
+T14	anatomical_site 179 184	liver
+T15	gene 186 191	EAAT1
+T16	gene 193 198	EAAT2
+T17	gene 203 208	EAAT3
+T18	anatomical_site 246 251	brain
+T19	gene 274 305	Glial fibrillary acidic protein
+T20	gene 307 311	GFAP
+T21	anatomical_site 356 361	chick
+T22	anatomical_site 362 368	embryo
+T23	gene 389 403	neurotrophin-3
+T24	anatomical_site 418 429	hippocampus
+T25	gene 450 454	Ala1
+T26	gene 463 475	endothelin-1
+T27	gene 512 516	Ala1
+T28	gene 525 537	endothelin-1
+T29	gene 563 577	neurotrophin-3
+T30	gene 602 633	glial fibrillary acidic protein
+T31	anatomical_site 657 672	caudate putamen
+T32	anatomical_site 677 685	cerebrum
+T33	anatomical_site 702 707	serum
+T34	gene 713 720	insulin
+T35	anatomical_site 722 727	serum
+T36	gene 728 732	BDNF
+T37	gene 737 742	IGF-I
+T38	anatomical_site 825 842	prefrontal cortex
+T39	anatomical_site 847 858	hippocampus
+T40	gene 899 903	TrkB
+T41	anatomical_site 922 926	male
+T42	gene 956 960	BDNF
+T43	anatomical_site 1026 1032	tissue
+T44	gene 1049 1057	occludin
+T45	gene 1059 1063	ZO-1
+T46	gene 1065 1069	ZO-2
+T47	gene 1075 1084	claudin-1
+T48	anatomical_site 1096 1102	cornea
+T49	anatomical_site 1184 1190	tissue
+T50	gene 1204 1208	Sox1
+T51	gene 1210 1214	Sox2
+T52	gene 1219 1223	Sox9
+T53	anatomical_site 1255 1274	Purkinje cell layer
+T54	anatomical_site 1288 1298	cerebellum
+T55	anatomical_site 1314 1319	liver
+T56	gene 1320 1324	Brg1
+T57	gene 1326 1330	Nrf2
+T58	gene 1332 1336	HO-1
+T59	gene 1341 1345	NQO1
+T60	gene 1398 1403	IGF-1
+T61	gene 1408 1412	VEGF
+T62	anatomical_site 1458 1463	nerve
+T63	gene 1465 1468	HGF
+T64	gene 1470 1473	NGF
+T65	gene 1479 1483	BDNF
+T66	anatomical_site 1497 1502	nerve
+T67	anatomical_site 1507 1518	dorsal root
+T68	gene 1520 1524	GDNF
+T69	anatomical_site 1528 1539	dorsal root
+T70	anatomical_site 1586 1592	muscle
+T71	anatomical_site 1593 1598	nerve
+T72	gene 1614 1619	IGF-2
+T73	anatomical_site 1659 1665	muscle
+T74	anatomical_site 1666 1671	nerve
+T75	gene 1693 1698	FGF-2
+T76	gene 1703 1707	NT-3
+T77	gene 1747 1750	CSF
+T78	gene 1751 1762	transferrin
+T79	gene 1767 1778	transferrin
+T80	anatomical_site 1803 1807	male
+T81	anatomical_site 1816 1822	female
+T82	gene 1907 1912	Foxl2
+T83	gene 1918 1923	Rspo1
+T84	anatomical_site 1929 1935	gonads
+T85	gene 1947 1952	Rspo1
+T86	anatomical_site 1958 1965	embryos
+T87	gene 1983 1988	Foxl2
+T88	anatomical_site 2049 2056	ovaries
+T89	gene 2061 2064	PND
+T90	gene 2071 2074	PND
+T91	anatomical_site 2078 2091	mammary gland
+T92	anatomical_site 2096 2101	blood
+T93	anatomical_site 2146 2151	tibia
+T94	anatomical_site 2173 2182	hindlimbs
+T95	anatomical_site 2208 2222	forelimb bones
+T96	anatomical_site 2244 2253	limb buds
+T97	anatomical_site 2318 2326	forelimb
+T98	gene 2341 2345	Tbx5
+T99	anatomical_site 2353 2361	hindlimb
+T100	gene 2376 2380	Tbx4
+T101	gene 2394 2398	Tbx4
+T102	gene 2426 2430	Ptx1
+T103	gene 2500 2504	IL-6
+T104	gene 2523 2528	GPR43
+T105	gene 2534 2538	CD36
+T106	anatomical_site 2553 2559	muscle
+T107	anatomical_site 2561 2564	fat
+T108	anatomical_site 2570 2575	liver
+T109	gene 2600 2605	MMP-2
+T110	gene 2610 2615	MMP-9
+T111	anatomical_site 2643 2650	kidneys
+T112	anatomical_site 2656 2660	male
+T113	anatomical_site 2665 2671	female
+T114	anatomical_site 2745 2749	male
+T115	gene 2812 2815	Bax
+T116	gene 2817 2829	cytochrome-c
+T117	gene 2834 2837	p53
+T118	anatomical_site 2846 2852	cortex
+T119	anatomical_site 2857 2867	cerebellum
+T120	anatomical_site 2890 2909	mesenteric arteries
+T121	gene 2918 2922	CFTR
+T122	anatomical_site 2930 2945	skeletal muscle
+T123	anatomical_site 2957 2965	arteries
+T124	gene 3002 3006	CFTR
+T125	gene 3030 3050	Toll-like receptor 9
+T126	gene 3052 3056	TLR9
+T127	anatomical_site 3065 3070	lungs
+T128	anatomical_site 3075 3090	lymphoid tissue

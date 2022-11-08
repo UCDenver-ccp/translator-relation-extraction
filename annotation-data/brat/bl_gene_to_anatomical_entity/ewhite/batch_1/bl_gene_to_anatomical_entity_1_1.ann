@@ -1,0 +1,121 @@
+T1	gene 4 7	K18
+T2	gene 15 35	alkaline phosphatase
+T3	anatomical_site 53 58	liver
+T4	anatomical_site 60 66	kidney
+T5	anatomical_site 68 87	uterine endometrium
+T6	gene 119 130	Lipocalin-2
+T7	gene 139 144	NLRP3
+T8	gene 173 178	HMGB1
+T9	gene 187 191	TLR4
+T10	anatomical_site 205 210	heart
+T11	anatomical_site 211 217	tissue
+T12	anatomical_site 340 344	skin
+T13	anatomical_site 365 369	skin
+T14	gene 439 444	ITGA7
+T15	gene 446 451	ITGA8
+T16	gene 453 458	PLVAP
+T17	gene 460 466	PSAPL1
+T18	gene 468 475	SMARCA5
+T19	gene 539 543	Jag1
+T20	gene 545 551	Notch2
+T21	gene 553 557	Hes1
+T22	gene 563 567	Hes5
+T23	anatomical_site 578 588	epithelium
+T24	gene 610 614	AQP7
+T25	gene 616 620	AQP9
+T26	gene 625 630	AQP11
+T27	anatomical_site 649 661	ciliary body
+T28	anatomical_site 677 683	tissue
+T29	anatomical_site 685 696	optic nerve
+T30	anatomical_site 698 704	retina
+T31	anatomical_site 709 715	sclera
+T32	gene 763 790	Hepatocyte nuclear factor 6
+T33	gene 792 797	HNF-6
+T34	gene 800 804	OC-2
+T35	gene 809 813	OC-3
+T36	anatomical_site 859 864	liver
+T37	anatomical_site 866 874	pancreas
+T38	anatomical_site 879 893	nervous system
+T39	gene 930 934	BDNF
+T40	gene 939 942	NGF
+T41	anatomical_site 946 975	cervical intervertebral discs
+T42	anatomical_site 1001 1005	body
+T43	gene 1078 1112	monocyte chemoattractant protein-1
+T44	gene 1114 1119	MCP-1
+T45	anatomical_site 1138 1143	serum
+T46	gene 1149 1154	MMP-9
+T47	gene 1159 1166	trypsin
+T48	anatomical_site 1170 1175	serum
+T49	anatomical_site 1187 1192	lungs
+T50	anatomical_site 1197 1202	heart
+T51	anatomical_site 1207 1212	ovary
+T52	anatomical_site 1296 1300	body
+T53	gene 1301 1305	AKT2
+T54	anatomical_site 1311 1316	ovary
+T55	gene 1317 1321	AKT2
+T56	anatomical_site 1335 1339	body
+T57	gene 1340 1344	AKT2
+T58	anatomical_site 1350 1355	ovary
+T59	gene 1356 1360	AKT2
+T60	anatomical_site 1374 1378	body
+T61	gene 1379 1383	AKT2
+T62	anatomical_site 1389 1394	ovary
+T63	gene 1395 1399	AKT2
+T64	anatomical_site 1495 1502	ovaries
+T65	gene 1525 1529	AKT2
+T66	gene 1574 1577	p53
+T67	anatomical_site 1604 1609	liver
+T68	anatomical_site 1611 1616	trunk
+T69	anatomical_site 1617 1623	kidney
+T70	anatomical_site 1630 1636	kidney
+T71	anatomical_site 1638 1645	stomach
+T72	anatomical_site 1650 1655	heart
+T73	gene 1674 1680	Alkbh7
+T74	gene 1740 1746	Alkbh7
+T75	anatomical_site 1779 1783	body
+T76	anatomical_site 1795 1799	body
+T77	anatomical_site 1800 1803	fat
+T78	gene 1876 1879	p65
+T79	gene 1881 1887	ICAM-1
+T80	gene 1892 1896	IL-6
+T81	anatomical_site 1900 1905	liver
+T82	anatomical_site 1906 1912	tissue
+T83	gene 1942 1951	TNF-alpha
+T84	gene 1953 1958	IL-10
+T85	gene 1964 1969	PTGS2
+T86	anatomical_site 1997 2001	male
+T87	anatomical_site 2002 2011	placentae
+T88	gene 2013 2018	Alpha
+T89	gene 2021 2030	integrins
+T90	anatomical_site 2069 2077	vascular
+T91	anatomical_site 2078 2089	endothelium
+T92	gene 2098 2107	E protein
+T93	anatomical_site 2126 2132	morula
+T94	anatomical_site 2133 2140	embryos
+T95	gene 2148 2156	cyclin E
+T96	gene 2182 2189	Gastrin
+T97	anatomical_site 2217 2224	thyroid
+T98	anatomical_site 2245 2250	serum
+T99	gene 2251 2261	calcitonin
+T100	gene 2270 2283	Encephalopsin
+T101	gene 2285 2289	OPN3
+T102	anatomical_site 2328 2333	brain
+T103	gene 2342 2350	collagen
+T104	anatomical_site 2377 2388	bone tissue
+T105	anatomical_site 2450 2454	bone
+T106	gene 2476 2479	BMP
+T107	anatomical_site 2485 2489	bone
+T108	anatomical_site 2525 2533	striatum
+T109	gene 2564 2569	Nrf-2
+T110	gene 2570 2574	HO-1
+T111	gene 2575 2580	HMGB1
+T112	anatomical_site 2614 2622	striatum
+T113	gene 2646 2655	caspase-1
+T114	gene 2660 2669	caspase-3
+T115	anatomical_site 2703 2708	brain
+T116	anatomical_site 2709 2715	tissue
+T117	gene 2753 2762	Caspase-1
+T118	gene 2814 2823	caspase-3
+T119	anatomical_site 2838 2849	hippocampus
+T120	anatomical_site 2851 2857	cortex
+T121	anatomical_site 2862 2869	medulla

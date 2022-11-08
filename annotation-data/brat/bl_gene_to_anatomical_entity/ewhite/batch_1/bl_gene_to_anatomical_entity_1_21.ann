@@ -1,0 +1,121 @@
+T1	anatomical_site 75 95	pulmonary surfactant
+T2	gene 104 108	SP-B
+T3	gene 113 117	SP-C
+T4	anatomical_site 150 156	myelin
+T5	gene 169 189	myelin basic protein
+T6	anatomical_site 221 243	central nervous system
+T7	anatomical_site 244 250	myelin
+T8	anatomical_site 284 290	myelin
+T9	gene 292 297	Hoxb3
+T10	gene 299 304	Hoxd3
+T11	anatomical_site 351 357	thymus
+T12	anatomical_site 361 373	parathyroids
+T13	gene 375 392	Alpha-fetoprotein
+T14	gene 394 397	Afp
+T15	anatomical_site 420 425	serum
+T16	anatomical_site 452 458	embryo
+T17	anatomical_site 494 511	yolk sac endoderm
+T18	gene 519 535	insulin receptor
+T19	anatomical_site 583 594	trophoblast
+T20	gene 596 599	CCK
+T21	anatomical_site 640 648	pancreas
+T22	anatomical_site 654 665	gallbladder
+T23	anatomical_site 684 689	brain
+T24	gene 697 700	CCK
+T25	gene 709 716	gastrin
+T26	gene 729 734	CCK2R
+T27	anatomical_site 753 767	gastric glands
+T28	anatomical_site 787 792	brain
+T29	gene 808 811	Kir
+T30	anatomical_site 843 853	cerebellum
+T31	anatomical_site 858 865	medulla
+T32	gene 867 870	Kir
+T33	gene 875 878	Kir
+T34	gene 886 889	Kir
+T35	anatomical_site 924 935	hippocampus
+T36	anatomical_site 1018 1023	serum
+T37	gene 1024 1028	IL-6
+T38	gene 1033 1039	ICAM-1
+T39	anatomical_site 1097 1102	serum
+T40	gene 1103 1108	MCP-1
+T41	gene 1113 1119	VCAM-1
+T42	anatomical_site 1160 1163	CNS
+T43	gene 1172 1177	CXCL1
+T44	gene 1210 1215	CXCL1
+T45	anatomical_site 1235 1240	serum
+T46	anatomical_site 1242 1247	brain
+T47	anatomical_site 1253 1264	spinal cord
+T48	anatomical_site 1356 1359	CNS
+T49	anatomical_site 1375 1381	dermal
+T50	gene 1382 1390	collagen
+T51	gene 1410 1441	transforming growth factor beta
+T52	gene 1451 1477	matrix metalloproteinase-1
+T53	gene 1479 1484	MMP-1
+T54	anatomical_site 1491 1497	tissue
+T55	gene 1532 1538	TIMP-1
+T56	anatomical_site 1557 1561	skin
+T57	anatomical_site 1609 1613	skin
+T58	gene 1652 1656	Eya1
+T59	gene 1661 1665	Six1
+T60	anatomical_site 1684 1706	metanephric mesenchyme
+T61	gene 1723 1727	Pax2
+T62	anatomical_site 1733 1740	embryos
+T63	gene 1775 1779	Pax2
+T64	gene 1804 1808	Eya1
+T65	gene 1813 1817	Six1
+T66	anatomical_site 1825 1847	metanephric mesenchyme
+T67	anatomical_site 1862 1867	serum
+T68	gene 1868 1881	interleukin 8
+T69	gene 1883 1887	IL-8
+T70	gene 1912 1939	tumor necrosis factor-alpha
+T71	gene 1941 1950	TNF-alpha
+T72	anatomical_site 1959 1963	lung
+T73	anatomical_site 1964 1970	tissue
+T74	gene 2030 2054	Hepatocyte growth factor
+T75	gene 2056 2059	HGF
+T76	anatomical_site 2084 2098	hair follicles
+T77	gene 2123 2126	HGF
+T78	anatomical_site 2137 2150	hair follicle
+T79	anatomical_site 2167 2172	liver
+T80	anatomical_site 2245 2250	fatty
+T81	anatomical_site 2266 2271	liver
+T82	gene 2272 2298	fatty acid binding protein
+T83	gene 2300 2306	L-FABP
+T84	gene 2312 2336	sterol carrier protein-2
+T85	gene 2338 2343	SCP-2
+T86	anatomical_site 2377 2381	body
+T87	anatomical_site 2408 2412	body
+T88	anatomical_site 2413 2416	fat
+T89	gene 2462 2472	prealbumin
+T90	gene 2477 2488	transferrin
+T91	gene 2506 2510	KAI1
+T92	gene 2511 2515	CD82
+T93	gene 2582 2587	MRP-1
+T94	anatomical_site 2616 2629	smooth muscle
+T95	anatomical_site 2631 2645	adrenal cortex
+T96	anatomical_site 2647 2657	urothelium
+T97	anatomical_site 2659 2665	myelin
+T98	anatomical_site 2669 2686	peripheral nerves
+T99	anatomical_site 2688 2698	epithelium
+T100	gene 2754 2757	p53
+T101	anatomical_site 2815 2821	thymus
+T102	anatomical_site 2823 2829	spleen
+T103	anatomical_site 2835 2844	intestine
+T104	gene 2864 2868	MDM2
+T105	gene 2932 2941	precursor
+T106	anatomical_site 2965 2976	hippocampus
+T107	anatomical_site 2990 2999	forebrain
+T108	gene 3054 3061	insulin
+T109	gene 3090 3097	insulin
+T110	anatomical_site 3130 3134	body
+T111	anatomical_site 3135 3138	fat
+T112	gene 3147 3154	insulin
+T113	gene 3190 3195	SEPT9
+T114	gene 3217 3223	SEPT14
+T115	anatomical_site 3233 3239	testis
+T116	anatomical_site 3307 3312	brain
+T117	anatomical_site 3340 3345	serum
+T118	gene 3346 3359	interleukin 6
+T119	gene 3361 3365	IL-6
+T120	anatomical_site 3372 3377	serum
+T121	gene 3378 3392	thrombomodulin

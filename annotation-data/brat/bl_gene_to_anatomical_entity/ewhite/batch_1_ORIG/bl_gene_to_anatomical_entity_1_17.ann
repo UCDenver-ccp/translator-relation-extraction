@@ -1,0 +1,130 @@
+T1	anatomical_site 12 26	adipose tissue
+T2	anatomical_site 57 61	head
+T3	anatomical_site 66 70	neck
+T4	gene 91 95	CGL2
+T5	gene 106 111	BSCL2
+T6	anatomical_site 136 140	lung
+T7	gene 158 163	CXCL1
+T8	gene 168 173	MIP-2
+T9	gene 174 179	CXCL2
+T10	anatomical_site 193 197	lung
+T11	gene 274 279	Bcl-2
+T12	gene 319 322	Bax
+T13	anatomical_site 338 343	liver
+T14	anatomical_site 375 380	liver
+T15	gene 413 416	APC
+T16	gene 430 440	E-cadherin
+T17	gene 442 447	GSTP1
+T18	gene 456 459	p16
+T19	gene 473 478	RUNX3
+T20	anatomical_site 590 599	esophagus
+T21	anatomical_site 601 608	stomach
+T22	anatomical_site 620 636	large intestines
+T23	anatomical_site 638 643	liver
+T24	anatomical_site 645 653	pancreas
+T25	anatomical_site 655 661	kidney
+T26	anatomical_site 666 670	lung
+T27	anatomical_site 767 772	serum
+T28	gene 773 782	prolactin
+T29	gene 799 811	desmoglein 1
+T30	anatomical_site 823 828	serum
+T31	gene 829 838	prolactin
+T32	gene 848 860	desmoglein 3
+T33	gene 879 883	IL-2
+T34	gene 905 914	TNF-alpha
+T35	anatomical_site 915 920	serum
+T36	anatomical_site 953 958	serum
+T37	gene 972 976	IL-6
+T38	gene 978 982	BMP4
+T39	gene 1007 1011	Bmp4
+T40	gene 1016 1020	Lef1
+T41	anatomical_site 1055 1073	dental mesenchymes
+T42	gene 1084 1088	Lef1
+T43	gene 1103 1107	Msx1
+T44	anatomical_site 1115 1132	dental mesenchyme
+T45	gene 1152 1156	Gli1
+T46	gene 1161 1165	Ptc1
+T47	gene 1181 1184	Shh
+T48	anatomical_site 1189 1195	dermal
+T49	anatomical_site 1239 1252	hair follicle
+T50	anatomical_site 1253 1261	papillae
+T51	anatomical_site 1292 1302	mesenchyme
+T52	anatomical_site 1328 1335	placode
+T53	gene 1344 1347	Shh
+T54	anatomical_site 1391 1396	serum
+T55	gene 1397 1408	adiponectin
+T56	anatomical_site 1413 1417	male
+T57	anatomical_site 1426 1430	body
+T58	anatomical_site 1446 1451	serum
+T59	gene 1452 1459	insulin
+T60	anatomical_site 1483 1487	body
+T61	anatomical_site 1517 1521	body
+T62	anatomical_site 1540 1544	body
+T63	anatomical_site 1545 1548	fat
+T64	anatomical_site 1567 1572	blood
+T65	anatomical_site 1580 1585	serum
+T66	gene 1586 1592	leptin
+T67	gene 1594 1601	insulin
+T68	gene 1603 1614	adiponectin
+T69	anatomical_site 1662 1668	tissue
+T70	anatomical_site 1687 1692	liver
+T71	anatomical_site 1693 1699	tissue
+T72	anatomical_site 1715 1720	blood
+T73	gene 1739 1742	IDH
+T74	gene 1744 1747	IDH
+T75	gene 1835 1840	Bmal1
+T76	gene 1849 1853	Per2
+T77	gene 1855 1859	Per3
+T78	gene 1861 1865	Cry1
+T79	gene 1870 1874	Cry2
+T80	gene 1903 1908	Npas2
+T81	anatomical_site 1940 1952	hypothalamus
+T82	anatomical_site 1965 1971	retina
+T83	anatomical_site 2000 2005	liver
+T84	anatomical_site 2007 2016	intestine
+T85	anatomical_site 2021 2027	muscle
+T86	gene 2044 2053	TNF-alpha
+T87	gene 2058 2062	IL-6
+T88	anatomical_site 2066 2071	liver
+T89	anatomical_site 2072 2078	tissue
+T90	gene 2107 2111	Tbx1
+T91	gene 2117 2122	Foxi3
+T92	anatomical_site 2126 2133	embryos
+T93	anatomical_site 2171 2187	pharyngeal pouch
+T94	gene 2209 2213	Gcm2
+T95	gene 2218 2223	Foxn1
+T96	anatomical_site 2270 2276	thymus
+T97	anatomical_site 2281 2299	parathyroid glands
+T98	gene 2301 2305	Pten
+T99	gene 2306 2311	Mmac1
+T100	anatomical_site 2399 2404	liver
+T101	anatomical_site 2406 2414	prostate
+T102	anatomical_site 2440 2447	thyroid
+T103	anatomical_site 2453 2459	thymus
+T104	gene 2502 2507	LIN7C
+T105	anatomical_site 2526 2543	intestinal crypts
+T106	anatomical_site 2550 2560	epithelium
+T107	gene 2592 2597	LIN7A
+T108	gene 2601 2605	EGFR
+T109	gene 2610 2616	ErbB-2
+T110	gene 2618 2623	Gata2
+T111	gene 2628 2633	Gata3
+T112	anatomical_site 2686 2705	non-neural ectoderm
+T113	anatomical_site 2713 2718	chick
+T114	anatomical_site 2719 2725	embryo
+T115	gene 2727 2732	Ezrin
+T116	gene 2733 2740	radixin
+T117	gene 2741 2747	moesin
+T118	gene 2768 2773	EBP50
+T119	anatomical_site 2873 2878	liver
+T120	anatomical_site 2880 2886	kidney
+T121	anatomical_site 2892 2907	small intestine
+T122	gene 2984 2987	BMP
+T123	gene 2995 2999	Gdf6
+T124	anatomical_site 3028 3042	coronal suture
+T125	anatomical_site 3043 3053	mesenchyme
+T126	anatomical_site 3063 3070	cranial
+T127	gene 3088 3092	NCX2
+T128	anatomical_site 3136 3147	hippocampus
+T129	anatomical_site 3156 3164	striatum
+T130	anatomical_site 3194 3206	hypothalamus

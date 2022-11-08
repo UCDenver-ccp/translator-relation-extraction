@@ -1,0 +1,108 @@
+T1	anatomical_site 26 31	blood
+T2	anatomical_site 59 64	blood
+T3	anatomical_site 74 79	serum
+T4	gene 80 87	insulin
+T5	gene 89 93	VEGF
+T6	gene 111 117	leptin
+T7	anatomical_site 161 166	serum
+T8	gene 190 196	leptin
+T9	anatomical_site 231 242	endothelium
+T10	gene 253 263	P-selectin
+T11	gene 265 271	ICAM-1
+T12	gene 273 279	VCAM-1
+T13	gene 292 297	MCP-1
+T14	anatomical_site 332 337	serum
+T15	gene 338 344	leptin
+T16	anatomical_site 368 373	serum
+T17	gene 397 404	insulin
+T18	gene 429 436	insulin
+T19	anatomical_site 496 501	serum
+T20	gene 517 520	TNF
+T21	gene 524 528	IL-6
+T22	gene 530 534	IL-8
+T23	gene 539 544	MMP-9
+T24	anatomical_site 548 552	lung
+T25	gene 608 613	Smad2
+T26	gene 620 625	Smad3
+T27	anatomical_site 629 633	lung
+T28	anatomical_site 634 640	tissue
+T29	gene 656 660	AGR2
+T30	gene 673 679	Muc5ac
+T31	anatomical_site 702 706	lung
+T32	gene 751 760	M-protein
+T33	anatomical_site 806 811	serum
+T34	anatomical_site 815 820	urine
+T35	gene 857 875	C-reactive protein
+T36	anatomical_site 901 906	serum
+T37	gene 907 920	ceruloplasmin
+T38	anatomical_site 945 950	blood
+T39	anatomical_site 985 991	kidney
+T40	gene 1002 1007	Smad6
+T41	gene 1012 1017	Smad7
+T42	anatomical_site 1058 1062	body
+T43	anatomical_site 1085 1088	CNS
+T44	gene 1114 1118	IL-6
+T45	gene 1120 1124	IL-8
+T46	gene 1126 1131	MCP-1
+T47	gene 1137 1143	GM-CSF
+T48	anatomical_site 1179 1198	cerebrospinal fluid
+T49	anatomical_site 1223 1228	serum
+T50	anatomical_site 1256 1261	liver
+T51	anatomical_site 1263 1273	lymph node
+T52	anatomical_site 1275 1280	brain
+T53	anatomical_site 1285 1289	lung
+T54	gene 1386 1391	SMAD2
+T55	gene 1396 1400	HES1
+T56	gene 1426 1438	beta-catenin
+T57	gene 1495 1529	proliferating cell nuclear antigen
+T58	gene 1531 1535	PCNA
+T59	anatomical_site 1563 1569	cortex
+T60	anatomical_site 1574 1581	medulla
+T61	gene 1641 1646	FoxO1
+T62	gene 1656 1661	Bcl-2
+T63	anatomical_site 1670 1674	lung
+T64	anatomical_site 1675 1681	tissue
+T65	gene 1692 1696	GDNF
+T66	anatomical_site 1712 1717	organ
+T67	gene 1785 1789	Pax2
+T68	anatomical_site 1849 1861	nephric duct
+T69	anatomical_site 1862 1872	epithelium
+T70	gene 1876 1880	Pax2
+T71	gene 1890 1901	Osteopontin
+T72	anatomical_site 1911 1915	milk
+T73	anatomical_site 1943 1949	infant
+T74	gene 1957 1968	osteopontin
+T75	gene 2015 2019	TrkA
+T76	anatomical_site 2044 2055	neural lobe
+T77	anatomical_site 2074 2087	nerve endings
+T78	gene 2111 2115	TrkB
+T79	gene 2120 2124	TrkC
+T80	anatomical_site 2145 2149	lobe
+T81	gene 2171 2174	SCP
+T82	anatomical_site 2178 2184	myelin
+T83	anatomical_site 2262 2268	female
+T84	anatomical_site 2274 2278	male
+T85	gene 2302 2309	insulin
+T86	anatomical_site 2326 2331	serum
+T87	gene 2356 2363	insulin
+T88	gene 2387 2398	adiponectin
+T89	gene 2448 2456	resistin
+T90	gene 2458 2467	TNF-alpha
+T91	gene 2472 2490	C-reactive protein
+T92	gene 2511 2514	p65
+T93	anatomical_site 2607 2612	colon
+T94	anatomical_site 2613 2619	tissue
+T95	gene 2644 2653	TNF-alpha
+T96	gene 2658 2664	ICAM-1
+T97	anatomical_site 2682 2688	tissue
+T98	gene 2728 2732	Dkk1
+T99	gene 2737 2743	noggin
+T100	anatomical_site 2767 2771	head
+T101	anatomical_site 2824 2837	upper incisor
+T102	anatomical_site 2838 2843	teeth
+T103	anatomical_site 2872 2885	nasal capsule
+T104	anatomical_site 2894 2907	cartilaginous
+T105	gene 2946 2950	Pax6
+T106	gene 2950 2953	Sey
+T107	gene 2981 2985	Pax6
+T108	gene 2985 2988	Sey

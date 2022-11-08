@@ -1,0 +1,128 @@
+T1	gene 10 16	TIMP-1
+T2	anatomical_site 17 22	serum
+T3	anatomical_site 42 46	body
+T4	anatomical_site 47 50	fat
+T5	gene 99 106	insulin
+T6	anatomical_site 126 132	kidney
+T7	anatomical_site 133 139	tissue
+T8	gene 215 219	TLR2
+T9	gene 224 228	TLR4
+T10	gene 230 234	KAI1
+T11	gene 235 239	CD82
+T12	gene 306 311	MRP-1
+T13	anatomical_site 340 353	smooth muscle
+T14	anatomical_site 355 369	adrenal cortex
+T15	anatomical_site 371 381	urothelium
+T16	anatomical_site 383 389	myelin
+T17	anatomical_site 393 410	peripheral nerves
+T18	anatomical_site 412 422	epithelium
+T19	anatomical_site 462 469	embryos
+T20	gene 480 486	Adora1
+T21	gene 491 498	Adora2B
+T22	anatomical_site 526 533	embryos
+T23	gene 535 539	GDNF
+T24	gene 541 545	BDNF
+T25	anatomical_site 556 567	hippocampus
+T26	anatomical_site 604 609	brain
+T27	gene 610 615	renin
+T28	gene 616 627	angiotensin
+T29	anatomical_site 656 661	blood
+T30	anatomical_site 690 707	subfornical organ
+T31	anatomical_site 763 771	vascular
+T32	anatomical_site 786 791	aorta
+T33	anatomical_site 836 841	serum
+T34	anatomical_site 873 881	vascular
+T35	gene 892 895	Akt
+T36	gene 897 907	caveolin-1
+T37	anatomical_site 932 940	vascular
+T38	gene 973 980	p47phox
+T39	gene 1041 1046	HSP27
+T40	anatomical_site 1087 1096	epidermis
+T41	anatomical_site 1098 1114	sebaceous glands
+T42	anatomical_site 1134 1155	arrector pili muscles
+T43	gene 1201 1208	insulin
+T44	gene 1237 1244	insulin
+T45	anatomical_site 1277 1281	body
+T46	anatomical_site 1282 1285	fat
+T47	gene 1294 1301	insulin
+T48	gene 1328 1332	SOX9
+T49	anatomical_site 1340 1346	testis
+T50	anatomical_site 1410 1416	testis
+T51	gene 1442 1445	SRY
+T52	gene 1450 1454	SOX9
+T53	anatomical_site 1493 1498	serum
+T54	gene 1514 1532	C-reactive protein
+T55	anatomical_site 1574 1579	serum
+T56	gene 1580 1584	IL-6
+T57	gene 1589 1599	E-selectin
+T58	anatomical_site 1604 1609	serum
+T59	gene 1612 1615	HDL
+T60	gene 1622 1625	HDL
+T61	anatomical_site 1652 1657	serum
+T62	gene 1660 1663	HDL
+T63	gene 1670 1673	HDL
+T64	anatomical_site 1778 1783	serum
+T65	anatomical_site 1803 1808	serum
+T66	gene 1820 1828	TGF beta
+T67	gene 1864 1867	HGF
+T68	gene 1869 1873	FGF7
+T69	gene 1879 1884	FGF10
+T70	gene 1886 1892	Phlda2
+T71	anatomical_site 1913 1918	heart
+T72	anatomical_site 1936 1939	fat
+T73	gene 1945 1951	Osbpl5
+T74	anatomical_site 1972 1978	spleen
+T75	anatomical_site 1983 1998	skeletal muscle
+T76	anatomical_site 2033 2039	tissue
+T77	anatomical_site 2078 2088	ectodermal
+T78	anatomical_site 2090 2100	mesodermal
+T79	anatomical_site 2144 2154	ectodermal
+T80	gene 2169 2175	Nestin
+T81	gene 2177 2183	Oligo2
+T82	gene 2188 2191	Syn
+T83	anatomical_site 2193 2203	mesodermal
+T84	gene 2226 2230	MyoD
+T85	gene 2261 2266	GATA6
+T86	gene 2314 2319	Sox-2
+T87	gene 2331 2336	AQP11
+T88	anatomical_site 2397 2403	kidney
+T89	anatomical_site 2405 2410	liver
+T90	anatomical_site 2423 2428	brain
+T91	gene 2522 2526	SOD1
+T92	gene 2528 2532	SOD2
+T93	gene 2539 2543	GSH1
+T94	gene 2549 2553	GSH2
+T95	anatomical_site 2563 2568	liver
+T96	anatomical_site 2573 2579	spleen
+T97	anatomical_site 2628 2633	liver
+T98	anatomical_site 2637 2656	submandibular gland
+T99	anatomical_site 2657 2663	tissue
+T100	gene 2664 2667	EGF
+T101	anatomical_site 2712 2718	kidney
+T102	gene 2719 2722	EGF
+T103	gene 2794 2798	BDNF
+T104	gene 2800 2804	ETV5
+T105	gene 2806 2811	FAIM2
+T106	gene 2818 2824	GNPDA2
+T107	gene 2826 2832	KCTD15
+T108	gene 2834 2841	LYPLAL1
+T109	gene 2843 2846	MCR
+T110	gene 2849 2854	MTCH2
+T111	gene 2856 2861	NEGR1
+T112	gene 2863 2868	NRXN3
+T113	gene 2870 2876	TMEM18
+T114	gene 2878 2884	SEC16B
+T115	gene 2889 2895	TFAP2B
+T116	anatomical_site 2921 2935	adipose tissue
+T117	anatomical_site 2943 2957	kidney capsule
+T118	anatomical_site 3006 3018	hypothalamus
+T119	anatomical_site 3044 3049	fatty
+T120	gene 3153 3157	HO-1
+T121	anatomical_site 3169 3174	brain
+T122	anatomical_site 3184 3191	kidneys
+T123	gene 3219 3224	BRCA1
+T124	gene 3249 3254	BARD1
+T125	anatomical_site 3264 3270	breast
+T126	anatomical_site 3275 3281	breast
+T127	gene 3312 3317	BRCA1
+T128	gene 3322 3327	BRCA2

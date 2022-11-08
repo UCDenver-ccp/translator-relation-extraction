@@ -1,0 +1,131 @@
+T1	anatomical_site 28 32	body
+T2	gene 33 40	insulin
+T3	anatomical_site 83 87	body
+T4	anatomical_site 92 112	white adipose tissue
+T5	anatomical_site 167 172	serum
+T6	gene 173 179	leptin
+T7	gene 184 192	resistin
+T8	gene 214 225	adiponectin
+T9	gene 243 247	Has3
+T10	anatomical_site 277 282	teeth
+T11	anatomical_site 310 322	nasal cavity
+T12	anatomical_site 328 337	inner ear
+T13	gene 376 380	Has2
+T14	gene 399 404	Fhos2
+T15	anatomical_site 426 431	heart
+T16	anatomical_site 433 439	kidney
+T17	anatomical_site 445 450	brain
+T18	gene 462 467	Fhos1
+T19	anatomical_site 492 498	Kidney
+T20	anatomical_site 500 505	liver
+T21	anatomical_site 507 511	lung
+T22	anatomical_site 513 518	heart
+T23	anatomical_site 520 525	brain
+T24	anatomical_site 531 540	intestine
+T25	gene 593 603	E-selectin
+T26	anatomical_site 605 613	vascular
+T27	gene 614 638	cell adhesion molecule 1
+T28	gene 640 646	VCAM-1
+T29	gene 667 691	cell adhesion molecule 1
+T30	gene 693 699	ICAM-1
+T31	anatomical_site 757 762	serum
+T32	anatomical_site 767 772	liver
+T33	anatomical_site 792 797	serum
+T34	gene 798 802	IL-6
+T35	gene 804 813	TNF-alpha
+T36	gene 818 823	IL-10
+T37	anatomical_site 876 883	embryos
+T38	gene 892 897	DKKL1
+T39	anatomical_site 937 943	adults
+T40	anatomical_site 981 986	brain
+T41	anatomical_site 1011 1022	hippocampus
+T42	anatomical_site 1047 1053	myelin
+T43	gene 1055 1064	calbindin
+T44	gene 1066 1076	calretinin
+T45	gene 1078 1089	parvalbumin
+T46	anatomical_site 1115 1138	extraembryonic ectoderm
+T47	anatomical_site 1139 1150	trophoblast
+T48	gene 1152 1156	Ets2
+T49	gene 1211 1215	Elf5
+T50	gene 1217 1221	Cdx2
+T51	gene 1269 1273	Bmp4
+T52	anatomical_site 1318 1323	serum
+T53	anatomical_site 1336 1341	serum
+T54	gene 1342 1353	adiponectin
+T55	anatomical_site 1363 1368	serum
+T56	gene 1369 1380	adiponectin
+T57	gene 1381 1387	S100A1
+T58	gene 1416 1420	AQP2
+T59	anatomical_site 1451 1457	cortex
+T60	anatomical_site 1465 1472	medulla
+T61	anatomical_site 1483 1490	medulla
+T62	anatomical_site 1522 1527	serum
+T63	anatomical_site 1535 1540	serum
+T64	gene 1546 1576	basic fibroblast growth factor
+T65	gene 1580 1585	FGF-2
+T66	anatomical_site 1592 1597	serum
+T67	gene 1603 1631	insulin-like growth factor 1
+T68	gene 1633 1638	IGF-1
+T69	gene 1644 1649	FGF-2
+T70	gene 1714 1721	SLC45A2
+T71	gene 1723 1728	HERC2
+T72	gene 1733 1739	CTNNA2
+T73	anatomical_site 1757 1761	skin
+T74	anatomical_site 1762 1766	hair
+T75	anatomical_site 1767 1770	eye
+T76	gene 1778 1785	Insulin
+T77	anatomical_site 1789 1793	bile
+T78	anatomical_site 1820 1824	bile
+T79	gene 1858 1865	insulin
+T80	anatomical_site 1876 1881	serum
+T81	anatomical_site 1914 1918	bone
+T82	gene 1928 1948	alkaline phosphatase
+T83	anatomical_site 1973 1978	serum
+T84	anatomical_site 2024 2028	bone
+T85	gene 2029 2037	collagen
+T86	anatomical_site 2042 2047	urine
+T87	anatomical_site 2091 2095	bone
+T88	gene 2096 2104	collagen
+T89	anatomical_site 2132 2137	serum
+T90	gene 2138 2149	osteocalcin
+T91	anatomical_site 2174 2179	blood
+T92	anatomical_site 2213 2218	blood
+T93	gene 2236 2243	insulin
+T94	anatomical_site 2245 2250	serum
+T95	gene 2251 2257	leptin
+T96	gene 2259 2270	adiponectin
+T97	gene 2276 2284	resistin
+T98	gene 2317 2331	Thrombomodulin
+T99	anatomical_site 2335 2340	blood
+T100	gene 2401 2404	TNF
+T101	gene 2409 2422	interleukin 6
+T102	gene 2424 2428	IL-6
+T103	gene 2431 2436	IL-10
+T104	gene 2442 2472	monocyte chemotactic protein 1
+T105	gene 2474 2479	MCP-1
+T106	anatomical_site 2493 2498	serum
+T107	anatomical_site 2511 2516	liver
+T108	anatomical_site 2518 2522	lung
+T109	anatomical_site 2524 2530	kidney
+T110	anatomical_site 2531 2540	intestine
+T111	anatomical_site 2546 2551	heart
+T112	anatomical_site 2565 2570	brain
+T113	anatomical_site 2572 2577	heart
+T114	anatomical_site 2579 2585	kidney
+T115	anatomical_site 2587 2592	liver
+T116	anatomical_site 2594 2598	lung
+T117	anatomical_site 2600 2608	placenta
+T118	anatomical_site 2610 2616	spleen
+T119	anatomical_site 2618 2624	testis
+T120	anatomical_site 2626 2632	tendon
+T121	anatomical_site 2638 2644	thymus
+T122	gene 2671 2678	alpha 1
+T123	gene 2685 2693	collagen
+T124	gene 2718 2729	osteocalcin
+T125	gene 2731 2742	osteonectin
+T126	gene 2748 2774	dentin sialophosphoprotein
+T127	anatomical_site 2795 2800	teeth
+T128	gene 2812 2815	CSF
+T129	gene 2816 2821	IGF-1
+T130	anatomical_site 2863 2875	white matter
+T131	anatomical_site 2884 2894	cerebellum

@@ -1,0 +1,107 @@
+T1	anatomical_site 12 17	serum
+T2	gene 18 31	interleukin-6
+T3	gene 33 37	IL-6
+T4	gene 40 53	interleukin-8
+T5	gene 55 59	IL-8
+T6	gene 62 89	tumor necrosis factor-alpha
+T7	gene 91 100	TNF-alpha
+T8	gene 103 136	intercellular adhesion molecule-1
+T9	gene 138 144	ICAM-1
+T10	anatomical_site 151 159	vascular
+T11	gene 184 190	VCAM-1
+T12	anatomical_site 199 204	blood
+T13	gene 245 254	myostatin
+T14	gene 262 271	myostatin
+T15	anatomical_site 295 301	muscle
+T16	gene 306 315	myostatin
+T17	anatomical_site 333 338	brain
+T18	anatomical_site 339 345	tissue
+T19	gene 367 371	Abp1
+T20	gene 373 380	ProSAP1
+T21	gene 386 393	ProSAP2
+T22	anatomical_site 414 419	brain
+T23	anatomical_site 497 503	cortex
+T24	anatomical_site 508 519	hippocampus
+T25	gene 521 532	Aquaporin-5
+T26	gene 534 538	AQP5
+T27	anatomical_site 550 555	mucus
+T28	anatomical_site 581 585	lung
+T29	anatomical_site 627 633	tissue
+T30	gene 634 638	HER2
+T31	anatomical_site 650 655	serum
+T32	gene 656 660	HER2
+T33	anatomical_site 735 741	tissue
+T34	gene 742 746	HER2
+T35	anatomical_site 822 826	body
+T36	gene 858 861	Bip
+T37	gene 863 867	Ire1
+T38	gene 870 874	Atf4
+T39	gene 879 884	Xbp1s
+T40	anatomical_site 892 897	liver
+T41	gene 899 929	Thyroid transcription factor-1
+T42	gene 931 936	TTF-1
+T43	anatomical_site 992 996	lung
+T44	anatomical_site 1001 1008	thyroid
+T45	gene 1033 1037	Dkk1
+T46	anatomical_site 1041 1045	bone
+T47	anatomical_site 1075 1080	serum
+T48	gene 1081 1085	Dkk1
+T49	anatomical_site 1102 1106	bone
+T50	gene 1177 1184	insulin
+T51	gene 1186 1194	glucagon
+T52	gene 1199 1211	somatostatin
+T53	anatomical_site 1221 1235	olfactory bulb
+T54	anatomical_site 1240 1257	prefrontal cortex
+T55	anatomical_site 1263 1268	femur
+T56	gene 1291 1296	Runx2
+T57	gene 1297 1302	Cbfa1
+T58	anatomical_site 1306 1313	embryos
+T59	anatomical_site 1377 1386	cartilage
+T60	anatomical_site 1420 1424	bone
+T61	gene 1446 1451	Runx2
+T62	gene 1452 1457	Cbfa1
+T63	anatomical_site 1461 1468	embryos
+T64	anatomical_site 1521 1533	vagus nerves
+T65	gene 1550 1555	Spry1
+T66	gene 1559 1564	Spry2
+T67	anatomical_site 1568 1575	embryos
+T68	gene 1627 1630	LAP
+T69	anatomical_site 1676 1681	liver
+T70	anatomical_site 1683 1687	lung
+T71	anatomical_site 1689 1695	spleen
+T72	anatomical_site 1697 1703	kidney
+T73	anatomical_site 1705 1710	brain
+T74	anatomical_site 1716 1722	testis
+T75	gene 1724 1727	LAP
+T76	anatomical_site 1758 1763	liver
+T77	anatomical_site 1822 1827	serum
+T78	gene 1828 1832	IGF1
+T79	anatomical_site 1834 1839	serum
+T80	gene 1840 1846	IGFBP3
+T81	gene 1856 1860	IGF1
+T82	gene 1865 1871	IGFBP3
+T83	anatomical_site 1902 1907	blood
+T84	gene 2003 2014	Adiponectin
+T85	gene 2020 2028	collagen
+T86	anatomical_site 2055 2069	adipose tissue
+T87	gene 2071 2082	Adiponectin
+T88	anatomical_site 2101 2115	adipose tissue
+T89	gene 2133 2142	Connectin
+T90	anatomical_site 2166 2172	muscle
+T91	gene 2174 2181	Insulin
+T92	anatomical_site 2185 2190	blood
+T93	anatomical_site 2195 2200	urine
+T94	gene 2228 2237	TNF-alpha
+T95	anatomical_site 2256 2260	lung
+T96	anatomical_site 2261 2267	tissue
+T97	anatomical_site 2296 2300	body
+T98	gene 2370 2383	serum albumin
+T99	gene 2385 2395	prealbumin
+T100	anatomical_site 2397 2402	serum
+T101	gene 2403 2414	transferrin
+T102	anatomical_site 2516 2520	lung
+T103	anatomical_site 2545 2549	lung
+T104	gene 2550 2559	TNF-alpha
+T105	gene 2564 2568	IL-6
+T106	anatomical_site 2590 2595	serum
+T107	gene 2596 2600	IL-6

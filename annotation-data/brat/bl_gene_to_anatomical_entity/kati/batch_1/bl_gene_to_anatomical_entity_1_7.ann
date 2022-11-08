@@ -1,0 +1,124 @@
+T1	anatomical_site 0 15	Skeletal muscle
+T2	anatomical_site 32 37	organ
+T3	gene 65 79	interleukin-15
+T4	gene 81 86	IL-15
+T5	gene 92 105	interleukin-6
+T6	gene 107 111	IL-6
+T7	gene 141 148	Omentin
+T8	gene 152 157	ITLN1
+T9	gene 171 179	resistin
+T10	anatomical_site 212 226	adipose tissue
+T11	gene 228 234	ICAM-1
+T12	gene 239 249	E-selectin
+T13	anatomical_site 250 255	serum
+T14	gene 298 304	VCAM-1
+T15	anatomical_site 305 310	serum
+T16	anatomical_site 362 373	mesenchymal
+T17	gene 374 382	cadherin
+T18	gene 384 395	Cadherin-11
+T19	gene 397 402	CDH11
+T20	anatomical_site 439 455	ventricular zone
+T21	anatomical_site 461 476	neuroepithelium
+T22	gene 546 551	PRELP
+T23	anatomical_site 582 590	ligament
+T24	anatomical_site 591 597	tissue
+T25	gene 617 622	HMGB1
+T26	gene 630 643	interleukin-6
+T27	gene 645 678	intercellular adhesion molecule-1
+T28	anatomical_site 684 692	vascular
+T29	gene 693 717	cell adhesion molecule-1
+T30	anatomical_site 748 764	femoral arteries
+T31	anatomical_site 813 819	kidney
+T32	anatomical_site 898 903	serum
+T33	anatomical_site 905 910	urine
+T34	gene 919 924	KIM-1
+T35	gene 935 942	Nephrin
+T36	gene 944 949	IL-18
+T37	gene 951 956	MMP-9
+T38	anatomical_site 958 963	urine
+T39	gene 974 980	VEGF-A
+T40	gene 986 997	Osteopontin
+T41	anatomical_site 1004 1009	serum
+T42	gene 1012 1018	Notch1
+T43	gene 1023 1030	Jagged1
+T44	anatomical_site 1060 1081	pulmonary vasculature
+T45	anatomical_site 1092 1106	adipose tissue
+T46	anatomical_site 1115 1123	placenta
+T47	gene 1195 1202	omentin
+T48	gene 1206 1214	visfatin
+T49	gene 1216 1227	adiponectin
+T50	gene 1233 1239	leptin
+T51	gene 1290 1297	insulin
+T52	anatomical_site 1310 1318	Vascular
+T53	anatomical_site 1319 1330	endothelium
+T54	gene 1383 1387	Cx37
+T55	gene 1392 1396	Cx40
+T56	anatomical_site 1434 1440	myelin
+T57	gene 1530 1533	PLP
+T58	anatomical_site 1565 1571	myelin
+T59	gene 1573 1593	myelin basic protein
+T60	gene 1595 1598	MBP
+T61	anatomical_site 1630 1636	myelin
+T62	anatomical_site 1673 1679	myelin
+T63	anatomical_site 1747 1753	myelin
+T64	gene 1766 1795	myelin transcription factor 1
+T65	gene 1797 1801	MYT1
+T66	gene 1804 1811	Insulin
+T67	gene 1813 1820	insulin
+T68	anatomical_site 1837 1842	blood
+T69	gene 1881 1897	cyclooxygenase-2
+T70	gene 1899 1904	COX-2
+T71	anatomical_site 1909 1915	amnion
+T72	anatomical_site 1920 1927	decidua
+T73	gene 1962 1995	intercellular adhesion molecule-1
+T74	gene 1997 2003	ICAM-1
+T75	anatomical_site 2009 2017	vascular
+T76	gene 2018 2042	cell adhesion molecule-1
+T77	gene 2044 2050	VCAM-1
+T78	anatomical_site 2096 2100	lung
+T79	anatomical_site 2105 2110	liver
+T80	gene 2133 2138	GLUT1
+T81	gene 2140 2145	GLUT3
+T82	gene 2208 2212	PHD2
+T83	anatomical_site 2249 2264	cerebral cortex
+T84	anatomical_site 2266 2277	hippocampus
+T85	anatomical_site 2279 2287	striatum
+T86	anatomical_site 2289 2299	cerebellum
+T87	anatomical_site 2305 2317	hypothalamus
+T88	gene 2348 2352	Dll4
+T89	gene 2357 2363	Notch2
+T90	anatomical_site 2404 2422	ectoplacental cone
+T91	gene 2430 2434	Dll1
+T92	gene 2439 2445	Notch2
+T93	anatomical_site 2466 2484	ectoplacental cone
+T94	gene 2518 2527	Connectin
+T95	anatomical_site 2563 2578	striated muscle
+T96	anatomical_site 2603 2608	tooth
+T97	gene 2635 2640	CLCN7
+T98	gene 2642 2647	KCNJ2
+T99	gene 2649 2654	TRPV3
+T100	gene 2673 2678	CLCN7
+T101	gene 2680 2685	KCNJ2
+T102	gene 2713 2718	KCNJ1
+T103	gene 2720 2724	CFTR
+T104	gene 2740 2744	GJA1
+T105	gene 2765 2770	CLCN5
+T106	anatomical_site 2779 2784	teeth
+T107	gene 2795 2799	GJA1
+T108	anatomical_site 2802 2807	tooth
+T109	gene 2818 2823	CLCN7
+T110	anatomical_site 2902 2911	hindbrain
+T111	gene 2915 2918	Shh
+T112	gene 2925 2929	Gli2
+T113	gene 2939 2943	Gli3
+T114	anatomical_site 2949 2956	embryos
+T115	gene 2996 3000	Gli2
+T116	gene 3005 3009	Gli3
+T117	anatomical_site 3044 3053	hindbrain
+T118	anatomical_site 3058 3069	spinal cord
+T119	anatomical_site 3119 3128	hindbrain
+T120	gene 3157 3162	ATP7A
+T121	gene 3164 3169	ATP7B
+T122	gene 3174 3178	CTR1
+T123	anatomical_site 3192 3212	dorsal root ganglion
+T124	anatomical_site 3213 3219	tissue

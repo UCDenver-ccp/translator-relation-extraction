@@ -1,0 +1,131 @@
+T1	gene 13 17	VEGF
+T2	gene 22 28	VEGFR2
+T3	anatomical_site 74 85	joint fluid
+T4	gene 118 122	VEGF
+T5	gene 127 133	VEGFR1
+T6	anatomical_site 172 183	joint fluid
+T7	anatomical_site 196 208	venous blood
+T8	gene 218 224	VEGFR2
+T9	anatomical_site 247 258	joint fluid
+T10	anatomical_site 271 283	venous blood
+T11	gene 285 289	SOX9
+T12	anatomical_site 334 347	Wolffian duct
+T13	anatomical_site 348 358	epithelium
+T14	anatomical_site 366 370	male
+T15	anatomical_site 371 382	mesonephros
+T16	anatomical_site 402 421	definitive endoderm
+T17	gene 430 435	Sox17
+T18	gene 440 445	FoxA2
+T19	gene 468 476	cadherin
+T20	gene 477 483	Celsr1
+T21	anatomical_site 494 498	skin
+T22	anatomical_site 499 503	hair
+T23	gene 548 590	neutrophil gelatinase-associated lipocalin
+T24	anatomical_site 599 604	serum
+T25	anatomical_site 605 610	liver
+T26	gene 611 637	fatty acid-binding protein
+T27	gene 639 645	L-FABP
+T28	anatomical_site 648 653	serum
+T29	anatomical_site 654 660	kidney
+T30	anatomical_site 678 683	serum
+T31	gene 684 698	interleukin 18
+T32	anatomical_site 703 708	serum
+T33	gene 772 783	Adipophilin
+T34	gene 785 791	CRBP-1
+T35	gene 793 803	cytoglobin
+T36	gene 808 816	vinculin
+T37	anatomical_site 848 853	liver
+T38	gene 863 873	cytoglobin
+T39	gene 878 889	adipophilin
+T40	anatomical_site 921 929	pancreas
+T41	anatomical_site 935 940	serum
+T42	gene 949 957	fetuin-A
+T43	anatomical_site 997 1003	tissue
+T44	anatomical_site 1073 1078	liver
+T45	anatomical_site 1079 1085	tissue
+T46	gene 1089 1093	APOE
+T47	gene 1099 1103	APOE
+T48	anatomical_site 1122 1128	female
+T49	gene 1129 1134	SAFB1
+T50	anatomical_site 1160 1164	male
+T51	gene 1170 1175	Wnt-1
+T52	gene 1203 1208	SAFB1
+T53	gene 1212 1217	Wnt-1
+T54	gene 1219 1224	SAFB1
+T55	gene 1228 1233	Wnt-1
+T56	gene 1239 1244	SAFB1
+T57	gene 1258 1262	IL-6
+T58	anatomical_site 1274 1278	lung
+T59	anatomical_site 1293 1298	brain
+T60	gene 1399 1403	IL-4
+T61	gene 1405 1410	IL-13
+T62	gene 1412 1417	IL-17
+T63	gene 1426 1430	TSLP
+T64	anatomical_site 1455 1458	ear
+T65	anatomical_site 1459 1465	tissue
+T66	anatomical_site 1529 1535	adults
+T67	gene 1575 1612	granulocyte colony-stimulating factor
+T68	gene 1614 1619	G-CSF
+T69	anatomical_site 1640 1645	liver
+T70	anatomical_site 1647 1653	spleen
+T71	anatomical_site 1659 1663	lung
+T72	gene 1669 1682	interleukin-6
+T73	gene 1684 1688	IL-6
+T74	anatomical_site 1709 1715	spleen
+T75	anatomical_site 1720 1724	lung
+T76	gene 1753 1758	CXCL1
+T77	gene 1760 1765	CXCL3
+T78	gene 1767 1772	CXCL5
+T79	gene 1774 1779	CXCL8
+T80	gene 1781 1786	CXCL9
+T81	gene 1792 1798	CXCL10
+T82	gene 1808 1812	CCL2
+T83	gene 1814 1818	CCL4
+T84	gene 1824 1828	CCL5
+T85	anatomical_site 1855 1860	urine
+T86	anatomical_site 1908 1921	urinary tract
+T87	gene 1966 2002	Cysteine- and glycine-rich protein 3
+T88	anatomical_site 2003 2009	muscle
+T89	gene 2030 2034	CRP3
+T90	anatomical_site 2105 2110	heart
+T91	anatomical_site 2130 2136	muscle
+T92	anatomical_site 2157 2165	vascular
+T93	gene 2179 2187	Collagen
+T94	gene 2191 2197	alpha1
+T95	anatomical_site 2218 2225	embryos
+T96	anatomical_site 2247 2259	craniofacial
+T97	anatomical_site 2260 2269	cartilage
+T98	anatomical_site 2287 2296	notochord
+T99	anatomical_site 2379 2384	serum
+T100	gene 2385 2391	leptin
+T101	gene 2396 2403	insulin
+T102	anatomical_site 2440 2445	serum
+T103	gene 2446 2457	adiponectin
+T104	anatomical_site 2486 2491	serum
+T105	gene 2492 2503	adiponectin
+T106	gene 2504 2510	leptin
+T107	anatomical_site 2577 2582	serum
+T108	gene 2583 2594	adiponectin
+T109	gene 2599 2606	insulin
+T110	gene 2627 2630	EGF
+T111	gene 2639 2660	transmembrane protein
+T112	gene 2661 2682	preadipocyte factor 1
+T113	gene 2684 2690	Pref-1
+T114	anatomical_site 2721 2737	zona glomerulosa
+T115	anatomical_site 2742 2749	medulla
+T116	anatomical_site 2811 2817	tissue
+T117	anatomical_site 2833 2837	male
+T118	gene 2860 2863	Sry
+T119	gene 2868 2872	Sox9
+T120	gene 2952 2957	FGF-2
+T121	anatomical_site 2968 2974	cortex
+T122	gene 2986 2990	BDNF
+T123	gene 2995 2998	NGF
+T124	anatomical_site 3002 3013	hippocampus
+T125	gene 3019 3022	NGF
+T126	anatomical_site 3026 3040	frontal cortex
+T127	gene 3042 3045	NGF
+T128	gene 3050 3054	NT-3
+T129	anatomical_site 3073 3081	striatum
+T130	anatomical_site 3103 3116	soleus muscle
+T131	gene 3124 3128	BDNF

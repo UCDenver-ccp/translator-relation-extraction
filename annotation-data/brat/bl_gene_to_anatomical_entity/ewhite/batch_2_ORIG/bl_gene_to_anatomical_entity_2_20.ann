@@ -1,0 +1,126 @@
+T1	gene 68 73	NDRG1
+T2	gene 75 80	NDRG2
+T3	anatomical_site 110 125	skeletal muscle
+T4	anatomical_site 130 135	brain
+T5	gene 137 142	NDRG3
+T6	anatomical_site 163 168	brain
+T7	anatomical_site 173 179	testis
+T8	gene 185 190	NDRG4
+T9	anatomical_site 217 222	brain
+T10	anatomical_site 227 232	heart
+T11	gene 324 334	calmodulin
+T12	gene 339 370	glial fibrillary acidic protein
+T13	anatomical_site 390 395	brain
+T14	anatomical_site 400 406	spleen
+T15	gene 407 418	cathepsin D
+T16	anatomical_site 455 460	brain
+T17	gene 461 472	cathepsin D
+T18	gene 540 544	CD45
+T19	gene 567 571	CD45
+T20	gene 582 586	CD45
+T21	anatomical_site 601 606	brain
+T22	anatomical_site 616 621	liver
+T23	anatomical_site 623 627	lung
+T24	anatomical_site 633 639	spleen
+T25	anatomical_site 690 697	embryos
+T26	gene 699 708	nidogen-2
+T27	anatomical_site 730 740	mesenchyme
+T28	anatomical_site 764 775	mesenchymal
+T29	anatomical_site 834 852	basement membranes
+T30	gene 878 887	nidogen-1
+T31	gene 889 910	Histone deacetylase 2
+T32	gene 912 917	HDAC2
+T33	anatomical_site 964 968	lung
+T34	anatomical_site 969 975	tissue
+T35	gene 1011 1045	proliferating cell nuclear antigen
+T36	gene 1047 1051	PCNA
+T37	gene 1064 1067	Bax
+T38	anatomical_site 1096 1102	tongue
+T39	anatomical_site 1103 1109	tissue
+T40	gene 1170 1175	Sfrp5
+T41	anatomical_site 1190 1194	lung
+T42	anatomical_site 1195 1201	tissue
+T43	gene 1220 1225	Wnt5a
+T44	gene 1226 1230	JNK1
+T45	anatomical_site 1296 1300	lung
+T46	anatomical_site 1326 1329	CNS
+T47	gene 1351 1355	GDNF
+T48	gene 1360 1369	neurturin
+T49	gene 1403 1408	HIF-1
+T50	gene 1411 1417	VEGF-A
+T51	gene 1422 1426	NOX2
+T52	anatomical_site 1443 1454	endothelium
+T53	anatomical_site 1466 1476	arterioles
+T54	anatomical_site 1519 1524	serum
+T55	gene 1525 1528	HGF
+T56	anatomical_site 1617 1622	serum
+T57	gene 1623 1626	HGF
+T58	anatomical_site 1663 1668	liver
+T59	anatomical_site 1755 1760	liver
+T60	gene 1780 1785	Nr6a1
+T61	gene 1786 1790	LacZ
+T62	gene 1809 1813	LacZ
+T63	anatomical_site 1872 1883	hippocampus
+T64	anatomical_site 1885 1900	cerebral cortex
+T65	anatomical_site 1902 1912	cerebellum
+T66	anatomical_site 1930 1935	brain
+T67	anatomical_site 1985 1996	parathyroid
+T68	anatomical_site 2011 2019	pancreas
+T69	anatomical_site 2114 2120	spleen
+T70	anatomical_site 2122 2127	liver
+T71	anatomical_site 2133 2138	lungs
+T72	gene 2145 2149	LFA1
+T73	gene 2150 2155	ICAM1
+T74	gene 2191 2194	NKT
+T75	anatomical_site 2209 2215	spleen
+T76	anatomical_site 2220 2225	liver
+T77	anatomical_site 2231 2240	intestine
+T78	anatomical_site 2247 2252	organ
+T79	gene 2320 2324	AP-1
+T80	gene 2356 2359	p50
+T81	gene 2381 2385	AP-1
+T82	gene 2388 2391	jun
+T83	gene 2401 2405	EGFR
+T84	gene 2407 2412	HER-2
+T85	gene 2417 2422	COX-2
+T86	anatomical_site 2490 2496	tissue
+T87	anatomical_site 2509 2515	tissue
+T88	anatomical_site 2527 2533	mucosa
+T89	gene 2617 2652	parathyroid hormone-related protein
+T90	gene 2654 2659	PTHrP
+T91	gene 2709 2716	megalin
+T92	anatomical_site 2720 2731	parathyroid
+T93	anatomical_site 2733 2741	placenta
+T94	anatomical_site 2747 2760	mammary gland
+T95	gene 2762 2789	Prolactin-inducible protein
+T96	gene 2811 2848	gross cystic disease fluid protein 15
+T97	anatomical_site 2896 2907	body fluids
+T98	anatomical_site 2927 2931	milk
+T99	anatomical_site 2936 2950	seminal plasma
+T100	anatomical_site 2959 2969	myocardium
+T101	anatomical_site 2994 2997	fat
+T102	gene 2999 3007	collagen
+T103	gene 3009 3016	elastin
+T104	anatomical_site 3062 3067	serum
+T105	gene 3068 3076	resistin
+T106	gene 3116 3123	insulin
+T107	anatomical_site 3150 3155	serum
+T108	gene 3156 3163	insulin
+T109	gene 3208 3212	SOD1
+T110	gene 3215 3223	catalase
+T111	gene 3231 3255	glutathione peroxidase 1
+T112	gene 3257 3261	Gpx1
+T113	gene 3264 3307	nuclear factor erythroid 2-related factor 2
+T114	gene 3309 3313	Nrf2
+T115	gene 3320 3388	peroxisome proliferator-activated receptor-gamma coactivator 1 alpha
+T116	gene 3390 3395	PGC-1
+T117	anatomical_site 3401 3406	liver
+T118	anatomical_site 3408 3423	skeletal muscle
+T119	anatomical_site 3434 3437	fat
+T120	anatomical_site 3455 3458	fat
+T121	anatomical_site 3542 3547	organ
+T122	anatomical_site 3561 3576	spiral ganglion
+T123	gene 3616 3621	EphA4
+T124	gene 3623 3628	EphB3
+T125	gene 3630 3639	ephrin-A3
+T126	gene 3641 3650	ephrin-B2

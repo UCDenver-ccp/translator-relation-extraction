@@ -1,0 +1,127 @@
+T1	anatomical_site 30 35	serum
+T2	anatomical_site 52 58	spleen
+T3	gene 111 115	TLR4
+T4	gene 130 134	IRF3
+T5	gene 139 142	Bax
+T6	anatomical_site 146 152	spleen
+T7	anatomical_site 153 159	tissue
+T8	anatomical_site 163 167	male
+T9	gene 168 172	ApoE
+T10	gene 225 245	Toll-like receptor 4
+T11	gene 295 298	CD4
+T12	gene 311 315	CD68
+T13	gene 317 322	CXCR3
+T14	gene 324 330	CXCL10
+T15	gene 336 341	TIA-1
+T16	anatomical_site 388 392	skin
+T17	anatomical_site 416 420	skin
+T18	anatomical_site 435 439	skin
+T19	gene 463 470	nephrin
+T20	anatomical_site 496 505	diaphragm
+T21	anatomical_site 534 543	diaphragm
+T22	gene 564 569	CD2AP
+T23	gene 574 581	podocin
+T24	anatomical_site 666 672	kidney
+T25	gene 685 697	neurotrophin
+T26	gene 698 731	brain-derived neurotrophic factor
+T27	gene 733 737	BDNF
+T28	anatomical_site 808 819	hippocampus
+T29	anatomical_site 828 837	neocortex
+T30	anatomical_site 855 860	brain
+T31	anatomical_site 910 913	fat
+T32	anatomical_site 940 943	fat
+T33	gene 991 997	seipin
+T34	gene 1002 1027	ADP-ribosylation factor 1
+T35	gene 1063 1074	Osteocalcin
+T36	gene 1081 1092	osteonectin
+T37	gene 1102 1113	osteopontin
+T38	anatomical_site 1157 1161	bone
+T39	anatomical_site 1222 1226	bone
+T40	gene 1228 1232	Fgf8
+T41	gene 1237 1241	Fgf3
+T42	anatomical_site 1309 1312	ear
+T43	anatomical_site 1313 1320	placode
+T44	gene 1398 1405	insulin
+T45	gene 1439 1446	insulin
+T46	anatomical_site 1477 1481	body
+T47	anatomical_site 1482 1485	fat
+T48	anatomical_site 1487 1490	fat
+T49	gene 1497 1503	leptin
+T50	gene 1509 1520	adiponectin
+T51	gene 1528 1533	Thy-1
+T52	gene 1534 1546	glycoprotein
+T53	anatomical_site 1565 1570	brain
+T54	anatomical_site 1571 1577	cortex
+T55	gene 1604 1608	Pax9
+T56	anatomical_site 1629 1640	mesenchymal
+T57	gene 1655 1659	Bmp4
+T58	gene 1661 1665	Msx1
+T59	gene 1671 1675	Lef1
+T60	gene 1699 1703	Pax9
+T61	anatomical_site 1758 1774	tooth mesenchyme
+T62	gene 1831 1842	prothrombin
+T63	gene 1894 1903	protein C
+T64	gene 1919 1928	protein Z
+T65	anatomical_site 1949 1953	bone
+T66	gene 1955 1966	osteocalcin
+T67	gene 1970 1986	bone Gla-protein
+T68	gene 1991 2009	matrix Gla-protein
+T69	anatomical_site 2036 2040	lung
+T70	anatomical_site 2042 2048	kidney
+T71	anatomical_site 2050 2056	spleen
+T72	anatomical_site 2058 2064	testis
+T73	anatomical_site 2066 2074	placenta
+T74	gene 2122 2127	tal-1
+T75	gene 2132 2137	rbtn2
+T76	anatomical_site 2189 2197	mesoderm
+T77	gene 2205 2211	GATA-1
+T78	gene 2216 2222	GATA-2
+T79	anatomical_site 2249 2271	extraembryonic tissues
+T80	anatomical_site 2275 2285	ectodermal
+T81	gene 2307 2320	human protein
+T82	anatomical_site 2333 2337	male
+T83	anatomical_site 2342 2348	female
+T84	gene 2437 2455	transglutaminase 4
+T85	gene 2457 2461	TGM4
+T86	anatomical_site 2468 2472	male
+T87	anatomical_site 2499 2504	liver
+T88	anatomical_site 2577 2582	fatty
+T89	anatomical_site 2598 2603	liver
+T90	gene 2604 2630	fatty acid binding protein
+T91	gene 2632 2638	L-FABP
+T92	gene 2644 2668	sterol carrier protein-2
+T93	gene 2670 2675	SCP-2
+T94	anatomical_site 2709 2713	body
+T95	anatomical_site 2740 2744	body
+T96	anatomical_site 2745 2748	fat
+T97	gene 2794 2804	prealbumin
+T98	gene 2809 2820	transferrin
+T99	gene 2838 2843	Titin
+T100	gene 2844 2853	connectin
+T101	gene 2858 2865	nebulin
+T102	anatomical_site 2891 2907	muscle structure
+T103	gene 2922 2927	Pitx2
+T104	anatomical_site 2996 2999	eye
+T105	anatomical_site 3001 3006	tooth
+T106	anatomical_site 3046 3051	heart
+T107	anatomical_site 3062 3066	limb
+T108	gene 3087 3092	BMP-2
+T109	gene 3097 3102	BMP-4
+T110	anatomical_site 3120 3134	neural tissues
+T111	anatomical_site 3149 3160	neural tube
+T112	anatomical_site 3165 3170	brain
+T113	gene 3217 3222	TRPV4
+T114	gene 3224 3229	TRPV6
+T115	gene 3240 3244	NCX1
+T116	gene 3250 3255	PMCA1
+T117	anatomical_site 3259 3263	lung
+T118	anatomical_site 3264 3270	tissue
+T119	gene 3286 3290	KAI1
+T120	gene 3291 3295	CD82
+T121	gene 3362 3367	MRP-1
+T122	anatomical_site 3396 3409	smooth muscle
+T123	anatomical_site 3411 3425	adrenal cortex
+T124	anatomical_site 3427 3437	urothelium
+T125	anatomical_site 3439 3445	myelin
+T126	anatomical_site 3449 3466	peripheral nerves
+T127	anatomical_site 3468 3478	epithelium

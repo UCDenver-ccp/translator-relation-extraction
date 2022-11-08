@@ -1,0 +1,114 @@
+T1	anatomical_site 23 37	adrenal cortex
+T2	anatomical_site 42 49	medulla
+T3	gene 83 87	PER1
+T4	gene 90 94	CRY2
+T5	gene 100 105	BMAL1
+T6	gene 185 190	Hsp27
+T7	gene 192 197	Hsp60
+T8	gene 199 202	Hsp
+T9	gene 209 214	Hsc70
+T10	anatomical_site 218 230	right atrium
+T11	anatomical_site 235 249	left ventricle
+T12	anatomical_site 261 266	heart
+T13	gene 320 326	leptin
+T14	gene 342 349	insulin
+T15	anatomical_site 391 396	fatty
+T16	anatomical_site 397 402	liver
+T17	gene 426 431	Gsto1
+T18	anatomical_site 435 440	brain
+T19	anatomical_site 445 450	liver
+T20	gene 572 577	Gsta4
+T21	gene 582 587	Mgst3
+T22	anatomical_site 591 596	brain
+T23	anatomical_site 601 606	liver
+T24	gene 612 617	Gstt2
+T25	gene 622 627	Gstz1
+T26	anatomical_site 631 636	brain
+T27	gene 704 710	Leptin
+T28	gene 712 718	leptin
+T29	gene 719 730	adiponectin
+T30	gene 741 748	insulin
+T31	anatomical_site 776 779	fat
+T32	anatomical_site 797 800	fat
+T33	gene 813 818	PRMT1
+T34	anatomical_site 845 853	pancreas
+T35	gene 887 891	NGN3
+T36	gene 901 905	CHL1
+T37	gene 916 921	BACE1
+T38	gene 946 951	BACE1
+T39	gene 966 971	BACE1
+T40	anatomical_site 978 989	hippocampus
+T41	anatomical_site 995 1009	olfactory bulb
+T42	gene 1027 1031	CHL1
+T43	gene 1037 1042	BACE1
+T44	gene 1090 1093	p62
+T45	gene 1094 1108	sequestosome 1
+T46	anatomical_site 1123 1131	prostate
+T47	anatomical_site 1132 1138	tissue
+T48	anatomical_site 1176 1181	liver
+T49	anatomical_site 1182 1188	tissue
+T50	gene 1228 1234	DNAJB9
+T51	gene 1242 1246	UFM1
+T52	gene 1260 1264	NFX1
+T53	gene 1310 1314	ALDP
+T54	anatomical_site 1322 1327	brain
+T55	anatomical_site 1329 1340	spinal cord
+T56	anatomical_site 1342 1346	lung
+T57	anatomical_site 1352 1358	kidney
+T58	gene 1384 1389	PMP70
+T59	anatomical_site 1397 1402	liver
+T60	anatomical_site 1404 1408	lung
+T61	anatomical_site 1414 1420	kidney
+T62	anatomical_site 1446 1449	CNS
+T63	gene 1458 1463	CXCL1
+T64	gene 1496 1501	CXCL1
+T65	anatomical_site 1521 1526	serum
+T66	anatomical_site 1528 1533	brain
+T67	anatomical_site 1539 1550	spinal cord
+T68	anatomical_site 1642 1645	CNS
+T69	gene 1658 1663	TRPA1
+T70	gene 1672 1677	TRPV1
+T71	anatomical_site 1723 1729	female
+T72	gene 1751 1756	TRPA1
+T73	gene 1762 1767	TRPV1
+T74	anatomical_site 1806 1810	male
+T75	gene 1812 1819	AdipoR1
+T76	anatomical_site 1847 1862	skeletal muscle
+T77	gene 1872 1879	AdipoR2
+T78	anatomical_site 1914 1919	liver
+T79	gene 1931 1938	IGFBP-3
+T80	anatomical_site 1968 1978	epithelium
+T81	anatomical_site 2002 2013	endothelium
+T82	anatomical_site 2019 2032	smooth muscle
+T83	anatomical_site 2040 2057	corpus cavernosum
+T84	gene 2059 2064	Alpha
+T85	anatomical_site 2103 2108	serum
+T86	anatomical_site 2140 2143	fat
+T87	anatomical_site 2163 2168	brain
+T88	gene 2169 2173	PER2
+T89	gene 2178 2183	BMAL1
+T90	gene 2212 2229	alpha1-syntrophin
+T91	gene 2250 2260	dystrophin
+T92	anatomical_site 2308 2323	striated muscle
+T93	anatomical_site 2328 2333	brain
+T94	anatomical_site 2339 2344	liver
+T95	anatomical_site 2417 2422	fatty
+T96	anatomical_site 2438 2443	liver
+T97	gene 2444 2470	fatty acid binding protein
+T98	gene 2472 2478	L-FABP
+T99	gene 2484 2508	sterol carrier protein-2
+T100	gene 2510 2515	SCP-2
+T101	anatomical_site 2549 2553	body
+T102	anatomical_site 2580 2584	body
+T103	anatomical_site 2585 2588	fat
+T104	gene 2634 2644	prealbumin
+T105	gene 2649 2660	transferrin
+T106	gene 2692 2696	Ndr1
+T107	anatomical_site 2726 2731	liver
+T108	anatomical_site 2736 2750	gut epithelium
+T109	gene 2752 2756	Ndr2
+T110	anatomical_site 2764 2780	ventricular zone
+T111	anatomical_site 2796 2799	CNS
+T112	gene 2805 2809	Ndr3
+T113	anatomical_site 2817 2828	spinal cord
+T114	anatomical_site 2837 2843	thymus

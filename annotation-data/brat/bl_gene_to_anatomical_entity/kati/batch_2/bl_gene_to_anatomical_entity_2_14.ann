@@ -1,0 +1,123 @@
+T1	anatomical_site 5 10	serum
+T2	gene 11 16	M-CSF
+T3	gene 32 37	M-CSF
+T4	anatomical_site 55 63	placenta
+T5	anatomical_site 113 117	head
+T6	anatomical_site 121 125	head
+T7	gene 135 140	Brca1
+T8	gene 145 149	Nbr1
+T9	gene 187 192	RCAN1
+T10	anatomical_site 221 234	gastrocnemius
+T11	anatomical_site 247 253	soleus
+T12	gene 295 303	fetuin-A
+T13	anatomical_site 321 326	urine
+T14	anatomical_site 337 343	tissue
+T15	anatomical_site 381 387	spleen
+T16	anatomical_site 389 394	liver
+T17	anatomical_site 399 404	brain
+T18	gene 408 412	GBA2
+T19	gene 463 467	GBA2
+T20	gene 471 474	GBA
+T21	gene 562 569	alpha 1
+T22	gene 575 587	glycoprotein
+T23	gene 589 608	alpha 1-antitrypsin
+T24	gene 610 631	alpha 2-macroglobulin
+T25	gene 633 644	transferrin
+T26	gene 646 657	haptoglobin
+T27	anatomical_site 727 732	blood
+T28	anatomical_site 742 751	bronchial
+T29	anatomical_site 833 837	lung
+T30	anatomical_site 852 857	brain
+T31	anatomical_site 858 867	capillary
+T32	gene 868 882	thrombomodulin
+T33	anatomical_site 925 930	organ
+T34	gene 971 977	Nkx2-1
+T35	gene 978 982	TTF1
+T36	anatomical_site 991 1003	thyroid lobe
+T37	anatomical_site 1008 1028	ultimobranchial body
+T38	gene 1030 1034	Pax8
+T39	anatomical_site 1043 1055	thyroid lobe
+T40	gene 1071 1074	PTH
+T41	anatomical_site 1128 1145	parathyroid gland
+T42	gene 1151 1154	p63
+T43	anatomical_site 1163 1169	thymus
+T44	gene 1261 1266	Bcl-2
+T45	gene 1268 1271	Bax
+T46	gene 1276 1285	caspase-3
+T47	anatomical_site 1310 1314	lung
+T48	anatomical_site 1315 1321	tissue
+T49	anatomical_site 1407 1416	forebrain
+T50	gene 1424 1429	Hesx1
+T51	gene 1431 1436	Pgc-1
+T52	gene 1439 1443	Six3
+T53	anatomical_site 1449 1457	midbrain
+T54	gene 1459 1464	GATA2
+T55	gene 1466 1471	GATA3
+T56	anatomical_site 1510 1519	forebrain
+T57	gene 1539 1558	Chemokine receptors
+T58	gene 1559 1563	CCR1
+T59	gene 1565 1569	CCR3
+T60	gene 1571 1575	CCR4
+T61	gene 1577 1581	CCR6
+T62	gene 1583 1588	CCR10
+T63	gene 1590 1595	CXCR1
+T64	gene 1597 1602	CXCR2
+T65	gene 1604 1609	CXCR3
+T66	gene 1615 1620	CXCR4
+T67	anatomical_site 1639 1648	epidermis
+T68	anatomical_site 1663 1671	vascular
+T69	gene 1672 1676	Cx43
+T70	anatomical_site 1680 1689	tail vein
+T71	gene 1703 1707	Cx43
+T72	gene 1724 1735	VE-cadherin
+T73	gene 1777 1781	Cx43
+T74	gene 1802 1813	VE-cadherin
+T75	anatomical_site 1824 1828	lung
+T76	anatomical_site 1862 1868	breast
+T77	anatomical_site 1869 1875	tissue
+T78	gene 1897 1902	BRCA1
+T79	gene 1907 1912	PARP1
+T80	gene 1941 1945	Rosa
+T81	gene 1948 1952	LacZ
+T82	gene 2009 2013	Msx2
+T83	anatomical_site 2046 2050	limb
+T84	anatomical_site 2052 2057	heart
+T85	anatomical_site 2079 2096	urogenital system
+T86	anatomical_site 2098 2112	hair follicles
+T87	anatomical_site 2117 2129	craniofacial
+T88	gene 2155 2163	renalase
+T89	anatomical_site 2182 2191	plantaris
+T90	anatomical_site 2192 2198	muscle
+T91	gene 2211 2216	HIF-1
+T92	anatomical_site 2225 2238	soleus muscle
+T93	gene 2246 2255	myoglobin
+T94	anatomical_site 2300 2305	serum
+T95	gene 2306 2315	myoglobin
+T96	anatomical_site 2345 2350	urine
+T97	anatomical_site 2356 2361	serum
+T98	gene 2362 2371	myoglobin
+T99	gene 2435 2439	Nrg1
+T100	gene 2452 2457	ErbB2
+T101	gene 2461 2466	ErbB4
+T102	anatomical_site 2487 2494	thyroid
+T103	anatomical_site 2499 2516	parathyroid gland
+T104	gene 2522 2526	Nrg1
+T105	gene 2554 2559	ErbB4
+T106	anatomical_site 2586 2594	pancreas
+T107	anatomical_site 2610 2616	tissue
+T108	gene 2619 2622	Met
+T109	gene 2632 2665	hepatocyte growth factor receptor
+T110	gene 2667 2671	HGFR
+T111	anatomical_site 2677 2682	serum
+T112	gene 2692 2695	HGF
+T113	anatomical_site 2699 2705	female
+T114	gene 2775 2780	CREG2
+T115	gene 2785 2790	Creg2
+T116	anatomical_site 2808 2813	brain
+T117	gene 2829 2834	CREG2
+T118	anatomical_site 2850 2863	limbic system
+T119	anatomical_site 2871 2876	brain
+T120	gene 2904 2912	APOBEC3F
+T121	gene 2917 2925	APOBEC3G
+T122	anatomical_site 2981 2987	retina
+T123	anatomical_site 2988 2994	tissue

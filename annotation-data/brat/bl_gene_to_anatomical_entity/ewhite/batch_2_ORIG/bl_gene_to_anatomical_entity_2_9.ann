@@ -1,0 +1,126 @@
+T1	gene 18 21	p53
+T2	anatomical_site 46 50	lung
+T3	anatomical_site 78 83	serum
+T4	gene 84 90	leptin
+T5	gene 92 103	adiponectin
+T6	gene 105 112	insulin
+T7	anatomical_site 177 183	tissue
+T8	anatomical_site 194 200	tissue
+T9	gene 211 215	IL-8
+T10	gene 241 246	MMP-1
+T11	gene 255 260	MMP-9
+T12	gene 265 269	IL-8
+T13	gene 285 289	IL-6
+T14	gene 291 300	TNF-alpha
+T15	gene 302 308	GM-CSF
+T16	gene 317 320	NGF
+T17	gene 322 330	TGF-beta
+T18	gene 336 342	ICAM-1
+T19	anatomical_site 363 370	kidneys
+T20	anatomical_site 459 479	glomerular mesangium
+T21	gene 481 485	IL-6
+T22	gene 487 493	GM-CSF
+T23	gene 495 503	TGF-beta
+T24	anatomical_site 533 544	endothelium
+T25	gene 546 552	ICAM-1
+T26	anatomical_site 559 575	collecting ducts
+T27	gene 577 586	TNF-alpha
+T28	gene 595 598	NGF
+T29	gene 600 608	TGF-beta
+T30	anatomical_site 707 718	spinal cord
+T31	gene 748 752	KCC3
+T32	anatomical_site 773 790	peripheral nerves
+T33	gene 822 826	KCC3
+T34	anatomical_site 850 858	striatum
+T35	anatomical_site 871 886	corpus callosum
+T36	gene 917 922	ABCB1
+T37	gene 924 929	ABCC1
+T38	gene 933 938	ABCB1
+T39	gene 944 949	ABCC1
+T40	gene 985 1004	chemokine receptors
+T41	gene 1005 1009	CCR2
+T42	gene 1011 1015	CCR3
+T43	gene 1020 1024	CCR5
+T44	anatomical_site 1047 1069	central nervous system
+T45	anatomical_site 1070 1076	tissue
+T46	anatomical_site 1135 1146	hippocampus
+T47	anatomical_site 1151 1168	prefrontal cortex
+T48	gene 1185 1194	TNF-alpha
+T49	gene 1196 1204	IL-1beta
+T50	gene 1206 1210	IL-6
+T51	gene 1216 1222	CINC-1
+T52	anatomical_site 1257 1264	venules
+T53	anatomical_site 1276 1297	peripheral lymph node
+T54	anatomical_site 1340 1347	thyroid
+T55	anatomical_site 1348 1354	tissue
+T56	gene 1398 1408	L-selectin
+T57	gene 1412 1429	lymphotoxin-alpha
+T58	gene 1443 1447	CCR7
+T59	gene 1460 1464	ApoJ
+T60	gene 1465 1474	clusterin
+T61	anatomical_site 1528 1533	brain
+T62	anatomical_site 1551 1562	optic nerve
+T63	anatomical_site 1563 1567	head
+T64	gene 1582 1591	TGF-beta2
+T65	gene 1629 1634	Hsp32
+T66	gene 1639 1644	Hsp47
+T67	anatomical_site 1662 1668	tissue
+T68	anatomical_site 1707 1712	serum
+T69	gene 1713 1722	myoglobin
+T70	gene 1727 1749	creatine phosphokinase
+T71	anatomical_site 1775 1783	pancreas
+T72	gene 1796 1804	glucagon
+T73	gene 1809 1814	GLP-1
+T74	anatomical_site 1826 1835	intestine
+T75	gene 1866 1874	glucagon
+T76	gene 1876 1881	GLP-1
+T77	gene 1887 1890	GLP
+T78	gene 1926 1931	Lrrn1
+T79	gene 1933 1939	Elovl2
+T80	gene 1947 1954	Slc39a6
+T81	gene 1956 1963	Khdrbs1
+T82	gene 1965 1970	Hoxb4
+T83	gene 1972 1976	Fez1
+T84	gene 2006 2011	Enpp3
+T85	anatomical_site 2041 2056	pharyngeal arch
+T86	anatomical_site 2057 2063	tissue
+T87	gene 2097 2103	Nkx2.5
+T88	anatomical_site 2179 2183	bone
+T89	gene 2207 2210	BMP
+T90	gene 2223 2232	Gremlin 1
+T91	gene 2234 2239	GREM1
+T92	gene 2245 2250	GREM2
+T93	anatomical_site 2254 2273	primordial follicle
+T94	anatomical_site 2296 2301	ovary
+T95	gene 2307 2311	Lim1
+T96	gene 2330 2334	Lhx1
+T97	anatomical_site 2351 2357	kidney
+T98	anatomical_site 2413 2420	kidneys
+T99	gene 2498 2502	AQP1
+T100	anatomical_site 2527 2547	thin descending limb
+T101	gene 2574 2578	AQP2
+T102	gene 2580 2584	AQP3
+T103	gene 2590 2594	AQP4
+T104	anatomical_site 2602 2617	collecting duct
+T105	gene 2619 2623	AQP6
+T106	anatomical_site 2631 2638	papilla
+T107	gene 2644 2648	AQP7
+T108	gene 2697 2700	p53
+T109	gene 2702 2706	mdm2
+T110	gene 2708 2711	p21
+T111	gene 2711 2716	waf-1
+T112	gene 2718 2723	bcl-2
+T113	gene 2728 2731	LMP
+T114	anatomical_site 2768 2774	tissue
+T115	anatomical_site 2823 2833	lymph node
+T116	gene 2862 2872	calmodulin
+T117	anatomical_site 2917 2932	striated muscle
+T118	anatomical_site 2955 2960	brain
+T119	anatomical_site 3006 3011	brain
+T120	gene 3012 3022	calmodulin
+T121	gene 3062 3067	BMP-7
+T122	gene 3069 3074	BMP-3
+T123	gene 3076 3082	CDMP-1
+T124	anatomical_site 3147 3156	articular
+T125	anatomical_site 3158 3162	knee
+T126	anatomical_site 3163 3172	cartilage

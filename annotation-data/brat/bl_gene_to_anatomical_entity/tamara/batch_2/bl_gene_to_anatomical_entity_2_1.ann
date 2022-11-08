@@ -1,0 +1,97 @@
+T1	anatomical_site 4 9	serum
+T2	gene 10 19	prolactin
+T3	gene 44 49	Robo1
+T4	gene 54 59	Slit2
+T5	anatomical_site 96 112	dental epithelia
+T6	gene 120 125	Slit3
+T7	anatomical_site 143 160	dental mesenchyme
+T8	gene 162 167	COX-1
+T9	gene 190 195	COX-2
+T10	anatomical_site 223 229	ureter
+T11	anatomical_site 243 249	muscle
+T12	anatomical_site 254 264	urothelium
+T13	gene 285 289	SP-B
+T14	anatomical_site 316 336	pulmonary surfactant
+T15	anatomical_site 340 345	serum
+T16	gene 370 381	adiponectin
+T17	gene 393 400	AdipoR1
+T18	gene 405 412	AdipoR2
+T19	anatomical_site 424 440	colon epithelium
+T20	anatomical_site 458 464	tissue
+T21	gene 466 469	Bax
+T22	gene 488 493	Bcl-2
+T23	anatomical_site 501 506	tooth
+T24	anatomical_site 523 528	crest
+T25	gene 530 538	Collagen
+T26	anatomical_site 555 559	bone
+T27	anatomical_site 564 570	muscle
+T28	gene 595 603	collagen
+T29	gene 622 627	Runx3
+T30	anatomical_site 661 666	tooth
+T31	gene 694 699	Runx1
+T32	gene 704 709	Runx2
+T33	anatomical_site 737 742	tooth
+T34	gene 755 763	collagen
+T35	gene 787 795	collagen
+T36	anatomical_site 797 801	bone
+T37	anatomical_site 811 820	ligaments
+T38	gene 869 876	SCGB1A1
+T39	gene 878 885	SCGB3A1
+T40	gene 891 898	SCGB3A2
+T41	anatomical_site 931 935	lung
+T42	gene 963 967	hHGF
+T43	anatomical_site 998 1008	quadriceps
+T44	anatomical_site 1009 1015	muscle
+T45	anatomical_site 1028 1032	lung
+T46	gene 1060 1073	interleukin-6
+T47	gene 1075 1079	IL-6
+T48	anatomical_site 1084 1089	serum
+T49	anatomical_site 1096 1101	heart
+T50	gene 1109 1120	osteopontin
+T51	anatomical_site 1129 1134	serum
+T52	gene 1135 1148	interleukin 6
+T53	gene 1150 1153	sIL
+T54	anatomical_site 1158 1163	serum
+T55	gene 1164 1174	cystatin C
+T56	anatomical_site 1192 1197	serum
+T57	gene 1198 1240	neutrophil gelatinase-associated lipocalin
+T58	gene 1271 1313	neutrophil gelatinase-associated lipocalin
+T59	gene 1370 1396	matrix metalloproteinase-1
+T60	gene 1425 1451	matrix metalloproteinase-2
+T61	anatomical_site 1471 1477	dermis
+T62	anatomical_site 1491 1495	skin
+T63	anatomical_site 1519 1523	skin
+T64	gene 1533 1538	Pax-3
+T65	gene 1549 1553	MyoD
+T66	gene 1558 1563	Myf-5
+T67	anatomical_site 1588 1596	mesoderm
+T68	anatomical_site 1601 1614	neural tissue
+T69	gene 1659 1663	LCN6
+T70	anatomical_site 1697 1707	epithelium
+T71	anatomical_site 1712 1717	lumen
+T72	gene 1730 1738	Hedgehog
+T73	gene 1739 1742	PTH
+T74	gene 1760 1763	Ihh
+T75	gene 1764 1769	PTHrP
+T76	anatomical_site 1817 1835	endochondral bones
+T77	anatomical_site 1849 1859	long bones
+T78	gene 1893 1896	p70
+T79	gene 1897 1900	S6K
+T80	gene 1905 1909	Erk1
+T81	anatomical_site 1924 1935	mesenchymal
+T82	anatomical_site 1936 1942	stroma
+T83	anatomical_site 1961 1972	mesenchymal
+T84	anatomical_site 1973 1979	stroma
+T85	gene 2010 2014	BDNF
+T86	gene 2016 2019	NGF
+T87	gene 2021 2025	IL-6
+T88	gene 2031 2036	IL-10
+T89	anatomical_site 2065 2080	cerebral cortex
+T90	anatomical_site 2085 2094	brainstem
+T91	gene 2096 2107	Lipocalin 2
+T92	gene 2109 2113	LCN2
+T93	gene 2117 2159	neutrophil gelatinase-associated lipocalin
+T94	anatomical_site 2238 2243	blood
+T95	anatomical_site 2248 2253	urine
+T96	anatomical_site 2267 2273	kidney
+T97	anatomical_site 2298 2303	blood

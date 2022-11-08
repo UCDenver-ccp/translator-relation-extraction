@@ -1,0 +1,125 @@
+T1	anatomical_site 14 19	liver
+T2	anatomical_site 20 26	tissue
+T3	gene 37 41	IL-4
+T4	gene 46 50	IL-6
+T5	gene 111 119	collagen
+T6	gene 120 126	alpha2
+T7	gene 131 139	collagen
+T8	gene 140 146	alpha1
+T9	gene 152 161	TGF-beta1
+T10	gene 166 174	endoglin
+T11	anatomical_site 206 213	kidneys
+T12	anatomical_site 220 227	kidneys
+T13	anatomical_site 247 253	tissue
+T14	anatomical_site 296 301	serum
+T15	gene 311 315	IL-3
+T16	gene 317 322	IL-10
+T17	gene 324 328	VEGF
+T18	gene 333 338	SDF-1
+T19	gene 384 390	ICAM-1
+T20	gene 395 399	IL-6
+T21	anatomical_site 447 457	brain stem
+T22	anatomical_site 466 474	striatum
+T23	gene 503 509	ICAM-1
+T24	anatomical_site 519 525	septum
+T25	anatomical_site 534 544	brain stem
+T26	gene 578 582	IL-6
+T27	anatomical_site 621 641	somatosensory cortex
+T28	anatomical_site 643 654	hippocampus
+T29	anatomical_site 656 670	olfactory bulb
+T30	anatomical_site 675 685	cerebellum
+T31	gene 728 759	glial fibrillary acidic protein
+T32	gene 761 765	GFAP
+T33	gene 768 784	apolipoprotein E
+T34	gene 796 809	synaptophysin
+T35	gene 844 849	Cav-1
+T36	gene 876 881	DISC1
+T37	anatomical_site 885 890	brain
+T38	anatomical_site 891 897	tissue
+T39	anatomical_site 974 985	spinal cord
+T40	gene 989 993	Gli2
+T41	gene 994 998	Gli3
+T42	anatomical_site 1013 1020	embryos
+T43	anatomical_site 1029 1034	chick
+T44	anatomical_site 1035 1042	embryos
+T45	gene 1088 1092	Gli2
+T46	gene 1097 1101	Gli3
+T47	gene 1117 1128	adiponectin
+T48	gene 1140 1147	AdipoR1
+T49	gene 1152 1159	AdipoR2
+T50	anatomical_site 1171 1187	colon epithelium
+T51	anatomical_site 1205 1211	tissue
+T52	anatomical_site 1250 1258	placenta
+T53	gene 1315 1323	IL-1beta
+T54	gene 1325 1329	IL-6
+T55	gene 1331 1335	IL-8
+T56	gene 1337 1340	p55
+T57	gene 1358 1376	C-reactive protein
+T58	anatomical_site 1390 1395	serum
+T59	gene 1397 1402	Nodal
+T60	anatomical_site 1436 1444	mesoderm
+T61	anatomical_site 1449 1457	endoderm
+T62	gene 1483 1487	Hes1
+T63	gene 1492 1496	Hes5
+T64	anatomical_site 1548 1553	brain
+T65	anatomical_site 1554 1562	vascular
+T66	gene 1576 1581	HSP73
+T67	anatomical_site 1597 1603	kidney
+T68	anatomical_site 1605 1610	liver
+T69	anatomical_site 1616 1621	ovary
+T70	gene 1630 1633	HSP
+T71	anatomical_site 1654 1660	kidney
+T72	anatomical_site 1691 1696	serum
+T73	gene 1697 1730	brain-derived neurotrophic factor
+T74	gene 1732 1736	BDNF
+T75	anatomical_site 1776 1781	serum
+T76	gene 1782 1786	BDNF
+T77	anatomical_site 1797 1801	male
+T78	anatomical_site 1805 1811	female
+T79	gene 1871 1875	MRP1
+T80	gene 1877 1881	MRP2
+T81	gene 1883 1887	MRP3
+T82	gene 1889 1893	MRP4
+T83	gene 1895 1899	MRP5
+T84	anatomical_site 2038 2043	liver
+T85	anatomical_site 2045 2051	kidney
+T86	anatomical_site 2053 2062	intestine
+T87	anatomical_site 2067 2086	blood-brain barrier
+T88	gene 2092 2095	Lrg
+T89	anatomical_site 2119 2124	brain
+T90	anatomical_site 2125 2131	tissue
+T91	anatomical_site 2138 2160	middle cerebral artery
+T92	gene 2231 2264	brain-derived neurotrophic factor
+T93	gene 2266 2270	BDNF
+T94	gene 2276 2290	neurotrophin-3
+T95	gene 2292 2296	NT-3
+T96	anatomical_site 2313 2318	brain
+T97	anatomical_site 2319 2325	tissue
+T98	gene 2406 2410	BDNF
+T99	anatomical_site 2428 2439	hippocampus
+T100	anatomical_site 2444 2459	parietal cortex
+T101	gene 2518 2522	NT-3
+T102	anatomical_site 2541 2552	hippocampus
+T103	anatomical_site 2557 2564	putamen
+T104	gene 2594 2598	BDNF
+T105	anatomical_site 2602 2616	frontal cortex
+T106	gene 2618 2629	Adiponectin
+T107	anatomical_site 2653 2659	tissue
+T108	anatomical_site 2675 2680	serum
+T109	gene 2681 2692	adiponectin
+T110	anatomical_site 2730 2740	lymph node
+T111	gene 2742 2748	VCAM-1
+T112	anatomical_site 2794 2801	venules
+T113	gene 2818 2824	Ergic2
+T114	gene 2856 2865	Otoferlin
+T115	anatomical_site 2906 2911	brain
+T116	anatomical_site 2967 2974	cochlea
+T117	gene 2976 2987	Adiponectin
+T118	anatomical_site 3033 3037	body
+T119	anatomical_site 3064 3068	body
+T120	anatomical_site 3069 3072	fat
+T121	anatomical_site 3081 3085	skin
+T122	gene 3129 3136	insulin
+T123	gene 3181 3188	insulin
+T124	gene 3220 3227	insulin
+T125	gene 3233 3239	leptin

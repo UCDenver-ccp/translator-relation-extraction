@@ -1,0 +1,127 @@
+T1	anatomical_site 10 16	tissue
+T2	anatomical_site 89 95	tissue
+T3	gene 96 103	elastin
+T4	anatomical_site 145 151	tissue
+T5	anatomical_site 160 165	serum
+T6	gene 166 171	TIMP1
+T7	gene 176 181	MCP-1
+T8	gene 202 206	MMP9
+T9	gene 208 212	Pax1
+T10	gene 217 221	Pax9
+T11	anatomical_site 247 263	vertebral column
+T12	gene 299 304	MMP-9
+T13	gene 306 312	TIMP-1
+T14	gene 318 326	TGF-beta
+T15	anatomical_site 330 346	peritoneal fluid
+T16	anatomical_site 375 380	liver
+T17	anatomical_site 381 384	fat
+T18	gene 418 425	insulin
+T19	gene 448 455	insulin
+T20	gene 487 491	P2X2
+T21	gene 496 500	P2X3
+T22	anatomical_site 514 524	urothelium
+T23	anatomical_site 529 551	detrusor smooth muscle
+T24	anatomical_site 569 580	spinal cord
+T25	gene 621 625	PAX2
+T26	gene 627 631	PAX3
+T27	gene 633 637	PAX6
+T28	gene 643 647	PAX9
+T29	anatomical_site 687 699	craniofacial
+T30	anatomical_site 721 726	tooth
+T31	anatomical_site 754 759	serum
+T32	anatomical_site 797 811	adipose tissue
+T33	gene 831 835	IL-6
+T34	gene 837 871	monocyte chemoattractant protein-1
+T35	gene 873 878	MCP-1
+T36	gene 881 890	TNF-alpha
+T37	gene 892 898	leptin
+T38	gene 900 908	resistin
+T39	gene 914 925	adiponectin
+T40	anatomical_site 948 962	adipose tissue
+T41	gene 982 986	CD14
+T42	gene 988 992	CD45
+T43	gene 998 1002	CD68
+T44	gene 1011 1015	lacZ
+T45	anatomical_site 1047 1063	skeletal muscles
+T46	anatomical_site 1065 1075	myocardium
+T47	anatomical_site 1077 1085	pancreas
+T48	anatomical_site 1091 1095	skin
+T49	gene 1116 1120	lacZ
+T50	gene 1143 1147	lacZ
+T51	anatomical_site 1179 1184	liver
+T52	anatomical_site 1186 1192	spleen
+T53	anatomical_site 1194 1200	kidney
+T54	anatomical_site 1206 1215	cartilage
+T55	gene 1268 1272	BDNF
+T56	gene 1274 1291	estrogen receptor
+T57	gene 1299 1307	ER-alpha
+T58	gene 1314 1336	estrogen receptor-beta
+T59	gene 1405 1409	BDNF
+T60	anatomical_site 1417 1429	hypothalamus
+T61	anatomical_site 1431 1439	amygdala
+T62	anatomical_site 1451 1457	cortex
+T63	anatomical_site 1471 1482	hippocampus
+T64	gene 1484 1515	Transforming growth factor-beta
+T65	gene 1518 1527	TGF-beta1
+T66	gene 1530 1561	connective tissue growth factor
+T67	gene 1563 1567	CTGF
+T68	gene 1570 1603	plasminogen activator inhibitor-1
+T69	gene 1605 1610	PAI-1
+T70	anatomical_site 1613 1619	tissue
+T71	gene 1654 1660	TIMP-1
+T72	gene 1673 1681	collagen
+T73	anatomical_site 1694 1700	kidney
+T74	anatomical_site 1701 1707	tissue
+T75	gene 1833 1846	serum albumin
+T76	anatomical_site 1859 1864	serum
+T77	anatomical_site 1878 1882	body
+T78	anatomical_site 1895 1899	body
+T79	anatomical_site 1900 1903	fat
+T80	anatomical_site 1905 1915	arm muscle
+T81	anatomical_site 1925 1930	urine
+T82	gene 1975 1978	PTP
+T83	gene 1978 1981	10D
+T84	anatomical_site 2019 2022	CNS
+T85	anatomical_site 2040 2045	brain
+T86	gene 2047 2053	ADAM15
+T87	anatomical_site 2089 2095	tissue
+T88	anatomical_site 2133 2139	tissue
+T89	anatomical_site 2245 2250	organ
+T90	anatomical_site 2276 2281	liver
+T91	gene 2283 2286	Alb
+T92	anatomical_site 2298 2306	pancreas
+T93	gene 2308 2314	Spink1
+T94	anatomical_site 2317 2324	bronchi
+T95	anatomical_site 2325 2330	lungs
+T96	gene 2336 2342	Cyp4b1
+T97	anatomical_site 2345 2356	bone marrow
+T98	gene 2358 2361	Np4
+T99	anatomical_site 2378 2384	kidney
+T100	gene 2393 2400	Slc22a8
+T101	gene 2417 2421	PPAR
+T102	anatomical_site 2461 2465	body
+T103	anatomical_site 2470 2476	muscle
+T104	gene 2477 2484	insulin
+T105	anatomical_site 2509 2514	blood
+T106	gene 2560 2564	IRS1
+T107	gene 2600 2605	Lrrk2
+T108	anatomical_site 2640 2645	brain
+T109	anatomical_site 2701 2709	striatum
+T110	anatomical_site 2714 2720	cortex
+T111	gene 2746 2751	Lrrk2
+T112	gene 2776 2780	ACOX
+T113	gene 2816 2820	ACOX
+T114	anatomical_site 2860 2865	fatty
+T115	anatomical_site 2875 2880	blood
+T116	gene 2882 2892	Dystrophin
+T117	gene 2897 2907	dystrophin
+T118	gene 2925 2933	utrophin
+T119	gene 2962 2972	dystrophin
+T120	anatomical_site 2983 2999	skeletal muscles
+T121	gene 3015 3020	Bcl-2
+T122	gene 3025 3028	Bax
+T123	anatomical_site 3038 3051	renal tubules
+T124	anatomical_site 3059 3065	kidney
+T125	gene 3083 3086	TRK
+T126	anatomical_site 3142 3149	thyroid
+T127	anatomical_site 3150 3160	epithelium

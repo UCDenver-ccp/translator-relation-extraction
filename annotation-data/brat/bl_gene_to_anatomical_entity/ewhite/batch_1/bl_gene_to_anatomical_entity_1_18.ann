@@ -1,0 +1,128 @@
+T1	gene 0 3	Sp1
+T2	gene 28 44	cyclooxygenase-2
+T3	anatomical_site 56 64	vascular
+T4	anatomical_site 65 76	endothelium
+T5	gene 113 117	Bmp4
+T6	anatomical_site 139 144	tooth
+T7	anatomical_site 177 193	tooth mesenchyme
+T8	gene 205 209	Dkk2
+T9	gene 214 218	Osr2
+T10	gene 240 244	Msx1
+T11	anatomical_site 257 268	mesenchymal
+T12	anatomical_site 330 335	tooth
+T13	gene 347 356	TNF-alpha
+T14	gene 358 362	IL-8
+T15	gene 374 383	TNF-alpha
+T16	gene 385 389	IL-6
+T17	gene 391 395	IL-8
+T18	anatomical_site 416 420	lung
+T19	anatomical_site 444 449	urine
+T20	anatomical_site 479 483	lung
+T21	gene 512 517	FGF10
+T22	gene 545 549	PDX1
+T23	anatomical_site 568 573	organ
+T24	gene 596 601	Fgf10
+T25	anatomical_site 607 614	embryos
+T26	gene 621 633	glycogenin-1
+T27	gene 638 650	glycogenin-2
+T28	anatomical_site 681 686	liver
+T29	gene 697 709	glycogenin-1
+T30	anatomical_site 728 733	heart
+T31	anatomical_site 738 753	skeletal muscle
+T32	anatomical_site 778 784	kidney
+T33	gene 786 792	Ndfip1
+T34	gene 797 803	Ndfip2
+T35	anatomical_site 846 862	proximal tubules
+T36	anatomical_site 867 883	collecting ducts
+T37	gene 910 916	NDFIP1
+T38	anatomical_site 973 987	olfactory bulb
+T39	gene 1002 1018	membrane protein
+T40	anatomical_site 1021 1035	frontal cortex
+T41	gene 1050 1066	membrane protein
+T42	anatomical_site 1078 1094	occipital cortex
+T43	gene 1109 1125	membrane protein
+T44	anatomical_site 1128 1143	caudate putamen
+T45	gene 1160 1176	membrane protein
+T46	anatomical_site 1179 1190	hippocampus
+T47	gene 1207 1223	membrane protein
+T48	anatomical_site 1226 1238	hypothalamus
+T49	gene 1253 1269	membrane protein
+T50	anatomical_site 1276 1286	cerebellum
+T51	gene 1301 1317	membrane protein
+T52	anatomical_site 1331 1336	heart
+T53	gene 1361 1365	HIF1
+T54	anatomical_site 1408 1418	myocardium
+T55	anatomical_site 1439 1446	embryos
+T56	anatomical_site 1466 1472	tissue
+T57	gene 1516 1524	collagen
+T58	anatomical_site 1535 1541	tissue
+T59	anatomical_site 1556 1569	blood vessels
+T60	anatomical_site 1574 1578	skin
+T61	gene 1592 1596	Rbm5
+T62	gene 1601 1606	Rbm10
+T63	anatomical_site 1636 1641	brain
+T64	anatomical_site 1650 1654	skin
+T65	anatomical_site 1699 1719	glandular epithelium
+T66	gene 1730 1735	Cldn3
+T67	gene 1740 1745	Cldn7
+T68	gene 1755 1761	Cldn10
+T69	anatomical_site 1785 1805	glandular epithelium
+T70	anatomical_site 1837 1842	serum
+T71	gene 1843 1850	alpha 2
+T72	gene 1855 1867	glycoprotein
+T73	gene 1870 1901	Early growth response protein 1
+T74	gene 1903 1908	Egr-1
+T75	gene 1911 1941	monocyte chemotactic protein 1
+T76	gene 1943 1948	MCP-1
+T77	gene 1951 1955	IL-6
+T78	gene 1961 1969	IL-1beta
+T79	anatomical_site 1992 1996	lung
+T80	anatomical_site 1997 2003	tissue
+T81	gene 2034 2045	Hippostasin
+T82	anatomical_site 2075 2083	prostate
+T83	anatomical_site 2094 2104	epithelium
+T84	gene 2139 2150	hippostasin
+T85	anatomical_site 2223 2228	brain
+T86	gene 2253 2257	AQP1
+T87	gene 2259 2263	AQP4
+T88	gene 2265 2269	AQP9
+T89	anatomical_site 2274 2279	brain
+T90	anatomical_site 2335 2349	adipose tissue
+T91	gene 2350 2354	FZD4
+T92	gene 2356 2360	LRP5
+T93	gene 2376 2381	AXIN2
+T94	anatomical_site 2401 2407	muscle
+T95	gene 2408 2412	FZD1
+T96	gene 2416 2420	DVL1
+T97	gene 2434 2439	AXIN2
+T98	gene 2445 2448	MYC
+T99	gene 2469 2476	insulin
+T100	gene 2481 2487	leptin
+T101	anatomical_site 2488 2493	serum
+T102	anatomical_site 2530 2535	blood
+T103	anatomical_site 2571 2575	body
+T104	anatomical_site 2576 2579	fat
+T105	anatomical_site 2584 2588	body
+T106	anatomical_site 2613 2635	middle cerebral artery
+T107	anatomical_site 2818 2823	brain
+T108	anatomical_site 2824 2830	tissue
+T109	gene 2832 2837	Bcl-2
+T110	gene 2842 2845	Bax
+T111	gene 2877 2885	IL-1beta
+T112	gene 2887 2891	IL-6
+T113	anatomical_site 2908 2913	serum
+T114	anatomical_site 2952 2957	brain
+T115	anatomical_site 2958 2964	tissue
+T116	gene 2966 2977	Adiponectin
+T117	anatomical_site 3009 3013	body
+T118	anatomical_site 3014 3017	fat
+T119	gene 3025 3031	leptin
+T120	anatomical_site 3084 3105	capillary endothelium
+T121	gene 3122 3126	LAT1
+T122	gene 3144 3148	LAT2
+T123	anatomical_site 3183 3188	blood
+T124	anatomical_site 3189 3194	brain
+T125	anatomical_site 3196 3201	blood
+T126	anatomical_site 3202 3210	follicle
+T127	anatomical_site 3216 3221	blood
+T128	gene 3259 3263	LAT1

@@ -1,0 +1,117 @@
+T1	anatomical_site 22 30	vascular
+T2	anatomical_site 68 76	pancreas
+T3	anatomical_site 78 82	lung
+T4	anatomical_site 84 90	kidney
+T5	anatomical_site 95 100	liver
+T6	anatomical_site 101 107	tissue
+T7	gene 161 168	PECAM-1
+T8	gene 172 178	VCAM-1
+T9	gene 186 197	P- SELECTIN
+T10	gene 245 252	insulin
+T11	gene 258 266	glucagon
+T12	anatomical_site 274 277	eye
+T13	gene 290 298	glucagon
+T14	gene 302 309	insulin
+T15	anatomical_site 324 327	eye
+T16	anatomical_site 337 342	nerve
+T17	gene 404 408	XIAP
+T18	gene 462 471	caspase-3
+T19	anatomical_site 479 490	spinal cord
+T20	gene 522 527	PDE1A
+T21	gene 529 534	PDE1B
+T22	gene 539 544	PDE1C
+T23	anatomical_site 552 557	brain
+T24	anatomical_site 559 564	heart
+T25	anatomical_site 569 574	aorta
+T26	gene 595 600	PDE1B
+T27	anatomical_site 604 623	mesenteric arteries
+T28	gene 644 650	TGFBR3
+T29	gene 652 657	RUNX3
+T30	gene 659 664	TRGC2
+T31	gene 679 683	ACP1
+T32	gene 695 700	TSTA3
+T33	anatomical_site 749 753	lung
+T34	anatomical_site 754 760	tissue
+T35	anatomical_site 858 862	lung
+T36	anatomical_site 863 869	tissue
+T37	anatomical_site 898 903	blood
+T38	anatomical_site 922 927	blood
+T39	gene 937 955	C-reactive protein
+T40	gene 971 978	insulin
+T41	gene 980 987	insulin
+T42	gene 1035 1042	omentin
+T43	anatomical_site 1074 1080	tissue
+T44	anatomical_site 1103 1109	tissue
+T45	anatomical_site 1132 1138	tissue
+T46	gene 1223 1229	S100A2
+T47	gene 1231 1237	S100A6
+T48	gene 1264 1273	calbindin
+T49	gene 1277 1286	calbindin
+T50	gene 1300 1311	parvalbumin
+T51	gene 1313 1316	AVP
+T52	anatomical_site 1331 1336	urine
+T53	gene 1337 1341	AQP2
+T54	anatomical_site 1381 1386	urine
+T55	gene 1471 1474	Arc
+T56	anatomical_site 1486 1497	hippocampal
+T57	anatomical_site 1507 1513	tissue
+T58	anatomical_site 1560 1565	serum
+T59	anatomical_site 1570 1576	tissue
+T60	gene 1587 1591	HER2
+T61	anatomical_site 1704 1712	ganglion
+T62	anatomical_site 1720 1725	chick
+T63	anatomical_site 1726 1732	embryo
+T64	gene 1736 1740	BDNF
+T65	gene 1742 1746	NT-3
+T66	gene 1748 1752	NT-4
+T67	gene 1760 1767	insulin
+T68	anatomical_site 1774 1779	blood
+T69	gene 1780 1786	leptin
+T70	anatomical_site 1858 1863	blood
+T71	gene 1864 1871	insulin
+T72	anatomical_site 1918 1923	serum
+T73	gene 1924 1930	leptin
+T74	gene 1960 1964	Odd1
+T75	anatomical_site 1977 1999	metanephric mesenchyme
+T76	anatomical_site 2067 2073	kidney
+T77	gene 2095 2099	Eya1
+T78	gene 2101 2105	Six2
+T79	gene 2107 2111	Pax2
+T80	gene 2113 2118	Sall1
+T81	gene 2129 2134	PFDN5
+T82	anatomical_site 2160 2171	hippocampus
+T83	anatomical_site 2231 2234	CA1
+T84	anatomical_site 2235 2238	CA3
+T85	gene 2262 2269	insulin
+T86	anatomical_site 2295 2300	liver
+T87	gene 2301 2322	glucose 6-phosphatase
+T88	anatomical_site 2326 2331	chick
+T89	anatomical_site 2332 2339	embryos
+T90	anatomical_site 2362 2367	brain
+T91	gene 2397 2401	Six1
+T92	anatomical_site 2431 2436	liver
+T93	anatomical_site 2458 2463	serum
+T94	gene 2464 2497	macrophage inflammatory protein-2
+T95	gene 2499 2504	MIP-2
+T96	gene 2510 2549	macrophage inflammatory protein-1 alpha
+T97	anatomical_site 2575 2580	liver
+T98	anatomical_site 2585 2589	lung
+T99	anatomical_site 2590 2596	tissue
+T100	anatomical_site 2624 2629	liver
+T101	anatomical_site 2634 2638	lung
+T102	gene 2650 2655	Neph1
+T103	gene 2660 2665	Neph2
+T104	anatomical_site 2706 2728	central nervous system
+T105	gene 2735 2740	Neph3
+T106	anatomical_site 2778 2788	cerebellum
+T107	anatomical_site 2789 2795	anlage
+T108	anatomical_site 2804 2815	spinal cord
+T109	gene 2835 2845	semaphorin
+T110	gene 2854 2860	Sema6A
+T111	anatomical_site 2900 2914	nervous system
+T112	anatomical_site 2927 2942	coronary artery
+T113	gene 2963 2972	TNF-alpha
+T114	gene 2981 2991	E-selectin
+T115	gene 2996 3002	ICAM-1
+T116	anatomical_site 3033 3048	coronary artery
+T117	gene 3064 3070	VCAM-1

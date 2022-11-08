@@ -1,0 +1,144 @@
+T1	gene 0 32	Epidermal growth factor receptor
+T2	gene 34 38	EGFR
+T3	gene 52 57	beta5
+T4	gene 58 67	integrins
+T5	cellular_component 58 67	integrins
+T6	gene 177 197	TGF-beta superfamily
+T7	gene 271 279	TGF-beta
+T8	gene 291 296	Smads
+T9	cellular_component 291 296	Smads
+T10	gene 301 306	Smads
+T11	cellular_component 301 306	Smads
+T12	gene 311 314	BMP
+T13	gene 326 331	Smads
+T14	cellular_component 326 331	Smads
+T15	cellular_component 336 341	Smads
+T16	gene 336 341	Smads
+T17	cellular_component 355 364	chromatin
+T18	gene 431 434	p53
+T19	cellular_component 439 443	Smad
+T20	gene 439 443	Smad
+T21	gene 487 490	p53
+T22	gene 495 499	Smad
+T23	cellular_component 495 499	Smad
+T24	gene 583 588	PROX1
+T25	gene 590 595	FOXC2
+T26	cellular_component 645 657	gap junction
+T27	gene 666 676	connexin37
+T28	gene 695 706	calcineurin
+T29	cellular_component 695 706	calcineurin
+T30	gene 737 741	Smad
+T31	cellular_component 737 741	Smad
+T32	gene 762 767	Smad6
+T33	gene 772 777	Smad7
+T34	cellular_component 809 822	intracellular
+T35	gene 838 846	TGF-beta
+T36	gene 903 907	TPX2
+T37	gene 918 924	Aurora
+T38	cellular_component 956 967	microtubule
+T39	gene 988 992	TPX2
+T40	cellular_component 994 1007	Mitochondrial
+T41	gene 1008 1016	catalase
+T42	gene 1054 1063	nucleolin
+T43	gene 1074 1079	Cox-2
+T44	cellular_component 1105 1118	intracellular
+T45	gene 1155 1171	protein kinase C
+T46	gene 1193 1196	Raf
+T47	gene 1198 1201	MAP
+T48	gene 1202 1205	ERK
+T49	gene 1223 1226	MAP
+T50	gene 1227 1230	ERK
+T51	gene 1244 1247	MAP
+T52	gene 1248 1251	ERK
+T53	gene 1306 1309	p42
+T54	gene 1310 1313	p44
+T55	gene 1318 1329	MAP kinases
+T56	gene 1390 1399	Nesprin-1
+T57	gene 1401 1406	Syne1
+T58	gene 1412 1421	Nesprin-2
+T59	gene 1423 1428	Syne2
+T60	cellular_component 1469 1485	nuclear-envelope
+T61	cellular_component 1523 1531	spectrin
+T62	gene 1523 1531	spectrin
+T63	cellular_component 1581 1607	anaphase promoting complex
+T64	gene 1609 1612	APC
+T65	gene 1623 1628	cdc16
+T66	gene 1630 1635	cdc23
+T67	gene 1640 1645	cdc27
+T68	gene 1673 1681	p67 phox
+T69	gene 1683 1688	hsp90
+T70	gene 1739 1742	PKR
+T71	cellular_component 1773 1784	peroxisomal
+T72	cellular_component 1789 1802	mitochondrial
+T73	gene 1842 1851	integrins
+T74	cellular_component 1842 1851	integrins
+T75	cellular_component 1863 1871	integrin
+T76	gene 1863 1871	integrin
+T77	gene 1873 1878	ITGA5
+T78	gene 1881 1886	ITGA7
+T79	gene 1899 1904	ITGB3
+T80	cellular_component 2000 2004	SMAD
+T81	gene 2000 2004	SMAD
+T82	gene 2032 2042	E-cadherin
+T83	gene 2044 2054	N-cadherin
+T84	gene 2058 2063	Samd3
+T85	gene 2070 2075	Smad2
+T86	cellular_component 2134 2146	cell-surface
+T87	gene 2170 2182	EGF receptor
+T88	gene 2184 2188	HER2
+T89	gene 2190 2206	death receptor 5
+T90	gene 2211 2216	IGF-1
+T91	cellular_component 2236 2243	nucleus
+T92	gene 2245 2249	EGFR
+T93	gene 2306 2310	Ku70
+T94	gene 2315 2319	Ku80
+T95	gene 2364 2367	p27
+T96	gene 2368 2372	Kip1
+T97	gene 2375 2380	FGF-2
+T98	gene 2430 2433	p27
+T99	gene 2434 2438	Kip1
+T100	cellular_component 2443 2449	nuclei
+T101	gene 2473 2482	TGF-beta2
+T102	gene 2516 2519	p27
+T103	gene 2520 2524	Kip1
+T104	gene 2574 2578	LDLR
+T105	gene 2591 2595	APOB
+T106	gene 2608 2612	LDLR
+T107	gene 2614 2618	APOB
+T108	cellular_component 2634 2637	LDL
+T109	gene 2651 2655	LDLR
+T110	gene 2668 2672	APOB
+T111	gene 2685 2689	LDLR
+T112	gene 2691 2695	APOB
+T113	gene 2733 2737	APOB
+T114	gene 2755 2759	APOB
+T115	gene 2801 2805	LDLR
+T116	gene 2841 2845	APOB
+T117	gene 2883 2887	APOB
+T118	gene 2900 2904	LDLR
+T119	gene 2906 2910	APOB
+T120	gene 2923 2927	LDLR
+T121	cellular_component 2981 2999	cytoplasmic region
+T122	gene 3011 3016	ezrin
+T123	gene 3017 3024	radixin
+T124	gene 3025 3031	moesin
+T125	cellular_component 3059 3067	membrane
+T126	cellular_component 3080 3098	actin cytoskeleton
+T127	cellular_component 3118 3130	mitochondria
+T128	cellular_component 3136 3143	nucleus
+T129	gene 3215 3219	PCNA
+T130	gene 3226 3229	p53
+T131	gene 3231 3234	E2F
+T132	gene 3236 3239	p21
+T133	gene 3241 3244	p27
+T134	gene 3246 3249	HGF
+T135	cellular_component 3266 3279	mitochondrial
+T136	gene 3392 3404	calreticulin
+T137	gene 3405 3413	calnexin
+T138	cellular_component 3512 3522	proteasome
+T139	gene 3592 3614	chaperone protein htpG
+T140	gene 3645 3669	glutathione transferases
+T141	cellular_component 3685 3698	intracellular
+T142	gene 3716 3721	GalR1
+T143	gene 3726 3731	GalR2
+T144	gene 3732 3748	galanin receptor

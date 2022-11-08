@@ -1,0 +1,145 @@
+T1	cellular_component 0 10	Antibodies
+T2	gene 19 25	alpha2
+T3	gene 26 34	integrin
+T4	cellular_component 26 34	integrin
+T5	gene 42 50	integrin
+T6	cellular_component 42 50	integrin
+T7	gene 85 88	Src
+T8	gene 96 99	p56
+T9	cellular_component 124 132	integrin
+T10	gene 124 132	integrin
+T11	gene 143 146	PDI
+T12	cellular_component 184 192	integrin
+T13	gene 184 192	integrin
+T14	gene 230 235	Bcl-2
+T15	gene 256 259	p38
+T16	gene 259 263	MAPK
+T17	cellular_component 295 304	cytoplasm
+T18	gene 323 328	Bcl-2
+T19	gene 339 344	Bcl-2
+T20	gene 433 436	p38
+T21	gene 436 440	MAPK
+T22	gene 474 479	LAMP1
+T23	gene 485 489	Rab7
+T24	gene 490 495	LAMP1
+T25	cellular_component 496 504	vesicles
+T26	cellular_component 518 526	vesicles
+T27	cellular_component 539 548	lysosomal
+T28	cellular_component 604 612	antibody
+T29	gene 621 654	epidermal growth factor receptors
+T30	gene 655 661	ErbB-1
+T31	gene 663 669	ErbB-2
+T32	gene 671 677	ErbB-3
+T33	gene 681 687	ErbB-4
+T34	gene 732 738	ErbB-1
+T35	cellular_component 739 747	antibody
+T36	gene 763 771	skelemin
+T37	cellular_component 841 849	integrin
+T38	gene 841 849	integrin
+T39	cellular_component 850 861	cytoplasmic
+T40	gene 883 908	glutathione S-transferase
+T41	gene 910 913	GST
+T42	gene 945 948	GST
+T43	cellular_component 955 963	integrin
+T44	gene 955 963	integrin
+T45	cellular_component 964 975	cytoplasmic
+T46	gene 984 987	GST
+T47	gene 1042 1045	p53
+T48	gene 1054 1057	p16
+T49	gene 1063 1095	epidermal growth factor receptor
+T50	gene 1097 1101	EGFR
+T51	cellular_component 1103 1113	antibodies
+T52	gene 1156 1162	alpha2
+T53	cellular_component 1168 1176	integrin
+T54	gene 1168 1176	integrin
+T55	cellular_component 1177 1185	antibody
+T56	gene 1208 1214	alpha2
+T57	gene 1220 1228	integrin
+T58	cellular_component 1220 1228	integrin
+T59	cellular_component 1229 1237	antibody
+T60	gene 1303 1307	AKT1
+T61	gene 1320 1324	AKT2
+T62	gene 1334 1337	p21
+T63	gene 1338 1341	p27
+T64	cellular_component 1372 1381	cytosolic
+T65	gene 1382 1385	p21
+T66	gene 1386 1389	p27
+T67	cellular_component 1474 1478	Smad
+T68	gene 1474 1478	Smad
+T69	gene 1498 1503	Smad2
+T70	gene 1520 1525	Smad2
+T71	gene 1529 1534	Smad2
+T72	gene 1552 1557	Smad3
+T73	gene 1561 1566	Smad3
+T74	gene 1569 1580	fibronectin
+T75	gene 1586 1594	collagen
+T76	cellular_component 1725 1733	membrane
+T77	gene 1753 1779	G protein-coupled receptor
+T78	gene 1781 1785	GPCR
+T79	gene 1849 1852	LMP
+T80	gene 1857 1861	Op18
+T81	gene 1862 1870	stathmin
+T82	cellular_component 1910 1913	NPC
+T83	gene 1937 1940	LMP
+T84	gene 1952 1956	Op18
+T85	gene 1957 1965	stathmin
+T86	gene 2000 2003	LMP
+T87	gene 2043 2047	Op18
+T88	gene 2101 2105	cdc2
+T89	gene 2111 2115	Op18
+T90	gene 2190 2193	LMP
+T91	gene 2236 2240	cdc2
+T92	gene 2245 2249	Op18
+T93	gene 2306 2315	integrins
+T94	cellular_component 2306 2315	integrins
+T95	gene 2316 2321	ITGA2
+T96	gene 2326 2331	ITGA6
+T97	gene 2366 2372	PHLDA1
+T98	gene 2431 2439	collagen
+T99	gene 2467 2494	Tumor necrosis factor-alpha
+T100	gene 2496 2505	TNF-alpha
+T101	cellular_component 2527 2539	cell-surface
+T102	gene 2551 2560	TNF-alpha
+T103	gene 2573 2579	TNFR-I
+T104	gene 2581 2584	p55
+T105	gene 2590 2599	TNF-alpha
+T106	gene 2613 2620	TNFR-II
+T107	gene 2650 2656	alpha1
+T108	gene 2662 2670	integrin
+T109	cellular_component 2662 2670	integrin
+T110	cellular_component 2682 2699	basement membrane
+T111	gene 2700 2708	collagen
+T112	cellular_component 2713 2721	Membrane
+T113	gene 2742 2747	Ste11
+T114	gene 2838 2848	MAP kinase
+T115	gene 2850 2854	MAPK
+T116	gene 2872 2875	SHO
+T117	gene 2910 2914	MAPK
+T118	gene 2958 2961	Ste
+T119	cellular_component 2993 3001	membrane
+T120	gene 3010 3019	TGF-beta1
+T121	gene 3039 3044	PAI-1
+T122	gene 3064 3068	Smad
+T123	cellular_component 3064 3068	Smad
+T124	gene 3154 3159	Smad6
+T125	gene 3164 3169	Smad7
+T126	cellular_component 3287 3297	antibodies
+T127	gene 3301 3333	epidermal growth factor receptor
+T128	gene 3341 3373	epidermal growth factor receptor
+T129	gene 3383 3388	HER-3
+T130	gene 3390 3395	HER-4
+T131	gene 3397 3434	insulin-like growth factor 1 receptor
+T132	gene 3453 3469	insulin receptor
+T133	gene 3476 3519	vascular endothelial growth factor receptor
+T134	gene 3521 3526	VEGFR
+T135	gene 3531 3538	VEGFR-2
+T136	gene 3540 3547	VEGFR-3
+T137	gene 3556 3589	fibroblast growth factor receptor
+T138	gene 3591 3595	FGFR
+T139	gene 3600 3606	FGFR-3
+T140	gene 3663 3669	ICAM-2
+T141	gene 3721 3726	CD11a
+T142	gene 3727 3731	CD18
+T143	gene 3742 3746	CD29
+T144	gene 3747 3756	integrins
+T145	cellular_component 3747 3756	integrins

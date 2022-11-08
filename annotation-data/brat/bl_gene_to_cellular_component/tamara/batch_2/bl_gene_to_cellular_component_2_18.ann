@@ -1,0 +1,121 @@
+T1	gene 0 4	CCN1
+T2	cellular_component 31 43	cell-surface
+T3	gene 53 61	integrin
+T4	cellular_component 53 61	integrin
+T5	gene 128 160	mitogen-activated protein kinase
+T6	gene 161 164	p38
+T7	cellular_component 177 186	cytosolic
+T8	gene 187 190	Bax
+T9	cellular_component 208 220	mitochondria
+T10	cellular_component 241 254	mitochondrial
+T11	gene 255 259	Smac
+T12	gene 264 269	HtrA2
+T13	cellular_component 273 280	cytosol
+T14	gene 291 300	TGF-beta1
+T15	cellular_component 321 325	Smad
+T16	gene 321 325	Smad
+T17	gene 392 424	mitogen-activated protein kinase
+T18	gene 426 430	MAPK
+T19	cellular_component 433 446	extracellular
+T20	gene 501 504	p38
+T21	gene 505 509	MAPK
+T22	gene 515 519	MAPK
+T23	gene 524 534	Exportin-1
+T24	gene 536 540	CRM1
+T25	gene 541 545	XPO1
+T26	cellular_component 635 642	nucleus
+T27	cellular_component 650 659	cytoplasm
+T28	cellular_component 661 670	Chromatin
+T29	gene 679 682	HP1
+T30	gene 720 728	borealin
+T31	cellular_component 786 815	chromosomal passenger complex
+T32	gene 841 847	NOTCH1
+T33	gene 849 855	NOTCH2
+T34	gene 857 863	NOTCH3
+T35	gene 867 873	NOTCH4
+T36	cellular_component 972 985	intracellular
+T37	gene 1001 1006	FNBP3
+T38	gene 1019 1025	TNFSF6
+T39	gene 1040 1050	Huntingtin
+T40	cellular_component 1088 1101	extracellular
+T41	gene 1117 1120	Rho
+T42	gene 1186 1191	Smad3
+T43	gene 1215 1219	Smad
+T44	cellular_component 1215 1219	Smad
+T45	gene 1224 1232	TGF-beta
+T46	gene 1256 1265	ankyrin-3
+T47	cellular_component 1275 1283	vesicles
+T48	cellular_component 1292 1301	lysosomal
+T49	cellular_component 1313 1321	membrane
+T50	gene 1322 1334	glycoprotein
+T51	gene 1336 1342	LAMP-1
+T52	cellular_component 1358 1367	lysosomal
+T53	gene 1376 1382	RanBPM
+T54	gene 1389 1409	acetylcholinesterase
+T55	cellular_component 1457 1464	nucleus
+T56	gene 1488 1493	ezrin
+T57	gene 1494 1501	radixin
+T58	gene 1502 1508	moesin
+T59	cellular_component 1555 1563	membrane
+T60	cellular_component 1592 1610	actin cytoskeleton
+T61	cellular_component 1621 1631	antibodies
+T62	cellular_component 1644 1665	intermediate filament
+T63	gene 1675 1681	desmin
+T64	gene 1698 1706	vimentin
+T65	cellular_component 1723 1733	antibodies
+T66	cellular_component 1746 1758	cytoskeleton
+T67	gene 1782 1790	spectrin
+T68	cellular_component 1782 1790	spectrin
+T69	gene 1821 1829	vinculin
+T70	gene 1907 1910	ARX
+T71	gene 1917 1920	ARX
+T72	cellular_component 1933 1951	actin cytoskeleton
+T73	gene 1978 1983	OSG-1
+T74	gene 1984 1987	RHO
+T75	gene 2001 2004	APC
+T76	gene 2017 2026	GSK-3beta
+T77	gene 2032 2044	beta-catenin
+T78	cellular_component 2063 2072	cytoplasm
+T79	gene 2120 2132	beta-catenin
+T80	cellular_component 2140 2153	intracellular
+T81	gene 2154 2168	phosphoprotein
+T82	gene 2225 2230	LFA-1
+T83	gene 2281 2289	integrin
+T84	cellular_component 2281 2289	integrin
+T85	gene 2311 2314	Jun
+T86	gene 2345 2350	JAB-1
+T87	gene 2386 2390	Erk1
+T88	gene 2401 2412	cytohesin-1
+T89	gene 2499 2511	calreticulin
+T90	gene 2513 2540	protein disulfide isomerase
+T91	cellular_component 2542 2552	proteasome
+T92	gene 2617 2627	syntaxin-4
+T93	gene 2654 2661	insulin
+T94	gene 2672 2677	GLUT4
+T95	cellular_component 2678 2685	vesicle
+T96	gene 2720 2726	PLAP-1
+T97	gene 2727 2734	asporin
+T98	gene 2745 2750	BMP-2
+T99	gene 2820 2825	BMP-2
+T100	gene 2863 2867	BMPR
+T101	gene 2900 2903	BMP
+T102	gene 2928 2932	Smad
+T103	cellular_component 2928 2932	Smad
+T104	gene 2992 3002	calmodulin
+T105	gene 3018 3032	integrin alpha
+T106	gene 3041 3052	fibronectin
+T107	gene 3087 3122	nuclear autoantigenic sperm protein
+T108	gene 3124 3157	protein kinase C-related kinase 2
+T109	gene 3163 3166	E2F
+T110	gene 3167 3189	transcription factor 1
+T111	cellular_component 3209 3221	cytoskeleton
+T112	cellular_component 3305 3317	cytoskeleton
+T113	gene 3352 3361	Gigaxonin
+T114	cellular_component 3445 3455	proteasome
+T115	cellular_component 3481 3492	microtubule
+T116	gene 3520 3525	MAP1B
+T117	gene 3527 3531	MAP8
+T118	gene 3540 3547	tubulin
+T119	gene 3698 3702	DnaJ
+T120	cellular_component 3720 3728	vacuolar
+T121	gene 3763 3767	MRP4

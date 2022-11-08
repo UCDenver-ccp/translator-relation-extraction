@@ -1,0 +1,128 @@
+T1	gene 25 28	TfR
+T2	gene 37 69	low-density lipoprotein receptor
+T3	gene 70 74	LDLR
+T4	cellular_component 145 153	membrane
+T5	gene 195 206	VE-cadherin
+T6	gene 221 232	VE-cadherin
+T7	cellular_component 233 246	extracellular
+T8	gene 272 276	Sdc1
+T9	gene 300 308	integrin
+T10	cellular_component 300 308	integrin
+T11	gene 326 332	VEGFR2
+T12	gene 339 342	Src
+T13	gene 360 368	cadherin
+T14	cellular_component 401 409	membrane
+T15	gene 419 424	Tim17
+T16	gene 429 434	Tim23
+T17	cellular_component 443 470	peripheral membrane protein
+T18	gene 471 476	Tim44
+T19	cellular_component 493 506	mitochondrial
+T20	gene 507 512	Hsp70
+T21	gene 549 554	smad7
+T22	gene 565 573	TGF-beta
+T23	gene 592 596	Smad
+T24	cellular_component 592 596	Smad
+T25	cellular_component 638 642	Smad
+T26	gene 638 642	Smad
+T27	gene 707 715	TGF-beta
+T28	gene 716 720	Smad
+T29	cellular_component 716 720	Smad
+T30	gene 730 739	TGF-beta1
+T31	gene 756 761	Smad2
+T32	gene 797 805	integrin
+T33	cellular_component 797 805	integrin
+T34	cellular_component 831 839	integrin
+T35	gene 831 839	integrin
+T36	cellular_component 840 848	antibody
+T37	gene 867 875	integrin
+T38	cellular_component 867 875	integrin
+T39	gene 933 942	TGF-beta1
+T40	gene 959 964	Smad2
+T41	gene 982 1013	Transforming growth factor-beta
+T42	gene 1014 1018	Smad
+T43	cellular_component 1014 1018	Smad
+T44	gene 1132 1164	mitogen-activated protein kinase
+T45	gene 1166 1170	MAPK
+T46	gene 1210 1213	p38
+T47	gene 1214 1218	MAPK
+T48	gene 1220 1235	Leptin receptor
+T49	cellular_component 1284 1293	cytosolic
+T50	gene 1344 1348	STAT
+T51	gene 1392 1397	STAT3
+T52	gene 1401 1406	STAT3
+T53	gene 1430 1434	CDK2
+T54	gene 1484 1488	CDK2
+T55	gene 1517 1521	CDK2
+T56	cellular_component 1529 1536	nucleus
+T57	gene 1565 1569	CDK2
+T58	gene 1589 1592	p27
+T59	cellular_component 1600 1607	nucleus
+T60	cellular_component 1613 1626	intracellular
+T61	gene 1653 1658	CLIC1
+T62	gene 1663 1668	CLIC4
+T63	gene 1713 1718	NLRP3
+T64	gene 1767 1779	calreticulin
+T65	gene 1792 1802	calmodulin
+T66	cellular_component 1811 1825	nuclear matrix
+T67	gene 1834 1842	matrin 3
+T68	gene 1893 1900	artemin
+T69	gene 1905 1909	GDNF
+T70	gene 1943 1947	GALT
+T71	gene 1950 1955	GALT4
+T72	gene 1960 1964	GALT
+T73	cellular_component 2022 2030	vesicles
+T74	gene 2112 2120	collagen
+T75	gene 2125 2133	collagen
+T76	gene 2147 2155	cadherin
+T77	cellular_component 2247 2256	ribosomal
+T78	cellular_component 2266 2277	microtubule
+T79	gene 2362 2380	carboxypeptidase E
+T80	gene 2430 2442	glycoprotein
+T81	gene 2444 2453	plexin B2
+T82	gene 2455 2461	Plxnb2
+T83	cellular_component 2468 2480	gap junction
+T84	cellular_component 2481 2489	membrane
+T85	gene 2507 2511	Smad
+T86	cellular_component 2507 2511	Smad
+T87	gene 2525 2556	transforming growth factor-beta
+T88	gene 2604 2607	p38
+T89	gene 2607 2611	MAPK
+T90	gene 2648 2662	integrin beta1
+T91	gene 2692 2696	CD26
+T92	cellular_component 2697 2705	antibody
+T93	gene 2735 2738	p38
+T94	gene 2738 2742	MAPK
+T95	gene 2747 2761	integrin beta1
+T96	cellular_component 2817 2837	extracellular matrix
+T97	gene 2889 2892	p38
+T98	gene 2892 2896	MAPK
+T99	gene 2926 2940	integrin beta1
+T100	gene 2955 2960	Foxc1
+T101	gene 2989 2994	Smad1
+T102	gene 3052 3055	BMP
+T103	gene 3057 3061	Smad
+T104	cellular_component 3057 3061	Smad
+T105	gene 3092 3095	BMP
+T106	cellular_component 3096 3100	Smad
+T107	gene 3096 3100	Smad
+T108	gene 3120 3123	Tyr
+T109	gene 3160 3164	PLK1
+T110	gene 3192 3206	phosphoprotein
+T111	gene 3217 3222	PBIP1
+T112	cellular_component 3239 3250	centrosomal
+T113	gene 3261 3266	NEDD1
+T114	gene 3272 3280	integrin
+T115	cellular_component 3272 3280	integrin
+T116	gene 3297 3306	Nischarin
+T117	gene 3351 3356	SENP3
+T118	gene 3380 3383	Sp1
+T119	gene 3413 3418	SUMO2
+T120	cellular_component 3464 3474	proteasome
+T121	gene 3518 3522	RNF4
+T122	gene 3550 3555	Cdh23
+T123	cellular_component 3556 3567	cytoplasmic
+T124	gene 3584 3592	harmonin
+T125	gene 3647 3652	Cdh23
+T126	gene 3695 3705	dystrophin
+T127	cellular_component 3792 3804	cytoskeleton
+T128	cellular_component 3808 3816	membrane

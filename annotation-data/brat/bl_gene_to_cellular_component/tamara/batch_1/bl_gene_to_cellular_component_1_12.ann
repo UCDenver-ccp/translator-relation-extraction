@@ -1,0 +1,123 @@
+T1	cellular_component 0 15	Coated vesicles
+T2	gene 41 51	tyrosinase
+T3	gene 56 66	tyrosinase
+T4	cellular_component 171 179	Membrane
+T5	gene 255 258	EGF
+T6	gene 278 281	EGF
+T7	gene 295 327	epidermal growth factor receptor
+T8	gene 329 333	EGFR
+T9	gene 381 384	EGF
+T10	gene 389 392	EGF
+T11	gene 443 450	insulin
+T12	gene 463 468	GLUT4
+T13	gene 491 503	hexokinase 2
+T14	gene 505 513	glucagon
+T15	gene 515 529	growth hormone
+T16	gene 531 559	insulin receptor substrate 1
+T17	gene 561 565	IRS1
+T18	gene 568 601	phosphoenolpyruvate carboxykinase
+T19	gene 706 723	apolipoprotein A2
+T20	cellular_component 733 744	lipoprotein
+T21	gene 786 823	very-low-density-lipoprotein receptor
+T22	gene 838 845	insulin
+T23	cellular_component 866 876	chromosome
+T24	gene 880 886	PINCH1
+T25	gene 1011 1019	integrin
+T26	cellular_component 1011 1019	integrin
+T27	cellular_component 1020 1028	integrin
+T28	gene 1020 1028	integrin
+T29	gene 1058 1063	SNX15
+T30	gene 1070 1078	clathrin
+T31	cellular_component 1107 1121	early endosome
+T32	gene 1143 1148	APPL1
+T33	cellular_component 1149 1157	endosome
+T34	gene 1159 1171	Calreticulin
+T35	gene 1181 1188	histone
+T36	cellular_component 1216 1227	chromosomes
+T37	gene 1249 1254	RACK1
+T38	gene 1259 1266	tubulin
+T39	gene 1317 1322	RACK1
+T40	cellular_component 1327 1335	membrane
+T41	gene 1345 1359	integrin beta1
+T42	cellular_component 1382 1405	Extracellular regulated
+T43	gene 1414 1418	ERK1
+T44	gene 1423 1426	p44
+T45	gene 1431 1434	p42
+T46	gene 1435 1468	mitogen-activated protein kinases
+T47	gene 1500 1504	MAPK
+T48	gene 1539 1547	cyclin D
+T49	cellular_component 1608 1616	membrane
+T50	gene 1638 1642	AtpB
+T51	cellular_component 1663 1671	membrane
+T52	gene 1683 1687	FtsZ
+T53	cellular_component 1704 1718	outer membrane
+T54	gene 1740 1743	Tsx
+T55	gene 1771 1774	Akt
+T56	gene 1779 1782	p38
+T57	gene 1783 1815	mitogen activated protein kinase
+T58	gene 1817 1820	p38
+T59	gene 1821 1825	MAPK
+T60	gene 1876 1880	AP-1
+T61	gene 1889 1893	JunB
+T62	cellular_component 1903 1926	extracellular regulated
+T63	gene 1974 1995	fos-related antigen-1
+T64	gene 1997 2002	Fra-1
+T65	gene 2005 2010	GLUT4
+T66	gene 2010 2013	myc
+T67	cellular_component 2048 2058	antibodies
+T68	cellular_component 2094 2107	intracellular
+T69	cellular_component 2187 2195	membrane
+T70	cellular_component 2276 2289	mitochondrial
+T71	gene 2306 2315	metaxin 2
+T72	gene 2334 2337	GST
+T73	gene 2469 2476	tubulin
+T74	gene 2511 2518	tubulin
+T75	cellular_component 2544 2559	tubulin-complex
+T76	gene 2583 2587	GCP2
+T77	gene 2589 2593	GCP3
+T78	gene 2595 2599	GCP4
+T79	gene 2601 2605	GCP5
+T80	gene 2611 2615	GCP6
+T81	cellular_component 2626 2639	intracellular
+T82	gene 2651 2656	CLIC2
+T83	gene 2685 2708	glutathione transferase
+T84	gene 2747 2761	neurotrophin-3
+T85	gene 2763 2767	NT-3
+T86	gene 2772 2776	BDNF
+T87	cellular_component 2787 2791	axon
+T88	cellular_component 2831 2842	cytoplasmic
+T89	gene 2852 2860	vinculin
+T90	gene 2891 2899	integrin
+T91	cellular_component 2891 2899	integrin
+T92	cellular_component 2925 2933	membrane
+T93	gene 2943 2975	epidermal growth factor receptor
+T94	gene 2977 2981	EGFR
+T95	cellular_component 3014 3022	integrin
+T96	gene 3014 3022	integrin
+T97	gene 3136 3141	Cyr61
+T98	gene 3211 3216	Cyr61
+T99	gene 3231 3236	Cyr61
+T100	cellular_component 3246 3254	antibody
+T101	gene 3265 3268	EGF
+T102	gene 3331 3337	GATA-1
+T103	gene 3399 3402	p21
+T104	cellular_component 3433 3446	extracellular
+T105	gene 3527 3531	CDK2
+T106	gene 3533 3537	CDK4
+T107	gene 3539 3547	cyclin A
+T108	gene 3553 3561	cyclin D
+T109	gene 3579 3582	p21
+T110	gene 3622 3628	talin1
+T111	gene 3653 3662	integrins
+T112	cellular_component 3653 3662	integrins
+T113	cellular_component 3670 3688	actin cytoskeleton
+T114	gene 3718 3726	integrin
+T115	cellular_component 3718 3726	integrin
+T116	gene 3862 3872	tyrosinase
+T117	gene 3877 3905	tyrosinase-related protein 1
+T118	gene 3933 3943	tyrosinase
+T119	gene 3949 3957	calnexin
+T120	gene 3968 4006	lysosome-associated membrane protein 1
+T121	gene 4008 4014	LAMP-1
+T122	gene 4094 4104	tyrosinase
+T123	cellular_component 4112 4120	lysosome

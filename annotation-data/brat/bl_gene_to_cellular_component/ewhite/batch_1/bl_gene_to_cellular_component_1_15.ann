@@ -1,0 +1,128 @@
+T1	gene 0 4	ZO-2
+T2	cellular_component 21 35	tight junction
+T3	cellular_component 64 72	membrane
+T4	gene 84 100	guanylate kinase
+T5	gene 126 131	Foxp3
+T6	gene 153 156	Th1
+T7	gene 158 162	CCR5
+T8	gene 164 168	IL-2
+T9	gene 181 184	Th2
+T10	gene 186 190	CCR4
+T11	gene 192 196	IL-4
+T12	gene 210 229	chemokine receptors
+T13	cellular_component 234 247	intracellular
+T14	gene 309 313	VRK2
+T15	gene 322 326	KSR1
+T16	gene 327 331	MEK1
+T17	cellular_component 335 356	endoplasmic reticulum
+T18	cellular_component 367 389	macromolecular complex
+T19	gene 413 417	MAPK
+T20	gene 460 468	TGF-beta
+T21	cellular_component 482 486	Smad
+T22	gene 482 486	Smad
+T23	gene 501 504	p38
+T24	gene 505 509	MAPK
+T25	gene 520 528	collagen
+T26	gene 547 552	GLUT4
+T27	cellular_component 568 583	plasma membrane
+T28	gene 584 589	GLUT4
+T29	gene 629 636	insulin
+T30	gene 664 667	GPI
+T31	gene 680 688	integrin
+T32	cellular_component 680 688	integrin
+T33	gene 806 814	integrin
+T34	cellular_component 806 814	integrin
+T35	gene 867 872	LAMP1
+T36	gene 878 882	Rab7
+T37	gene 883 888	LAMP1
+T38	cellular_component 889 897	vesicles
+T39	cellular_component 911 919	vesicles
+T40	cellular_component 932 941	lysosomal
+T41	gene 1013 1041	insulin receptor substrate-1
+T42	gene 1043 1048	IRS-1
+T43	gene 1067 1072	IRS-1
+T44	gene 1073 1082	ubiquitin
+T45	cellular_component 1083 1094	proteasomal
+T46	gene 1131 1134	Akt
+T47	gene 1150 1158	skelemin
+T48	gene 1228 1236	integrin
+T49	cellular_component 1228 1236	integrin
+T50	cellular_component 1237 1248	cytoplasmic
+T51	gene 1270 1295	glutathione S-transferase
+T52	gene 1297 1300	GST
+T53	gene 1332 1335	GST
+T54	cellular_component 1342 1350	integrin
+T55	gene 1342 1350	integrin
+T56	cellular_component 1351 1362	cytoplasmic
+T57	gene 1371 1374	GST
+T58	gene 1385 1388	EGF
+T59	gene 1452 1484	mitogen-activated protein kinase
+T60	gene 1486 1490	MAPK
+T61	gene 1492 1495	p42
+T62	gene 1499 1503	MAPK
+T63	cellular_component 1505 1518	extracellular
+T64	cellular_component 1622 1643	endoplasmic reticulum
+T65	gene 1661 1666	HYOU1
+T66	gene 1668 1673	HSPA5
+T67	gene 1675 1680	PDIA3
+T68	gene 1696 1700	Nrf2
+T69	gene 1716 1720	NQO1
+T70	gene 1725 1730	HMOX1
+T71	gene 1763 1771	TGF-beta
+T72	gene 1801 1805	Smad
+T73	cellular_component 1801 1805	Smad
+T74	gene 1809 1813	Smad
+T75	cellular_component 1809 1813	Smad
+T76	gene 1860 1864	Dlx5
+T77	gene 1866 1870	Msx2
+T78	gene 1872 1877	Runx2
+T79	gene 1882 1887	Smad1
+T80	cellular_component 1888 1898	antibodies
+T81	gene 1964 1969	PECAM
+T82	gene 1997 2002	PECAM
+T83	gene 2058 2066	catalase
+T84	gene 2083 2088	PECAM
+T85	cellular_component 2089 2097	antibody
+T86	gene 2104 2109	PECAM
+T87	gene 2110 2118	catalase
+T88	gene 2136 2144	catalase
+T89	cellular_component 2159 2172	intracellular
+T90	gene 2191 2200	precursor
+T91	gene 2224 2235	flotillin-1
+T92	cellular_component 2239 2249	lipid raft
+T93	gene 2284 2298	interleukin- 1
+T94	gene 2307 2311	IL-6
+T95	gene 2313 2317	IL-7
+T96	gene 2319 2323	IL-8
+T97	gene 2325 2330	IL-21
+T98	gene 2345 2350	IL-15
+T99	gene 2352 2357	IL-17
+T100	gene 2359 2364	IL-18
+T101	gene 2366 2371	IL-32
+T102	gene 2501 2504	p38
+T103	cellular_component 2537 2550	extracellular
+T104	gene 2618 2621	Akt
+T105	gene 2647 2653	VPS33B
+T106	gene 2658 2663	VIPAR
+T107	cellular_component 2686 2694	lysosome
+T108	cellular_component 2703 2712	organelle
+T109	gene 2725 2733	integrin
+T110	cellular_component 2725 2733	integrin
+T111	gene 2745 2753	collagen
+T112	cellular_component 2785 2798	cell polarity
+T113	gene 2800 2827	G-protein-coupled receptors
+T114	gene 2829 2834	GPCRs
+T115	cellular_component 2863 2876	extracellular
+T116	cellular_component 2892 2905	intracellular
+T117	gene 2916 2919	p38
+T118	gene 2920 2952	mitogen-activated protein kinase
+T119	gene 2954 2958	MAPK
+T120	gene 3036 3040	MAPK
+T121	cellular_component 3052 3060	antibody
+T122	gene 3076 3081	Cdc42
+T123	cellular_component 3091 3099	membrane
+T124	gene 3125 3128	Gef
+T125	cellular_component 3155 3164	cytosolic
+T126	cellular_component 3187 3195	membrane
+T127	cellular_component 3218 3227	cell tips
+T128	gene 3233 3237	Scd1

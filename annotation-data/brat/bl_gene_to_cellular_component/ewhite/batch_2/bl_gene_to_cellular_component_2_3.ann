@@ -1,0 +1,123 @@
+T1	cellular_component 86 94	integrin
+T2	gene 86 94	integrin
+T3	gene 101 158	carcinoembryonic antigen-related cell adhesion molecule 5
+T4	gene 160 167	CEACAM5
+T5	gene 170 181	Cathepsin E
+T6	gene 192 224	epidermal growth factor receptor
+T7	gene 226 230	EGFR
+T8	gene 233 266	hepatocyte growth factor receptor
+T9	gene 270 273	MET
+T10	gene 313 317	Thy1
+T11	gene 324 360	urokinase-type plasminogen activator
+T12	gene 381 386	SNU16
+T13	gene 409 414	ATBF1
+T14	gene 419 424	RUNX3
+T15	cellular_component 430 441	cytoplasmic
+T16	gene 449 458	TGF-beta1
+T17	gene 489 498	TGF-beta1
+T18	gene 523 528	ATBF1
+T19	gene 533 538	RUNX3
+T20	cellular_component 559 566	nucleus
+T21	gene 595 604	TNF-alpha
+T22	gene 615 647	mitogen-activated protein kinase
+T23	gene 649 653	MAPK
+T24	cellular_component 669 682	extracellular
+T25	gene 708 711	p42
+T26	gene 712 715	p44
+T27	cellular_component 749 753	Smad
+T28	gene 749 753	Smad
+T29	gene 782 813	transforming growth factor-beta
+T30	cellular_component 829 842	cell membrane
+T31	cellular_component 850 857	nucleus
+T32	gene 859 865	Immp2l
+T33	cellular_component 872 900	inner mitochondrial membrane
+T34	cellular_component 926 939	mitochondrial
+T35	gene 948 961	cytochrome c1
+T36	gene 963 967	Cyc1
+T37	gene 970 975	Ezrin
+T38	gene 976 983	radixin
+T39	gene 984 990	moesin
+T40	cellular_component 1044 1059	plasma membrane
+T41	cellular_component 1064 1079	actin filaments
+T42	gene 1092 1097	Smads
+T43	cellular_component 1092 1097	Smads
+T44	gene 1118 1123	Smad6
+T45	gene 1128 1133	Smad7
+T46	gene 1155 1163	TGF-beta
+T47	gene 1175 1202	G-protein coupled receptors
+T48	gene 1204 1209	GPCRs
+T49	cellular_component 1226 1234	membrane
+T50	cellular_component 1253 1266	intracellular
+T51	cellular_component 1280 1293	extracellular
+T52	gene 1367 1372	Ezrin
+T53	gene 1373 1380	radixin
+T54	gene 1381 1387	moesin
+T55	cellular_component 1427 1442	plasma membrane
+T56	cellular_component 1447 1462	actin filaments
+T57	gene 1491 1496	GRP78
+T58	gene 1504 1507	APC
+T59	cellular_component 1534 1544	proteasome
+T60	cellular_component 1550 1558	lysosome
+T61	cellular_component 1611 1619	membrane
+T62	gene 1640 1647	insulin
+T63	gene 1649 1652	EGF
+T64	gene 1658 1663	IGF-1
+T65	gene 1678 1683	FOXP2
+T66	gene 1688 1692	VAT1
+T67	cellular_component 1701 1707	axonal
+T68	gene 1716 1720	Cdc5
+T69	gene 1737 1741	Cse4
+T70	gene 1757 1761	Cdc5
+T71	gene 1790 1794	Cse4
+T72	cellular_component 1818 1829	centromeric
+T73	gene 1844 1848	Cdc5
+T74	cellular_component 1920 1928	integrin
+T75	gene 1920 1928	integrin
+T76	cellular_component 1936 1944	integrin
+T77	gene 1936 1944	integrin
+T78	cellular_component 1956 1964	integrin
+T79	gene 1956 1964	integrin
+T80	gene 1971 1979	integrin
+T81	cellular_component 1971 1979	integrin
+T82	gene 1993 1997	SKP2
+T83	cellular_component 2059 2085	anaphase-promoting complex
+T84	cellular_component 2086 2095	cyclosome
+T85	gene 2097 2100	APC
+T86	gene 2104 2108	CDH1
+T87	gene 2130 2134	SKP2
+T88	gene 2146 2190	histidine triad nucleotide binding protein 1
+T89	gene 2192 2197	HINT1
+T90	gene 2233 2239	SEMA3A
+T91	gene 2248 2254	alpha2
+T92	gene 2260 2268	integrin
+T93	cellular_component 2260 2268	integrin
+T94	gene 2332 2338	SEMA3A
+T95	gene 2352 2358	alpha2
+T96	gene 2364 2372	integrin
+T97	cellular_component 2364 2372	integrin
+T98	gene 2445 2450	SF3B1
+T99	gene 2452 2457	SRSF2
+T100	gene 2470 2475	ZRSR2
+T101	gene 2495 2499	TET2
+T102	gene 2513 2516	IDH
+T103	gene 2546 2551	ASXL1
+T104	gene 2556 2560	EZH2
+T105	gene 2589 2594	RUNX1
+T106	cellular_component 2663 2678	cohesin complex
+T107	gene 2680 2685	STAG2
+T108	gene 2688 2697	TGF-beta1
+T109	gene 2742 2745	p38
+T110	gene 2746 2750	MAPK
+T111	gene 2755 2759	Smad
+T112	cellular_component 2755 2759	Smad
+T113	gene 2787 2792	MCIP1
+T114	gene 2818 2822	MAPK
+T115	gene 2827 2853	glycogen synthase kinase-3
+T116	gene 2878 2883	MCIP1
+T117	cellular_component 2903 2914	calcineurin
+T118	gene 2903 2914	calcineurin
+T119	gene 2971 2975	NOD1
+T120	gene 2977 2981	NOD2
+T121	gene 2986 2991	NLRC3
+T122	cellular_component 2996 3007	cytoplasmic
+T123	gene 3052 3055	Nod

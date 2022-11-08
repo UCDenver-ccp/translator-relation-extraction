@@ -1,0 +1,136 @@
+T1	gene 15 20	FGFR1
+T2	gene 24 28	FGF1
+T3	gene 32 36	FGF2
+T4	gene 41 46	FGFR4
+T5	gene 50 54	FGF1
+T6	cellular_component 94 107	extracellular
+T7	gene 143 147	ERK2
+T8	gene 184 188	FGD5
+T9	cellular_component 204 213	endosomal
+T10	gene 214 220	VEGFR2
+T11	gene 272 278	VEGFR2
+T12	cellular_component 282 291	lysosomal
+T13	cellular_component 320 333	mitochondrial
+T14	gene 362 366	bcl2
+T15	gene 371 379	caspase3
+T16	gene 422 427	GLUT4
+T17	gene 429 433	IRS1
+T18	gene 435 439	IRS2
+T19	gene 465 470	Smads
+T20	cellular_component 465 470	Smads
+T21	cellular_component 475 488	intracellular
+T22	cellular_component 534 541	nucleus
+T23	gene 547 552	Smads
+T24	cellular_component 547 552	Smads
+T25	cellular_component 597 602	Smads
+T26	gene 597 602	Smads
+T27	cellular_component 606 611	Smads
+T28	gene 606 611	Smads
+T29	gene 614 619	Smad6
+T30	gene 624 629	Smad7
+T31	cellular_component 693 713	extracellular matrix
+T32	cellular_component 736 748	cytoskeleton
+T33	gene 789 793	DGAT
+T34	gene 855 862	CACNA1F
+T35	gene 864 870	CAPZA2
+T36	gene 872 877	TMOD3
+T37	gene 879 884	ARPC2
+T38	gene 886 890	KNS2
+T39	gene 892 896	TPM1
+T40	gene 898 903	MAPK8
+T41	gene 905 912	GADD45B
+T42	gene 920 925	TOK-1
+T43	gene 935 940	STAT6
+T44	cellular_component 1036 1049	extracellular
+T45	gene 1074 1106	mitogen-activated protein kinase
+T46	gene 1108 1112	ERK1
+T47	gene 1115 1119	MAPK
+T48	gene 1168 1173	Raf-1
+T49	gene 1179 1183	MAPK
+T50	gene 1196 1200	MEK1
+T51	gene 1205 1210	LATS1
+T52	gene 1287 1298	fibronectin
+T53	gene 1317 1325	integrin
+T54	cellular_component 1317 1325	integrin
+T55	gene 1343 1347	ILK1
+T56	gene 1376 1385	integrins
+T57	cellular_component 1376 1385	integrins
+T58	cellular_component 1387 1394	F-actin
+T59	gene 1396 1412	protein kinase C
+T60	gene 1441 1444	Rho
+T61	cellular_component 1532 1542	antibodies
+T62	gene 1551 1555	Ku70
+T63	gene 1573 1578	Rpa32
+T64	gene 1580 1585	Rpa14
+T65	gene 1602 1607	XRCC4
+T66	gene 1619 1624	RAD51
+T67	gene 1629 1632	p53
+T68	gene 1638 1647	TGF-beta1
+T69	gene 1669 1673	Smad
+T70	cellular_component 1669 1673	Smad
+T71	cellular_component 1692 1704	cell nucleus
+T72	gene 1777 1781	MyoD
+T73	gene 1786 1794	myogenin
+T74	gene 1819 1840	histone deacetylase 4
+T75	gene 1842 1847	HDAC4
+T76	gene 1887 1892	CDKL5
+T77	gene 1902 1907	CDKL5
+T78	gene 1943 1948	HDAC4
+T79	cellular_component 1949 1960	cytoplasmic
+T80	gene 2002 2034	epidermal growth factor receptor
+T81	gene 2036 2040	EGFR
+T82	gene 2084 2087	p42
+T83	gene 2088 2091	p44
+T84	gene 2092 2102	MAP kinase
+T85	gene 2104 2108	Grb2
+T86	gene 2114 2119	Raf-1
+T87	cellular_component 2143 2151	membrane
+T88	cellular_component 2172 2185	mitochondrial
+T89	gene 2219 2224	Bcl-2
+T90	gene 2241 2244	Bax
+T91	gene 2249 2252	Bok
+T92	gene 2254 2259	FOXL2
+T93	cellular_component 2260 2264	SMAD
+T94	gene 2260 2264	SMAD
+T95	gene 2298 2303	FOXL2
+T96	gene 2308 2313	SMAD3
+T97	gene 2317 2322	SMAD4
+T98	gene 2364 2389	TGF-beta receptor type II
+T99	gene 2412 2420	TGF-beta
+T100	gene 2435 2443	TGF-beta
+T101	cellular_component 2444 2448	Smad
+T102	gene 2444 2448	Smad
+T103	cellular_component 2472 2483	peroxisomal
+T104	gene 2503 2507	PTS1
+T105	gene 2512 2515	PTS
+T106	cellular_component 2532 2541	cytosolic
+T107	gene 2552 2556	Pex5
+T108	gene 2573 2577	Pex7
+T109	gene 2578 2581	Pex
+T110	cellular_component 2615 2633	peroxisomal matrix
+T111	gene 2660 2692	low density lipoprotein receptor
+T112	cellular_component 2719 2731	cell surface
+T113	gene 2767 2779	beta-amyloid
+T114	gene 2780 2789	precursor
+T115	cellular_component 2829 2842	extracellular
+T116	gene 2879 2882	p38
+T117	gene 2883 2915	mitogen-activated protein kinase
+T118	gene 2917 2920	p38
+T119	gene 2921 2925	MAPK
+T120	gene 2958 2962	CREB
+T121	gene 2990 2997	CEACAM6
+T122	gene 3038 3042	Erk1
+T123	gene 3046 3049	Akt
+T124	gene 3055 3058	p38
+T125	gene 3059 3063	MAPK
+T126	cellular_component 3084 3092	integrin
+T127	gene 3084 3092	integrin
+T128	gene 3138 3146	integrin
+T129	cellular_component 3138 3146	integrin
+T130	gene 3165 3189	cell adhesion molecule-1
+T131	gene 3217 3241	cell adhesion molecule-1
+T132	gene 3253 3258	Smad4
+T133	cellular_component 3266 3279	intracellular
+T134	gene 3365 3368	BMP
+T135	gene 3391 3395	Smad
+T136	cellular_component 3391 3395	Smad

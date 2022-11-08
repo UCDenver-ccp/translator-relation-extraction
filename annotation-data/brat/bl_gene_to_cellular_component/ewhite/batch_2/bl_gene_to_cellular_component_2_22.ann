@@ -1,0 +1,123 @@
+T1	gene 0 4	LCAD
+T2	cellular_component 72 85	mitochondrial
+T3	gene 105 109	Dbf2
+T4	gene 110 114	Mob1
+T5	gene 160 165	Cdc14
+T6	cellular_component 173 182	cytoplasm
+T7	gene 239 266	apolipoprotein E receptor 2
+T8	gene 271 308	very low-density lipoprotein receptor
+T9	cellular_component 318 329	cytoplasmic
+T10	gene 346 364	Disabled homolog 1
+T11	gene 366 370	Dab1
+T12	gene 408 414	Reelin
+T13	gene 430 433	GST
+T14	gene 434 439	RCAS1
+T15	gene 473 476	GST
+T16	cellular_component 488 496	antibody
+T17	gene 501 506	RCAS1
+T18	cellular_component 533 541	antibody
+T19	gene 548 573	glutathione S-transferase
+T20	gene 575 578	GST
+T21	gene 609 614	LIMK1
+T22	gene 616 619	GST
+T23	gene 628 631	GST
+T24	gene 663 666	GST
+T25	cellular_component 707 714	nucleus
+T26	gene 729 732	GST
+T27	cellular_component 777 784	nucleus
+T28	gene 808 811	GST
+T29	cellular_component 840 847	nucleus
+T30	gene 849 863	Erythropoietin
+T31	gene 911 915	RhoA
+T32	gene 934 966	mitogen-activated protein kinase
+T33	cellular_component 967 980	extracellular
+T34	gene 1088 1094	HSPA9B
+T35	gene 1097 1118	heat-shock protein 60
+T36	gene 1120 1125	HSPD1
+T37	gene 1171 1181	prohibitin
+T38	cellular_component 1189 1202	mitochondrial
+T39	gene 1225 1229	MDH2
+T40	gene 1232 1283	voltage-dependent anion-selective channel protein 1
+T41	gene 1285 1290	VDAC1
+T42	gene 1293 1315	thioredoxin peroxidase
+T43	gene 1317 1322	PRDX1
+T44	gene 1357 1362	PRDX2
+T45	cellular_component 1370 1383	mitochondrial
+T46	gene 1401 1406	ATP5B
+T47	gene 1408 1412	MDH2
+T48	gene 1484 1489	PRDX1
+T49	gene 1491 1496	PRDX2
+T50	gene 1498 1506	SELENBP1
+T51	gene 1545 1550	HSPD1
+T52	gene 1552 1558	HSPA9B
+T53	gene 1560 1565	PRDX1
+T54	gene 1567 1572	PRDX2
+T55	gene 1579 1584	VDAC1
+T56	gene 1629 1634	RAD51
+T57	gene 1636 1642	RAD51C
+T58	gene 1647 1652	XRCC3
+T59	gene 1692 1697	RAD51
+T60	cellular_component 1714 1725	chromosomes
+T61	gene 1753 1759	Smurf2
+T62	cellular_component 1806 1811	Smads
+T63	gene 1806 1811	Smads
+T64	gene 1839 1844	Smad1
+T65	cellular_component 1868 1878	proteasome
+T66	gene 1928 1960	epidermal growth factor receptor
+T67	gene 1962 1966	HER2
+T68	gene 1968 1972	HER3
+T69	gene 1974 1978	HER4
+T70	cellular_component 1987 1997	antibodies
+T71	gene 2008 2017	Calcyclin
+T72	gene 2019 2025	S100A6
+T73	gene 2043 2049	Siah-1
+T74	gene 2071 2077	CacyBP
+T75	cellular_component 2095 2106	cytoplasmic
+T76	cellular_component 2176 2183	nucleus
+T77	gene 2216 2220	EGFR
+T78	gene 2241 2245	CIP4
+T79	gene 2257 2260	EGF
+T80	gene 2280 2284	EGFR
+T81	gene 2290 2294	EEA1
+T82	cellular_component 2304 2313	endosomes
+T83	cellular_component 2317 2326	lysosomes
+T84	cellular_component 2384 2395	cytoplasmic
+T85	gene 2396 2399	p21
+T86	gene 2423 2426	p38
+T87	gene 2509 2512	p21
+T88	gene 2518 2523	HSP27
+T89	gene 2539 2543	GRK2
+T90	gene 2553 2556	rho
+T91	gene 2567 2583	protein kinase C
+T92	cellular_component 2618 2626	membrane
+T93	gene 2694 2699	Pcgf2
+T94	gene 2711 2716	HOXA7
+T95	cellular_component 2717 2726	chromatin
+T96	gene 2732 2737	PCGF2
+T97	gene 2768 2772	CD47
+T98	gene 2789 2797	integrin
+T99	cellular_component 2789 2797	integrin
+T100	gene 2809 2825	thrombospondin-1
+T101	gene 2840 2849	integrins
+T102	cellular_component 2840 2849	integrins
+T103	gene 2968 3008	glyceraldehyde 3-phosphate dehydrogenase
+T104	gene 3010 3015	GAPDH
+T105	gene 3018 3053	kelch-like ECH-associated protein 1
+T106	gene 3055 3060	KEAP1
+T107	cellular_component 3066 3079	mitochondrial
+T108	gene 3091 3095	ACO2
+T109	gene 3170 3174	EGFR
+T110	gene 3175 3179	Vav2
+T111	gene 3198 3201	Cbl
+T112	gene 3228 3240	EGF receptor
+T113	cellular_component 3266 3283	adherens junction
+T114	gene 3313 3319	ADAM22
+T115	gene 3323 3326	Kv1
+T116	cellular_component 3365 3373	membrane
+T117	gene 3385 3402	guanylate kinases
+T118	cellular_component 3435 3440	axons
+T119	gene 3470 3474	MAPK
+T120	gene 3475 3479	AP-1
+T121	cellular_component 3500 3504	Smad
+T122	gene 3500 3504	Smad
+T123	gene 3563 3572	TGF-beta1

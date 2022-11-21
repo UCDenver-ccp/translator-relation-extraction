@@ -1,0 +1,105 @@
+T1	disease 51 58	obesity
+T2	phenotypic_feature 51 58	obesity
+T3	phenotypic_feature 60 72	hypertension
+T4	phenotypic_feature 76 89	hyperglycemia
+T5	disease 76 89	hyperglycemia
+T6	phenotypic_feature 126 134	Deafness
+T7	disease 159 165	ataxic
+T8	phenotypic_feature 159 165	ataxic
+T9	disease 166 176	neuropathy
+T10	phenotypic_feature 200 208	cataract
+T11	disease 200 208	cataract
+T12	disease 209 218	blindness
+T13	phenotypic_feature 209 218	blindness
+T14	disease 266 289	conductive hearing loss
+T15	phenotypic_feature 266 289	conductive hearing loss
+T16	phenotypic_feature 291 305	unusual facies
+T17	phenotypic_feature 307 319	cleft palate
+T18	disease 307 319	cleft palate
+T19	phenotypic_feature 321 333	micrognathia
+T20	phenotypic_feature 445 464	cardiac arrhythmias
+T21	disease 486 499	hyperglycemia
+T22	phenotypic_feature 501 512	hypokalemia
+T23	disease 501 512	hypokalemia
+T24	phenotypic_feature 517 533	hypophosphatemia
+T25	disease 517 533	hypophosphatemia
+T26	phenotypic_feature 546 565	hyperparathyroidism
+T27	disease 546 565	hyperparathyroidism
+T28	disease 574 587	hypercalcemia
+T29	phenotypic_feature 574 587	hypercalcemia
+T30	disease 592 609	hyperphosphatemia
+T31	phenotypic_feature 592 609	hyperphosphatemia
+T32	disease 684 697	hyperglycemia
+T33	phenotypic_feature 684 697	hyperglycemia
+T34	phenotypic_feature 699 712	hyperuricemia
+T35	disease 714 725	hypokalemia
+T36	phenotypic_feature 714 725	hypokalemia
+T37	disease 803 820	cerebellar ataxia
+T38	phenotypic_feature 803 820	cerebellar ataxia
+T39	phenotypic_feature 833 839	ataxia
+T40	disease 833 839	ataxia
+T41	disease 841 850	sensitive
+T42	phenotypic_feature 851 857	ataxia
+T43	disease 851 857	ataxia
+T44	phenotypic_feature 971 1001	gastrointestinal stromal tumor
+T45	disease 971 1001	gastrointestinal stromal tumor
+T46	phenotypic_feature 1077 1103	eye movement abnormalities
+T47	phenotypic_feature 1105 1116	vision loss
+T48	disease 1105 1116	vision loss
+T49	disease 1181 1191	hypodontia
+T50	phenotypic_feature 1181 1191	hypodontia
+T51	phenotypic_feature 1207 1220	hypotrichosis
+T52	disease 1207 1220	hypotrichosis
+T53	phenotypic_feature 1264 1273	pneumonia
+T54	disease 1264 1273	pneumonia
+T55	phenotypic_feature 1278 1285	dyspnea
+T56	disease 1288 1306	Cerebral sclerosis
+T57	disease 1334 1347	hydrocephalus
+T58	phenotypic_feature 1334 1347	hydrocephalus
+T59	phenotypic_feature 1358 1365	obesity
+T60	disease 1358 1365	obesity
+T61	disease 1393 1399	anemia
+T62	phenotypic_feature 1393 1399	anemia
+T63	disease 1438 1454	arteriosclerosis
+T64	disease 1542 1548	ataxia
+T65	phenotypic_feature 1542 1548	ataxia
+T66	disease 1573 1591	hearing impairment
+T67	phenotypic_feature 1573 1591	hearing impairment
+T68	phenotypic_feature 1597 1617	retinal degeneration
+T69	disease 1597 1617	retinal degeneration
+T70	phenotypic_feature 1676 1702	sensorineural hearing loss
+T71	disease 1676 1702	sensorineural hearing loss
+T72	disease 1704 1712	dystonia
+T73	phenotypic_feature 1714 1734	mental deterioration
+T74	disease 1769 1782	optic atrophy
+T75	phenotypic_feature 1769 1782	optic atrophy
+T76	phenotypic_feature 1896 1903	obesity
+T77	disease 1896 1903	obesity
+T78	phenotypic_feature 1905 1925	hypercholesterolemia
+T79	phenotypic_feature 1930 1943	hyperglycemia
+T80	disease 1930 1943	hyperglycemia
+T81	disease 1986 1995	blindness
+T82	phenotypic_feature 1986 1995	blindness
+T83	disease 2000 2017	visual impairment
+T84	phenotypic_feature 2000 2017	visual impairment
+T85	phenotypic_feature 2019 2027	cataract
+T86	disease 2019 2027	cataract
+T87	disease 2071 2079	cataract
+T88	phenotypic_feature 2071 2079	cataract
+T89	phenotypic_feature 2112 2120	cataract
+T90	disease 2112 2120	cataract
+T91	disease 2186 2198	bone disease
+T92	phenotypic_feature 2200 2213	hypercalcemia
+T93	disease 2200 2213	hypercalcemia
+T94	disease 2215 2228	renal disease
+T95	phenotypic_feature 2230 2236	anemia
+T96	disease 2230 2236	anemia
+T97	disease 2241 2251	infections
+T98	disease 2291 2309	hypoparathyroidism
+T99	phenotypic_feature 2291 2309	hypoparathyroidism
+T100	phenotypic_feature 2314 2330	hypophosphatemia
+T101	disease 2314 2330	hypophosphatemia
+T102	phenotypic_feature 2405 2413	cataract
+T103	disease 2405 2413	cataract
+T104	disease 2489 2500	lung tumors
+T105	phenotypic_feature 2489 2500	lung tumors

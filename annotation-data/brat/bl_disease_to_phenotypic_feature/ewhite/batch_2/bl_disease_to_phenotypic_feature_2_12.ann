@@ -1,0 +1,109 @@
+T1	disease 0 22	Biotinidase deficiency
+T2	disease 89 101	hearing loss
+T3	disease 106 119	optic atrophy
+T4	phenotypic_feature 106 119	optic atrophy
+T5	phenotypic_feature 135 143	seizures
+T6	disease 160 166	ataxia
+T7	phenotypic_feature 160 166	ataxia
+T8	phenotypic_feature 232 255	intellectual disability
+T9	phenotypic_feature 257 269	microcephaly
+T10	disease 257 269	microcephaly
+T11	disease 271 281	ichthyosis
+T12	phenotypic_feature 283 291	seizures
+T13	disease 296 317	peripheral neuropathy
+T14	phenotypic_feature 296 317	peripheral neuropathy
+T15	phenotypic_feature 359 379	hypercholesterolemia
+T16	disease 381 388	obesity
+T17	phenotypic_feature 381 388	obesity
+T18	disease 394 402	diabetes
+T19	phenotypic_feature 412 419	seizure
+T20	disease 454 460	glioma
+T21	phenotypic_feature 472 479	seizure
+T22	disease 490 506	Hyperinsulinemia
+T23	phenotypic_feature 490 506	Hyperinsulinemia
+T24	phenotypic_feature 516 529	hyperglycemia
+T25	disease 516 529	hyperglycemia
+T26	phenotypic_feature 564 577	short stature
+T27	disease 579 591	microcephaly
+T28	phenotypic_feature 579 591	microcephaly
+T29	phenotypic_feature 593 607	unusual facies
+T30	disease 635 645	hypodontia
+T31	phenotypic_feature 635 645	hypodontia
+T32	disease 647 663	immunodeficiency
+T33	disease 695 714	hyperparathyroidism
+T34	phenotypic_feature 695 714	hyperparathyroidism
+T35	disease 726 734	syndrome
+T36	phenotypic_feature 832 844	hypoglycemia
+T37	disease 832 844	hypoglycemia
+T38	disease 846 857	hypokalemia
+T39	phenotypic_feature 846 857	hypokalemia
+T40	phenotypic_feature 859 875	hypophosphatemia
+T41	disease 859 875	hypophosphatemia
+T42	disease 881 902	acute hepatic failure
+T43	disease 927 940	macular edema
+T44	phenotypic_feature 942 950	cataract
+T45	disease 942 950	cataract
+T46	phenotypic_feature 969 992	Ventricular arrhythmias
+T47	disease 996 1022	hypertensive heart disease
+T48	disease 1040 1053	heart failure
+T49	phenotypic_feature 1040 1053	heart failure
+T50	disease 1063 1071	syndrome
+T51	disease 1092 1116	congenital heart defects
+T52	phenotypic_feature 1092 1116	congenital heart defects
+T53	phenotypic_feature 1122 1133	polydactyly
+T54	phenotypic_feature 1135 1142	obesity
+T55	disease 1135 1142	obesity
+T56	disease 1144 1159	type 2 diabetes
+T57	disease 1199 1217	hearing impairment
+T58	phenotypic_feature 1199 1217	hearing impairment
+T59	phenotypic_feature 1289 1301	macrocephaly
+T60	disease 1303 1327	Lhermitte-Duclos disease
+T61	disease 1329 1332	LDD
+T62	disease 1379 1397	cerebellum, ataxia
+T63	phenotypic_feature 1379 1397	cerebellum, ataxia
+T64	phenotypic_feature 1399 1407	seizures
+T65	disease 1412 1418	autism
+T66	phenotypic_feature 1412 1418	autism
+T67	disease 1435 1441	cancer
+T68	phenotypic_feature 1469 1475	ataxia
+T69	disease 1469 1475	ataxia
+T70	phenotypic_feature 1491 1512	peripheral neuropathy
+T71	disease 1491 1512	peripheral neuropathy
+T72	disease 1514 1531	Rubella infection
+T73	disease 1556 1583	congenital rubella syndrome
+T74	disease 1616 1625	cataracts
+T75	phenotypic_feature 1616 1625	cataracts
+T76	phenotypic_feature 1627 1648	cardiac abnormalities
+T77	phenotypic_feature 1653 1675	sensorineural deafness
+T78	disease 1653 1675	sensorineural deafness
+T79	disease 1677 1698	Prader-Willi syndrome
+T80	phenotypic_feature 1773 1780	obesity
+T81	disease 1773 1780	obesity
+T82	phenotypic_feature 1782 1795	short stature
+T83	disease 1797 1809	hypogonadism
+T84	phenotypic_feature 1797 1809	hypogonadism
+T85	phenotypic_feature 1810 1824	hypogenitalism
+T86	phenotypic_feature 1837 1857	cognitive impairment
+T87	disease 1884 1912	Familial hemiplegic migraine
+T88	phenotypic_feature 1914 1934	retinal degeneration
+T89	disease 1914 1934	retinal degeneration
+T90	phenotypic_feature 1936 1944	deafness
+T91	phenotypic_feature 2004 2011	obesity
+T92	disease 2004 2011	obesity
+T93	phenotypic_feature 2013 2025	microcephaly
+T94	disease 2013 2025	microcephaly
+T95	phenotypic_feature 2027 2040	short stature
+T96	phenotypic_feature 2042 2060	muscular hypotonia
+T97	disease 2062 2071	scoliosis
+T98	disease 2108 2119	retinopathy
+T99	phenotypic_feature 2183 2203	retinal degeneration
+T100	disease 2183 2203	retinal degeneration
+T101	disease 2205 2212	obesity
+T102	phenotypic_feature 2205 2212	obesity
+T103	phenotypic_feature 2238 2249	polydactyly
+T104	disease 2255 2267	hypogonadism
+T105	phenotypic_feature 2301 2315	growth failure
+T106	disease 2339 2351	microcephaly
+T107	phenotypic_feature 2339 2351	microcephaly
+T108	phenotypic_feature 2353 2371	facial dysmorphism
+T109	disease 2391 2415	congenital malformations

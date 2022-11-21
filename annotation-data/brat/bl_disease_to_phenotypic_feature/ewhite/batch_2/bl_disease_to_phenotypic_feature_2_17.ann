@@ -1,0 +1,93 @@
+T1	phenotypic_feature 0 15	Pulmonary edema
+T2	disease 0 15	Pulmonary edema
+T3	phenotypic_feature 45 58	heart failure
+T4	disease 45 58	heart failure
+T5	phenotypic_feature 84 105	chronic heart failure
+T6	phenotypic_feature 113 128	pulmonary edema
+T7	disease 191 203	hypogonadism
+T8	phenotypic_feature 191 203	hypogonadism
+T9	disease 205 223	hyperprolactinemia
+T10	phenotypic_feature 205 223	hyperprolactinemia
+T11	disease 225 246	Prader Willi Syndrome
+T12	phenotypic_feature 293 300	obesity
+T13	disease 293 300	obesity
+T14	phenotypic_feature 302 315	short stature
+T15	disease 330 342	hypogonadism
+T16	phenotypic_feature 330 342	hypogonadism
+T17	disease 344 358	cryptorchidism
+T18	phenotypic_feature 401 419	mental retardation
+T19	disease 486 494	lymphoma
+T20	disease 495 503	leukemia
+T21	phenotypic_feature 495 503	leukemia
+T22	disease 505 517	osteosarcoma
+T23	disease 524 532	melanoma
+T24	phenotypic_feature 554 560	autism
+T25	disease 554 560	autism
+T26	disease 592 598	autism
+T27	phenotypic_feature 592 598	autism
+T28	phenotypic_feature 619 628	hamartoma
+T29	disease 619 628	hamartoma
+T30	disease 629 634	never
+T31	phenotypic_feature 642 649	seizure
+T32	disease 682 696	hypothyroidism
+T33	disease 698 710	hypogonadism
+T34	phenotypic_feature 735 749	abdominal pain
+T35	disease 751 759	diarrhea
+T36	phenotypic_feature 761 769	vomiting
+T37	phenotypic_feature 771 776	fever
+T38	phenotypic_feature 800 805	edema
+T39	phenotypic_feature 810 831	peripheral neuropathy
+T40	disease 810 831	peripheral neuropathy
+T41	phenotypic_feature 833 841	Glaucoma
+T42	disease 833 841	Glaucoma
+T43	disease 869 877	cataract
+T44	phenotypic_feature 895 904	blindness
+T45	phenotypic_feature 911 928	visual impairment
+T46	disease 959 967	cataract
+T47	phenotypic_feature 959 967	cataract
+T48	phenotypic_feature 969 986	corneal opacities
+T49	disease 991 998	uveitis
+T50	disease 1039 1052	heart disease
+T51	disease 1054 1067	heart failure
+T52	phenotypic_feature 1054 1067	heart failure
+T53	phenotypic_feature 1069 1078	cataracts
+T54	disease 1069 1078	cataracts
+T55	phenotypic_feature 1150 1156	Ptosis
+T56	disease 1150 1156	Ptosis
+T57	disease 1163 1169	Ptosis
+T58	phenotypic_feature 1163 1169	Ptosis
+T59	disease 1206 1214	cataract
+T60	phenotypic_feature 1206 1214	cataract
+T61	phenotypic_feature 1215 1224	blindness
+T62	disease 1215 1224	blindness
+T63	disease 1415 1427	hearing loss
+T64	phenotypic_feature 1463 1471	deafness
+T65	phenotypic_feature 1487 1496	hamartoma
+T66	disease 1487 1496	hamartoma
+T67	phenotypic_feature 1545 1565	Vitamin A deficiency
+T68	disease 1545 1565	Vitamin A deficiency
+T69	phenotypic_feature 1566 1583	visual impairment
+T70	disease 1566 1583	visual impairment
+T71	disease 1638 1655	Costello syndrome
+T72	phenotypic_feature 1676 1694	mental retardation
+T73	phenotypic_feature 1723 1745	skeletal abnormalities
+T74	phenotypic_feature 1747 1775	cardiovascular abnormalities
+T75	phenotypic_feature 1777 1801	congenital heart defects
+T76	disease 1777 1801	congenital heart defects
+T77	disease 1803 1817	cardiomyopathy
+T78	phenotypic_feature 1883 1901	hearing impairment
+T79	disease 1883 1901	hearing impairment
+T80	disease 1926 1935	pneumonia
+T81	phenotypic_feature 1926 1935	pneumonia
+T82	phenotypic_feature 1937 1946	Hamartoma
+T83	disease 1937 1946	Hamartoma
+T84	disease 1948 1954	Ataxia
+T85	phenotypic_feature 1948 1954	Ataxia
+T86	phenotypic_feature 1959 1967	deafness
+T87	disease 1987 2007	bacterial meningitis
+T88	phenotypic_feature 2034 2042	deafness
+T89	disease 2043 2051	syndrome
+T90	phenotypic_feature 2057 2066	blindness
+T91	disease 2057 2066	blindness
+T92	disease 2068 2076	dystonia
+T93	phenotypic_feature 2093 2110	mental deficiency

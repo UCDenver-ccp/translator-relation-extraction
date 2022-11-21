@@ -62,3 +62,29 @@ T61	disease_or_phenotypic_feature 3010 3017	amyloid
 T62	chemical 3072 3081	histidine
 T63	chemical 3072 3090	histidine residues
 T64	disease_or_phenotypic_feature 3094 3103	amyloid-β
+T65	missed_disease_or_phenotypic_feature 665 672	syncope
+T66	missed_disease_or_phenotypic_feature 683 695	paresthesias
+R1	causes_or_contributes_to Arg1:T17 Arg2:T65	
+R2	causes_or_contributes_to Arg1:T17 Arg2:T15	
+R3	causes_or_contributes_to Arg1:T17 Arg2:T66	
+R4	causes_or_contributes_to Arg1:T17 Arg2:T16	
+R5	treats Arg1:T24 Arg2:T26	
+T67	missed_disease_or_phenotypic_feature 1603 1606	MDR
+T68	missed_chemical 1545 1561	HMSNs-PDA-PEG@QD
+R6	treats Arg1:T68 Arg2:T67	
+T69	missed_chemical 1621 1629	free DOX
+T70	missed_chemical 1634 1651	HMSNs-PDA-PEG@DOX
+R7	treats Arg1:T70 Arg2:T67	
+R8	treats Arg1:T69 Arg2:T67	
+T71	corrected_chemical 1681 1722	sodium glucose cotransporter 2 inhibitors
+R9	treats Arg1:T71 Arg2:T42	
+T72	missed_disease_or_phenotypic_feature 1898 1906	epilepsy
+T73	missed_disease_or_phenotypic_feature 1875 1896	cognitive dysfunction
+T74	corrected_chemical 1802 1837	Histamine H(3) receptor antagonists
+R10	treats Arg1:T74 Arg2:T73	
+R11	treats Arg1:T74 Arg2:T72	
+R12	treats Arg1:T74 Arg2:T45	
+R13	treats Arg1:T74 Arg2:T46	
+T75	corrected_chemical 2571 2586	HIF-1 inhibitor
+T76	missed_disease_or_phenotypic_feature 2530 2542	tumor growth
+R14	treats Arg1:T75 Arg2:T76	

@@ -66,3 +66,44 @@ T65	chemical 2883 2888	anion
 T66	chemical 2982 2988	tagged
 T67	chemical 3004 3007	dye
 T68	disease_or_phenotypic_feature 3041 3055	gastric cancer
+T69	corrected_disease_or_phenotypic_feature 688 712	perioperative blood loss
+R1	treats Arg1:T15 Arg2:T69	
+T70	missed_chemical 675 678	TXA
+T71	missed_disease_or_phenotypic_feature 717 740	transfusion requirement
+R2	treats Arg1:T15 Arg2:T71	
+R3	treats Arg1:T70 Arg2:T69	
+R4	treats Arg1:T70 Arg2:T71	
+R5	treats Arg1:T18 Arg2:T19	
+R6	treats Arg1:T20 Arg2:T22	
+R7	causes_or_contributes_to Arg1:T20 Arg2:T23	
+T72	missed_disease_or_phenotypic_feature 1029 1043	cold allodynia
+R8	causes_or_contributes_to Arg1:T20 Arg2:T72	
+R9	treats Arg1:T34 Arg2:T36	
+R10	treats Arg1:T34 Arg2:T37	
+T73	missed_disease_or_phenotypic_feature 1729 1739	depression
+R11	treats Arg1:T34 Arg2:T73	
+R12	treats Arg1:T35 Arg2:T36	
+R13	treats Arg1:T35 Arg2:T37	
+R14	treats Arg1:T35 Arg2:T73	
+T74	missed_disease_or_phenotypic_feature 1758 1774	oxidative stress
+T75	corrected_disease_or_phenotypic_feature 1782 1819	acute, edematous form of pancreatitis
+R15	causes_or_contributes_to Arg1:T38 Arg2:T74	
+R16	causes_or_contributes_to Arg1:T38 Arg2:T75	
+R17	treats Arg1:T48 Arg2:T42	
+T76	corrected_chemical 1873 1895	proton-pump inhibitor,
+R18	treats Arg1:T76 Arg2:T42	
+T77	corrected_chemical 1896 1927	histamine-2 receptor antagonist
+R19	treats Arg1:T77 Arg2:T42	
+R20	treats Arg1:T49 Arg2:T51	
+R21	treats Arg1:T49 Arg2:T52	
+T78	missed_disease_or_phenotypic_feature 2188 2199	solid tumor
+R22	treats Arg1:T49 Arg2:T78	
+T79	corrected_chemical 2130 2143	PNP inhibitor
+R23	treats Arg1:T79 Arg2:T51	
+R24	treats Arg1:T79 Arg2:T52	
+R25	treats Arg1:T79 Arg2:T78	
+T80	corrected_disease_or_phenotypic_feature 2277 2315	progressive non-diabetic renal failure
+R26	treats Arg1:T54 Arg2:T80	
+R27	treats Arg1:T55 Arg2:T80	
+T81	corrected_chemical 2950 3007	Targeted nanometer microspheres tagged by flourescent dye
+R28	treats Arg1:T81 Arg2:T68	

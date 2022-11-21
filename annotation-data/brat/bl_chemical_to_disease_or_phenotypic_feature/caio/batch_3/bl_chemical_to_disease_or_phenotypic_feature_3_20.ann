@@ -78,3 +78,19 @@ T77	disease_or_phenotypic_feature 2443 2460	speech impairment
 T78	disease_or_phenotypic_feature 2472 2485	short stature
 T79	disease_or_phenotypic_feature 2487 2499	microcephaly
 T80	chemical 2519 2533	growth hormone
+R1	treats Arg1:T1 Arg2:T3	
+T81	corrected_chemical 375 394	hormone suppression
+R2	treats Arg1:T81 Arg2:T13	
+T82	corrected_chemical 1152 1175	dextran sulphate sodium
+R3	causes_or_contributes_to Arg1:T82 Arg2:T39	
+R4	treats Arg1:T40 Arg2:T43	
+R5	treats Arg1:T40 Arg2:T44	
+T83	corrected_chemical 1210 1240	dopamine D(2) receptor agonist
+R6	treats Arg1:T83 Arg2:T43	
+R7	treats Arg1:T83 Arg2:T44	
+R8	treats Arg1:T46 Arg2:T47	
+T84	missed_disease_or_phenotypic_feature 1448 1468	appetite-stimulating
+R9	causes_or_contributes_to Arg1:T48 Arg2:T84	
+T85	corrected_disease_or_phenotypic_feature 2058 2091	hypercalcemic hyperparathyroidism
+T86	missed_disease_or_phenotypic_feature 2169 2196	parathyroid hormone rebound
+R10	treats Arg1:T67 Arg2:T85	

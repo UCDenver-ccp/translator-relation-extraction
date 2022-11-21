@@ -61,3 +61,28 @@ T60	chemical 1698 1702	food
 T61	disease_or_phenotypic_feature 1744 1751	obesity
 T62	chemical 1763 1780	dopamine agonists
 T63	disease_or_phenotypic_feature 1785 1798	heart failure
+T64	corrected_chemical 42 53	?2-agonists
+R1	causes_or_contributes_to Arg1:T64 Arg2:T2	
+R2	causes_or_contributes_to Arg1:T64 Arg2:T3	
+R3	causes_or_contributes_to Arg1:T64 Arg2:T4	
+R4	causes_or_contributes_to Arg1:T64 Arg2:T5	
+T65	missed_disease_or_phenotypic_feature 155 174	tetralogy of Fallot
+R5	causes_or_contributes_to Arg1:T64 Arg2:T65	
+R6	treats Arg1:T10 Arg2:T11	
+T66	corrected_chemical 246 275	serotonin re-uptake inhibitor
+R7	treats Arg1:T66 Arg2:T11	
+R8	treats Arg1:T23 Arg2:T25	
+R9	causes_or_contributes_to Arg1:T40 Arg2:T42	
+T67	missed_disease_or_phenotypic_feature 1140 1153	neurotoxicity
+R10	causes_or_contributes_to Arg1:T40 Arg2:T67	
+T68	missed_disease_or_phenotypic_feature 1119 1135	oxidative stress
+R11	treats Arg1:T40 Arg2:T68	
+T69	corrected_disease_or_phenotypic_feature 1264 1282	pituitary adenomas
+R12	treats Arg1:T45 Arg2:T69	
+T70	corrected_chemical 1169 1197	D2 dopamine receptor agonist
+R13	treats Arg1:T70 Arg2:T69	
+R14	treats Arg1:T53 Arg2:T51	
+T71	missed_disease_or_phenotypic_feature 1428 1454	Elevation of QT dispersion
+R15	causes_or_contributes_to Arg1:T53 Arg2:T71	
+T72	missed_disease_or_phenotypic_feature 1698 1709	food intake
+R16	causes_or_contributes_to Arg1:T59 Arg2:T72	

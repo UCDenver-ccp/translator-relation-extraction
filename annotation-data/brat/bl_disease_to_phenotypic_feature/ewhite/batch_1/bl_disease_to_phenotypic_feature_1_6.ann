@@ -53,3 +53,12 @@ T52	missed_disease_or_phenotypic_feature 579 588	neoplasia
 T53	corrected_disease_or_phenotypic_feature 547 575	nonparathyroid hypercalcemia
 R1	has_phenotype Arg1:T52 Arg2:T53	
 R2	has_phenotype Arg1:T12 Arg2:T13	
+T54	missed_disease_or_phenotypic_feature 342 351	condition
+R3	has_phenotype Arg1:T54 Arg2:T6	
+R4	has_phenotype Arg1:T54 Arg2:T7	
+R5	has_phenotype Arg1:T54 Arg2:T8	
+T55	corrected_disease_or_phenotypic_feature 457 476	learning disability
+T56	corrected_disease_or_phenotypic_feature 494 520	facial dysmorphic features
+R6	has_phenotype Arg1:T54 Arg2:T55	
+R7	has_phenotype Arg1:T54 Arg2:T56	
+R8	has_phenotype Arg1:T34 Arg2:T35	

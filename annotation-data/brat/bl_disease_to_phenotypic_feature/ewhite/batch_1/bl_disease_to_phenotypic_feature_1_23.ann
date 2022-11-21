@@ -90,3 +90,10 @@ R17	has_phenotype Arg1:T57 Arg2:T72
 T73	missed_disease_or_phenotypic_feature 2358 2369	hypothermia
 R18	has_phenotype Arg1:T73 Arg2:T68	
 R19	has_phenotype Arg1:T73 Arg2:T69	
+R20	has_phenotype Arg1:T36 Arg2:T37	
+R21	has_phenotype Arg1:T36 Arg2:T38	
+T74	missed_disease_or_phenotypic_feature 1181 1197	Refractive error
+R22	has_phenotype Arg1:T74 Arg2:T37	
+R23	has_phenotype Arg1:T74 Arg2:T38	
+T75	missed_disease_or_phenotypic_feature 1424 1443	other abnormalities
+R24	has_phenotype Arg1:T70 Arg2:T75	

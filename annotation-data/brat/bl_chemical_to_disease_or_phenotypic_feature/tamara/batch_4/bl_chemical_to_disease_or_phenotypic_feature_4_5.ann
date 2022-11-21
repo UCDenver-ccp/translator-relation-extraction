@@ -80,8 +80,6 @@ R11	treats Arg1:T24 Arg2:T27
 R12	treats Arg1:T24 Arg2:T28	
 R13	treats Arg1:T26 Arg2:T27	
 R14	treats Arg1:T26 Arg2:T28	
-R15	causes_or_contributes_to Arg1:T32 Arg2:T31	
-R16	causes_or_contributes_to Arg1:T32 Arg2:T30	
 R17	causes_or_contributes_to Arg1:T37 Arg2:T38	
 T69	missed_disease_or_phenotypic_feature 2331 2349	insulin resistance
 R18	treats Arg1:T56 Arg2:T69	
@@ -89,3 +87,11 @@ R19	treats Arg1:T56 Arg2:T57
 R20	treats Arg1:T56 Arg2:T58	
 R21	treats Arg1:T56 Arg2:T59	
 R22	causes_or_contributes_to Arg1:T63 Arg2:T65	
+T70	missed_disease_or_phenotypic_feature 1340 1346	tumors
+R15	causes_or_contributes_to Arg1:T32 Arg2:T70	
+T71	missed_chemical 2205 2208	Orz
+R16	treats Arg1:T53 Arg2:T54	
+R23	treats Arg1:T53 Arg2:T55	
+R24	treats Arg1:T71 Arg2:T54	
+R25	treats Arg1:T71 Arg2:T55	
+T72	DONE 2619 2623	DONE

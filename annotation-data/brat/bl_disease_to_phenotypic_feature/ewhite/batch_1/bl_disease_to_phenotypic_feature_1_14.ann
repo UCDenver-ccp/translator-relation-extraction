@@ -62,29 +62,15 @@ R3	has_phenotype Arg1:T18 Arg2:T21
 R4	has_phenotype Arg1:T22 Arg2:T23	
 R5	has_phenotype Arg1:T31 Arg2:T32	
 R6	has_phenotype Arg1:T31 Arg2:T33	
-T59	corrected_disease_or_phenotypic_feature 921 930;954 963	Inherited syndromes
-R7	has_phenotype Arg1:T59 Arg2:T35	
-R8	has_phenotype Arg1:T59 Arg2:T34	
 T60	missed_disease_or_phenotypic_feature 1334 1351	clinical features
 T61	missed_disease_or_phenotypic_feature 1479 1528	abnormalities in brain magnetic resonance imaging
 T62	missed_disease_or_phenotypic_feature 1530 1537	Allergy
-R15	has_phenotype Arg1:T62 Arg2:T49	
-R16	has_phenotype Arg1:T62 Arg2:T50	
-R17	has_phenotype Arg1:T62 Arg2:T51	
-R18	has_phenotype Arg1:T62 Arg2:T52	
 T63	missed_disease_or_phenotypic_feature 1649 1681	Malignant lymphoreticular tumors
-R19	has_phenotype Arg1:T55 Arg2:T63	
 R20	has_phenotype Arg1:T42 Arg2:T43	
 T64	missed_disease_or_phenotypic_feature 172 186	manifestations
-R21	has_phenotype Arg1:T64 Arg2:T6	
 T65	missed_disease_or_phenotypic_feature 191 208	renal dysfunction
-R23	has_phenotype Arg1:T64 Arg2:T65	
-R25	has_phenotype Arg1:T64 Arg2:T7	
-R22	has_phenotype Arg1:T64 Arg2:T8	
-R24	has_phenotype Arg1:T64 Arg2:T9	
-R26	has_phenotype Arg1:T64 Arg2:T10	
 R27	has_phenotype Arg1:T11 Arg2:T12	
 R28	has_phenotype Arg1:T11 Arg2:T13	
 T66	missed_disease_or_phenotypic_feature 1721 1726	Death
-R29	has_phenotype Arg1:T56 Arg2:T66	
-R30	has_phenotype Arg1:T57 Arg2:T66	
+R7	has_phenotype Arg1:T56 Arg2:T66	
+R8	has_phenotype Arg1:T57 Arg2:T66	

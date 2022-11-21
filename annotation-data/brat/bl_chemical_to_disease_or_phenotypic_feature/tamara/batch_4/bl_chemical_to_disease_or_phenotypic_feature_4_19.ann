@@ -87,7 +87,6 @@ R10	causes_or_contributes_to Arg1:T12 Arg2:T76
 R11	causes_or_contributes_to Arg1:T12 Arg2:T15	
 T81	missed_chemical 805 828	lysophosphatidylcholine
 T77	missed_chemical 1170 1185	Glycodendrimers
-R12	treats Arg1:T77 Arg2:T39	
 T78	missed_chemical 2012 2029	hexabromobiphenyl
 T79	corrected_disease_or_phenotypic_feature 1962 1975	Hepatic tumor
 R13	causes_or_contributes_to Arg1:T78 Arg2:T79	
@@ -95,3 +94,8 @@ T80	missed_disease_or_phenotypic_feature 2572 2584	hypertension
 R14	treats Arg1:T64 Arg2:T80	
 R15	treats Arg1:T64 Arg2:T66	
 R16	causes_or_contributes_to Arg1:T64 Arg2:T67	
+T82	corrected_chemical 1194 1223	Tn (?-D-GalNAc-(1?O)-Ser/Thr)
+T83	corrected_disease_or_phenotypic_feature 1352 1376	metastatic breast cancer
+R12	treats Arg1:T77 Arg2:T83	
+R17	treats Arg1:T82 Arg2:T83	
+T84	DONE 2875 2879	DONE

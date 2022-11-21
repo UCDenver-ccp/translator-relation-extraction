@@ -63,3 +63,29 @@ T62	disease_or_phenotypic_feature 2119 2133	encephalopathy
 T63	disease_or_phenotypic_feature 2148 2168	macular degeneration
 T64	disease_or_phenotypic_feature 2211 2222	visual loss
 T65	disease_or_phenotypic_feature 2224 2232	glaucoma
+T66	corrected_disease_or_phenotypic_feature 1096 1099;1101 1109	EEC syndrome
+R1	has_phenotype Arg1:T66 Arg2:T26	
+R2	has_phenotype Arg1:T66 Arg2:T25	
+R3	has_phenotype Arg1:T66 Arg2:T24	
+R4	has_phenotype Arg1:T27 Arg2:T26	
+R5	has_phenotype Arg1:T27 Arg2:T25	
+R6	has_phenotype Arg1:T27 Arg2:T24	
+T67	missed_disease_or_phenotypic_feature 1267 1269	NS
+R7	has_phenotype Arg1:T67 Arg2:T36	
+R8	has_phenotype Arg1:T67 Arg2:T35	
+R9	has_phenotype Arg1:T67 Arg2:T34	
+R10	has_phenotype Arg1:T33 Arg2:T34	
+R11	has_phenotype Arg1:T33 Arg2:T35	
+R12	has_phenotype Arg1:T33 Arg2:T36	
+R13	has_phenotype Arg1:T37 Arg2:T38	
+R14	has_phenotype Arg1:T37 Arg2:T39	
+R15	has_phenotype Arg1:T37 Arg2:T40	
+R16	has_phenotype Arg1:T37 Arg2:T41	
+R17	has_phenotype Arg1:T37 Arg2:T42	
+T68	missed_disease_or_phenotypic_feature 1398 1420	type A1 brachydactyly,
+R18	has_phenotype Arg1:T37 Arg2:T68	
+R19	has_phenotype Arg1:T59 Arg2:T63	
+T69	corrected_disease_or_phenotypic_feature 2109 2133	myoclonic encephalopathy
+R20	has_phenotype Arg1:T59 Arg2:T69	
+T70	corrected_disease_or_phenotypic_feature 2067 2084	congenital ataxia
+R21	has_phenotype Arg1:T59 Arg2:T70	

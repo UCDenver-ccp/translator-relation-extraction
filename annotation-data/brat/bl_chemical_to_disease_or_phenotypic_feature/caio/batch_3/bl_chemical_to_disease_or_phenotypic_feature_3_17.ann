@@ -72,3 +72,23 @@ T71	disease_or_phenotypic_feature 2482 2488	malign
 T72	chemical 2505 2532	Beta-adrenergic antagonists
 T73	disease_or_phenotypic_feature 2634 2641	cancers
 T74	chemical 2656 2670	norepinephrine
+R1	treats Arg1:T15 Arg2:T14	
+R2	treats Arg1:T15 Arg2:T13	
+R3	treats Arg1:T15 Arg2:T12	
+R4	treats Arg1:T15 Arg2:T11	
+R5	treats Arg1:T16 Arg2:T19	
+R6	treats Arg1:T16 Arg2:T18	
+R7	treats Arg1:T42 Arg2:T44	
+T75	corrected_chemical 1559 1574	sodium-selenite
+R8	causes_or_contributes_to Arg1:T75 Arg2:T44	
+T76	corrected_chemical 1640 1653	ACE inhibitor
+R9	treats Arg1:T76 Arg2:T46	
+T77	corrected_chemical 1732 1745	ACE inhibitor
+T78	missed_chemical 1747 1755	diuretic
+R10	treats Arg1:T78 Arg2:T49	
+R11	treats Arg1:T48 Arg2:T49	
+R12	treats Arg1:T77 Arg2:T49	
+R13	treats Arg1:T54 Arg2:T56	
+R14	causes_or_contributes_to Arg1:T61 Arg2:T60	
+R15	treats Arg1:T63 Arg2:T62	
+R16	treats Arg1:T72 Arg2:T73	

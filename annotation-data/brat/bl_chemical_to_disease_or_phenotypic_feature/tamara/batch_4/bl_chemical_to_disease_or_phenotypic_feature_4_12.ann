@@ -32,7 +32,7 @@ T31	disease_or_phenotypic_feature 1006 1023	colorectal cancer
 T32	disease_or_phenotypic_feature 1040 1061	peripheral neuropathy
 T33	chemical 1113 1117	drug
 T34	disease_or_phenotypic_feature 1151 1166	prostate cancer
-T35	chemical 1285 1293	estrogen
+T35	chemical 1285 1293;1294 1297	estrogen DES
 T36	chemical 1294 1297	DES
 T37	chemical 1316 1319	DES
 T38	disease_or_phenotypic_feature 1384 1387	HES
@@ -81,3 +81,16 @@ T66	missed_disease_or_phenotypic_feature 1469 1471	PN
 R15	causes_or_contributes_to Arg1:T43 Arg2:T66	
 R16	causes_or_contributes_to Arg1:T42 Arg2:T41	
 R17	causes_or_contributes_to Arg1:T42 Arg2:T66	
+T67	missed_disease_or_phenotypic_feature 276 286	overweight
+R18	treats Arg1:T8 Arg2:T67	
+R19	treats Arg1:T7 Arg2:T67	
+T68	missed_disease_or_phenotypic_feature 1241 1246	tumor
+T69	missed_chemical 1364 1378	tetramethylHES
+T70	missed_chemical 1380 1387	3,3'HES
+R21	treats Arg1:T40 Arg2:T68	
+R22	treats Arg1:T69 Arg2:T68	
+R23	treats Arg1:T70 Arg2:T68	
+T71	missed_chemical 1424 1438	tetramethylHES
+R24	treats Arg1:T71 Arg2:T68	
+R20	treats Arg1:T35 Arg2:T68	
+T72	DONE 2095 2099	DONE

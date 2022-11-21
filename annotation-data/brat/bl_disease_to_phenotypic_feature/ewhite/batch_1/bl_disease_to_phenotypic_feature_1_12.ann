@@ -90,22 +90,11 @@ R24	has_phenotype Arg1:T54 Arg2:T80
 R25	has_phenotype Arg1:T54 Arg2:T57	
 R26	has_phenotype Arg1:T54 Arg2:T58	
 R27	has_phenotype Arg1:T54 Arg2:T59	
-T81	missed_disease_or_phenotypic_feature 2059 2061	It
 R30	has_phenotype Arg1:T66 Arg2:T67	
-T82	missed_disease_or_phenotypic_feature 1102 1116	Adverse events
 T83	missed_disease_or_phenotypic_feature 1150 1157	fatigue
 T84	missed_disease_or_phenotypic_feature 1159 1163	rash
-R31	has_phenotype Arg1:T82 Arg2:T33	
-R32	has_phenotype Arg1:T82 Arg2:T34	
-R33	has_phenotype Arg1:T82 Arg2:T83	
-R34	has_phenotype Arg1:T82 Arg2:T84	
-R35	has_phenotype Arg1:T82 Arg2:T35	
 R36	has_phenotype Arg1:T38 Arg2:T36	
 R37	has_phenotype Arg1:T53 Arg2:T52	
 T85	corrected_disease_or_phenotypic_feature 0 14	Facial tumours
 T86	corrected_disease_or_phenotypic_feature 861 878	glaucoma-cataract
-R39	has_phenotype Arg1:T86 Arg2:T26	
-R40	has_phenotype Arg1:T86 Arg2:T27	
-R41	has_phenotype Arg1:T86 Arg2:T28	
 T87	missed_disease_or_phenotypic_feature 1028 1044	ocular disorders
-R42	has_phenotype Arg1:T86 Arg2:T87	

@@ -51,7 +51,6 @@ T50	disease_or_phenotypic_feature 2092 2105	liver cancers
 T51	corrected_disease_or_phenotypic_feature 36 65	metabolically healthy obesity
 R1	has_phenotype Arg1:T1 Arg2:T51	
 R2	has_phenotype Arg1:T4 Arg2:T5	
-T52	corrected_disease_or_phenotypic_feature 341 372	Hereditary ectodermal dysplasia
 T53	missed_disease_or_phenotypic_feature 378 388	anhidrosis
 T54	missed_disease_or_phenotypic_feature 597 609	hypertension
 R3	has_phenotype Arg1:T24 Arg2:T23	
@@ -59,9 +58,6 @@ R4	has_phenotype Arg1:T24 Arg2:T22
 R5	has_phenotype Arg1:T24 Arg2:T54	
 R6	has_phenotype Arg1:T24 Arg2:T21	
 R7	has_phenotype Arg1:T11 Arg2:T12	
-R8	has_phenotype Arg1:T52 Arg2:T53	
-R9	has_phenotype Arg1:T52 Arg2:T14	
-R10	has_phenotype Arg1:T52 Arg2:T15	
 T55	missed_disease_or_phenotypic_feature 1215 1231	Refractive error
 T56	corrected_disease_or_phenotypic_feature 1305 1341	incident bilateral visual impairment
 R11	has_phenotype Arg1:T31 Arg2:T56	
@@ -70,3 +66,6 @@ R13	has_phenotype Arg1:T30 Arg2:T56
 R14	has_phenotype Arg1:T30 Arg2:T33	
 R15	has_phenotype Arg1:T55 Arg2:T56	
 R16	has_phenotype Arg1:T55 Arg2:T33	
+R8	has_phenotype Arg1:T13 Arg2:T53	
+R9	has_phenotype Arg1:T13 Arg2:T14	
+R10	has_phenotype Arg1:T13 Arg2:T15	

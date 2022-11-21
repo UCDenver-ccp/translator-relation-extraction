@@ -3,7 +3,7 @@ T2	chemical 102 111	inhibitor
 T3	chemical 112 125	pembrolizumab
 T4	chemical 192 198	oxygen
 T5	disease_or_phenotypic_feature 261 285	hepatocellular carcinoma
-T6	chemical 309 312	STS
+T6	chemical 309 312;313 322	STS inhibitor
 T7	chemical 313 322	inhibitor
 T8	chemical 349 352	STS
 T9	disease_or_phenotypic_feature 349 352	STS
@@ -70,3 +70,8 @@ R9	treats Arg1:T46 Arg2:T48
 R10	treats Arg1:T60 Arg2:T48	
 R11	treats Arg1:T46 Arg2:T49	
 R12	treats Arg1:T60 Arg2:T49	
+T61	missed_chemical 293 298	STX64
+T62	missed_disease_or_phenotypic_feature 349 352;354 359	STS tumor
+R13	treats Arg1:T61 Arg2:T62	
+R14	treats Arg1:T6 Arg2:T62	
+T63	DONE 2094 2098	DONE

@@ -68,3 +68,9 @@ T67	disease_or_phenotypic_feature 2100 2106	ataxia
 T68	disease_or_phenotypic_feature 2124 2145	Klippel-Feil syndrome
 T69	disease_or_phenotypic_feature 2151 2176	unilateral renal agenesis
 T70	disease_or_phenotypic_feature 2181 2194	renal failure
+R1	has_phenotype Arg1:T6 Arg2:T5	
+T71	missed_disease_or_phenotypic_feature 127 144	refractive errors
+R2	has_phenotype Arg1:T71 Arg2:T5	
+R3	has_phenotype Arg1:T8 Arg2:T7	
+R4	has_phenotype Arg1:T68 Arg2:T69	
+R5	has_phenotype Arg1:T68 Arg2:T70	

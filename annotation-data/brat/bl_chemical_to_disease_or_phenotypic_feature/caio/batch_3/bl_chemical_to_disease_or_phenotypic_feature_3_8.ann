@@ -61,3 +61,23 @@ T60	disease_or_phenotypic_feature 2217 2225	diabetic
 T61	disease_or_phenotypic_feature 2226 2247	peripheral neuropathy
 T62	disease_or_phenotypic_feature 2256 2265	pituitary
 T63	chemical 2285 2299	growth hormone
+T64	missed_disease_or_phenotypic_feature 742 747	tumor
+R1	treats Arg1:T21 Arg2:T64	
+T65	corrected_chemical 765 787	first-line cancer drug
+R2	treats Arg1:T65 Arg2:T64	
+R3	causes_or_contributes_to Arg1:T27 Arg2:T28	
+R4	causes_or_contributes_to Arg1:T27 Arg2:T29	
+R5	treats Arg1:T30 Arg2:T32	
+T66	corrected_chemical 1260 1293	Epstein-Barr viral tumor antigens
+R6	treats Arg1:T66 Arg2:T32	
+T67	missed_chemical 1598 1606	selenite
+R7	causes_or_contributes_to Arg1:T67 Arg2:T42	
+T68	corrected_chemical 1552 1579	Phase-separation inhibitors
+R8	treats Arg1:T68 Arg2:T42	
+R9	causes_or_contributes_to Arg1:T46 Arg2:T47	
+T69	missed_disease_or_phenotypic_feature 2108 2129	blood cell aberration
+T70	missed_disease_or_phenotypic_feature 2096 2106	DNA damage
+T71	missed_disease_or_phenotypic_feature 2134 2150	oxidative stress
+R10	causes_or_contributes_to Arg1:T58 Arg2:T70	
+R11	causes_or_contributes_to Arg1:T58 Arg2:T71	
+R12	causes_or_contributes_to Arg1:T58 Arg2:T69	

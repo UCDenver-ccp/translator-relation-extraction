@@ -66,3 +66,44 @@ T65	chemical 3013 3023	olanzapine
 T66	disease_or_phenotypic_feature 3041 3073	pervasive developmental disorder
 T67	chemical 3098 3106	busulfan
 T68	disease_or_phenotypic_feature 3188 3203	aplastic anemia
+T69	corrected_chemical 313 351	surfactant-shelled oxygen microbubbles
+R1	treats Arg1:T69 Arg2:T12	
+T70	missed_chemical 1199 1206	hirudin
+R2	treats Arg1:T70 Arg2:T27	
+T71	missed_disease_or_phenotypic_feature 1216 1237	neurological deficits
+R3	treats Arg1:T70 Arg2:T71	
+T72	corrected_chemical 1179 1197	thrombin inhibitor
+R4	treats Arg1:T72 Arg2:T71	
+R5	treats Arg1:T72 Arg2:T27	
+R6	treats Arg1:T30 Arg2:T28	
+T73	corrected_chemical 1353 1370	potassium bromide
+R7	treats Arg1:T73 Arg2:T28	
+T74	corrected_chemical 1306 1325	potassium-rich diet
+R8	treats Arg1:T74 Arg2:T28	
+T75	missed_disease_or_phenotypic_feature 1746 1772	impaired glucose tolerance
+R9	treats Arg1:T39 Arg2:T41	
+R10	treats Arg1:T39 Arg2:T42	
+R11	treats Arg1:T39 Arg2:T75	
+R12	treats Arg1:T40 Arg2:T41	
+R13	treats Arg1:T40 Arg2:T42	
+R14	treats Arg1:T40 Arg2:T75	
+T76	missed_disease_or_phenotypic_feature 1843 1849	stroke
+R15	treats Arg1:T46 Arg2:T76	
+R16	treats Arg1:T47 Arg2:T76	
+R17	treats Arg1:T50 Arg2:T52	
+T77	missed_disease_or_phenotypic_feature 2215 2227	solid tumors
+R18	treats Arg1:T50 Arg2:T77	
+T78	corrected_chemical 2106 2137	DNA methyltransferase inhibitor
+R19	treats Arg1:T78 Arg2:T52	
+R20	treats Arg1:T78 Arg2:T77	
+T79	missed_disease_or_phenotypic_feature 2326 2337	ototoxicity
+R21	causes_or_contributes_to Arg1:T53 Arg2:T79	
+T80	missed_disease_or_phenotypic_feature 2571 2587	clubroot disease
+R22	treats Arg1:T56 Arg2:T80	
+T81	missed_chemical 2526 2541	RSM hydrolysate
+R23	treats Arg1:T81 Arg2:T80	
+T82	missed_disease_or_phenotypic_feature 2592 2599;2604 2610	promote growth
+R24	causes_or_contributes_to Arg1:T56 Arg2:T82	
+R25	causes_or_contributes_to Arg1:T81 Arg2:T82	
+R26	treats Arg1:T65 Arg2:T66	
+R27	treats Arg1:T67 Arg2:T68	

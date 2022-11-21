@@ -66,20 +66,10 @@ T65	disease_or_phenotypic_feature 2524 2546	dilated cardiomyopathy
 T66	disease_or_phenotypic_feature 2562 2575	heart failure
 T67	disease_or_phenotypic_feature 2579 2589	arrhythmia
 T68	missed_disease_or_phenotypic_feature 0 42	Paraneoplastic neurological manifestations
-R1	has_phenotype Arg1:T68 Arg2:T1	
-R2	has_phenotype Arg1:T68 Arg2:T2	
-R3	has_phenotype Arg1:T68 Arg2:T4	
-R4	has_phenotype Arg1:T68 Arg2:T5	
-R5	has_phenotype Arg1:T68 Arg2:T6	
 T69	missed_disease_or_phenotypic_feature 267 277	myelopathy
 T70	missed_disease_or_phenotypic_feature 244 262	brainstem disorder
 T71	missed_disease_or_phenotypic_feature 162 193	neuromuscular junction disorder
 T72	missed_disease_or_phenotypic_feature 124 141	cognitive decline
-R6	has_phenotype Arg1:T68 Arg2:T72	
-R7	has_phenotype Arg1:T68 Arg2:T3	
-R8	has_phenotype Arg1:T68 Arg2:T71	
-R9	has_phenotype Arg1:T68 Arg2:T70	
-R10	has_phenotype Arg1:T68 Arg2:T69	
 R11	has_phenotype Arg1:T7 Arg2:T8	
 T73	missed_disease_or_phenotypic_feature 744 763	developmental delay
 T74	missed_disease_or_phenotypic_feature 622 628	IMNEPD
@@ -125,7 +115,6 @@ R43	has_phenotype Arg1:T90 Arg2:T43
 R44	has_phenotype Arg1:T90 Arg2:T44	
 T91	missed_disease_or_phenotypic_feature 1823 1832	hypotonia
 R45	has_phenotype Arg1:T90 Arg2:T91	
-T92	missed_disease_or_phenotypic_feature 2103 2126	Grade 3 or 4 toxicities
 T93	missed_disease_or_phenotypic_feature 2141 2152	neutropenia
 T94	missed_disease_or_phenotypic_feature 2320 2337	Clinical features
 T95	missed_disease_or_phenotypic_feature 2390 2399	psychosis
@@ -133,10 +122,13 @@ T96	missed_disease_or_phenotypic_feature 2437 2447	myelopathy
 T97	missed_disease_or_phenotypic_feature 2368 2388	periodic obtundation
 T98	missed_disease_or_phenotypic_feature 2411 2435	intracerebral hemorrhage
 T99	corrected_disease_or_phenotypic_feature 1977 2014	Autoimmune sensorineural hearing loss
-R60	has_phenotype Arg1:T51 Arg2:T99	
 T100	corrected_disease_or_phenotypic_feature 1763 1788	cardiomyopathy of obesity
 R40	has_phenotype Arg1:T38 Arg2:T100	
 T101	missed_disease_or_phenotypic_feature 2250 2276	severe glycemic excursions
 R33	has_phenotype Arg1:T101 Arg2:T58	
 R34	has_phenotype Arg1:T101 Arg2:T59	
 T102	disease_or_phenotypic_feature 1750 1757	obesity
+R1	has_phenotype Arg1:T51 Arg2:T99	
+T103	missed_disease_or_phenotypic_feature 2042 2065	Black urinary spherules
+T104	corrected_disease_or_phenotypic_feature 2070 2101	hyperphosphatemic renal failure
+R2	has_phenotype Arg1:T104 Arg2:T103	

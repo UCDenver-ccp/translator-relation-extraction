@@ -87,14 +87,16 @@ T74	corrected_chemical 1731 1772	sodium-glucose co-transporter-2 inhibitor
 T75	missed_disease_or_phenotypic_feature 1828 1836	diabetic
 R13	treats Arg1:T74 Arg2:T75	
 R14	treats Arg1:T74 Arg2:T40	
-R15	treats Arg1:T74 Arg2:T41	
-R16	treats Arg1:T74 Arg2:T42	
 R17	treats Arg1:T39 Arg2:T75	
 R18	treats Arg1:T39 Arg2:T40	
-R19	treats Arg1:T39 Arg2:T41	
-R20	treats Arg1:T39 Arg2:T42	
 T76	corrected_chemical 1932 1948	RORγ antagonists
 R21	treats Arg1:T76 Arg2:T44	
 T77	missed_chemical 2323 2332	rat urine
 R22	causes_or_contributes_to Arg1:T77 Arg2:T49	
 T78	DONE 3204 3208	DONE
+T79	corrected_disease_or_phenotypic_feature 1854 1894	spontaneously hypertensive heart failure
+T80	missed_disease_or_phenotypic_feature 1896 1900	SHHF
+R15	treats Arg1:T39 Arg2:T80	
+R16	treats Arg1:T39 Arg2:T79	
+R19	treats Arg1:T74 Arg2:T80	
+R20	treats Arg1:T74 Arg2:T79	

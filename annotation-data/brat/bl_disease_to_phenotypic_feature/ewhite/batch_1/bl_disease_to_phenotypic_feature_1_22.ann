@@ -56,7 +56,7 @@ T55	disease_or_phenotypic_feature 1731 1748	macrocytic anemia
 T56	disease_or_phenotypic_feature 1753 1775	renal tubular acidosis
 T57	disease_or_phenotypic_feature 1777 1791	polyneuropathy
 T58	disease_or_phenotypic_feature 1864 1877	hydrocephalus
-T59	missed_disease_or_phenotypic_feature 95 110	CAFD fed groups
+T59	missed_disease_or_phenotypic_feature 95 103	CAFD fed
 T60	missed_disease_or_phenotypic_feature 52 67	hyperleptinemia
 T61	missed_disease_or_phenotypic_feature 72 91	hypoadiponectinemia
 R1	has_phenotype Arg1:T59 Arg2:T61	
@@ -68,9 +68,6 @@ R6	has_phenotype Arg1:T8 Arg2:T9
 R7	has_phenotype Arg1:T7 Arg2:T9	
 R8	has_phenotype Arg1:T6 Arg2:T9	
 R9	has_phenotype Arg1:T5 Arg2:T9	
-T62	missed_disease_or_phenotypic_feature 412 424	Macrocephaly
-R10	has_phenotype Arg1:T14 Arg2:T62	
-R11	has_phenotype Arg1:T15 Arg2:T62	
 R12	has_phenotype Arg1:T20 Arg2:T21	
 R13	has_phenotype Arg1:T22 Arg2:T23	
 T63	corrected_disease_or_phenotypic_feature 1349 1375	Marinesco-Sj?gren syndrome

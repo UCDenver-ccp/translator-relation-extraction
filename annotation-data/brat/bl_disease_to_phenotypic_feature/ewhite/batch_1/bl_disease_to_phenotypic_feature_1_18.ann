@@ -69,12 +69,7 @@ R4	has_phenotype Arg1:T52 Arg2:T55
 R5	has_phenotype Arg1:T51 Arg2:T53	
 R6	has_phenotype Arg1:T51 Arg2:T54	
 R7	has_phenotype Arg1:T51 Arg2:T55	
-T65	missed_disease_or_phenotypic_feature 1462 1474	side effects
-R8	has_phenotype Arg1:T65 Arg2:T40	
-R9	has_phenotype Arg1:T65 Arg2:T39	
-R10	has_phenotype Arg1:T65 Arg2:T38	
 T66	missed_disease_or_phenotypic_feature 1480 1489	headaches
-R11	has_phenotype Arg1:T65 Arg2:T66	
 R12	has_phenotype Arg1:T13 Arg2:T15	
 R13	has_phenotype Arg1:T13 Arg2:T16	
 R14	has_phenotype Arg1:T13 Arg2:T64	
@@ -93,3 +88,4 @@ R19	has_phenotype Arg1:T73 Arg2:T55
 R20	has_phenotype Arg1:T72 Arg2:T53	
 R21	has_phenotype Arg1:T72 Arg2:T54	
 R22	has_phenotype Arg1:T72 Arg2:T55	
+R8	has_phenotype Arg1:T10 Arg2:T11	

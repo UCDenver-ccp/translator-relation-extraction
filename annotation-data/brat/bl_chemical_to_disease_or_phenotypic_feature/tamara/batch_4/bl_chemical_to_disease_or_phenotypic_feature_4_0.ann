@@ -68,8 +68,6 @@ T67	missed_chemical 275 279	H2O2
 T68	missed_chemical 111 115	H2O2
 R1	causes_or_contributes_to Arg1:T68 Arg2:T66	
 R2	causes_or_contributes_to Arg1:T67 Arg2:T8	
-T69	corrected_chemical 344 384	tumor antigen-derived peptide loaded DCs
-R3	treats Arg1:T69 Arg2:T11	
 T70	corrected_chemical 494 523	serotonin-reuptake inhibitors
 R4	treats Arg1:T70 Arg2:T12	
 R5	treats Arg1:T15 Arg2:T16	
@@ -90,3 +88,6 @@ R7	treats Arg1:T79 Arg2:T77
 R13	treats Arg1:T74 Arg2:T77	
 R14	treats Arg1:T50 Arg2:T77	
 R15	treats Arg1:T49 Arg2:T77	
+T69	missed_disease_or_phenotypic_feature 1420 1439;1443 1456	undesirable effects breast cancer
+R3	treats Arg1:T41 Arg2:T69	
+T76	DONE 2183 2187	DONE

@@ -33,7 +33,7 @@ T32	disease_or_phenotypic_feature 1063 1069	Asthma
 T33	disease_or_phenotypic_feature 1074 1081	obesity
 T34	disease_or_phenotypic_feature 1106 1129	Obstructive sleep apnea
 T35	disease_or_phenotypic_feature 1134 1141	obesity
-T36	corrected_disease_or_phenotypic_feature 1219 1247	variable syndromic phenotype
+T36	corrected_disease_or_phenotypic_feature 1228 1247	syndromic phenotype
 T37	disease_or_phenotypic_feature 1262 1268	autism
 T38	disease_or_phenotypic_feature 1270 1283	short stature
 T39	disease_or_phenotypic_feature 1285 1297	microcephaly
@@ -73,8 +73,6 @@ R10	has_phenotype Arg1:T7 Arg2:T12
 T66	missed_disease_or_phenotypic_feature 363 383	Skin matrical tumors
 T67	missed_disease_or_phenotypic_feature 437 459	purely matrical tumors
 T68	missed_disease_or_phenotypic_feature 464 487	focally matrical tumors
-R11	has_phenotype Arg1:T66 Arg2:T67	
-R12	has_phenotype Arg1:T66 Arg2:T68	
 R13	has_phenotype Arg1:T16 Arg2:T17	
 T69	missed_disease_or_phenotypic_feature 609 627	oculomotor apraxia
 R14	has_phenotype Arg1:T36 Arg2:T37	

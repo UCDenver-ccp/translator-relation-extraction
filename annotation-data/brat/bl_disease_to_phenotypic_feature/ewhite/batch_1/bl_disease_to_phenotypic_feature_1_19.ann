@@ -49,8 +49,6 @@ T48	disease_or_phenotypic_feature 2112 2120	seizures
 T49	disease_or_phenotypic_feature 2163 2172	pneumonia
 T50	disease_or_phenotypic_feature 2177 2190	heart failure
 T51	disease_or_phenotypic_feature 2240 2249	neoplasms
-T52	missed_disease_or_phenotypic_feature 0 4	DLTs
-#1	AnnotatorNotes T52	dose-limiting toxicities (DLT)
 T53	missed_disease_or_phenotypic_feature 43 65	transient hypertension
 T54	missed_disease_or_phenotypic_feature 67 78	neutropenia
 T55	missed_disease_or_phenotypic_feature 98 104	nausea
@@ -76,31 +74,18 @@ T69	missed_disease_or_phenotypic_feature 1155 1163	jaundice
 T70	missed_disease_or_phenotypic_feature 1189 1207	hepatosplenomegaly
 T71	missed_disease_or_phenotypic_feature 1209 1237	hepatocellular insufficiency
 T72	missed_disease_or_phenotypic_feature 1266 1275	end stage
-R46	has_phenotype Arg1:T72 Arg2:T36	
 T73	corrected_disease_or_phenotypic_feature 1277 1289	renal anemia
-R47	has_phenotype Arg1:T72 Arg2:T73	
-T74	missed_disease_or_phenotypic_feature 2009 2044	loss-of-function variants in DIAPH1
 T75	missed_disease_or_phenotypic_feature 1558 1577	disease progression
 T76	missed_disease_or_phenotypic_feature 1460 1483	Atypical tumor location
 T77	corrected_disease_or_phenotypic_feature 1485 1502	peritumoral edema
 T78	missed_disease_or_phenotypic_feature 1507 1523	large tumor size
-R48	has_phenotype Arg1:T75 Arg2:T78	
-R49	has_phenotype Arg1:T75 Arg2:T77	
-R50	has_phenotype Arg1:T75 Arg2:T76	
 T79	missed_disease_or_phenotypic_feature 1836 1856	Nonpancreatic tumors
-T80	corrected_disease_or_phenotypic_feature 1867 1889	recurrent hypoglycemia
 T81	corrected_disease_or_phenotypic_feature 1899 1931	nonislet cell tumor hypoglycemia
-R51	has_phenotype Arg1:T79 Arg2:T80	
 R52	has_phenotype Arg1:T79 Arg2:T81	
-R53	has_phenotype Arg1:T74 Arg2:T47	
 T82	corrected_disease_or_phenotypic_feature 2061 2083	syndromic microcephaly
 T83	corrected_disease_or_phenotypic_feature 2100 2120	early onset seizures
-R54	has_phenotype Arg1:T74 Arg2:T82	
-R55	has_phenotype Arg1:T74 Arg2:T83	
 T84	missed_disease_or_phenotypic_feature 1342 1357	stent occlusion
 T85	disease_or_phenotypic_feature 1361 1375	tumor ingrowth
 T86	corrected_disease_or_phenotypic_feature 1377 1393	tumor overgrowth
 T87	missed_disease_or_phenotypic_feature 1398 1412	biliary sludge
-R56	has_phenotype Arg1:T85 Arg2:T84	
-R57	has_phenotype Arg1:T86 Arg2:T84	
-R58	has_phenotype Arg1:T87 Arg2:T84	
+R6	has_phenotype Arg1:T79 Arg2:T41	

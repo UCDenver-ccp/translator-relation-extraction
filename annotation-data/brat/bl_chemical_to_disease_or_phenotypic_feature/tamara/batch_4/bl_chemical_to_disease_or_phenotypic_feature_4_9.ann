@@ -81,3 +81,36 @@ T80	disease_or_phenotypic_feature 2521 2529	syndrome
 T81	chemical 2535 2544	serotonin
 T82	chemical 2593 2600	antigen
 T83	disease_or_phenotypic_feature 2604 2619	cervical cancer
+R1	causes_or_contributes_to Arg1:T15 Arg2:T16	
+R2	causes_or_contributes_to Arg1:T15 Arg2:T17	
+R3	causes_or_contributes_to Arg1:T15 Arg2:T18	
+R4	causes_or_contributes_to Arg1:T36 Arg2:T35	
+R5	causes_or_contributes_to Arg1:T36 Arg2:T34	
+R6	causes_or_contributes_to Arg1:T37 Arg2:T38	
+T84	missed_chemical 1489 1500	edema toxin
+T85	corrected_disease_or_phenotypic_feature 1504 1524	arterial hypotension
+R7	treats Arg1:T46 Arg2:T85	
+R8	causes_or_contributes_to Arg1:T84 Arg2:T85	
+T86	missed_disease_or_phenotypic_feature 2239 2249	depression
+T87	missed_disease_or_phenotypic_feature 2255 2262	bulimia
+R9	treats Arg1:T70 Arg2:T73	
+R10	treats Arg1:T70 Arg2:T86	
+R11	treats Arg1:T70 Arg2:T87	
+R12	treats Arg1:T71 Arg2:T73	
+R13	treats Arg1:T71 Arg2:T86	
+R14	treats Arg1:T71 Arg2:T87	
+R15	treats Arg1:T72 Arg2:T73	
+R16	treats Arg1:T72 Arg2:T86	
+R17	treats Arg1:T72 Arg2:T87	
+T88	corrected_chemical 2115 2144	Serotonin reuptake inhibitors
+R18	treats Arg1:T88 Arg2:T73	
+R19	treats Arg1:T88 Arg2:T86	
+R20	treats Arg1:T88 Arg2:T87	
+T89	corrected_chemical 2286 2303	hyperbaric oxygen
+T90	missed_disease_or_phenotypic_feature 2375 2386	atelectasis
+R21	causes_or_contributes_to Arg1:T89 Arg2:T90	
+R22	causes_or_contributes_to Arg1:T89 Arg2:T75	
+R23	causes_or_contributes_to Arg1:T89 Arg2:T76	
+T91	corrected_disease_or_phenotypic_feature 22 46	myoclonic encephalopathy
+R24	causes_or_contributes_to Arg1:T1 Arg2:T91	
+T92	DONE 2622 2626	DONE

@@ -77,8 +77,8 @@ T73	missed_disease_or_phenotypic_feature 811 815	XHED
 R4	has_phenotype Arg1:T73 Arg2:T26	
 R5	has_phenotype Arg1:T73 Arg2:T27	
 R6	has_phenotype Arg1:T73 Arg2:T28	
-T74	missed_disease_or_phenotypic_feature 880 925	Maternal hyperphenylalanemia during pregnancy
-T75	missed_disease_or_phenotypic_feature 939 957	severe embryopathy
+T74	missed_disease_or_phenotypic_feature 880 908	Maternal hyperphenylalanemia
+T75	missed_disease_or_phenotypic_feature 946 957	embryopathy
 T76	missed_disease_or_phenotypic_feature 1342 1370	eosinophilic gastroenteritis
 T77	missed_disease_or_phenotypic_feature 1479 1492	bloody stools
 R7	has_phenotype Arg1:T11 Arg2:T12	
@@ -99,7 +99,6 @@ T82	missed_disease_or_phenotypic_feature 712 729	Clinical features
 T83	missed_disease_or_phenotypic_feature 739 745	nausea
 T84	disease_or_phenotypic_feature 747 758	tachycardia
 T85	disease_or_phenotypic_feature 760 766	tremor
-R24	has_phenotype Arg1:T82 Arg2:T83	
 R27	has_phenotype Arg1:T34 Arg2:T35	
 T86	missed_disease_or_phenotypic_feature 1628 1643	clubbed fingers
 T87	missed_disease_or_phenotypic_feature 1677 1693	dental dysplasia
@@ -112,10 +111,6 @@ T90	missed_disease_or_phenotypic_feature 1753 1770	clinical features
 T91	corrected_disease_or_phenotypic_feature 1696 1712	Spinal hamartoma
 R34	has_phenotype Arg1:T52 Arg2:T91	
 R35	has_phenotype Arg1:T74 Arg2:T75	
-R36	has_phenotype Arg1:T74 Arg2:T29	
-R37	has_phenotype Arg1:T74 Arg2:T30	
-R38	has_phenotype Arg1:T74 Arg2:T31	
-R39	has_phenotype Arg1:T74 Arg2:T32	
 R40	has_phenotype Arg1:T38 Arg2:T39	
 R41	has_phenotype Arg1:T38 Arg2:T40	
 R42	has_phenotype Arg1:T76 Arg2:T41	
@@ -136,3 +131,7 @@ R61	has_phenotype Arg1:T34 Arg2:T37
 R17	has_phenotype Arg1:T88 Arg2:T49	
 R18	has_phenotype Arg1:T88 Arg2:T50	
 R19	has_phenotype Arg1:T88 Arg2:T87	
+R20	has_phenotype Arg1:T75 Arg2:T29	
+R21	has_phenotype Arg1:T75 Arg2:T32	
+R22	has_phenotype Arg1:T75 Arg2:T31	
+R23	has_phenotype Arg1:T75 Arg2:T30	

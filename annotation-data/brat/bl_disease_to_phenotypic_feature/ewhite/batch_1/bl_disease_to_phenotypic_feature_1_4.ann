@@ -74,3 +74,23 @@ R6	has_phenotype Arg1:T67 Arg2:T40
 R7	has_phenotype Arg1:T67 Arg2:T39	
 R8	has_phenotype Arg1:T67 Arg2:T38	
 R9	has_phenotype Arg1:T67 Arg2:T37	
+T68	missed_disease_or_phenotypic_feature 262 273	keratopathy
+R10	has_phenotype Arg1:T68 Arg2:T12	
+R11	has_phenotype Arg1:T10 Arg2:T12	
+R12	has_phenotype Arg1:T11 Arg2:T12	
+R13	has_phenotype Arg1:T68 Arg2:T13	
+R14	has_phenotype Arg1:T10 Arg2:T13	
+R15	has_phenotype Arg1:T11 Arg2:T13	
+R16	has_phenotype Arg1:T26 Arg2:T27	
+R17	has_phenotype Arg1:T18 Arg2:T19	
+R18	has_phenotype Arg1:T18 Arg2:T20	
+T69	missed_disease_or_phenotypic_feature 1072 1076	MPPH
+R19	has_phenotype Arg1:T69 Arg2:T29	
+R20	has_phenotype Arg1:T69 Arg2:T30	
+R21	has_phenotype Arg1:T69 Arg2:T31	
+T70	missed_disease_or_phenotypic_feature 1015 1029	megalencephaly
+R22	has_phenotype Arg1:T69 Arg2:T70	
+T71	missed_disease_or_phenotypic_feature 1119 1122	MCM
+R23	has_phenotype Arg1:T71 Arg2:T33	
+R24	has_phenotype Arg1:T71 Arg2:T32	
+R25	has_phenotype Arg1:T50 Arg2:T49	

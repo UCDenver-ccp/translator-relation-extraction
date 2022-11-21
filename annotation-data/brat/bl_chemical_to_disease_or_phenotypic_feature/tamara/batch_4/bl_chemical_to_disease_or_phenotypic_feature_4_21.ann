@@ -82,3 +82,4 @@ T71	missed_disease_or_phenotypic_feature 1748 1775	Nontraumatic rhabdomyolysis
 R11	causes_or_contributes_to Arg1:T47 Arg2:T71	
 T72	corrected_chemical 2178 2216	tumor necrosis factor alpha inhibitors
 R12	causes_or_contributes_to Arg1:T72 Arg2:T57	
+T73	DONE 2362 2366	DONE

@@ -63,3 +63,28 @@ T62	chemical 2825 2836	acetylation
 T63	disease_or_phenotypic_feature 2840 2845	Hsp90
 T64	disease_or_phenotypic_feature 2861 2872	Tsc1-mutant
 T65	disease_or_phenotypic_feature 2873 2887	bladder cancer
+T66	missed_disease_or_phenotypic_feature 133 139	tumors
+R1	treats Arg1:T5 Arg2:T66	
+T67	corrected_chemical 307 333	tumor blood flow inhibitor
+R2	treats Arg1:T4 Arg2:T66	
+R3	causes_or_contributes_to Arg1:T13 Arg2:T12	
+T68	missed_disease_or_phenotypic_feature 713 718	tumor
+R4	causes_or_contributes_to Arg1:T13 Arg2:T68	
+T69	missed_disease_or_phenotypic_feature 990 1005	hepatocarcinoma
+T70	missed_disease_or_phenotypic_feature 1010 1022	other tumors
+T71	corrected_chemical 915 933	Arginine deiminase
+R5	treats Arg1:T71 Arg2:T18	
+R6	treats Arg1:T71 Arg2:T69	
+R7	treats Arg1:T71 Arg2:T70	
+R8	treats Arg1:T21 Arg2:T22	
+R9	treats Arg1:T20 Arg2:T22	
+T72	corrected_disease_or_phenotypic_feature 1348 1366	alimentary obesity
+R10	treats Arg1:T29 Arg2:T72	
+R11	treats Arg1:T30 Arg2:T33	
+T73	corrected_chemical 1399 1426	serotonergic 5-HT1A agonist
+R12	treats Arg1:T73 Arg2:T33	
+T74	missed_disease_or_phenotypic_feature 1680 1695	solid neoplasia
+R13	causes_or_contributes_to Arg1:T39 Arg2:T74	
+R14	causes_or_contributes_to Arg1:T40 Arg2:T74	
+T75	corrected_chemical 2759 2807	Pharmacologic inhibition of histone deacetylases
+R15	treats Arg1:T75 Arg2:T65	

@@ -67,3 +67,46 @@ R2	has_phenotype Arg1:T8 Arg2:T11
 R3	has_phenotype Arg1:T8 Arg2:T12	
 R4	has_phenotype Arg1:T8 Arg2:T13	
 T65	missed_disease_or_phenotypic_feature 494 531	cerebro-oculo-facio-skeletal syndrome
+T66	missed_disease_or_phenotypic_feature 621 626	CAMAK
+T67	missed_disease_or_phenotypic_feature 542 550	syndrome
+R5	has_phenotype Arg1:T67 Arg2:T20	
+T68	missed_disease_or_phenotypic_feature 571 585	arthrogryposis
+R6	has_phenotype Arg1:T67 Arg2:T68	
+R7	has_phenotype Arg1:T67 Arg2:T21	
+T69	missed_disease_or_phenotypic_feature 605 619	kyphoscoliosis
+R8	has_phenotype Arg1:T67 Arg2:T69	
+R9	has_phenotype Arg1:T66 Arg2:T20	
+R10	has_phenotype Arg1:T66 Arg2:T69	
+R11	has_phenotype Arg1:T66 Arg2:T21	
+R12	has_phenotype Arg1:T66 Arg2:T68	
+T70	missed_disease_or_phenotypic_feature 631 639	syndrome
+R13	has_phenotype Arg1:T70 Arg2:T22	
+R14	has_phenotype Arg1:T70 Arg2:T23	
+R15	has_phenotype Arg1:T70 Arg2:T24	
+T71	missed_disease_or_phenotypic_feature 692 706	kyphoscoliosis
+T72	missed_disease_or_phenotypic_feature 708 714	CAMFAK
+R16	has_phenotype Arg1:T70 Arg2:T71	
+R17	has_phenotype Arg1:T72 Arg2:T71	
+R18	has_phenotype Arg1:T72 Arg2:T24	
+R19	has_phenotype Arg1:T72 Arg2:T23	
+R20	has_phenotype Arg1:T72 Arg2:T22	
+R21	has_phenotype Arg1:T37 Arg2:T36	
+R22	has_phenotype Arg1:T37 Arg2:T35	
+R23	has_phenotype Arg1:T38 Arg2:T36	
+R24	has_phenotype Arg1:T38 Arg2:T35	
+T73	missed_disease_or_phenotypic_feature 1350 1366	refractive error
+R25	has_phenotype Arg1:T73 Arg2:T36	
+R26	has_phenotype Arg1:T73 Arg2:T35	
+T74	missed_disease_or_phenotypic_feature 1826 1834	disorder
+R27	has_phenotype Arg1:T74 Arg2:T53	
+R28	has_phenotype Arg1:T74 Arg2:T54	
+R29	has_phenotype Arg1:T74 Arg2:T55	
+T75	corrected_disease_or_phenotypic_feature 1848 1864	persistent edema
+R30	has_phenotype Arg1:T74 Arg2:T75	
+R31	has_phenotype Arg1:T59 Arg2:T58	
+R32	has_phenotype Arg1:T59 Arg2:T57	
+R33	has_phenotype Arg1:T59 Arg2:T56	
+R34	has_phenotype Arg1:T60 Arg2:T61	
+R35	has_phenotype Arg1:T60 Arg2:T62	
+R36	has_phenotype Arg1:T60 Arg2:T63	
+R37	has_phenotype Arg1:T60 Arg2:T64	

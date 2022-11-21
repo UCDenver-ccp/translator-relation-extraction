@@ -109,3 +109,4 @@ T87	corrected_chemical 1970 2046	nonestrogenic steroidal inhibitor of 17?-hydrox
 T88	corrected_disease_or_phenotypic_feature 2058 2090	estrogen-dependent breast cancer
 R22	causes_or_contributes_to Arg1:T65 Arg2:T88	
 R23	treats Arg1:T87 Arg2:T88	
+T89	DONE 2677 2681	DONE

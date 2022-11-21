@@ -63,7 +63,7 @@ R1	has_phenotype Arg1:T61 Arg2:T7
 R2	has_phenotype Arg1:T61 Arg2:T8	
 T62	missed_disease_or_phenotypic_feature 704 722	spontaneous tumors
 T63	missed_disease_or_phenotypic_feature 727 756	burden of transplanted tumors
-T64	corrected_disease_or_phenotypic_feature 1375 1400	malignant Spiegler tumors
+T64	corrected_disease_or_phenotypic_feature 1385 1400	Spiegler tumors
 R3	has_phenotype Arg1:T64 Arg2:T33	
 T65	missed_disease_or_phenotypic_feature 1424 1436	racket-nails
 R4	has_phenotype Arg1:T64 Arg2:T65	
@@ -87,6 +87,6 @@ R17	has_phenotype Arg1:T51 Arg2:T69
 R18	has_phenotype Arg1:T51 Arg2:T53	
 R19	has_phenotype Arg1:T51 Arg2:T54	
 R20	has_phenotype Arg1:T51 Arg2:T55	
-T70	corrected_disease_or_phenotypic_feature 2064 2082	Early onset ataxia
-R21	has_phenotype Arg1:T70 Arg2:T57	
-R22	has_phenotype Arg1:T70 Arg2:T58	
+R21	has_phenotype Arg1:T20 Arg2:T62	
+T71	corrected_disease_or_phenotypic_feature 1178 1197	Gestational obesity
+R22	has_phenotype Arg1:T71 Arg2:T26	

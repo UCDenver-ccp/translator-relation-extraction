@@ -74,10 +74,7 @@ R4	treats Arg1:T20 Arg2:T22
 T70	missed_chemical 644 660;665 666	Salvianolic acid B
 R5	treats Arg1:T70 Arg2:T22	
 T71	missed_disease_or_phenotypic_feature 814 838	tumor-associated antigen
-R6	causes_or_contributes_to Arg1:T23 Arg2:T71	
-R7	causes_or_contributes_to Arg1:T24 Arg2:T71	
 T72	missed_disease_or_phenotypic_feature 977 1002	tumor-associated antigens
-R8	causes_or_contributes_to Arg1:T28 Arg2:T72	
 T73	missed_disease_or_phenotypic_feature 1342 1366	Hormone-dependent tumors
 R9	causes_or_contributes_to Arg1:T39 Arg2:T73	
 R10	causes_or_contributes_to Arg1:T41 Arg2:T42	
@@ -90,3 +87,4 @@ R15	treats Arg1:T57 Arg2:T59
 R16	treats Arg1:T56 Arg2:T58	
 R17	treats Arg1:T56 Arg2:T59	
 T75	DONE 2458 2462	DONE
+R18	treats Arg1:T69 Arg2:T17	

@@ -1,0 +1,131 @@
+T1	gene 0 6	Leptin
+T2	gene 11 20	TGF-beta1
+T3	gene 86 118	mitogen-activated protein kinase
+T4	gene 120 124	MAPK
+T5	gene 127 132	STAT3
+T6	gene 137 141	Smad
+T7	cellular_component 137 141	Smad
+T8	cellular_component 199 208	nucleolar
+T9	cellular_component 217 226	ribosomal
+T10	gene 260 264	MDM2
+T11	gene 275 279	MDM2
+T12	gene 289 292	p53
+T13	gene 329 335	alpha2
+T14	gene 341 349	integrin
+T15	cellular_component 341 349	integrin
+T16	gene 363 371	integrin
+T17	cellular_component 363 371	integrin
+T18	cellular_component 432 440	integrin
+T19	gene 432 440	integrin
+T20	gene 512 520	collagen
+T21	cellular_component 530 540	antibodies
+T22	cellular_component 554 562	integrin
+T23	gene 554 562	integrin
+T24	gene 573 578	FGF23
+T25	cellular_component 603 615	cell surface
+T26	gene 657 669	FGF receptor
+T27	gene 687 693	Klotho
+T28	gene 703 706	BMP
+T29	cellular_component 707 711	SMAD
+T30	gene 707 711	SMAD
+T31	gene 753 757	FMR1
+T32	cellular_component 768 779	cytoplasmic
+T33	cellular_component 825 834	autosomal
+T34	gene 845 849	FXR1
+T35	gene 854 858	FXR2
+T36	gene 860 864	GIT1
+T37	gene 904 908	Arf6
+T38	gene 938 946	cadherin
+T39	cellular_component 947 959	cell surface
+T40	cellular_component 1041 1054	intracellular
+T41	cellular_component 1102 1115	intracellular
+T42	gene 1138 1165	G-protein-coupled receptors
+T43	gene 1167 1172	GPCRs
+T44	cellular_component 1181 1191	antibodies
+T45	cellular_component 1203 1218	plasma membrane
+T46	gene 1240 1245	Mac-1
+T47	gene 1312 1321	coronin-2
+T48	gene 1348 1362	amphiphysin II
+T49	cellular_component 1369 1380	subcellular
+T50	cellular_component 1405 1413	integrin
+T51	gene 1405 1413	integrin
+T52	gene 1475 1485	caveolin-1
+T53	gene 1487 1492	BIGH3
+T54	cellular_component 1520 1540	extracellular matrix
+T55	gene 1556 1564	collagen
+T56	gene 1569 1578	integrins
+T57	cellular_component 1569 1578	integrins
+T58	cellular_component 1586 1598	cell surface
+T59	cellular_component 1601 1609	integrin
+T60	gene 1601 1609	integrin
+T61	gene 1625 1628	p38
+T62	gene 1629 1633	MAPK
+T63	gene 1639 1675	urokinase-type plasminogen activator
+T64	gene 1677 1680	uPA
+T65	gene 1748 1757	integrins
+T66	cellular_component 1748 1757	integrins
+T67	gene 1759 1762	FPR
+T68	gene 1779 1798	lipoxin A4 receptor
+T69	gene 1808 1840	epidermal growth factor receptor
+T70	gene 1842 1846	EGFR
+T71	gene 1895 1900	BMP-1
+T72	gene 1916 1921	cbfa1
+T73	cellular_component 1946 1950	SMAD
+T74	gene 1946 1950	SMAD
+T75	gene 2006 2009	ALP
+T76	gene 2011 2019	collagen
+T77	gene 2023 2034	osteopontin
+T78	gene 2051 2062	osteocalcin
+T79	gene 2153 2158	IL-32
+T80	cellular_component 2172 2185	extracellular
+T81	gene 2196 2205	integrins
+T82	cellular_component 2196 2205	integrins
+T83	cellular_component 2213 2226	intracellular
+T84	gene 2241 2249	paxillin
+T85	gene 2286 2291	IL-32
+T86	gene 2295 2303	integrin
+T87	cellular_component 2295 2303	integrin
+T88	gene 2331 2339	integrin
+T89	cellular_component 2331 2339	integrin
+T90	gene 2386 2392	alpha2
+T91	cellular_component 2393 2401	integrin
+T92	gene 2393 2401	integrin
+T93	gene 2453 2459	alpha2
+T94	cellular_component 2460 2468	integrin
+T95	gene 2460 2468	integrin
+T96	gene 2504 2512	collagen
+T97	gene 2627 2630	Sna
+T98	gene 2642 2646	Hsk1
+T99	gene 2647 2651	Cdc7
+T100	gene 2656 2659	Rad
+T101	gene 2661 2665	Cut5
+T102	cellular_component 2670 2679	chromatin
+T103	gene 2728 2740	Smad protein
+T104	cellular_component 2728 2740	Smad protein
+T105	gene 2801 2809	TGF-beta
+T106	cellular_component 2838 2842	Smad
+T107	gene 2838 2842	Smad
+T108	gene 2883 2887	Smad
+T109	cellular_component 2883 2887	Smad
+T110	gene 2928 2932	Smad
+T111	cellular_component 2928 2932	Smad
+T112	cellular_component 2957 2961	Smad
+T113	gene 2957 2961	Smad
+T114	gene 2979 2982	CBP
+T115	gene 2984 2989	FoxH1
+T116	gene 2994 2998	Lef1
+T117	gene 3017 3026	protein E
+T118	gene 3033 3044	thioredoxin
+T119	gene 3048 3051	Trx
+T120	gene 3054 3061	Rabex-5
+T121	cellular_component 3080 3089	dendritic
+T122	gene 3119 3124	Rab17
+T123	cellular_component 3255 3263	synapses
+T124	gene 3265 3269	DLG3
+T125	gene 3280 3286	NLGN4X
+T126	gene 3288 3292	GDI1
+T127	gene 3321 3326	ZNF41
+T128	gene 3328 3333	ZNF81
+T129	gene 3335 3340	PQBP1
+T130	gene 3355 3360	FTSJ1
+T131	gene 3390 3395	FACL4

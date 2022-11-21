@@ -1,0 +1,142 @@
+T1	cellular_component 48 61	mitochondrial
+T2	gene 89 94	Bcl-2
+T3	gene 140 143	Bax
+T4	gene 153 156	Bak
+T5	gene 192 201	caspase-9
+T6	gene 206 215	caspase-3
+T7	gene 276 281	SF3B1
+T8	gene 283 288	SRSF2
+T9	gene 290 295	ZRSR2
+T10	gene 329 333	TET2
+T11	gene 343 346	IDH
+T12	gene 376 381	ASXL1
+T13	gene 383 387	EZH2
+T14	gene 412 416	TP53
+T15	gene 418 423	RUNX1
+T16	gene 455 459	FLT3
+T17	gene 461 465	JAK2
+T18	gene 503 509	PTPN11
+T19	cellular_component 512 527	cohesin complex
+T20	gene 529 534	STAG2
+T21	gene 542 547	SMC1A
+T22	gene 549 554	RAD21
+T23	gene 574 579	BRCC3
+T24	cellular_component 755 766	cytoplasmic
+T25	gene 796 811	peroxiredoxin 1
+T26	gene 813 823	annexin A2
+T27	cellular_component 837 846	ribosomal
+T28	gene 934 938	DRP1
+T29	gene 940 944	FIS1
+T30	cellular_component 946 957	cytoplasmic
+T31	gene 958 970	cytochrome c
+T32	gene 982 991	caspase-3
+T33	gene 1007 1016	caspase-9
+T34	gene 1035 1039	Ogg1
+T35	cellular_component 1077 1082	Smads
+T36	gene 1077 1082	Smads
+T37	gene 1086 1091	Smads
+T38	cellular_component 1086 1091	Smads
+T39	gene 1109 1112	BMP
+T40	gene 1131 1136	Smad1
+T41	gene 1141 1146	Smad5
+T42	gene 1211 1216	Alpha
+T43	gene 1217 1242	glutathione s-transferase
+T44	gene 1244 1247	GST
+T45	cellular_component 1265 1272	cytosol
+T46	gene 1347 1355	catalase
+T47	gene 1359 1362	p53
+T48	gene 1408 1411	p53
+T49	gene 1412 1417	p53R2
+T50	gene 1418 1426	catalase
+T51	gene 1431 1434	p53
+T52	gene 1435 1439	PIG3
+T53	gene 1440 1448	catalase
+T54	cellular_component 1485 1498	intracellular
+T55	cellular_component 1598 1613	Heterochromatin
+T56	gene 1625 1628	HP1
+T57	cellular_component 1660 1669	chromatin
+T58	cellular_component 1715 1725	chromosome
+T59	gene 1765 1771	CXCL16
+T60	cellular_component 1805 1813	integrin
+T61	gene 1805 1813	integrin
+T62	gene 1841 1844	Akt
+T63	gene 1895 1901	CXCL16
+T64	gene 1942 1948	CXCL16
+T65	gene 1994 1998	Akt1
+T66	gene 2003 2007	Akt2
+T67	gene 2029 2033	AQP5
+T68	gene 2088 2120	epidermal growth factor receptor
+T69	gene 2122 2126	EGFR
+T70	cellular_component 2129 2142	extracellular
+T71	gene 2160 2164	ERK1
+T72	gene 2173 2176	p38
+T73	gene 2177 2209	mitogen-activated protein kinase
+T74	gene 2211 2214	p38
+T75	gene 2215 2219	MAPK
+T76	cellular_component 2267 2274	nucleus
+T77	gene 2287 2290	BMP
+T78	cellular_component 2300 2304	Smad
+T79	gene 2300 2304	Smad
+T80	gene 2322 2347	cyclin-dependent kinase 8
+T81	gene 2351 2355	CDK8
+T82	gene 2363 2389	glycogen synthase kinase-3
+T83	gene 2391 2395	GSK3
+T84	gene 2450 2454	Pin1
+T85	gene 2508 2514	Smurf1
+T86	gene 2530 2534	Smad
+T87	cellular_component 2530 2534	Smad
+T88	gene 2548 2551	EGF
+T89	gene 2566 2572	p90RSK
+T90	gene 2577 2580	Rho
+T91	gene 2581 2584	Rho
+T92	gene 2669 2678	filamin A
+T93	gene 2715 2723	integrin
+T94	cellular_component 2715 2723	integrin
+T95	gene 2769 2772	Rho
+T96	gene 2789 2795	RhoGAP
+T97	cellular_component 2815 2828	intracellular
+T98	gene 2862 2865	Rho
+T99	cellular_component 2945 2954	ribosomal
+T100	gene 2963 2967	Mdm2
+T101	gene 2968 2971	p53
+T102	gene 2981 2988	Insulin
+T103	gene 2999 3004	menin
+T104	cellular_component 3017 3028	cytoplasmic
+T105	gene 3064 3069	FOXO1
+T106	gene 3105 3166	acidic leucine-rich nuclear phosphoprotein 32 family member A
+T107	gene 3168 3184	reticulocalbin-1
+T108	gene 3186 3201	gamma-synuclein
+T109	cellular_component 3203 3214	microtubule
+T110	gene 3248 3268	sialic acid synthase
+T111	gene 3309 3347	far upstream element-binding protein 2
+T112	gene 3352 3360	catalase
+T113	gene 3396 3400	CAT1
+T114	gene 3405 3409	CAT3
+T115	gene 3441 3450	catalases
+T116	gene 3452 3456	CAT2
+T117	gene 3488 3496	catalase
+T118	gene 3502 3506	CAT4
+T119	cellular_component 3526 3535	cytosolic
+T120	gene 3536 3544	catalase
+T121	gene 3546 3560	Growth hormone
+T122	gene 3569 3573	JAK2
+T123	gene 3588 3599	GH receptor
+T124	gene 3625 3636	GH receptor
+T125	cellular_component 3637 3650	intracellular
+T126	cellular_component 3696 3700	SMAD
+T127	gene 3696 3700	SMAD
+T128	cellular_component 3704 3708	SMAD
+T129	gene 3704 3708	SMAD
+T130	gene 3710 3715	SMAD1
+T131	gene 3717 3722	SMAD2
+T132	gene 3724 3729	SMAD3
+T133	gene 3731 3736	SMAD5
+T134	gene 3741 3746	SMAD8
+T135	gene 3878 3882	RPL7
+T136	gene 3884 3889	RPS25
+T137	gene 3891 3896	RPS23
+T138	gene 3902 3907	RPL11
+T139	gene 3990 3994	SCD5
+T140	gene 3996 4001	CSF3R
+T141	gene 4007 4011	FPR1
+T142	cellular_component 4042 4055	cell membrane

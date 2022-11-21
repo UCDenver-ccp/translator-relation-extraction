@@ -1,0 +1,108 @@
+T1	cellular_component 0 13	Intracellular
+T2	gene 31 51	TGF-beta superfamily
+T3	cellular_component 55 59	Smad
+T4	gene 55 59	Smad
+T5	gene 84 90	TRIM65
+T6	gene 103 106	p53
+T7	gene 128 131	p53
+T8	cellular_component 156 166	proteasome
+T9	gene 202 206	TrkA
+T10	gene 217 220	NTR
+T11	gene 255 258	NGF
+T12	gene 260 293	brain-derived neurotrophic factor
+T13	gene 295 299	BDNF
+T14	gene 306 309	NGF
+T15	gene 342 346	BDNF
+T16	cellular_component 365 373	antibody
+T17	gene 394 397	NTR
+T18	gene 409 412	NGF
+T19	gene 436 445	ankyrin-G
+T20	cellular_component 468 476	membrane
+T21	cellular_component 493 501	spectrin
+T22	gene 493 501	spectrin
+T23	cellular_component 502 520	actin cytoskeleton
+T24	gene 538 549	VE-cadherin
+T25	gene 591 602	calcineurin
+T26	cellular_component 591 602	calcineurin
+T27	gene 604 607	p38
+T28	gene 608 640	mitogen-activated protein kinase
+T29	gene 642 646	MAPK
+T30	gene 689 716	G-protein coupled receptors
+T31	gene 718 723	GPCRs
+T32	cellular_component 740 748	membrane
+T33	gene 788 792	Dbp4
+T34	cellular_component 878 887	nucleolar
+T35	gene 897 901	Bfr2
+T36	gene 906 909	Enp
+T37	gene 917 926	p49/STRAP
+T38	gene 951 957	SRFBP1
+T39	cellular_component 977 990	mitochondrial
+T40	cellular_component 1017 1029	cell surface
+T41	gene 1031 1039	TGF-beta
+T42	cellular_component 1049 1067	receptor complexes
+T43	gene 1082 1107	TGF-beta receptor type II
+T44	gene 1155 1159	Alk5
+T45	cellular_component 1208 1212	Smad
+T46	gene 1208 1212	Smad
+T47	gene 1217 1221	MAPK
+T48	gene 1232 1244	EGF receptor
+T49	gene 1319 1331	EGF receptor
+T50	gene 1350 1354	hEGF
+T51	cellular_component 1375 1383	antibody
+T52	gene 1394 1399	MGAT3
+T53	gene 1415 1419	DGAT
+T54	gene 1446 1451	DGAT1
+T55	cellular_component 1480 1491	subcellular
+T56	gene 1527 1532	CISD1
+T57	gene 1583 1588	SIRT1
+T58	gene 1590 1595	ISCA2
+T59	cellular_component 1601 1614	mitochondrial
+T60	gene 1635 1643	PPARGC1A
+T61	gene 1685 1691	PRDM16
+T62	gene 1696 1700	UCP1
+T63	cellular_component 1719 1730	Cytoplasmic
+T64	gene 1757 1767	Smoothened
+T65	gene 1769 1772	Smo
+T66	gene 1777 1803	G-protein-coupled receptor
+T67	gene 1805 1809	GPCR
+T68	gene 1885 1892	Patched
+T69	gene 1894 1897	Ptc
+T70	gene 1921 1930	rhodopsin
+T71	cellular_component 1985 1997	cell-surface
+T72	cellular_component 1998 2006	membrane
+T73	gene 2023 2050	G protein-coupled receptors
+T74	gene 2052 2057	GPCRs
+T75	gene 2109 2113	STAT
+T76	gene 2115 2119	MAPK
+T77	cellular_component 2125 2129	SMAD
+T78	gene 2125 2129	SMAD
+T79	cellular_component 2181 2194	intracellular
+T80	gene 2195 2199	Dab1
+T81	cellular_component 2256 2269	extracellular
+T82	gene 2270 2274	Reln
+T83	gene 2337 2341	IRS1
+T84	gene 2342 2345	Akt
+T85	gene 2346 2351	FoxO1
+T86	gene 2482 2503	glucose 6-phosphatase
+T87	gene 2505 2511	G6Pase
+T88	cellular_component 2514 2525	peroxisomal
+T89	gene 2576 2581	PGC-1
+T90	gene 2588 2603	selenoprotein P
+T91	gene 2639 2644	S100b
+T92	gene 2658 2668	calmodulin
+T93	cellular_component 2701 2712	microtubule
+T94	gene 2724 2727	tau
+T95	gene 2774 2777	tau
+T96	gene 2790 2806	protein kinase C
+T97	cellular_component 2850 2860	antibodies
+T98	gene 2862 2869	insulin
+T99	gene 2897 2902	IRS-1
+T100	gene 2904 2907	Akt
+T101	cellular_component 2920 2929	ribosomal
+T102	gene 2955 2960	FoxO1
+T103	gene 2962 2965	p44
+T104	gene 2969 2973	MAPK
+T105	cellular_component 2992 3002	antibodies
+T106	gene 3006 3009	GST
+T107	gene 3016 3019	GST
+T108	gene 3030 3033	GST

@@ -1,0 +1,126 @@
+T1	phenotypic_feature 0 10	Lung tumor
+T2	disease 0 10	Lung tumor
+T3	disease 55 65	lung tumor
+T4	phenotypic_feature 55 65	lung tumor
+T5	phenotypic_feature 123 130	Obesity
+T6	disease 123 130	Obesity
+T7	disease 131 151	hypertriglyceridemia
+T8	phenotypic_feature 156 169	hyperglycemia
+T9	disease 156 169	hyperglycemia
+T10	phenotypic_feature 240 246	asthma
+T11	disease 251 258	obesity
+T12	phenotypic_feature 251 258	obesity
+T13	phenotypic_feature 260 268	Glaucoma
+T14	disease 260 268	Glaucoma
+T15	disease 339 355	optic neuropathy
+T16	phenotypic_feature 377 394	visual impairment
+T17	disease 377 394	visual impairment
+T18	disease 399 408	blindness
+T19	phenotypic_feature 399 408	blindness
+T20	disease 420 423	ASD
+T21	phenotypic_feature 437 443	autism
+T22	disease 437 443	autism
+T23	phenotypic_feature 445 477	pervasive developmental disorder
+T24	disease 518 526	syndrome
+T25	disease 545 558	heart failure
+T26	phenotypic_feature 545 558	heart failure
+T27	disease 560 573	hydrocephalus
+T28	phenotypic_feature 560 573	hydrocephalus
+T29	phenotypic_feature 595 611	Bronchial asthma
+T30	disease 626 633	obesity
+T31	phenotypic_feature 626 633	obesity
+T32	disease 673 683	meningioma
+T33	disease 709 717	cataract
+T34	phenotypic_feature 709 717	cataract
+T35	phenotypic_feature 722 736	lens opacities
+T36	phenotypic_feature 757 766	blindness
+T37	disease 757 766	blindness
+T38	phenotypic_feature 786 794	cataract
+T39	disease 786 794	cataract
+T40	phenotypic_feature 821 834	optic atrophy
+T41	disease 821 834	optic atrophy
+T42	phenotypic_feature 836 857	peripheral neuropathy
+T43	disease 836 857	peripheral neuropathy
+T44	disease 944 953	arthritis
+T45	phenotypic_feature 944 953	arthritis
+T46	phenotypic_feature 954 964	arthralgia
+T47	disease 1002 1020	glomerulonephritis
+T48	disease 1022 1032	vasculitis
+T49	disease 1034 1056	renal tubular acidosis
+T50	phenotypic_feature 1061 1082	peripheral neuropathy
+T51	disease 1061 1082	peripheral neuropathy
+T52	disease 1129 1142	hyperglycemia
+T53	disease 1144 1151	obesity
+T54	phenotypic_feature 1144 1151	obesity
+T55	disease 1157 1171	hyperlipidemia
+T56	phenotypic_feature 1157 1171	hyperlipidemia
+T57	disease 1313 1330	atopic dermatitis
+T58	disease 1336 1343	obesity
+T59	phenotypic_feature 1336 1343	obesity
+T60	phenotypic_feature 1397 1404	obesity
+T61	disease 1397 1404	obesity
+T62	disease 1431 1437	asthma
+T63	phenotypic_feature 1443 1450	obesity
+T64	disease 1443 1450	obesity
+T65	disease 1471 1478	obesity
+T66	phenotypic_feature 1471 1478	obesity
+T67	disease 1492 1509	atopic dermatitis
+T68	phenotypic_feature 1515 1522	obesity
+T69	disease 1515 1522	obesity
+T70	phenotypic_feature 1562 1569	obesity
+T71	disease 1562 1569	obesity
+T72	disease 1596 1602	asthma
+T73	disease 1608 1615	obesity
+T74	phenotypic_feature 1608 1615	obesity
+T75	phenotypic_feature 1710 1723	hydrocephalus
+T76	disease 1729 1737	dementia
+T77	phenotypic_feature 1739 1752	hydrocephalus
+T78	disease 1739 1752	hydrocephalus
+T79	phenotypic_feature 1758 1766	seizures
+T80	disease 1771 1777	ataxia
+T81	phenotypic_feature 1771 1777	ataxia
+T82	disease 1783 1790	anosmia
+T83	phenotypic_feature 1792 1801	blindness
+T84	disease 1792 1801	blindness
+T85	phenotypic_feature 1803 1811	seizures
+T86	disease 1817 1835	diabetes insipidus
+T87	disease 1847 1854	segment
+T88	disease 1867 1875	cataract
+T89	phenotypic_feature 1867 1875	cataract
+T90	disease 1900 1909	blindness
+T91	phenotypic_feature 1900 1909	blindness
+T92	phenotypic_feature 1914 1931	visual impairment
+T93	disease 1914 1931	visual impairment
+T94	disease 1982 1999	visual impairment
+T95	phenotypic_feature 1982 1999	visual impairment
+T96	disease 2064 2073	blindness
+T97	phenotypic_feature 2064 2073	blindness
+T98	disease 2075 2091	vascular disease
+T99	phenotypic_feature 2097 2106	disabling
+T100	disease 2107 2117	neuropathy
+T101	phenotypic_feature 2128 2135	obesity
+T102	disease 2128 2135	obesity
+T103	disease 2176 2182	autism
+T104	phenotypic_feature 2176 2182	autism
+T105	phenotypic_feature 2254 2262	cataract
+T106	phenotypic_feature 2293 2301	cataract
+T107	disease 2293 2301	cataract
+T108	disease 2333 2341	cataract
+T109	phenotypic_feature 2333 2341	cataract
+T110	disease 2372 2380	cataract
+T111	disease 2416 2424	cataract
+T112	phenotypic_feature 2416 2424	cataract
+T113	disease 2458 2466	cataract
+T114	phenotypic_feature 2458 2466	cataract
+T115	phenotypic_feature 2490 2497	obesity
+T116	disease 2490 2497	obesity
+T117	phenotypic_feature 2516 2523	obesity
+T118	disease 2516 2523	obesity
+T119	phenotypic_feature 2602 2609	obesity
+T120	disease 2602 2609	obesity
+T121	disease 2728 2746	sensory neuropathy
+T122	phenotypic_feature 2728 2746	sensory neuropathy
+T123	disease 2748 2754	ataxia
+T124	phenotypic_feature 2748 2754	ataxia
+T125	phenotypic_feature 2771 2780	blindness
+T126	disease 2771 2780	blindness

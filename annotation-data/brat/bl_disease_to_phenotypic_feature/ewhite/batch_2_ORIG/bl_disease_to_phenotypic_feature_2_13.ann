@@ -1,0 +1,110 @@
+T1	phenotypic_feature 58 85	proportionate short stature
+T2	phenotypic_feature 87 99	microcephaly
+T3	disease 87 99	microcephaly
+T4	phenotypic_feature 101 114	brachydactyly
+T5	disease 127 133	facial
+T6	phenotypic_feature 147 170	intellectual disability
+T7	phenotypic_feature 188 194	ataxia
+T8	disease 188 194	ataxia
+T9	disease 223 229	ataxia
+T10	phenotypic_feature 223 229	ataxia
+T11	phenotypic_feature 232 240	Glaucoma
+T12	disease 232 240	Glaucoma
+T13	disease 251 259	cataract
+T14	phenotypic_feature 251 259	cataract
+T15	disease 306 314	cataract
+T16	phenotypic_feature 306 314	cataract
+T17	disease 315 323	syndrome
+T18	phenotypic_feature 335 343	mutation
+T19	phenotypic_feature 375 387	micrognathia
+T20	disease 389 401	cleft palate
+T21	phenotypic_feature 389 401	cleft palate
+T22	phenotypic_feature 404 416	microcephaly
+T23	disease 404 416	microcephaly
+T24	phenotypic_feature 418 438	ocular hypertelorism
+T25	phenotypic_feature 440 458	mental retardation
+T26	disease 473 485	hearing loss
+T27	disease 630 647	Visual impairment
+T28	phenotypic_feature 630 647	Visual impairment
+T29	disease 652 661	blindness
+T30	phenotypic_feature 652 661	blindness
+T31	disease 665 681	type 2 diabetics
+T32	disease 763 770	obesity
+T33	phenotypic_feature 763 770	obesity
+T34	disease 795 802	obesity
+T35	phenotypic_feature 795 802	obesity
+T36	disease 845 852	obesity
+T37	phenotypic_feature 845 852	obesity
+T38	phenotypic_feature 857 864	obesity
+T39	disease 857 864	obesity
+T40	phenotypic_feature 919 932	hyperglycemia
+T41	disease 919 932	hyperglycemia
+T42	disease 934 950	hyperinsulinemia
+T43	phenotypic_feature 934 950	hyperinsulinemia
+T44	phenotypic_feature 952 966	hyperlipidemia
+T45	disease 952 966	hyperlipidemia
+T46	disease 991 998	obesity
+T47	phenotypic_feature 991 998	obesity
+T48	disease 1044 1059	type 2 diabetes
+T49	disease 1065 1084	fatty liver disease
+T50	disease 1123 1136	hypercalcemia
+T51	phenotypic_feature 1123 1136	hypercalcemia
+T52	phenotypic_feature 1137 1153	hypophosphatemia
+T53	disease 1137 1153	hypophosphatemia
+T54	disease 1205 1213	cataract
+T55	phenotypic_feature 1205 1213	cataract
+T56	phenotypic_feature 1214 1223	blindness
+T57	disease 1214 1223	blindness
+T58	disease 1302 1313	arthropathy
+T59	disease 1332 1344	osteoporosis
+T60	phenotypic_feature 1346 1359	hyperuricemia
+T61	phenotypic_feature 1361 1375	hyperlipidemia
+T62	disease 1361 1375	hyperlipidemia
+T63	disease 1377 1386	psoriasis
+T64	disease 1388 1398	neuropathy
+T65	disease 1400 1416	muscular atrophy
+T66	phenotypic_feature 1400 1416	muscular atrophy
+T67	disease 1478 1494	Timothy syndrome
+T68	disease 1544 1560	long QT syndrome
+T69	disease 1573 1586	heart defects
+T70	phenotypic_feature 1573 1586	heart defects
+T71	disease 1599 1605	facial
+T72	disease 1616 1626	syndactyly
+T73	phenotypic_feature 1616 1626	syndactyly
+T74	phenotypic_feature 1628 1636	seizures
+T75	phenotypic_feature 1663 1669	autism
+T76	disease 1663 1669	autism
+T77	disease 1682 1689	obesity
+T78	phenotypic_feature 1682 1689	obesity
+T79	phenotypic_feature 1739 1746	obesity
+T80	disease 1739 1746	obesity
+T81	disease 1815 1821	ataxia
+T82	phenotypic_feature 1815 1821	ataxia
+T83	disease 1823 1830	anxiety
+T84	disease 1874 1891	visual impairment
+T85	phenotypic_feature 1874 1891	visual impairment
+T86	phenotypic_feature 1910 1930	generalized seizures
+T87	disease 1945 1958	heart failure
+T88	phenotypic_feature 1945 1958	heart failure
+T89	phenotypic_feature 1972 1977	fever
+T90	disease 1996 2004	syndrome
+T91	disease 2070 2083	hypotrichosis
+T92	phenotypic_feature 2070 2083	hypotrichosis
+T93	disease 2099 2111	hypohidrosis
+T94	phenotypic_feature 2099 2111	hypohidrosis
+T95	phenotypic_feature 2115 2125	anhidrosis
+T96	phenotypic_feature 2131 2141	hypodontia
+T97	disease 2131 2141	hypodontia
+T98	disease 2145 2154	anodontia
+T99	disease 2186 2192	ataxia
+T100	phenotypic_feature 2186 2192	ataxia
+T101	disease 2229 2238	cataracts
+T102	phenotypic_feature 2229 2238	cataracts
+T103	disease 2241 2258	Visual impairment
+T104	phenotypic_feature 2241 2258	Visual impairment
+T105	disease 2262 2271	blindness
+T106	phenotypic_feature 2262 2271	blindness
+T107	disease 2375 2381	ataxia
+T108	phenotypic_feature 2375 2381	ataxia
+T109	phenotypic_feature 2383 2391	seizures
+T110	disease 2397 2411	cardiomyopathy

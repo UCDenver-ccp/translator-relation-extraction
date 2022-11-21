@@ -1,0 +1,135 @@
+T1	gene 7 15	integrin
+T2	cellular_component 7 15	integrin
+T3	gene 42 74	mitogen-activated protein kinase
+T4	gene 76 84	p44erk-1
+T5	gene 89 92	p42
+T6	gene 92 97	erk-2
+T7	gene 111 118	ATG16L1
+T8	cellular_component 168 181	intracellular
+T9	gene 190 194	Nod1
+T10	gene 199 203	Nod2
+T11	gene 343 347	ALG9
+T12	gene 349 354	ALG12
+T13	gene 374 377	BRE
+T14	gene 380 384	COD4
+T15	gene 385 389	COG5
+T16	gene 391 396	VPS53
+T17	gene 422 425	THP
+T18	gene 428 432	ELP2
+T19	gene 434 438	STB1
+T20	cellular_component 448 461	cell polarity
+T21	gene 463 467	SEP7
+T22	cellular_component 476 489	mitochondrial
+T23	gene 500 503	YFH
+T24	gene 564 569	Rab3B
+T25	cellular_component 575 586	microtubule
+T26	gene 603 607	Gas8
+T27	cellular_component 626 639	TOR complex 2
+T28	gene 641 646	TORC2
+T29	gene 657 660	Tor
+T30	gene 670 674	Tor1
+T31	cellular_component 704 722	actin cytoskeleton
+T32	gene 731 734	Rho
+T33	gene 736 740	Pkc1
+T34	gene 741 745	MAPK
+T35	gene 802 806	TLR9
+T36	gene 849 853	MAPK
+T37	gene 887 890	Akt
+T38	gene 891 896	Gsk-3
+T39	gene 915 919	TLR9
+T40	cellular_component 962 975	mitochondrial
+T41	gene 976 988	cytochrome c
+T42	cellular_component 994 1003	cytoplasm
+T43	gene 1028 1033	Bcl-2
+T44	gene 1034 1037	Bax
+T45	gene 1083 1092	caspase-3
+T46	cellular_component 1204 1214	antibodies
+T47	gene 1228 1232	Ser5
+T48	gene 1248 1257	L-plastin
+T49	gene 1280 1289	L-plastin
+T50	gene 1290 1294	Ser5
+T51	gene 1314 1319	Lrrk1
+T52	gene 1406 1411	Dyrk3
+T53	gene 1468 1473	NCOA3
+T54	gene 1474 1478	ATF4
+T55	cellular_component 1479 1507	transcription factor complex
+T56	gene 1526 1531	NCOA3
+T57	gene 1566 1571	Dyrk3
+T58	gene 1588 1593	Dyrk3
+T59	gene 1594 1599	NCOA3
+T60	gene 1600 1604	ATF4
+T61	gene 1652 1659	SOSTDC1
+T62	gene 1676 1681	BMP-7
+T63	gene 1711 1716	Smads
+T64	cellular_component 1711 1716	Smads
+T65	gene 1735 1741	Wnt-3a
+T66	cellular_component 1757 1768	cytoplasmic
+T67	gene 1783 1786	p80
+T68	gene 1841 1844	p80
+T69	gene 1879 1882	p60
+T70	gene 1887 1890	p80
+T71	gene 1906 1933	G-protein-coupled receptors
+T72	gene 1935 1940	GPCRs
+T73	cellular_component 1983 1991	membrane
+T74	gene 2022 2042	acetylcholinesterase
+T75	gene 2091 2111	acetylcholinesterase
+T76	gene 2119 2139	acetylcholinesterase
+T77	cellular_component 2140 2148	antibody
+T78	gene 2186 2203	collagen receptor
+T79	gene 2204 2216	glycoprotein
+T80	gene 2267 2284	thrombin receptor
+T81	gene 2285 2290	PAR-1
+T82	gene 2314 2322	integrin
+T83	cellular_component 2314 2322	integrin
+T84	gene 2350 2354	P2Y1
+T85	gene 2356 2359	BMP
+T86	gene 2360 2365	Smad1
+T87	gene 2402 2405	BMP
+T88	gene 2443 2448	Smads
+T89	cellular_component 2443 2448	Smads
+T90	gene 2483 2488	Smad1
+T91	gene 2521 2524	BMP
+T92	cellular_component 2551 2566	plasma membrane
+T93	cellular_component 2583 2591	membrane
+T94	cellular_component 2625 2641	filaments, actin
+T95	gene 2659 2667	spectrin
+T96	cellular_component 2659 2667	spectrin
+T97	gene 2669 2677	vinculin
+T98	cellular_component 2750 2757	nucleus
+T99	cellular_component 2765 2769	Smad
+T100	gene 2765 2769	Smad
+T101	gene 2805 2810	Smad7
+T102	cellular_component 2826 2830	SMAD
+T103	gene 2826 2830	SMAD
+T104	gene 2910 2914	ALK1
+T105	gene 2919 2923	ALK5
+T106	gene 2939 2947	TGF-beta
+T107	cellular_component 2975 2988	intracellular
+T108	gene 2999 3004	Smad1
+T109	gene 3021 3025	ALK5
+T110	gene 3043 3052	TGF-beta1
+T111	gene 3080 3085	Smad3
+T112	cellular_component 3136 3144	integrin
+T113	gene 3136 3144	integrin
+T114	gene 3145 3162	collagen receptor
+T115	gene 3169 3174	ITGA1
+T116	gene 3180 3185	ITGA2
+T117	gene 3227 3231	Myh6
+T118	gene 3233 3239	Mybpc3
+T119	gene 3244 3247	Tnn
+T120	gene 3275 3279	Gja1
+T121	gene 3284 3288	Gja4
+T122	cellular_component 3291 3304	intracellular
+T123	gene 3323 3329	Atp2a1
+T124	gene 3334 3338	Ryr2
+T125	gene 3366 3372	Atp1a2
+T126	gene 3377 3383	Atp1b1
+T127	gene 3417 3422	Kcnj2
+T128	gene 3427 3432	Kcnj8
+T129	gene 3495 3499	Myh7
+T130	gene 3589 3592	p37
+T131	gene 3625 3657	epidermal growth factor receptor
+T132	gene 3659 3663	EGFR
+T133	cellular_component 3669 3682	extracellular
+T134	gene 3727 3753	matrix metalloproteinase-2
+T135	gene 3755 3760	MMP-2

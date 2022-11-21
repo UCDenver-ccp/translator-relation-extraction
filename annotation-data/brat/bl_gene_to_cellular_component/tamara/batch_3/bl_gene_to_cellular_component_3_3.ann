@@ -1,0 +1,135 @@
+T1	cellular_component 26 38	cell-surface
+T2	gene 48 52	BRI1
+T3	gene 58 84	glycogen synthase kinase-3
+T4	gene 97 101	BIN2
+T5	gene 148 152	BZR1
+T6	gene 157 161	BZR2
+T7	gene 162 166	BES1
+T8	gene 210 242	mitogen-activated protein kinase
+T9	gene 244 248	MAPK
+T10	gene 261 264	EGF
+T11	gene 269 274	FGF-2
+T12	gene 347 351	Gal4
+T13	gene 364 368	Elk1
+T14	cellular_component 451 464	extracellular
+T15	gene 493 496	p38
+T16	gene 497 501	MAPK
+T17	gene 543 555	EGF receptor
+T18	cellular_component 579 595	receptor complex
+T19	gene 607 610	Shc
+T20	gene 612 616	Grb2
+T21	gene 631 643	EGF receptor
+T22	gene 682 690	integrin
+T23	cellular_component 682 690	integrin
+T24	gene 700 706	alpha2
+T25	gene 745 755	N-cadherin
+T26	cellular_component 760 768	lysosome
+T27	cellular_component 780 788	membrane
+T28	gene 799 805	LAMP-1
+T29	gene 810 816	LAMP-2
+T30	gene 842 845	BMP
+T31	gene 871 875	SMAD
+T32	cellular_component 871 875	SMAD
+T33	gene 880 883	p38
+T34	gene 884 916	mitogen-activated protein kinase
+T35	gene 918 922	MAPK
+T36	gene 950 954	BMP4
+T37	gene 977 980	BMP
+T38	gene 1022 1025	Spo
+T39	gene 1032 1036	Sma1
+T40	cellular_component 1053 1061	membrane
+T41	gene 1083 1086	Spo
+T42	gene 1107 1111	Sma1
+T43	cellular_component 1152 1160	membrane
+T44	gene 1185 1189	MOB2
+T45	cellular_component 1200 1213	Intracellular
+T46	gene 1284 1287	Bax
+T47	gene 1289 1294	Bcl-2
+T48	gene 1296 1308	cytochrome c
+T49	gene 1313 1322	caspase-3
+T50	gene 1520 1523	p38
+T51	gene 1523 1527	MAPK
+T52	gene 1561 1570	caspase-3
+T53	gene 1589 1592	p38
+T54	gene 1592 1596	MAPK
+T55	gene 1601 1610	caspase-3
+T56	cellular_component 1616 1623	cytosol
+T57	cellular_component 1627 1634	nucleus
+T58	gene 1653 1656	p38
+T59	gene 1656 1660	MAPK
+T60	gene 1661 1678	caspase-3 complex
+T61	gene 1698 1703	NRG-1
+T62	gene 1714 1717	p42
+T63	gene 1718 1721	p44
+T64	gene 1722 1754	mitogen-activated protein kinase
+T65	gene 1756 1760	MAPK
+T66	gene 1763 1800	extracellular signal-regulated kinase
+T67	gene 1809 1813	ERK1
+T68	cellular_component 1819 1828	ribosomal
+T69	cellular_component 1855 1864	ribosomal
+T70	gene 1917 1934	MAPK/ERK kinase-1
+T71	gene 2020 2025	Smads
+T72	cellular_component 2020 2025	Smads
+T73	gene 2035 2040	Smad3
+T74	gene 2054 2059	Smad1
+T75	gene 2079 2084	Smad2
+T76	gene 2116 2121	Smad4
+T77	gene 2123 2127	PLD2
+T78	cellular_component 2156 2169	cell membrane
+T79	gene 2175 2179	JAK3
+T80	gene 2199 2202	Tyr
+T81	gene 2206 2209	Tyr
+T82	cellular_component 2276 2285	integrins
+T83	gene 2276 2285	integrins
+T84	gene 2359 2366	nephrin
+T85	gene 2464 2467	GST
+T86	gene 2468 2475	nephrin
+T87	cellular_component 2476 2487	cytoplasmic
+T88	gene 2529 2533	Ro52
+T89	gene 2534 2540	TRIM21
+T90	cellular_component 2541 2551	antibodies
+T91	gene 2574 2578	Ro52
+T92	gene 2579 2585	TRIM21
+T93	cellular_component 2586 2596	antibodies
+T94	cellular_component 2632 2642	antibodies
+T95	gene 2683 2687	Ro52
+T96	gene 2688 2694	TRIM21
+T97	cellular_component 2695 2705	antibodies
+T98	gene 2764 2767	Ste
+T99	gene 2846 2878	mitogen-activated protein kinase
+T100	gene 2880 2884	MAPK
+T101	gene 2905 2910	Ste11
+T102	gene 2912 2916	MAPK
+T103	gene 2933 2937	Ste7
+T104	gene 2939 2943	MAPK
+T105	gene 2957 2961	Fus3
+T106	gene 2963 2967	MAPK
+T107	cellular_component 2976 2991	plasma membrane
+T108	gene 3010 3015	Ste20
+T109	gene 3032 3035	EGF
+T110	cellular_component 3127 3135	antibody
+T111	gene 3139 3151	EGF receptor
+T112	gene 3155 3176	galactosyltransferase
+T113	gene 3194 3211	alpha-lactalbumin
+T114	cellular_component 3213 3219	Nuclei
+T115	cellular_component 3228 3244	inclusion bodies
+T116	gene 3258 3262	MDM2
+T117	gene 3265 3268	p21
+T118	gene 3270 3274	WAF1
+T119	gene 3318 3322	MDM2
+T120	gene 3325 3328	p21
+T121	gene 3329 3333	WAF1
+T122	gene 3381 3386	TFDP3
+T123	cellular_component 3387 3395	antibody
+T124	gene 3425 3430	TFDP3
+T125	gene 3451 3456	TFDP1
+T126	cellular_component 3457 3465	antibody
+T127	gene 3487 3492	TFDP1
+T128	gene 3502 3507	TFDP3
+T129	gene 3529 3533	LCAD
+T130	gene 3555 3593	very-long chain acyl-CoA dehydrogenase
+T131	gene 3595 3600	VLCAD
+T132	gene 3606 3641	medium chain acyl-CoA dehydrogenase
+T133	gene 3643 3647	MCAD
+T134	cellular_component 3654 3667	mitochondrial
+T135	gene 3749 3753	LCAD

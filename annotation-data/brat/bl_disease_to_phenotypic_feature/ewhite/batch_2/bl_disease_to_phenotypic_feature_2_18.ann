@@ -1,0 +1,117 @@
+T1	phenotypic_feature 12 19	obesity
+T2	disease 12 19	obesity
+T3	phenotypic_feature 34 41	obesity
+T4	disease 34 41	obesity
+T5	phenotypic_feature 82 95	heart failure
+T6	disease 106 120	heart diseases
+T7	disease 122 135	renal failure
+T8	phenotypic_feature 122 135	renal failure
+T9	disease 141 147	anemia
+T10	disease 149 169	Wildervanck syndrome
+T11	disease 186 198	cleft palate
+T12	phenotypic_feature 186 198	cleft palate
+T13	phenotypic_feature 203 216	short stature
+T14	disease 218 234	Retinal ischemia
+T15	disease 256 273	visual impairment
+T16	phenotypic_feature 256 273	visual impairment
+T17	phenotypic_feature 278 287	blindness
+T18	disease 278 287	blindness
+T19	disease 289 310	Bardet-Biedl syndrome
+T20	disease 312 315	BBS
+T21	disease 409 429	retinitis pigmentosa
+T22	phenotypic_feature 431 442	polydactyly
+T23	disease 444 451	obesity
+T24	phenotypic_feature 444 451	obesity
+T25	phenotypic_feature 469 487	mental retardation
+T26	phenotypic_feature 493 508	renal anomalies
+T27	disease 547 559	pancytopenia
+T28	phenotypic_feature 561 566	fever
+T29	disease 575 584	mucositis
+T30	phenotypic_feature 596 617	peripheral neuropathy
+T31	disease 596 617	peripheral neuropathy
+T32	disease 619 632	Leiomyomatous
+T33	phenotypic_feature 633 642	hamartoma
+T34	disease 633 642	hamartoma
+T35	disease 644 674	Oculo-palato-cerebral syndrome
+T36	phenotypic_feature 737 749	microcephaly
+T37	disease 737 749	microcephaly
+T38	phenotypic_feature 751 764	short stature
+T39	phenotypic_feature 808 822	microphthalmia
+T40	disease 858 870	cleft palate
+T41	phenotypic_feature 858 870	cleft palate
+T42	phenotypic_feature 918 934	cerebral atrophy
+T43	phenotypic_feature 1001 1019	mental retardation
+T44	phenotypic_feature 1021 1029	seizures
+T45	phenotypic_feature 1049 1062	hyperactivity
+T46	disease 1067 1075	autistic
+T47	disease 1087 1099	hearing loss
+T48	phenotypic_feature 1101 1119	growth retardation
+T49	disease 1121 1133	microcephaly
+T50	phenotypic_feature 1121 1133	microcephaly
+T51	disease 1170 1178	cataract
+T52	phenotypic_feature 1170 1178	cataract
+T53	disease 1187 1196	blindness
+T54	phenotypic_feature 1187 1196	blindness
+T55	phenotypic_feature 1201 1218	visual impairment
+T56	disease 1201 1218	visual impairment
+T57	phenotypic_feature 1303 1311	cataract
+T58	disease 1303 1311	cataract
+T59	disease 1335 1343	cataract
+T60	phenotypic_feature 1335 1343	cataract
+T61	phenotypic_feature 1362 1370	cataract
+T62	disease 1362 1370	cataract
+T63	phenotypic_feature 1385 1393	cataract
+T64	disease 1385 1393	cataract
+T65	disease 1459 1492	Hypohidrotic ectodermal dysplasia
+T66	disease 1494 1497	HED
+T67	phenotypic_feature 1536 1549	hypotrichosis
+T68	disease 1536 1549	hypotrichosis
+T69	disease 1551 1563	hypohidrosis
+T70	phenotypic_feature 1551 1563	hypohidrosis
+T71	phenotypic_feature 1568 1578	hypodontia
+T72	disease 1568 1578	hypodontia
+T73	phenotypic_feature 1642 1651	hamartoma
+T74	disease 1642 1651	hamartoma
+T75	phenotypic_feature 1667 1685	growth retardation
+T76	phenotypic_feature 1706 1721	congenital deaf
+T77	disease 1722 1731	blindness
+T78	phenotypic_feature 1722 1731	blindness
+T79	phenotypic_feature 1753 1771	movement disorders
+T80	disease 1753 1771	movement disorders
+T81	disease 1788 1810	mitochondrial diseases
+T82	disease 1821 1827	ataxia
+T83	phenotypic_feature 1821 1827	ataxia
+T84	disease 1843 1862	myoclonus, dystonia
+T85	phenotypic_feature 1881 1891	spasticity
+T86	disease 1919 1941	restless legs syndrome
+T87	phenotypic_feature 1958 1967	hamartoma
+T88	disease 1958 1967	hamartoma
+T89	phenotypic_feature 1983 1997	hypertrichosis
+T90	disease 1983 1997	hypertrichosis
+T91	phenotypic_feature 2049 2056	sarcoma
+T92	disease 2049 2056	sarcoma
+T93	phenotypic_feature 2067 2075	melanoma
+T94	disease 2067 2075	melanoma
+T95	disease 2077 2100	squamous cell carcinoma
+T96	phenotypic_feature 2077 2100	squamous cell carcinoma
+T97	disease 2114 2123	carcinoma
+T98	phenotypic_feature 2114 2123	carcinoma
+T99	phenotypic_feature 2157 2169	angiosarcoma
+T100	phenotypic_feature 2171 2195	cutaneous leiomyosarcoma
+T101	disease 2171 2195	cutaneous leiomyosarcoma
+T102	phenotypic_feature 2266 2273	fibroma
+T103	disease 2290 2309	granular cell tumor
+T104	phenotypic_feature 2333 2340	obesity
+T105	disease 2333 2340	obesity
+T106	phenotypic_feature 2342 2366	increased blood pressure
+T107	disease 2368 2382	hyperlipidemia
+T108	disease 2388 2401	hyperglycemia
+T109	phenotypic_feature 2431 2436	edema
+T110	phenotypic_feature 2441 2449	cataract
+T111	disease 2441 2449	cataract
+T112	disease 2466 2500	albright hereditary osteodystrophy
+T113	disease 2502 2515	Hypercalcemia
+T114	phenotypic_feature 2502 2515	Hypercalcemia
+T115	phenotypic_feature 2520 2536	hypophosphatemia
+T116	disease 2520 2536	hypophosphatemia
+T117	disease 2552 2571	renal insufficiency

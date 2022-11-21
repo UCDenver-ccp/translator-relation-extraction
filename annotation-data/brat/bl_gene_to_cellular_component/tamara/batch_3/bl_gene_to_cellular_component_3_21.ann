@@ -1,0 +1,137 @@
+T1	cellular_component 18 27	cell wall
+T2	cellular_component 60 72	cell surface
+T3	gene 82 85	Slg
+T4	gene 88 92	Wsc1
+T5	gene 102 106	Mid2
+T6	gene 117 149	mitogen-activated protein kinase
+T7	gene 151 155	MAPK
+T8	gene 157 160	Slt
+T9	gene 163 167	Mpk1
+T10	gene 361 364	p38
+T11	gene 365 397	mitogen-activated protein kinase
+T12	gene 402 448	mitogen-activated protein kinase phosphatase-1
+T13	cellular_component 475 488	extracellular
+T14	gene 555 559	HIRA
+T15	gene 561 565	UBN1
+T16	gene 571 577	CABIN1
+T17	gene 597 604	histone
+T18	gene 642 649	histone
+T19	cellular_component 668 677	chromatin
+T20	cellular_component 749 762	late endosome
+T21	gene 784 789	Rab-1
+T22	gene 795 800	Rab-7
+T23	cellular_component 819 832	late endosome
+T24	gene 841 847	LIMPII
+T25	cellular_component 858 869	lipid rafts
+T26	cellular_component 893 901	endosome
+T27	gene 929 933	NEK2
+T28	gene 935 939	NEK6
+T29	gene 941 945	NEK7
+T30	gene 950 954	NEK9
+T31	cellular_component 994 1005	microtubule
+T32	cellular_component 1012 1027	mitotic spindle
+T33	gene 1037 1041	NEK1
+T34	gene 1043 1048	NEK10
+T35	gene 1053 1058	NEK11
+T36	gene 1108 1117	Fibulin-1
+T37	gene 1136 1143	ADAMTS1
+T38	cellular_component 1152 1172	extracellular matrix
+T39	gene 1225 1228	Rho
+T40	gene 1244 1249	Cdc42
+T41	gene 1251 1255	Rac1
+T42	gene 1260 1263	Rho
+T43	cellular_component 1297 1305	integrin
+T44	gene 1297 1305	integrin
+T45	gene 1344 1352	cadherin
+T46	gene 1388 1392	SLX4
+T47	gene 1431 1436	ERCC4
+T48	gene 1442 1447	ERCC1
+T49	gene 1449 1454	MUS81
+T50	gene 1455 1459	EME1
+T51	gene 1465 1469	SLX1
+T52	gene 1509 1513	MSH2
+T53	gene 1514 1518	MSH3
+T54	cellular_component 1519 1542	mismatch repair complex
+T55	cellular_component 1544 1552	telomere
+T56	gene 1569 1574	TERF2
+T57	gene 1575 1579	TRF2
+T58	gene 1589 1593	RAP1
+T59	gene 1615 1619	PLK1
+T60	gene 1644 1653	protein C
+T61	gene 1676 1680	MAPK
+T62	gene 1706 1711	Hif-1
+T63	gene 1743 1748	Hif-1
+T64	cellular_component 1769 1776	nucleus
+T65	gene 1778 1782	IL-6
+T66	gene 1867 1870	p38
+T67	gene 1871 1903	mitogen-activated protein kinase
+T68	gene 1905 1909	MAPK
+T69	gene 1925 1929	IL-8
+T70	gene 1968 1971	p38
+T71	gene 1973 1977	JNK1
+T72	cellular_component 1984 2007	extracellular-regulated
+T73	gene 2019 2023	MAPK
+T74	cellular_component 2041 2048	nucleus
+T75	gene 2050 2054	LKB1
+T76	gene 2102 2107	Nur77
+T77	gene 2142 2146	AQP4
+T78	gene 2148 2152	AQP4
+T79	cellular_component 2153 2161	antibody
+T80	cellular_component 2180 2188	membrane
+T81	gene 2189 2193	AQP4
+T82	gene 2242 2246	AQP4
+T83	gene 2284 2288	LGR4
+T84	gene 2293 2298	ZNRF3
+T85	gene 2349 2353	LGR4
+T86	gene 2354 2359	ZNRF3
+T87	cellular_component 2373 2381	membrane
+T88	gene 2395 2400	ZNRF3
+T89	gene 2435 2441	OSGIN1
+T90	cellular_component 2455 2468	autophagosome
+T91	cellular_component 2484 2496	autolysosome
+T92	gene 2542 2550	MAP1LC3B
+T93	gene 2556 2562	SQSTM1
+T94	gene 2566 2570	CD63
+T95	cellular_component 2572 2580	endosome
+T96	gene 2593 2598	LAMP1
+T97	cellular_component 2600 2608	lysosome
+T98	gene 2618 2624	Tgfbr2
+T99	gene 2668 2672	Smad
+T100	cellular_component 2668 2672	Smad
+T101	gene 2711 2715	MAPK
+T102	gene 2734 2739	HOXA9
+T103	gene 2745 2750	NUP98
+T104	gene 2751 2756	HOXA9
+T105	gene 2810 2819	Cullin-4A
+T106	cellular_component 2835 2845	proteasome
+T107	gene 2889 2894	Smad1
+T108	cellular_component 2914 2918	Smad
+T109	gene 2914 2918	Smad
+T110	gene 2924 2929	Smad4
+T111	cellular_component 2940 2944	Smad
+T112	gene 2940 2944	Smad
+T113	gene 2970 2973	P19
+T114	gene 2973 2976	CL6
+T115	gene 2976 2982	noggin
+T116	gene 3054 3059	Smad6
+T117	gene 3075 3079	Smad
+T118	cellular_component 3075 3079	Smad
+T119	cellular_component 3147 3151	Smad
+T120	gene 3147 3151	Smad
+T121	gene 3241 3246	ErbB4
+T122	gene 3247 3252	CYT-1
+T123	cellular_component 3285 3298	intracellular
+T124	cellular_component 3299 3307	vesicles
+T125	gene 3339 3344	ErbB4
+T126	gene 3345 3350	CYT-1
+T127	gene 3352 3360	Profilin
+T128	cellular_component 3386 3399	intracellular
+T129	gene 3416 3421	CLIC4
+T130	gene 3425 3429	RhoA
+T131	gene 3430 3435	mDia2
+T132	gene 3472 3476	MAPK
+T133	gene 3478 3488	MAP kinase
+T134	gene 3505 3510	DUSP6
+T135	gene 3511 3515	MKP3
+T136	cellular_component 3522 3531	cytosolic
+T137	gene 3581 3585	ERK1

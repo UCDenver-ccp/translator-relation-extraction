@@ -1,0 +1,130 @@
+T1	gene 0 5	Ezrin
+T2	gene 6 13	radixin
+T3	gene 14 20	moesin
+T4	cellular_component 39 57	actin cytoskeleton
+T5	cellular_component 65 80	plasma membrane
+T6	gene 104 113	integrins
+T7	cellular_component 104 113	integrins
+T8	gene 192 218	fibroblast growth factor-1
+T9	gene 220 248	insulin-like growth factor 1
+T10	gene 250 254	IGF1
+T11	cellular_component 354 362	integrin
+T12	gene 354 362	integrin
+T13	gene 363 367	IGF1
+T14	gene 368 372	IGF1
+T15	gene 396 399	Atm
+T16	gene 404 407	Atr
+T17	cellular_component 474 483	chromatin
+T18	cellular_component 511 521	Antibodies
+T19	gene 534 537	p38
+T20	gene 537 541	MAPK
+T21	gene 599 602	p38
+T22	gene 602 606	MAPK
+T23	gene 650 658	Hepcidin
+T24	gene 736 740	Bmp6
+T25	gene 741 744	Hjv
+T26	cellular_component 745 749	Smad
+T27	gene 745 749	Smad
+T28	gene 788 792	USF2
+T29	gene 822 838	protein kinase C
+T30	gene 840 843	p38
+T31	gene 844 848	MAPK
+T32	cellular_component 854 867	extracellular
+T33	cellular_component 959 974	nerve terminals
+T34	gene 1007 1011	P2X1
+T35	gene 1013 1017	P2X2
+T36	gene 1019 1023	P2X3
+T37	gene 1025 1029	P2X4
+T38	gene 1031 1035	P2X5
+T39	gene 1039 1043	P2X6
+T40	gene 1077 1085	integrin
+T41	cellular_component 1077 1085	integrin
+T42	gene 1102 1111	Nischarin
+T43	gene 1144 1162	chemokine receptor
+T44	gene 1166 1170	CCR5
+T45	gene 1179 1197	chemokine receptor
+T46	gene 1201 1205	CCR3
+T47	cellular_component 1211 1219	membrane
+T48	gene 1283 1288	ErbB2
+T49	gene 1300 1332	epidermal growth factor receptor
+T50	gene 1334 1338	EGFR
+T51	gene 1355 1358	Erk
+T52	cellular_component 1375 1395	extracellular matrix
+T53	gene 1416 1420	KLF9
+T54	cellular_component 1504 1522	actin cytoskeleton
+T55	gene 1524 1529	COTL1
+T56	gene 1531 1536	FSCN1
+T57	gene 1538 1543	FXYD5
+T58	gene 1545 1550	MYO10
+T59	cellular_component 1568 1588	extracellular matrix
+T60	cellular_component 1593 1610	basement membrane
+T61	gene 1628 1634	AMIGO2
+T62	gene 1644 1650	COL4A2
+T63	gene 1652 1657	LAMC2
+T64	gene 1659 1663	NID2
+T65	gene 1677 1682	CLIC4
+T66	gene 1711 1716	BCAR3
+T67	gene 1718 1726	MAPKAPK3
+T68	gene 1763 1767	KLF4
+T69	gene 1769 1774	NR3C1
+T70	gene 1776 1799	glucocorticoid receptor
+T71	gene 1851 1855	BDNF
+T72	cellular_component 1862 1870	membrane
+T73	gene 1912 1917	CXCR4
+T74	gene 1919 1924	PTCH1
+T75	gene 1927 1934	Insulin
+T76	gene 1948 1955	insulin
+T77	cellular_component 1956 1966	antibodies
+T78	gene 1971 1978	insulin
+T79	cellular_component 2093 2097	Smad
+T80	gene 2093 2097	Smad
+T81	gene 2118 2126	TGF-beta
+T82	gene 2140 2144	Smad
+T83	cellular_component 2140 2144	Smad
+T84	gene 2178 2181	BMP
+T85	gene 2196 2200	Smad
+T86	cellular_component 2196 2200	Smad
+T87	gene 2216 2221	BRCA1
+T88	gene 2255 2259	Wee1
+T89	gene 2284 2288	Cdc2
+T90	gene 2289 2297	cyclin B
+T91	gene 2382 2386	Cdc2
+T92	gene 2387 2395	cyclin B
+T93	cellular_component 2410 2419	cytoplasm
+T94	gene 2421 2425	YAP1
+T95	gene 2426 2431	TEAD1
+T96	cellular_component 2468 2481	mitochondrial
+T97	gene 2501 2505	PGC1
+T98	cellular_component 2573 2586	mitochondrial
+T99	gene 2634 2639	Bcl-2
+T100	gene 2666 2669	Bax
+T101	gene 2696 2705	caspase-3
+T102	gene 2707 2715	p44 MAPK
+T103	gene 2716 2755	extracellular signal-regulated kinase 1
+T104	gene 2757 2761	ERK1
+T105	gene 2767 2775	p42 MAPK
+T106	gene 2776 2780	ERK2
+T107	gene 2830 2839	m-calpain
+T108	cellular_component 2830 2839	m-calpain
+T109	cellular_component 2843 2852	cytoplasm
+T110	gene 2890 2899	m-calpain
+T111	cellular_component 2890 2899	m-calpain
+T112	gene 2938 2944	Smurf1
+T113	gene 2966 2969	BMP
+T114	cellular_component 3000 3005	Smads
+T115	gene 3000 3005	Smads
+T116	gene 3006 3011	Smad6
+T117	cellular_component 3061 3084	extracellular regulated
+T118	gene 3110 3113	p38
+T119	gene 3114 3146	mitogen-activated protein kinase
+T120	gene 3148 3151	p38
+T121	gene 3152 3156	MAPK
+T122	gene 3178 3192	Janus kinase 2
+T123	gene 3193 3243	signal transducer and activator of transcription 3
+T124	gene 3245 3249	JAK2
+T125	gene 3250 3255	STAT3
+T126	gene 3284 3288	Wnt4
+T127	cellular_component 3296 3304	membrane
+T128	gene 3321 3325	ZO-1
+T129	gene 3330 3338	occludin
+T130	cellular_component 3342 3357	tight junctions

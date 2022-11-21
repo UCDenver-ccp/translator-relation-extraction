@@ -1,0 +1,130 @@
+T1	gene 33 38	Rufy3
+T2	gene 70 73	Rap
+T3	gene 89 94	Tiam2
+T4	gene 95 99	STEF
+T5	gene 103 115	glycoprotein
+T6	gene 116 119	M6A
+T7	cellular_component 152 156	axon
+T8	cellular_component 169 182	Ndc80 complex
+T9	gene 197 202	Ndc80
+T10	gene 204 208	Hec1
+T11	gene 211 215	Nuf2
+T12	gene 217 222	Spc24
+T13	gene 228 233	Spc25
+T14	cellular_component 262 272	chromosome
+T15	cellular_component 339 352	neurofilament
+T16	gene 365 381	protein kinase C
+T17	gene 383 388	PCSK9
+T18	gene 415 427	LDL receptor
+T19	gene 429 433	LDLR
+T20	cellular_component 450 463	extracellular
+T21	gene 474 478	LDLR
+T22	cellular_component 496 509	intracellular
+T23	gene 557 562	Runx2
+T24	gene 565 570	Smad3
+T25	gene 575 580	Smad4
+T26	cellular_component 603 612	chromatin
+T27	gene 657 662	Runx2
+T28	gene 678 683	Smad3
+T29	gene 696 724	Synaptotagmin-like protein 2
+T30	gene 726 732	Slp2-a
+T31	gene 733 738	Sytl2
+T32	gene 745 750	Rab27
+T33	gene 796 801	Rab27
+T34	cellular_component 810 818	vesicles
+T35	cellular_component 823 833	organelles
+T36	gene 857 862	Rab27
+T37	cellular_component 925 934	chromatin
+T38	gene 964 972	Stathmin
+T39	gene 973 977	Op18
+T40	cellular_component 995 1004	cytosolic
+T41	gene 1005 1040	G protein coupled receptor kinase 2
+T42	gene 1042 1046	GRK2
+T43	gene 1063 1090	G protein coupled receptors
+T44	gene 1092 1097	GPCRs
+T45	cellular_component 1152 1165	Intracellular
+T46	gene 1181 1184	p38
+T47	gene 1185 1189	MAPK
+T48	gene 1196 1200	MAPK
+T49	gene 1276 1284	Integrin
+T50	cellular_component 1276 1284	Integrin
+T51	gene 1285 1290	Mac-1
+T52	gene 1298 1302	CD18
+T53	cellular_component 1331 1339	antibody
+T54	gene 1361 1370	integrins
+T55	cellular_component 1361 1370	integrins
+T56	cellular_component 1378 1390	cell surface
+T57	gene 1399 1403	Cdk5
+T58	gene 1453 1456	p35
+T59	gene 1460 1463	p25
+T60	gene 1465 1468	p35
+T61	gene 1469 1473	Cdk5
+T62	cellular_component 1493 1501	membrane
+T63	cellular_component 1505 1518	cytoskeletons
+T64	gene 1524 1527	p25
+T65	gene 1528 1532	Cdk5
+T66	gene 1573 1582	caspase 3
+T67	gene 1584 1588	CSNK
+T68	cellular_component 1662 1673	microtubule
+T69	gene 1716 1726	optineurin
+T70	gene 1728 1732	PTK2
+T71	gene 1738 1742	PTK2
+T72	gene 1743 1768	protein tyrosine kinase 2
+T73	gene 1770 1776	SQSTM1
+T74	gene 1777 1780	p62
+T75	gene 1798 1804	TARDBP
+T76	gene 1838 1842	TBK1
+T77	gene 1844 1865	TANK binding kinase 1
+T78	gene 1867 1871	ULK1
+T79	gene 1921 1930	ubiquitin
+T80	cellular_component 1931 1941	proteasome
+T81	gene 2004 2014	MAP kinase
+T82	cellular_component 2015 2023	antibody
+T83	gene 2050 2060	MAP kinase
+T84	gene 2090 2110	myelin basic protein
+T85	gene 2112 2115	MBP
+T86	gene 2149 2153	BMP7
+T87	gene 2199 2202	p38
+T88	gene 2203 2207	MAPK
+T89	gene 2219 2223	BMP7
+T90	cellular_component 2224 2232	antibody
+T91	gene 2271 2275	MAPK
+T92	gene 2307 2311	MDM2
+T93	gene 2321 2324	p53
+T94	cellular_component 2359 2368	ribosomal
+T95	gene 2381 2386	Smad7
+T96	cellular_component 2434 2439	Smads
+T97	gene 2434 2439	Smads
+T98	gene 2460 2468	TGF-beta
+T99	cellular_component 2570 2580	antibodies
+T100	cellular_component 2612 2625	mitochondrial
+T101	gene 2671 2676	AKAP1
+T102	gene 2678 2684	GOLPH3
+T103	gene 2686 2693	GOLPH3L
+T104	gene 2695 2699	MCT1
+T105	gene 2709 2714	MRPS7
+T106	gene 2716 2722	MRPS15
+T107	gene 2724 2730	MRPS22
+T108	gene 2732 2736	NRF1
+T109	gene 2738 2742	NRF2
+T110	gene 2744 2748	PGC1
+T111	gene 2766 2771	TIMM9
+T112	gene 2776 2783	TOMM70A
+T113	cellular_component 2907 2915	integrin
+T114	gene 2907 2915	integrin
+T115	gene 2920 2952	epidermal growth factor receptor
+T116	gene 2954 2958	EGFR
+T117	gene 2978 3010	mitogen-activated protein kinase
+T118	gene 3012 3016	MAPK
+T119	gene 3032 3037	ezrin
+T120	gene 3038 3045	radixin
+T121	gene 3046 3052	moesin
+T122	cellular_component 3077 3088	cytoplasmic
+T123	cellular_component 3143 3151	membrane
+T124	cellular_component 3163 3175	cytoskeleton
+T125	cellular_component 3251 3267	replication fork
+T126	gene 3299 3303	Chk1
+T127	gene 3310 3314	MCM4
+T128	gene 3316 3321	MCM10
+T129	gene 3323 3328	Cdc45
+T130	gene 3358 3362	Cdc7

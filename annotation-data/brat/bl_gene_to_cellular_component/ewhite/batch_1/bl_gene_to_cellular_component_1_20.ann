@@ -101,3 +101,32 @@ T100	gene 2710 2715	GLUT4
 T101	gene 2744 2770	Beta 2-adrenergic receptor
 T102	gene 2783 2818	G protein-coupled receptor kinase 2
 T103	cellular_component 2848 2857	ribosomal
+R1	located_in Arg1:T11 Arg2:T10	
+T104	missed_gene 363 376	alpha-actinin
+R2	located_in Arg1:T104 Arg2:T16	
+R3	located_in Arg1:T15 Arg2:T16	
+T105	missed_gene 325 347	actin-binding proteins
+R4	located_in Arg1:T105 Arg2:T16	
+T106	missed_gene 487 499	ion channels
+R5	located_in Arg1:T106 Arg2:T17	
+R6	located_in Arg1:T44 Arg2:T43	
+T107	missed_gene 1155 1158	GIV
+R7	located_in Arg1:T107 Arg2:T43	
+R8	located_in Arg1:T54 Arg2:T53	
+R9	located_in Arg1:T55 Arg2:T53	
+T108	missed_gene 1383 1388	gp120
+R10	located_in Arg1:T108 Arg2:T52	
+R11	located_in Arg1:T61 Arg2:T62	
+R12	located_in Arg1:T60 Arg2:T62	
+T109	corrected_gene 1877 1911	Csk binding protein phosphoprotein
+R13	located_in Arg1:T109 Arg2:T72	
+R14	located_in Arg1:T78 Arg2:T79	
+R15	located_in Arg1:T78 Arg2:T80	
+R16	located_in Arg1:T85 Arg2:T84	
+T110	missed_gene 2365 2368	Hpo
+R17	located_in Arg1:T110 Arg2:T87	
+R18	located_in Arg1:T98 Arg2:T99	
+T111	missed_gene 2858 2868	protein P2
+R19	located_in Arg1:T111 Arg2:T103	
+T112	missed_gene 664 697	EGF family peptide growth factors
+R20	located_in Arg1:T112 Arg2:T26	

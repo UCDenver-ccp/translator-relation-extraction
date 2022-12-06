@@ -104,3 +104,35 @@ T103	gene 2890 2899	caspase-8
 T104	gene 3040 3061	gelsolin-like protein
 T105	cellular_component 3143 3156	extracellular
 T106	gene 3211 3218	tubulin
+T107	missed_gene 30 81	cytoplasmic polyadenylation element-binding protein
+R1	located_in Arg1:T3 Arg2:T4	
+R2	located_in Arg1:T107 Arg2:T4	
+R3	located_in Arg1:T6 Arg2:T7	
+R4	located_in Arg1:T6 Arg2:T8	
+T108	corrected_gene 383 391	p38 MAPK
+R5	located_in Arg1:T108 Arg2:T13	
+R6	located_in Arg1:T32 Arg2:T33	
+R7	located_in Arg1:T34 Arg2:T35	
+R8	located_in Arg1:T38 Arg2:T36	
+R9	located_in Arg1:T59 Arg2:T58	
+T109	missed_gene 1720 1740	ibosomal protein L22
+R10	located_in Arg1:T109 Arg2:T58	
+R11	located_in Arg1:T63 Arg2:T64	
+R12	located_in Arg1:T66 Arg2:T65	
+T110	missed_gene 1983 1989	DIABLO
+R13	located_in Arg1:T110 Arg2:T65	
+T111	missed_gene 2000 2003	Omi
+R14	located_in Arg1:T67 Arg2:T65	
+R15	located_in Arg1:T111 Arg2:T65	
+R16	located_in Arg1:T69 Arg2:T68	
+R17	located_in Arg1:T72 Arg2:T71	
+R18	located_in Arg1:T74 Arg2:T73	
+R19	located_in Arg1:T75 Arg2:T73	
+R20	located_in Arg1:T76 Arg2:T73	
+R21	located_in Arg1:T79 Arg2:T77	
+R22	located_in Arg1:T80 Arg2:T77	
+R23	located_in Arg1:T90 Arg2:T87	
+R24	located_in Arg1:T93 Arg2:T94	
+R25	located_in Arg1:T91 Arg2:T94	
+T112	missed_gene 3157 3165	globin-4
+R26	located_in Arg1:T112 Arg2:T105	

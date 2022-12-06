@@ -89,3 +89,11 @@ T69	corrected_disease_or_phenotypic_feature 2109 2133	myoclonic encephalopathy
 R20	has_phenotype Arg1:T59 Arg2:T69	
 T70	corrected_disease_or_phenotypic_feature 2067 2084	congenital ataxia
 R21	has_phenotype Arg1:T59 Arg2:T70	
+R22	associated_with Arg1:T10 Arg2:T11	
+R23	associated_with Arg1:T29 Arg2:T30	
+R24	associated_with Arg1:T31 Arg2:T32	
+T71	missed_disease_or_phenotypic_feature 1710 1730	ocular abnormalities
+R25	has_phenotype Arg1:T71 Arg2:T47	
+R26	has_phenotype Arg1:T71 Arg2:T48	
+R27	has_phenotype Arg1:T71 Arg2:T49	
+R28	associated_with Arg1:T65 Arg2:T64	

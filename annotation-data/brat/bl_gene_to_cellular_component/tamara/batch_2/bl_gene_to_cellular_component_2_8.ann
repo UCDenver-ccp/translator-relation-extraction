@@ -127,3 +127,20 @@ T126	gene 3050 3057	insulin
 T127	gene 3134 3161	G protein-coupled receptors
 T128	gene 3163 3168	GPCRs
 T129	cellular_component 3262 3275	intracellular
+R1	located_in Arg1:T4 Arg2:T3	
+R3	located_in Arg1:T17 Arg2:T16	
+R4	located_in Arg1:T18 Arg2:T16	
+R5	located_in Arg1:T21 Arg2:T16	
+R6	located_in Arg1:T40 Arg2:T43	
+R7	located_in Arg1:T41 Arg2:T43	
+R8	located_in Arg1:T42 Arg2:T43	
+R9	located_in Arg1:T65 Arg2:T64	
+T130	missed_gene 1574 1601	fatty acid-binding proteins
+R10	located_in Arg1:T130 Arg2:T64	
+T131	missed_gene 1607 1643	3 alpha-hydroxysteroid dehydrogenase
+R11	located_in Arg1:T131 Arg2:T64	
+R12	located_in Arg1:T58 Arg2:T59	
+R13	located_in Arg1:T58 Arg2:T60	
+R14	located_in Arg1:T70 Arg2:T71	
+R15	located_in Arg1:T72 Arg2:T73	
+R16	located_in Arg1:T81 Arg2:T85	

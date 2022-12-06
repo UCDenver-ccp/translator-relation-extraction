@@ -121,3 +121,58 @@ T120	cellular_component 3217 3230	extracellular
 T121	gene 3264 3271	histone
 T122	gene 3310 3317	histone
 T123	cellular_component 3353 3362	chromatin
+T124	missed_gene 197 200	Plf
+T125	missed_gene 202 207	Pthlh
+T126	missed_gene 228 234	Wnt10a
+R7	located_in Arg1:T27 Arg2:T26	
+R8	located_in Arg1:T28 Arg2:T26	
+R9	located_in Arg1:T30 Arg2:T32	
+R10	located_in Arg1:T44 Arg2:T43	
+T127	missed_cellular_component 858 869	kinetochore
+R11	located_in Arg1:T42 Arg2:T127	
+R12	located_in Arg1:T45 Arg2:T46	
+T128	corrected_gene 1096 1115	estrogen receptor-?
+R13	located_in Arg1:T128 Arg2:T52	
+T129	missed_cellular_component 1158 1165	nuclear
+R14	located_in Arg1:T53 Arg2:T129	
+T130	missed_gene 1535 1542	p21 Ras
+R15	located_in Arg1:T130 Arg2:T66	
+R16	located_in Arg1:T130 Arg2:T67	
+T131	corrected_gene 1739 1752	Ndc80 complex
+T132	corrected_cellular_component 1768 1785	outer kinetochore
+R17	located_in Arg1:T131 Arg2:T132	
+R18	located_in Arg1:T75 Arg2:T132	
+R19	located_in Arg1:T76 Arg2:T132	
+R20	located_in Arg1:T77 Arg2:T132	
+R21	located_in Arg1:T78 Arg2:T132	
+R22	located_in Arg1:T79 Arg2:T132	
+R23	located_in Arg1:T82 Arg2:T81	
+R24	located_in Arg1:T83 Arg2:T81	
+R25	located_in Arg1:T83 Arg2:T84	
+R26	located_in Arg1:T82 Arg2:T84	
+R1	located_in Arg1:T98 Arg2:T99	
+R2	located_in Arg1:T100 Arg2:T101	
+T133	missed_gene 2531 2537	septin
+T134	corrected_cellular_component 2538 2550	cytoskeleton
+R3	located_in Arg1:T133 Arg2:T134	
+T135	missed_cellular_component 2558 2566	bud neck
+R4	located_in Arg1:T100 Arg2:T135	
+T136	missed_gene 2813 2833	phospholipase Cgamma
+T137	missed_gene 2851 2854	Raf
+T138	corrected_gene 2909 2922	MAPK kinase-3
+T139	corrected_gene 2909 2921;2923 2924	MAPK kinase- 6
+T140	missed_gene 2780 2798	phospholipase A(2)
+R5	located_in Arg1:T140 Arg2:T105	
+R6	located_in Arg1:T136 Arg2:T104	
+R27	located_in Arg1:T106 Arg2:T104	
+R28	located_in Arg1:T137 Arg2:T104	
+R29	located_in Arg1:T107 Arg2:T104	
+R30	located_in Arg1:T108 Arg2:T104	
+R31	located_in Arg1:T109 Arg2:T104	
+R32	located_in Arg1:T110 Arg2:T104	
+R33	located_in Arg1:T139 Arg2:T104	
+R34	located_in Arg1:T138 Arg2:T104	
+R35	located_in Arg1:T112 Arg2:T104	
+R36	located_in Arg1:T113 Arg2:T104	
+R37	located_in Arg1:T119 Arg2:T120	
+R38	located_in Arg1:T122 Arg2:T123	

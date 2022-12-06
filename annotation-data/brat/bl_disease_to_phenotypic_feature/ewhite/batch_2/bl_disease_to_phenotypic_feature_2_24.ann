@@ -1,99 +1,99 @@
-T1	phenotypic_feature 0 8	Glaucoma
-T2	disease 0 8	Glaucoma
-T3	disease 31 40	blindness
-T4	phenotypic_feature 31 40	blindness
-T5	phenotypic_feature 81 98	hyperphosphatemic
-T6	disease 123 139	ulnar neuropathy
-T7	disease 141 154	Cholesteatoma
-T8	phenotypic_feature 141 154	Cholesteatoma
-T9	disease 210 223	cholesteatoma
-T10	phenotypic_feature 210 223	cholesteatoma
-T11	disease 259 271	brain tumors
-T12	disease 277 280	RCC
-T13	phenotypic_feature 362 367	edema
-T14	phenotypic_feature 391 400	cataracts
-T15	disease 391 400	cataracts
-T16	disease 425 434	blindness
-T17	phenotypic_feature 425 434	blindness
-T18	disease 439 456	visual impairment
-T19	phenotypic_feature 439 456	visual impairment
-T20	disease 503 512	blindness
-T21	phenotypic_feature 503 512	blindness
-T22	disease 577 585	diarrhea
-T23	phenotypic_feature 587 601	abdominal pain
-T24	phenotypic_feature 603 611	vomiting
-T25	phenotypic_feature 662 668	anemia
-T26	disease 662 668	anemia
-T27	disease 670 686	thrombocytopenia
-T28	disease 695 705	malignancy
-T29	disease 707 728	Bardet-Biedl syndrome
-T30	disease 730 733	BBS
-T31	phenotypic_feature 819 830	polydactyly
-T32	phenotypic_feature 832 839	obesity
-T33	disease 832 839	obesity
-T34	phenotypic_feature 841 859	mental retardation
-T35	disease 892 905	renal failure
-T36	phenotypic_feature 892 905	renal failure
-T37	disease 907 919	Xanthomatous
-T38	phenotypic_feature 907 919	Xanthomatous
-T39	disease 938 958	tumors of the eyelid
-T40	phenotypic_feature 1002 1020	mental retardation
-T41	disease 1043 1055	microcephaly
-T42	phenotypic_feature 1043 1055	microcephaly
-T43	phenotypic_feature 1067 1086	hearing abnormality
-T44	disease 1091 1097	facial
-T45	disease 1112 1132	Retinitis pigmentosa
-T46	phenotypic_feature 1134 1140	ataxia
-T47	disease 1134 1140	ataxia
-T48	disease 1146 1167	peripheral neuropathy
-T49	phenotypic_feature 1146 1167	peripheral neuropathy
-T50	disease 1220 1233	hyperglycemia
-T51	phenotypic_feature 1220 1233	hyperglycemia
-T52	disease 1235 1249	hyperlipidemia
-T53	phenotypic_feature 1235 1249	hyperlipidemia
-T54	phenotypic_feature 1265 1272	obesity
-T55	disease 1265 1272	obesity
-T56	phenotypic_feature 1343 1352	hamartoma
-T57	disease 1343 1352	hamartoma
-T58	disease 1376 1389	chondromatous
-T59	phenotypic_feature 1390 1399	hamartoma
-T60	disease 1390 1399	hamartoma
-T61	phenotypic_feature 1423 1433	joint pain
-T62	phenotypic_feature 1435 1443	deafness
-T63	phenotypic_feature 1445 1456	gait ataxia
-T64	disease 1458 1475	visual impairment
-T65	phenotypic_feature 1458 1475	visual impairment
-T66	phenotypic_feature 1512 1519	obesity
-T67	disease 1512 1519	obesity
-T68	phenotypic_feature 1549 1556	obesity
-T69	disease 1549 1556	obesity
-T70	disease 1651 1658	anxiety
-T71	disease 1660 1667	obesity
-T72	phenotypic_feature 1660 1667	obesity
-T73	disease 1669 1687	movement disorders
-T74	phenotypic_feature 1669 1687	movement disorders
-T75	disease 1689 1697	glaucoma
-T76	phenotypic_feature 1689 1697	glaucoma
-T77	disease 1728 1736	chordoma
-T78	phenotypic_feature 1728 1736	chordoma
-T79	disease 1792 1810	islet cell adenoma
-T80	disease 1826 1834	diarrhea
-T81	disease 1836 1847	hypokalemia
-T82	phenotypic_feature 1836 1847	hypokalemia
-T83	phenotypic_feature 1852 1865	hyperglycemia
-T84	disease 1852 1865	hyperglycemia
-T85	disease 1872 1883	4H syndrome
-T86	disease 1902 1912	hypodontia
-T87	phenotypic_feature 1902 1912	hypodontia
-T88	disease 1914 1943	hypogonadotropic hypogonadism
-T89	phenotypic_feature 1914 1943	hypogonadotropic hypogonadism
-T90	disease 1967 1981	leukodystrophy
-T91	disease 1983 2000	Visual impairment
-T92	phenotypic_feature 1983 2000	Visual impairment
-T93	disease 2005 2014	blindness
-T94	phenotypic_feature 2005 2014	blindness
-T95	phenotypic_feature 2078 2099	peripheral neuropathy
-T96	disease 2078 2099	peripheral neuropathy
-T97	disease 2101 2113	hypoglycemia
-T98	phenotypic_feature 2119 2132	renal failure
-T99	disease 2119 2132	renal failure
+T1	disease_or_phenotypic_feature 0 8	Glaucoma
+T2	disease_or_phenotypic_feature 0 8	Glaucoma
+T3	disease_or_phenotypic_feature 31 40	blindness
+T4	disease_or_phenotypic_feature 31 40	blindness
+T5	disease_or_phenotypic_feature 81 98	hyperphosphatemic
+T6	disease_or_phenotypic_feature 123 139	ulnar neuropathy
+T7	disease_or_phenotypic_feature 141 154	Cholesteatoma
+T8	disease_or_phenotypic_feature 141 154	Cholesteatoma
+T9	disease_or_phenotypic_feature 210 223	cholesteatoma
+T10	disease_or_phenotypic_feature 210 223	cholesteatoma
+T11	disease_or_phenotypic_feature 259 271	brain tumors
+T12	disease_or_phenotypic_feature 277 280	RCC
+T13	disease_or_phenotypic_feature 362 367	edema
+T14	disease_or_phenotypic_feature 391 400	cataracts
+T15	disease_or_phenotypic_feature 391 400	cataracts
+T16	disease_or_phenotypic_feature 425 434	blindness
+T17	disease_or_phenotypic_feature 425 434	blindness
+T18	disease_or_phenotypic_feature 439 456	visual impairment
+T19	disease_or_phenotypic_feature 439 456	visual impairment
+T20	disease_or_phenotypic_feature 503 512	blindness
+T21	disease_or_phenotypic_feature 503 512	blindness
+T22	disease_or_phenotypic_feature 577 585	diarrhea
+T23	disease_or_phenotypic_feature 587 601	abdominal pain
+T24	disease_or_phenotypic_feature 603 611	vomiting
+T25	disease_or_phenotypic_feature 662 668	anemia
+T26	disease_or_phenotypic_feature 662 668	anemia
+T27	disease_or_phenotypic_feature 670 686	thrombocytopenia
+T28	disease_or_phenotypic_feature 695 705	malignancy
+T29	disease_or_phenotypic_feature 707 728	Bardet-Biedl syndrome
+T30	disease_or_phenotypic_feature 730 733	BBS
+T31	disease_or_phenotypic_feature 819 830	polydactyly
+T32	disease_or_phenotypic_feature 832 839	obesity
+T33	disease_or_phenotypic_feature 832 839	obesity
+T34	disease_or_phenotypic_feature 841 859	mental retardation
+T35	disease_or_phenotypic_feature 892 905	renal failure
+T36	disease_or_phenotypic_feature 892 905	renal failure
+T37	disease_or_phenotypic_feature 907 919	Xanthomatous
+T38	disease_or_phenotypic_feature 907 919	Xanthomatous
+T39	disease_or_phenotypic_feature 938 958	tumors of the eyelid
+T40	disease_or_phenotypic_feature 1002 1020	mental retardation
+T41	disease_or_phenotypic_feature 1043 1055	microcephaly
+T42	disease_or_phenotypic_feature 1043 1055	microcephaly
+T43	disease_or_phenotypic_feature 1067 1086	hearing abnormality
+T44	disease_or_phenotypic_feature 1091 1097	facial
+T45	disease_or_phenotypic_feature 1112 1132	Retinitis pigmentosa
+T46	disease_or_phenotypic_feature 1134 1140	ataxia
+T47	disease_or_phenotypic_feature 1134 1140	ataxia
+T48	disease_or_phenotypic_feature 1146 1167	peripheral neuropathy
+T49	disease_or_phenotypic_feature 1146 1167	peripheral neuropathy
+T50	disease_or_phenotypic_feature 1220 1233	hyperglycemia
+T51	disease_or_phenotypic_feature 1220 1233	hyperglycemia
+T52	disease_or_phenotypic_feature 1235 1249	hyperlipidemia
+T53	disease_or_phenotypic_feature 1235 1249	hyperlipidemia
+T54	disease_or_phenotypic_feature 1265 1272	obesity
+T55	disease_or_phenotypic_feature 1265 1272	obesity
+T56	disease_or_phenotypic_feature 1343 1352	hamartoma
+T57	disease_or_phenotypic_feature 1343 1352	hamartoma
+T58	disease_or_phenotypic_feature 1376 1389	chondromatous
+T59	disease_or_phenotypic_feature 1390 1399	hamartoma
+T60	disease_or_phenotypic_feature 1390 1399	hamartoma
+T61	disease_or_phenotypic_feature 1423 1433	joint pain
+T62	disease_or_phenotypic_feature 1435 1443	deafness
+T63	disease_or_phenotypic_feature 1445 1456	gait ataxia
+T64	disease_or_phenotypic_feature 1458 1475	visual impairment
+T65	disease_or_phenotypic_feature 1458 1475	visual impairment
+T66	disease_or_phenotypic_feature 1512 1519	obesity
+T67	disease_or_phenotypic_feature 1512 1519	obesity
+T68	disease_or_phenotypic_feature 1549 1556	obesity
+T69	disease_or_phenotypic_feature 1549 1556	obesity
+T70	disease_or_phenotypic_feature 1651 1658	anxiety
+T71	disease_or_phenotypic_feature 1660 1667	obesity
+T72	disease_or_phenotypic_feature 1660 1667	obesity
+T73	disease_or_phenotypic_feature 1669 1687	movement disorders
+T74	disease_or_phenotypic_feature 1669 1687	movement disorders
+T75	disease_or_phenotypic_feature 1689 1697	glaucoma
+T76	disease_or_phenotypic_feature 1689 1697	glaucoma
+T77	disease_or_phenotypic_feature 1728 1736	chordoma
+T78	disease_or_phenotypic_feature 1728 1736	chordoma
+T79	disease_or_phenotypic_feature 1792 1810	islet cell adenoma
+T80	disease_or_phenotypic_feature 1826 1834	diarrhea
+T81	disease_or_phenotypic_feature 1836 1847	hypokalemia
+T82	disease_or_phenotypic_feature 1836 1847	hypokalemia
+T83	disease_or_phenotypic_feature 1852 1865	hyperglycemia
+T84	disease_or_phenotypic_feature 1852 1865	hyperglycemia
+T85	disease_or_phenotypic_feature 1872 1883	4H syndrome
+T86	disease_or_phenotypic_feature 1902 1912	hypodontia
+T87	disease_or_phenotypic_feature 1902 1912	hypodontia
+T88	disease_or_phenotypic_feature 1914 1943	hypogonadotropic hypogonadism
+T89	disease_or_phenotypic_feature 1914 1943	hypogonadotropic hypogonadism
+T90	disease_or_phenotypic_feature 1967 1981	leukodystrophy
+T91	disease_or_phenotypic_feature 1983 2000	Visual impairment
+T92	disease_or_phenotypic_feature 1983 2000	Visual impairment
+T93	disease_or_phenotypic_feature 2005 2014	blindness
+T94	disease_or_phenotypic_feature 2005 2014	blindness
+T95	disease_or_phenotypic_feature 2078 2099	peripheral neuropathy
+T96	disease_or_phenotypic_feature 2078 2099	peripheral neuropathy
+T97	disease_or_phenotypic_feature 2101 2113	hypoglycemia
+T98	disease_or_phenotypic_feature 2119 2132	renal failure
+T99	disease_or_phenotypic_feature 2119 2132	renal failure

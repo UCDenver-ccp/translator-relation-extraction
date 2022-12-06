@@ -122,3 +122,84 @@ T121	gene 3220 3223	p21
 T122	gene 3224 3228	Waf1
 T123	gene 3285 3288	p21
 T124	gene 3289 3293	Waf1
+R1	located_in Arg1:T9 Arg2:T10	
+R2	located_in Arg1:T14 Arg2:T16	
+T125	corrected_gene 373 381	Rab5-GEF
+R3	located_in Arg1:T125 Arg2:T16	
+R4	located_in Arg1:T36 Arg2:T37	
+R5	located_in Arg1:T35 Arg2:T37	
+R6	located_in Arg1:T39 Arg2:T40	
+T126	missed_cellular_component 1250 1255	Golgi
+R7	located_in Arg1:T44 Arg2:T126	
+R8	located_in Arg1:T46 Arg2:T45	
+R9	located_in Arg1:T47 Arg2:T45	
+R10	located_in Arg1:T44 Arg2:T48	
+R11	located_in Arg1:T46 Arg2:T48	
+R12	located_in Arg1:T47 Arg2:T48	
+R13	located_in Arg1:T56 Arg2:T58	
+T127	corrected_gene 1630 1657	calmodulin-binding proteins
+R14	located_in Arg1:T127 Arg2:T58	
+R15	located_in Arg1:T64 Arg2:T65	
+T128	missed_cellular_component 1990 2019	Cul3-ubiquitin ligase complex
+R17	located_in Arg1:T68 Arg2:T128	
+R18	located_in Arg1:T69 Arg2:T128	
+T129	missed_cellular_component 2379 2393	tight junction
+T130	missed_cellular_component 2395 2397	TJ
+T131	missed_cellular_component 2402 2416	zona occludens
+T132	missed_cellular_component 2418 2420	ZO
+R19	located_in Arg1:T87 Arg2:T129	
+R20	located_in Arg1:T87 Arg2:T130	
+R21	located_in Arg1:T87 Arg2:T131	
+R22	located_in Arg1:T87 Arg2:T132	
+R23	located_in Arg1:T88 Arg2:T129	
+R24	located_in Arg1:T88 Arg2:T130	
+R25	located_in Arg1:T88 Arg2:T131	
+R26	located_in Arg1:T88 Arg2:T132	
+R27	located_in Arg1:T89 Arg2:T129	
+R28	located_in Arg1:T89 Arg2:T130	
+R29	located_in Arg1:T89 Arg2:T131	
+R30	located_in Arg1:T89 Arg2:T132	
+R31	located_in Arg1:T90 Arg2:T129	
+R32	located_in Arg1:T90 Arg2:T130	
+R33	located_in Arg1:T90 Arg2:T131	
+R34	located_in Arg1:T90 Arg2:T132	
+R35	located_in Arg1:T91 Arg2:T129	
+R36	located_in Arg1:T91 Arg2:T130	
+R37	located_in Arg1:T91 Arg2:T131	
+R38	located_in Arg1:T91 Arg2:T132	
+T133	missed_gene 2461 2465	ZO-3
+R39	located_in Arg1:T133 Arg2:T129	
+R40	located_in Arg1:T133 Arg2:T130	
+R41	located_in Arg1:T133 Arg2:T131	
+R42	located_in Arg1:T133 Arg2:T132	
+T134	corrected_gene 2480 2521;2530 2537	membrane associated guanylate kinase-like protein
+T135	missed_gene 2523 2528	MAGUK
+R43	located_in Arg1:T134 Arg2:T92	
+R44	located_in Arg1:T135 Arg2:T92	
+R45	located_in Arg1:T87 Arg2:T92	
+R46	located_in Arg1:T88 Arg2:T92	
+R47	located_in Arg1:T89 Arg2:T92	
+R48	located_in Arg1:T90 Arg2:T92	
+R49	located_in Arg1:T91 Arg2:T92	
+R50	located_in Arg1:T133 Arg2:T92	
+R51	located_in Arg1:T87 Arg2:T95	
+R53	located_in Arg1:T88 Arg2:T95	
+R52	located_in Arg1:T89 Arg2:T95	
+R54	located_in Arg1:T90 Arg2:T95	
+R55	located_in Arg1:T91 Arg2:T95	
+R56	located_in Arg1:T133 Arg2:T95	
+R57	located_in Arg1:T134 Arg2:T95	
+R58	located_in Arg1:T135 Arg2:T95	
+R59	located_in Arg1:T97 Arg2:T96	
+R60	located_in Arg1:T98 Arg2:T96	
+R61	located_in Arg1:T99 Arg2:T96	
+R62	located_in Arg1:T104 Arg2:T103	
+R63	located_in Arg1:T105 Arg2:T103	
+R64	located_in Arg1:T106 Arg2:T109	
+T136	corrected_gene 2845 2874	collagen-binding glycoprotein
+R65	located_in Arg1:T136 Arg2:T109	
+R66	located_in Arg1:T110 Arg2:T109	
+R67	located_in Arg1:T111 Arg2:T113	
+R68	located_in Arg1:T111 Arg2:T114	
+R69	located_in Arg1:T111 Arg2:T115	
+R70	located_in Arg1:T119 Arg2:T120	

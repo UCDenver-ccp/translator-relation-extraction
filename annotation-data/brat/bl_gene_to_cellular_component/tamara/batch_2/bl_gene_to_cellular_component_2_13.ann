@@ -113,3 +113,48 @@ T112	cellular_component 3383 3398	plasma membrane
 T113	gene 3417 3429	EGF receptor
 T114	gene 3461 3464	EGF
 T115	gene 3496 3508	EGF receptor
+R1	located_in Arg1:T4 Arg2:T5	
+R2	located_in Arg1:T3 Arg2:T5	
+T116	missed_gene 0 39	Lysosome-associated membrane proteins-1
+T117	missed_gene 0 37;44 46	Lysosome-associated membrane proteins -2
+R3	located_in Arg1:T116 Arg2:T5	
+R4	located_in Arg1:T117 Arg2:T5	
+R8	located_in Arg1:T9 Arg2:T11	
+R9	located_in Arg1:T8 Arg2:T11	
+R10	located_in Arg1:T7 Arg2:T11	
+T118	missed_gene 187 190	ERM
+R12	located_in Arg1:T118 Arg2:T11	
+R13	located_in Arg1:T13 Arg2:T14	
+R14	located_in Arg1:T22 Arg2:T21	
+T119	corrected_gene 494 528	microtubule associated kinase GRK2
+R15	located_in Arg1:T119 Arg2:T21	
+R16	located_in Arg1:T19 Arg2:T20	
+R17	located_in Arg1:T18 Arg2:T20	
+R18	located_in Arg1:T34 Arg2:T33	
+R19	located_in Arg1:T34 Arg2:T32	
+R20	located_in Arg1:T35 Arg2:T33	
+R21	located_in Arg1:T35 Arg2:T32	
+T120	corrected_cellular_component 1137 1153	apical membranes
+T121	corrected_cellular_component 1167 1188	basolateral membranes
+R22	located_in Arg1:T36 Arg2:T120	
+R23	located_in Arg1:T38 Arg2:T121	
+T122	missed_gene 1209 1239	multidrug resistance protein 4
+T123	corrected_cellular_component 1280 1296	apical membranes
+R24	located_in Arg1:T42 Arg2:T123	
+R25	located_in Arg1:T122 Arg2:T123	
+R26	located_in Arg1:T41 Arg2:T123	
+R27	located_in Arg1:T40 Arg2:T123	
+T124	missed_gene 1755 1787	microtubule-associated protein 5
+R28	located_in Arg1:T124 Arg2:T56	
+T125	missed_gene 1792 1828	phosphorylated neurofilament protein
+R29	located_in Arg1:T125 Arg2:T57	
+R30	located_in Arg1:T76 Arg2:T79	
+R31	located_in Arg1:T77 Arg2:T79	
+R32	located_in Arg1:T78 Arg2:T79	
+T126	missed_gene 2298 2301	ERM
+R33	located_in Arg1:T126 Arg2:T79	
+R38	located_in Arg1:T126 Arg2:T81	
+R39	located_in Arg1:T76 Arg2:T81	
+R40	located_in Arg1:T77 Arg2:T81	
+R41	located_in Arg1:T78 Arg2:T81	
+R44	located_in Arg1:T113 Arg2:T112	

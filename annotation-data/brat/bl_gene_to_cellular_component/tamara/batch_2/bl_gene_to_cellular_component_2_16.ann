@@ -114,7 +114,7 @@ T113	cellular_component 3084 3094	antibodies
 T114	cellular_component 3139 3152	intracellular
 T115	gene 3237 3240	p42
 T116	gene 3244 3248	MAPK
-T117	gene 3258 3261	p42
+T117	gene 3258 3261;3265 3269	p42 MAPK
 T118	gene 3265 3269	MAPK
 T119	cellular_component 3278 3285	nucleus
 T120	gene 3327 3330	p42
@@ -122,3 +122,33 @@ T121	gene 3334 3338	MAPK
 T122	gene 3380 3383	p42
 T123	gene 3387 3391	MAPK
 T124	cellular_component 3399 3406	nucleus
+R1	located_in Arg1:T16 Arg2:T17	
+T125	corrected_gene 370 374;376 377	STAT 2
+R2	located_in Arg1:T125 Arg2:T17	
+T126	corrected_gene 692 751	collagen-degrading membrane-type 1 matrix metalloproteinase
+R4	located_in Arg1:T126 Arg2:T33	
+T127	missed_gene 753 760	MT1-MMP
+R5	located_in Arg1:T127 Arg2:T33	
+R6	located_in Arg1:T47 Arg2:T48	
+R7	located_in Arg1:T42 Arg2:T48	
+R8	located_in Arg1:T43 Arg2:T48	
+R9	located_in Arg1:T44 Arg2:T48	
+R10	located_in Arg1:T45 Arg2:T48	
+R11	located_in Arg1:T46 Arg2:T48	
+R12	located_in Arg1:T57 Arg2:T58	
+R13	located_in Arg1:T56 Arg2:T58	
+R14	located_in Arg1:T61 Arg2:T62	
+T128	corrected_gene 1506 1518	p21Cip1/Waf1
+R15	located_in Arg1:T128 Arg2:T67	
+R16	located_in Arg1:T74 Arg2:T73	
+T129	missed_gene 2660 2681	pS6-ribosomal-protein
+T130	missed_gene 2683 2687	pS6K
+R17	located_in Arg1:T129 Arg2:T101	
+R18	located_in Arg1:T130 Arg2:T101	
+T131	corrected_gene 3258 3259;3262 3269	p 44 MAPK
+R19	located_in Arg1:T131 Arg2:T119	
+R20	located_in Arg1:T131 Arg2:T119	
+T132	corrected_gene 3237 3240;3244 3248	p42 MAPK
+R21	located_in Arg1:T132 Arg2:T119	
+T133	corrected_gene 3237 3238;3241 3248	p 44 MAPK
+R22	located_in Arg1:T133 Arg2:T119	

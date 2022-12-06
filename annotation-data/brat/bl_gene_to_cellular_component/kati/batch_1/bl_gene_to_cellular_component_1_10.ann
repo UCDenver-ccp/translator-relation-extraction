@@ -123,3 +123,42 @@ T122	gene 3369 3385	thrombospondin-1
 T123	gene 3396 3422	G protein-coupled receptor
 T124	gene 3424 3428	GPCR
 T125	cellular_component 3475 3484	endosomes
+T126	corrected_gene 4 31	insulin receptor substrates
+T127	missed_gene 33 36	IRS
+R1	located_in Arg1:T126 Arg2:T2	
+R2	located_in Arg1:T127 Arg2:T2	
+T128	corrected_gene 343 348	TGN38
+R3	located_in Arg1:T128 Arg2:T13	
+R4	located_in Arg1:T15 Arg2:T13	
+R5	located_in Arg1:T16 Arg2:T13	
+T129	missed_cellular_component 687 699	cytoskeletal
+R6	located_in Arg1:T25 Arg2:T129	
+T130	missed_gene 730 735	actin
+R7	located_in Arg1:T130 Arg2:T27	
+R8	located_in Arg1:T30 Arg2:T29	
+T131	missed_gene 787 792	actin
+R9	located_in Arg1:T131 Arg2:T28	
+T132	corrected_cellular_component 1167 1188	spectrin cytoskeleton
+R10	located_in Arg1:T42 Arg2:T132	
+T133	missed_gene 1233 1241	Patronin
+R11	located_in Arg1:T133 Arg2:T45	
+R12	located_in Arg1:T46 Arg2:T45	
+R13	located_in Arg1:T47 Arg2:T45	
+R14	located_in Arg1:T48 Arg2:T45	
+T134	corrected_cellular_component 1358 1373	apical membrane
+T135	missed_gene 1287 1296	Shortstop
+R15	located_in Arg1:T135 Arg2:T134	
+T136	missed_gene 1298 1302	Shot
+R16	located_in Arg1:T136 Arg2:T134	
+R17	located_in Arg1:T49 Arg2:T134	
+R18	located_in Arg1:T50 Arg2:T134	
+T137	missed_gene 1335 1338	DST
+R19	located_in Arg1:T137 Arg2:T134	
+T138	missed_gene 1740 1745	actin
+R20	located_in Arg1:T138 Arg2:T64	
+R21	located_in Arg1:T84 Arg2:T83	
+R22	located_in Arg1:T86 Arg2:T87	
+R23	located_in Arg1:T89 Arg2:T90	
+R24	located_in Arg1:T93 Arg2:T92	
+T139	corrected_gene 2616 2641	beta 1 integrin receptors
+R25	located_in Arg1:T139 Arg2:T92	

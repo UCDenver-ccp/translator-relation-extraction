@@ -116,3 +116,47 @@ T115	gene 3108 3112	PDK1
 T116	gene 3114 3124	Calmodulin
 T117	gene 3129 3139	calmodulin
 T118	cellular_component 3164 3171	nucleus
+R1	located_in Arg1:T11 Arg2:T12	
+R2	located_in Arg1:T10 Arg2:T12	
+T119	missed_cellular_component 652 665	intercellular
+R3	located_in Arg1:T24 Arg2:T119	
+R4	located_in Arg1:T25 Arg2:T119	
+R5	located_in Arg1:T30 Arg2:T29	
+T120	missed_gene 899 904	CD133
+R6	located_in Arg1:T120 Arg2:T29	
+R7	located_in Arg1:T31 Arg2:T29	
+R8	located_in Arg1:T32 Arg2:T29	
+T121	missed_gene 947 952	CD147
+R9	located_in Arg1:T121 Arg2:T29	
+R10	located_in Arg1:T33 Arg2:T29	
+R11	located_in Arg1:T35 Arg2:T29	
+T122	missed_gene 981 988	catenin
+R12	located_in Arg1:T122 Arg2:T29	
+T123	missed_gene 990 1017	cadherin-associated protein
+R13	located_in Arg1:T123 Arg2:T29	
+T124	missed_gene 1020 1026	beta 1
+R14	located_in Arg1:T124 Arg2:T29	
+R15	located_in Arg1:T37 Arg2:T29	
+R16	located_in Arg1:T39 Arg2:T38	
+R17	located_in Arg1:T40 Arg2:T38	
+R18	located_in Arg1:T41 Arg2:T38	
+R19	located_in Arg1:T42 Arg2:T38	
+R20	located_in Arg1:T44 Arg2:T43	
+T125	missed_gene 1382 1385	ERM
+R21	located_in Arg1:T49 Arg2:T52	
+R22	located_in Arg1:T50 Arg2:T52	
+R23	located_in Arg1:T51 Arg2:T52	
+R24	located_in Arg1:T125 Arg2:T52	
+R25	located_in Arg1:T49 Arg2:T53	
+R26	located_in Arg1:T50 Arg2:T53	
+R27	located_in Arg1:T51 Arg2:T53	
+R28	located_in Arg1:T125 Arg2:T53	
+R29	located_in Arg1:T72 Arg2:T71	
+R30	located_in Arg1:T82 Arg2:T79	
+R31	located_in Arg1:T83 Arg2:T79	
+R32	located_in Arg1:T84 Arg2:T79	
+T126	missed_gene 2295 2302	Co-Smad
+R33	located_in Arg1:T126 Arg2:T79	
+R34	located_in Arg1:T85 Arg2:T79	
+R35	located_in Arg1:T106 Arg2:T107	
+R36	located_in Arg1:T116 Arg2:T118	

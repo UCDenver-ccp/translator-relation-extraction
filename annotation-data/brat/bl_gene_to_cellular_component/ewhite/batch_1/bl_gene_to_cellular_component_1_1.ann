@@ -132,3 +132,34 @@ T131	gene 3460 3464	MYH1
 T132	gene 3466 3470	TPM2
 T133	gene 3505 3511	KIF20A
 T134	gene 3549 3553	MYH1
+T135	corrected_cellular_component 54 78	macropinosomal membranes
+R1	located_in Arg1:T2 Arg2:T135	
+R2	located_in Arg1:T3 Arg2:T135	
+R3	located_in Arg1:T1 Arg2:T135	
+T136	missed_cellular_component 110 124	macropinosomes
+T137	corrected_cellular_component 187 211	macropinosomal membranes
+R4	located_in Arg1:T7 Arg2:T137	
+R5	located_in Arg1:T8 Arg2:T137	
+R6	located_in Arg1:T6 Arg2:T136	
+R7	located_in Arg1:T12 Arg2:T13	
+R8	located_in Arg1:T19 Arg2:T17	
+T138	missed_cellular_component 317 328	peroxisomal
+R9	located_in Arg1:T16 Arg2:T138	
+R10	located_in Arg1:T21 Arg2:T20	
+R11	located_in Arg1:T21 Arg2:T26	
+R12	located_in Arg1:T22 Arg2:T26	
+R13	located_in Arg1:T23 Arg2:T26	
+R14	located_in Arg1:T24 Arg2:T26	
+R15	located_in Arg1:T25 Arg2:T26	
+R16	located_in Arg1:T56 Arg2:T59	
+R17	located_in Arg1:T58 Arg2:T59	
+T139	missed_gene 1334 1354	Twisted gastrulation
+R18	located_in Arg1:T139 Arg2:T59	
+R19	located_in Arg1:T62 Arg2:T63	
+T140	corrected_gene 1464 1496	Pin2/TRF1-interacting protein X1
+R20	located_in Arg1:T140 Arg2:T63	
+R21	located_in Arg1:T65 Arg2:T64	
+R22	located_in Arg1:T87 Arg2:T88	
+T141	missed_cellular_component 2970 2991	reticulum endoplasmic
+R23	located_in Arg1:T113 Arg2:T141	
+R24	located_in Arg1:T112 Arg2:T141	

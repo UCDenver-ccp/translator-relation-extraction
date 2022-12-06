@@ -111,3 +111,32 @@ T110	gene 3258 3262	KIP1
 T111	gene 3288 3294	cyclin
 T112	gene 3295 3299	CDK6
 T113	cellular_component 3343 3354	cytoplasmic
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T1 Arg2:T3	
+R3	located_in Arg1:T17 Arg2:T18	
+R4	located_in Arg1:T17 Arg2:T19	
+R5	located_in Arg1:T20 Arg2:T22	
+R6	located_in Arg1:T20 Arg2:T23	
+R7	located_in Arg1:T21 Arg2:T22	
+R8	located_in Arg1:T21 Arg2:T23	
+R9	located_in Arg1:T26 Arg2:T25	
+R10	located_in Arg1:T27 Arg2:T25	
+R11	located_in Arg1:T28 Arg2:T25	
+R12	located_in Arg1:T29 Arg2:T25	
+R13	located_in Arg1:T30 Arg2:T25	
+R14	located_in Arg1:T31 Arg2:T25	
+R15	located_in Arg1:T37 Arg2:T36	
+R16	located_in Arg1:T38 Arg2:T36	
+R17	located_in Arg1:T63 Arg2:T60	
+R18	located_in Arg1:T63 Arg2:T61	
+T114	missed_cellular_component 1877 1882	APC/C
+R19	located_in Arg1:T63 Arg2:T114	
+R20	located_in Arg1:T69 Arg2:T68	
+R21	located_in Arg1:T76 Arg2:T78	
+R22	located_in Arg1:T77 Arg2:T78	
+R23	located_in Arg1:T84 Arg2:T83	
+R24	located_in Arg1:T85 Arg2:T83	
+T115	missed_cellular_component 2730 2741	melanosomes
+R25	located_in Arg1:T87 Arg2:T115	
+R26	located_in Arg1:T109 Arg2:T113	
+R27	located_in Arg1:T110 Arg2:T113	

@@ -90,13 +90,13 @@ R17	has_phenotype Arg1:T72 Arg2:T71
 R18	has_phenotype Arg1:T72 Arg2:T24	
 R19	has_phenotype Arg1:T72 Arg2:T23	
 R20	has_phenotype Arg1:T72 Arg2:T22	
-R21	has_phenotype Arg1:T37 Arg2:T36	
-R22	has_phenotype Arg1:T37 Arg2:T35	
-R23	has_phenotype Arg1:T38 Arg2:T36	
-R24	has_phenotype Arg1:T38 Arg2:T35	
+R21	associated_with Arg1:T37 Arg2:T36	
+R22	associated_with Arg1:T37 Arg2:T35	
+R23	associated_with Arg1:T38 Arg2:T36	
+R24	associated_with Arg1:T38 Arg2:T35	
 T73	missed_disease_or_phenotypic_feature 1350 1366	refractive error
-R25	has_phenotype Arg1:T73 Arg2:T36	
-R26	has_phenotype Arg1:T73 Arg2:T35	
+R25	associated_with Arg1:T73 Arg2:T36	
+R26	associated_with Arg1:T73 Arg2:T35	
 T74	missed_disease_or_phenotypic_feature 1826 1834	disorder
 R27	has_phenotype Arg1:T74 Arg2:T53	
 R28	has_phenotype Arg1:T74 Arg2:T54	
@@ -110,3 +110,12 @@ R34	has_phenotype Arg1:T60 Arg2:T61
 R35	has_phenotype Arg1:T60 Arg2:T62	
 R36	has_phenotype Arg1:T60 Arg2:T63	
 R37	has_phenotype Arg1:T60 Arg2:T64	
+T76	missed_disease_or_phenotypic_feature 327 333	tumors
+R38	associated_with Arg1:T14 Arg2:T76	
+T77	corrected_disease_or_phenotypic_feature 365 381	Neonatal obesity
+R39	associated_with Arg1:T77 Arg2:T16	
+R40	associated_with Arg1:T17 Arg2:T18	
+T78	missed_disease_or_phenotypic_feature 1465 1468	HIE
+R41	associated_with Arg1:T78 Arg2:T41	
+R42	associated_with Arg1:T78 Arg2:T40	
+R43	has_phenotype Arg1:T47 Arg2:T48	

@@ -123,3 +123,18 @@ T122	gene 3356 3359	BMP
 T123	gene 3370 3375	Smad2
 T124	gene 3380 3385	Smad3
 T125	gene 3396 3404	TGF-beta
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+T126	corrected_cellular_component 84 92	membrane
+R3	located_in Arg1:T5 Arg2:T126	
+R4	located_in Arg1:T7 Arg2:T6	
+R5	located_in Arg1:T9 Arg2:T8	
+R6	located_in Arg1:T15 Arg2:T13	
+R7	located_in Arg1:T32 Arg2:T31	
+T127	missed_gene 3001 3049	signal transducer and activator of transcription
+R8	located_in Arg1:T127 Arg2:T108	
+R9	located_in Arg1:T109 Arg2:T108	
+R10	located_in Arg1:T110 Arg2:T108	
+R11	located_in Arg1:T111 Arg2:T108	
+R12	located_in Arg1:T113 Arg2:T112	
+R13	located_in Arg1:T115 Arg2:T114	

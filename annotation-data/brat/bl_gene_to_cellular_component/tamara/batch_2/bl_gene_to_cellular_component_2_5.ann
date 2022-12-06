@@ -29,8 +29,8 @@ T28	gene 601 607	Smurf1
 T29	cellular_component 619 623	axon
 T30	cellular_component 652 663	cytoplasmic
 T31	gene 680 690	MAP-kinase
-T32	gene 700 703	p42
-T33	gene 708 711	p44
+T32	gene 680 690;700 703	MAP-kinase p42
+T33	gene 680 690;708 711	MAP-kinase p44
 T34	gene 759 762	EGF
 T35	gene 808 820	EGF receptor
 T36	cellular_component 858 870	cell surface
@@ -114,3 +114,46 @@ T113	cellular_component 2888 2899	cytoplasmic
 T114	gene 2916 2919	Tax
 T115	gene 2956 2959	Tax
 T116	gene 2993 2996	Tax
+R1	located_in Arg1:T7 Arg2:T6	
+R2	located_in Arg1:T8 Arg2:T6	
+T117	missed_cellular_component 644 651	Nuclear
+R3	located_in Arg1:T32 Arg2:T117	
+R4	located_in Arg1:T32 Arg2:T30	
+R5	located_in Arg1:T33 Arg2:T117	
+R6	located_in Arg1:T33 Arg2:T30	
+R7	located_in Arg1:T37 Arg2:T36	
+R8	located_in Arg1:T38 Arg2:T36	
+R9	located_in Arg1:T39 Arg2:T36	
+R10	located_in Arg1:T40 Arg2:T36	
+R11	located_in Arg1:T41 Arg2:T36	
+R12	located_in Arg1:T51 Arg2:T52	
+R13	located_in Arg1:T51 Arg2:T53	
+R14	located_in Arg1:T74 Arg2:T75	
+T118	missed_cellular_component 1846 1855	Cytosolic
+R15	located_in Arg1:T74 Arg2:T118	
+R16	located_in Arg1:T79 Arg2:T78	
+R17	located_in Arg1:T82 Arg2:T81	
+R18	located_in Arg1:T83 Arg2:T81	
+R19	located_in Arg1:T85 Arg2:T84	
+R20	located_in Arg1:T89 Arg2:T86	
+R21	located_in Arg1:T89 Arg2:T87	
+T119	missed_gene 2167 2216	second mitochondrial-derived activator of caspase
+R22	located_in Arg1:T119 Arg2:T87	
+R23	located_in Arg1:T119 Arg2:T86	
+R24	located_in Arg1:T91 Arg2:T90	
+T120	corrected_gene 2400 2408	p38 MAPK
+R25	located_in Arg1:T120 Arg2:T92	
+T121	missed_gene 2433 2470	cAMP response element-binding protein
+R26	located_in Arg1:T121 Arg2:T96	
+R27	located_in Arg1:T97 Arg2:T96	
+T122	missed_gene 2493 2499	Bcl-xL
+R28	located_in Arg1:T122 Arg2:T98	
+R29	located_in Arg1:T100 Arg2:T99	
+R30	located_in Arg1:T101 Arg2:T99	
+T123	missed_gene 2217 2297	direct inhibitor of apoptosis protein-binding protein with low isoelectric point
+T124	missed_gene 2304 2310	DIABLO
+R31	located_in Arg1:T124 Arg2:T86	
+R32	located_in Arg1:T124 Arg2:T87	
+R33	located_in Arg1:T123 Arg2:T86	
+R34	located_in Arg1:T123 Arg2:T87	
+R35	located_in Arg1:T114 Arg2:T113	

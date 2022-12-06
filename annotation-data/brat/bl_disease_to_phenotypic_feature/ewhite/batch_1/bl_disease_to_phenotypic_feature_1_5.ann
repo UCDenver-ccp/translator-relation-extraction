@@ -85,10 +85,11 @@ R13	has_phenotype Arg1:T47 Arg2:T70
 R14	has_phenotype Arg1:T47 Arg2:T71	
 R15	has_phenotype Arg1:T60 Arg2:T61	
 R16	has_phenotype Arg1:T60 Arg2:T63	
-T72	corrected_disease_or_phenotypic_feature 2093 2147	speech impairment especially affecting active language
 T73	corrected_disease_or_phenotypic_feature 2159 2191	extrapyramidal movement disorder
 T74	missed_disease_or_phenotypic_feature 2044 2071	global developmental delays
 R17	has_phenotype Arg1:T60 Arg2:T74	
 R18	has_phenotype Arg1:T60 Arg2:T73	
 R19	has_phenotype Arg1:T60 Arg2:T65	
-R20	has_phenotype Arg1:T60 Arg2:T72	
+T75	corrected_disease_or_phenotypic_feature 1811 1827	myoclonic ataxia
+R21	associated_with Arg1:T53 Arg2:T75	
+R20	has_phenotype Arg1:T60 Arg2:T62	

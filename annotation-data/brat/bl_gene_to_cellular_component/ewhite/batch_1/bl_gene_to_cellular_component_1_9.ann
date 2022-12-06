@@ -118,3 +118,32 @@ T117	gene 3383 3388	HOXB9
 T118	gene 3420 3425	HOXB9
 T119	cellular_component 3431 3437	nuclei
 T120	cellular_component 3443 3452	cytoplasm
+R1	located_in Arg1:T29 Arg2:T30	
+R2	located_in Arg1:T35 Arg2:T36	
+R3	located_in Arg1:T34 Arg2:T36	
+T121	corrected_gene 1261 1309	low density lipoprotein receptor-related protein
+R4	located_in Arg1:T121 Arg2:T43	
+R5	located_in Arg1:T50 Arg2:T49	
+R6	located_in Arg1:T57 Arg2:T58	
+R7	located_in Arg1:T56 Arg2:T58	
+R8	located_in Arg1:T68 Arg2:T69	
+R9	located_in Arg1:T71 Arg2:T72	
+R10	located_in Arg1:T74 Arg2:T73	
+R11	located_in Arg1:T74 Arg2:T76	
+R12	located_in Arg1:T75 Arg2:T76	
+R13	located_in Arg1:T83 Arg2:T82	
+R14	located_in Arg1:T84 Arg2:T82	
+R15	located_in Arg1:T98 Arg2:T97	
+R16	located_in Arg1:T100 Arg2:T97	
+T122	corrected_gene 3000 3018;3024 3025	Toll-like receptor 2
+T123	corrected_gene 3020 3023;3024 3025	TLR 2
+R17	located_in Arg1:T123 Arg2:T97	
+R18	located_in Arg1:T122 Arg2:T97	
+R19	located_in Arg1:T102 Arg2:T101	
+R20	located_in Arg1:T103 Arg2:T101	
+R21	located_in Arg1:T107 Arg2:T101	
+R22	located_in Arg1:T106 Arg2:T101	
+R23	located_in Arg1:T105 Arg2:T101	
+R24	located_in Arg1:T104 Arg2:T101	
+R25	located_in Arg1:T118 Arg2:T119	
+R26	located_in Arg1:T118 Arg2:T120	

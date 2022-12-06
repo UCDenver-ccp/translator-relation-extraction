@@ -138,3 +138,75 @@ T137	gene 3588 3596	Integrin
 T138	cellular_component 3588 3596	Integrin
 T139	gene 3624 3627	FAK
 T140	gene 3636 3641	Cbfa1
+R1	located_in Arg1:T13 Arg2:T12	
+T141	corrected_gene 365 457	Src homology 3-domain growth factor receptor-bound 2-like (endophilin) interacting protein 1
+R2	located_in Arg1:T141 Arg2:T12	
+R3	located_in Arg1:T33 Arg2:T34	
+R4	located_in Arg1:T33 Arg2:T35	
+R5	located_in Arg1:T38 Arg2:T39	
+T142	corrected_gene 1131 1139	Rab11FIP
+R6	located_in Arg1:T142 Arg2:T43	
+R7	located_in Arg1:T47 Arg2:T48	
+R8	located_in Arg1:T46 Arg2:T48	
+R9	located_in Arg1:T45 Arg2:T48	
+R10	located_in Arg1:T44 Arg2:T48	
+R11	located_in Arg1:T49 Arg2:T50	
+R12	located_in Arg1:T51 Arg2:T52	
+R13	located_in Arg1:T62 Arg2:T61	
+T143	missed_gene 2031 2035	NeuN
+R14	located_in Arg1:T143 Arg2:T74	
+T144	missed_gene 2177 2180	ARC
+T145	missed_gene 2202 2205	NFL
+R15	located_in Arg1:T144 Arg2:T74	
+R16	located_in Arg1:T75 Arg2:T74	
+R17	located_in Arg1:T76 Arg2:T74	
+R18	located_in Arg1:T77 Arg2:T74	
+R19	located_in Arg1:T145 Arg2:T74	
+R20	located_in Arg1:T78 Arg2:T74	
+R21	located_in Arg1:T79 Arg2:T74	
+R22	located_in Arg1:T80 Arg2:T74	
+R23	located_in Arg1:T81 Arg2:T74	
+R24	located_in Arg1:T82 Arg2:T74	
+R25	located_in Arg1:T83 Arg2:T74	
+R26	located_in Arg1:T84 Arg2:T74	
+R27	located_in Arg1:T85 Arg2:T74	
+R28	located_in Arg1:T86 Arg2:T74	
+R29	located_in Arg1:T87 Arg2:T74	
+T146	missed_gene 2318 2323	DMNT1
+T147	missed_gene 2325 2331	DNMT3A
+T148	missed_gene 2333 2340	Gadd45a
+T149	missed_gene 2342 2349	Gadd45b
+R30	located_in Arg1:T146 Arg2:T74	
+R31	located_in Arg1:T147 Arg2:T74	
+R32	located_in Arg1:T148 Arg2:T74	
+R33	located_in Arg1:T149 Arg2:T74	
+R34	located_in Arg1:T89 Arg2:T88	
+R35	located_in Arg1:T90 Arg2:T88	
+R36	located_in Arg1:T91 Arg2:T88	
+T150	corrected_gene 2414 2419	c-MYC
+R37	located_in Arg1:T150 Arg2:T88	
+R38	located_in Arg1:T93 Arg2:T88	
+R39	located_in Arg1:T94 Arg2:T88	
+T151	missed_gene 2433 2436	SHH
+R40	located_in Arg1:T151 Arg2:T88	
+R41	located_in Arg1:T95 Arg2:T88	
+R42	located_in Arg1:T89 Arg2:T96	
+R43	located_in Arg1:T90 Arg2:T96	
+R44	located_in Arg1:T91 Arg2:T96	
+R45	located_in Arg1:T150 Arg2:T96	
+R46	located_in Arg1:T93 Arg2:T96	
+R47	located_in Arg1:T94 Arg2:T96	
+R48	located_in Arg1:T151 Arg2:T96	
+R49	located_in Arg1:T95 Arg2:T96	
+R50	located_in Arg1:T101 Arg2:T100	
+R51	located_in Arg1:T102 Arg2:T100	
+R52	located_in Arg1:T105 Arg2:T104	
+R53	located_in Arg1:T106 Arg2:T104	
+R54	located_in Arg1:T107 Arg2:T104	
+R55	located_in Arg1:T121 Arg2:T122	
+R56	located_in Arg1:T120 Arg2:T122	
+R57	located_in Arg1:T119 Arg2:T122	
+R58	located_in Arg1:T118 Arg2:T122	
+R59	located_in Arg1:T117 Arg2:T122	
+R60	located_in Arg1:T116 Arg2:T122	
+R61	located_in Arg1:T115 Arg2:T122	

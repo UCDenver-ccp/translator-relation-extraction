@@ -126,3 +126,38 @@ T125	cellular_component 3155 3164	cytosolic
 T126	cellular_component 3187 3195	membrane
 T127	cellular_component 3218 3227	cell tips
 T128	gene 3233 3237	Scd1
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T4 Arg2:T3	
+T129	missed_gene 248 257	cytokines
+R3	located_in Arg1:T129 Arg2:T13	
+R4	located_in Arg1:T16 Arg2:T17	
+R5	located_in Arg1:T15 Arg2:T17	
+R6	located_in Arg1:T14 Arg2:T17	
+#1	AnnotatorNotes R4	too indirect?
+#2	AnnotatorNotes R5	too indirect?
+R7	located_in Arg1:T28 Arg2:T27	
+T130	missed_cellular_component 763 774	pseudopodia
+T131	corrected_gene 664 670	GPI-80
+R8	located_in Arg1:T131 Arg2:T130	
+T132	corrected_gene 674 745	beta2 integrin associated glycosylphosphatidylinositol-anchored protein
+R9	located_in Arg1:T132 Arg2:T130	
+R10	located_in Arg1:T37 Arg2:T38	
+R11	located_in Arg1:T35 Arg2:T38	
+R12	located_in Arg1:T36 Arg2:T38	
+T133	corrected_gene 1222 1236	beta3-integrin
+R13	located_in Arg1:T133 Arg2:T50	
+T134	corrected_gene 1211 1217;1228 1236	beta1- integrin
+R14	located_in Arg1:T134 Arg2:T50	
+R15	located_in Arg1:T91 Arg2:T92	
+T135	corrected_gene 2183 2208	amyloid precursor protein
+R16	located_in Arg1:T135 Arg2:T89	
+R17	located_in Arg1:T114 Arg2:T115	
+R18	located_in Arg1:T113 Arg2:T115	
+R19	located_in Arg1:T114 Arg2:T116	
+R20	located_in Arg1:T113 Arg2:T116	
+T136	corrected_gene 3125 3129	Gef1
+R21	located_in Arg1:T136 Arg2:T125	
+R22	located_in Arg1:T128 Arg2:T127	
+R23	located_in Arg1:T128 Arg2:T126	
+T137	corrected_gene 3076 3086	Cdc42 GEFs
+R24	located_in Arg1:T137 Arg2:T123	

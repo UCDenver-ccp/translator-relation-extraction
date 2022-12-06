@@ -87,3 +87,31 @@ T86	gene 2110 2113	tau
 T87	gene 2276 2280	ORF1
 T88	cellular_component 2292 2303	cytoplasmic
 T89	cellular_component 2304 2312	granules
+R1	located_in Arg1:T8 Arg2:T9	
+R2	located_in Arg1:T10 Arg2:T11	
+T90	missed_gene 225 228	neu
+R3	located_in Arg1:T90 Arg2:T11	
+R4	located_in Arg1:T17 Arg2:T18	
+R5	located_in Arg1:T16 Arg2:T18	
+R6	located_in Arg1:T30 Arg2:T28	
+T91	missed_gene 1238 1243	CYCD5
+R7	located_in Arg1:T91 Arg2:T52	
+T92	corrected_gene 1127 1134	CYCD2;1
+R8	located_in Arg1:T92 Arg2:T50	
+R9	located_in Arg1:T92 Arg2:T49	
+T93	corrected_gene 1115 1122	CYCB1;3
+R10	located_in Arg1:T93 Arg2:T49	
+R11	located_in Arg1:T93 Arg2:T50	
+R12	located_in Arg1:T56 Arg2:T57	
+R13	located_in Arg1:T54 Arg2:T53	
+T94	corrected_cellular_component 1652 1664	cytoskeleton
+T95	missed_gene 1646 1651	actin
+R14	located_in Arg1:T95 Arg2:T94	
+R15	located_in Arg1:T79 Arg2:T78	
+T96	missed_cellular_component 1859 1861	ER
+R16	located_in Arg1:T75 Arg2:T96	
+R17	located_in Arg1:T76 Arg2:T96	
+R18	located_in Arg1:T77 Arg2:T96	
+T97	corrected_cellular_component 2292 2312	cytoplasmic granules
+T98	corrected_gene 2273 2280	L1 ORF1
+R19	located_in Arg1:T98 Arg2:T97	

@@ -127,3 +127,33 @@ T126	gene 3571 3580	annexin V
 T127	cellular_component 3584 3593	membranes
 T128	gene 3609 3612	GST
 T129	gene 3613 3622	annexin V
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T12 Arg2:T13	
+R3	located_in Arg1:T14 Arg2:T16	
+R4	located_in Arg1:T15 Arg2:T16	
+R5	located_in Arg1:T35 Arg2:T36	
+R6	located_in Arg1:T41 Arg2:T43	
+R7	located_in Arg1:T42 Arg2:T43	
+T130	missed_gene 1185 1189	PTEN
+R8	located_in Arg1:T130 Arg2:T43	
+R9	located_in Arg1:T47 Arg2:T48	
+R10	located_in Arg1:T47 Arg2:T49	
+R11	located_in Arg1:T50 Arg2:T52	
+R12	located_in Arg1:T51 Arg2:T52	
+T131	corrected_gene 1626 1631	Neur2
+R13	located_in Arg1:T131 Arg2:T60	
+R14	located_in Arg1:T77 Arg2:T76	
+R15	located_in Arg1:T78 Arg2:T76	
+R16	located_in Arg1:T80 Arg2:T83	
+R17	located_in Arg1:T80 Arg2:T84	
+R18	located_in Arg1:T81 Arg2:T83	
+R19	located_in Arg1:T81 Arg2:T84	
+R20	located_in Arg1:T82 Arg2:T83	
+R21	located_in Arg1:T82 Arg2:T84	
+R22	located_in Arg1:T86 Arg2:T87	
+R23	located_in Arg1:T85 Arg2:T87	
+R24	located_in Arg1:T101 Arg2:T100	
+R25	located_in Arg1:T117 Arg2:T116	
+T132	missed_gene 3328 3358;3365 3367	microtubule-associated protein 1A
+R26	located_in Arg1:T132 Arg2:T116	
+R27	located_in Arg1:T126 Arg2:T127	

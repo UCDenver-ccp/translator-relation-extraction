@@ -82,7 +82,7 @@ T81	cellular_component 1886 1916	endoplasmic reticulum membrane
 T82	gene 1917 1926	m-calpain
 T83	cellular_component 1917 1926	m-calpain
 T84	gene 1928 1939	calpastatin
-T85	cellular_component 1944 1949	lumen
+T85	cellular_component 1886 1907;1944 1949	endoplasmic reticulum lumen
 T86	cellular_component 1950 1959	m-calpain
 T87	gene 1950 1959	m-calpain
 T88	cellular_component 2002 2007	lumen
@@ -130,3 +130,17 @@ T129	gene 2938 2946	integrin
 T130	cellular_component 2938 2946	integrin
 T131	gene 2975 2983	integrin
 T132	cellular_component 2975 2983	integrin
+T133	missed_cellular_component 73 81	Cellular
+R1	located_in Arg1:T6 Arg2:T133	
+T134	corrected_gene 105 118	receptor Smad
+R2	located_in Arg1:T134 Arg2:T133	
+R3	located_in Arg1:T57 Arg2:T58	
+T135	corrected_gene 1652 1731	phosphoprotein associated with glycosphingolipid-enriched membrane microdomains
+R4	located_in Arg1:T135 Arg2:T74	
+T136	missed_gene 1740 1743	PAG
+R5	located_in Arg1:T136 Arg2:T74	
+R6	located_in Arg1:T82 Arg2:T81	
+R7	located_in Arg1:T84 Arg2:T81	
+R8	located_in Arg1:T87 Arg2:T85	
+T137	missed_cellular_component 1989 1997	membrane
+R9	located_in Arg1:T89 Arg2:T137	

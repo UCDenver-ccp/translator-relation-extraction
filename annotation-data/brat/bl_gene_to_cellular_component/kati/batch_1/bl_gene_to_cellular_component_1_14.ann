@@ -134,3 +134,42 @@ T133	gene 3755 3783	protein disulphide isomerase
 T134	gene 3785 3788	PDI
 T135	cellular_component 3815 3836	endoplasmic reticulum
 T136	gene 3874 3882	calnexin
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+R3	located_in Arg1:T4 Arg2:T1	
+T137	corrected_gene 217 227	Raf kinase
+R4	located_in Arg1:T137 Arg2:T7	
+R5	located_in Arg1:T9 Arg2:T7	
+T138	missed_cellular_component 621 632	kinetochore
+R6	located_in Arg1:T20 Arg2:T138	
+R7	located_in Arg1:T20 Arg2:T23	
+R8	located_in Arg1:T27 Arg2:T26	
+R9	located_in Arg1:T28 Arg2:T26	
+T139	missed_gene 833 852	heat shock proteins
+R10	located_in Arg1:T139 Arg2:T26	
+T140	corrected_gene 1534 1561	E3 ubiquitin-protein ligase
+R11	located_in Arg1:T140 Arg2:T56	
+R12	located_in Arg1:T58 Arg2:T56	
+R13	located_in Arg1:T60 Arg2:T59	
+R14	located_in Arg1:T65 Arg2:T62	
+R15	located_in Arg1:T66 Arg2:T62	
+T141	missed_gene 1774 1790;1796 1804	phosphoinositide 3-kinase
+R16	located_in Arg1:T141 Arg2:T62	
+T142	missed_gene 1792 1794;1796 1804	PI 3-kinase
+R17	located_in Arg1:T142 Arg2:T62	
+R18	located_in Arg1:T84 Arg2:T83	
+R19	located_in Arg1:T85 Arg2:T83	
+R20	located_in Arg1:T86 Arg2:T83	
+R21	located_in Arg1:T87 Arg2:T83	
+R22	located_in Arg1:T88 Arg2:T83	
+R23	located_in Arg1:T89 Arg2:T83	
+R24	located_in Arg1:T109 Arg2:T108	
+R25	located_in Arg1:T127 Arg2:T128	
+T143	missed_gene 3649 3654	HSP70
+R26	located_in Arg1:T143 Arg2:T128	
+R27	located_in Arg1:T129 Arg2:T130	
+T144	missed_cellular_component 3692 3702	ER luminal
+T145	missed_gene 3712 3737	glucose response proteins
+R28	located_in Arg1:T145 Arg2:T144	
+R29	located_in Arg1:T131 Arg2:T144	
+R30	located_in Arg1:T132 Arg2:T144	

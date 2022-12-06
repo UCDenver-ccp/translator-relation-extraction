@@ -141,3 +141,39 @@ T140	gene 3482 3486	Grm5
 T141	gene 3495 3500	Rnps1
 T142	gene 3502 3507	Usp39
 T143	gene 3509 3513	Wbp4
+T144	missed_gene 264 268	FasL
+R1	located_in Arg1:T144 Arg2:T12	
+T145	missed_cellular_component 868 875	nuclear
+R2	located_in Arg1:T37 Arg2:T145	
+R3	located_in Arg1:T38 Arg2:T145	
+R4	located_in Arg1:T39 Arg2:T145	
+R5	located_in Arg1:T41 Arg2:T40	
+T146	missed_cellular_component 965 972	nuclear
+R6	located_in Arg1:T42 Arg2:T146	
+T147	missed_cellular_component 1007 1014	nuclear
+R7	located_in Arg1:T44 Arg2:T147	
+T148	missed_gene 1391 1430	Lysosomal Associated Membrane Protein 1
+R8	located_in Arg1:T148 Arg2:T62	
+R9	located_in Arg1:T148 Arg2:T63	
+R10	located_in Arg1:T78 Arg2:T77	
+R11	located_in Arg1:T81 Arg2:T82	
+R12	located_in Arg1:T98 Arg2:T99	
+R13	located_in Arg1:T97 Arg2:T99	
+R14	located_in Arg1:T96 Arg2:T99	
+R15	located_in Arg1:T95 Arg2:T99	
+R16	located_in Arg1:T94 Arg2:T99	
+R17	located_in Arg1:T93 Arg2:T99	
+T149	missed_cellular_component 2295 2302	nuclear
+R18	located_in Arg1:T93 Arg2:T149	
+R19	located_in Arg1:T94 Arg2:T149	
+R20	located_in Arg1:T112 Arg2:T111	
+R21	located_in Arg1:T113 Arg2:T111	
+T150	corrected_gene 2785 2867	platelet-derived growth factor/vascular endothelial growth factor-related receptor
+R22	located_in Arg1:T150 Arg2:T111	
+R23	located_in Arg1:T115 Arg2:T111	
+T151	missed_gene 2879 2884	Notch
+R24	located_in Arg1:T151 Arg2:T111	
+T152	missed_gene 3078 3114	phosphorylated neurofilament protein
+T153	missed_gene 3116 3120	P-NF
+R25	located_in Arg1:T152 Arg2:T123	
+R26	located_in Arg1:T153 Arg2:T123	

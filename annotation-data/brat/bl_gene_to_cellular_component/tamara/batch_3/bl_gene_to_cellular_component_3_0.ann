@@ -118,3 +118,30 @@ T117	gene 3234 3239	Mcl-1
 T118	gene 3249 3254	Bcl-2
 T119	cellular_component 3313 3324	subcellular
 T120	gene 3356 3361	Stat3
+R1	located_in Arg1:T9 Arg2:T8	
+R2	located_in Arg1:T11 Arg2:T8	
+R3	located_in Arg1:T12 Arg2:T8	
+R4	located_in Arg1:T13 Arg2:T8	
+R5	located_in Arg1:T14 Arg2:T8	
+T121	missed_gene 524 531	calpain
+R6	located_in Arg1:T121 Arg2:T8	
+T122	corrected_gene 1562 1577	peroxiredoxin-5
+R7	located_in Arg1:T122 Arg2:T61	
+R8	located_in Arg1:T60 Arg2:T61	
+R9	located_in Arg1:T67 Arg2:T68	
+R10	located_in Arg1:T69 Arg2:T68	
+R11	located_in Arg1:T70 Arg2:T68	
+R12	located_in Arg1:T83 Arg2:T82	
+T123	corrected_gene 2663 2699	nucleolar calmodulin-binding protein
+R13	located_in Arg1:T123 Arg2:T100	
+R14	located_in Arg1:T98 Arg2:T99	
+R15	located_in Arg1:T104 Arg2:T105	
+R16	located_in Arg1:T112 Arg2:T114	
+T124	missed_gene 3047 3050	NPM
+T125	missed_gene 3052 3055	B23
+T126	missed_gene 3057 3061	NO38
+R17	located_in Arg1:T113 Arg2:T114	
+R18	located_in Arg1:T126 Arg2:T114	
+R19	located_in Arg1:T125 Arg2:T114	
+R20	located_in Arg1:T124 Arg2:T114	
+R21	located_in Arg1:T120 Arg2:T119	

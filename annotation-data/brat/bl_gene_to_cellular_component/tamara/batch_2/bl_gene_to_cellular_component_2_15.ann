@@ -132,3 +132,37 @@ T131	gene 4155 4158	p53
 T132	cellular_component 4187 4193	nuclei
 T133	gene 4226 4229	p53
 T134	cellular_component 4245 4254	cytoplasm
+T135	missed_gene 542 545	S27
+R1	located_in Arg1:T135 Arg2:T11	
+T136	missed_gene 180 193	alpha tubulin
+R2	located_in Arg1:T136 Arg2:T5	
+R3	located_in Arg1:T7 Arg2:T5	
+T137	missed_gene 675 679	VASP
+R4	located_in Arg1:T16 Arg2:T15	
+R5	located_in Arg1:T137 Arg2:T15	
+R6	located_in Arg1:T17 Arg2:T15	
+R7	located_in Arg1:T18 Arg2:T15	
+R8	located_in Arg1:T29 Arg2:T28	
+T138	missed_gene 1108 1115	ankyrin
+R9	located_in Arg1:T138 Arg2:T28	
+R10	located_in Arg1:T31 Arg2:T28	
+T139	missed_gene 1135 1144	protein 3
+R11	located_in Arg1:T139 Arg2:T28	
+T140	missed_gene 1180 1185	actin
+R12	located_in Arg1:T140 Arg2:T28	
+T141	missed_cellular_component 1542 1549	nuclear
+R13	located_in Arg1:T44 Arg2:T141	
+R14	located_in Arg1:T46 Arg2:T45	
+R15	located_in Arg1:T87 Arg2:T88	
+R16	located_in Arg1:T103 Arg2:T101	
+R17	located_in Arg1:T103 Arg2:T102	
+R18	located_in Arg1:T104 Arg2:T107	
+R19	located_in Arg1:T105 Arg2:T107	
+R20	located_in Arg1:T106 Arg2:T107	
+T142	missed_gene 3456 3465	Pol alpha
+R21	located_in Arg1:T142 Arg2:T107	
+R22	located_in Arg1:T111 Arg2:T110	
+T143	missed_gene 3650 3677	G-protein receptor kinase 2
+R23	located_in Arg1:T143 Arg2:T110	
+R24	located_in Arg1:T131 Arg2:T132	
+R25	located_in Arg1:T133 Arg2:T134	

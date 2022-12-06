@@ -98,8 +98,8 @@ T97	gene 2365 2370	CXCR4
 T98	gene 2371 2389	chemokine receptor
 T99	cellular_component 2410 2418	integrin
 T100	gene 2410 2418	integrin
-T101	gene 2540 2543	p42
-T102	gene 2544 2547	p44
+T101	gene 2540 2543;2548 2580	p42 mitogen-activated protein kinase
+T102	gene 2544 2547;2548 2580	p44 mitogen-activated protein kinase
 T103	gene 2548 2580	mitogen-activated protein kinase
 T104	cellular_component 2594 2604	centromere
 T105	cellular_component 2625 2636	cytoplasmic
@@ -137,3 +137,61 @@ T136	gene 3387 3392	ErbB3
 T137	gene 3438 3442	DDR1
 T138	cellular_component 3457 3477	extracellular matrix
 T139	gene 3486 3494	collagen
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T1 Arg2:T3	
+R3	located_in Arg1:T7 Arg2:T6	
+R4	located_in Arg1:T8 Arg2:T6	
+R5	located_in Arg1:T9 Arg2:T6	
+T140	missed_gene 309 314	?H2AX
+R6	located_in Arg1:T140 Arg2:T6	
+R7	located_in Arg1:T7 Arg2:T5	
+R8	located_in Arg1:T8 Arg2:T5	
+R9	located_in Arg1:T9 Arg2:T5	
+R10	located_in Arg1:T140 Arg2:T5	
+R11	located_in Arg1:T10 Arg2:T5	
+R12	located_in Arg1:T11 Arg2:T5	
+R13	located_in Arg1:T10 Arg2:T6	
+R14	located_in Arg1:T11 Arg2:T6	
+R15	located_in Arg1:T12 Arg2:T6	
+R16	located_in Arg1:T13 Arg2:T6	
+R17	located_in Arg1:T12 Arg2:T5	
+R18	located_in Arg1:T13 Arg2:T5	
+T141	missed_gene 398 409	integrin ?1
+R19	located_in Arg1:T141 Arg2:T18	
+R20	located_in Arg1:T25 Arg2:T24	
+T142	missed_gene 645 652	Ephrins
+R21	located_in Arg1:T142 Arg2:T26	
+R22	located_in Arg1:T27 Arg2:T26	
+R23	located_in Arg1:T28 Arg2:T26	
+R24	located_in Arg1:T29 Arg2:T30	
+R25	located_in Arg1:T50 Arg2:T49	
+R26	located_in Arg1:T55 Arg2:T56	
+R27	located_in Arg1:T65 Arg2:T66	
+R28	located_in Arg1:T69 Arg2:T70	
+R29	located_in Arg1:T73 Arg2:T72	
+R30	located_in Arg1:T75 Arg2:T74	
+R31	located_in Arg1:T76 Arg2:T74	
+R32	located_in Arg1:T77 Arg2:T74	
+R33	located_in Arg1:T78 Arg2:T74	
+R34	located_in Arg1:T79 Arg2:T74	
+R35	located_in Arg1:T80 Arg2:T74	
+T143	missed_gene 1904 1909	ACADM
+R36	located_in Arg1:T143 Arg2:T74	
+R37	located_in Arg1:T81 Arg2:T74	
+T144	missed_gene 2586 2623	mitotic centromere-associated kinesin
+R38	located_in Arg1:T144 Arg2:T104	
+T145	missed_gene 2637 2643	dynein
+R39	located_in Arg1:T145 Arg2:T105	
+T146	missed_cellular_component 2699 2711	kinetochores
+T147	missed_gene 2494 2520	CENP-E-associated proteins
+T148	missed_gene 2522 2527	BubR1
+R40	located_in Arg1:T101 Arg2:T146	
+R41	located_in Arg1:T102 Arg2:T146	
+R42	located_in Arg1:T148 Arg2:T146	
+R43	located_in Arg1:T147 Arg2:T146	
+R44	located_in Arg1:T144 Arg2:T146	
+R45	located_in Arg1:T145 Arg2:T146	
+R46	located_in Arg1:T106 Arg2:T146	
+R47	located_in Arg1:T107 Arg2:T146	
+R48	located_in Arg1:T127 Arg2:T128	
+R49	located_in Arg1:T139 Arg2:T138	

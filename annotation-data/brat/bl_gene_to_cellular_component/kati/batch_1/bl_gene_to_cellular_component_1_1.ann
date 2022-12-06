@@ -85,7 +85,7 @@ T84	gene 2743 2747	ERK2
 T85	gene 2776 2779	p38
 T86	gene 2783 2786	Src
 T87	gene 2808 2814	merlin
-T88	cellular_component 2833 2854	cortical cytoskeleton
+T88	cellular_component 2822 2827;2833 2854	actin cortical cytoskeleton
 T89	gene 2874 2879	ezrin
 T90	gene 2880 2887	radixin
 T91	gene 2888 2894	moesin
@@ -109,3 +109,25 @@ T108	gene 3497 3510	liprin alpha1
 T109	gene 3511 3517	PPFIA1
 T110	cellular_component 3521 3532	cytoplasmic
 T111	gene 3635 3639	ING4
+T112	missed_gene 432 475	eukaryotic translation initiation factor 4E
+T113	missed_gene 477 482	eIF4E
+R1	located_in Arg1:T112 Arg2:T19	
+R2	located_in Arg1:T113 Arg2:T19	
+T114	corrected_gene 595 617	cap-binding protein 20
+T115	missed_gene 619 625	CBP 20
+T116	corrected_gene 652 674	cap-binding protein 80
+T117	missed_cellular_component 543 550	nuclear
+R3	located_in Arg1:T114 Arg2:T117	
+R4	located_in Arg1:T115 Arg2:T117	
+R5	located_in Arg1:T116 Arg2:T117	
+R6	located_in Arg1:T24 Arg2:T117	
+T118	missed_cellular_component 813 820	nuclear
+R7	located_in Arg1:T29 Arg2:T118	
+R8	located_in Arg1:T49 Arg2:T50	
+T119	missed_gene 2397 2417	ribosomal protein S6
+R9	located_in Arg1:T119 Arg2:T74	
+T120	missed_gene 2419 2422	rS6
+R10	located_in Arg1:T120 Arg2:T74	
+R11	located_in Arg1:T87 Arg2:T88	
+R12	located_in Arg1:T108 Arg2:T110	
+R13	located_in Arg1:T109 Arg2:T110	

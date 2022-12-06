@@ -103,3 +103,47 @@ T102	gene 2702 2707	BRCA1
 T103	gene 2718 2722	Chk1
 T104	cellular_component 2756 2765	chromatin
 T105	gene 2799 2803	Chk1
+R1	located_in Arg1:T1 Arg2:T2	
+T106	missed_gene 21 24	CRs
+R2	located_in Arg1:T106 Arg2:T2	
+T107	corrected_cellular_component 165 189	somatodendritic membrane
+R3	located_in Arg1:T8 Arg2:T107	
+R4	located_in Arg1:T9 Arg2:T107	
+T108	missed_gene 209 219	GluRDelta1
+T109	missed_gene 209 218;225 226	GluRDelta 2
+R5	located_in Arg1:T109 Arg2:T107	
+R6	located_in Arg1:T109 Arg2:T107	
+T110	corrected_gene 228 232;234 235	GluR 3
+R7	located_in Arg1:T110 Arg2:T107	
+T111	corrected_gene 241 257;264 269	protein kinase C gamma
+T112	missed_gene 259 262;264 269	PKC gamma
+R8	located_in Arg1:T112 Arg2:T107	
+R9	located_in Arg1:T111 Arg2:T107	
+T113	corrected_cellular_component 116 136	cytoplasmic vacuoles
+R10	located_in Arg1:T111 Arg2:T113	
+R11	located_in Arg1:T112 Arg2:T113	
+R12	located_in Arg1:T8 Arg2:T113	
+R14	located_in Arg1:T109 Arg2:T113	
+R16	located_in Arg1:T110 Arg2:T113	
+R13	located_in Arg1:T108 Arg2:T113	
+R15	located_in Arg1:T9 Arg2:T113	
+R17	located_in Arg1:T21 Arg2:T23	
+R18	located_in Arg1:T29 Arg2:T30	
+R19	located_in Arg1:T29 Arg2:T31	
+R20	located_in Arg1:T39 Arg2:T38	
+R21	located_in Arg1:T40 Arg2:T38	
+T114	missed_gene 1160 1165	JAM-A
+R22	located_in Arg1:T114 Arg2:T38	
+T115	missed_cellular_component 1112 1125	transmembrane
+#1	AnnotatorNotes T115	OK?
+R23	located_in Arg1:T42 Arg2:T41	
+R24	located_in Arg1:T45 Arg2:T46	
+R25	located_in Arg1:T52 Arg2:T54	
+R26	located_in Arg1:T51 Arg2:T54	
+T116	corrected_gene 1400 1410	?-spectrin
+R27	located_in Arg1:T116 Arg2:T54	
+R28	located_in Arg1:T71 Arg2:T75	
+R29	located_in Arg1:T72 Arg2:T75	
+R30	located_in Arg1:T73 Arg2:T75	
+R31	located_in Arg1:T88 Arg2:T89	
+R32	located_in Arg1:T105 Arg2:T104	

@@ -130,3 +130,39 @@ T129	cellular_component 3775 3788	intracellular
 T130	gene 3875 3883	integrin
 T131	cellular_component 3875 3883	integrin
 T132	cellular_component 3915 3935	extracellular matrix
+R1	located_in Arg1:T11 Arg2:T12	
+R2	located_in Arg1:T11 Arg2:T13	
+R3	located_in Arg1:T14 Arg2:T15	
+T133	corrected_cellular_component 269 303	lumen of the endoplasmic reticulum
+R4	located_in Arg1:T8 Arg2:T133	
+R5	located_in Arg1:T22 Arg2:T21	
+T134	corrected_gene 731 736	Spa2p
+R6	located_in Arg1:T134 Arg2:T26	
+T135	corrected_gene 762 767	Mkk1p
+T136	corrected_gene 772 777	Mpk1p
+R7	located_in Arg1:T135 Arg2:T31	
+R8	located_in Arg1:T136 Arg2:T31	
+R9	located_in Arg1:T36 Arg2:T35	
+R10	located_in Arg1:T37 Arg2:T35	
+R11	located_in Arg1:T38 Arg2:T35	
+R12	located_in Arg1:T44 Arg2:T43	
+R13	located_in Arg1:T45 Arg2:T43	
+T137	corrected_gene 1482 1489;1497 1505	insulin receptor
+R14	located_in Arg1:T137 Arg2:T62	
+R15	located_in Arg1:T72 Arg2:T73	
+R16	located_in Arg1:T72 Arg2:T74	
+R17	located_in Arg1:T80 Arg2:T79	
+R18	located_in Arg1:T89 Arg2:T88	
+R19	located_in Arg1:T90 Arg2:T88	
+R20	located_in Arg1:T92 Arg2:T91	
+R21	located_in Arg1:T93 Arg2:T91	
+R22	located_in Arg1:T94 Arg2:T91	
+T138	missed_gene 2841 2844	60S
+R23	located_in Arg1:T138 Arg2:T102	
+R24	located_in Arg1:T124 Arg2:T125	
+R25	located_in Arg1:T126 Arg2:T129	
+T139	corrected_gene 3751 3773	integrin-linked kinase
+R26	located_in Arg1:T139 Arg2:T129	
+T140	missed_cellular_component 3818 3832	focal adhesion
+R27	located_in Arg1:T139 Arg2:T140	
+R28	located_in Arg1:T126 Arg2:T140	

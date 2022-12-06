@@ -158,3 +158,32 @@ T157	gene 4285 4290	STK38
 T158	gene 4291 4295	NDR1
 T159	gene 4309 4314	DAPK1
 T160	gene 4336 4342	SNRPB2
+R1	located_in Arg1:T6 Arg2:T5	
+R2	located_in Arg1:T7 Arg2:T5	
+R3	located_in Arg1:T16 Arg2:T17	
+R4	located_in Arg1:T16 Arg2:T18	
+R5	located_in Arg1:T26 Arg2:T27	
+R6	located_in Arg1:T25 Arg2:T27	
+T161	missed_gene 858 868	G proteins
+R7	located_in Arg1:T161 Arg2:T28	
+T162	missed_gene 1357 1360	NCL
+R8	located_in Arg1:T162 Arg2:T44	
+R9	located_in Arg1:T45 Arg2:T44	
+R10	located_in Arg1:T50 Arg2:T49	
+R11	located_in Arg1:T54 Arg2:T53	
+R12	located_in Arg1:T57 Arg2:T55	
+R13	located_in Arg1:T58 Arg2:T55	
+R14	located_in Arg1:T59 Arg2:T55	
+R15	located_in Arg1:T60 Arg2:T55	
+R16	located_in Arg1:T62 Arg2:T61	
+R17	located_in Arg1:T89 Arg2:T90	
+R18	located_in Arg1:T89 Arg2:T91	
+T163	missed_gene 3390 3423	vesicle amine transport protein-1
+R19	located_in Arg1:T132 Arg2:T133	
+R20	located_in Arg1:T131 Arg2:T133	
+R21	located_in Arg1:T130 Arg2:T133	
+R22	located_in Arg1:T129 Arg2:T133	
+R23	located_in Arg1:T128 Arg2:T133	
+R24	located_in Arg1:T163 Arg2:T133	
+R25	located_in Arg1:T163 Arg2:T127	
+R26	located_in Arg1:T128 Arg2:T127	

@@ -127,3 +127,46 @@ T126	gene 3378 3383	CXCR4
 T127	gene 3395 3405	E-cadherin
 T128	gene 3452 3481	Rho-associated protein kinase
 T129	cellular_component 3497 3504	F-actin
+R1	located_in Arg1:T3 Arg2:T4	
+T130	missed_gene 232 248	channel proteins
+R2	located_in Arg1:T130 Arg2:T11	
+R3	located_in Arg1:T130 Arg2:T12	
+T131	corrected_cellular_component 369 383	outer membrane
+T132	missed_gene 424 428	LbpA
+T133	corrected_gene 393 422	lactoferrin binding protein A
+R4	located_in Arg1:T133 Arg2:T131	
+R5	located_in Arg1:T132 Arg2:T131	
+T134	missed_cellular_component 437 444	surface
+T135	missed_gene 489 493	LbpB
+R6	located_in Arg1:T135 Arg2:T134	
+T136	corrected_gene 458 487	lactoferrin binding protein B
+R7	located_in Arg1:T136 Arg2:T134	
+R8	located_in Arg1:T18 Arg2:T19	
+R9	located_in Arg1:T28 Arg2:T27	
+R10	located_in Arg1:T29 Arg2:T27	
+R11	located_in Arg1:T30 Arg2:T27	
+R12	located_in Arg1:T32 Arg2:T33	
+T137	corrected_gene 867 906	Kinesin-like calmodulin binding protein
+R13	located_in Arg1:T137 Arg2:T33	
+R14	located_in Arg1:T43 Arg2:T47	
+T138	corrected_gene 1251 1283	insulin receptor tyrosine kinase
+R15	located_in Arg1:T138 Arg2:T47	
+T139	missed_gene 1285 1289	IRTK
+R16	located_in Arg1:T139 Arg2:T47	
+R17	located_in Arg1:T45 Arg2:T47	
+R18	located_in Arg1:T46 Arg2:T47	
+T140	missed_gene 1312 1316	LEPR
+R19	located_in Arg1:T140 Arg2:T47	
+T141	missed_gene 1318 1332	Janus kinase 2
+R20	located_in Arg1:T141 Arg2:T47	
+T142	corrected_gene 1479 1484	PPAR?
+R21	located_in Arg1:T142 Arg2:T52	
+T143	corrected_gene 1486 1532	peroxisome prolifereator- activated receptor ?
+R22	located_in Arg1:T143 Arg2:T52	
+R23	located_in Arg1:T58 Arg2:T60	
+R24	located_in Arg1:T66 Arg2:T65	
+R25	located_in Arg1:T80 Arg2:T78	
+R26	located_in Arg1:T114 Arg2:T113	
+R27	located_in Arg1:T112 Arg2:T113	
+T144	missed_gene 2901 2910	S6 kinase
+R28	located_in Arg1:T144 Arg2:T113	

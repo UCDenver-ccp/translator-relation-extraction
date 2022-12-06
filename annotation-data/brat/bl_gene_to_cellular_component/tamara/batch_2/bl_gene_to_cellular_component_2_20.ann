@@ -119,3 +119,22 @@ T118	gene 3253 3261	integrin
 T119	gene 3289 3300	fibronectin
 T120	cellular_component 3301 3321	extracellular matrix
 T121	gene 3337 3348	fibrillin 1
+R1	located_in Arg1:T10 Arg2:T13	
+R2	located_in Arg1:T12 Arg2:T13	
+T122	missed_gene 643 657	Timeless-Tipin
+R3	located_in Arg1:T19 Arg2:T18	
+R4	located_in Arg1:T20 Arg2:T18	
+T123	corrected_gene 633 642	Swi1-Swi3
+R5	located_in Arg1:T123 Arg2:T18	
+R6	located_in Arg1:T122 Arg2:T18	
+R7	located_in Arg1:T33 Arg2:T34	
+R8	located_in Arg1:T39 Arg2:T38	
+R9	located_in Arg1:T39 Arg2:T40	
+T124	corrected_gene 1263 1286	alpha 2 beta 1 integrin
+R10	located_in Arg1:T124 Arg2:T44	
+R11	located_in Arg1:T78 Arg2:T77	
+R12	located_in Arg1:T79 Arg2:T77	
+R13	located_in Arg1:T80 Arg2:T81	
+T125	missed_gene 2519 2539	Ribosomal protein S7
+R14	located_in Arg1:T125 Arg2:T96	
+R15	located_in Arg1:T119 Arg2:T120	

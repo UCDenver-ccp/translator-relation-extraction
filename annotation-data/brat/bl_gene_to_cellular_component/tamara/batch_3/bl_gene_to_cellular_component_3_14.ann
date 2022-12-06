@@ -143,3 +143,62 @@ T142	gene 4065 4070	MFSD8
 T143	gene 4071 4075	CLN7
 T144	gene 4077 4081	CLN8
 T145	gene 4083 4090	ATP13A2
+R1	located_in Arg1:T7 Arg2:T13	
+R2	located_in Arg1:T10 Arg2:T13	
+T146	corrected_gene 188 192;195 196	Smad 5
+R3	located_in Arg1:T146 Arg2:T13	
+T147	corrected_gene 188 192;202 203	Smad 8
+R4	located_in Arg1:T147 Arg2:T13	
+T148	corrected_gene 615 637	alpha1beta1 integrin i
+R5	located_in Arg1:T148 Arg2:T32	
+R6	located_in Arg1:T40 Arg2:T39	
+R7	located_in Arg1:T47 Arg2:T48	
+R8	located_in Arg1:T75 Arg2:T76	
+R9	located_in Arg1:T77 Arg2:T76	
+R10	located_in Arg1:T78 Arg2:T76	
+R11	located_in Arg1:T79 Arg2:T76	
+T149	corrected_cellular_component 2383 2403	basolateral membrane
+R12	located_in Arg1:T95 Arg2:T149	
+T151	missed_gene 2900 2914	aminopeptidase
+R14	located_in Arg1:T151 Arg2:T109	
+T152	missed_gene 3186 3208	stomatinlike protein 2
+R15	located_in Arg1:T152 Arg2:T110	
+R16	located_in Arg1:T112 Arg2:T111	
+T153	missed_gene 3302 3323	ribosomal protein L17
+T150	missed_gene 2813 2834	ribosomal protein L12
+R13	located_in Arg1:T150 Arg2:T107	
+R17	located_in Arg1:T153 Arg2:T111	
+R18	located_in Arg1:T114 Arg2:T111	
+T154	missed_gene 3336 3371	mitochondrial ribosomal protein L22
+R19	located_in Arg1:T154 Arg2:T111	
+T155	corrected_cellular_component 3336 3349	mitochondrial
+R20	located_in Arg1:T154 Arg2:T155	
+R21	located_in Arg1:T114 Arg2:T155	
+R22	located_in Arg1:T125 Arg2:T127	
+R23	located_in Arg1:T126 Arg2:T127	
+R24	located_in Arg1:T129 Arg2:T128	
+R25	located_in Arg1:T130 Arg2:T128	
+R26	located_in Arg1:T131 Arg2:T128	
+R27	located_in Arg1:T132 Arg2:T128	
+T156	missed_gene 3784 3788	CTSD
+T157	missed_gene 3789 3794	CLN10
+R28	located_in Arg1:T156 Arg2:T128	
+R29	located_in Arg1:T157 Arg2:T128	
+T158	missed_gene 3796 3800	CTSF
+T159	missed_gene 3801 3806	CLN13
+R30	located_in Arg1:T158 Arg2:T128	
+R31	located_in Arg1:T159 Arg2:T128	
+R32	located_in Arg1:T134 Arg2:T133	
+R33	located_in Arg1:T135 Arg2:T133	
+R34	located_in Arg1:T136 Arg2:T133	
+T160	missed_gene 3881 3886	CLN14
+R35	located_in Arg1:T160 Arg2:T133	
+R36	located_in Arg1:T138 Arg2:T137	
+R37	located_in Arg1:T140 Arg2:T139	
+R38	located_in Arg1:T141 Arg2:T139	
+R39	located_in Arg1:T142 Arg2:T139	
+R40	located_in Arg1:T143 Arg2:T139	
+R41	located_in Arg1:T144 Arg2:T139	
+R42	located_in Arg1:T145 Arg2:T139	
+T161	missed_gene 4091 4096	CLN12
+R43	located_in Arg1:T161 Arg2:T139	

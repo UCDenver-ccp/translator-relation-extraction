@@ -123,3 +123,22 @@ T122	gene 3102 3105	p38
 T123	gene 3106 3139	mitogen-activated protein kinases
 T124	gene 3141 3145	MAPK
 T125	cellular_component 3168 3171	LDL
+T126	corrected_gene 752 757	Smad3
+R1	located_in Arg1:T126 Arg2:T26	
+T127	corrected_gene 844 849	Smad4
+T128	corrected_gene 876 881	Smad2
+T129	corrected_gene 876 880;882 883	Smad 3
+T130	missed_cellular_component 853 860	nuclear
+R2	located_in Arg1:T127 Arg2:T130	
+R3	located_in Arg1:T129 Arg2:T130	
+R4	located_in Arg1:T128 Arg2:T130	
+R5	located_in Arg1:T36 Arg2:T37	
+R6	located_in Arg1:T35 Arg2:T37	
+T131	corrected_gene 1395 1398;1403 1414	p42 MAP-kinases
+T132	corrected_gene 1399 1402;1403 1414	p44 MAP-kinases
+R7	located_in Arg1:T132 Arg2:T51	
+R8	located_in Arg1:T131 Arg2:T51	
+R9	located_in Arg1:T57 Arg2:T58	
+R10	located_in Arg1:T55 Arg2:T58	
+R11	located_in Arg1:T87 Arg2:T88	
+R12	located_in Arg1:T86 Arg2:T88	

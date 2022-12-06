@@ -67,7 +67,6 @@ T66	cellular_component 1811 1825	nuclear matrix
 T67	gene 1834 1842	matrin 3
 T68	gene 1893 1900	artemin
 T69	gene 1905 1909	GDNF
-T70	gene 1943 1947	GALT
 T71	gene 1950 1955	GALT4
 T72	gene 1960 1964	GALT
 T73	cellular_component 2022 2030	vesicles
@@ -126,3 +125,39 @@ T125	gene 3647 3652	Cdh23
 T126	gene 3695 3705	dystrophin
 T127	cellular_component 3792 3804	cytoskeleton
 T128	cellular_component 3808 3816	membrane
+T129	missed_gene 4 24	transferrin receptor
+R1	located_in Arg1:T129 Arg2:T4	
+R2	located_in Arg1:T1 Arg2:T4	
+R3	located_in Arg1:T2 Arg2:T4	
+R4	located_in Arg1:T3 Arg2:T4	
+T130	corrected_cellular_component 392 409	integral membrane
+R5	located_in Arg1:T15 Arg2:T130	
+R6	located_in Arg1:T16 Arg2:T130	
+R7	located_in Arg1:T18 Arg2:T17	
+R8	located_in Arg1:T20 Arg2:T19	
+T131	missed_gene 1294 1342	signal transducer and activator of transcription
+R9	located_in Arg1:T131 Arg2:T49	
+R10	located_in Arg1:T50 Arg2:T49	
+R11	located_in Arg1:T51 Arg2:T49	
+R12	located_in Arg1:T55 Arg2:T56	
+R13	located_in Arg1:T58 Arg2:T59	
+R14	located_in Arg1:T61 Arg2:T60	
+R15	located_in Arg1:T62 Arg2:T60	
+R16	located_in Arg1:T67 Arg2:T66	
+T132	corrected_cellular_component 2016 2030	Golgi vesicles
+T70	gene 1943 1947	GALT
+T133	corrected_gene 1943 1948	GALT3
+T134	corrected_gene 1960 1965	GALT6
+R17	located_in Arg1:T133 Arg2:T132	
+R18	located_in Arg1:T71 Arg2:T132	
+R19	located_in Arg1:T134 Arg2:T132	
+T135	missed_cellular_component 3180 3191	kinetochore
+R20	located_in Arg1:T111 Arg2:T135	
+R21	located_in Arg1:T113 Arg2:T112	
+T136	missed_cellular_component 3656 3666	microvilli
+R22	located_in Arg1:T125 Arg2:T136	
+T137	missed_gene 3614 3622	harmonin
+R23	located_in Arg1:T137 Arg2:T136	
+R24	located_in Arg1:T124 Arg2:T123	
+T138	missed_gene 3834 3846	ion channels
+R25	located_in Arg1:T138 Arg2:T128	

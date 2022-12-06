@@ -143,3 +143,50 @@ T142	cellular_component 3181 3191	antibodies
 T143	gene 3211 3214	Src
 T144	cellular_component 3230 3238	integrin
 T145	gene 3230 3238	integrin
+T146	missed_gene 34 40	SNAP29
+R1	located_in Arg1:T146 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T3	
+R3	located_in Arg1:T13 Arg2:T14	
+R4	located_in Arg1:T12 Arg2:T14	
+R5	located_in Arg1:T11 Arg2:T14	
+T147	missed_cellular_component 164 174	membranous
+R6	located_in Arg1:T10 Arg2:T147	
+R7	located_in Arg1:T47 Arg2:T46	
+T148	corrected_gene 1008 1016;993 1000	integrin alpha 2
+T149	corrected_gene 1001 1007;1008 1016	beta 1 integrin
+R8	located_in Arg1:T149 Arg2:T46	
+R9	located_in Arg1:T148 Arg2:T46	
+R10	located_in Arg1:T52 Arg2:T53	
+T150	corrected_gene 1098 1109	?1 integrin
+T151	corrected_gene 1066 1077	?5 integrin
+R11	located_in Arg1:T151 Arg2:T53	
+R12	located_in Arg1:T150 Arg2:T53	
+R13	located_in Arg1:T57 Arg2:T56	
+R14	located_in Arg1:T58 Arg2:T56	
+R15	located_in Arg1:T85 Arg2:T84	
+R16	located_in Arg1:T88 Arg2:T89	
+R17	located_in Arg1:T88 Arg2:T90	
+T152	missed_gene 2096 2101	AS160
+R18	located_in Arg1:T152 Arg2:T92	
+R19	located_in Arg1:T152 Arg2:T93	
+T153	missed_gene 2170 2175	AS160
+R20	located_in Arg1:T153 Arg2:T95	
+T154	corrected_gene 2264 2268	CNF1
+R21	located_in Arg1:T154 Arg2:T97	
+T155	missed_cellular_component 2295 2306	periplasmic
+R22	located_in Arg1:T99 Arg2:T155	
+T156	corrected_gene 2344 2348	CNF1
+T157	corrected_cellular_component 2354 2377	outer-membrane vesicles
+T158	missed_cellular_component 2379 2383	OMVs
+R23	located_in Arg1:T156 Arg2:T158	
+R24	located_in Arg1:T156 Arg2:T157	
+T159	corrected_gene 2412 2416	ERK1
+T160	corrected_gene 2412 2415;2417 2418	ERK 2
+R25	located_in Arg1:T159 Arg2:T106	
+R26	located_in Arg1:T160 Arg2:T107	
+R27	located_in Arg1:T109 Arg2:T108	
+R28	located_in Arg1:T110 Arg2:T108	
+R29	located_in Arg1:T111 Arg2:T108	
+R30	located_in Arg1:T134 Arg2:T135	
+T161	missed_cellular_component 3048 3055	nuclear
+R31	located_in Arg1:T137 Arg2:T161	

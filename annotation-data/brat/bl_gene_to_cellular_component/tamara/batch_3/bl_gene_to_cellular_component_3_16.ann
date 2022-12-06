@@ -133,3 +133,27 @@ T132	gene 3659 3663	EGFR
 T133	cellular_component 3669 3682	extracellular
 T134	gene 3727 3753	matrix metalloproteinase-2
 T135	gene 3755 3760	MMP-2
+R1	located_in Arg1:T9 Arg2:T8	
+R2	located_in Arg1:T10 Arg2:T8	
+R3	located_in Arg1:T26 Arg2:T25	
+R4	located_in Arg1:T41 Arg2:T40	
+R5	located_in Arg1:T41 Arg2:T42	
+T136	corrected_gene 1783 1799	p80 TNF receptor
+R6	located_in Arg1:T136 Arg2:T66	
+R7	located_in Arg1:T72 Arg2:T73	
+R8	located_in Arg1:T71 Arg2:T73	
+R9	located_in Arg1:T95 Arg2:T92	
+R10	located_in Arg1:T97 Arg2:T92	
+R11	located_in Arg1:T95 Arg2:T93	
+R12	located_in Arg1:T97 Arg2:T93	
+R13	located_in Arg1:T108 Arg2:T107	
+T137	corrected_gene 2999 3003;3005 3006	Smad 5
+R14	located_in Arg1:T137 Arg2:T107	
+T138	missed_cellular_component 3251 3264	intercellular
+R15	located_in Arg1:T120 Arg2:T138	
+R16	located_in Arg1:T121 Arg2:T138	
+R17	located_in Arg1:T123 Arg2:T122	
+R18	located_in Arg1:T124 Arg2:T122	
+T139	missed_cellular_component 3341 3354	cell membrane
+R19	located_in Arg1:T125 Arg2:T139	
+R20	located_in Arg1:T126 Arg2:T139	

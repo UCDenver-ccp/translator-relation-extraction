@@ -129,3 +129,34 @@ T128	gene 3328 3333	ZNF81
 T129	gene 3335 3340	PQBP1
 T130	gene 3355 3360	FTSJ1
 T131	gene 3390 3395	FACL4
+T132	missed_gene 236 238	L5
+T133	missed_gene 240 243	L11
+T134	missed_gene 248 251	L23
+R1	located_in Arg1:T132 Arg2:T9	
+R2	located_in Arg1:T133 Arg2:T9	
+R3	located_in Arg1:T134 Arg2:T9	
+R4	located_in Arg1:T31 Arg2:T32	
+R5	located_in Arg1:T38 Arg2:T39	
+T135	missed_gene 1014 1022;974 1007	proteins Regulators of G-protein-signaling
+T136	missed_gene 1009 1012;1014 1022	RGS proteins
+R6	located_in Arg1:T136 Arg2:T40	
+R7	located_in Arg1:T135 Arg2:T40	
+R8	located_in Arg1:T42 Arg2:T41	
+R9	located_in Arg1:T43 Arg2:T41	
+R10	located_in Arg1:T46 Arg2:T45	
+T137	missed_cellular_component 1329 1338	vesicular
+R11	located_in Arg1:T48 Arg2:T137	
+T138	corrected_gene 1405 1429	integrin linked kinase 1
+R12	located_in Arg1:T138 Arg2:T49	
+R13	located_in Arg1:T53 Arg2:T54	
+R14	located_in Arg1:T55 Arg2:T58	
+R15	located_in Arg1:T56 Arg2:T58	
+R16	located_in Arg1:T81 Arg2:T80	
+R17	located_in Arg1:T84 Arg2:T83	
+T139	missed_gene 2254 2257	FAK
+R18	located_in Arg1:T139 Arg2:T83	
+T140	corrected_gene 2627 2631	Sna4
+T141	missed_gene 2621 2626	Cdc45
+R19	located_in Arg1:T141 Arg2:T102	
+R20	located_in Arg1:T140 Arg2:T102	
+R21	located_in Arg1:T122 Arg2:T121	

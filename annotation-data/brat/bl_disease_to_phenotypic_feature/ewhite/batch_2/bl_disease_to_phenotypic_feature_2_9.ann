@@ -1,90 +1,90 @@
-T1	disease 85 92	obesity
-T2	phenotypic_feature 85 92	obesity
-T3	disease 160 166	anemia
-T4	phenotypic_feature 160 166	anemia
-T5	disease 203 216	vulvar cancer
-T6	disease 233 258	adenoma of the middle ear
-T7	phenotypic_feature 259 267	confused
-T8	disease 284 297	cholesteatoma
-T9	phenotypic_feature 284 297	cholesteatoma
-T10	phenotypic_feature 320 328	cataract
-T11	disease 320 328	cataract
-T12	phenotypic_feature 329 338	blindness
-T13	disease 329 338	blindness
-T14	disease 416 424	cataract
-T15	phenotypic_feature 416 424	cataract
-T16	phenotypic_feature 425 434	blindness
-T17	disease 425 434	blindness
-T18	phenotypic_feature 519 537	mental retardation
-T19	phenotypic_feature 539 551	microcephaly
-T20	disease 539 551	microcephaly
-T21	phenotypic_feature 553 561	seizures
-T22	disease 567 585	movement disorders
-T23	phenotypic_feature 567 585	movement disorders
-T24	phenotypic_feature 593 599	ataxia
-T25	disease 593 599	ataxia
-T26	disease 627 642	cardiac failure
-T27	phenotypic_feature 627 642	cardiac failure
-T28	disease 694 709	cardiac failure
-T29	phenotypic_feature 694 709	cardiac failure
-T30	phenotypic_feature 725 738	hydrocephalus
-T31	disease 725 738	hydrocephalus
-T32	phenotypic_feature 783 791	seizures
-T33	disease 852 858	ataxia
-T34	phenotypic_feature 852 858	ataxia
-T35	phenotypic_feature 870 876	ataxia
-T36	disease 870 876	ataxia
-T37	disease 917 923	ataxia
-T38	phenotypic_feature 917 923	ataxia
-T39	disease 928 934	facial
-T40	phenotypic_feature 935 946	paresthesia
-T41	phenotypic_feature 987 994	obesity
-T42	disease 987 994	obesity
-T43	phenotypic_feature 1056 1063	obesity
-T44	disease 1056 1063	obesity
-T45	disease 1110 1116	ataxic
-T46	phenotypic_feature 1110 1116	ataxic
-T47	phenotypic_feature 1117 1127	dysarthria
-T48	phenotypic_feature 1129 1146	Cerebellar ataxia
-T49	disease 1129 1146	Cerebellar ataxia
-T50	disease 1196 1204	dystonia
-T51	phenotypic_feature 1206 1228	abnormal eye movements
-T52	phenotypic_feature 1234 1248	prominent eyes
-T53	disease 1322 1329	obesity
-T54	phenotypic_feature 1322 1329	obesity
-T55	phenotypic_feature 1356 1369	heart failure
-T56	disease 1356 1369	heart failure
-T57	disease 1371 1393	coronary heart disease
-T58	phenotypic_feature 1395 1408	renal failure
-T59	disease 1395 1408	renal failure
-T60	disease 1410 1425	liver disorders
-T61	disease 1430 1436	cancer
-T62	disease 1481 1499	hyperprolactinemic
-T63	phenotypic_feature 1481 1499	hyperprolactinemic
-T64	phenotypic_feature 1500 1529	hypogonadotropic hypogonadism
-T65	disease 1500 1529	hypogonadotropic hypogonadism
-T66	phenotypic_feature 1592 1601	hamartoma
-T67	disease 1592 1601	hamartoma
-T68	disease 1660 1667	obesity
-T69	phenotypic_feature 1660 1667	obesity
-T70	phenotypic_feature 1681 1688	obesity
-T71	disease 1681 1688	obesity
-T72	disease 1690 1704	morbid obesity
-T73	disease 1706 1720	severe obesity
-T74	phenotypic_feature 1734 1741	obesity
-T75	disease 1734 1741	obesity
-T76	disease 1744 1753	Traumatic
-T77	disease 1754 1763	cataracts
-T78	phenotypic_feature 1754 1763	cataracts
-T79	disease 1818 1835	visual impairment
-T80	phenotypic_feature 1818 1835	visual impairment
-T81	phenotypic_feature 1841 1850	blindness
-T82	disease 1841 1850	blindness
-T83	phenotypic_feature 1866 1871	fever
-T84	phenotypic_feature 1890 1903	renal failure
-T85	disease 1890 1903	renal failure
-T86	disease 1905 1925	Ectodermal dysplasia
-T87	phenotypic_feature 1927 1939	ectrodactyly
-T88	disease 1941 1957	cleft lip/palate
-T89	disease 1958 1966	syndrome
-T90	phenotypic_feature 1975 1987	ectrodactyly
+T1	disease_or_phenotypic_feature 85 92	obesity
+T2	disease_or_phenotypic_feature 85 92	obesity
+T3	disease_or_phenotypic_feature 160 166	anemia
+T4	disease_or_phenotypic_feature 160 166	anemia
+T5	disease_or_phenotypic_feature 203 216	vulvar cancer
+T6	disease_or_phenotypic_feature 233 258	adenoma of the middle ear
+T7	disease_or_phenotypic_feature 259 267	confused
+T8	disease_or_phenotypic_feature 284 297	cholesteatoma
+T9	disease_or_phenotypic_feature 284 297	cholesteatoma
+T10	disease_or_phenotypic_feature 320 328	cataract
+T11	disease_or_phenotypic_feature 320 328	cataract
+T12	disease_or_phenotypic_feature 329 338	blindness
+T13	disease_or_phenotypic_feature 329 338	blindness
+T14	disease_or_phenotypic_feature 416 424	cataract
+T15	disease_or_phenotypic_feature 416 424	cataract
+T16	disease_or_phenotypic_feature 425 434	blindness
+T17	disease_or_phenotypic_feature 425 434	blindness
+T18	disease_or_phenotypic_feature 519 537	mental retardation
+T19	disease_or_phenotypic_feature 539 551	microcephaly
+T20	disease_or_phenotypic_feature 539 551	microcephaly
+T21	disease_or_phenotypic_feature 553 561	seizures
+T22	disease_or_phenotypic_feature 567 585	movement disorders
+T23	disease_or_phenotypic_feature 567 585	movement disorders
+T24	disease_or_phenotypic_feature 593 599	ataxia
+T25	disease_or_phenotypic_feature 593 599	ataxia
+T26	disease_or_phenotypic_feature 627 642	cardiac failure
+T27	disease_or_phenotypic_feature 627 642	cardiac failure
+T28	disease_or_phenotypic_feature 694 709	cardiac failure
+T29	disease_or_phenotypic_feature 694 709	cardiac failure
+T30	disease_or_phenotypic_feature 725 738	hydrocephalus
+T31	disease_or_phenotypic_feature 725 738	hydrocephalus
+T32	disease_or_phenotypic_feature 783 791	seizures
+T33	disease_or_phenotypic_feature 852 858	ataxia
+T34	disease_or_phenotypic_feature 852 858	ataxia
+T35	disease_or_phenotypic_feature 870 876	ataxia
+T36	disease_or_phenotypic_feature 870 876	ataxia
+T37	disease_or_phenotypic_feature 917 923	ataxia
+T38	disease_or_phenotypic_feature 917 923	ataxia
+T39	disease_or_phenotypic_feature 928 934	facial
+T40	disease_or_phenotypic_feature 935 946	paresthesia
+T41	disease_or_phenotypic_feature 987 994	obesity
+T42	disease_or_phenotypic_feature 987 994	obesity
+T43	disease_or_phenotypic_feature 1056 1063	obesity
+T44	disease_or_phenotypic_feature 1056 1063	obesity
+T45	disease_or_phenotypic_feature 1110 1116	ataxic
+T46	disease_or_phenotypic_feature 1110 1116	ataxic
+T47	disease_or_phenotypic_feature 1117 1127	dysarthria
+T48	disease_or_phenotypic_feature 1129 1146	Cerebellar ataxia
+T49	disease_or_phenotypic_feature 1129 1146	Cerebellar ataxia
+T50	disease_or_phenotypic_feature 1196 1204	dystonia
+T51	disease_or_phenotypic_feature 1206 1228	abnormal eye movements
+T52	disease_or_phenotypic_feature 1234 1248	prominent eyes
+T53	disease_or_phenotypic_feature 1322 1329	obesity
+T54	disease_or_phenotypic_feature 1322 1329	obesity
+T55	disease_or_phenotypic_feature 1356 1369	heart failure
+T56	disease_or_phenotypic_feature 1356 1369	heart failure
+T57	disease_or_phenotypic_feature 1371 1393	coronary heart disease
+T58	disease_or_phenotypic_feature 1395 1408	renal failure
+T59	disease_or_phenotypic_feature 1395 1408	renal failure
+T60	disease_or_phenotypic_feature 1410 1425	liver disorders
+T61	disease_or_phenotypic_feature 1430 1436	cancer
+T62	disease_or_phenotypic_feature 1481 1499	hyperprolactinemic
+T63	disease_or_phenotypic_feature 1481 1499	hyperprolactinemic
+T64	disease_or_phenotypic_feature 1500 1529	hypogonadotropic hypogonadism
+T65	disease_or_phenotypic_feature 1500 1529	hypogonadotropic hypogonadism
+T66	disease_or_phenotypic_feature 1592 1601	hamartoma
+T67	disease_or_phenotypic_feature 1592 1601	hamartoma
+T68	disease_or_phenotypic_feature 1660 1667	obesity
+T69	disease_or_phenotypic_feature 1660 1667	obesity
+T70	disease_or_phenotypic_feature 1681 1688	obesity
+T71	disease_or_phenotypic_feature 1681 1688	obesity
+T72	disease_or_phenotypic_feature 1690 1704	morbid obesity
+T73	disease_or_phenotypic_feature 1706 1720	severe obesity
+T74	disease_or_phenotypic_feature 1734 1741	obesity
+T75	disease_or_phenotypic_feature 1734 1741	obesity
+T76	disease_or_phenotypic_feature 1744 1753	Traumatic
+T77	disease_or_phenotypic_feature 1754 1763	cataracts
+T78	disease_or_phenotypic_feature 1754 1763	cataracts
+T79	disease_or_phenotypic_feature 1818 1835	visual impairment
+T80	disease_or_phenotypic_feature 1818 1835	visual impairment
+T81	disease_or_phenotypic_feature 1841 1850	blindness
+T82	disease_or_phenotypic_feature 1841 1850	blindness
+T83	disease_or_phenotypic_feature 1866 1871	fever
+T84	disease_or_phenotypic_feature 1890 1903	renal failure
+T85	disease_or_phenotypic_feature 1890 1903	renal failure
+T86	disease_or_phenotypic_feature 1905 1925	Ectodermal dysplasia
+T87	disease_or_phenotypic_feature 1927 1939	ectrodactyly
+T88	disease_or_phenotypic_feature 1941 1957	cleft lip/palate
+T89	disease_or_phenotypic_feature 1958 1966	syndrome
+T90	disease_or_phenotypic_feature 1975 1987	ectrodactyly

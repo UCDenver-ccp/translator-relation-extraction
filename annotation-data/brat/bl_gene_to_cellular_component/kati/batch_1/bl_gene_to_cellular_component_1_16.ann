@@ -86,7 +86,7 @@ T85	gene 2357 2362	Smads
 T86	cellular_component 2357 2362	Smads
 T87	gene 2374 2390	apolipoprotein E
 T88	gene 2392 2396	ApoE
-T89	cellular_component 2398 2419	lipoprotein particles
+T89	cellular_component 2374 2390;2398 2419	apolipoprotein E lipoprotein particles
 T90	gene 2424 2456	low-density lipoprotein receptor
 T91	gene 2483 2487	ApoE
 T92	gene 2520 2524	MAPK
@@ -112,3 +112,21 @@ T111	gene 3128 3134	TGFBR2
 T112	gene 3154 3160	TGFBR2
 T113	cellular_component 3161 3165	Smad
 T114	gene 3161 3165	Smad
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+R3	located_in Arg1:T5 Arg2:T7	
+R4	located_in Arg1:T6 Arg2:T7	
+R5	located_in Arg1:T16 Arg2:T15	
+T115	corrected_cellular_component 1393 1414	cytoplasmic ribosomes
+R6	located_in Arg1:T47 Arg2:T115	
+T116	missed_gene 1726 1735	NF-kappaB
+R7	located_in Arg1:T116 Arg2:T61	
+T117	missed_gene 1752 1764	BMP receptor
+R8	located_in Arg1:T117 Arg2:T62	
+R9	located_in Arg1:T81 Arg2:T84	
+R10	located_in Arg1:T82 Arg2:T84	
+R11	located_in Arg1:T83 Arg2:T84	
+R13	located_in Arg1:T88 Arg2:T89	
+R12	located_in Arg1:T87 Arg2:T89	
+T118	missed_gene 2364 2367	LPL
+R14	located_in Arg1:T118 Arg2:T89	

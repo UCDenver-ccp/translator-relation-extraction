@@ -68,9 +68,42 @@ T67	disease_or_phenotypic_feature 2100 2106	ataxia
 T68	disease_or_phenotypic_feature 2124 2145	Klippel-Feil syndrome
 T69	disease_or_phenotypic_feature 2151 2176	unilateral renal agenesis
 T70	disease_or_phenotypic_feature 2181 2194	renal failure
-R1	has_phenotype Arg1:T6 Arg2:T5	
+R1	associated_with Arg1:T6 Arg2:T5	
 T71	missed_disease_or_phenotypic_feature 127 144	refractive errors
-R2	has_phenotype Arg1:T71 Arg2:T5	
-R3	has_phenotype Arg1:T8 Arg2:T7	
+R2	associated_with Arg1:T71 Arg2:T5	
+R3	associated_with Arg1:T8 Arg2:T7	
 R4	has_phenotype Arg1:T68 Arg2:T69	
 R5	has_phenotype Arg1:T68 Arg2:T70	
+T72	corrected_disease_or_phenotypic_feature 709 718	anomalies
+R6	has_phenotype Arg1:T72 Arg2:T25	
+R7	has_phenotype Arg1:T72 Arg2:T26	
+R8	has_phenotype Arg1:T72 Arg2:T27	
+R9	has_phenotype Arg1:T72 Arg2:T31	
+T73	missed_disease_or_phenotypic_feature 878 891	hemivertebrae
+T74	missed_disease_or_phenotypic_feature 845 859	cryptorchidism
+T75	corrected_disease_or_phenotypic_feature 799 829	bilateral cleft lip and palate
+T76	missed_disease_or_phenotypic_feature 785 797	low-set ears
+R10	has_phenotype Arg1:T72 Arg2:T76	
+R11	has_phenotype Arg1:T72 Arg2:T75	
+R12	has_phenotype Arg1:T72 Arg2:T29	
+R13	has_phenotype Arg1:T72 Arg2:T74	
+R14	has_phenotype Arg1:T72 Arg2:T73	
+R15	has_phenotype Arg1:T72 Arg2:T30	
+R16	associated_with Arg1:T34 Arg2:T33	
+T77	missed_disease_or_phenotypic_feature 1100 1116	hypoglucagonemia
+R17	associated_with Arg1:T77 Arg2:T33	
+R18	associated_with Arg1:T35 Arg2:T33	
+R19	associated_with Arg1:T36 Arg2:T37	
+T78	missed_disease_or_phenotypic_feature 1322 1338	fibrogenic tumor
+R20	associated_with Arg1:T78 Arg2:T41	
+T79	missed_disease_or_phenotypic_feature 1363 1368	tumor
+R21	associated_with Arg1:T79 Arg2:T42	
+R22	associated_with Arg1:T46 Arg2:T47	
+R23	associated_with Arg1:T46 Arg2:T48	
+R24	associated_with Arg1:T59 Arg2:T60	
+R25	associated_with Arg1:T59 Arg2:T61	
+R26	associated_with Arg1:T59 Arg2:T62	
+T80	missed_disease_or_phenotypic_feature 1972 1986	moon-like face
+T81	corrected_disease_or_phenotypic_feature 1991 2006	truncal obesity
+R27	associated_with Arg1:T59 Arg2:T81	
+R28	associated_with Arg1:T59 Arg2:T80	

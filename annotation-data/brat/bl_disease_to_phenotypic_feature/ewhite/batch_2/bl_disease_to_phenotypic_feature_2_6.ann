@@ -1,108 +1,108 @@
-T1	phenotypic_feature 142 173	agenesis of the corpus callosum
-T2	phenotypic_feature 175 183	seizures
-T3	disease 185 209	congenital heart defects
-T4	phenotypic_feature 185 209	congenital heart defects
-T5	disease 211 223	microcephaly
-T6	phenotypic_feature 211 223	microcephaly
-T7	phenotypic_feature 225 238	short stature
-T8	disease 255 275	Hirschsprung disease
-T9	disease 277 286	Amblyopia
-T10	phenotypic_feature 277 286	Amblyopia
-T11	disease 291 299	cataract
-T12	phenotypic_feature 291 299	cataract
-T13	phenotypic_feature 380 388	vomiting
-T14	disease 390 398	diarrhea
-T15	disease 400 411	hypotension
-T16	phenotypic_feature 413 418	fever
-T17	phenotypic_feature 433 447	abdominal pain
-T18	phenotypic_feature 458 465	obesity
-T19	disease 458 465	obesity
-T20	phenotypic_feature 492 499	obesity
-T21	disease 492 499	obesity
-T22	phenotypic_feature 533 543	spasticity
-T23	disease 548 566	movement disorders
-T24	phenotypic_feature 548 566	movement disorders
-T25	phenotypic_feature 609 621	hypocalcemia
-T26	disease 626 644	hypoparathyroidism
-T27	phenotypic_feature 626 644	hypoparathyroidism
-T28	disease 656 669	hypercalcemia
-T29	phenotypic_feature 656 669	hypercalcemia
-T30	disease 674 690	hypophosphatemia
-T31	phenotypic_feature 674 690	hypophosphatemia
-T32	disease 707 718	Scleroderma
-T33	phenotypic_feature 707 718	Scleroderma
-T34	disease 719 730	nephropathy
-T35	phenotypic_feature 719 730	nephropathy
-T36	phenotypic_feature 781 794	cholesteatoma
-T37	disease 781 794	cholesteatoma
-T38	phenotypic_feature 833 846	cholesteatoma
-T39	phenotypic_feature 881 894	cholesteatoma
-T40	disease 881 894	cholesteatoma
-T41	phenotypic_feature 916 929	cholesteatoma
-T42	disease 916 929	cholesteatoma
-T43	phenotypic_feature 954 967	cholesteatoma
-T44	disease 954 967	cholesteatoma
-T45	disease 981 987	ataxia
-T46	phenotypic_feature 981 987	ataxia
-T47	phenotypic_feature 993 1013	ocular motor apraxia
-T48	phenotypic_feature 1018 1033	hypoalbuminemia
-T49	disease 1034 1040	ataxia
-T50	phenotypic_feature 1034 1040	ataxia
-T51	disease 1129 1134	upper
-T52	phenotypic_feature 1135 1149	abdominal pain
-T53	phenotypic_feature 1151 1172	peripheral neuropathy
-T54	disease 1151 1172	peripheral neuropathy
-T55	disease 1178 1189	neutropenia
-T56	phenotypic_feature 1190 1206	thrombocytopenia
-T57	disease 1190 1206	thrombocytopenia
-T58	disease 1222 1230	syndrome
-T59	disease 1280 1305	congenital hypothyroidism
-T60	phenotypic_feature 1307 1331	congenital heart defects
-T61	disease 1307 1331	congenital heart defects
-T62	phenotypic_feature 1333 1351	facial dysmorphism
-T63	phenotypic_feature 1357 1375	mental retardation
-T64	disease 1440 1452	microcephaly
-T65	phenotypic_feature 1440 1452	microcephaly
-T66	disease 1465 1473	cataract
-T67	phenotypic_feature 1475 1500	severe mental retardation
-T68	disease 1502 1519	retinal dystrophy
-T69	phenotypic_feature 1502 1519	retinal dystrophy
-T70	phenotypic_feature 1521 1540	optic nerve atrophy
-T71	phenotypic_feature 1555 1569	hypogenitalism
-T72	phenotypic_feature 1575 1606	agenesis of the corpus callosum
-T73	disease 1646 1662	pheochromocytoma
-T74	disease 1681 1694	heart disease
-T75	phenotypic_feature 1725 1744	cardiac arrhythmias
-T76	phenotypic_feature 1746 1759	heart failure
-T77	phenotypic_feature 1773 1787	cardiomyopathy
-T78	disease 1773 1787	cardiomyopathy
-T79	disease 1792 1807	pulmonary edema
-T80	phenotypic_feature 1792 1807	pulmonary edema
-T81	disease 1838 1851	heart defects
-T82	phenotypic_feature 1838 1851	heart defects
-T83	disease 1870 1883	heart defects
-T84	phenotypic_feature 1870 1883	heart defects
-T85	disease 1959 1972	cholesteatoma
-T86	phenotypic_feature 1959 1972	cholesteatoma
-T87	disease 2033 2041	glaucoma
-T88	phenotypic_feature 2033 2041	glaucoma
-T89	disease 2043 2052	cataracts
-T90	phenotypic_feature 2043 2052	cataracts
-T91	disease 2057 2068	retinopathy
-T92	phenotypic_feature 2104 2115	hypokalemia
-T93	disease 2104 2115	hypokalemia
-T94	phenotypic_feature 2117 2131	hypomagnesemia
-T95	disease 2168 2186	hyperaldosteronism
-T96	disease 2213 2226	hydrocephalus
-T97	phenotypic_feature 2213 2226	hydrocephalus
-T98	phenotypic_feature 2250 2262	heart defect
-T99	disease 2250 2262	heart defect
-T100	disease 2264 2267	VSD
-T101	phenotypic_feature 2300 2307	obesity
-T102	disease 2300 2307	obesity
-T103	phenotypic_feature 2335 2342	obesity
-T104	disease 2335 2342	obesity
-T105	phenotypic_feature 2377 2384	obesity
-T106	disease 2377 2384	obesity
-T107	phenotypic_feature 2414 2421	obesity
-T108	disease 2414 2421	obesity
+T1	disease_or_phenotypic_feature 142 173	agenesis of the corpus callosum
+T2	disease_or_phenotypic_feature 175 183	seizures
+T3	disease_or_phenotypic_feature 185 209	congenital heart defects
+T4	disease_or_phenotypic_feature 185 209	congenital heart defects
+T5	disease_or_phenotypic_feature 211 223	microcephaly
+T6	disease_or_phenotypic_feature 211 223	microcephaly
+T7	disease_or_phenotypic_feature 225 238	short stature
+T8	disease_or_phenotypic_feature 255 275	Hirschsprung disease
+T9	disease_or_phenotypic_feature 277 286	Amblyopia
+T10	disease_or_phenotypic_feature 277 286	Amblyopia
+T11	disease_or_phenotypic_feature 291 299	cataract
+T12	disease_or_phenotypic_feature 291 299	cataract
+T13	disease_or_phenotypic_feature 380 388	vomiting
+T14	disease_or_phenotypic_feature 390 398	diarrhea
+T15	disease_or_phenotypic_feature 400 411	hypotension
+T16	disease_or_phenotypic_feature 413 418	fever
+T17	disease_or_phenotypic_feature 433 447	abdominal pain
+T18	disease_or_phenotypic_feature 458 465	obesity
+T19	disease_or_phenotypic_feature 458 465	obesity
+T20	disease_or_phenotypic_feature 492 499	obesity
+T21	disease_or_phenotypic_feature 492 499	obesity
+T22	disease_or_phenotypic_feature 533 543	spasticity
+T23	disease_or_phenotypic_feature 548 566	movement disorders
+T24	disease_or_phenotypic_feature 548 566	movement disorders
+T25	disease_or_phenotypic_feature 609 621	hypocalcemia
+T26	disease_or_phenotypic_feature 626 644	hypoparathyroidism
+T27	disease_or_phenotypic_feature 626 644	hypoparathyroidism
+T28	disease_or_phenotypic_feature 656 669	hypercalcemia
+T29	disease_or_phenotypic_feature 656 669	hypercalcemia
+T30	disease_or_phenotypic_feature 674 690	hypophosphatemia
+T31	disease_or_phenotypic_feature 674 690	hypophosphatemia
+T32	disease_or_phenotypic_feature 707 718	Scleroderma
+T33	disease_or_phenotypic_feature 707 718	Scleroderma
+T34	disease_or_phenotypic_feature 719 730	nephropathy
+T35	disease_or_phenotypic_feature 719 730	nephropathy
+T36	disease_or_phenotypic_feature 781 794	cholesteatoma
+T37	disease_or_phenotypic_feature 781 794	cholesteatoma
+T38	disease_or_phenotypic_feature 833 846	cholesteatoma
+T39	disease_or_phenotypic_feature 881 894	cholesteatoma
+T40	disease_or_phenotypic_feature 881 894	cholesteatoma
+T41	disease_or_phenotypic_feature 916 929	cholesteatoma
+T42	disease_or_phenotypic_feature 916 929	cholesteatoma
+T43	disease_or_phenotypic_feature 954 967	cholesteatoma
+T44	disease_or_phenotypic_feature 954 967	cholesteatoma
+T45	disease_or_phenotypic_feature 981 987	ataxia
+T46	disease_or_phenotypic_feature 981 987	ataxia
+T47	disease_or_phenotypic_feature 993 1013	ocular motor apraxia
+T48	disease_or_phenotypic_feature 1018 1033	hypoalbuminemia
+T49	disease_or_phenotypic_feature 1034 1040	ataxia
+T50	disease_or_phenotypic_feature 1034 1040	ataxia
+T51	disease_or_phenotypic_feature 1129 1134	upper
+T52	disease_or_phenotypic_feature 1135 1149	abdominal pain
+T53	disease_or_phenotypic_feature 1151 1172	peripheral neuropathy
+T54	disease_or_phenotypic_feature 1151 1172	peripheral neuropathy
+T55	disease_or_phenotypic_feature 1178 1189	neutropenia
+T56	disease_or_phenotypic_feature 1190 1206	thrombocytopenia
+T57	disease_or_phenotypic_feature 1190 1206	thrombocytopenia
+T58	disease_or_phenotypic_feature 1222 1230	syndrome
+T59	disease_or_phenotypic_feature 1280 1305	congenital hypothyroidism
+T60	disease_or_phenotypic_feature 1307 1331	congenital heart defects
+T61	disease_or_phenotypic_feature 1307 1331	congenital heart defects
+T62	disease_or_phenotypic_feature 1333 1351	facial dysmorphism
+T63	disease_or_phenotypic_feature 1357 1375	mental retardation
+T64	disease_or_phenotypic_feature 1440 1452	microcephaly
+T65	disease_or_phenotypic_feature 1440 1452	microcephaly
+T66	disease_or_phenotypic_feature 1465 1473	cataract
+T67	disease_or_phenotypic_feature 1475 1500	severe mental retardation
+T68	disease_or_phenotypic_feature 1502 1519	retinal dystrophy
+T69	disease_or_phenotypic_feature 1502 1519	retinal dystrophy
+T70	disease_or_phenotypic_feature 1521 1540	optic nerve atrophy
+T71	disease_or_phenotypic_feature 1555 1569	hypogenitalism
+T72	disease_or_phenotypic_feature 1575 1606	agenesis of the corpus callosum
+T73	disease_or_phenotypic_feature 1646 1662	pheochromocytoma
+T74	disease_or_phenotypic_feature 1681 1694	heart disease
+T75	disease_or_phenotypic_feature 1725 1744	cardiac arrhythmias
+T76	disease_or_phenotypic_feature 1746 1759	heart failure
+T77	disease_or_phenotypic_feature 1773 1787	cardiomyopathy
+T78	disease_or_phenotypic_feature 1773 1787	cardiomyopathy
+T79	disease_or_phenotypic_feature 1792 1807	pulmonary edema
+T80	disease_or_phenotypic_feature 1792 1807	pulmonary edema
+T81	disease_or_phenotypic_feature 1838 1851	heart defects
+T82	disease_or_phenotypic_feature 1838 1851	heart defects
+T83	disease_or_phenotypic_feature 1870 1883	heart defects
+T84	disease_or_phenotypic_feature 1870 1883	heart defects
+T85	disease_or_phenotypic_feature 1959 1972	cholesteatoma
+T86	disease_or_phenotypic_feature 1959 1972	cholesteatoma
+T87	disease_or_phenotypic_feature 2033 2041	glaucoma
+T88	disease_or_phenotypic_feature 2033 2041	glaucoma
+T89	disease_or_phenotypic_feature 2043 2052	cataracts
+T90	disease_or_phenotypic_feature 2043 2052	cataracts
+T91	disease_or_phenotypic_feature 2057 2068	retinopathy
+T92	disease_or_phenotypic_feature 2104 2115	hypokalemia
+T93	disease_or_phenotypic_feature 2104 2115	hypokalemia
+T94	disease_or_phenotypic_feature 2117 2131	hypomagnesemia
+T95	disease_or_phenotypic_feature 2168 2186	hyperaldosteronism
+T96	disease_or_phenotypic_feature 2213 2226	hydrocephalus
+T97	disease_or_phenotypic_feature 2213 2226	hydrocephalus
+T98	disease_or_phenotypic_feature 2250 2262	heart defect
+T99	disease_or_phenotypic_feature 2250 2262	heart defect
+T100	disease_or_phenotypic_feature 2264 2267	VSD
+T101	disease_or_phenotypic_feature 2300 2307	obesity
+T102	disease_or_phenotypic_feature 2300 2307	obesity
+T103	disease_or_phenotypic_feature 2335 2342	obesity
+T104	disease_or_phenotypic_feature 2335 2342	obesity
+T105	disease_or_phenotypic_feature 2377 2384	obesity
+T106	disease_or_phenotypic_feature 2377 2384	obesity
+T107	disease_or_phenotypic_feature 2414 2421	obesity
+T108	disease_or_phenotypic_feature 2414 2421	obesity

@@ -125,3 +125,51 @@ T124	gene 3853 3885	mitogen-activated protein kinase
 T125	cellular_component 3907 3912	Smads
 T126	gene 3907 3912	Smads
 T127	gene 3914 3949	Smad anchor for receptor activation
+T128	missed_gene 124 144	ribosomal S6 protein
+R1	located_in Arg1:T128 Arg2:T3	
+R2	located_in Arg1:T4 Arg2:T6	
+T129	corrected_cellular_component 577 594	membrane vesicles
+R3	located_in Arg1:T14 Arg2:T129	
+R4	located_in Arg1:T18 Arg2:T21	
+R5	located_in Arg1:T19 Arg2:T21	
+R6	located_in Arg1:T25 Arg2:T24	
+R7	located_in Arg1:T26 Arg2:T24	
+T130	corrected_gene 1128 1139	?4 integrin
+R8	located_in Arg1:T130 Arg2:T33	
+T131	corrected_gene 1183 1194	?4 integrin
+R9	located_in Arg1:T131 Arg2:T36	
+T132	corrected_gene 1224 1267	Insulin-like growth factor binding proteins
+T133	missed_gene 1269 1275	IGFBPs
+R10	located_in Arg1:T132 Arg2:T38	
+R11	located_in Arg1:T133 Arg2:T38	
+T134	corrected_gene 1489 1495	HB-EGF
+T135	corrected_gene 1497 1506	proHB-EGF
+R12	located_in Arg1:T134 Arg2:T44	
+R13	located_in Arg1:T135 Arg2:T44	
+R14	located_in Arg1:T58 Arg2:T57	
+T136	missed_gene 1951 1981	microtubule-associated protein
+R15	located_in Arg1:T136 Arg2:T57	
+T137	missed_gene 2435 2469	FAD-glycerophosphate dehydrogenase
+R16	located_in Arg1:T137 Arg2:T73	
+R17	located_in Arg1:T74 Arg2:T73	
+T138	missed_gene 2844 2853	F1 ATPase
+R18	located_in Arg1:T138 Arg2:T81	
+R19	located_in Arg1:T82 Arg2:T81	
+R20	located_in Arg1:T91 Arg2:T92	
+R21	located_in Arg1:T90 Arg2:T92	
+R22	located_in Arg1:T91 Arg2:T94	
+R23	located_in Arg1:T90 Arg2:T94	
+R24	located_in Arg1:T97 Arg2:T98	
+R25	located_in Arg1:T97 Arg2:T99	
+R26	located_in Arg1:T112 Arg2:T111	
+R27	located_in Arg1:T113 Arg2:T111	
+R28	located_in Arg1:T114 Arg2:T111	
+R29	located_in Arg1:T115 Arg2:T111	
+R30	located_in Arg1:T117 Arg2:T111	
+R31	located_in Arg1:T118 Arg2:T111	
+R32	located_in Arg1:T119 Arg2:T111	
+R33	located_in Arg1:T120 Arg2:T111	
+R34	located_in Arg1:T120 Arg2:T121	
+R35	located_in Arg1:T119 Arg2:T121	
+R36	located_in Arg1:T118 Arg2:T121	
+R37	located_in Arg1:T117 Arg2:T121	

@@ -109,3 +109,78 @@ T108	gene 3281 3284	p80
 T109	gene 3285 3291	coilin
 T110	gene 3318 3326	ataxin-1
 T111	cellular_component 3345 3356	nucleoplasm
+T112	corrected_gene 110 115	EGF-R
+T113	missed_gene 149 152	Sos
+T114	missed_gene 155 158	Ras
+T115	corrected_gene 169 172;185 192	MAP kinases
+R1	located_in Arg1:T112 Arg2:T9	
+R2	located_in Arg1:T3 Arg2:T9	
+R3	located_in Arg1:T4 Arg2:T9	
+R4	located_in Arg1:T113 Arg2:T9	
+R5	located_in Arg1:T114 Arg2:T9	
+R6	located_in Arg1:T5 Arg2:T9	
+R7	located_in Arg1:T115 Arg2:T9	
+R8	located_in Arg1:T7 Arg2:T9	
+R9	located_in Arg1:T8 Arg2:T9	
+T116	missed_cellular_component 473 484	peroxisomes
+R10	located_in Arg1:T14 Arg2:T17	
+R11	located_in Arg1:T15 Arg2:T17	
+R12	located_in Arg1:T16 Arg2:T17	
+R13	located_in Arg1:T16 Arg2:T116	
+R14	located_in Arg1:T15 Arg2:T116	
+R15	located_in Arg1:T14 Arg2:T116	
+R16	located_in Arg1:T28 Arg2:T27	
+R17	located_in Arg1:T30 Arg2:T29	
+T117	missed_gene 784 817	cellular retinol-binding proteins
+R18	located_in Arg1:T117 Arg2:T29	
+T118	missed_gene 829 868	cellular retinoic acid binding-proteins
+R19	located_in Arg1:T118 Arg2:T29	
+T119	missed_gene 870 875	CRABP
+R20	located_in Arg1:T119 Arg2:T29	
+R21	located_in Arg1:T32 Arg2:T33	
+R22	located_in Arg1:T31 Arg2:T33	
+R23	located_in Arg1:T39 Arg2:T40	
+R24	located_in Arg1:T39 Arg2:T41	
+T120	missed_gene 1505 1524	ribosomal S6 kinase
+R25	located_in Arg1:T120 Arg2:T49	
+R26	located_in Arg1:T52 Arg2:T51	
+T121	missed_cellular_component 1779 1782	CPC
+T122	corrected_gene 1784 1789	Sli15
+T123	missed_gene 1790 1796	INCENP
+T124	missed_gene 1803 1811	Survivin
+T125	missed_gene 1833 1839	Aurora
+R27	located_in Arg1:T122 Arg2:T56	
+R28	located_in Arg1:T122 Arg2:T121	
+R29	located_in Arg1:T123 Arg2:T56	
+R30	located_in Arg1:T123 Arg2:T121	
+R31	located_in Arg1:T58 Arg2:T56	
+R32	located_in Arg1:T58 Arg2:T121	
+R33	located_in Arg1:T124 Arg2:T56	
+R34	located_in Arg1:T124 Arg2:T121	
+R35	located_in Arg1:T59 Arg2:T56	
+R36	located_in Arg1:T59 Arg2:T121	
+R37	located_in Arg1:T60 Arg2:T56	
+R38	located_in Arg1:T60 Arg2:T121	
+R39	located_in Arg1:T61 Arg2:T56	
+R40	located_in Arg1:T61 Arg2:T121	
+R41	located_in Arg1:T125 Arg2:T56	
+R42	located_in Arg1:T125 Arg2:T121	
+R43	located_in Arg1:T70 Arg2:T69	
+R44	located_in Arg1:T78 Arg2:T77	
+T126	missed_gene 2525 2538	synaptobrevin
+T127	missed_gene 2544 2557	synaptotagmin
+R45	located_in Arg1:T126 Arg2:T77	
+R46	located_in Arg1:T127 Arg2:T77	
+T128	missed_gene 2611 2619	syntaxin
+R47	located_in Arg1:T128 Arg2:T79	
+R48	located_in Arg1:T80 Arg2:T79	
+R49	located_in Arg1:T82 Arg2:T81	
+R50	located_in Arg1:T84 Arg2:T83	
+R51	located_in Arg1:T93 Arg2:T92	
+R52	located_in Arg1:T94 Arg2:T92	
+R53	located_in Arg1:T95 Arg2:T92	
+R54	located_in Arg1:T97 Arg2:T96	
+R55	located_in Arg1:T98 Arg2:T96	
+R56	located_in Arg1:T110 Arg2:T111	
+T129	missed_gene 3281 3291	p80 coilin
+R57	located_in Arg1:T129 Arg2:T111	

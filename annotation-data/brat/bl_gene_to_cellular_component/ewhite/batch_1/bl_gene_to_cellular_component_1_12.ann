@@ -135,3 +135,33 @@ T134	cellular_component 3581 3589	integrin
 T135	gene 3602 3606	Shp2
 T136	gene 3607 3610	Src
 T137	gene 3643 3646	HGF
+T138	corrected_gene 639 652	p70 S6 kinase
+R1	located_in Arg1:T138 Arg2:T25	
+T139	missed_gene 1065 1068	Csk
+R2	located_in Arg1:T139 Arg2:T38	
+T140	missed_cellular_component 943 955	cytoskeletal
+T141	corrected_gene 964 1017	ezrin-radixin-moesin-binding phosphoprotein of 50 kDa
+R3	located_in Arg1:T141 Arg2:T140	
+T142	corrected_gene 1173 1184	NRG1 III-?3
+R4	located_in Arg1:T142 Arg2:T41	
+R5	located_in Arg1:T51 Arg2:T50	
+R6	located_in Arg1:T52 Arg2:T50	
+T143	corrected_gene 1346 1356	Dvl3/Axin2
+R7	located_in Arg1:T143 Arg2:T50	
+R8	located_in Arg1:T87 Arg2:T85	
+T144	missed_cellular_component 2307 2315	membrane
+R9	located_in Arg1:T87 Arg2:T144	
+T145	missed_gene 2262 2265	LC3
+R10	located_in Arg1:T145 Arg2:T82	
+R11	located_in Arg1:T108 Arg2:T110	
+R12	located_in Arg1:T107 Arg2:T110	
+R13	located_in Arg1:T107 Arg2:T109	
+R14	located_in Arg1:T108 Arg2:T109	
+T146	missed_cellular_component 3146 3153	nuclear
+R15	located_in Arg1:T114 Arg2:T146	
+T147	corrected_gene 3115 3137	integrin-linked kinase
+R16	located_in Arg1:T147 Arg2:T115	
+R17	located_in Arg1:T114 Arg2:T115	
+T148	corrected_gene 3333 3363	beta-amyloid precursor protein
+R18	located_in Arg1:T148 Arg2:T121	
+R19	located_in Arg1:T148 Arg2:T120	

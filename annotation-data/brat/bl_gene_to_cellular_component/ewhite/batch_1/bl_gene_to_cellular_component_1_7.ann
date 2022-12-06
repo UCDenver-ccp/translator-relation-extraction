@@ -116,3 +116,34 @@ T115	gene 2985 2988	CD4
 T116	gene 3030 3035	SMP30
 T117	cellular_component 3061 3067	nuclei
 T118	cellular_component 3072 3081	cytoplasm
+R1	located_in Arg1:T17 Arg2:T18	
+T119	corrected_gene 389 402	LPA1 receptor
+R2	located_in Arg1:T119 Arg2:T18	
+T120	missed_cellular_component 549 556	nuclear
+R3	located_in Arg1:T19 Arg2:T120	
+R4	located_in Arg1:T20 Arg2:T120	
+R5	located_in Arg1:T36 Arg2:T37	
+R6	located_in Arg1:T45 Arg2:T44	
+R7	located_in Arg1:T40 Arg2:T44	
+T121	corrected_gene 1096 1103	Noggin1
+R8	located_in Arg1:T121 Arg2:T44	
+T122	corrected_cellular_component 1843 1875	cytoplasmic nuclear pore complex
+T123	corrected_cellular_component 1843 1854;1877 1880	cytoplasmic NPC
+R9	located_in Arg1:T69 Arg2:T122	
+R10	located_in Arg1:T68 Arg2:T122	
+R11	located_in Arg1:T67 Arg2:T122	
+R12	located_in Arg1:T66 Arg2:T122	
+R13	located_in Arg1:T69 Arg2:T123	
+R14	located_in Arg1:T68 Arg2:T123	
+R15	located_in Arg1:T67 Arg2:T123	
+R16	located_in Arg1:T66 Arg2:T123	
+R19	located_in Arg1:T96 Arg2:T97	
+R20	located_in Arg1:T95 Arg2:T97	
+T125	missed_gene 2811 2821	G-proteins
+R21	located_in Arg1:T125 Arg2:T107	
+R22	located_in Arg1:T116 Arg2:T117	
+R23	located_in Arg1:T116 Arg2:T118	
+T126	missed_gene 3036 3039	GNL
+R24	located_in Arg1:T126 Arg2:T117	
+R25	located_in Arg1:T126 Arg2:T118	
+T127	missed_cellular_component 2744 2756	cytoskeletal

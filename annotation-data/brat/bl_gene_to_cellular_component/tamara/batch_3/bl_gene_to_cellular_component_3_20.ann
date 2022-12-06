@@ -117,3 +117,8 @@ T116	gene 2994 2997	APC
 T117	gene 3012 3016	Wee1
 T118	gene 3020 3024	cdk1
 T119	gene 3056 3060	Fcp1
+R1	located_in Arg1:T3 Arg2:T2	
+R2	located_in Arg1:T4 Arg2:T2	
+R3	located_in Arg1:T29 Arg2:T28	
+R4	located_in Arg1:T60 Arg2:T59	
+R5	located_in Arg1:T84 Arg2:T85	

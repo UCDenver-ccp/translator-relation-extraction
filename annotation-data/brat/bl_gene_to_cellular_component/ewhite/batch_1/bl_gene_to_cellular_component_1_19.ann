@@ -135,3 +135,87 @@ T134	gene 3513 3517	GHBP
 T135	cellular_component 3538 3551	extracellular
 T136	cellular_component 3566 3574	membrane
 T137	gene 3586 3597	GH receptor
+T138	corrected_gene 0 24	Spectrin repeat proteins
+R1	located_in Arg1:T138 Arg2:T3	
+R2	located_in Arg1:T26 Arg2:T25	
+R3	located_in Arg1:T27 Arg2:T25	
+R4	located_in Arg1:T30 Arg2:T28	
+T139	missed_gene 694 699	Cdc29
+R5	located_in Arg1:T139 Arg2:T28	
+R6	located_in Arg1:T31 Arg2:T28	
+R7	located_in Arg1:T32 Arg2:T28	
+R8	located_in Arg1:T33 Arg2:T28	
+T140	missed_gene 736 739	Gpt
+R9	located_in Arg1:T140 Arg2:T28	
+T141	missed_gene 748 752	Cars
+R10	located_in Arg1:T141 Arg2:T28	
+T142	missed_gene 757 761	Dars
+R11	located_in Arg1:T142 Arg2:T28	
+R12	located_in Arg1:T55 Arg2:T52	
+R13	located_in Arg1:T56 Arg2:T52	
+R14	located_in Arg1:T60 Arg2:T59	
+R15	located_in Arg1:T64 Arg2:T63	
+T143	missed_cellular_component 1830 1844	tight junction
+T144	corrected_gene 1853 1856	ZO1
+R16	located_in Arg1:T144 Arg2:T143	
+R17	located_in Arg1:T69 Arg2:T70	
+R18	located_in Arg1:T69 Arg2:T71	
+T145	missed_gene 1897 1901	SelR
+R19	located_in Arg1:T145 Arg2:T70	
+R20	located_in Arg1:T145 Arg2:T71	
+R21	located_in Arg1:T72 Arg2:T74	
+R22	located_in Arg1:T73 Arg2:T74	
+R23	located_in Arg1:T77 Arg2:T76	
+R24	located_in Arg1:T78 Arg2:T76	
+R25	located_in Arg1:T80 Arg2:T79	
+R26	located_in Arg1:T81 Arg2:T79	
+R27	located_in Arg1:T82 Arg2:T83	
+T146	corrected_gene 2801 2817	Ins P3 receptor.
+R28	located_in Arg1:T146 Arg2:T99	
+R29	located_in Arg1:T102 Arg2:T101	
+R30	located_in Arg1:T103 Arg2:T101	
+R31	located_in Arg1:T104 Arg2:T101	
+R32	located_in Arg1:T105 Arg2:T101	
+R33	located_in Arg1:T106 Arg2:T101	
+R34	located_in Arg1:T109 Arg2:T121	
+R35	located_in Arg1:T108 Arg2:T121	
+R36	located_in Arg1:T107 Arg2:T121	
+T147	missed_gene 3032 3037	Farsb
+T148	corrected_gene 3039 3043	Nars
+R37	located_in Arg1:T147 Arg2:T121	
+R38	located_in Arg1:T148 Arg2:T121	
+R39	located_in Arg1:T110 Arg2:T121	
+R40	located_in Arg1:T112 Arg2:T121	
+T149	missed_gene 3084 3087	Nsf
+R41	located_in Arg1:T149 Arg2:T121	
+R42	located_in Arg1:T120 Arg2:T121	
+R43	located_in Arg1:T119 Arg2:T121	
+R44	located_in Arg1:T118 Arg2:T121	
+R45	located_in Arg1:T117 Arg2:T121	
+R46	located_in Arg1:T116 Arg2:T121	
+R47	located_in Arg1:T115 Arg2:T121	
+R48	located_in Arg1:T114 Arg2:T121	
+R49	located_in Arg1:T113 Arg2:T121	
+R50	located_in Arg1:T124 Arg2:T123	
+R51	located_in Arg1:T124 Arg2:T122	
+T150	missed_gene 3366 3371	HNRPF
+R52	located_in Arg1:T150 Arg2:T123	
+R53	located_in Arg1:T150 Arg2:T122	
+R54	located_in Arg1:T125 Arg2:T123	
+R55	located_in Arg1:T125 Arg2:T122	
+T151	missed_gene 3373 3378	HNRPC
+R56	located_in Arg1:T151 Arg2:T123	
+R57	located_in Arg1:T151 Arg2:T122	
+T152	corrected_gene 3387 3391	PSA1
+R58	located_in Arg1:T152 Arg2:T123	
+R59	located_in Arg1:T152 Arg2:T122	
+R60	located_in Arg1:T130 Arg2:T129	
+R61	located_in Arg1:T127 Arg2:T122	
+R62	located_in Arg1:T127 Arg2:T123	
+R63	located_in Arg1:T130 Arg2:T128	
+R64	located_in Arg1:T131 Arg2:T129	
+R65	located_in Arg1:T131 Arg2:T128	
+R66	located_in Arg1:T132 Arg2:T129	
+R67	located_in Arg1:T132 Arg2:T128	
+R68	located_in Arg1:T137 Arg2:T136	
+R69	located_in Arg1:T137 Arg2:T135	

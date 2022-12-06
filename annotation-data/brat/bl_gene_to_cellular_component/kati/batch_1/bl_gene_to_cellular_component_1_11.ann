@@ -124,3 +124,36 @@ T123	cellular_component 3684 3688	Smad
 T124	gene 3699 3704	Smad1
 T125	gene 3706 3711	Smad5
 T126	gene 3717 3722	Smad9
+T127	missed_gene 0 8	Nesprins
+R1	located_in Arg1:T127 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T1	
+R3	located_in Arg1:T5 Arg2:T1	
+T128	corrected_gene 704 720	type VI collagen
+R4	located_in Arg1:T128 Arg2:T28	
+R5	located_in Arg1:T33 Arg2:T36	
+R6	located_in Arg1:T34 Arg2:T36	
+R7	located_in Arg1:T35 Arg2:T36	
+T129	corrected_cellular_component 880 902	intracellular vesicles
+R8	located_in Arg1:T39 Arg2:T129	
+R9	located_in Arg1:T33 Arg2:T129	
+R10	located_in Arg1:T40 Arg2:T129	
+T130	missed_gene 1225 1242	membrane proteins
+R11	located_in Arg1:T130 Arg2:T50	
+T131	missed_gene 1157 1162	actin
+R12	located_in Arg1:T131 Arg2:T48	
+T132	corrected_gene 1431 1435	MAN1
+R13	located_in Arg1:T132 Arg2:T55	
+R14	located_in Arg1:T58 Arg2:T57	
+R15	located_in Arg1:T59 Arg2:T57	
+T133	missed_gene 1501 1505	NuMA
+R16	located_in Arg1:T133 Arg2:T60	
+R17	located_in Arg1:T61 Arg2:T60	
+R18	located_in Arg1:T83 Arg2:T86	
+R19	located_in Arg1:T84 Arg2:T86	
+R20	located_in Arg1:T85 Arg2:T86	
+T134	missed_gene 2329 2351	thioredoxin peroxidase
+R21	located_in Arg1:T90 Arg2:T89	
+T135	missed_gene 2457 2475	T3-binding protein
+R22	located_in Arg1:T135 Arg2:T89	
+T136	missed_gene 2491 2495	CRYM
+R23	located_in Arg1:T136 Arg2:T89	

@@ -114,3 +114,52 @@ T113	gene 3280 3285	BMP-2
 T114	gene 3301 3328	G-protein coupled receptors
 T115	gene 3330 3335	GPCRs
 T116	cellular_component 3369 3377	membrane
+R1	located_in Arg1:T4 Arg2:T5	
+R2	located_in Arg1:T3 Arg2:T5	
+R3	located_in Arg1:T2 Arg2:T5	
+R4	located_in Arg1:T1 Arg2:T5	
+R5	located_in Arg1:T6 Arg2:T7	
+R6	located_in Arg1:T13 Arg2:T14	
+R7	located_in Arg1:T8 Arg2:T11	
+R8	located_in Arg1:T9 Arg2:T11	
+T117	corrected_gene 229 247	F-box protein FWD1
+R9	located_in Arg1:T117 Arg2:T11	
+T118	missed_gene 249 256	SCFFWD1
+R10	located_in Arg1:T118 Arg2:T11	
+R11	located_in Arg1:T15 Arg2:T14	
+R12	located_in Arg1:T12 Arg2:T11	
+T120	missed_cellular_component 607 609	ER
+T121	missed_gene 627 631	CALU
+R18	located_in Arg1:T21 Arg2:T120	
+R19	located_in Arg1:T121 Arg2:T120	
+R20	located_in Arg1:T22 Arg2:T120	
+T122	missed_gene 775 779	CTSB
+T123	missed_gene 798 802	CTSD
+R21	located_in Arg1:T30 Arg2:T29	
+R22	located_in Arg1:T122 Arg2:T29	
+R23	located_in Arg1:T31 Arg2:T29	
+R24	located_in Arg1:T123 Arg2:T29	
+R25	located_in Arg1:T33 Arg2:T34	
+R26	located_in Arg1:T32 Arg2:T34	
+T124	missed_cellular_component 1378 1385	nuclear
+R27	located_in Arg1:T48 Arg2:T124	
+R28	located_in Arg1:T48 Arg2:T47	
+R34	located_in Arg1:T69 Arg2:T70	
+R35	located_in Arg1:T71 Arg2:T70	
+T130	corrected_gene 2139 2164	Heterochromatin protein 1
+R36	located_in Arg1:T130 Arg2:T74	
+R37	located_in Arg1:T73 Arg2:T74	
+R38	located_in Arg1:T75 Arg2:T79	
+R39	located_in Arg1:T75 Arg2:T80	
+R40	located_in Arg1:T77 Arg2:T79	
+R41	located_in Arg1:T77 Arg2:T80	
+R42	located_in Arg1:T78 Arg2:T79	
+R43	located_in Arg1:T78 Arg2:T80	
+R44	located_in Arg1:T87 Arg2:T85	
+R45	located_in Arg1:T87 Arg2:T86	
+R46	located_in Arg1:T102 Arg2:T101	
+T131	missed_gene 3019 3022	NPM
+R47	located_in Arg1:T131 Arg2:T101	
+R48	located_in Arg1:T104 Arg2:T106	
+R49	located_in Arg1:T115 Arg2:T116	
+R50	located_in Arg1:T114 Arg2:T116	

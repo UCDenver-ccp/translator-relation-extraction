@@ -116,3 +116,20 @@ T115	gene 3223 3255	Epidermal growth factor receptor
 T116	gene 3257 3261	EGFR
 T117	gene 3316 3320	EGFR
 T118	cellular_component 3342 3352	antibodies
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T16 Arg2:T20	
+T119	missed_gene 358 363	talin
+R3	located_in Arg1:T119 Arg2:T20	
+R4	located_in Arg1:T17 Arg2:T20	
+R5	located_in Arg1:T18 Arg2:T20	
+R6	located_in Arg1:T55 Arg2:T54	
+R7	located_in Arg1:T57 Arg2:T59	
+R8	located_in Arg1:T57 Arg2:T60	
+R9	located_in Arg1:T58 Arg2:T59	
+R10	located_in Arg1:T58 Arg2:T60	
+T120	missed_gene 2132 2151	actin cytoplasmic 1
+R11	located_in Arg1:T95 Arg2:T96	
+R12	located_in Arg1:T106 Arg2:T108	
+R13	located_in Arg1:T106 Arg2:T109	
+R14	located_in Arg1:T107 Arg2:T108	
+R15	located_in Arg1:T107 Arg2:T109	

@@ -144,3 +144,50 @@ T143	gene 3933 3958	tropomyosin alpha-4-chain
 T144	gene 3960 3997	dihydropyrimidinase-related protein-5
 T145	cellular_component 4054 4064	proteasome
 T146	cellular_component 4245 4266	endoplasmic reticulum
+R1	located_in Arg1:T4 Arg2:T3	
+T147	missed_cellular_component 170 177	nuclear
+R2	located_in Arg1:T7 Arg2:T147	
+T148	missed_gene 216 233	GR(alpha) protein
+R3	located_in Arg1:T148 Arg2:T10	
+T149	missed_gene 390 427	mitochondrial glutamate dehydrogenase
+R4	located_in Arg1:T149 Arg2:T13	
+R5	located_in Arg1:T26 Arg2:T27	
+R6	located_in Arg1:T25 Arg2:T27	
+R7	located_in Arg1:T24 Arg2:T27	
+R8	located_in Arg1:T23 Arg2:T27	
+R9	located_in Arg1:T29 Arg2:T30	
+R10	located_in Arg1:T29 Arg2:T31	
+R11	located_in Arg1:T28 Arg2:T30	
+R12	located_in Arg1:T28 Arg2:T31	
+R13	located_in Arg1:T32 Arg2:T33	
+R14	located_in Arg1:T34 Arg2:T35	
+R15	located_in Arg1:T47 Arg2:T50	
+R16	located_in Arg1:T48 Arg2:T50	
+R17	located_in Arg1:T49 Arg2:T50	
+R18	located_in Arg1:T49 Arg2:T51	
+R19	located_in Arg1:T48 Arg2:T51	
+R20	located_in Arg1:T47 Arg2:T51	
+T150	missed_gene 1609 1653	endoplasmic reticulum to nucleus signaling 1
+R21	located_in Arg1:T54 Arg2:T55	
+R22	located_in Arg1:T150 Arg2:T55	
+R23	located_in Arg1:T75 Arg2:T76	
+R24	located_in Arg1:T74 Arg2:T76	
+R25	located_in Arg1:T80 Arg2:T81	
+R26	located_in Arg1:T79 Arg2:T81	
+R27	located_in Arg1:T78 Arg2:T81	
+T151	missed_gene 2358 2395	mini chromosome maintenance complex 2
+R28	located_in Arg1:T151 Arg2:T86	
+T152	missed_gene 2550 2553	L9e
+T153	missed_gene 2555 2559	L13e
+T154	missed_gene 2565 2568	S4e
+R29	located_in Arg1:T152 Arg2:T96	
+R30	located_in Arg1:T153 Arg2:T96	
+R31	located_in Arg1:T154 Arg2:T96	
+R32	located_in Arg1:T105 Arg2:T104	
+R33	located_in Arg1:T102 Arg2:T104	
+R34	located_in Arg1:T103 Arg2:T104	
+R35	located_in Arg1:T135 Arg2:T136	
+R36	located_in Arg1:T142 Arg2:T141	
+R37	located_in Arg1:T143 Arg2:T141	
+T155	missed_gene 4245 4273	endoplasmic reticulum ATPase
+R38	located_in Arg1:T155 Arg2:T146	

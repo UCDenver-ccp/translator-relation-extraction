@@ -149,3 +149,28 @@ T148	gene 4027 4031	ERK1
 T149	gene 4036 4039	p38
 T150	gene 4067 4070	AP1
 T151	gene 4077 4083	CTNNB1
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+T152	missed_gene 127 130	ERK
+R3	located_in Arg1:T152 Arg2:T1	
+R4	located_in Arg1:T4 Arg2:T1	
+R5	located_in Arg1:T5 Arg2:T1	
+R6	located_in Arg1:T6 Arg2:T1	
+R7	located_in Arg1:T7 Arg2:T1	
+T153	missed_cellular_component 1519 1524	Lamin
+R8	located_in Arg1:T59 Arg2:T153	
+R9	located_in Arg1:T61 Arg2:T60	
+R10	located_in Arg1:T62 Arg2:T60	
+T154	missed_gene 1636 1639	LBR
+R11	located_in Arg1:T154 Arg2:T60	
+T155	missed_gene 1645 1653	nesprins
+R12	located_in Arg1:T155 Arg2:T60	
+R13	located_in Arg1:T64 Arg2:T63	
+T156	missed_cellular_component 1696 1702	lamina
+T157	missed_gene 1727 1736	LAP2alpha
+R14	located_in Arg1:T157 Arg2:T156	
+T158	missed_gene 2700 2705	ERp29
+T159	missed_gene 2666 2698	endoplasmic reticulum protein 29
+R15	located_in Arg1:T159 Arg2:T102	
+R16	located_in Arg1:T158 Arg2:T102	
+R17	located_in Arg1:T123 Arg2:T124	

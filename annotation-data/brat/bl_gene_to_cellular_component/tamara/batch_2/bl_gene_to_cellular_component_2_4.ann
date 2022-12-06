@@ -113,3 +113,24 @@ T112	gene 2901 2933	mitogen-activated protein kinase
 T113	cellular_component 2976 2985	integrins
 T114	gene 2976 2985	integrins
 T115	gene 3019 3028	trophinin
+R1	located_in Arg1:T3 Arg2:T4	
+R2	located_in Arg1:T8 Arg2:T7	
+T116	missed_gene 260 275	beta1 integrins
+R3	located_in Arg1:T116 Arg2:T12	
+T117	missed_gene 657 669	cytochrome?c
+R4	located_in Arg1:T117 Arg2:T24	
+R5	located_in Arg1:T29 Arg2:T30	
+R6	located_in Arg1:T31 Arg2:T32	
+R7	located_in Arg1:T48 Arg2:T47	
+R8	located_in Arg1:T50 Arg2:T47	
+R9	located_in Arg1:T51 Arg2:T47	
+R10	located_in Arg1:T50 Arg2:T49	
+R11	located_in Arg1:T51 Arg2:T49	
+T118	missed_gene 1343 1345	L4
+R12	located_in Arg1:T118 Arg2:T52	
+R13	located_in Arg1:T72 Arg2:T73	
+R14	located_in Arg1:T98 Arg2:T99	
+T119	missed_gene 2709 2723	MMP-9 proteins
+R15	located_in Arg1:T119 Arg2:T105	
+R16	located_in Arg1:T119 Arg2:T104	
+R17	located_in Arg1:T108 Arg2:T107	

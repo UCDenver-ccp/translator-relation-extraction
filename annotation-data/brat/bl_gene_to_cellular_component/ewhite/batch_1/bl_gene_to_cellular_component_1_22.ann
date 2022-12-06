@@ -124,3 +124,57 @@ T123	gene 3360 3365	MTMR4
 T124	gene 3378 3381	BMP
 T125	cellular_component 3420 3424	Smad
 T126	gene 3420 3424	Smad
+R1	located_in Arg1:T28 Arg2:T29	
+R2	located_in Arg1:T27 Arg2:T29	
+R3	located_in Arg1:T33 Arg2:T31	
+T127	corrected_gene 877 914	TIM23 protein import complex receptor
+R4	located_in Arg1:T127 Arg2:T31	
+R5	located_in Arg1:T127 Arg2:T30	
+R6	located_in Arg1:T33 Arg2:T30	
+R7	located_in Arg1:T34 Arg2:T35	
+R8	located_in Arg1:T36 Arg2:T35	
+R9	located_in Arg1:T37 Arg2:T35	
+T128	corrected_gene 1059 1063	Rab3
+R10	located_in Arg1:T128 Arg2:T38	
+R11	located_in Arg1:T40 Arg2:T38	
+T129	missed_cellular_component 1094 1105	melanosomes
+R12	located_in Arg1:T42 Arg2:T129	
+R13	located_in Arg1:T43 Arg2:T129	
+R14	located_in Arg1:T43 Arg2:T44	
+R15	located_in Arg1:T42 Arg2:T44	
+R16	located_in Arg1:T40 Arg2:T41	
+R17	located_in Arg1:T128 Arg2:T41	
+T130	missed_cellular_component 1234 1241	nuclear
+R18	located_in Arg1:T46 Arg2:T130	
+R19	located_in Arg1:T47 Arg2:T48	
+T131	missed_cellular_component 1405 1412	nuclear
+R20	located_in Arg1:T52 Arg2:T131	
+R21	located_in Arg1:T58 Arg2:T57	
+T132	missed_cellular_component 1768 1775	nuclear
+T133	corrected_gene 1797 1803	R-Smad
+T134	corrected_gene 1804 1809	Smad4
+R22	located_in Arg1:T134 Arg2:T132	
+R23	located_in Arg1:T133 Arg2:T132	
+T135	corrected_gene 1797 1817	R-Smad.Smad4 complex
+R24	located_in Arg1:T135 Arg2:T132	
+R25	located_in Arg1:T71 Arg2:T72	
+R26	located_in Arg1:T99 Arg2:T98	
+R27	located_in Arg1:T99 Arg2:T100	
+T136	corrected_cellular_component 2752 2774	cell surface membranes
+R28	located_in Arg1:T103 Arg2:T136	
+R29	located_in Arg1:T101 Arg2:T136	
+R30	located_in Arg1:T102 Arg2:T136	
+R31	located_in Arg1:T107 Arg2:T136	
+T137	missed_gene 2802 2806	IRAP
+R32	located_in Arg1:T137 Arg2:T136	
+T138	missed_gene 2793 2796	TfR
+R33	located_in Arg1:T138 Arg2:T136	
+T139	missed_gene 3029 3039	aquaporins
+R34	located_in Arg1:T139 Arg2:T112	
+T140	corrected_gene 2952 2999	endoplasmic reticulum luminal-binding protein 2
+R35	located_in Arg1:T140 Arg2:T111	
+T141	missed_cellular_component 3173 3183	microvilli
+R36	located_in Arg1:T116 Arg2:T141	
+R37	located_in Arg1:T113 Arg2:T114	
+T142	missed_gene 3131 3139	harmonin
+R38	located_in Arg1:T142 Arg2:T141	

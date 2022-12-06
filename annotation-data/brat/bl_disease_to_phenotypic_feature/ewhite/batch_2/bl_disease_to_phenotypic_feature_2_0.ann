@@ -1,100 +1,100 @@
-T1	disease 16 25	blindness
-T2	phenotypic_feature 16 25	blindness
-T3	phenotypic_feature 30 47	visual impairment
-T4	disease 30 47	visual impairment
-T5	phenotypic_feature 134 153	renal malformations
-T6	phenotypic_feature 155 168	heart defects
-T7	disease 155 168	heart defects
-T8	phenotypic_feature 170 183	hydrocephalus
-T9	disease 170 183	hydrocephalus
-T10	disease 226 252	Sensorineural hearing loss
-T11	phenotypic_feature 226 252	Sensorineural hearing loss
-T12	disease 257 265	cataract
-T13	phenotypic_feature 257 265	cataract
-T14	disease 338 355	hyperphosphatemia
-T15	phenotypic_feature 338 355	hyperphosphatemia
-T16	phenotypic_feature 359 377	hypoparathyroidism
-T17	disease 359 377	hypoparathyroidism
-T18	disease 414 420	ataxia
-T19	phenotypic_feature 414 420	ataxia
-T20	phenotypic_feature 422 444	sensorineural deafness
-T21	disease 422 444	sensorineural deafness
-T22	disease 458 466	syndrome
-T23	phenotypic_feature 497 506	blindness
-T24	disease 497 506	blindness
-T25	phenotypic_feature 511 528	vision impairment
-T26	disease 511 528	vision impairment
-T27	disease 563 571	cataract
-T28	phenotypic_feature 563 571	cataract
-T29	phenotypic_feature 623 634	gait ataxia
-T30	disease 636 657	peripheral neuropathy
-T31	phenotypic_feature 636 657	peripheral neuropathy
-T32	phenotypic_feature 663 683	cognitive impairment
-T33	disease 694 713	parathyroid adenoma
-T34	disease 727 745	cortical blindness
-T35	phenotypic_feature 750 763	hypercalcemic
-T36	disease 750 763	hypercalcemic
-T37	phenotypic_feature 764 778	encephalopathy
-T38	disease 795 806	sleep apnea
-T39	phenotypic_feature 795 806	sleep apnea
-T40	disease 816 824	syndrome
-T41	phenotypic_feature 844 865	systemic hypertension
-T42	disease 867 889	ischemic heart disease
-T43	phenotypic_feature 891 915	congestive heart failure
-T44	disease 891 915	congestive heart failure
-T45	phenotypic_feature 964 988	congestive heart failure
-T46	disease 1012 1023	lymphopenia
-T47	phenotypic_feature 1025 1033	seizures
-T48	disease 1057 1070	renal failure
-T49	phenotypic_feature 1057 1070	renal failure
-T50	disease 1087 1108	Bardet-Biedl Syndrome
-T51	disease 1110 1113	BBS
-T52	phenotypic_feature 1181 1199	mental retardation
-T53	disease 1201 1208	obesity
-T54	phenotypic_feature 1201 1208	obesity
-T55	disease 1210 1230	retinitis pigmentosa
-T56	phenotypic_feature 1232 1242	syndactyly
-T57	phenotypic_feature 1250 1261	polydactyly
-T58	phenotypic_feature 1263 1276	short stature
-T59	phenotypic_feature 1282 1296	hypogenitalism
-T60	phenotypic_feature 1354 1375	Autonomic dysfunction
-T61	disease 1377 1398	peripheral neuropathy
-T62	phenotypic_feature 1377 1398	peripheral neuropathy
-T63	phenotypic_feature 1433 1450	visual impairment
-T64	disease 1433 1450	visual impairment
-T65	disease 1455 1464	blindness
-T66	phenotypic_feature 1455 1464	blindness
-T67	disease 1480 1489	blindness
-T68	phenotypic_feature 1480 1489	blindness
-T69	disease 1505 1514	blindness
-T70	phenotypic_feature 1505 1514	blindness
-T71	disease 1586 1605	congenital glaucoma
-T72	phenotypic_feature 1607 1620	hypertelorism
-T73	phenotypic_feature 1622 1646	congenital heart defects
-T74	disease 1622 1646	congenital heart defects
-T75	phenotypic_feature 1667 1685	skeletal dysplasia
-T76	disease 1667 1685	skeletal dysplasia
-T77	disease 1723 1731	syndrome
-T78	phenotypic_feature 1735 1747	microcephaly
-T79	disease 1735 1747	microcephaly
-T80	phenotypic_feature 1762 1780	mental retardation
-T81	phenotypic_feature 1786 1794	seizures
-T82	phenotypic_feature 1802 1809	obesity
-T83	disease 1802 1809	obesity
-T84	disease 1829 1840	infertility
-T85	phenotypic_feature 1861 1868	obesity
-T86	disease 1861 1868	obesity
-T87	phenotypic_feature 1934 1953	nausea and vomiting
-T88	disease 1955 1964	diarrhoea
-T89	disease 1966 1973	anaemia
-T90	disease 1975 1991	thrombocytopenia
-T91	disease 1997 2018	peripheral neuropathy
-T92	phenotypic_feature 1997 2018	peripheral neuropathy
-T93	phenotypic_feature 2082 2092	joint pain
-T94	disease 2094 2107	angiokeratoma
-T95	disease 2109 2126	corneal dystrophy
-T96	phenotypic_feature 2144 2154	anhydrosis
-T97	phenotypic_feature 2160 2173	renal failure
-T98	disease 2160 2173	renal failure
-T99	phenotypic_feature 2189 2202	hydrocephalus
-T100	disease 2189 2202	hydrocephalus
+T1	disease_or_phenotypic_feature 16 25	blindness
+T2	disease_or_phenotypic_feature 16 25	blindness
+T3	disease_or_phenotypic_feature 30 47	visual impairment
+T4	disease_or_phenotypic_feature 30 47	visual impairment
+T5	disease_or_phenotypic_feature 134 153	renal malformations
+T6	disease_or_phenotypic_feature 155 168	heart defects
+T7	disease_or_phenotypic_feature 155 168	heart defects
+T8	disease_or_phenotypic_feature 170 183	hydrocephalus
+T9	disease_or_phenotypic_feature 170 183	hydrocephalus
+T10	disease_or_phenotypic_feature 226 252	Sensorineural hearing loss
+T11	disease_or_phenotypic_feature 226 252	Sensorineural hearing loss
+T12	disease_or_phenotypic_feature 257 265	cataract
+T13	disease_or_phenotypic_feature 257 265	cataract
+T14	disease_or_phenotypic_feature 338 355	hyperphosphatemia
+T15	disease_or_phenotypic_feature 338 355	hyperphosphatemia
+T16	disease_or_phenotypic_feature 359 377	hypoparathyroidism
+T17	disease_or_phenotypic_feature 359 377	hypoparathyroidism
+T18	disease_or_phenotypic_feature 414 420	ataxia
+T19	disease_or_phenotypic_feature 414 420	ataxia
+T20	disease_or_phenotypic_feature 422 444	sensorineural deafness
+T21	disease_or_phenotypic_feature 422 444	sensorineural deafness
+T22	disease_or_phenotypic_feature 458 466	syndrome
+T23	disease_or_phenotypic_feature 497 506	blindness
+T24	disease_or_phenotypic_feature 497 506	blindness
+T25	disease_or_phenotypic_feature 511 528	vision impairment
+T26	disease_or_phenotypic_feature 511 528	vision impairment
+T27	disease_or_phenotypic_feature 563 571	cataract
+T28	disease_or_phenotypic_feature 563 571	cataract
+T29	disease_or_phenotypic_feature 623 634	gait ataxia
+T30	disease_or_phenotypic_feature 636 657	peripheral neuropathy
+T31	disease_or_phenotypic_feature 636 657	peripheral neuropathy
+T32	disease_or_phenotypic_feature 663 683	cognitive impairment
+T33	disease_or_phenotypic_feature 694 713	parathyroid adenoma
+T34	disease_or_phenotypic_feature 727 745	cortical blindness
+T35	disease_or_phenotypic_feature 750 763	hypercalcemic
+T36	disease_or_phenotypic_feature 750 763	hypercalcemic
+T37	disease_or_phenotypic_feature 764 778	encephalopathy
+T38	disease_or_phenotypic_feature 795 806	sleep apnea
+T39	disease_or_phenotypic_feature 795 806	sleep apnea
+T40	disease_or_phenotypic_feature 816 824	syndrome
+T41	disease_or_phenotypic_feature 844 865	systemic hypertension
+T42	disease_or_phenotypic_feature 867 889	ischemic heart disease
+T43	disease_or_phenotypic_feature 891 915	congestive heart failure
+T44	disease_or_phenotypic_feature 891 915	congestive heart failure
+T45	disease_or_phenotypic_feature 964 988	congestive heart failure
+T46	disease_or_phenotypic_feature 1012 1023	lymphopenia
+T47	disease_or_phenotypic_feature 1025 1033	seizures
+T48	disease_or_phenotypic_feature 1057 1070	renal failure
+T49	disease_or_phenotypic_feature 1057 1070	renal failure
+T50	disease_or_phenotypic_feature 1087 1108	Bardet-Biedl Syndrome
+T51	disease_or_phenotypic_feature 1110 1113	BBS
+T52	disease_or_phenotypic_feature 1181 1199	mental retardation
+T53	disease_or_phenotypic_feature 1201 1208	obesity
+T54	disease_or_phenotypic_feature 1201 1208	obesity
+T55	disease_or_phenotypic_feature 1210 1230	retinitis pigmentosa
+T56	disease_or_phenotypic_feature 1232 1242	syndactyly
+T57	disease_or_phenotypic_feature 1250 1261	polydactyly
+T58	disease_or_phenotypic_feature 1263 1276	short stature
+T59	disease_or_phenotypic_feature 1282 1296	hypogenitalism
+T60	disease_or_phenotypic_feature 1354 1375	Autonomic dysfunction
+T61	disease_or_phenotypic_feature 1377 1398	peripheral neuropathy
+T62	disease_or_phenotypic_feature 1377 1398	peripheral neuropathy
+T63	disease_or_phenotypic_feature 1433 1450	visual impairment
+T64	disease_or_phenotypic_feature 1433 1450	visual impairment
+T65	disease_or_phenotypic_feature 1455 1464	blindness
+T66	disease_or_phenotypic_feature 1455 1464	blindness
+T67	disease_or_phenotypic_feature 1480 1489	blindness
+T68	disease_or_phenotypic_feature 1480 1489	blindness
+T69	disease_or_phenotypic_feature 1505 1514	blindness
+T70	disease_or_phenotypic_feature 1505 1514	blindness
+T71	disease_or_phenotypic_feature 1586 1605	congenital glaucoma
+T72	disease_or_phenotypic_feature 1607 1620	hypertelorism
+T73	disease_or_phenotypic_feature 1622 1646	congenital heart defects
+T74	disease_or_phenotypic_feature 1622 1646	congenital heart defects
+T75	disease_or_phenotypic_feature 1667 1685	skeletal dysplasia
+T76	disease_or_phenotypic_feature 1667 1685	skeletal dysplasia
+T77	disease_or_phenotypic_feature 1723 1731	syndrome
+T78	disease_or_phenotypic_feature 1735 1747	microcephaly
+T79	disease_or_phenotypic_feature 1735 1747	microcephaly
+T80	disease_or_phenotypic_feature 1762 1780	mental retardation
+T81	disease_or_phenotypic_feature 1786 1794	seizures
+T82	disease_or_phenotypic_feature 1802 1809	obesity
+T83	disease_or_phenotypic_feature 1802 1809	obesity
+T84	disease_or_phenotypic_feature 1829 1840	infertility
+T85	disease_or_phenotypic_feature 1861 1868	obesity
+T86	disease_or_phenotypic_feature 1861 1868	obesity
+T87	disease_or_phenotypic_feature 1934 1953	nausea and vomiting
+T88	disease_or_phenotypic_feature 1955 1964	diarrhoea
+T89	disease_or_phenotypic_feature 1966 1973	anaemia
+T90	disease_or_phenotypic_feature 1975 1991	thrombocytopenia
+T91	disease_or_phenotypic_feature 1997 2018	peripheral neuropathy
+T92	disease_or_phenotypic_feature 1997 2018	peripheral neuropathy
+T93	disease_or_phenotypic_feature 2082 2092	joint pain
+T94	disease_or_phenotypic_feature 2094 2107	angiokeratoma
+T95	disease_or_phenotypic_feature 2109 2126	corneal dystrophy
+T96	disease_or_phenotypic_feature 2144 2154	anhydrosis
+T97	disease_or_phenotypic_feature 2160 2173	renal failure
+T98	disease_or_phenotypic_feature 2160 2173	renal failure
+T99	disease_or_phenotypic_feature 2189 2202	hydrocephalus
+T100	disease_or_phenotypic_feature 2189 2202	hydrocephalus

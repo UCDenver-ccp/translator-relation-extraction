@@ -135,3 +135,43 @@ T134	gene 3505 3510	DUSP6
 T135	gene 3511 3515	MKP3
 T136	cellular_component 3522 3531	cytosolic
 T137	gene 3581 3585	ERK1
+T138	corrected_gene 82 87	Slg1p
+R1	located_in Arg1:T138 Arg2:T2	
+T139	corrected_gene 88 93	Wsc1p
+R2	located_in Arg1:T139 Arg2:T2	
+T140	corrected_gene 95 100	Wsc2p
+R3	located_in Arg1:T140 Arg2:T2	
+T141	corrected_gene 102 107	Mid2p
+R4	located_in Arg1:T141 Arg2:T2	
+R5	located_in Arg1:T6 Arg2:T2	
+R6	located_in Arg1:T7 Arg2:T2	
+T142	corrected_gene 157 162	Slt2p
+T143	corrected_gene 163 168	Mpk1p
+R7	located_in Arg1:T142 Arg2:T2	
+R8	located_in Arg1:T143 Arg2:T2	
+T144	corrected_gene 642 662	histone variant H3.3
+R9	located_in Arg1:T144 Arg2:T19	
+R10	located_in Arg1:T24 Arg2:T23	
+T145	missed_cellular_component 739 744;754 762	early endosome
+R11	located_in Arg1:T21 Arg2:T145	
+R12	located_in Arg1:T21 Arg2:T20	
+R13	located_in Arg1:T22 Arg2:T145	
+R14	located_in Arg1:T22 Arg2:T20	
+R15	located_in Arg1:T37 Arg2:T38	
+R16	located_in Arg1:T75 Arg2:T74	
+R17	located_in Arg1:T76 Arg2:T74	
+R18	located_in Arg1:T81 Arg2:T80	
+R19	located_in Arg1:T88 Arg2:T87	
+R20	located_in Arg1:T96 Arg2:T97	
+R21	located_in Arg1:T94 Arg2:T95	
+T146	corrected_gene 3339 3350	ErbB4 CYT-1
+R22	located_in Arg1:T146 Arg2:T124	
+R23	located_in Arg1:T146 Arg2:T123	
+R24	located_in Arg1:T129 Arg2:T128	
+T147	missed_gene 3537 3553	MAPK phosphatase
+R26	located_in Arg1:T135 Arg2:T136	
+R27	located_in Arg1:T134 Arg2:T136	
+T148	corrected_gene 3472 3476;3490 3503	MAPK phosphatase 3
+R28	located_in Arg1:T148 Arg2:T136	
+T149	corrected_gene 3478 3488;3490 3503	MAP kinase phosphatase 3
+R29	located_in Arg1:T149 Arg2:T136	

@@ -120,3 +120,30 @@ T119	gene 3389 3394	Smad2
 T120	gene 3399 3404	Smad3
 T121	gene 3449 3454	Smad4
 T122	cellular_component 3475 3482	nucleus
+T123	missed_gene 592 595	OGT
+R1	located_in Arg1:T123 Arg2:T18	
+R2	located_in Arg1:T19 Arg2:T18	
+R3	located_in Arg1:T20 Arg2:T18	
+R4	located_in Arg1:T21 Arg2:T18	
+R5	located_in Arg1:T28 Arg2:T27	
+T124	missed_gene 1502 1524	nuclear factor kappa B
+T125	missed_cellular_component 1502 1509	nuclear
+R6	located_in Arg1:T124 Arg2:T125	
+R7	located_in Arg1:T62 Arg2:T63	
+T126	missed_gene 1737 1742	talin
+R8	located_in Arg1:T126 Arg2:T63	
+R9	located_in Arg1:T71 Arg2:T70	
+R10	located_in Arg1:T72 Arg2:T70	
+R11	located_in Arg1:T73 Arg2:T70	
+R12	located_in Arg1:T74 Arg2:T70	
+R13	located_in Arg1:T75 Arg2:T70	
+R14	located_in Arg1:T76 Arg2:T70	
+R15	located_in Arg1:T103 Arg2:T100	
+T127	corrected_gene 2891 2921	GAIP/RGS19-interacting protein
+R16	located_in Arg1:T127 Arg2:T100	
+R17	located_in Arg1:T104 Arg2:T105	
+R18	located_in Arg1:T110 Arg2:T111	
+T129	corrected_gene 3158 3180	PRAF2-related proteins
+R19	located_in Arg1:T119 Arg2:T122	
+R20	located_in Arg1:T120 Arg2:T122	
+R21	located_in Arg1:T121 Arg2:T122	

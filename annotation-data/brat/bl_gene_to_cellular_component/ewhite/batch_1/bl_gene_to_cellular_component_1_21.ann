@@ -97,3 +97,48 @@ T96	gene 2741 2746	STAG2
 T97	gene 2790 2794	Bub1
 T98	gene 2803 2807	Bub3
 T99	cellular_component 2816 2844	chromosome passenger complex
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T3 Arg2:T4	
+R3	located_in Arg1:T8 Arg2:T7	
+R4	located_in Arg1:T8 Arg2:T9	
+R5	located_in Arg1:T15 Arg2:T16	
+R6	located_in Arg1:T11 Arg2:T16	
+T100	corrected_gene 249 283	Smad ubiquitin regulatory factor 1
+R7	located_in Arg1:T100 Arg2:T16	
+R8	located_in Arg1:T18 Arg2:T17	
+R9	located_in Arg1:T19 Arg2:T17	
+R10	located_in Arg1:T20 Arg2:T17	
+R11	located_in Arg1:T20 Arg2:T21	
+R12	located_in Arg1:T19 Arg2:T21	
+R13	located_in Arg1:T18 Arg2:T21	
+R14	located_in Arg1:T18 Arg2:T22	
+R15	located_in Arg1:T19 Arg2:T22	
+R16	located_in Arg1:T20 Arg2:T22	
+R17	located_in Arg1:T26 Arg2:T25	
+R18	located_in Arg1:T30 Arg2:T31	
+R19	located_in Arg1:T30 Arg2:T32	
+R20	located_in Arg1:T36 Arg2:T35	
+T101	missed_gene 965 979	G-protein beta
+R21	located_in Arg1:T101 Arg2:T39	
+R22	located_in Arg1:T50 Arg2:T48	
+T102	corrected_gene 1232 1264	membrane palmitoylated protein 3
+R23	located_in Arg1:T102 Arg2:T46	
+R24	located_in Arg1:T56 Arg2:T55	
+R25	located_in Arg1:T57 Arg2:T55	
+T103	corrected_gene 1503 1512	?-tubulin
+R26	located_in Arg1:T103 Arg2:T55	
+T104	corrected_cellular_component 1539 1561	outer nuclear membrane
+R27	located_in Arg1:T59 Arg2:T104	
+T105	missed_cellular_component 1563 1566	ONM
+R28	located_in Arg1:T59 Arg2:T105	
+R29	located_in Arg1:T59 Arg2:T62	
+R30	located_in Arg1:T59 Arg2:T61	
+R31	located_in Arg1:T66 Arg2:T68	
+R32	located_in Arg1:T66 Arg2:T67	
+R33	located_in Arg1:T66 Arg2:T69	
+R34	located_in Arg1:T72 Arg2:T77	
+R35	located_in Arg1:T73 Arg2:T77	
+T106	corrected_gene 2045 2074	ezrin/radixin/moesin proteins
+R36	located_in Arg1:T106 Arg2:T77	
+R37	located_in Arg1:T89 Arg2:T90	
+R38	located_in Arg1:T89 Arg2:T91	

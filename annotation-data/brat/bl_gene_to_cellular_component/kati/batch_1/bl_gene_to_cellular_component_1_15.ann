@@ -142,3 +142,43 @@ T141	gene 3470 3473	p38
 T142	gene 3474 3506	mitogen-activated protein kinase
 T143	gene 3508 3512	MAPK
 T144	gene 3528 3532	ET-1
+R1	located_in Arg1:T8 Arg2:T7	
+R2	located_in Arg1:T9 Arg2:T7	
+R3	located_in Arg1:T12 Arg2:T7	
+T145	missed_gene 350 360	amelogenin
+R4	located_in Arg1:T145 Arg2:T7	
+T146	corrected_gene 537 561	histone binding proteins
+R5	located_in Arg1:T146 Arg2:T15	
+T147	corrected_gene 570 574	Swi6
+R6	located_in Arg1:T147 Arg2:T15	
+R7	located_in Arg1:T21 Arg2:T15	
+R8	located_in Arg1:T17 Arg2:T16	
+R9	located_in Arg1:T18 Arg2:T16	
+T148	corrected_gene 1122 1148	calmodulin-binding protein
+R10	located_in Arg1:T148 Arg2:T43	
+T149	missed_gene 1990 2019	nuclear transcription factors
+T150	missed_cellular_component 1990 1997	nuclear
+R11	located_in Arg1:T149 Arg2:T150	
+T151	missed_gene 2021 2024	Jun
+T152	missed_gene 2032 2035	Myc
+R12	located_in Arg1:T151 Arg2:T150	
+R13	located_in Arg1:T76 Arg2:T150	
+R14	located_in Arg1:T152 Arg2:T150	
+R15	located_in Arg1:T77 Arg2:T150	
+T153	missed_gene 2102 2105	DCX
+R16	located_in Arg1:T153 Arg2:T78	
+R17	located_in Arg1:T80 Arg2:T78	
+R18	located_in Arg1:T81 Arg2:T78	
+R19	located_in Arg1:T82 Arg2:T78	
+R20	located_in Arg1:T83 Arg2:T78	
+T154	missed_gene 2156 2179	cell membrane receptors
+R21	located_in Arg1:T154 Arg2:T84	
+R22	located_in Arg1:T85 Arg2:T84	
+R23	located_in Arg1:T87 Arg2:T86	
+T155	missed_gene 2223 2226	Bim
+R24	located_in Arg1:T155 Arg2:T86	
+T156	missed_gene 3243 3266	epidermal growth factor
+R25	located_in Arg1:T131 Arg2:T134	
+R26	located_in Arg1:T156 Arg2:T134	
+R27	located_in Arg1:T132 Arg2:T134	
+R28	located_in Arg1:T133 Arg2:T134	

@@ -133,3 +133,40 @@ T132	gene 3823 3851	acetyl-CoA acetyltransferase
 T133	gene 3855 3863	calnexin
 T134	cellular_component 3869 3877	integrin
 T135	gene 3869 3877	integrin
+R1	located_in Arg1:T1 Arg2:T2	
+T136	missed_cellular_component 546 554	exosomal
+R2	located_in Arg1:T18 Arg2:T136	
+R3	located_in Arg1:T19 Arg2:T136	
+R4	located_in Arg1:T20 Arg2:T21	
+R5	located_in Arg1:T49 Arg2:T50	
+T137	corrected_gene 1474 1502	glutathione S-transferase M1
+R6	located_in Arg1:T137 Arg2:T50	
+T138	corrected_gene 1648 1657	GST-theta
+R7	located_in Arg1:T138 Arg2:T53	
+T139	corrected_gene 1636 1639;1640 1643	GST -mu
+R8	located_in Arg1:T139 Arg2:T53	
+T140	corrected_gene 1609 1634;1640 1643	glutathione S-transferase -mu
+R9	located_in Arg1:T140 Arg2:T53	
+T141	corrected_gene 1609 1634;1651 1657	glutathione S-transferase -theta
+R10	located_in Arg1:T141 Arg2:T53	
+R11	located_in Arg1:T57 Arg2:T58	
+R12	located_in Arg1:T57 Arg2:T59	
+R13	located_in Arg1:T60 Arg2:T63	
+R14	located_in Arg1:T61 Arg2:T63	
+R15	located_in Arg1:T62 Arg2:T63	
+T142	corrected_gene 1782 1792	API2-MALT1
+R16	located_in Arg1:T142 Arg2:T63	
+R17	located_in Arg1:T65 Arg2:T66	
+R18	located_in Arg1:T64 Arg2:T66	
+T143	missed_gene 2367 2380	?1-syntrophin
+R19	located_in Arg1:T143 Arg2:T84	
+R20	located_in Arg1:T85 Arg2:T84	
+R21	located_in Arg1:T86 Arg2:T84	
+R22	located_in Arg1:T87 Arg2:T84	
+T144	corrected_cellular_component 2495 2517	axonal node of Ranvier
+R23	located_in Arg1:T89 Arg2:T144	
+R24	located_in Arg1:T90 Arg2:T144	
+R25	located_in Arg1:T121 Arg2:T120	
+R26	located_in Arg1:T122 Arg2:T120	
+R27	located_in Arg1:T123 Arg2:T120	
+R28	located_in Arg1:T124 Arg2:T120	

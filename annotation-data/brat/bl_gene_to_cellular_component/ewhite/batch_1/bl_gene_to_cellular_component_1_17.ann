@@ -98,3 +98,28 @@ T97	cellular_component 2873 2888	plasma membrane
 T98	gene 2898 2905	megalin
 T99	gene 2945 2950	HDAC4
 T100	gene 2955 2960	HDAC5
+R1	located_in Arg1:T2 Arg2:T1	
+T101	corrected_gene 75 99	pericentrin-like protein
+R2	located_in Arg1:T101 Arg2:T1	
+T102	corrected_gene 101 114	gamma-tubulin
+R3	located_in Arg1:T102 Arg2:T1	
+R4	located_in Arg1:T10 Arg2:T11	
+T103	corrected_gene 330 362	microtubule-associated protein 1
+R5	located_in Arg1:T103 Arg2:T12	
+R6	located_in Arg1:T13 Arg2:T12	
+R7	located_in Arg1:T14 Arg2:T12	
+T104	missed_gene 480 485	MAP1S
+R8	located_in Arg1:T104 Arg2:T12	
+R9	located_in Arg1:T46 Arg2:T47	
+T105	corrected_gene 1401 1423	beta-amyloid precursor
+R10	located_in Arg1:T105 Arg2:T55	
+R11	located_in Arg1:T62 Arg2:T61	
+R12	located_in Arg1:T63 Arg2:T61	
+T106	corrected_cellular_component 1941 1946;1957 1965	Intra cellular
+T107	missed_gene 1966 1972	Klotho
+R13	located_in Arg1:T107 Arg2:T106	
+R14	located_in Arg1:T107 Arg2:T65	
+R15	located_in Arg1:T76 Arg2:T77	
+R16	located_in Arg1:T75 Arg2:T77	
+R17	located_in Arg1:T81 Arg2:T82	
+R18	located_in Arg1:T98 Arg2:T97	

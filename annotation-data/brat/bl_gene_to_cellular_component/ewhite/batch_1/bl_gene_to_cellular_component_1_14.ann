@@ -134,3 +134,52 @@ T133	gene 3779 3788	TGF-beta1
 T134	gene 3813 3818	Smad7
 T135	gene 3838 3843	Smad3
 T136	gene 3905 3914	TGF-beta1
+R1	located_in Arg1:T102 Arg2:T101	
+T137	missed_cellular_component 2850 2863	inflammasomes
+R2	located_in Arg1:T103 Arg2:T137	
+R3	located_in Arg1:T92 Arg2:T90	
+R4	located_in Arg1:T93 Arg2:T90	
+T138	corrected_gene 2615 2635	TNF-alpha receptor-I
+R5	located_in Arg1:T138 Arg2:T90	
+R6	located_in Arg1:T95 Arg2:T90	
+T139	corrected_gene 2654 2675	TNF-alpha receptor-II
+R7	located_in Arg1:T139 Arg2:T90	
+T140	missed_gene 2686 2689	p75
+R8	located_in Arg1:T140 Arg2:T90	
+R9	located_in Arg1:T72 Arg2:T73	
+R10	located_in Arg1:T74 Arg2:T75	
+R11	located_in Arg1:T77 Arg2:T78	
+R12	located_in Arg1:T77 Arg2:T79	
+R13	located_in Arg1:T76 Arg2:T78	
+R14	located_in Arg1:T76 Arg2:T79	
+T141	missed_gene 2325 2332	SIRT3-5
+#1	AnnotatorNotes T141	hyphenated list of genes
+R15	located_in Arg1:T141 Arg2:T81	
+T142	corrected_gene 42 46	Swi6
+R16	located_in Arg1:T142 Arg2:T3	
+T143	missed_cellular_component 88 97	telomeres
+R17	located_in Arg1:T142 Arg2:T143	
+T144	missed_gene 474 509	receptor activity-modifying protein
+T145	missed_gene 511 515	RAMP
+R18	located_in Arg1:T145 Arg2:T14	
+R19	located_in Arg1:T144 Arg2:T14	
+R20	located_in Arg1:T35 Arg2:T34	
+R21	located_in Arg1:T38 Arg2:T39	
+T146	missed_cellular_component 1318 1329	peroxisomal
+R22	located_in Arg1:T41 Arg2:T146	
+R23	located_in Arg1:T43 Arg2:T46	
+R25	located_in Arg1:T52 Arg2:T49	
+R26	located_in Arg1:T53 Arg2:T49	
+R27	located_in Arg1:T55 Arg2:T49	
+T147	corrected_gene 1601 1606	Pex25
+R28	located_in Arg1:T147 Arg2:T49	
+T148	corrected_gene 1581 1585	Pex8
+R24	located_in Arg1:T148 Arg2:T49	
+R29	located_in Arg1:T58 Arg2:T59	
+R30	located_in Arg1:T120 Arg2:T119	
+T149	corrected_gene 3271 3283	Ste11 MAPKKK
+R31	located_in Arg1:T149 Arg2:T119	
+T150	missed_gene 3517 3521	Opy2
+R32	located_in Arg1:T150 Arg2:T126	
+T151	missed_cellular_component 2517 2529	growth cones
+R33	located_in Arg1:T87 Arg2:T151	

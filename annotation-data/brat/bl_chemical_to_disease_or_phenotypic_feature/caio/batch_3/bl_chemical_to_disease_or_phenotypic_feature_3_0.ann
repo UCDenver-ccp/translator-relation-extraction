@@ -52,13 +52,10 @@ T51	disease_or_phenotypic_feature 2720 2733	rectal cancer
 T52	chemical 2867 2874	protein
 T53	disease_or_phenotypic_feature 2947 2962	type 2 diabetes
 T54	disease_or_phenotypic_feature 3003 3016	liver disease
-T55	missed_disease_or_phenotypic_feature 25 50	tumor-associated antigens
+T55	missed_disease_or_phenotypic_feature 25 30	tumor
 R1	causes_or_contributes_to Arg1:T1 Arg2:T55	
 T56	missed_chemical 868 882	Autoantibodies
-T57	missed_disease_or_phenotypic_feature 891 916	tumor-associated antigens
-R2	treats Arg1:T56 Arg2:T57	
-R3	treats Arg1:T56 Arg2:T14	
-R4	treats Arg1:T16 Arg2:T15	
+T57	missed_disease_or_phenotypic_feature 891 896	tumor
 R5	causes_or_contributes_to Arg1:T29 Arg2:T30	
 R6	causes_or_contributes_to Arg1:T34 Arg2:T35	
 T58	corrected_chemical 2217 2246	fatty acid synthase inhibitor
@@ -72,3 +69,8 @@ R12	treats Arg1:T59 Arg2:T46
 R13	treats Arg1:T43 Arg2:T45	
 R14	treats Arg1:T43 Arg2:T46	
 T60	DONE 3112 3116	DONE
+R2	treats Arg1:T13 Arg2:T57	
+T61	corrected_disease_or_phenotypic_feature 960 999	Reversal of Schizophrenia-like Symptoms
+R3	causes_or_contributes_to Arg1:T16 Arg2:T61	
+T62	corrected_disease_or_phenotypic_feature 1004 1027;960 971	Cholinergic Alterations Reversal of
+R4	causes_or_contributes_to Arg1:T16 Arg2:T62	

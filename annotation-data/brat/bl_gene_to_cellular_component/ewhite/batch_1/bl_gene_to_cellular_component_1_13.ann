@@ -133,3 +133,47 @@ T132	gene 3503 3514	MAP kinases
 T133	cellular_component 3516 3529	extracellular
 T134	gene 3584 3587	p38
 T135	gene 3588 3598	MAP kinase
+T136	corrected_cellular_component 81 101	membrane lipid rafts
+R1	located_in Arg1:T3 Arg2:T136	
+R2	located_in Arg1:T1 Arg2:T136	
+R3	located_in Arg1:T8 Arg2:T10	
+R4	located_in Arg1:T7 Arg2:T10	
+R5	located_in Arg1:T6 Arg2:T10	
+T137	corrected_gene 145 153	TEL/AML1
+R6	located_in Arg1:T137 Arg2:T10	
+R7	located_in Arg1:T14 Arg2:T15	
+R8	located_in Arg1:T14 Arg2:T16	
+R9	located_in Arg1:T38 Arg2:T42	
+R10	located_in Arg1:T40 Arg2:T42	
+R11	located_in Arg1:T41 Arg2:T42	
+#1	AnnotatorNotes R11	too indirect?
+#2	AnnotatorNotes R10	too indirect?
+R12	located_in Arg1:T45 Arg2:T46	
+R13	located_in Arg1:T44 Arg2:T46	
+R14	located_in Arg1:T43 Arg2:T46	
+R15	located_in Arg1:T45 Arg2:T47	
+R16	located_in Arg1:T44 Arg2:T47	
+R17	located_in Arg1:T43 Arg2:T47	
+T138	missed_gene 982 994	ERM proteins
+R18	located_in Arg1:T138 Arg2:T46	
+R19	located_in Arg1:T138 Arg2:T47	
+R20	located_in Arg1:T66 Arg2:T62	
+R21	located_in Arg1:T65 Arg2:T62	
+T139	missed_gene 1590 1619	phosphatidylinositol-3 kinase
+R22	located_in Arg1:T139 Arg2:T62	
+R26	located_in Arg1:T92 Arg2:T87	
+T140	corrected_gene 2319 2322;2327 2331	p42 MAPK
+R27	located_in Arg1:T140 Arg2:T87	
+R28	located_in Arg1:T140 Arg2:T87	
+T141	corrected_gene 2263 2299	p38 mitogen-activated protein kinase
+R23	located_in Arg1:T141 Arg2:T87	
+T142	corrected_gene 2263 2266;2301 2305	p38 MAPK
+R24	located_in Arg1:T142 Arg2:T87	
+T143	missed_cellular_component 2526 2533	surface
+R25	located_in Arg1:T97 Arg2:T143	
+R29	located_in Arg1:T98 Arg2:T143	
+R30	located_in Arg1:T100 Arg2:T143	
+T144	corrected_gene 2576 2596	LDLR-related protein
+R31	located_in Arg1:T144 Arg2:T143	
+R32	located_in Arg1:T103 Arg2:T104	
+R33	located_in Arg1:T122 Arg2:T121	

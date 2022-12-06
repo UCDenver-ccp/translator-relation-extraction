@@ -121,3 +121,37 @@ T120	gene 3359 3367	integrin
 T121	cellular_component 3359 3367	integrin
 T122	cellular_component 3390 3398	integrin
 T123	gene 3390 3398	integrin
+T124	missed_cellular_component 520 541;549 556	Cdk-activating-kinase complex
+R1	located_in Arg1:T15 Arg2:T124	
+R2	located_in Arg1:T16 Arg2:T124	
+R3	located_in Arg1:T17 Arg2:T124	
+T125	corrected_gene 455 480	cyclin-dependent kinase 7
+R4	located_in Arg1:T125 Arg2:T124	
+R5	located_in Arg1:T17 Arg2:T18	
+R6	located_in Arg1:T16 Arg2:T18	
+R7	located_in Arg1:T15 Arg2:T18	
+R8	located_in Arg1:T125 Arg2:T18	
+R9	located_in Arg1:T49 Arg2:T48	
+R10	located_in Arg1:T50 Arg2:T48	
+R11	located_in Arg1:T51 Arg2:T48	
+R12	located_in Arg1:T47 Arg2:T48	
+R13	located_in Arg1:T46 Arg2:T48	
+T126	corrected_gene 1796 1826	beta-amyloid precursor protein
+R14	located_in Arg1:T126 Arg2:T56	
+T127	missed_gene 2400 2437	extracellular signal-regulated kinase
+R15	located_in Arg1:T127 Arg2:T81	
+T128	corrected_gene 2669 2706	cyclin-dependent kinase inhibitor p15
+R16	located_in Arg1:T128 Arg2:T89	
+T129	corrected_gene 2708 2713	INK4B
+R17	located_in Arg1:T129 Arg2:T89	
+R18	located_in Arg1:T93 Arg2:T89	
+R19	located_in Arg1:T99 Arg2:T100	
+R20	located_in Arg1:T98 Arg2:T100	
+R21	located_in Arg1:T107 Arg2:T108	
+R22	located_in Arg1:T106 Arg2:T108	
+R23	located_in Arg1:T105 Arg2:T108	
+R24	located_in Arg1:T104 Arg2:T108	
+R25	located_in Arg1:T102 Arg2:T103	
+R26	located_in Arg1:T101 Arg2:T103	
+T130	corrected_gene 3309 3322	integrin ?5?1
+R27	located_in Arg1:T130 Arg2:T119	

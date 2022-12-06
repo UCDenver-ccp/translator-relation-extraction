@@ -117,3 +117,45 @@ T116	gene 3294 3297	BMP
 T117	cellular_component 3298 3302	Smad
 T118	gene 3298 3302	Smad
 T119	gene 3316 3319	Tob
+T120	missed_gene 96 99	PLC
+R1	located_in Arg1:T120 Arg2:T3	
+R2	located_in Arg1:T4 Arg2:T3	
+R3	located_in Arg1:T5 Arg2:T3	
+R4	located_in Arg1:T10 Arg2:T9	
+R5	located_in Arg1:T30 Arg2:T31	
+R6	located_in Arg1:T29 Arg2:T31	
+T121	corrected_gene 819 834	beta1-integrins
+R7	located_in Arg1:T121 Arg2:T31	
+T122	missed_gene 843 874;881 888	cerebral cavernous malformation protein
+R8	located_in Arg1:T122 Arg2:T31	
+R9	located_in Arg1:T34 Arg2:T31	
+T123	missed_cellular_component 1250 1252	ER
+R10	located_in Arg1:T44 Arg2:T43	
+R11	located_in Arg1:T44 Arg2:T123	
+T124	missed_gene 1289 1299	caspase-12
+T125	missed_gene 1304 1311	GADD153
+R12	located_in Arg1:T124 Arg2:T43	
+R13	located_in Arg1:T124 Arg2:T123	
+R14	located_in Arg1:T125 Arg2:T43	
+R15	located_in Arg1:T125 Arg2:T123	
+T126	corrected_gene 1565 1584	TNF-alpha precursor
+R16	located_in Arg1:T126 Arg2:T51	
+R17	located_in Arg1:T63 Arg2:T65	
+R18	located_in Arg1:T64 Arg2:T65	
+T127	missed_cellular_component 2002 2004	TJ
+R19	located_in Arg1:T66 Arg2:T127	
+R20	located_in Arg1:T67 Arg2:T127	
+R21	located_in Arg1:T68 Arg2:T127	
+R22	located_in Arg1:T69 Arg2:T127	
+R23	located_in Arg1:T70 Arg2:T127	
+T128	missed_gene 2351 2359	Sprouty2
+R24	located_in Arg1:T128 Arg2:T80	
+R25	located_in Arg1:T79 Arg2:T80	
+T129	missed_gene 3030 3035	AJM-1
+R26	located_in Arg1:T105 Arg2:T106	
+R27	located_in Arg1:T129 Arg2:T106	
+R31	located_in Arg1:T107 Arg2:T112	
+R32	located_in Arg1:T108 Arg2:T112	
+R33	located_in Arg1:T109 Arg2:T112	
+T130	corrected_gene 3101 3106	ERM-1
+R35	located_in Arg1:T130 Arg2:T112	

@@ -1,0 +1,123 @@
+T1	gene 19 22	Tam
+T2	cellular_component 27 38	up-regulate
+T3	gene 39 42	p21
+T4	gene 42 46	WAF1
+T5	cellular_component 62 75	transcription
+T6	gene 88 93	MCP-1
+T7	cellular_component 111 119	integrin
+T8	gene 111 119	integrin
+T9	gene 145 153	integrin
+T10	cellular_component 145 153	integrin
+T11	cellular_component 164 177	cell adhesion
+T12	gene 211 215	AlkB
+T13	gene 221 225	AlkB
+T14	cellular_component 231 239	membrane
+T15	gene 366 371	GPER1
+T16	gene 392 397	GPER1
+T17	gene 398 403	CXCR1
+T18	gene 419 423	EGFR
+T19	cellular_component 419 423	EGFR
+T20	gene 424 429	CXCR1
+T21	gene 448 453	GPER1
+T22	cellular_component 454 458	EGFR
+T23	gene 454 458	EGFR
+T24	gene 459 464	CXCR1
+T25	gene 467 471	Smad
+T26	cellular_component 467 471	Smad
+T27	cellular_component 472 485	transcription
+T28	gene 529 537	TGF-beta
+T29	gene 566 569	BMP
+T30	cellular_component 581 590	cytokines
+T31	gene 634 639	MACC1
+T32	cellular_component 670 676	nuclei
+T33	cellular_component 681 690	cytoplasm
+T34	cellular_component 698 702	cell
+T35	cellular_component 725 737	localization
+T36	gene 741 746	MACC1
+T37	cellular_component 810 814	cell
+T38	gene 822 825	Akt
+T39	cellular_component 853 860	S-phase
+T40	cellular_component 861 867	kinase
+T41	cellular_component 893 898	cells
+T42	gene 937 970	cyclin-dependent kinase inhibitor
+T43	cellular_component 937 970	cyclin-dependent kinase inhibitor
+T44	gene 972 975	p21
+T45	cellular_component 993 1002	behaviour
+T46	gene 1006 1010	DVL1
+T47	gene 1012 1016	DVL2
+T48	gene 1018 1022	DVL3
+T49	gene 1081 1085	TCF1
+T50	gene 1090 1094	LEF1
+T51	cellular_component 1095 1107	upregulation
+T52	gene 1147 1154	insulin
+T53	cellular_component 1163 1178	phosphorylation
+T54	cellular_component 1196 1211	phosphorylation
+T55	gene 1215 1218	Akt
+T56	gene 1220 1224	MAPK
+T57	cellular_component 1220 1224	MAPK
+T58	gene 1226 1230	ERK1
+T59	gene 1242 1245	p70
+T60	gene 1246 1249	S6K
+T61	cellular_component 1265 1277	up regulated
+T62	gene 1279 1283	Cd36
+T63	gene 1285 1290	Mmp14
+T64	gene 1292 1296	Rhob
+T65	gene 1301 1307	Angpt4
+T66	cellular_component 1314 1328	down regulated
+T67	gene 1330 1335	Foxm1
+T68	cellular_component 1349 1361	angiogenesis
+T69	cellular_component 1366 1392	blood vessel morphogenesis
+T70	gene 1445 1456	plasminogen
+T71	cellular_component 1457 1465	receptor
+T72	cellular_component 1491 1496	cells
+T73	cellular_component 1506 1514	integrin
+T74	gene 1506 1514	integrin
+T75	cellular_component 1547 1567	extracellular matrix
+T76	cellular_component 1578 1593	gene expression
+T77	gene 1598 1610	neurogenin 3
+T78	gene 1612 1616	NGN3
+T79	cellular_component 1646 1654	helicase
+T80	gene 1694 1699	NOH61
+T81	gene 1795 1803	integrin
+T82	cellular_component 1795 1803	integrin
+T83	cellular_component 1826 1843	protein complexes
+T84	gene 1861 1871	dystrophin
+T85	cellular_component 1872 1894	dystroglycan complexes
+T86	gene 1926 1929	Akt
+T87	gene 1945 1948	p57
+T88	gene 1950 1954	Kip2
+T89	cellular_component 1967 1978	cytoplasmic
+T90	cellular_component 1979 1991	localization
+T91	gene 1995 1998	p57
+T92	gene 2000 2004	Kip2
+T93	cellular_component 2018 2024	axonal
+T94	cellular_component 2025 2034	transport
+T95	cellular_component 2038 2051	neurofilament
+T96	gene 2087 2097	peripherin
+T97	cellular_component 2134 2142	membrane
+T98	cellular_component 2143 2155	localisation
+T99	gene 2166 2170	CFTR
+T100	gene 2186 2190	CFTR
+T101	gene 2202 2206	CFTR
+T102	cellular_component 2242 2251	cytoplasm
+T103	gene 2309 2313	FGF2
+T104	cellular_component 2317 2344	odontoblast differentiation
+T105	gene 2367 2371	FGFR
+T106	cellular_component 2367 2371	FGFR
+T107	gene 2376 2380	Erk1
+T108	cellular_component 2383 2392	signaling
+T109	gene 2407 2411	Bmp2
+T110	gene 2435 2438	BMP
+T111	gene 2439 2443	BMPR
+T112	cellular_component 2444 2453	signaling
+T113	gene 2463 2473	MAP kinase
+T114	cellular_component 2463 2473	MAP kinase
+T115	gene 2483 2518	G protein-coupled receptor kinase 2
+T116	cellular_component 2524 2535	proteasomal
+T117	cellular_component 2604 2618	phosphorylated
+T118	cellular_component 2619 2646	G protein-coupled receptors
+T119	gene 2619 2646	G protein-coupled receptors
+T120	cellular_component 2648 2653	GPCRs
+T121	gene 2648 2653	GPCRs
+T122	gene 2755 2760	GPCRs
+T123	cellular_component 2755 2760	GPCRs

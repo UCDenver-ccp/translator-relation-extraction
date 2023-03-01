@@ -177,3 +177,16 @@ R49	located_in Arg1:T20 Arg2:T22
 #2	AnnotatorNotes R48	Okay?
 #3	AnnotatorNotes R47	Okay?
 #4	AnnotatorNotes R18	Reduced, but still present 
+T127	missed_gene 1181 1185	FFA1
+R50	located_in Arg1:T127 Arg2:T50	
+#5	AnnotatorNotes R50	Okay?
+R51	located_in Arg1:T49 Arg2:T50	
+#6	AnnotatorNotes R51	Okay?
+R52	located_in Arg1:T48 Arg2:T50	
+#7	AnnotatorNotes R52	Okay?
+R53	located_in Arg1:T79 Arg2:T80	
+R54	located_in Arg1:T90 Arg2:T92	
+R55	located_in Arg1:T91 Arg2:T92	
+#8	AnnotatorNotes R55	Okay?
+#9	AnnotatorNotes R54	Okay?
+R56	located_in Arg1:T88 Arg2:T89	

@@ -116,3 +116,45 @@ T115	anatomical_site 2786 2791	serum
 T116	gene 2807 2814	insulin
 T117	anatomical_site 2830 2835	serum
 T118	gene 2842 2853	adiponectin
+T121	missed_anatomical_site 385 391	testes
+R6	located_in Arg1:T12 Arg2:T13	
+R7	located_in Arg1:T12 Arg2:T15	
+R8	located_in Arg1:T12 Arg2:T16	
+R9	located_in Arg1:T12 Arg2:T17	
+R10	located_in Arg1:T12 Arg2:T121	
+T122	missed_anatomical_site 434 439	Serum
+R11	located_in Arg1:T20 Arg2:T122	
+R12	located_in Arg1:T22 Arg2:T21	
+R13	located_in Arg1:T33 Arg2:T34	
+T123	corrected_gene 1374 1402	NIN1/RPN12 binding protein 1
+R14	located_in Arg1:T123 Arg2:T60	
+R15	located_in Arg1:T123 Arg2:T61	
+R16	located_in Arg1:T123 Arg2:T62	
+R17	located_in Arg1:T59 Arg2:T60	
+R18	located_in Arg1:T59 Arg2:T61	
+R19	located_in Arg1:T59 Arg2:T62	
+R20	located_in Arg1:T74 Arg2:T76	
+R21	located_in Arg1:T75 Arg2:T77	
+R22	located_in Arg1:T78 Arg2:T79	
+R23	located_in Arg1:T78 Arg2:T80	
+T124	corrected_anatomical_site 2173 2184	lung tissue
+R24	located_in Arg1:T88 Arg2:T124	
+R25	located_in Arg1:T104 Arg2:T103	
+R26	located_in Arg1:T105 Arg2:T103	
+R29	located_in Arg1:T110 Arg2:T113	
+R30	located_in Arg1:T111 Arg2:T113	
+R31	located_in Arg1:T112 Arg2:T113	
+R32	located_in Arg1:T96 Arg2:T95	
+T125	missed_gene 2347 2351	MITF
+T126	missed_gene 2353 2365	S100 protein
+T127	corrected_gene 2379 2383	Mel5
+T128	corrected_gene 2388 2393	HMB45
+R33	located_in Arg1:T125 Arg2:T95	
+R34	located_in Arg1:T126 Arg2:T95	
+R35	located_in Arg1:T97 Arg2:T95	
+R36	located_in Arg1:T127 Arg2:T95	
+R37	located_in Arg1:T128 Arg2:T95	
+T129	missed_gene 2633 2636	GSH
+R27	located_in Arg1:T129 Arg2:T106	
+R28	located_in Arg1:T108 Arg2:T107	
+R38	located_in Arg1:T109 Arg2:T107	

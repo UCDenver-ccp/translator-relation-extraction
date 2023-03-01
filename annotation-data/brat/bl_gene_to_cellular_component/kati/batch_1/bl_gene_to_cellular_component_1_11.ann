@@ -45,7 +45,7 @@ T44	gene 1046 1051	Ezrin
 T45	gene 1052 1059	radixin
 T46	gene 1060 1066	moesin
 T47	cellular_component 1124 1139	plasma membrane
-T48	cellular_component 1157 1175	actin cytoskeleton
+T48	missed_cellular_component 1157 1175	actin cytoskeleton
 T49	cellular_component 1225 1233	membrane
 T50	cellular_component 1250 1262	cell surface
 T51	cellular_component 1296 1306	antibodies
@@ -136,9 +136,6 @@ R7	located_in Arg1:T35 Arg2:T36
 T129	corrected_cellular_component 880 902	intracellular vesicles
 R8	located_in Arg1:T39 Arg2:T129	
 R9	located_in Arg1:T33 Arg2:T129	
-R10	located_in Arg1:T40 Arg2:T129	
-T130	missed_gene 1225 1242	membrane proteins
-R11	located_in Arg1:T130 Arg2:T50	
 T131	missed_gene 1157 1162	actin
 R12	located_in Arg1:T131 Arg2:T48	
 T132	corrected_gene 1431 1435	MAN1
@@ -151,9 +148,19 @@ R17	located_in Arg1:T61 Arg2:T60
 R18	located_in Arg1:T83 Arg2:T86	
 R19	located_in Arg1:T84 Arg2:T86	
 R20	located_in Arg1:T85 Arg2:T86	
-T134	missed_gene 2329 2351	thioredoxin peroxidase
 R21	located_in Arg1:T90 Arg2:T89	
-T135	missed_gene 2457 2475	T3-binding protein
-R22	located_in Arg1:T135 Arg2:T89	
 T136	missed_gene 2491 2495	CRYM
 R23	located_in Arg1:T136 Arg2:T89	
+T137	corrected_gene 10 51	nuclear envelope spectrin-repeat proteins
+R24	located_in Arg1:T137 Arg2:T1	
+T130	missed_gene 2329 2351	thioredoxin peroxidase
+R11	located_in Arg1:T130 Arg2:T86	
+T134	missed_gene 2457 2475	T3-binding protein
+R22	located_in Arg1:T134 Arg2:T89	
+R25	located_in Arg1:T40 Arg2:T129	
+T135	cellular_component 1163 1175	cytoskeleton
+R26	located_in Arg1:T44 Arg2:T135	
+R27	located_in Arg1:T45 Arg2:T135	
+R28	located_in Arg1:T46 Arg2:T135	
+T138	missed_gene 1068 1071;1073 1081	ERM proteins
+R29	located_in Arg1:T138 Arg2:T135	

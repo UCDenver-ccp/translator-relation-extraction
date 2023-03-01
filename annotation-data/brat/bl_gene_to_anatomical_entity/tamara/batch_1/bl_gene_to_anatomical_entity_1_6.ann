@@ -107,3 +107,67 @@ T106	gene 2626 2636	HP protein
 T107	anatomical_site 2651 2670	duodenal epithelium
 T108	anatomical_site 2679 2683	male
 T109	anatomical_site 2688 2694	female
+R1	located_in Arg1:T3 Arg2:T2	
+R2	located_in Arg1:T4 Arg2:T2	
+R3	located_in Arg1:T8 Arg2:T11	
+R4	located_in Arg1:T9 Arg2:T11	
+R5	located_in Arg1:T10 Arg2:T11	
+T110	corrected_gene 290 300	FGFR2-IIIb
+R6	located_in Arg1:T12 Arg2:T14	
+R7	located_in Arg1:T110 Arg2:T14	
+R8	located_in Arg1:T15 Arg2:T18	
+R9	located_in Arg1:T16 Arg2:T18	
+R10	located_in Arg1:T17 Arg2:T18	
+R11	located_in Arg1:T19 Arg2:T22	
+R12	located_in Arg1:T20 Arg2:T22	
+R13	located_in Arg1:T21 Arg2:T22	
+T111	missed_gene 690 694	bFGF
+R15	located_in Arg1:T111 Arg2:T30	
+R16	located_in Arg1:T111 Arg2:T31	
+R17	located_in Arg1:T111 Arg2:T32	
+R18	located_in Arg1:T33 Arg2:T34	
+T112	corrected_gene 1088 1100	RUNX1-S291fs
+T113	corrected_anatomical_site 1060 1073	spleen tissue
+R19	located_in Arg1:T112 Arg2:T113	
+T114	corrected_anatomical_site 1652 1663	lung tissue
+R20	located_in Arg1:T66 Arg2:T114	
+T115	corrected_anatomical_site 1699 1710	lung tissue
+R21	located_in Arg1:T69 Arg2:T115	
+T116	missed_anatomical_site 1956 1964	cortical
+R22	located_in Arg1:T81 Arg2:T116	
+R23	located_in Arg1:T84 Arg2:T85	
+R24	located_in Arg1:T86 Arg2:T87	
+R25	located_in Arg1:T86 Arg2:T88	
+R26	located_in Arg1:T89 Arg2:T92	
+R27	located_in Arg1:T89 Arg2:T93	
+R28	located_in Arg1:T90 Arg2:T92	
+R29	located_in Arg1:T90 Arg2:T93	
+R30	located_in Arg1:T91 Arg2:T92	
+R31	located_in Arg1:T91 Arg2:T93	
+T117	corrected_anatomical_site 2318 2332	organ of Corti
+R32	located_in Arg1:T94 Arg2:T117	
+R33	located_in Arg1:T95 Arg2:T117	
+R34	located_in Arg1:T96 Arg2:T117	
+R35	located_in Arg1:T102 Arg2:T103	
+R36	located_in Arg1:T99 Arg2:T98	
+R14	located_in Arg1:T8 Arg2:T7	
+R37	located_in Arg1:T9 Arg2:T7	
+R38	located_in Arg1:T10 Arg2:T7	
+R39	located_in Arg1:T28 Arg2:T29	
+#1	AnnotatorNotes R39	Okay?
+T118	missed_anatomical_site 1038 1049	Bone marrow
+R40	located_in Arg1:T112 Arg2:T118	
+#2	AnnotatorNotes R40	Okay?
+T119	corrected_gene 1542 1545;1547 1549	PSP S1
+T120	corrected_gene 1516 1541;1547 1549	pancreatic stone protein- S1
+R41	located_in Arg1:T120 Arg2:T62	
+#3	AnnotatorNotes R41	Okay?
+R42	located_in Arg1:T119 Arg2:T62	
+#4	AnnotatorNotes R42	Okay?
+R43	located_in Arg1:T64 Arg2:T65	
+#5	AnnotatorNotes R43	Okay?
+T121	missed_anatomical_site 1750 1759	BAL fluid
+#6	AnnotatorNotes T121	do we mark it? 
+R44	located_in Arg1:T72 Arg2:T121	
+#7	AnnotatorNotes R44	Okay?
+#8	AnnotatorNotes R22	Reduced, but still present 

@@ -118,3 +118,60 @@ T117	gene 3428 3435	ADPRTL2
 T118	gene 3474 3479	GNA12
 T119	gene 3481 3485	RGS3
 T120	gene 3487 3491	RGS4
+R1	located_in Arg1:T15 Arg2:T17	
+R2	located_in Arg1:T16 Arg2:T17	
+R3	located_in Arg1:T19 Arg2:T20	
+T121	corrected_cellular_component 791 813	intracellular vesicles
+R4	located_in Arg1:T24 Arg2:T121	
+T122	corrected_gene 676 708	Insulin-regulated aminopeptidase
+T123	missed_gene 710 714	IRAP
+T124	corrected_gene 724 761	insulin-dependent glucose transporter
+R5	located_in Arg1:T122 Arg2:T121	
+R6	located_in Arg1:T123 Arg2:T121	
+R7	located_in Arg1:T124 Arg2:T121	
+R8	located_in Arg1:T27 Arg2:T28	
+T125	corrected_gene 857 883	calmodulin-binding protein
+R9	located_in Arg1:T125 Arg2:T30	
+T126	missed_cellular_component 1008 1015	nuclear
+R10	located_in Arg1:T32 Arg2:T126	
+R11	located_in Arg1:T33 Arg2:T36	
+R12	located_in Arg1:T34 Arg2:T36	
+R13	located_in Arg1:T35 Arg2:T36	
+R14	located_in Arg1:T41 Arg2:T40	
+R15	located_in Arg1:T42 Arg2:T40	
+R16	located_in Arg1:T43 Arg2:T40	
+R17	located_in Arg1:T44 Arg2:T40	
+R18	located_in Arg1:T41 Arg2:T45	
+R19	located_in Arg1:T41 Arg2:T46	
+R20	located_in Arg1:T42 Arg2:T45	
+R21	located_in Arg1:T42 Arg2:T46	
+R22	located_in Arg1:T43 Arg2:T45	
+R23	located_in Arg1:T43 Arg2:T46	
+R24	located_in Arg1:T44 Arg2:T45	
+R25	located_in Arg1:T44 Arg2:T46	
+R26	located_in Arg1:T51 Arg2:T52	
+T127	missed_gene 1543 1547	PEX5
+T128	corrected_cellular_component 1555 1573	peroxisome surface
+R27	located_in Arg1:T127 Arg2:T128	
+T129	corrected_gene 1579 1602	alpha 2 beta 1 integrin
+R28	located_in Arg1:T129 Arg2:T58	
+R29	located_in Arg1:T59 Arg2:T58	
+T130	corrected_gene 1827 1856	mitochondrial creatine kinase
+R30	located_in Arg1:T130 Arg2:T63	
+T131	missed_cellular_component 1858 1864	matrix
+R31	located_in Arg1:T65 Arg2:T131	
+R32	located_in Arg1:T130 Arg2:T62	
+T132	corrected_gene 2590 2604	Beta1 integrin
+R33	located_in Arg1:T132 Arg2:T88	
+R34	located_in Arg1:T90 Arg2:T89	
+R35	located_in Arg1:T94 Arg2:T93	
+R36	located_in Arg1:T101 Arg2:T100	
+T133	missed_cellular_component 3222 3242	extracellular matrix
+R37	located_in Arg1:T111 Arg2:T133	
+T134	missed_gene 3264 3267	DPT
+R38	located_in Arg1:T134 Arg2:T133	
+R39	located_in Arg1:T116 Arg2:T115	
+T135	missed_gene 3389 3394	ACTSG
+R40	located_in Arg1:T135 Arg2:T115	
+T136	missed_gene 3396 3400	NEFL
+R41	located_in Arg1:T136 Arg2:T115	

@@ -131,3 +131,79 @@ T130	anatomical_site 3188 3193	liver
 T131	anatomical_site 3195 3203	pancreas
 T132	anatomical_site 3205 3212	stomach
 T133	anatomical_site 3218 3227	intestine
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T3	
+R3	located_in Arg1:T1 Arg2:T4	
+R4	located_in Arg1:T2 Arg2:T4	
+R5	located_in Arg1:T5 Arg2:T7	
+R6	located_in Arg1:T8 Arg2:T10	
+R7	located_in Arg1:T9 Arg2:T10	
+R8	located_in Arg1:T11 Arg2:T13	
+R9	located_in Arg1:T12 Arg2:T13	
+R10	located_in Arg1:T17 Arg2:T18	
+R11	located_in Arg1:T19 Arg2:T20	
+T134	missed_gene 431 435	FMO3
+R12	located_in Arg1:T134 Arg2:T22	
+R13	located_in Arg1:T21 Arg2:T22	
+R14	located_in Arg1:T23 Arg2:T24	
+R15	located_in Arg1:T23 Arg2:T25	
+R16	located_in Arg1:T23 Arg2:T26	
+R17	located_in Arg1:T23 Arg2:T27	
+T135	corrected_gene 740 773	vascular cell adhesion molecule 1
+R18	located_in Arg1:T135 Arg2:T33	
+R19	located_in Arg1:T35 Arg2:T33	
+T136	corrected_gene 1423 1449;1455 1457	insulin receptor substrate -1
+T137	corrected_gene 1451 1454;1455 1457	IRS -1
+R20	located_in Arg1:T137 Arg2:T58	
+R21	located_in Arg1:T136 Arg2:T58	
+R22	located_in Arg1:T59 Arg2:T62	
+R23	located_in Arg1:T59 Arg2:T63	
+R24	located_in Arg1:T60 Arg2:T62	
+R25	located_in Arg1:T60 Arg2:T63	
+R26	located_in Arg1:T64 Arg2:T65	
+T138	corrected_anatomical_site 1685 1703	spinal disc tissue
+T139	missed_gene 1634 1639	IL-27
+R27	located_in Arg1:T66 Arg2:T138	
+R28	located_in Arg1:T67 Arg2:T138	
+R29	located_in Arg1:T68 Arg2:T138	
+R30	located_in Arg1:T69 Arg2:T138	
+R31	located_in Arg1:T139 Arg2:T138	
+T140	corrected_anatomical_site 1719 1745	intervertebral disc tissue
+R32	located_in Arg1:T139 Arg2:T140	
+R33	located_in Arg1:T69 Arg2:T140	
+R34	located_in Arg1:T68 Arg2:T140	
+R35	located_in Arg1:T67 Arg2:T140	
+R36	located_in Arg1:T66 Arg2:T140	
+T141	corrected_anatomical_site 1839 1851	heart tissue
+R37	located_in Arg1:T78 Arg2:T141	
+R38	located_in Arg1:T77 Arg2:T141	
+R39	located_in Arg1:T76 Arg2:T141	
+R40	located_in Arg1:T75 Arg2:T141	
+R41	located_in Arg1:T74 Arg2:T141	
+R42	located_in Arg1:T73 Arg2:T141	
+R46	located_in Arg1:T91 Arg2:T92	
+R47	located_in Arg1:T91 Arg2:T93	
+R48	located_in Arg1:T91 Arg2:T94	
+T142	corrected_anatomical_site 2367 2391	chorion cytotrophoblasts
+T143	corrected_anatomical_site 2349 2365	amnion epithelia
+R49	located_in Arg1:T95 Arg2:T143	
+R50	located_in Arg1:T95 Arg2:T142	
+R51	located_in Arg1:T95 Arg2:T146	
+R52	located_in Arg1:T96 Arg2:T143	
+R53	located_in Arg1:T96 Arg2:T142	
+R54	located_in Arg1:T96 Arg2:T146	
+T144	corrected_gene 2555 2608	brain ?-site amyloid precursor protein cleaving enzym
+R55	located_in Arg1:T144 Arg2:T107	
+R56	located_in Arg1:T109 Arg2:T107	
+R57	located_in Arg1:T112 Arg2:T115	
+T145	missed_anatomical_site 2001 2012	spermatozoa
+R43	located_in Arg1:T82 Arg2:T145	
+#1	AnnotatorNotes R43	Okay? without "tail", "head" and "neck"
+T146	corrected_anatomical_site 2396 2417	placental trophoblast
+T147	corrected_gene 2865 2883	PTH-PTHrP receptor
+R44	located_in Arg1:T147 Arg2:T118	
+#2	AnnotatorNotes R44	Okay?
+R45	located_in Arg1:T147 Arg2:T119	
+#3	AnnotatorNotes R45	Okay?
+R59	located_in Arg1:T147 Arg2:T120	
+#5	AnnotatorNotes R59	Okay?

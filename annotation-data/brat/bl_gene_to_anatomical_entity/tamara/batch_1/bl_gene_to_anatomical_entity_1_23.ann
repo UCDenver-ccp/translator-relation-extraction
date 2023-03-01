@@ -113,3 +113,67 @@ T112	anatomical_site 2879 2884	serum
 T113	gene 2933 2941	collagen
 T114	anatomical_site 2946 2951	urine
 T115	gene 2976 2984	collagen
+T116	corrected_anatomical_site 227 232;243 252	small intestine
+R1	located_in Arg1:T4 Arg2:T5	
+R2	located_in Arg1:T4 Arg2:T6	
+R3	located_in Arg1:T4 Arg2:T7	
+R4	located_in Arg1:T4 Arg2:T8	
+R5	located_in Arg1:T4 Arg2:T116	
+R6	located_in Arg1:T4 Arg2:T9	
+R7	located_in Arg1:T4 Arg2:T10	
+R8	located_in Arg1:T4 Arg2:T11	
+R9	located_in Arg1:T13 Arg2:T14	
+R10	located_in Arg1:T15 Arg2:T17	
+R11	located_in Arg1:T15 Arg2:T18	
+R12	located_in Arg1:T16 Arg2:T17	
+R13	located_in Arg1:T16 Arg2:T18	
+R14	located_in Arg1:T24 Arg2:T26	
+R15	located_in Arg1:T25 Arg2:T26	
+R16	located_in Arg1:T24 Arg2:T27	
+R17	located_in Arg1:T25 Arg2:T27	
+R18	located_in Arg1:T28 Arg2:T29	
+T117	corrected_anatomical_site 941 964	cartilaginous skeletons
+R19	located_in Arg1:T37 Arg2:T117	
+R20	located_in Arg1:T38 Arg2:T117	
+R21	located_in Arg1:T46 Arg2:T47	
+T118	missed_anatomical_site 1247 1269	cardiovascular network
+T119	missed_anatomical_site 1292 1302	pronephros
+R22	located_in Arg1:T51 Arg2:T118	
+R23	located_in Arg1:T51 Arg2:T53	
+R24	located_in Arg1:T51 Arg2:T119	
+R25	located_in Arg1:T51 Arg2:T54	
+R26	located_in Arg1:T52 Arg2:T118	
+R27	located_in Arg1:T52 Arg2:T53	
+R28	located_in Arg1:T52 Arg2:T119	
+R29	located_in Arg1:T52 Arg2:T54	
+R30	located_in Arg1:T62 Arg2:T61	
+R31	located_in Arg1:T63 Arg2:T61	
+T120	corrected_anatomical_site 1655 1665;1672 1678	colorectal tissue
+R32	located_in Arg1:T64 Arg2:T120	
+R33	located_in Arg1:T65 Arg2:T120	
+R34	located_in Arg1:T66 Arg2:T120	
+T121	corrected_anatomical_site 1829 1843	thyroid tissue
+R35	located_in Arg1:T70 Arg2:T121	
+R36	located_in Arg1:T75 Arg2:T76	
+R37	located_in Arg1:T75 Arg2:T77	
+R38	located_in Arg1:T75 Arg2:T78	
+R41	located_in Arg1:T103 Arg2:T104	
+R42	located_in Arg1:T100 Arg2:T98	
+R39	located_in Arg1:T106 Arg2:T105	
+T122	corrected_gene 2814 2838	bone alkaline phosphatas
+R40	located_in Arg1:T122 Arg2:T107	
+R43	located_in Arg1:T122 Arg2:T108	
+R44	located_in Arg1:T111 Arg2:T110	
+T123	corrected_gene 2885 2941	pyridinoline cross-linked telopeptide of type I collagen
+R45	located_in Arg1:T123 Arg2:T112	
+T124	corrected_gene 2952 2984	N-telopeptide of type I collagen
+R46	located_in Arg1:T124 Arg2:T114	
+T125	missed_gene 515 519	INSR
+T126	missed_gene 521 524	IRS
+R47	located_in Arg1:T125 Arg2:T22	
+R48	located_in Arg1:T126 Arg2:T22	
+R49	located_in Arg1:T20 Arg2:T22	
+#1	AnnotatorNotes R49	Okay?
+#2	AnnotatorNotes R48	Okay?
+#3	AnnotatorNotes R47	Okay?
+#4	AnnotatorNotes R18	Reduced, but still present 

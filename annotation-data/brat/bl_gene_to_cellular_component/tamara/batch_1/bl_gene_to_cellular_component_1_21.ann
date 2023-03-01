@@ -126,3 +126,58 @@ T125	gene 3945 3951	Talin1
 T126	cellular_component 3958 3966	integrin
 T127	gene 3958 3966	integrin
 T128	cellular_component 3995 4013	actin cytoskeleton
+T129	missed_gene 239 244	actin
+R1	located_in Arg1:T129 Arg2:T6	
+T130	missed_gene 249 268	68-kD neurofilament
+R2	located_in Arg1:T130 Arg2:T6	
+R3	located_in Arg1:T9 Arg2:T11	
+R4	located_in Arg1:T10 Arg2:T11	
+R5	located_in Arg1:T25 Arg2:T24	
+R6	located_in Arg1:T28 Arg2:T29	
+R7	located_in Arg1:T28 Arg2:T30	
+R8	located_in Arg1:T28 Arg2:T31	
+T131	missed_gene 1518 1557	60S ribosome subunit biogenesis protein
+T133	missed_gene 1563 1584	ribosomal protein L10
+R10	located_in Arg1:T133 Arg2:T50	
+T134	missed_gene 1642 1663	60S ribosomal protein
+R11	located_in Arg1:T134 Arg2:T52	
+R9	located_in Arg1:T131 Arg2:T49	
+R12	located_in Arg1:T68 Arg2:T69	
+T132	missed_gene 2439 2443	SCY1
+T135	missed_gene 2455 2459	TATC
+T136	corrected_cellular_component 2465 2488	inner envelope membrane
+R13	located_in Arg1:T132 Arg2:T77	
+T137	corrected_gene 2445 2449	ALB3
+R14	located_in Arg1:T137 Arg2:T77	
+R15	located_in Arg1:T135 Arg2:T77	
+T138	corrected_gene 2509 2514	TIC40
+T139	corrected_gene 2516 2522	TIC110
+T140	corrected_gene 2528 2534	FTSH12
+R16	located_in Arg1:T138 Arg2:T136	
+R17	located_in Arg1:T139 Arg2:T136	
+R18	located_in Arg1:T140 Arg2:T136	
+R19	located_in Arg1:T101 Arg2:T100	
+R20	located_in Arg1:T112 Arg2:T113	
+R21	located_in Arg1:T115 Arg2:T114	
+R22	located_in Arg1:T116 Arg2:T114	
+R23	located_in Arg1:T117 Arg2:T114	
+T141	missed_gene 3805 3835	microtubule-associated protein
+R24	located_in Arg1:T122 Arg2:T121	
+R25	located_in Arg1:T141 Arg2:T121	
+T142	missed_gene 3769 3781	PI 3-kinases
+T143	missed_gene 3747 3767	protein phosphatases
+T144	missed_gene 3730 3745	protein kinases
+T145	missed_gene 3783 3799	small G proteins
+T146	corrected_gene 3851 3856	MAP2C
+R26	located_in Arg1:T144 Arg2:T120	
+R27	located_in Arg1:T143 Arg2:T120	
+R28	located_in Arg1:T142 Arg2:T120	
+R29	located_in Arg1:T145 Arg2:T120	
+R30	located_in Arg1:T141 Arg2:T120	
+R31	located_in Arg1:T122 Arg2:T120	
+R32	located_in Arg1:T146 Arg2:T120	
+T147	missed_gene 3995 4000	actin
+R33	located_in Arg1:T147 Arg2:T128	
+T148	missed_cellular_component 3924 3936	cytoskeletal
+R34	located_in Arg1:T125 Arg2:T148	
+R35	located_in Arg1:T125 Arg2:T128	

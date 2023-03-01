@@ -114,3 +114,52 @@ T113	gene 3376 3388	beta-catenin
 T114	cellular_component 3418 3429	cytoplasmic
 T115	gene 3450 3460	E-cadherin
 T116	gene 3477 3489	p120-catenin
+R1	located_in Arg1:T3 Arg2:T4	
+R2	located_in Arg1:T6 Arg2:T7	
+T117	corrected_gene 1074 1090	type IV collagen
+R3	located_in Arg1:T117 Arg2:T36	
+R4	located_in Arg1:T38 Arg2:T36	
+R5	located_in Arg1:T39 Arg2:T36	
+R6	located_in Arg1:T40 Arg2:T36	
+R7	located_in Arg1:T37 Arg2:T35	
+R8	located_in Arg1:T38 Arg2:T35	
+R9	located_in Arg1:T39 Arg2:T35	
+R10	located_in Arg1:T40 Arg2:T35	
+R12	located_in Arg1:T47 Arg2:T46	
+R13	located_in Arg1:T56 Arg2:T57	
+R14	located_in Arg1:T55 Arg2:T57	
+R15	located_in Arg1:T54 Arg2:T57	
+R16	located_in Arg1:T53 Arg2:T57	
+R17	located_in Arg1:T59 Arg2:T60	
+R18	located_in Arg1:T58 Arg2:T60	
+R19	located_in Arg1:T61 Arg2:T64	
+R20	located_in Arg1:T62 Arg2:T64	
+R21	located_in Arg1:T63 Arg2:T64	
+R22	located_in Arg1:T61 Arg2:T65	
+R23	located_in Arg1:T62 Arg2:T65	
+R24	located_in Arg1:T63 Arg2:T65	
+R25	located_in Arg1:T61 Arg2:T66	
+R26	located_in Arg1:T62 Arg2:T66	
+R27	located_in Arg1:T63 Arg2:T66	
+T118	missed_gene 1831 1838	ERMBMPs
+T119	missed_gene 1800 1829	ERM binding membrane proteins
+R28	located_in Arg1:T119 Arg2:T67	
+R29	located_in Arg1:T118 Arg2:T67	
+T120	missed_gene 2044 2088	mitochondrial dihydrolipoamide dehydrogenase
+R30	located_in Arg1:T120 Arg2:T73	
+R31	located_in Arg1:T97 Arg2:T96	
+T121	missed_gene 3196 3207	polycystins
+T122	corrected_gene 3235 3250	beta1-integrins
+T123	missed_gene 3222 3229;3241 3250	alpha5- integrins
+T124	corrected_gene 3213 3220;3241 3250	alpha2- integrins
+R32	located_in Arg1:T124 Arg2:T109	
+R33	located_in Arg1:T123 Arg2:T109	
+R34	located_in Arg1:T122 Arg2:T109	
+R35	located_in Arg1:T121 Arg2:T109	
+R36	located_in Arg1:T110 Arg2:T109	
+R37	located_in Arg1:T116 Arg2:T114	
+T125	missed_gene 1604 1607;1637 1645	ERM proteins
+R11	located_in Arg1:T125 Arg2:T64	
+R38	located_in Arg1:T125 Arg2:T65	
+T126	missed_gene 1741 1746	actin
+R39	located_in Arg1:T126 Arg2:T66	

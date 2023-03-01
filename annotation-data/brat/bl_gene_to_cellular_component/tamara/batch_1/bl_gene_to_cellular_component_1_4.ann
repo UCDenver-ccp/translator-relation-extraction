@@ -115,3 +115,45 @@ T114	gene 3251 3254	Rho
 T115	gene 3256 3259	Rac
 T116	gene 3264 3269	Cdc42
 T117	cellular_component 3311 3329	actin cytoskeleton
+T118	corrected_gene 399 426	Integrin collagen receptors
+R1	located_in Arg1:T118 Arg2:T17	
+T119	missed_gene 838 870	microtubule-associated protein 1
+R2	located_in Arg1:T31 Arg2:T32	
+R3	located_in Arg1:T119 Arg2:T32	
+R4	located_in Arg1:T34 Arg2:T33	
+R5	located_in Arg1:T35 Arg2:T33	
+T120	missed_gene 988 993	MAP1S
+R6	located_in Arg1:T120 Arg2:T33	
+R7	located_in Arg1:T38 Arg2:T41	
+R8	located_in Arg1:T39 Arg2:T41	
+R9	located_in Arg1:T68 Arg2:T69	
+R10	located_in Arg1:T67 Arg2:T69	
+T121	corrected_gene 2194 2208	beta3-integrin
+T122	corrected_gene 2183 2189;2200 2208	beta1- integrin
+R11	located_in Arg1:T121 Arg2:T79	
+R12	located_in Arg1:T122 Arg2:T79	
+T123	corrected_gene 2242 2267;2274 2289	glutathione S-transferase fusion proteins
+R13	located_in Arg1:T123 Arg2:T79	
+T124	corrected_gene 2269 2272;2274 2289	GST fusion proteins
+R14	located_in Arg1:T124 Arg2:T79	
+R15	located_in Arg1:T88 Arg2:T89	
+R16	located_in Arg1:T87 Arg2:T89	
+T125	missed_gene 2471 2506	receptor activity-modifying protein
+T126	missed_gene 2508 2512	RAMP
+R17	located_in Arg1:T126 Arg2:T90	
+R18	located_in Arg1:T125 Arg2:T90	
+T127	corrected_gene 2877 2897	TNF-alpha receptor-I
+R19	located_in Arg1:T127 Arg2:T100	
+R20	located_in Arg1:T102 Arg2:T100	
+R21	located_in Arg1:T103 Arg2:T100	
+T128	corrected_gene 2916 2937	TNF-alpha receptor-II
+R22	located_in Arg1:T128 Arg2:T100	
+R23	located_in Arg1:T105 Arg2:T100	
+T129	missed_gene 2948 2951	p75
+R24	located_in Arg1:T129 Arg2:T100	
+T130	corrected_gene 2983 2995	Ste11 MAPKKK
+R25	located_in Arg1:T130 Arg2:T106	
+T131	missed_gene 3229 3233	Opy2
+R26	located_in Arg1:T131 Arg2:T113	
+T132	missed_gene 3311 3316	actin
+R27	located_in Arg1:T132 Arg2:T117	

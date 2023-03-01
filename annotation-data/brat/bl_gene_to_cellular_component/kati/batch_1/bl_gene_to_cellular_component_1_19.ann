@@ -69,7 +69,7 @@ T68	gene 1710 1718	integrin
 T69	gene 1730 1736	ICAM-1
 T70	gene 1747 1779	mitogen-activated protein kinase
 T71	cellular_component 1823 1831	membrane
-T72	cellular_component 1823 1831;1859 1876	membrane synaptic vesicles
+T72	cellular_component 1859 1876	synaptic vesicles
 T73	gene 1885 1898	synaptophysin
 T74	gene 1903 1915	synaptoporin
 T75	gene 1939 1947	paxillin
@@ -124,17 +124,11 @@ R5	located_in Arg1:T118 Arg2:T30
 T119	missed_gene 856 881	microtubule motor protein
 R6	located_in Arg1:T119 Arg2:T31	
 R7	located_in Arg1:T118 Arg2:T31	
-R8	located_in Arg1:T28 Arg2:T30	
-R9	located_in Arg1:T29 Arg2:T30	
-R10	located_in Arg1:T28 Arg2:T31	
-R11	located_in Arg1:T29 Arg2:T31	
 R12	located_in Arg1:T54 Arg2:T56	
 T120	corrected_gene 1290 1317	tyrosinase-related proteins
 R13	located_in Arg1:T120 Arg2:T56	
 T121	missed_gene 1319 1323	TRPs
 R14	located_in Arg1:T121 Arg2:T56	
-R15	located_in Arg1:T73 Arg2:T72	
-R16	located_in Arg1:T74 Arg2:T72	
 T122	corrected_gene 2118 2143	amyloid precursor protein
 R17	located_in Arg1:T122 Arg2:T85	
 R18	located_in Arg1:T84 Arg2:T85	
@@ -148,4 +142,10 @@ R23	located_in Arg1:T109 Arg2:T110
 T125	missed_gene 2738 2743	actin
 R24	located_in Arg1:T125 Arg2:T108	
 R25	located_in Arg1:T125 Arg2:T110	
-R26	located_in Arg1:T116 Arg2:T115	
+T126	corrected_gene 1090 1101	?1-integrin
+R8	located_in Arg1:T126 Arg2:T44	
+T127	corrected_cellular_component 1823 1831;1859 1876	membrane synaptic vesicles
+R9	located_in Arg1:T73 Arg2:T127	
+R10	located_in Arg1:T74 Arg2:T127	
+R11	located_in Arg1:T125 Arg2:T107	
+R15	located_in Arg1:T119 Arg2:T30	

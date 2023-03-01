@@ -114,3 +114,42 @@ T113	cellular_component 3119 3133	serpin complex
 T114	gene 3145 3182	very-low-density lipoprotein receptor
 T115	gene 3187 3216	alpha2-macroglobulin receptor
 T116	gene 3217 3249	low-density-lipoprotein-receptor
+T117	missed_gene 186 190	CD46
+R1	located_in Arg1:T117 Arg2:T6	
+R2	located_in Arg1:T9 Arg2:T8	
+T118	corrected_gene 427 434	ankyrin
+T119	missed_cellular_component 400 412	cytoskeletal
+R3	located_in Arg1:T118 Arg2:T119	
+T120	missed_gene 361 364;390 398	ERM proteins
+R4	located_in Arg1:T120 Arg2:T8	
+R5	located_in Arg1:T10 Arg2:T8	
+R6	located_in Arg1:T11 Arg2:T8	
+R7	located_in Arg1:T12 Arg2:T8	
+T121	missed_gene 444 472	non-receptor tyrosine kinase
+T122	corrected_gene 473 478	c-Src
+R8	located_in Arg1:T118 Arg2:T8	
+R9	located_in Arg1:T121 Arg2:T8	
+R10	located_in Arg1:T122 Arg2:T8	
+R11	located_in Arg1:T24 Arg2:T23	
+T123	corrected_gene 1157 1171	p38 MAP kinase
+R12	located_in Arg1:T123 Arg2:T41	
+T124	missed_gene 1455 1460	MHC-I
+R13	located_in Arg1:T124 Arg2:T48	
+T125	missed_gene 1777 1781	JAMs
+R14	located_in Arg1:T125 Arg2:T57	
+R15	located_in Arg1:T59 Arg2:T58	
+R16	located_in Arg1:T60 Arg2:T58	
+R17	located_in Arg1:T61 Arg2:T58	
+R18	located_in Arg1:T69 Arg2:T68	
+R19	located_in Arg1:T73 Arg2:T71	
+R20	located_in Arg1:T74 Arg2:T71	
+R21	located_in Arg1:T75 Arg2:T71	
+R22	located_in Arg1:T76 Arg2:T71	
+T126	missed_gene 2197 2200	dsh
+R23	located_in Arg1:T126 Arg2:T71	
+T127	corrected_gene 2587 2629	progesterone receptor membrane component 1
+R24	located_in Arg1:T127 Arg2:T94	
+R25	located_in Arg1:T95 Arg2:T94	
+R26	located_in Arg1:T96 Arg2:T94	
+T128	corrected_gene 2990 3016	calmodulin-binding protein
+R27	located_in Arg1:T128 Arg2:T110	

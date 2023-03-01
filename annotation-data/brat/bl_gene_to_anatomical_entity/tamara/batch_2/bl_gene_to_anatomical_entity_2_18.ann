@@ -119,3 +119,90 @@ T118	anatomical_site 3216 3232	sebaceous glands
 T119	anatomical_site 3234 3247	hair follicle
 T120	anatomical_site 3266 3281	striated muscle
 T121	anatomical_site 3296 3300	skin
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T4 Arg2:T5	
+R3	located_in Arg1:T1 Arg2:T3	
+R4	located_in Arg1:T1 Arg2:T5	
+R5	located_in Arg1:T15 Arg2:T16	
+R6	located_in Arg1:T28 Arg2:T27	
+T123	corrected_gene 1078 1083	ACBP1
+T124	corrected_anatomical_site 1112 1123	embryo sacs
+R9	located_in Arg1:T123 Arg2:T124	
+T122	corrected_gene 1102 1108	SMO1-2
+R7	located_in Arg1:T122 Arg2:T124	
+R8	located_in Arg1:T45 Arg2:T47	
+R10	located_in Arg1:T44 Arg2:T47	
+R11	located_in Arg1:T43 Arg2:T47	
+R12	located_in Arg1:T65 Arg2:T64	
+R13	located_in Arg1:T65 Arg2:T63	
+R14	located_in Arg1:T68 Arg2:T67	
+R15	located_in Arg1:T68 Arg2:T69	
+R16	located_in Arg1:T68 Arg2:T70	
+R17	located_in Arg1:T90 Arg2:T92	
+R18	located_in Arg1:T90 Arg2:T93	
+R19	located_in Arg1:T91 Arg2:T92	
+R20	located_in Arg1:T91 Arg2:T93	
+R21	located_in Arg1:T95 Arg2:T96	
+R22	located_in Arg1:T95 Arg2:T97	
+R23	located_in Arg1:T98 Arg2:T99	
+R24	located_in Arg1:T100 Arg2:T101	
+T125	corrected_gene 2789 2807	pulmonary collagen
+T126	corrected_gene 2812 2833	non-collagen proteins
+R25	located_in Arg1:T125 Arg2:T104	
+R26	located_in Arg1:T125 Arg2:T105	
+R27	located_in Arg1:T126 Arg2:T104	
+R28	located_in Arg1:T126 Arg2:T105	
+T127	missed_gene 2982 2988	CYP1A1
+T128	missed_gene 3020 3024	GSTP
+T129	missed_gene 3060 3064	GSTA
+T130	missed_gene 3097 3101	GSTM
+T131	missed_gene 3137 3141	GSTT
+R29	located_in Arg1:T116 Arg2:T121	
+R30	located_in Arg1:T131 Arg2:T121	
+R31	located_in Arg1:T115 Arg2:T121	
+R32	located_in Arg1:T130 Arg2:T121	
+R33	located_in Arg1:T114 Arg2:T121	
+R34	located_in Arg1:T129 Arg2:T121	
+R35	located_in Arg1:T113 Arg2:T121	
+R36	located_in Arg1:T128 Arg2:T121	
+R37	located_in Arg1:T112 Arg2:T121	
+R38	located_in Arg1:T127 Arg2:T121	
+R39	located_in Arg1:T116 Arg2:T120	
+R40	located_in Arg1:T131 Arg2:T120	
+R41	located_in Arg1:T115 Arg2:T120	
+R42	located_in Arg1:T130 Arg2:T120	
+R43	located_in Arg1:T114 Arg2:T120	
+R44	located_in Arg1:T129 Arg2:T120	
+R45	located_in Arg1:T113 Arg2:T120	
+R46	located_in Arg1:T128 Arg2:T120	
+R47	located_in Arg1:T112 Arg2:T120	
+R48	located_in Arg1:T127 Arg2:T120	
+R49	located_in Arg1:T116 Arg2:T119	
+R50	located_in Arg1:T131 Arg2:T119	
+R51	located_in Arg1:T115 Arg2:T119	
+R52	located_in Arg1:T130 Arg2:T119	
+R53	located_in Arg1:T114 Arg2:T119	
+R54	located_in Arg1:T129 Arg2:T119	
+R55	located_in Arg1:T113 Arg2:T119	
+R56	located_in Arg1:T128 Arg2:T119	
+R57	located_in Arg1:T112 Arg2:T119	
+R58	located_in Arg1:T127 Arg2:T119	
+R59	located_in Arg1:T116 Arg2:T118	
+R60	located_in Arg1:T131 Arg2:T118	
+R61	located_in Arg1:T115 Arg2:T118	
+R62	located_in Arg1:T130 Arg2:T118	
+R63	located_in Arg1:T114 Arg2:T118	
+R64	located_in Arg1:T129 Arg2:T118	
+R65	located_in Arg1:T113 Arg2:T118	
+R66	located_in Arg1:T128 Arg2:T118	
+R67	located_in Arg1:T112 Arg2:T118	
+R68	located_in Arg1:T127 Arg2:T118	
+R69	located_in Arg1:T60 Arg2:T59	
+R70	located_in Arg1:T61 Arg2:T59	
+R71	located_in Arg1:T62 Arg2:T59	
+T132	missed_anatomical_site 1125 1131	pollen
+T133	missed_anatomical_site 1136 1145	trichomes
+R72	located_in Arg1:T123 Arg2:T132	
+R73	located_in Arg1:T123 Arg2:T133	
+R74	located_in Arg1:T122 Arg2:T132	
+R75	located_in Arg1:T122 Arg2:T133	

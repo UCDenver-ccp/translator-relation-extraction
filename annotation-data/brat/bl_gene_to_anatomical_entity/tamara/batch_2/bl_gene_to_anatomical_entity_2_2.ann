@@ -102,3 +102,97 @@ T101	gene 2597 2601	TLR4
 T102	gene 2602 2606	TLR2
 T103	gene 2611 2616	MyD88
 T104	anatomical_site 2635 2649	adipose tissue
+R1	located_in Arg1:T4 Arg2:T2	
+T105	missed_anatomical_site 126 131	glial
+T106	missed_gene 156 160	CNTF
+R2	located_in Arg1:T7 Arg2:T105	
+R3	located_in Arg1:T7 Arg2:T5	
+R4	located_in Arg1:T106 Arg2:T105	
+R5	located_in Arg1:T106 Arg2:T5	
+R6	located_in Arg1:T6 Arg2:T105	
+R7	located_in Arg1:T6 Arg2:T5	
+T107	missed_gene 245 250	CD 44
+T108	corrected_anatomical_site 175 186;194 205	pulp tissue natal teeth
+T109	corrected_anatomical_site 298 309	lung tissue
+R14	located_in Arg1:T12 Arg2:T109	
+R15	located_in Arg1:T13 Arg2:T109	
+R16	located_in Arg1:T37 Arg2:T38	
+R17	located_in Arg1:T36 Arg2:T38	
+R18	located_in Arg1:T37 Arg2:T39	
+R19	located_in Arg1:T36 Arg2:T39	
+T110	missed_gene 1238 1241	SAA
+T111	missed_gene 1243 1246	AVD
+T112	missed_gene 1269 1272	AGT
+T113	missed_gene 1274 1280	MRP126
+T114	missed_gene 1284 1286	CP
+R20	located_in Arg1:T47 Arg2:T50	
+R21	located_in Arg1:T110 Arg2:T50	
+R22	located_in Arg1:T111 Arg2:T50	
+R23	located_in Arg1:T48 Arg2:T50	
+R24	located_in Arg1:T49 Arg2:T50	
+R25	located_in Arg1:T112 Arg2:T50	
+R26	located_in Arg1:T113 Arg2:T50	
+R27	located_in Arg1:T114 Arg2:T50	
+T115	corrected_gene 1377 1394	FMO1-like protein
+T116	missed_anatomical_site 1431 1437	livers
+T117	missed_anatomical_site 1414 1419	gills
+R28	located_in Arg1:T115 Arg2:T117	
+R29	located_in Arg1:T115 Arg2:T116	
+R30	located_in Arg1:T55 Arg2:T116	
+T118	missed_anatomical_site 1526 1530	gill
+R31	located_in Arg1:T58 Arg2:T118	
+R32	located_in Arg1:T60 Arg2:T61	
+R33	located_in Arg1:T60 Arg2:T62	
+R34	located_in Arg1:T65 Arg2:T66	
+R35	located_in Arg1:T64 Arg2:T66	
+R37	located_in Arg1:T67 Arg2:T69	
+R38	located_in Arg1:T68 Arg2:T69	
+T119	corrected_gene 1805 1843	nerve terminal-specific phosphoprotein
+R36	located_in Arg1:T119 Arg2:T69	
+T120	missed_gene 1845 1848	AHR
+R39	located_in Arg1:T72 Arg2:T73	
+R40	located_in Arg1:T71 Arg2:T73	
+R41	located_in Arg1:T120 Arg2:T73	
+R42	located_in Arg1:T85 Arg2:T84	
+R43	located_in Arg1:T87 Arg2:T86	
+T121	corrected_gene 2456 2485	TGF beta inducible early gene
+T122	missed_gene 2487 2491	TIEG
+T123	corrected_anatomical_site 2541 2554	breast tissue
+R44	located_in Arg1:T97 Arg2:T123	
+R45	located_in Arg1:T96 Arg2:T123	
+R46	located_in Arg1:T95 Arg2:T123	
+R47	located_in Arg1:T122 Arg2:T123	
+R48	located_in Arg1:T121 Arg2:T123	
+R49	located_in Arg1:T103 Arg2:T104	
+R50	located_in Arg1:T102 Arg2:T104	
+R51	located_in Arg1:T101 Arg2:T104	
+T124	corrected_gene 817 849	serum mesothelin-related protein
+R52	located_in Arg1:T124 Arg2:T33	
+R53	located_in Arg1:T35 Arg2:T33	
+R54	located_in Arg1:T47 Arg2:T51	
+R55	located_in Arg1:T110 Arg2:T51	
+R56	located_in Arg1:T111 Arg2:T51	
+R57	located_in Arg1:T48 Arg2:T51	
+R58	located_in Arg1:T49 Arg2:T51	
+R59	located_in Arg1:T112 Arg2:T51	
+R60	located_in Arg1:T113 Arg2:T51	
+R61	located_in Arg1:T114 Arg2:T51	
+T125	missed_gene 2092 2095	MDA
+T126	missed_gene 2097 2103	TGF-?1
+R62	located_in Arg1:T125 Arg2:T79	
+R63	located_in Arg1:T126 Arg2:T79	
+R64	located_in Arg1:T80 Arg2:T79	
+R65	located_in Arg1:T81 Arg2:T79	
+R66	located_in Arg1:T82 Arg2:T79	
+R67	located_in Arg1:T83 Arg2:T79	
+T127	missed_gene 2138 2141	BNP
+T128	missed_gene 2143 2146	ANP
+R68	located_in Arg1:T127 Arg2:T79	
+R69	located_in Arg1:T128 Arg2:T79	
+#1	AnnotatorNotes T108	do we mark it? or split? 
+R8	located_in Arg1:T10 Arg2:T108	
+#2	AnnotatorNotes R8	Okay?
+R9	located_in Arg1:T107 Arg2:T9	
+#3	AnnotatorNotes R9	Okay?
+R10	located_in Arg1:T11 Arg2:T108	
+#4	AnnotatorNotes R10	Okay?

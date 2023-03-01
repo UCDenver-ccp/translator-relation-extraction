@@ -62,24 +62,24 @@ T57	missed_disease_or_phenotypic_feature 497 502	tumor
 R5	treats Arg1:T56 Arg2:T57	
 R6	treats Arg1:T56 Arg2:T19	
 R7	treats Arg1:T56 Arg2:T20	
-T58	corrected_disease_or_phenotypic_feature 797 821	hormone-dependent tumors
+T58	corrected_disease_or_phenotypic_feature 815 821	tumors
 R8	causes_or_contributes_to Arg1:T21 Arg2:T58	
 T59	missed_chemical 880 884	iRGD
 R9	treats Arg1:T59 Arg2:T24	
 T60	missed_disease_or_phenotypic_feature 965 969	MMMT
 R10	causes_or_contributes_to Arg1:T26 Arg2:T60	
 R11	causes_or_contributes_to Arg1:T27 Arg2:T60	
-T61	corrected_disease_or_phenotypic_feature 1364 1388	hormone-dependent tumors
+T61	corrected_disease_or_phenotypic_feature 1382 1388	tumors
 R12	causes_or_contributes_to Arg1:T35 Arg2:T61	
 T63	missed_chemical 1331 1343	LHRH analogs
-R13	treats Arg1:T63 Arg2:T61	
 T62	missed_chemical 1484 1525	anti-glutamic acid decarboxylase antibody
-R14	causes_or_contributes_to Arg1:T62 Arg2:T39	
-T64	corrected_disease_or_phenotypic_feature 1612 1637	hormone-dependent tumours
+T64	corrected_disease_or_phenotypic_feature 1630 1637	tumours
 R15	causes_or_contributes_to Arg1:T42 Arg2:T64	
-T65	corrected_disease_or_phenotypic_feature 1805 1828	hormone-dependent tumor
+T65	corrected_disease_or_phenotypic_feature 1823 1828	tumor
 R16	causes_or_contributes_to Arg1:T47 Arg2:T65	
 R17	treats Arg1:T52 Arg2:T51	
 R18	treats Arg1:T52 Arg2:T50	
 T66	DONE 2002 2006	DONE
 R19	treats Arg1:T18 Arg2:T19	
+T67	corrected_disease_or_phenotypic_feature 1364 1388	hormone-dependent tumors
+R13	treats Arg1:T63 Arg2:T67	

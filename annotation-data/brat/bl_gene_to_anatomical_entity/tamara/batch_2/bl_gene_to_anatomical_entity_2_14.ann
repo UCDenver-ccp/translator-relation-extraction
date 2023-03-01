@@ -111,3 +111,88 @@ T110	gene 2862 2866	lacZ
 T111	gene 2889 2897	Adamtsl2
 T112	anatomical_site 2912 2916	limb
 T113	anatomical_site 2917 2924	tendons
+T114	missed_gene 124 127	NOD
+T115	corrected_gene 153 184;187 188	pyrin domain-containing protein 3
+T116	corrected_gene 190 194;196 197	NLRP 3
+T117	corrected_gene 153 184;204 206	pyrin domain-containing protein 12
+R1	located_in Arg1:T114 Arg2:T4	
+R2	located_in Arg1:T115 Arg2:T4	
+R3	located_in Arg1:T2 Arg2:T4	
+R4	located_in Arg1:T116 Arg2:T4	
+R5	located_in Arg1:T3 Arg2:T4	
+R6	located_in Arg1:T117 Arg2:T4	
+T118	missed_gene 223 253	retinoic acid-inducible gene I
+T119	missed_gene 255 260	RIG-I
+R7	located_in Arg1:T5 Arg2:T7	
+R8	located_in Arg1:T118 Arg2:T7	
+R9	located_in Arg1:T119 Arg2:T7	
+R10	located_in Arg1:T6 Arg2:T7	
+R11	located_in Arg1:T8 Arg2:T9	
+T120	missed_gene 316 321	RIG-I
+T121	corrected_gene 329 333;340 341	NLRP 3
+R12	located_in Arg1:T121 Arg2:T12	
+R13	located_in Arg1:T11 Arg2:T12	
+T122	missed_gene 323 327	NAIP
+R14	located_in Arg1:T122 Arg2:T12	
+R15	located_in Arg1:T120 Arg2:T12	
+R16	located_in Arg1:T10 Arg2:T12	
+T123	missed_gene 356 361	RIG-I
+T124	corrected_gene 363 367;374 376	NLRP 10
+R17	located_in Arg1:T123 Arg2:T14	
+R18	located_in Arg1:T124 Arg2:T14	
+R19	located_in Arg1:T13 Arg2:T14	
+R20	located_in Arg1:T19 Arg2:T21	
+R21	located_in Arg1:T20 Arg2:T21	
+T125	corrected_anatomical_site 523 536	nasal placode
+R22	located_in Arg1:T19 Arg2:T125	
+R23	located_in Arg1:T20 Arg2:T125	
+T126	corrected_anatomical_site 664 675	COPD tissue
+R24	located_in Arg1:T26 Arg2:T126	
+R25	located_in Arg1:T29 Arg2:T30	
+R26	located_in Arg1:T29 Arg2:T31	
+R27	located_in Arg1:T29 Arg2:T32	
+T127	missed_anatomical_site 787 800	corpus luteum
+T128	missed_anatomical_site 802 817	Fallopian tubes
+T129	missed_anatomical_site 837 847	astrocytes
+R28	located_in Arg1:T29 Arg2:T127	
+R29	located_in Arg1:T29 Arg2:T128	
+R30	located_in Arg1:T29 Arg2:T33	
+R31	located_in Arg1:T29 Arg2:T129	
+R32	located_in Arg1:T29 Arg2:T34	
+R33	located_in Arg1:T29 Arg2:T35	
+R34	located_in Arg1:T36 Arg2:T38	
+R35	located_in Arg1:T37 Arg2:T39	
+R36	located_in Arg1:T45 Arg2:T47	
+R37	located_in Arg1:T46 Arg2:T47	
+T130	missed_gene 1436 1439	Lox
+R38	located_in Arg1:T62 Arg2:T63	
+R39	located_in Arg1:T61 Arg2:T63	
+R40	located_in Arg1:T60 Arg2:T63	
+R41	located_in Arg1:T130 Arg2:T63	
+R42	located_in Arg1:T66 Arg2:T67	
+R43	located_in Arg1:T65 Arg2:T67	
+R44	located_in Arg1:T69 Arg2:T70	
+R46	located_in Arg1:T80 Arg2:T83	
+R47	located_in Arg1:T81 Arg2:T83	
+T131	corrected_anatomical_site 2001 2018	peripheral tissue
+R48	located_in Arg1:T81 Arg2:T131	
+R49	located_in Arg1:T80 Arg2:T131	
+R50	located_in Arg1:T84 Arg2:T86	
+R51	located_in Arg1:T85 Arg2:T86	
+R52	located_in Arg1:T85 Arg2:T87	
+R53	located_in Arg1:T84 Arg2:T87	
+R54	located_in Arg1:T85 Arg2:T88	
+R55	located_in Arg1:T84 Arg2:T88	
+R56	located_in Arg1:T89 Arg2:T91	
+R57	located_in Arg1:T90 Arg2:T91	
+R58	located_in Arg1:T103 Arg2:T104	
+R59	located_in Arg1:T103 Arg2:T105	
+R60	located_in Arg1:T103 Arg2:T106	
+R61	located_in Arg1:T103 Arg2:T107	
+R62	located_in Arg1:T103 Arg2:T108	
+T132	corrected_anatomical_site 2912 2924	limb tendons
+R63	located_in Arg1:T111 Arg2:T132	
+R45	located_in Arg1:T77 Arg2:T76	
+T133	corrected_gene 434 469	transferrin-like myotrophic protein
+T134	corrected_anatomical_site 394 412	embryo spinal cord
+R64	located_in Arg1:T133 Arg2:T134	

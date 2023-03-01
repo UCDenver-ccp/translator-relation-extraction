@@ -128,3 +128,24 @@ T127	gene 3310 3314	MCM4
 T128	gene 3316 3321	MCM10
 T129	gene 3323 3328	Cdc45
 T130	gene 3358 3362	Cdc7
+R1	located_in Arg1:T9 Arg2:T8	
+R2	located_in Arg1:T10 Arg2:T8	
+R3	located_in Arg1:T11 Arg2:T8	
+R4	located_in Arg1:T12 Arg2:T8	
+R5	located_in Arg1:T13 Arg2:T8	
+R6	located_in Arg1:T21 Arg2:T22	
+R7	located_in Arg1:T21 Arg2:T20	
+R8	located_in Arg1:T18 Arg2:T20	
+R9	located_in Arg1:T33 Arg2:T34	
+R10	located_in Arg1:T33 Arg2:T35	
+R11	located_in Arg1:T41 Arg2:T40	
+R12	located_in Arg1:T42 Arg2:T40	
+T131	corrected_gene 1181 1189	p38 MAPK
+R13	located_in Arg1:T131 Arg2:T45	
+T133	corrected_gene 1662 1708	microtubule-associated protein 1 light chain 3
+T134	corrected_gene 1649 1660	MAP1LC3/LC3
+R16	located_in Arg1:T134 Arg2:T68	
+R17	located_in Arg1:T133 Arg2:T68	
+T135	missed_gene 2359 2379	ribosomal protein L5
+R18	located_in Arg1:T135 Arg2:T94	
+R20	located_in Arg1:T54 Arg2:T56	

@@ -66,7 +66,7 @@ T65	gene 1626 1630	EEA1
 T66	gene 1632 1656	early endosome antigen 1
 T67	gene 1658 1664	GOLGA2
 T68	gene 1677 1682	LAMP1
-T69	cellular_component 1684 1693	lysosomal
+T69	cellular_component 1684 1693;1705 1713	lysosomal membrane
 T70	gene 1705 1721	membrane protein
 T71	gene 1725 1733	MAP1LC3B
 T72	gene 1739 1790	microtubule associated protein 1 light chain 3 beta
@@ -130,3 +130,59 @@ T129	gene 3504 3512	integrin
 T130	cellular_component 3504 3512	integrin
 T131	gene 3520 3528	integrin
 T132	cellular_component 3520 3528	integrin
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T5 Arg2:T7	
+R3	located_in Arg1:T6 Arg2:T7	
+R4	located_in Arg1:T9 Arg2:T8	
+R5	located_in Arg1:T10 Arg2:T8	
+T133	corrected_gene 325 330	Sac1p
+R6	located_in Arg1:T133 Arg2:T8	
+R7	located_in Arg1:T12 Arg2:T8	
+R8	located_in Arg1:T12 Arg2:T8	
+T134	missed_gene 338 345	Gadd153
+R9	located_in Arg1:T134 Arg2:T8	
+R10	located_in Arg1:T22 Arg2:T23	
+R11	located_in Arg1:T27 Arg2:T29	
+R12	located_in Arg1:T28 Arg2:T29	
+T135	corrected_gene 1060 1069	?-tubulin
+R13	located_in Arg1:T135 Arg2:T42	
+R14	located_in Arg1:T48 Arg2:T47	
+R15	located_in Arg1:T49 Arg2:T47	
+R16	located_in Arg1:T50 Arg2:T47	
+R17	located_in Arg1:T51 Arg2:T47	
+R18	located_in Arg1:T52 Arg2:T47	
+R19	located_in Arg1:T53 Arg2:T47	
+T136	missed_cellular_component 1331 1334	ECM
+R20	located_in Arg1:T56 Arg2:T54	
+R21	located_in Arg1:T56 Arg2:T136	
+T137	missed_cellular_component 1638 1646	endosome
+R22	located_in Arg1:T65 Arg2:T137	
+R23	located_in Arg1:T66 Arg2:T137	
+R24	located_in Arg1:T68 Arg2:T69	
+T138	corrected_gene 1684 1723	lysosomal associated membrane protein 1
+R25	located_in Arg1:T138 Arg2:T69	
+T139	missed_cellular_component 1739 1750	microtubule
+R26	located_in Arg1:T72 Arg2:T139	
+T140	missed_cellular_component 1819 1834	mitochondrially
+T141	missed_gene 1811 1817	MT-CO2
+R27	located_in Arg1:T141 Arg2:T140	
+T142	missed_gene 1819 1866	mitochondrially encoded cytochrome c oxidase II
+R28	located_in Arg1:T142 Arg2:T140	
+T143	missed_gene 2159 2165	TOMM20
+R29	located_in Arg1:T143 Arg2:T82	
+T144	missed_gene 2167 2213	translocase of outer mitochondrial membrane 20
+R30	located_in Arg1:T144 Arg2:T82	
+T145	missed_cellular_component 2222 2229;2241 2249	vesicle membrane
+R31	located_in Arg1:T83 Arg2:T145	
+R32	located_in Arg1:T84 Arg2:T145	
+T146	missed_cellular_component 2268 2275;2287 2295	vesicle membrane
+R33	located_in Arg1:T86 Arg2:T146	
+T147	missed_gene 2315 2373	lysosomal-associated protein multispanning transmembrane 5
+R34	located_in Arg1:T87 Arg2:T88	
+R35	located_in Arg1:T147 Arg2:T88	
+T149	corrected_cellular_component 2380 2388;2404 2426	membrane intracellular vesicles
+R36	located_in Arg1:T87 Arg2:T149	
+R37	located_in Arg1:T147 Arg2:T149	
+R38	located_in Arg1:T100 Arg2:T102	
+R39	located_in Arg1:T101 Arg2:T102	
+R40	located_in Arg1:T120 Arg2:T119	

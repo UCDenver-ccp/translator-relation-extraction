@@ -98,3 +98,64 @@ T97	gene 2441 2445	OAS1
 T98	anatomical_site 2459 2465	mucosa
 T99	anatomical_site 2467 2474	trachea
 T100	anatomical_site 2480 2484	lung
+T101	corrected_anatomical_site 546 557	lung tissue
+R3	located_in Arg1:T24 Arg2:T101	
+R4	located_in Arg1:T25 Arg2:T101	
+R5	located_in Arg1:T26 Arg2:T101	
+R6	located_in Arg1:T27 Arg2:T101	
+R7	located_in Arg1:T30 Arg2:T101	
+R8	located_in Arg1:T31 Arg2:T32	
+R9	located_in Arg1:T33 Arg2:T34	
+T102	missed_gene 758 767	NF-kappaB
+T103	corrected_anatomical_site 867 878	lymph nodes
+R10	located_in Arg1:T35 Arg2:T36	
+R11	located_in Arg1:T35 Arg2:T37	
+R12	located_in Arg1:T35 Arg2:T38	
+R13	located_in Arg1:T35 Arg2:T39	
+R14	located_in Arg1:T35 Arg2:T40	
+R15	located_in Arg1:T35 Arg2:T41	
+R16	located_in Arg1:T35 Arg2:T103	
+R17	located_in Arg1:T102 Arg2:T36	
+R18	located_in Arg1:T102 Arg2:T37	
+R19	located_in Arg1:T102 Arg2:T38	
+R20	located_in Arg1:T102 Arg2:T39	
+R21	located_in Arg1:T102 Arg2:T40	
+R22	located_in Arg1:T102 Arg2:T41	
+R23	located_in Arg1:T102 Arg2:T103	
+R24	located_in Arg1:T42 Arg2:T43	
+R25	located_in Arg1:T42 Arg2:T44	
+R26	located_in Arg1:T59 Arg2:T62	
+R27	located_in Arg1:T60 Arg2:T62	
+R28	located_in Arg1:T61 Arg2:T62	
+T104	missed_gene 1609 1640	connective tissue growth factor
+R29	located_in Arg1:T104 Arg2:T69	
+R30	located_in Arg1:T70 Arg2:T69	
+R31	located_in Arg1:T71 Arg2:T69	
+R32	located_in Arg1:T104 Arg2:T68	
+R33	located_in Arg1:T70 Arg2:T68	
+R34	located_in Arg1:T71 Arg2:T68	
+T105	missed_gene 2008 2034	bone morphogenetic protein
+R35	located_in Arg1:T105 Arg2:T83	
+R36	located_in Arg1:T84 Arg2:T83	
+T106	corrected_gene 2244 2259	type 1 collagen
+T107	missed_gene 2261 2273	proteoglycan
+R37	located_in Arg1:T93 Arg2:T95	
+R38	located_in Arg1:T93 Arg2:T94	
+R39	located_in Arg1:T92 Arg2:T95	
+R40	located_in Arg1:T92 Arg2:T94	
+R41	located_in Arg1:T107 Arg2:T95	
+R42	located_in Arg1:T107 Arg2:T94	
+R43	located_in Arg1:T106 Arg2:T95	
+R44	located_in Arg1:T106 Arg2:T94	
+T108	corrected_anatomical_site 2453 2465	nasal mucosa
+R45	located_in Arg1:T97 Arg2:T100	
+R46	located_in Arg1:T97 Arg2:T99	
+R47	located_in Arg1:T97 Arg2:T108	
+R48	located_in Arg1:T96 Arg2:T108	
+R49	located_in Arg1:T96 Arg2:T99	
+R50	located_in Arg1:T96 Arg2:T100	
+R1	located_in Arg1:T21 Arg2:T20	
+R2	located_in Arg1:T23 Arg2:T22	
+R51	located_in Arg1:T59 Arg2:T63	
+R52	located_in Arg1:T60 Arg2:T63	
+R53	located_in Arg1:T61 Arg2:T63	

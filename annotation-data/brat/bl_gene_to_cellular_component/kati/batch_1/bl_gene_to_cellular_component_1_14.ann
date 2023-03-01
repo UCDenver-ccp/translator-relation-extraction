@@ -173,3 +173,7 @@ T145	missed_gene 3712 3737	glucose response proteins
 R28	located_in Arg1:T145 Arg2:T144	
 R29	located_in Arg1:T131 Arg2:T144	
 R30	located_in Arg1:T132 Arg2:T144	
+R31	located_in Arg1:T90 Arg2:T92	
+T146	missed_gene 2163 2212	syndecan-4 cytoplasmic domain binding PDZ protein
+R32	located_in Arg1:T146 Arg2:T92	
+R33	located_in Arg1:T91 Arg2:T92	

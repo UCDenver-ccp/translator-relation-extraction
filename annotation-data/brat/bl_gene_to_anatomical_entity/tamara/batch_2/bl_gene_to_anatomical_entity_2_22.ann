@@ -117,3 +117,52 @@ T116	anatomical_site 2765 2770	serum
 T117	gene 2771 2778	insulin
 T118	anatomical_site 2827 2832	serum
 T119	gene 2855 2866	adiponectin
+T120	missed_gene 36 40	Dp71
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T3	
+R3	located_in Arg1:T120 Arg2:T3	
+T121	missed_gene 88 93	Dp180
+T122	missed_gene 97 101	Up71
+R4	located_in Arg1:T122 Arg2:T5	
+R5	located_in Arg1:T121 Arg2:T5	
+R6	located_in Arg1:T4 Arg2:T5	
+R7	located_in Arg1:T14 Arg2:T15	
+R8	located_in Arg1:T14 Arg2:T16	
+T123	missed_gene 266 285	Proteolipid protein
+R9	located_in Arg1:T123 Arg2:T15	
+R10	located_in Arg1:T123 Arg2:T16	
+T124	missed_gene 559 587	bone morphogenetic protein 6
+R11	located_in Arg1:T124 Arg2:T24	
+R12	located_in Arg1:T25 Arg2:T24	
+T125	missed_anatomical_site 719 727	thalamus
+R13	located_in Arg1:T28 Arg2:T29	
+R14	located_in Arg1:T28 Arg2:T30	
+R15	located_in Arg1:T28 Arg2:T125	
+R16	located_in Arg1:T28 Arg2:T31	
+R17	located_in Arg1:T28 Arg2:T32	
+R18	located_in Arg1:T66 Arg2:T64	
+R19	located_in Arg1:T67 Arg2:T65	
+T126	corrected_anatomical_site 1719 1734	thyroid tissues
+R20	located_in Arg1:T69 Arg2:T126	
+R21	located_in Arg1:T70 Arg2:T126	
+R22	located_in Arg1:T75 Arg2:T76	
+R23	located_in Arg1:T75 Arg2:T77	
+T127	missed_anatomical_site 1922 1925	PNS
+R24	located_in Arg1:T75 Arg2:T127	
+T128	corrected_gene 2077 2110	vascular cell adhesion molecule-1
+R25	located_in Arg1:T128 Arg2:T83	
+T129	corrected_gene 2274 2284	collagen I
+T130	corrected_gene 2289 2301	collagen III
+R26	located_in Arg1:T129 Arg2:T93	
+R27	located_in Arg1:T129 Arg2:T94	
+R30	located_in Arg1:T130 Arg2:T93	
+R31	located_in Arg1:T130 Arg2:T94	
+T131	corrected_anatomical_site 2349 2364	ligament tissue
+R28	located_in Arg1:T130 Arg2:T131	
+R29	located_in Arg1:T129 Arg2:T131	
+R32	located_in Arg1:T119 Arg2:T118	
+R33	located_in Arg1:T117 Arg2:T116	
+T132	missed_gene 766 785	smooth muscle actin
+R34	located_in Arg1:T132 Arg2:T33	
+#1	AnnotatorNotes R18	Okay?
+#2	AnnotatorNotes R19	Okay?

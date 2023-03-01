@@ -57,7 +57,7 @@ T56	cellular_component 1998 2007	lysosomal
 T57	gene 2018 2029	cathepsin D
 T58	gene 2083 2087	rab7
 T59	gene 2119 2156	vesicle-associated membrane protein 8
-T60	cellular_component 2158 2166	lysosome
+T60	corrected_cellular_component 2158 2166;2178 2186	lysosome membrane
 T61	cellular_component 2178 2186	membrane
 T62	gene 2196 2202	LAMP-1
 T63	gene 2207 2213	LAMP-2
@@ -107,3 +107,62 @@ T106	gene 3620 3624	COI1
 T107	cellular_component 3645 3658	Mitochondrial
 T108	gene 3659 3663	PIP3
 T109	gene 3680 3686	FUNDC2
+R1	located_in Arg1:T10 Arg2:T11	
+T110	missed_gene 373 400	neutral endopeptidase 24.11
+R2	located_in Arg1:T110 Arg2:T11	
+T111	missed_gene 436 482	glycosylphosphatidylinositol-anchored proteins
+R3	located_in Arg1:T111 Arg2:T11	
+T112	corrected_gene 487 497	Lyn kinase
+R4	located_in Arg1:T112 Arg2:T11	
+T113	missed_gene 576 620	type 1 inositol 1,4,5-trisphosphate receptor
+R5	located_in Arg1:T113 Arg2:T14	
+T114	missed_gene 768 773	actin
+R6	located_in Arg1:T114 Arg2:T19	
+T115	missed_cellular_component 752 765	lamellipodial
+R7	located_in Arg1:T114 Arg2:T115	
+T116	missed_gene 1245 1250	Notch
+R8	located_in Arg1:T116 Arg2:T34	
+R9	located_in Arg1:T35 Arg2:T34	
+R10	located_in Arg1:T36 Arg2:T34	
+R11	located_in Arg1:T45 Arg2:T46	
+T117	missed_gene 1632 1637	Rab3A
+R12	located_in Arg1:T117 Arg2:T50	
+R13	located_in Arg1:T47 Arg2:T50	
+R14	located_in Arg1:T48 Arg2:T50	
+R15	located_in Arg1:T49 Arg2:T50	
+R16	located_in Arg1:T52 Arg2:T51	
+R17	located_in Arg1:T53 Arg2:T51	
+R18	located_in Arg1:T54 Arg2:T51	
+T118	missed_gene 1901 1921	transferrin receptor
+R19	located_in Arg1:T118 Arg2:T51	
+T119	missed_gene 1923 1967	trytophane aspartate containing coat protein
+R20	located_in Arg1:T119 Arg2:T51	
+T120	missed_gene 1969 1973	TACO
+R21	located_in Arg1:T120 Arg2:T51	
+T121	missed_gene 2051 2081	vacuolar proton-pumping ATPase
+T122	missed_cellular_component 2051 2059	vacuolar
+R22	located_in Arg1:T121 Arg2:T122	
+T123	missed_cellular_component 2119 2126;2138 2146	vesicle membrane
+R23	located_in Arg1:T59 Arg2:T123	
+R24	located_in Arg1:T62 Arg2:T60	
+R25	located_in Arg1:T63 Arg2:T60	
+R26	located_in Arg1:T70 Arg2:T71	
+R27	located_in Arg1:T72 Arg2:T71	
+R28	located_in Arg1:T84 Arg2:T83	
+R29	located_in Arg1:T86 Arg2:T87	
+R30	located_in Arg1:T84 Arg2:T87	
+T124	missed_gene 3069 3084	m-AAA proteases
+R31	located_in Arg1:T124 Arg2:T87	
+R32	located_in Arg1:T93 Arg2:T95	
+R33	located_in Arg1:T94 Arg2:T95	
+T125	corrected_gene 3269 3307	insulin-responsive glucose transporter
+T126	missed_cellular_component 3255 3268	Intracellular
+R34	located_in Arg1:T125 Arg2:T126	
+R35	located_in Arg1:T98 Arg2:T126	
+T127	corrected_gene 3659 3679	PIP3-binding protein
+R36	located_in Arg1:T127 Arg2:T107	
+R37	located_in Arg1:T109 Arg2:T107	
+T128	corrected_gene 3086 3102	Inhibitory Smads
+T129	corrected_gene 3104 3111	I-Smads
+R38	located_in Arg1:T128 Arg2:T95	
+R39	located_in Arg1:T129 Arg2:T95	

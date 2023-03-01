@@ -115,3 +115,32 @@ T114	anatomical_site 3027 3030	eye
 T115	anatomical_site 3032 3038	embryo
 T116	anatomical_site 3040 3048	placenta
 T117	anatomical_site 3054 3059	brain
+R1	located_in Arg1:T21 Arg2:T22	
+R2	located_in Arg1:T20 Arg2:T22	
+R3	located_in Arg1:T19 Arg2:T22	
+T118	missed_gene 1405 1408	WT1
+R8	located_in Arg1:T59 Arg2:T62	
+R9	located_in Arg1:T118 Arg2:T62	
+R10	located_in Arg1:T60 Arg2:T62	
+R11	located_in Arg1:T76 Arg2:T75	
+R12	located_in Arg1:T81 Arg2:T82	
+R13	located_in Arg1:T96 Arg2:T95	
+R15	located_in Arg1:T112 Arg2:T114	
+R16	located_in Arg1:T112 Arg2:T115	
+R17	located_in Arg1:T112 Arg2:T116	
+R18	located_in Arg1:T112 Arg2:T117	
+R4	located_in Arg1:T43 Arg2:T42	
+R5	located_in Arg1:T44 Arg2:T42	
+R6	located_in Arg1:T45 Arg2:T42	
+R7	located_in Arg1:T47 Arg2:T46	
+R14	located_in Arg1:T7 Arg2:T8	
+#1	AnnotatorNotes R14	Okay?
+T119	missed_gene 2836 2841	actin
+T120	missed_gene 2855 2860	S-100
+R19	located_in Arg1:T109 Arg2:T108	
+R20	located_in Arg1:T119 Arg2:T108	
+R21	located_in Arg1:T110 Arg2:T108	
+R22	located_in Arg1:T120 Arg2:T108	
+R23	located_in Arg1:T111 Arg2:T108	
+R24	located_in Arg1:T104 Arg2:T105	
+R25	located_in Arg1:T104 Arg2:T107	

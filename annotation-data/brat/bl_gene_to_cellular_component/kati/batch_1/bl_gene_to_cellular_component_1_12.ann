@@ -76,7 +76,7 @@ T75	gene 2103 2108	TRPM6
 T76	gene 2113 2118	TRPM7
 T77	cellular_component 2186 2194	membrane
 T78	gene 2212 2222	caveolin-3
-T79	gene 2277 2280	p70
+T79	corrected_gene 2277 2280;2291 2300	p70 s6 kinase
 T80	cellular_component 2281 2290	ribosomal
 T81	gene 2372 2376	GRK2
 T82	gene 2378 2404	glycogen synthase kinase 3
@@ -147,3 +147,12 @@ T129	corrected_gene 3158 3180	PRAF2-related proteins
 R19	located_in Arg1:T119 Arg2:T122	
 R20	located_in Arg1:T120 Arg2:T122	
 R21	located_in Arg1:T121 Arg2:T122	
+R22	located_in Arg1:T79 Arg2:T80	
+T128	gene 2277 2280	p70
+T130	missed_gene 2302 2308	p70s6K
+R23	located_in Arg1:T130 Arg2:T80	
+R24	located_in Arg1:T85 Arg2:T84	
+T131	missed_gene 1526 1531	NF-?B
+R25	located_in Arg1:T131 Arg2:T125	
+T132	missed_gene 2041 2064	calcium channel protein
+R26	located_in Arg1:T132 Arg2:T70	

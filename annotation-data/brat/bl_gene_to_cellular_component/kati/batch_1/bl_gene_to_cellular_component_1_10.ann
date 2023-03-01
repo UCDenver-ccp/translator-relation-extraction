@@ -27,7 +27,6 @@ T26	cellular_component 700 708	spectrin
 T27	cellular_component 753 765	cytoskeleton
 T28	cellular_component 787 805	actin cytoskeleton
 T29	cellular_component 809 817	membrane
-T30	gene 824 832	integrin
 T31	cellular_component 824 832	integrin
 T32	cellular_component 922 934	cytoskeleton
 T33	gene 988 994	IQGAP1
@@ -134,17 +133,11 @@ R5	located_in Arg1:T16 Arg2:T13
 T129	missed_cellular_component 687 699	cytoskeletal
 R6	located_in Arg1:T25 Arg2:T129	
 T130	missed_gene 730 735	actin
-R7	located_in Arg1:T130 Arg2:T27	
-R8	located_in Arg1:T30 Arg2:T29	
 T131	missed_gene 787 792	actin
 R9	located_in Arg1:T131 Arg2:T28	
 T132	corrected_cellular_component 1167 1188	spectrin cytoskeleton
 R10	located_in Arg1:T42 Arg2:T132	
 T133	missed_gene 1233 1241	Patronin
-R11	located_in Arg1:T133 Arg2:T45	
-R12	located_in Arg1:T46 Arg2:T45	
-R13	located_in Arg1:T47 Arg2:T45	
-R14	located_in Arg1:T48 Arg2:T45	
 T134	corrected_cellular_component 1358 1373	apical membrane
 T135	missed_gene 1287 1296	Shortstop
 R15	located_in Arg1:T135 Arg2:T134	
@@ -162,3 +155,20 @@ R23	located_in Arg1:T89 Arg2:T90
 R24	located_in Arg1:T93 Arg2:T92	
 T139	corrected_gene 2616 2641	beta 1 integrin receptors
 R25	located_in Arg1:T139 Arg2:T92	
+T140	gene 824 832	integrin
+R26	located_in Arg1:T41 Arg2:T40	
+T141	missed_cellular_component 2976 2990	focal adhesion
+R27	located_in Arg1:T111 Arg2:T141	
+T142	missed_gene 2999 3002	FAK
+R28	located_in Arg1:T142 Arg2:T141	
+R29	located_in Arg1:T10 Arg2:T9	
+T143	missed_gene 329 341	TGN proteins
+R30	located_in Arg1:T143 Arg2:T13	
+R8	located_in Arg1:T140 Arg2:T29	
+R7	located_in Arg1:T130 Arg2:T27	
+T30	missed_cellular_component 730 745	actin filaments
+R31	located_in Arg1:T130 Arg2:T30	
+R32	located_in Arg1:T133 Arg2:T134	
+R33	located_in Arg1:T46 Arg2:T134	
+R34	located_in Arg1:T48 Arg2:T134	
+R35	located_in Arg1:T47 Arg2:T134	

@@ -127,3 +127,20 @@ T126	gene 3269 3281	EGF-receptor
 T127	gene 3283 3286	EGF
 T128	gene 3298 3301	EGF
 T129	gene 3363 3376	EGF receptors
+R1	located_in Arg1:T43 Arg2:T42	
+R2	located_in Arg1:T47 Arg2:T46	
+R3	located_in Arg1:T50 Arg2:T49	
+R4	located_in Arg1:T48 Arg2:T49	
+T130	missed_gene 1812 1818	dynein
+R5	located_in Arg1:T130 Arg2:T68	
+R6	located_in Arg1:T76 Arg2:T77	
+T131	missed_cellular_component 2050 2057	nuclear
+R7	located_in Arg1:T76 Arg2:T131	
+R8	located_in Arg1:T116 Arg2:T117	
+R9	located_in Arg1:T116 Arg2:T118	
+R10	located_in Arg1:T124 Arg2:T123	
+R11	located_in Arg1:T126 Arg2:T125	
+R12	located_in Arg1:T29 Arg2:T28	
+R13	located_in Arg1:T30 Arg2:T28	
+R14	located_in Arg1:T31 Arg2:T28	
+R15	located_in Arg1:T32 Arg2:T28	

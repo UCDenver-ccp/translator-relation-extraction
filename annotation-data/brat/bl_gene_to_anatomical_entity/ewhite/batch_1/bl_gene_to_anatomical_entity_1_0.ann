@@ -111,3 +111,78 @@ T110	gene 2605 2611	Sema4D
 T111	gene 2634 2644	semaphorin
 T112	anatomical_site 2680 2688	vascular
 T113	anatomical_site 2702 2716	immune systems
+R1	located_in Arg1:T31 Arg2:T32	
+R2	located_in Arg1:T30 Arg2:T32	
+R3	located_in Arg1:T29 Arg2:T32	
+T114	corrected_anatomical_site 1436 1443;1459 1467	femoral arteries
+R4	located_in Arg1:T62 Arg2:T63	
+R5	located_in Arg1:T62 Arg2:T114	
+R6	located_in Arg1:T62 Arg2:T64	
+R7	located_in Arg1:T62 Arg2:T65	
+R8	located_in Arg1:T81 Arg2:T79	
+R9	located_in Arg1:T83 Arg2:T82	
+T115	missed_anatomical_site 2395 2400	brain
+R10	located_in Arg1:T102 Arg2:T115	
+R11	located_in Arg1:T101 Arg2:T115	
+T116	corrected_anatomical_site 2584 2594	eye tissue
+T117	missed_gene 2524 2527	ASC
+R12	located_in Arg1:T107 Arg2:T116	
+R13	located_in Arg1:T117 Arg2:T116	
+R14	located_in Arg1:T106 Arg2:T116	
+R15	located_in Arg1:T20 Arg2:T21	
+R16	located_in Arg1:T20 Arg2:T22	
+R17	located_in Arg1:T19 Arg2:T21	
+R18	located_in Arg1:T19 Arg2:T22	
+R19	located_in Arg1:T18 Arg2:T21	
+R20	located_in Arg1:T18 Arg2:T22	
+R21	located_in Arg1:T26 Arg2:T25	
+R22	located_in Arg1:T27 Arg2:T25	
+T118	corrected_anatomical_site 796 809	kidney tissue
+T119	corrected_anatomical_site 786 791;803 809	liver tissue
+R23	located_in Arg1:T33 Arg2:T119	
+R24	located_in Arg1:T33 Arg2:T118	
+T120	missed_gene 828 853	HBV large surface protein
+R25	located_in Arg1:T120 Arg2:T119	
+R26	located_in Arg1:T120 Arg2:T118	
+R27	located_in Arg1:T45 Arg2:T46	
+R28	located_in Arg1:T45 Arg2:T47	
+R29	located_in Arg1:T45 Arg2:T48	
+R30	located_in Arg1:T45 Arg2:T49	
+R31	located_in Arg1:T50 Arg2:T49	
+R32	located_in Arg1:T50 Arg2:T48	
+R33	located_in Arg1:T50 Arg2:T47	
+R34	located_in Arg1:T50 Arg2:T46	
+T121	corrected_anatomical_site 1203 1215	liver tissue
+R35	located_in Arg1:T53 Arg2:T121	
+R36	located_in Arg1:T52 Arg2:T121	
+R37	located_in Arg1:T51 Arg2:T121	
+R38	located_in Arg1:T57 Arg2:T121	
+T122	corrected_gene 1223 1230	Oatp1a1
+T123	corrected_gene 1244 1251	Oatp1a4
+R39	located_in Arg1:T122 Arg2:T121	
+R40	located_in Arg1:T123 Arg2:T121	
+R41	located_in Arg1:T61 Arg2:T60	
+T124	missed_anatomical_site 1605 1613	duodenum
+R43	located_in Arg1:T68 Arg2:T124	
+R44	located_in Arg1:T67 Arg2:T124	
+R45	located_in Arg1:T66 Arg2:T124	
+R47	located_in Arg1:T68 Arg2:T70	
+R48	located_in Arg1:T67 Arg2:T70	
+R49	located_in Arg1:T66 Arg2:T70	
+R50	located_in Arg1:T66 Arg2:T71	
+R51	located_in Arg1:T67 Arg2:T71	
+R52	located_in Arg1:T68 Arg2:T71	
+T125	corrected_gene 1584 1590	Pmca1b
+R42	located_in Arg1:T125 Arg2:T71	
+R46	located_in Arg1:T125 Arg2:T124	
+R53	located_in Arg1:T125 Arg2:T70	
+R54	located_in Arg1:T87 Arg2:T86	
+R55	located_in Arg1:T88 Arg2:T86	
+T126	missed_gene 2012 2020	Hnf3beta
+R56	located_in Arg1:T126 Arg2:T86	
+T127	corrected_anatomical_site 1749 1761	chick retina
+R57	located_in Arg1:T76 Arg2:T127	
+R58	located_in Arg1:T75 Arg2:T127	
+R59	located_in Arg1:T74 Arg2:T127	
+R60	located_in Arg1:T73 Arg2:T127	
+R61	located_in Arg1:T72 Arg2:T127	

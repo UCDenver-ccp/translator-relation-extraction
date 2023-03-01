@@ -106,3 +106,33 @@ T105	cellular_component 2624 2634	peroxisome
 T106	cellular_component 2654 2663	cytoplasm
 T107	cellular_component 2689 2697	membrane
 T108	gene 2710 2714	PEX3
+R1	located_in Arg1:T28 Arg2:T31	
+R2	located_in Arg1:T29 Arg2:T31	
+R3	located_in Arg1:T30 Arg2:T31	
+R4	located_in Arg1:T32 Arg2:T34	
+R5	located_in Arg1:T33 Arg2:T34	
+T109	missed_cellular_component 1348 1355	nuclear
+R6	located_in Arg1:T57 Arg2:T109	
+R7	located_in Arg1:T58 Arg2:T59	
+R8	located_in Arg1:T62 Arg2:T63	
+T110	missed_cellular_component 2196 2216	clathrin-coated pits
+R9	located_in Arg1:T83 Arg2:T110	
+R10	located_in Arg1:T81 Arg2:T110	
+R11	located_in Arg1:T81 Arg2:T84	
+R12	located_in Arg1:T82 Arg2:T110	
+R13	located_in Arg1:T82 Arg2:T84	
+T111	corrected_cellular_component 2315 2330	apical membrane
+R14	located_in Arg1:T85 Arg2:T111	
+R15	located_in Arg1:T86 Arg2:T111	
+R16	located_in Arg1:T87 Arg2:T111	
+T112	missed_gene 2295 2307	ERM proteins
+R17	located_in Arg1:T112 Arg2:T111	
+T113	corrected_gene 2232 2252;2259 2284	Ezrin-radixin-moesin binding phosphoprotein 50
+R18	located_in Arg1:T113 Arg2:T111	
+T114	missed_gene 2254 2257;2259 2284	ERM binding phosphoprotein 50
+R19	located_in Arg1:T104 Arg2:T106	
+T115	missed_gene 2635 2646	TA proteins
+R20	located_in Arg1:T115 Arg2:T105	
+R21	located_in Arg1:T115 Arg2:T107	
+R22	located_in Arg1:T69 Arg2:T70	
+R23	located_in Arg1:T115 Arg2:T106	

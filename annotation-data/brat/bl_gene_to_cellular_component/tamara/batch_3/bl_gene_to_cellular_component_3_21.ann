@@ -165,8 +165,6 @@ R19	located_in Arg1:T88 Arg2:T87
 R20	located_in Arg1:T96 Arg2:T97	
 R21	located_in Arg1:T94 Arg2:T95	
 T146	corrected_gene 3339 3350	ErbB4 CYT-1
-R22	located_in Arg1:T146 Arg2:T124	
-R23	located_in Arg1:T146 Arg2:T123	
 R24	located_in Arg1:T129 Arg2:T128	
 T147	missed_gene 3537 3553	MAPK phosphatase
 R26	located_in Arg1:T135 Arg2:T136	
@@ -175,3 +173,11 @@ T148	corrected_gene 3472 3476;3490 3503	MAPK phosphatase 3
 R28	located_in Arg1:T148 Arg2:T136	
 T149	corrected_gene 3478 3488;3490 3503	MAP kinase phosphatase 3
 R29	located_in Arg1:T149 Arg2:T136	
+R25	located_in Arg1:T56 Arg2:T55	
+R30	located_in Arg1:T57 Arg2:T55	
+R31	located_in Arg1:T58 Arg2:T55	
+T150	missed_gene 1581 1588	TERF2IP
+R32	located_in Arg1:T150 Arg2:T55	
+T151	corrected_cellular_component 3285 3307	intracellular vesicles
+R22	located_in Arg1:T146 Arg2:T151	
+T152	DONE 3640 3644	DONE

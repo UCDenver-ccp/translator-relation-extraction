@@ -1,8 +1,8 @@
 T1	gene 0 8	Vinculin
 T2	cellular_component 53 61	membrane
 T3	cellular_component 68 76	integrin
-T4	gene 68 76	integrin
-T5	gene 81 89	cadherin
+T4	corrected_gene 68 76;90 99	integrin receptors
+T5	corrected_gene 81 89;90 99	cadherin receptors
 T6	cellular_component 114 127	intracellular
 T7	gene 215 220	GDF-8
 T8	gene 238 241	p38
@@ -112,3 +112,37 @@ T111	gene 3309 3314	Runx2
 T112	gene 3324 3332	Integrin
 T113	cellular_component 3324 3332	Integrin
 T114	cellular_component 3333 3344	cytoplasmic
+R1	located_in Arg1:T4 Arg2:T2	
+R2	located_in Arg1:T5 Arg2:T2	
+R3	located_in Arg1:T21 Arg2:T20	
+T115	corrected_gene 819 823	Tea1
+T116	corrected_gene 829 833	Tea3
+R4	located_in Arg1:T115 Arg2:T32	
+R5	located_in Arg1:T116 Arg2:T32	
+R6	located_in Arg1:T31 Arg2:T32	
+R7	located_in Arg1:T41 Arg2:T43	
+R8	located_in Arg1:T42 Arg2:T43	
+T117	missed_gene 1316 1326	G proteins
+R9	located_in Arg1:T117 Arg2:T45	
+R10	located_in Arg1:T47 Arg2:T46	
+R11	located_in Arg1:T48 Arg2:T46	
+R12	located_in Arg1:T49 Arg2:T46	
+R13	located_in Arg1:T51 Arg2:T50	
+R14	located_in Arg1:T52 Arg2:T50	
+R15	located_in Arg1:T79 Arg2:T80	
+R16	located_in Arg1:T79 Arg2:T81	
+T118	missed_cellular_component 2424 2432	flagella
+R17	located_in Arg1:T79 Arg2:T118	
+T119	corrected_gene 2196 2226	Tubulin tyrosine ligase-like 1
+R18	located_in Arg1:T119 Arg2:T80	
+R19	located_in Arg1:T77 Arg2:T80	
+R20	located_in Arg1:T119 Arg2:T81	
+R21	located_in Arg1:T119 Arg2:T118	
+R22	located_in Arg1:T77 Arg2:T81	
+R23	located_in Arg1:T77 Arg2:T118	
+R24	located_in Arg1:T102 Arg2:T103	
+R25	located_in Arg1:T99 Arg2:T98	
+R26	located_in Arg1:T105 Arg2:T108	
+R27	located_in Arg1:T78 Arg2:T80	
+R28	located_in Arg1:T78 Arg2:T81	
+R29	located_in Arg1:T78 Arg2:T118	

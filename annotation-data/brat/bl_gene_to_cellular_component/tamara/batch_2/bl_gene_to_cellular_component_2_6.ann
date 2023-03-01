@@ -156,12 +156,6 @@ T148	missed_gene 1391 1430	Lysosomal Associated Membrane Protein 1
 R8	located_in Arg1:T148 Arg2:T62	
 R9	located_in Arg1:T148 Arg2:T63	
 R10	located_in Arg1:T78 Arg2:T77	
-R11	located_in Arg1:T81 Arg2:T82	
-R12	located_in Arg1:T98 Arg2:T99	
-R13	located_in Arg1:T97 Arg2:T99	
-R14	located_in Arg1:T96 Arg2:T99	
-R15	located_in Arg1:T95 Arg2:T99	
-R16	located_in Arg1:T94 Arg2:T99	
 R17	located_in Arg1:T93 Arg2:T99	
 T149	missed_cellular_component 2295 2302	nuclear
 R18	located_in Arg1:T93 Arg2:T149	
@@ -177,3 +171,7 @@ T152	missed_gene 3078 3114	phosphorylated neurofilament protein
 T153	missed_gene 3116 3120	P-NF
 R25	located_in Arg1:T152 Arg2:T123	
 R26	located_in Arg1:T153 Arg2:T123	
+R27	located_in Arg1:T70 Arg2:T68	
+T154	corrected_gene 1610 1620	p44/42MAPK
+R28	located_in Arg1:T154 Arg2:T68	
+T155	DONE 3516 3520	DONE

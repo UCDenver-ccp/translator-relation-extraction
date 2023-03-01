@@ -136,3 +136,6 @@ R24	located_in Arg1:T93 Arg2:T94
 R25	located_in Arg1:T91 Arg2:T94	
 T112	missed_gene 3157 3165	globin-4
 R26	located_in Arg1:T112 Arg2:T105	
+T113	missed_gene 1772 1776	L22E
+R27	located_in Arg1:T113 Arg2:T60	
+T114	DONE 3449 3453	DONE

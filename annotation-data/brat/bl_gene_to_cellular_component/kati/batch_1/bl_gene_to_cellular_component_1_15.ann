@@ -144,7 +144,6 @@ T143	gene 3508 3512	MAPK
 T144	gene 3528 3532	ET-1
 R1	located_in Arg1:T8 Arg2:T7	
 R2	located_in Arg1:T9 Arg2:T7	
-R3	located_in Arg1:T12 Arg2:T7	
 T145	missed_gene 350 360	amelogenin
 R4	located_in Arg1:T145 Arg2:T7	
 T146	corrected_gene 537 561	histone binding proteins
@@ -182,3 +181,8 @@ R25	located_in Arg1:T131 Arg2:T134
 R26	located_in Arg1:T156 Arg2:T134	
 R27	located_in Arg1:T132 Arg2:T134	
 R28	located_in Arg1:T133 Arg2:T134	
+R30	located_in Arg1:T11 Arg2:T7	
+R3	located_in Arg1:T13 Arg2:T7	
+R29	located_in Arg1:T14 Arg2:T7	
+R31	located_in Arg1:T145 Arg2:T7	
+R32	located_in Arg1:T44 Arg2:T43	

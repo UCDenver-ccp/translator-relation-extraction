@@ -109,3 +109,41 @@ T108	gene 2776 2781	Itga8
 T109	anatomical_site 2804 2815	mesenchymal
 T110	gene 2823 2828	Fgf10
 T111	anatomical_site 2897 2903	tissue
+T112	missed_gene 42 70	bone morphogenetic protein 4
+R2	located_in Arg1:T112 Arg2:T2	
+R3	located_in Arg1:T3 Arg2:T2	
+R4	located_in Arg1:T6 Arg2:T5	
+T113	missed_gene 1149 1173	S100 fused-type proteins
+T114	missed_gene 1175 1180	SFTPs
+R5	located_in Arg1:T113 Arg2:T54	
+R6	located_in Arg1:T114 Arg2:T54	
+R7	located_in Arg1:T51 Arg2:T54	
+R8	located_in Arg1:T52 Arg2:T54	
+R9	located_in Arg1:T53 Arg2:T54	
+R10	located_in Arg1:T113 Arg2:T55	
+R11	located_in Arg1:T114 Arg2:T55	
+R12	located_in Arg1:T51 Arg2:T55	
+R13	located_in Arg1:T52 Arg2:T55	
+R14	located_in Arg1:T53 Arg2:T55	
+T115	corrected_anatomical_site 1380 1398	parathyroid tissue
+R15	located_in Arg1:T56 Arg2:T115	
+R16	located_in Arg1:T57 Arg2:T115	
+T116	corrected_anatomical_site 1575 1595	ganglion cell layers
+R17	located_in Arg1:T65 Arg2:T116	
+R18	located_in Arg1:T66 Arg2:T116	
+R1	located_in Arg1:T1 Arg2:T4	
+T117	missed_gene 923 951	bone morphogenetic protein-4
+R19	located_in Arg1:T117 Arg2:T45	
+R20	located_in Arg1:T46 Arg2:T45	
+T118	missed_gene 978 1016	bone morphogenetic protein receptor IA
+T119	missed_gene 1018 1024	BMPRIA
+R21	located_in Arg1:T118 Arg2:T47	
+R22	located_in Arg1:T119 Arg2:T47	
+T120	missed_gene 1027 1065	bone morphogenetic protein receptor IB
+T121	missed_gene 1067 1073	BMPRIB
+R23	located_in Arg1:T120 Arg2:T48	
+R24	located_in Arg1:T121 Arg2:T48	
+T122	missed_gene 1079 1117	bone morphogenetic protein receptor II
+T123	missed_gene 1119 1125	BMPRII
+R25	located_in Arg1:T122 Arg2:T49	
+R26	located_in Arg1:T123 Arg2:T49	

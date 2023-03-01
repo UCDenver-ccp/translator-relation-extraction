@@ -119,3 +119,47 @@ T118	gene 3368 3374	HEXIM1
 T119	gene 3396 3399	Hv1
 T120	cellular_component 3414 3420	dimers
 T121	cellular_component 3428 3436	membrane
+R1	located_in Arg1:T1 Arg2:T5	
+R2	located_in Arg1:T2 Arg2:T5	
+R3	located_in Arg1:T3 Arg2:T5	
+R4	located_in Arg1:T4 Arg2:T5	
+R5	located_in Arg1:T6 Arg2:T7	
+R6	located_in Arg1:T13 Arg2:T14	
+R7	located_in Arg1:T15 Arg2:T14	
+T122	missed_gene 409 412	NUC
+R8	located_in Arg1:T122 Arg2:T19	
+T123	corrected_gene 425 472	MVP1/GOLD36/ERMO3 myrosinase-associated protein
+R9	located_in Arg1:T123 Arg2:T19	
+T124	missed_cellular_component 920 922	ER
+R10	located_in Arg1:T35 Arg2:T124	
+T125	missed_gene 940 944	CALU
+R11	located_in Arg1:T125 Arg2:T124	
+R12	located_in Arg1:T36 Arg2:T124	
+R13	located_in Arg1:T44 Arg2:T43	
+T126	missed_gene 1088 1092	CTSB
+R14	located_in Arg1:T126 Arg2:T43	
+R15	located_in Arg1:T45 Arg2:T43	
+T127	missed_gene 1111 1115	CTSD
+R16	located_in Arg1:T127 Arg2:T43	
+T128	missed_gene 1883 1888	Ki-67
+R17	located_in Arg1:T128 Arg2:T66	
+T129	missed_cellular_component 1917 1924	nuclear
+R18	located_in Arg1:T68 Arg2:T129	
+R19	located_in Arg1:T68 Arg2:T67	
+T130	missed_cellular_component 2037 2044	nuclear
+R20	located_in Arg1:T72 Arg2:T130	
+R21	located_in Arg1:T84 Arg2:T85	
+R22	located_in Arg1:T86 Arg2:T85	
+T131	missed_gene 2477 2502	Heterochromatin protein 1
+R23	located_in Arg1:T131 Arg2:T89	
+R24	located_in Arg1:T88 Arg2:T89	
+R25	located_in Arg1:T131 Arg2:T87	
+R26	located_in Arg1:T88 Arg2:T87	
+R27	located_in Arg1:T98 Arg2:T97	
+R28	located_in Arg1:T99 Arg2:T97	
+T132	missed_gene 2848 2870	ion transport proteins
+R29	located_in Arg1:T132 Arg2:T97	
+R30	located_in Arg1:T117 Arg2:T116	
+T133	missed_gene 3357 3360	NPM
+R31	located_in Arg1:T133 Arg2:T116	
+R32	located_in Arg1:T119 Arg2:T121	

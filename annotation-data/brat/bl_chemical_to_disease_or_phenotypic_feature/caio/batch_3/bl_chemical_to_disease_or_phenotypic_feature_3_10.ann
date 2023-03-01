@@ -79,7 +79,6 @@ R14	causes_or_contributes_to Arg1:T17 Arg2:T67
 T68	missed_disease_or_phenotypic_feature 647 652	tumor
 R15	causes_or_contributes_to Arg1:T18 Arg2:T68	
 R16	causes_or_contributes_to Arg1:T18 Arg2:T19	
-R17	causes_or_contributes_to Arg1:T29 Arg2:T30	
 R19	treats Arg1:T31 Arg2:T32	
 T70	missed_disease_or_phenotypic_feature 1213 1234	acute-phase reactions
 R20	causes_or_contributes_to Arg1:T31 Arg2:T70	
@@ -90,15 +89,12 @@ R23	causes_or_contributes_to Arg1:T71 Arg2:T37
 R24	causes_or_contributes_to Arg1:T71 Arg2:T38	
 R25	treats Arg1:T41 Arg2:T42	
 R26	treats Arg1:T44 Arg2:T45	
-R27	treats Arg1:T52 Arg2:T53	
 T72	missed_disease_or_phenotypic_feature 2008 2013	tumor
-R29	treats Arg1:T52 Arg2:T72	
 T73	missed_chemical 2339 2343	SDNN
 R31	causes_or_contributes_to Arg1:T73 Arg2:T62	
 R32	causes_or_contributes_to Arg1:T60 Arg2:T62	
 R33	causes_or_contributes_to Arg1:T61 Arg2:T62	
 T74	DONE 2423 2427	DONE
-R7	causes_or_contributes_to Arg1:T28 Arg2:T30	
 T69	missed_disease_or_phenotypic_feature 1236 1240	APRs
 R10	causes_or_contributes_to Arg1:T31 Arg2:T69	
 T75	missed_disease_or_phenotypic_feature 1418 1420	HF

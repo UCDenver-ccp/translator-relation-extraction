@@ -99,3 +99,95 @@ T98	anatomical_site 2666 2671	aorta
 T99	gene 2718 2722	AQP2
 T100	anatomical_site 2754 2760	cortex
 T101	anatomical_site 2771 2778	medulla
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T4	
+R3	located_in Arg1:T5 Arg2:T6	
+R4	located_in Arg1:T7 Arg2:T8	
+T102	missed_gene 283 287	GCLC
+T103	missed_gene 289 293	GCLM
+R5	located_in Arg1:T102 Arg2:T11	
+R6	located_in Arg1:T102 Arg2:T12	
+R7	located_in Arg1:T102 Arg2:T13	
+R8	located_in Arg1:T103 Arg2:T11	
+R9	located_in Arg1:T103 Arg2:T12	
+R10	located_in Arg1:T103 Arg2:T13	
+R11	located_in Arg1:T9 Arg2:T11	
+R12	located_in Arg1:T9 Arg2:T12	
+R13	located_in Arg1:T9 Arg2:T13	
+R14	located_in Arg1:T10 Arg2:T11	
+R15	located_in Arg1:T10 Arg2:T12	
+R16	located_in Arg1:T10 Arg2:T13	
+R17	located_in Arg1:T15 Arg2:T14	
+T104	corrected_gene 443 448;450 451	CYP2B 2
+R18	located_in Arg1:T104 Arg2:T14	
+R19	located_in Arg1:T18 Arg2:T17	
+T105	corrected_gene 508 513;515 516	CYP2B 2
+R20	located_in Arg1:T105 Arg2:T17	
+T106	missed_gene 549 578	pentoxyresorufin O-dealkylase
+R21	located_in Arg1:T106 Arg2:T17	
+R22	located_in Arg1:T106 Arg2:T16	
+R23	located_in Arg1:T23 Arg2:T25	
+R24	located_in Arg1:T23 Arg2:T26	
+R25	located_in Arg1:T24 Arg2:T25	
+R26	located_in Arg1:T24 Arg2:T26	
+T107	corrected_anatomical_site 904 914;922 926	epithelium lung
+R27	located_in Arg1:T27 Arg2:T107	
+R28	located_in Arg1:T27 Arg2:T32	
+R29	located_in Arg1:T27 Arg2:T33	
+R30	located_in Arg1:T28 Arg2:T107	
+R31	located_in Arg1:T28 Arg2:T32	
+R32	located_in Arg1:T28 Arg2:T33	
+R33	located_in Arg1:T29 Arg2:T107	
+R34	located_in Arg1:T29 Arg2:T32	
+R35	located_in Arg1:T29 Arg2:T33	
+T108	missed_gene 979 986	sirtuin
+R36	located_in Arg1:T108 Arg2:T34	
+R37	located_in Arg1:T39 Arg2:T40	
+R38	located_in Arg1:T38 Arg2:T40	
+R39	located_in Arg1:T37 Arg2:T40	
+R40	located_in Arg1:T36 Arg2:T40	
+R41	located_in Arg1:T35 Arg2:T40	
+R42	located_in Arg1:T41 Arg2:T42	
+R43	located_in Arg1:T41 Arg2:T43	
+T109	corrected_anatomical_site 1345 1369;1377 1385	mesenchymal condensation midbrain
+R44	located_in Arg1:T45 Arg2:T44	
+R45	located_in Arg1:T46 Arg2:T44	
+R46	located_in Arg1:T45 Arg2:T109	
+R47	located_in Arg1:T45 Arg2:T49	
+R48	located_in Arg1:T46 Arg2:T109	
+R49	located_in Arg1:T46 Arg2:T49	
+R50	located_in Arg1:T50 Arg2:T52	
+R51	located_in Arg1:T50 Arg2:T53	
+R52	located_in Arg1:T50 Arg2:T54	
+R53	located_in Arg1:T51 Arg2:T52	
+R54	located_in Arg1:T51 Arg2:T53	
+R55	located_in Arg1:T51 Arg2:T54	
+R56	located_in Arg1:T55 Arg2:T57	
+R57	located_in Arg1:T56 Arg2:T57	
+T110	missed_anatomical_site 1670 1689	spongiotrophoblasts
+R58	located_in Arg1:T58 Arg2:T110	
+R59	located_in Arg1:T62 Arg2:T63	
+R60	located_in Arg1:T61 Arg2:T63	
+R61	located_in Arg1:T60 Arg2:T63	
+R62	located_in Arg1:T59 Arg2:T63	
+R66	located_in Arg1:T70 Arg2:T72	
+R67	located_in Arg1:T70 Arg2:T73	
+R68	located_in Arg1:T71 Arg2:T72	
+R69	located_in Arg1:T71 Arg2:T73	
+R70	located_in Arg1:T74 Arg2:T76	
+R71	located_in Arg1:T77 Arg2:T78	
+R73	located_in Arg1:T80 Arg2:T82	
+R74	located_in Arg1:T80 Arg2:T83	
+R75	located_in Arg1:T81 Arg2:T82	
+R76	located_in Arg1:T81 Arg2:T83	
+R77	located_in Arg1:T99 Arg2:T100	
+R78	located_in Arg1:T99 Arg2:T101	
+R63	located_in Arg1:T22 Arg2:T21	
+R64	located_in Arg1:T65 Arg2:T64	
+#1	AnnotatorNotes R64	Okay?
+R65	located_in Arg1:T66 Arg2:T64	
+#2	AnnotatorNotes R65	Okay?
+R72	located_in Arg1:T67 Arg2:T64	
+#3	AnnotatorNotes R72	Okay?
+R79	located_in Arg1:T68 Arg2:T64	
+#4	AnnotatorNotes R79	Okay?

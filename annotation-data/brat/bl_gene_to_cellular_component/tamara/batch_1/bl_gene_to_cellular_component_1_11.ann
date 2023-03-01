@@ -102,3 +102,26 @@ T101	gene 2775 2786	physophilin
 T102	cellular_component 2788 2801	Intracellular
 T103	cellular_component 2828 2832	Smad
 T104	gene 2828 2832	Smad
+R1	located_in Arg1:T5 Arg2:T6	
+R2	located_in Arg1:T4 Arg2:T6	
+R3	located_in Arg1:T3 Arg2:T6	
+R4	located_in Arg1:T5 Arg2:T7	
+R5	located_in Arg1:T4 Arg2:T7	
+R6	located_in Arg1:T3 Arg2:T7	
+T105	missed_gene 252 263	NLS-protein
+R7	located_in Arg1:T105 Arg2:T10	
+R8	located_in Arg1:T15 Arg2:T16	
+R9	located_in Arg1:T15 Arg2:T17	
+T106	corrected_cellular_component 838 846;856 864	lysosome membrane
+R10	located_in Arg1:T37 Arg2:T106	
+R11	located_in Arg1:T38 Arg2:T106	
+R12	located_in Arg1:T52 Arg2:T54	
+R13	located_in Arg1:T65 Arg2:T66	
+R14	located_in Arg1:T71 Arg2:T70	
+R15	located_in Arg1:T72 Arg2:T70	
+R16	located_in Arg1:T73 Arg2:T70	
+T107	missed_gene 1785 1789	VCAN
+R17	located_in Arg1:T107 Arg2:T70	
+R18	located_in Arg1:T101 Arg2:T100	
+R19	located_in Arg1:T104 Arg2:T102	
+T108	DONE 2843 2847	DONE

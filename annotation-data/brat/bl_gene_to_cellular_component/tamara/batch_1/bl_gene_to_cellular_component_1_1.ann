@@ -103,3 +103,27 @@ T102	gene 3178 3181	p38
 T103	gene 3181 3185	MAPK
 T104	cellular_component 3240 3248	integrin
 T105	gene 3240 3248	integrin
+R1	located_in Arg1:T8 Arg2:T7	
+R2	located_in Arg1:T6 Arg2:T7	
+T106	missed_cellular_component 422 432	microvilli
+R3	located_in Arg1:T8 Arg2:T106	
+R4	located_in Arg1:T9 Arg2:T106	
+T107	missed_gene 476 489	alpha-actinin
+R5	located_in Arg1:T107 Arg2:T11	
+R7	located_in Arg1:T10 Arg2:T11	
+R18	located_in Arg1:T23 Arg2:T28	
+T108	missed_gene 837 840	P19
+R19	located_in Arg1:T108 Arg2:T28	
+R20	located_in Arg1:T24 Arg2:T28	
+R21	located_in Arg1:T25 Arg2:T28	
+R22	located_in Arg1:T26 Arg2:T28	
+R23	located_in Arg1:T27 Arg2:T28	
+T109	missed_gene 1903 1906	neu
+R24	located_in Arg1:T109 Arg2:T59	
+R25	located_in Arg1:T58 Arg2:T59	
+T110	missed_gene 2198 2239	transitional endoplasmic reticulum ATPase
+T111	missed_gene 2241 2251	TER ATPase
+R26	located_in Arg1:T110 Arg2:T67	
+R27	located_in Arg1:T111 Arg2:T67	
+R28	located_in Arg1:T89 Arg2:T88	
+T112	DONE 3265 3269	DONE

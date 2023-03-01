@@ -124,3 +124,32 @@ T123	gene 3501 3504	Akt
 T124	gene 3548 3553	CREB1
 T125	cellular_component 3564 3572	spectrin
 T126	gene 3564 3572	spectrin
+T127	missed_gene 1332 1338	hNOP56
+R1	located_in Arg1:T127 Arg2:T49	
+T128	missed_gene 1358 1379	ribosomal proteins L4
+R2	located_in Arg1:T128 Arg2:T50	
+T129	missed_gene 1358 1376;1381 1383	ribosomal proteins L8
+R3	located_in Arg1:T129 Arg2:T50	
+T130	missed_gene 1358 1376;1389 1392	ribosomal proteins L13
+R4	located_in Arg1:T130 Arg2:T50	
+R5	located_in Arg1:T63 Arg2:T61	
+T131	corrected_gene 2083 2089	R-SMAD
+T132	missed_cellular_component 2090 2097	nuclear
+R6	located_in Arg1:T131 Arg2:T132	
+R7	located_in Arg1:T79 Arg2:T78	
+T133	missed_gene 2399 2435	mitochondrial aldehyde dehydrogenase
+R8	located_in Arg1:T133 Arg2:T84	
+T134	missed_cellular_component 2728 2735	neurite
+R9	located_in Arg1:T94 Arg2:T134	
+R10	located_in Arg1:T100 Arg2:T99	
+R11	located_in Arg1:T101 Arg2:T99	
+R12	located_in Arg1:T102 Arg2:T99	
+T135	missed_gene 2957 2964;2969 2970	claudin 5
+R13	located_in Arg1:T135 Arg2:T99	
+T136	missed_gene 3450 3471	focal adhesion kinase
+T137	missed_cellular_component 3450 3464	focal adhesion
+R14	located_in Arg1:T136 Arg2:T137	
+R15	located_in Arg1:T120 Arg2:T137	
+T138	corrected_gene 3564 3586	spectrin-like proteins
+T139	missed_cellular_component 3556 3563	Nuclear
+R16	located_in Arg1:T138 Arg2:T139	

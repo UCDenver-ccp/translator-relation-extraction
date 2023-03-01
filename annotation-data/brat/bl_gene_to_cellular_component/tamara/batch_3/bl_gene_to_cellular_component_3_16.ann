@@ -157,3 +157,13 @@ R18	located_in Arg1:T124 Arg2:T122
 T139	missed_cellular_component 3341 3354	cell membrane
 R19	located_in Arg1:T125 Arg2:T139	
 R20	located_in Arg1:T126 Arg2:T139	
+T140	missed_gene 704 709	actin
+R21	located_in Arg1:T140 Arg2:T31	
+T141	missed_gene 2619 2624	actin
+T142	missed_gene 2636 2657	actin-binding protein
+R22	located_in Arg1:T141 Arg2:T93	
+R23	located_in Arg1:T142 Arg2:T93	
+R24	located_in Arg1:T141 Arg2:T92	
+R25	located_in Arg1:T142 Arg2:T92	
+R26	located_in Arg1:T100 Arg2:T98	
+R27	located_in Arg1:T101 Arg2:T98	

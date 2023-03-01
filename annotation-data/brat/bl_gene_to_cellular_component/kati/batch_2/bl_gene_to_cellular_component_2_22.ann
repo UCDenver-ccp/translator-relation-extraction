@@ -56,8 +56,8 @@ T55	cellular_component 1533 1545	cell surface
 T56	gene 1561 1564	EGF
 T57	gene 1601 1604	p80
 T58	gene 1605 1611	coilin
-T59	cellular_component 1613 1626	nucleoplasmic
-T60	cellular_component 1631 1640	nucleolar
+T59	cellular_component 1613 1626;1641 1654	nucleoplasmic coiled bodies
+T60	cellular_component 1631 1640;1641 1654	nucleolar coiled bodies
 T61	cellular_component 1641 1654	coiled bodies
 T62	gene 1747 1750	Akt
 T63	gene 1755 1758	Erk
@@ -140,3 +140,55 @@ T139	gene 3905 3909	EGFR
 T140	gene 3911 3917	erbB-1
 T141	gene 3944 3976	epidermal growth factor receptor
 T142	cellular_component 4026 4039	cell membrane
+R1	located_in Arg1:T5 Arg2:T7	
+T143	missed_cellular_component 261 268	nuclear
+R2	located_in Arg1:T5 Arg2:T143	
+R3	located_in Arg1:T10 Arg2:T12	
+R4	located_in Arg1:T11 Arg2:T12	
+R5	located_in Arg1:T14 Arg2:T13	
+R6	located_in Arg1:T10 Arg2:T13	
+R7	located_in Arg1:T11 Arg2:T13	
+R8	located_in Arg1:T16 Arg2:T15	
+R9	located_in Arg1:T10 Arg2:T15	
+R10	located_in Arg1:T11 Arg2:T15	
+R11	located_in Arg1:T25 Arg2:T26	
+R12	located_in Arg1:T27 Arg2:T28	
+R13	located_in Arg1:T29 Arg2:T31	
+R15	located_in Arg1:T29 Arg2:T32	
+R17	located_in Arg1:T29 Arg2:T33	
+R14	located_in Arg1:T30 Arg2:T31	
+R16	located_in Arg1:T30 Arg2:T32	
+R18	located_in Arg1:T30 Arg2:T33	
+T144	corrected_gene 1561 1580	EGF-like precursors
+R19	located_in Arg1:T144 Arg2:T55	
+T145	corrected_gene 1601 1611	p80-coilin
+R20	located_in Arg1:T145 Arg2:T59	
+R21	located_in Arg1:T145 Arg2:T60	
+T146	missed_gene 1665 1676	fibrillarin
+R22	located_in Arg1:T146 Arg2:T59	
+R23	located_in Arg1:T146 Arg2:T60	
+T147	missed_gene 1681 1692	Sm proteins
+R24	located_in Arg1:T147 Arg2:T60	
+R25	located_in Arg1:T147 Arg2:T59	
+T148	missed_gene 2103 2142	membrane-spanning 4-domains subfamily A
+R26	located_in Arg1:T148 Arg2:T75	
+T149	missed_gene 2089 2093	MS4A
+R27	located_in Arg1:T149 Arg2:T75	
+R28	located_in Arg1:T93 Arg2:T92	
+R29	located_in Arg1:T94 Arg2:T92	
+T150	missed_gene 2549 2554	CLN10
+R30	located_in Arg1:T150 Arg2:T92	
+T151	missed_gene 2556 2561	CLN13
+R31	located_in Arg1:T151 Arg2:T92	
+R32	located_in Arg1:T96 Arg2:T95	
+R33	located_in Arg1:T99 Arg2:T97	
+R34	located_in Arg1:T99 Arg2:T98	
+T152	missed_gene 2724 2729	CLN14
+R35	located_in Arg1:T152 Arg2:T97	
+R36	located_in Arg1:T152 Arg2:T98	
+R37	located_in Arg1:T101 Arg2:T100	
+R38	located_in Arg1:T102 Arg2:T100	
+R39	located_in Arg1:T103 Arg2:T100	
+R40	located_in Arg1:T104 Arg2:T100	
+T153	missed_gene 2826 2831	CLN12
+R41	located_in Arg1:T153 Arg2:T100	

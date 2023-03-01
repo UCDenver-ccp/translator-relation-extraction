@@ -66,12 +66,10 @@ T65	chemical 3052 3059	protein
 T66	disease_or_phenotypic_feature 3103 3111	diseases
 T67	chemical 3130 3141	Cannabidiol
 T68	disease_or_phenotypic_feature 3181 3186	PTSD.
-T69	missed_disease_or_phenotypic_feature 303 328	tumor-associated antigens
+T69	missed_disease_or_phenotypic_feature 303 308	tumor
 R1	causes_or_contributes_to Arg1:T9 Arg2:T69	
 T70	missed_disease_or_phenotypic_feature 567 579	inflammation
 T71	corrected_disease_or_phenotypic_feature 557 579	low-grade inflammation
-R2	treats Arg1:T10 Arg2:T71	
-R3	causes_or_contributes_to Arg1:T14 Arg2:T13	
 T72	missed_disease_or_phenotypic_feature 831 850	glomus vagale tumor
 R4	treats Arg1:T17 Arg2:T72	
 R5	treats Arg1:T16 Arg2:T72	
@@ -92,7 +90,6 @@ R18	treats Arg1:T39 Arg2:T40
 T76	corrected_chemical 1932 1948	RORγ antagonists
 R21	treats Arg1:T76 Arg2:T44	
 T77	missed_chemical 2323 2332	rat urine
-R22	causes_or_contributes_to Arg1:T77 Arg2:T49	
 T78	DONE 3204 3208	DONE
 T79	corrected_disease_or_phenotypic_feature 1854 1894	spontaneously hypertensive heart failure
 T80	missed_disease_or_phenotypic_feature 1896 1900	SHHF
@@ -100,3 +97,5 @@ R15	treats Arg1:T39 Arg2:T80
 R16	treats Arg1:T39 Arg2:T79	
 R19	treats Arg1:T74 Arg2:T80	
 R20	treats Arg1:T74 Arg2:T79	
+R2	treats Arg1:T10 Arg2:T70	
+R3	causes_or_contributes_to Arg1:T77 Arg2:T49	

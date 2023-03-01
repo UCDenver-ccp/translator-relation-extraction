@@ -144,4 +144,10 @@ R17	located_in Arg1:T113 Arg2:T114
 R18	located_in Arg1:T126 Arg2:T114	
 R19	located_in Arg1:T125 Arg2:T114	
 R20	located_in Arg1:T124 Arg2:T114	
-R21	located_in Arg1:T120 Arg2:T119	
+T127	missed_gene 339 349	peptidases
+R22	located_in Arg1:T127 Arg2:T8	
+T128	missed_gene 351 369	signaling proteins
+R23	located_in Arg1:T128 Arg2:T8	
+T129	missed_gene 371 393	cell adhesion proteins
+R24	located_in Arg1:T129 Arg2:T8	
+T130	DONE 3363 3367	DONE

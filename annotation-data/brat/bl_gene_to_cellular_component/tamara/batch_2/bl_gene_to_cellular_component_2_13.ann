@@ -151,10 +151,21 @@ R29	located_in Arg1:T125 Arg2:T57
 R30	located_in Arg1:T76 Arg2:T79	
 R31	located_in Arg1:T77 Arg2:T79	
 R32	located_in Arg1:T78 Arg2:T79	
-T126	missed_gene 2298 2301	ERM
-R33	located_in Arg1:T126 Arg2:T79	
-R38	located_in Arg1:T126 Arg2:T81	
+T126	missed_gene 2298 2301;2325 2333	ERM proteins
 R39	located_in Arg1:T76 Arg2:T81	
 R40	located_in Arg1:T77 Arg2:T81	
 R41	located_in Arg1:T78 Arg2:T81	
 R44	located_in Arg1:T113 Arg2:T112	
+R5	located_in Arg1:T118 Arg2:T10	
+R6	located_in Arg1:T9 Arg2:T10	
+R7	located_in Arg1:T8 Arg2:T10	
+R11	located_in Arg1:T7 Arg2:T10	
+T127	missed_gene 2398 2403	actin
+R34	located_in Arg1:T127 Arg2:T80	
+R36	located_in Arg1:T76 Arg2:T80	
+R37	located_in Arg1:T77 Arg2:T80	
+R42	located_in Arg1:T78 Arg2:T80	
+R33	located_in Arg1:T126 Arg2:T79	
+R35	located_in Arg1:T126 Arg2:T80	
+R38	located_in Arg1:T126 Arg2:T81	
+T128	DONE 3510 3514	DONE

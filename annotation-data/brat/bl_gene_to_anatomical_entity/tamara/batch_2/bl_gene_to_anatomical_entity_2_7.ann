@@ -120,3 +120,45 @@ T119	gene 2985 2993	TGF-beta
 T120	gene 3005 3010	IGF-1
 T121	anatomical_site 3064 3079	anterior kidney
 T122	anatomical_site 3084 3090	spleen
+T123	corrected_anatomical_site 570 581	lung tissue
+R1	located_in Arg1:T23 Arg2:T123	
+R2	located_in Arg1:T24 Arg2:T123	
+R3	located_in Arg1:T27 Arg2:T30	
+R4	located_in Arg1:T36 Arg2:T38	
+R5	located_in Arg1:T36 Arg2:T39	
+R6	located_in Arg1:T37 Arg2:T38	
+R7	located_in Arg1:T37 Arg2:T39	
+T124	corrected_anatomical_site 939 952	rostral brain
+R8	located_in Arg1:T40 Arg2:T124	
+R9	located_in Arg1:T41 Arg2:T124	
+R10	located_in Arg1:T42 Arg2:T124	
+R11	located_in Arg1:T43 Arg2:T124	
+R12	located_in Arg1:T58 Arg2:T57	
+R13	located_in Arg1:T62 Arg2:T61	
+R14	located_in Arg1:T63 Arg2:T61	
+R15	located_in Arg1:T64 Arg2:T61	
+R16	located_in Arg1:T64 Arg2:T65	
+R17	located_in Arg1:T63 Arg2:T65	
+R18	located_in Arg1:T62 Arg2:T65	
+R20	located_in Arg1:T104 Arg2:T107	
+R21	located_in Arg1:T105 Arg2:T107	
+R22	located_in Arg1:T106 Arg2:T107	
+R23	located_in Arg1:T106 Arg2:T108	
+R24	located_in Arg1:T105 Arg2:T108	
+R25	located_in Arg1:T104 Arg2:T108	
+T125	missed_gene 2678 2707	cluster of differentiation 44
+R26	located_in Arg1:T125 Arg2:T110	
+R27	located_in Arg1:T109 Arg2:T110	
+R28	located_in Arg1:T111 Arg2:T113	
+R29	located_in Arg1:T112 Arg2:T113	
+R30	located_in Arg1:T111 Arg2:T114	
+R31	located_in Arg1:T112 Arg2:T114	
+#1	AnnotatorNotes R12	Okay?
+R19	located_in Arg1:T3 Arg2:T4	
+R32	located_in Arg1:T2 Arg2:T4	
+R33	located_in Arg1:T1 Arg2:T4	
+R34	located_in Arg1:T5 Arg2:T6	
+#2	AnnotatorNotes R34	I am not sure. It is possible that this level is zero
+#3	AnnotatorNotes R19	I am not sure. It is possible that this level is zero
+R35	located_in Arg1:T91 Arg2:T92	
+#4	AnnotatorNotes R35	Okay?

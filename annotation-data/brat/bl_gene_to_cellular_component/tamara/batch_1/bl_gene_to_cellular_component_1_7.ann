@@ -117,3 +117,30 @@ T116	gene 3055 3058	p27
 T117	gene 3059 3063	Kip1
 T118	gene 3081 3085	Mcl1
 T119	cellular_component 3095 3098	NPC
+T120	missed_gene 89 140	cytoplasmic polyadenylation element-binding protein
+R1	located_in Arg1:T120 Arg2:T3	
+R2	located_in Arg1:T4 Arg2:T3	
+R3	located_in Arg1:T21 Arg2:T22	
+R4	located_in Arg1:T20 Arg2:T22	
+T121	missed_gene 1072 1099	peroxisomal matrix proteins
+R5	located_in Arg1:T121 Arg2:T46	
+R6	located_in Arg1:T121 Arg2:T47	
+R7	located_in Arg1:T53 Arg2:T54	
+R8	located_in Arg1:T52 Arg2:T54	
+T122	missed_gene 1270 1273	PKB
+R9	located_in Arg1:T51 Arg2:T54	
+R10	located_in Arg1:T122 Arg2:T54	
+R11	located_in Arg1:T50 Arg2:T54	
+T123	corrected_gene 1222 1244	integrin-linked kinase
+T124	missed_gene 1246 1249	ILK
+R12	located_in Arg1:T124 Arg2:T54	
+R13	located_in Arg1:T123 Arg2:T54	
+R14	located_in Arg1:T58 Arg2:T59	
+R15	located_in Arg1:T60 Arg2:T63	
+R16	located_in Arg1:T69 Arg2:T70	
+R17	located_in Arg1:T68 Arg2:T70	
+R18	located_in Arg1:T73 Arg2:T71	
+R19	located_in Arg1:T73 Arg2:T72	
+R20	located_in Arg1:T109 Arg2:T108	
+R21	located_in Arg1:T43 Arg2:T44	
+R22	located_in Arg1:T42 Arg2:T44	

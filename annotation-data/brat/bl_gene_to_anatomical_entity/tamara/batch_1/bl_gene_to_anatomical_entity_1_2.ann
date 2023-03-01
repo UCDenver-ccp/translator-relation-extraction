@@ -126,3 +126,101 @@ T125	gene 2927 2931	CCR5
 T126	gene 2937 2942	CXCR4
 T127	anatomical_site 2989 2995	cortex
 T128	anatomical_site 3017 3022	brain
+T129	corrected_gene 78 96	FGF receptor 2IIIb
+T130	corrected_anatomical_site 181 199	luminal epithelium
+R3	located_in Arg1:T129 Arg2:T130	
+R4	located_in Arg1:T129 Arg2:T8	
+R5	located_in Arg1:T129 Arg2:T9	
+T131	missed_gene 563 566	CIS
+R6	located_in Arg1:T20 Arg2:T19	
+R7	located_in Arg1:T21 Arg2:T19	
+R8	located_in Arg1:T22 Arg2:T19	
+R9	located_in Arg1:T23 Arg2:T19	
+R10	located_in Arg1:T131 Arg2:T19	
+T132	missed_gene 611 614	CIS
+R11	located_in Arg1:T25 Arg2:T24	
+R12	located_in Arg1:T26 Arg2:T24	
+R13	located_in Arg1:T27 Arg2:T24	
+R14	located_in Arg1:T132 Arg2:T24	
+T133	missed_gene 657 660	CIS
+R15	located_in Arg1:T29 Arg2:T28	
+R16	located_in Arg1:T30 Arg2:T28	
+R17	located_in Arg1:T31 Arg2:T28	
+R18	located_in Arg1:T32 Arg2:T28	
+R19	located_in Arg1:T133 Arg2:T28	
+R20	located_in Arg1:T34 Arg2:T33	
+T134	missed_gene 723 726	CIS
+R21	located_in Arg1:T36 Arg2:T35	
+R22	located_in Arg1:T37 Arg2:T35	
+R23	located_in Arg1:T38 Arg2:T35	
+R24	located_in Arg1:T39 Arg2:T35	
+R25	located_in Arg1:T134 Arg2:T35	
+T135	corrected_gene 733 741	POU5F1P1
+T136	corrected_anatomical_site 789 804	prostate tissue
+R26	located_in Arg1:T135 Arg2:T136	
+T137	missed_gene 850 858	vimentin
+T138	missed_gene 881 885	BrdU
+R27	located_in Arg1:T43 Arg2:T47	
+R28	located_in Arg1:T43 Arg2:T48	
+R29	located_in Arg1:T137 Arg2:T47	
+R30	located_in Arg1:T137 Arg2:T48	
+R31	located_in Arg1:T45 Arg2:T47	
+R32	located_in Arg1:T45 Arg2:T48	
+R33	located_in Arg1:T138 Arg2:T47	
+R34	located_in Arg1:T138 Arg2:T48	
+R36	located_in Arg1:T70 Arg2:T71	
+R37	located_in Arg1:T70 Arg2:T72	
+R38	located_in Arg1:T76 Arg2:T75	
+R39	located_in Arg1:T77 Arg2:T75	
+R40	located_in Arg1:T78 Arg2:T75	
+T140	corrected_gene 2015 2021	AKR1D2
+R41	located_in Arg1:T140 Arg2:T88	
+R42	located_in Arg1:T87 Arg2:T88	
+R43	located_in Arg1:T140 Arg2:T89	
+R44	located_in Arg1:T87 Arg2:T89	
+R45	located_in Arg1:T87 Arg2:T90	
+R46	located_in Arg1:T140 Arg2:T90	
+R47	located_in Arg1:T87 Arg2:T91	
+R48	located_in Arg1:T87 Arg2:T92	
+R49	located_in Arg1:T87 Arg2:T93	
+T141	missed_gene 2265 2268	MAG
+T142	missed_gene 2270 2273	CNP
+R50	located_in Arg1:T141 Arg2:T104	
+R51	located_in Arg1:T142 Arg2:T104	
+R52	located_in Arg1:T99 Arg2:T104	
+R53	located_in Arg1:T100 Arg2:T104	
+R54	located_in Arg1:T101 Arg2:T104	
+R55	located_in Arg1:T101 Arg2:T105	
+R56	located_in Arg1:T100 Arg2:T105	
+R57	located_in Arg1:T99 Arg2:T105	
+R58	located_in Arg1:T142 Arg2:T105	
+R59	located_in Arg1:T141 Arg2:T105	
+R60	located_in Arg1:T101 Arg2:T106	
+R61	located_in Arg1:T100 Arg2:T106	
+R62	located_in Arg1:T99 Arg2:T106	
+R63	located_in Arg1:T142 Arg2:T106	
+R64	located_in Arg1:T141 Arg2:T106	
+R65	located_in Arg1:T124 Arg2:T127	
+R66	located_in Arg1:T125 Arg2:T127	
+R67	located_in Arg1:T126 Arg2:T127	
+R68	located_in Arg1:T126 Arg2:T128	
+R69	located_in Arg1:T125 Arg2:T128	
+R70	located_in Arg1:T124 Arg2:T128	
+T139	missed_gene 1212 1215	SCF
+R1	located_in Arg1:T139 Arg2:T58	
+R2	located_in Arg1:T2 Arg2:T1	
+R35	located_in Arg1:T3 Arg2:T1	
+#1	AnnotatorNotes R35	I am not sure. It is possible that this level is zero
+#2	AnnotatorNotes R2	I am not sure. It is possible that this level is zero
+T143	missed_anatomical_site 1788 1799	vasculature
+R71	located_in Arg1:T79 Arg2:T143	
+#3	AnnotatorNotes R71	Okay?
+R72	located_in Arg1:T79 Arg2:T80	
+#4	AnnotatorNotes R72	Okay?
+R73	located_in Arg1:T79 Arg2:T81	
+R74	located_in Arg1:T83 Arg2:T143	
+#5	AnnotatorNotes R74	Okay?
+R75	located_in Arg1:T83 Arg2:T80	
+#6	AnnotatorNotes R75	Okay?
+R76	located_in Arg1:T83 Arg2:T81	
+#7	AnnotatorNotes R76	Okay?

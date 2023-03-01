@@ -123,3 +123,53 @@ T122	gene 3508 3516	integrin
 T123	cellular_component 3508 3516	integrin
 T124	gene 3536 3557	focal adhesion kinase
 T125	gene 3562 3565	Src
+R1	located_in Arg1:T15 Arg2:T17	
+R2	located_in Arg1:T16 Arg2:T17	
+R3	located_in Arg1:T36 Arg2:T35	
+R5	located_in Arg1:T41 Arg2:T42	
+R6	located_in Arg1:T44 Arg2:T43	
+R7	located_in Arg1:T45 Arg2:T43	
+R8	located_in Arg1:T46 Arg2:T43	
+R9	located_in Arg1:T47 Arg2:T43	
+R10	located_in Arg1:T48 Arg2:T43	
+R11	located_in Arg1:T51 Arg2:T56	
+R12	located_in Arg1:T52 Arg2:T56	
+R13	located_in Arg1:T53 Arg2:T56	
+R14	located_in Arg1:T54 Arg2:T56	
+R15	located_in Arg1:T55 Arg2:T56	
+R16	located_in Arg1:T62 Arg2:T63	
+T126	missed_gene 1918 1950	lysosomal membrane glycoproteins
+R17	located_in Arg1:T126 Arg2:T72	
+T127	missed_cellular_component 2043 2050	nuclear
+R18	located_in Arg1:T78 Arg2:T127	
+R20	located_in Arg1:T92 Arg2:T95	
+R21	located_in Arg1:T97 Arg2:T96	
+R22	located_in Arg1:T98 Arg2:T96	
+T129	missed_gene 2840 2861	focal adhesion kinase
+T130	missed_cellular_component 2840 2854	focal adhesion
+R23	located_in Arg1:T129 Arg2:T130	
+T131	missed_gene 2863 2866	FAK
+R24	located_in Arg1:T131 Arg2:T130	
+R25	located_in Arg1:T106 Arg2:T107	
+R26	located_in Arg1:T106 Arg2:T110	
+R27	located_in Arg1:T109 Arg2:T110	
+R28	located_in Arg1:T115 Arg2:T116	
+T132	missed_gene 3140 3145	KDM2A
+R29	located_in Arg1:T132 Arg2:T113	
+T133	corrected_gene 3149 3191	JmjC-domain containing histone demethylase
+R30	located_in Arg1:T133 Arg2:T113	
+T134	missed_cellular_component 3536 3550	focal adhesion
+R31	located_in Arg1:T124 Arg2:T134	
+R4	located_in Arg1:T55 Arg2:T57	
+R19	located_in Arg1:T80 Arg2:T81	
+T128	missed_gene 3083 3088	actin
+R32	located_in Arg1:T128 Arg2:T110	
+R35	located_in Arg1:T54 Arg2:T57	
+R36	located_in Arg1:T51 Arg2:T57	
+R37	located_in Arg1:T52 Arg2:T57	
+R38	located_in Arg1:T53 Arg2:T57	
+T135	corrected_gene 4 42	TNF-R1 associated death domain protein
+R34	located_in Arg1:T135 Arg2:T4	
+T136	missed_gene 201 244	protein kinase receptor interacting protein
+R33	located_in Arg1:T2 Arg2:T4	
+R39	located_in Arg1:T3 Arg2:T4	

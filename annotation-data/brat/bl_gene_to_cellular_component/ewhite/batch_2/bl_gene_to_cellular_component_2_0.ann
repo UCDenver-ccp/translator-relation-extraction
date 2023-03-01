@@ -123,3 +123,33 @@ T122	gene 3464 3468	Fis1
 T123	gene 3473 3476	Mff
 T124	gene 3481 3485	Drp1
 T125	cellular_component 3516 3528	mitochondria
+T126	corrected_gene 458 488	beta-amyloid precursor protein
+R1	located_in Arg1:T126 Arg2:T16	
+R2	located_in Arg1:T22 Arg2:T23	
+R3	located_in Arg1:T21 Arg2:T23	
+R4	located_in Arg1:T20 Arg2:T23	
+R5	located_in Arg1:T19 Arg2:T23	
+R6	located_in Arg1:T54 Arg2:T53	
+R7	located_in Arg1:T55 Arg2:T53	
+R8	located_in Arg1:T56 Arg2:T53	
+R9	located_in Arg1:T63 Arg2:T64	
+R10	located_in Arg1:T66 Arg2:T68	
+R11	located_in Arg1:T74 Arg2:T75	
+R12	located_in Arg1:T74 Arg2:T76	
+R13	located_in Arg1:T81 Arg2:T82	
+R14	located_in Arg1:T80 Arg2:T82	
+R15	located_in Arg1:T95 Arg2:T94	
+T127	missed_gene 2877 2880	GHR
+R16	located_in Arg1:T127 Arg2:T94	
+R17	located_in Arg1:T110 Arg2:T111	
+R18	located_in Arg1:T110 Arg2:T112	
+R19	located_in Arg1:T110 Arg2:T113	
+T128	corrected_gene 3197 3227	Beta-amyloid precursor protein
+R20	located_in Arg1:T128 Arg2:T111	
+R21	located_in Arg1:T128 Arg2:T112	
+R22	located_in Arg1:T128 Arg2:T113	
+R23	located_in Arg1:T123 Arg2:T125	
+R24	located_in Arg1:T122 Arg2:T125	
+T129	missed_cellular_component 3533 3544	peroxisomes
+R25	located_in Arg1:T123 Arg2:T129	
+R26	located_in Arg1:T122 Arg2:T129	

@@ -117,3 +117,94 @@ T116	gene 2859 2866	insulin
 T117	gene 2877 2882	GLUT4
 T118	anatomical_site 2917 2932	skeletal muscle
 T119	anatomical_site 2937 2951	adipose tissue
+R1	located_in Arg1:T3 Arg2:T4	
+R2	located_in Arg1:T2 Arg2:T4	
+R3	located_in Arg1:T1 Arg2:T4	
+R4	located_in Arg1:T33 Arg2:T31	
+R5	located_in Arg1:T33 Arg2:T32	
+R6	located_in Arg1:T33 Arg2:T34	
+R7	located_in Arg1:T33 Arg2:T35	
+R8	located_in Arg1:T33 Arg2:T36	
+R9	located_in Arg1:T33 Arg2:T37	
+T120	missed_gene 911 917	klotho
+R10	located_in Arg1:T120 Arg2:T38	
+R11	located_in Arg1:T43 Arg2:T44	
+R12	located_in Arg1:T42 Arg2:T44	
+R13	located_in Arg1:T41 Arg2:T44	
+R14	located_in Arg1:T40 Arg2:T39	
+R15	located_in Arg1:T40 Arg2:T44	
+R16	located_in Arg1:T46 Arg2:T48	
+R17	located_in Arg1:T46 Arg2:T49	
+R18	located_in Arg1:T47 Arg2:T48	
+R19	located_in Arg1:T47 Arg2:T49	
+R20	located_in Arg1:T50 Arg2:T51	
+R21	located_in Arg1:T50 Arg2:T52	
+R22	located_in Arg1:T50 Arg2:T53	
+T121	corrected_gene 1357 1394	proinsulin-transferrin fusion protein
+R23	located_in Arg1:T121 Arg2:T55	
+R24	located_in Arg1:T58 Arg2:T62	
+R25	located_in Arg1:T58 Arg2:T63	
+R26	located_in Arg1:T58 Arg2:T64	
+T122	missed_anatomical_site 1619 1638	subventricular zone
+T123	missed_anatomical_site 1640 1643	SVZ
+R27	located_in Arg1:T58 Arg2:T122	
+R28	located_in Arg1:T58 Arg2:T123	
+R29	located_in Arg1:T58 Arg2:T65	
+R30	located_in Arg1:T59 Arg2:T62	
+R31	located_in Arg1:T59 Arg2:T63	
+R32	located_in Arg1:T59 Arg2:T64	
+R33	located_in Arg1:T59 Arg2:T122	
+R34	located_in Arg1:T59 Arg2:T123	
+R35	located_in Arg1:T59 Arg2:T65	
+R36	located_in Arg1:T76 Arg2:T78	
+R37	located_in Arg1:T76 Arg2:T79	
+R38	located_in Arg1:T76 Arg2:T80	
+R39	located_in Arg1:T81 Arg2:T83	
+R40	located_in Arg1:T82 Arg2:T83	
+R41	located_in Arg1:T77 Arg2:T78	
+R42	located_in Arg1:T77 Arg2:T79	
+R43	located_in Arg1:T77 Arg2:T80	
+T124	missed_gene 2138 2151	NONMMUT068202
+T125	missed_gene 2157 2170	NONMMUT068203
+T126	corrected_anatomical_site 2204 2220	placental tissue
+R44	located_in Arg1:T125 Arg2:T126	
+R45	located_in Arg1:T124 Arg2:T126	
+R46	located_in Arg1:T87 Arg2:T126	
+R47	located_in Arg1:T86 Arg2:T126	
+R48	located_in Arg1:T85 Arg2:T126	
+R49	located_in Arg1:T84 Arg2:T126	
+T127	corrected_anatomical_site 2296 2314	gonadal fat tissue
+T128	missed_gene 2236 2239	Tkt
+R50	located_in Arg1:T128 Arg2:T127	
+R51	located_in Arg1:T89 Arg2:T127	
+R52	located_in Arg1:T90 Arg2:T127	
+T129	corrected_anatomical_site 2430 2458	lateral mesenchyme of palate
+R53	located_in Arg1:T97 Arg2:T129	
+T130	corrected_anatomical_site 2490 2508	lateral epithelium
+R54	located_in Arg1:T99 Arg2:T130	
+T131	corrected_anatomical_site 2607 2624	medial epithelium
+R55	located_in Arg1:T104 Arg2:T131	
+T132	missed_gene 2626 2645	Proteolipid protein
+R56	located_in Arg1:T132 Arg2:T108	
+R57	located_in Arg1:T132 Arg2:T109	
+R58	located_in Arg1:T132 Arg2:T110	
+R59	located_in Arg1:T106 Arg2:T108	
+R60	located_in Arg1:T106 Arg2:T109	
+R61	located_in Arg1:T106 Arg2:T110	
+T133	missed_anatomical_site 2765 2773	cingulum
+R62	located_in Arg1:T115 Arg2:T113	
+R63	located_in Arg1:T115 Arg2:T133	
+R64	located_in Arg1:T115 Arg2:T112	
+R65	located_in Arg1:T115 Arg2:T111	
+R66	located_in Arg1:T114 Arg2:T113	
+R67	located_in Arg1:T114 Arg2:T133	
+R68	located_in Arg1:T114 Arg2:T112	
+R69	located_in Arg1:T114 Arg2:T111	
+R70	located_in Arg1:T13 Arg2:T12	
+R71	located_in Arg1:T14 Arg2:T12	
+R72	located_in Arg1:T15 Arg2:T12	
+R73	located_in Arg1:T16 Arg2:T12	
+R74	located_in Arg1:T18 Arg2:T17	
+T134	corrected_gene 407 424	cholecystokinin-8
+R75	located_in Arg1:T134 Arg2:T17	
+#1	AnnotatorNotes R55	Okay?

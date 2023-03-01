@@ -1,6 +1,5 @@
 T1	gene 20 23	p42
 T2	gene 28 31	p44
-T3	gene 32 42	MAP kinase
 T4	cellular_component 47 56	cytosolic
 T5	gene 138 147	Ankyrin-G
 T6	gene 164 175	neurofascin
@@ -63,8 +62,8 @@ T62	gene 1823 1828	Smad7
 T63	cellular_component 1888 1901	mitochondrial
 T64	gene 1902 1917	creatine kinase
 T65	gene 1932 1935	APP
-T66	cellular_component 1957 1971	late endosomal
-T67	cellular_component 1977 1986	lysosomal
+T66	cellular_component 1957 1971;1998 2006	late endosomal membrane
+T67	cellular_component 1977 1986;1998 2006	lysosomal membrane
 T68	cellular_component 1998 2006	membrane
 T69	gene 2017 2022	LAMP1
 T70	gene 2027 2032	LAMP2
@@ -116,3 +115,42 @@ T115	cellular_component 3270 3278	integrin
 T116	cellular_component 3300 3308	Membrane
 T117	gene 3332 3359	G-protein coupled receptors
 T118	gene 3361 3366	GPCRs
+T119	missed_cellular_component 97 104	nuclear
+R1	located_in Arg1:T1 Arg2:T4	
+R2	located_in Arg1:T2 Arg2:T4	
+T120	gene 32 42	MAP kinase
+R3	located_in Arg1:T1 Arg2:T119	
+R4	located_in Arg1:T2 Arg2:T119	
+T3	missed_cellular_component 437 450	primary cilia
+R5	located_in Arg1:T12 Arg2:T3	
+R6	located_in Arg1:T13 Arg2:T14	
+R7	located_in Arg1:T13 Arg2:T15	
+T121	corrected_gene 738 748	Rho-kinase
+R8	located_in Arg1:T121 Arg2:T24	
+R9	located_in Arg1:T30 Arg2:T32	
+R10	located_in Arg1:T31 Arg2:T32	
+R11	located_in Arg1:T26 Arg2:T32	
+T122	corrected_gene 906 915	Arrestin2
+R12	located_in Arg1:T122 Arg2:T32	
+T123	corrected_gene 1902 1928	creatine kinase preprotein
+R13	located_in Arg1:T123 Arg2:T63	
+R14	located_in Arg1:T69 Arg2:T71	
+R15	located_in Arg1:T70 Arg2:T71	
+R16	located_in Arg1:T69 Arg2:T66	
+R17	located_in Arg1:T70 Arg2:T66	
+R18	located_in Arg1:T69 Arg2:T67	
+R19	located_in Arg1:T70 Arg2:T67	
+R20	located_in Arg1:T73 Arg2:T72	
+R21	located_in Arg1:T75 Arg2:T74	
+R22	located_in Arg1:T76 Arg2:T74	
+R23	located_in Arg1:T85 Arg2:T86	
+T124	missed_cellular_component 2703 2718	actin filaments
+T125	missed_gene 2703 2708	actin
+R24	located_in Arg1:T125 Arg2:T124	
+R25	located_in Arg1:T92 Arg2:T124	
+R26	located_in Arg1:T92 Arg2:T93	
+R27	located_in Arg1:T125 Arg2:T93	
+T126	corrected_gene 2902 2913	?4 integrin
+R28	located_in Arg1:T126 Arg2:T103	
+R29	located_in Arg1:T117 Arg2:T116	
+R30	located_in Arg1:T118 Arg2:T116	

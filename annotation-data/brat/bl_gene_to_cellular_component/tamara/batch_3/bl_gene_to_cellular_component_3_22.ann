@@ -117,3 +117,42 @@ T116	gene 3176 3184	integrin
 T117	cellular_component 3176 3184	integrin
 T118	cellular_component 3217 3235	actin cytoskeleton
 T119	cellular_component 3240 3260	extracellular matrix
+R1	located_in Arg1:T2 Arg2:T3	
+T120	missed_cellular_component 480 489	ribosomal
+R2	located_in Arg1:T9 Arg2:T120	
+R3	located_in Arg1:T10 Arg2:T11	
+R4	located_in Arg1:T16 Arg2:T15	
+R5	located_in Arg1:T17 Arg2:T15	
+T121	corrected_gene 1115 1126	?4 integrin
+R6	located_in Arg1:T121 Arg2:T33	
+R7	located_in Arg1:T36 Arg2:T33	
+T122	missed_gene 1219 1234	Crossveinless 2
+R8	located_in Arg1:T122 Arg2:T41	
+R9	located_in Arg1:T40 Arg2:T41	
+R10	located_in Arg1:T45 Arg2:T46	
+R11	located_in Arg1:T44 Arg2:T46	
+R12	located_in Arg1:T44 Arg2:T47	
+R13	located_in Arg1:T45 Arg2:T47	
+T123	corrected_gene 1764 1787	CD11b membrane integrin
+R14	located_in Arg1:T123 Arg2:T59	
+T124	corrected_cellular_component 1864 1880	ciliary vesicles
+R15	located_in Arg1:T65 Arg2:T124	
+T125	corrected_gene 1901 1924	Talpid3-binding protein
+R16	located_in Arg1:T125 Arg2:T124	
+T126	missed_gene 2707 2719	PDZ proteins
+R17	located_in Arg1:T126 Arg2:T96	
+T127	corrected_gene 2829 2876	membrane-associated guanylate-kinase inverted-2
+R18	located_in Arg1:T127 Arg2:T99	
+R19	located_in Arg1:T127 Arg2:T96	
+R20	located_in Arg1:T101 Arg2:T96	
+R21	located_in Arg1:T102 Arg2:T96	
+R22	located_in Arg1:T101 Arg2:T99	
+R23	located_in Arg1:T102 Arg2:T99	
+R24	located_in Arg1:T103 Arg2:T96	
+T128	corrected_gene 3133 3142	talin 1-a
+R25	located_in Arg1:T128 Arg2:T115	
+R26	located_in Arg1:T128 Arg2:T118	
+R27	located_in Arg1:T128 Arg2:T119	
+T129	missed_gene 3217 3222	actin
+R28	located_in Arg1:T129 Arg2:T118	
+T130	DONE 3262 3266	DONE

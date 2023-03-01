@@ -126,3 +126,38 @@ T125	cellular_component 3256 3267	microtubule
 T126	gene 3287 3294	tubulin
 T127	gene 3359 3366	tubulin
 T128	gene 3427 3431	Op18
+T129	missed_cellular_component 96 99	ECM
+T130	missed_gene 165 172	S100A11
+R1	located_in Arg1:T130 Arg2:T1	
+R2	located_in Arg1:T2 Arg2:T1	
+R3	located_in Arg1:T3 Arg2:T1	
+R4	located_in Arg1:T17 Arg2:T16	
+T131	corrected_gene 462 477	nucleophosmin 1
+R5	located_in Arg1:T131 Arg2:T16	
+R6	located_in Arg1:T24 Arg2:T23	
+R7	located_in Arg1:T31 Arg2:T32	
+R8	located_in Arg1:T31 Arg2:T33	
+T132	missed_gene 851 855	kip1
+R9	located_in Arg1:T132 Arg2:T32	
+R10	located_in Arg1:T132 Arg2:T33	
+R11	located_in Arg1:T43 Arg2:T44	
+T133	missed_cellular_component 1223 1231	membrane
+R12	located_in Arg1:T46 Arg2:T133	
+T134	corrected_gene 1326 1351	amyloid precursor protein
+R13	located_in Arg1:T134 Arg2:T48	
+R14	located_in Arg1:T63 Arg2:T62	
+R15	located_in Arg1:T66 Arg2:T65	
+R16	located_in Arg1:T75 Arg2:T77	
+R17	located_in Arg1:T76 Arg2:T77	
+R18	located_in Arg1:T79 Arg2:T81	
+R19	located_in Arg1:T80 Arg2:T81	
+T135	missed_cellular_component 2185 2192	nuclear
+R20	located_in Arg1:T84 Arg2:T135	
+R21	located_in Arg1:T88 Arg2:T87	
+T136	missed_cellular_component 2343 2350	nuclear
+R22	located_in Arg1:T89 Arg2:T136	
+R23	located_in Arg1:T92 Arg2:T91	
+R24	located_in Arg1:T101 Arg2:T100	
+R25	located_in Arg1:T122 Arg2:T125	
+R26	located_in Arg1:T123 Arg2:T125	
+R27	located_in Arg1:T124 Arg2:T125	

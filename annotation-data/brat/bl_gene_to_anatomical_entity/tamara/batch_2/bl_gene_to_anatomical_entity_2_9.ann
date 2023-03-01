@@ -137,3 +137,113 @@ T136	anatomical_site 3349 3359	cerebellum
 T137	gene 3379 3383	HCN3
 T138	gene 3388 3392	HCN4
 T139	anatomical_site 3455 3467	hypothalamus
+R1	located_in Arg1:T17 Arg2:T18	
+R2	located_in Arg1:T17 Arg2:T19	
+T140	corrected_anatomical_site 516 531	Lamellar tissue
+R3	located_in Arg1:T21 Arg2:T140	
+R4	located_in Arg1:T21 Arg2:T22	
+R5	located_in Arg1:T23 Arg2:T24	
+R6	located_in Arg1:T23 Arg2:T140	
+T141	corrected_anatomical_site 676 687	lung tissue
+R7	located_in Arg1:T25 Arg2:T141	
+R8	located_in Arg1:T26 Arg2:T141	
+R9	located_in Arg1:T26 Arg2:T29	
+R10	located_in Arg1:T25 Arg2:T29	
+R11	located_in Arg1:T30 Arg2:T31	
+R12	located_in Arg1:T30 Arg2:T32	
+R13	located_in Arg1:T30 Arg2:T33	
+R14	located_in Arg1:T34 Arg2:T35	
+R15	located_in Arg1:T34 Arg2:T36	
+R16	located_in Arg1:T37 Arg2:T38	
+R17	located_in Arg1:T52 Arg2:T51	
+R18	located_in Arg1:T53 Arg2:T51	
+R19	located_in Arg1:T55 Arg2:T56	
+R20	located_in Arg1:T54 Arg2:T56	
+T142	corrected_anatomical_site 1454 1465	skin tissue
+R21	located_in Arg1:T57 Arg2:T142	
+R22	located_in Arg1:T58 Arg2:T142	
+T143	missed_gene 1658 1698	Cartilage-derived morphogenetic proteins
+R23	located_in Arg1:T143 Arg2:T64	
+T144	missed_gene 1700 1705	CDMPs
+R24	located_in Arg1:T144 Arg2:T64	
+T145	missed_gene 1725 1751	bone morphogenetic protein
+R25	located_in Arg1:T145 Arg2:T65	
+R26	located_in Arg1:T66 Arg2:T65	
+R27	located_in Arg1:T143 Arg2:T65	
+R28	located_in Arg1:T144 Arg2:T65	
+R29	located_in Arg1:T72 Arg2:T74	
+R30	located_in Arg1:T73 Arg2:T74	
+T146	missed_gene 1926 1929	VDR
+R31	located_in Arg1:T146 Arg2:T74	
+R32	located_in Arg1:T72 Arg2:T71	
+R33	located_in Arg1:T73 Arg2:T71	
+R34	located_in Arg1:T146 Arg2:T71	
+R36	located_in Arg1:T78 Arg2:T79	
+R37	located_in Arg1:T82 Arg2:T83	
+R38	located_in Arg1:T81 Arg2:T83	
+R39	located_in Arg1:T80 Arg2:T83	
+T147	corrected_anatomical_site 2591 2604	limb ectoderm
+R40	located_in Arg1:T96 Arg2:T95	
+R41	located_in Arg1:T97 Arg2:T95	
+R42	located_in Arg1:T98 Arg2:T95	
+R43	located_in Arg1:T99 Arg2:T95	
+R44	located_in Arg1:T99 Arg2:T147	
+R45	located_in Arg1:T98 Arg2:T147	
+R46	located_in Arg1:T97 Arg2:T147	
+R47	located_in Arg1:T96 Arg2:T147	
+T148	corrected_anatomical_site 2657 2668	lung tissue
+T149	missed_gene 2643 2645	KC
+R48	located_in Arg1:T104 Arg2:T148	
+R49	located_in Arg1:T149 Arg2:T148	
+R50	located_in Arg1:T103 Arg2:T148	
+T150	corrected_gene 2686 2702	type II collagen
+T151	corrected_gene 2704 2734	long form alpha 1(IX) collagen
+T152	corrected_gene 2740 2771	short form alpha 1(IX) collagen
+T153	corrected_anatomical_site 2822 2836	axial skeleton
+R51	located_in Arg1:T150 Arg2:T113	
+R52	located_in Arg1:T150 Arg2:T153	
+R53	located_in Arg1:T151 Arg2:T113	
+R54	located_in Arg1:T151 Arg2:T153	
+R55	located_in Arg1:T152 Arg2:T113	
+R56	located_in Arg1:T152 Arg2:T153	
+T154	missed_gene 2838 2841	OUT
+R57	located_in Arg1:T154 Arg2:T121	
+R58	located_in Arg1:T154 Arg2:T122	
+R59	located_in Arg1:T154 Arg2:T123	
+R60	located_in Arg1:T154 Arg2:T124	
+R61	located_in Arg1:T128 Arg2:T129	
+R62	located_in Arg1:T128 Arg2:T130	
+R63	located_in Arg1:T128 Arg2:T131	
+R64	located_in Arg1:T128 Arg2:T132	
+R65	located_in Arg1:T126 Arg2:T127	
+R66	located_in Arg1:T133 Arg2:T134	
+R67	located_in Arg1:T133 Arg2:T135	
+T155	missed_anatomical_site 3324 3343	superior colliculus
+R68	located_in Arg1:T133 Arg2:T155	
+R69	located_in Arg1:T133 Arg2:T136	
+R70	located_in Arg1:T137 Arg2:T139	
+T156	missed_anatomical_site 3472 3480	thalamus
+R71	located_in Arg1:T138 Arg2:T156	
+T157	missed_anatomical_site 725 738	smooth muscle
+R72	located_in Arg1:T25 Arg2:T157	
+R73	located_in Arg1:T26 Arg2:T157	
+T158	missed_gene 977 987;993 995	interferon -?
+T159	missed_gene 989 992;993 995	IFN -?
+R74	located_in Arg1:T158 Arg2:T39	
+R75	located_in Arg1:T159 Arg2:T39	
+R76	located_in Arg1:T41 Arg2:T40	
+T160	missed_gene 1037 1048;1053 1055	interleukin -5
+T161	missed_gene 1050 1052;1053 1055	IL -5
+R77	located_in Arg1:T160 Arg2:T40	
+R78	located_in Arg1:T161 Arg2:T40	
+R79	located_in Arg1:T42 Arg2:T40	
+R80	located_in Arg1:T43 Arg2:T40	
+R81	located_in Arg1:T44 Arg2:T40	
+R82	located_in Arg1:T45 Arg2:T40	
+R83	located_in Arg1:T46 Arg2:T40	
+R84	located_in Arg1:T47 Arg2:T40	
+T162	missed_gene 1150 1155	IL-13
+R85	located_in Arg1:T162 Arg2:T48	
+R87	located_in Arg1:T49 Arg2:T48	
+#1	AnnotatorNotes T29	okay? or endothelial also? 
+R35	located_in Arg1:T75 Arg2:T76	

@@ -111,3 +111,53 @@ T110	anatomical_site 2660 2665	liver
 T111	anatomical_site 2666 2672	spleen
 T112	anatomical_site 2782 2787	serum
 T113	gene 2792 2795	CSF
+R1	located_in Arg1:T3 Arg2:T4	
+R2	located_in Arg1:T3 Arg2:T5	
+R3	located_in Arg1:T23 Arg2:T22	
+T114	missed_anatomical_site 791 794	gut
+R4	located_in Arg1:T36 Arg2:T114	
+R5	located_in Arg1:T36 Arg2:T37	
+R6	located_in Arg1:T36 Arg2:T38	
+R8	located_in Arg1:T43 Arg2:T45	
+R9	located_in Arg1:T44 Arg2:T45	
+T115	missed_gene 1749 1768	smooth muscle actin
+R10	located_in Arg1:T115 Arg2:T77	
+T116	missed_gene 1788 1813	fibrillary acidic protein
+R11	located_in Arg1:T116 Arg2:T81	
+R12	located_in Arg1:T78 Arg2:T81	
+R13	located_in Arg1:T79 Arg2:T81	
+R14	located_in Arg1:T80 Arg2:T81	
+R15	located_in Arg1:T80 Arg2:T82	
+R16	located_in Arg1:T79 Arg2:T82	
+R17	located_in Arg1:T78 Arg2:T82	
+R18	located_in Arg1:T116 Arg2:T82	
+R7	located_in Arg1:T40 Arg2:T39	
+R19	located_in Arg1:T2 Arg2:T1	
+R20	located_in Arg1:T46 Arg2:T47	
+T117	missed_anatomical_site 284 289	Serum
+#1	AnnotatorNotes T117	do we mark it? 
+R21	located_in Arg1:T15 Arg2:T117	
+#2	AnnotatorNotes R21	Okay?
+R22	located_in Arg1:T17 Arg2:T16	
+#3	AnnotatorNotes R22	Okay?
+R23	located_in Arg1:T18 Arg2:T16	
+#4	AnnotatorNotes R23	Okay?
+R24	located_in Arg1:T19 Arg2:T16	
+#5	AnnotatorNotes R24	Okay?
+R25	located_in Arg1:T20 Arg2:T16	
+#6	AnnotatorNotes R25	Okay?
+R26	located_in Arg1:T67 Arg2:T68	
+#7	AnnotatorNotes R26	Okay?
+T118	corrected_gene 1656 1661	c-MET
+T119	corrected_gene 1662 1667	HGF-R
+T120	corrected_anatomical_site 1671 1683	liver tissue
+R27	located_in Arg1:T69 Arg2:T120	
+#8	AnnotatorNotes R27	Okay?
+R28	located_in Arg1:T118 Arg2:T120	
+#9	AnnotatorNotes R28	Okay?
+R29	located_in Arg1:T119 Arg2:T120	
+#10	AnnotatorNotes R29	Okay?
+R30	located_in Arg1:T90 Arg2:T89	
+#11	AnnotatorNotes R30	Okay?
+R31	located_in Arg1:T92 Arg2:T91	
+#12	AnnotatorNotes R31	Okay?

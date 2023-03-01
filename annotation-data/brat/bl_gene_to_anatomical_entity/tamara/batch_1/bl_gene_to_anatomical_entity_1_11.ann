@@ -107,3 +107,65 @@ T106	anatomical_site 2630 2641	capillaries
 T107	anatomical_site 2649 2654	brain
 T108	anatomical_site 2673 2678	chick
 T109	anatomical_site 2679 2685	embryo
+T110	missed_gene 80 84	PGE2
+R1	located_in Arg1:T4 Arg2:T5	
+R2	located_in Arg1:T4 Arg2:T6	
+R3	located_in Arg1:T110 Arg2:T5	
+R4	located_in Arg1:T110 Arg2:T6	
+R5	located_in Arg1:T10 Arg2:T9	
+R6	located_in Arg1:T12 Arg2:T11	
+R7	located_in Arg1:T14 Arg2:T13	
+R8	located_in Arg1:T16 Arg2:T15	
+R9	located_in Arg1:T18 Arg2:T17	
+T111	corrected_anatomical_site 515 526	lung tissue
+R10	located_in Arg1:T21 Arg2:T111	
+T113	corrected_anatomical_site 875 885	CNS myelin
+R17	located_in Arg1:T32 Arg2:T113	
+T114	missed_anatomical_site 887 894	Thyroid
+R18	located_in Arg1:T35 Arg2:T114	
+R19	located_in Arg1:T36 Arg2:T114	
+R20	located_in Arg1:T50 Arg2:T52	
+R21	located_in Arg1:T51 Arg2:T52	
+T115	missed_gene 1371 1375	IFNT
+T116	missed_gene 1377 1382	TKDP1
+T117	corrected_gene 1384 1389	PAG11
+T118	missed_gene 1408 1412	PDPN
+R22	located_in Arg1:T115 Arg2:T53	
+R23	located_in Arg1:T116 Arg2:T53	
+R24	located_in Arg1:T117 Arg2:T53	
+R25	located_in Arg1:T55 Arg2:T53	
+R26	located_in Arg1:T56 Arg2:T53	
+R27	located_in Arg1:T118 Arg2:T53	
+T119	missed_anatomical_site 1516 1523;1531 1537	bladder tissue
+R28	located_in Arg1:T58 Arg2:T119	
+R29	located_in Arg1:T59 Arg2:T119	
+R30	located_in Arg1:T60 Arg2:T119	
+R31	located_in Arg1:T63 Arg2:T64	
+R32	located_in Arg1:T63 Arg2:T65	
+R33	located_in Arg1:T66 Arg2:T67	
+R34	located_in Arg1:T66 Arg2:T68	
+R35	located_in Arg1:T69 Arg2:T70	
+R36	located_in Arg1:T71 Arg2:T73	
+R37	located_in Arg1:T71 Arg2:T74	
+R38	located_in Arg1:T72 Arg2:T73	
+R39	located_in Arg1:T72 Arg2:T74	
+T120	corrected_anatomical_site 2149 2160	chick brain
+T121	corrected_gene 2161 2174	alpha-tubulin
+R40	located_in Arg1:T121 Arg2:T120	
+T122	corrected_anatomical_site 2263 2274	chick brain
+R41	located_in Arg1:T94 Arg2:T122	
+R42	located_in Arg1:T95 Arg2:T122	
+T123	corrected_anatomical_site 2335 2347	brain tissue
+R43	located_in Arg1:T98 Arg2:T123	
+T124	missed_gene 2449 2453	MKBP
+R44	located_in Arg1:T99 Arg2:T101	
+R45	located_in Arg1:T124 Arg2:T101	
+R46	located_in Arg1:T99 Arg2:T102	
+R47	located_in Arg1:T124 Arg2:T102	
+R48	located_in Arg1:T100 Arg2:T103	
+R49	located_in Arg1:T100 Arg2:T104	
+T125	corrected_gene 2595 2622	transferrin binding protein
+R50	located_in Arg1:T125 Arg2:T106	
+R51	located_in Arg1:T125 Arg2:T107	
+T112	missed_gene 1195 1220	alpha smooth muscle actin
+R11	located_in Arg1:T112 Arg2:T48	

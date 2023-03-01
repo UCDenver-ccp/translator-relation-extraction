@@ -75,10 +75,8 @@ T70	missed_chemical 644 660;665 666	Salvianolic acid B
 R5	treats Arg1:T70 Arg2:T22	
 T71	missed_disease_or_phenotypic_feature 814 838	tumor-associated antigen
 T72	missed_disease_or_phenotypic_feature 977 1002	tumor-associated antigens
-T73	missed_disease_or_phenotypic_feature 1342 1366	Hormone-dependent tumors
+T73	missed_disease_or_phenotypic_feature 1360 1366	tumors
 R9	causes_or_contributes_to Arg1:T39 Arg2:T73	
-R10	causes_or_contributes_to Arg1:T41 Arg2:T42	
-R11	causes_or_contributes_to Arg1:T41 Arg2:T44	
 R12	treats Arg1:T52 Arg2:T53	
 T74	corrected_chemical 1689 1710	telomerase antagonist
 R13	treats Arg1:T74 Arg2:T53	

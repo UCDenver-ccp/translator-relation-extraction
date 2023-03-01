@@ -104,3 +104,39 @@ T103	gene 2848 2865	insulin receptors
 T104	cellular_component 2904 2914	centrosome
 T105	gene 2926 2932	Aurora
 T106	gene 2933 2936	Ipl
+R1	located_in Arg1:T9 Arg2:T10	
+T107	missed_gene 294 297	TfR
+T108	missed_gene 272 292	transferrin receptor
+R2	located_in Arg1:T107 Arg2:T10	
+R3	located_in Arg1:T108 Arg2:T10	
+T109	corrected_gene 907 920	beta-integrin
+R4	located_in Arg1:T109 Arg2:T31	
+T110	missed_cellular_component 1050 1057	Nuclear
+R5	located_in Arg1:T33 Arg2:T110	
+R6	located_in Arg1:T34 Arg2:T110	
+T111	corrected_cellular_component 1174 1200	peripheral plasma membrane
+R7	located_in Arg1:T39 Arg2:T111	
+R8	located_in Arg1:T41 Arg2:T40	
+R9	located_in Arg1:T42 Arg2:T40	
+T112	missed_gene 1269 1284	14-3-3 proteins
+R10	located_in Arg1:T112 Arg2:T40	
+R11	located_in Arg1:T44 Arg2:T43	
+T113	missed_gene 1347 1350	NPM
+R12	located_in Arg1:T113 Arg2:T43	
+R13	located_in Arg1:T53 Arg2:T47	
+R14	located_in Arg1:T52 Arg2:T47	
+R15	located_in Arg1:T51 Arg2:T47	
+R16	located_in Arg1:T50 Arg2:T47	
+R17	located_in Arg1:T49 Arg2:T47	
+R18	located_in Arg1:T48 Arg2:T47	
+R19	located_in Arg1:T54 Arg2:T56	
+T114	missed_gene 1770 1784	phospolipaseA2
+R20	located_in Arg1:T114 Arg2:T61	
+T115	corrected_cellular_component 1990 1999;2008 2016	secretory membrane
+R21	located_in Arg1:T68 Arg2:T115	
+R22	located_in Arg1:T69 Arg2:T115	
+R23	located_in Arg1:T100 Arg2:T101	
+R24	located_in Arg1:T99 Arg2:T101	
+R25	located_in Arg1:T98 Arg2:T101	
+T116	corrected_gene 2926 2948	Aurora/Ipl-like kinase
+R26	located_in Arg1:T116 Arg2:T104	

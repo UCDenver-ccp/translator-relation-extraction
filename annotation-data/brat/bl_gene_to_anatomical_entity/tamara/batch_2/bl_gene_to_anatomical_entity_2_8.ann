@@ -96,3 +96,46 @@ T95	gene 2541 2545	Fgf8
 T96	anatomical_site 2592 2597	trunk
 T97	anatomical_site 2624 2631	somites
 T98	anatomical_site 2636 2649	neuroectoderm
+T99	corrected_anatomical_site 35 49	retinal vessel
+R1	located_in Arg1:T2 Arg2:T99	
+R2	located_in Arg1:T3 Arg2:T99	
+R3	located_in Arg1:T4 Arg2:T5	
+R6	located_in Arg1:T2 Arg2:T5	
+R7	located_in Arg1:T3 Arg2:T5	
+T101	missed_gene 243 248	PASII
+R12	located_in Arg1:T12 Arg2:T15	
+R13	located_in Arg1:T13 Arg2:T15	
+R14	located_in Arg1:T14 Arg2:T15	
+T102	missed_gene 520 538;544 545	uncoupling protein 1
+T103	missed_gene 540 543;544 545	UCP 1
+R15	located_in Arg1:T102 Arg2:T18	
+R16	located_in Arg1:T103 Arg2:T18	
+R17	located_in Arg1:T19 Arg2:T18	
+R18	located_in Arg1:T20 Arg2:T18	
+R19	located_in Arg1:T23 Arg2:T21	
+R20	located_in Arg1:T23 Arg2:T22	
+R21	located_in Arg1:T25 Arg2:T24	
+R22	located_in Arg1:T50 Arg2:T51	
+T104	missed_anatomical_site 1653 1659	testes
+T105	missed_anatomical_site 1661 1671	epididymis
+R23	located_in Arg1:T59 Arg2:T60	
+R24	located_in Arg1:T59 Arg2:T104	
+R25	located_in Arg1:T59 Arg2:T105	
+R26	located_in Arg1:T59 Arg2:T61	
+R27	located_in Arg1:T59 Arg2:T62	
+R28	located_in Arg1:T73 Arg2:T74	
+R29	located_in Arg1:T73 Arg2:T75	
+R30	located_in Arg1:T73 Arg2:T76	
+T106	corrected_anatomical_site 2232 2261	ectodermal appendage placodes
+R31	located_in Arg1:T83 Arg2:T106	
+R4	located_in Arg1:T4 Arg2:T99	
+R5	located_in Arg1:T47 Arg2:T46	
+T100	missed_gene 1348 1370	glycated serum protein
+R32	located_in Arg1:T100 Arg2:T49	
+R33	located_in Arg1:T53 Arg2:T52	
+R34	located_in Arg1:T77 Arg2:T78	
+#1	AnnotatorNotes T99	okay?
+#2	AnnotatorNotes R31	Okay?
+T107	corrected_anatomical_site 278 301	peripheral nerve myelin
+R8	located_in Arg1:T101 Arg2:T107	
+R9	located_in Arg1:T8 Arg2:T107	

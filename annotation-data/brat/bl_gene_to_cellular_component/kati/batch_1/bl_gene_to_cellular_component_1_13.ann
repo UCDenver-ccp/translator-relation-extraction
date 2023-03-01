@@ -121,8 +121,6 @@ R4	located_in Arg1:T57 Arg2:T56
 R5	located_in Arg1:T58 Arg2:T56	
 T117	missed_gene 2016 2021	PEPCK
 R6	located_in Arg1:T117 Arg2:T71	
-T118	corrected_gene 2308 2321	Smad proteins
-R7	located_in Arg1:T118 Arg2:T82	
 R8	located_in Arg1:T84 Arg2:T85	
 T119	missed_gene 2673 2678	talin
 R9	located_in Arg1:T119 Arg2:T91	
@@ -137,3 +135,6 @@ R14	located_in Arg1:T106 Arg2:T104
 R15	located_in Arg1:T107 Arg2:T104	
 R16	located_in Arg1:T113 Arg2:T112	
 R17	located_in Arg1:T116 Arg2:T115	
+R18	located_in Arg1:T12 Arg2:T14	
+R19	located_in Arg1:T50 Arg2:T48	
+R7	located_in Arg1:T80 Arg2:T82	

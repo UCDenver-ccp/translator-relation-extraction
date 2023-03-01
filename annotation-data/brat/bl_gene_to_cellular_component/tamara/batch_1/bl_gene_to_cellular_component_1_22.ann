@@ -126,3 +126,58 @@ T125	gene 3468 3472	CD18
 T126	gene 3478 3497	chemokine receptors
 T127	gene 3503 3521	chemokine receptor
 T128	gene 3534 3539	CXCR2
+R1	located_in Arg1:T5 Arg2:T4	
+R2	located_in Arg1:T6 Arg2:T4	
+T129	missed_gene 166 195	phosphatidylinositol 3-kinase
+R3	located_in Arg1:T129 Arg2:T4	
+R4	located_in Arg1:T7 Arg2:T4	
+R5	located_in Arg1:T8 Arg2:T4	
+T130	missed_gene 728 731	PIN
+R6	located_in Arg1:T130 Arg2:T24	
+R7	located_in Arg1:T25 Arg2:T24	
+R8	located_in Arg1:T27 Arg2:T26	
+T131	corrected_gene 855 859	PIN3
+R9	located_in Arg1:T131 Arg2:T26	
+R10	located_in Arg1:T29 Arg2:T26	
+R11	located_in Arg1:T30 Arg2:T26	
+R12	located_in Arg1:T31 Arg2:T26	
+R13	located_in Arg1:T39 Arg2:T38	
+R14	located_in Arg1:T40 Arg2:T38	
+R15	located_in Arg1:T41 Arg2:T43	
+R16	located_in Arg1:T42 Arg2:T43	
+T132	missed_gene 1292 1302	mitofusins
+R17	located_in Arg1:T132 Arg2:T44	
+R19	located_in Arg1:T50 Arg2:T51	
+T133	corrected_gene 1685 1700	spectrin beta 2
+T134	missed_gene 1705 1714	plectin 8
+R20	located_in Arg1:T58 Arg2:T57	
+R21	located_in Arg1:T133 Arg2:T57	
+R22	located_in Arg1:T134 Arg2:T57	
+R23	located_in Arg1:T68 Arg2:T67	
+R24	located_in Arg1:T69 Arg2:T67	
+T135	corrected_gene 1898 1922	SNARE protein syntaxin 7
+R25	located_in Arg1:T135 Arg2:T67	
+R26	located_in Arg1:T73 Arg2:T72	
+R27	located_in Arg1:T74 Arg2:T72	
+R28	located_in Arg1:T74 Arg2:T75	
+R29	located_in Arg1:T73 Arg2:T75	
+R30	located_in Arg1:T85 Arg2:T84	
+R31	located_in Arg1:T86 Arg2:T84	
+T136	corrected_gene 2366 2371	PLA2?
+R32	located_in Arg1:T136 Arg2:T87	
+T137	corrected_gene 2653 2676	ribosomal protein RPL11
+R33	located_in Arg1:T137 Arg2:T97	
+R18	located_in Arg1:T119 Arg2:T118	
+R34	located_in Arg1:T120 Arg2:T118	
+T138	missed_gene 3338 3344	COL1A1
+R35	located_in Arg1:T138 Arg2:T118	
+T139	missed_gene 3346 3352	COL2A1
+T140	missed_gene 3357 3363	COL3A1
+R36	located_in Arg1:T140 Arg2:T118	
+R37	located_in Arg1:T139 Arg2:T118	
+T141	missed_cellular_component 3296 3299	ECM
+R38	located_in Arg1:T119 Arg2:T141	
+R39	located_in Arg1:T120 Arg2:T141	
+R40	located_in Arg1:T138 Arg2:T141	
+R41	located_in Arg1:T139 Arg2:T141	
+R42	located_in Arg1:T140 Arg2:T141	

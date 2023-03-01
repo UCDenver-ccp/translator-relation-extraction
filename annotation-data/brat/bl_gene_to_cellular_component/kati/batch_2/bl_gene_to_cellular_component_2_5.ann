@@ -114,3 +114,42 @@ T113	gene 2950 2955	Loxl1
 T114	gene 2957 2962	Loxl2
 T115	gene 2964 2968	Sod1
 T116	gene 2973 2976	Tyr
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T1 Arg2:T3	
+R3	located_in Arg1:T5 Arg2:T4	
+T117	missed_gene 221 233	ERM proteins
+T118	corrected_cellular_component 350 374	cell surface projections
+R4	located_in Arg1:T117 Arg2:T118	
+R5	located_in Arg1:T8 Arg2:T118	
+R6	located_in Arg1:T9 Arg2:T118	
+R7	located_in Arg1:T10 Arg2:T118	
+R8	located_in Arg1:T20 Arg2:T22	
+R9	located_in Arg1:T21 Arg2:T22	
+T119	missed_gene 527 531	EFA6
+R10	located_in Arg1:T119 Arg2:T22	
+T120	missed_cellular_component 659 676	outer kinetochore
+R11	located_in Arg1:T26 Arg2:T120	
+R12	located_in Arg1:T27 Arg2:T120	
+R13	located_in Arg1:T28 Arg2:T120	
+T121	missed_gene 709 714	Ndc80
+R14	located_in Arg1:T121 Arg2:T120	
+R15	located_in Arg1:T43 Arg2:T42	
+R16	located_in Arg1:T44 Arg2:T42	
+R17	located_in Arg1:T58 Arg2:T57	
+R18	located_in Arg1:T66 Arg2:T65	
+T122	missed_gene 1636 1664	microtubule-binding proteins
+R19	located_in Arg1:T122 Arg2:T65	
+T123	missed_gene 1682 1699	guanine deaminase
+R20	located_in Arg1:T123 Arg2:T65	
+R21	located_in Arg1:T67 Arg2:T65	
+T124	corrected_gene 1712 1760	fibronectin type3 SPRY domain-containing protein
+R22	located_in Arg1:T124 Arg2:T65	
+R23	located_in Arg1:T97 Arg2:T96	
+T125	corrected_gene 2533 2542	pro-MMP-2
+R24	located_in Arg1:T125 Arg2:T96	
+R25	located_in Arg1:T99 Arg2:T96	
+T126	missed_gene 2834 2838	HSPG
+R26	located_in Arg1:T126 Arg2:T110	
+T127	corrected_gene 2750 2756	HB-EGF
+R27	located_in Arg1:T127 Arg2:T110	
+R28	located_in Arg1:T112 Arg2:T111	

@@ -91,9 +91,8 @@ T90	gene 2032 2035	CD4
 T91	cellular_component 2056 2069	intracellular
 T92	gene 2086 2089	p42
 T93	gene 2090 2093	p44
-T94	gene 2103 2106	p38
 T95	gene 2107 2139	mitogen-activated protein kinase
-T96	gene 2141 2145	MAPK
+T96	gene 2103 2106	p38
 T97	gene 2180 2195	Leptin receptor
 T98	cellular_component 2244 2253	cytosolic
 T99	gene 2304 2308	STAT
@@ -142,3 +141,36 @@ T141	cellular_component 3363 3374	calcineurin
 T142	cellular_component 3380 3391	calcineurin
 T143	gene 3380 3391	calcineurin
 T144	gene 3413 3418	TORC2
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T17 Arg2:T16	
+R3	located_in Arg1:T18 Arg2:T16	
+R5	located_in Arg1:T22 Arg2:T21	
+R6	located_in Arg1:T25 Arg2:T24	
+T145	corrected_gene 540 546	p75NTR
+R7	located_in Arg1:T145 Arg2:T24	
+T146	corrected_gene 714 730	alpha 1 integrin
+R8	located_in Arg1:T146 Arg2:T30	
+R9	located_in Arg1:T58 Arg2:T57	
+R10	located_in Arg1:T59 Arg2:T57	
+R11	located_in Arg1:T60 Arg2:T57	
+R12	located_in Arg1:T88 Arg2:T87	
+T147	corrected_gene 2086 2093;2095 2098	p42/p44 ERK
+R13	located_in Arg1:T147 Arg2:T91	
+T149	gene 2141 2145	MAPK
+T94	corrected_gene 2103 2139	p38 mitogen-activated protein kinase
+T148	corrected_gene 2103 2106;2141 2145	p38 MAPK
+R14	located_in Arg1:T94 Arg2:T91	
+R15	located_in Arg1:T148 Arg2:T91	
+T150	corrected_cellular_component 382 390	membrane
+R4	located_in Arg1:T20 Arg2:T150	
+R16	located_in Arg1:T103 Arg2:T102	
+R17	located_in Arg1:T104 Arg2:T102	
+T151	corrected_gene 2875 2880	Hug1p
+R18	located_in Arg1:T151 Arg2:T121	
+T152	corrected_gene 2971 2976	Rnr2p
+T153	corrected_gene 2977 2982	Rnr4p
+R19	located_in Arg1:T152 Arg2:T124	
+R20	located_in Arg1:T153 Arg2:T124	
+R21	located_in Arg1:T132 Arg2:T131	
+R22	located_in Arg1:T117 Arg2:T116	
+T154	DONE 3424 3428	DONE

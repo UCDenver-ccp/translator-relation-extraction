@@ -108,3 +108,112 @@ T107	gene 2516 2521	IGF-I
 T108	gene 2542 2547	SIRT2
 T109	gene 2552 2558	FOXO3a
 T110	anatomical_site 2596 2610	occipital lobe
+R1	located_in Arg1:T5 Arg2:T4	
+R2	located_in Arg1:T5 Arg2:T3	
+R3	located_in Arg1:T5 Arg2:T2	
+R4	located_in Arg1:T13 Arg2:T14	
+R5	located_in Arg1:T15 Arg2:T16	
+T111	missed_anatomical_site 454 473	syncytiotrophoblast
+T112	missed_anatomical_site 437 452	cytotrophocytes
+R6	located_in Arg1:T17 Arg2:T112	
+R7	located_in Arg1:T17 Arg2:T111	
+R8	located_in Arg1:T17 Arg2:T19	
+R9	located_in Arg1:T18 Arg2:T112	
+R10	located_in Arg1:T18 Arg2:T111	
+R11	located_in Arg1:T18 Arg2:T19	
+T113	corrected_anatomical_site 577 589	heart tissue
+R12	located_in Arg1:T20 Arg2:T113	
+R13	located_in Arg1:T26 Arg2:T27	
+R14	located_in Arg1:T25 Arg2:T27	
+R15	located_in Arg1:T24 Arg2:T27	
+R16	located_in Arg1:T23 Arg2:T27	
+T114	corrected_anatomical_site 832 845	female tissue
+T115	corrected_anatomical_site 858 869	male tissue
+R17	located_in Arg1:T29 Arg2:T114	
+R18	located_in Arg1:T29 Arg2:T115	
+T116	corrected_gene 904 910	Kir6.2
+T117	missed_anatomical_site 933 949	cardiac membrane
+R19	located_in Arg1:T116 Arg2:T117	
+T118	corrected_gene 1278 1283	GSK3?
+R25	located_in Arg1:T118 Arg2:T53	
+R26	located_in Arg1:T49 Arg2:T53	
+R27	located_in Arg1:T48 Arg2:T53	
+R28	located_in Arg1:T47 Arg2:T53	
+T119	missed_gene 1362 1367	VEGFC
+R29	located_in Arg1:T54 Arg2:T59	
+T120	corrected_gene 1323 1329	HIF-1?
+R30	located_in Arg1:T120 Arg2:T59	
+R31	located_in Arg1:T56 Arg2:T59	
+R32	located_in Arg1:T57 Arg2:T59	
+R33	located_in Arg1:T58 Arg2:T59	
+R34	located_in Arg1:T119 Arg2:T59	
+R35	located_in Arg1:T61 Arg2:T64	
+R36	located_in Arg1:T62 Arg2:T64	
+R37	located_in Arg1:T63 Arg2:T64	
+R38	located_in Arg1:T61 Arg2:T65	
+R39	located_in Arg1:T62 Arg2:T65	
+R40	located_in Arg1:T63 Arg2:T65	
+R41	located_in Arg1:T61 Arg2:T66	
+R42	located_in Arg1:T61 Arg2:T67	
+R43	located_in Arg1:T62 Arg2:T66	
+R44	located_in Arg1:T63 Arg2:T66	
+R45	located_in Arg1:T62 Arg2:T67	
+R46	located_in Arg1:T63 Arg2:T67	
+T121	missed_anatomical_site 1696 1702	plasma
+T122	corrected_gene 1638 1673	Alpha2-Heremans-Schmid glycoprotein
+T123	missed_gene 1675 1679	AHSG
+R47	located_in Arg1:T123 Arg2:T121	
+R48	located_in Arg1:T122 Arg2:T121	
+T124	missed_gene 1795 1802	PKC-eta
+T125	corrected_gene 1773 1793	Protein kinase C-eta
+R49	located_in Arg1:T125 Arg2:T74	
+R50	located_in Arg1:T124 Arg2:T74	
+R51	located_in Arg1:T125 Arg2:T75	
+R52	located_in Arg1:T125 Arg2:T76	
+R53	located_in Arg1:T125 Arg2:T77	
+R54	located_in Arg1:T124 Arg2:T74	
+R55	located_in Arg1:T124 Arg2:T75	
+R56	located_in Arg1:T124 Arg2:T76	
+R57	located_in Arg1:T124 Arg2:T77	
+R58	located_in Arg1:T78 Arg2:T81	
+R59	located_in Arg1:T79 Arg2:T81	
+R60	located_in Arg1:T80 Arg2:T81	
+R61	located_in Arg1:T78 Arg2:T82	
+R62	located_in Arg1:T78 Arg2:T83	
+R63	located_in Arg1:T79 Arg2:T82	
+R64	located_in Arg1:T79 Arg2:T83	
+R65	located_in Arg1:T80 Arg2:T81	
+R66	located_in Arg1:T80 Arg2:T82	
+R67	located_in Arg1:T80 Arg2:T83	
+T126	corrected_anatomical_site 2162 2175	head ectoderm
+R68	located_in Arg1:T88 Arg2:T126	
+T127	missed_gene 2282 2286	INRS
+T128	missed_gene 2300 2306	PIK3CA
+T129	missed_gene 2318 2324	SLC2A4
+R69	located_in Arg1:T127 Arg2:T95	
+R70	located_in Arg1:T92 Arg2:T95	
+R71	located_in Arg1:T93 Arg2:T95	
+R72	located_in Arg1:T128 Arg2:T95	
+R73	located_in Arg1:T94 Arg2:T95	
+R74	located_in Arg1:T129 Arg2:T95	
+R75	located_in Arg1:T129 Arg2:T96	
+R76	located_in Arg1:T94 Arg2:T96	
+R77	located_in Arg1:T128 Arg2:T96	
+R78	located_in Arg1:T93 Arg2:T96	
+R79	located_in Arg1:T92 Arg2:T96	
+R80	located_in Arg1:T127 Arg2:T96	
+T130	missed_gene 2354 2360	TBC1D1
+R81	located_in Arg1:T130 Arg2:T97	
+R82	located_in Arg1:T99 Arg2:T100	
+R83	located_in Arg1:T98 Arg2:T100	
+R84	located_in Arg1:T109 Arg2:T110	
+R85	located_in Arg1:T108 Arg2:T110	
+T131	missed_gene 915 920	SUR2A
+R20	located_in Arg1:T131 Arg2:T117	
+T132	corrected_anatomical_site 962 975	female tissue
+T133	corrected_anatomical_site 990 1001	male tissue
+R86	located_in Arg1:T116 Arg2:T132	
+R87	located_in Arg1:T116 Arg2:T133	
+R21	located_in Arg1:T105 Arg2:T104	
+R22	located_in Arg1:T41 Arg2:T42	
+#1	AnnotatorNotes R22	Deficiency, so it is present usually  

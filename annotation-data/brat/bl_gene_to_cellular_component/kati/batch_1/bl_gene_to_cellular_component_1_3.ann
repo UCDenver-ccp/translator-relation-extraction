@@ -1,6 +1,6 @@
 T1	gene 97 105	collagen
 T2	cellular_component 126 130	SMAD
-T3	gene 126 130	SMAD
+T3	corrected_gene 126 130;145 153	SMAD proteins
 T4	cellular_component 131 144	intracellular
 T5	gene 155 166	osteopontin
 T6	gene 168 176	cadherin
@@ -103,7 +103,7 @@ T102	gene 2856 2863	insulin
 T103	gene 2905 2934	neural cell adhesion molecule
 T104	gene 2936 2940	NCAM
 T105	gene 2996 3009	synaptophysin
-T106	cellular_component 3021 3029	vesicles
+T106	cellular_component 2980 2985;3021 3029	Golgi vesicles
 T107	cellular_component 3040 3048	antibody
 T108	gene 3055 3059	LGI1
 T109	cellular_component 3060 3068	antibody
@@ -115,3 +115,39 @@ T114	gene 3131 3135	AMPA
 T115	cellular_component 3146 3154	antibody
 T116	gene 3191 3198	histone
 T117	cellular_component 3295 3304	chromatin
+R1	located_in Arg1:T3 Arg2:T4	
+T118	missed_gene 334 364	telomerase holoenzyme proteins
+R2	located_in Arg1:T118 Arg2:T8	
+R3	located_in Arg1:T9 Arg2:T8	
+R4	located_in Arg1:T10 Arg2:T8	
+R5	located_in Arg1:T11 Arg2:T8	
+R6	located_in Arg1:T12 Arg2:T8	
+T119	corrected_gene 387 390	p75
+R7	located_in Arg1:T119 Arg2:T8	
+T120	corrected_gene 392 395	p45
+R8	located_in Arg1:T120 Arg2:T8	
+T121	missed_gene 401 404	p19
+R9	located_in Arg1:T121 Arg2:T8	
+R10	located_in Arg1:T35 Arg2:T36	
+T122	missed_gene 868 871	neu
+R11	located_in Arg1:T122 Arg2:T36	
+R12	located_in Arg1:T40 Arg2:T38	
+T123	missed_gene 1044 1056	ion channels
+R13	located_in Arg1:T123 Arg2:T38	
+T124	missed_gene 1068 1084	ligand receptors
+R14	located_in Arg1:T124 Arg2:T38	
+T125	missed_cellular_component 1397 1399	ER
+R15	located_in Arg1:T51 Arg2:T125	
+R16	located_in Arg1:T52 Arg2:T125	
+R17	located_in Arg1:T53 Arg2:T125	
+R18	located_in Arg1:T55 Arg2:T54	
+R19	located_in Arg1:T96 Arg2:T97	
+R20	located_in Arg1:T94 Arg2:T97	
+T126	corrected_gene 2856 2882;2890 2899	insulin-like growth factor receptors
+T127	missed_gene 2884 2889;2890 2899	IGF)1 receptors
+T128	missed_cellular_component 2945 2957	growth cones
+R21	located_in Arg1:T105 Arg2:T106	
+R22	located_in Arg1:T100 Arg2:T128	
+R23	located_in Arg1:T101 Arg2:T128	
+R24	located_in Arg1:T126 Arg2:T128	
+R25	located_in Arg1:T127 Arg2:T128	

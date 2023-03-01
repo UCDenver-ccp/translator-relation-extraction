@@ -107,7 +107,6 @@ T106	cellular_component 3351 3361	proteasome
 T107	gene 3593 3601	paxillin
 T108	cellular_component 3625 3633	integrin
 T109	gene 3625 3633	integrin
-R1	located_in Arg1:T21 Arg2:T22	
 T110	missed_gene 1012 1015;986 989	-93 PSD
 R2	located_in Arg1:T110 Arg2:T39	
 R3	located_in Arg1:T42 Arg2:T41	
@@ -118,7 +117,8 @@ R7	located_in Arg1:T76 Arg2:T78
 R8	located_in Arg1:T77 Arg2:T78	
 R9	located_in Arg1:T77 Arg2:T79	
 R10	located_in Arg1:T80 Arg2:T79	
-T112	missed_gene 2436 2503	mitochondrial damage mediator-BH3-interacting domanin death agonist
-R11	located_in Arg1:T112 Arg2:T85	
 R12	located_in Arg1:T98 Arg2:T99	
 R13	located_in Arg1:T97 Arg2:T99	
+T112	missed_gene 2466 2503	BH3-interacting domanin death agonist
+R1	located_in Arg1:T112 Arg2:T85	
+T113	DONE 3645 3649	DONE

@@ -149,8 +149,7 @@ T146	corrected_gene 188 192;195 196	Smad 5
 R3	located_in Arg1:T146 Arg2:T13	
 T147	corrected_gene 188 192;202 203	Smad 8
 R4	located_in Arg1:T147 Arg2:T13	
-T148	corrected_gene 615 637	alpha1beta1 integrin i
-R5	located_in Arg1:T148 Arg2:T32	
+T148	corrected_gene 615 635	alpha1beta1 integrin
 R6	located_in Arg1:T40 Arg2:T39	
 R7	located_in Arg1:T47 Arg2:T48	
 R8	located_in Arg1:T75 Arg2:T76	
@@ -202,3 +201,11 @@ R41	located_in Arg1:T144 Arg2:T139
 R42	located_in Arg1:T145 Arg2:T139	
 T161	missed_gene 4091 4096	CLN12
 R43	located_in Arg1:T161 Arg2:T139	
+T162	corrected_gene 934 951	calmodulin kinase
+R44	located_in Arg1:T162 Arg2:T41	
+T163	corrected_cellular_component 513 537	plasma membrane vesicles
+R45	located_in Arg1:T25 Arg2:T163	
+R46	located_in Arg1:T26 Arg2:T163	
+R47	located_in Arg1:T27 Arg2:T163	
+R48	located_in Arg1:T28 Arg2:T163	
+R5	located_in Arg1:T148 Arg2:T32	

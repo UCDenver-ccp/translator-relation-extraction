@@ -95,3 +95,58 @@ T94	anatomical_site 2238 2243	blood
 T95	anatomical_site 2248 2253	urine
 T96	anatomical_site 2267 2273	kidney
 T97	anatomical_site 2298 2303	blood
+R1	located_in Arg1:T3 Arg2:T5	
+R2	located_in Arg1:T4 Arg2:T5	
+R3	located_in Arg1:T6 Arg2:T7	
+T98	corrected_anatomical_site 235 249	bladder muscle
+R4	located_in Arg1:T8 Arg2:T10	
+R5	located_in Arg1:T8 Arg2:T98	
+R6	located_in Arg1:T8 Arg2:T12	
+R7	located_in Arg1:T9 Arg2:T10	
+R8	located_in Arg1:T9 Arg2:T98	
+R9	located_in Arg1:T9 Arg2:T12	
+T99	corrected_anatomical_site 501 511	tooth germ
+T100	corrected_anatomical_site 516 528	dental crest
+R10	located_in Arg1:T21 Arg2:T99	
+R11	located_in Arg1:T21 Arg2:T100	
+R12	located_in Arg1:T22 Arg2:T99	
+R13	located_in Arg1:T22 Arg2:T100	
+R14	located_in Arg1:T31 Arg2:T33	
+R15	located_in Arg1:T32 Arg2:T33	
+R16	located_in Arg1:T38 Arg2:T41	
+R17	located_in Arg1:T39 Arg2:T41	
+R18	located_in Arg1:T40 Arg2:T41	
+T101	corrected_anatomical_site 998 1015	quadriceps muscle
+R19	located_in Arg1:T42 Arg2:T101	
+R20	located_in Arg1:T42 Arg2:T45	
+R21	located_in Arg1:T59 Arg2:T61	
+R22	located_in Arg1:T60 Arg2:T61	
+R23	located_in Arg1:T60 Arg2:T62	
+R24	located_in Arg1:T59 Arg2:T62	
+T102	corrected_anatomical_site 1578 1596	embryonic mesoderm
+R25	located_in Arg1:T65 Arg2:T102	
+R26	located_in Arg1:T66 Arg2:T102	
+R27	located_in Arg1:T66 Arg2:T68	
+R28	located_in Arg1:T65 Arg2:T68	
+R30	located_in Arg1:T69 Arg2:T71	
+T103	corrected_anatomical_site 1691 1707	caput epithelium
+R29	located_in Arg1:T69 Arg2:T103	
+T104	corrected_anatomical_site 1924 1942	mesenchymal stroma
+T105	corrected_gene 1893 1900	p70 S6K
+R31	located_in Arg1:T105 Arg2:T104	
+R32	located_in Arg1:T80 Arg2:T104	
+T106	corrected_gene 1905 1908;1910 1911	Erk 2
+R33	located_in Arg1:T106 Arg2:T104	
+R34	located_in Arg1:T13 Arg2:T14	
+R35	located_in Arg1:T91 Arg2:T94	
+#1	AnnotatorNotes R35	Okay?
+R36	located_in Arg1:T92 Arg2:T94	
+#2	AnnotatorNotes R36	Okay?
+R37	located_in Arg1:T93 Arg2:T94	
+#3	AnnotatorNotes R37	Okay?
+R38	located_in Arg1:T93 Arg2:T95	
+#4	AnnotatorNotes R38	Okay?
+R39	located_in Arg1:T92 Arg2:T95	
+#5	AnnotatorNotes R39	Okay?
+R40	located_in Arg1:T91 Arg2:T95	
+#6	AnnotatorNotes R40	Okay?

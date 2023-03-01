@@ -143,3 +143,28 @@ T142	gene 3727 3731	CD18
 T143	gene 3742 3746	CD29
 T144	gene 3747 3756	integrins
 T145	cellular_component 3747 3756	integrins
+R1	located_in Arg1:T15 Arg2:T17	
+R2	located_in Arg1:T16 Arg2:T17	
+R3	located_in Arg1:T18 Arg2:T17	
+R4	located_in Arg1:T22 Arg2:T25	
+R5	located_in Arg1:T23 Arg2:T25	
+R6	located_in Arg1:T24 Arg2:T25	
+R7	located_in Arg1:T65 Arg2:T64	
+R8	located_in Arg1:T66 Arg2:T64	
+T146	missed_gene 1672 1707	receptor activity-modifying protein
+R9	located_in Arg1:T146 Arg2:T76	
+T147	missed_gene 1709 1713	RAMP
+R10	located_in Arg1:T147 Arg2:T76	
+T148	corrected_gene 2551 2571	TNF-alpha receptor-I
+R11	located_in Arg1:T148 Arg2:T101	
+R12	located_in Arg1:T103 Arg2:T101	
+R13	located_in Arg1:T104 Arg2:T101	
+T149	corrected_gene 2590 2611	TNF-alpha receptor-II
+R14	located_in Arg1:T106 Arg2:T101	
+T150	missed_gene 2622 2625	p75
+R15	located_in Arg1:T150 Arg2:T101	
+R16	located_in Arg1:T113 Arg2:T112	
+T151	missed_gene 2748 2754	MAPKKK
+R17	located_in Arg1:T151 Arg2:T112	
+T152	missed_gene 2988 2992	Opy2
+R18	located_in Arg1:T152 Arg2:T119	

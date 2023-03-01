@@ -134,18 +134,12 @@ R12	located_in Arg1:T51 Arg2:T52
 R10	located_in Arg1:T51 Arg2:T49	
 R13	located_in Arg1:T53 Arg2:T55	
 R14	located_in Arg1:T54 Arg2:T55	
-T123	missed_gene 1483 1486	ERM
-R15	located_in Arg1:T58 Arg2:T59	
-R16	located_in Arg1:T57 Arg2:T59	
-R17	located_in Arg1:T56 Arg2:T59	
-R18	located_in Arg1:T123 Arg2:T59	
-R19	located_in Arg1:T123 Arg2:T60	
+T123	missed_gene 1483 1486;1510 1518	ERM proteins
 R20	located_in Arg1:T56 Arg2:T60	
 R21	located_in Arg1:T57 Arg2:T60	
 R22	located_in Arg1:T58 Arg2:T60	
 R23	located_in Arg1:T63 Arg2:T62	
 R24	located_in Arg1:T64 Arg2:T62	
-R25	located_in Arg1:T67 Arg2:T66	
 R26	located_in Arg1:T69 Arg2:T66	
 T124	corrected_gene 1907 1912	ARX-3
 T125	corrected_gene 1917 1922	ARX-5
@@ -160,3 +154,25 @@ R34	located_in Arg1:T116 Arg2:T115
 R35	located_in Arg1:T117 Arg2:T115	
 T126	missed_gene 3566 3570	TBCB
 R38	located_in Arg1:T126 Arg2:T115	
+T127	missed_gene 1592 1597	actin
+R15	located_in Arg1:T127 Arg2:T60	
+R16	located_in Arg1:T123 Arg2:T60	
+R17	located_in Arg1:T23 Arg2:T26	
+R18	located_in Arg1:T24 Arg2:T26	
+R19	located_in Arg1:T25 Arg2:T26	
+R36	located_in Arg1:T25 Arg2:T27	
+R37	located_in Arg1:T24 Arg2:T27	
+R39	located_in Arg1:T23 Arg2:T27	
+T128	missed_gene 966 992	Notch intracellular domain
+R40	located_in Arg1:T128 Arg2:T36	
+T129	missed_gene 994 998	NICD
+R41	located_in Arg1:T129 Arg2:T36	
+T130	corrected_gene 1292 1334	lysosomal-associated membrane glycoprotein
+R42	located_in Arg1:T130 Arg2:T47	
+R43	located_in Arg1:T130 Arg2:T49	
+R44	located_in Arg1:T130 Arg2:T48	
+T131	corrected_gene 1782 1803	spectrin-like protein
+R25	located_in Arg1:T131 Arg2:T66	
+T132	missed_gene 1933 1938	actin
+R45	located_in Arg1:T132 Arg2:T72	
+T133	DONE 3769 3773	DONE

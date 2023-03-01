@@ -100,3 +100,26 @@ T99	cellular_component 2901 2910	cytosolic
 T100	cellular_component 2976 2986	organelles
 T101	gene 3014 3017	EGF
 T102	gene 3151 3154	EGF
+T103	corrected_gene 128 159	Acidic ribosomal phosphoprotein
+R1	located_in Arg1:T103 Arg2:T6	
+R2	located_in Arg1:T22 Arg2:T23	
+R6	located_in Arg1:T46 Arg2:T48	
+R7	located_in Arg1:T45 Arg2:T48	
+R8	located_in Arg1:T44 Arg2:T48	
+R9	located_in Arg1:T53 Arg2:T52	
+R10	located_in Arg1:T54 Arg2:T55	
+R11	located_in Arg1:T69 Arg2:T70	
+R12	located_in Arg1:T91 Arg2:T90	
+T104	missed_cellular_component 2894 2900	nucleo
+R14	located_in Arg1:T94 Arg2:T104	
+R15	located_in Arg1:T95 Arg2:T104	
+R16	located_in Arg1:T96 Arg2:T104	
+R17	located_in Arg1:T97 Arg2:T104	
+R18	located_in Arg1:T98 Arg2:T104	
+R19	located_in Arg1:T98 Arg2:T99	
+R20	located_in Arg1:T97 Arg2:T99	
+R21	located_in Arg1:T96 Arg2:T99	
+R22	located_in Arg1:T95 Arg2:T99	
+R23	located_in Arg1:T94 Arg2:T99	
+T105	corrected_gene 3008 3034	[125I]EGF-binding proteins
+R24	located_in Arg1:T105 Arg2:T100	

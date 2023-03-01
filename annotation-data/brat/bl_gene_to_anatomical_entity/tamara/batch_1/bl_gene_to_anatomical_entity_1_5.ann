@@ -111,3 +111,58 @@ T110	anatomical_site 2740 2748	muscular
 T111	gene 2773 2776	HSP
 T112	gene 2781 2790	myostatin
 T113	gene 2796 2801	NOS-1
+R1	located_in Arg1:T16 Arg2:T17	
+T114	corrected_anatomical_site 226 239	kidney tissue
+R2	located_in Arg1:T16 Arg2:T114	
+R3	located_in Arg1:T18 Arg2:T19	
+R4	located_in Arg1:T20 Arg2:T19	
+R5	located_in Arg1:T27 Arg2:T28	
+R6	located_in Arg1:T27 Arg2:T29	
+R7	located_in Arg1:T30 Arg2:T31	
+R8	located_in Arg1:T33 Arg2:T34	
+T115	missed_anatomical_site 911 916	limbs
+T116	corrected_anatomical_site 924 940	genital tubercle
+R9	located_in Arg1:T33 Arg2:T115	
+R10	located_in Arg1:T33 Arg2:T35	
+R11	located_in Arg1:T33 Arg2:T116	
+R12	located_in Arg1:T33 Arg2:T37	
+T117	missed_gene 1128 1130	IR
+R13	located_in Arg1:T43 Arg2:T45	
+R14	located_in Arg1:T117 Arg2:T45	
+R15	located_in Arg1:T44 Arg2:T46	
+R16	located_in Arg1:T44 Arg2:T45	
+R17	located_in Arg1:T117 Arg2:T46	
+R18	located_in Arg1:T43 Arg2:T46	
+T118	corrected_gene 1221 1243	adiponectin receptor 2
+R19	located_in Arg1:T47 Arg2:T49	
+R20	located_in Arg1:T118 Arg2:T49	
+R21	located_in Arg1:T54 Arg2:T55	
+R22	located_in Arg1:T56 Arg2:T57	
+T119	missed_gene 1613 1618	IL-12
+R23	located_in Arg1:T119 Arg2:T65	
+R24	located_in Arg1:T63 Arg2:T65	
+R25	located_in Arg1:T64 Arg2:T65	
+T120	missed_gene 2028 2057	nitric oxide synthase protein
+T121	corrected_anatomical_site 2016 2027	endothelial
+R26	located_in Arg1:T120 Arg2:T82	
+R27	located_in Arg1:T120 Arg2:T121	
+R28	located_in Arg1:T83 Arg2:T85	
+R29	located_in Arg1:T83 Arg2:T86	
+R30	located_in Arg1:T83 Arg2:T87	
+R31	located_in Arg1:T84 Arg2:T85	
+R32	located_in Arg1:T84 Arg2:T86	
+R33	located_in Arg1:T84 Arg2:T87	
+R34	located_in Arg1:T88 Arg2:T89	
+R35	located_in Arg1:T91 Arg2:T89	
+R36	located_in Arg1:T95 Arg2:T97	
+R37	located_in Arg1:T95 Arg2:T98	
+R38	located_in Arg1:T96 Arg2:T97	
+R39	located_in Arg1:T96 Arg2:T98	
+R40	located_in Arg1:T105 Arg2:T106	
+R41	located_in Arg1:T105 Arg2:T107	
+T122	missed_anatomical_site 2674 2680	pineal
+R42	located_in Arg1:T105 Arg2:T122	
+#1	AnnotatorNotes R4	Okay?
+R43	located_in Arg1:T119 Arg2:T66	
+R44	located_in Arg1:T63 Arg2:T66	
+R45	located_in Arg1:T64 Arg2:T66	

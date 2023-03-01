@@ -119,3 +119,40 @@ T118	gene 3033 3038	Gria3
 T119	gene 3040 3045	Grip1
 T120	gene 3067 3071	Pomc
 T121	cellular_component 3078 3086	synapses
+R1	located_in Arg1:T11 Arg2:T10	
+R2	located_in Arg1:T12 Arg2:T10	
+T122	missed_gene 777 780	p82
+R3	located_in Arg1:T122 Arg2:T31	
+T123	corrected_gene 844 869	amyloid precursor protein
+R4	located_in Arg1:T123 Arg2:T34	
+R5	located_in Arg1:T123 Arg2:T35	
+R6	located_in Arg1:T37 Arg2:T34	
+R7	located_in Arg1:T37 Arg2:T35	
+R8	located_in Arg1:T43 Arg2:T42	
+R9	located_in Arg1:T53 Arg2:T52	
+T124	missed_gene 1467 1493	90 kDa ribosomal S6 kinase
+R10	located_in Arg1:T124 Arg2:T60	
+T125	missed_gene 1497 1503	p90RSK
+R11	located_in Arg1:T125 Arg2:T60	
+T126	missed_gene 1688 1694	Bcl-xL
+R12	located_in Arg1:T126 Arg2:T67	
+R13	located_in Arg1:T68 Arg2:T67	
+R14	located_in Arg1:T65 Arg2:T63	
+R15	located_in Arg1:T66 Arg2:T63	
+R16	located_in Arg1:T65 Arg2:T64	
+R17	located_in Arg1:T66 Arg2:T64	
+T127	corrected_cellular_component 1870 1888	GABAergic synapses
+R18	located_in Arg1:T71 Arg2:T127	
+R19	located_in Arg1:T82 Arg2:T85	
+R20	located_in Arg1:T83 Arg2:T85	
+R21	located_in Arg1:T84 Arg2:T85	
+R22	located_in Arg1:T91 Arg2:T93	
+R23	located_in Arg1:T92 Arg2:T93	
+R24	located_in Arg1:T97 Arg2:T96	
+T128	corrected_gene 2753 2795	progesterone receptor membrane component 1
+R25	located_in Arg1:T128 Arg2:T104	
+R26	located_in Arg1:T105 Arg2:T104	
+R27	located_in Arg1:T106 Arg2:T104	
+R28	located_in Arg1:T109 Arg2:T112	
+R29	located_in Arg1:T110 Arg2:T112	
+R30	located_in Arg1:T111 Arg2:T112	

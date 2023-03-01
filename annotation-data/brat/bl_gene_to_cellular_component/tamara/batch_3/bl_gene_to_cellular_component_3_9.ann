@@ -106,3 +106,24 @@ T105	cellular_component 2992 3002	antibodies
 T106	gene 3006 3009	GST
 T107	gene 3016 3019	GST
 T108	gene 3030 3033	GST
+R1	located_in Arg1:T4 Arg2:T1	
+R2	located_in Arg1:T2 Arg2:T1	
+R3	located_in Arg1:T19 Arg2:T23	
+R4	located_in Arg1:T31 Arg2:T32	
+R5	located_in Arg1:T30 Arg2:T32	
+R6	located_in Arg1:T35 Arg2:T34	
+T109	corrected_gene 906 910	Enp2
+R7	located_in Arg1:T109 Arg2:T34	
+R8	located_in Arg1:T52 Arg2:T55	
+R16	located_in Arg1:T73 Arg2:T72	
+R17	located_in Arg1:T74 Arg2:T72	
+R18	located_in Arg1:T73 Arg2:T71	
+R19	located_in Arg1:T74 Arg2:T71	
+R12	located_in Arg1:T80 Arg2:T79	
+R13	located_in Arg1:T82 Arg2:T81	
+R14	located_in Arg1:T94 Arg2:T93	
+T112	missed_gene 2917 2937	S6 ribosomal protein
+R15	located_in Arg1:T112 Arg2:T101	
+T113	missed_gene 502 507	actin
+R20	located_in Arg1:T113 Arg2:T23	
+T110	DONE 3108 3112	DONE

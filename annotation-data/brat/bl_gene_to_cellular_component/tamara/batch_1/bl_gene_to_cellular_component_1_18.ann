@@ -121,3 +121,24 @@ T120	gene 3041 3049	integrin
 T121	cellular_component 3041 3049	integrin
 T122	gene 3124 3155	transforming growth factor-beta
 T123	gene 3174 3177	Gax
+R1	located_in Arg1:T18 Arg2:T17	
+R2	located_in Arg1:T33 Arg2:T32	
+R3	located_in Arg1:T43 Arg2:T41	
+R4	located_in Arg1:T45 Arg2:T46	
+R5	located_in Arg1:T44 Arg2:T46	
+R6	located_in Arg1:T49 Arg2:T48	
+R7	located_in Arg1:T54 Arg2:T58	
+T124	missed_gene 1222 1252	PTEN induced putative kinase 1
+R8	located_in Arg1:T124 Arg2:T58	
+R9	located_in Arg1:T55 Arg2:T58	
+T125	corrected_gene 1265 1303	parkin RBR E3 ubiquitin protein ligase
+R10	located_in Arg1:T125 Arg2:T58	
+R11	located_in Arg1:T63 Arg2:T62	
+R12	located_in Arg1:T64 Arg2:T62	
+R13	located_in Arg1:T65 Arg2:T62	
+R14	located_in Arg1:T66 Arg2:T62	
+T126	missed_gene 1568 1571	MD2
+R15	located_in Arg1:T126 Arg2:T62	
+T127	corrected_gene 1588 1615	calmodulin-binding proteins
+R18	located_in Arg1:T127 Arg2:T69	
+R16	located_in Arg1:T67 Arg2:T69	

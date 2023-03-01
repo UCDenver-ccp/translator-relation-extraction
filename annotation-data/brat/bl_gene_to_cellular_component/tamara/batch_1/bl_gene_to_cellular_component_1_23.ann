@@ -118,3 +118,24 @@ T117	gene 3030 3038	vinculin
 T118	cellular_component 3057 3065	integrin
 T119	gene 3057 3065	integrin
 T120	gene 3157 3166	ubiquitin
+T121	missed_gene 213 228	neurofilament 3
+R1	located_in Arg1:T121 Arg2:T7	
+R2	located_in Arg1:T16 Arg2:T20	
+R3	located_in Arg1:T17 Arg2:T20	
+R4	located_in Arg1:T18 Arg2:T20	
+R5	located_in Arg1:T19 Arg2:T20	
+R6	located_in Arg1:T27 Arg2:T31	
+R7	located_in Arg1:T28 Arg2:T31	
+R8	located_in Arg1:T29 Arg2:T31	
+T122	missed_gene 663 666	CAN
+R9	located_in Arg1:T122 Arg2:T31	
+R10	located_in Arg1:T30 Arg2:T31	
+R11	located_in Arg1:T52 Arg2:T50	
+T123	missed_gene 1291 1311	Twisted gastrulation
+R12	located_in Arg1:T123 Arg2:T50	
+T124	corrected_gene 1547 1579	Membrane palmitoylated protein 4
+R13	located_in Arg1:T124 Arg2:T61	
+R14	located_in Arg1:T63 Arg2:T61	
+T125	missed_gene 2342 2363	ribosomal protein L11
+R16	located_in Arg1:T125 Arg2:T92	
+R17	located_in Arg1:T93 Arg2:T92	

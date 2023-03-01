@@ -115,3 +115,116 @@ T114	gene 2873 2877	FMO4
 T115	anatomical_site 2922 2928	kidney
 T116	gene 2956 2960	FMO5
 T117	anatomical_site 2995 3000	liver
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T1 Arg2:T4	
+R3	located_in Arg1:T1 Arg2:T5	
+R4	located_in Arg1:T2 Arg2:T3	
+R5	located_in Arg1:T2 Arg2:T4	
+R6	located_in Arg1:T2 Arg2:T5	
+T118	missed_anatomical_site 371 386	nasal epithelia
+R7	located_in Arg1:T14 Arg2:T13	
+T119	missed_gene 318 325	Ugt2b35
+R8	located_in Arg1:T119 Arg2:T15	
+R9	located_in Arg1:T18 Arg2:T16	
+T120	missed_gene 357 364	Ugt2b35
+R10	located_in Arg1:T120 Arg2:T17	
+R11	located_in Arg1:T19 Arg2:T118	
+T121	missed_gene 388 393;395 396	Ugt2a 2
+R12	located_in Arg1:T121 Arg2:T118	
+R13	located_in Arg1:T21 Arg2:T22	
+R14	located_in Arg1:T21 Arg2:T23	
+R15	located_in Arg1:T21 Arg2:T24	
+T122	corrected_gene 462 480	human tropoelastin
+R16	located_in Arg1:T122 Arg2:T22	
+R17	located_in Arg1:T122 Arg2:T23	
+R18	located_in Arg1:T122 Arg2:T24	
+T123	missed_gene 482 485	HTE
+R19	located_in Arg1:T123 Arg2:T22	
+R20	located_in Arg1:T123 Arg2:T23	
+R21	located_in Arg1:T123 Arg2:T24	
+R22	located_in Arg1:T30 Arg2:T27	
+R23	located_in Arg1:T32 Arg2:T31	
+R24	located_in Arg1:T33 Arg2:T31	
+R25	located_in Arg1:T36 Arg2:T35	
+T124	corrected_anatomical_site 1025 1037	brain tissue
+T125	missed_gene 976 981	NF-?B
+T126	missed_gene 983 987	iNOS
+R26	located_in Arg1:T37 Arg2:T124	
+R27	located_in Arg1:T38 Arg2:T124	
+R28	located_in Arg1:T39 Arg2:T124	
+R29	located_in Arg1:T125 Arg2:T124	
+R30	located_in Arg1:T126 Arg2:T124	
+R31	located_in Arg1:T40 Arg2:T124	
+R32	located_in Arg1:T60 Arg2:T59	
+R33	located_in Arg1:T61 Arg2:T59	
+R34	located_in Arg1:T62 Arg2:T59	
+T127	missed_gene 1660 1667	PGP 9.5
+T128	corrected_anatomical_site 1671 1695	innervating nerve fibers
+R35	located_in Arg1:T127 Arg2:T128	
+R36	located_in Arg1:T66 Arg2:T65	
+R37	located_in Arg1:T67 Arg2:T65	
+R38	located_in Arg1:T69 Arg2:T68	
+R39	located_in Arg1:T80 Arg2:T81	
+R40	located_in Arg1:T80 Arg2:T82	
+R41	located_in Arg1:T80 Arg2:T83	
+R42	located_in Arg1:T80 Arg2:T84	
+R43	located_in Arg1:T80 Arg2:T85	
+R44	located_in Arg1:T86 Arg2:T87	
+R48	located_in Arg1:T89 Arg2:T91	
+R49	located_in Arg1:T90 Arg2:T91	
+R50	located_in Arg1:T90 Arg2:T92	
+R51	located_in Arg1:T89 Arg2:T92	
+R53	located_in Arg1:T100 Arg2:T99	
+R54	located_in Arg1:T103 Arg2:T104	
+R55	located_in Arg1:T103 Arg2:T105	
+R56	located_in Arg1:T106 Arg2:T107	
+R57	located_in Arg1:T112 Arg2:T115	
+T129	missed_gene 2883 2887	FMO6
+R58	located_in Arg1:T113 Arg2:T115	
+R59	located_in Arg1:T114 Arg2:T115	
+R60	located_in Arg1:T129 Arg2:T115	
+T130	missed_gene 2947 2951	FMO3
+R61	located_in Arg1:T116 Arg2:T117	
+R62	located_in Arg1:T130 Arg2:T117	
+T131	corrected_gene 2230 2249	relaxin-3 receptors
+R45	located_in Arg1:T131 Arg2:T91	
+R46	located_in Arg1:T131 Arg2:T92	
+R47	located_in Arg1:T1 Arg2:T7	
+R52	located_in Arg1:T2 Arg2:T7	
+#1	AnnotatorNotes R52	Is it good to mark here "organ"?
+#2	AnnotatorNotes R47	Is it good to mark here "organ"?
+R63	located_in Arg1:T45 Arg2:T43	
+T132	missed_gene 1137 1148	cytokeratin
+R64	located_in Arg1:T132 Arg2:T43	
+T133	missed_gene 1224 1249	alpha-smooth muscle actin
+R65	located_in Arg1:T133 Arg2:T48	
+T134	missed_gene 1172 1201	fibroblast-specific protein 1
+T135	missed_anatomical_site 1172 1182	fibroblast
+R66	located_in Arg1:T134 Arg2:T135	
+#3	AnnotatorNotes R66	Is "fibroblast" okay? Not "too small"?
+R67	located_in Arg1:T46 Arg2:T135	
+R68	located_in Arg1:T134 Arg2:T44	
+R69	located_in Arg1:T46 Arg2:T44	
+R70	located_in Arg1:T47 Arg2:T44	
+R71	located_in Arg1:T133 Arg2:T44	
+T136	missed_anatomical_site 1303 1315	interstitial
+R72	located_in Arg1:T50 Arg2:T136	
+#4	AnnotatorNotes R72	Interstitial? or mesenchymal? Or nothing? 
+T137	corrected_gene 1362 1368;1373 1381	type I collagen
+R73	located_in Arg1:T137 Arg2:T136	
+#5	AnnotatorNotes R73	Interstitial? or mesenchymal? Or nothing? 
+T138	corrected_gene 1362 1366;1369 1381	type III collagen
+R74	located_in Arg1:T138 Arg2:T136	
+#6	AnnotatorNotes R74	Interstitial? or mesenchymal? Or nothing? 
+R75	located_in Arg1:T52 Arg2:T54	
+#7	AnnotatorNotes R75	Okay?
+R76	located_in Arg1:T52 Arg2:T55	
+#8	AnnotatorNotes R76	Okay?
+R77	located_in Arg1:T52 Arg2:T56	
+#9	AnnotatorNotes R77	Okay?
+R78	located_in Arg1:T53 Arg2:T54	
+#10	AnnotatorNotes R78	Okay?
+R79	located_in Arg1:T53 Arg2:T55	
+#11	AnnotatorNotes R79	Okay?
+R80	located_in Arg1:T53 Arg2:T56	
+#12	AnnotatorNotes R80	Okay?

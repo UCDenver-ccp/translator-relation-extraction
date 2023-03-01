@@ -97,3 +97,64 @@ T96	anatomical_site 2432 2440	placenta
 T97	gene 2447 2452	DPPA2
 T98	anatomical_site 2486 2494	placenta
 T99	anatomical_site 2499 2505	testis
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T3	
+R3	located_in Arg1:T6 Arg2:T5	
+R4	located_in Arg1:T17 Arg2:T18	
+R5	located_in Arg1:T17 Arg2:T19	
+R6	located_in Arg1:T25 Arg2:T26	
+R7	located_in Arg1:T30 Arg2:T31	
+R8	located_in Arg1:T30 Arg2:T32	
+R9	located_in Arg1:T36 Arg2:T35	
+T100	corrected_anatomical_site 901 918	amnion epithelium
+R10	located_in Arg1:T37 Arg2:T100	
+T101	missed_gene 1064 1070	PIK3CB
+R12	located_in Arg1:T101 Arg2:T45	
+R13	located_in Arg1:T46 Arg2:T48	
+R14	located_in Arg1:T47 Arg2:T48	
+R15	located_in Arg1:T47 Arg2:T49	
+R16	located_in Arg1:T47 Arg2:T50	
+R17	located_in Arg1:T46 Arg2:T49	
+R18	located_in Arg1:T46 Arg2:T50	
+R19	located_in Arg1:T51 Arg2:T49	
+R20	located_in Arg1:T51 Arg2:T52	
+R21	located_in Arg1:T51 Arg2:T53	
+T102	missed_anatomical_site 1481 1491	astrocytes
+R22	located_in Arg1:T59 Arg2:T102	
+R23	located_in Arg1:T60 Arg2:T102	
+R24	located_in Arg1:T62 Arg2:T63	
+R25	located_in Arg1:T64 Arg2:T65	
+R26	located_in Arg1:T68 Arg2:T67	
+R27	located_in Arg1:T68 Arg2:T66	
+R28	located_in Arg1:T70 Arg2:T69	
+T103	missed_gene 1748 1762	cytokeratin 18
+R29	located_in Arg1:T103 Arg2:T69	
+R30	located_in Arg1:T71 Arg2:T69	
+T104	missed_gene 1983 1988	Nanog
+R31	located_in Arg1:T104 Arg2:T79	
+R32	located_in Arg1:T83 Arg2:T84	
+R33	located_in Arg1:T83 Arg2:T85	
+R34	located_in Arg1:T83 Arg2:T86	
+R35	located_in Arg1:T88 Arg2:T90	
+R36	located_in Arg1:T89 Arg2:T90	
+R37	located_in Arg1:T91 Arg2:T92	
+R38	located_in Arg1:T91 Arg2:T93	
+R39	located_in Arg1:T91 Arg2:T94	
+R40	located_in Arg1:T95 Arg2:T96	
+R41	located_in Arg1:T97 Arg2:T98	
+R42	located_in Arg1:T97 Arg2:T99	
+R43	located_in Arg1:T60 Arg2:T61	
+R44	located_in Arg1:T59 Arg2:T61	
+T105	corrected_anatomical_site 1074 1085	gonadal fat
+R11	located_in Arg1:T42 Arg2:T105	
+#1	AnnotatorNotes R11	Okay?
+#2	AnnotatorNotes R26	Okay?
+R45	located_in Arg1:T13 Arg2:T15	
+R46	located_in Arg1:T13 Arg2:T16	
+R47	located_in Arg1:T14 Arg2:T15	
+R48	located_in Arg1:T14 Arg2:T16	
+R49	located_in Arg1:T22 Arg2:T21	
+#3	AnnotatorNotes R49	Okay?
+R50	located_in Arg1:T23 Arg2:T21	
+#4	AnnotatorNotes R50	Okay?
+R51	located_in Arg1:T72 Arg2:T73	

@@ -126,11 +126,12 @@ R8	located_in Arg1:T50 Arg2:T47
 R9	located_in Arg1:T51 Arg2:T47	
 R10	located_in Arg1:T50 Arg2:T49	
 R11	located_in Arg1:T51 Arg2:T49	
-T118	missed_gene 1343 1345	L4
-R12	located_in Arg1:T118 Arg2:T52	
 R13	located_in Arg1:T72 Arg2:T73	
 R14	located_in Arg1:T98 Arg2:T99	
 T119	missed_gene 2709 2723	MMP-9 proteins
 R15	located_in Arg1:T119 Arg2:T105	
 R16	located_in Arg1:T119 Arg2:T104	
 R17	located_in Arg1:T108 Arg2:T107	
+T120	missed_gene 1325 1345	Ribosomal protein L4
+R12	located_in Arg1:T120 Arg2:T52	
+T118	DONE 3030 3034	DONE

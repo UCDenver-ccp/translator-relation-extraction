@@ -141,8 +141,6 @@ R3	located_in Arg1:T11 Arg2:T12
 R4	located_in Arg1:T14 Arg2:T13	
 R5	located_in Arg1:T15 Arg2:T13	
 R6	located_in Arg1:T19 Arg2:T21	
-T138	corrected_gene 1669 1682	Smad proteins
-R7	located_in Arg1:T138 Arg2:T71	
 R8	located_in Arg1:T74 Arg2:T79	
 R9	located_in Arg1:T78 Arg2:T79	
 T139	missed_cellular_component 2074 2082	caveolae
@@ -154,8 +152,7 @@ R14	located_in Arg1:T107 Arg2:T106
 R15	located_in Arg1:T108 Arg2:T106	
 T140	corrected_gene 2578 2583	Pex18
 R16	located_in Arg1:T140 Arg2:T106	
-T141	missed_gene 2532 2551	cytosolic receptors
-R17	located_in Arg1:T141 Arg2:T106	
 T142	corrected_gene 2767 2789	beta-amyloid precursor
 R18	located_in Arg1:T142 Arg2:T112	
 R19	located_in Arg1:T132 Arg2:T133	
+R7	located_in Arg1:T69 Arg2:T71	

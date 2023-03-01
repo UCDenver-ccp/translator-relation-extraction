@@ -114,3 +114,25 @@ T113	gene 3645 3677	Mitogen-activated protein kinase
 T114	gene 3679 3683	MAPK
 T115	gene 3702 3706	MAPK
 T116	cellular_component 3724 3737	extracellular
+R1	located_in Arg1:T5 Arg2:T6	
+R2	located_in Arg1:T5 Arg2:T7	
+R3	located_in Arg1:T8 Arg2:T9	
+R4	located_in Arg1:T8 Arg2:T10	
+R5	located_in Arg1:T32 Arg2:T31	
+R6	located_in Arg1:T29 Arg2:T28	
+T117	missed_gene 796 801	JAM-A
+R7	located_in Arg1:T117 Arg2:T28	
+R8	located_in Arg1:T30 Arg2:T28	
+R9	located_in Arg1:T63 Arg2:T62	
+R10	located_in Arg1:T67 Arg2:T66	
+T118	missed_gene 2047 2088	microtubule-associated protein light 3-II
+R11	located_in Arg1:T118 Arg2:T71	
+T119	missed_cellular_component 2095 2103	lysosome
+R12	located_in Arg1:T73 Arg2:T119	
+R13	located_in Arg1:T91 Arg2:T92	
+T120	missed_gene 3160 3176	channel proteins
+R14	located_in Arg1:T120 Arg2:T103	
+R15	located_in Arg1:T120 Arg2:T104	
+T121	missed_gene 1646 1668	focal adhesion kinases
+T122	missed_cellular_component 1646 1660	focal adhesion
+R16	located_in Arg1:T121 Arg2:T122	

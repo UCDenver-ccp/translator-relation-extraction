@@ -119,3 +119,93 @@ T118	gene 2814 2823	caspase-3
 T119	anatomical_site 2838 2849	hippocampus
 T120	anatomical_site 2851 2857	cortex
 T121	anatomical_site 2862 2869	medulla
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T4	
+R3	located_in Arg1:T2 Arg2:T5	
+T122	missed_anatomical_site 99 117	internal epithelia
+R4	located_in Arg1:T2 Arg2:T122	
+T123	corrected_anatomical_site 205 217	heart tissue
+R5	located_in Arg1:T9 Arg2:T123	
+T124	missed_gene 480 484	XP32
+R6	located_in Arg1:T124 Arg2:T13	
+R7	located_in Arg1:T18 Arg2:T13	
+R8	located_in Arg1:T17 Arg2:T13	
+R9	located_in Arg1:T16 Arg2:T13	
+R10	located_in Arg1:T15 Arg2:T13	
+R11	located_in Arg1:T14 Arg2:T13	
+T125	corrected_anatomical_site 571 588	airway epithelium
+R12	located_in Arg1:T19 Arg2:T125	
+R13	located_in Arg1:T20 Arg2:T125	
+R14	located_in Arg1:T21 Arg2:T125	
+R15	located_in Arg1:T22 Arg2:T125	
+T126	corrected_anatomical_site 663 684	corneo-limbal tissue,
+R16	located_in Arg1:T26 Arg2:T27	
+R17	located_in Arg1:T26 Arg2:T126	
+R18	located_in Arg1:T26 Arg2:T29	
+R19	located_in Arg1:T26 Arg2:T30	
+R20	located_in Arg1:T26 Arg2:T31	
+R21	located_in Arg1:T25 Arg2:T27	
+R22	located_in Arg1:T25 Arg2:T126	
+R23	located_in Arg1:T25 Arg2:T29	
+R24	located_in Arg1:T25 Arg2:T30	
+R25	located_in Arg1:T25 Arg2:T31	
+R26	located_in Arg1:T24 Arg2:T27	
+R27	located_in Arg1:T24 Arg2:T126	
+R28	located_in Arg1:T24 Arg2:T29	
+R29	located_in Arg1:T24 Arg2:T30	
+R30	located_in Arg1:T24 Arg2:T31	
+R31	located_in Arg1:T35 Arg2:T36	
+R32	located_in Arg1:T34 Arg2:T36	
+R33	located_in Arg1:T33 Arg2:T36	
+R34	located_in Arg1:T32 Arg2:T36	
+T127	missed_gene 721 754	Onecut (OC) transcription factors
+R35	located_in Arg1:T127 Arg2:T36	
+R36	located_in Arg1:T127 Arg2:T38	
+R37	located_in Arg1:T32 Arg2:T38	
+R38	located_in Arg1:T33 Arg2:T38	
+R39	located_in Arg1:T34 Arg2:T38	
+R40	located_in Arg1:T35 Arg2:T38	
+R41	located_in Arg1:T127 Arg2:T37	
+R42	located_in Arg1:T32 Arg2:T37	
+R43	located_in Arg1:T33 Arg2:T37	
+R44	located_in Arg1:T34 Arg2:T37	
+R45	located_in Arg1:T35 Arg2:T37	
+R46	located_in Arg1:T40 Arg2:T41	
+R47	located_in Arg1:T39 Arg2:T41	
+R48	located_in Arg1:T44 Arg2:T45	
+R49	located_in Arg1:T43 Arg2:T45	
+R50	located_in Arg1:T46 Arg2:T50	
+R51	located_in Arg1:T46 Arg2:T49	
+R52	located_in Arg1:T46 Arg2:T48	
+R53	located_in Arg1:T47 Arg2:T50	
+R54	located_in Arg1:T47 Arg2:T49	
+R55	located_in Arg1:T47 Arg2:T48	
+R56	located_in Arg1:T65 Arg2:T64	
+T128	corrected_gene 1571 1579	Sc-p53I6
+R57	located_in Arg1:T128 Arg2:T67	
+R58	located_in Arg1:T128 Arg2:T72	
+R59	located_in Arg1:T128 Arg2:T71	
+T129	corrected_anatomical_site 1611 1623	trunk kidney
+T130	corrected_anatomical_site 1625 1636	hind kidney
+R60	located_in Arg1:T128 Arg2:T129	
+R61	located_in Arg1:T128 Arg2:T130	
+T131	corrected_gene 1870 1879	NF-?B p65
+T132	corrected_anatomical_site 1900 1912	liver tissue
+R62	located_in Arg1:T131 Arg2:T132	
+R63	located_in Arg1:T79 Arg2:T132	
+R64	located_in Arg1:T80 Arg2:T132	
+T133	corrected_anatomical_site 1997 2011	male placentae
+R65	located_in Arg1:T85 Arg2:T133	
+R66	located_in Arg1:T84 Arg2:T133	
+R67	located_in Arg1:T83 Arg2:T133	
+T134	corrected_anatomical_site 2126 2140	morula embryos
+R68	located_in Arg1:T95 Arg2:T134	
+T135	missed_gene 2091 2099	Cyclin E
+R69	located_in Arg1:T135 Arg2:T134	
+R70	located_in Arg1:T101 Arg2:T102	
+R71	located_in Arg1:T100 Arg2:T102	
+T136	corrected_anatomical_site 2703 2715	brain tissue
+R72	located_in Arg1:T114 Arg2:T136	
+R73	located_in Arg1:T113 Arg2:T136	
+T137	missed_anatomical_site 2798 2806	choroids
+R74	located_in Arg1:T117 Arg2:T137	

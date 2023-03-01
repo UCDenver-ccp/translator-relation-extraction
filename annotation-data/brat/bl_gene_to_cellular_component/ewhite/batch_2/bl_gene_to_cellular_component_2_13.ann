@@ -137,3 +137,40 @@ T136	gene 4245 4249	BDNF
 T137	cellular_component 4277 4286	dendritic
 T138	gene 4315 4323	hamartin
 T139	gene 4329 4336	tuberin
+T140	missed_gene 77 118	membrane-associated protein-like protein,
+R1	located_in Arg1:T140 Arg2:T1	
+R2	located_in Arg1:T28 Arg2:T29	
+R3	located_in Arg1:T27 Arg2:T29	
+T141	corrected_cellular_component 976 997	membranous organelles
+R4	located_in Arg1:T28 Arg2:T141	
+R5	located_in Arg1:T27 Arg2:T141	
+R6	located_in Arg1:T28 Arg2:T31	
+R7	located_in Arg1:T28 Arg2:T30	
+R8	located_in Arg1:T27 Arg2:T30	
+R9	located_in Arg1:T27 Arg2:T31	
+#1	AnnotatorNotes R4	both components and single ones?
+#2	AnnotatorNotes R5	both components and single ones?
+R10	located_in Arg1:T36 Arg2:T35	
+R11	located_in Arg1:T52 Arg2:T50	
+R12	located_in Arg1:T52 Arg2:T51	
+T142	corrected_cellular_component 1746 1763	membrane vesicles
+R13	located_in Arg1:T52 Arg2:T142	
+R14	located_in Arg1:T52 Arg2:T53	
+R15	located_in Arg1:T66 Arg2:T67	
+R16	located_in Arg1:T66 Arg2:T68	
+R17	located_in Arg1:T65 Arg2:T67	
+R18	located_in Arg1:T65 Arg2:T68	
+R19	located_in Arg1:T83 Arg2:T82	
+R20	located_in Arg1:T84 Arg2:T82	
+T143	missed_gene 2734 2749	stenniocalcin 1
+R21	located_in Arg1:T143 Arg2:T82	
+R22	located_in Arg1:T92 Arg2:T93	
+R23	located_in Arg1:T91 Arg2:T93	
+R24	located_in Arg1:T90 Arg2:T93	
+R25	located_in Arg1:T89 Arg2:T93	
+R26	located_in Arg1:T88 Arg2:T93	
+R27	located_in Arg1:T119 Arg2:T120	
+T144	missed_gene 3787 3806	aconitate hydratase
+R28	located_in Arg1:T144 Arg2:T123	
+T145	missed_gene 3679 3699	malate dehydrogenase
+R29	located_in Arg1:T145 Arg2:T122	

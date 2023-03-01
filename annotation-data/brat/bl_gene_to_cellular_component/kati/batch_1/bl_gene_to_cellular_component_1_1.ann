@@ -85,7 +85,7 @@ T84	gene 2743 2747	ERK2
 T85	gene 2776 2779	p38
 T86	gene 2783 2786	Src
 T87	gene 2808 2814	merlin
-T88	cellular_component 2822 2827;2833 2854	actin cortical cytoskeleton
+T88	corrected_cellular_component 2822 2827;2833 2854	actin cortical cytoskeleton
 T89	gene 2874 2879	ezrin
 T90	gene 2880 2887	radixin
 T91	gene 2888 2894	moesin
@@ -123,7 +123,6 @@ R5	located_in Arg1:T116 Arg2:T117
 R6	located_in Arg1:T24 Arg2:T117	
 T118	missed_cellular_component 813 820	nuclear
 R7	located_in Arg1:T29 Arg2:T118	
-R8	located_in Arg1:T49 Arg2:T50	
 T119	missed_gene 2397 2417	ribosomal protein S6
 R9	located_in Arg1:T119 Arg2:T74	
 T120	missed_gene 2419 2422	rS6
@@ -131,3 +130,10 @@ R10	located_in Arg1:T120 Arg2:T74
 R11	located_in Arg1:T87 Arg2:T88	
 R12	located_in Arg1:T108 Arg2:T110	
 R13	located_in Arg1:T109 Arg2:T110	
+R14	located_in Arg1:T27 Arg2:T26	
+T121	missed_gene 1241 1262	focal adhesion kinase
+T122	missed_cellular_component 1241 1255	focal adhesion
+R15	located_in Arg1:T121 Arg2:T122	
+T123	missed_gene 2822 2827	actin
+R8	located_in Arg1:T123 Arg2:T88	
+T124	cellular_component 2833 2854	cortical cytoskeleton

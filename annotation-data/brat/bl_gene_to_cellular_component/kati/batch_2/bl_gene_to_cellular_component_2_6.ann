@@ -132,3 +132,42 @@ T131	gene 3679 3684	Smad2
 T132	gene 3689 3694	Smad4
 T133	cellular_component 3719 3731	Smad protein
 T134	gene 3719 3731	Smad protein
+R1	located_in Arg1:T2 Arg2:T4	
+R2	located_in Arg1:T2 Arg2:T5	
+R3	located_in Arg1:T3 Arg2:T4	
+R4	located_in Arg1:T3 Arg2:T5	
+R5	located_in Arg1:T8 Arg2:T9	
+R6	located_in Arg1:T8 Arg2:T10	
+T135	missed_cellular_component 425 437	gap junction
+R7	located_in Arg1:T23 Arg2:T135	
+R8	located_in Arg1:T24 Arg2:T135	
+T136	corrected_cellular_component 673 703	brush-border membrane vesicles
+R9	located_in Arg1:T33 Arg2:T136	
+R10	located_in Arg1:T34 Arg2:T136	
+R11	located_in Arg1:T40 Arg2:T39	
+R12	located_in Arg1:T64 Arg2:T63	
+R13	located_in Arg1:T72 Arg2:T74	
+R14	located_in Arg1:T73 Arg2:T74	
+T137	missed_gene 2149 2166;2173 2174	metalloproteinase 1
+T138	missed_cellular_component 2142 2148	matrix
+T139	missed_cellular_component 1986 2000	focal adhesion
+T140	missed_gene 1986 2007	focal adhesion kinase
+R15	located_in Arg1:T140 Arg2:T139	
+T141	missed_gene 2192 2196	MMP9
+R16	located_in Arg1:T137 Arg2:T138	
+T142	missed_gene 2168 2171;2173 2174	MMP 1
+R17	located_in Arg1:T142 Arg2:T138	
+R18	located_in Arg1:T80 Arg2:T138	
+R19	located_in Arg1:T81 Arg2:T138	
+R20	located_in Arg1:T141 Arg2:T138	
+T143	missed_gene 2774 2816	sterol regulatory element binding proteins
+R21	located_in Arg1:T143 Arg2:T103	
+R22	located_in Arg1:T104 Arg2:T103	
+R23	located_in Arg1:T105 Arg2:T103	
+T144	missed_gene 3348 3369	focal adhesion kinase
+T145	missed_cellular_component 3348 3362	focal adhesion
+R24	located_in Arg1:T144 Arg2:T145	
+R25	located_in Arg1:T122 Arg2:T121	
+T146	missed_cellular_component 3655 3662	nuclear
+R26	located_in Arg1:T131 Arg2:T146	
+R27	located_in Arg1:T132 Arg2:T146	

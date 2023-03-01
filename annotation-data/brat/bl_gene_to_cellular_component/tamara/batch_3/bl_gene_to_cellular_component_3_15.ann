@@ -128,3 +128,7 @@ R10	located_in Arg1:T92 Arg2:T89
 R11	located_in Arg1:T93 Arg2:T94	
 R12	located_in Arg1:T100 Arg2:T101	
 R13	located_in Arg1:T99 Arg2:T101	
+T118	missed_gene 1141 1148	sirtuin
+R14	located_in Arg1:T118 Arg2:T38	
+T119	missed_gene 1794 1799	actin
+R15	located_in Arg1:T119 Arg2:T66	

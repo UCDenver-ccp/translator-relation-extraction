@@ -116,3 +116,72 @@ T115	anatomical_site 2664 2678	adipose tissue
 T116	anatomical_site 2683 2688	blood
 T117	gene 2727 2735	resistin
 T118	anatomical_site 2743 2748	serum
+T119	corrected_anatomical_site 47 57;65 71	epithelium palate
+T120	corrected_anatomical_site 160 170;178 191	epithelium buccal mucosa
+T121	corrected_anatomical_site 160 170;200 206	epithelium palate
+R1	located_in Arg1:T1 Arg2:T119	
+R2	located_in Arg1:T5 Arg2:T120	
+R3	located_in Arg1:T5 Arg2:T121	
+R4	located_in Arg1:T9 Arg2:T8	
+R5	located_in Arg1:T12 Arg2:T10	
+R6	located_in Arg1:T12 Arg2:T11	
+T122	missed_anatomical_site 344 353	pituitary
+R7	located_in Arg1:T14 Arg2:T122	
+R8	located_in Arg1:T14 Arg2:T13	
+T123	missed_anatomical_site 377 385	prostate
+R9	located_in Arg1:T16 Arg2:T15	
+R10	located_in Arg1:T16 Arg2:T123	
+T124	missed_anatomical_site 420 428	prostate
+R11	located_in Arg1:T19 Arg2:T124	
+R12	located_in Arg1:T19 Arg2:T18	
+R13	located_in Arg1:T19 Arg2:T17	
+R14	located_in Arg1:T22 Arg2:T20	
+R15	located_in Arg1:T22 Arg2:T21	
+T125	missed_anatomical_site 474 483	pituitary
+R16	located_in Arg1:T26 Arg2:T25	
+R17	located_in Arg1:T26 Arg2:T24	
+R18	located_in Arg1:T26 Arg2:T125	
+R19	located_in Arg1:T26 Arg2:T23	
+R20	located_in Arg1:T29 Arg2:T27	
+R21	located_in Arg1:T29 Arg2:T28	
+R22	located_in Arg1:T36 Arg2:T37	
+T126	corrected_anatomical_site 858 877	retinal endothelium
+T127	corrected_anatomical_site 834 853	ganglion cell layer
+R23	located_in Arg1:T40 Arg2:T127	
+R24	located_in Arg1:T40 Arg2:T126	
+R25	located_in Arg1:T48 Arg2:T50	
+R26	located_in Arg1:T48 Arg2:T51	
+R27	located_in Arg1:T48 Arg2:T52	
+R28	located_in Arg1:T49 Arg2:T50	
+R29	located_in Arg1:T49 Arg2:T51	
+R30	located_in Arg1:T49 Arg2:T52	
+R31	located_in Arg1:T54 Arg2:T53	
+R32	located_in Arg1:T55 Arg2:T53	
+T128	missed_gene 1083 1110	bone morphogenetic proteins
+R33	located_in Arg1:T128 Arg2:T53	
+T129	missed_gene 1866 1870	NF?B
+R34	located_in Arg1:T129 Arg2:T92	
+R35	located_in Arg1:T86 Arg2:T92	
+R36	located_in Arg1:T87 Arg2:T92	
+R37	located_in Arg1:T88 Arg2:T92	
+R38	located_in Arg1:T89 Arg2:T92	
+R39	located_in Arg1:T90 Arg2:T92	
+R40	located_in Arg1:T98 Arg2:T99	
+R41	located_in Arg1:T114 Arg2:T115	
+R42	located_in Arg1:T90 Arg2:T91	
+R43	located_in Arg1:T89 Arg2:T91	
+R44	located_in Arg1:T88 Arg2:T91	
+R45	located_in Arg1:T87 Arg2:T91	
+R46	located_in Arg1:T86 Arg2:T91	
+R47	located_in Arg1:T129 Arg2:T91	
+R48	located_in Arg1:T117 Arg2:T118	
+#1	AnnotatorNotes T91	Do we mark it? Because these liquids are connected with cells and not mentioned by themselves. 
+#2	AnnotatorNotes T92	Do we mark it? Because these liquids are connected with cells and not mentioned by themselves. 
+R49	located_in Arg1:T93 Arg2:T95	
+R50	located_in Arg1:T93 Arg2:T96	
+#3	AnnotatorNotes R50	Okay?
+#4	AnnotatorNotes R49	Okay?
+R51	located_in Arg1:T94 Arg2:T95	
+#5	AnnotatorNotes R51	Okay?
+R52	located_in Arg1:T94 Arg2:T96	
+#6	AnnotatorNotes R52	Okay?

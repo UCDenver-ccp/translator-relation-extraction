@@ -126,3 +126,80 @@ T125	gene 3113 3117	IL-6
 T126	gene 3119 3124	IL-10
 T127	anatomical_site 3153 3159	testis
 T128	anatomical_site 3160 3166	tissue
+R4	located_in Arg1:T25 Arg2:T26	
+R5	located_in Arg1:T24 Arg2:T26	
+T129	missed_gene 883 904	Tamm-Horsfall protein
+R6	located_in Arg1:T36 Arg2:T37	
+R7	located_in Arg1:T129 Arg2:T37	
+T130	missed_gene 1234 1281	sodium-coupled neutral amino acid transporter 2
+R8	located_in Arg1:T46 Arg2:T49	
+R9	located_in Arg1:T130 Arg2:T49	
+R10	located_in Arg1:T47 Arg2:T49	
+R11	located_in Arg1:T48 Arg2:T49	
+R12	located_in Arg1:T48 Arg2:T50	
+R13	located_in Arg1:T47 Arg2:T50	
+R14	located_in Arg1:T130 Arg2:T50	
+R15	located_in Arg1:T46 Arg2:T50	
+R16	located_in Arg1:T46 Arg2:T51	
+R17	located_in Arg1:T130 Arg2:T51	
+R18	located_in Arg1:T47 Arg2:T51	
+R19	located_in Arg1:T48 Arg2:T51	
+T131	corrected_anatomical_site 1550 1561	lung tissue
+T132	corrected_anatomical_site 1612 1624	heart tissue
+R20	located_in Arg1:T58 Arg2:T131	
+R21	located_in Arg1:T59 Arg2:T131	
+R22	located_in Arg1:T62 Arg2:T131	
+R23	located_in Arg1:T62 Arg2:T132	
+R24	located_in Arg1:T66 Arg2:T67	
+T133	corrected_gene 1901 1916;1916 1933	cholecystokinin -binding proteins
+T134	corrected_gene 1893 1900;1916 1933	gastrin -binding proteins
+R25	located_in Arg1:T134 Arg2:T77	
+R26	located_in Arg1:T133 Arg2:T77	
+R27	located_in Arg1:T88 Arg2:T89	
+R28	located_in Arg1:T87 Arg2:T89	
+R29	located_in Arg1:T99 Arg2:T102	
+R30	located_in Arg1:T100 Arg2:T102	
+R31	located_in Arg1:T101 Arg2:T102	
+T135	missed_gene 2489 2492;2494 2502	ERM proteins
+R32	located_in Arg1:T135 Arg2:T102	
+R2	located_in Arg1:T27 Arg2:T35	
+R3	located_in Arg1:T28 Arg2:T35	
+R33	located_in Arg1:T29 Arg2:T35	
+R34	located_in Arg1:T30 Arg2:T35	
+R35	located_in Arg1:T31 Arg2:T35	
+#1	AnnotatorNotes R35	Okay?
+#2	AnnotatorNotes R34	Okay?
+#3	AnnotatorNotes R33	Okay?
+#4	AnnotatorNotes R3	Okay?
+#5	AnnotatorNotes R2	Okay?
+T136	missed_anatomical_site 1968 1974	plasma
+R36	located_in Arg1:T80 Arg2:T136	
+R37	located_in Arg1:T81 Arg2:T136	
+R38	located_in Arg1:T82 Arg2:T136	
+#6	AnnotatorNotes R36	Plasma?
+#7	AnnotatorNotes R37	Plasma?
+#8	AnnotatorNotes R38	Plasma?
+R39	located_in Arg1:T83 Arg2:T136	
+#9	AnnotatorNotes R39	Plasma?
+R40	located_in Arg1:T84 Arg2:T136	
+#10	AnnotatorNotes R40	Plasma?
+R1	located_in Arg1:T17 Arg2:T16	
+R41	located_in Arg1:T70 Arg2:T73	
+#11	AnnotatorNotes R41	embryo, I'd say no, but I'd mark neural and paraxial mesoderm as locations for all 3 genes.  I'll check with Mike about whether we should combine neural + embryo and paraxial mesoderm + embryo as anatomical locations in cases like these, though.
+R42	located_in Arg1:T71 Arg2:T73	
+#12	AnnotatorNotes R42	embryo, I'd say no, but I'd mark neural and paraxial mesoderm as locations for all 3 genes.  I'll check with Mike about whether we should combine neural + embryo and paraxial mesoderm + embryo as anatomical locations in cases like these, though.
+R43	located_in Arg1:T72 Arg2:T73	
+#13	AnnotatorNotes R43	embryo, I'd say no, but I'd mark neural and paraxial mesoderm as locations for all 3 genes.  I'll check with Mike about whether we should combine neural + embryo and paraxial mesoderm + embryo as anatomical locations in cases like these, though.
+R44	located_in Arg1:T70 Arg2:T74	
+#14	AnnotatorNotes R44	embryo, I'd say no, but I'd mark neural and paraxial mesoderm as locations for all 3 genes.  I'll check with Mike about whether we should combine neural + embryo and paraxial mesoderm + embryo as anatomical locations in cases like these, though.
+R45	located_in Arg1:T71 Arg2:T74	
+#15	AnnotatorNotes R45	embryo, I'd say no, but I'd mark neural and paraxial mesoderm as locations for all 3 genes.  I'll check with Mike about whether we should combine neural + embryo and paraxial mesoderm + embryo as anatomical locations in cases like these, though.
+R46	located_in Arg1:T72 Arg2:T74	
+#16	AnnotatorNotes R46	embryo, I'd say no, but I'd mark neural and paraxial mesoderm as locations for all 3 genes.  I'll check with Mike about whether we should combine neural + embryo and paraxial mesoderm + embryo as anatomical locations in cases like these, though.
+R47	located_in Arg1:T2 Arg2:T1	
+R48	located_in Arg1:T3 Arg2:T1	
+T137	corrected_anatomical_site 178 202	hippocampal mossy fibers
+R49	located_in Arg1:T5 Arg2:T137	
+#17	AnnotatorNotes R49	Okay?
+R50	located_in Arg1:T6 Arg2:T137	
+#18	AnnotatorNotes R50	Okay?

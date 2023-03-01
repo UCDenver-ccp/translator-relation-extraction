@@ -122,23 +122,18 @@ R4	located_in Arg1:T14 Arg2:T16
 R5	located_in Arg1:T14 Arg2:T20	
 R6	located_in Arg1:T19 Arg2:T20	
 R7	located_in Arg1:T22 Arg2:T21	
-R8	located_in Arg1:T24 Arg2:T27	
-R9	located_in Arg1:T25 Arg2:T27	
-R10	located_in Arg1:T26 Arg2:T27	
 R11	located_in Arg1:T53 Arg2:T52	
 R12	located_in Arg1:T80 Arg2:T81	
 T118	missed_gene 2220 2223	RSK
 R13	located_in Arg1:T118 Arg2:T81	
 T119	corrected_gene 2741 2768	lactoferrin-binding protein
 R14	located_in Arg1:T119 Arg2:T101	
-T120	corrected_gene 3015 3063	low density lipoprotein receptor-related protein
 T121	corrected_gene 3143 3188	urokinase-type plasminogen activator receptor
 T122	missed_gene 3190 3194	uPAR
 R15	located_in Arg1:T122 Arg2:T113	
 R16	located_in Arg1:T121 Arg2:T113	
 R17	located_in Arg1:T122 Arg2:T114	
 R18	located_in Arg1:T121 Arg2:T114	
-R19	located_in Arg1:T120 Arg2:T115	
-R20	located_in Arg1:T111 Arg2:T115	
-R21	located_in Arg1:T120 Arg2:T114	
-R22	located_in Arg1:T111 Arg2:T114	
+T123	missed_gene 2226 2253	ribosomal subunit S6 kinase
+R8	located_in Arg1:T123 Arg2:T81	
+T120	DONE 3309 3313	DONE

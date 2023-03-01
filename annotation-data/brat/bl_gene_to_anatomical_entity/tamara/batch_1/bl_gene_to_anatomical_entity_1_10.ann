@@ -116,3 +116,99 @@ T115	gene 2986 2990	CD31
 T116	anatomical_site 3000 3013	blood vessels
 T117	gene 3033 3038	Lyve1
 T118	anatomical_site 3048 3065	lymphatic vessels
+T119	corrected_anatomical_site 243 254	lung tissue
+T120	missed_gene 225 235	NE protein
+R1	located_in Arg1:T7 Arg2:T119	
+R2	located_in Arg1:T8 Arg2:T119	
+R3	located_in Arg1:T120 Arg2:T119	
+T121	corrected_gene 285 324	Ezrin-radixin-moesin-binding protein 50
+R4	located_in Arg1:T121 Arg2:T15	
+R5	located_in Arg1:T14 Arg2:T15	
+R6	located_in Arg1:T14 Arg2:T16	
+R7	located_in Arg1:T14 Arg2:T17	
+R8	located_in Arg1:T121 Arg2:T16	
+R9	located_in Arg1:T121 Arg2:T17	
+R10	located_in Arg1:T20 Arg2:T19	
+R11	located_in Arg1:T21 Arg2:T19	
+R12	located_in Arg1:T24 Arg2:T25	
+R13	located_in Arg1:T24 Arg2:T26	
+T122	corrected_gene 966 971	Hsp20
+R14	located_in Arg1:T122 Arg2:T27	
+R15	located_in Arg1:T122 Arg2:T28	
+R16	located_in Arg1:T122 Arg2:T29	
+R17	located_in Arg1:T122 Arg2:T30	
+R18	located_in Arg1:T122 Arg2:T31	
+R19	located_in Arg1:T122 Arg2:T32	
+R20	located_in Arg1:T122 Arg2:T33	
+R21	located_in Arg1:T122 Arg2:T34	
+T123	missed_anatomical_site 922 927	colon
+R22	located_in Arg1:T122 Arg2:T123	
+R23	located_in Arg1:T36 Arg2:T123	
+R24	located_in Arg1:T36 Arg2:T34	
+R25	located_in Arg1:T36 Arg2:T33	
+R26	located_in Arg1:T36 Arg2:T32	
+R27	located_in Arg1:T36 Arg2:T31	
+R28	located_in Arg1:T36 Arg2:T30	
+R29	located_in Arg1:T36 Arg2:T29	
+R30	located_in Arg1:T36 Arg2:T28	
+R31	located_in Arg1:T36 Arg2:T27	
+T124	missed_gene 1016 1033	alphaB-crystallin
+R32	located_in Arg1:T37 Arg2:T123	
+R33	located_in Arg1:T37 Arg2:T34	
+R34	located_in Arg1:T37 Arg2:T33	
+R35	located_in Arg1:T37 Arg2:T32	
+R36	located_in Arg1:T37 Arg2:T31	
+R37	located_in Arg1:T37 Arg2:T30	
+R38	located_in Arg1:T37 Arg2:T29	
+R39	located_in Arg1:T37 Arg2:T28	
+R40	located_in Arg1:T37 Arg2:T27	
+R41	located_in Arg1:T124 Arg2:T27	
+R42	located_in Arg1:T124 Arg2:T28	
+R43	located_in Arg1:T124 Arg2:T29	
+R44	located_in Arg1:T124 Arg2:T30	
+R45	located_in Arg1:T124 Arg2:T31	
+R46	located_in Arg1:T124 Arg2:T32	
+R47	located_in Arg1:T124 Arg2:T33	
+R48	located_in Arg1:T124 Arg2:T34	
+R49	located_in Arg1:T124 Arg2:T123	
+R50	located_in Arg1:T43 Arg2:T44	
+T125	corrected_anatomical_site 1487 1504	airway epithelium
+R51	located_in Arg1:T56 Arg2:T125	
+R52	located_in Arg1:T57 Arg2:T125	
+R53	located_in Arg1:T58 Arg2:T125	
+R54	located_in Arg1:T59 Arg2:T125	
+T126	corrected_anatomical_site 1585 1597	brain tissue
+R55	located_in Arg1:T61 Arg2:T126	
+R56	located_in Arg1:T62 Arg2:T126	
+R57	located_in Arg1:T66 Arg2:T67	
+R58	located_in Arg1:T66 Arg2:T68	
+R59	located_in Arg1:T66 Arg2:T69	
+T127	missed_anatomical_site 1680 1688	choroids
+R60	located_in Arg1:T65 Arg2:T127	
+R61	located_in Arg1:T88 Arg2:T87	
+T128	corrected_gene 2255 2259;2261 2262	GPAT 4
+R62	located_in Arg1:T128 Arg2:T87	
+R63	located_in Arg1:T90 Arg2:T89	
+R64	located_in Arg1:T98 Arg2:T99	
+R65	located_in Arg1:T97 Arg2:T99	
+R66	located_in Arg1:T100 Arg2:T101	
+T129	corrected_anatomical_site 2836 2856	anorectal epithelium
+T130	corrected_anatomical_site 2901 2916	anal epithelium
+R67	located_in Arg1:T110 Arg2:T129	
+R68	located_in Arg1:T111 Arg2:T129	
+R69	located_in Arg1:T113 Arg2:T130	
+R70	located_in Arg1:T115 Arg2:T116	
+R71	located_in Arg1:T117 Arg2:T118	
+T131	corrected_anatomical_site 1771 1783	ankle tissue
+R72	located_in Arg1:T73 Arg2:T70	
+R73	located_in Arg1:T73 Arg2:T131	
+R74	located_in Arg1:T23 Arg2:T22	
+R75	located_in Arg1:T74 Arg2:T76	
+R76	located_in Arg1:T75 Arg2:T76	
+#1	AnnotatorNotes R76	Okay?
+#2	AnnotatorNotes R75	Okay?
+T132	corrected_anatomical_site 2119 2123;2155 2161	head tissue
+T133	corrected_anatomical_site 2128 2132;2155 2161	neck tissue
+T134	corrected_gene 2081 2115	Estradiol receptor-binding protein
+R77	located_in Arg1:T134 Arg2:T132	
+R78	located_in Arg1:T134 Arg2:T133	

@@ -142,3 +142,35 @@ T141	cellular_component 3685 3698	intracellular
 T142	gene 3716 3721	GalR1
 T143	gene 3726 3731	GalR2
 T144	gene 3732 3748	galanin receptor
+R1	located_in Arg1:T18 Arg2:T17	
+R2	located_in Arg1:T20 Arg2:T17	
+R3	located_in Arg1:T27 Arg2:T26	
+R4	located_in Arg1:T32 Arg2:T34	
+R5	located_in Arg1:T33 Arg2:T34	
+R6	located_in Arg1:T39 Arg2:T38	
+T145	missed_gene 865 891	Nuclear transport receptor
+T146	missed_cellular_component 865 872	Nuclear
+R7	located_in Arg1:T145 Arg2:T146	
+R8	located_in Arg1:T41 Arg2:T40	
+R9	located_in Arg1:T56 Arg2:T60	
+R10	located_in Arg1:T57 Arg2:T60	
+R11	located_in Arg1:T58 Arg2:T60	
+R12	located_in Arg1:T59 Arg2:T60	
+R13	located_in Arg1:T87 Arg2:T86	
+R14	located_in Arg1:T88 Arg2:T86	
+R15	located_in Arg1:T89 Arg2:T86	
+T147	corrected_gene 2211 2225	IGF-1 receptor
+R16	located_in Arg1:T147 Arg2:T86	
+R17	located_in Arg1:T92 Arg2:T91	
+R18	located_in Arg1:T93 Arg2:T91	
+R19	located_in Arg1:T94 Arg2:T91	
+R20	located_in Arg1:T98 Arg2:T100	
+R21	located_in Arg1:T99 Arg2:T100	
+T148	missed_gene 2976 2980	TLCN
+T149	corrected_cellular_component 2981 2992	cytoplasmic
+R22	located_in Arg1:T148 Arg2:T149	
+R23	located_in Arg1:T122 Arg2:T149	
+R24	located_in Arg1:T123 Arg2:T149	
+R25	located_in Arg1:T124 Arg2:T149	
+T150	missed_gene 3006 3009;3040 3048	ERM proteins
+R26	located_in Arg1:T150 Arg2:T149	

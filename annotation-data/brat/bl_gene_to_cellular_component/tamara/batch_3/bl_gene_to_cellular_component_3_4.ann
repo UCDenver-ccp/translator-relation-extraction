@@ -140,3 +140,23 @@ T139	gene 3990 3994	SCD5
 T140	gene 3996 4001	CSF3R
 T141	gene 4007 4011	FPR1
 T142	cellular_component 4042 4055	cell membrane
+R1	located_in Arg1:T25 Arg2:T24	
+R2	located_in Arg1:T26 Arg2:T24	
+R3	located_in Arg1:T31 Arg2:T30	
+R4	located_in Arg1:T44 Arg2:T45	
+T143	corrected_gene 1211 1242	Alpha-glutathione s-transferase
+R5	located_in Arg1:T143 Arg2:T45	
+T144	missed_gene 1598 1623	Heterochromatin protein 1
+R6	located_in Arg1:T144 Arg2:T57	
+R7	located_in Arg1:T56 Arg2:T57	
+R8	located_in Arg1:T103 Arg2:T104	
+T145	missed_gene 3203 3246	microtubule-associated protein RP/EB family
+R9	located_in Arg1:T145 Arg2:T109	
+R10	located_in Arg1:T120 Arg2:T119	
+R11	located_in Arg1:T118 Arg2:T119	
+T146	missed_cellular_component 3476 3487	peroxisomal
+R12	located_in Arg1:T116 Arg2:T146	
+R13	located_in Arg1:T117 Arg2:T146	
+R14	located_in Arg1:T124 Arg2:T125	
+R15	located_in Arg1:T79 Arg2:T76	
+T147	DONE 4124 4128	DONE

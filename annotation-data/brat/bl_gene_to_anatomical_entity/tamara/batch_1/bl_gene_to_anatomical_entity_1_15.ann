@@ -92,3 +92,91 @@ T91	gene 2321 2326	IL-10
 T92	anatomical_site 2334 2339	liver
 T93	gene 2340 2356	heme oxygenase-1
 T94	gene 2358 2362	HO-1
+R1	located_in Arg1:T10 Arg2:T9	
+R2	located_in Arg1:T11 Arg2:T12	
+R3	located_in Arg1:T11 Arg2:T13	
+R4	located_in Arg1:T11 Arg2:T14	
+R5	located_in Arg1:T11 Arg2:T15	
+R6	located_in Arg1:T11 Arg2:T16	
+R12	located_in Arg1:T28 Arg2:T29	
+T96	missed_gene 763 767	AMPK
+T97	missed_gene 771 775	IRS1
+T98	missed_gene 783 786	AKT
+R14	located_in Arg1:T30 Arg2:T32	
+R13	located_in Arg1:T30 Arg2:T31	
+R15	located_in Arg1:T96 Arg2:T31	
+R16	located_in Arg1:T96 Arg2:T32	
+R17	located_in Arg1:T97 Arg2:T31	
+R18	located_in Arg1:T97 Arg2:T32	
+R19	located_in Arg1:T98 Arg2:T31	
+R20	located_in Arg1:T98 Arg2:T32	
+T99	corrected_anatomical_site 978 991	testis tissue
+T100	corrected_gene 957 974	HMG2-like protein
+R21	located_in Arg1:T100 Arg2:T99	
+R22	located_in Arg1:T40 Arg2:T41	
+T101	missed_gene 993 1012	Proteolipid protein
+R23	located_in Arg1:T101 Arg2:T41	
+T102	corrected_gene 1270 1277	SPAG2-1
+T103	corrected_gene 1282 1289	SPAG2-2
+R24	located_in Arg1:T102 Arg2:T51	
+R25	located_in Arg1:T103 Arg2:T52	
+T105	corrected_gene 1364 1377	P2Y2 receptor
+R26	located_in Arg1:T105 Arg2:T55	
+T106	corrected_gene 1355 1359;1369 1377	P2Y1 receptor
+R27	located_in Arg1:T106 Arg2:T55	
+T104	corrected_gene 1454 1458;1459 1468	P2Y2 receptors
+T107	corrected_gene 1445 1449;1459 1468	P2Y1 receptors
+T108	corrected_gene 1439 1443;1459 1468	P2X2 receptors
+T109	corrected_gene 1433 1437;1459 1468	P2X1 receptors
+R28	located_in Arg1:T109 Arg2:T60	
+R29	located_in Arg1:T108 Arg2:T60	
+R30	located_in Arg1:T107 Arg2:T60	
+R31	located_in Arg1:T104 Arg2:T60	
+T110	missed_gene 1598 1604	RANTES
+R32	located_in Arg1:T61 Arg2:T66	
+R33	located_in Arg1:T61 Arg2:T67	
+R34	located_in Arg1:T62 Arg2:T66	
+R35	located_in Arg1:T62 Arg2:T67	
+R36	located_in Arg1:T63 Arg2:T66	
+R37	located_in Arg1:T63 Arg2:T67	
+R38	located_in Arg1:T64 Arg2:T66	
+R39	located_in Arg1:T64 Arg2:T67	
+R40	located_in Arg1:T110 Arg2:T66	
+R41	located_in Arg1:T110 Arg2:T67	
+R42	located_in Arg1:T65 Arg2:T66	
+R43	located_in Arg1:T65 Arg2:T67	
+R44	located_in Arg1:T68 Arg2:T69	
+R45	located_in Arg1:T70 Arg2:T71	
+T111	missed_gene 1851 1853	GR
+T112	missed_gene 1859 1869	peroxidase
+T113	missed_gene 1871 1874	GPx
+R46	located_in Arg1:T72 Arg2:T73	
+R47	located_in Arg1:T111 Arg2:T73	
+R48	located_in Arg1:T112 Arg2:T73	
+R49	located_in Arg1:T113 Arg2:T73	
+R50	located_in Arg1:T76 Arg2:T75	
+R51	located_in Arg1:T77 Arg2:T75	
+R52	located_in Arg1:T78 Arg2:T75	
+T114	corrected_gene 2177 2180;2191 2197	TGF -beta3
+R53	located_in Arg1:T84 Arg2:T85	
+R54	located_in Arg1:T114 Arg2:T85	
+R55	located_in Arg1:T86 Arg2:T87	
+R58	located_in Arg1:T93 Arg2:T92	
+R59	located_in Arg1:T94 Arg2:T92	
+R7	located_in Arg1:T91 Arg2:T90	
+R8	located_in Arg1:T24 Arg2:T23	
+#1	AnnotatorNotes R8	Maybe it is too abstract? insulin is present in serum, but it can be produced somewhere else
+R9	located_in Arg1:T27 Arg2:T26	
+#2	AnnotatorNotes R9	Maybe it is too abstract? Adiponectin is present in serum, but it can be produced somewhere else
+#3	AnnotatorNotes R53	I see that they are repressed, but it also means that they are present in a small amount at that moment.
+T95	missed_gene 401 409	ferritin
+R10	located_in Arg1:T95 Arg2:T18	
+#4	AnnotatorNotes R10	Okay?
+R11	located_in Arg1:T20 Arg2:T19	
+#5	AnnotatorNotes R11	I see that they are decreased, but it also means that they are present in a small amount at that moment.
+R56	located_in Arg1:T81 Arg2:T82	
+#6	AnnotatorNotes R56	Okay?
+R57	located_in Arg1:T81 Arg2:T83	
+#7	AnnotatorNotes R57	Okay?
+T115	corrected_anatomical_site 2265 2276	soft tissue
+R60	located_in Arg1:T88 Arg2:T115	

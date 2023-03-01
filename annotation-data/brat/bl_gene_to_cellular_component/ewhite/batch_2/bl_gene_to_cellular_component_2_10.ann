@@ -109,3 +109,26 @@ T108	cellular_component 3236 3244	Integrin
 T109	gene 3236 3244	Integrin
 T110	gene 3245 3249	EGFR
 T111	gene 3254 3258	MAPK
+T112	missed_gene 277 287	S6 kinase,
+R1	located_in Arg1:T112 Arg2:T7	
+R2	located_in Arg1:T11 Arg2:T10	
+R3	located_in Arg1:T12 Arg2:T10	
+#1	AnnotatorNotes T14	example of complex, not cc?
+R4	located_in Arg1:T24 Arg2:T26	
+R5	located_in Arg1:T25 Arg2:T26	
+R6	located_in Arg1:T41 Arg2:T40	
+R7	located_in Arg1:T39 Arg2:T40	
+T113	corrected_gene 1045 1070	Heterochromatin protein 1
+R8	located_in Arg1:T113 Arg2:T40	
+#2	AnnotatorNotes T33	complex, not go-cc?
+R9	located_in Arg1:T46 Arg2:T47	
+R10	located_in Arg1:T45 Arg2:T47	
+#3	AnnotatorNotes T46	complex, not protein?
+R11	located_in Arg1:T52 Arg2:T54	
+R12	located_in Arg1:T56 Arg2:T57	
+R13	located_in Arg1:T55 Arg2:T57	
+R14	located_in Arg1:T65 Arg2:T64	
+R15	located_in Arg1:T74 Arg2:T73	
+R16	located_in Arg1:T75 Arg2:T73	
+T114	missed_gene 2422 2426	S650
+R17	located_in Arg1:T114 Arg2:T76	

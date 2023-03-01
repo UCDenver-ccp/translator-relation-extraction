@@ -124,3 +124,27 @@ T123	gene 3174 3191	androgen receptor
 T124	gene 3193 3210	estrogen receptor
 T125	gene 3214 3231	estrogen receptor
 T126	gene 3268 3273	BCAR1
+R1	located_in Arg1:T1 Arg2:T4	
+R2	located_in Arg1:T2 Arg2:T4	
+R3	located_in Arg1:T3 Arg2:T4	
+T127	missed_gene 863 868	talin
+R4	located_in Arg1:T127 Arg2:T28	
+R5	located_in Arg1:T37 Arg2:T35	
+T128	corrected_gene 1034 1045	GCN5-like 1
+R6	located_in Arg1:T128 Arg2:T35	
+T129	missed_gene 1416 1436	S6 ribosomal protein
+R7	located_in Arg1:T129 Arg2:T50	
+R8	located_in Arg1:T53 Arg2:T55	
+T130	corrected_gene 1609 1620	p42/44 MAPK
+T131	missed_gene 1622 1632	Pi3 kinase
+T132	corrected_gene 1637 1656	protein kinase C?II
+R9	located_in Arg1:T130 Arg2:T58	
+R10	located_in Arg1:T131 Arg2:T58	
+R11	located_in Arg1:T132 Arg2:T58	
+T133	corrected_gene 2284 2291	BMPR-IB
+R12	located_in Arg1:T133 Arg2:T89	
+R13	located_in Arg1:T107 Arg2:T110	
+R14	located_in Arg1:T113 Arg2:T114	
+T134	missed_gene 825 830	actin
+R15	located_in Arg1:T134 Arg2:T28	
+T135	DONE 3309 3313	DONE

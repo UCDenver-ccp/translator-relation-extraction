@@ -16,7 +16,7 @@ T15	cellular_component 451 462	centrosomal
 T16	gene 491 496	TACC3
 T17	gene 510 514	Fis1
 T18	gene 519 522	Mff
-T19	gene 527 531	Drp1
+T19	corrected_gene 527 531;541 549	Drp1 effector
 T20	cellular_component 562 574	mitochondria
 T21	cellular_component 608 619	cytoplasmic
 T22	gene 620 628	gelsolin
@@ -100,3 +100,83 @@ T99	cellular_component 2829 2837	antibody
 T100	cellular_component 2861 2881	synaptonemal complex
 T101	gene 2888 2892	SCP3
 T102	gene 2921 2925	MLH1
+T103	corrected_gene 71 104	21-kDa calmodulin-binding protein
+R1	located_in Arg1:T103 Arg2:T1	
+T104	corrected_gene 216 221	EGF-R
+T105	missed_gene 255 258	Sos
+T106	missed_gene 261 264	Ras
+R2	located_in Arg1:T104 Arg2:T12	
+R3	located_in Arg1:T6 Arg2:T12	
+R4	located_in Arg1:T7 Arg2:T12	
+R5	located_in Arg1:T105 Arg2:T12	
+R6	located_in Arg1:T106 Arg2:T12	
+R7	located_in Arg1:T8 Arg2:T12	
+R8	located_in Arg1:T10 Arg2:T12	
+R9	located_in Arg1:T11 Arg2:T12	
+R10	located_in Arg1:T16 Arg2:T15	
+T107	missed_cellular_component 579 590	peroxisomes
+R11	located_in Arg1:T17 Arg2:T20	
+R12	located_in Arg1:T17 Arg2:T107	
+R13	located_in Arg1:T18 Arg2:T20	
+R14	located_in Arg1:T18 Arg2:T107	
+T108	corrected_gene 527 540	Drp1 receptor
+T109	gene 527 531	Drp1
+R15	located_in Arg1:T108 Arg2:T20	
+R16	located_in Arg1:T108 Arg2:T107	
+R17	located_in Arg1:T19 Arg2:T20	
+R18	located_in Arg1:T19 Arg2:T107	
+R19	located_in Arg1:T22 Arg2:T21	
+T110	corrected_gene 633 661	amyloid-beta-binding protein
+R20	located_in Arg1:T110 Arg2:T21	
+R21	located_in Arg1:T32 Arg2:T34	
+R22	located_in Arg1:T33 Arg2:T34	
+T111	corrected_cellular_component 1151 1170	axonal mitochondria
+R23	located_in Arg1:T40 Arg2:T111	
+T112	missed_gene 1494 1513	ribosomal S6 kinase
+R24	located_in Arg1:T112 Arg2:T50	
+T113	missed_cellular_component 1847 1855	spindles
+T114	corrected_gene 1773 1778	Sli15
+T115	missed_gene 1779 1785	INCENP
+T116	missed_gene 1792 1800	Survivin
+T117	missed_gene 1822 1828	Aurora
+T118	missed_cellular_component 1737 1748	chromosomal
+R25	located_in Arg1:T114 Arg2:T118	
+R26	located_in Arg1:T115 Arg2:T118	
+R27	located_in Arg1:T59 Arg2:T118	
+R28	located_in Arg1:T116 Arg2:T118	
+R29	located_in Arg1:T60 Arg2:T118	
+R30	located_in Arg1:T61 Arg2:T118	
+R31	located_in Arg1:T62 Arg2:T118	
+R32	located_in Arg1:T117 Arg2:T118	
+R33	located_in Arg1:T114 Arg2:T113	
+R34	located_in Arg1:T115 Arg2:T113	
+R35	located_in Arg1:T59 Arg2:T113	
+R36	located_in Arg1:T116 Arg2:T113	
+R37	located_in Arg1:T60 Arg2:T113	
+R38	located_in Arg1:T61 Arg2:T113	
+R39	located_in Arg1:T62 Arg2:T113	
+R40	located_in Arg1:T117 Arg2:T113	
+T119	missed_cellular_component 2094 2101	nuclear
+R41	located_in Arg1:T72 Arg2:T119	
+R42	located_in Arg1:T74 Arg2:T73	
+R43	located_in Arg1:T75 Arg2:T73	
+R44	located_in Arg1:T76 Arg2:T73	
+R45	located_in Arg1:T78 Arg2:T77	
+R46	located_in Arg1:T79 Arg2:T77	
+T120	missed_cellular_component 2316 2326	desmosomal
+T121	missed_gene 2343 2354	desmocollin
+R47	located_in Arg1:T121 Arg2:T120	
+R48	located_in Arg1:T80 Arg2:T82	
+R49	located_in Arg1:T81 Arg2:T82	
+R50	located_in Arg1:T85 Arg2:T86	
+T122	missed_cellular_component 2729 2741	synaptonemal
+R51	located_in Arg1:T92 Arg2:T122	
+T123	missed_gene 2729 2760	synaptonemal complex proteins 3
+R52	located_in Arg1:T123 Arg2:T122	
+T124	missed_cellular_component 2861 2873	synaptonemal
+R53	located_in Arg1:T101 Arg2:T124	
+R54	located_in Arg1:T96 Arg2:T97	
+R55	located_in Arg1:T96 Arg2:T98	
+T125	missed_cellular_component 2931 2941	centromere
+T126	missed_gene 2948 2953	CREST
+R56	located_in Arg1:T126 Arg2:T125	

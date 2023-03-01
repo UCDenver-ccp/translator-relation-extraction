@@ -119,3 +119,88 @@ T118	gene 3028 3033	Fhos1
 T119	anatomical_site 3072 3079	embryos
 T120	gene 3088 3093	DKKL1
 T121	anatomical_site 3133 3139	adults
+R1	located_in Arg1:T3 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T1	
+R3	located_in Arg1:T5 Arg2:T1	
+R4	located_in Arg1:T6 Arg2:T1	
+R5	located_in Arg1:T7 Arg2:T9	
+R6	located_in Arg1:T8 Arg2:T9	
+R7	located_in Arg1:T32 Arg2:T31	
+R8	located_in Arg1:T33 Arg2:T31	
+T122	corrected_anatomical_site 793 817	distal airway epithelium
+T123	corrected_anatomical_site 780 788;800 817	proximal airway epithelium
+T124	corrected_anatomical_site 856 873	distal epithelium
+R9	located_in Arg1:T35 Arg2:T124	
+R10	located_in Arg1:T38 Arg2:T37	
+R11	located_in Arg1:T39 Arg2:T37	
+R12	located_in Arg1:T40 Arg2:T37	
+R13	located_in Arg1:T38 Arg2:T41	
+R14	located_in Arg1:T39 Arg2:T41	
+R15	located_in Arg1:T40 Arg2:T41	
+R16	located_in Arg1:T44 Arg2:T43	
+T125	missed_gene 1284 1294	MIP-1alpha
+R17	located_in Arg1:T125 Arg2:T50	
+R18	located_in Arg1:T51 Arg2:T50	
+R19	located_in Arg1:T52 Arg2:T50	
+R20	located_in Arg1:T53 Arg2:T50	
+T126	missed_gene 1757 1760	OPG
+R21	located_in Arg1:T126 Arg2:T65	
+R22	located_in Arg1:T126 Arg2:T66	
+R23	located_in Arg1:T69 Arg2:T65	
+R24	located_in Arg1:T69 Arg2:T66	
+R25	located_in Arg1:T71 Arg2:T72	
+R26	located_in Arg1:T85 Arg2:T84	
+R27	located_in Arg1:T85 Arg2:T86	
+T127	missed_gene 2541 2552	?-synuclein
+T128	missed_gene 2554 2559	CSP-?
+R28	located_in Arg1:T127 Arg2:T93	
+R29	located_in Arg1:T128 Arg2:T93	
+R30	located_in Arg1:T96 Arg2:T93	
+R31	located_in Arg1:T97 Arg2:T93	
+R32	located_in Arg1:T98 Arg2:T93	
+R33	located_in Arg1:T99 Arg2:T93	
+R34	located_in Arg1:T100 Arg2:T93	
+R35	located_in Arg1:T127 Arg2:T94	
+R36	located_in Arg1:T128 Arg2:T94	
+R37	located_in Arg1:T96 Arg2:T94	
+R38	located_in Arg1:T97 Arg2:T94	
+R39	located_in Arg1:T98 Arg2:T94	
+R40	located_in Arg1:T99 Arg2:T94	
+R41	located_in Arg1:T100 Arg2:T94	
+R42	located_in Arg1:T102 Arg2:T101	
+R43	located_in Arg1:T106 Arg2:T133	
+R44	located_in Arg1:T107 Arg2:T133	
+T129	missed_gene 2781 2784	BEK
+R45	located_in Arg1:T129 Arg2:T133	
+R46	located_in Arg1:T108 Arg2:T133	
+T130	corrected_anatomical_site 2853 2889	papilla mesenchyme of the tooth germ
+R47	located_in Arg1:T106 Arg2:T130	
+R48	located_in Arg1:T107 Arg2:T130	
+R49	located_in Arg1:T129 Arg2:T130	
+R50	located_in Arg1:T108 Arg2:T130	
+R51	located_in Arg1:T35 Arg2:T31	
+R52	located_in Arg1:T10 Arg2:T13	
+#1	AnnotatorNotes R52	Okay?
+R53	located_in Arg1:T11 Arg2:T13	
+#2	AnnotatorNotes R53	Okay?
+T131	missed_gene 212 218	GRP170
+R54	located_in Arg1:T131 Arg2:T13	
+#3	AnnotatorNotes R54	Okay?
+T132	missed_gene 220 225	ERp57
+R55	located_in Arg1:T132 Arg2:T13	
+R56	located_in Arg1:T12 Arg2:T13	
+#4	AnnotatorNotes R56	Okay?
+#5	AnnotatorNotes R55	Okay?
+#6	AnnotatorNotes R22	Okay?
+#7	AnnotatorNotes R24	Okay?
+#8	AnnotatorNotes R21	Okay?
+#9	AnnotatorNotes R23	Okay?
+T133	corrected_anatomical_site 2838 2848;2872 2889	epithelium of the tooth germ
+#10	AnnotatorNotes T130	do we mark it? 
+#11	AnnotatorNotes T133	do we mark it? 
+R57	located_in Arg1:T114 Arg2:T115	
+#12	AnnotatorNotes R57	Okay?
+R58	located_in Arg1:T114 Arg2:T116	
+#13	AnnotatorNotes R58	Okay?
+R59	located_in Arg1:T114 Arg2:T117	
+#14	AnnotatorNotes R59	Okay?

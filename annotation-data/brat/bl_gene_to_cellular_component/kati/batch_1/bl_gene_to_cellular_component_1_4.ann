@@ -14,7 +14,7 @@ T13	gene 297 304	Insulin
 T14	cellular_component 313 323	antibodies
 T15	gene 328 335	insulin
 T16	cellular_component 486 491	lumen
-T17	cellular_component 499 520	endoplasmic reticulum
+T17	corrected_cellular_component 499 520;527 535	endoplasmic reticulum membrane
 T18	cellular_component 527 535	membrane
 T19	cellular_component 549 567	pentameric complex
 T20	gene 582 586	Gpi8
@@ -95,7 +95,7 @@ T94	gene 2349 2353	CD14
 T95	gene 2360 2364	CD1a
 T96	gene 2375 2379	CD34
 T97	gene 2392 2395	Src
-T98	gene 2404 2407	Csk
+T98	gene 2404 2407;2408 2424	Csk -binding protein
 T99	gene 2426 2429	Cbp
 T100	cellular_component 2496 2507	lipid rafts
 T101	gene 2528 2531	Src
@@ -125,3 +125,54 @@ T124	cellular_component 2999 3007	integrin
 T125	cellular_component 3012 3020	integrin
 T126	gene 3012 3020	integrin
 T127	gene 3029 3033	MMP9
+R1	located_in Arg1:T5 Arg2:T6	
+R2	located_in Arg1:T8 Arg2:T9	
+R3	located_in Arg1:T8 Arg2:T10	
+T128	missed_gene 363 391;398 410	Glycosylphosphatidylinositol transamidase
+T129	missed_gene 412 416	GPIT
+R4	located_in Arg1:T20 Arg2:T17	
+T130	corrected_gene 588 593	Gpi16
+R5	located_in Arg1:T130 Arg2:T17	
+R6	located_in Arg1:T22 Arg2:T17	
+T131	corrected_gene 601 606	Gpi17
+R7	located_in Arg1:T131 Arg2:T17	
+R8	located_in Arg1:T24 Arg2:T17	
+R9	located_in Arg1:T128 Arg2:T17	
+R10	located_in Arg1:T129 Arg2:T17	
+R11	located_in Arg1:T30 Arg2:T34	
+R12	located_in Arg1:T31 Arg2:T34	
+T132	missed_gene 792 795	Sos
+R13	located_in Arg1:T132 Arg2:T34	
+R14	located_in Arg1:T32 Arg2:T34	
+T133	missed_gene 805 808	Shc
+R15	located_in Arg1:T133 Arg2:T34	
+R16	located_in Arg1:T33 Arg2:T34	
+T134	missed_gene 814 817	Sos
+R17	located_in Arg1:T134 Arg2:T34	
+R18	located_in Arg1:T46 Arg2:T45	
+R19	located_in Arg1:T47 Arg2:T45	
+T135	missed_gene 1159 1162	AIF
+R20	located_in Arg1:T135 Arg2:T45	
+T136	corrected_gene 1398 1425	Calmodulin-binding proteins
+R21	located_in Arg1:T136 Arg2:T60	
+R22	located_in Arg1:T71 Arg2:T72	
+T137	missed_gene 2023 2032	?-catenin
+R23	located_in Arg1:T99 Arg2:T100	
+T138	corrected_gene 2381 2402;2408 2424	C-terminal Src kinase -binding protein
+R24	located_in Arg1:T138 Arg2:T100	
+R25	located_in Arg1:T113 Arg2:T112	
+R26	located_in Arg1:T114 Arg2:T112	
+R27	located_in Arg1:T115 Arg2:T112	
+T140	corrected_gene 1865 1890;1898 1913	HER4 intracellular domain nuclear protein
+T141	missed_gene 1892 1896;1898 1913	4ICD nuclear protein
+R31	located_in Arg1:T137 Arg2:T79	
+R32	located_in Arg1:T137 Arg2:T80	
+T142	corrected_gene 2404 2407;2408 2424	Csk -binding protein
+R33	located_in Arg1:T142 Arg2:T100	
+T139	missed_cellular_component 1898 1905	nuclear
+R28	located_in Arg1:T140 Arg2:T139	
+R29	located_in Arg1:T141 Arg2:T139	
+R30	located_in Arg1:T140 Arg2:T74	
+R34	located_in Arg1:T141 Arg2:T74	
+T143	missed_gene 393 396;398 410	GPI transamidase
+R35	located_in Arg1:T143 Arg2:T17	

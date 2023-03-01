@@ -117,3 +117,59 @@ T116	gene 2942 2945	Src
 T117	gene 2952 2955	Lyn
 T118	gene 2961 2964	Lck
 T119	anatomical_site 2986 2991	brain
+R1	located_in Arg1:T3 Arg2:T2	
+R2	located_in Arg1:T1 Arg2:T2	
+R3	located_in Arg1:T3 Arg2:T4	
+T120	corrected_anatomical_site 372 386	pouch endoderm
+R4	located_in Arg1:T18 Arg2:T120	
+R5	located_in Arg1:T17 Arg2:T120	
+R6	located_in Arg1:T16 Arg2:T120	
+T121	corrected_anatomical_site 627 641	bladder tissue
+R7	located_in Arg1:T31 Arg2:T121	
+T122	corrected_gene 999 1032	pulmonary surfactant protein SP-A
+R8	located_in Arg1:T122 Arg2:T45	
+T123	corrected_anatomical_site 1645 1670	breast epithelial tissues
+R9	located_in Arg1:T74 Arg2:T123	
+R10	located_in Arg1:T77 Arg2:T123	
+R11	located_in Arg1:T78 Arg2:T123	
+R12	located_in Arg1:T83 Arg2:T84	
+R13	located_in Arg1:T82 Arg2:T84	
+R14	located_in Arg1:T86 Arg2:T88	
+R15	located_in Arg1:T87 Arg2:T88	
+T124	missed_gene 2169 2188	proteolipid protein
+R16	located_in Arg1:T124 Arg2:T92	
+R17	located_in Arg1:T124 Arg2:T89	
+R18	located_in Arg1:T124 Arg2:T93	
+T125	missed_anatomical_site 2499 2502	SFO
+T126	corrected_anatomical_site 2516 2546	brain circumventricular organs
+R19	located_in Arg1:T104 Arg2:T101	
+R20	located_in Arg1:T104 Arg2:T125	
+R21	located_in Arg1:T104 Arg2:T126	
+R22	located_in Arg1:T105 Arg2:T126	
+R23	located_in Arg1:T105 Arg2:T125	
+R24	located_in Arg1:T105 Arg2:T101	
+T127	corrected_anatomical_site 2692 2704	liver tissue
+R25	located_in Arg1:T106 Arg2:T127	
+R26	located_in Arg1:T106 Arg2:T107	
+R27	located_in Arg1:T110 Arg2:T109	
+T128	missed_gene 2850 2862	sialoprotein
+R28	located_in Arg1:T128 Arg2:T113	
+T129	missed_gene 2947 2950	Yes
+T130	missed_gene 2937 2940	Fyn
+R29	located_in Arg1:T118 Arg2:T119	
+R30	located_in Arg1:T117 Arg2:T119	
+R31	located_in Arg1:T129 Arg2:T119	
+R32	located_in Arg1:T116 Arg2:T119	
+R33	located_in Arg1:T130 Arg2:T119	
+R34	located_in Arg1:T91 Arg2:T89	
+R35	located_in Arg1:T91 Arg2:T92	
+R36	located_in Arg1:T91 Arg2:T93	
+R37	located_in Arg1:T28 Arg2:T29	
+#1	AnnotatorNotes R37	Okay?
+#2	AnnotatorNotes R9	Okay?
+#3	AnnotatorNotes R10	Okay?
+#4	AnnotatorNotes R11	Okay?
+#5	AnnotatorNotes R13	Okay?
+#6	AnnotatorNotes R12	Okay?
+#7	AnnotatorNotes R14	Okay?
+#8	AnnotatorNotes R15	Okay?

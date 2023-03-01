@@ -113,3 +113,52 @@ T112	gene 3121 3126	PEX14
 T113	gene 3158 3162	PTS1
 T114	cellular_component 3181 3186	lumen
 T115	cellular_component 3196 3206	organelles
+R1	located_in Arg1:T8 Arg2:T9	
+R2	located_in Arg1:T10 Arg2:T12	
+T116	corrected_gene 514 522	p38 MAPK
+T117	corrected_gene 503 506;508 509	JNK 2
+T118	corrected_gene 495 499	ERK1
+T119	corrected_gene 495 498;500 501	ERK 2
+R3	located_in Arg1:T119 Arg2:T26	
+R4	located_in Arg1:T118 Arg2:T26	
+R5	located_in Arg1:T23 Arg2:T26	
+R6	located_in Arg1:T117 Arg2:T26	
+R7	located_in Arg1:T116 Arg2:T26	
+R8	located_in Arg1:T116 Arg2:T27	
+R9	located_in Arg1:T117 Arg2:T27	
+R10	located_in Arg1:T23 Arg2:T27	
+R11	located_in Arg1:T119 Arg2:T27	
+R12	located_in Arg1:T118 Arg2:T27	
+T120	corrected_gene 925 955	LDL receptor-related protein 1
+R13	located_in Arg1:T120 Arg2:T36	
+R14	located_in Arg1:T42 Arg2:T44	
+R15	located_in Arg1:T42 Arg2:T45	
+R16	located_in Arg1:T43 Arg2:T44	
+R17	located_in Arg1:T43 Arg2:T45	
+R18	located_in Arg1:T49 Arg2:T52	
+R19	located_in Arg1:T50 Arg2:T52	
+R20	located_in Arg1:T51 Arg2:T52	
+R21	located_in Arg1:T56 Arg2:T55	
+R22	located_in Arg1:T57 Arg2:T55	
+R23	located_in Arg1:T58 Arg2:T59	
+R25	located_in Arg1:T64 Arg2:T70	
+T121	corrected_gene 1873 1893;1900 1925	ezrin-radixin-moesin binding phosphoprotein 50
+T122	corrected_gene 1895 1898;1900 1925	ERM binding phosphoprotein 50
+R26	located_in Arg1:T121 Arg2:T70	
+R27	located_in Arg1:T122 Arg2:T70	
+T123	corrected_gene 2068 2072	Swi6
+R28	located_in Arg1:T123 Arg2:T75	
+T124	missed_gene 2294 2297	RTP
+R29	located_in Arg1:T89 Arg2:T90	
+R30	located_in Arg1:T87 Arg2:T90	
+R31	located_in Arg1:T86 Arg2:T90	
+R32	located_in Arg1:T85 Arg2:T90	
+R33	located_in Arg1:T84 Arg2:T90	
+R34	located_in Arg1:T83 Arg2:T90	
+R35	located_in Arg1:T124 Arg2:T90	
+R36	located_in Arg1:T96 Arg2:T95	
+R37	located_in Arg1:T97 Arg2:T99	
+R38	located_in Arg1:T104 Arg2:T103	
+R39	located_in Arg1:T112 Arg2:T111	
+R40	located_in Arg1:T113 Arg2:T114	
+R41	located_in Arg1:T113 Arg2:T115	

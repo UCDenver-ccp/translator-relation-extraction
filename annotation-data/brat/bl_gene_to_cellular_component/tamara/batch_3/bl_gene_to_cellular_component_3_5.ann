@@ -108,3 +108,50 @@ T107	cellular_component 3014 3023	chromatin
 T108	gene 3037 3041	HBO1
 T109	gene 3042 3047	JADE1
 T110	gene 3101 3106	JADE1
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T1	
+R4	located_in Arg1:T7 Arg2:T8	
+R5	located_in Arg1:T7 Arg2:T9	
+R6	located_in Arg1:T6 Arg2:T8	
+R7	located_in Arg1:T6 Arg2:T9	
+R8	located_in Arg1:T5 Arg2:T8	
+R9	located_in Arg1:T5 Arg2:T9	
+T112	missed_gene 150 153	ERM
+R10	located_in Arg1:T112 Arg2:T8	
+R11	located_in Arg1:T112 Arg2:T9	
+R12	located_in Arg1:T12 Arg2:T11	
+R13	located_in Arg1:T13 Arg2:T11	
+R14	located_in Arg1:T16 Arg2:T17	
+R15	located_in Arg1:T15 Arg2:T17	
+R16	located_in Arg1:T31 Arg2:T32	
+R17	located_in Arg1:T30 Arg2:T32	
+R18	located_in Arg1:T34 Arg2:T33	
+T113	missed_gene 1234 1237	JNK
+R19	located_in Arg1:T113 Arg2:T33	
+R20	located_in Arg1:T35 Arg2:T33	
+T114	missed_gene 1244 1247	ERK
+T115	missed_gene 1249 1252	AKT
+R21	located_in Arg1:T114 Arg2:T33	
+R22	located_in Arg1:T115 Arg2:T33	
+R23	located_in Arg1:T36 Arg2:T33	
+R24	located_in Arg1:T37 Arg2:T33	
+T116	missed_gene 1348 1381	intracellular adhesion molecule-1
+R25	located_in Arg1:T116 Arg2:T39	
+R26	located_in Arg1:T51 Arg2:T52	
+R27	located_in Arg1:T60 Arg2:T64	
+R28	located_in Arg1:T60 Arg2:T65	
+R29	located_in Arg1:T60 Arg2:T66	
+R30	located_in Arg1:T77 Arg2:T79	
+R31	located_in Arg1:T78 Arg2:T79	
+T117	missed_gene 2320 2356	Hook microtubule-tethering protein 3
+R32	located_in Arg1:T117 Arg2:T81	
+R33	located_in Arg1:T82 Arg2:T81	
+R34	located_in Arg1:T102 Arg2:T103	
+R35	located_in Arg1:T105 Arg2:T104	
+R36	located_in Arg1:T108 Arg2:T106	
+R37	located_in Arg1:T108 Arg2:T107	
+R38	located_in Arg1:T109 Arg2:T106	
+R39	located_in Arg1:T109 Arg2:T107	
+T111	missed_gene 184 189	actin
+R3	located_in Arg1:T111 Arg2:T8	
+T118	DONE 3108 3112	DONE

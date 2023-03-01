@@ -157,3 +157,7 @@ R32	located_in Arg1:T124 Arg2:T87
 R33	located_in Arg1:T123 Arg2:T86	
 R34	located_in Arg1:T123 Arg2:T87	
 R35	located_in Arg1:T114 Arg2:T113	
+T125	corrected_cellular_component 1197 1220	vesicular intracellular
+R36	located_in Arg1:T49 Arg2:T125	
+R37	located_in Arg1:T50 Arg2:T125	
+T126	DONE 3046 3050	DONE

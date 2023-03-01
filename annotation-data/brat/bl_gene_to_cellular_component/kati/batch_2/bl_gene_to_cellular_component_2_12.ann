@@ -110,3 +110,34 @@ T109	gene 2932 2939	insulin
 T110	gene 2941 2953	FGF receptor
 T111	gene 2954 2958	FGF2
 T112	gene 2986 2990	ALK5
+R1	located_in Arg1:T24 Arg2:T25	
+R2	located_in Arg1:T33 Arg2:T32	
+R3	located_in Arg1:T44 Arg2:T45	
+R4	located_in Arg1:T42 Arg2:T45	
+T113	corrected_gene 1124 1162	myosin-VIIa- and actin-binding protein
+R5	located_in Arg1:T113 Arg2:T45	
+R6	located_in Arg1:T70 Arg2:T71	
+R7	located_in Arg1:T73 Arg2:T75	
+R8	located_in Arg1:T73 Arg2:T76	
+T114	corrected_gene 2172 2192	alpha6beta4 integrin
+R9	located_in Arg1:T114 Arg2:T82	
+T115	missed_gene 2159 2167	syndecan
+R10	located_in Arg1:T115 Arg2:T82	
+R11	located_in Arg1:T92 Arg2:T93	
+T116	missed_gene 2742 2746	HOAP
+T117	missed_gene 2751 2754	HP1
+T118	missed_cellular_component 2771 2780	telomeres
+R12	located_in Arg1:T116 Arg2:T118	
+R13	located_in Arg1:T117 Arg2:T118	
+T119	corrected_gene 2609 2635	HP1/ORC-associated protein
+T120	missed_gene 2637 2641	HOAP
+R14	located_in Arg1:T119 Arg2:T97	
+T121	missed_gene 2647 2672	heterochromatin protein 1
+R15	located_in Arg1:T121 Arg2:T97	
+R16	located_in Arg1:T101 Arg2:T100	
+R17	located_in Arg1:T121 Arg2:T100	
+R18	located_in Arg1:T120 Arg2:T97	
+R19	located_in Arg1:T101 Arg2:T97	
+T122	corrected_gene 2827 2840	?6?1 integrin
+R20	located_in Arg1:T122 Arg2:T107	
+R21	located_in Arg1:T106 Arg2:T107	

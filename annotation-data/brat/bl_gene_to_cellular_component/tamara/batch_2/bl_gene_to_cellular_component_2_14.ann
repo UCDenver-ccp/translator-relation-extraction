@@ -125,11 +125,10 @@ R5	located_in Arg1:T18 Arg2:T20
 R6	located_in Arg1:T55 Arg2:T54	
 R7	located_in Arg1:T57 Arg2:T59	
 R8	located_in Arg1:T57 Arg2:T60	
-R9	located_in Arg1:T58 Arg2:T59	
-R10	located_in Arg1:T58 Arg2:T60	
 T120	missed_gene 2132 2151	actin cytoplasmic 1
 R11	located_in Arg1:T95 Arg2:T96	
 R12	located_in Arg1:T106 Arg2:T108	
 R13	located_in Arg1:T106 Arg2:T109	
 R14	located_in Arg1:T107 Arg2:T108	
 R15	located_in Arg1:T107 Arg2:T109	
+T121	DONE 3354 3358	DONE

@@ -103,3 +103,21 @@ T102	cellular_component 2959 2969	centrosome
 T103	gene 2991 3001	calmodulin
 T104	gene 3006 3016	calmodulin
 T105	cellular_component 3061 3079	thylakoid membrane
+R1	located_in Arg1:T13 Arg2:T14	
+T106	missed_gene 404 412	c-erbB-2
+R2	located_in Arg1:T106 Arg2:T14	
+T107	missed_gene 420 423	neu
+R3	located_in Arg1:T107 Arg2:T14	
+R4	located_in Arg1:T19 Arg2:T18	
+T108	missed_gene 561 586	Heterochromatin protein 1
+R5	located_in Arg1:T108 Arg2:T18	
+R6	located_in Arg1:T19 Arg2:T20	
+R7	located_in Arg1:T108 Arg2:T20	
+R8	located_in Arg1:T58 Arg2:T57	
+R9	located_in Arg1:T65 Arg2:T64	
+R10	located_in Arg1:T65 Arg2:T63	
+R11	located_in Arg1:T73 Arg2:T74	
+R12	located_in Arg1:T72 Arg2:T74	
+R13	located_in Arg1:T98 Arg2:T97	
+T109	missed_gene 2785 2793	X11alpha
+R14	located_in Arg1:T109 Arg2:T96	

@@ -107,3 +107,69 @@ T106	gene 2385 2389	CD31
 T107	gene 2391 2402	VE-cadherin
 T108	anatomical_site 2407 2415	vascular
 T109	anatomical_site 2434 2445	hippocampus
+R2	located_in Arg1:T3 Arg2:T4	
+R1	located_in Arg1:T6 Arg2:T7	
+R3	located_in Arg1:T6 Arg2:T8	
+R4	located_in Arg1:T9 Arg2:T12	
+R5	located_in Arg1:T10 Arg2:T12	
+T110	missed_anatomical_site 1049 1056	adrenal
+T111	missed_gene 952 959	SULT1E1
+R6	located_in Arg1:T34 Arg2:T39	
+R7	located_in Arg1:T34 Arg2:T40	
+R8	located_in Arg1:T34 Arg2:T110	
+R9	located_in Arg1:T34 Arg2:T41	
+R10	located_in Arg1:T34 Arg2:T42	
+R11	located_in Arg1:T35 Arg2:T39	
+R12	located_in Arg1:T35 Arg2:T40	
+R13	located_in Arg1:T35 Arg2:T110	
+R14	located_in Arg1:T35 Arg2:T41	
+R15	located_in Arg1:T35 Arg2:T42	
+R16	located_in Arg1:T36 Arg2:T39	
+R17	located_in Arg1:T36 Arg2:T40	
+R18	located_in Arg1:T36 Arg2:T110	
+R19	located_in Arg1:T36 Arg2:T41	
+R20	located_in Arg1:T36 Arg2:T42	
+R21	located_in Arg1:T111 Arg2:T39	
+R22	located_in Arg1:T111 Arg2:T40	
+R23	located_in Arg1:T111 Arg2:T110	
+R24	located_in Arg1:T111 Arg2:T41	
+R25	located_in Arg1:T111 Arg2:T42	
+R26	located_in Arg1:T37 Arg2:T39	
+R27	located_in Arg1:T37 Arg2:T40	
+R28	located_in Arg1:T37 Arg2:T110	
+R29	located_in Arg1:T37 Arg2:T41	
+R30	located_in Arg1:T37 Arg2:T42	
+T112	missed_anatomical_site 1074 1079	Heart
+R31	located_in Arg1:T44 Arg2:T112	
+R32	located_in Arg1:T44 Arg2:T45	
+R33	located_in Arg1:T44 Arg2:T46	
+R34	located_in Arg1:T44 Arg2:T47	
+R35	located_in Arg1:T44 Arg2:T48	
+R36	located_in Arg1:T44 Arg2:T49	
+R37	located_in Arg1:T44 Arg2:T50	
+R38	located_in Arg1:T54 Arg2:T55	
+R39	located_in Arg1:T57 Arg2:T55	
+T113	corrected_anatomical_site 1428 1449	salivary gland tissue
+R40	located_in Arg1:T61 Arg2:T113	
+R41	located_in Arg1:T64 Arg2:T65	
+R42	located_in Arg1:T64 Arg2:T66	
+R43	located_in Arg1:T64 Arg2:T67	
+R44	located_in Arg1:T64 Arg2:T68	
+T114	missed_gene 1650 1655	PEPCK
+R45	located_in Arg1:T70 Arg2:T69	
+R46	located_in Arg1:T114 Arg2:T69	
+T115	missed_gene 1802 1809	PGP-9.5
+R47	located_in Arg1:T115 Arg2:T79	
+R48	located_in Arg1:T80 Arg2:T81	
+R49	located_in Arg1:T80 Arg2:T82	
+T116	missed_gene 2004 2008	CC10
+R50	located_in Arg1:T85 Arg2:T84	
+R51	located_in Arg1:T86 Arg2:T84	
+R52	located_in Arg1:T87 Arg2:T84	
+R53	located_in Arg1:T116 Arg2:T84	
+R54	located_in Arg1:T97 Arg2:T100	
+R55	located_in Arg1:T97 Arg2:T101	
+R56	located_in Arg1:T98 Arg2:T100	
+R57	located_in Arg1:T98 Arg2:T101	
+R58	located_in Arg1:T99 Arg2:T100	
+R59	located_in Arg1:T99 Arg2:T101	

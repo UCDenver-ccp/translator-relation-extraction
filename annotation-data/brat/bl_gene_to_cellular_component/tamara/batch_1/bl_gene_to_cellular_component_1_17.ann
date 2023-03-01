@@ -140,3 +140,21 @@ T139	gene 3520 3523	p65
 T140	gene 3525 3540	I kappa B alpha
 T141	gene 3557 3572	I kappa B alpha
 T142	gene 3625 3634	claudin-5
+R1	located_in Arg1:T2 Arg2:T1	
+T143	missed_cellular_component 138 152	focal adhesion
+R2	located_in Arg1:T6 Arg2:T143	
+R3	located_in Arg1:T12 Arg2:T11	
+R4	located_in Arg1:T17 Arg2:T16	
+T144	missed_cellular_component 561 572	kinetochore
+R5	located_in Arg1:T19 Arg2:T144	
+R6	located_in Arg1:T22 Arg2:T21	
+R7	located_in Arg1:T22 Arg2:T23	
+R8	located_in Arg1:T32 Arg2:T31	
+R9	located_in Arg1:T33 Arg2:T31	
+R10	located_in Arg1:T34 Arg2:T31	
+R11	located_in Arg1:T39 Arg2:T38	
+R12	located_in Arg1:T40 Arg2:T38	
+R13	located_in Arg1:T125 Arg2:T124	
+R14	located_in Arg1:T127 Arg2:T126	
+R15	located_in Arg1:T129 Arg2:T130	
+T145	DONE 3660 3664	DONE

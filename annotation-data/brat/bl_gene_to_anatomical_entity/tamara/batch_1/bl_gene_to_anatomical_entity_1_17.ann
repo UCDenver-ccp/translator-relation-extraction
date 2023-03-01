@@ -112,3 +112,93 @@ T111	gene 2730 2738	glucagon
 T112	gene 2768 2775	insulin
 T113	anatomical_site 2776 2781	serum
 T114	anatomical_site 2785 2799	adipose tissue
+R1	located_in Arg1:T1 Arg2:T4	
+R2	located_in Arg1:T1 Arg2:T5	
+R3	located_in Arg1:T1 Arg2:T6	
+R4	located_in Arg1:T1 Arg2:T7	
+R5	located_in Arg1:T2 Arg2:T4	
+R6	located_in Arg1:T2 Arg2:T5	
+R7	located_in Arg1:T2 Arg2:T6	
+R8	located_in Arg1:T2 Arg2:T7	
+R9	located_in Arg1:T14 Arg2:T13	
+R10	located_in Arg1:T16 Arg2:T15	
+R11	located_in Arg1:T24 Arg2:T29	
+R12	located_in Arg1:T25 Arg2:T29	
+R13	located_in Arg1:T26 Arg2:T29	
+R14	located_in Arg1:T27 Arg2:T29	
+R15	located_in Arg1:T28 Arg2:T29	
+T115	corrected_anatomical_site 1147 1158	skin tissue
+R18	located_in Arg1:T47 Arg2:T115	
+R19	located_in Arg1:T51 Arg2:T52	
+R20	located_in Arg1:T51 Arg2:T53	
+R21	located_in Arg1:T51 Arg2:T54	
+R22	located_in Arg1:T55 Arg2:T56	
+R23	located_in Arg1:T55 Arg2:T57	
+R24	located_in Arg1:T55 Arg2:T58	
+R25	located_in Arg1:T71 Arg2:T74	
+R26	located_in Arg1:T71 Arg2:T75	
+R27	located_in Arg1:T72 Arg2:T74	
+R28	located_in Arg1:T72 Arg2:T75	
+R29	located_in Arg1:T76 Arg2:T80	
+R30	located_in Arg1:T76 Arg2:T81	
+R31	located_in Arg1:T77 Arg2:T80	
+R32	located_in Arg1:T77 Arg2:T81	
+R33	located_in Arg1:T78 Arg2:T80	
+R34	located_in Arg1:T78 Arg2:T81	
+R35	located_in Arg1:T79 Arg2:T80	
+R36	located_in Arg1:T79 Arg2:T81	
+T116	missed_gene 2044 2050	Wnt10b
+T117	corrected_gene 2052 2066	Sonic hedgehog
+R37	located_in Arg1:T116 Arg2:T88	
+R38	located_in Arg1:T117 Arg2:T88	
+R39	located_in Arg1:T85 Arg2:T88	
+R40	located_in Arg1:T86 Arg2:T88	
+R41	located_in Arg1:T87 Arg2:T88	
+T118	corrected_anatomical_site 2294 2307	kidney tissue
+R42	located_in Arg1:T90 Arg2:T118	
+R43	located_in Arg1:T91 Arg2:T118	
+R44	located_in Arg1:T92 Arg2:T118	
+R45	located_in Arg1:T93 Arg2:T118	
+T119	corrected_anatomical_site 2316 2330	femoral muscle
+R46	located_in Arg1:T97 Arg2:T119	
+T120	corrected_anatomical_site 2558 2568	PCa tissue
+T121	corrected_anatomical_site 2577 2597	paracancerous tissue
+R47	located_in Arg1:T102 Arg2:T120	
+R48	located_in Arg1:T102 Arg2:T121	
+T122	corrected_anatomical_site 2614 2638	hair follicle epithelium
+R49	located_in Arg1:T107 Arg2:T122	
+R50	located_in Arg1:T108 Arg2:T122	
+R51	located_in Arg1:T109 Arg2:T122	
+T123	missed_gene 649 652	Rx1
+R16	located_in Arg1:T123 Arg2:T35	
+#1	AnnotatorNotes R16	Okay?
+R17	located_in Arg1:T30 Arg2:T35	
+#2	AnnotatorNotes R17	Okay?
+R52	located_in Arg1:T31 Arg2:T35	
+#3	AnnotatorNotes R52	Okay?
+R53	located_in Arg1:T32 Arg2:T35	
+#4	AnnotatorNotes R53	Okay?
+R54	located_in Arg1:T33 Arg2:T35	
+#5	AnnotatorNotes R54	Okay?
+R55	located_in Arg1:T34 Arg2:T35	
+#6	AnnotatorNotes R55	Okay?
+R56	located_in Arg1:T123 Arg2:T36	
+#7	AnnotatorNotes R56	Okay?
+R57	located_in Arg1:T30 Arg2:T36	
+#8	AnnotatorNotes R57	Okay?
+R58	located_in Arg1:T31 Arg2:T36	
+#9	AnnotatorNotes R58	Okay?
+R59	located_in Arg1:T32 Arg2:T36	
+#10	AnnotatorNotes R59	Okay?
+R60	located_in Arg1:T33 Arg2:T36	
+#11	AnnotatorNotes R60	Okay?
+R61	located_in Arg1:T34 Arg2:T36	
+#12	AnnotatorNotes R61	Okay?
+T124	missed_gene 956 981	alpha-smooth muscle actin
+R62	located_in Arg1:T124 Arg2:T44	
+T125	missed_gene 983 1014	connective tissue growth factor
+R63	located_in Arg1:T125 Arg2:T45	
+R64	located_in Arg1:T39 Arg2:T37	
+#13	AnnotatorNotes R64	Okay?
+R65	located_in Arg1:T39 Arg2:T38	
+#14	AnnotatorNotes R65	Okay?

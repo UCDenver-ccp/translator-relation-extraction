@@ -141,3 +141,9 @@ T140	gene 4168 4194	glycogen synthase kinase 3
 T141	gene 4197 4201	GSK3
 T142	gene 4205 4210	Bcl-2
 T143	gene 4236 4239	Bax
+R1	located_in Arg1:T2 Arg2:T1	
+T144	missed_gene 63 68	HvALP
+R2	located_in Arg1:T144 Arg2:T1	
+T145	corrected_gene 224 236	Cdc42 GTPase
+R3	located_in Arg1:T145 Arg2:T7	
+R4	located_in Arg1:T6 Arg2:T7	

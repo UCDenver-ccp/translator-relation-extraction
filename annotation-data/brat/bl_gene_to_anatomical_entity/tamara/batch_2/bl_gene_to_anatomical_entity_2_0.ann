@@ -121,3 +121,120 @@ T120	gene 2783 2790	ONECUT1
 T121	anatomical_site 2857 2862	liver
 T122	anatomical_site 2864 2872	pancreas
 T123	anatomical_site 2877 2883	kidney
+T124	missed_anatomical_site 105 110	brain
+R1	located_in Arg1:T4 Arg2:T124	
+R2	located_in Arg1:T5 Arg2:T124	
+T125	missed_gene 266 269	OPN
+R3	located_in Arg1:T125 Arg2:T10	
+T126	missed_gene 347 351	IL-2
+R4	located_in Arg1:T12 Arg2:T11	
+R5	located_in Arg1:T13 Arg2:T11	
+R6	located_in Arg1:T14 Arg2:T11	
+R7	located_in Arg1:T15 Arg2:T11	
+R8	located_in Arg1:T126 Arg2:T11	
+R9	located_in Arg1:T44 Arg2:T41	
+R10	located_in Arg1:T43 Arg2:T41	
+T127	corrected_gene 967 982	Type I collagen
+R11	located_in Arg1:T127 Arg2:T41	
+R12	located_in Arg1:T45 Arg2:T46	
+R13	located_in Arg1:T45 Arg2:T47	
+R14	located_in Arg1:T45 Arg2:T48	
+T128	corrected_anatomical_site 1191 1203	brain tissue
+R15	located_in Arg1:T51 Arg2:T128	
+R16	located_in Arg1:T52 Arg2:T128	
+T129	corrected_gene 1231 1241	Sortilin 1
+R17	located_in Arg1:T129 Arg2:T63	
+R18	located_in Arg1:T129 Arg2:T62	
+R19	located_in Arg1:T129 Arg2:T61	
+R20	located_in Arg1:T129 Arg2:T60	
+R21	located_in Arg1:T129 Arg2:T59	
+R22	located_in Arg1:T129 Arg2:T58	
+R23	located_in Arg1:T129 Arg2:T57	
+R24	located_in Arg1:T56 Arg2:T57	
+R25	located_in Arg1:T56 Arg2:T58	
+R26	located_in Arg1:T56 Arg2:T59	
+R27	located_in Arg1:T56 Arg2:T60	
+R28	located_in Arg1:T56 Arg2:T61	
+R29	located_in Arg1:T56 Arg2:T62	
+R30	located_in Arg1:T56 Arg2:T63	
+R31	located_in Arg1:T64 Arg2:T66	
+R32	located_in Arg1:T65 Arg2:T66	
+T130	missed_gene 1571 1579	HLA-DQA1
+T131	missed_gene 1581 1589	HLA-DQB1
+T132	missed_gene 1591 1594	DSP
+T133	missed_gene 1608 1613	GPNMB
+R33	located_in Arg1:T70 Arg2:T76	
+R34	located_in Arg1:T130 Arg2:T76	
+R35	located_in Arg1:T131 Arg2:T76	
+R36	located_in Arg1:T132 Arg2:T76	
+R37	located_in Arg1:T71 Arg2:T77	
+R38	located_in Arg1:T133 Arg2:T77	
+R39	located_in Arg1:T72 Arg2:T77	
+R40	located_in Arg1:T73 Arg2:T77	
+R41	located_in Arg1:T74 Arg2:T77	
+R42	located_in Arg1:T75 Arg2:T77	
+R43	located_in Arg1:T79 Arg2:T78	
+R44	located_in Arg1:T83 Arg2:T84	
+R45	located_in Arg1:T82 Arg2:T84	
+T134	corrected_gene 2080 2098	orexin-2 receptors
+T135	corrected_gene 2107 2125	orexin-1 receptors
+R46	located_in Arg1:T135 Arg2:T94	
+R47	located_in Arg1:T134 Arg2:T94	
+R48	located_in Arg1:T95 Arg2:T96	
+R49	located_in Arg1:T95 Arg2:T97	
+R50	located_in Arg1:T95 Arg2:T98	
+T136	corrected_anatomical_site 2287 2308	fetal chorionic villi
+R51	located_in Arg1:T99 Arg2:T136	
+R52	located_in Arg1:T99 Arg2:T102	
+T137	missed_anatomical_site 2402 2418	pleural effusion
+R54	located_in Arg1:T104 Arg2:T137	
+T139	missed_gene 2424 2435	B-J protein
+R55	located_in Arg1:T139 Arg2:T106	
+R56	located_in Arg1:T108 Arg2:T110	
+R57	located_in Arg1:T109 Arg2:T110	
+T140	corrected_gene 2569 2612	caudal type homeobox transcription factor 2
+T141	missed_anatomical_site 2614 2620	midgut
+T142	missed_gene 2633 2651	ISL LIM homeobox 1
+T143	missed_gene 2663 2675	paired box 8
+R58	located_in Arg1:T111 Arg2:T141	
+R59	located_in Arg1:T140 Arg2:T141	
+R60	located_in Arg1:T113 Arg2:T115	
+R61	located_in Arg1:T142 Arg2:T115	
+R62	located_in Arg1:T114 Arg2:T116	
+R63	located_in Arg1:T143 Arg2:T116	
+T146	corrected_gene 2760 2764;2766 2767	FOXA 2
+T148	corrected_gene 2783 2789;2791 2792	ONECUT 2
+T144	corrected_gene 2751 2756	HNF1?
+T145	corrected_gene 2751 2755;2757 2758	HNF1 ?
+T149	corrected_gene 2771 2775;2777 2778	HNF4 ?
+T150	corrected_gene 2771 2776	HNF4?
+R64	located_in Arg1:T148 Arg2:T123	
+R65	located_in Arg1:T148 Arg2:T122	
+R66	located_in Arg1:T148 Arg2:T121	
+R67	located_in Arg1:T120 Arg2:T121	
+R68	located_in Arg1:T120 Arg2:T122	
+R69	located_in Arg1:T120 Arg2:T123	
+R70	located_in Arg1:T149 Arg2:T121	
+R71	located_in Arg1:T149 Arg2:T122	
+R72	located_in Arg1:T149 Arg2:T123	
+R73	located_in Arg1:T150 Arg2:T121	
+R74	located_in Arg1:T150 Arg2:T122	
+R75	located_in Arg1:T150 Arg2:T123	
+T151	corrected_gene 2760 2764;2768 2769	FOXA 3
+R76	located_in Arg1:T151 Arg2:T123	
+R77	located_in Arg1:T151 Arg2:T122	
+R78	located_in Arg1:T151 Arg2:T121	
+R79	located_in Arg1:T146 Arg2:T123	
+R80	located_in Arg1:T146 Arg2:T122	
+R81	located_in Arg1:T146 Arg2:T121	
+R82	located_in Arg1:T118 Arg2:T121	
+R83	located_in Arg1:T118 Arg2:T122	
+R84	located_in Arg1:T118 Arg2:T123	
+R85	located_in Arg1:T145 Arg2:T123	
+R86	located_in Arg1:T145 Arg2:T122	
+R87	located_in Arg1:T145 Arg2:T121	
+R88	located_in Arg1:T144 Arg2:T121	
+R89	located_in Arg1:T144 Arg2:T122	
+R90	located_in Arg1:T144 Arg2:T123	
+R53	located_in Arg1:T104 Arg2:T105	
+#1	AnnotatorNotes T106	do we mark it? 

@@ -119,3 +119,74 @@ T118	anatomical_site 3194 3199	liver
 T119	anatomical_site 3204 3218	adipose tissue
 T120	gene 3236 3243	insulin
 T121	anatomical_site 3263 3269	muscle
+T122	missed_anatomical_site 251 259	prostate
+R1	located_in Arg1:T5 Arg2:T122	
+R2	located_in Arg1:T4 Arg2:T122	
+R3	located_in Arg1:T6 Arg2:T7	
+R4	located_in Arg1:T6 Arg2:T8	
+R5	located_in Arg1:T6 Arg2:T9	
+R6	located_in Arg1:T6 Arg2:T10	
+R7	located_in Arg1:T11 Arg2:T12	
+R8	located_in Arg1:T11 Arg2:T13	
+T123	missed_anatomical_site 377 386	esophagus
+R9	located_in Arg1:T14 Arg2:T123	
+R10	located_in Arg1:T14 Arg2:T15	
+R11	located_in Arg1:T14 Arg2:T16	
+R12	located_in Arg1:T14 Arg2:T17	
+R13	located_in Arg1:T18 Arg2:T19	
+R14	located_in Arg1:T18 Arg2:T20	
+R15	located_in Arg1:T18 Arg2:T21	
+T124	missed_anatomical_site 449 455	tonsil
+R16	located_in Arg1:T18 Arg2:T124	
+T125	missed_gene 457 462	KLK13
+T126	missed_anatomical_site 466 475	esophagus
+T127	missed_anatomical_site 480 486	tonsil
+R17	located_in Arg1:T125 Arg2:T126	
+R18	located_in Arg1:T125 Arg2:T127	
+T128	corrected_anatomical_site 609 621	brain tissue
+R19	located_in Arg1:T23 Arg2:T128	
+R20	located_in Arg1:T22 Arg2:T128	
+T129	corrected_gene 1273 1290	myostatin protein
+T130	corrected_anatomical_site 1345 1357	heart tissue
+R21	located_in Arg1:T129 Arg2:T130	
+R22	located_in Arg1:T51 Arg2:T52	
+R23	located_in Arg1:T51 Arg2:T53	
+T131	missed_gene 1473 1478	FANCL
+T132	missed_gene 1489 1513	testis-specific proteins
+R24	located_in Arg1:T131 Arg2:T55	
+R25	located_in Arg1:T132 Arg2:T55	
+R26	located_in Arg1:T56 Arg2:T55	
+T133	corrected_gene 1521 1544	gametogenetin protein 1
+R27	located_in Arg1:T133 Arg2:T55	
+R28	located_in Arg1:T58 Arg2:T55	
+R29	located_in Arg1:T59 Arg2:T55	
+R30	located_in Arg1:T60 Arg2:T55	
+R31	located_in Arg1:T61 Arg2:T55	
+T134	missed_gene 1606 1640	ornithine decarboxylase antizyme 3
+R32	located_in Arg1:T134 Arg2:T55	
+R33	located_in Arg1:T64 Arg2:T65	
+R34	located_in Arg1:T63 Arg2:T65	
+T135	corrected_anatomical_site 1949 1967	luminal epithelium
+T136	corrected_anatomical_site 1935 1944;1957 1967	glandular epithelium
+R35	located_in Arg1:T68 Arg2:T136	
+R36	located_in Arg1:T68 Arg2:T135	
+R37	located_in Arg1:T69 Arg2:T136	
+R38	located_in Arg1:T69 Arg2:T135	
+R39	located_in Arg1:T71 Arg2:T73	
+R40	located_in Arg1:T72 Arg2:T73	
+R41	located_in Arg1:T71 Arg2:T74	
+R42	located_in Arg1:T72 Arg2:T74	
+R43	located_in Arg1:T75 Arg2:T76	
+R44	located_in Arg1:T75 Arg2:T77	
+R45	located_in Arg1:T75 Arg2:T78	
+R46	located_in Arg1:T82 Arg2:T84	
+R47	located_in Arg1:T83 Arg2:T84	
+R48	located_in Arg1:T85 Arg2:T86	
+R49	located_in Arg1:T94 Arg2:T96	
+R50	located_in Arg1:T95 Arg2:T96	
+T137	corrected_anatomical_site 2772 2783	lung tissue
+R51	located_in Arg1:T99 Arg2:T137	
+R52	located_in Arg1:T98 Arg2:T137	
+R53	located_in Arg1:T97 Arg2:T137	
+#1	AnnotatorNotes R1	Okay?
+#2	AnnotatorNotes R2	Okay?

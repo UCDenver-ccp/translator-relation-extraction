@@ -145,10 +145,8 @@ T129	missed_gene 2660 2681	pS6-ribosomal-protein
 T130	missed_gene 2683 2687	pS6K
 R17	located_in Arg1:T129 Arg2:T101	
 R18	located_in Arg1:T130 Arg2:T101	
-T131	corrected_gene 3258 3259;3262 3269	p 44 MAPK
-R19	located_in Arg1:T131 Arg2:T119	
-R20	located_in Arg1:T131 Arg2:T119	
 T132	corrected_gene 3237 3240;3244 3248	p42 MAPK
 R21	located_in Arg1:T132 Arg2:T119	
 T133	corrected_gene 3237 3238;3241 3248	p 44 MAPK
 R22	located_in Arg1:T133 Arg2:T119	
+T131	DONE 3408 3412	DONE

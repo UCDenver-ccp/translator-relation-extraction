@@ -111,3 +111,89 @@ T110	gene 2847 2852	IL-18
 T111	gene 2865 2873	clathrin
 T112	gene 2901 2905	AP-1
 T113	gene 2911 2925	angiopoietin-2
+T114	corrected_anatomical_site 278 289	lung tissue
+R1	located_in Arg1:T8 Arg2:T114	
+R2	located_in Arg1:T9 Arg2:T114	
+R3	located_in Arg1:T20 Arg2:T22	
+R4	located_in Arg1:T20 Arg2:T23	
+R5	located_in Arg1:T21 Arg2:T22	
+R6	located_in Arg1:T21 Arg2:T23	
+R7	located_in Arg1:T27 Arg2:T28	
+R8	located_in Arg1:T27 Arg2:T29	
+R9	located_in Arg1:T27 Arg2:T30	
+T115	corrected_gene 994 1008	CD103 integrin
+R10	located_in Arg1:T115 Arg2:T43	
+R11	located_in Arg1:T42 Arg2:T43	
+T116	corrected_anatomical_site 1755 1768;1787 1802	posterodorsal medial amygdala
+T117	missed_anatomical_site 1804 1808	MePD
+R12	located_in Arg1:T61 Arg2:T116	
+R13	located_in Arg1:T62 Arg2:T116	
+R14	located_in Arg1:T61 Arg2:T117	
+R15	located_in Arg1:T62 Arg2:T117	
+R16	located_in Arg1:T71 Arg2:T70	
+R17	located_in Arg1:T71 Arg2:T69	
+R18	located_in Arg1:T71 Arg2:T68	
+R19	located_in Arg1:T71 Arg2:T67	
+T118	corrected_gene 2062 2085	estrogen receptor-alpha
+R20	located_in Arg1:T72 Arg2:T77	
+T119	missed_anatomical_site 2153 2173	reproductive tissues
+R21	located_in Arg1:T118 Arg2:T77	
+R22	located_in Arg1:T74 Arg2:T77	
+R23	located_in Arg1:T75 Arg2:T77	
+R24	located_in Arg1:T76 Arg2:T77	
+R25	located_in Arg1:T76 Arg2:T119	
+R26	located_in Arg1:T75 Arg2:T119	
+R27	located_in Arg1:T74 Arg2:T119	
+R28	located_in Arg1:T118 Arg2:T119	
+R29	located_in Arg1:T72 Arg2:T119	
+R30	located_in Arg1:T72 Arg2:T78	
+R31	located_in Arg1:T72 Arg2:T79	
+R32	located_in Arg1:T118 Arg2:T78	
+R33	located_in Arg1:T118 Arg2:T79	
+R34	located_in Arg1:T74 Arg2:T78	
+R35	located_in Arg1:T74 Arg2:T79	
+R36	located_in Arg1:T75 Arg2:T78	
+R37	located_in Arg1:T75 Arg2:T79	
+R38	located_in Arg1:T76 Arg2:T78	
+R39	located_in Arg1:T76 Arg2:T79	
+R40	located_in Arg1:T85 Arg2:T84	
+T120	corrected_gene 2328 2334	Ugt2b1
+T121	missed_gene 2336 2343	Ugt1a6a
+R41	located_in Arg1:T120 Arg2:T84	
+R42	located_in Arg1:T121 Arg2:T84	
+R43	located_in Arg1:T87 Arg2:T84	
+R44	located_in Arg1:T88 Arg2:T84	
+R45	located_in Arg1:T89 Arg2:T84	
+T122	corrected_anatomical_site 2423 2439	optic nerve head
+T123	missed_gene 2496 2504	S100beta
+R46	located_in Arg1:T93 Arg2:T90	
+R47	located_in Arg1:T93 Arg2:T122	
+R48	located_in Arg1:T123 Arg2:T90	
+R49	located_in Arg1:T123 Arg2:T122	
+R50	located_in Arg1:T94 Arg2:T90	
+R51	located_in Arg1:T94 Arg2:T122	
+R52	located_in Arg1:T95 Arg2:T90	
+R53	located_in Arg1:T95 Arg2:T122	
+T124	missed_gene 2725 2749;2755 2757	bone morphologic protein -7
+T125	corrected_gene 2751 2754;2755 2757	BMP -7
+R54	located_in Arg1:T124 Arg2:T104	
+R55	located_in Arg1:T125 Arg2:T104	
+R56	located_in Arg1:T106 Arg2:T104	
+T126	corrected_anatomical_site 2707 2723	arachnoid tissue
+R57	located_in Arg1:T124 Arg2:T126	
+R58	located_in Arg1:T125 Arg2:T126	
+R59	located_in Arg1:T106 Arg2:T126	
+R60	located_in Arg1:T107 Arg2:T126	
+R61	located_in Arg1:T108 Arg2:T126	
+R62	located_in Arg1:T109 Arg2:T126	
+R63	located_in Arg1:T110 Arg2:T126	
+R64	located_in Arg1:T112 Arg2:T126	
+R65	located_in Arg1:T113 Arg2:T126	
+R66	located_in Arg1:T45 Arg2:T44	
+R67	located_in Arg1:T14 Arg2:T16	
+R68	located_in Arg1:T14 Arg2:T17	
+R69	located_in Arg1:T15 Arg2:T16	
+R70	located_in Arg1:T15 Arg2:T17	
+#1	AnnotatorNotes R11	Okay?
+#2	AnnotatorNotes R10	Okay?
+#3	AnnotatorNotes R66	Okay?

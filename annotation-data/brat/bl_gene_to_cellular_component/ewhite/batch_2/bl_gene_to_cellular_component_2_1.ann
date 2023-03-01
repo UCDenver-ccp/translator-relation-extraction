@@ -120,3 +120,40 @@ T119	gene 3137 3142	ezrin
 T120	gene 3144 3151	radixin
 T121	gene 3153 3159	moesin
 T122	cellular_component 3200 3212	cytoskeleton
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T26 Arg2:T27	
+R3	located_in Arg1:T25 Arg2:T27	
+R4	located_in Arg1:T24 Arg2:T27	
+R5	located_in Arg1:T39 Arg2:T38	
+R6	located_in Arg1:T39 Arg2:T37	
+T123	corrected_cellular_component 1119 1141	intracellular vesicles
+R7	located_in Arg1:T36 Arg2:T123	
+R8	located_in Arg1:T44 Arg2:T43	
+R9	located_in Arg1:T45 Arg2:T43	
+T124	corrected_cellular_component 1506 1521	apical membrane
+R10	located_in Arg1:T54 Arg2:T124	
+R11	located_in Arg1:T53 Arg2:T124	
+R12	located_in Arg1:T57 Arg2:T56	
+R13	located_in Arg1:T63 Arg2:T62	
+R14	located_in Arg1:T64 Arg2:T62	
+R15	located_in Arg1:T82 Arg2:T81	
+T125	corrected_gene 2237 2245	pro-BDNF
+R16	located_in Arg1:T125 Arg2:T81	
+T126	corrected_gene 2716 2749	65,000 calmodulin-binding protein
+T127	corrected_gene 2751 2758	65-CMBP
+T128	missed_gene 2792 2795	SV2
+R17	located_in Arg1:T128 Arg2:T98	
+R18	located_in Arg1:T102 Arg2:T98	
+R19	located_in Arg1:T126 Arg2:T98	
+R20	located_in Arg1:T127 Arg2:T98	
+R21	located_in Arg1:T100 Arg2:T98	
+R22	located_in Arg1:T101 Arg2:T98	
+R23	located_in Arg1:T126 Arg2:T97	
+R24	located_in Arg1:T127 Arg2:T97	
+R25	located_in Arg1:T100 Arg2:T97	
+R26	located_in Arg1:T101 Arg2:T97	
+R27	located_in Arg1:T128 Arg2:T97	
+R28	located_in Arg1:T102 Arg2:T97	
+#1	AnnotatorNotes R2	more relations?
+#2	AnnotatorNotes R3	more relations?
+#3	AnnotatorNotes R4	more relations?

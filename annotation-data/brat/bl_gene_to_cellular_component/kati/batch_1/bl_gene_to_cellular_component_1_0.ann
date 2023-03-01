@@ -47,7 +47,7 @@ T46	gene 1210 1213	p38
 T47	gene 1214 1218	MAPK
 T48	gene 1220 1235	Leptin receptor
 T49	cellular_component 1284 1293	cytosolic
-T50	gene 1344 1348	STAT
+T50	gene 1344 1348;1350 1358	STAT proteins
 T51	gene 1392 1397	STAT3
 T52	gene 1401 1406	STAT3
 T53	gene 1430 1434	CDK2
@@ -135,7 +135,7 @@ R5	located_in Arg1:T15 Arg2:T130
 R6	located_in Arg1:T16 Arg2:T130	
 R7	located_in Arg1:T18 Arg2:T17	
 R8	located_in Arg1:T20 Arg2:T19	
-T131	missed_gene 1294 1342	signal transducer and activator of transcription
+T131	missed_gene 1294 1342;1350 1358	signal transducer and activator of transcription proteins
 R9	located_in Arg1:T131 Arg2:T49	
 R10	located_in Arg1:T50 Arg2:T49	
 R11	located_in Arg1:T51 Arg2:T49	
@@ -161,3 +161,17 @@ R23	located_in Arg1:T137 Arg2:T136
 R24	located_in Arg1:T124 Arg2:T123	
 T138	missed_gene 3834 3846	ion channels
 R25	located_in Arg1:T138 Arg2:T128	
+R26	located_in Arg1:T52 Arg2:T49	
+T139	corrected_gene 1565 1588	CDK2 inhibitory protein
+R27	located_in Arg1:T139 Arg2:T59	
+T140	missed_gene 1627 1652	chloride channel proteins
+R28	located_in Arg1:T140 Arg2:T60	
+T141	corrected_cellular_component 2468 2489	gap junction membrane
+T142	missed_gene 2468 2505	gap junction membrane channel protein
+R29	located_in Arg1:T142 Arg2:T141	
+T143	missed_gene 3550 3583	Cdh23 cytoplasmic binding protein
+R30	located_in Arg1:T143 Arg2:T123	
+R31	located_in Arg1:T122 Arg2:T123	
+R32	located_in Arg1:T126 Arg2:T127	
+T144	missed_gene 3710 3723	alpha-actinin
+R33	located_in Arg1:T144 Arg2:T127	

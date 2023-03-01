@@ -123,3 +123,60 @@ T122	anatomical_site 3215 3221	kidney
 T123	gene 3223 3229	Nestin
 T124	anatomical_site 3279 3285	neural
 T125	anatomical_site 3290 3301	mesenchymal
+T126	corrected_anatomical_site 159 164	brain
+R1	located_in Arg1:T7 Arg2:T126	
+T127	corrected_anatomical_site 619 629;643 647	trabecular bone
+R2	located_in Arg1:T19 Arg2:T127	
+R3	located_in Arg1:T19 Arg2:T22	
+R4	located_in Arg1:T20 Arg2:T127	
+R5	located_in Arg1:T20 Arg2:T22	
+R6	located_in Arg1:T24 Arg2:T23	
+R7	located_in Arg1:T25 Arg2:T23	
+R8	located_in Arg1:T26 Arg2:T23	
+R9	located_in Arg1:T27 Arg2:T28	
+R10	located_in Arg1:T27 Arg2:T29	
+R11	located_in Arg1:T33 Arg2:T34	
+T128	corrected_gene 1013 1039	brain-derived nerve factor
+R12	located_in Arg1:T128 Arg2:T39	
+R13	located_in Arg1:T41 Arg2:T39	
+T129	missed_anatomical_site 1261 1274	parotid gland
+R14	located_in Arg1:T50 Arg2:T48	
+R15	located_in Arg1:T51 Arg2:T49	
+R16	located_in Arg1:T52 Arg2:T129	
+R17	located_in Arg1:T50 Arg2:T49	
+R18	located_in Arg1:T50 Arg2:T129	
+R19	located_in Arg1:T51 Arg2:T48	
+R20	located_in Arg1:T51 Arg2:T129	
+R21	located_in Arg1:T52 Arg2:T49	
+R22	located_in Arg1:T52 Arg2:T48	
+R23	located_in Arg1:T53 Arg2:T54	
+R24	located_in Arg1:T53 Arg2:T55	
+R25	located_in Arg1:T56 Arg2:T57	
+R26	located_in Arg1:T62 Arg2:T63	
+R27	located_in Arg1:T64 Arg2:T66	
+R28	located_in Arg1:T65 Arg2:T66	
+T130	corrected_anatomical_site 1942 1955	kidney tissue
+R29	located_in Arg1:T68 Arg2:T130	
+R30	located_in Arg1:T79 Arg2:T78	
+R31	located_in Arg1:T80 Arg2:T78	
+T131	corrected_anatomical_site 2313 2324	lung tissue
+R32	located_in Arg1:T83 Arg2:T131	
+R33	located_in Arg1:T82 Arg2:T131	
+R34	located_in Arg1:T87 Arg2:T86	
+R35	located_in Arg1:T103 Arg2:T105	
+R36	located_in Arg1:T104 Arg2:T105	
+R37	located_in Arg1:T106 Arg2:T109	
+R38	located_in Arg1:T107 Arg2:T109	
+R39	located_in Arg1:T108 Arg2:T109	
+T132	missed_gene 3180 3183	V2R
+R40	located_in Arg1:T119 Arg2:T122	
+R41	located_in Arg1:T132 Arg2:T122	
+R42	located_in Arg1:T120 Arg2:T122	
+R43	located_in Arg1:T121 Arg2:T122	
+R44	located_in Arg1:T123 Arg2:T124	
+R45	located_in Arg1:T123 Arg2:T125	
+R46	located_in Arg1:T7 Arg2:T6	
+#1	AnnotatorNotes R32	Okay?
+#2	AnnotatorNotes R33	Okay?
+#3	AnnotatorNotes R45	Okay?
+#4	AnnotatorNotes R44	Okay?

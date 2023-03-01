@@ -93,7 +93,6 @@ T90	missed_gene 225 228	neu
 R3	located_in Arg1:T90 Arg2:T11	
 R4	located_in Arg1:T17 Arg2:T18	
 R5	located_in Arg1:T16 Arg2:T18	
-R6	located_in Arg1:T30 Arg2:T28	
 T91	missed_gene 1238 1243	CYCD5
 R7	located_in Arg1:T91 Arg2:T52	
 T92	corrected_gene 1127 1134	CYCD2;1
@@ -115,3 +114,5 @@ R18	located_in Arg1:T77 Arg2:T96
 T97	corrected_cellular_component 2292 2312	cytoplasmic granules
 T98	corrected_gene 2273 2280	L1 ORF1
 R19	located_in Arg1:T98 Arg2:T97	
+T99	corrected_gene 611 626	alpha4 integrin
+R6	located_in Arg1:T99 Arg2:T28	

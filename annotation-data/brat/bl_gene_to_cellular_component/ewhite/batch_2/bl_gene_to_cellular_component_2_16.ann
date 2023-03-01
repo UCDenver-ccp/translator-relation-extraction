@@ -129,3 +129,26 @@ T128	gene 3750 3754	Pyk2
 T129	gene 3756 3764	paxillin
 T130	gene 3770 3778	CDC42, a
 T131	cellular_component 3798 3806	podosome
+R1	located_in Arg1:T31 Arg2:T32	
+T132	missed_gene 825 829	PARC
+R2	located_in Arg1:T132 Arg2:T32	
+R3	located_in Arg1:T30 Arg2:T32	
+R4	located_in Arg1:T44 Arg2:T43	
+R5	located_in Arg1:T45 Arg2:T43	
+T133	corrected_gene 2134 2148	alpha-integrin
+R6	located_in Arg1:T133 Arg2:T78	
+R7	located_in Arg1:T133 Arg2:T79	
+R8	located_in Arg1:T81 Arg2:T80	
+R9	located_in Arg1:T89 Arg2:T88	
+R10	located_in Arg1:T90 Arg2:T88	
+T134	missed_gene 2651 2678	Calmodulin-binding proteins
+T135	corrected_cellular_component 2694 2714	microsomal membranes
+R11	located_in Arg1:T134 Arg2:T135	
+R12	located_in Arg1:T134 Arg2:T93	
+R13	located_in Arg1:T104 Arg2:T105	
+#1	AnnotatorNotes R13	mutant proteins should not be annotated?
+R14	located_in Arg1:T108 Arg2:T107	
+R15	located_in Arg1:T109 Arg2:T107	
+T136	missed_cellular_component 3203 3211	caveolae
+R16	located_in Arg1:T108 Arg2:T136	
+R17	located_in Arg1:T109 Arg2:T136	

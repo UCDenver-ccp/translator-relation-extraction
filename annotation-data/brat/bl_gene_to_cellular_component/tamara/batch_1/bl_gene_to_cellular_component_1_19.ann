@@ -110,3 +110,40 @@ T109	cellular_component 3036 3045	nucleolar
 T110	cellular_component 3046 3059	nucleoplasmic
 T111	gene 3111 3116	XRCC1
 T112	gene 3140 3145	PARP1
+R1	located_in Arg1:T8 Arg2:T7	
+R2	located_in Arg1:T9 Arg2:T7	
+T113	missed_cellular_component 278 285	nuclear
+R3	located_in Arg1:T11 Arg2:T113	
+R4	located_in Arg1:T10 Arg2:T113	
+T114	missed_gene 211 214	ARF
+R5	located_in Arg1:T114 Arg2:T7	
+R6	located_in Arg1:T33 Arg2:T34	
+R7	located_in Arg1:T39 Arg2:T40	
+R8	located_in Arg1:T38 Arg2:T40	
+R9	located_in Arg1:T36 Arg2:T40	
+R10	located_in Arg1:T35 Arg2:T40	
+R11	located_in Arg1:T57 Arg2:T56	
+R12	located_in Arg1:T70 Arg2:T71	
+T115	corrected_gene 1909 1950	receptor for activated protein kinase C 1
+R13	located_in Arg1:T115 Arg2:T71	
+T116	missed_gene 2020 2026	Sec61?
+R14	located_in Arg1:T116 Arg2:T72	
+R15	located_in Arg1:T94 Arg2:T92	
+T117	corrected_gene 2590 2631	vesicle-associated membrane protein VAMP2
+R16	located_in Arg1:T117 Arg2:T92	
+T118	missed_cellular_component 2609 2617	membrane
+R17	located_in Arg1:T94 Arg2:T118	
+R18	located_in Arg1:T117 Arg2:T118	
+R19	located_in Arg1:T99 Arg2:T100	
+R20	located_in Arg1:T98 Arg2:T100	
+R21	located_in Arg1:T97 Arg2:T100	
+T119	missed_gene 2716 2719	ERM
+R22	located_in Arg1:T119 Arg2:T100	
+R23	located_in Arg1:T97 Arg2:T101	
+R24	located_in Arg1:T98 Arg2:T101	
+R25	located_in Arg1:T99 Arg2:T101	
+R26	located_in Arg1:T119 Arg2:T101	
+R27	located_in Arg1:T111 Arg2:T109	
+R28	located_in Arg1:T111 Arg2:T110	
+T120	missed_gene 1655 1686	synaptosomal cytosolic proteins
+R29	located_in Arg1:T120 Arg2:T61	

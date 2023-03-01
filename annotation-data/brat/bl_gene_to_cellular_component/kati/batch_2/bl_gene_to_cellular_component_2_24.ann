@@ -115,3 +115,27 @@ T114	gene 2807 2814	radixin
 T115	gene 2815 2821	moesin
 T116	cellular_component 2838 2853	plasma membrane
 T117	cellular_component 2854 2868	actin filament
+T118	missed_gene 104 137	neuronal specific nuclear protein
+T119	missed_cellular_component 122 129	nuclear
+R1	located_in Arg1:T118 Arg2:T119	
+R2	located_in Arg1:T4 Arg2:T3	
+T120	missed_cellular_component 220 241	intermediate filament
+R3	located_in Arg1:T5 Arg2:T120	
+R4	located_in Arg1:T13 Arg2:T12	
+T121	corrected_gene 963 971	Aurora A
+T122	missed_cellular_component 946 953	spindle
+R5	located_in Arg1:T121 Arg2:T35	
+R6	located_in Arg1:T37 Arg2:T35	
+R7	located_in Arg1:T38 Arg2:T35	
+R8	located_in Arg1:T121 Arg2:T122	
+R9	located_in Arg1:T37 Arg2:T122	
+R10	located_in Arg1:T38 Arg2:T122	
+R11	located_in Arg1:T40 Arg2:T39	
+R12	located_in Arg1:T101 Arg2:T99	
+R13	located_in Arg1:T102 Arg2:T99	
+T123	missed_gene 2433 2436	IAP
+R14	located_in Arg1:T123 Arg2:T99	
+T124	missed_cellular_component 2726 2733	nuclear
+R15	located_in Arg1:T111 Arg2:T124	
+T125	missed_gene 2742 2746	CD44
+R16	located_in Arg1:T125 Arg2:T112	

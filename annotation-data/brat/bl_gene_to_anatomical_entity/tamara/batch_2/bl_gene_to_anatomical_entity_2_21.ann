@@ -127,3 +127,40 @@ T126	anatomical_site 3187 3193	tissue
 T127	gene 3219 3225	Dicer1
 T128	anatomical_site 3238 3244	testis
 T129	anatomical_site 3250 3255	ovary
+T130	missed_gene 202 232	Pulmonary surfactant protein A
+R1	located_in Arg1:T130 Arg2:T8	
+R2	located_in Arg1:T9 Arg2:T8	
+R3	located_in Arg1:T16 Arg2:T17	
+R4	located_in Arg1:T16 Arg2:T18	
+R5	located_in Arg1:T16 Arg2:T19	
+R6	located_in Arg1:T20 Arg2:T17	
+R7	located_in Arg1:T20 Arg2:T18	
+R8	located_in Arg1:T20 Arg2:T19	
+R9	located_in Arg1:T31 Arg2:T32	
+R10	located_in Arg1:T31 Arg2:T33	
+T131	corrected_anatomical_site 908 925	glandular stomach
+R11	located_in Arg1:T31 Arg2:T34	
+R12	located_in Arg1:T31 Arg2:T131	
+R13	located_in Arg1:T31 Arg2:T36	
+R14	located_in Arg1:T37 Arg2:T38	
+R15	located_in Arg1:T50 Arg2:T52	
+R16	located_in Arg1:T50 Arg2:T53	
+R17	located_in Arg1:T51 Arg2:T54	
+R18	located_in Arg1:T55 Arg2:T58	
+R19	located_in Arg1:T56 Arg2:T58	
+R20	located_in Arg1:T57 Arg2:T58	
+R21	located_in Arg1:T55 Arg2:T59	
+R22	located_in Arg1:T56 Arg2:T59	
+R23	located_in Arg1:T57 Arg2:T59	
+R24	located_in Arg1:T60 Arg2:T64	
+R25	located_in Arg1:T61 Arg2:T64	
+R26	located_in Arg1:T80 Arg2:T78	
+R27	located_in Arg1:T80 Arg2:T79	
+R28	located_in Arg1:T105 Arg2:T106	
+R29	located_in Arg1:T105 Arg2:T107	
+R30	located_in Arg1:T108 Arg2:T106	
+R31	located_in Arg1:T108 Arg2:T107	
+#1	AnnotatorNotes R25	Okay?
+#2	AnnotatorNotes R24	Okay?
+#3	AnnotatorNotes R27	Okay?
+#4	AnnotatorNotes R26	Okay?

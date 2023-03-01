@@ -106,3 +106,70 @@ T105	gene 2796 2805	prolactin
 T106	gene 2858 2862	Fhit
 T107	anatomical_site 2892 2898	spleen
 T108	anatomical_site 2903 2908	brain
+R1	located_in Arg1:T41 Arg2:T40	
+R2	located_in Arg1:T59 Arg2:T61	
+R3	located_in Arg1:T60 Arg2:T61	
+R4	located_in Arg1:T63 Arg2:T64	
+R5	located_in Arg1:T63 Arg2:T65	
+R6	located_in Arg1:T67 Arg2:T68	
+R7	located_in Arg1:T67 Arg2:T69	
+T109	missed_gene 2309 2314	eEF2K
+T110	corrected_anatomical_site 2273 2285	brain tissue
+R8	located_in Arg1:T109 Arg2:T110	
+R9	located_in Arg1:T91 Arg2:T110	
+R10	located_in Arg1:T92 Arg2:T110	
+R11	located_in Arg1:T103 Arg2:T102	
+R12	located_in Arg1:T105 Arg2:T104	
+R13	located_in Arg1:T106 Arg2:T107	
+R14	located_in Arg1:T106 Arg2:T108	
+T111	corrected_gene 2453 2483	beta-amyloid precursor protein
+R15	located_in Arg1:T111 Arg2:T97	
+R16	located_in Arg1:T111 Arg2:T98	
+T112	missed_anatomical_site 2665 2673	thalamus
+R18	located_in Arg1:T111 Arg2:T112	
+R19	located_in Arg1:T111 Arg2:T100	
+R20	located_in Arg1:T111 Arg2:T101	
+R21	located_in Arg1:T95 Arg2:T97	
+R22	located_in Arg1:T95 Arg2:T98	
+T113	corrected_anatomical_site 2647 2654	caudate
+T114	corrected_anatomical_site 2656 2663	putamen
+R17	located_in Arg1:T111 Arg2:T113	
+R23	located_in Arg1:T111 Arg2:T114	
+R24	located_in Arg1:T95 Arg2:T113	
+R25	located_in Arg1:T95 Arg2:T114	
+R26	located_in Arg1:T95 Arg2:T112	
+R27	located_in Arg1:T95 Arg2:T100	
+R28	located_in Arg1:T95 Arg2:T101	
+R29	located_in Arg1:T26 Arg2:T28	
+#1	AnnotatorNotes R29	Okay?
+R30	located_in Arg1:T27 Arg2:T28	
+#2	AnnotatorNotes R30	Okay?
+T115	corrected_gene 662 683	adiponectin receptors
+R31	located_in Arg1:T115 Arg2:T30	
+#3	AnnotatorNotes R31	Okay?
+T116	missed_gene 728 737	IFN-gamma
+R32	located_in Arg1:T116 Arg2:T32	
+R33	located_in Arg1:T31 Arg2:T32	
+#4	AnnotatorNotes R33	Okay?
+#5	AnnotatorNotes R32	Okay?
+R34	located_in Arg1:T33 Arg2:T37	
+#6	AnnotatorNotes R34	Okay?
+R35	located_in Arg1:T34 Arg2:T37	
+#7	AnnotatorNotes R35	Okay?
+R36	located_in Arg1:T35 Arg2:T37	
+#8	AnnotatorNotes R36	Okay?
+T117	missed_gene 876 885	IFN-alpha
+R37	located_in Arg1:T117 Arg2:T38	
+#9	AnnotatorNotes R37	Okay?
+T118	missed_gene 19 31	pAKT protein
+#10	AnnotatorNotes T118	do we mark it? 
+R38	located_in Arg1:T1 Arg2:T4	
+#11	AnnotatorNotes R38	Okay?
+R39	located_in Arg1:T2 Arg2:T4	
+#12	AnnotatorNotes R39	Okay?
+R40	located_in Arg1:T3 Arg2:T4	
+#13	AnnotatorNotes R40	Okay?
+R41	located_in Arg1:T118 Arg2:T4	
+#14	AnnotatorNotes R41	Okay?
+R42	located_in Arg1:T86 Arg2:T88	
+R43	located_in Arg1:T87 Arg2:T88	

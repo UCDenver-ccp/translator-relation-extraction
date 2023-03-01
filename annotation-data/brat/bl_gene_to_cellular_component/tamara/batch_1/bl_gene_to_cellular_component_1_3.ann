@@ -126,3 +126,17 @@ T125	gene 3575 3580	HDAC3
 T126	gene 3609 3614	RCAN1
 T127	cellular_component 3650 3663	intracellular
 T128	gene 3680 3685	RCAN1
+R1	located_in Arg1:T66 Arg2:T65	
+R2	located_in Arg1:T77 Arg2:T78	
+R3	located_in Arg1:T76 Arg2:T78	
+R4	located_in Arg1:T74 Arg2:T78	
+T129	missed_gene 2557 2593	mitochondrial aldehyde dehydrogenase
+R5	located_in Arg1:T129 Arg2:T85	
+T130	corrected_gene 2924 2928	Tea1
+R6	located_in Arg1:T130 Arg2:T92	
+T131	corrected_gene 2895 2923	ezrin-radixin-moesin protein
+R7	located_in Arg1:T131 Arg2:T92	
+R8	located_in Arg1:T122 Arg2:T123	
+R9	located_in Arg1:T122 Arg2:T124	
+R10	located_in Arg1:T128 Arg2:T127	
+T132	DONE 3687 3691	DONE

@@ -137,7 +137,6 @@ T136	gene 3387 3392	ErbB3
 T137	gene 3438 3442	DDR1
 T138	cellular_component 3457 3477	extracellular matrix
 T139	gene 3486 3494	collagen
-R1	located_in Arg1:T1 Arg2:T2	
 R2	located_in Arg1:T1 Arg2:T3	
 R3	located_in Arg1:T7 Arg2:T6	
 R4	located_in Arg1:T8 Arg2:T6	
@@ -195,3 +194,8 @@ R46	located_in Arg1:T106 Arg2:T146
 R47	located_in Arg1:T107 Arg2:T146	
 R48	located_in Arg1:T127 Arg2:T128	
 R49	located_in Arg1:T139 Arg2:T138	
+T149	missed_gene 2247 2255	Nesprins
+T150	corrected_gene 2257 2298	Nuclear envelope spectrin-repeat proteins
+R1	located_in Arg1:T150 Arg2:T92	
+R50	located_in Arg1:T149 Arg2:T92	
+T151	DONE 3496 3500	DONE

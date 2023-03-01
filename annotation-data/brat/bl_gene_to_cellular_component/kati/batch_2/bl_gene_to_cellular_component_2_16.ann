@@ -137,3 +137,40 @@ T136	gene 3573 3577	RPL5
 T137	gene 3612 3615	p53
 T138	gene 3635 3639	MDM2
 T139	cellular_component 3650 3659	nucleolar
+R1	located_in Arg1:T1 Arg2:T3	
+T140	missed_gene 422 472	protein kinase R-like endoplasmic reticulum kinase
+R2	located_in Arg1:T140 Arg2:T14	
+T141	missed_gene 474 478	PERK
+R3	located_in Arg1:T141 Arg2:T14	
+T142	missed_gene 739 743	p145
+R4	located_in Arg1:T16 Arg2:T15	
+R5	located_in Arg1:T17 Arg2:T15	
+R6	located_in Arg1:T18 Arg2:T15	
+R7	located_in Arg1:T19 Arg2:T15	
+T143	missed_gene 698 701	Vav
+R8	located_in Arg1:T143 Arg2:T15	
+R9	located_in Arg1:T20 Arg2:T15	
+R10	located_in Arg1:T21 Arg2:T15	
+R11	located_in Arg1:T22 Arg2:T15	
+R12	located_in Arg1:T142 Arg2:T15	
+R13	located_in Arg1:T65 Arg2:T67	
+R14	located_in Arg1:T75 Arg2:T74	
+T144	corrected_gene 1898 1904	BRCA1a
+R15	located_in Arg1:T144 Arg2:T74	
+R16	located_in Arg1:T91 Arg2:T90	
+R17	located_in Arg1:T92 Arg2:T90	
+T145	corrected_gene 2279 2306	calmodulin-binding proteins
+R18	located_in Arg1:T145 Arg2:T90	
+T146	missed_gene 2308 2318	G-proteins
+R19	located_in Arg1:T146 Arg2:T90	
+T147	missed_gene 2324 2355	microtubule-associated proteins
+R20	located_in Arg1:T147 Arg2:T94	
+T148	missed_cellular_component 2395 2410	lipid particles
+R21	located_in Arg1:T91 Arg2:T148	
+R22	located_in Arg1:T92 Arg2:T148	
+R23	located_in Arg1:T145 Arg2:T148	
+R24	located_in Arg1:T146 Arg2:T148	
+R25	located_in Arg1:T147 Arg2:T148	
+R26	located_in Arg1:T114 Arg2:T115	
+R27	located_in Arg1:T135 Arg2:T134	
+R28	located_in Arg1:T136 Arg2:T134	

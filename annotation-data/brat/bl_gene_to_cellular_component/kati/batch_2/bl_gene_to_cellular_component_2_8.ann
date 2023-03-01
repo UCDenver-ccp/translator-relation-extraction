@@ -109,3 +109,33 @@ T108	cellular_component 3175 3190	SNARE complexes
 T109	gene 3211 3217	snapin
 T110	gene 3221 3228	SNAP-25
 T111	cellular_component 3262 3275	SNARE complex
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T9 Arg2:T8	
+R3	located_in Arg1:T10 Arg2:T8	
+T113	missed_cellular_component 392 406	outer membrane
+T114	corrected_gene 416 445	transferrin binding protein A
+T115	missed_gene 368 414	TonB-dependent integral outer membrane protein
+R4	located_in Arg1:T115 Arg2:T113	
+R5	located_in Arg1:T114 Arg2:T113	
+R6	located_in Arg1:T37 Arg2:T36	
+R7	located_in Arg1:T35 Arg2:T36	
+R8	located_in Arg1:T68 Arg2:T70	
+R9	located_in Arg1:T69 Arg2:T70	
+R10	located_in Arg1:T75 Arg2:T74	
+T112	missed_gene 2214 2235	ribosomal protein L29
+R11	located_in Arg1:T112 Arg2:T81	
+T116	missed_gene 2237 2258	ribosomal protein L37
+R12	located_in Arg1:T116 Arg2:T82	
+R13	located_in Arg1:T89 Arg2:T88	
+R14	located_in Arg1:T92 Arg2:T91	
+R15	located_in Arg1:T93 Arg2:T91	
+R16	located_in Arg1:T94 Arg2:T91	
+T117	missed_cellular_component 2867 2874	nuclear
+R17	located_in Arg1:T96 Arg2:T117	
+R18	located_in Arg1:T96 Arg2:T99	
+R19	located_in Arg1:T97 Arg2:T117	
+R20	located_in Arg1:T97 Arg2:T99	
+T118	missed_cellular_component 3054 3074	extracellular matrix
+T119	corrected_gene 3087 3102	type I collagen
+R21	located_in Arg1:T119 Arg2:T118	
+R22	located_in Arg1:T106 Arg2:T118	

@@ -110,3 +110,34 @@ T109	gene 3208 3217	ephrin-B2
 T110	cellular_component 3226 3239	cell polarity
 T111	gene 3250 3255	PAR-3
 T112	gene 3265 3278	VEGF receptor
+R1	located_in Arg1:T4 Arg2:T3	
+R2	located_in Arg1:T15 Arg2:T14	
+R5	located_in Arg1:T18 Arg2:T19	
+T113	corrected_gene 1143 1156	alpha-tubulin
+R6	located_in Arg1:T113 Arg2:T38	
+R7	located_in Arg1:T44 Arg2:T43	
+R8	located_in Arg1:T45 Arg2:T43	
+R9	located_in Arg1:T46 Arg2:T43	
+T114	corrected_gene 1480 1483;1485 1486	Erk 2
+R10	located_in Arg1:T114 Arg2:T43	
+T115	corrected_gene 1488 1491;1495 1527	p44 mitogen-activated protein kinase
+R11	located_in Arg1:T115 Arg2:T43	
+T116	corrected_gene 1488 1489;1492 1494;1495 1527	p 42 mitogen-activated protein kinase
+R12	located_in Arg1:T116 Arg2:T43	
+R16	located_in Arg1:T52 Arg2:T54	
+R17	located_in Arg1:T51 Arg2:T54	
+R18	located_in Arg1:T50 Arg2:T54	
+R19	located_in Arg1:T73 Arg2:T72	
+T119	missed_gene 2101 2105	SARA
+R20	located_in Arg1:T119 Arg2:T72	
+T117	corrected_gene 2310 2336;2358 2361;2374 2377	LAT1 mRNA binding proteins 40- kDa
+T118	corrected_gene 2310 2336;2363 2366;2374 2377	LAT1 mRNA binding proteins 70- kDa
+T120	corrected_gene 2310 2336;2371 2377	LAT1 mRNA binding proteins 80-kDa
+R21	located_in Arg1:T120 Arg2:T80	
+R22	located_in Arg1:T118 Arg2:T80	
+R23	located_in Arg1:T117 Arg2:T80	
+R24	located_in Arg1:T91 Arg2:T90	
+R25	located_in Arg1:T92 Arg2:T90	
+T121	missed_gene 1558 1561;1563 1571	ERM proteins
+R4	located_in Arg1:T121 Arg2:T54	
+T122	DONE 3327 3331	DONE

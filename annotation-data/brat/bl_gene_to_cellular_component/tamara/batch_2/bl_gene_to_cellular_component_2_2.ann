@@ -143,28 +143,7 @@ R23	located_in Arg1:T39 Arg2:T40
 R24	located_in Arg1:T39 Arg2:T41	
 T120	missed_gene 1505 1524	ribosomal S6 kinase
 R25	located_in Arg1:T120 Arg2:T49	
-R26	located_in Arg1:T52 Arg2:T51	
 T121	missed_cellular_component 1779 1782	CPC
-T122	corrected_gene 1784 1789	Sli15
-T123	missed_gene 1790 1796	INCENP
-T124	missed_gene 1803 1811	Survivin
-T125	missed_gene 1833 1839	Aurora
-R27	located_in Arg1:T122 Arg2:T56	
-R28	located_in Arg1:T122 Arg2:T121	
-R29	located_in Arg1:T123 Arg2:T56	
-R30	located_in Arg1:T123 Arg2:T121	
-R31	located_in Arg1:T58 Arg2:T56	
-R32	located_in Arg1:T58 Arg2:T121	
-R33	located_in Arg1:T124 Arg2:T56	
-R34	located_in Arg1:T124 Arg2:T121	
-R35	located_in Arg1:T59 Arg2:T56	
-R36	located_in Arg1:T59 Arg2:T121	
-R37	located_in Arg1:T60 Arg2:T56	
-R38	located_in Arg1:T60 Arg2:T121	
-R39	located_in Arg1:T61 Arg2:T56	
-R40	located_in Arg1:T61 Arg2:T121	
-R41	located_in Arg1:T125 Arg2:T56	
-R42	located_in Arg1:T125 Arg2:T121	
 R43	located_in Arg1:T70 Arg2:T69	
 R44	located_in Arg1:T78 Arg2:T77	
 T126	missed_gene 2525 2538	synaptobrevin
@@ -184,3 +163,4 @@ R55	located_in Arg1:T98 Arg2:T96
 R56	located_in Arg1:T110 Arg2:T111	
 T129	missed_gene 3281 3291	p80 coilin
 R57	located_in Arg1:T129 Arg2:T111	
+T122	DONE 3358 3362	DONE

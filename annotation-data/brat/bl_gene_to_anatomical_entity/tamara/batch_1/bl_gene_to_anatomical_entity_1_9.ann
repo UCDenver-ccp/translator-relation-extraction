@@ -112,3 +112,58 @@ T111	gene 2632 2644	Gasdermin-A3
 T112	anatomical_site 2671 2691	Brown Adipose Tissue
 T113	gene 2700 2704	IL-6
 T114	gene 2705 2710	Stat3
+T115	corrected_gene 12 26	laminin alpha1
+T116	missed_gene 28 41	laminin beta1
+T117	corrected_gene 43 59	collagen type IV
+T118	missed_gene 75 83	perlecan
+R1	located_in Arg1:T115 Arg2:T5	
+R2	located_in Arg1:T115 Arg2:T6	
+R3	located_in Arg1:T115 Arg2:T7	
+R4	located_in Arg1:T116 Arg2:T5	
+R5	located_in Arg1:T116 Arg2:T6	
+R6	located_in Arg1:T116 Arg2:T7	
+R7	located_in Arg1:T117 Arg2:T5	
+R8	located_in Arg1:T117 Arg2:T6	
+R9	located_in Arg1:T117 Arg2:T7	
+R10	located_in Arg1:T3 Arg2:T5	
+R11	located_in Arg1:T3 Arg2:T6	
+R12	located_in Arg1:T3 Arg2:T7	
+R13	located_in Arg1:T118 Arg2:T5	
+R14	located_in Arg1:T118 Arg2:T6	
+R15	located_in Arg1:T118 Arg2:T7	
+R16	located_in Arg1:T27 Arg2:T29	
+R17	located_in Arg1:T27 Arg2:T30	
+R18	located_in Arg1:T28 Arg2:T29	
+R19	located_in Arg1:T28 Arg2:T30	
+T119	corrected_anatomical_site 1451 1464	breast tissue
+T120	corrected_gene 1397 1403	HER1-2
+T121	corrected_gene 1405 1411	HER1-3
+T122	corrected_gene 1416 1422	HER1-4
+R22	located_in Arg1:T122 Arg2:T119	
+R23	located_in Arg1:T121 Arg2:T119	
+R24	located_in Arg1:T120 Arg2:T119	
+T123	corrected_anatomical_site 1612 1624	liver tissue
+T124	corrected_anatomical_site 1603 1607;1618 1624	lung tissue
+R25	located_in Arg1:T66 Arg2:T124	
+R26	located_in Arg1:T66 Arg2:T123	
+T125	corrected_anatomical_site 1757 1776	dorsal root ganglia
+R27	located_in Arg1:T74 Arg2:T125	
+R28	located_in Arg1:T74 Arg2:T76	
+R30	located_in Arg1:T101 Arg2:T102	
+R31	located_in Arg1:T20 Arg2:T19	
+R32	located_in Arg1:T22 Arg2:T21	
+T126	missed_gene 559 563	OAT6
+R33	located_in Arg1:T126 Arg2:T23	
+R34	located_in Arg1:T25 Arg2:T24	
+T127	corrected_gene 592 596	OAT7
+R35	located_in Arg1:T127 Arg2:T24	
+R20	located_in Arg1:T100 Arg2:T102	
+R21	located_in Arg1:T32 Arg2:T31	
+#1	AnnotatorNotes R21	Okay?
+R29	located_in Arg1:T96 Arg2:T98	
+#2	AnnotatorNotes R29	Okay?
+T128	corrected_gene 2237 2244	p75NGFR
+R36	located_in Arg1:T128 Arg2:T98	
+#3	AnnotatorNotes R36	Okay?
+R37	located_in Arg1:T105 Arg2:T104	
+#4	AnnotatorNotes R37	Okay?

@@ -111,3 +111,14 @@ T110	gene 2278 2283	Traf6
 T111	anatomical_site 2328 2338	epithelium
 T112	gene 2347 2352	Traf3
 T113	anatomical_site 2398 2408	epithelium
+R1	located_in Arg1:T94 Arg2:T95	
+T114	corrected_anatomical_site 2112 2124	visceral fat
+R2	located_in Arg1:T100 Arg2:T114	
+R3	located_in Arg1:T104 Arg2:T103	
+T115	corrected_anatomical_site 2234 2245	lung tissue
+R4	located_in Arg1:T105 Arg2:T115	
+T116	corrected_anatomical_site 2324 2338	bud epithelium
+T117	corrected_anatomical_site 2394 2408	bud epithelium
+R5	located_in Arg1:T110 Arg2:T116	
+R6	located_in Arg1:T109 Arg2:T116	
+R7	located_in Arg1:T108 Arg2:T116	

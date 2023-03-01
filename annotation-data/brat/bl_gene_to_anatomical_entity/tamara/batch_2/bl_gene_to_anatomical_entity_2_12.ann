@@ -119,3 +119,51 @@ T118	anatomical_site 2957 2960	ear
 T119	gene 2991 2996	GLUT4
 T120	anatomical_site 3049 3062	soleus muscle
 T121	anatomical_site 3067 3092	extensor digitorum longus
+T122	corrected_gene 291 324	vascular cell adhesion molecule-1
+R1	located_in Arg1:T122 Arg2:T9	
+R2	located_in Arg1:T11 Arg2:T9	
+R3	located_in Arg1:T19 Arg2:T20	
+R4	located_in Arg1:T19 Arg2:T21	
+T123	missed_anatomical_site 552 568	synovial tissues
+R5	located_in Arg1:T19 Arg2:T123	
+R6	located_in Arg1:T32 Arg2:T35	
+R7	located_in Arg1:T32 Arg2:T36	
+R8	located_in Arg1:T32 Arg2:T37	
+R9	located_in Arg1:T32 Arg2:T38	
+R10	located_in Arg1:T32 Arg2:T39	
+R11	located_in Arg1:T32 Arg2:T40	
+R12	located_in Arg1:T33 Arg2:T35	
+R13	located_in Arg1:T33 Arg2:T36	
+R14	located_in Arg1:T33 Arg2:T37	
+R15	located_in Arg1:T33 Arg2:T38	
+R16	located_in Arg1:T33 Arg2:T39	
+R17	located_in Arg1:T33 Arg2:T40	
+T124	missed_gene 932 956	protein gene product 9.5
+R18	located_in Arg1:T42 Arg2:T45	
+R19	located_in Arg1:T124 Arg2:T46	
+R20	located_in Arg1:T43 Arg2:T47	
+R22	located_in Arg1:T87 Arg2:T88	
+R23	located_in Arg1:T89 Arg2:T88	
+R24	located_in Arg1:T92 Arg2:T93	
+T125	corrected_anatomical_site 2487 2502	duct epithelium
+R25	located_in Arg1:T98 Arg2:T125	
+T126	missed_anatomical_site 2529 2542	spiral limbus
+T127	missed_anatomical_site 2583 2597	organ of Corti
+R26	located_in Arg1:T101 Arg2:T126	
+R27	located_in Arg1:T101 Arg2:T102	
+R28	located_in Arg1:T101 Arg2:T103	
+R29	located_in Arg1:T101 Arg2:T127	
+R30	located_in Arg1:T101 Arg2:T104	
+R31	located_in Arg1:T105 Arg2:T108	
+R32	located_in Arg1:T105 Arg2:T109	
+T128	missed_anatomical_site 2808 2815	oviduct
+T129	missed_anatomical_site 2829 2839	epididymis
+R33	located_in Arg1:T105 Arg2:T111	
+R34	located_in Arg1:T105 Arg2:T128	
+R35	located_in Arg1:T105 Arg2:T112	
+R36	located_in Arg1:T105 Arg2:T129	
+T130	corrected_gene 2841 2859	Beta-2 transferrin
+R37	located_in Arg1:T130 Arg2:T114	
+T131	corrected_anatomical_site 2908 2927	inner ear perilymph
+R38	located_in Arg1:T130 Arg2:T131	
+R21	located_in Arg1:T85 Arg2:T86	

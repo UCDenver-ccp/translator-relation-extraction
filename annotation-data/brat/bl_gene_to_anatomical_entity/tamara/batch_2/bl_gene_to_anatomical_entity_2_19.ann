@@ -119,3 +119,78 @@ T118	gene 2777 2782	IREG1
 T119	anatomical_site 2827 2832	liver
 T120	anatomical_site 2872 2878	kidney
 T121	anatomical_site 2893 2899	spleen
+T122	corrected_anatomical_site 364 383	alveolar epithelium
+T123	corrected_anatomical_site 388 416	pulmonary vessel endothelium
+R1	located_in Arg1:T15 Arg2:T122	
+R2	located_in Arg1:T15 Arg2:T123	
+R3	located_in Arg1:T33 Arg2:T34	
+R4	located_in Arg1:T32 Arg2:T34	
+T124	corrected_anatomical_site 879 891	brain cortex
+R5	located_in Arg1:T33 Arg2:T124	
+R6	located_in Arg1:T32 Arg2:T124	
+R7	located_in Arg1:T37 Arg2:T38	
+R8	located_in Arg1:T37 Arg2:T39	
+T125	corrected_anatomical_site 1090 1107	airway epithelium
+R9	located_in Arg1:T41 Arg2:T125	
+R10	located_in Arg1:T40 Arg2:T125	
+R11	located_in Arg1:T41 Arg2:T42	
+R12	located_in Arg1:T40 Arg2:T42	
+T126	corrected_anatomical_site 1224 1242	sutural mesenchyme
+T127	missed_anatomical_site 1251 1261	dura mater
+R14	located_in Arg1:T48 Arg2:T126	
+R15	located_in Arg1:T49 Arg2:T126	
+R16	located_in Arg1:T48 Arg2:T127	
+R17	located_in Arg1:T49 Arg2:T127	
+T128	missed_gene 1284 1312	bone morphogenetic protein-4
+R18	located_in Arg1:T128 Arg2:T52	
+R19	located_in Arg1:T53 Arg2:T52	
+R20	located_in Arg1:T62 Arg2:T65	
+R21	located_in Arg1:T63 Arg2:T65	
+R22	located_in Arg1:T64 Arg2:T65	
+T129	missed_anatomical_site 1795 1800	gills
+T130	missed_gene 1689 1691	GH
+R23	located_in Arg1:T130 Arg2:T70	
+R24	located_in Arg1:T130 Arg2:T71	
+R25	located_in Arg1:T130 Arg2:T72	
+R26	located_in Arg1:T130 Arg2:T73	
+R27	located_in Arg1:T130 Arg2:T129	
+R28	located_in Arg1:T130 Arg2:T74	
+R29	located_in Arg1:T67 Arg2:T70	
+R30	located_in Arg1:T67 Arg2:T71	
+R31	located_in Arg1:T67 Arg2:T72	
+R32	located_in Arg1:T67 Arg2:T73	
+R33	located_in Arg1:T67 Arg2:T129	
+R34	located_in Arg1:T67 Arg2:T74	
+R35	located_in Arg1:T68 Arg2:T70	
+R36	located_in Arg1:T68 Arg2:T71	
+R37	located_in Arg1:T68 Arg2:T72	
+R38	located_in Arg1:T68 Arg2:T73	
+R39	located_in Arg1:T68 Arg2:T129	
+R40	located_in Arg1:T68 Arg2:T74	
+R41	located_in Arg1:T75 Arg2:T80	
+R42	located_in Arg1:T76 Arg2:T80	
+R43	located_in Arg1:T82 Arg2:T83	
+R44	located_in Arg1:T82 Arg2:T84	
+R45	located_in Arg1:T82 Arg2:T85	
+R46	located_in Arg1:T82 Arg2:T86	
+R47	located_in Arg1:T82 Arg2:T87	
+R48	located_in Arg1:T82 Arg2:T88	
+R49	located_in Arg1:T110 Arg2:T108	
+R50	located_in Arg1:T111 Arg2:T108	
+T131	corrected_gene 2584 2616	Transforming growth factor beta1
+R51	located_in Arg1:T131 Arg2:T117	
+R52	located_in Arg1:T113 Arg2:T117	
+R53	located_in Arg1:T114 Arg2:T117	
+R54	located_in Arg1:T118 Arg2:T119	
+R55	located_in Arg1:T118 Arg2:T120	
+R56	located_in Arg1:T118 Arg2:T121	
+T132	missed_anatomical_site 2880 2888	duodenum
+R57	located_in Arg1:T118 Arg2:T132	
+R13	located_in Arg1:T44 Arg2:T45	
+R58	located_in Arg1:T8 Arg2:T7	
+R59	located_in Arg1:T5 Arg2:T6	
+#1	AnnotatorNotes R59	Okay?
+R60	located_in Arg1:T10 Arg2:T9	
+R61	located_in Arg1:T13 Arg2:T14	
+#2	AnnotatorNotes R61	Okay?
+#3	AnnotatorNotes R58	Okay?

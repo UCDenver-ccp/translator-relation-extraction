@@ -119,3 +119,56 @@ T118	gene 3382 3393	Osteopontin
 T119	cellular_component 3415 3423	integrin
 T120	gene 3415 3423	integrin
 T121	gene 3454 3466	glycoprotein
+R1	located_in Arg1:T14 Arg2:T13	
+R2	located_in Arg1:T15 Arg2:T13	
+T122	missed_gene 383 388	actin
+R3	located_in Arg1:T122 Arg2:T16	
+R4	located_in Arg1:T17 Arg2:T18	
+T123	missed_gene 456 461	hTERT
+R5	located_in Arg1:T123 Arg2:T19	
+T124	corrected_gene 568 584	beta(2) integrin
+R6	located_in Arg1:T124 Arg2:T25	
+R7	located_in Arg1:T37 Arg2:T36	
+R8	located_in Arg1:T38 Arg2:T36	
+R9	located_in Arg1:T39 Arg2:T36	
+T125	missed_gene 968 999	cytoskeleton-associated protein
+R10	located_in Arg1:T125 Arg2:T40	
+T126	missed_gene 1001 1007	Arc; 2
+R11	located_in Arg1:T126 Arg2:T40	
+R12	located_in Arg1:T42 Arg2:T41	
+T127	missed_gene 1046 1067	cell adhesion protein
+R13	located_in Arg1:T127 Arg2:T41	
+T128	missed_cellular_component 1084 1091	neurite
+R14	located_in Arg1:T43 Arg2:T128	
+T129	missed_gene 1084 1109	neurite-outgrowth protein
+R15	located_in Arg1:T129 Arg2:T128	
+R16	located_in Arg1:T49 Arg2:T47	
+T130	missed_gene 1406 1415	caldesmon
+R17	located_in Arg1:T130 Arg2:T47	
+R18	located_in Arg1:T51 Arg2:T47	
+T131	corrected_gene 1344 1371	calmodulin-binding proteins
+R19	located_in Arg1:T131 Arg2:T47	
+R20	located_in Arg1:T62 Arg2:T65	
+R21	located_in Arg1:T63 Arg2:T65	
+R22	located_in Arg1:T64 Arg2:T65	
+T132	missed_gene 1730 1736	Unc-33
+R23	located_in Arg1:T132 Arg2:T65	
+T133	missed_gene 1738 1742	Ulip
+R24	located_in Arg1:T133 Arg2:T65	
+T134	missed_gene 1746 1750	TUC2
+R25	located_in Arg1:T134 Arg2:T65	
+R26	located_in Arg1:T71 Arg2:T73	
+T135	corrected_cellular_component 2122 2137	plasma membrane
+R27	located_in Arg1:T79 Arg2:T135	
+R28	located_in Arg1:T82 Arg2:T135	
+T136	corrected_gene 2237 2241	Hal5
+R29	located_in Arg1:T136 Arg2:T135	
+T137	missed_gene 2936 2968	microtubule-associated protein 1
+R30	located_in Arg1:T105 Arg2:T106	
+R31	located_in Arg1:T137 Arg2:T106	
+R32	located_in Arg1:T108 Arg2:T107	
+R33	located_in Arg1:T109 Arg2:T107	
+T138	missed_gene 3086 3091	MAP1S
+R34	located_in Arg1:T138 Arg2:T107	
+R35	located_in Arg1:T3 Arg2:T4	
+R36	located_in Arg1:T34 Arg2:T35	

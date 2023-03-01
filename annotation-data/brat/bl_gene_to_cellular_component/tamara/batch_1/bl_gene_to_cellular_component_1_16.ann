@@ -113,3 +113,34 @@ T112	gene 2881 2901	TGF-beta superfamily
 T113	gene 2923 2934	Tankyrase-1
 T114	cellular_component 2961 2969	telomere
 T115	gene 2986 2990	TRF1
+T116	corrected_gene 151 179	plasminogen-binding proteins
+R1	located_in Arg1:T116 Arg2:T6	
+R2	located_in Arg1:T116 Arg2:T5	
+T117	corrected_gene 264 280	alpha 2 integrin
+R3	located_in Arg1:T117 Arg2:T11	
+T118	corrected_gene 356 371	alpha1 Integrin
+R4	located_in Arg1:T118 Arg2:T16	
+R5	located_in Arg1:T19 Arg2:T18	
+R6	located_in Arg1:T20 Arg2:T18	
+R7	located_in Arg1:T28 Arg2:T29	
+R8	located_in Arg1:T27 Arg2:T29	
+R9	located_in Arg1:T27 Arg2:T30	
+R10	located_in Arg1:T42 Arg2:T43	
+R11	located_in Arg1:T47 Arg2:T46	
+R12	located_in Arg1:T48 Arg2:T46	
+T119	missed_gene 1278 1294	acyl-CoA oxidase
+T120	missed_gene 1299 1307	thiolase
+R13	located_in Arg1:T119 Arg2:T46	
+R14	located_in Arg1:T120 Arg2:T46	
+R15	located_in Arg1:T57 Arg2:T56	
+R16	located_in Arg1:T58 Arg2:T56	
+R17	located_in Arg1:T54 Arg2:T55	
+T121	corrected_gene 1554 1565	GST-Rho39Tr
+R18	located_in Arg1:T121 Arg2:T60	
+R19	located_in Arg1:T62 Arg2:T61	
+R20	located_in Arg1:T94 Arg2:T98	
+R21	located_in Arg1:T95 Arg2:T98	
+R22	located_in Arg1:T94 Arg2:T99	
+R23	located_in Arg1:T95 Arg2:T99	
+R24	located_in Arg1:T104 Arg2:T103	
+R25	located_in Arg1:T104 Arg2:T107	

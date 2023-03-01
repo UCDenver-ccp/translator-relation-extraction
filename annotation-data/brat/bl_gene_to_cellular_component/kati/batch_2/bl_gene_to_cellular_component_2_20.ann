@@ -119,3 +119,43 @@ T118	cellular_component 3231 3239	antibody
 T119	gene 3286 3290	CD1a
 T120	gene 3309 3313	CD64
 T121	gene 3331 3336	M-CSF
+T122	missed_cellular_component 297 305	cellular
+R1	located_in Arg1:T11 Arg2:T122	
+R2	located_in Arg1:T10 Arg2:T122	
+T123	missed_gene 555 579	matrix metalloproteinase
+T124	missed_gene 550 553	MMP
+T125	missed_cellular_component 555 561	matrix
+R3	located_in Arg1:T124 Arg2:T125	
+R4	located_in Arg1:T123 Arg2:T125	
+R5	located_in Arg1:T23 Arg2:T22	
+T126	corrected_gene 778 789	collagen II
+R6	located_in Arg1:T126 Arg2:T22	
+T127	missed_gene 791 801	fibrinogen
+R7	located_in Arg1:T127 Arg2:T22	
+R8	located_in Arg1:T26 Arg2:T22	
+R9	located_in Arg1:T28 Arg2:T27	
+R10	located_in Arg1:T30 Arg2:T29	
+T128	missed_gene 922 929	enolase
+R11	located_in Arg1:T128 Arg2:T29	
+T129	missed_cellular_component 940 947	nuclear
+T130	missed_gene 965 973	histones
+R12	located_in Arg1:T130 Arg2:T129	
+R13	located_in Arg1:T37 Arg2:T38	
+R14	located_in Arg1:T35 Arg2:T33	
+R15	located_in Arg1:T35 Arg2:T34	
+R16	located_in Arg1:T40 Arg2:T39	
+R17	located_in Arg1:T41 Arg2:T39	
+R18	located_in Arg1:T42 Arg2:T39	
+R19	located_in Arg1:T43 Arg2:T39	
+R20	located_in Arg1:T44 Arg2:T39	
+R21	located_in Arg1:T46 Arg2:T45	
+R22	located_in Arg1:T47 Arg2:T45	
+R23	located_in Arg1:T48 Arg2:T45	
+R24	located_in Arg1:T49 Arg2:T45	
+R25	located_in Arg1:T61 Arg2:T62	
+R26	located_in Arg1:T85 Arg2:T84	
+T131	missed_gene 2603 2637	proliferating cell nuclear antigen
+T132	missed_cellular_component 2622 2629	nuclear
+R27	located_in Arg1:T131 Arg2:T132	
+T133	corrected_gene 2859 2863	Mit1
+R28	located_in Arg1:T133 Arg2:T101	

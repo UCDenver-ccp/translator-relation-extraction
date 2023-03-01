@@ -129,3 +129,106 @@ T128	anatomical_site 3191 3203	hypothalamus
 T129	gene 3215 3220	GLUT4
 T130	gene 3226 3235	insulin 1
 T131	anatomical_site 3243 3256	gastrocnemius
+T132	corrected_anatomical_site 134 146	brain cortex
+R1	located_in Arg1:T2 Arg2:T132	
+T133	corrected_gene 148 164	Glycoprotein M6a
+R2	located_in Arg1:T133 Arg2:T7	
+R3	located_in Arg1:T133 Arg2:T8	
+R4	located_in Arg1:T9 Arg2:T10	
+R5	located_in Arg1:T11 Arg2:T12	
+T134	corrected_gene 364 370	p75NTR
+R6	located_in Arg1:T134 Arg2:T14	
+R7	located_in Arg1:T15 Arg2:T16	
+T135	corrected_anatomical_site 558 570	brain tissue
+R8	located_in Arg1:T17 Arg2:T135	
+R9	located_in Arg1:T18 Arg2:T135	
+R10	located_in Arg1:T19 Arg2:T135	
+T136	missed_gene 677 685	IL-1beta
+T137	missed_gene 687 696	IFN-gamma
+T138	missed_gene 704 706	KC
+R11	located_in Arg1:T24 Arg2:T23	
+R12	located_in Arg1:T136 Arg2:T23	
+R13	located_in Arg1:T137 Arg2:T23	
+R14	located_in Arg1:T25 Arg2:T23	
+R15	located_in Arg1:T138 Arg2:T23	
+R16	located_in Arg1:T26 Arg2:T23	
+T139	missed_gene 753 755	KC
+R17	located_in Arg1:T28 Arg2:T27	
+R18	located_in Arg1:T29 Arg2:T27	
+R19	located_in Arg1:T139 Arg2:T27	
+R20	located_in Arg1:T30 Arg2:T27	
+R21	located_in Arg1:T31 Arg2:T27	
+R22	located_in Arg1:T32 Arg2:T27	
+T140	missed_gene 886 889	AST
+T141	missed_gene 891 894	ALT
+R23	located_in Arg1:T140 Arg2:T37	
+R24	located_in Arg1:T141 Arg2:T37	
+R25	located_in Arg1:T38 Arg2:T41	
+R26	located_in Arg1:T39 Arg2:T41	
+R27	located_in Arg1:T40 Arg2:T41	
+R28	located_in Arg1:T40 Arg2:T42	
+R29	located_in Arg1:T39 Arg2:T42	
+R30	located_in Arg1:T38 Arg2:T42	
+T142	missed_gene 1060 1088	Lens major intrinsic protein
+R33	located_in Arg1:T45 Arg2:T43	
+R34	located_in Arg1:T46 Arg2:T43	
+R31	located_in Arg1:T142 Arg2:T43	
+R32	located_in Arg1:T45 Arg2:T47	
+R35	located_in Arg1:T46 Arg2:T47	
+R36	located_in Arg1:T142 Arg2:T47	
+T143	missed_gene 1530 1563	pigment epithelium-derived factor
+T144	missed_gene 1565 1569	PEDF
+R37	located_in Arg1:T143 Arg2:T59	
+R38	located_in Arg1:T144 Arg2:T59	
+T145	missed_anatomical_site 1487 1507	vascular endothelial
+R39	located_in Arg1:T57 Arg2:T145	
+R40	located_in Arg1:T58 Arg2:T145	
+T146	corrected_gene 1669 1695	somatostatin-28 convertase
+T147	corrected_anatomical_site 1703 1715	brain cortex
+R41	located_in Arg1:T146 Arg2:T147	
+R42	located_in Arg1:T71 Arg2:T74	
+R43	located_in Arg1:T72 Arg2:T74	
+R44	located_in Arg1:T73 Arg2:T74	
+R45	located_in Arg1:T76 Arg2:T77	
+R46	located_in Arg1:T78 Arg2:T79	
+T148	corrected_anatomical_site 2010 2021	lung tissue
+R47	located_in Arg1:T80 Arg2:T148	
+R49	located_in Arg1:T99 Arg2:T102	
+R50	located_in Arg1:T100 Arg2:T102	
+R51	located_in Arg1:T101 Arg2:T102	
+R52	located_in Arg1:T101 Arg2:T103	
+R53	located_in Arg1:T100 Arg2:T103	
+R54	located_in Arg1:T99 Arg2:T103	
+T149	corrected_gene 2939 2961	adiponectin receptor 1
+T150	missed_gene 2963 2967	ADR1
+T151	missed_gene 2970 2991	glucose transporter 4
+T152	missed_gene 3001 3020	glucose-6-phosphase
+T153	corrected_gene 3026 3070	peroxisome proliferator-activated receptor ?
+R55	located_in Arg1:T149 Arg2:T121	
+R56	located_in Arg1:T150 Arg2:T121	
+R57	located_in Arg1:T151 Arg2:T121	
+R58	located_in Arg1:T119 Arg2:T121	
+R59	located_in Arg1:T152 Arg2:T121	
+R60	located_in Arg1:T153 Arg2:T121	
+R61	located_in Arg1:T122 Arg2:T125	
+R62	located_in Arg1:T123 Arg2:T125	
+R63	located_in Arg1:T124 Arg2:T125	
+T154	missed_gene 3179 3183	ADR1
+R64	located_in Arg1:T126 Arg2:T128	
+R65	located_in Arg1:T127 Arg2:T128	
+R66	located_in Arg1:T154 Arg2:T128	
+T155	missed_gene 3209 3213	ADR1
+R67	located_in Arg1:T155 Arg2:T131	
+R68	located_in Arg1:T129 Arg2:T131	
+R69	located_in Arg1:T130 Arg2:T131	
+R70	located_in Arg1:T49 Arg2:T52	
+R71	located_in Arg1:T49 Arg2:T53	
+R72	located_in Arg1:T49 Arg2:T54	
+R73	located_in Arg1:T49 Arg2:T55	
+R74	located_in Arg1:T49 Arg2:T56	
+T156	missed_gene 1006 1009	JUP
+R48	located_in Arg1:T156 Arg2:T41	
+R75	located_in Arg1:T156 Arg2:T42	
+T157	missed_gene 1090 1093	MIP
+R76	located_in Arg1:T157 Arg2:T43	
+R77	located_in Arg1:T157 Arg2:T47	

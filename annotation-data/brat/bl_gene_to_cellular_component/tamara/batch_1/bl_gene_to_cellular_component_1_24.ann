@@ -120,3 +120,35 @@ T119	gene 3488 3525	very low density lipoprotein receptor
 T120	gene 3527 3531	PPAR
 T121	gene 3534 3576	peroxisome proliferator-activated receptor
 T122	cellular_component 3688 3699	lipoprotein
+T123	missed_gene 509 540	G protein interacting protein 1
+T124	corrected_gene 542 546	Gip1
+T125	missed_gene 569 594	heterotrimeric G proteins
+R1	located_in Arg1:T125 Arg2:T23	
+R2	located_in Arg1:T124 Arg2:T23	
+R3	located_in Arg1:T123 Arg2:T23	
+R4	located_in Arg1:T29 Arg2:T28	
+R5	located_in Arg1:T43 Arg2:T42	
+T126	missed_gene 1305 1326	transferring receptor
+R6	located_in Arg1:T126 Arg2:T42	
+R7	located_in Arg1:T45 Arg2:T46	
+R8	located_in Arg1:T44 Arg2:T46	
+T127	corrected_gene 1446 1460	p38 MAP kinase
+R9	located_in Arg1:T127 Arg2:T49	
+R10	located_in Arg1:T54 Arg2:T55	
+R11	located_in Arg1:T53 Arg2:T55	
+T128	missed_gene 1745 1752	MAP1LC3
+T129	missed_gene 1753 1756	LC3
+T130	missed_gene 1758 1804	microtubule-associated protein 1 light chain 3
+R12	located_in Arg1:T130 Arg2:T59	
+R13	located_in Arg1:T129 Arg2:T59	
+R14	located_in Arg1:T128 Arg2:T59	
+T131	missed_gene 1841 1874	mitochondrial dynamin like GTPase
+R15	located_in Arg1:T131 Arg2:T63	
+R16	located_in Arg1:T62 Arg2:T63	
+R17	located_in Arg1:T69 Arg2:T68	
+R18	located_in Arg1:T70 Arg2:T68	
+R19	located_in Arg1:T78 Arg2:T79	
+T132	corrected_gene 2856 2894	CD44 cytoplasmic domain fusion protein
+R20	located_in Arg1:T101 Arg2:T102	
+T133	missed_gene 3057 3061	CD44
+R21	located_in Arg1:T133 Arg2:T104	

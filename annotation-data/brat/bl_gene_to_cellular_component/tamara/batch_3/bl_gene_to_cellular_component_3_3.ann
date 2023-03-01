@@ -133,3 +133,53 @@ T132	gene 3606 3641	medium chain acyl-CoA dehydrogenase
 T133	gene 3643 3647	MCAD
 T134	cellular_component 3654 3667	mitochondrial
 T135	gene 3749 3753	LCAD
+R1	located_in Arg1:T2 Arg2:T1	
+T136	missed_cellular_component 131 138	nuclear
+R2	located_in Arg1:T5 Arg2:T136	
+R3	located_in Arg1:T6 Arg2:T136	
+R4	located_in Arg1:T7 Arg2:T136	
+R5	located_in Arg1:T28 Arg2:T26	
+R6	located_in Arg1:T28 Arg2:T27	
+R7	located_in Arg1:T29 Arg2:T26	
+R8	located_in Arg1:T29 Arg2:T27	
+T137	corrected_gene 1022 1027	Spo14
+R9	located_in Arg1:T137 Arg2:T40	
+R10	located_in Arg1:T39 Arg2:T40	
+T138	missed_gene 1152 1183	membrane oriC-binding protein 2
+R11	located_in Arg1:T138 Arg2:T43	
+R12	located_in Arg1:T44 Arg2:T43	
+R13	located_in Arg1:T46 Arg2:T45	
+R14	located_in Arg1:T47 Arg2:T45	
+R15	located_in Arg1:T48 Arg2:T45	
+R16	located_in Arg1:T49 Arg2:T45	
+T139	corrected_gene 1589 1596	p38MAPK
+R17	located_in Arg1:T139 Arg2:T56	
+R18	located_in Arg1:T55 Arg2:T56	
+R19	located_in Arg1:T139 Arg2:T57	
+R20	located_in Arg1:T55 Arg2:T57	
+T140	missed_gene 1819 1838;1844 1846	ribosomal S6 kinase -2
+R21	located_in Arg1:T140 Arg2:T68	
+T141	missed_gene 1840 1843;1844 1846	RSK -2
+R22	located_in Arg1:T141 Arg2:T68	
+T142	missed_gene 1848 1874	90-kDa ribosomal S6 kinase
+R23	located_in Arg1:T142 Arg2:T69	
+T143	missed_gene 2132 2136	EGFR
+R24	located_in Arg1:T77 Arg2:T78	
+R25	located_in Arg1:T143 Arg2:T78	
+T144	corrected_gene 2464 2475	GST-nephrin
+R26	located_in Arg1:T144 Arg2:T87	
+R27	located_in Arg1:T101 Arg2:T107	
+T145	corrected_gene 2912 2930	MAPK kinase kinase
+R28	located_in Arg1:T145 Arg2:T107	
+R29	located_in Arg1:T103 Arg2:T107	
+T146	corrected_gene 2939 2950	MAPK kinase
+R30	located_in Arg1:T146 Arg2:T107	
+R31	located_in Arg1:T105 Arg2:T107	
+R32	located_in Arg1:T106 Arg2:T107	
+R33	located_in Arg1:T99 Arg2:T107	
+R34	located_in Arg1:T116 Arg2:T114	
+R35	located_in Arg1:T130 Arg2:T134	
+R36	located_in Arg1:T131 Arg2:T134	
+R37	located_in Arg1:T132 Arg2:T134	
+R38	located_in Arg1:T133 Arg2:T134	
+T147	DONE 3755 3759	DONE

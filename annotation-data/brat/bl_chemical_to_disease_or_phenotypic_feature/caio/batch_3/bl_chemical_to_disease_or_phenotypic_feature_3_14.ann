@@ -84,10 +84,13 @@ R10	causes_or_contributes_to Arg1:T40 Arg2:T39
 R11	treats Arg1:T42 Arg2:T41	
 R12	causes_or_contributes_to Arg1:T44 Arg2:T45	
 T74	missed_chemical 1565 1568	VCR
-R13	treats Arg1:T74 Arg2:T45	
+R13	causes_or_contributes_to Arg1:T74 Arg2:T45	
 T75	corrected_chemical 1632 1671	selective serotonin reuptake inhibitors
 R14	causes_or_contributes_to Arg1:T75 Arg2:T48	
 R15	treats Arg1:T50 Arg2:T49	
 R16	treats Arg1:T57 Arg2:T60	
 R17	causes_or_contributes_to Arg1:T57 Arg2:T58	
 R18	causes_or_contributes_to Arg1:T61 Arg2:T62	
+T76	missed_disease_or_phenotypic_feature 31 41	hemorrhage
+T77	missed_disease_or_phenotypic_feature 446 451	tumor
+R19	treats Arg1:T13 Arg2:T77	

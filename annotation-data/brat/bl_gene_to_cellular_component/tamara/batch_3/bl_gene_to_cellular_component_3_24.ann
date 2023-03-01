@@ -128,3 +128,43 @@ T127	cellular_component 3296 3304	membrane
 T128	gene 3321 3325	ZO-1
 T129	gene 3330 3338	occludin
 T130	cellular_component 3342 3357	tight junctions
+R1	located_in Arg1:T3 Arg2:T4	
+R2	located_in Arg1:T3 Arg2:T5	
+R3	located_in Arg1:T2 Arg2:T4	
+R4	located_in Arg1:T2 Arg2:T5	
+R5	located_in Arg1:T1 Arg2:T4	
+R6	located_in Arg1:T1 Arg2:T5	
+R7	located_in Arg1:T16 Arg2:T17	
+R8	located_in Arg1:T15 Arg2:T17	
+T131	missed_gene 915 919	P2X7
+R9	located_in Arg1:T131 Arg2:T33	
+T132	corrected_gene 1141 1164	CC chemokine receptor 5
+T133	corrected_gene 1176 1199	CC chemokine receptor 3
+R10	located_in Arg1:T132 Arg2:T47	
+R11	located_in Arg1:T44 Arg2:T47	
+R12	located_in Arg1:T133 Arg2:T47	
+R13	located_in Arg1:T46 Arg2:T47	
+R14	located_in Arg1:T73 Arg2:T72	
+R15	located_in Arg1:T74 Arg2:T72	
+R16	located_in Arg1:T91 Arg2:T93	
+T134	corrected_gene 2387 2402	cyclin B kinase
+R17	located_in Arg1:T134 Arg2:T93	
+T135	missed_gene 2371 2377	Cdc25C
+R18	located_in Arg1:T135 Arg2:T93	
+R19	located_in Arg1:T102 Arg2:T109	
+R20	located_in Arg1:T103 Arg2:T109	
+R21	located_in Arg1:T104 Arg2:T109	
+R22	located_in Arg1:T105 Arg2:T109	
+R23	located_in Arg1:T106 Arg2:T109	
+T136	missed_gene 2822 2825;2832 2839	mu- calpain
+R24	located_in Arg1:T136 Arg2:T109	
+R25	located_in Arg1:T107 Arg2:T109	
+R26	located_in Arg1:T128 Arg2:T127	
+R27	located_in Arg1:T129 Arg2:T127	
+R28	located_in Arg1:T129 Arg2:T130	
+R29	located_in Arg1:T128 Arg2:T130	
+T137	missed_gene 39 44	actin
+R30	located_in Arg1:T137 Arg2:T4	
+T138	missed_gene 1504 1509	actin
+R31	located_in Arg1:T138 Arg2:T54	
+T139	DONE 3359 3363	DONE

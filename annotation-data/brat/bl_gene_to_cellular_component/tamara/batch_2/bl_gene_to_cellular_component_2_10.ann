@@ -134,12 +134,8 @@ R8	located_in Arg1:T125 Arg2:T18
 R9	located_in Arg1:T49 Arg2:T48	
 R10	located_in Arg1:T50 Arg2:T48	
 R11	located_in Arg1:T51 Arg2:T48	
-R12	located_in Arg1:T47 Arg2:T48	
-R13	located_in Arg1:T46 Arg2:T48	
 T126	corrected_gene 1796 1826	beta-amyloid precursor protein
 R14	located_in Arg1:T126 Arg2:T56	
-T127	missed_gene 2400 2437	extracellular signal-regulated kinase
-R15	located_in Arg1:T127 Arg2:T81	
 T128	corrected_gene 2669 2706	cyclin-dependent kinase inhibitor p15
 R16	located_in Arg1:T128 Arg2:T89	
 T129	corrected_gene 2708 2713	INK4B
@@ -155,3 +151,4 @@ R25	located_in Arg1:T102 Arg2:T103
 R26	located_in Arg1:T101 Arg2:T103	
 T130	corrected_gene 3309 3322	integrin ?5?1
 R27	located_in Arg1:T130 Arg2:T119	
+T127	DONE 3411 3415	DONE

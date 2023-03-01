@@ -137,4 +137,10 @@ R12	located_in Arg1:T79 Arg2:T77
 R13	located_in Arg1:T80 Arg2:T81	
 T125	missed_gene 2519 2539	Ribosomal protein S7
 R14	located_in Arg1:T125 Arg2:T96	
-R15	located_in Arg1:T119 Arg2:T120	
+T126	missed_gene 313 318	actin
+R16	located_in Arg1:T126 Arg2:T13	
+T127	corrected_gene 824 826;827 831	HB -EGF
+R17	located_in Arg1:T127 Arg2:T25	
+T128	missed_gene 3229 3241	cytochrome c
+R18	located_in Arg1:T128 Arg2:T116	
+T129	DONE 3366 3370	DONE

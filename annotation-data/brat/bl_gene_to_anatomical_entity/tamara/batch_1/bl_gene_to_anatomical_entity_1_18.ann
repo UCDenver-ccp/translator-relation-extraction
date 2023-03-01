@@ -124,3 +124,56 @@ T123	gene 2916 2921	Krt10
 T124	anatomical_site 2931 2946	vascular system
 T125	anatomical_site 2975 2980	blood
 T126	anatomical_site 2985 3002	lymphatic vessels
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T12 Arg2:T13	
+R3	located_in Arg1:T11 Arg2:T13	
+T127	missed_anatomical_site 882 893	conjunctiva
+R4	located_in Arg1:T40 Arg2:T42	
+R5	located_in Arg1:T40 Arg2:T127	
+R6	located_in Arg1:T39 Arg2:T42	
+R7	located_in Arg1:T39 Arg2:T127	
+T128	corrected_anatomical_site 1130 1156	abdominal subcutaneous fat
+R8	located_in Arg1:T49 Arg2:T128	
+R10	located_in Arg1:T49 Arg2:T133	
+R11	located_in Arg1:T58 Arg2:T60	
+T129	corrected_gene 1652 1678	brain derived neurotrophin
+R15	located_in Arg1:T129 Arg2:T69	
+R16	located_in Arg1:T71 Arg2:T69	
+T130	missed_anatomical_site 1625 1630	nerve
+T131	missed_gene 1625 1644	nerve growth factor
+R17	located_in Arg1:T131 Arg2:T130	
+R18	located_in Arg1:T68 Arg2:T130	
+T132	missed_gene 2020 2024	PEMT
+R19	located_in Arg1:T132 Arg2:T86	
+R20	located_in Arg1:T87 Arg2:T86	
+R21	located_in Arg1:T88 Arg2:T86	
+R22	located_in Arg1:T89 Arg2:T86	
+R23	located_in Arg1:T98 Arg2:T101	
+R24	located_in Arg1:T99 Arg2:T101	
+T135	missed_anatomical_site 2549 2555	muscle
+T136	missed_gene 2585 2591	mTNF-?
+T137	missed_gene 2594 2600	mIL-10
+T138	corrected_anatomical_site 2778 2799	primo-vascular tissue
+R34	located_in Arg1:T118 Arg2:T138	
+R35	located_in Arg1:T118 Arg2:T121	
+R36	located_in Arg1:T123 Arg2:T126	
+R9	located_in Arg1:T53 Arg2:T52	
+R12	located_in Arg1:T67 Arg2:T66	
+R13	located_in Arg1:T64 Arg2:T63	
+R14	located_in Arg1:T65 Arg2:T63	
+R25	located_in Arg1:T11 Arg2:T10	
+#1	AnnotatorNotes R25	Okay?
+R26	located_in Arg1:T12 Arg2:T10	
+#2	AnnotatorNotes R26	Okay?
+R27	located_in Arg1:T14 Arg2:T17	
+#3	AnnotatorNotes R27	Okay?
+T133	corrected_anatomical_site 1168 1179	gluteal fat
+#4	AnnotatorNotes T133	do we mark it? 
+#5	AnnotatorNotes R10	Okay?
+T134	missed_anatomical_site 185 198	telencephalon
+R28	located_in Arg1:T4 Arg2:T134	
+R29	located_in Arg1:T5 Arg2:T134	
+#6	AnnotatorNotes T134	okay?
+R30	located_in Arg1:T6 Arg2:T134	
+R31	located_in Arg1:T7 Arg2:T134	
+R32	located_in Arg1:T8 Arg2:T134	

@@ -81,5 +81,7 @@ T70	corrected_chemical 1995 2023	Adrenocorticotrophic hormone
 T71	corrected_disease_or_phenotypic_feature 2234 2266	obesity-induced oxidative stress
 R25	treats Arg1:T49 Arg2:T71	
 R26	treats Arg1:T50 Arg2:T71	
-R28	treats Arg1:T57 Arg2:T56	
 T72	DONE 2490 2494	DONE
+T73	missed_chemical 601 604	BTZ
+T74	missed_disease_or_phenotypic_feature 586 588	PN
+R11	causes_or_contributes_to Arg1:T73 Arg2:T74	

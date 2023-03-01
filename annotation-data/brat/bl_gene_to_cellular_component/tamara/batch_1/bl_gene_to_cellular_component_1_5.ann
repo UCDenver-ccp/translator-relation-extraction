@@ -121,3 +121,41 @@ T120	cellular_component 3461 3476	plasma membrane
 T121	gene 3494 3498	BRI1
 T122	gene 3503 3507	BAK1
 T123	cellular_component 3512 3525	intracellular
+R1	located_in Arg1:T3 Arg2:T4	
+R2	located_in Arg1:T7 Arg2:T6	
+R3	located_in Arg1:T8 Arg2:T6	
+R4	located_in Arg1:T9 Arg2:T6	
+R5	located_in Arg1:T16 Arg2:T15	
+T124	missed_cellular_component 531 533	ER
+R6	located_in Arg1:T16 Arg2:T124	
+T125	missed_gene 633 651;657 658	Toll-like receptor 3
+T126	missed_gene 653 656;657 658	TLR 3
+R7	located_in Arg1:T125 Arg2:T17	
+R8	located_in Arg1:T126 Arg2:T17	
+R9	located_in Arg1:T18 Arg2:T17	
+R10	located_in Arg1:T19 Arg2:T17	
+R11	located_in Arg1:T20 Arg2:T17	
+T127	missed_gene 1623 1629	NaPi2b
+R12	located_in Arg1:T127 Arg2:T55	
+R13	located_in Arg1:T127 Arg2:T56	
+R14	located_in Arg1:T57 Arg2:T55	
+R15	located_in Arg1:T57 Arg2:T56	
+R16	located_in Arg1:T58 Arg2:T55	
+R17	located_in Arg1:T58 Arg2:T56	
+R18	located_in Arg1:T64 Arg2:T63	
+R19	located_in Arg1:T68 Arg2:T67	
+R20	located_in Arg1:T70 Arg2:T71	
+R21	located_in Arg1:T74 Arg2:T75	
+R22	located_in Arg1:T73 Arg2:T75	
+R23	located_in Arg1:T77 Arg2:T76	
+R24	located_in Arg1:T83 Arg2:T85	
+R25	located_in Arg1:T87 Arg2:T88	
+R26	located_in Arg1:T86 Arg2:T88	
+R27	located_in Arg1:T104 Arg2:T105	
+R28	located_in Arg1:T103 Arg2:T105	
+R29	located_in Arg1:T102 Arg2:T105	
+R30	located_in Arg1:T101 Arg2:T105	
+R31	located_in Arg1:T100 Arg2:T105	
+R32	located_in Arg1:T99 Arg2:T105	
+R33	located_in Arg1:T121 Arg2:T120	
+R34	located_in Arg1:T122 Arg2:T120	

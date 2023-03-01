@@ -126,3 +126,28 @@ T125	gene 3630 3634	TLR4
 T126	gene 3636 3640	TLR7
 T127	gene 3646 3650	TLR9
 T128	cellular_component 3707 3721	outer membrane
+R1	located_in Arg1:T35 Arg2:T36	
+T129	corrected_gene 1425 1432	p38MAPK
+R2	located_in Arg1:T129 Arg2:T55	
+R3	located_in Arg1:T54 Arg2:T55	
+R4	located_in Arg1:T129 Arg2:T56	
+R5	located_in Arg1:T54 Arg2:T56	
+R6	located_in Arg1:T65 Arg2:T67	
+R7	located_in Arg1:T66 Arg2:T67	
+R8	located_in Arg1:T80 Arg2:T79	
+R9	located_in Arg1:T81 Arg2:T79	
+R10	located_in Arg1:T96 Arg2:T97	
+T130	corrected_cellular_component 3028 3044	membrane ruffles
+R11	located_in Arg1:T103 Arg2:T130	
+T131	missed_gene 2991 2994	PAK
+R12	located_in Arg1:T131 Arg2:T130	
+T132	corrected_gene 3000 3024	Rho-dependent Rho-kinase
+R13	located_in Arg1:T132 Arg2:T130	
+T133	corrected_gene 2909 2929	p21-activated kinase
+R14	located_in Arg1:T133 Arg2:T130	
+T134	missed_gene 3191 3211	S6 ribosomal protein
+R15	located_in Arg1:T134 Arg2:T110	
+T135	missed_gene 3221 3241	S6 ribosomal protein
+R16	located_in Arg1:T135 Arg2:T111	
+R17	located_in Arg1:T117 Arg2:T116	
+R18	located_in Arg1:T117 Arg2:T118	

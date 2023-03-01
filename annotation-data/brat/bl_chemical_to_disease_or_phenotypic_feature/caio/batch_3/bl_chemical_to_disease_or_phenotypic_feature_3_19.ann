@@ -81,7 +81,7 @@ T72	corrected_chemical 502 515	uraemic toxin
 T73	corrected_chemical 863 880	potassium bromide
 R9	causes_or_contributes_to Arg1:T73 Arg2:T26	
 T74	missed_disease_or_phenotypic_feature 797 828	upper urinary tract obstruction
-R10	treats Arg1:T73 Arg2:T74	
+R10	causes_or_contributes_to Arg1:T73 Arg2:T74	
 R11	treats Arg1:T48 Arg2:T46	
 R12	treats Arg1:T47 Arg2:T46	
 T75	missed_chemical 1549 1567	PLGA nanoparticles

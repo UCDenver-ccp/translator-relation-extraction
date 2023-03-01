@@ -104,3 +104,38 @@ T103	gene 2866 2871	SPRY2
 T104	cellular_component 2890 2903	intracellular
 T105	gene 2920 2924	GRB2
 T106	cellular_component 2940 2953	intracellular
+T107	missed_gene 285 343	heparin-binding epidermal growth factor-like growth factor
+R1	located_in Arg1:T107 Arg2:T13	
+T108	corrected_gene 345 354	proHB-EGF
+R2	located_in Arg1:T108 Arg2:T13	
+T109	corrected_gene 495 503	HB-EGF-C
+R3	located_in Arg1:T109 Arg2:T21	
+T110	missed_gene 285 343;475 494	heparin-binding epidermal growth factor-like growth factor C-terminal fragment
+R4	located_in Arg1:T110 Arg2:T21	
+R5	located_in Arg1:T33 Arg2:T34	
+R6	located_in Arg1:T33 Arg2:T35	
+R7	located_in Arg1:T47 Arg2:T46	
+R8	located_in Arg1:T48 Arg2:T46	
+R9	located_in Arg1:T49 Arg2:T46	
+T111	missed_gene 1806 1825	DNA repair proteins
+T112	missed_gene 1831 1848	telomerase enzyme
+T113	missed_gene 1854 1870	splicing factors
+R10	located_in Arg1:T111 Arg2:T65	
+R11	located_in Arg1:T112 Arg2:T65	
+R12	located_in Arg1:T113 Arg2:T65	
+T114	corrected_gene 1904 1909	gC1qR
+R13	located_in Arg1:T114 Arg2:T67	
+T115	missed_gene 1920 1932	C1q receptor
+R14	located_in Arg1:T115 Arg2:T67	
+R15	located_in Arg1:T69 Arg2:T70	
+R16	located_in Arg1:T73 Arg2:T74	
+R17	located_in Arg1:T76 Arg2:T78	
+R18	located_in Arg1:T77 Arg2:T78	
+R19	located_in Arg1:T76 Arg2:T79	
+R20	located_in Arg1:T77 Arg2:T79	
+R21	located_in Arg1:T76 Arg2:T80	
+R22	located_in Arg1:T77 Arg2:T80	
+R23	located_in Arg1:T76 Arg2:T81	
+R24	located_in Arg1:T77 Arg2:T81	
+R25	located_in Arg1:T105 Arg2:T104	
+R26	located_in Arg1:T103 Arg2:T106	

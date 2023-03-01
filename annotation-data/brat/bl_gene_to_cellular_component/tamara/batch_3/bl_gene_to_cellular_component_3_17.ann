@@ -123,8 +123,6 @@ R9	located_in Arg1:T26 Arg2:T25
 R10	located_in Arg1:T27 Arg2:T25	
 R11	located_in Arg1:T28 Arg2:T25	
 R12	located_in Arg1:T29 Arg2:T25	
-R13	located_in Arg1:T30 Arg2:T25	
-R14	located_in Arg1:T31 Arg2:T25	
 R15	located_in Arg1:T37 Arg2:T36	
 R16	located_in Arg1:T38 Arg2:T36	
 R17	located_in Arg1:T63 Arg2:T60	
@@ -140,3 +138,7 @@ T115	missed_cellular_component 2730 2741	melanosomes
 R25	located_in Arg1:T87 Arg2:T115	
 R26	located_in Arg1:T109 Arg2:T113	
 R27	located_in Arg1:T110 Arg2:T113	
+T116	missed_gene 684 689	actin
+R28	located_in Arg1:T116 Arg2:T18	
+R29	located_in Arg1:T16 Arg2:T22	
+R30	located_in Arg1:T16 Arg2:T23	

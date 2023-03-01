@@ -114,7 +114,6 @@ T113	gene 3260 3267	PACSIN3
 T114	missed_gene 94 130	phosphorylated neurofilament protein
 R1	located_in Arg1:T114 Arg2:T4	
 R2	located_in Arg1:T5 Arg2:T4	
-R3	located_in Arg1:T9 Arg2:T10	
 R4	located_in Arg1:T9 Arg2:T11	
 T115	missed_cellular_component 371 382	cytoplasmic
 R5	located_in Arg1:T9 Arg2:T115	
@@ -123,8 +122,9 @@ R6	located_in Arg1:T116 Arg2:T25
 R7	located_in Arg1:T116 Arg2:T26	
 R8	located_in Arg1:T32 Arg2:T31	
 R9	located_in Arg1:T32 Arg2:T30	
-T117	corrected_gene 1549 1551	P2
-R10	located_in Arg1:T117 Arg2:T53	
+T117	corrected_gene 1531 1551	Ribosomal protein P2
 R11	located_in Arg1:T64 Arg2:T63	
 R12	located_in Arg1:T61 Arg2:T63	
 R13	located_in Arg1:T66 Arg2:T65	
+R3	located_in Arg1:T117 Arg2:T53	
+T118	DONE 3335 3339	DONE

@@ -172,10 +172,6 @@ R39	located_in Arg1:T133 Arg2:T129
 R40	located_in Arg1:T133 Arg2:T130	
 R41	located_in Arg1:T133 Arg2:T131	
 R42	located_in Arg1:T133 Arg2:T132	
-T134	corrected_gene 2480 2521;2530 2537	membrane associated guanylate kinase-like protein
-T135	missed_gene 2523 2528	MAGUK
-R43	located_in Arg1:T134 Arg2:T92	
-R44	located_in Arg1:T135 Arg2:T92	
 R45	located_in Arg1:T87 Arg2:T92	
 R46	located_in Arg1:T88 Arg2:T92	
 R47	located_in Arg1:T89 Arg2:T92	
@@ -188,8 +184,6 @@ R52	located_in Arg1:T89 Arg2:T95
 R54	located_in Arg1:T90 Arg2:T95	
 R55	located_in Arg1:T91 Arg2:T95	
 R56	located_in Arg1:T133 Arg2:T95	
-R57	located_in Arg1:T134 Arg2:T95	
-R58	located_in Arg1:T135 Arg2:T95	
 R59	located_in Arg1:T97 Arg2:T96	
 R60	located_in Arg1:T98 Arg2:T96	
 R61	located_in Arg1:T99 Arg2:T96	
@@ -203,3 +197,10 @@ R67	located_in Arg1:T111 Arg2:T113
 R68	located_in Arg1:T111 Arg2:T114	
 R69	located_in Arg1:T111 Arg2:T115	
 R70	located_in Arg1:T119 Arg2:T120	
+T134	corrected_gene 2480 2521;2530 2544	membrane associated guanylate kinase-like protein family
+R16	located_in Arg1:T134 Arg2:T92	
+T135	missed_gene 2523 2528	MAGUK
+R43	located_in Arg1:T135 Arg2:T92	
+T137	missed_gene 2591 2596	actin
+R44	located_in Arg1:T137 Arg2:T95	
+T138	DONE 3303 3307	DONE

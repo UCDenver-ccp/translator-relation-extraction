@@ -1,0 +1,84 @@
+T1	anatomical_site 4 10	dermal
+T2	gene 65 73	collagen
+T3	gene 75 82	elastin
+T4	anatomical_site 145 149	skin
+T5	gene 191 196	CCL11
+T6	gene 221 225	CCL4
+T7	gene 237 242	CCL11
+T8	gene 253 257	CCL4
+T9	anatomical_site 261 267	muscle
+T10	gene 310 317	trypsin
+T11	gene 322 329	trypsin
+T12	anatomical_site 351 366	small intestine
+T13	anatomical_site 368 376	pancreas
+T14	anatomical_site 433 438	serum
+T15	anatomical_site 488 494	tissue
+T16	gene 511 522	cathepsin B
+T17	gene 524 530	nestin
+T18	gene 532 536	CD68
+T19	gene 538 568	Monocyte chemotactic protein-1
+T20	gene 573 577	CCR2
+T21	anatomical_site 598 604	stroma
+T22	gene 609 616	Insulin
+T23	gene 621 629	glucagon
+T24	anatomical_site 673 685	vagus nerves
+T25	gene 687 690	EGF
+T26	gene 736 740	ET-1
+T27	gene 745 749	ET-3
+T28	anatomical_site 793 824	outer medullary collecting duct
+T29	anatomical_site 840 871	inner medullary collecting duct
+T30	anatomical_site 923 928	liver
+T31	gene 947 954	insulin
+T32	gene 959 967	glucagon
+T33	anatomical_site 1000 1014	hepatic artery
+T34	gene 1043 1047	FGF7
+T35	gene 1049 1053	WNT2
+T36	gene 1055 1060	SPRY1
+T37	gene 1062 1066	MMP3
+T38	gene 1071 1076	FOXF2
+T39	anatomical_site 1115 1119	male
+T40	anatomical_site 1180 1185	brain
+T41	anatomical_site 1190 1201	spinal cord
+T42	anatomical_site 1235 1241	tissue
+T43	anatomical_site 1281 1287	tissue
+T44	gene 1333 1364	glial fibrillary acidic protein
+T45	gene 1366 1386	myelin basic protein
+T46	gene 1420 1427	enolase
+T47	gene 1455 1464	ubiquitin
+T48	gene 1479 1484	RGSZ1
+T49	anatomical_site 1516 1521	brain
+T50	gene 1523 1529	HOXA10
+T51	anatomical_site 1564 1570	tissue
+T52	gene 1581 1585	GFAP
+T53	anatomical_site 1614 1620	myelin
+T54	gene 1631 1650	Parathyroid hormone
+T55	gene 1652 1655	PTH
+T56	gene 1674 1679	PTHrP
+T57	anatomical_site 1696 1710	smooth muscles
+T58	anatomical_site 1791 1799	vascular
+T59	gene 1860 1863	BMP
+T60	anatomical_site 1902 1914	neural plate
+T61	gene 1934 1938	Pax3
+T62	gene 1943 1947	Msx1
+T63	anatomical_site 2023 2030	embryos
+T64	anatomical_site 2085 2093	vascular
+T65	anatomical_site 2094 2105	endothelium
+T66	gene 2121 2125	VEGF
+T67	gene 2164 2182	C reactive protein
+T68	anatomical_site 2192 2200	vascular
+T69	anatomical_site 2201 2212	endothelium
+T70	gene 2246 2252	Bdkrb1
+T71	gene 2272 2278	Bdkrb2
+T72	gene 2289 2292	B2R
+T73	anatomical_site 2351 2355	skin
+T74	anatomical_site 2386 2390	skin
+T75	anatomical_site 2419 2424	serum
+T76	gene 2425 2432	insulin
+T77	gene 2445 2455	huntingtin
+T78	gene 2498 2508	huntingtin
+T79	anatomical_site 2565 2570	brain
+T80	anatomical_site 2613 2618	brain
+T81	anatomical_site 2633 2641	striatum
+T82	gene 2657 2662	Tbx18
+T83	gene 2682 2705	paired box protein Pax3
+T84	anatomical_site 2732 2749	paraxial mesoderm

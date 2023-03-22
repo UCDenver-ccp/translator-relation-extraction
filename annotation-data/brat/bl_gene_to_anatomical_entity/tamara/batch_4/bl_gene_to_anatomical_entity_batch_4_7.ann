@@ -1,0 +1,109 @@
+T1	anatomical_site 42 45	eye
+T2	gene 47 51	LAT1
+T3	gene 53 57	MCT8
+T4	gene 59 64	MCT10
+T5	anatomical_site 67 75	pancreas
+T6	gene 77 81	LAT1
+T7	gene 83 88	MCT10
+T8	anatomical_site 91 97	kidney
+T9	anatomical_site 103 109	testis
+T10	gene 111 115	MCT8
+T11	gene 186 190	Car2
+T12	gene 192 196	Fgf7
+T13	gene 198 203	Fgfr2
+T14	gene 205 210	Foxa2
+T15	gene 224 228	Mmp7
+T16	gene 230 234	Msx1
+T17	gene 236 240	Msx2
+T18	gene 242 246	Wnt4
+T19	gene 248 253	Wnt7a
+T20	gene 255 260	Wnt16
+T21	gene 277 280	Hgf
+T22	gene 282 285	Ihh
+T23	gene 287 292	Wnt11
+T24	anatomical_site 316 322	uterus
+T25	gene 324 328	FGF8
+T26	anatomical_site 344 352	mesoderm
+T27	gene 373 381	hedgehog
+T28	anatomical_site 412 420	limb bud
+T29	anatomical_site 462 467	serum
+T30	anatomical_site 493 498	serum
+T31	gene 499 507	glucagon
+T32	gene 508 515	insulin
+T33	anatomical_site 523 528	serum
+T34	gene 594 604	Connexin43
+T35	gene 606 610	Cx43
+T36	anatomical_site 650 656	tissue
+T37	anatomical_site 687 693	tissue
+T38	gene 695 700	TNFR1
+T39	anatomical_site 723 729	tissue
+T40	gene 755 760	TNFR1
+T41	anatomical_site 811 816	blood
+T42	anatomical_site 826 831	serum
+T43	gene 832 839	insulin
+T44	anatomical_site 841 846	serum
+T45	gene 847 854	IGFBP-1
+T46	anatomical_site 859 864	serum
+T47	gene 963 968	Hand1
+T48	gene 972 977	Hand2
+T49	anatomical_site 983 990	embryos
+T50	anatomical_site 1021 1033	neural crest
+T51	anatomical_site 1070 1082	neural crest
+T52	gene 1104 1109	Hand1
+T53	gene 1156 1161	Hand2
+T54	gene 1217 1225	secretin
+T55	gene 1230 1247	secretin receptor
+T56	anatomical_site 1263 1268	brain
+T57	anatomical_site 1282 1297	cerebral cortex
+T58	anatomical_site 1299 1310	hippocampus
+T59	anatomical_site 1312 1324	hypothalamus
+T60	anatomical_site 1328 1338	cerebellum
+T61	anatomical_site 1374 1379	blood
+T62	gene 1405 1410	CXCL8
+T63	anatomical_site 1442 1447	serum
+T64	gene 1448 1453	CXCL8
+T65	gene 1454 1458	IL-8
+T66	anatomical_site 1505 1511	glands
+T67	gene 1576 1581	TRPV1
+T68	gene 1586 1597	aquaporin 5
+T69	gene 1599 1603	AQP5
+T70	anatomical_site 1644 1650	glands
+T71	gene 1717 1722	NDRG1
+T72	anatomical_site 1738 1744	kidney
+T73	anatomical_site 1749 1754	brain
+T74	anatomical_site 1792 1803	blastocysts
+T75	gene 1829 1833	Oct4
+T76	gene 1835 1839	Cdx2
+T77	gene 1845 1850	Hdac2
+T78	anatomical_site 1899 1909	blastocyst
+T79	gene 1917 1932	creatine kinase
+T80	anatomical_site 1977 1982	serum
+T81	gene 1983 1992	myoglobin
+T82	gene 2005 2009	Sox5
+T83	gene 2019 2023	Tbr1
+T84	anatomical_site 2072 2084	hypothalamus
+T85	anatomical_site 2089 2106	cerebral peduncle
+T86	gene 2139 2143	ApoE
+T87	gene 2148 2152	ApoJ
+T88	gene 2154 2163	clusterin
+T89	anatomical_site 2172 2177	brain
+T90	gene 2205 2210	HtrA1
+T91	gene 2215 2220	HtrA3
+T92	anatomical_site 2248 2259	trophoblast
+T93	anatomical_site 2277 2306	rostral ventrolateral medulla
+T94	gene 2315 2329	angiotensin II
+T95	anatomical_site 2372 2389	sympathetic nerve
+T96	gene 2444 2447	p38
+T97	gene 2448 2480	mitogen-activated protein kinase
+T98	gene 2482 2485	p38
+T99	gene 2486 2490	MAPK
+T100	gene 2496 2533	extracellular signal-regulated kinase
+T101	gene 2574 2577	myb
+T102	gene 2587 2590	myb
+T103	gene 2610 2613	mim
+T104	anatomical_site 2652 2657	chick
+T105	anatomical_site 2658 2664	embryo
+T106	anatomical_site 2705 2710	serum
+T107	gene 2711 2717	leptin
+T108	gene 2719 2732	interleukin-6
+T109	gene 2738 2756	C-reactive protein

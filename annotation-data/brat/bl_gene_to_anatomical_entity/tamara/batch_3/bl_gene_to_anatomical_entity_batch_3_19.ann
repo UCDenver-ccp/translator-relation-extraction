@@ -1,0 +1,106 @@
+T1	gene 0 4	IL-6
+T2	anatomical_site 20 25	serum
+T3	gene 44 48	IL-2
+T4	gene 50 54	IL-8
+T5	gene 56 72	interferon-alpha
+T6	gene 78 94	interferon-gamma
+T7	gene 105 109	VEGF
+T8	anatomical_site 134 139	blood
+T9	anatomical_site 148 152	bone
+T10	anatomical_site 171 175	limb
+T11	gene 180 184	VEGF
+T12	anatomical_site 215 219	bone
+T13	anatomical_site 220 225	blood
+T14	gene 246 250	Cx37
+T15	gene 262 266	Cx37
+T16	anatomical_site 295 301	kidney
+T17	anatomical_site 313 317	skin
+T18	anatomical_site 350 354	lung
+T19	gene 372 376	Cx37
+T20	anatomical_site 426 432	kidney
+T21	anatomical_site 437 441	skin
+T22	anatomical_site 449 453	lung
+T23	gene 480 484	ET-1
+T24	gene 489 493	ET-1
+T25	anatomical_site 497 509	renal tubule
+T26	gene 536 540	ET-1
+T27	anatomical_site 566 578	renal tubule
+T28	anatomical_site 596 600	milk
+T29	gene 601 607	leptin
+T30	gene 612 623	adiponectin
+T31	anatomical_site 646 650	body
+T32	gene 682 685	Shh
+T33	gene 686 690	Gli2
+T34	anatomical_site 724 730	tissue
+T35	gene 762 766	Gli2
+T36	anatomical_site 840 845	liver
+T37	anatomical_site 850 856	kidney
+T38	anatomical_site 869 883	soleus muscles
+T39	gene 931 937	MuRF-1
+T40	gene 963 993	thyroid transcription factor-1
+T41	anatomical_site 1011 1017	breast
+T42	anatomical_site 1046 1052	adults
+T43	gene 1078 1082	NGFR
+T44	gene 1104 1108	NGFR
+T45	anatomical_site 1144 1163	main olfactory bulb
+T46	anatomical_site 1194 1199	serum
+T47	gene 1200 1206	leptin
+T48	gene 1211 1222	adiponectin
+T49	anatomical_site 1226 1231	serum
+T50	gene 1232 1250	C-reactive protein
+T51	gene 1349 1359	Dystrophin
+T52	gene 1364 1372	utrophin
+T53	anatomical_site 1408 1423	skeletal muscle
+T54	anatomical_site 1440 1445	blood
+T55	anatomical_site 1450 1471	cerebral spinal fluid
+T56	gene 1490 1493	PML
+T57	gene 1560 1572	glycoprotein
+T58	gene 1579 1584	Abcb1
+T59	gene 1590 1622	breast cancer resistance protein
+T60	gene 1624 1628	Bcrp
+T61	gene 1629 1634	Abcg2
+T62	anatomical_site 1652 1657	brain
+T63	anatomical_site 1662 1668	testis
+T64	gene 1727 1730	CSF
+T65	gene 1731 1744	interleukin-6
+T66	gene 1746 1750	IL-6
+T67	anatomical_site 1769 1772	CNS
+T68	anatomical_site 1796 1802	tissue
+T69	gene 1818 1830	endothelin-1
+T70	gene 1832 1846	angiopoietin-1
+T71	anatomical_site 1852 1856	bone
+T72	gene 1971 1980	TNF-alpha
+T73	anatomical_site 2069 2073	lung
+T74	gene 2094 2099	MCP-1
+T75	gene 2111 2120	TGF-beta1
+T76	gene 2142 2150	collagen
+T77	gene 2162 2171	TNF-alpha
+T78	anatomical_site 2186 2191	lungs
+T79	anatomical_site 2220 2226	adults
+T80	anatomical_site 2240 2247	embryos
+T81	gene 2262 2270	catalase
+T82	gene 2272 2298	glutathione-S-transferases
+T83	gene 2365 2372	insulin
+T84	anatomical_site 2399 2405	muscle
+T85	gene 2407 2414	insulin
+T86	gene 2429 2434	IRS-1
+T87	gene 2453 2469	protein kinase B
+T88	anatomical_site 2502 2507	liver
+T89	gene 2540 2547	insulin
+T90	anatomical_site 2569 2575	muscle
+T91	anatomical_site 2678 2697	blood-brain barrier
+T92	gene 2701 2713	glycoprotein
+T93	gene 2715 2720	ABCB1
+T94	gene 2723 2764	multidrug resistance associated protein 4
+T95	gene 2766 2771	ABCC4
+T96	gene 2777 2809	breast cancer resistance protein
+T97	gene 2811 2816	ABCG2
+T98	anatomical_site 2852 2857	brain
+T99	gene 2912 2916	p300
+T100	gene 2974 2981	tubulin
+T101	anatomical_site 2993 3008	cerebral cortex
+T102	anatomical_site 3010 3021	hippocampus
+T103	anatomical_site 3023 3033	cerebellum
+T104	anatomical_site 3034 3040	cortex
+T105	anatomical_site 3042 3059	medulla oblongata
+T106	anatomical_site 3064 3076	hypothalamus

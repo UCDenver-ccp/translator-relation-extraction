@@ -1,0 +1,85 @@
+T1	gene 0 5	RGS14
+T2	gene 42 45	EGF
+T3	anatomical_site 50 55	serum
+T4	anatomical_site 124 129	serum
+T5	gene 130 134	IL-6
+T6	gene 139 154	angiotensinogen
+T7	anatomical_site 201 209	arterial
+T8	anatomical_site 210 216	tissue
+T9	gene 263 271	collagen
+T10	gene 294 302	collagen
+T11	gene 321 329	collagen
+T12	anatomical_site 349 355	tissue
+T13	gene 384 396	neuromedin S
+T14	gene 407 428	neuromedin U-receptor
+T15	gene 437 442	NMU2R
+T16	anatomical_site 471 493	central nervous system
+T17	anatomical_site 498 517	reproductive organs
+T18	gene 570 577	alpha-1
+T19	gene 583 595	glycoprotein
+T20	anatomical_site 605 610	serum
+T21	gene 645 650	SDF-1
+T22	gene 655 660	CXCR4
+T23	anatomical_site 693 697	skin
+T24	gene 701 704	K14
+T25	gene 705 711	VEGF-A
+T26	anatomical_site 753 757	skin
+T27	gene 791 796	CXCR4
+T28	anatomical_site 800 813	blood vessels
+T29	gene 858 862	CD69
+T30	gene 873 876	S1P
+T31	anatomical_site 885 889	skin
+T32	gene 917 920	S1P
+T33	gene 934 953	Parathyroid hormone
+T34	gene 955 958	PTH
+T35	anatomical_site 1004 1009	liver
+T36	anatomical_site 1014 1021	kidneys
+T37	gene 1033 1040	insulin
+T38	anatomical_site 1048 1053	liver
+T39	gene 1081 1088	Lingo-1
+T40	gene 1089 1094	Lern1
+T41	anatomical_site 1127 1132	brain
+T42	gene 1179 1184	Myt1l
+T43	anatomical_site 1195 1200	serum
+T44	gene 1201 1205	BDNF
+T45	gene 1224 1231	Insulin
+T46	anatomical_site 1274 1279	chick
+T47	anatomical_site 1280 1286	embryo
+T48	gene 1325 1331	leptin
+T49	anatomical_site 1354 1374	white adipose tissue
+T50	gene 1386 1392	leptin
+T51	anatomical_site 1426 1430	body
+T52	anatomical_site 1431 1434	fat
+T53	gene 1455 1458	p27
+T54	gene 1459 1463	Kip1
+T55	anatomical_site 1511 1530	upper urinary tract
+T56	gene 1545 1550	MAP1A
+T57	gene 1552 1557	MAP1B
+T58	gene 1562 1565	tau
+T59	anatomical_site 1611 1617	tissue
+T60	anatomical_site 1642 1654	nerve fibers
+T61	anatomical_site 1662 1667	organ
+T62	anatomical_site 1689 1707	sensory epithelium
+T63	gene 1719 1731	beta-amyloid
+T64	anatomical_site 1778 1783	brain
+T65	anatomical_site 1784 1794	parenchyma
+T66	gene 1863 1879	membrane protein
+T67	gene 1893 1902	precursor
+T68	anatomical_site 1958 1963	serum
+T69	gene 1964 1971	insulin
+T70	gene 1973 1979	leptin
+T71	gene 1985 1993	resistin
+T72	anatomical_site 2051 2055	body
+T73	anatomical_site 2117 2122	serum
+T74	anatomical_site 2127 2132	urine
+T75	gene 2133 2153	beta 2-microglobulin
+T76	gene 2184 2204	beta 2-microglobulin
+T77	anatomical_site 2226 2231	brain
+T78	gene 2260 2267	tubulin
+T79	anatomical_site 2280 2295	skeletal muscle
+T80	gene 2313 2316	Bax
+T81	gene 2317 2321	Bcl2
+T82	anatomical_site 2358 2363	brain
+T83	gene 2380 2389	caspase-3
+T84	anatomical_site 2393 2404	hippocampus
+T85	gene 2418 2422	Nrf2

@@ -1,0 +1,107 @@
+T1	anatomical_site 38 42	lung
+T2	anatomical_site 43 49	tissue
+T3	gene 54 61	alpha 1
+T4	gene 141 147	apelin
+T5	gene 187 191	UCP1
+T6	anatomical_site 239 259	brown adipose tissue
+T7	gene 273 277	UCP3
+T8	anatomical_site 294 299	fatty
+T9	anatomical_site 316 331	skeletal muscle
+T10	gene 346 357	vasopressin
+T11	anatomical_site 371 393	central nervous system
+T12	gene 405 416	vasopressin
+T13	anatomical_site 469 474	serum
+T14	anatomical_site 486 491	serum
+T15	anatomical_site 527 532	serum
+T16	gene 574 594	alkaline phosphatase
+T17	anatomical_site 599 604	liver
+T18	gene 632 639	insulin
+T19	anatomical_site 662 667	serum
+T20	gene 668 675	insulin
+T21	anatomical_site 717 722	blood
+T22	anatomical_site 761 771	bile ducts
+T23	anatomical_site 775 780	liver
+T24	gene 793 806	cytokeratin 7
+T25	gene 826 833	insulin
+T26	anatomical_site 849 854	serum
+T27	gene 855 862	insulin
+T28	gene 995 1026	transforming growth factor-beta
+T29	gene 1029 1038	TGF-beta1
+T30	gene 1041 1072	connective tissue growth factor
+T31	gene 1074 1078	CTGF
+T32	gene 1081 1114	plasminogen activator inhibitor-1
+T33	gene 1116 1121	PAI-1
+T34	anatomical_site 1124 1130	tissue
+T35	gene 1165 1171	TIMP-1
+T36	gene 1185 1193	collagen
+T37	anatomical_site 1208 1214	kidney
+T38	anatomical_site 1230 1235	heart
+T39	anatomical_site 1237 1242	brain
+T40	anatomical_site 1244 1249	liver
+T41	anatomical_site 1251 1255	lung
+T42	anatomical_site 1261 1267	kidney
+T43	gene 1278 1283	ALDH2
+T44	gene 1288 1293	ALDH5
+T45	gene 1301 1306	ALDH1
+T46	anatomical_site 1335 1340	liver
+T47	anatomical_site 1342 1348	kidney
+T48	anatomical_site 1354 1358	lung
+T49	anatomical_site 1412 1417	blood
+T50	gene 1428 1436	IL-1beta
+T51	gene 1438 1442	IL-6
+T52	gene 1448 1452	IL-8
+T53	anatomical_site 1471 1475	lung
+T54	gene 1527 1559	Cellular retinol-binding protein
+T55	gene 1561 1565	CRBP
+T56	anatomical_site 1590 1596	dermis
+T57	gene 1598 1601	Trp
+T58	gene 1603 1606	Arg
+T59	anatomical_site 1650 1654	body
+T60	anatomical_site 1655 1658	fat
+T61	gene 1681 1687	leptin
+T62	anatomical_site 1706 1711	organ
+T63	anatomical_site 1713 1717	bone
+T64	anatomical_site 1721 1730	cartilage
+T65	gene 1768 1773	SRC-1
+T66	gene 1782 1787	SRC-3
+T67	gene 1858 1877	chemokine receptors
+T68	gene 1878 1882	CCR1
+T69	gene 1884 1888	CCR2
+T70	gene 1890 1894	CCR3
+T71	gene 1896 1900	CCR4
+T72	gene 1902 1906	CCR5
+T73	gene 1908 1912	CCR6
+T74	gene 1914 1919	CXCR3
+T75	gene 1925 1931	CX3CR1
+T76	anatomical_site 1958 1963	blood
+T77	anatomical_site 1984 1998	synovial fluid
+T78	gene 2057 2061	IL-6
+T79	anatomical_site 2062 2066	vein
+T80	anatomical_site 2067 2072	blood
+T81	gene 2109 2112	SCD
+T82	gene 2114 2118	IL-8
+T83	gene 2177 2183	CYP2E1
+T84	gene 2185 2191	CYP1A2
+T85	anatomical_site 2215 2220	liver
+T86	anatomical_site 2221 2227	tissue
+T87	gene 2282 2285	PTH
+T88	anatomical_site 2348 2358	trabeculae
+T89	anatomical_site 2371 2375	bone
+T90	anatomical_site 2394 2404	trabeculae
+T91	anatomical_site 2424 2430	tissue
+T92	gene 2461 2470	TNF-alpha
+T93	gene 2490 2493	p55
+T94	gene 2520 2529	TNF-alpha
+T95	anatomical_site 2548 2554	tissue
+T96	gene 2634 2642	collagen
+T97	anatomical_site 2646 2652	tendon
+T98	anatomical_site 2654 2660	cornea
+T99	anatomical_site 2665 2669	skin
+T100	anatomical_site 2717 2721	skin
+T101	gene 2722 2730	collagen
+T102	anatomical_site 2741 2748	embryos
+T103	gene 2768 2771	Shh
+T104	anatomical_site 2805 2818	ocular region
+T105	gene 2827 2831	Ptch
+T106	gene 2833 2836	Smo
+T107	gene 2841 2844	Gli

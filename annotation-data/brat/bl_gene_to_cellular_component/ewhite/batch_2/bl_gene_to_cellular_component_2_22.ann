@@ -121,3 +121,50 @@ T120	gene 3475 3479	AP-1
 T121	cellular_component 3500 3504	Smad
 T122	gene 3500 3504	Smad
 T123	gene 3563 3572	TGF-beta1
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T5 Arg2:T6	
+R3	located_in Arg1:T10 Arg2:T9	
+R4	located_in Arg1:T11 Arg2:T9	
+R5	located_in Arg1:T39 Arg2:T38	
+T124	missed_gene 1203 1223	malate dehydrogenase
+R6	located_in Arg1:T124 Arg2:T38	
+R7	located_in Arg1:T44 Arg2:T45	
+R8	located_in Arg1:T43 Arg2:T45	
+T125	missed_gene 1329 1355	thiol-specific antioxidant
+R9	located_in Arg1:T125 Arg2:T45	
+R10	located_in Arg1:T42 Arg2:T45	
+R11	located_in Arg1:T41 Arg2:T45	
+R12	located_in Arg1:T40 Arg2:T45	
+R13	located_in Arg1:T39 Arg2:T45	
+R14	located_in Arg1:T39 Arg2:T45	
+R15	located_in Arg1:T34 Arg2:T45	
+T126	missed_gene 1065 1086	heat-shock protein 90
+R16	located_in Arg1:T126 Arg2:T45	
+R17	located_in Arg1:T35 Arg2:T45	
+R18	located_in Arg1:T36 Arg2:T45	
+T127	missed_gene 1128 1161	H+-transporting two-sector ATPase
+R19	located_in Arg1:T127 Arg2:T45	
+T128	missed_gene 1163 1168	ATP5B
+R20	located_in Arg1:T128 Arg2:T45	
+R21	located_in Arg1:T37 Arg2:T45	
+T129	missed_gene 1183 1186	PHB
+R22	located_in Arg1:T129 Arg2:T45	
+R23	located_in Arg1:T59 Arg2:T60	
+R24	located_in Arg1:T74 Arg2:T75	
+T130	missed_gene 2078 2081	SIP
+R25	located_in Arg1:T130 Arg2:T75	
+T131	corrected_gene 2008 2069	Calcyclin (S100A6) binding protein/Siah-1 interacting protein
+R26	located_in Arg1:T131 Arg2:T75	
+R27	located_in Arg1:T81 Arg2:T82	
+R28	located_in Arg1:T80 Arg2:T82	
+R29	located_in Arg1:T80 Arg2:T83	
+T132	missed_cellular_component 2194 2201	surface
+R30	located_in Arg1:T77 Arg2:T132	
+R31	located_in Arg1:T85 Arg2:T84	
+R32	located_in Arg1:T94 Arg2:T95	
+R33	located_in Arg1:T93 Arg2:T95	
+R34	located_in Arg1:T108 Arg2:T107	
+T133	missed_gene 3080 3089	aconitase
+R35	located_in Arg1:T133 Arg2:T107	
+R36	located_in Arg1:T117 Arg2:T116	
+R37	located_in Arg1:T117 Arg2:T118	

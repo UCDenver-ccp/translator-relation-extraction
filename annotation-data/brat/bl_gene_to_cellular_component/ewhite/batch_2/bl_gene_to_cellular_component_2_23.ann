@@ -109,3 +109,21 @@ T108	cellular_component 3126 3133	nucleus
 T109	gene 3157 3167	coronin 1A
 T110	cellular_component 3220 3229	lysosomal
 T111	gene 3243 3254	cathepsin K
+R1	located_in Arg1:T26 Arg2:T25	
+R2	located_in Arg1:T27 Arg2:T25	
+R3	located_in Arg1:T30 Arg2:T28	
+R4	located_in Arg1:T31 Arg2:T28	
+R5	located_in Arg1:T32 Arg2:T28	
+T112	corrected_gene 855 892	G-protein-coupled chemokine receptors
+R6	located_in Arg1:T112 Arg2:T28	
+R7	located_in Arg1:T34 Arg2:T33	
+R8	located_in Arg1:T35 Arg2:T33	
+R9	located_in Arg1:T36 Arg2:T33	
+R10	located_in Arg1:T41 Arg2:T40	
+R11	located_in Arg1:T49 Arg2:T51	
+R12	located_in Arg1:T92 Arg2:T93	
+R13	located_in Arg1:T94 Arg2:T93	
+R14	located_in Arg1:T103 Arg2:T102	
+R15	located_in Arg1:T106 Arg2:T108	
+R16	located_in Arg1:T107 Arg2:T108	
+R17	located_in Arg1:T111 Arg2:T110	

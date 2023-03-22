@@ -123,7 +123,6 @@ T122	anatomical_site 3084 3090	spleen
 T123	corrected_anatomical_site 570 581	lung tissue
 R1	located_in Arg1:T23 Arg2:T123	
 R2	located_in Arg1:T24 Arg2:T123	
-R3	located_in Arg1:T27 Arg2:T30	
 R4	located_in Arg1:T36 Arg2:T38	
 R5	located_in Arg1:T36 Arg2:T39	
 R6	located_in Arg1:T37 Arg2:T38	
@@ -158,7 +157,7 @@ R19	located_in Arg1:T3 Arg2:T4
 R32	located_in Arg1:T2 Arg2:T4	
 R33	located_in Arg1:T1 Arg2:T4	
 R34	located_in Arg1:T5 Arg2:T6	
-#2	AnnotatorNotes R34	I am not sure. It is possible that this level is zero
-#3	AnnotatorNotes R19	I am not sure. It is possible that this level is zero
 R35	located_in Arg1:T91 Arg2:T92	
 #4	AnnotatorNotes R35	Okay?
+R3	located_in Arg1:T101 Arg2:T102	
+R36	located_in Arg1:T101 Arg2:T103	

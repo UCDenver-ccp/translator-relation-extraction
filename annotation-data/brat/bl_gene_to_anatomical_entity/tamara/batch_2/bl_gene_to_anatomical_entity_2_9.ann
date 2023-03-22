@@ -138,7 +138,7 @@ T137	gene 3379 3383	HCN3
 T138	gene 3388 3392	HCN4
 T139	anatomical_site 3455 3467	hypothalamus
 R1	located_in Arg1:T17 Arg2:T18	
-R2	located_in Arg1:T17 Arg2:T19	
+R2	located_in Arg1:T17 Arg2:T163	
 T140	corrected_anatomical_site 516 531	Lamellar tissue
 R3	located_in Arg1:T21 Arg2:T140	
 R4	located_in Arg1:T21 Arg2:T22	
@@ -147,8 +147,8 @@ R6	located_in Arg1:T23 Arg2:T140
 T141	corrected_anatomical_site 676 687	lung tissue
 R7	located_in Arg1:T25 Arg2:T141	
 R8	located_in Arg1:T26 Arg2:T141	
-R9	located_in Arg1:T26 Arg2:T29	
-R10	located_in Arg1:T25 Arg2:T29	
+R9	located_in Arg1:T26 Arg2:T164	
+R10	located_in Arg1:T25 Arg2:T164	
 R11	located_in Arg1:T30 Arg2:T31	
 R12	located_in Arg1:T30 Arg2:T32	
 R13	located_in Arg1:T30 Arg2:T33	
@@ -215,7 +215,6 @@ R61	located_in Arg1:T128 Arg2:T129
 R62	located_in Arg1:T128 Arg2:T130	
 R63	located_in Arg1:T128 Arg2:T131	
 R64	located_in Arg1:T128 Arg2:T132	
-R65	located_in Arg1:T126 Arg2:T127	
 R66	located_in Arg1:T133 Arg2:T134	
 R67	located_in Arg1:T133 Arg2:T135	
 T155	missed_anatomical_site 3324 3343	superior colliculus
@@ -245,5 +244,13 @@ R84	located_in Arg1:T47 Arg2:T40
 T162	missed_gene 1150 1155	IL-13
 R85	located_in Arg1:T162 Arg2:T48	
 R87	located_in Arg1:T49 Arg2:T48	
-#1	AnnotatorNotes T29	okay? or endothelial also? 
 R35	located_in Arg1:T75 Arg2:T76	
+T163	corrected_anatomical_site 478 495	kidney glomerular
+T164	corrected_anatomical_site 702 720	artery endothelial
+T165	missed_gene 2392 2399	amylase
+T166	missed_gene 2455 2485	high-mobility groups protein 1
+R86	located_in Arg1:T165 Arg2:T92	
+R88	located_in Arg1:T93 Arg2:T92	
+R89	located_in Arg1:T94 Arg2:T92	
+R90	located_in Arg1:T166 Arg2:T92	
+T167	DONE 3496 3500	DONE

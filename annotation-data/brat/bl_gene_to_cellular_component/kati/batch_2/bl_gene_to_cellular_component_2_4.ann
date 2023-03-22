@@ -147,7 +147,6 @@ R2	located_in Arg1:T20 Arg2:T17
 R3	located_in Arg1:T27 Arg2:T26	
 R4	located_in Arg1:T32 Arg2:T34	
 R5	located_in Arg1:T33 Arg2:T34	
-R6	located_in Arg1:T39 Arg2:T38	
 T145	missed_gene 865 891	Nuclear transport receptor
 T146	missed_cellular_component 865 872	Nuclear
 R7	located_in Arg1:T145 Arg2:T146	

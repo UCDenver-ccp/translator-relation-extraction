@@ -136,3 +136,17 @@ T135	gene 3860 3865	APPL2
 T136	cellular_component 3910 3923	intracellular
 T137	gene 3934 3945	adiponectin
 T138	gene 3968 3979	adiponectin
+R1	located_in Arg1:T47 Arg2:T48	
+R2	located_in Arg1:T114 Arg2:T113	
+R3	located_in Arg1:T125 Arg2:T124	
+R4	located_in Arg1:T126 Arg2:T124	
+R5	located_in Arg1:T127 Arg2:T124	
+T139	corrected_gene 3686 3690;3692 3693	Smad 5
+T140	corrected_gene 3686 3690;3694 3695	Smad 8
+R6	located_in Arg1:T140 Arg2:T124	
+R7	located_in Arg1:T139 Arg2:T124	
+R8	located_in Arg1:T128 Arg2:T124	
+T141	corrected_gene 3934 3955	adiponectin receptors
+R9	located_in Arg1:T141 Arg2:T136	
+R10	located_in Arg1:T135 Arg2:T136	
+R11	located_in Arg1:T134 Arg2:T136	

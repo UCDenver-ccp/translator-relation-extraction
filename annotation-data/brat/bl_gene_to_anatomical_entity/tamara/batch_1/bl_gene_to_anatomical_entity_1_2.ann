@@ -200,31 +200,22 @@ R61	located_in Arg1:T100 Arg2:T106
 R62	located_in Arg1:T99 Arg2:T106	
 R63	located_in Arg1:T142 Arg2:T106	
 R64	located_in Arg1:T141 Arg2:T106	
-R65	located_in Arg1:T124 Arg2:T127	
-R66	located_in Arg1:T125 Arg2:T127	
-R67	located_in Arg1:T126 Arg2:T127	
-R68	located_in Arg1:T126 Arg2:T128	
-R69	located_in Arg1:T125 Arg2:T128	
-R70	located_in Arg1:T124 Arg2:T128	
+R68	located_in Arg1:T126 Arg2:T144	
+R69	located_in Arg1:T125 Arg2:T144	
+R70	located_in Arg1:T124 Arg2:T144	
 T139	missed_gene 1212 1215	SCF
 R1	located_in Arg1:T139 Arg2:T58	
 R2	located_in Arg1:T2 Arg2:T1	
 R35	located_in Arg1:T3 Arg2:T1	
-#1	AnnotatorNotes R35	I am not sure. It is possible that this level is zero
-#2	AnnotatorNotes R2	I am not sure. It is possible that this level is zero
 T143	missed_anatomical_site 1788 1799	vasculature
 R71	located_in Arg1:T79 Arg2:T143	
-#3	AnnotatorNotes R71	Okay?
 R72	located_in Arg1:T79 Arg2:T80	
-#4	AnnotatorNotes R72	Okay?
 R73	located_in Arg1:T79 Arg2:T81	
 R74	located_in Arg1:T83 Arg2:T143	
-#5	AnnotatorNotes R74	Okay?
 R75	located_in Arg1:T83 Arg2:T80	
-#6	AnnotatorNotes R75	Okay?
 R76	located_in Arg1:T83 Arg2:T81	
-#7	AnnotatorNotes R76	Okay?
 R77	located_in Arg1:T11 Arg2:T10	
 #8	AnnotatorNotes R77	Okay?
 R78	located_in Arg1:T12 Arg2:T10	
 #9	AnnotatorNotes R78	Okay?
+T144	corrected_anatomical_site 2989 2995;3017 3022	cortex brain

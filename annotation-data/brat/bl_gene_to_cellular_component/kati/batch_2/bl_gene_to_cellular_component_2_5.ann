@@ -153,3 +153,7 @@ R26	located_in Arg1:T126 Arg2:T110
 T127	corrected_gene 2750 2756	HB-EGF
 R27	located_in Arg1:T127 Arg2:T110	
 R28	located_in Arg1:T112 Arg2:T111	
+T128	missed_gene 498 502	CD13
+R29	located_in Arg1:T128 Arg2:T22	
+R30	located_in Arg1:T30 Arg2:T120	
+R31	located_in Arg1:T31 Arg2:T120	

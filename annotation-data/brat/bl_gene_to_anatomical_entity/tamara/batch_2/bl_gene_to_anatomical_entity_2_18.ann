@@ -123,8 +123,6 @@ R1	located_in Arg1:T2 Arg2:T3
 R2	located_in Arg1:T4 Arg2:T5	
 R3	located_in Arg1:T1 Arg2:T3	
 R4	located_in Arg1:T1 Arg2:T5	
-R5	located_in Arg1:T15 Arg2:T16	
-R6	located_in Arg1:T28 Arg2:T27	
 T123	corrected_gene 1078 1083	ACBP1
 T124	corrected_anatomical_site 1112 1123	embryo sacs
 R9	located_in Arg1:T123 Arg2:T124	
@@ -206,3 +204,8 @@ R72	located_in Arg1:T123 Arg2:T132
 R73	located_in Arg1:T123 Arg2:T133	
 R74	located_in Arg1:T122 Arg2:T132	
 R75	located_in Arg1:T122 Arg2:T133	
+R5	located_in Arg1:T36 Arg2:T31	
+R6	located_in Arg1:T36 Arg2:T32	
+R76	located_in Arg1:T36 Arg2:T33	
+R77	located_in Arg1:T36 Arg2:T34	
+T134	DONE 3302 3306	DONE

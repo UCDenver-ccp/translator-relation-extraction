@@ -127,26 +127,20 @@ R12	located_in Arg1:T25 Arg2:T29
 R13	located_in Arg1:T26 Arg2:T29	
 R14	located_in Arg1:T27 Arg2:T29	
 R15	located_in Arg1:T28 Arg2:T29	
-T115	corrected_anatomical_site 1147 1158	skin tissue
-R18	located_in Arg1:T47 Arg2:T115	
 R19	located_in Arg1:T51 Arg2:T52	
 R20	located_in Arg1:T51 Arg2:T53	
 R21	located_in Arg1:T51 Arg2:T54	
 R22	located_in Arg1:T55 Arg2:T56	
 R23	located_in Arg1:T55 Arg2:T57	
 R24	located_in Arg1:T55 Arg2:T58	
-R25	located_in Arg1:T71 Arg2:T74	
+R25	located_in Arg1:T71 Arg2:T127	
 R26	located_in Arg1:T71 Arg2:T75	
-R27	located_in Arg1:T72 Arg2:T74	
+R27	located_in Arg1:T72 Arg2:T127	
 R28	located_in Arg1:T72 Arg2:T75	
-R29	located_in Arg1:T76 Arg2:T80	
-R30	located_in Arg1:T76 Arg2:T81	
-R31	located_in Arg1:T77 Arg2:T80	
-R32	located_in Arg1:T77 Arg2:T81	
-R33	located_in Arg1:T78 Arg2:T80	
-R34	located_in Arg1:T78 Arg2:T81	
-R35	located_in Arg1:T79 Arg2:T80	
-R36	located_in Arg1:T79 Arg2:T81	
+R29	located_in Arg1:T76 Arg2:T128	
+R31	located_in Arg1:T77 Arg2:T128	
+R33	located_in Arg1:T78 Arg2:T128	
+R35	located_in Arg1:T79 Arg2:T128	
 T116	missed_gene 2044 2050	Wnt10b
 T117	corrected_gene 2052 2066	Sonic hedgehog
 R37	located_in Arg1:T116 Arg2:T88	
@@ -171,34 +165,31 @@ R50	located_in Arg1:T108 Arg2:T122
 R51	located_in Arg1:T109 Arg2:T122	
 T123	missed_gene 649 652	Rx1
 R16	located_in Arg1:T123 Arg2:T35	
-#1	AnnotatorNotes R16	Okay?
 R17	located_in Arg1:T30 Arg2:T35	
-#2	AnnotatorNotes R17	Okay?
 R52	located_in Arg1:T31 Arg2:T35	
-#3	AnnotatorNotes R52	Okay?
 R53	located_in Arg1:T32 Arg2:T35	
-#4	AnnotatorNotes R53	Okay?
 R54	located_in Arg1:T33 Arg2:T35	
-#5	AnnotatorNotes R54	Okay?
 R55	located_in Arg1:T34 Arg2:T35	
-#6	AnnotatorNotes R55	Okay?
 R56	located_in Arg1:T123 Arg2:T36	
-#7	AnnotatorNotes R56	Okay?
 R57	located_in Arg1:T30 Arg2:T36	
-#8	AnnotatorNotes R57	Okay?
 R58	located_in Arg1:T31 Arg2:T36	
-#9	AnnotatorNotes R58	Okay?
 R59	located_in Arg1:T32 Arg2:T36	
-#10	AnnotatorNotes R59	Okay?
 R60	located_in Arg1:T33 Arg2:T36	
-#11	AnnotatorNotes R60	Okay?
 R61	located_in Arg1:T34 Arg2:T36	
-#12	AnnotatorNotes R61	Okay?
 T124	missed_gene 956 981	alpha-smooth muscle actin
 R62	located_in Arg1:T124 Arg2:T44	
 T125	missed_gene 983 1014	connective tissue growth factor
 R63	located_in Arg1:T125 Arg2:T45	
 R64	located_in Arg1:T39 Arg2:T37	
-#13	AnnotatorNotes R64	Okay?
 R65	located_in Arg1:T39 Arg2:T38	
-#14	AnnotatorNotes R65	Okay?
+T126	missed_gene 645 647	ET
+R66	located_in Arg1:T126 Arg2:T35	
+R67	located_in Arg1:T126 Arg2:T36	
+R68	located_in Arg1:T40 Arg2:T41	
+T115	corrected_anatomical_site 1147 1151;1178 1184	skin tissue
+R18	located_in Arg1:T47 Arg2:T115	
+T127	corrected_anatomical_site 1748 1770	male urogenital system
+T128	corrected_anatomical_site 1912 1923;1949 1958	cell layers epidermis
+T129	corrected_anatomical_site 1147 1158	skin tissue
+R30	located_in Arg1:T47 Arg2:T129	
+T130	DONE 2811 2815	DONE

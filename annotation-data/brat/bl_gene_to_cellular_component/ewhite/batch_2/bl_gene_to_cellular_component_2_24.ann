@@ -130,3 +130,25 @@ T129	gene 3833 3839	moesin
 T130	gene 3854 3868	phosphoprotein
 T131	gene 3885 3914	PDZ domain-containing protein
 T132	cellular_component 3954 3969	plasma membrane
+T133	missed_gene 337 352	phospholipase A
+R1	located_in Arg1:T133 Arg2:T9	
+R2	located_in Arg1:T20 Arg2:T21	
+R3	located_in Arg1:T20 Arg2:T22	
+R4	located_in Arg1:T48 Arg2:T49	
+R5	located_in Arg1:T54 Arg2:T55	
+R6	located_in Arg1:T54 Arg2:T56	
+R7	located_in Arg1:T69 Arg2:T68	
+R8	located_in Arg1:T71 Arg2:T70	
+R9	located_in Arg1:T72 Arg2:T73	
+R10	located_in Arg1:T71 Arg2:T73	
+T134	missed_gene 2346 2351	actin
+T135	missed_gene 2353 2359	PIP(2)
+T136	missed_gene 2361 2381	transferrin receptor
+T137	corrected_gene 2408 2440	insulin granule membrane protein
+T138	corrected_cellular_component 2314 2332	endocytic vacuoles
+R11	located_in Arg1:T137 Arg2:T138	
+R12	located_in Arg1:T80 Arg2:T138	
+R13	located_in Arg1:T77 Arg2:T138	
+R14	located_in Arg1:T76 Arg2:T138	
+R15	located_in Arg1:T136 Arg2:T138	
+R16	located_in Arg1:T135 Arg2:T138	

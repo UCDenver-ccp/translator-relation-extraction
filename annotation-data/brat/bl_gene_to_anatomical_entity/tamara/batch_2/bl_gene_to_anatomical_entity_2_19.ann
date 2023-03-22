@@ -194,3 +194,11 @@ R60	located_in Arg1:T10 Arg2:T9
 R61	located_in Arg1:T13 Arg2:T14	
 #2	AnnotatorNotes R61	Okay?
 #3	AnnotatorNotes R58	Okay?
+T133	corrected_anatomical_site 1378 1395	gastrula ectoderm
+R62	located_in Arg1:T55 Arg2:T133	
+R63	located_in Arg1:T77 Arg2:T80	
+R64	located_in Arg1:T78 Arg2:T80	
+R65	located_in Arg1:T96 Arg2:T98	
+R66	located_in Arg1:T97 Arg2:T98	
+R67	located_in Arg1:T105 Arg2:T104	
+R68	located_in Arg1:T105 Arg2:T106	

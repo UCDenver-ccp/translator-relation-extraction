@@ -180,27 +180,34 @@ R49	located_in Arg1:T129 Arg2:T130
 R50	located_in Arg1:T108 Arg2:T130	
 R51	located_in Arg1:T35 Arg2:T31	
 R52	located_in Arg1:T10 Arg2:T13	
-#1	AnnotatorNotes R52	Okay?
 R53	located_in Arg1:T11 Arg2:T13	
-#2	AnnotatorNotes R53	Okay?
 T131	missed_gene 212 218	GRP170
 R54	located_in Arg1:T131 Arg2:T13	
-#3	AnnotatorNotes R54	Okay?
 T132	missed_gene 220 225	ERp57
 R55	located_in Arg1:T132 Arg2:T13	
 R56	located_in Arg1:T12 Arg2:T13	
-#4	AnnotatorNotes R56	Okay?
-#5	AnnotatorNotes R55	Okay?
-#6	AnnotatorNotes R22	Okay?
-#7	AnnotatorNotes R24	Okay?
-#8	AnnotatorNotes R21	Okay?
-#9	AnnotatorNotes R23	Okay?
 T133	corrected_anatomical_site 2838 2848;2872 2889	epithelium of the tooth germ
-#10	AnnotatorNotes T130	do we mark it? 
-#11	AnnotatorNotes T133	do we mark it? 
 R57	located_in Arg1:T114 Arg2:T115	
 #12	AnnotatorNotes R57	Okay?
 R58	located_in Arg1:T114 Arg2:T116	
 #13	AnnotatorNotes R58	Okay?
 R59	located_in Arg1:T114 Arg2:T117	
 #14	AnnotatorNotes R59	Okay?
+T134	corrected_gene 1125 1149	histone octamer proteins
+R60	located_in Arg1:T134 Arg2:T46	
+T135	corrected_gene 1212 1236	histone octamer proteins
+R61	located_in Arg1:T135 Arg2:T48	
+R62	located_in Arg1:T64 Arg2:T63	
+R63	located_in Arg1:T64 Arg2:T62	
+R64	located_in Arg1:T64 Arg2:T61	
+R65	located_in Arg1:T103 Arg2:T105	
+R66	located_in Arg1:T70 Arg2:T72	
+R67	located_in Arg1:T75 Arg2:T76	
+R68	located_in Arg1:T75 Arg2:T77	
+R69	located_in Arg1:T75 Arg2:T78	
+R70	located_in Arg1:T75 Arg2:T79	
+R71	located_in Arg1:T75 Arg2:T80	
+R72	located_in Arg1:T75 Arg2:T81	
+R73	located_in Arg1:T75 Arg2:T82	
+R74	located_in Arg1:T75 Arg2:T83	
+R75	located_in Arg1:T89 Arg2:T88	

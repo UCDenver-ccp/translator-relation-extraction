@@ -119,9 +119,6 @@ R18	located_in Arg1:T46 Arg2:T50
 R19	located_in Arg1:T51 Arg2:T49	
 R20	located_in Arg1:T51 Arg2:T52	
 R21	located_in Arg1:T51 Arg2:T53	
-T102	missed_anatomical_site 1481 1491	astrocytes
-R22	located_in Arg1:T59 Arg2:T102	
-R23	located_in Arg1:T60 Arg2:T102	
 R24	located_in Arg1:T62 Arg2:T63	
 R25	located_in Arg1:T64 Arg2:T65	
 R26	located_in Arg1:T68 Arg2:T67	
@@ -147,14 +144,11 @@ R43	located_in Arg1:T60 Arg2:T61
 R44	located_in Arg1:T59 Arg2:T61	
 T105	corrected_anatomical_site 1074 1085	gonadal fat
 R11	located_in Arg1:T42 Arg2:T105	
-#1	AnnotatorNotes R11	Okay?
-#2	AnnotatorNotes R26	Okay?
 R45	located_in Arg1:T13 Arg2:T15	
 R46	located_in Arg1:T13 Arg2:T16	
 R47	located_in Arg1:T14 Arg2:T15	
 R48	located_in Arg1:T14 Arg2:T16	
 R49	located_in Arg1:T22 Arg2:T21	
-#3	AnnotatorNotes R49	Okay?
 R50	located_in Arg1:T23 Arg2:T21	
-#4	AnnotatorNotes R50	Okay?
 R51	located_in Arg1:T72 Arg2:T73	
+T102	DONE 2507 2511	DONE

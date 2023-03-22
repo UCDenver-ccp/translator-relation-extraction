@@ -160,7 +160,10 @@ R28	located_in Arg1:T105 Arg2:T106
 R29	located_in Arg1:T105 Arg2:T107	
 R30	located_in Arg1:T108 Arg2:T106	
 R31	located_in Arg1:T108 Arg2:T107	
-#1	AnnotatorNotes R25	Okay?
-#2	AnnotatorNotes R24	Okay?
-#3	AnnotatorNotes R27	Okay?
-#4	AnnotatorNotes R26	Okay?
+R32	located_in Arg1:T81 Arg2:T79	
+R33	located_in Arg1:T81 Arg2:T78	
+R34	located_in Arg1:T105 Arg2:T109	
+T132	missed_anatomical_site 3229 3236	adrenal
+R35	located_in Arg1:T127 Arg2:T132	
+R36	located_in Arg1:T127 Arg2:T128	
+R37	located_in Arg1:T127 Arg2:T129	

@@ -233,4 +233,16 @@ T157	missed_gene 1090 1093	MIP
 R76	located_in Arg1:T157 Arg2:T43	
 R77	located_in Arg1:T157 Arg2:T47	
 R78	located_in Arg1:T88 Arg2:T89	
-#1	AnnotatorNotes R78	Okay?
+T158	corrected_gene 1731 1746	somatostatin-14
+R79	located_in Arg1:T158 Arg2:T147	
+T159	corrected_gene 1751 1766	somatostatin-28
+R80	located_in Arg1:T159 Arg2:T147	
+T160	corrected_anatomical_site 1616 1629	retina tissue
+R81	located_in Arg1:T57 Arg2:T160	
+R82	located_in Arg1:T58 Arg2:T160	
+R83	located_in Arg1:T143 Arg2:T160	
+R84	located_in Arg1:T144 Arg2:T160	
+R85	located_in Arg1:T60 Arg2:T160	
+T161	corrected_gene 1594 1612	p42/p44 MAP kinase
+R86	located_in Arg1:T161 Arg2:T160	
+T162	DONE 3282 3286	DONE

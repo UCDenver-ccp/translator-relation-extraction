@@ -147,3 +147,19 @@ R2	located_in Arg1:T144 Arg2:T1
 T145	corrected_gene 224 236	Cdc42 GTPase
 R3	located_in Arg1:T145 Arg2:T7	
 R4	located_in Arg1:T6 Arg2:T7	
+R5	located_in Arg1:T15 Arg2:T16	
+T146	missed_gene 493 497	apoE
+R6	located_in Arg1:T146 Arg2:T16	
+R7	located_in Arg1:T20 Arg2:T21	
+R8	located_in Arg1:T27 Arg2:T26	
+R9	located_in Arg1:T28 Arg2:T26	
+R10	located_in Arg1:T32 Arg2:T31	
+R11	located_in Arg1:T34 Arg2:T31	
+R12	located_in Arg1:T36 Arg2:T31	
+R13	located_in Arg1:T35 Arg2:T31	
+T147	corrected_gene 1426 1437	protein B23
+R14	located_in Arg1:T147 Arg2:T46	
+R15	located_in Arg1:T77 Arg2:T76	
+R16	located_in Arg1:T112 Arg2:T111	
+T148	missed_cellular_component 3362 3369	nuclear
+R17	located_in Arg1:T112 Arg2:T148	

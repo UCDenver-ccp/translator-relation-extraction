@@ -166,3 +166,25 @@ R42	located_in Arg1:T105 Arg2:T122
 R43	located_in Arg1:T119 Arg2:T66	
 R44	located_in Arg1:T63 Arg2:T66	
 R45	located_in Arg1:T64 Arg2:T66	
+R46	located_in Arg1:T60 Arg2:T59	
+R47	located_in Arg1:T62 Arg2:T61	
+R48	located_in Arg1:T92 Arg2:T94	
+R49	located_in Arg1:T93 Arg2:T94	
+T123	missed_anatomical_site 675 679	iris
+R50	located_in Arg1:T27 Arg2:T123	
+R51	located_in Arg1:T32 Arg2:T34	
+R52	located_in Arg1:T32 Arg2:T115	
+R53	located_in Arg1:T32 Arg2:T35	
+R54	located_in Arg1:T32 Arg2:T116	
+R55	located_in Arg1:T32 Arg2:T37	
+R56	located_in Arg1:T56 Arg2:T55	
+T124	corrected_gene 1833 1848	VEGF receptor-1
+R57	located_in Arg1:T124 Arg2:T74	
+R58	located_in Arg1:T75 Arg2:T81	
+R59	located_in Arg1:T76 Arg2:T81	
+R60	located_in Arg1:T77 Arg2:T81	
+T125	corrected_gene 1914 1960	tissue inhibitor of matrix metalloproteinase-1
+R61	located_in Arg1:T125 Arg2:T81	
+R62	located_in Arg1:T80 Arg2:T81	
+R63	located_in Arg1:T125 Arg2:T78	
+R64	located_in Arg1:T80 Arg2:T78	

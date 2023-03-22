@@ -126,7 +126,7 @@ R1	located_in Arg1:T4 Arg2:T124
 R2	located_in Arg1:T5 Arg2:T124	
 T125	missed_gene 266 269	OPN
 R3	located_in Arg1:T125 Arg2:T10	
-T126	missed_gene 347 351	IL-2
+T126	missed_gene 347 360	IL-2 receptor
 R4	located_in Arg1:T12 Arg2:T11	
 R5	located_in Arg1:T13 Arg2:T11	
 R6	located_in Arg1:T14 Arg2:T11	
@@ -237,4 +237,30 @@ R88	located_in Arg1:T144 Arg2:T121
 R89	located_in Arg1:T144 Arg2:T122	
 R90	located_in Arg1:T144 Arg2:T123	
 R53	located_in Arg1:T104 Arg2:T105	
-#1	AnnotatorNotes T106	do we mark it? 
+T138	corrected_gene 391 415	dystrophin-like proteins
+R91	located_in Arg1:T16 Arg2:T18	
+R92	located_in Arg1:T16 Arg2:T19	
+R93	located_in Arg1:T138 Arg2:T18	
+R94	located_in Arg1:T138 Arg2:T19	
+T147	missed_gene 727 746	alpha-smooth muscle
+R95	located_in Arg1:T147 Arg2:T31	
+T152	missed_anatomical_site 692 702	epithelial
+R96	located_in Arg1:T30 Arg2:T29	
+R97	located_in Arg1:T30 Arg2:T152	
+R98	located_in Arg1:T147 Arg2:T29	
+R99	located_in Arg1:T147 Arg2:T152	
+R100	located_in Arg1:T32 Arg2:T29	
+R101	located_in Arg1:T32 Arg2:T152	
+T153	missed_gene 759 772	S-100 protein
+R102	located_in Arg1:T153 Arg2:T29	
+R103	located_in Arg1:T153 Arg2:T152	
+T154	missed_gene 778 789	cytokeratin
+R104	located_in Arg1:T154 Arg2:T29	
+R105	located_in Arg1:T154 Arg2:T29	
+T156	missed_gene 1893 1896	Fos
+R108	located_in Arg1:T156 Arg2:T86	
+R109	located_in Arg1:T156 Arg2:T87	
+R110	located_in Arg1:T85 Arg2:T86	
+R111	located_in Arg1:T85 Arg2:T87	
+R106	located_in Arg1:T49 Arg2:T50	
+T155	DONE 2885 2889	DONE

@@ -130,15 +130,12 @@ T129	missed_gene 312 315	CD9
 R1	located_in Arg1:T12 Arg2:T13	
 R2	located_in Arg1:T12 Arg2:T14	
 R3	located_in Arg1:T12 Arg2:T15	
-R4	located_in Arg1:T12 Arg2:T16	
-R5	located_in Arg1:T12 Arg2:T17	
-R6	located_in Arg1:T12 Arg2:T18	
+R6	located_in Arg1:T12 Arg2:T139	
 R7	located_in Arg1:T129 Arg2:T13	
 R8	located_in Arg1:T129 Arg2:T14	
 R9	located_in Arg1:T129 Arg2:T15	
-R10	located_in Arg1:T129 Arg2:T16	
-R11	located_in Arg1:T129 Arg2:T17	
-R12	located_in Arg1:T129 Arg2:T18	
+R11	located_in Arg1:T129 Arg2:T140	
+R12	located_in Arg1:T129 Arg2:T139	
 R13	located_in Arg1:T20 Arg2:T22	
 R14	located_in Arg1:T21 Arg2:T22	
 T130	missed_anatomical_site 1116 1128	sweat glands
@@ -182,3 +179,11 @@ R43	located_in Arg1:T102 Arg2:T101
 R45	located_in Arg1:T120 Arg2:T122	
 #1	AnnotatorNotes R42	Okay?
 #2	AnnotatorNotes R41	Okay?
+R44	located_in Arg1:T1 Arg2:T2	
+R46	located_in Arg1:T27 Arg2:T26	
+R47	located_in Arg1:T28 Arg2:T26	
+T139	corrected_anatomical_site 412 432	epithelium of amnion
+T140	corrected_anatomical_site 383 410	myelin of peripheral nerves
+R4	located_in Arg1:T12 Arg2:T140	
+R5	located_in Arg1:T20 Arg2:T19	
+R10	located_in Arg1:T21 Arg2:T19	

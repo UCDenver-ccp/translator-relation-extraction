@@ -189,42 +189,44 @@ R62	located_in Arg1:T130 Arg2:T117
 T131	corrected_gene 2230 2249	relaxin-3 receptors
 R45	located_in Arg1:T131 Arg2:T91	
 R46	located_in Arg1:T131 Arg2:T92	
-R47	located_in Arg1:T1 Arg2:T7	
-R52	located_in Arg1:T2 Arg2:T7	
-#1	AnnotatorNotes R52	Is it good to mark here "organ"?
-#2	AnnotatorNotes R47	Is it good to mark here "organ"?
 R63	located_in Arg1:T45 Arg2:T43	
 T132	missed_gene 1137 1148	cytokeratin
 R64	located_in Arg1:T132 Arg2:T43	
 T133	missed_gene 1224 1249	alpha-smooth muscle actin
 R65	located_in Arg1:T133 Arg2:T48	
 T134	missed_gene 1172 1201	fibroblast-specific protein 1
-T135	missed_anatomical_site 1172 1182	fibroblast
-R66	located_in Arg1:T134 Arg2:T135	
-#3	AnnotatorNotes R66	Is "fibroblast" okay? Not "too small"?
-R67	located_in Arg1:T46 Arg2:T135	
 R68	located_in Arg1:T134 Arg2:T44	
 R69	located_in Arg1:T46 Arg2:T44	
 R70	located_in Arg1:T47 Arg2:T44	
 R71	located_in Arg1:T133 Arg2:T44	
-T136	missed_anatomical_site 1303 1315	interstitial
-R72	located_in Arg1:T50 Arg2:T136	
-#4	AnnotatorNotes R72	Interstitial? or mesenchymal? Or nothing? 
 T137	corrected_gene 1362 1368;1373 1381	type I collagen
-R73	located_in Arg1:T137 Arg2:T136	
-#5	AnnotatorNotes R73	Interstitial? or mesenchymal? Or nothing? 
 T138	corrected_gene 1362 1366;1369 1381	type III collagen
-R74	located_in Arg1:T138 Arg2:T136	
-#6	AnnotatorNotes R74	Interstitial? or mesenchymal? Or nothing? 
 R75	located_in Arg1:T52 Arg2:T54	
-#7	AnnotatorNotes R75	Okay?
 R76	located_in Arg1:T52 Arg2:T55	
-#8	AnnotatorNotes R76	Okay?
 R77	located_in Arg1:T52 Arg2:T56	
-#9	AnnotatorNotes R77	Okay?
 R78	located_in Arg1:T53 Arg2:T54	
-#10	AnnotatorNotes R78	Okay?
 R79	located_in Arg1:T53 Arg2:T55	
-#11	AnnotatorNotes R79	Okay?
 R80	located_in Arg1:T53 Arg2:T56	
-#12	AnnotatorNotes R80	Okay?
+T139	corrected_gene 104 107;116 124	HGF receptor
+R47	located_in Arg1:T6 Arg2:T7	
+R52	located_in Arg1:T139 Arg2:T7	
+R81	located_in Arg1:T18 Arg2:T17	
+R82	located_in Arg1:T120 Arg2:T16	
+R66	located_in Arg1:T50 Arg2:T44	
+R67	located_in Arg1:T137 Arg2:T44	
+R72	located_in Arg1:T138 Arg2:T44	
+R73	located_in Arg1:T57 Arg2:T54	
+R74	located_in Arg1:T57 Arg2:T55	
+R83	located_in Arg1:T57 Arg2:T56	
+R84	located_in Arg1:T58 Arg2:T54	
+R85	located_in Arg1:T58 Arg2:T55	
+R86	located_in Arg1:T58 Arg2:T56	
+R87	located_in Arg1:T72 Arg2:T71	
+T135	missed_anatomical_site 1903 1908	serum
+T136	corrected_gene 1909 1916	albumin
+R88	located_in Arg1:T136 Arg2:T135	
+R89	located_in Arg1:T86 Arg2:T91	
+R90	located_in Arg1:T86 Arg2:T92	
+T140	missed_anatomical_site 1803 1809	Plasma
+R91	located_in Arg1:T70 Arg2:T140	
+T141	DONE 3002 3006	DONE

@@ -196,9 +196,6 @@ T144	corrected_gene 2555 2608	brain ?-site amyloid precursor protein cleaving en
 R55	located_in Arg1:T144 Arg2:T107	
 R56	located_in Arg1:T109 Arg2:T107	
 R57	located_in Arg1:T112 Arg2:T115	
-T145	missed_anatomical_site 2001 2012	spermatozoa
-R43	located_in Arg1:T82 Arg2:T145	
-#1	AnnotatorNotes R43	Okay? without "tail", "head" and "neck"
 T146	corrected_anatomical_site 2396 2417	placental trophoblast
 T147	corrected_gene 2865 2883	PTH-PTHrP receptor
 R44	located_in Arg1:T147 Arg2:T118	
@@ -209,3 +206,40 @@ R59	located_in Arg1:T147 Arg2:T120
 #5	AnnotatorNotes R59	Okay?
 R58	located_in Arg1:T100 Arg2:T102	
 R60	located_in Arg1:T101 Arg2:T102	
+T148	missed_anatomical_site 734 739	Serum
+R61	located_in Arg1:T135 Arg2:T148	
+R62	located_in Arg1:T35 Arg2:T148	
+R63	located_in Arg1:T37 Arg2:T36	
+R64	located_in Arg1:T38 Arg2:T36	
+T145	missed_gene 2625 2642	nuclear factor ?B
+T149	missed_gene 2644 2649	NF-?B
+R43	located_in Arg1:T145 Arg2:T110	
+R65	located_in Arg1:T149 Arg2:T110	
+T150	missed_gene 2662 2706	receptor for advanced glycation end products
+T151	missed_gene 2708 2712	RAGE
+R66	located_in Arg1:T150 Arg2:T111	
+R67	located_in Arg1:T151 Arg2:T111	
+R68	located_in Arg1:T125 Arg2:T129	
+R69	located_in Arg1:T125 Arg2:T130	
+R70	located_in Arg1:T125 Arg2:T131	
+R71	located_in Arg1:T125 Arg2:T132	
+R72	located_in Arg1:T125 Arg2:T133	
+R73	located_in Arg1:T126 Arg2:T129	
+R74	located_in Arg1:T126 Arg2:T130	
+R75	located_in Arg1:T126 Arg2:T131	
+R76	located_in Arg1:T126 Arg2:T132	
+R77	located_in Arg1:T126 Arg2:T133	
+R78	located_in Arg1:T127 Arg2:T129	
+R79	located_in Arg1:T127 Arg2:T130	
+R80	located_in Arg1:T127 Arg2:T131	
+R81	located_in Arg1:T127 Arg2:T132	
+R82	located_in Arg1:T127 Arg2:T133	
+R83	located_in Arg1:T128 Arg2:T129	
+R84	located_in Arg1:T128 Arg2:T130	
+R85	located_in Arg1:T128 Arg2:T131	
+R86	located_in Arg1:T128 Arg2:T132	
+R87	located_in Arg1:T128 Arg2:T133	
+T152	missed_gene 2531 2548	?-amyloid peptide
+T153	missed_gene 2550 2552	A?
+R88	located_in Arg1:T152 Arg2:T106	
+R89	located_in Arg1:T153 Arg2:T106	

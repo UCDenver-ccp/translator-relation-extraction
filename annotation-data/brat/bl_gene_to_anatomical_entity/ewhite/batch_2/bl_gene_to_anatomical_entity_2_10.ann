@@ -123,3 +123,64 @@ T122	gene 3129 3136	insulin
 T123	gene 3181 3188	insulin
 T124	gene 3220 3227	insulin
 T125	gene 3233 3239	leptin
+T126	corrected_anatomical_site 14 26	liver tissue
+R1	located_in Arg1:T3 Arg2:T126	
+R2	located_in Arg1:T4 Arg2:T126	
+T127	missed_gene 27 35	IL-1beta
+R3	located_in Arg1:T127 Arg2:T126	
+R4	located_in Arg1:T23 Arg2:T22	
+R5	located_in Arg1:T23 Arg2:T21	
+R6	located_in Arg1:T26 Arg2:T25	
+R7	located_in Arg1:T26 Arg2:T24	
+T128	corrected_anatomical_site 885 897	brain tissue
+R8	located_in Arg1:T36 Arg2:T128	
+R9	located_in Arg1:T35 Arg2:T128	
+R10	located_in Arg1:T49 Arg2:T50	
+R11	located_in Arg1:T48 Arg2:T50	
+T129	corrected_gene 1117 1138	adiponectin receptors
+R12	located_in Arg1:T129 Arg2:T50	
+T130	corrected_anatomical_site 1380 1395	umbilical serum
+R13	located_in Arg1:T53 Arg2:T130	
+R14	located_in Arg1:T54 Arg2:T130	
+R15	located_in Arg1:T56 Arg2:T130	
+T131	missed_gene 1342 1345	p75
+R16	located_in Arg1:T131 Arg2:T130	
+T132	missed_gene 1347 1353	IL-IRA
+R17	located_in Arg1:T132 Arg2:T130	
+R18	located_in Arg1:T57 Arg2:T130	
+R19	located_in Arg1:T66 Arg2:T67	
+R20	located_in Arg1:T66 Arg2:T68	
+R21	located_in Arg1:T66 Arg2:T69	
+T133	corrected_gene 1630 1635	HSP72
+R22	located_in Arg1:T133 Arg2:T71	
+R23	located_in Arg1:T73 Arg2:T72	
+R24	located_in Arg1:T74 Arg2:T72	
+R25	located_in Arg1:T76 Arg2:T75	
+T134	corrected_gene 1977 1988	ABCC family
+R26	located_in Arg1:T134 Arg2:T84	
+R27	located_in Arg1:T134 Arg2:T85	
+R28	located_in Arg1:T134 Arg2:T86	
+R29	located_in Arg1:T134 Arg2:T87	
+T135	corrected_gene 1943 1975	ATP-binding cassette superfamily
+R30	located_in Arg1:T135 Arg2:T84	
+R31	located_in Arg1:T135 Arg2:T85	
+R32	located_in Arg1:T135 Arg2:T86	
+R33	located_in Arg1:T135 Arg2:T87	
+T136	corrected_anatomical_site 2119 2131	brain tissue
+R34	located_in Arg1:T88 Arg2:T136	
+R35	located_in Arg1:T98 Arg2:T99	
+R36	located_in Arg1:T98 Arg2:T100	
+R37	located_in Arg1:T101 Arg2:T102	
+R38	located_in Arg1:T101 Arg2:T103	
+R39	located_in Arg1:T104 Arg2:T105	
+T137	corrected_anatomical_site 2313 2325	brain tissue
+R40	located_in Arg1:T92 Arg2:T137	
+R41	located_in Arg1:T93 Arg2:T137	
+R42	located_in Arg1:T94 Arg2:T137	
+R43	located_in Arg1:T95 Arg2:T137	
+R44	located_in Arg1:T109 Arg2:T108	
+R45	located_in Arg1:T111 Arg2:T112	
+T138	corrected_anatomical_site 2717 2740	supramammary lymph node
+R46	located_in Arg1:T111 Arg2:T138	
+R47	located_in Arg1:T113 Arg2:T115	
+R48	located_in Arg1:T114 Arg2:T115	

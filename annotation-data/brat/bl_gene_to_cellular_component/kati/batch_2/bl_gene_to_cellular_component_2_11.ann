@@ -147,12 +147,9 @@ T141	missed_cellular_component 852 859	nuclear
 R6	located_in Arg1:T140 Arg2:T141	
 T142	missed_gene 869 873	NEUN
 R7	located_in Arg1:T142 Arg2:T141	
-T143	missed_cellular_component 931 942	microtubule
-R8	located_in Arg1:T30 Arg2:T143	
 T144	missed_gene 985 1006	neurofilament protein
 R9	located_in Arg1:T144 Arg2:T31	
 T145	missed_gene 1032 1053	neurofilament protein
-R10	located_in Arg1:T145 Arg2:T32	
 T146	missed_gene 1149 1176	epithelial membrane antigen
 T147	missed_gene 1178 1181	EMA
 R11	located_in Arg1:T146 Arg2:T36	
@@ -167,3 +164,4 @@ R18	located_in Arg1:T104 Arg2:T107
 R19	located_in Arg1:T108 Arg2:T113	
 R20	located_in Arg1:T109 Arg2:T113	
 R21	located_in Arg1:T124 Arg2:T125	
+R22	located_in Arg1:T17 Arg2:T18	

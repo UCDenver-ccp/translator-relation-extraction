@@ -141,26 +141,17 @@ R26	located_in Arg1:T95 Arg2:T112
 R27	located_in Arg1:T95 Arg2:T100	
 R28	located_in Arg1:T95 Arg2:T101	
 R29	located_in Arg1:T26 Arg2:T28	
-#1	AnnotatorNotes R29	Okay?
 R30	located_in Arg1:T27 Arg2:T28	
-#2	AnnotatorNotes R30	Okay?
 T115	corrected_gene 662 683	adiponectin receptors
 R31	located_in Arg1:T115 Arg2:T30	
-#3	AnnotatorNotes R31	Okay?
 T116	missed_gene 728 737	IFN-gamma
 R32	located_in Arg1:T116 Arg2:T32	
 R33	located_in Arg1:T31 Arg2:T32	
-#4	AnnotatorNotes R33	Okay?
-#5	AnnotatorNotes R32	Okay?
 R34	located_in Arg1:T33 Arg2:T37	
-#6	AnnotatorNotes R34	Okay?
 R35	located_in Arg1:T34 Arg2:T37	
-#7	AnnotatorNotes R35	Okay?
 R36	located_in Arg1:T35 Arg2:T37	
-#8	AnnotatorNotes R36	Okay?
 T117	missed_gene 876 885	IFN-alpha
 R37	located_in Arg1:T117 Arg2:T38	
-#9	AnnotatorNotes R37	Okay?
 T118	missed_gene 19 31	pAKT protein
 #10	AnnotatorNotes T118	do we mark it? 
 R38	located_in Arg1:T1 Arg2:T4	

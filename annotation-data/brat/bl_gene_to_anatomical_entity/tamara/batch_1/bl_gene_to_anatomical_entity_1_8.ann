@@ -127,7 +127,6 @@ R13	located_in Arg1:T52 Arg2:T55
 R14	located_in Arg1:T53 Arg2:T55	
 T115	corrected_anatomical_site 1380 1398	parathyroid tissue
 R15	located_in Arg1:T56 Arg2:T115	
-R16	located_in Arg1:T57 Arg2:T115	
 T116	corrected_anatomical_site 1575 1595	ganglion cell layers
 R17	located_in Arg1:T65 Arg2:T116	
 R18	located_in Arg1:T66 Arg2:T116	
@@ -147,3 +146,35 @@ T122	missed_gene 1079 1117	bone morphogenetic protein receptor II
 T123	missed_gene 1119 1125	BMPRII
 R25	located_in Arg1:T122 Arg2:T49	
 R26	located_in Arg1:T123 Arg2:T49	
+R27	located_in Arg1:T40 Arg2:T43	
+R28	located_in Arg1:T41 Arg2:T43	
+R29	located_in Arg1:T42 Arg2:T43	
+R30	located_in Arg1:T42 Arg2:T44	
+R31	located_in Arg1:T41 Arg2:T44	
+R32	located_in Arg1:T40 Arg2:T44	
+T124	missed_anatomical_site 267 277	AGM region
+R33	located_in Arg1:T7 Arg2:T11	
+R34	located_in Arg1:T7 Arg2:T124	
+R35	located_in Arg1:T7 Arg2:T125	
+T125	corrected_anatomical_site 282 287;297 303	liver embryo
+T126	missed_anatomical_site 308 313	fetus
+R36	located_in Arg1:T7 Arg2:T126	
+R37	located_in Arg1:T8 Arg2:T11	
+R38	located_in Arg1:T8 Arg2:T124	
+R39	located_in Arg1:T8 Arg2:T12	
+R40	located_in Arg1:T8 Arg2:T126	
+R41	located_in Arg1:T9 Arg2:T11	
+R42	located_in Arg1:T9 Arg2:T124	
+R43	located_in Arg1:T9 Arg2:T125	
+R44	located_in Arg1:T9 Arg2:T126	
+R45	located_in Arg1:T10 Arg2:T11	
+R46	located_in Arg1:T10 Arg2:T124	
+R47	located_in Arg1:T10 Arg2:T125	
+R48	located_in Arg1:T10 Arg2:T126	
+T127	missed_gene 206 217	factor VIII
+R49	located_in Arg1:T127 Arg2:T11	
+R50	located_in Arg1:T127 Arg2:T124	
+R51	located_in Arg1:T127 Arg2:T125	
+R52	located_in Arg1:T127 Arg2:T126	
+R16	located_in Arg1:T110 Arg2:T109	
+T128	DONE 2905 2909	DONE

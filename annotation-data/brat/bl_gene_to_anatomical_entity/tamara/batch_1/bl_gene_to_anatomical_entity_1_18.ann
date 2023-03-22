@@ -155,29 +155,46 @@ T136	missed_gene 2585 2591	mTNF-?
 T137	missed_gene 2594 2600	mIL-10
 T138	corrected_anatomical_site 2778 2799	primo-vascular tissue
 R34	located_in Arg1:T118 Arg2:T138	
-R35	located_in Arg1:T118 Arg2:T121	
+R35	located_in Arg1:T118 Arg2:T143	
 R36	located_in Arg1:T123 Arg2:T126	
 R9	located_in Arg1:T53 Arg2:T52	
 R12	located_in Arg1:T67 Arg2:T66	
 R13	located_in Arg1:T64 Arg2:T63	
 R14	located_in Arg1:T65 Arg2:T63	
 R25	located_in Arg1:T11 Arg2:T10	
-#1	AnnotatorNotes R25	Okay?
 R26	located_in Arg1:T12 Arg2:T10	
-#2	AnnotatorNotes R26	Okay?
 R27	located_in Arg1:T14 Arg2:T17	
-#3	AnnotatorNotes R27	Okay?
 T133	corrected_anatomical_site 1168 1179	gluteal fat
-#4	AnnotatorNotes T133	do we mark it? 
-#5	AnnotatorNotes R10	Okay?
 T134	missed_anatomical_site 185 198	telencephalon
 R28	located_in Arg1:T4 Arg2:T134	
 R29	located_in Arg1:T5 Arg2:T134	
-#6	AnnotatorNotes T134	okay?
 R30	located_in Arg1:T6 Arg2:T134	
 R31	located_in Arg1:T7 Arg2:T134	
 R32	located_in Arg1:T8 Arg2:T134	
 R33	located_in Arg1:T15 Arg2:T17	
-#7	AnnotatorNotes R33	Okay?
 R37	located_in Arg1:T16 Arg2:T17	
-#8	AnnotatorNotes R37	Okay?
+R38	located_in Arg1:T46 Arg2:T45	
+R39	located_in Arg1:T47 Arg2:T45	
+R40	located_in Arg1:T48 Arg2:T45	
+T139	corrected_anatomical_site 2257 2269	heart muscle
+T140	corrected_anatomical_site 2244 2252;2263 2269	skeletal muscle
+T141	missed_gene 2168 2171	FAT
+R41	located_in Arg1:T141 Arg2:T140	
+R42	located_in Arg1:T141 Arg2:T139	
+R43	located_in Arg1:T92 Arg2:T139	
+R44	located_in Arg1:T92 Arg2:T140	
+R45	located_in Arg1:T93 Arg2:T139	
+R46	located_in Arg1:T93 Arg2:T140	
+R47	located_in Arg1:T94 Arg2:T139	
+R48	located_in Arg1:T94 Arg2:T140	
+R49	located_in Arg1:T95 Arg2:T139	
+R50	located_in Arg1:T95 Arg2:T140	
+T142	corrected_anatomical_site 2833 2859	lymphatic vascular tissues
+T143	corrected_anatomical_site 2823 2828;2843 2859	blood vascular tissues
+T144	corrected_anatomical_site 2975 2980;2995 3002	blood vessels
+T145	corrected_anatomical_site 2925 2946	primo-vascular system
+R51	located_in Arg1:T123 Arg2:T145	
+R52	located_in Arg1:T123 Arg2:T144	
+R53	located_in Arg1:T118 Arg2:T142	
+R54	located_in Arg1:T1 Arg2:T3	
+T146	DONE 3004 3008	DONE

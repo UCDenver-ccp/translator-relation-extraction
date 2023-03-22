@@ -184,10 +184,11 @@ R77	located_in Arg1:T99 Arg2:T100
 R78	located_in Arg1:T99 Arg2:T101	
 R63	located_in Arg1:T22 Arg2:T21	
 R64	located_in Arg1:T65 Arg2:T64	
-#1	AnnotatorNotes R64	Okay?
 R65	located_in Arg1:T66 Arg2:T64	
-#2	AnnotatorNotes R65	Okay?
 R72	located_in Arg1:T67 Arg2:T64	
-#3	AnnotatorNotes R72	Okay?
-R79	located_in Arg1:T68 Arg2:T64	
-#4	AnnotatorNotes R79	Okay?
+R80	located_in Arg1:T86 Arg2:T85	
+R81	located_in Arg1:T87 Arg2:T85	
+T111	missed_anatomical_site 2347 2355	cerebral
+R79	located_in Arg1:T86 Arg2:T111	
+R82	located_in Arg1:T87 Arg2:T111	
+T112	DONE 2780 2784	DONE

@@ -164,8 +164,8 @@ R30	located_in Arg1:T60 Arg2:T55
 R31	located_in Arg1:T61 Arg2:T55	
 T134	missed_gene 1606 1640	ornithine decarboxylase antizyme 3
 R32	located_in Arg1:T134 Arg2:T55	
-R33	located_in Arg1:T64 Arg2:T65	
-R34	located_in Arg1:T63 Arg2:T65	
+R33	located_in Arg1:T64 Arg2:T66	
+R34	located_in Arg1:T63 Arg2:T66	
 T135	corrected_anatomical_site 1949 1967	luminal epithelium
 T136	corrected_anatomical_site 1935 1944;1957 1967	glandular epithelium
 R35	located_in Arg1:T68 Arg2:T136	
@@ -188,5 +188,13 @@ T137	corrected_anatomical_site 2772 2783	lung tissue
 R51	located_in Arg1:T99 Arg2:T137	
 R52	located_in Arg1:T98 Arg2:T137	
 R53	located_in Arg1:T97 Arg2:T137	
-#1	AnnotatorNotes R1	Okay?
-#2	AnnotatorNotes R2	Okay?
+T138	missed_anatomical_site 1307 1322	Purkinje fibers
+R54	located_in Arg1:T129 Arg2:T138	
+R55	located_in Arg1:T63 Arg2:T67	
+R56	located_in Arg1:T63 Arg2:T67	
+R57	located_in Arg1:T79 Arg2:T80	
+R58	located_in Arg1:T79 Arg2:T81	
+T139	corrected_anatomical_site 2841 2862	hippocampal CA1 field
+R59	located_in Arg1:T103 Arg2:T139	
+R60	located_in Arg1:T104 Arg2:T139	
+T140	DONE 3271 3275	DONE

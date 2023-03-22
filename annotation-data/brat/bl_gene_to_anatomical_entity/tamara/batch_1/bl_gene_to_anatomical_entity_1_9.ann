@@ -136,12 +136,6 @@ R17	located_in Arg1:T27 Arg2:T30
 R18	located_in Arg1:T28 Arg2:T29	
 R19	located_in Arg1:T28 Arg2:T30	
 T119	corrected_anatomical_site 1451 1464	breast tissue
-T120	corrected_gene 1397 1403	HER1-2
-T121	corrected_gene 1405 1411	HER1-3
-T122	corrected_gene 1416 1422	HER1-4
-R22	located_in Arg1:T122 Arg2:T119	
-R23	located_in Arg1:T121 Arg2:T119	
-R24	located_in Arg1:T120 Arg2:T119	
 T123	corrected_anatomical_site 1612 1624	liver tissue
 T124	corrected_anatomical_site 1603 1607;1618 1624	lung tissue
 R25	located_in Arg1:T66 Arg2:T124	
@@ -159,11 +153,27 @@ T127	corrected_gene 592 596	OAT7
 R35	located_in Arg1:T127 Arg2:T24	
 R20	located_in Arg1:T100 Arg2:T102	
 R21	located_in Arg1:T32 Arg2:T31	
-#1	AnnotatorNotes R21	Okay?
 R29	located_in Arg1:T96 Arg2:T98	
-#2	AnnotatorNotes R29	Okay?
 T128	corrected_gene 2237 2244	p75NGFR
 R36	located_in Arg1:T128 Arg2:T98	
-#3	AnnotatorNotes R36	Okay?
 R37	located_in Arg1:T105 Arg2:T104	
 #4	AnnotatorNotes R37	Okay?
+T129	corrected_anatomical_site 2551 2569	parathyroid tissue
+R38	located_in Arg1:T106 Arg2:T129	
+R39	located_in Arg1:T107 Arg2:T129	
+T130	missed_anatomical_site 271 276	Serum
+R40	located_in Arg1:T13 Arg2:T130	
+R41	located_in Arg1:T15 Arg2:T14	
+R42	located_in Arg1:T34 Arg2:T33	
+T120	corrected_gene 1416 1419;1421 1422	HER 4
+T121	corrected_gene 1405 1408;1410 1411	HER 3
+T122	corrected_gene 1397 1400;1402 1403	HER 2
+R22	located_in Arg1:T57 Arg2:T119	
+R23	located_in Arg1:T122 Arg2:T119	
+R24	located_in Arg1:T121 Arg2:T119	
+R43	located_in Arg1:T120 Arg2:T119	
+T131	corrected_anatomical_site 1688 1700	liver tissue
+R44	located_in Arg1:T71 Arg2:T131	
+R45	located_in Arg1:T77 Arg2:T78	
+R46	located_in Arg1:T96 Arg2:T95	
+R47	located_in Arg1:T128 Arg2:T95	

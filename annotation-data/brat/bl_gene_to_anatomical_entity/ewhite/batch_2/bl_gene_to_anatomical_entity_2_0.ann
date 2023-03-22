@@ -1,6 +1,6 @@
 T1	gene 0 5	TRPA1
 T2	anatomical_site 60 75	urinary bladder
-T3	anatomical_site 80 94	prostate gland
+T3	anatomical_site 35 45;80 94	epithelial prostate gland
 T4	gene 110 114	NHE6
 T5	gene 119 123	NHE9
 T6	anatomical_site 148 153	brain
@@ -109,3 +109,85 @@ T108	anatomical_site 2788 2811	extra-embryonic tissues
 T109	anatomical_site 2828 2839	hippocampal
 T110	gene 2840 2845	TRPM7
 T111	anatomical_site 2889 2894	brain
+T112	missed_anatomical_site 35 45;60 75	epithelial urinary bladder
+R1	located_in Arg1:T1 Arg2:T112	
+T113	corrected_anatomical_site 35 45;80 94	epithelial prostate gland
+R2	located_in Arg1:T1 Arg2:T113	
+R3	located_in Arg1:T5 Arg2:T7	
+R4	located_in Arg1:T5 Arg2:T6	
+R5	located_in Arg1:T5 Arg2:T8	
+R6	located_in Arg1:T4 Arg2:T6	
+R7	located_in Arg1:T4 Arg2:T7	
+R8	located_in Arg1:T4 Arg2:T8	
+T114	corrected_anatomical_site 203 216	liver tissue,
+R9	located_in Arg1:T11 Arg2:T114	
+R10	located_in Arg1:T12 Arg2:T114	
+R11	located_in Arg1:T13 Arg2:T114	
+R12	located_in Arg1:T14 Arg2:T114	
+R13	located_in Arg1:T16 Arg2:T17	
+R14	located_in Arg1:T19 Arg2:T18	
+R15	located_in Arg1:T21 Arg2:T20	
+T115	missed_gene 524 527	SOD
+R16	located_in Arg1:T115 Arg2:T18	
+R17	located_in Arg1:T33 Arg2:T34	
+R18	located_in Arg1:T33 Arg2:T35	
+T116	missed_anatomical_site 793 809	neuronal tissues
+R19	located_in Arg1:T32 Arg2:T116	
+R20	located_in Arg1:T31 Arg2:T116	
+R21	located_in Arg1:T36 Arg2:T37	
+R22	located_in Arg1:T36 Arg2:T38	
+T117	missed_anatomical_site 1053 1057	lens
+R23	located_in Arg1:T40 Arg2:T117	
+R24	located_in Arg1:T39 Arg2:T117	
+T118	missed_anatomical_site 1290 1295	limbs
+R25	located_in Arg1:T47 Arg2:T118	
+R26	located_in Arg1:T47 Arg2:T48	
+T119	missed_gene 1267 1270	Nf1
+R27	located_in Arg1:T119 Arg2:T118	
+R28	located_in Arg1:T119 Arg2:T48	
+R29	located_in Arg1:T61 Arg2:T60	
+T120	missed_anatomical_site 1517 1520	CSF
+R30	located_in Arg1:T59 Arg2:T120	
+T121	missed_anatomical_site 1453 1456	CSF
+R31	located_in Arg1:T56 Arg2:T121	
+R32	located_in Arg1:T55 Arg2:T121	
+R33	located_in Arg1:T56 Arg2:T57	
+R34	located_in Arg1:T55 Arg2:T57	
+R35	located_in Arg1:T66 Arg2:T67	
+R36	located_in Arg1:T66 Arg2:T68	
+R37	located_in Arg1:T64 Arg2:T67	
+R38	located_in Arg1:T64 Arg2:T68	
+R39	located_in Arg1:T65 Arg2:T67	
+R40	located_in Arg1:T65 Arg2:T68	
+R41	located_in Arg1:T70 Arg2:T71	
+R42	located_in Arg1:T70 Arg2:T72	
+R43	located_in Arg1:T70 Arg2:T73	
+R44	located_in Arg1:T69 Arg2:T71	
+R45	located_in Arg1:T69 Arg2:T72	
+R46	located_in Arg1:T69 Arg2:T73	
+R47	located_in Arg1:T75 Arg2:T74	
+R48	located_in Arg1:T78 Arg2:T80	
+R49	located_in Arg1:T78 Arg2:T81	
+T122	corrected_anatomical_site 2099 2102	gut
+R50	located_in Arg1:T78 Arg2:T122	
+R51	located_in Arg1:T94 Arg2:T93	
+R52	located_in Arg1:T101 Arg2:T102	
+R53	located_in Arg1:T100 Arg2:T102	
+R54	located_in Arg1:T99 Arg2:T102	
+R55	located_in Arg1:T98 Arg2:T102	
+R56	located_in Arg1:T97 Arg2:T102	
+R57	located_in Arg1:T97 Arg2:T103	
+R58	located_in Arg1:T98 Arg2:T103	
+R59	located_in Arg1:T99 Arg2:T103	
+R60	located_in Arg1:T100 Arg2:T103	
+R61	located_in Arg1:T101 Arg2:T103	
+R62	located_in Arg1:T97 Arg2:T104	
+R63	located_in Arg1:T98 Arg2:T104	
+R64	located_in Arg1:T99 Arg2:T104	
+R65	located_in Arg1:T100 Arg2:T104	
+R66	located_in Arg1:T101 Arg2:T104	
+R67	located_in Arg1:T106 Arg2:T107	
+R68	located_in Arg1:T106 Arg2:T108	
+R69	located_in Arg1:T105 Arg2:T107	
+R70	located_in Arg1:T105 Arg2:T108	
+R71	located_in Arg1:T110 Arg2:T109	

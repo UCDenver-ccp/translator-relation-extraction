@@ -136,10 +136,7 @@ R24	located_in Arg1:T117 Arg2:T53
 R25	located_in Arg1:T55 Arg2:T53	
 R26	located_in Arg1:T56 Arg2:T53	
 R27	located_in Arg1:T118 Arg2:T53	
-T119	missed_anatomical_site 1516 1523;1531 1537	bladder tissue
-R28	located_in Arg1:T58 Arg2:T119	
-R29	located_in Arg1:T59 Arg2:T119	
-R30	located_in Arg1:T60 Arg2:T119	
+T119	missed_anatomical_site 1516 1523;1568 1574	bladder tissue
 R31	located_in Arg1:T63 Arg2:T64	
 R32	located_in Arg1:T63 Arg2:T65	
 R33	located_in Arg1:T66 Arg2:T67	
@@ -165,7 +162,10 @@ R47	located_in Arg1:T124 Arg2:T102
 R48	located_in Arg1:T100 Arg2:T103	
 R49	located_in Arg1:T100 Arg2:T104	
 T125	corrected_gene 2595 2622	transferrin binding protein
-R50	located_in Arg1:T125 Arg2:T106	
-R51	located_in Arg1:T125 Arg2:T107	
 T112	missed_gene 1195 1220	alpha smooth muscle actin
 R11	located_in Arg1:T112 Arg2:T48	
+R12	located_in Arg1:T58 Arg2:T119	
+R13	located_in Arg1:T59 Arg2:T119	
+R14	located_in Arg1:T60 Arg2:T119	
+T126	corrected_anatomical_site 2630 2641;2649 2654	capillaries brain
+R15	located_in Arg1:T125 Arg2:T126	

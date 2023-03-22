@@ -101,3 +101,14 @@ T100	gene 2676 2680	DPC4
 T101	cellular_component 2685 2689	SMAD
 T102	gene 2685 2689	SMAD
 T103	gene 2702 2710	TGF-beta
+R1	located_in Arg1:T10 Arg2:T11	
+R2	located_in Arg1:T20 Arg2:T21	
+R3	located_in Arg1:T19 Arg2:T21	
+R4	located_in Arg1:T36 Arg2:T37	
+R5	located_in Arg1:T56 Arg2:T52	
+R6	located_in Arg1:T55 Arg2:T52	
+R7	located_in Arg1:T54 Arg2:T52	
+R8	located_in Arg1:T53 Arg2:T52	
+R9	located_in Arg1:T51 Arg2:T52	
+R10	located_in Arg1:T50 Arg2:T52	
+R11	located_in Arg1:T63 Arg2:T64	

@@ -123,7 +123,6 @@ R4	located_in Arg1:T10 Arg2:T12
 R5	located_in Arg1:T11 Arg2:T12	
 T119	corrected_anatomical_site 549 561	brain tissue
 R6	located_in Arg1:T19 Arg2:T119	
-R7	located_in Arg1:T22 Arg2:T24	
 R8	located_in Arg1:T23 Arg2:T24	
 T120	corrected_anatomical_site 1083 1097	knee cartilage
 R9	located_in Arg1:T43 Arg2:T120	
@@ -132,7 +131,7 @@ R11	located_in Arg1:T45 Arg2:T120
 R12	located_in Arg1:T46 Arg2:T120	
 T121	missed_gene 2004 2012	Jagged-2
 R19	located_in Arg1:T99 Arg2:T98	
-R20	located_in Arg1:T112 Arg2:T113	
+R20	located_in Arg1:T112 Arg2:T124	
 R21	located_in Arg1:T114 Arg2:T115	
 T122	missed_gene 2963 2970	adipoR1
 R22	located_in Arg1:T122 Arg2:T117	
@@ -142,9 +141,7 @@ R13	located_in Arg1:T82 Arg2:T123
 R14	located_in Arg1:T83 Arg2:T123	
 R15	located_in Arg1:T121 Arg2:T123	
 R16	located_in Arg1:T111 Arg2:T110	
-#1	AnnotatorNotes R7	Okay?
 #2	AnnotatorNotes R8	Okay?
-#3	AnnotatorNotes R15	Okay?
-#4	AnnotatorNotes R14	Okay?
-#5	AnnotatorNotes R13	Okay?
-#6	AnnotatorNotes T123	do we mark it? 
+T124	corrected_anatomical_site 2878 2903	epididymal adipose tissue
+R7	located_in Arg1:T22 Arg2:T24	
+#1	AnnotatorNotes R7	Okay?

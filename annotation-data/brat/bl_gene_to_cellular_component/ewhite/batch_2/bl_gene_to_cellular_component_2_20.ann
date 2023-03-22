@@ -136,3 +136,26 @@ T135	gene 3926 3932	Notch1
 T136	gene 3946 3950	HEY1
 T137	gene 3955 3959	HEY2
 T138	gene 3996 4000	DLL4
+T139	missed_gene 742 746	RBCC
+R1	located_in Arg1:T139 Arg2:T31	
+T140	missed_cellular_component 704 711	nuclear
+R2	located_in Arg1:T139 Arg2:T140	
+R3	located_in Arg1:T40 Arg2:T42	
+R4	located_in Arg1:T39 Arg2:T42	
+R5	located_in Arg1:T38 Arg2:T42	
+T141	corrected_gene 1049 1067	MAPK kinase kinase
+R6	located_in Arg1:T141 Arg2:T42	
+T142	missed_gene 1555 1565	S6 protein
+R7	located_in Arg1:T142 Arg2:T55	
+R8	located_in Arg1:T62 Arg2:T63	
+R9	located_in Arg1:T76 Arg2:T75	
+R10	located_in Arg1:T77 Arg2:T75	
+R11	located_in Arg1:T78 Arg2:T75	
+R12	located_in Arg1:T79 Arg2:T75	
+R13	located_in Arg1:T80 Arg2:T75	
+T143	missed_cellular_component 2315 2318	rER
+R14	located_in Arg1:T103 Arg2:T102	
+R15	located_in Arg1:T104 Arg2:T102	
+R16	located_in Arg1:T105 Arg2:T102	
+R17	located_in Arg1:T121 Arg2:T120	
+R18	located_in Arg1:T133 Arg2:T134	

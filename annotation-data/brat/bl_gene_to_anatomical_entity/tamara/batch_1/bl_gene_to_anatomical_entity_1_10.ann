@@ -205,10 +205,30 @@ R73	located_in Arg1:T73 Arg2:T131
 R74	located_in Arg1:T23 Arg2:T22	
 R75	located_in Arg1:T74 Arg2:T76	
 R76	located_in Arg1:T75 Arg2:T76	
-#1	AnnotatorNotes R76	Okay?
-#2	AnnotatorNotes R75	Okay?
 T132	corrected_anatomical_site 2119 2123;2155 2161	head tissue
 T133	corrected_anatomical_site 2128 2132;2155 2161	neck tissue
 T134	corrected_gene 2081 2115	Estradiol receptor-binding protein
 R77	located_in Arg1:T134 Arg2:T132	
 R78	located_in Arg1:T134 Arg2:T133	
+T135	missed_gene 1062 1070	aggrecan
+R79	located_in Arg1:T38 Arg2:T41	
+R80	located_in Arg1:T135 Arg2:T41	
+R81	located_in Arg1:T39 Arg2:T41	
+R82	located_in Arg1:T40 Arg2:T41	
+R83	located_in Arg1:T38 Arg2:T42	
+R84	located_in Arg1:T135 Arg2:T42	
+R85	located_in Arg1:T39 Arg2:T42	
+R86	located_in Arg1:T40 Arg2:T42	
+R87	located_in Arg1:T104 Arg2:T102	
+R88	located_in Arg1:T104 Arg2:T103	
+R89	located_in Arg1:T105 Arg2:T102	
+R90	located_in Arg1:T105 Arg2:T103	
+R91	located_in Arg1:T48 Arg2:T47	
+R92	located_in Arg1:T49 Arg2:T47	
+R93	located_in Arg1:T55 Arg2:T47	
+R94	located_in Arg1:T54 Arg2:T47	
+R95	located_in Arg1:T53 Arg2:T47	
+R96	located_in Arg1:T52 Arg2:T47	
+R97	located_in Arg1:T51 Arg2:T47	
+R98	located_in Arg1:T50 Arg2:T47	
+T136	DONE 3067 3071	DONE

@@ -159,7 +159,7 @@ R29	located_in Arg1:T29 Arg2:T128
 R30	located_in Arg1:T29 Arg2:T33	
 R31	located_in Arg1:T29 Arg2:T129	
 R32	located_in Arg1:T29 Arg2:T34	
-R33	located_in Arg1:T29 Arg2:T35	
+R33	located_in Arg1:T29 Arg2:T135	
 R34	located_in Arg1:T36 Arg2:T38	
 R35	located_in Arg1:T37 Arg2:T39	
 R36	located_in Arg1:T45 Arg2:T47	
@@ -196,3 +196,18 @@ R45	located_in Arg1:T77 Arg2:T76
 T133	corrected_gene 434 469	transferrin-like myotrophic protein
 T134	corrected_anatomical_site 394 412	embryo spinal cord
 R64	located_in Arg1:T133 Arg2:T134	
+R65	located_in Arg1:T23 Arg2:T125	
+R66	located_in Arg1:T23 Arg2:T21	
+T135	corrected_anatomical_site 878 906	ducts of the salivary glands
+R67	located_in Arg1:T28 Arg2:T30	
+R68	located_in Arg1:T28 Arg2:T31	
+R69	located_in Arg1:T28 Arg2:T32	
+R70	located_in Arg1:T28 Arg2:T127	
+R71	located_in Arg1:T28 Arg2:T128	
+R72	located_in Arg1:T28 Arg2:T33	
+R73	located_in Arg1:T28 Arg2:T129	
+R74	located_in Arg1:T28 Arg2:T34	
+R75	located_in Arg1:T28 Arg2:T135	
+R76	located_in Arg1:T36 Arg2:T39	
+R77	located_in Arg1:T37 Arg2:T38	
+T136	DONE 2926 2930	DONE

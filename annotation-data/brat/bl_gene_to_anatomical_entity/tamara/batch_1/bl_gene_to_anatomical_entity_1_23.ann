@@ -148,10 +148,6 @@ R28	located_in Arg1:T52 Arg2:T119
 R29	located_in Arg1:T52 Arg2:T54	
 R30	located_in Arg1:T62 Arg2:T61	
 R31	located_in Arg1:T63 Arg2:T61	
-T120	corrected_anatomical_site 1655 1665;1672 1678	colorectal tissue
-R32	located_in Arg1:T64 Arg2:T120	
-R33	located_in Arg1:T65 Arg2:T120	
-R34	located_in Arg1:T66 Arg2:T120	
 T121	corrected_anatomical_site 1829 1843	thyroid tissue
 R35	located_in Arg1:T70 Arg2:T121	
 R36	located_in Arg1:T75 Arg2:T76	
@@ -173,20 +169,24 @@ T126	missed_gene 521 524	IRS
 R47	located_in Arg1:T125 Arg2:T22	
 R48	located_in Arg1:T126 Arg2:T22	
 R49	located_in Arg1:T20 Arg2:T22	
-#1	AnnotatorNotes R49	Okay?
-#2	AnnotatorNotes R48	Okay?
-#3	AnnotatorNotes R47	Okay?
-#4	AnnotatorNotes R18	Reduced, but still present 
 T127	missed_gene 1181 1185	FFA1
 R50	located_in Arg1:T127 Arg2:T50	
-#5	AnnotatorNotes R50	Okay?
 R51	located_in Arg1:T49 Arg2:T50	
-#6	AnnotatorNotes R51	Okay?
 R52	located_in Arg1:T48 Arg2:T50	
-#7	AnnotatorNotes R52	Okay?
 R53	located_in Arg1:T79 Arg2:T80	
 R54	located_in Arg1:T90 Arg2:T92	
 R55	located_in Arg1:T91 Arg2:T92	
-#8	AnnotatorNotes R55	Okay?
-#9	AnnotatorNotes R54	Okay?
 R56	located_in Arg1:T88 Arg2:T89	
+T128	missed_gene 563 568	AMPK?
+R57	located_in Arg1:T21 Arg2:T22	
+R58	located_in Arg1:T128 Arg2:T22	
+T129	missed_gene 583 587	INSR
+R59	located_in Arg1:T129 Arg2:T23	
+T120	corrected_anatomical_site 1655 1665;1699 1705	colorectal tissue
+R32	located_in Arg1:T64 Arg2:T120	
+R33	located_in Arg1:T65 Arg2:T120	
+R34	located_in Arg1:T66 Arg2:T120	
+R60	located_in Arg1:T74 Arg2:T76	
+R61	located_in Arg1:T74 Arg2:T77	
+R62	located_in Arg1:T74 Arg2:T78	
+R63	located_in Arg1:T99 Arg2:T98	

@@ -179,9 +179,13 @@ R48	located_in Arg1:T117 Arg2:T118
 #2	AnnotatorNotes T92	Do we mark it? Because these liquids are connected with cells and not mentioned by themselves. 
 R49	located_in Arg1:T93 Arg2:T95	
 R50	located_in Arg1:T93 Arg2:T96	
-#3	AnnotatorNotes R50	Okay?
-#4	AnnotatorNotes R49	Okay?
 R51	located_in Arg1:T94 Arg2:T95	
-#5	AnnotatorNotes R51	Okay?
 R52	located_in Arg1:T94 Arg2:T96	
-#6	AnnotatorNotes R52	Okay?
+R53	located_in Arg1:T40 Arg2:T39	
+R54	located_in Arg1:T73 Arg2:T72	
+R55	located_in Arg1:T75 Arg2:T74	
+R56	located_in Arg1:T77 Arg2:T76	
+T130	corrected_anatomical_site 2299 2319	endometriotic tissue
+R57	located_in Arg1:T104 Arg2:T130	
+R58	located_in Arg1:T105 Arg2:T130	
+R59	located_in Arg1:T114 Arg2:T116	

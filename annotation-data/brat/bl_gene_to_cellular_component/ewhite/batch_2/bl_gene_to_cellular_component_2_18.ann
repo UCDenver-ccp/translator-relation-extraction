@@ -126,3 +126,19 @@ T125	gene 3318 3324	cyclin
 T126	gene 3344 3373	rho-associated protein kinase
 T127	gene 3383 3393	calmodulin
 T128	gene 3415 3441	glycogen synthase kinase-3
+R1	located_in Arg1:T8 Arg2:T7	
+R2	located_in Arg1:T9 Arg2:T7	
+R3	located_in Arg1:T10 Arg2:T7	
+T129	missed_gene 199 205	RPL18a
+R4	located_in Arg1:T129 Arg2:T7	
+R5	located_in Arg1:T24 Arg2:T23	
+R6	located_in Arg1:T49 Arg2:T48	
+R7	located_in Arg1:T55 Arg2:T53	
+R8	located_in Arg1:T91 Arg2:T90	
+R9	located_in Arg1:T98 Arg2:T97	
+R10	located_in Arg1:T99 Arg2:T97	
+T130	missed_gene 2471 2475	CD24
+R11	located_in Arg1:T130 Arg2:T97	
+T131	missed_gene 2447 2452	CD133
+R12	located_in Arg1:T131 Arg2:T97	
+R13	located_in Arg1:T111 Arg2:T110	

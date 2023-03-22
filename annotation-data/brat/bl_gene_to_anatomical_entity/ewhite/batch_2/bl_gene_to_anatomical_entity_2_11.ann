@@ -119,3 +119,65 @@ T118	anatomical_site 3068 3074	kidney
 T119	gene 3075 3081	Cyp1a1
 T120	anatomical_site 3094 3098	lung
 T121	gene 3099 3105	Cyp1b1
+R1	located_in Arg1:T12 Arg2:T13	
+R2	located_in Arg1:T12 Arg2:T14	
+R3	located_in Arg1:T11 Arg2:T13	
+R4	located_in Arg1:T11 Arg2:T14	
+T122	missed_anatomical_site 447 453	plasma
+R5	located_in Arg1:T18 Arg2:T122	
+T123	corrected_anatomical_site 527 545	bladder epithelium
+R6	located_in Arg1:T19 Arg2:T123	
+R7	located_in Arg1:T21 Arg2:T23	
+R8	located_in Arg1:T22 Arg2:T23	
+R9	located_in Arg1:T26 Arg2:T27	
+R10	located_in Arg1:T25 Arg2:T27	
+R11	located_in Arg1:T24 Arg2:T27	
+R12	located_in Arg1:T26 Arg2:T28	
+R13	located_in Arg1:T25 Arg2:T28	
+R14	located_in Arg1:T24 Arg2:T28	
+R15	located_in Arg1:T24 Arg2:T29	
+R16	located_in Arg1:T25 Arg2:T29	
+R17	located_in Arg1:T26 Arg2:T29	
+R18	located_in Arg1:T30 Arg2:T32	
+R19	located_in Arg1:T30 Arg2:T33	
+R20	located_in Arg1:T30 Arg2:T34	
+R21	located_in Arg1:T31 Arg2:T32	
+R22	located_in Arg1:T31 Arg2:T33	
+R23	located_in Arg1:T31 Arg2:T34	
+R24	located_in Arg1:T36 Arg2:T39	
+R25	located_in Arg1:T36 Arg2:T38	
+R26	located_in Arg1:T37 Arg2:T38	
+R27	located_in Arg1:T36 Arg2:T39	
+T124	corrected_anatomical_site 1058 1068	CNS myelin
+R28	located_in Arg1:T40 Arg2:T124	
+T125	missed_gene 991 994	OSP
+T126	missed_gene 1010 1013	PLP
+R29	located_in Arg1:T126 Arg2:T124	
+R30	located_in Arg1:T125 Arg2:T124	
+R31	located_in Arg1:T44 Arg2:T45	
+R32	located_in Arg1:T43 Arg2:T45	
+R33	located_in Arg1:T48 Arg2:T49	
+R34	located_in Arg1:T64 Arg2:T68	
+R35	located_in Arg1:T64 Arg2:T67	
+R36	located_in Arg1:T64 Arg2:T66	
+R37	located_in Arg1:T64 Arg2:T65	
+R38	located_in Arg1:T70 Arg2:T71	
+R39	located_in Arg1:T70 Arg2:T72	
+R40	located_in Arg1:T77 Arg2:T76	
+R41	located_in Arg1:T77 Arg2:T73	
+R42	located_in Arg1:T77 Arg2:T74	
+R43	located_in Arg1:T77 Arg2:T75	
+R44	located_in Arg1:T94 Arg2:T93	
+T127	corrected_gene 2505 2513	calponin
+R45	located_in Arg1:T127 Arg2:T95	
+T128	corrected_gene 2532 2539	??actin
+R46	located_in Arg1:T128 Arg2:T96	
+R47	located_in Arg1:T128 Arg2:T95	
+R48	located_in Arg1:T110 Arg2:T109	
+R49	located_in Arg1:T108 Arg2:T107	
+R50	located_in Arg1:T119 Arg2:T118	
+R51	located_in Arg1:T121 Arg2:T120	
+T129	corrected_gene 3075 3078;3082 3085	Cyp 1a2
+R52	located_in Arg1:T129 Arg2:T118	
+T130	corrected_gene 3075 3078;3086 3089	Cyp 1b1
+R53	located_in Arg1:T130 Arg2:T118	

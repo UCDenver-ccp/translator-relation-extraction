@@ -176,7 +176,7 @@ R43	located_in Arg1:T121 Arg2:T122
 R44	located_in Arg1:T123 Arg2:T124	
 R45	located_in Arg1:T123 Arg2:T125	
 R46	located_in Arg1:T7 Arg2:T6	
-#1	AnnotatorNotes R32	Okay?
-#2	AnnotatorNotes R33	Okay?
-#3	AnnotatorNotes R45	Okay?
-#4	AnnotatorNotes R44	Okay?
+T133	corrected_anatomical_site 341 358	myelinated nerves
+R47	located_in Arg1:T10 Arg2:T133	
+R48	located_in Arg1:T35 Arg2:T36	
+R49	located_in Arg1:T56 Arg2:T58	

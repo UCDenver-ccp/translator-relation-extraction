@@ -126,11 +126,7 @@ T122	missed_gene 97 101	Up71
 R4	located_in Arg1:T122 Arg2:T5	
 R5	located_in Arg1:T121 Arg2:T5	
 R6	located_in Arg1:T4 Arg2:T5	
-R7	located_in Arg1:T14 Arg2:T15	
-R8	located_in Arg1:T14 Arg2:T16	
 T123	missed_gene 266 285	Proteolipid protein
-R9	located_in Arg1:T123 Arg2:T15	
-R10	located_in Arg1:T123 Arg2:T16	
 T124	missed_gene 559 587	bone morphogenetic protein 6
 R11	located_in Arg1:T124 Arg2:T24	
 R12	located_in Arg1:T25 Arg2:T24	
@@ -140,12 +136,9 @@ R14	located_in Arg1:T28 Arg2:T30
 R15	located_in Arg1:T28 Arg2:T125	
 R16	located_in Arg1:T28 Arg2:T31	
 R17	located_in Arg1:T28 Arg2:T32	
-R18	located_in Arg1:T66 Arg2:T64	
-R19	located_in Arg1:T67 Arg2:T65	
 T126	corrected_anatomical_site 1719 1734	thyroid tissues
 R20	located_in Arg1:T69 Arg2:T126	
 R21	located_in Arg1:T70 Arg2:T126	
-R22	located_in Arg1:T75 Arg2:T76	
 R23	located_in Arg1:T75 Arg2:T77	
 T127	missed_anatomical_site 1922 1925	PNS
 R24	located_in Arg1:T75 Arg2:T127	
@@ -164,5 +157,11 @@ R32	located_in Arg1:T119 Arg2:T118
 R33	located_in Arg1:T117 Arg2:T116	
 T132	missed_gene 766 785	smooth muscle actin
 R34	located_in Arg1:T132 Arg2:T33	
-#1	AnnotatorNotes R18	Okay?
-#2	AnnotatorNotes R19	Okay?
+T133	corrected_anatomical_site 314 343	central nervous system myelin
+R7	located_in Arg1:T123 Arg2:T133	
+R8	located_in Arg1:T14 Arg2:T133	
+R10	located_in Arg1:T67 Arg2:T64	
+T134	corrected_anatomical_site 2012 2023	skin tissue
+R9	located_in Arg1:T79 Arg2:T134	
+R18	located_in Arg1:T110 Arg2:T111	
+R19	located_in Arg1:T114 Arg2:T113	

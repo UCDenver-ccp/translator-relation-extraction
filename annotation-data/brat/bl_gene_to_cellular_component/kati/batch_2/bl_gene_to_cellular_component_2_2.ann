@@ -6,7 +6,7 @@ T5	gene 216 219	EGF
 T6	gene 241 245	Grb2
 T7	gene 247 250	Shc
 T8	gene 266 270	Raf1
-T9	gene 275 278	MAP
+T9	corrected_gene 275 278;291 298	MAP kinases
 T10	gene 280 284	Erk1
 T11	gene 285 289	Erk2
 T12	cellular_component 330 336	nuclei
@@ -180,3 +180,4 @@ R55	located_in Arg1:T96 Arg2:T98
 T125	missed_cellular_component 2931 2941	centromere
 T126	missed_gene 2948 2953	CREST
 R56	located_in Arg1:T126 Arg2:T125	
+R57	located_in Arg1:T9 Arg2:T12	

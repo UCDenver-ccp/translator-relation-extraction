@@ -113,9 +113,7 @@ R20	located_in Arg1:T98 Arg2:T32
 T99	corrected_anatomical_site 978 991	testis tissue
 T100	corrected_gene 957 974	HMG2-like protein
 R21	located_in Arg1:T100 Arg2:T99	
-R22	located_in Arg1:T40 Arg2:T41	
 T101	missed_gene 993 1012	Proteolipid protein
-R23	located_in Arg1:T101 Arg2:T41	
 T102	corrected_gene 1270 1277	SPAG2-1
 T103	corrected_gene 1282 1289	SPAG2-2
 R24	located_in Arg1:T102 Arg2:T51	
@@ -165,18 +163,19 @@ R58	located_in Arg1:T93 Arg2:T92
 R59	located_in Arg1:T94 Arg2:T92	
 R7	located_in Arg1:T91 Arg2:T90	
 R8	located_in Arg1:T24 Arg2:T23	
-#1	AnnotatorNotes R8	Maybe it is too abstract? insulin is present in serum, but it can be produced somewhere else
 R9	located_in Arg1:T27 Arg2:T26	
-#2	AnnotatorNotes R9	Maybe it is too abstract? Adiponectin is present in serum, but it can be produced somewhere else
-#3	AnnotatorNotes R53	I see that they are repressed, but it also means that they are present in a small amount at that moment.
 T95	missed_gene 401 409	ferritin
 R10	located_in Arg1:T95 Arg2:T18	
-#4	AnnotatorNotes R10	Okay?
 R11	located_in Arg1:T20 Arg2:T19	
-#5	AnnotatorNotes R11	I see that they are decreased, but it also means that they are present in a small amount at that moment.
 R56	located_in Arg1:T81 Arg2:T82	
-#6	AnnotatorNotes R56	Okay?
 R57	located_in Arg1:T81 Arg2:T83	
-#7	AnnotatorNotes R57	Okay?
 T115	corrected_anatomical_site 2265 2276	soft tissue
 R60	located_in Arg1:T88 Arg2:T115	
+R61	located_in Arg1:T3 Arg2:T2	
+R62	located_in Arg1:T4 Arg2:T2	
+T116	corrected_anatomical_site 887 899	brain tissue
+R63	located_in Arg1:T33 Arg2:T116	
+T117	corrected_anatomical_site 1041 1070	central nervous system myelin
+R22	located_in Arg1:T101 Arg2:T117	
+R23	located_in Arg1:T40 Arg2:T117	
+T118	DONE 2397 2401	DONE

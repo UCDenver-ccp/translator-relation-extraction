@@ -170,4 +170,7 @@ R64	located_in Arg1:T90 Arg2:T95
 R65	located_in Arg1:T91 Arg2:T93	
 R66	located_in Arg1:T91 Arg2:T94	
 R67	located_in Arg1:T91 Arg2:T95	
-R68	located_in Arg1:T46 Arg2:T47	
+R68	located_in Arg1:T60 Arg2:T61	
+T106	missed_anatomical_site 1282 1288	plasma
+R69	located_in Arg1:T63 Arg2:T106	
+T107	DONE 2190 2194	DONE

@@ -135,29 +135,22 @@ R7	located_in Arg1:T40 Arg2:T39
 R19	located_in Arg1:T2 Arg2:T1	
 R20	located_in Arg1:T46 Arg2:T47	
 T117	missed_anatomical_site 284 289	Serum
-#1	AnnotatorNotes T117	do we mark it? 
 R21	located_in Arg1:T15 Arg2:T117	
-#2	AnnotatorNotes R21	Okay?
 R22	located_in Arg1:T17 Arg2:T16	
-#3	AnnotatorNotes R22	Okay?
 R23	located_in Arg1:T18 Arg2:T16	
-#4	AnnotatorNotes R23	Okay?
 R24	located_in Arg1:T19 Arg2:T16	
-#5	AnnotatorNotes R24	Okay?
 R25	located_in Arg1:T20 Arg2:T16	
-#6	AnnotatorNotes R25	Okay?
 R26	located_in Arg1:T67 Arg2:T68	
-#7	AnnotatorNotes R26	Okay?
 T118	corrected_gene 1656 1661	c-MET
 T119	corrected_gene 1662 1667	HGF-R
 T120	corrected_anatomical_site 1671 1683	liver tissue
 R27	located_in Arg1:T69 Arg2:T120	
-#8	AnnotatorNotes R27	Okay?
 R28	located_in Arg1:T118 Arg2:T120	
-#9	AnnotatorNotes R28	Okay?
 R29	located_in Arg1:T119 Arg2:T120	
-#10	AnnotatorNotes R29	Okay?
 R30	located_in Arg1:T90 Arg2:T89	
-#11	AnnotatorNotes R30	Okay?
 R31	located_in Arg1:T92 Arg2:T91	
-#12	AnnotatorNotes R31	Okay?
+R32	located_in Arg1:T25 Arg2:T24	
+R33	located_in Arg1:T105 Arg2:T104	
+R34	located_in Arg1:T106 Arg2:T104	
+R35	located_in Arg1:T109 Arg2:T108	
+T121	DONE 2807 2811	DONE

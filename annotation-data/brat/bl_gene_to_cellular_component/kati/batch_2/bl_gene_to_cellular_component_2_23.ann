@@ -130,20 +130,16 @@ T126	missed_gene 1327 1355	cytosolic phospholipase A(2)
 T127	missed_gene 1357 1364	cPLA(2)
 R4	located_in Arg1:T126 Arg2:T51	
 R5	located_in Arg1:T127 Arg2:T51	
-R6	located_in Arg1:T63 Arg2:T65	
 R7	located_in Arg1:T66 Arg2:T65	
 R8	located_in Arg1:T67 Arg2:T65	
 T128	corrected_gene 1791 1798	BMPR-IB
-R9	located_in Arg1:T128 Arg2:T68	
 T129	missed_gene 1907 1950	bone morphogenetic protein type IB receptor
 R10	located_in Arg1:T129 Arg2:T68	
 T130	corrected_gene 1952 1959	BMPR-IB
 R11	located_in Arg1:T130 Arg2:T68	
-R12	located_in Arg1:T70 Arg2:T71	
 R13	located_in Arg1:T72 Arg2:T71	
 R14	located_in Arg1:T73 Arg2:T71	
 T131	missed_gene 1976 1984	ActR-IIB
-R15	located_in Arg1:T131 Arg2:T74	
 T132	missed_gene 2095 2120	activin type IIB receptor
 R16	located_in Arg1:T132 Arg2:T74	
 R17	located_in Arg1:T75 Arg2:T74	
@@ -188,3 +184,7 @@ R45	located_in Arg1:T142 Arg2:T109
 T143	missed_gene 3584 3604	GTP-binding proteins
 R46	located_in Arg1:T143 Arg2:T120	
 R47	located_in Arg1:T121 Arg2:T120	
+R48	located_in Arg1:T1 Arg2:T3	
+R49	located_in Arg1:T2 Arg2:T3	
+T144	corrected_cellular_component 921 938	membrane skeleton
+R50	located_in Arg1:T34 Arg2:T144	

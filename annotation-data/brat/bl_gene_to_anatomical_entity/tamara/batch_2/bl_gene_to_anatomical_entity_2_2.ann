@@ -103,14 +103,6 @@ T102	gene 2602 2606	TLR2
 T103	gene 2611 2616	MyD88
 T104	anatomical_site 2635 2649	adipose tissue
 R1	located_in Arg1:T4 Arg2:T2	
-T105	missed_anatomical_site 126 131	glial
-T106	missed_gene 156 160	CNTF
-R2	located_in Arg1:T7 Arg2:T105	
-R3	located_in Arg1:T7 Arg2:T5	
-R4	located_in Arg1:T106 Arg2:T105	
-R5	located_in Arg1:T106 Arg2:T5	
-R6	located_in Arg1:T6 Arg2:T105	
-R7	located_in Arg1:T6 Arg2:T5	
 T107	missed_gene 245 250	CD 44
 T108	corrected_anatomical_site 175 186;194 205	pulp tissue natal teeth
 T109	corrected_anatomical_site 298 309	lung tissue
@@ -177,22 +169,17 @@ R58	located_in Arg1:T49 Arg2:T51
 R59	located_in Arg1:T112 Arg2:T51	
 R60	located_in Arg1:T113 Arg2:T51	
 R61	located_in Arg1:T114 Arg2:T51	
-T125	missed_gene 2092 2095	MDA
-T126	missed_gene 2097 2103	TGF-?1
-R62	located_in Arg1:T125 Arg2:T79	
-R63	located_in Arg1:T126 Arg2:T79	
-R64	located_in Arg1:T80 Arg2:T79	
-R65	located_in Arg1:T81 Arg2:T79	
-R66	located_in Arg1:T82 Arg2:T79	
-R67	located_in Arg1:T83 Arg2:T79	
-T127	missed_gene 2138 2141	BNP
-T128	missed_gene 2143 2146	ANP
-R68	located_in Arg1:T127 Arg2:T79	
-R69	located_in Arg1:T128 Arg2:T79	
-#1	AnnotatorNotes T108	do we mark it? or split? 
 R8	located_in Arg1:T10 Arg2:T108	
-#2	AnnotatorNotes R8	Okay?
 R9	located_in Arg1:T107 Arg2:T9	
-#3	AnnotatorNotes R9	Okay?
 R10	located_in Arg1:T11 Arg2:T108	
-#4	AnnotatorNotes R10	Okay?
+R2	located_in Arg1:T18 Arg2:T17	
+R3	located_in Arg1:T20 Arg2:T19	
+T105	missed_anatomical_site 551 558	urinary
+R4	located_in Arg1:T22 Arg2:T105	
+T106	missed_anatomical_site 1490 1496	livers
+R5	located_in Arg1:T55 Arg2:T106	
+T129	missed_gene 1990 1993	SOD
+T130	missed_gene 1998 2001	GSH
+R6	located_in Arg1:T129 Arg2:T76	
+R7	located_in Arg1:T130 Arg2:T76	
+R11	located_in Arg1:T100 Arg2:T104	

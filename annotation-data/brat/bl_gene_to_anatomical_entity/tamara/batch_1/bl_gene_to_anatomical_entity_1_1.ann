@@ -132,8 +132,7 @@ T115	corrected_anatomical_site 858 869	male tissue
 R17	located_in Arg1:T29 Arg2:T114	
 R18	located_in Arg1:T29 Arg2:T115	
 T116	corrected_gene 904 910	Kir6.2
-T117	missed_anatomical_site 933 949	cardiac membrane
-R19	located_in Arg1:T116 Arg2:T117	
+T117	missed_anatomical_site 933 940	cardiac
 T118	corrected_gene 1278 1283	GSK3?
 R25	located_in Arg1:T118 Arg2:T53	
 R26	located_in Arg1:T49 Arg2:T53	
@@ -209,11 +208,18 @@ R83	located_in Arg1:T98 Arg2:T100
 R84	located_in Arg1:T109 Arg2:T110	
 R85	located_in Arg1:T108 Arg2:T110	
 T131	missed_gene 915 920	SUR2A
-R20	located_in Arg1:T131 Arg2:T117	
 T132	corrected_anatomical_site 962 975	female tissue
 T133	corrected_anatomical_site 990 1001	male tissue
 R86	located_in Arg1:T116 Arg2:T132	
 R87	located_in Arg1:T116 Arg2:T133	
 R21	located_in Arg1:T105 Arg2:T104	
 R22	located_in Arg1:T41 Arg2:T42	
-#1	AnnotatorNotes R22	Deficiency, so it is present usually  
+R19	located_in Arg1:T116 Arg2:T117	
+R20	located_in Arg1:T131 Arg2:T117	
+R23	located_in Arg1:T43 Arg2:T44	
+R24	located_in Arg1:T102 Arg2:T103	
+R88	located_in Arg1:T101 Arg2:T103	
+T134	corrected_gene 1298 1303	GSK3?
+R89	located_in Arg1:T134 Arg2:T53	
+R90	located_in Arg1:T51 Arg2:T53	
+T135	DONE 2612 2616	DONE

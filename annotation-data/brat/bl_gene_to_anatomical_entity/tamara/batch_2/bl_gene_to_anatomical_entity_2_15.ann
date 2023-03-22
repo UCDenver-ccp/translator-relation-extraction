@@ -182,8 +182,6 @@ T129	corrected_anatomical_site 2430 2458	lateral mesenchyme of palate
 R53	located_in Arg1:T97 Arg2:T129	
 T130	corrected_anatomical_site 2490 2508	lateral epithelium
 R54	located_in Arg1:T99 Arg2:T130	
-T131	corrected_anatomical_site 2607 2624	medial epithelium
-R55	located_in Arg1:T104 Arg2:T131	
 T132	missed_gene 2626 2645	Proteolipid protein
 R56	located_in Arg1:T132 Arg2:T108	
 R57	located_in Arg1:T132 Arg2:T109	
@@ -207,4 +205,6 @@ R73	located_in Arg1:T16 Arg2:T12
 R74	located_in Arg1:T18 Arg2:T17	
 T134	corrected_gene 407 424	cholecystokinin-8
 R75	located_in Arg1:T134 Arg2:T17	
-#1	AnnotatorNotes R55	Okay?
+T135	corrected_anatomical_site 2534 2551	medial mesenchyme
+R76	located_in Arg1:T101 Arg2:T135	
+T131	DONE 2953 2957	DONE

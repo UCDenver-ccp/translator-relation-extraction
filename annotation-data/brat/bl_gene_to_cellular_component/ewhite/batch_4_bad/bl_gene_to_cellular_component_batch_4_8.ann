@@ -1,0 +1,134 @@
+T1	gene 25 29	Ghrl
+T2	cellular_component 34 50	ghrelin receptor
+T3	gene 34 50	ghrelin receptor
+T4	gene 52 88	growth hormone secretagogue receptor
+T5	cellular_component 52 88	growth hormone secretagogue receptor
+T6	gene 90 94	GHSR
+T7	cellular_component 175 188	physiological
+T8	cellular_component 189 194	aging
+T9	cellular_component 196 210	Down-regulated
+T10	gene 230 234	PLD2
+T11	gene 236 241	ANXA2
+T12	gene 278 282	AsPC
+T13	cellular_component 296 301	cells
+T14	cellular_component 351 360	apoptotic
+T15	gene 361 364	Bax
+T16	gene 374 377	Bak
+T17	cellular_component 410 419	apoptotic
+T18	gene 420 425	Bcl-2
+T19	gene 430 435	Bcl-X
+T20	gene 471 474	p53
+T21	cellular_component 499 514	phosphorylation
+T22	gene 516 535	Parathyroid hormone
+T23	gene 546 551	mac25
+T24	gene 552 559	insulin
+T25	cellular_component 565 578	growth factor
+T26	cellular_component 579 586	binding
+T27	cellular_component 649 665	Phospholipase A2
+T28	gene 649 665	Phospholipase A2
+T29	cellular_component 666 674	receptor
+T30	gene 678 683	PLA2R
+T31	gene 694 702	collagen
+T32	gene 724 729	BMP-2
+T33	gene 740 745	COX-2
+T34	gene 765 769	ALK3
+T35	gene 770 775	Smad1
+T36	cellular_component 776 785	signaling
+T37	gene 804 808	ATF4
+T38	cellular_component 809 824	phosphorylation
+T39	gene 833 837	ERK1
+T40	gene 851 861	Annexin A2
+T41	gene 863 868	ANXA2
+T42	cellular_component 886 893	binding
+T43	cellular_component 916 926	biological
+T44	cellular_component 954 975	cellular localization
+T45	cellular_component 981 994	gap junctions
+T46	gene 1005 1015	connexin43
+T47	gene 1059 1067	gelsolin
+T48	cellular_component 1107 1116	ribosomal
+T49	gene 1151 1159	integrin
+T50	cellular_component 1151 1159	integrin
+T51	cellular_component 1160 1176	laminin receptor
+T52	gene 1277 1285	gelsolin
+T53	cellular_component 1336 1348	cytoskeleton
+T54	gene 1358 1364	nestin
+T55	gene 1391 1395	Arp3
+T56	cellular_component 1397 1415	actin cytoskeleton
+T57	gene 1423 1430	tubulin
+T58	cellular_component 1432 1444	microtubules
+T59	cellular_component 1456 1465	cytokines
+T60	cellular_component 1466 1476	upregulate
+T61	cellular_component 1477 1493	phospholipase A2
+T62	gene 1477 1493	phospholipase A2
+T63	cellular_component 1495 1499	PLA2
+T64	gene 1495 1499	PLA2
+T65	cellular_component 1519 1524	cells
+T66	cellular_component 1557 1561	PLA2
+T67	gene 1557 1561	PLA2
+T68	cellular_component 1565 1573	cytokine
+T69	gene 1689 1693	PLA2
+T70	cellular_component 1689 1693	PLA2
+T71	cellular_component 1729 1744	phosphorylation
+T72	gene 1748 1752	Pyk2
+T73	cellular_component 1770 1802	epidermal growth factor receptor
+T74	gene 1770 1802	epidermal growth factor receptor
+T75	gene 1804 1808	EGFR
+T76	cellular_component 1804 1808	EGFR
+T77	gene 1880 1905	glutathione-S-transferase
+T78	cellular_component 1880 1905	glutathione-S-transferase
+T79	gene 1907 1910	GST
+T80	cellular_component 1907 1910	GST
+T81	cellular_component 1913 1921	catalase
+T82	gene 1913 1921	catalase
+T83	gene 1997 2019	kinase-related protein
+T84	gene 2021 2027	desmin
+T85	gene 2053 2060	tubulin
+T86	gene 2062 2070	vinculin
+T87	cellular_component 2076 2101	myosin light chain kinase
+T88	cellular_component 2114 2134	extracellular matrix
+T89	gene 2144 2155	fibronectin
+T90	gene 2191 2197	MALAT1
+T91	cellular_component 2207 2219	osteogenesis
+T92	cellular_component 2259 2269	upregulate
+T93	gene 2270 2274	ATF4
+T94	gene 2308 2313	HDAC3
+T95	cellular_component 2325 2329	Smad
+T96	gene 2325 2329	Smad
+T97	cellular_component 2330 2339	signaling
+T98	cellular_component 2368 2379	cytoplasmic
+T99	gene 2392 2418	G protein-coupled receptor
+T100	cellular_component 2392 2418	G protein-coupled receptor
+T101	gene 2423 2442	parathyroid hormone
+T102	gene 2444 2447	PTH
+T103	gene 2453 2456	PTH
+T104	cellular_component 2485 2493	receptor
+T105	cellular_component 2509 2518	signaling
+T106	cellular_component 2533 2546	growth factor
+T107	gene 2567 2572	Smad3
+T108	gene 2577 2590	interleukin-2
+T109	gene 2592 2596	IL-2
+T110	gene 2608 2613	Stat5
+T111	gene 2626 2630	Tet1
+T112	gene 2635 2639	Tet2
+T113	cellular_component 2640 2647	binding
+T114	gene 2651 2656	Foxp3
+T115	gene 2671 2676	miR-7
+T116	gene 2697 2701	HER2
+T117	cellular_component 2705 2723	cell proliferation
+T118	gene 2749 2754	miR-7
+T119	gene 2798 2801	Src
+T120	cellular_component 2802 2808	kinase
+T121	cellular_component 2835 2839	EGFR
+T122	gene 2835 2839	EGFR
+T123	cellular_component 2872 2884	cell surface
+T124	gene 2885 2890	CXCR6
+T125	gene 2910 2914	JAK2
+T126	gene 2915 2920	STAT3
+T127	cellular_component 2921 2930	signaling
+T128	gene 2975 2978	CD4
+T129	cellular_component 3035 3047	inflammation
+T130	gene 3068 3087	chemokine receptors
+T131	cellular_component 3068 3087	chemokine receptors
+T132	gene 3097 3101	CCR4
+T133	gene 3103 3107	CCR5
+T134	gene 3113 3118	CXCR4

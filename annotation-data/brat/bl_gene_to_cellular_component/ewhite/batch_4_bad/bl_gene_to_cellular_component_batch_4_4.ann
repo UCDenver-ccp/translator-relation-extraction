@@ -1,0 +1,130 @@
+T1	cellular_component 13 24	upregulated
+T2	gene 35 72	myosin regulatory light polypeptide 9
+T3	gene 74 111	four and a half LIM domains protein 1
+T4	gene 116 144	LIM and SH3 domain protein 1
+T5	cellular_component 162 176	cell migration
+T6	cellular_component 184 197	downregulated
+T7	gene 206 216	transgelin
+T8	cellular_component 232 254	replicative senescence
+T9	gene 281 284	Akt
+T10	cellular_component 285 300	phosphorylation
+T11	cellular_component 304 327	response to epinephrine
+T12	cellular_component 352 367	phosphorylation
+T13	cellular_component 375 407	epidermal growth factor receptor
+T14	gene 375 407	epidermal growth factor receptor
+T15	gene 409 413	EGFR
+T16	cellular_component 409 413	EGFR
+T17	gene 431 436	ANXA7
+T18	cellular_component 455 464	regulator
+T19	gene 468 474	HMBOX1
+T20	gene 493 499	HMBOX1
+T21	cellular_component 500 511	translation
+T22	gene 526 531	ANXA7
+T23	cellular_component 532 547	GTPase activity
+T24	gene 562 567	TGFB2
+T25	cellular_component 588 603	phosphorylation
+T26	gene 607 617	synapsin I
+T27	gene 622 633	synapsin II
+T28	cellular_component 662 669	vesicle
+T29	cellular_component 713 737	neurotransmitter release
+T30	gene 739 744	PIAS1
+T31	gene 750 755	GATA4
+T32	cellular_component 756 767	SUMO ligase
+T33	gene 783 788	GATA4
+T34	cellular_component 835 846	SUMO ligase
+T35	gene 860 865	GATA4
+T36	gene 917 922	IRS-1
+T37	gene 948 953	Flot1
+T38	cellular_component 954 958	RNAi
+T39	gene 963 968	Flot2
+T40	cellular_component 969 973	RNAi
+T41	cellular_component 1000 1014	down-regulated
+T42	gene 1034 1039	Rab3B
+T43	gene 1044 1049	Rab13
+T44	cellular_component 1067 1076	transport
+T45	cellular_component 1105 1121	tight junctional
+T46	cellular_component 1122 1130	membrane
+T47	cellular_component 1147 1162	plasma membrane
+T48	gene 1164 1169	Fbln7
+T49	gene 1179 1193	angiopoietin-1
+T50	gene 1203 1217	angiopoietin-2
+T51	gene 1221 1225	Tie2
+T52	cellular_component 1226 1234	receptor
+T53	gene 1291 1296	Fbln7
+T54	gene 1301 1315	angiopoietin-1
+T55	cellular_component 1332 1347	phosphorylation
+T56	gene 1351 1355	Tie2
+T57	cellular_component 1356 1364	receptor
+T58	cellular_component 1395 1401	kinase
+T59	cellular_component 1418 1425	binding
+T60	gene 1429 1433	cdk5
+T61	gene 1446 1449	p35
+T62	gene 1451 1454	p39
+T63	gene 1456 1459	p67
+T64	gene 1462 1475	alpha-catenin
+T65	gene 1487 1499	beta-catenin
+T66	cellular_component 1500 1507	binding
+T67	gene 1535 1548	alpha-catenin
+T68	cellular_component 1553 1572	negatively regulate
+T69	gene 1573 1585	beta-catenin
+T70	gene 1596 1604	Endoglin
+T71	gene 1619 1628	TGF-beta1
+T72	cellular_component 1637 1655	collagen synthesis
+T73	gene 1672 1676	ERK1
+T74	cellular_component 1679 1694	MAPK activation
+T75	gene 1728 1731	p50
+T76	gene 1745 1749	MAPK
+T77	cellular_component 1745 1749	MAPK
+T78	cellular_component 1750 1756	kinase
+T79	cellular_component 1757 1763	kinase
+T80	gene 1765 1770	Tpl-2
+T81	cellular_component 1794 1809	down-regulation
+T82	gene 1813 1820	tuberin
+T83	gene 1835 1838	p42
+T84	gene 1842 1846	MAPK
+T85	cellular_component 1842 1846	MAPK
+T86	cellular_component 1847 1862	phosphorylation
+T87	gene 1901 1905	HDM2
+T88	gene 1906 1909	p53
+T89	cellular_component 1921 1930	ribosomal
+T90	cellular_component 1957 1966	ribosomal
+T91	cellular_component 2030 2044	phosphorylated
+T92	gene 2045 2048	Erk
+T93	cellular_component 2054 2066	up-regulated
+T94	gene 2067 2071	Atf4
+T95	gene 2073 2078	Runx2
+T96	gene 2080 2083	Osx
+T97	gene 2085 2089	Lrp5
+T98	gene 2102 2105	Alp
+T99	gene 2111 2117	Col1a1
+T100	cellular_component 2152 2160	receptor
+T101	cellular_component 2224 2235	microtubule
+T102	gene 2258 2268	calmodulin
+T103	cellular_component 2290 2301	microtubule
+T104	gene 2321 2325	STOP
+T105	cellular_component 2416 2433	estrogen receptor
+T106	gene 2416 2433	estrogen receptor
+T107	cellular_component 2453 2461	receptor
+T108	gene 2475 2507	epidermal growth factor receptor
+T109	cellular_component 2475 2507	epidermal growth factor receptor
+T110	gene 2511 2515	HER2
+T111	gene 2525 2528	p53
+T112	cellular_component 2536 2568	epidermal growth factor receptor
+T113	gene 2536 2568	epidermal growth factor receptor
+T114	gene 2570 2574	EGFR
+T115	cellular_component 2570 2574	EGFR
+T116	gene 2577 2622	vascular endothelial growth factor receptor 2
+T117	gene 2624 2630	VEGFR2
+T118	cellular_component 2677 2682	cells
+T119	cellular_component 2697 2709	cell surface
+T120	gene 2719 2729	matriptase
+T121	gene 2734 2739	HAI-1
+T122	cellular_component 2763 2774	up-regulate
+T123	cellular_component 2779 2790	antioxidant
+T124	cellular_component 2800 2808	catalase
+T125	gene 2800 2808	catalase
+T126	gene 2848 2853	Bcl-2
+T127	cellular_component 2877 2894	acetyltransferase
+T128	gene 2899 2904	PYCR1
+T129	gene 2914 2919	SIRT3
+T130	gene 2933 2938	PYCR1

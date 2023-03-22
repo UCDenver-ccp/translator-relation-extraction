@@ -1,0 +1,105 @@
+T1	anatomical_site 9 13	bone
+T2	anatomical_site 17 22	serum
+T3	gene 33 53	alkaline phosphatase
+T4	gene 58 69	osteocalcin
+T5	anatomical_site 140 145	serum
+T6	gene 156 190	monocyte chemoattractant protein-1
+T7	gene 192 197	MCP-1
+T8	gene 200 213	interleukin-6
+T9	gene 215 242	tumor necrosis factor-alpha
+T10	gene 255 280	colony stimulating factor
+T11	gene 282 300	C-reactive protein
+T12	anatomical_site 305 310	serum
+T13	anatomical_site 417 429	nerve fibers
+T14	gene 472 476	CD95
+T15	gene 500 509	caspase-3
+T16	anatomical_site 545 550	liver
+T17	gene 622 638	active caspase-3
+T18	anatomical_site 642 647	liver
+T19	anatomical_site 660 665	liver
+T20	gene 674 677	p53
+T21	anatomical_site 754 764	epithelium
+T22	anatomical_site 793 800	thyroid
+T23	anatomical_site 801 807	tissue
+T24	gene 846 859	thyroglobulin
+T25	gene 864 894	thyroid transcription factor-1
+T26	gene 948 961	synaptophysin
+T27	gene 1014 1019	Wnt-1
+T28	anatomical_site 1089 1100	neural tube
+T29	anatomical_site 1127 1133	neural
+T30	gene 1143 1149	noggin
+T31	gene 1154 1161	chordin
+T32	anatomical_site 1217 1223	neural
+T33	anatomical_site 1239 1251	neural crest
+T34	gene 1288 1295	Krox-20
+T35	gene 1297 1301	AP-2
+T36	anatomical_site 1323 1335	white matter
+T37	gene 1385 1394	precursor
+T38	gene 1404 1407	APP
+T39	anatomical_site 1429 1434	serum
+T40	gene 1435 1445	dickkopf-1
+T41	gene 1447 1451	DKK1
+T42	gene 1457 1467	sclerostin
+T43	gene 1514 1519	Meox1
+T44	gene 1524 1529	Meox2
+T45	anatomical_site 1548 1555	somites
+T46	anatomical_site 1573 1578	chick
+T47	anatomical_site 1579 1585	embryo
+T48	gene 1612 1616	Cdk5
+T49	gene 1617 1620	p35
+T50	gene 1631 1643	beta-catenin
+T51	gene 1644 1652	cadherin
+T52	anatomical_site 1677 1683	neural
+T53	gene 1752 1756	UCP1
+T54	anatomical_site 1768 1788	brown adipose tissue
+T55	gene 1834 1838	UCP1
+T56	anatomical_site 1854 1868	adipose tissue
+T57	gene 1879 1883	UCP1
+T58	gene 1957 1964	nephrin
+T59	gene 1969 1981	synaptopodin
+T60	gene 1991 1998	podocin
+T61	anatomical_site 2016 2022	kidney
+T62	anatomical_site 2066 2077	subcellular
+T63	gene 2095 2100	renin
+T64	anatomical_site 2119 2125	kidney
+T65	gene 2166 2171	Ang I
+T66	gene 2176 2182	Ang II
+T67	anatomical_site 2222 2228	testis
+T68	gene 2230 2236	Plxna1
+T69	gene 2238 2244	Plxnb1
+T70	gene 2249 2255	Plxnc1
+T71	gene 2332 2338	GADD34
+T72	anatomical_site 2373 2379	female
+T73	gene 2380 2386	GADD34
+T74	anatomical_site 2425 2429	male
+T75	gene 2430 2436	GADD34
+T76	anatomical_site 2453 2460	Embryos
+T77	gene 2478 2483	Smad5
+T78	anatomical_site 2505 2512	embryos
+T79	gene 2561 2565	bmp7
+T80	gene 2648 2652	Otx2
+T81	gene 2659 2663	FGF8
+T82	gene 2665 2669	Pax6
+T83	gene 2676 2679	Ntl
+T84	gene 2718 2722	Otx2
+T85	anatomical_site 2737 2758	presumptive forebrain
+T86	anatomical_site 2759 2765	tissue
+T87	gene 2782 2785	Ntl
+T88	anatomical_site 2822 2831	notochord
+T89	anatomical_site 2892 2896	lung
+T90	anatomical_site 2897 2903	tissue
+T91	gene 2947 2964	interleukin-1beta
+T92	gene 2966 2974	IL-1beta
+T93	gene 2977 3004	tumor necrosis factor-alpha
+T94	gene 3006 3015	TNF-alpha
+T95	gene 3021 3034	interleukin-6
+T96	gene 3036 3040	IL-6
+T97	anatomical_site 3075 3079	lung
+T98	gene 3148 3152	MT-I
+T99	gene 3153 3157	IL-6
+T100	gene 3178 3182	IL-6
+T101	anatomical_site 3205 3210	liver
+T102	anatomical_site 3243 3248	blood
+T103	gene 3266 3271	BMP-4
+T104	gene 3293 3301	collagen
+T105	anatomical_site 3339 3355	cartilage tissue

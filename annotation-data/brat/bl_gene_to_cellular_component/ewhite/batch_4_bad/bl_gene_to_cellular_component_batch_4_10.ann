@@ -1,0 +1,157 @@
+T1	gene 0 10	Neuronatin
+T2	cellular_component 37 55	glycogen synthesis
+T3	gene 82 99	glycogen synthase
+T4	gene 104 109	malin
+T5	gene 119 129	neuronatin
+T6	cellular_component 138 156	glycogen synthesis
+T7	cellular_component 205 216	upregulated
+T8	gene 217 220	p53
+T9	gene 225 228	p21
+T10	gene 238 244	cyclin
+T11	cellular_component 255 261	kinase
+T12	gene 262 266	CDK4
+T13	gene 271 275	CDK2
+T14	cellular_component 281 294	downregulated
+T15	cellular_component 312 320	G1 phase
+T16	gene 329 334	Mcl-1
+T17	cellular_component 372 380	cytokine
+T18	gene 403 442	extracellular signal-regulated kinase 1
+T19	cellular_component 445 477	mitogen-activated protein kinase
+T20	gene 445 477	mitogen-activated protein kinase
+T21	gene 503 507	ERK1
+T22	cellular_component 510 525	phosphorylation
+T23	gene 545 548	p38
+T24	gene 548 552	MAPK
+T25	cellular_component 548 552	MAPK
+T26	cellular_component 553 568	phosphorylation
+T27	gene 599 603	MDM2
+T28	cellular_component 624 632	antibody
+T29	gene 634 637	SMP
+T30	gene 658 662	MDM2
+T31	cellular_component 663 677	phosphorylated
+T32	cellular_component 694 702	vesicles
+T33	gene 723 726	PTS
+T34	cellular_component 779 790	peroxisomal
+T35	cellular_component 791 798	enzymes
+T36	cellular_component 835 845	luciferase
+T37	gene 849 853	PTS1
+T38	cellular_component 876 885	apoptotic
+T39	gene 897 900	p73
+T40	gene 901 931	phosphatase and tensin homolog
+T41	gene 933 936	p73
+T42	gene 937 941	PTEN
+T43	cellular_component 943 958	protein complex
+T44	cellular_component 962 990	response to genotoxic stress
+T45	cellular_component 1017 1032	down-regulation
+T46	gene 1036 1039	p42
+T47	gene 1040 1043	p44
+T48	cellular_component 1078 1098	transcription factor
+T49	gene 1103 1112	GSK-3beta
+T50	cellular_component 1132 1145	up-regulation
+T51	gene 1149 1152	p27
+T52	gene 1153 1157	Kip1
+T53	cellular_component 1163 1178	down-regulation
+T54	gene 1182 1190	cyclin D
+T55	gene 1193 1202	Rhodopsin
+T56	cellular_component 1230 1245	phosphorylation
+T57	cellular_component 1344 1353	cytosolic
+T58	cellular_component 1358 1366	membrane
+T59	cellular_component 1380 1394	phosphorylated
+T60	gene 1398 1414	protein kinase C
+T61	cellular_component 1398 1414	protein kinase C
+T62	cellular_component 1436 1446	antibodies
+T63	gene 1475 1478	GST
+T64	cellular_component 1475 1478	GST
+T65	gene 1510 1517	MAGE-11
+T66	cellular_component 1534 1539	cells
+T67	gene 1545 1559	48 kDa protein
+T68	cellular_component 1613 1618	cells
+T69	cellular_component 1619 1630	transfected
+T70	gene 1642 1647	ABCB1
+T71	gene 1649 1654	ABCG2
+T72	gene 1656 1661	ABCC2
+T73	gene 1666 1671	ABCC4
+T74	cellular_component 1680 1685	cells
+T75	cellular_component 1691 1702	transfected
+T76	gene 1708 1713	pyrin
+T77	gene 1715 1724	caspase-1
+T78	cellular_component 1726 1735	apoptotic
+T79	gene 1887 1894	PLA2G2D
+T80	gene 1905 1911	ALOX12
+T81	gene 1913 1918	VCAM1
+T82	gene 1920 1925	ICAM1
+T83	gene 1927 1932	PLCD1
+T84	gene 1934 1939	ADRB1
+T85	cellular_component 1934 1939	ADRB1
+T86	gene 1948 1953	PDE4C
+T87	gene 1955 1960	CASP1
+T88	gene 1962 1968	PLA2G5
+T89	gene 1974 1979	PLCB4
+T90	gene 2020 2026	BDKRB1
+T91	gene 2028 2033	ADRB2
+T92	cellular_component 2028 2033	ADRB2
+T93	gene 2050 2058	TNFRSF1B
+T94	gene 2060 2065	ITGB1
+T95	gene 2071 2077	TBXAS1
+T96	gene 2080 2089	TNF-alpha
+T97	gene 2104 2109	TNFR1
+T98	gene 2141 2146	TRADD
+T99	gene 2148 2154	TRAF-2
+T100	cellular_component 2169 2180	lipid rafts
+T101	gene 2216 2220	MAPK
+T102	cellular_component 2216 2220	MAPK
+T103	gene 2231 2241	calmodulin
+T104	gene 2243 2252	calumenin
+T105	cellular_component 2281 2295	detoxification
+T106	gene 2320 2325	PRX 2
+T107	gene 2341 2366	glutathione-S-transferase
+T108	cellular_component 2341 2366	glutathione-S-transferase
+T109	gene 2368 2371	GST
+T110	cellular_component 2368 2371	GST
+T111	cellular_component 2379 2388	apoptotic
+T112	cellular_component 2447 2452	cells
+T113	cellular_component 2458 2470	ion channels
+T114	gene 2480 2486	VDAC-1
+T115	cellular_component 2522 2529	channel
+T116	cellular_component 2540 2544	cell
+T117	cellular_component 2566 2570	cell
+T118	cellular_component 2588 2608	Alkaline Phosphatase
+T119	gene 2588 2608	Alkaline Phosphatase
+T120	gene 2610 2614	OCT4
+T121	gene 2623 2627	SSEA
+T122	gene 2630 2634	SSEA
+T123	gene 2657 2661	SOX2
+T124	gene 2663 2667	REX1
+T125	gene 2676 2681	STAT3
+T126	gene 2713 2717	EGFR
+T127	cellular_component 2713 2717	EGFR
+T128	cellular_component 2785 2789	EGFR
+T129	gene 2785 2789	EGFR
+T130	cellular_component 2801 2809	antibody
+T131	cellular_component 2831 2851	cytoplasmic membrane
+T132	gene 2852 2864	glycoprotein
+T133	cellular_component 2865 2873	receptor
+T134	cellular_component 2912 2917	GPCRs
+T135	gene 2912 2917	GPCRs
+T136	gene 2952 2960	arrestin
+T137	cellular_component 2973 2978	GPCRs
+T138	gene 2973 2978	GPCRs
+T139	gene 3001 3009	arrestin
+T140	cellular_component 3017 3035	endocytic vesicles
+T141	cellular_component 3041 3055	differentiated
+T142	cellular_component 3062 3067	cells
+T143	gene 3098 3105	tubulin
+T144	gene 3112 3119	tubulin
+T145	cellular_component 3121 3132	microtubule
+T146	gene 3155 3187	microtubule-associated protein-2
+T147	gene 3193 3196	tau
+T148	gene 3226 3230	JAK2
+T149	gene 3258 3272	growth hormone
+T150	cellular_component 3258 3272	growth hormone
+T151	gene 3296 3301	STAT1
+T152	gene 3303 3308	STAT3
+T153	gene 3314 3319	STAT5
+T154	cellular_component 3329 3348	negative regulation
+T155	gene 3356 3360	STAT
+T156	cellular_component 3361 3370	signaling
+T157	cellular_component 3422 3431	signaling

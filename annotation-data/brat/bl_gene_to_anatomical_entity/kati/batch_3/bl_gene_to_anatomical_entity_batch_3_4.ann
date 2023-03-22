@@ -1,0 +1,105 @@
+T1	anatomical_site 45 49	bone
+T2	anatomical_site 87 101	synovial fluid
+T3	gene 120 129	TNF-alpha
+T4	gene 131 139	IL-1beta
+T5	gene 141 145	IL-6
+T6	gene 155 160	BMP-2
+T7	anatomical_site 203 208	serum
+T8	gene 219 237	C-reactive protein
+T9	gene 242 250	stefin A
+T10	anatomical_site 259 264	serum
+T11	gene 275 285	cystatin C
+T12	anatomical_site 352 357	serum
+T13	gene 368 386	C-reactive protein
+T14	gene 388 396	stefin A
+T15	anatomical_site 412 417	serum
+T16	gene 428 438	cystatin C
+T17	gene 527 531	Rbp4
+T18	anatomical_site 569 574	liver
+T19	anatomical_site 594 598	lung
+T20	gene 603 610	Raldh-1
+T21	gene 615 622	Raldh-2
+T22	gene 657 662	DGCR8
+T23	anatomical_site 667 674	embryos
+T24	anatomical_site 693 706	blood vessels
+T25	anatomical_site 722 730	vascular
+T26	gene 755 759	CCL2
+T27	gene 761 765	CCL3
+T28	gene 767 771	CCL5
+T29	anatomical_site 809 824	piriform cortex
+T30	anatomical_site 826 837	hippocampus
+T31	anatomical_site 843 852	neocortex
+T32	gene 889 893	Otx1
+T33	gene 898 902	Otx2
+T34	anatomical_site 943 958	cerebral cortex
+T35	anatomical_site 963 973	cerebellum
+T36	anatomical_site 982 987	blood
+T37	gene 1017 1021	VEGF
+T38	anatomical_site 1062 1075	axillary node
+T39	anatomical_site 1106 1120	arterial blood
+T40	anatomical_site 1135 1139	lung
+T41	anatomical_site 1202 1206	lung
+T42	gene 1251 1259	IL-1beta
+T43	gene 1261 1270	caspase-3
+T44	gene 1302 1335	intercellular adhesion molecule-1
+T45	gene 1337 1343	ICAM-1
+T46	anatomical_site 1350 1358	vascular
+T47	gene 1359 1383	cell adhesion molecule-1
+T48	gene 1385 1391	VCAM-1
+T49	anatomical_site 1413 1417	lung
+T50	anatomical_site 1418 1424	tissue
+T51	anatomical_site 1437 1441	lung
+T52	anatomical_site 1453 1458	organ
+T53	gene 1543 1548	ASCT2
+T54	anatomical_site 1605 1610	brain
+T55	gene 1654 1659	ASCT2
+T56	gene 1706 1738	microtubule-associated protein-2
+T57	anatomical_site 1742 1748	cortex
+T58	anatomical_site 1750 1761	hippocampus
+T59	anatomical_site 1766 1774	striatum
+T60	gene 1776 1780	BMP4
+T61	anatomical_site 1791 1798	embryos
+T62	anatomical_site 1807 1817	mesodermal
+T63	gene 1888 1892	BMP7
+T64	anatomical_site 1914 1920	kidney
+T65	gene 1944 1957	Interleukin-6
+T66	gene 1959 1963	IL-6
+T67	gene 1966 1984	C-reactive protein
+T68	anatomical_site 2021 2026	serum
+T69	anatomical_site 2057 2062	heart
+T70	gene 2074 2077	Tbp
+T71	gene 2083 2088	Hprt1
+T72	anatomical_site 2093 2099	kidney
+T73	gene 2101 2104	Tbp
+T74	gene 2106 2110	Actb
+T75	gene 2116 2121	Gapdh
+T76	anatomical_site 2224 2230	tissue
+T77	gene 2234 2239	rev-1
+T78	anatomical_site 2283 2294	spinal cord
+T79	gene 2296 2314	C-reactive protein
+T80	gene 2327 2338	angiotensin
+T81	anatomical_site 2359 2381	vascular smooth muscle
+T82	gene 2383 2390	Insulin
+T83	anatomical_site 2415 2419	body
+T84	anatomical_site 2420 2423	fat
+T85	gene 2476 2518	peroxisome proliferator-activated receptor
+T86	gene 2522 2526	PPAR
+T87	anatomical_site 2547 2552	fatty
+T88	anatomical_site 2553 2558	liver
+T89	gene 2565 2574	myoglobin
+T90	gene 2605 2614	myoglobin
+T91	anatomical_site 2635 2640	urine
+T92	gene 2664 2673	myoglobin
+T93	anatomical_site 2713 2718	serum
+T94	gene 2719 2730	adiponectin
+T95	anatomical_site 2740 2745	blood
+T96	gene 2761 2768	histone
+T97	gene 2781 2785	LSD1
+T98	anatomical_site 2796 2805	inner ear
+T99	gene 2859 2863	Pax2
+T100	gene 2919 2925	Hoxa-7
+T101	gene 2930 2936	Hoxc-9
+T102	gene 2976 2979	Mll
+T103	anatomical_site 2984 2991	embryos
+T104	gene 3031 3034	Mll
+T105	anatomical_site 3039 3046	embryos

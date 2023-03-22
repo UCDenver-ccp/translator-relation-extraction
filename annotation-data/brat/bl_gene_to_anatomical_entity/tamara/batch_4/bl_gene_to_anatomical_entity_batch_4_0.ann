@@ -1,0 +1,120 @@
+T1	anatomical_site 8 12	body
+T2	anatomical_site 47 51	body
+T3	anatomical_site 52 55	fat
+T4	gene 57 63	leptin
+T5	gene 125 130	PLIN1
+T6	gene 147 152	PLIN4
+T7	anatomical_site 217 221	lung
+T8	anatomical_site 249 254	serum
+T9	gene 287 290	p27
+T10	gene 291 295	KIP1
+T11	gene 308 341	cyclin-dependent kinase inhibitor
+T12	gene 343 348	Gata4
+T13	gene 349 354	Gata6
+T14	gene 355 360	Gata6
+T15	anatomical_site 362 369	embryos
+T16	gene 486 491	Gata6
+T17	gene 511 516	Gata4
+T18	anatomical_site 529 551	extraembryonic tissues
+T19	gene 566 569	CD4
+T20	gene 570 574	CD25
+T21	gene 575 580	FOXP3
+T22	anatomical_site 602 607	blood
+T23	gene 626 631	FOXP3
+T24	anatomical_site 651 656	blood
+T25	anatomical_site 661 675	colonic mucosa
+T26	gene 687 692	FOXP3
+T27	gene 821 825	ET-1
+T28	gene 851 855	ET-1
+T29	gene 859 870	VE-cadherin
+T30	anatomical_site 905 915	myocardium
+T31	anatomical_site 970 980	myocardium
+T32	gene 992 995	Hjv
+T33	gene 1000 1004	Neo1
+T34	anatomical_site 1043 1058	skeletal muscle
+T35	anatomical_site 1060 1065	heart
+T36	anatomical_site 1067 1076	esophagus
+T37	anatomical_site 1082 1087	liver
+T38	anatomical_site 1100 1105	blood
+T39	gene 1106 1110	CD14
+T40	gene 1174 1178	IL-4
+T41	gene 1179 1185	GM-CSF
+T42	gene 1187 1192	TRPC6
+T43	anatomical_site 1217 1230	smooth muscle
+T44	anatomical_site 1253 1263	arterioles
+T45	gene 1291 1296	TRPC6
+T46	gene 1334 1341	eotaxin
+T47	anatomical_site 1356 1362	mucosa
+T48	gene 1367 1371	CCR3
+T49	anatomical_site 1375 1386	bone marrow
+T50	anatomical_site 1463 1474	bone marrow
+T51	gene 1521 1525	CD31
+T52	gene 1527 1548	von Willebrand factor
+T53	gene 1554 1558	Tie2
+T54	gene 1605 1609	CD45
+T55	gene 1644 1650	desmin
+T56	anatomical_site 1655 1668	smooth muscle
+T57	gene 1703 1707	Med7
+T58	gene 1709 1714	Med10
+T59	gene 1715 1719	Nut2
+T60	gene 1725 1730	Med21
+T61	gene 1731 1735	Srb7
+T62	gene 1784 1789	Med14
+T63	gene 1790 1793	Rgr
+T64	gene 1799 1804	Med16
+T65	gene 1805 1808	Sin
+T66	anatomical_site 1818 1822	tail
+T67	gene 1848 1853	Med19
+T68	gene 1854 1858	Rox3
+T69	anatomical_site 1867 1871	head
+T70	gene 1880 1885	SMAD7
+T71	anatomical_site 2006 2017	bone marrow
+T72	anatomical_site 2018 2024	tissue
+T73	gene 2072 2075	EGF
+T74	gene 2095 2098	EGF
+T75	gene 2125 2128	EGF
+T76	anatomical_site 2167 2174	medulla
+T77	anatomical_site 2199 2205	cortex
+T78	anatomical_site 2216 2223	medulla
+T79	gene 2283 2286	EGF
+T80	anatomical_site 2294 2300	cortex
+T81	anatomical_site 2311 2318	medulla
+T82	anatomical_site 2394 2400	muscle
+T83	gene 2420 2424	Six1
+T84	gene 2426 2430	Six4
+T85	gene 2432 2436	Pax7
+T86	gene 2438 2442	MyoD
+T87	gene 2453 2457	MRF4
+T88	anatomical_site 2468 2474	muscle
+T89	anatomical_site 2552 2558	muscle
+T90	gene 2614 2618	Cx32
+T91	gene 2623 2627	Cx43
+T92	gene 2655 2659	Cx32
+T93	anatomical_site 2707 2715	yolk sac
+T94	anatomical_site 2716 2726	epithelium
+T95	anatomical_site 2751 2757	embryo
+T96	gene 2767 2771	Cx43
+T97	anatomical_site 2802 2810	epiblast
+T98	gene 2853 2862	Fibulin-5
+T99	anatomical_site 2891 2908	connective tissue
+T100	anatomical_site 2926 2937	aortic wall
+T101	gene 2939 2972	Intercellular adhesion molecule-1
+T102	gene 2974 2980	ICAM-1
+T103	anatomical_site 2986 2994	vascular
+T104	gene 2995 3019	cell adhesion molecule-1
+T105	gene 3021 3027	VCAM-1
+T106	anatomical_site 3104 3110	kidney
+T107	gene 3148 3179	glial fibrillary acidic protein
+T108	gene 3181 3185	GFAP
+T109	gene 3191 3199	vimentin
+T110	anatomical_site 3225 3236	spinal cord
+T111	anatomical_site 3248 3259	bone marrow
+T112	gene 3282 3288	CXCL12
+T113	gene 3312 3317	CXCR7
+T114	gene 3335 3340	CXCR4
+T115	gene 3362 3367	ABCA2
+T116	anatomical_site 3402 3408	cortex
+T117	anatomical_site 3412 3424	white matter
+T118	anatomical_site 3429 3440	gray matter
+T119	gene 3458 3463	ABCA2
+T120	gene 3521 3566	platelet-derived growth factor alpha receptor

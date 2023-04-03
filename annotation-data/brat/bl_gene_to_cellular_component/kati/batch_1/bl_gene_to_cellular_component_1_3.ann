@@ -103,7 +103,7 @@ T102	gene 2856 2863	insulin
 T103	gene 2905 2934	neural cell adhesion molecule
 T104	gene 2936 2940	NCAM
 T105	gene 2996 3009	synaptophysin
-T106	cellular_component 2980 2985;3021 3029	Golgi vesicles
+T106	corrected_cellular_component 2980 2985;3021 3029	Golgi vesicles
 T107	cellular_component 3040 3048	antibody
 T108	gene 3055 3059	LGI1
 T109	cellular_component 3060 3068	antibody
@@ -151,3 +151,7 @@ R22	located_in Arg1:T100 Arg2:T128
 R23	located_in Arg1:T101 Arg2:T128	
 R24	located_in Arg1:T126 Arg2:T128	
 R25	located_in Arg1:T127 Arg2:T128	
+T129	corrected_gene 829 842	beta-integrin
+R26	located_in Arg1:T129 Arg2:T34	
+T130	cellular_component 2980 2985	Golgi
+T131	cellular_component 3021 3029	vesicles

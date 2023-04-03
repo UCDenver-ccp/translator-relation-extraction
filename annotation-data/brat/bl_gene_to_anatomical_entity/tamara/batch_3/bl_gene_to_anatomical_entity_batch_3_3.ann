@@ -94,3 +94,102 @@ T93	anatomical_site 2936 2942	myelin
 T94	gene 2953 2956	MBP
 T95	gene 2964 2975	aquaporin 4
 T96	anatomical_site 3033 3044	optic nerve
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+T97	missed_gene 31 38	preptin
+R3	located_in Arg1:T97 Arg2:T1	
+T98	missed_gene 40 50	kisspeptin
+R4	located_in Arg1:T98 Arg2:T1	
+T99	missed_gene 96 105	TGF-alpha
+R5	located_in Arg1:T4 Arg2:T6	
+R6	located_in Arg1:T99 Arg2:T6	
+R7	located_in Arg1:T5 Arg2:T6	
+R8	located_in Arg1:T9 Arg2:T7	
+R9	located_in Arg1:T10 Arg2:T7	
+R10	located_in Arg1:T10 Arg2:T8	
+T100	corrected_anatomical_site 353 369	cranial skeleton
+R11	located_in Arg1:T11 Arg2:T100	
+R12	located_in Arg1:T17 Arg2:T16	
+T101	corrected_gene 520 534	chordin-like 1
+R13	located_in Arg1:T101 Arg2:T22	
+R14	located_in Arg1:T20 Arg2:T22	
+R15	located_in Arg1:T19 Arg2:T22	
+R16	located_in Arg1:T25 Arg2:T24	
+R17	located_in Arg1:T28 Arg2:T27	
+T102	missed_anatomical_site 700 711	endothelial
+#1	AnnotatorNotes T102	okay?
+R18	located_in Arg1:T26 Arg2:T102	
+T103	corrected_anatomical_site 793 809	ventral midbrain
+R19	located_in Arg1:T23 Arg2:T29	
+R20	located_in Arg1:T25 Arg2:T29	
+R21	located_in Arg1:T26 Arg2:T29	
+R22	located_in Arg1:T28 Arg2:T29	
+R23	located_in Arg1:T23 Arg2:T103	
+R24	located_in Arg1:T25 Arg2:T103	
+R25	located_in Arg1:T26 Arg2:T103	
+R26	located_in Arg1:T28 Arg2:T103	
+T104	missed_anatomical_site 848 852	sera
+#2	AnnotatorNotes T104	okay?
+R27	located_in Arg1:T23 Arg2:T104	
+R28	located_in Arg1:T25 Arg2:T104	
+R29	located_in Arg1:T26 Arg2:T104	
+R30	located_in Arg1:T28 Arg2:T104	
+T105	corrected_gene 959 964	TNF-α
+T106	corrected_anatomical_site 1019 1031	heart tissue
+R31	located_in Arg1:T105 Arg2:T106	
+R32	located_in Arg1:T33 Arg2:T106	
+R33	located_in Arg1:T34 Arg2:T106	
+R34	located_in Arg1:T35 Arg2:T106	
+R35	located_in Arg1:T35 Arg2:T38	
+R36	located_in Arg1:T34 Arg2:T38	
+R37	located_in Arg1:T33 Arg2:T38	
+R38	located_in Arg1:T105 Arg2:T38	
+R39	located_in Arg1:T46 Arg2:T47	
+R40	located_in Arg1:T46 Arg2:T45	
+R41	located_in Arg1:T48 Arg2:T49	
+R42	located_in Arg1:T48 Arg2:T50	
+T107	missed_gene 1540 1543	MGP
+R43	located_in Arg1:T54 Arg2:T55	
+R44	located_in Arg1:T107 Arg2:T55	
+R45	located_in Arg1:T54 Arg2:T56	
+R46	located_in Arg1:T107 Arg2:T56	
+T108	missed_gene 1654 1681	bone morphogenetic proteins
+R47	located_in Arg1:T108 Arg2:T57	
+R48	located_in Arg1:T58 Arg2:T57	
+R49	located_in Arg1:T108 Arg2:T56	
+R50	located_in Arg1:T108 Arg2:T55	
+R51	located_in Arg1:T58 Arg2:T56	
+R52	located_in Arg1:T58 Arg2:T55	
+R53	located_in Arg1:T59 Arg2:T60	
+R54	located_in Arg1:T61 Arg2:T62	
+R55	located_in Arg1:T63 Arg2:T65	
+R56	located_in Arg1:T64 Arg2:T65	
+R57	located_in Arg1:T63 Arg2:T66	
+R58	located_in Arg1:T64 Arg2:T66	
+R59	located_in Arg1:T63 Arg2:T67	
+R60	located_in Arg1:T64 Arg2:T67	
+R61	located_in Arg1:T68 Arg2:T70	
+R62	located_in Arg1:T69 Arg2:T70	
+R63	located_in Arg1:T72 Arg2:T71	
+R64	located_in Arg1:T74 Arg2:T73	
+R65	located_in Arg1:T82 Arg2:T81	
+T109	corrected_gene 2537 2539;2547 2549	Cx 31
+R66	located_in Arg1:T109 Arg2:T81	
+R67	located_in Arg1:T82 Arg2:T83	
+R68	located_in Arg1:T109 Arg2:T83	
+R69	located_in Arg1:T84 Arg2:T83	
+#3	AnnotatorNotes R69	Okay?
+R70	located_in Arg1:T85 Arg2:T83	
+#4	AnnotatorNotes R70	Okay?
+R71	located_in Arg1:T86 Arg2:T81	
+#5	AnnotatorNotes R71	Okay?
+R72	located_in Arg1:T91 Arg2:T92	
+R73	located_in Arg1:T94 Arg2:T93	
+T110	missed_gene 2958 2961	MOG
+R74	located_in Arg1:T110 Arg2:T93	
+R75	located_in Arg1:T95 Arg2:T96	
+#6	AnnotatorNotes R75	Okay?
+R76	located_in Arg1:T110 Arg2:T96	
+#7	AnnotatorNotes R76	Okay?
+R77	located_in Arg1:T94 Arg2:T96	
+#8	AnnotatorNotes R77	Okay?

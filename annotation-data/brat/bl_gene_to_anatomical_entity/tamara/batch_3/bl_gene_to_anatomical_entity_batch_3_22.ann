@@ -95,3 +95,107 @@ T94	gene 3006 3011	CXCR4
 T95	anatomical_site 3030 3035	brain
 T96	gene 3114 3119	CXCR4
 T97	gene 3135 3138	ECL
+T98	corrected_anatomical_site 76 97	umbilical cord tissue
+R1	located_in Arg1:T1 Arg2:T98	
+R2	located_in Arg1:T5 Arg2:T4	
+R3	located_in Arg1:T7 Arg2:T6	
+T99	corrected_gene 236 241;244 246	CD200 R3
+R4	located_in Arg1:T99 Arg2:T6	
+R5	located_in Arg1:T14 Arg2:T15	
+R6	located_in Arg1:T13 Arg2:T15	
+R7	located_in Arg1:T12 Arg2:T15	
+T100	corrected_anatomical_site 546 571	early cortical primordium
+R8	located_in Arg1:T17 Arg2:T100	
+T101	missed_anatomical_site 733 738	serum
+T102	corrected_gene 739 746	albumin
+R9	located_in Arg1:T102 Arg2:T101	
+R10	located_in Arg1:T24 Arg2:T23	
+T103	corrected_gene 839 885	autophagy-related protein (Atg)12-Atg5 complex
+R11	located_in Arg1:T103 Arg2:T25	
+R12	located_in Arg1:T27 Arg2:T25	
+R13	located_in Arg1:T28 Arg2:T29	
+T104	missed_anatomical_site 993 999	saliva
+R14	located_in Arg1:T28 Arg2:T104	
+R15	located_in Arg1:T30 Arg2:T32	
+R16	located_in Arg1:T31 Arg2:T32	
+R17	located_in Arg1:T35 Arg2:T34	
+#1	AnnotatorNotes R17	Okay?
+T105	missed_gene 1248 1251	ACT
+R18	located_in Arg1:T105 Arg2:T34	
+#2	AnnotatorNotes R18	Okay?
+T106	corrected_gene 1254 1279	alpha-1-acid-glycoprotein
+R19	located_in Arg1:T106 Arg2:T34	
+#3	AnnotatorNotes R19	Okay?
+T107	missed_gene 1281 1284	AGP
+R20	located_in Arg1:T107 Arg2:T34	
+#4	AnnotatorNotes R20	Okay?
+R21	located_in Arg1:T38 Arg2:T34	
+#5	AnnotatorNotes R21	Okay?
+T108	missed_gene 1310 1313	AMG
+R22	located_in Arg1:T108 Arg2:T34	
+#6	AnnotatorNotes R22	Okay?
+R23	located_in Arg1:T39 Arg2:T34	
+#7	AnnotatorNotes R23	Okay?
+T109	missed_gene 1336 1339	CRP
+R24	located_in Arg1:T109 Arg2:T34	
+#8	AnnotatorNotes R24	Okay?
+R25	located_in Arg1:T40 Arg2:T34	
+#9	AnnotatorNotes R25	Okay?
+T110	missed_gene 1358 1361	HAP
+R26	located_in Arg1:T110 Arg2:T34	
+#10	AnnotatorNotes R26	Okay?
+T111	corrected_anatomical_site 1391 1401	CNS myelin
+T112	missed_gene 1427 1446	proteolipid protein
+R27	located_in Arg1:T112 Arg2:T111	
+R28	located_in Arg1:T43 Arg2:T111	
+T113	missed_gene 1461 1477	Wolfgram protein
+T114	missed_gene 1479 1481	WP
+R29	located_in Arg1:T113 Arg2:T111	
+R30	located_in Arg1:T114 Arg2:T111	
+T115	corrected_anatomical_site 1534 1548;1552 1558	mammary glands female
+R31	located_in Arg1:T44 Arg2:T115	
+R32	located_in Arg1:T45 Arg2:T115	
+R33	located_in Arg1:T46 Arg2:T115	
+T116	missed_gene 1587 1615	bone morphogenetic protein 4
+R34	located_in Arg1:T116 Arg2:T49	
+R35	located_in Arg1:T50 Arg2:T49	
+R36	located_in Arg1:T54 Arg2:T53	
+R37	located_in Arg1:T55 Arg2:T53	
+R38	located_in Arg1:T60 Arg2:T59	
+T117	missed_gene 2003 2006	ACT
+R39	located_in Arg1:T117 Arg2:T59	
+T118	corrected_gene 2009 2034	alpha-1-acid-glycoprotein
+T119	missed_gene 2036 2039	AGP
+T120	missed_gene 2065 2068	AMG
+T121	missed_gene 2091 2094	CRP
+T122	missed_gene 2110 2113	HAP
+R40	located_in Arg1:T118 Arg2:T59	
+R41	located_in Arg1:T63 Arg2:T59	
+R42	located_in Arg1:T120 Arg2:T59	
+R43	located_in Arg1:T64 Arg2:T59	
+R44	located_in Arg1:T121 Arg2:T59	
+R45	located_in Arg1:T65 Arg2:T59	
+R46	located_in Arg1:T122 Arg2:T59	
+R47	located_in Arg1:T67 Arg2:T66	
+T123	missed_gene 2238 2242	CD24
+R48	located_in Arg1:T123 Arg2:T66	
+R49	located_in Arg1:T71 Arg2:T70	
+T124	missed_anatomical_site 2437 2440	AER
+R50	located_in Arg1:T73 Arg2:T74	
+R51	located_in Arg1:T73 Arg2:T124	
+R52	located_in Arg1:T73 Arg2:T75	
+T125	corrected_anatomical_site 2685 2698	outer medulla
+T126	corrected_anatomical_site 2704 2717	inner medulla
+T127	corrected_anatomical_site 2761 2774	inner medulla
+R53	located_in Arg1:T86 Arg2:T127	
+R54	located_in Arg1:T81 Arg2:T83	
+R55	located_in Arg1:T81 Arg2:T125	
+R56	located_in Arg1:T81 Arg2:T126	
+R57	located_in Arg1:T82 Arg2:T83	
+R58	located_in Arg1:T82 Arg2:T125	
+R59	located_in Arg1:T82 Arg2:T126	
+R60	located_in Arg1:T81 Arg2:T80	
+R61	located_in Arg1:T82 Arg2:T80	
+R62	located_in Arg1:T86 Arg2:T80	
+R63	located_in Arg1:T88 Arg2:T89	
+R64	located_in Arg1:T88 Arg2:T90	

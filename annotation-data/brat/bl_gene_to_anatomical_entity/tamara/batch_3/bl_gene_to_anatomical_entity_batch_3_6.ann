@@ -84,3 +84,73 @@ T83	anatomical_site 2427 2442	cardiopulmonary
 T84	gene 2529 2534	EAAT2
 T85	anatomical_site 2568 2579	hippocampus
 T86	anatomical_site 2597 2610	temporal lobe
+T87	missed_gene 131 134	MGP
+R1	located_in Arg1:T6 Arg2:T7	
+R2	located_in Arg1:T6 Arg2:T8	
+R3	located_in Arg1:T6 Arg2:T10	
+R4	located_in Arg1:T6 Arg2:T11	
+R5	located_in Arg1:T87 Arg2:T7	
+R6	located_in Arg1:T87 Arg2:T8	
+R7	located_in Arg1:T87 Arg2:T9	
+R8	located_in Arg1:T6 Arg2:T9	
+R9	located_in Arg1:T87 Arg2:T10	
+R10	located_in Arg1:T87 Arg2:T11	
+T88	corrected_anatomical_site 436 454	submaxillary gland
+R11	located_in Arg1:T17 Arg2:T88	
+R12	located_in Arg1:T18 Arg2:T88	
+R13	located_in Arg1:T27 Arg2:T28	
+R14	located_in Arg1:T29 Arg2:T28	
+#1	AnnotatorNotes R14	Okay?
+T89	missed_anatomical_site 966 983	endocrine tissues
+R15	located_in Arg1:T32 Arg2:T34	
+R16	located_in Arg1:T32 Arg2:T89	
+R17	located_in Arg1:T33 Arg2:T34	
+R18	located_in Arg1:T33 Arg2:T89	
+R19	located_in Arg1:T37 Arg2:T38	
+R20	located_in Arg1:T39 Arg2:T40	
+T90	corrected_gene 1293 1309	Type II collagen
+R21	located_in Arg1:T42 Arg2:T43	
+R22	located_in Arg1:T90 Arg2:T43	
+T91	corrected_anatomical_site 1412 1432	vascular endothelium
+R23	located_in Arg1:T44 Arg2:T91	
+R24	located_in Arg1:T45 Arg2:T91	
+R25	located_in Arg1:T45 Arg2:T48	
+#2	AnnotatorNotes R25	Okay?
+R26	located_in Arg1:T44 Arg2:T48	
+#3	AnnotatorNotes R26	Okay?
+T92	corrected_anatomical_site 1538 1549	lung tissue
+R27	located_in Arg1:T51 Arg2:T92	
+R28	located_in Arg1:T52 Arg2:T92	
+T93	corrected_anatomical_site 1685 1699	breast tissues
+R29	located_in Arg1:T53 Arg2:T93	
+#4	AnnotatorNotes R29	Okay?
+R30	located_in Arg1:T54 Arg2:T93	
+#5	AnnotatorNotes R30	Okay?
+R31	located_in Arg1:T57 Arg2:T59	
+R32	located_in Arg1:T58 Arg2:T59	
+R33	located_in Arg1:T57 Arg2:T60	
+R34	located_in Arg1:T58 Arg2:T60	
+T94	missed_anatomical_site 1954 1967	smooth muscle
+R35	located_in Arg1:T61 Arg2:T94	
+R36	located_in Arg1:T62 Arg2:T94	
+R37	located_in Arg1:T61 Arg2:T63	
+R38	located_in Arg1:T61 Arg2:T64	
+R39	located_in Arg1:T61 Arg2:T65	
+R40	located_in Arg1:T61 Arg2:T66	
+R41	located_in Arg1:T61 Arg2:T67	
+R42	located_in Arg1:T62 Arg2:T63	
+R43	located_in Arg1:T62 Arg2:T64	
+R44	located_in Arg1:T62 Arg2:T65	
+R45	located_in Arg1:T62 Arg2:T66	
+R46	located_in Arg1:T62 Arg2:T67	
+R47	located_in Arg1:T68 Arg2:T71	
+R48	located_in Arg1:T74 Arg2:T77	
+R49	located_in Arg1:T75 Arg2:T77	
+R50	located_in Arg1:T76 Arg2:T77	
+R51	located_in Arg1:T76 Arg2:T78	
+#6	AnnotatorNotes R51	Okay?
+R52	located_in Arg1:T75 Arg2:T78	
+#7	AnnotatorNotes R52	Okay?
+R53	located_in Arg1:T74 Arg2:T78	
+#8	AnnotatorNotes R53	Okay?
+R54	located_in Arg1:T84 Arg2:T85	

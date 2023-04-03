@@ -105,3 +105,15 @@ T104	anatomical_site 2656 2662	kidney
 T105	anatomical_site 2667 2673	muscle
 T106	anatomical_site 2679 2685	neural
 T107	gene 2686 2691	agrin
+T108	missed_gene 98 109	cytokeratin
+R1	located_in Arg1:T3 Arg2:T1	
+R2	located_in Arg1:T108 Arg2:T1	
+T109	missed_gene 205 210	actin
+R3	located_in Arg1:T109 Arg2:T6	
+R4	located_in Arg1:T10 Arg2:T12	
+R5	located_in Arg1:T11 Arg2:T12	
+R6	located_in Arg1:T19 Arg2:T18	
+R7	located_in Arg1:T20 Arg2:T18	
+R8	located_in Arg1:T21 Arg2:T18	
+T110	missed_gene 608 615	PGP 9.5
+T111	corrected_anatomical_site 619 643	innervating nerve fibers

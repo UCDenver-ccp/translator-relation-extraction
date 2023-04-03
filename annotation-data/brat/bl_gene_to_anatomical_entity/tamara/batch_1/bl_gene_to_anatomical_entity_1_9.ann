@@ -157,7 +157,6 @@ R29	located_in Arg1:T96 Arg2:T98
 T128	corrected_gene 2237 2244	p75NGFR
 R36	located_in Arg1:T128 Arg2:T98	
 R37	located_in Arg1:T105 Arg2:T104	
-#4	AnnotatorNotes R37	Okay?
 T129	corrected_anatomical_site 2551 2569	parathyroid tissue
 R38	located_in Arg1:T106 Arg2:T129	
 R39	located_in Arg1:T107 Arg2:T129	
@@ -177,3 +176,4 @@ R44	located_in Arg1:T71 Arg2:T131
 R45	located_in Arg1:T77 Arg2:T78	
 R46	located_in Arg1:T96 Arg2:T95	
 R47	located_in Arg1:T128 Arg2:T95	
+T132	DONE 2722 2726	DONE

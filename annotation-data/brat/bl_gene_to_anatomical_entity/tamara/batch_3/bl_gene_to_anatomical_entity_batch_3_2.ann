@@ -106,3 +106,118 @@ T105	gene 3105 3112	gastrin
 T106	anatomical_site 3185 3200	skeletal muscle
 T107	gene 3230 3234	MyoD
 T108	anatomical_site 3239 3245	muscle
+R1	located_in Arg1:T3 Arg2:T4	
+R2	located_in Arg1:T3 Arg2:T5	
+R3	located_in Arg1:T3 Arg2:T6	
+R4	located_in Arg1:T2 Arg2:T4	
+R5	located_in Arg1:T2 Arg2:T5	
+R6	located_in Arg1:T2 Arg2:T6	
+R7	located_in Arg1:T1 Arg2:T4	
+R8	located_in Arg1:T1 Arg2:T5	
+R9	located_in Arg1:T1 Arg2:T6	
+R10	located_in Arg1:T13 Arg2:T12	
+T109	missed_gene 393 407	corticosterone
+R11	located_in Arg1:T109 Arg2:T14	
+R12	located_in Arg1:T16 Arg2:T15	
+T110	corrected_gene 451 463	p44/p42 MAPK
+R13	located_in Arg1:T110 Arg2:T15	
+T111	missed_gene 545 550	NF-κb
+T112	missed_gene 552 555	IKB
+R14	located_in Arg1:T112 Arg2:T20	
+R15	located_in Arg1:T111 Arg2:T20	
+R16	located_in Arg1:T19 Arg2:T20	
+T113	missed_gene 589 594	TNF-α
+T114	missed_anatomical_site 582 588	plasma
+R17	located_in Arg1:T113 Arg2:T114	
+T115	corrected_anatomical_site 659 676	pancreatic tissue
+T116	missed_gene 642 655	iNOS proteins
+#1	AnnotatorNotes T116	okay?
+R18	located_in Arg1:T21 Arg2:T115	
+R19	located_in Arg1:T22 Arg2:T115	
+R20	located_in Arg1:T23 Arg2:T115	
+R21	located_in Arg1:T116 Arg2:T115	
+T117	missed_gene 689 695	LPCLN2
+T118	missed_gene 697 702	NF-κb
+T119	missed_gene 704 709	IKB I
+R22	located_in Arg1:T117 Arg2:T25	
+R23	located_in Arg1:T118 Arg2:T25	
+R24	located_in Arg1:T119 Arg2:T25	
+R25	located_in Arg1:T26 Arg2:T28	
+R26	located_in Arg1:T27 Arg2:T28	
+R27	located_in Arg1:T43 Arg2:T45	
+R28	located_in Arg1:T44 Arg2:T45	
+R29	located_in Arg1:T49 Arg2:T50	
+R30	located_in Arg1:T52 Arg2:T51	
+R31	located_in Arg1:T53 Arg2:T51	
+R32	located_in Arg1:T54 Arg2:T51	
+R33	located_in Arg1:T55 Arg2:T51	
+R34	located_in Arg1:T57 Arg2:T59	
+R35	located_in Arg1:T58 Arg2:T59	
+T120	missed_anatomical_site 1675 1682	cardiac
+#2	AnnotatorNotes T120	do we mark it? 
+R36	located_in Arg1:T57 Arg2:T120	
+#3	AnnotatorNotes R36	Okay?
+R37	located_in Arg1:T58 Arg2:T120	
+#4	AnnotatorNotes R37	Okay?
+R38	located_in Arg1:T60 Arg2:T62	
+T121	corrected_gene 1746 1771	protein 4.1-like proteins
+R39	located_in Arg1:T121 Arg2:T62	
+R40	located_in Arg1:T64 Arg2:T63	
+R41	located_in Arg1:T67 Arg2:T69	
+R42	located_in Arg1:T68 Arg2:T69	
+R43	located_in Arg1:T70 Arg2:T71	
+R44	located_in Arg1:T72 Arg2:T73	
+T122	corrected_anatomical_site 2169 2180	renal lymph
+#5	AnnotatorNotes T122	okay?
+T123	missed_gene 2115 2125	Kallikrein
+T124	missed_gene 2126 2131	kinin
+R45	located_in Arg1:T75 Arg2:T122	
+R46	located_in Arg1:T74 Arg2:T122	
+R47	located_in Arg1:T124 Arg2:T122	
+R48	located_in Arg1:T123 Arg2:T122	
+T125	missed_anatomical_site 2713 2718	brain
+R49	located_in Arg1:T92 Arg2:T125	
+T126	corrected_gene 2829 2835	p75NTR
+R50	located_in Arg1:T126 Arg2:T97	
+R51	located_in Arg1:T95 Arg2:T97	
+R52	located_in Arg1:T94 Arg2:T97	
+R53	located_in Arg1:T93 Arg2:T97	
+T127	missed_gene 2751 2754	NT3
+T128	missed_gene 2692 2711	nerve growth factor
+R54	located_in Arg1:T127 Arg2:T97	
+R55	located_in Arg1:T92 Arg2:T97	
+R56	located_in Arg1:T128 Arg2:T97	
+R57	located_in Arg1:T128 Arg2:T100	
+R58	located_in Arg1:T92 Arg2:T100	
+R59	located_in Arg1:T127 Arg2:T100	
+R60	located_in Arg1:T93 Arg2:T100	
+R61	located_in Arg1:T94 Arg2:T100	
+R62	located_in Arg1:T95 Arg2:T100	
+R63	located_in Arg1:T126 Arg2:T100	
+R64	located_in Arg1:T128 Arg2:T99	
+R65	located_in Arg1:T92 Arg2:T99	
+R66	located_in Arg1:T127 Arg2:T99	
+R67	located_in Arg1:T93 Arg2:T99	
+R68	located_in Arg1:T94 Arg2:T99	
+R69	located_in Arg1:T95 Arg2:T99	
+R70	located_in Arg1:T126 Arg2:T99	
+T129	missed_anatomical_site 2884 2889;2904 2914	nasal epithelium
+R71	located_in Arg1:T128 Arg2:T98	
+R72	located_in Arg1:T92 Arg2:T98	
+R73	located_in Arg1:T127 Arg2:T98	
+R74	located_in Arg1:T93 Arg2:T98	
+R75	located_in Arg1:T94 Arg2:T98	
+R76	located_in Arg1:T95 Arg2:T98	
+R77	located_in Arg1:T126 Arg2:T98	
+R78	located_in Arg1:T128 Arg2:T129	
+R79	located_in Arg1:T92 Arg2:T129	
+R80	located_in Arg1:T127 Arg2:T129	
+R81	located_in Arg1:T93 Arg2:T129	
+R82	located_in Arg1:T94 Arg2:T129	
+R83	located_in Arg1:T95 Arg2:T129	
+R84	located_in Arg1:T126 Arg2:T129	
+R85	located_in Arg1:T105 Arg2:T104	
+R86	located_in Arg1:T107 Arg2:T106	
+T130	missed_gene 3246 3253	α-actin
+R87	located_in Arg1:T130 Arg2:T108	
+R88	located_in Arg1:T130 Arg2:T106	

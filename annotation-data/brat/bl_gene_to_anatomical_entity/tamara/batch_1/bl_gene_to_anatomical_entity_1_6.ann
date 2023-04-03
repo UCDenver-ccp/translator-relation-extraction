@@ -165,11 +165,8 @@ R43	located_in Arg1:T64 Arg2:T65
 T122	corrected_gene 494 521	TGF-beta responsive element
 T123	corrected_anatomical_site 564 576	embryo aorta
 T124	missed_anatomical_site 581 593	tendon cells
-#9	AnnotatorNotes T124	do we mark it? 
 R45	located_in Arg1:T122 Arg2:T123	
-#10	AnnotatorNotes R45	Okay?
 R46	located_in Arg1:T122 Arg2:T124	
-#11	AnnotatorNotes R46	Okay?
 R47	located_in Arg1:T5 Arg2:T6	
 T121	missed_anatomical_site 2254 2257	WAT
 T125	missed_anatomical_site 2262 2265	BAT

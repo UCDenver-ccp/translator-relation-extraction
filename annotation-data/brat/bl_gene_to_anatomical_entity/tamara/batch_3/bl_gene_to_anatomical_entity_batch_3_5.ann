@@ -91,3 +91,111 @@ T90	gene 2943 2947	HNF1
 T91	gene 2972 2976	HNF1
 T92	anatomical_site 2981 2986	liver
 T93	anatomical_site 2991 2997	kidney
+T94	corrected_anatomical_site 19 33	thyroid tissue
+R1	located_in Arg1:T3 Arg2:T94	
+R2	located_in Arg1:T4 Arg2:T94	
+R3	located_in Arg1:T5 Arg2:T7	
+R4	located_in Arg1:T6 Arg2:T7	
+R5	located_in Arg1:T5 Arg2:T8	
+R6	located_in Arg1:T6 Arg2:T8	
+T95	corrected_anatomical_site 267 286	cerebral arterioles
+R7	located_in Arg1:T9 Arg2:T95	
+R8	located_in Arg1:T10 Arg2:T95	
+R9	located_in Arg1:T19 Arg2:T20	
+T96	missed_anatomical_site 552 558	plasma
+R10	located_in Arg1:T21 Arg2:T96	
+T97	corrected_anatomical_site 568 585	myocardial tissue
+R11	located_in Arg1:T23 Arg2:T97	
+T98	corrected_gene 621 627	TSP-1a
+T99	corrected_gene 632 638	TSP-1b
+R12	located_in Arg1:T98 Arg2:T26	
+R13	located_in Arg1:T99 Arg2:T26	
+R14	located_in Arg1:T98 Arg2:T27	
+R15	located_in Arg1:T99 Arg2:T27	
+T100	corrected_gene 687 693	TSP-1a
+R16	located_in Arg1:T100 Arg2:T29	
+R17	located_in Arg1:T100 Arg2:T30	
+R18	located_in Arg1:T31 Arg2:T33	
+R19	located_in Arg1:T32 Arg2:T33	
+R20	located_in Arg1:T31 Arg2:T34	
+R21	located_in Arg1:T32 Arg2:T34	
+T101	missed_anatomical_site 869 873	Bone
+T102	missed_gene 869 895;901 902	Bone morphogenetic protein 4
+T103	corrected_gene 897 900;901 902	BMP 4
+R22	located_in Arg1:T102 Arg2:T101	
+R23	located_in Arg1:T103 Arg2:T101	
+R24	located_in Arg1:T102 Arg2:T36	
+R25	located_in Arg1:T103 Arg2:T36	
+T104	corrected_anatomical_site 956 974	gastric epithelium
+R26	located_in Arg1:T103 Arg2:T104	
+#1	AnnotatorNotes R26	Okay?
+R27	located_in Arg1:T102 Arg2:T104	
+#2	AnnotatorNotes R27	Okay?
+T105	corrected_anatomical_site 1113 1125	brain tissue
+T106	missed_gene 1031 1045	Menkes protein
+T107	missed_gene 1047 1061	Wilson protein
+R28	located_in Arg1:T38 Arg2:T105	
+R29	located_in Arg1:T107 Arg2:T105	
+R30	located_in Arg1:T106 Arg2:T105	
+T108	missed_anatomical_site 1207 1214	urinary
+T109	corrected_gene 1215 1247	liver fatty acid binding protein
+R31	located_in Arg1:T109 Arg2:T108	
+R32	located_in Arg1:T43 Arg2:T108	
+T110	missed_anatomical_site 1258 1265	urinary
+T111	missed_gene 1310 1314	NGAL
+R33	located_in Arg1:T44 Arg2:T110	
+R34	located_in Arg1:T111 Arg2:T110	
+R35	located_in Arg1:T46 Arg2:T45	
+T113	missed_gene 1331 1346	heart-type FABP
+R36	located_in Arg1:T113 Arg2:T47	
+T112	missed_gene 1348 1372	kidney injury molecule 1
+R37	located_in Arg1:T112 Arg2:T48	
+R38	located_in Arg1:T49 Arg2:T48	
+R39	located_in Arg1:T51 Arg2:T53	
+R40	located_in Arg1:T52 Arg2:T53	
+R41	located_in Arg1:T58 Arg2:T59	
+#3	AnnotatorNotes R41	Okay?
+R42	located_in Arg1:T60 Arg2:T62	
+R43	located_in Arg1:T61 Arg2:T62	
+T114	missed_gene 1969 1972	PS1
+R44	located_in Arg1:T63 Arg2:T64	
+R45	located_in Arg1:T114 Arg2:T64	
+T115	missed_gene 2079 2084	UVRAG
+R46	located_in Arg1:T115 Arg2:T67	
+R47	located_in Arg1:T66 Arg2:T67	
+R48	located_in Arg1:T115 Arg2:T68	
+R49	located_in Arg1:T66 Arg2:T68	
+R50	located_in Arg1:T65 Arg2:T64	
+#4	AnnotatorNotes R50	Okay?
+R51	located_in Arg1:T72 Arg2:T71	
+R52	located_in Arg1:T73 Arg2:T71	
+R53	located_in Arg1:T74 Arg2:T71	
+T116	corrected_anatomical_site 2425 2475	reticulated epithelium lining the tonsillar crypts
+#5	AnnotatorNotes T116	okay?
+T117	missed_gene 2376 2382	GalCer
+T118	missed_gene 2372 2374	HS
+R54	located_in Arg1:T76 Arg2:T116	
+R55	located_in Arg1:T75 Arg2:T116	
+R56	located_in Arg1:T117 Arg2:T116	
+R57	located_in Arg1:T118 Arg2:T116	
+T119	missed_gene 2513 2516	ZAG
+R58	located_in Arg1:T79 Arg2:T80	
+R59	located_in Arg1:T119 Arg2:T80	
+R60	located_in Arg1:T119 Arg2:T81	
+R61	located_in Arg1:T79 Arg2:T81	
+R62	located_in Arg1:T83 Arg2:T82	
+T120	missed_anatomical_site 2710 2718	skeletal
+#6	AnnotatorNotes T120	okay?
+R63	located_in Arg1:T84 Arg2:T120	
+#7	AnnotatorNotes R63	Okay?
+R64	located_in Arg1:T88 Arg2:T87	
+#8	AnnotatorNotes R64	Okay?
+R65	located_in Arg1:T88 Arg2:T86	
+#9	AnnotatorNotes R65	Okay?
+T121	missed_anatomical_site 2867 2874	tissues
+R66	located_in Arg1:T89 Arg2:T121	
+#10	AnnotatorNotes R66	Okay?
+T122	missed_gene 2958 2963	vHNF1
+#11	AnnotatorNotes T122	okay?
+R67	located_in Arg1:T122 Arg2:T92	
+R68	located_in Arg1:T122 Arg2:T93	

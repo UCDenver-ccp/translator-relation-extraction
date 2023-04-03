@@ -117,7 +117,6 @@ R4	located_in Arg1:T112 Arg2:T11
 T113	missed_gene 576 620	type 1 inositol 1,4,5-trisphosphate receptor
 R5	located_in Arg1:T113 Arg2:T14	
 T114	missed_gene 768 773	actin
-R6	located_in Arg1:T114 Arg2:T19	
 T115	missed_cellular_component 752 765	lamellipodial
 R7	located_in Arg1:T114 Arg2:T115	
 T116	missed_gene 1245 1250	Notch

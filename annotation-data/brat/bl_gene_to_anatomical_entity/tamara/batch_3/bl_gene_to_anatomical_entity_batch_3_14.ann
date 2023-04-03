@@ -97,3 +97,84 @@ T96	gene 2763 2774	adiponectin
 T97	gene 2779 2790	adiponectin
 T98	anatomical_site 2822 2827	fatty
 T99	anatomical_site 2828 2833	liver
+R1	located_in Arg1:T1 Arg2:T2	
+T100	corrected_anatomical_site 70 82	male embryos
+R2	located_in Arg1:T3 Arg2:T100	
+T101	corrected_anatomical_site 194 205	soft-tissue
+#1	AnnotatorNotes T101	okay?
+R3	located_in Arg1:T8 Arg2:T101	
+R4	located_in Arg1:T9 Arg2:T101	
+R5	located_in Arg1:T18 Arg2:T19	
+R6	located_in Arg1:T22 Arg2:T23	
+R7	located_in Arg1:T20 Arg2:T23	
+R8	located_in Arg1:T21 Arg2:T23	
+R9	located_in Arg1:T25 Arg2:T26	
+T102	missed_gene 717 722	Abeta
+T103	missed_gene 728 751	neurofibrillary tangles
+T104	missed_gene 753 757	NFTs
+R10	located_in Arg1:T104 Arg2:T28	
+R11	located_in Arg1:T103 Arg2:T28	
+R12	located_in Arg1:T102 Arg2:T28	
+R13	located_in Arg1:T27 Arg2:T28	
+T105	missed_gene 830 840	calcitriol
+R14	located_in Arg1:T105 Arg2:T29	
+R15	located_in Arg1:T31 Arg2:T29	
+R16	located_in Arg1:T32 Arg2:T29	
+R17	located_in Arg1:T33 Arg2:T29	
+R18	located_in Arg1:T105 Arg2:T30	
+R19	located_in Arg1:T31 Arg2:T30	
+R20	located_in Arg1:T32 Arg2:T30	
+R21	located_in Arg1:T33 Arg2:T30	
+T106	corrected_anatomical_site 1006 1021	prostate tissue
+R22	located_in Arg1:T34 Arg2:T106	
+R23	located_in Arg1:T35 Arg2:T106	
+R25	located_in Arg1:T37 Arg2:T106	
+T107	corrected_gene 947 966	VEGF receptor Flk-1
+R24	located_in Arg1:T107 Arg2:T106	
+R26	located_in Arg1:T40 Arg2:T41	
+#2	AnnotatorNotes R26	Okay?
+R27	located_in Arg1:T42 Arg2:T44	
+R28	located_in Arg1:T43 Arg2:T44	
+R29	located_in Arg1:T45 Arg2:T46	
+R30	located_in Arg1:T49 Arg2:T47	
+R31	located_in Arg1:T49 Arg2:T48	
+R32	located_in Arg1:T50 Arg2:T47	
+R33	located_in Arg1:T50 Arg2:T48	
+R34	located_in Arg1:T61 Arg2:T60	
+R35	located_in Arg1:T67 Arg2:T66	
+R36	located_in Arg1:T70 Arg2:T71	
+R37	located_in Arg1:T73 Arg2:T72	
+R38	located_in Arg1:T74 Arg2:T72	
+T108	corrected_anatomical_site 2236 2254	gallbladder muscle
+T109	corrected_gene 2177 2192	CCK-1 receptors
+R39	located_in Arg1:T109 Arg2:T108	
+R40	located_in Arg1:T76 Arg2:T108	
+T110	corrected_anatomical_site 2280 2313	blood-contaminated amniotic fluid
+#3	AnnotatorNotes T110	do we mark it? or split?
+R41	located_in Arg1:T79 Arg2:T110	
+#4	AnnotatorNotes R41	Okay?
+T111	missed_gene 2362 2373	aldosterone
+T112	missed_gene 2419 2424	IL-23
+R42	located_in Arg1:T82 Arg2:T85	
+R43	located_in Arg1:T111 Arg2:T85	
+R44	located_in Arg1:T83 Arg2:T85	
+R45	located_in Arg1:T84 Arg2:T85	
+R46	located_in Arg1:T112 Arg2:T85	
+R47	located_in Arg1:T112 Arg2:T86	
+R48	located_in Arg1:T84 Arg2:T86	
+R49	located_in Arg1:T83 Arg2:T86	
+R50	located_in Arg1:T111 Arg2:T86	
+R51	located_in Arg1:T82 Arg2:T86	
+T113	corrected_gene 2468 2480	collagen III
+T114	corrected_gene 2485 2496	collagen IV
+R52	located_in Arg1:T113 Arg2:T89	
+R53	located_in Arg1:T114 Arg2:T89	
+T115	missed_anatomical_site 2511 2518	urinary
+R54	located_in Arg1:T90 Arg2:T115	
+T116	missed_gene 2557 2579	kidney-injury-molecule
+R55	located_in Arg1:T116 Arg2:T91	
+R56	located_in Arg1:T116 Arg2:T115	
+R57	located_in Arg1:T92 Arg2:T91	
+R58	located_in Arg1:T92 Arg2:T115	
+T117	missed_gene 2592 2599	albumin
+R59	located_in Arg1:T117 Arg2:T115	

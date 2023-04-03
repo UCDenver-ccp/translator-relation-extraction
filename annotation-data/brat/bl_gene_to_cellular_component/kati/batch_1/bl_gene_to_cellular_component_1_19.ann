@@ -122,8 +122,6 @@ R4	located_in Arg1:T16 Arg2:T17
 T118	missed_gene 846 852	dynein
 R5	located_in Arg1:T118 Arg2:T30	
 T119	missed_gene 856 881	microtubule motor protein
-R6	located_in Arg1:T119 Arg2:T31	
-R7	located_in Arg1:T118 Arg2:T31	
 R12	located_in Arg1:T54 Arg2:T56	
 T120	corrected_gene 1290 1317	tyrosinase-related proteins
 R13	located_in Arg1:T120 Arg2:T56	
@@ -139,13 +137,13 @@ R21	located_in Arg1:T123 Arg2:T88
 T124	corrected_gene 2337 2348	integrin-?3
 R22	located_in Arg1:T124 Arg2:T91	
 R23	located_in Arg1:T109 Arg2:T110	
-T125	missed_gene 2738 2743	actin
-R24	located_in Arg1:T125 Arg2:T108	
-R25	located_in Arg1:T125 Arg2:T110	
 T126	corrected_gene 1090 1101	?1-integrin
 R8	located_in Arg1:T126 Arg2:T44	
 T127	corrected_cellular_component 1823 1831;1859 1876	membrane synaptic vesicles
 R9	located_in Arg1:T73 Arg2:T127	
 R10	located_in Arg1:T74 Arg2:T127	
-R11	located_in Arg1:T125 Arg2:T107	
 R15	located_in Arg1:T119 Arg2:T30	
+T125	missed_gene 2719 2724	actin
+T128	missed_gene 2738 2743	actin
+R6	located_in Arg1:T125 Arg2:T110	
+R7	located_in Arg1:T128 Arg2:T110	

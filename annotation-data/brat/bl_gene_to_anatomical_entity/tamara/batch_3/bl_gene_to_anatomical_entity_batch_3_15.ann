@@ -102,3 +102,89 @@ T101	anatomical_site 3115 3122	retinas
 T102	gene 3162 3167	Abca4
 T103	gene 3173 3176	Nrl
 T104	anatomical_site 3182 3189	retinas
+T105	corrected_anatomical_site 145 175	pulmonary vascular endothelium
+R1	located_in Arg1:T6 Arg2:T105	
+R2	located_in Arg1:T5 Arg2:T105	
+R3	located_in Arg1:T4 Arg2:T105	
+R4	located_in Arg1:T9 Arg2:T11	
+R5	located_in Arg1:T10 Arg2:T11	
+R6	located_in Arg1:T12 Arg2:T13	
+T106	missed_gene 401 405	Umod
+T107	missed_gene 422 426	Bsnd
+R7	located_in Arg1:T106 Arg2:T13	
+R8	located_in Arg1:T14 Arg2:T13	
+R9	located_in Arg1:T15 Arg2:T13	
+R10	located_in Arg1:T107 Arg2:T13	
+R11	located_in Arg1:T16 Arg2:T13	
+R12	located_in Arg1:T17 Arg2:T13	
+R13	located_in Arg1:T19 Arg2:T18	
+#1	AnnotatorNotes R13	Okay?
+T108	corrected_anatomical_site 820 833	breast tissue
+R14	located_in Arg1:T33 Arg2:T108	
+T109	missed_gene 1064 1067	EFS
+T110	corrected_anatomical_site 1092 1114	urethral smooth muscle
+R15	located_in Arg1:T109 Arg2:T110	
+R16	located_in Arg1:T109 Arg2:T41	
+R17	located_in Arg1:T42 Arg2:T110	
+R18	located_in Arg1:T42 Arg2:T41	
+R19	located_in Arg1:T43 Arg2:T110	
+R20	located_in Arg1:T43 Arg2:T41	
+T111	missed_anatomical_site 1373 1389	epithelial layer
+R21	located_in Arg1:T49 Arg2:T111	
+R22	located_in Arg1:T49 Arg2:T51	
+T112	corrected_anatomical_site 1410 1430	vascular endothelium
+R23	located_in Arg1:T49 Arg2:T112	
+R24	located_in Arg1:T50 Arg2:T111	
+R25	located_in Arg1:T50 Arg2:T51	
+R26	located_in Arg1:T50 Arg2:T112	
+T113	corrected_anatomical_site 1479 1491	nasal mucosa
+#2	AnnotatorNotes T113	okay?
+T114	corrected_anatomical_site 1496 1508	nasal polyps
+#3	AnnotatorNotes T114	okay?
+R27	located_in Arg1:T49 Arg2:T113	
+#4	AnnotatorNotes R27	Okay?
+R28	located_in Arg1:T49 Arg2:T114	
+R29	located_in Arg1:T50 Arg2:T113	
+#5	AnnotatorNotes R29	Okay?
+R30	located_in Arg1:T50 Arg2:T114	
+#6	AnnotatorNotes R30	Okay?
+#7	AnnotatorNotes R28	Okay?
+R31	located_in Arg1:T56 Arg2:T57	
+R32	located_in Arg1:T56 Arg2:T58	
+R33	located_in Arg1:T56 Arg2:T59	
+R34	located_in Arg1:T56 Arg2:T60	
+T115	corrected_gene 1722 1748	bone morphogenetic protein
+R35	located_in Arg1:T61 Arg2:T62	
+R36	located_in Arg1:T115 Arg2:T62	
+R37	located_in Arg1:T63 Arg2:T62	
+T116	corrected_gene 1899 1926	calmodulin-binding proteins
+R38	located_in Arg1:T116 Arg2:T65	
+T117	missed_gene 2084 2100	ob/ob-Rb protein
+T118	corrected_anatomical_site 2119 2137	luminal epithelium
+R39	located_in Arg1:T117 Arg2:T118	
+R40	located_in Arg1:T117 Arg2:T70	
+R41	located_in Arg1:T71 Arg2:T72	
+R42	located_in Arg1:T71 Arg2:T73	
+T119	missed_gene 1995 2011	ob/ob-Rb protein
+R43	located_in Arg1:T119 Arg2:T68	
+R44	located_in Arg1:T88 Arg2:T92	
+T120	corrected_gene 2753 2777	alpha1-acid glycoprotein
+R45	located_in Arg1:T120 Arg2:T92	
+R46	located_in Arg1:T91 Arg2:T92	
+R47	located_in Arg1:T88 Arg2:T93	
+#8	AnnotatorNotes R47	Okay?
+R48	located_in Arg1:T120 Arg2:T93	
+#9	AnnotatorNotes R48	Okay?
+R49	located_in Arg1:T91 Arg2:T93	
+#10	AnnotatorNotes R49	Okay?
+R50	located_in Arg1:T88 Arg2:T94	
+#11	AnnotatorNotes R50	Okay?
+R51	located_in Arg1:T120 Arg2:T94	
+#12	AnnotatorNotes R51	Okay?
+R52	located_in Arg1:T91 Arg2:T94	
+#13	AnnotatorNotes R52	Okay?
+R53	located_in Arg1:T97 Arg2:T95	
+#14	AnnotatorNotes R53	Okay?
+R54	located_in Arg1:T97 Arg2:T96	
+#15	AnnotatorNotes R54	Okay?
+R55	located_in Arg1:T102 Arg2:T104	

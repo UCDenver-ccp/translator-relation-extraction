@@ -91,3 +91,79 @@ T90	anatomical_site 2999 3004	serum
 T91	gene 3035 3044	Claudin-7
 T92	gene 3049 3058	claudin-8
 T93	anatomical_site 3112 3130	nephron epithelium
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+R3	located_in Arg1:T6 Arg2:T5	
+R4	located_in Arg1:T8 Arg2:T9	
+R5	located_in Arg1:T7 Arg2:T9	
+#1	AnnotatorNotes R5	Okay?
+T94	corrected_gene 329 354	alpha 1-acid glycoprotein
+R6	located_in Arg1:T94 Arg2:T10	
+T95	missed_gene 356 359	AAG
+R7	located_in Arg1:T95 Arg2:T10	
+R8	located_in Arg1:T14 Arg2:T15	
+R9	located_in Arg1:T14 Arg2:T16	
+R10	located_in Arg1:T14 Arg2:T17	
+R11	located_in Arg1:T20 Arg2:T22	
+R12	located_in Arg1:T21 Arg2:T22	
+T96	corrected_gene 951 960	omentin-1
+T97	missed_anatomical_site 945 950	Serum
+R13	located_in Arg1:T96 Arg2:T97	
+R14	located_in Arg1:T33 Arg2:T35	
+R15	located_in Arg1:T34 Arg2:T35	
+R16	located_in Arg1:T33 Arg2:T36	
+R17	located_in Arg1:T34 Arg2:T36	
+R18	located_in Arg1:T37 Arg2:T38	
+#2	AnnotatorNotes R18	Okay?
+R19	located_in Arg1:T37 Arg2:T39	
+#3	AnnotatorNotes R19	Okay?
+R20	located_in Arg1:T41 Arg2:T40	
+R21	located_in Arg1:T42 Arg2:T40	
+#4	AnnotatorNotes R21	Okay?
+R22	located_in Arg1:T43 Arg2:T40	
+R23	located_in Arg1:T44 Arg2:T40	
+R24	located_in Arg1:T45 Arg2:T40	
+T98	corrected_anatomical_site 1726 1737	lung tissue
+R25	located_in Arg1:T47 Arg2:T98	
+T99	corrected_anatomical_site 1781 1792	lung tissue
+R26	located_in Arg1:T50 Arg2:T99	
+T100	missed_gene 1910 1917	chymase
+T101	missed_gene 1919 1925	TGF-β1
+R27	located_in Arg1:T100 Arg2:T56	
+R28	located_in Arg1:T101 Arg2:T56	
+R29	located_in Arg1:T53 Arg2:T56	
+R30	located_in Arg1:T54 Arg2:T56	
+R31	located_in Arg1:T55 Arg2:T56	
+T102	missed_gene 2259 2264	IL-1β
+R32	located_in Arg1:T102 Arg2:T63	
+R33	located_in Arg1:T102 Arg2:T62	
+R34	located_in Arg1:T65 Arg2:T64	
+R35	located_in Arg1:T67 Arg2:T66	
+T103	missed_anatomical_site 2554 2561	neurons
+#5	AnnotatorNotes T103	do we mark it? 
+R36	located_in Arg1:T70 Arg2:T68	
+R37	located_in Arg1:T71 Arg2:T68	
+R38	located_in Arg1:T72 Arg2:T68	
+R39	located_in Arg1:T70 Arg2:T69	
+R40	located_in Arg1:T71 Arg2:T69	
+R41	located_in Arg1:T72 Arg2:T69	
+R42	located_in Arg1:T70 Arg2:T103	
+#6	AnnotatorNotes R42	Okay?
+R43	located_in Arg1:T71 Arg2:T103	
+#7	AnnotatorNotes R43	Okay?
+R44	located_in Arg1:T72 Arg2:T103	
+#8	AnnotatorNotes R44	Okay?
+R45	located_in Arg1:T80 Arg2:T82	
+#9	AnnotatorNotes R45	Okay?
+R46	located_in Arg1:T81 Arg2:T82	
+#10	AnnotatorNotes R46	Okay?
+T104	corrected_anatomical_site 2902 2918	ligament tissues
+T105	corrected_anatomical_site 2891 2897;2911 2918	tendon tissues
+R47	located_in Arg1:T83 Arg2:T105	
+R48	located_in Arg1:T84 Arg2:T105	
+R49	located_in Arg1:T83 Arg2:T104	
+R50	located_in Arg1:T84 Arg2:T104	
+R51	located_in Arg1:T87 Arg2:T88	
+R52	located_in Arg1:T89 Arg2:T90	
+R53	located_in Arg1:T91 Arg2:T93	
+R54	located_in Arg1:T92 Arg2:T93	

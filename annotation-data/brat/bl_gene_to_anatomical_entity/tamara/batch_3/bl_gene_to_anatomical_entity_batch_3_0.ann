@@ -100,3 +100,101 @@ T99	anatomical_site 2980 2992	hypothalamus
 T100	anatomical_site 3006 3011	brain
 T101	anatomical_site 3061 3065	body
 T102	gene 3096 3100	BDNF
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+R3	located_in Arg1:T4 Arg2:T1	
+R4	located_in Arg1:T5 Arg2:T1	
+T103	corrected_anatomical_site 116 128	visceral fat
+R5	located_in Arg1:T7 Arg2:T103	
+R6	located_in Arg1:T8 Arg2:T103	
+T104	missed_gene 197 200	IL6
+R7	located_in Arg1:T104 Arg2:T103	
+R8	located_in Arg1:T9 Arg2:T103	
+R9	located_in Arg1:T11 Arg2:T10	
+R10	located_in Arg1:T12 Arg2:T10	
+R11	located_in Arg1:T14 Arg2:T13	
+T105	missed_gene 323 326	CRP
+R12	located_in Arg1:T105 Arg2:T13	
+T106	corrected_gene 332 357	alpha 1-acid glycoprotein
+T107	missed_gene 359 368	alpha 1AG
+R13	located_in Arg1:T106 Arg2:T13	
+R14	located_in Arg1:T107 Arg2:T13	
+T108	missed_gene 557 582	alpha-smooth muscle actin
+R15	located_in Arg1:T108 Arg2:T20	
+T109	missed_gene 534 555	muscle specific actin
+R16	located_in Arg1:T109 Arg2:T19	
+R17	located_in Arg1:T29 Arg2:T27	
+#1	AnnotatorNotes R17	Okay?
+R18	located_in Arg1:T31 Arg2:T30	
+R19	located_in Arg1:T33 Arg2:T32	
+T110	corrected_anatomical_site 1076 1088	distal aorta
+R20	located_in Arg1:T34 Arg2:T110	
+R21	located_in Arg1:T35 Arg2:T110	
+T111	corrected_anatomical_site 1131 1145	proximal aorta
+#2	AnnotatorNotes T111	okay?
+R22	located_in Arg1:T34 Arg2:T111	
+R23	located_in Arg1:T35 Arg2:T111	
+#3	AnnotatorNotes R23	Okay?
+#4	AnnotatorNotes R22	Okay?
+R24	located_in Arg1:T39 Arg2:T38	
+R25	located_in Arg1:T40 Arg2:T38	
+T112	missed_gene 1508 1515	OATP1B1
+T113	missed_gene 1517 1524	SLCO1B1
+T114	missed_gene 1530 1537	OATP1B3
+T115	missed_gene 1539 1546	SLCO1B3
+R26	located_in Arg1:T112 Arg2:T50	
+R27	located_in Arg1:T113 Arg2:T50	
+R28	located_in Arg1:T114 Arg2:T50	
+R29	located_in Arg1:T115 Arg2:T50	
+T116	missed_gene 1572 1579	SLC22A6
+T117	missed_gene 1588 1595	SLC22A8
+T118	missed_gene 1621 1628	SLC47A1
+T119	missed_gene 1644 1651	SLC47A2
+T120	corrected_gene 1635 1642	MATE2-K
+R30	located_in Arg1:T51 Arg2:T57	
+R31	located_in Arg1:T116 Arg2:T57	
+R32	located_in Arg1:T52 Arg2:T57	
+R33	located_in Arg1:T117 Arg2:T57	
+R34	located_in Arg1:T53 Arg2:T57	
+R35	located_in Arg1:T54 Arg2:T57	
+R36	located_in Arg1:T55 Arg2:T57	
+R37	located_in Arg1:T118 Arg2:T57	
+R38	located_in Arg1:T120 Arg2:T57	
+R39	located_in Arg1:T119 Arg2:T57	
+R40	located_in Arg1:T58 Arg2:T60	
+R41	located_in Arg1:T59 Arg2:T60	
+T121	corrected_gene 1748 1756	p38 MAPK
+T122	corrected_anatomical_site 1773 1785	liver tissue
+R42	located_in Arg1:T121 Arg2:T122	
+T123	missed_gene 1736 1741	Smadl
+T124	missed_gene 1736 1740;1742 1743	Smad 5
+R43	located_in Arg1:T123 Arg2:T122	
+R44	located_in Arg1:T124 Arg2:T122	
+T125	missed_gene 1801 1830	bone morphogenetic proteins 4
+R45	located_in Arg1:T125 Arg2:T65	
+R46	located_in Arg1:T66 Arg2:T65	
+R47	located_in Arg1:T125 Arg2:T68	
+R48	located_in Arg1:T66 Arg2:T68	
+R49	located_in Arg1:T67 Arg2:T68	
+T126	missed_gene 1801 1828;1842 1844	bone morphogenetic proteins 8b
+R50	located_in Arg1:T126 Arg2:T68	
+T127	corrected_anatomical_site 2104 2116	skin tissues
+R51	located_in Arg1:T73 Arg2:T127	
+R52	located_in Arg1:T74 Arg2:T127	
+T128	missed_gene 2123 2129	SAP102
+R53	located_in Arg1:T76 Arg2:T77	
+R54	located_in Arg1:T128 Arg2:T77	
+T129	corrected_anatomical_site 2372 2389	brain capillaries
+R55	located_in Arg1:T79 Arg2:T129	
+R56	located_in Arg1:T80 Arg2:T129	
+R57	located_in Arg1:T83 Arg2:T129	
+R58	located_in Arg1:T84 Arg2:T129	
+T130	corrected_gene 2485 2491	LI-cad
+T131	missed_anatomical_site 2459 2464	Liver
+T132	missed_anatomical_site 2465 2474	intestine
+R59	located_in Arg1:T85 Arg2:T131	
+R60	located_in Arg1:T85 Arg2:T132	
+R61	located_in Arg1:T130 Arg2:T132	
+R62	located_in Arg1:T130 Arg2:T131	
+R63	located_in Arg1:T98 Arg2:T99	
+R64	located_in Arg1:T102 Arg2:T99	

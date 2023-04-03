@@ -163,12 +163,8 @@ R27	located_in Arg1:T79 Arg2:T135
 R28	located_in Arg1:T82 Arg2:T135	
 T136	corrected_gene 2237 2241	Hal5
 R29	located_in Arg1:T136 Arg2:T135	
-T137	missed_gene 2936 2968	microtubule-associated protein 1
-R30	located_in Arg1:T105 Arg2:T106	
-R31	located_in Arg1:T137 Arg2:T106	
-R32	located_in Arg1:T108 Arg2:T107	
-R33	located_in Arg1:T109 Arg2:T107	
-T138	missed_gene 3086 3091	MAP1S
-R34	located_in Arg1:T138 Arg2:T107	
 R35	located_in Arg1:T3 Arg2:T4	
 R36	located_in Arg1:T34 Arg2:T35	
+T139	missed_gene 1148 1152	Narp
+T140	missed_cellular_component 1130 1138	secreted
+R37	located_in Arg1:T139 Arg2:T140	

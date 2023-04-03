@@ -94,3 +94,94 @@ T93	anatomical_site 2655 2662	laminae
 T94	gene 2681 2685	Cx32
 T95	gene 2690 2694	Cx36
 T96	gene 2702 2706	Cx43
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T3	
+R3	located_in Arg1:T7 Arg2:T6	
+R4	located_in Arg1:T9 Arg2:T8	
+R5	located_in Arg1:T17 Arg2:T16	
+R6	located_in Arg1:T18 Arg2:T16	
+R7	located_in Arg1:T19 Arg2:T22	
+R8	located_in Arg1:T20 Arg2:T22	
+R9	located_in Arg1:T21 Arg2:T22	
+R10	located_in Arg1:T24 Arg2:T25	
+T97	corrected_anatomical_site 747 759	brain tissue
+R11	located_in Arg1:T28 Arg2:T97	
+T98	corrected_gene 839 853	Hedgehog genes
+R12	located_in Arg1:T98 Arg2:T35	
+R13	located_in Arg1:T30 Arg2:T35	
+R14	located_in Arg1:T31 Arg2:T35	
+R15	located_in Arg1:T33 Arg2:T35	
+R16	located_in Arg1:T34 Arg2:T35	
+T99	missed_gene 904 913	Coup-TfII
+R17	located_in Arg1:T99 Arg2:T35	
+R18	located_in Arg1:T38 Arg2:T37	
+R19	located_in Arg1:T39 Arg2:T40	
+T100	missed_anatomical_site 1235 1241	plasma
+R20	located_in Arg1:T43 Arg2:T100	
+R21	located_in Arg1:T44 Arg2:T100	
+R22	located_in Arg1:T45 Arg2:T100	
+T101	missed_gene 1382 1408	bone morphogenetic protein
+R23	located_in Arg1:T101 Arg2:T46	
+R24	located_in Arg1:T47 Arg2:T46	
+T102	corrected_anatomical_site 1470 1477;1493 1508	central nervous systems
+R25	located_in Arg1:T47 Arg2:T49	
+#1	AnnotatorNotes R25	Okay?
+R26	located_in Arg1:T47 Arg2:T102	
+#2	AnnotatorNotes R26	Okay?
+R27	located_in Arg1:T47 Arg2:T50	
+#3	AnnotatorNotes R27	Okay?
+R28	located_in Arg1:T48 Arg2:T49	
+#4	AnnotatorNotes R28	Okay?
+R29	located_in Arg1:T48 Arg2:T102	
+#5	AnnotatorNotes R29	Okay?
+R30	located_in Arg1:T48 Arg2:T50	
+#6	AnnotatorNotes R30	Okay?
+T103	corrected_gene 1549 1582	vascular cell adhesion molecule-1
+R31	located_in Arg1:T103 Arg2:T52	
+T104	missed_gene 1727 1731	TGFΒ
+T105	missed_gene 1719 1724	AMACR
+T106	missed_gene 1712 1717	P504S
+T107	missed_gene 1706 1710	CAIX
+R32	located_in Arg1:T63 Arg2:T64	
+R33	located_in Arg1:T104 Arg2:T64	
+R34	located_in Arg1:T105 Arg2:T64	
+R35	located_in Arg1:T106 Arg2:T64	
+R36	located_in Arg1:T107 Arg2:T64	
+R37	located_in Arg1:T62 Arg2:T64	
+R38	located_in Arg1:T61 Arg2:T64	
+R39	located_in Arg1:T60 Arg2:T64	
+#7	AnnotatorNotes R39	Okay?
+R40	located_in Arg1:T59 Arg2:T64	
+#8	AnnotatorNotes R40	Okay?
+T108	missed_gene 1643 1647	PTEN
+R41	located_in Arg1:T108 Arg2:T64	
+#9	AnnotatorNotes R41	Okay?
+R42	located_in Arg1:T58 Arg2:T64	
+#10	AnnotatorNotes R42	Okay?
+R43	located_in Arg1:T57 Arg2:T64	
+#11	AnnotatorNotes R43	Okay?
+R44	located_in Arg1:T56 Arg2:T64	
+#12	AnnotatorNotes R44	Okay?
+R45	located_in Arg1:T55 Arg2:T64	
+#13	AnnotatorNotes R45	Okay?
+R46	located_in Arg1:T66 Arg2:T65	
+R47	located_in Arg1:T67 Arg2:T65	
+R48	located_in Arg1:T68 Arg2:T65	
+R49	located_in Arg1:T69 Arg2:T65	
+T109	corrected_anatomical_site 2046 2058	heart tissue
+R50	located_in Arg1:T71 Arg2:T109	
+R51	located_in Arg1:T70 Arg2:T109	
+T110	corrected_anatomical_site 2137 2150	lens ectoderm
+R52	located_in Arg1:T74 Arg2:T110	
+T111	corrected_gene 2316 2344	calmodulin-binding protein I
+R53	located_in Arg1:T111 Arg2:T81	
+R54	located_in Arg1:T82 Arg2:T83	
+R55	located_in Arg1:T82 Arg2:T85	
+T112	missed_anatomical_site 2623 2630	neurons
+R56	located_in Arg1:T92 Arg2:T112	
+T113	corrected_anatomical_site 2646 2662	cortical laminae
+R57	located_in Arg1:T92 Arg2:T113	
+#14	AnnotatorNotes R57	Okay?
+R58	located_in Arg1:T94 Arg2:T113	
+R59	located_in Arg1:T95 Arg2:T113	
+R60	located_in Arg1:T96 Arg2:T113	

@@ -93,3 +93,64 @@ T92	gene 2742 2754	beta-catenin
 T93	anatomical_site 2824 2835	bone marrow
 T94	anatomical_site 2845 2850	serum
 T95	gene 2851 2862	osteocalcin
+R1	located_in Arg1:T1 Arg2:T2	
+T96	missed_gene 68 75	Abeta42
+R2	located_in Arg1:T96 Arg2:T3	
+T97	corrected_gene 274 286	125I-insulin
+R3	located_in Arg1:T97 Arg2:T11	
+#1	AnnotatorNotes R3	Okay?
+R4	located_in Arg1:T12 Arg2:T14	
+#2	AnnotatorNotes R4	Okay?
+R5	located_in Arg1:T12 Arg2:T15	
+#3	AnnotatorNotes R5	Okay?
+T98	corrected_anatomical_site 702 728	penumbral region of cortex
+#4	AnnotatorNotes T98	do we mark it? 
+R6	located_in Arg1:T22 Arg2:T98	
+R7	located_in Arg1:T22 Arg2:T24	
+T99	corrected_gene 751 754;765 771	TGF -beta3
+T100	corrected_anatomical_site 812 830	ipsilateral cortex
+#5	AnnotatorNotes T100	do we mark it? 
+R8	located_in Arg1:T99 Arg2:T100	
+R9	located_in Arg1:T25 Arg2:T100	
+R10	located_in Arg1:T27 Arg2:T28	
+T101	missed_gene 1098 1126	vitamin K-dependent proteins
+T102	missed_gene 1128 1133	VKDPs
+R11	located_in Arg1:T37 Arg2:T38	
+R12	located_in Arg1:T37 Arg2:T39	
+R13	located_in Arg1:T36 Arg2:T38	
+R14	located_in Arg1:T36 Arg2:T39	
+R15	located_in Arg1:T35 Arg2:T38	
+R16	located_in Arg1:T35 Arg2:T39	
+R17	located_in Arg1:T34 Arg2:T38	
+R18	located_in Arg1:T34 Arg2:T39	
+R19	located_in Arg1:T102 Arg2:T38	
+R20	located_in Arg1:T102 Arg2:T39	
+R21	located_in Arg1:T101 Arg2:T38	
+R22	located_in Arg1:T101 Arg2:T39	
+R23	located_in Arg1:T48 Arg2:T49	
+R24	located_in Arg1:T57 Arg2:T58	
+R25	located_in Arg1:T57 Arg2:T59	
+R26	located_in Arg1:T57 Arg2:T60	
+R27	located_in Arg1:T57 Arg2:T61	
+R28	located_in Arg1:T57 Arg2:T62	
+R29	located_in Arg1:T65 Arg2:T67	
+R30	located_in Arg1:T66 Arg2:T67	
+T103	missed_gene 2139 2143;2155 2164	GDNF receptors
+T104	missed_gene 2128 2137;2155 2164	neurturin receptors
+R31	located_in Arg1:T104 Arg2:T67	
+R32	located_in Arg1:T73 Arg2:T72	
+R33	located_in Arg1:T74 Arg2:T72	
+R34	located_in Arg1:T75 Arg2:T72	
+R35	located_in Arg1:T77 Arg2:T76	
+R36	located_in Arg1:T81 Arg2:T82	
+R37	located_in Arg1:T80 Arg2:T82	
+T105	missed_gene 2500 2510	matriptase
+R38	located_in Arg1:T105 Arg2:T82	
+R39	located_in Arg1:T79 Arg2:T82	
+T106	corrected_gene 2588 2608	alpha 1(IV) collagen
+R40	located_in Arg1:T106 Arg2:T85	
+R41	located_in Arg1:T106 Arg2:T86	
+R42	located_in Arg1:T106 Arg2:T87	
+T107	corrected_anatomical_site 2710 2723	limb ectoderm
+R43	located_in Arg1:T89 Arg2:T107	
+R44	located_in Arg1:T95 Arg2:T94	

@@ -152,3 +152,18 @@ R13	located_in Arg1:T77 Arg2:T138
 R14	located_in Arg1:T76 Arg2:T138	
 R15	located_in Arg1:T136 Arg2:T138	
 R16	located_in Arg1:T135 Arg2:T138	
+R17	located_in Arg1:T88 Arg2:T87	
+R18	located_in Arg1:T113 Arg2:T112	
+R19	located_in Arg1:T113 Arg2:T114	
+T139	missed_cellular_component 3570 3577	nuclear
+R20	located_in Arg1:T118 Arg2:T139	
+R21	located_in Arg1:T119 Arg2:T139	
+R22	located_in Arg1:T120 Arg2:T139	
+R23	located_in Arg1:T121 Arg2:T123	
+R24	located_in Arg1:T126 Arg2:T132	
+T140	missed_gene 3777 3817	Na(+)/H(+) exchanger regulating factor 1
+R25	located_in Arg1:T140 Arg2:T132	
+T141	corrected_gene 3820 3878	zrin-radixin-moesin (ERM) binding phosphoprotein of 50 kDa
+R26	located_in Arg1:T141 Arg2:T132	
+T142	missed_gene 3770 3775	EBP50
+R27	located_in Arg1:T142 Arg2:T132	

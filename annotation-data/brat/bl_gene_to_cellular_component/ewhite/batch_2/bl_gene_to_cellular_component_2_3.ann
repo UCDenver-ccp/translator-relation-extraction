@@ -121,3 +121,16 @@ T120	gene 2977 2981	NOD2
 T121	gene 2986 2991	NLRC3
 T122	cellular_component 2996 3007	cytoplasmic
 T123	gene 3052 3055	Nod
+R1	located_in Arg1:T19 Arg2:T20	
+R2	located_in Arg1:T18 Arg2:T20	
+R3	located_in Arg1:T13 Arg2:T15	
+R4	located_in Arg1:T14 Arg2:T15	
+R5	located_in Arg1:T32 Arg2:T33	
+R6	located_in Arg1:T35 Arg2:T34	
+R7	located_in Arg1:T36 Arg2:T34	
+R8	located_in Arg1:T48 Arg2:T49	
+R9	located_in Arg1:T47 Arg2:T49	
+R10	located_in Arg1:T73 Arg2:T72	
+R11	located_in Arg1:T121 Arg2:T122	
+R12	located_in Arg1:T120 Arg2:T122	
+R13	located_in Arg1:T119 Arg2:T122	

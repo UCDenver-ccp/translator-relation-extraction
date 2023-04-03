@@ -142,7 +142,6 @@ R4	located_in Arg1:T137 Arg2:T7
 R5	located_in Arg1:T9 Arg2:T7	
 T138	missed_cellular_component 621 632	kinetochore
 R6	located_in Arg1:T20 Arg2:T138	
-R7	located_in Arg1:T20 Arg2:T23	
 R8	located_in Arg1:T27 Arg2:T26	
 R9	located_in Arg1:T28 Arg2:T26	
 T139	missed_gene 833 852	heat shock proteins
@@ -177,3 +176,7 @@ R31	located_in Arg1:T90 Arg2:T92
 T146	missed_gene 2163 2212	syndecan-4 cytoplasmic domain binding PDZ protein
 R32	located_in Arg1:T146 Arg2:T92	
 R33	located_in Arg1:T91 Arg2:T92	
+T147	missed_gene 3791 3861	homocysteine-inducible, endoplasmic reticulum stress-inducible protein
+T148	missed_gene 3863 3867	HERP
+R7	located_in Arg1:T147 Arg2:T135	
+R34	located_in Arg1:T148 Arg2:T135	

@@ -215,7 +215,6 @@ R74	located_in Arg1:T83 Arg2:T143
 R75	located_in Arg1:T83 Arg2:T80	
 R76	located_in Arg1:T83 Arg2:T81	
 R77	located_in Arg1:T11 Arg2:T10	
-#8	AnnotatorNotes R77	Okay?
 R78	located_in Arg1:T12 Arg2:T10	
-#9	AnnotatorNotes R78	Okay?
 T144	corrected_anatomical_site 2989 2995;3017 3022	cortex brain
+T145	DONE 3024 3028	DONE

@@ -85,3 +85,46 @@ T84	gene 2544 2555	haptoglobin
 T85	gene 2568 2572	HO-1
 T86	anatomical_site 2607 2612	brain
 T87	gene 2652 2656	HO-2
+R1	located_in Arg1:T1 Arg2:T2	
+#1	AnnotatorNotes R1	Okay?
+T88	corrected_anatomical_site 230 252	urethral smooth muscle
+T89	corrected_gene 182 190;190 203	alpha 2- adrenoceptors
+R2	located_in Arg1:T89 Arg2:T88	
+T90	corrected_gene 169 177;190 203	alpha 1- adrenoceptors
+R3	located_in Arg1:T90 Arg2:T88	
+R4	located_in Arg1:T11 Arg2:T10	
+R5	located_in Arg1:T12 Arg2:T13	
+R6	located_in Arg1:T22 Arg2:T21	
+R7	located_in Arg1:T23 Arg2:T21	
+R8	located_in Arg1:T24 Arg2:T21	
+R9	located_in Arg1:T29 Arg2:T31	
+R10	located_in Arg1:T29 Arg2:T32	
+R11	located_in Arg1:T29 Arg2:T33	
+R12	located_in Arg1:T29 Arg2:T34	
+R13	located_in Arg1:T30 Arg2:T31	
+R14	located_in Arg1:T30 Arg2:T32	
+R15	located_in Arg1:T30 Arg2:T33	
+R16	located_in Arg1:T30 Arg2:T34	
+R17	located_in Arg1:T35 Arg2:T37	
+R18	located_in Arg1:T36 Arg2:T37	
+R19	located_in Arg1:T39 Arg2:T40	
+R20	located_in Arg1:T44 Arg2:T43	
+R21	located_in Arg1:T42 Arg2:T43	
+R22	located_in Arg1:T42 Arg2:T45	
+R23	located_in Arg1:T47 Arg2:T46	
+#2	AnnotatorNotes R22	Okay?
+#3	AnnotatorNotes R21	Okay?
+R24	located_in Arg1:T48 Arg2:T46	
+R25	located_in Arg1:T52 Arg2:T51	
+R26	located_in Arg1:T56 Arg2:T57	
+R27	located_in Arg1:T56 Arg2:T58	
+R28	located_in Arg1:T66 Arg2:T65	
+R29	located_in Arg1:T67 Arg2:T65	
+R30	located_in Arg1:T68 Arg2:T65	
+R31	located_in Arg1:T69 Arg2:T65	
+R32	located_in Arg1:T77 Arg2:T76	
+R33	located_in Arg1:T78 Arg2:T76	
+R34	located_in Arg1:T79 Arg2:T76	
+R35	located_in Arg1:T82 Arg2:T81	
+R36	located_in Arg1:T84 Arg2:T83	
+R37	located_in Arg1:T85 Arg2:T86	

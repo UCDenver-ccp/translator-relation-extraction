@@ -98,3 +98,44 @@ T97	gene 2956 2965	periostin
 T98	gene 2982 2985	NGF
 T99	anatomical_site 2990 2995	heart
 T100	anatomical_site 3016 3021	heart
+R1	located_in Arg1:T4 Arg2:T5	
+R2	located_in Arg1:T3 Arg2:T5	
+R3	located_in Arg1:T2 Arg2:T5	
+R4	located_in Arg1:T1 Arg2:T5	
+T101	corrected_anatomical_site 228 239	lung tissue
+R5	located_in Arg1:T6 Arg2:T101	
+R6	located_in Arg1:T20 Arg2:T19	
+R7	located_in Arg1:T21 Arg2:T19	
+T102	missed_gene 675 714	brain-specific angiogenesis inhibitor 1
+R8	located_in Arg1:T22 Arg2:T23	
+R9	located_in Arg1:T102 Arg2:T23	
+T103	missed_gene 937 944	glucose
+R10	located_in Arg1:T31 Arg2:T30	
+R11	located_in Arg1:T103 Arg2:T30	
+R12	located_in Arg1:T39 Arg2:T40	
+R13	located_in Arg1:T48 Arg2:T49	
+T104	missed_gene 1545 1549	CCl4
+R14	located_in Arg1:T104 Arg2:T51	
+T105	missed_gene 1574 1579	T-bet
+T106	corrected_anatomical_site 1600 1611	lung tissue
+R15	located_in Arg1:T105 Arg2:T106	
+T107	missed_gene 1643 1658	CD4⁺ CD25⁺ Treg
+T108	corrected_gene 1660 1682	CD4⁺ CD25⁺ Foxp3⁺ Treg
+R16	located_in Arg1:T107 Arg2:T106	
+#1	AnnotatorNotes R16	Okay?
+R17	located_in Arg1:T108 Arg2:T106	
+#2	AnnotatorNotes R17	Okay?
+R18	located_in Arg1:T66 Arg2:T67	
+R19	located_in Arg1:T65 Arg2:T67	
+R20	located_in Arg1:T64 Arg2:T67	
+R21	located_in Arg1:T70 Arg2:T69	
+R22	located_in Arg1:T81 Arg2:T80	
+R23	located_in Arg1:T88 Arg2:T87	
+R24	located_in Arg1:T89 Arg2:T87	
+R25	located_in Arg1:T90 Arg2:T87	
+R26	located_in Arg1:T91 Arg2:T87	
+R27	located_in Arg1:T92 Arg2:T87	
+R28	located_in Arg1:T93 Arg2:T96	
+R29	located_in Arg1:T94 Arg2:T96	
+R30	located_in Arg1:T95 Arg2:T96	
+R31	located_in Arg1:T98 Arg2:T99	

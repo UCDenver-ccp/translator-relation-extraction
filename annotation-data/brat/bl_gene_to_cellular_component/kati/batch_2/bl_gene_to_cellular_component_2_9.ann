@@ -126,8 +126,6 @@ T125	cellular_component 3256 3267	microtubule
 T126	gene 3287 3294	tubulin
 T127	gene 3359 3366	tubulin
 T128	gene 3427 3431	Op18
-T129	missed_cellular_component 96 99	ECM
-T130	missed_gene 165 172	S100A11
 R4	located_in Arg1:T17 Arg2:T16	
 T131	corrected_gene 462 477	nucleophosmin 1
 R5	located_in Arg1:T131 Arg2:T16	

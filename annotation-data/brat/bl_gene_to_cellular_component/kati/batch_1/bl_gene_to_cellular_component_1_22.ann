@@ -136,3 +136,6 @@ R20	located_in Arg1:T115 Arg2:T105
 R21	located_in Arg1:T115 Arg2:T107	
 R22	located_in Arg1:T69 Arg2:T70	
 R23	located_in Arg1:T115 Arg2:T106	
+T116	missed_gene 2580 2585	actin
+T117	corrected_cellular_component 2586 2598	cytoskeleton
+R24	located_in Arg1:T116 Arg2:T117	

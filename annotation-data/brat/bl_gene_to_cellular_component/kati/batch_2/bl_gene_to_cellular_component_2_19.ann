@@ -145,7 +145,6 @@ R10	located_in Arg1:T22 Arg2:T23
 R11	located_in Arg1:T27 Arg2:T29	
 R12	located_in Arg1:T28 Arg2:T29	
 T135	corrected_gene 1060 1069	?-tubulin
-R13	located_in Arg1:T135 Arg2:T42	
 R14	located_in Arg1:T48 Arg2:T47	
 R15	located_in Arg1:T49 Arg2:T47	
 R16	located_in Arg1:T50 Arg2:T47	
@@ -185,4 +184,5 @@ R36	located_in Arg1:T87 Arg2:T149
 R37	located_in Arg1:T147 Arg2:T149	
 R38	located_in Arg1:T100 Arg2:T102	
 R39	located_in Arg1:T101 Arg2:T102	
-R40	located_in Arg1:T120 Arg2:T119	
+T148	corrected_cellular_component 1089 1107	mitotic centrosome
+R13	located_in Arg1:T135 Arg2:T148	

@@ -81,3 +81,63 @@ T80	gene 2253 2256	Akt
 T81	gene 2266 2269	Bax
 T82	gene 2304 2307	Hop
 T83	anatomical_site 2331 2356	cardiac conduction system
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+R3	located_in Arg1:T4 Arg2:T1	
+T84	corrected_anatomical_site 68 84	placental tissue
+#1	AnnotatorNotes T84	okay?
+R4	located_in Arg1:T2 Arg2:T84	
+R5	located_in Arg1:T3 Arg2:T84	
+R6	located_in Arg1:T4 Arg2:T84	
+R7	located_in Arg1:T6 Arg2:T8	
+R8	located_in Arg1:T7 Arg2:T8	
+R9	located_in Arg1:T14 Arg2:T13	
+R10	located_in Arg1:T28 Arg2:T29	
+R11	located_in Arg1:T28 Arg2:T30	
+T85	missed_gene 970 975	IL1F7
+T86	missed_gene 999 1004	MMP10
+T87	missed_anatomical_site 1030 1036	saliva
+#2	AnnotatorNotes T87	do we mark it? 
+T88	missed_anatomical_site 1048 1053	semen
+#3	AnnotatorNotes T88	do we mark it? 
+R12	located_in Arg1:T36 Arg2:T88	
+R13	located_in Arg1:T35 Arg2:T87	
+R14	located_in Arg1:T86 Arg2:T34	
+R15	located_in Arg1:T32 Arg2:T33	
+R16	located_in Arg1:T85 Arg2:T31	
+T89	missed_anatomical_site 949 956	vaginal
+#4	AnnotatorNotes T89	do we mark it? 
+T90	missed_gene 943 947	IL19
+R17	located_in Arg1:T90 Arg2:T89	
+R18	located_in Arg1:T37 Arg2:T38	
+R19	located_in Arg1:T37 Arg2:T39	
+T91	missed_anatomical_site 1175 1193	anterior pituitary
+R20	located_in Arg1:T40 Arg2:T91	
+R21	located_in Arg1:T40 Arg2:T41	
+R22	located_in Arg1:T48 Arg2:T50	
+R23	located_in Arg1:T49 Arg2:T50	
+T92	corrected_anatomical_site 1587 1601	thyroid tissue
+R24	located_in Arg1:T53 Arg2:T92	
+R25	located_in Arg1:T54 Arg2:T92	
+T93	missed_gene 1628 1631	GOT
+T94	missed_gene 1637 1640	GPT
+R26	located_in Arg1:T58 Arg2:T57	
+R27	located_in Arg1:T93 Arg2:T57	
+R28	located_in Arg1:T94 Arg2:T57	
+R29	located_in Arg1:T60 Arg2:T59	
+T95	corrected_anatomical_site 1813 1840	periodontal ligament tissue
+R30	located_in Arg1:T61 Arg2:T95	
+R31	located_in Arg1:T62 Arg2:T95	
+R32	located_in Arg1:T63 Arg2:T95	
+T96	missed_gene 1842 1845	MSP
+R33	located_in Arg1:T96 Arg2:T66	
+T97	missed_gene 1996 2007	adiponectin
+R34	located_in Arg1:T68 Arg2:T69	
+R35	located_in Arg1:T97 Arg2:T69	
+R36	located_in Arg1:T72 Arg2:T71	
+R37	located_in Arg1:T73 Arg2:T71	
+R38	located_in Arg1:T75 Arg2:T74	
+R39	located_in Arg1:T77 Arg2:T76	
+T98	corrected_gene 2161 2164;2171 2173	UCP -3
+R40	located_in Arg1:T98 Arg2:T76	
+R41	located_in Arg1:T82 Arg2:T83	

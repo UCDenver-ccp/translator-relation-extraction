@@ -71,11 +71,11 @@ T70	gene 1883 1888	Smad1
 T71	cellular_component 1932 1942	antibodies
 T72	gene 1951 1956	CREB1
 T73	gene 1968 1972	Fra2
-T74	cellular_component 2024 2032;2044 2052	lysosome membrane
+T74	corrected_cellular_component 2024 2032;2044 2052	lysosome membrane
 T75	cellular_component 2044 2052	membrane
 T76	gene 2063 2069	LAMP-1
 T77	gene 2074 2080	LAMP-2
-T78	cellular_component 2101 2109;2126 2135	membrane lysosomes
+T78	corrected_cellular_component 2101 2109;2126 2135	membrane lysosomes
 T79	cellular_component 2126 2135	lysosomes
 T80	gene 2152 2157	PAI-1
 T81	gene 2159 2163	PN-1
@@ -146,10 +146,6 @@ R19	located_in Arg1:T64 Arg2:T59
 T127	corrected_gene 1820 1840	LDLR-related protein
 R20	located_in Arg1:T127 Arg2:T59	
 R21	located_in Arg1:T58 Arg2:T59	
-R22	located_in Arg1:T76 Arg2:T74	
-R23	located_in Arg1:T77 Arg2:T74	
-R24	located_in Arg1:T76 Arg2:T78	
-R25	located_in Arg1:T77 Arg2:T78	
 T128	missed_cellular_component 2297 2304	nuclear
 R26	located_in Arg1:T88 Arg2:T128	
 T129	corrected_gene 2576 2605	Nuclear cap-binding protein 1
@@ -160,3 +156,9 @@ R29	located_in Arg1:T104 Arg2:T106
 T131	corrected_gene 2864 2889	integrin-binding proteins
 R30	located_in Arg1:T131 Arg2:T107	
 R31	located_in Arg1:T119 Arg2:T120	
+T132	cellular_component 2024 2032	lysosome
+T133	cellular_component 2101 2109	membrane
+R22	located_in Arg1:T76 Arg2:T74	
+R23	located_in Arg1:T77 Arg2:T74	
+R24	located_in Arg1:T76 Arg2:T78	
+R25	located_in Arg1:T77 Arg2:T78	

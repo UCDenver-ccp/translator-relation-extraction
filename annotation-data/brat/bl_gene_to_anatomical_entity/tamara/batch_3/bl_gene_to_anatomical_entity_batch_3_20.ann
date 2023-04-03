@@ -95,3 +95,90 @@ T94	anatomical_site 2814 2820	testis
 T95	gene 2887 2891	IL-6
 T96	gene 2896 2905	TNF-alpha
 T97	anatomical_site 2917 2923	muscle
+R1	located_in Arg1:T1 Arg2:T7	
+R2	located_in Arg1:T2 Arg2:T7	
+R3	located_in Arg1:T3 Arg2:T7	
+R4	located_in Arg1:T4 Arg2:T7	
+R5	located_in Arg1:T5 Arg2:T7	
+T98	missed_gene 140 153	tissue factor
+R6	located_in Arg1:T98 Arg2:T6	
+R7	located_in Arg1:T98 Arg2:T7	
+R8	located_in Arg1:T12 Arg2:T9	
+R9	located_in Arg1:T12 Arg2:T10	
+R10	located_in Arg1:T12 Arg2:T11	
+R11	located_in Arg1:T12 Arg2:T13	
+R12	located_in Arg1:T15 Arg2:T14	
+R13	located_in Arg1:T17 Arg2:T18	
+R14	located_in Arg1:T17 Arg2:T19	
+T99	corrected_anatomical_site 644 657	lung vascular
+R15	located_in Arg1:T22 Arg2:T99	
+R16	located_in Arg1:T23 Arg2:T99	
+R17	located_in Arg1:T24 Arg2:T99	
+R18	located_in Arg1:T27 Arg2:T28	
+R19	located_in Arg1:T26 Arg2:T28	
+R20	located_in Arg1:T25 Arg2:T28	
+T100	missed_anatomical_site 749 761	epithelially
+#1	AnnotatorNotes T100	okay?
+R21	located_in Arg1:T25 Arg2:T100	
+#2	AnnotatorNotes R21	Okay?
+T101	corrected_anatomical_site 1078 1091	breast muscle
+R22	located_in Arg1:T33 Arg2:T101	
+T102	corrected_anatomical_site 1140 1153	abdominal fat
+R23	located_in Arg1:T36 Arg2:T102	
+R24	located_in Arg1:T38 Arg2:T41	
+R25	located_in Arg1:T39 Arg2:T41	
+R26	located_in Arg1:T40 Arg2:T41	
+T103	corrected_anatomical_site 1324 1336	brain tissue
+R27	located_in Arg1:T40 Arg2:T103	
+R28	located_in Arg1:T39 Arg2:T103	
+R29	located_in Arg1:T38 Arg2:T103	
+T104	missed_anatomical_site 1462 1474	microvessels
+R30	located_in Arg1:T38 Arg2:T104	
+R31	located_in Arg1:T39 Arg2:T104	
+R32	located_in Arg1:T40 Arg2:T104	
+R33	located_in Arg1:T49 Arg2:T44	
+R34	located_in Arg1:T49 Arg2:T45	
+R35	located_in Arg1:T49 Arg2:T46	
+R36	located_in Arg1:T49 Arg2:T47	
+R37	located_in Arg1:T49 Arg2:T48	
+R38	located_in Arg1:T54 Arg2:T58	
+R39	located_in Arg1:T55 Arg2:T58	
+T105	corrected_anatomical_site 1757 1778	renal collecting duct
+R40	located_in Arg1:T56 Arg2:T105	
+R41	located_in Arg1:T54 Arg2:T105	
+#3	AnnotatorNotes R41	Okay?
+R42	located_in Arg1:T55 Arg2:T105	
+#4	AnnotatorNotes R42	Okay?
+R43	located_in Arg1:T62 Arg2:T63	
+R44	located_in Arg1:T61 Arg2:T63	
+R45	located_in Arg1:T60 Arg2:T63	
+T106	missed_gene 1990 1996	CX3CR1
+R46	located_in Arg1:T65 Arg2:T68	
+R47	located_in Arg1:T66 Arg2:T68	
+R48	located_in Arg1:T67 Arg2:T68	
+R49	located_in Arg1:T106 Arg2:T68	
+R50	located_in Arg1:T106 Arg2:T69	
+R51	located_in Arg1:T67 Arg2:T69	
+R52	located_in Arg1:T66 Arg2:T69	
+R53	located_in Arg1:T65 Arg2:T69	
+T107	missed_anatomical_site 2086 2091	Brain
+R54	located_in Arg1:T70 Arg2:T107	
+R55	located_in Arg1:T71 Arg2:T107	
+T108	missed_anatomical_site 2245 2251	plasma
+R56	located_in Arg1:T77 Arg2:T108	
+R57	located_in Arg1:T78 Arg2:T79	
+R58	located_in Arg1:T80 Arg2:T81	
+R59	located_in Arg1:T82 Arg2:T83	
+T109	missed_anatomical_site 2484 2489	brain
+R60	located_in Arg1:T84 Arg2:T109	
+R61	located_in Arg1:T84 Arg2:T85	
+R62	located_in Arg1:T84 Arg2:T86	
+R63	located_in Arg1:T84 Arg2:T87	
+R64	located_in Arg1:T88 Arg2:T90	
+R65	located_in Arg1:T89 Arg2:T90	
+T110	missed_anatomical_site 2735 2742	tissues
+R66	located_in Arg1:T91 Arg2:T110	
+R67	located_in Arg1:T92 Arg2:T93	
+R68	located_in Arg1:T92 Arg2:T94	
+R69	located_in Arg1:T95 Arg2:T97	
+R70	located_in Arg1:T96 Arg2:T97	

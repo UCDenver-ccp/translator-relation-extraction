@@ -102,15 +102,8 @@ T101	gene 2888 2892	SCP3
 T102	gene 2921 2925	MLH1
 T103	corrected_gene 71 104	21-kDa calmodulin-binding protein
 R1	located_in Arg1:T103 Arg2:T1	
-T104	corrected_gene 216 221	EGF-R
 T105	missed_gene 255 258	Sos
 T106	missed_gene 261 264	Ras
-R2	located_in Arg1:T104 Arg2:T12	
-R3	located_in Arg1:T6 Arg2:T12	
-R4	located_in Arg1:T7 Arg2:T12	
-R5	located_in Arg1:T105 Arg2:T12	
-R6	located_in Arg1:T106 Arg2:T12	
-R7	located_in Arg1:T8 Arg2:T12	
 R8	located_in Arg1:T10 Arg2:T12	
 R9	located_in Arg1:T11 Arg2:T12	
 R10	located_in Arg1:T16 Arg2:T15	
@@ -175,9 +168,9 @@ T123	missed_gene 2729 2760	synaptonemal complex proteins 3
 R52	located_in Arg1:T123 Arg2:T122	
 T124	missed_cellular_component 2861 2873	synaptonemal
 R53	located_in Arg1:T101 Arg2:T124	
-R54	located_in Arg1:T96 Arg2:T97	
-R55	located_in Arg1:T96 Arg2:T98	
 T125	missed_cellular_component 2931 2941	centromere
 T126	missed_gene 2948 2953	CREST
 R56	located_in Arg1:T126 Arg2:T125	
 R57	located_in Arg1:T9 Arg2:T12	
+T104	corrected_cellular_component 2807 2828	chromosome centromere
+R2	located_in Arg1:T96 Arg2:T104	

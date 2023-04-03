@@ -119,8 +119,6 @@ T118	missed_gene 104 137	neuronal specific nuclear protein
 T119	missed_cellular_component 122 129	nuclear
 R1	located_in Arg1:T118 Arg2:T119	
 R2	located_in Arg1:T4 Arg2:T3	
-T120	missed_cellular_component 220 241	intermediate filament
-R3	located_in Arg1:T5 Arg2:T120	
 R4	located_in Arg1:T13 Arg2:T12	
 T121	corrected_gene 963 971	Aurora A
 T122	missed_cellular_component 946 953	spindle

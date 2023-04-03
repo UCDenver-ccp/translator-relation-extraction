@@ -93,3 +93,77 @@ T92	gene 2609 2620	adiponectin
 T93	anatomical_site 2643 2647	bone
 T94	gene 2671 2674	BMP
 T95	anatomical_site 2749 2753	bone
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T3	
+T96	missed_anatomical_site 223 229	plasma
+R3	located_in Arg1:T8 Arg2:T96	
+R4	located_in Arg1:T9 Arg2:T10	
+T97	missed_anatomical_site 327 331	LIMA
+R5	located_in Arg1:T9 Arg2:T97	
+R6	located_in Arg1:T13 Arg2:T12	
+R7	located_in Arg1:T13 Arg2:T11	
+T98	missed_gene 562 567	TWEAK
+R8	located_in Arg1:T98 Arg2:T20	
+T99	missed_gene 486 491	TWEAK
+R9	located_in Arg1:T99 Arg2:T16	
+R10	located_in Arg1:T17 Arg2:T16	
+R11	located_in Arg1:T18 Arg2:T16	
+R12	located_in Arg1:T19 Arg2:T16	
+T100	missed_gene 629 641	Tau proteins
+R13	located_in Arg1:T100 Arg2:T21	
+R14	located_in Arg1:T22 Arg2:T23	
+T101	corrected_gene 758 779	alpha 1-microglobulin
+T102	missed_gene 806 829	retinol binding protein
+R15	located_in Arg1:T102 Arg2:T26	
+R16	located_in Arg1:T25 Arg2:T26	
+R17	located_in Arg1:T101 Arg2:T26	
+R18	located_in Arg1:T27 Arg2:T31	
+R19	located_in Arg1:T28 Arg2:T31	
+R20	located_in Arg1:T29 Arg2:T31	
+R21	located_in Arg1:T30 Arg2:T31	
+T103	corrected_anatomical_site 1042 1061	mid-temporal cortex
+R22	located_in Arg1:T34 Arg2:T103	
+R23	located_in Arg1:T33 Arg2:T103	
+T104	corrected_anatomical_site 1083 1106	superior frontal cortex
+R24	located_in Arg1:T36 Arg2:T104	
+T105	missed_gene 1378 1382	MAPT
+T106	missed_gene 1384 1388	TERT
+R25	located_in Arg1:T45 Arg2:T48	
+R26	located_in Arg1:T46 Arg2:T48	
+R27	located_in Arg1:T47 Arg2:T48	
+R28	located_in Arg1:T105 Arg2:T48	
+R29	located_in Arg1:T106 Arg2:T48	
+R30	located_in Arg1:T106 Arg2:T49	
+R31	located_in Arg1:T105 Arg2:T49	
+R32	located_in Arg1:T47 Arg2:T49	
+R33	located_in Arg1:T46 Arg2:T49	
+R34	located_in Arg1:T45 Arg2:T49	
+T107	corrected_gene 1434 1445	rHMGB1-Abox
+R35	located_in Arg1:T107 Arg2:T51	
+#1	AnnotatorNotes R35	Okay?
+T108	corrected_gene 1645 1652	LSD1+8a
+R36	located_in Arg1:T108 Arg2:T61	
+R37	located_in Arg1:T58 Arg2:T61	
+R38	located_in Arg1:T59 Arg2:T61	
+R39	located_in Arg1:T64 Arg2:T63	
+R40	located_in Arg1:T65 Arg2:T63	
+R41	located_in Arg1:T65 Arg2:T66	
+R42	located_in Arg1:T64 Arg2:T66	
+T109	missed_anatomical_site 1771 1774	AER
+R43	located_in Arg1:T62 Arg2:T109	
+R44	located_in Arg1:T64 Arg2:T109	
+R45	located_in Arg1:T65 Arg2:T109	
+R46	located_in Arg1:T73 Arg2:T75	
+R47	located_in Arg1:T74 Arg2:T75	
+R48	located_in Arg1:T77 Arg2:T76	
+R49	located_in Arg1:T78 Arg2:T76	
+R50	located_in Arg1:T81 Arg2:T80	
+R51	located_in Arg1:T82 Arg2:T80	
+R52	located_in Arg1:T83 Arg2:T80	
+R53	located_in Arg1:T84 Arg2:T80	
+R54	located_in Arg1:T89 Arg2:T88	
+R55	located_in Arg1:T90 Arg2:T88	
+R56	located_in Arg1:T92 Arg2:T91	
+T110	missed_gene 2643 2669	bone morphogenetic protein
+R57	located_in Arg1:T110 Arg2:T93	
+R58	located_in Arg1:T94 Arg2:T93	

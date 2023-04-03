@@ -111,3 +111,100 @@ T110	anatomical_site 3544 3549	serum
 T111	gene 3550 3564	Erythropoietin
 T112	anatomical_site 3576 3581	serum
 T113	gene 3582 3593	Transferrin
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T3	
+R3	located_in Arg1:T7 Arg2:T9	
+R4	located_in Arg1:T8 Arg2:T9	
+R5	located_in Arg1:T7 Arg2:T10	
+R6	located_in Arg1:T7 Arg2:T11	
+R7	located_in Arg1:T7 Arg2:T12	
+R8	located_in Arg1:T8 Arg2:T10	
+R9	located_in Arg1:T8 Arg2:T11	
+R10	located_in Arg1:T8 Arg2:T12	
+T114	missed_gene 422 428	Bcl-xl
+R11	located_in Arg1:T13 Arg2:T15	
+R12	located_in Arg1:T13 Arg2:T16	
+R13	located_in Arg1:T14 Arg2:T15	
+R14	located_in Arg1:T14 Arg2:T16	
+R15	located_in Arg1:T114 Arg2:T15	
+R16	located_in Arg1:T114 Arg2:T16	
+R17	located_in Arg1:T19 Arg2:T18	
+R18	located_in Arg1:T20 Arg2:T18	
+R19	located_in Arg1:T21 Arg2:T18	
+R20	located_in Arg1:T27 Arg2:T31	
+T115	missed_gene 834 838	PI3K
+R21	located_in Arg1:T115 Arg2:T31	
+R22	located_in Arg1:T28 Arg2:T31	
+R23	located_in Arg1:T29 Arg2:T31	
+T116	missed_gene 874 878	PI3K
+R24	located_in Arg1:T116 Arg2:T31	
+R25	located_in Arg1:T30 Arg2:T31	
+T117	missed_gene 1022 1026	PI3K
+R26	located_in Arg1:T32 Arg2:T31	
+R27	located_in Arg1:T117 Arg2:T31	
+R28	located_in Arg1:T33 Arg2:T31	
+T118	corrected_gene 1082 1112	beta-amyloid precursor protein
+T119	corrected_anatomical_site 1128 1147	dorsal root ganglia
+R29	located_in Arg1:T118 Arg2:T119	
+R30	located_in Arg1:T36 Arg2:T119	
+R31	located_in Arg1:T39 Arg2:T38	
+R32	located_in Arg1:T40 Arg2:T38	
+T120	missed_gene 1499 1504	CPT I
+T121	missed_gene 1499 1502;1509 1511	CPT II
+R33	located_in Arg1:T120 Arg2:T46	
+R34	located_in Arg1:T121 Arg2:T46	
+R35	located_in Arg1:T50 Arg2:T52	
+R36	located_in Arg1:T49 Arg2:T52	
+R37	located_in Arg1:T48 Arg2:T52	
+R38	located_in Arg1:T54 Arg2:T57	
+R39	located_in Arg1:T54 Arg2:T58	
+T122	missed_anatomical_site 1836 1843	myeloid
+R40	located_in Arg1:T55 Arg2:T122	
+R41	located_in Arg1:T56 Arg2:T122	
+R44	located_in Arg1:T60 Arg2:T61	
+R45	located_in Arg1:T60 Arg2:T62	
+T123	missed_gene 1992 2000	TFG-beta
+R46	located_in Arg1:T123 Arg2:T61	
+R47	located_in Arg1:T123 Arg2:T62	
+T124	missed_gene 2488 2492	CASK
+R42	located_in Arg1:T74 Arg2:T73	
+R43	located_in Arg1:T124 Arg2:T73	
+R48	located_in Arg1:T75 Arg2:T73	
+R49	located_in Arg1:T76 Arg2:T73	
+T125	corrected_gene 2546 2550	Kir2
+R50	located_in Arg1:T125 Arg2:T73	
+T126	corrected_gene 2561 2566	EGF-R
+R51	located_in Arg1:T126 Arg2:T80	
+R52	located_in Arg1:T79 Arg2:T80	
+R53	located_in Arg1:T82 Arg2:T81	
+R54	located_in Arg1:T83 Arg2:T81	
+R55	located_in Arg1:T84 Arg2:T81	
+R56	located_in Arg1:T85 Arg2:T81	
+T127	missed_gene 2809 2812	CRP
+R57	located_in Arg1:T127 Arg2:T86	
+T128	corrected_gene 2825 2845	Surfactant protein B
+R58	located_in Arg1:T88 Arg2:T89	
+R59	located_in Arg1:T128 Arg2:T89	
+R60	located_in Arg1:T88 Arg2:T90	
+R61	located_in Arg1:T128 Arg2:T90	
+R62	located_in Arg1:T93 Arg2:T94	
+R63	located_in Arg1:T93 Arg2:T95	
+R64	located_in Arg1:T97 Arg2:T96	
+T129	missed_anatomical_site 3137 3142	brain
+R65	located_in Arg1:T98 Arg2:T129	
+R66	located_in Arg1:T99 Arg2:T129	
+T130	missed_gene 3196 3199	SST
+R67	located_in Arg1:T130 Arg2:T101	
+R68	located_in Arg1:T100 Arg2:T101	
+R69	located_in Arg1:T99 Arg2:T101	
+R70	located_in Arg1:T98 Arg2:T101	
+T131	missed_gene 3286 3289	SST
+R71	located_in Arg1:T102 Arg2:T103	
+R72	located_in Arg1:T131 Arg2:T103	
+R73	located_in Arg1:T111 Arg2:T110	
+T132	missed_gene 3566 3570	sEpo
+R74	located_in Arg1:T132 Arg2:T110	
+T133	corrected_gene 3582 3602	Transferrin Receptor
+T134	missed_gene 3604 3608	sTfR
+R75	located_in Arg1:T133 Arg2:T112	
+R76	located_in Arg1:T134 Arg2:T112	

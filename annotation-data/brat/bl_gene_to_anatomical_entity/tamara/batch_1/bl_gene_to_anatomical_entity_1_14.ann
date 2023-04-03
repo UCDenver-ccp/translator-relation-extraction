@@ -152,15 +152,6 @@ R35	located_in Arg1:T34 Arg2:T37
 R36	located_in Arg1:T35 Arg2:T37	
 T117	missed_gene 876 885	IFN-alpha
 R37	located_in Arg1:T117 Arg2:T38	
-T118	missed_gene 19 31	pAKT protein
-#10	AnnotatorNotes T118	do we mark it? 
-R38	located_in Arg1:T1 Arg2:T4	
-#11	AnnotatorNotes R38	Okay?
-R39	located_in Arg1:T2 Arg2:T4	
-#12	AnnotatorNotes R39	Okay?
-R40	located_in Arg1:T3 Arg2:T4	
-#13	AnnotatorNotes R40	Okay?
-R41	located_in Arg1:T118 Arg2:T4	
-#14	AnnotatorNotes R41	Okay?
 R42	located_in Arg1:T86 Arg2:T88	
 R43	located_in Arg1:T87 Arg2:T88	
+T118	DONE 2910 2914	DONE

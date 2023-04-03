@@ -188,11 +188,8 @@ R55	located_in Arg1:T132 Arg2:T13
 R56	located_in Arg1:T12 Arg2:T13	
 T133	corrected_anatomical_site 2838 2848;2872 2889	epithelium of the tooth germ
 R57	located_in Arg1:T114 Arg2:T115	
-#12	AnnotatorNotes R57	Okay?
 R58	located_in Arg1:T114 Arg2:T116	
-#13	AnnotatorNotes R58	Okay?
 R59	located_in Arg1:T114 Arg2:T117	
-#14	AnnotatorNotes R59	Okay?
 T134	corrected_gene 1125 1149	histone octamer proteins
 R60	located_in Arg1:T134 Arg2:T46	
 T135	corrected_gene 1212 1236	histone octamer proteins
@@ -211,3 +208,4 @@ R72	located_in Arg1:T75 Arg2:T81
 R73	located_in Arg1:T75 Arg2:T82	
 R74	located_in Arg1:T75 Arg2:T83	
 R75	located_in Arg1:T89 Arg2:T88	
+T136	DONE 3141 3145	DONE

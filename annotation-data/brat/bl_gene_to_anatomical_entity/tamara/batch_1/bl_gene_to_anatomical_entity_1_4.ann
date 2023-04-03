@@ -177,8 +177,6 @@ R41	located_in Arg1:T100 Arg2:T137
 R42	located_in Arg1:T100 Arg2:T138	
 R43	located_in Arg1:T102 Arg2:T101	
 R45	located_in Arg1:T120 Arg2:T122	
-#1	AnnotatorNotes R42	Okay?
-#2	AnnotatorNotes R41	Okay?
 R44	located_in Arg1:T1 Arg2:T2	
 R46	located_in Arg1:T27 Arg2:T26	
 R47	located_in Arg1:T28 Arg2:T26	
@@ -187,3 +185,4 @@ T140	corrected_anatomical_site 383 410	myelin of peripheral nerves
 R4	located_in Arg1:T12 Arg2:T140	
 R5	located_in Arg1:T20 Arg2:T19	
 R10	located_in Arg1:T21 Arg2:T19	
+T141	DONE 3341 3345	DONE

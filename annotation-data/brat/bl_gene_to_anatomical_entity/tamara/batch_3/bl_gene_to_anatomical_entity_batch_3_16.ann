@@ -114,3 +114,95 @@ T113	gene 3628 3635	Chordin
 T114	anatomical_site 3700 3717	embryonic tissues
 T115	gene 3745 3753	TGF-beta
 T116	anatomical_site 3759 3763	bone
+R1	located_in Arg1:T12 Arg2:T11	
+T117	missed_gene 674 679	MMP-9
+T118	corrected_gene 681 686;690 691	TIMP- 2
+R2	located_in Arg1:T117 Arg2:T24	
+R3	located_in Arg1:T118 Arg2:T24	
+R4	located_in Arg1:T25 Arg2:T24	
+T119	missed_gene 725 730	RANKL
+T120	missed_gene 735 738	OPG
+R5	located_in Arg1:T119 Arg2:T26	
+R6	located_in Arg1:T120 Arg2:T26	
+T121	missed_anatomical_site 757 760	GCF
+#1	AnnotatorNotes T121	do we mark it? 
+R7	located_in Arg1:T15 Arg2:T121	
+R8	located_in Arg1:T16 Arg2:T121	
+R9	located_in Arg1:T17 Arg2:T121	
+R10	located_in Arg1:T18 Arg2:T121	
+R11	located_in Arg1:T19 Arg2:T121	
+R12	located_in Arg1:T20 Arg2:T121	
+R13	located_in Arg1:T21 Arg2:T121	
+R14	located_in Arg1:T22 Arg2:T121	
+R15	located_in Arg1:T23 Arg2:T121	
+T122	missed_gene 644 652	TNFalpha
+R16	located_in Arg1:T122 Arg2:T121	
+R17	located_in Arg1:T117 Arg2:T121	
+R18	located_in Arg1:T25 Arg2:T121	
+R20	located_in Arg1:T119 Arg2:T121	
+R19	located_in Arg1:T118 Arg2:T121	
+R21	located_in Arg1:T120 Arg2:T121	
+R22	located_in Arg1:T34 Arg2:T33	
+T123	missed_anatomical_site 1157 1164	hepatic
+R23	located_in Arg1:T35 Arg2:T123	
+T124	corrected_anatomical_site 1294 1307	pannus tissue
+R24	located_in Arg1:T36 Arg2:T38	
+R25	located_in Arg1:T36 Arg2:T124	
+R26	located_in Arg1:T37 Arg2:T38	
+R27	located_in Arg1:T37 Arg2:T124	
+R28	located_in Arg1:T45 Arg2:T46	
+R29	located_in Arg1:T45 Arg2:T47	
+T125	corrected_anatomical_site 1685 1710	immune system of the skin
+R30	located_in Arg1:T48 Arg2:T125	
+R31	located_in Arg1:T49 Arg2:T125	
+T126	missed_gene 2368 2370	Aβ
+T127	corrected_anatomical_site 2388 2404	brain parenchyma
+R32	located_in Arg1:T126 Arg2:T127	
+T128	missed_gene 2481 2485	BCRP
+R33	located_in Arg1:T73 Arg2:T127	
+#2	AnnotatorNotes R33	Okay?
+R34	located_in Arg1:T128 Arg2:T127	
+#3	AnnotatorNotes R34	Okay?
+R35	located_in Arg1:T72 Arg2:T127	
+#4	AnnotatorNotes R35	Okay?
+T129	corrected_gene 2456 2470	P-glycoprotein
+R36	located_in Arg1:T129 Arg2:T127	
+#5	AnnotatorNotes R36	Okay?
+T130	corrected_anatomical_site 2628 2640	colon tissue
+R37	located_in Arg1:T77 Arg2:T130	
+R38	located_in Arg1:T81 Arg2:T80	
+R39	located_in Arg1:T82 Arg2:T80	
+R40	located_in Arg1:T89 Arg2:T88	
+R41	located_in Arg1:T86 Arg2:T85	
+R42	located_in Arg1:T87 Arg2:T85	
+R43	located_in Arg1:T89 Arg2:T85	
+T131	missed_gene 2972 2982	hemoglobin
+R44	located_in Arg1:T131 Arg2:T85	
+T132	corrected_anatomical_site 3071 3082	dorsal horn
+T133	missed_gene 3096 3119	choline acetyransferase
+T134	missed_gene 3121 3125	CHAT
+T135	corrected_anatomical_site 3130 3161	ventral horn of the spinal cord
+R45	located_in Arg1:T90 Arg2:T132	
+R46	located_in Arg1:T91 Arg2:T132	
+R47	located_in Arg1:T93 Arg2:T135	
+R48	located_in Arg1:T133 Arg2:T135	
+R49	located_in Arg1:T134 Arg2:T135	
+T136	missed_gene 3216 3221	MuRF1
+R50	located_in Arg1:T96 Arg2:T98	
+R51	located_in Arg1:T97 Arg2:T98	
+R52	located_in Arg1:T136 Arg2:T98	
+R53	located_in Arg1:T136 Arg2:T99	
+R54	located_in Arg1:T97 Arg2:T99	
+R55	located_in Arg1:T96 Arg2:T99	
+R56	located_in Arg1:T106 Arg2:T105	
+R57	located_in Arg1:T106 Arg2:T104	
+T137	corrected_anatomical_site 3551 3562	breast milk
+R58	located_in Arg1:T109 Arg2:T137	
+R59	located_in Arg1:T110 Arg2:T137	
+R60	located_in Arg1:T111 Arg2:T137	
+T138	corrected_gene 3594 3626	transforming growth factor-beta1
+R61	located_in Arg1:T138 Arg2:T137	
+R62	located_in Arg1:T113 Arg2:T114	
+#6	AnnotatorNotes R62	Okay?
+T139	corrected_gene 3745 3786	TGF-beta-like bone morphogenetic proteins
+R63	located_in Arg1:T139 Arg2:T116	

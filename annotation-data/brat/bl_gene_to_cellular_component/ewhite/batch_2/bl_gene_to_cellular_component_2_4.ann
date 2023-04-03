@@ -112,3 +112,7 @@ T111	gene 3298 3302	Smad
 T112	gene 3304 3308	Pin1
 T113	cellular_component 3327 3339	Smad protein
 T114	gene 3327 3339	Smad protein
+R1	located_in Arg1:T21 Arg2:T22	
+R2	located_in Arg1:T61 Arg2:T60	
+R3	located_in Arg1:T64 Arg2:T65	
+R4	located_in Arg1:T64 Arg2:T66	

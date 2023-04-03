@@ -133,8 +133,6 @@ T132	gene 3619 3622	PTH
 T133	gene 3623 3628	PTHrP
 T134	cellular_component 3651 3660	lysosomal
 T135	gene 3709 3716	megalin
-T136	missed_gene 157 188	microtubule-associated proteins
-R1	located_in Arg1:T136 Arg2:T5	
 R2	located_in Arg1:T19 Arg2:T18	
 T137	corrected_gene 485 501	PAR polymerase 1
 R3	located_in Arg1:T137 Arg2:T18	
@@ -147,9 +145,6 @@ T141	missed_cellular_component 852 859	nuclear
 R6	located_in Arg1:T140 Arg2:T141	
 T142	missed_gene 869 873	NEUN
 R7	located_in Arg1:T142 Arg2:T141	
-T144	missed_gene 985 1006	neurofilament protein
-R9	located_in Arg1:T144 Arg2:T31	
-T145	missed_gene 1032 1053	neurofilament protein
 T146	missed_gene 1149 1176	epithelial membrane antigen
 T147	missed_gene 1178 1181	EMA
 R11	located_in Arg1:T146 Arg2:T36	

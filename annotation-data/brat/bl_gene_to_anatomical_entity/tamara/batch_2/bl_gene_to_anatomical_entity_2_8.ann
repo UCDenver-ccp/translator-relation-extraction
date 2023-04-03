@@ -134,9 +134,9 @@ T100	missed_gene 1348 1370	glycated serum protein
 R32	located_in Arg1:T100 Arg2:T49	
 R33	located_in Arg1:T53 Arg2:T52	
 R34	located_in Arg1:T77 Arg2:T78	
-#1	AnnotatorNotes T99	okay?
 T107	corrected_anatomical_site 278 301	peripheral nerve myelin
 R8	located_in Arg1:T101 Arg2:T107	
 R9	located_in Arg1:T8 Arg2:T107	
 R10	located_in Arg1:T27 Arg2:T26	
 R11	located_in Arg1:T82 Arg2:T106	
+T108	DONE 2651 2655	DONE

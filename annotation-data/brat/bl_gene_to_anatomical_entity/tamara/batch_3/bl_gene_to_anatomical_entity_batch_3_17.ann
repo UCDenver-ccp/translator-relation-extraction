@@ -81,3 +81,60 @@ T80	anatomical_site 2607 2612	blood
 T81	gene 2619 2623	REST
 T82	gene 2624 2628	NRSF
 T83	anatomical_site 2696 2707	hippocampus
+R1	located_in Arg1:T3 Arg2:T1	
+R2	located_in Arg1:T5 Arg2:T6	
+R3	located_in Arg1:T7 Arg2:T8	
+#1	AnnotatorNotes R3	Okay?
+R4	located_in Arg1:T9 Arg2:T11	
+R5	located_in Arg1:T10 Arg2:T11	
+R6	located_in Arg1:T13 Arg2:T14	
+R7	located_in Arg1:T15 Arg2:T14	
+T84	corrected_anatomical_site 533 555	slit diaphragm complex
+R8	located_in Arg1:T16 Arg2:T84	
+T85	missed_gene 799 801	PL
+R9	located_in Arg1:T85 Arg2:T24	
+R10	located_in Arg1:T25 Arg2:T24	
+R11	located_in Arg1:T26 Arg2:T24	
+R12	located_in Arg1:T85 Arg2:T27	
+R13	located_in Arg1:T25 Arg2:T27	
+T86	corrected_anatomical_site 1013 1031	ventricular tissue
+R14	located_in Arg1:T31 Arg2:T86	
+R15	located_in Arg1:T30 Arg2:T86	
+R16	located_in Arg1:T29 Arg2:T86	
+R17	located_in Arg1:T34 Arg2:T33	
+T87	missed_gene 1108 1111	MAG
+R18	located_in Arg1:T87 Arg2:T33	
+T88	missed_gene 1114 1118	Nogo
+R19	located_in Arg1:T88 Arg2:T33	
+R20	located_in Arg1:T35 Arg2:T33	
+T89	missed_gene 1161 1165	OMgp
+R21	located_in Arg1:T89 Arg2:T33	
+T90	missed_anatomical_site 1257 1266	epidermal
+#2	AnnotatorNotes T90	do we mark it? 
+R22	located_in Arg1:T38 Arg2:T90	
+R23	located_in Arg1:T38 Arg2:T39	
+R24	located_in Arg1:T40 Arg2:T41	
+R25	located_in Arg1:T40 Arg2:T42	
+R26	located_in Arg1:T40 Arg2:T43	
+R27	located_in Arg1:T40 Arg2:T44	
+R28	located_in Arg1:T45 Arg2:T46	
+R29	located_in Arg1:T47 Arg2:T49	
+R30	located_in Arg1:T48 Arg2:T49	
+R31	located_in Arg1:T47 Arg2:T50	
+R32	located_in Arg1:T48 Arg2:T50	
+R33	located_in Arg1:T51 Arg2:T52	
+R34	located_in Arg1:T54 Arg2:T55	
+R35	located_in Arg1:T58 Arg2:T57	
+R36	located_in Arg1:T59 Arg2:T57	
+T91	corrected_gene 2010 2015	PFK-2
+R37	located_in Arg1:T91 Arg2:T63	
+R38	located_in Arg1:T62 Arg2:T63	
+R39	located_in Arg1:T62 Arg2:T64	
+R40	located_in Arg1:T91 Arg2:T64	
+T92	corrected_anatomical_site 2150 2162	brain tissue
+R41	located_in Arg1:T65 Arg2:T92	
+R42	located_in Arg1:T79 Arg2:T80	
+R43	located_in Arg1:T78 Arg2:T80	
+R44	located_in Arg1:T77 Arg2:T80	
+R45	located_in Arg1:T81 Arg2:T83	
+R46	located_in Arg1:T82 Arg2:T83	

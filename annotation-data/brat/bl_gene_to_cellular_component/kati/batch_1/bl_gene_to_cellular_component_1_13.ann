@@ -121,7 +121,6 @@ R4	located_in Arg1:T57 Arg2:T56
 R5	located_in Arg1:T58 Arg2:T56	
 T117	missed_gene 2016 2021	PEPCK
 R6	located_in Arg1:T117 Arg2:T71	
-R8	located_in Arg1:T84 Arg2:T85	
 T119	missed_gene 2673 2678	talin
 R9	located_in Arg1:T119 Arg2:T91	
 T120	missed_gene 2710 2713	FAK
@@ -138,3 +137,8 @@ R17	located_in Arg1:T116 Arg2:T115
 R18	located_in Arg1:T12 Arg2:T14	
 R19	located_in Arg1:T50 Arg2:T48	
 R7	located_in Arg1:T80 Arg2:T82	
+R8	located_in Arg1:T94 Arg2:T91	
+R20	located_in Arg1:T119 Arg2:T92	
+R21	located_in Arg1:T94 Arg2:T92	
+R22	located_in Arg1:T120 Arg2:T92	
+R23	located_in Arg1:T95 Arg2:T92	

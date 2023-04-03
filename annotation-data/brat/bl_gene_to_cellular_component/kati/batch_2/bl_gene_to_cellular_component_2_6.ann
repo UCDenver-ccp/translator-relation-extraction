@@ -138,7 +138,6 @@ R3	located_in Arg1:T3 Arg2:T4
 R4	located_in Arg1:T3 Arg2:T5	
 R5	located_in Arg1:T8 Arg2:T9	
 R6	located_in Arg1:T8 Arg2:T10	
-T135	missed_cellular_component 425 437	gap junction
 T136	corrected_cellular_component 673 703	brush-border membrane vesicles
 R9	located_in Arg1:T33 Arg2:T136	
 R10	located_in Arg1:T34 Arg2:T136	
@@ -169,5 +168,5 @@ R25	located_in Arg1:T122 Arg2:T121
 T146	missed_cellular_component 3655 3662	nuclear
 R26	located_in Arg1:T131 Arg2:T146	
 R27	located_in Arg1:T132 Arg2:T146	
-T147	corrected_cellular_component 126 144	post-Golgi complex
+T147	corrected_cellular_component 126 157	post-Golgi complex compartments
 R28	located_in Arg1:T6 Arg2:T147	

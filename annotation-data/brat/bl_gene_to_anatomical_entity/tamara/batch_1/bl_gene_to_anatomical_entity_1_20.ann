@@ -199,11 +199,8 @@ R57	located_in Arg1:T112 Arg2:T115
 T146	corrected_anatomical_site 2396 2417	placental trophoblast
 T147	corrected_gene 2865 2883	PTH-PTHrP receptor
 R44	located_in Arg1:T147 Arg2:T118	
-#2	AnnotatorNotes R44	Okay?
 R45	located_in Arg1:T147 Arg2:T119	
-#3	AnnotatorNotes R45	Okay?
 R59	located_in Arg1:T147 Arg2:T120	
-#5	AnnotatorNotes R59	Okay?
 R58	located_in Arg1:T100 Arg2:T102	
 R60	located_in Arg1:T101 Arg2:T102	
 T148	missed_anatomical_site 734 739	Serum
@@ -243,3 +240,4 @@ T152	missed_gene 2531 2548	?-amyloid peptide
 T153	missed_gene 2550 2552	A?
 R88	located_in Arg1:T152 Arg2:T106	
 R89	located_in Arg1:T153 Arg2:T106	
+T154	DONE 3229 3233	DONE

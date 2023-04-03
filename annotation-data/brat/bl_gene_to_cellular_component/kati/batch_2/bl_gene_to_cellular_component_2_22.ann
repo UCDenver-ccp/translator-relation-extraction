@@ -56,8 +56,8 @@ T55	cellular_component 1533 1545	cell surface
 T56	gene 1561 1564	EGF
 T57	gene 1601 1604	p80
 T58	gene 1605 1611	coilin
-T59	cellular_component 1613 1626;1641 1654	nucleoplasmic coiled bodies
-T60	cellular_component 1631 1640;1641 1654	nucleolar coiled bodies
+T59	corrected_cellular_component 1613 1626;1641 1654	nucleoplasmic coiled bodies
+T60	corrected_cellular_component 1631 1640;1641 1654	nucleolar coiled bodies
 T61	cellular_component 1641 1654	coiled bodies
 T62	gene 1747 1750	Akt
 T63	gene 1755 1758	Erk
@@ -156,20 +156,11 @@ R12	located_in Arg1:T27 Arg2:T28
 R13	located_in Arg1:T29 Arg2:T31	
 R15	located_in Arg1:T29 Arg2:T32	
 R17	located_in Arg1:T29 Arg2:T33	
-R14	located_in Arg1:T30 Arg2:T31	
-R16	located_in Arg1:T30 Arg2:T32	
-R18	located_in Arg1:T30 Arg2:T33	
 T144	corrected_gene 1561 1580	EGF-like precursors
 R19	located_in Arg1:T144 Arg2:T55	
 T145	corrected_gene 1601 1611	p80-coilin
-R20	located_in Arg1:T145 Arg2:T59	
-R21	located_in Arg1:T145 Arg2:T60	
 T146	missed_gene 1665 1676	fibrillarin
-R22	located_in Arg1:T146 Arg2:T59	
-R23	located_in Arg1:T146 Arg2:T60	
 T147	missed_gene 1681 1692	Sm proteins
-R24	located_in Arg1:T147 Arg2:T60	
-R25	located_in Arg1:T147 Arg2:T59	
 T148	missed_gene 2103 2142	membrane-spanning 4-domains subfamily A
 R26	located_in Arg1:T148 Arg2:T75	
 T149	missed_gene 2089 2093	MS4A
@@ -193,3 +184,14 @@ R40	located_in Arg1:T104 Arg2:T100
 T153	missed_gene 2826 2831	CLN12
 R41	located_in Arg1:T153 Arg2:T100	
 T154	corrected_gene 846 851	Pex5p
+R14	located_in Arg1:T154 Arg2:T31	
+R16	located_in Arg1:T154 Arg2:T32	
+R18	located_in Arg1:T154 Arg2:T33	
+T155	cellular_component 1631 1640	nucleolar
+T156	cellular_component 1613 1626	nucleoplasmic
+R20	located_in Arg1:T145 Arg2:T59	
+R21	located_in Arg1:T145 Arg2:T60	
+R22	located_in Arg1:T146 Arg2:T59	
+R23	located_in Arg1:T146 Arg2:T60	
+R24	located_in Arg1:T147 Arg2:T60	
+R25	located_in Arg1:T147 Arg2:T59	

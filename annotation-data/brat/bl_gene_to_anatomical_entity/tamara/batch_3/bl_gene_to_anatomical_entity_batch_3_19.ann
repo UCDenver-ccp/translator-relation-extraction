@@ -104,3 +104,129 @@ T103	anatomical_site 3023 3033	cerebellum
 T104	anatomical_site 3034 3040	cortex
 T105	anatomical_site 3042 3059	medulla oblongata
 T106	anatomical_site 3064 3076	hypothalamus
+R1	located_in Arg1:T3 Arg2:T2	
+R2	located_in Arg1:T4 Arg2:T2	
+R3	located_in Arg1:T5 Arg2:T2	
+R4	located_in Arg1:T6 Arg2:T2	
+R5	located_in Arg1:T14 Arg2:T16	
+R6	located_in Arg1:T15 Arg2:T16	
+R7	located_in Arg1:T14 Arg2:T17	
+R8	located_in Arg1:T15 Arg2:T17	
+R9	located_in Arg1:T15 Arg2:T18	
+R10	located_in Arg1:T14 Arg2:T18	
+R11	located_in Arg1:T19 Arg2:T20	
+R12	located_in Arg1:T19 Arg2:T21	
+R13	located_in Arg1:T19 Arg2:T22	
+R14	located_in Arg1:T26 Arg2:T27	
+R15	located_in Arg1:T24 Arg2:T25	
+R16	located_in Arg1:T23 Arg2:T25	
+T107	corrected_anatomical_site 589 600	Breast milk
+R17	located_in Arg1:T29 Arg2:T107	
+R18	located_in Arg1:T30 Arg2:T107	
+R19	located_in Arg1:T33 Arg2:T34	
+R20	located_in Arg1:T32 Arg2:T34	
+R21	located_in Arg1:T35 Arg2:T36	
+R22	located_in Arg1:T35 Arg2:T37	
+T108	missed_anatomical_site 819 826	tissues
+R23	located_in Arg1:T35 Arg2:T108	
+R24	located_in Arg1:T39 Arg2:T38	
+R25	located_in Arg1:T40 Arg2:T41	
+T109	missed_anatomical_site 997 1006	pulmonary
+#1	AnnotatorNotes T109	do we mark it? 
+R26	located_in Arg1:T40 Arg2:T109	
+#2	AnnotatorNotes R26	Okay?
+T110	corrected_gene 1075 1082	p75NGFR
+R27	located_in Arg1:T110 Arg2:T45	
+T111	corrected_gene 1101 1108	p75NGFR
+R28	located_in Arg1:T111 Arg2:T45	
+T112	corrected_anatomical_site 1120 1163	glomerular layer of the main olfactory bulb
+R29	located_in Arg1:T111 Arg2:T112	
+R30	located_in Arg1:T110 Arg2:T112	
+R31	located_in Arg1:T47 Arg2:T46	
+R32	located_in Arg1:T48 Arg2:T46	
+R33	located_in Arg1:T50 Arg2:T49	
+T113	missed_gene 1252 1255	CRP
+R34	located_in Arg1:T113 Arg2:T49	
+R35	located_in Arg1:T51 Arg2:T53	
+R36	located_in Arg1:T52 Arg2:T53	
+T114	corrected_gene 1490 1502	PML-RARalpha
+R37	located_in Arg1:T114 Arg2:T54	
+R38	located_in Arg1:T114 Arg2:T55	
+T115	corrected_gene 1558 1572	P-glycoprotein
+T116	corrected_gene 1574 1578	P-gp
+R39	located_in Arg1:T115 Arg2:T62	
+R40	located_in Arg1:T116 Arg2:T62	
+R41	located_in Arg1:T58 Arg2:T62	
+R42	located_in Arg1:T59 Arg2:T62	
+R43	located_in Arg1:T60 Arg2:T62	
+R44	located_in Arg1:T61 Arg2:T62	
+R45	located_in Arg1:T61 Arg2:T63	
+R46	located_in Arg1:T60 Arg2:T63	
+R47	located_in Arg1:T59 Arg2:T63	
+R48	located_in Arg1:T58 Arg2:T63	
+R49	located_in Arg1:T116 Arg2:T63	
+R50	located_in Arg1:T115 Arg2:T63	
+T117	missed_anatomical_site 1590 1596	breast
+R51	located_in Arg1:T59 Arg2:T117	
+R52	located_in Arg1:T60 Arg2:T117	
+R53	located_in Arg1:T61 Arg2:T117	
+R54	located_in Arg1:T65 Arg2:T67	
+R55	located_in Arg1:T66 Arg2:T67	
+T118	missed_anatomical_site 1727 1730	CSF
+R56	located_in Arg1:T65 Arg2:T118	
+R57	located_in Arg1:T66 Arg2:T118	
+T119	corrected_anatomical_site 1791 1802	Lung tissue
+R58	located_in Arg1:T69 Arg2:T119	
+R59	located_in Arg1:T70 Arg2:T119	
+T120	missed_gene 1852 1889	bone morphogenetic protein receptor-2
+R60	located_in Arg1:T120 Arg2:T71	
+R61	located_in Arg1:T120 Arg2:T119	
+R62	located_in Arg1:T74 Arg2:T73	
+T121	missed_gene 2101 2109	IL-1beta
+R63	located_in Arg1:T121 Arg2:T73	
+R64	located_in Arg1:T75 Arg2:T73	
+T122	corrected_gene 2142 2157	collagen type-I
+R65	located_in Arg1:T122 Arg2:T73	
+R66	located_in Arg1:T77 Arg2:T73	
+R67	located_in Arg1:T77 Arg2:T78	
+R68	located_in Arg1:T122 Arg2:T78	
+R69	located_in Arg1:T75 Arg2:T78	
+R70	located_in Arg1:T121 Arg2:T78	
+R71	located_in Arg1:T74 Arg2:T78	
+T123	missed_gene 2435 2439	PI3K
+T124	missed_gene 2441 2446	IRS-2
+T125	missed_gene 2447 2451	PI3K
+T126	missed_gene 2475 2479	aPKC
+R72	located_in Arg1:T126 Arg2:T88	
+R73	located_in Arg1:T87 Arg2:T88	
+R74	located_in Arg1:T125 Arg2:T88	
+R75	located_in Arg1:T124 Arg2:T88	
+R76	located_in Arg1:T123 Arg2:T88	
+R77	located_in Arg1:T86 Arg2:T88	
+R78	located_in Arg1:T83 Arg2:T84	
+R79	located_in Arg1:T85 Arg2:T88	
+T127	missed_gene 2561 2565	aPKC
+R80	located_in Arg1:T127 Arg2:T90	
+R81	located_in Arg1:T89 Arg2:T90	
+R82	located_in Arg1:T97 Arg2:T98	
+R83	located_in Arg1:T96 Arg2:T98	
+T128	missed_anatomical_site 2777 2783	breast
+R84	located_in Arg1:T96 Arg2:T128	
+R85	located_in Arg1:T97 Arg2:T128	
+R86	located_in Arg1:T95 Arg2:T98	
+R87	located_in Arg1:T94 Arg2:T98	
+R88	located_in Arg1:T93 Arg2:T98	
+T129	corrected_gene 2699 2713	P-glycoprotein
+R89	located_in Arg1:T129 Arg2:T98	
+T130	corrected_gene 2969 2985	beta-tubulin III
+R90	located_in Arg1:T130 Arg2:T101	
+R91	located_in Arg1:T130 Arg2:T102	
+T131	corrected_anatomical_site 3023 3040	cerebellum cortex
+R92	located_in Arg1:T130 Arg2:T131	
+R93	located_in Arg1:T130 Arg2:T105	
+R94	located_in Arg1:T130 Arg2:T106	
+R95	located_in Arg1:T99 Arg2:T101	
+R96	located_in Arg1:T99 Arg2:T102	
+R97	located_in Arg1:T99 Arg2:T131	
+R98	located_in Arg1:T99 Arg2:T105	
+R99	located_in Arg1:T99 Arg2:T106	

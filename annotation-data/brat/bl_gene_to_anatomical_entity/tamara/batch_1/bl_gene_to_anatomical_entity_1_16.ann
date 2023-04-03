@@ -185,15 +185,13 @@ T126	missed_anatomical_site 2535 2543	bronchus
 R61	located_in Arg1:T91 Arg2:T90	
 R62	located_in Arg1:T91 Arg2:T126	
 R63	located_in Arg1:T59 Arg2:T61	
-#1	AnnotatorNotes R63	Okay?
 T127	corrected_gene 1616 1631	PACAP receptors
 R64	located_in Arg1:T127 Arg2:T61	
-#2	AnnotatorNotes R64	Okay?
 R65	located_in Arg1:T62 Arg2:T63	
-#3	AnnotatorNotes R65	Okay?
 R66	located_in Arg1:T105 Arg2:T106	
 T114	corrected_anatomical_site 148 156;211 217	cervical tissue
 R9	located_in Arg1:T6 Arg2:T114	
 R67	located_in Arg1:T9 Arg2:T114	
 T128	corrected_anatomical_site 310 318;329 334	arterial blood
 R68	located_in Arg1:T52 Arg2:T54	
+T129	DONE 3233 3237	DONE

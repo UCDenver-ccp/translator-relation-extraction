@@ -134,7 +134,6 @@ R5	located_in Arg1:T44 Arg2:T42
 R6	located_in Arg1:T45 Arg2:T42	
 R7	located_in Arg1:T47 Arg2:T46	
 R14	located_in Arg1:T7 Arg2:T8	
-#1	AnnotatorNotes R14	Okay?
 T119	missed_gene 2836 2841	actin
 T120	missed_gene 2855 2860	S-100
 R19	located_in Arg1:T109 Arg2:T108	
@@ -162,3 +161,4 @@ R39	located_in Arg1:T70 Arg2:T69
 R40	located_in Arg1:T72 Arg2:T71	
 T122	missed_gene 1798 1809	osteocalcin
 R41	located_in Arg1:T122 Arg2:T74	
+T123	DONE 3061 3065	DONE

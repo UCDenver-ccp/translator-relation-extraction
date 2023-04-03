@@ -1,143 +1,93 @@
-T1	gene 14 18	Ste7
-T2	cellular_component 19 33	ubiquitination
-T3	gene 37 42	Ste11
-T4	cellular_component 43 58	phosphorylation
-T5	gene 67 71	Skp1
-T6	gene 128 133	ANXA7
-T7	cellular_component 134 149	GTPase activity
-T8	gene 178 183	ANXA7
-T9	gene 188 192	XRN2
-T10	cellular_component 196 203	nucleus
-T11	cellular_component 238 251	transcription
-T12	gene 255 260	MROH7
-T13	gene 271 275	TIA1
-T14	gene 310 315	MROH7
-T15	gene 353 358	MROH7
-T16	gene 363 367	TTC4
-T17	gene 420 447	G protein-coupled receptors
-T18	cellular_component 420 447	G protein-coupled receptors
-T19	cellular_component 449 454	GPCRs
-T20	gene 449 454	GPCRs
-T21	cellular_component 462 467	cells
-T22	gene 499 507	TGF-beta
-T23	gene 512 515	Th2
-T24	cellular_component 516 525	cytokines
-T25	gene 526 530	IL-4
-T26	gene 534 539	IL-13
-T27	gene 557 562	SDF-1
-T28	gene 564 593	stromal cell derived factor-1
-T29	cellular_component 595 603	receptor
-T30	gene 605 610	CXCR7
-T31	cellular_component 663 676	extracellular
-T32	gene 677 682	SDF-1
-T33	cellular_component 688 697	modulator
-T34	gene 713 727	SDF-1 receptor
-T35	gene 729 734	CXCR4
-T36	cellular_component 736 746	Antibodies
-T37	gene 786 802	membrane protein
-T38	gene 803 813	E-cadherin
-T39	cellular_component 819 837	lysosomal membrane
-T40	gene 846 852	LAMP-1
-T41	cellular_component 862 878	lysosomal matrix
-T42	gene 888 899	cathepsin-D
-T43	gene 916 919	Pti
-T44	cellular_component 922 942	negatively regulates
-T45	gene 943 947	RAR1
-T46	cellular_component 958 975	defense responses
-T47	gene 977 980	AVP
-T48	gene 1017 1020	EGF
-T49	cellular_component 1044 1059	phosphorylation
-T50	gene 1074 1090	protein kinase C
-T51	cellular_component 1074 1090	protein kinase C
-T52	cellular_component 1128 1134	kinase
-T53	gene 1136 1140	Pyk2
-T54	gene 1153 1157	Pyk2
-T55	gene 1160 1163	Src
-T56	gene 1182 1185	Src
-T57	cellular_component 1233 1239	kinase
-T58	gene 1272 1280	integrin
-T59	cellular_component 1272 1280	integrin
-T60	gene 1281 1284	ECM
-T61	cellular_component 1296 1306	signalling
-T62	gene 1330 1339	integrins
-T63	cellular_component 1330 1339	integrins
-T64	cellular_component 1343 1352	endosomes
-T65	gene 1391 1404	FGF receptors
-T66	cellular_component 1391 1404	FGF receptors
-T67	gene 1455 1468	FGF receptors
-T68	cellular_component 1455 1468	FGF receptors
-T69	gene 1477 1482	FGF21
-T70	cellular_component 1500 1510	MAP kinase
-T71	gene 1500 1510	MAP kinase
-T72	gene 1534 1548	cholinesterase
-T73	cellular_component 1534 1548	cholinesterase
-T74	cellular_component 1553 1573	acetylcholinesterase
-T75	gene 1553 1573	acetylcholinesterase
-T76	gene 1629 1633	IL-8
-T77	gene 1638 1657	chemokine receptors
-T78	cellular_component 1638 1657	chemokine receptors
-T79	gene 1666 1671	CXCR4
-T80	cellular_component 1687 1699	inflammation
-T81	gene 1734 1742	catalase
-T82	cellular_component 1734 1742	catalase
-T83	cellular_component 1750 1770	superoxide dismutase
-T84	cellular_component 1778 1800	glutathione peroxidase
-T85	cellular_component 1810 1833	glutathione transferase
-T86	gene 1810 1833	glutathione transferase
-T87	gene 1835 1838	GST
-T88	cellular_component 1835 1838	GST
-T89	cellular_component 1876 1880	G6PD
-T90	gene 1876 1880	G6PD
-T91	gene 1886 1925	glyceraldehyde3-phosphate dehydrogenase
-T92	cellular_component 1886 1925	glyceraldehyde3-phosphate dehydrogenase
-T93	gene 1927 1931	G3PD
-T94	cellular_component 1927 1931	G3PD
-T95	gene 2060 2063	EGF
-T96	cellular_component 2091 2106	phosphorylation
-T97	gene 2110 2119	filamin A
-T98	gene 2159 2168	integrins
-T99	cellular_component 2159 2168	integrins
-T100	gene 2327 2331	PPAR
-T101	cellular_component 2336 2360	peroxisome proliferation
-T102	cellular_component 2380 2390	peroxisome
-T103	cellular_component 2391 2401	biogenesis
-T104	gene 2403 2407	PEX5
-T105	gene 2409 2414	PEX13
-T106	gene 2419 2424	PEX14
-T107	cellular_component 2437 2446	metabolic
-T108	gene 2457 2462	ABCD1
-T109	gene 2464 2469	ABCD3
-T110	gene 2471 2475	MFP1
-T111	cellular_component 2489 2497	catalase
-T112	gene 2489 2497	catalase
-T113	gene 2532 2537	Pim-1
-T114	gene 2553 2556	p21
-T115	gene 2561 2564	p27
-T116	cellular_component 2565 2580	phosphorylation
-T117	cellular_component 2595 2606	cell growth
-T118	cellular_component 2616 2628	inflammatory
-T119	cellular_component 2651 2659	integrin
-T120	gene 2651 2659	integrin
-T121	cellular_component 2743 2758	phosphorylation
-T122	gene 2789 2798	L-plastin
-T123	gene 2818 2827	L-plastin
-T124	cellular_component 2828 2843	phosphorylation
-T125	gene 2860 2868	integrin
-T126	cellular_component 2860 2868	integrin
-T127	gene 2881 2885	SAA1
-T128	gene 2890 2894	SAA2
-T129	cellular_component 2912 2924	inflammatory
-T130	cellular_component 2925 2934	cytokines
-T131	gene 2944 2948	SAA4
-T132	gene 2977 2987	E-cadherin
-T133	gene 2992 3001	claudin-7
-T134	cellular_component 3032 3040	membrane
-T135	gene 3048 3057	claudin-2
-T136	gene 3059 3063	ZO-1
-T137	cellular_component 3100 3108	membrane
-T138	gene 3152 3157	PCSK9
-T139	gene 3171 3183	LDL-receptor
-T140	cellular_component 3171 3183	LDL-receptor
-T141	cellular_component 3185 3189	LDLR
-T142	gene 3185 3189	LDLR
-T143	cellular_component 3216 3219	LDL
+T1	gene 26 42	protein kinase-C
+T2	cellular_component 88 98	antibodies
+T3	gene 112 128	protein kinase-C
+T4	gene 215 219	Fe65
+T5	cellular_component 288 301	intracellular
+T6	gene 313 316	APP
+T7	gene 321 325	LRP1
+T8	gene 337 340	Bax
+T9	cellular_component 362 375	mitochondrial
+T10	gene 376 379	Bax
+T11	gene 514 519	SAR1B
+T12	gene 523 528	SARA2
+T13	cellular_component 547 560	intracellular
+T14	gene 561 566	SAR1B
+T15	cellular_component 583 591	Antibody
+T16	gene 656 661	CDH17
+T17	gene 690 698	integrin
+T18	cellular_component 690 698	integrin
+T19	gene 777 780	p53
+T20	gene 785 788	p21
+T21	cellular_component 917 930	extracellular
+T22	gene 942 946	Dll4
+T23	gene 988 993	CXCR4
+T24	gene 1038 1042	SDF1
+T25	gene 1044 1048	VEGF
+T26	gene 1054 1058	RDC1
+T27	gene 1116 1124	paxillin
+T28	gene 1134 1142	integrin
+T29	cellular_component 1134 1142	integrin
+T30	gene 1178 1210	mitogen activated protein kinase
+T31	gene 1327 1352	glutathione S-transferase
+T32	cellular_component 1356 1365	lysosomal
+T33	gene 1416 1429	alpha-enolase
+T34	gene 1484 1505	heat shock protein 60
+T35	gene 1507 1538	transforming growth factor-beta
+T36	gene 1564 1568	Pbx1
+T37	cellular_component 1609 1621	in complexes
+T38	cellular_component 1753 1777	high-density lipoprotein
+T39	gene 1800 1804	HO-1
+T40	gene 1844 1847	p42
+T41	gene 1851 1855	MAPK
+T42	gene 1893 1898	Egr-1
+T43	cellular_component 1953 1970	adherens junction
+T44	gene 1979 1989	N-cadherin
+T45	cellular_component 2057 2066	membranes
+T46	gene 2072 2078	Aurora
+T47	gene 2102 2108	Aurora
+T48	gene 2112 2118	Aurora
+T49	gene 2126 2132	Aurora
+T50	cellular_component 2211 2221	centrosome
+T51	cellular_component 2336 2349	extracellular
+T52	gene 2383 2387	ERK1
+T53	gene 2392 2395	p38
+T54	gene 2396 2428	mitogen-activated protein kinase
+T55	gene 2430 2434	MAPK
+T56	gene 2440 2443	Akt
+T57	gene 2468 2473	Glut1
+T58	gene 2509 2514	Glut1
+T59	cellular_component 2520 2527	cytosol
+T60	cellular_component 2531 2544	cell membrane
+T61	gene 2599 2606	insulin
+T62	gene 2624 2631	insulin
+T63	cellular_component 2643 2655	cell surface
+T64	gene 2672 2704	low density lipoprotein receptor
+T65	gene 2825 2830	DPP-4
+T66	cellular_component 2837 2845	membrane
+T67	gene 2882 2886	CD26
+T68	gene 2904 2907	p27
+T69	gene 2918 2922	JAB1
+T70	cellular_component 2945 2954	cytoplasm
+T71	cellular_component 2958 2965	nucleus
+T72	gene 2990 2993	eph
+T73	gene 3035 3041	LERK-1
+T74	gene 3043 3048	EPLG1
+T75	gene 3050 3054	Epl1
+T76	gene 3057 3063	LERK-3
+T77	gene 3065 3070	EPLG3
+T78	gene 3072 3076	Epl3
+T79	gene 3091 3096	EPLG4
+T80	gene 3098 3102	Epl4
+T81	cellular_component 3127 3137	chromosome
+T82	cellular_component 3150 3160	chromosome
+T83	gene 3164 3178	Phosphoprotein
+T84	gene 3190 3195	IGF-1
+T85	cellular_component 3235 3243	antibody
+T86	gene 3252 3256	ERK1
+T87	gene 3382 3386	MAPK
+T88	gene 3413 3416	AVP
+T89	cellular_component 3424 3432	synapses
+T90	gene 3494 3497	AVP
+T91	gene 3523 3527	Pmp1
+T92	gene 3528 3531	Tyr
+T93	gene 3538 3541	AVP

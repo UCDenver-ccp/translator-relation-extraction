@@ -1,0 +1,98 @@
+T1	cellular_component 0 11	Cytoplasmic
+T2	gene 12 20	integrin
+T3	cellular_component 12 20	integrin
+T4	cellular_component 66 75	integrins
+T5	gene 66 75	integrins
+T6	cellular_component 100 112	cytoskeleton
+T7	gene 231 236	Nup50
+T8	cellular_component 245 248	NPC
+T9	gene 300 305	Nup50
+T10	cellular_component 349 352	NPC
+T11	gene 390 395	Nup50
+T12	gene 405 423	nucleoporin Nup153
+T13	gene 458 463	ACER2
+T14	cellular_component 493 505	cell surface
+T15	cellular_component 522 531	integrins
+T16	gene 522 531	integrins
+T17	gene 581 589	collagen
+T18	gene 599 604	ACER2
+T19	gene 645 650	BARD1
+T20	gene 678 681	p53
+T21	cellular_component 691 702	cytoplasmic
+T22	gene 784 788	BDNF
+T23	gene 790 795	mBDNF
+T24	gene 872 876	TrkB
+T25	cellular_component 895 908	intracellular
+T26	gene 929 932	Akt
+T27	gene 937 941	ERK1
+T28	gene 975 980	Smad4
+T29	gene 981 985	DPC4
+T30	cellular_component 999 1012	intracellular
+T31	gene 1035 1066	transforming growth factor-beta
+T32	gene 1068 1076	TGF-beta
+T33	gene 1089 1093	Mcp7
+T34	cellular_component 1127 1136	chromatin
+T35	cellular_component 1148 1158	antibodies
+T36	gene 1167 1174	megalin
+T37	gene 1198 1203	LRP-1
+T38	gene 1235 1241	TIMP-2
+T39	cellular_component 1250 1262	cell surface
+T40	gene 1318 1343	glutathione S-transferase
+T41	gene 1345 1348	GST
+T42	cellular_component 1390 1401	cytoplasmic
+T43	gene 1411 1416	VAMP1
+T44	gene 1418 1423	VAMP2
+T45	gene 1444 1451	insulin
+T46	gene 1463 1468	GLUT4
+T47	gene 1594 1599	KCNE1
+T48	gene 1610 1615	KCNQ1
+T49	cellular_component 1646 1658	cell surface
+T50	gene 1671 1676	KCNE2
+T51	cellular_component 1710 1722	cell surface
+T52	gene 1765 1770	KCNE1
+T53	gene 1835 1840	GLUT4
+T54	cellular_component 1841 1849	vesicles
+T55	cellular_component 1874 1890	synaptic vesicle
+T56	gene 1899 1912	synaptophysin
+T57	gene 1914 1917	SV2
+T58	cellular_component 2071 2077	Axonal
+T59	gene 2094 2098	PPT1
+T60	gene 2137 2150	synaptophysin
+T61	gene 2276 2280	CCR5
+T62	gene 2285 2290	CXCR4
+T63	cellular_component 2291 2303	cell surface
+T64	gene 2437 2441	CCR5
+T65	gene 2446 2451	CXCR4
+T66	gene 2453 2459	alpha1
+T67	gene 2465 2473	integrin
+T68	cellular_component 2465 2473	integrin
+T69	gene 2489 2497	collagen
+T70	cellular_component 2506 2526	extracellular matrix
+T71	gene 2550 2558	collagen
+T72	gene 2614 2622	collagen
+T73	gene 2745 2749	Smad
+T74	cellular_component 2745 2749	Smad
+T75	gene 2756 2763	elastin
+T76	gene 2776 2781	Dkk-3
+T77	cellular_component 2953 2962	chromatin
+T78	gene 3003 3006	Bax
+T79	gene 3011 3031	cytochrome c protein
+T80	gene 3060 3065	Bcl-2
+T81	gene 3097 3106	caspase-3
+T82	gene 3111 3120	caspase-9
+T83	gene 3122 3153	Transforming growth factor beta
+T84	gene 3157 3166	TGF-beta1
+T85	gene 3210 3214	Smad
+T86	cellular_component 3210 3214	Smad
+T87	gene 3266 3282	protein kinase C
+T88	gene 3372 3397	glutathione-s-transferase
+T89	gene 3399 3402	GST
+T90	cellular_component 3421 3429	antibody
+T91	gene 3438 3441	GST
+T92	gene 3443 3455	Pleiotrophin
+T93	gene 3457 3460	Ptn
+T94	cellular_component 3468 3488	extracellular matrix
+T95	gene 3575 3583	Cullin-5
+T96	gene 3585 3590	Cul-5
+T97	gene 3609 3615	cullin
+T98	cellular_component 3655 3681	ubiquitin-ligase complexes

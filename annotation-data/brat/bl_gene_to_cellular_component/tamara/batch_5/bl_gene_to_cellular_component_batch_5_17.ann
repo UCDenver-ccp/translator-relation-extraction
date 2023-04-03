@@ -1,0 +1,86 @@
+T1	cellular_component 7 14	nucleus
+T2	gene 57 65	IL-1beta
+T3	gene 67 71	IL-6
+T4	gene 73 78	IL-10
+T5	gene 84 132	granulocyte-macrophage colony-stimulating factor
+T6	cellular_component 180 189	Lysosomal
+T7	gene 190 211	transmembrane protein
+T8	gene 212 219	LAPTM4B
+T9	gene 312 317	Smads
+T10	cellular_component 312 317	Smads
+T11	gene 323 328	IRF-7
+T12	gene 361 366	Smad3
+T13	cellular_component 415 435	extracellular matrix
+T14	gene 487 490	MC3
+T15	gene 490 494	T3-E
+T16	gene 605 613	vimentin
+T17	gene 621 629	integrin
+T18	cellular_component 621 629	integrin
+T19	gene 631 635	CD44
+T20	gene 658 671	cytokeratin 8
+T21	cellular_component 687 698	microtubule
+T22	cellular_component 739 750	microtubule
+T23	gene 771 776	MAP1A
+T24	gene 778 783	MAP1B
+T25	gene 789 793	MAP2
+T26	cellular_component 828 845	cell polarization
+T27	gene 861 864	Rho
+T28	gene 869 872	Rac
+T29	gene 881 886	Cdc42
+T30	gene 904 911	ApoA-II
+T31	cellular_component 927 949	brush border membranes
+T32	gene 955 962	cubilin
+T33	gene 967 974	megalin
+T34	gene 980 986	apoA-I
+T35	cellular_component 1043 1056	intracellular
+T36	cellular_component 1057 1065	vesicles
+T37	cellular_component 1115 1124	lysosomes
+T38	cellular_component 1171 1184	extracellular
+T39	gene 1200 1203	PGD
+T40	cellular_component 1216 1224	antibody
+T41	gene 1244 1250	VCAM-1
+T42	gene 1271 1277	VCAM-1
+T43	cellular_component 1296 1304	membrane
+T44	gene 1340 1345	TRAIL
+T45	gene 1396 1400	CD95
+T46	gene 1406 1413	TRAILR1
+T47	gene 1418 1425	TRAILR2
+T48	cellular_component 1512 1522	Antibodies
+T49	gene 1599 1608	IL-1 beta
+T50	gene 1623 1626	THP
+T51	cellular_component 1638 1648	antibodies
+T52	gene 1652 1656	CD54
+T53	gene 1661 1665	CD14
+T54	cellular_component 1801 1814	mitochondrial
+T55	gene 1867 1873	alpha1
+T56	gene 1878 1884	alpha2
+T57	gene 1903 1906	p38
+T58	gene 1907 1939	mitogen-activated protein kinase
+T59	cellular_component 2007 2016	host cell
+T60	gene 2025 2033	striatin
+T61	gene 2035 2038	Pam
+T62	gene 2075 2079	Ssc1
+T63	gene 2094 2097	Pam
+T64	cellular_component 2145 2165	mitochondrial matrix
+T65	cellular_component 2175 2185	chromosome
+T66	gene 2281 2288	histone
+T67	gene 2386 2390	Est1
+T68	gene 2396 2400	Est3
+T69	cellular_component 2456 2466	proteasome
+T70	gene 2492 2496	Est1
+T71	cellular_component 2514 2536	mitochondrial membrane
+T72	gene 2586 2595	caspase-9
+T73	gene 2597 2606	caspase-8
+T74	gene 2608 2617	caspase-3
+T75	gene 2699 2702	EGF
+T76	gene 2718 2721	EGF
+T77	cellular_component 2752 2764	cell-surface
+T78	gene 2765 2777	EGF receptor
+T79	gene 2779 2783	EGFR
+T80	gene 2817 2820	p38
+T81	gene 2820 2831	MAP-kinases
+T82	cellular_component 2836 2850	membrane rafts
+T83	gene 2861 2868	Insulin
+T84	gene 2890 2906	insulin receptor
+T85	cellular_component 2914 2926	cell surface
+T86	gene 3003 3019	insulin receptor

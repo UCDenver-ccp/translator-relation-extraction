@@ -1,130 +1,85 @@
-T1	cellular_component 12 26	phosphorylated
-T2	gene 30 33	p90
-T3	cellular_component 34 43	ribosomal
-T4	gene 86 91	FGF23
-T5	gene 102 134	mitogen-activated protein kinase
-T6	cellular_component 102 134	mitogen-activated protein kinase
-T7	gene 136 140	MAPK
-T8	cellular_component 136 140	MAPK
-T9	gene 146 162	protein kinase B
-T10	gene 164 167	Akt
-T11	cellular_component 213 217	FGFR
-T12	gene 213 217	FGFR
-T13	cellular_component 218 227	signaling
-T14	cellular_component 237 242	cells
-T15	cellular_component 318 345	G protein-coupled receptors
-T16	gene 318 345	G protein-coupled receptors
-T17	cellular_component 375 383	receptor
-T18	gene 393 409	protein kinase C
-T19	cellular_component 393 409	protein kinase C
-T20	cellular_component 440 454	ubiquitination
-T21	gene 464 480	Protein kinase C
-T22	cellular_component 464 480	Protein kinase C
-T23	cellular_component 510 522	cytoskeleton
-T24	cellular_component 527 542	phosphorylation
-T25	gene 546 554	vimentin
-T26	cellular_component 638 659	responses to bacteria
-T27	gene 666 671	OLFM4
-T28	gene 676 682	LILRA2
-T29	cellular_component 685 694	autophagy
-T30	gene 731 737	DNAJC6
-T31	gene 739 745	VPS26B
-T32	gene 747 754	RABGEF1
-T33	gene 756 761	ITSN1
-T34	cellular_component 779 802	glucocorticoid receptor
-T35	gene 779 802	glucocorticoid receptor
-T36	cellular_component 831 834	GST
-T37	gene 831 834	GST
-T38	cellular_component 835 838	GST
-T39	gene 835 838	GST
-T40	gene 885 888	p38
-T41	gene 889 899	MAP kinase
-T42	cellular_component 889 899	MAP kinase
-T43	cellular_component 927 933	kinase
-T44	gene 947 980	stress-activated protein kinase 1
-T45	gene 982 986	MSK1
-T46	gene 1040 1043	Src
-T47	cellular_component 1078 1093	phosphorylation
-T48	gene 1104 1107	Tyr
-T49	cellular_component 1104 1107	Tyr
-T50	gene 1114 1117	Tyr
-T51	cellular_component 1114 1117	Tyr
-T52	gene 1124 1127	Tyr
-T53	cellular_component 1124 1127	Tyr
-T54	gene 1138 1141	Tyr
-T55	cellular_component 1138 1141	Tyr
-T56	gene 1175 1178	Src
-T57	cellular_component 1179 1185	kinase
-T58	cellular_component 1244 1258	phosphorylated
-T59	gene 1259 1263	MAPK
-T60	cellular_component 1259 1263	MAPK
-T61	gene 1283 1286	Akt
-T62	gene 1288 1292	ERK1
-T63	gene 1296 1299	p38
-T64	gene 1300 1304	MAPK
-T65	cellular_component 1300 1304	MAPK
-T66	cellular_component 1329 1334	cells
-T67	gene 1376 1379	Kpp
-T68	cellular_component 1384 1398	phosphorylated
-T69	gene 1406 1410	MAPK
-T70	cellular_component 1406 1410	MAPK
-T71	cellular_component 1411 1417	kinase
-T72	gene 1418 1421	Fuz
-T73	cellular_component 1435 1446	cytoplasmic
-T74	cellular_component 1447 1459	localization
-T75	gene 1463 1468	HMGA1
-T76	gene 1539 1542	p53
-T77	cellular_component 1543 1552	apoptotic
-T78	cellular_component 1592 1599	binding
-T79	gene 1633 1636	Akt
-T80	gene 1637 1641	GSK3
-T81	gene 1650 1654	MAPK
-T82	cellular_component 1650 1654	MAPK
-T83	cellular_component 1664 1673	signaling
-T84	cellular_component 1735 1742	binding
-T85	gene 1746 1758	EGF receptor
-T86	cellular_component 1746 1758	EGF receptor
-T87	gene 1764 1767	GST
-T88	cellular_component 1764 1767	GST
-T89	gene 1800 1803	Src
-T90	gene 1859 1863	GRB2
-T91	cellular_component 1898 1905	binding
-T92	cellular_component 1909 1912	Tyr
-T93	gene 1909 1912	Tyr
-T94	gene 1918 1922	KGFR
-T95	cellular_component 1927 1931	EGFR
-T96	gene 1927 1931	EGFR
-T97	cellular_component 1965 1985	cell differentiation
-T98	cellular_component 1999 2003	MAPK
-T99	gene 1999 2003	MAPK
-T100	cellular_component 2004 2019	phosphorylation
-T101	gene 2031 2035	Bcl2
-T102	gene 2036 2039	Bax
-T103	gene 2129 2134	LATS2
-T104	gene 2138 2143	Ajuba
-T105	cellular_component 2153 2164	centrosomal
-T106	gene 2187 2194	tubulin
-T107	cellular_component 2233 2240	mitosis
-T108	gene 2262 2267	LATS2
-T109	gene 2268 2273	Ajuba
-T110	gene 2359 2366	tubulin
-T111	cellular_component 2374 2384	centrosome
-T112	gene 2393 2402	rhodopsin
-T113	gene 2416 2421	ASAP1
-T114	cellular_component 2503 2512	transport
-T115	cellular_component 2520 2525	cilia
-T116	gene 2548 2554	Rabin8
-T117	gene 2555 2559	Rab8
-T118	cellular_component 2580 2592	ciliogenesis
-T119	gene 2594 2598	RBQ3
-T120	gene 2614 2619	RBBP5
-T121	cellular_component 2624 2631	binding
-T122	cellular_component 2654 2661	binding
-T123	gene 2743 2746	p38
-T124	gene 2751 2755	ERK1
-T125	cellular_component 2758 2769	MAP kinases
-T126	gene 2758 2769	MAP kinases
-T127	gene 2782 2785	Rho
-T128	gene 2786 2789	Rho
-T129	cellular_component 2790 2796	kinase
-T130	cellular_component 2797 2806	signaling
+T1	gene 0 4	FXR1
+T2	gene 9 13	FXR2
+T3	cellular_component 18 27	autosomal
+T4	gene 40 44	FMR1
+T5	gene 66 71	Slit3
+T6	cellular_component 75 87	mitochondria
+T7	cellular_component 92 104	cell surface
+T8	gene 141 145	Slit
+T9	gene 188 191	p10
+T10	gene 192 196	NTF2
+T11	cellular_component 230 237	nucleus
+T12	cellular_component 242 251	cytoplasm
+T13	gene 281 284	p10
+T14	gene 285 289	NTF2
+T15	cellular_component 352 360	membrane
+T16	gene 386 389	EGF
+T17	gene 416 419	EGF
+T18	gene 499 502	EGF
+T19	gene 510 513	EGF
+T20	gene 540 543	EGF
+T21	gene 582 614	epidermal growth factor receptor
+T22	gene 634 660	G protein-coupled receptor
+T23	cellular_component 705 719	tight junction
+T24	gene 728 736	claudin1
+T25	cellular_component 804 814	antibodies
+T26	gene 883 887	junB
+T27	gene 916 921	IL-11
+T28	gene 925 929	IL-6
+T29	cellular_component 971 981	lipid raft
+T30	cellular_component 982 991	membranes
+T31	gene 1010 1014	ARF6
+T32	gene 1016 1020	Rac1
+T33	gene 1026 1032	VEGFR2
+T34	cellular_component 1107 1115	membrane
+T35	gene 1134 1137	Bax
+T36	gene 1204 1213	TNF-alpha
+T37	cellular_component 1243 1256	extracellular
+T38	gene 1291 1295	ERK1
+T39	gene 1303 1306	p38
+T40	gene 1307 1339	mitogen-activated protein kinase
+T41	gene 1341 1345	MAPK
+T42	gene 1348 1355	Insulin
+T43	gene 1367 1370	p70
+T44	cellular_component 1388 1395	nucleus
+T45	gene 1406 1411	BMP-2
+T46	gene 1505 1509	Smad
+T47	cellular_component 1505 1509	Smad
+T48	gene 1628 1633	Mash1
+T49	gene 1635 1640	BMP-2
+T50	cellular_component 1669 1673	Smad
+T51	gene 1669 1673	Smad
+T52	gene 1696 1704	Integrin
+T53	cellular_component 1696 1704	Integrin
+T54	cellular_component 1715 1726	cytoplasmic
+T55	gene 1858 1862	Bmp2
+T56	gene 1863 1867	Smad
+T57	cellular_component 1863 1867	Smad
+T58	gene 1963 1972	TNF-alpha
+T59	gene 1979 1982	Fas
+T60	cellular_component 1983 1991	antibody
+T61	gene 1992 2001	protein G
+T62	gene 2042 2046	Gli3
+T63	cellular_component 2071 2076	Smads
+T64	gene 2071 2076	Smads
+T65	gene 2098 2107	TGF-beta1
+T66	gene 2109 2118	TGF-beta2
+T67	gene 2120 2129	TGF-beta3
+T68	gene 2135 2143	TGF-beta
+T69	gene 2187 2197	N-cadherin
+T70	gene 2206 2217	fibronectin
+T71	gene 2222 2230	tenascin
+T72	gene 2278 2286	TGF-beta
+T73	cellular_component 2362 2382	extracellular matrix
+T74	gene 2457 2477	toll-like receptor 4
+T75	gene 2479 2485	PRAT4A
+T76	cellular_component 2497 2509	cell surface
+T77	gene 2524 2528	TLR4
+T78	cellular_component 2615 2623	membrane
+T79	gene 2745 2771	glutathione S-transferases
+T80	gene 2796 2820	prostaglandin E synthase
+T81	gene 2872 2875	Sit
+T82	cellular_component 2897 2910	mitochondrial
+T83	gene 2991 2994	EGF
+T84	gene 3013 3018	STAT3
+T85	cellular_component 3042 3049	nucleus

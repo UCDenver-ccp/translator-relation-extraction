@@ -1,9 +1,10 @@
-package edu.cuanschutz.ccp.bert_craft;
+package edu.cuanschutz.ccp.bert_craft.used_for_2022_progress_report;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import edu.cuanschutz.ccp.bert_craft.used_for_2022_progress_report.CraftToBertRelationTrainingFile;
 import edu.ucdenver.ccp.nlp.core.annotation.TextAnnotation;
 import edu.ucdenver.ccp.nlp.core.annotation.TextAnnotationFactory;
 

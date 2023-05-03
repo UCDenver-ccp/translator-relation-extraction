@@ -61,16 +61,18 @@ jobs:
       IMAGE_NAME: bluebert-base
       DOCKERFILE: base.Dockerfile
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    # - uses: actions/checkout@v2
+    #   with:
+    #     fetch-depth: 0
+  
 
-      - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v0
-        with:
-          # Replace with your Workload Identity Provider Location
-          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER_LOCATION }}
-          # Replace with your GitHub Service Account
-          service_account: "${{ secrets.SERVICE_ACCOUNT@${{ secrets.GCE_PROJECT }}.iam.gserviceaccount.com"
+    - name: Authenticate to Google Cloud
+      uses: google-github-actions/auth@v0
+      with:
+        workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER_LOCATION }}
+        service_account: "${{ secrets.SERVICE_ACCOUNT@${{ secrets.GCE_PROJECT }}.iam.gserviceaccount.com"
 
     # - uses: actions/checkout@v2
     #   with:

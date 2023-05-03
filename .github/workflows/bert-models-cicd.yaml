@@ -2375,4 +2375,4 @@ jobs:
         #     #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
         #     #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
         #     run: |
-        #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION"
+        #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION" 

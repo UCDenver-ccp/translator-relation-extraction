@@ -2122,126 +2122,126 @@ jobs:
         #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION"
 
 
-        # ----------------------------------------------------------------------------------- #
-        # ----------------------------------------------------------------------------------- #
-        # ----------------------------------------------------------------------------------- #
-        #                        TRAIN CRAFT_RELATIONS MODEL  - INFLUENCES                    #
-        # ----------------------------------------------------------------------------------- #
-        # ----------------------------------------------------------------------------------- #
-        # ----------------------------------------------------------------------------------- #
+        # # ----------------------------------------------------------------------------------- #
+        # # ----------------------------------------------------------------------------------- #
+        # # ----------------------------------------------------------------------------------- #
+        # #                        TRAIN CRAFT_RELATIONS MODEL  - INFLUENCES                    #
+        # # ----------------------------------------------------------------------------------- #
+        # # ----------------------------------------------------------------------------------- #
+        # # ----------------------------------------------------------------------------------- #
         
-        build_push_train-craft_relations_influences-train:
-          name: "build/push/train craft_relations_influences model"
-          # needs: "build_push-bert-base"
-          runs-on: ubuntu-latest
-          env:
-            TASK_NAME: craft_relations_influences
-            DOCKERFILE: train.Dockerfile
-            ENTRYPOINT_FILE: scripts/train.entrypoint.sh
-            BASE_DOCKERFILE: base.Dockerfile
-            DATA_FILE: data/craft_relations/craft_relations_influence/data.tsv
-            MODEL_VERSION_KEY: CRAFT_INFLUENCES
-            AI_PLATFORM_JOB_NAME: "craft_relations_influences_train_${{ github.run_number }}"
-          steps:
-          - name: Checkout repository
-            uses: actions/checkout@v2
+        # build_push_train-craft_relations_influences-train:
+        #   name: "build/push/train craft_relations_influences model"
+        #   # needs: "build_push-bert-base"
+        #   runs-on: ubuntu-latest
+        #   env:
+        #     TASK_NAME: craft_relations_influences
+        #     DOCKERFILE: train.Dockerfile
+        #     ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+        #     BASE_DOCKERFILE: base.Dockerfile
+        #     DATA_FILE: data/craft_relations/craft_relations_influence/data.tsv
+        #     MODEL_VERSION_KEY: CRAFT_INFLUENCES
+        #     AI_PLATFORM_JOB_NAME: "craft_relations_influences_train_${{ github.run_number }}"
+        #   steps:
+        #   - name: Checkout repository
+        #     uses: actions/checkout@v2
 
-          - name: Authenticate to Google Cloud
-            uses: google-github-actions/auth@v0
-            with:
-              workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER_LOCATION }}
-              service_account: "${{ secrets.SERVICE_ACCOUNT }}@${{ secrets.GCE_PROJECT }}.iam.gserviceaccount.com"
+        #   - name: Authenticate to Google Cloud
+        #     uses: google-github-actions/auth@v0
+        #     with:
+        #       workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER_LOCATION }}
+        #       service_account: "${{ secrets.SERVICE_ACCOUNT }}@${{ secrets.GCE_PROJECT }}.iam.gserviceaccount.com"
 
-          - name: Configure Docker Authentication
-            run: |
-              gcloud --quiet auth configure-docker
+        #   - name: Configure Docker Authentication
+        #     run: |
+        #       gcloud --quiet auth configure-docker
       
-          - name: Set MODEL_VERSION env
-            run: |
-              echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+        #   - name: Set MODEL_VERSION env
+        #     run: |
+        #       echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
       
-          - name: Set BASE_VERSION env
-            run: |
-              echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+        #   - name: Set BASE_VERSION env
+        #     run: |
+        #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
       
-          - name: Build Docker Image
-            run: |
-              docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
-                           --build-arg "TASK_NAME=$TASK_NAME" \
-                           --build-arg "BASE_VERSION=$BASE_VERSION" \
-                           --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
-                           --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
-                           -f ${{ env.DOCKERFILE }} .
+        #   - name: Build Docker Image
+        #     run: |
+        #       docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+        #                    --build-arg "TASK_NAME=$TASK_NAME" \
+        #                    --build-arg "BASE_VERSION=$BASE_VERSION" \
+        #                    --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+        #                    --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+        #                    -f ${{ env.DOCKERFILE }} .
       
-          - name: Publish Docker Image to Google Container Registry
-            run: |
-              docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+        #   - name: Publish Docker Image to Google Container Registry
+        #     run: |
+        #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
       
-          - name: Submit a training job to AI Plaform to train and cache the model
-            run: |
-              gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
-              --scale-tier basic_gpu --region "$GCE_REGION" \
-              --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
-              -- \
-              NO_ARG \
-              "gs://$MODEL_STORAGE_BUCKET"
+        #   - name: Submit a training job to AI Plaform to train and cache the model
+        #     run: |
+        #       gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+        #       --scale-tier basic_gpu --region "$GCE_REGION" \
+        #       --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+        #       -- \
+        #       NO_ARG \
+        #       "gs://$MODEL_STORAGE_BUCKET"
       
-          - name: Monitor the training job
-            run: |
-              sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
-            timeout-minutes: 180
+        #   - name: Monitor the training job
+        #     run: |
+        #       sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+        #     timeout-minutes: 180
       
-        # ----------------------------------------------------------------------------------- #
-        #          BUILD/PUSH CRAFT_RELATIONS CLASSIFICATION CONTAINER IMAGE       #
-        # ----------------------------------------------------------------------------------- #
+        # # ----------------------------------------------------------------------------------- #
+        # #          BUILD/PUSH CRAFT_RELATIONS CLASSIFICATION CONTAINER IMAGE       #
+        # # ----------------------------------------------------------------------------------- #
           
-        build_push-craft_relations_influences-predict:
-          name: "build/push craft_relations_influences predict container"
-          needs: "build_push_train-craft_relations_influences-train"
-          runs-on: ubuntu-latest
-          env:
-            TASK_NAME: craft_relations_influences
-            DOCKERFILE: predict.Dockerfile
-            TRAIN_DOCKERFILE: train.Dockerfile
-            TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
-            ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
-            BASE_DOCKERFILE: base.Dockerfile
-            MODEL_VERSION_KEY: CRAFT_INFLUENCES
-            CLASSIFICATION_LABELS: "coexists_as occurrence_or_attribute_or_effect_brought_about_or_carried_out_by occurrence_or_attribute_or_bearer_of_influence_on has_effect_of_causal_activity has_attribute_of_being_agentive_or_causal_or_its_realization_with has_attribute_of_being_influenced_or_its_realization_with false"
-            DATA_FILE: data/craft_relations/craft_relations_influence/data.tsv
-          steps:
-          - name: Checkout repository
-            uses: actions/checkout@v2
+        # build_push-craft_relations_influences-predict:
+        #   name: "build/push craft_relations_influences predict container"
+        #   needs: "build_push_train-craft_relations_influences-train"
+        #   runs-on: ubuntu-latest
+        #   env:
+        #     TASK_NAME: craft_relations_influences
+        #     DOCKERFILE: predict.Dockerfile
+        #     TRAIN_DOCKERFILE: train.Dockerfile
+        #     TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+        #     ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+        #     BASE_DOCKERFILE: base.Dockerfile
+        #     MODEL_VERSION_KEY: CRAFT_INFLUENCES
+        #     CLASSIFICATION_LABELS: "coexists_as occurrence_or_attribute_or_effect_brought_about_or_carried_out_by occurrence_or_attribute_or_bearer_of_influence_on has_effect_of_causal_activity has_attribute_of_being_agentive_or_causal_or_its_realization_with has_attribute_of_being_influenced_or_its_realization_with false"
+        #     DATA_FILE: data/craft_relations/craft_relations_influence/data.tsv
+        #   steps:
+        #   - name: Checkout repository
+        #     uses: actions/checkout@v2
 
-          - name: Authenticate to Google Cloud
-            uses: google-github-actions/auth@v0
-            with:
-              workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER_LOCATION }}
-              service_account: "${{ secrets.SERVICE_ACCOUNT }}@${{ secrets.GCE_PROJECT }}.iam.gserviceaccount.com"
+        #   - name: Authenticate to Google Cloud
+        #     uses: google-github-actions/auth@v0
+        #     with:
+        #       workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER_LOCATION }}
+        #       service_account: "${{ secrets.SERVICE_ACCOUNT }}@${{ secrets.GCE_PROJECT }}.iam.gserviceaccount.com"
       
-          - name: Configure Docker Authentication
-            run: |
-              gcloud --quiet auth configure-docker
+        #   - name: Configure Docker Authentication
+        #     run: |
+        #       gcloud --quiet auth configure-docker
       
-          - name: Set MODEL_VERSION env
-            run: |
-              echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+        #   - name: Set MODEL_VERSION env
+        #     run: |
+        #       echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
       
-          - name: Set BASE_VERSION env
-            run: |
-              echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+        #   - name: Set BASE_VERSION env
+        #     run: |
+        #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
       
-          - name: Build Docker Image
-            run: |
-              docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
-                           --build-arg "TASK_NAME=$TASK_NAME" \
-                           --build-arg "BASE_VERSION=$BASE_VERSION" \
-                           --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
-                           --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
-                           --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
-                           --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION" \
-                           -f ${{ env.DOCKERFILE }} .
+        #   - name: Build Docker Image
+        #     run: |
+        #       docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+        #                    --build-arg "TASK_NAME=$TASK_NAME" \
+        #                    --build-arg "BASE_VERSION=$BASE_VERSION" \
+        #                    --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+        #                    --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+        #                    --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+        #                    --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION" \
+        #                    -f ${{ env.DOCKERFILE }} .
       
-          - name: Publish Docker Image to Google Container Registry
-            run: |
-              docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION" 
+        #   - name: Publish Docker Image to Google Container Registry
+        #     run: |
+        #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION" 

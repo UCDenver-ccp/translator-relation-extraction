@@ -2130,21 +2130,21 @@ jobs:
         # ----------------------------------------------------------------------------------- #
         # ----------------------------------------------------------------------------------- #
         
-        build_push_train-craft_relations_influences-train:
-          name: "build/push/train craft_relations_influences model"
+        build_push_train-craft_influence-train:
+          name: "build/push/train craft_influence model"
           # needs: "build_push-bert-base"
           runs-on: ubuntu-latest
           permissions:
             contents: "read"
             id-token: "write"
           env:
-            TASK_NAME: craft_relations_influences
+            TASK_NAME: craft_influence
             DOCKERFILE: train.Dockerfile
             ENTRYPOINT_FILE: scripts/train.entrypoint.sh
             BASE_DOCKERFILE: base.Dockerfile
-            DATA_FILE: data/craft_relations_influences/data.tsv
+            DATA_FILE: data/craft_influence/data.tsv
             MODEL_VERSION_KEY: CRAFT_INFLUENCES
-            AI_PLATFORM_JOB_NAME: "craft_relations_influences_train_${{ github.run_number }}"
+            AI_PLATFORM_JOB_NAME: "craft_influence_train_${{ github.run_number }}"
           steps:
           - name: Checkout repository
             uses: actions/checkout@v2
@@ -2195,18 +2195,18 @@ jobs:
             timeout-minutes: 180
       
         # # ----------------------------------------------------------------------------------- #
-        # #          BUILD/PUSH CRAFT_RELATIONS CLASSIFICATION CONTAINER IMAGE       #
+        # #          BUILD/PUSH CRAFT_RELATIONS INFLUENCE CLASSIFICATION CONTAINER IMAGE       #
         # # ----------------------------------------------------------------------------------- #
           
-        # build_push-craft_relations_influences-predict:
-        #   name: "build/push craft_relations_influences predict container"
-        #   needs: "build_push_train-craft_relations_influences-train"
+        # build_push-craft_influence-predict:
+        #   name: "build/push craft_influence predict container"
+        #   needs: "build_push_train-craft_influence-train"
         #   runs-on: ubuntu-latest
             # permissions:
             #   contents: "read"
             #   id-token: "write"
         #   env:
-        #     TASK_NAME: craft_relations_influences
+        #     TASK_NAME: craft_influence
         #     DOCKERFILE: predict.Dockerfile
         #     TRAIN_DOCKERFILE: train.Dockerfile
         #     TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
@@ -2214,7 +2214,7 @@ jobs:
         #     BASE_DOCKERFILE: base.Dockerfile
         #     MODEL_VERSION_KEY: CRAFT_INFLUENCES
         #     CLASSIFICATION_LABELS: "coexists_as occurrence_or_attribute_or_effect_brought_about_or_carried_out_by occurrence_or_attribute_or_bearer_of_influence_on has_effect_of_causal_activity has_attribute_of_being_agentive_or_causal_or_its_realization_with has_attribute_of_being_influenced_or_its_realization_with false"
-        #     DATA_FILE: data/craft_relations_influences/data.tsv
+        #     DATA_FILE: data/craft_influence/data.tsv
         #   steps:
         #   - name: Checkout repository
         #     uses: actions/checkout@v2

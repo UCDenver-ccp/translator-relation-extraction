@@ -2142,7 +2142,7 @@ jobs:
             DOCKERFILE: train.Dockerfile
             ENTRYPOINT_FILE: scripts/train.entrypoint.sh
             BASE_DOCKERFILE: base.Dockerfile
-            DATA_FILE: data/craft_relations/craft_relations_influence/data.tsv
+            DATA_FILE: data/craft_relations_influences/data.tsv
             MODEL_VERSION_KEY: CRAFT_INFLUENCES
             AI_PLATFORM_JOB_NAME: "craft_relations_influences_train_${{ github.run_number }}"
           steps:
@@ -2214,7 +2214,7 @@ jobs:
         #     BASE_DOCKERFILE: base.Dockerfile
         #     MODEL_VERSION_KEY: CRAFT_INFLUENCES
         #     CLASSIFICATION_LABELS: "coexists_as occurrence_or_attribute_or_effect_brought_about_or_carried_out_by occurrence_or_attribute_or_bearer_of_influence_on has_effect_of_causal_activity has_attribute_of_being_agentive_or_causal_or_its_realization_with has_attribute_of_being_influenced_or_its_realization_with false"
-        #     DATA_FILE: data/craft_relations/craft_relations_influence/data.tsv
+        #     DATA_FILE: data/craft_relations_influences/data.tsv
         #   steps:
         #   - name: Checkout repository
         #     uses: actions/checkout@v2

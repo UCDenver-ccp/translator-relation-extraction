@@ -34,8 +34,11 @@ import edu.ucdenver.ccp.nlp.core.mention.impl.DefaultClassMention;
 import lombok.Data;
 
 /**
- * This code parses annotations from a pre-release of CRAFT and creates
- * training/testing data to use for training BERT models.
+ * This code parses annotations from a pre-release of CRAFT and serializes the
+ * relations in a format to be used by code in the Java 17 eclipse. This version
+ * is able to parse the XML but not use the graph library, while the Java 17
+ * version can use the grpah library but not parse the XML so we have created an
+ * intermediate file format.
  *
  */
 public class CraftToBertRelationTrainingFile {

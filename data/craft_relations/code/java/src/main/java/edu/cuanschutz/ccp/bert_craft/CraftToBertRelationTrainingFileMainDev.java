@@ -68,7 +68,7 @@ public class CraftToBertRelationTrainingFileMainDev {
 		return relations;
 	}
 
-	private static String removeNamespace(String iri) {
+	public static String removeNamespace(String iri) {
 		if (iri.startsWith(CCP_EXT_NS)) {
 			return StringUtils.removePrefix(iri, CCP_EXT_NS);
 		} else if (iri.startsWith(OBO_NS)) {

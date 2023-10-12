@@ -2336,9 +2336,9 @@ jobs:
           name: "build/push craft_pr_uberon predict container"
           # needs: "build_push_train-craft_pr_uberon-train"
           runs-on: ubuntu-latest
-            permissions:
-              contents: "read"
-              id-token: "write"
+          permissions:
+            contents: "read"
+            id-token: "write"
           env:
             TASK_NAME: craft_pr_uberon
             DOCKERFILE: predict.Dockerfile

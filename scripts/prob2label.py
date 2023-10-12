@@ -29,11 +29,11 @@ elif model_key == 'bl_gene_loss_gain_of_function_to_disease':
 elif model_key == 'bl_gene_to_expression_site':
     labels[0]="expressed_in"
     labels[1]="false"
-elif model_key == 'three_label':
+elif model_key == 'craft_pr_uberon':
     labels[0]="label1"
     labels[1]="label2"
     labels[2]="false"
-elif model_key == 'two_label':
+elif model_key == 'craft_pr_taxon':
     labels[0]="label1"
     labels[2]="false"
 elif model_key == 'craft_relations':

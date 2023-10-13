@@ -35,6 +35,7 @@ elif model_key == 'craft_pr_uberon':
     labels[2]="false"
 elif model_key == 'craft_pr_taxon':
     labels[0]="label1"
+    labels[1]="label2"
     labels[2]="false"
 elif model_key == 'craft_relations':
     labels[0]="bears_constitution_of_or_situatedness_at_or_possession_by_or_derivation_from"

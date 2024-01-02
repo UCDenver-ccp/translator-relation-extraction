@@ -112,3 +112,73 @@ T111	anatomical_site 2704 2708	body
 T112	anatomical_site 2709 2712	fat
 T113	gene 2722 2729	insulin
 T114	gene 2740 2747	insulin
+T117	corrected_anatomical_site 135 147	liver tissue
+R3	located_in Arg1:T5 Arg2:T117	
+R4	located_in Arg1:T6 Arg2:T117	
+T119	missed_anatomical_site 173 178	brain
+R6	located_in Arg1:T10 Arg2:T119	
+R7	located_in Arg1:T11 Arg2:T119	
+R8	located_in Arg1:T13 Arg2:T12	
+T120	missed_gene 336 342	RTP801
+T121	corrected_anatomical_site 392 404	brain tissue
+R9	located_in Arg1:T120 Arg2:T121	
+R11	located_in Arg1:T26 Arg2:T25	
+R12	located_in Arg1:T28 Arg2:T27	
+R13	located_in Arg1:T34 Arg2:T36	
+R14	located_in Arg1:T35 Arg2:T36	
+T123	missed_anatomical_site 933 939	plasma
+R15	located_in Arg1:T37 Arg2:T123	
+R16	located_in Arg1:T38 Arg2:T123	
+R17	located_in Arg1:T39 Arg2:T123	
+R18	located_in Arg1:T40 Arg2:T123	
+R19	located_in Arg1:T41 Arg2:T123	
+R20	located_in Arg1:T44 Arg2:T45	
+T124	missed_gene 1096 1102	Acrp30
+R21	located_in Arg1:T124 Arg2:T45	
+R22	located_in Arg1:T44 Arg2:T46	
+R23	located_in Arg1:T124 Arg2:T46	
+R24	located_in Arg1:T47 Arg2:T46	
+T125	corrected_anatomical_site 1339 1344;1360 1371	brain hippocampus
+T126	corrected_gene 1288 1302	calbindin-D28k
+R25	located_in Arg1:T126 Arg2:T125	
+R26	located_in Arg1:T50 Arg2:T125	
+R27	located_in Arg1:T51 Arg2:T125	
+T127	corrected_anatomical_site 1609 1629	oviductal mesenchyme
+R28	located_in Arg1:T62 Arg2:T127	
+T128	corrected_anatomical_site 2162 2184	omental adipose tissue
+R29	located_in Arg1:T88 Arg2:T128	
+T129	missed_gene 2138 2143	Nampt
+R30	located_in Arg1:T129 Arg2:T128	
+R31	located_in Arg1:T88 Arg2:T90	
+R32	located_in Arg1:T129 Arg2:T90	
+T130	corrected_anatomical_site 2225 2250	mesenteric adipose tissue
+R33	located_in Arg1:T91 Arg2:T130	
+R36	located_in Arg1:T98 Arg2:T97	
+T132	corrected_anatomical_site 2511 2523	brain tissue
+T133	corrected_anatomical_site 2467 2479	heart tissue
+R37	located_in Arg1:T99 Arg2:T100	
+T134	corrected_gene 2404 2409;2412 2413	Agpat 3
+T135	corrected_gene 2404 2409;2415 2416	Agpat 4
+T136	corrected_gene 2404 2409;2422 2423	Agpat 5
+R38	located_in Arg1:T134 Arg2:T100	
+R39	located_in Arg1:T135 Arg2:T100	
+R40	located_in Arg1:T136 Arg2:T100	
+T137	corrected_gene 2451 2456;2462 2463	Agpat 3
+R41	located_in Arg1:T101 Arg2:T133	
+R42	located_in Arg1:T137 Arg2:T133	
+R43	located_in Arg1:T104 Arg2:T132	
+T138	corrected_gene 2485 2490;2493 2494	Agpat 2
+T139	corrected_gene 2485 2490;2500 2501	Agpat 3
+R44	located_in Arg1:T104 Arg2:T132	
+R45	located_in Arg1:T138 Arg2:T132	
+R46	located_in Arg1:T139 Arg2:T132	
+R47	located_in Arg1:T108 Arg2:T107	
+R5	located_in Arg1:T22 Arg2:T24	
+T118	corrected_anatomical_site 1421 1449;1459 1466	frontonasal surface ectoderm embryos
+R10	located_in Arg1:T54 Arg2:T118	
+T122	corrected_anatomical_site 2271 2284	kidney tissue
+R34	located_in Arg1:T95 Arg2:T122	
+R35	located_in Arg1:T96 Arg2:T122	
+T115	corrected_gene 14 18	DSP1
+R1	located_in Arg1:T115 Arg2:T3	
+R2	located_in Arg1:T115 Arg2:T4	

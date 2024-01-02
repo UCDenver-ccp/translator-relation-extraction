@@ -43,7 +43,6 @@ T42	chemical 2554 2573	adenosine phosphate
 T43	chemical 2633 2640	protein
 T44	chemical 2731 2735	urea
 T45	disease_or_phenotypic_feature 2731 2750	urea cycle disorder
-T46	corrected_disease_or_phenotypic_feature 2893 2927	non-metastatic soft tissue sarcoma
 T47	disease_or_phenotypic_feature 2908 2927	soft tissue sarcoma
 T48	chemical 2983 2994	doxorubicin
 T49	chemical 2999 3009	ifosfamide
@@ -70,10 +69,23 @@ T69	chemical 4060 4069	nutrients
 T70	disease_or_phenotypic_feature 4091 4107	diabetes-related
 T71	disease_or_phenotypic_feature 4145 4158	Hydrogen-Rich
 T72	chemical 4159 4164	Water
-R1	treats Arg1:T49 Arg2:T46
+R1	treats Arg1:T49 Arg2:T47
 R2	treats Arg1:T19 Arg2:T21
 R3	treats Arg1:T69 Arg2:T68
-R4	treats Arg1:T48 Arg2:T46
+R4	treats Arg1:T48 Arg2:T47
 R5	treats Arg1:T5 Arg2:T7
-T73	corrected_disease_or_phenotypic_feature 4091 4099	diabetes
+T73	corrected_disease_or_phenotypic_feature 4091 4116	diabetes-related outcomes
 R6	treats Arg1:T69 Arg2:T73	
+T74	corrected_chemical 1037 1102	inhibitors against known H3K9 methyltransferases and demethylases
+R7	treats Arg1:T74 Arg2:T14	
+T75	corrected_chemical 3495 3506	lactoferrin
+T76	missed_disease_or_phenotypic_feature 3515 3518	NEC
+R8	treats Arg1:T75 Arg2:T76	
+R9	treats Arg1:T75 Arg2:T60	
+T77	missed_chemical 4074 4079	foods
+R10	treats Arg1:T77 Arg2:T68	
+R11	treats Arg1:T77 Arg2:T73	
+T46	missed_chemical 3958 3974	hypocaloric diet
+R12	treats Arg1:T46 Arg2:T68	
+T78	missed_disease_or_phenotypic_feature 3988 4001	normal weight
+R13	causes_or_contributes_to Arg1:T46 Arg2:T78	

@@ -100,3 +100,92 @@ T99	gene 2884 2887	p53
 T100	gene 2889 2892	p21
 T101	gene 2897 2902	bcl-2
 T102	anatomical_site 2919 2923	lung
+T103	corrected_anatomical_site 160 185	mesenteric adipose tissue
+R1	located_in Arg1:T1 Arg2:T4	
+R2	located_in Arg1:T1 Arg2:T103	
+R3	located_in Arg1:T2 Arg2:T4	
+R4	located_in Arg1:T2 Arg2:T103	
+R5	located_in Arg1:T3 Arg2:T4	
+R6	located_in Arg1:T3 Arg2:T103	
+R7	located_in Arg1:T8 Arg2:T7	
+R8	located_in Arg1:T9 Arg2:T11	
+#1	AnnotatorNotes R8	Okay?
+R9	located_in Arg1:T19 Arg2:T20	
+R10	located_in Arg1:T18 Arg2:T20	
+R11	located_in Arg1:T17 Arg2:T20	
+R12	located_in Arg1:T16 Arg2:T20	
+R13	located_in Arg1:T23 Arg2:T22	
+R14	located_in Arg1:T24 Arg2:T22	
+R15	located_in Arg1:T25 Arg2:T27	
+R16	located_in Arg1:T26 Arg2:T27	
+R17	located_in Arg1:T26 Arg2:T28	
+R18	located_in Arg1:T25 Arg2:T28	
+R19	located_in Arg1:T25 Arg2:T29	
+R20	located_in Arg1:T26 Arg2:T29	
+R21	located_in Arg1:T36 Arg2:T37	
+R22	located_in Arg1:T35 Arg2:T37	
+R23	located_in Arg1:T34 Arg2:T37	
+R24	located_in Arg1:T33 Arg2:T37	
+R25	located_in Arg1:T32 Arg2:T37	
+R26	located_in Arg1:T31 Arg2:T37	
+R27	located_in Arg1:T30 Arg2:T37	
+R28	located_in Arg1:T39 Arg2:T38	
+R29	located_in Arg1:T40 Arg2:T38	
+R30	located_in Arg1:T41 Arg2:T38	
+R31	located_in Arg1:T42 Arg2:T38	
+T104	missed_gene 1266 1292	bone morphogenetic protein
+R32	located_in Arg1:T104 Arg2:T44	
+R33	located_in Arg1:T45 Arg2:T44	
+R34	located_in Arg1:T104 Arg2:T46	
+R35	located_in Arg1:T45 Arg2:T46	
+T105	missed_gene 1570 1573	AFP
+R36	located_in Arg1:T105 Arg2:T50	
+R37	located_in Arg1:T51 Arg2:T50	
+R38	located_in Arg1:T52 Arg2:T50	
+R39	located_in Arg1:T54 Arg2:T53	
+R40	located_in Arg1:T55 Arg2:T53	
+T106	missed_gene 1619 1622	ASA
+R41	located_in Arg1:T106 Arg2:T53	
+T107	missed_gene 1639 1652	cytokeratin 8
+T108	missed_gene 1657 1661	NF68
+R42	located_in Arg1:T107 Arg2:T56	
+R43	located_in Arg1:T108 Arg2:T56	
+T109	corrected_anatomical_site 1760 1781	mammary gland tissues
+R44	located_in Arg1:T58 Arg2:T109	
+R45	located_in Arg1:T57 Arg2:T109	
+T110	missed_gene 1699 1710	bta-miR-152
+R46	located_in Arg1:T110 Arg2:T109	
+T111	corrected_anatomical_site 1971 1982	claw muscle
+R47	located_in Arg1:T66 Arg2:T111	
+R48	located_in Arg1:T68 Arg2:T70	
+R49	located_in Arg1:T69 Arg2:T70	
+T112	corrected_anatomical_site 2119 2144	midbrain-hindbrain border
+#2	AnnotatorNotes T112	do we mark it? 
+R50	located_in Arg1:T71 Arg2:T112	
+#3	AnnotatorNotes R50	Okay?
+T113	corrected_anatomical_site 2225 2245	vascular endothelium
+R51	located_in Arg1:T74 Arg2:T76	
+R52	located_in Arg1:T74 Arg2:T113	
+R53	located_in Arg1:T74 Arg2:T79	
+R54	located_in Arg1:T75 Arg2:T76	
+R55	located_in Arg1:T75 Arg2:T113	
+R56	located_in Arg1:T75 Arg2:T79	
+R57	located_in Arg1:T80 Arg2:T86	
+R58	located_in Arg1:T81 Arg2:T86	
+R59	located_in Arg1:T82 Arg2:T86	
+R60	located_in Arg1:T83 Arg2:T86	
+R61	located_in Arg1:T84 Arg2:T86	
+R62	located_in Arg1:T85 Arg2:T86	
+T114	corrected_gene 2474 2499	laminin/collagen receptor
+R63	located_in Arg1:T114 Arg2:T89	
+R64	located_in Arg1:T88 Arg2:T89	
+R65	located_in Arg1:T88 Arg2:T90	
+R66	located_in Arg1:T114 Arg2:T90	
+T115	corrected_anatomical_site 2582 2590;2645 2651	cervical tissue
+R67	located_in Arg1:T91 Arg2:T115	
+R68	located_in Arg1:T94 Arg2:T115	
+T116	missed_gene 2758 2773	serum amyloid A
+R69	located_in Arg1:T116 Arg2:T97	
+R70	located_in Arg1:T101 Arg2:T102	
+R71	located_in Arg1:T100 Arg2:T102	
+R72	located_in Arg1:T99 Arg2:T102	

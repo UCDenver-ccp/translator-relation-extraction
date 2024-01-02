@@ -15,7 +15,6 @@ T14	disease_or_phenotypic_feature 709 728	Fatty Liver Disease
 T15	disease_or_phenotypic_feature 787 795	Diseases
 T16	chemical 867 874	antigen
 T17	chemical 911 922	abiraterone
-T18	corrected_disease_or_phenotypic_feature 1002 1036	castrate-resistant prostate cancer
 T19	disease_or_phenotypic_feature 1021 1036	prostate cancer
 T20	chemical 1224 1242	anti-citrullinated
 T21	chemical 1243 1250	peptide
@@ -30,7 +29,6 @@ T29	disease_or_phenotypic_feature 1777 1794	cold-acclimatised
 T30	chemical 1843 1848	water
 T31	chemical 1948 1956	estrogen
 T32	disease_or_phenotypic_feature 1987 2000	breast cancer
-T33	missed_chemical 2057 2060	S-1
 T34	chemical 2061 2069	adjuvant
 T35	disease_or_phenotypic_feature 2091 2100	mucositis
 T36	missed_chemical 2119 2123	Drug
@@ -63,14 +61,12 @@ T62	disease_or_phenotypic_feature 3805 3812	(L-SaO2
 T63	disease_or_phenotypic_feature 3941 3947	cancer
 T64	chemical 4016 4019	DNA
 R1	treats Arg1:T28 Arg2:T26
-R2	causes_or_contributes_to Arg1:T33 Arg2:T35
 R3	treats Arg1:T36 Arg2:T39
 R4	causes_or_contributes_to Arg1:T36 Arg2:T37
 R5	causes_or_contributes_to Arg1:T43 Arg2:T45
 R6	causes_or_contributes_to Arg1:T43 Arg2:T47
 R7	causes_or_contributes_to Arg1:T44 Arg2:T45
 R8	causes_or_contributes_to Arg1:T44 Arg2:T47
-R9	treats Arg1:T17 Arg2:T18
 R10	treats Arg1:T38 Arg2:T39
 R11	causes_or_contributes_to Arg1:T38 Arg2:T37
 T65	corrected_disease_or_phenotypic_feature 2875 2885	depression
@@ -79,3 +75,10 @@ T67	corrected_chemical 2898 2912	antidepressant
 T68	corrected_chemical 2913 2923	anxiolytic
 R12	treats Arg1:T67 Arg2:T65	
 R13	treats Arg1:T68 Arg2:T66	
+T69	corrected_chemical 2057 2069	S-1 adjuvant
+R2	causes_or_contributes_to Arg1:T69 Arg2:T35	
+R14	causes_or_contributes_to Arg1:T2 Arg2:T1	
+R9	treats Arg1:T17 Arg2:T19	
+T18	corrected_chemical 1598 1621	synthetic nanoparticles
+R15	treats Arg1:T18 Arg2:T26	
+R16	treats Arg1:T36 Arg2:T37	

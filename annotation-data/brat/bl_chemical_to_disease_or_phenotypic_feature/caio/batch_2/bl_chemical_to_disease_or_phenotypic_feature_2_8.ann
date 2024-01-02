@@ -20,7 +20,7 @@ T19	chemical 717 725	propofol
 T20	chemical 726 736	anesthesia
 T21	chemical 751 761	desflurane
 T22	chemical 762 772	anesthesia
-T23	chemical 774 786	Somatostatin
+T23	chemical 774 794	Somatostatin analogs
 T24	chemical 799 816	dopamine agonists
 T25	disease_or_phenotypic_feature 872 888	pituitary tumors
 T26	chemical 898 912	growth hormone
@@ -64,8 +64,7 @@ T63	chemical 2275 2283	hormones
 T64	chemical 2285 2291	leptin
 R1	treats Arg1:T1 Arg2:T2	
 R2	causes_or_contributes_to Arg1:T5 Arg2:T3	
-T65	corrected_disease_or_phenotypic_feature 288 308	drug-induced obesity
-R3	causes_or_contributes_to Arg1:T7 Arg2:T65	
+R3	causes_or_contributes_to Arg1:T7 Arg2:T8	
 R5	causes_or_contributes_to Arg1:T12 Arg2:T13	
 R6	treats Arg1:T23 Arg2:T25	
 R7	treats Arg1:T24 Arg2:T25	
@@ -77,9 +76,19 @@ T69	missed_disease_or_phenotypic_feature 1061 1070	hypotonia
 T70	missed_disease_or_phenotypic_feature 1123 1142	ketolactic acidosis
 T71	missed_disease_or_phenotypic_feature 1144 1160	organic aciduria
 T72	missed_disease_or_phenotypic_feature 1170 1189	fetal malformations
-T73	missed_disease_or_phenotypic_feature 1633 1646	vascular risk
+T73	missed_disease_or_phenotypic_feature 1633 1670	vascular risk associated with obesity
 R19	causes_or_contributes_to Arg1:T44 Arg2:T73	
 T74	DONE 2293 2297	DONE
 R20	causes_or_contributes_to Arg1:T10 Arg2:T9	
-T75	corrected_disease_or_phenotypic_feature 359 383	androgen-dependent tumor
+T75	corrected_disease_or_phenotypic_feature 378 383	tumor
 R4	causes_or_contributes_to Arg1:T10 Arg2:T75	
+R10	treats Arg1:T24 Arg2:T68	
+R11	treats Arg1:T24 Arg2:T67	
+R12	causes_or_contributes_to Arg1:T43 Arg2:T73	
+T66	missed_chemical 466 479	immunotherapy
+R13	treats Arg1:T66 Arg2:T14	
+T65	corrected_chemical 169 184	anticancer drug
+R14	causes_or_contributes_to Arg1:T65 Arg2:T3	
+T76	missed_disease_or_phenotypic_feature 149 161	side effects
+R15	causes_or_contributes_to Arg1:T65 Arg2:T76	
+T77	chemical 774 786	Somatostatin

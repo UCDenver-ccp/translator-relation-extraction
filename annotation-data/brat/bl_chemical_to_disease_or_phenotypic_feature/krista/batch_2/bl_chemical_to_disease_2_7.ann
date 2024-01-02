@@ -27,7 +27,6 @@ T26	chemical 1619 1623	mRNA
 T27	chemical 1628 1635	protein
 T28	disease_or_phenotypic_feature 1733 1739	injury
 T29	chemical 1847 1857	eplerenone
-T30	corrected_disease_or_phenotypic_feature 1875 1915	chronic central serous chorioretinopathy
 T31	disease_or_phenotypic_feature 1883 1915	central serous chorioretinopathy
 T32	chemical 1982 1986	CGRP
 T33	disease_or_phenotypic_feature 2019 2027	Migraine
@@ -52,12 +51,10 @@ T51	disease_or_phenotypic_feature 3316 3321	tumor
 T52	disease_or_phenotypic_feature 3360 3365	tumor
 T53	chemical 3392 3408	immunomodulation
 T54	chemical 3413 3417	drug
-T55	chemical 3516 3529	antibody-drug
 T56	disease_or_phenotypic_feature 3573 3595	acute myeloid leukemia
 T57	disease_or_phenotypic_feature 3597 3601	AML)
 T58	corrected_chemical 3666 3689	Topical Corticosteroids
 T59	chemical 3674 3689	Corticosteroids
-T60	corrected_disease_or_phenotypic_feature 3718 3745	Childhood Atopic Dermatitis
 T61	disease_or_phenotypic_feature 3728 3745	Atopic Dermatitis
 R1	treats Arg1:T1 Arg2:T4
 R2	treats Arg1:T1 Arg2:T3
@@ -66,29 +63,39 @@ R4	treats Arg1:T2 Arg2:T4
 R5	treats Arg1:T36 Arg2:T37
 R6	treats Arg1:T22 Arg2:T23
 R7	treats Arg1:T21 Arg2:T23
-R8	treats Arg1:T58 Arg2:T60
-R9	treats Arg1:T29 Arg2:T30
+R8	treats Arg1:T58 Arg2:T61
 R10	treats Arg1:T54 Arg2:T51
 T62	corrected_chemical 1090 1114	neuraminidase inhibitors
 T63	corrected_chemical 1176 1180	drug
 T64	corrected_disease_or_phenotypic_feature 1223 1234	influenza B
 T65	corrected_disease_or_phenotypic_feature 1261 1270	influenza
 T66	missed_chemical 1126 1135	compounds
-T67	missed_disease_or_phenotypic_feature 1176 1202	drug-resistant influenza A
 R11	treats Arg1:T62 Arg2:T18	
-R12	treats Arg1:T66 Arg2:T18	
-R13	treats Arg1:T66 Arg2:T67	
+R13	treats Arg1:T66 Arg2:T18	
 R14	treats Arg1:T66 Arg2:T64	
-R15	treats Arg1:T66 Arg2:T65	
 T68	corrected_chemical 2971 2981	dabrafenib
 R16	treats Arg1:T68 Arg2:T46	
-T69	corrected_chemical 3525 3529	drug
-T70	missed_chemical 3458 3468	ozogamicin
-T71	corrected_disease_or_phenotypic_feature 3559 3595	CD33-positive acute myeloid leukemia
-R17	treats Arg1:T70 Arg2:T71	
-R18	treats Arg1:T69 Arg2:T71	
+T69	corrected_chemical 3516 3539	antibody-drug conjugate
+T70	missed_chemical 3447 3468	Gemtuzumab ozogamicin
 R19	treats Arg1:T69 Arg2:T56	
 T72	corrected_disease_or_phenotypic_feature 3597 3600	AML
 R20	treats Arg1:T69 Arg2:T72	
 R21	treats Arg1:T70 Arg2:T56	
 R22	treats Arg1:T70 Arg2:T72	
+R23	causes_or_contributes_to Arg1:T14 Arg2:T15	
+R24	treats Arg1:T63 Arg2:T18	
+R12	treats Arg1:T66 Arg2:T65	
+R15	treats Arg1:T62 Arg2:T65	
+R25	treats Arg1:T62 Arg2:T64	
+T30	missed_chemical 3695 3714	Vehicle/Moisturizer
+R17	treats Arg1:T30 Arg2:T61	
+T55	missed_disease_or_phenotypic_feature 1240 1257	improved survival
+R18	causes_or_contributes_to Arg1:T66 Arg2:T55	
+T60	missed_chemical 1797 1807	etanercept
+T67	corrected_disease_or_phenotypic_feature 1714 1739	penetrating ocular injury
+R26	treats Arg1:T60 Arg2:T67	
+T71	corrected_chemical 2749 2817	Supramolecular Nanorods of (N-Methylpyridyl) Porphyrin With Captisol
+T73	missed_disease_or_phenotypic_feature 2849 2863	Anti-bacterial
+R27	causes_or_contributes_to Arg1:T71 Arg2:T73	
+R28	causes_or_contributes_to Arg1:T71 Arg2:T44	
+T74	chemical 3516 3529	antibody-drug

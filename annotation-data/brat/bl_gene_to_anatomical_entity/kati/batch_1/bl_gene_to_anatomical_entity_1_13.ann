@@ -25,7 +25,7 @@ T24	anatomical_site 573 576	fat
 T25	gene 583 590	Tuberin
 T26	gene 603 607	OGG1
 T27	anatomical_site 655 668	kidney cortex
-T28	anatomical_site 677 684	medulla
+T28	corrected_anatomical_site 655 661;677 684	kidney medulla
 T29	anatomical_site 688 695	papilla
 T30	gene 756 760	Nogo
 T31	gene 764 794	myelin associated glycoprotein
@@ -105,3 +105,74 @@ T104	gene 2563 2587	tumor suppressor protein
 T105	gene 2588 2591	p53
 T106	anatomical_site 2617 2635	epithelial tissues
 T107	anatomical_site 2651 2660	epidermis
+R1	located_in Arg1:T11 Arg2:T12	
+R2	located_in Arg1:T11 Arg2:T13	
+R3	located_in Arg1:T14 Arg2:T15	
+R4	located_in Arg1:T14 Arg2:T16	
+R5	located_in Arg1:T10 Arg2:T12	
+R6	located_in Arg1:T10 Arg2:T13	
+R7	located_in Arg1:T10 Arg2:T16	
+T108	missed_gene 399 405	Mrps 1
+T109	missed_gene 399 403;406 407	Mrps 5
+R8	located_in Arg1:T108 Arg2:T18	
+R9	located_in Arg1:T109 Arg2:T18	
+T110	missed_gene 488 492	Ntcp
+R10	located_in Arg1:T110 Arg2:T23	
+R11	located_in Arg1:T20 Arg2:T23	
+R12	located_in Arg1:T21 Arg2:T23	
+R13	located_in Arg1:T25 Arg2:T27	
+T111	anatomical_site 677 684	medulla
+T112	corrected_anatomical_site 655 661;688 695	kidney papilla
+R14	located_in Arg1:T26 Arg2:T27	
+R15	located_in Arg1:T25 Arg2:T28	
+R16	located_in Arg1:T26 Arg2:T28	
+R17	located_in Arg1:T25 Arg2:T112	
+R18	located_in Arg1:T26 Arg2:T112	
+T113	corrected_gene 756 762	Nogo-A
+R19	located_in Arg1:T113 Arg2:T33	
+R20	located_in Arg1:T31 Arg2:T33	
+R21	located_in Arg1:T32 Arg2:T33	
+R22	located_in Arg1:T38 Arg2:T40	
+T114	corrected_anatomical_site 965 984	neural plate border
+R23	located_in Arg1:T38 Arg2:T114	
+T115	missed_gene 1310 1314	ID-I
+R24	located_in Arg1:T115 Arg2:T47	
+R25	located_in Arg1:T115 Arg2:T48	
+R26	located_in Arg1:T115 Arg2:T49	
+T116	missed_gene 1472 1476	aPKC
+T117	corrected_anatomical_site 1448 1466	palatal epithelium
+T118	corrected_anatomical_site 1498 1516	palatal epithelium
+T119	corrected_anatomical_site 1498 1505;1521 1531	palatal mesenchyme
+R27	located_in Arg1:T54 Arg2:T117	
+R28	located_in Arg1:T55 Arg2:T117	
+R29	located_in Arg1:T116 Arg2:T118	
+R30	located_in Arg1:T116 Arg2:T119	
+T120	corrected_gene 1584 1588;1599 1607	PTH1 receptor
+R31	located_in Arg1:T120 Arg2:T65	
+R32	located_in Arg1:T120 Arg2:T66	
+R33	located_in Arg1:T64 Arg2:T65	
+R34	located_in Arg1:T64 Arg2:T66	
+R35	located_in Arg1:T83 Arg2:T82	
+R36	located_in Arg1:T91 Arg2:T92	
+T121	corrected_gene 2306 2331	amyloid precursor protein
+R37	located_in Arg1:T121 Arg2:T94	
+R38	located_in Arg1:T121 Arg2:T95	
+R39	located_in Arg1:T98 Arg2:T97	
+R40	located_in Arg1:T99 Arg2:T97	
+R41	located_in Arg1:T100 Arg2:T97	
+T122	missed_gene 2488 2517	vasoactive intestinal peptide
+R42	located_in Arg1:T122 Arg2:T97	
+R43	located_in Arg1:T101 Arg2:T97	
+R44	located_in Arg1:T102 Arg2:T106	
+R45	located_in Arg1:T103 Arg2:T106	
+R46	located_in Arg1:T102 Arg2:T107	
+R47	located_in Arg1:T103 Arg2:T107	
+T123	missed_gene 894 909	myelin proteins
+R48	located_in Arg1:T123 Arg2:T35	
+R49	located_in Arg1:T46 Arg2:T47	
+R50	located_in Arg1:T46 Arg2:T48	
+R51	located_in Arg1:T46 Arg2:T49	
+R52	located_in Arg1:T50 Arg2:T51	
+T124	corrected_anatomical_site 1381 1392	fetal brain
+R53	located_in Arg1:T50 Arg2:T124	
+R54	located_in Arg1:T50 Arg2:T53	

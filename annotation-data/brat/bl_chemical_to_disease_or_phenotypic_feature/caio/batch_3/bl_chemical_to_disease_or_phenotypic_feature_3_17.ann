@@ -76,7 +76,6 @@ R1	treats Arg1:T15 Arg2:T14
 R2	treats Arg1:T15 Arg2:T13	
 R3	treats Arg1:T15 Arg2:T12	
 R4	treats Arg1:T15 Arg2:T11	
-R7	treats Arg1:T42 Arg2:T44	
 T75	corrected_chemical 1559 1574	sodium-selenite
 R8	causes_or_contributes_to Arg1:T75 Arg2:T44	
 T76	corrected_chemical 1640 1653	ACE inhibitor
@@ -90,13 +89,6 @@ R13	treats Arg1:T54 Arg2:T56
 R14	causes_or_contributes_to Arg1:T61 Arg2:T60	
 R15	treats Arg1:T63 Arg2:T62	
 R16	treats Arg1:T72 Arg2:T73	
-R5	treats Arg1:T25 Arg2:T24	
-T79	missed_chemical 935 937	OE
-R6	treats Arg1:T79 Arg2:T24	
-T80	missed_chemical 843 877	grapeseed proanthocyanidin extract
-T81	missed_chemical 879 883	GSPE
-R17	treats Arg1:T80 Arg2:T22	
-R18	treats Arg1:T81 Arg2:T22	
 T82	missed_chemical 1147 1165	methylcholanthrene
 T83	missed_disease_or_phenotypic_feature 1191 1196	tumor
 T84	missed_chemical 1167 1170	MCA
@@ -105,3 +97,6 @@ R20	causes_or_contributes_to Arg1:T84 Arg2:T83
 R21	treats Arg1:T57 Arg2:T59	
 T85	corrected_chemical 2041 2055	ACE inhibitors
 R22	treats Arg1:T85 Arg2:T59	
+R23	treats Arg1:T64 Arg2:T65	
+R5	treats Arg1:T55 Arg2:T56	
+R6	causes_or_contributes_to Arg1:T74 Arg2:T73	

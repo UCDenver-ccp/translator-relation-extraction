@@ -1,7 +1,6 @@
 T1	chemical 11 20	Cisplatin
 T2	disease_or_phenotypic_feature 70 85	Cervical Cancer
 T3	chemical 116 120	drug
-T4	corrected_disease_or_phenotypic_feature 173 212	multiple drug hypersensitivity syndrome
 T5	chemical 182 186	drug
 T6	disease_or_phenotypic_feature 182 212	drug hypersensitivity syndrome
 T7	chemical 326 333	alcohol
@@ -31,7 +30,6 @@ T30	chemical 1666 1672	barium
 T31	corrected_chemical 1666 1681	barium sulphate
 T32	chemical 1746 1755	inhibitor
 T33	disease_or_phenotypic_feature 1764 1771	disease
-T34	corrected_chemical 1764 1801	disease modifying antirheumatic drugs
 T35	chemical 1782 1801	antirheumatic drugs
 T36	missed_chemical 1803 1809	DMARDs
 T37	chemical 1814 1829	corticosteroids
@@ -69,20 +67,43 @@ T68	chemical 3436 3446	open-label
 T69	disease_or_phenotypic_feature 3518 3523	BPDCN
 R1	treats Arg1:T10 Arg2:T11
 R2	treats Arg1:T10 Arg2:T12
-R3	treats Arg1:T34 Arg2:T33
 R4	causes_or_contributes_to Arg1:T31 Arg2:T28
 R5	treats Arg1:T1 Arg2:T2
-R6	causes_or_contributes_to Arg1:T3 Arg2:T4
+R6	causes_or_contributes_to Arg1:T3 Arg2:T75
 R7	treats Arg1:T36 Arg2:T33
-R8	causes_or_contributes_to Arg1:T5 Arg2:T4
 T70	missed_disease_or_phenotypic_feature 214 217	MDH
 R9	causes_or_contributes_to Arg1:T3 Arg2:T70	
 R10	causes_or_contributes_to Arg1:T5 Arg2:T70	
 T71	corrected_disease_or_phenotypic_feature 326 347	alcohol use disorders
 T72	missed_disease_or_phenotypic_feature 349 352	AUD
-R11	causes_or_contributes_to Arg1:T7 Arg2:T71	
 R12	causes_or_contributes_to Arg1:T7 Arg2:T72	
 T73	corrected_chemical 2807 2811	drug
 R13	treats Arg1:T73 Arg2:T54	
 T74	missed_disease_or_phenotypic_feature 1598 1654	complication of upper gastrointestinal tract examination
 R14	causes_or_contributes_to Arg1:T31 Arg2:T74	
+T75	corrected_disease_or_phenotypic_feature 187 212	hypersensitivity syndrome
+R15	causes_or_contributes_to Arg1:T5 Arg2:T75	
+R8	causes_or_contributes_to Arg1:T7 Arg2:T8	
+T76	missed_disease_or_phenotypic_feature 294 321	disrupted circadian rhythms
+R16	causes_or_contributes_to Arg1:T7 Arg2:T76	
+T77	missed_chemical 412 416	unOc
+R18	treats Arg1:T77 Arg2:T12	
+T78	corrected_disease_or_phenotypic_feature 566 582	fracture healing
+R19	causes_or_contributes_to Arg1:T77 Arg2:T78	
+R20	causes_or_contributes_to Arg1:T10 Arg2:T78	
+R21	treats Arg1:T15 Arg2:T16	
+R22	treats Arg1:T14 Arg2:T16	
+T79	missed_disease_or_phenotypic_feature 744 747	CVD
+R23	treats Arg1:T14 Arg2:T79	
+R24	treats Arg1:T15 Arg2:T79	
+T80	missed_chemical 913 942	neoadjuvant anti-PD-1 therapy
+R25	treats Arg1:T80 Arg2:T17	
+T81	corrected_chemical 976 993	adjuvant therapy.
+R26	treats Arg1:T81 Arg2:T17	
+R3	treats Arg1:T35 Arg2:T33	
+T34	missed_chemical 3562 3573	tagraxofusp
+R27	treats Arg1:T34 Arg2:T69	
+T4	missed_chemical 164 169	drugs
+R30	causes_or_contributes_to Arg1:T4 Arg2:T70	
+R31	causes_or_contributes_to Arg1:T4 Arg2:T75	
+R11	treats Arg1:T77 Arg2:T11	

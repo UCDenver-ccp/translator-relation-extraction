@@ -66,13 +66,25 @@ T65	chemical 1981 1990	urokinase
 T66	disease_or_phenotypic_feature 1994 2013	prostatic carcinoma
 T67	disease_or_phenotypic_feature 2022 2027	gland
 T68	chemical 2044 2058	anticonvulsant
-T69	corrected_disease_or_phenotypic_feature 1045 1080	drug-induced cardiovascular disease
-R2	causes_or_contributes_to Arg1:T32 Arg2:T69	
+R2	causes_or_contributes_to Arg1:T32 Arg2:T33	
 T70	corrected_chemical 1541 1567	farnesylthiosalicylic acid
 R3	treats Arg1:T70 Arg2:T46	
 R4	treats Arg1:T49 Arg2:T46	
-T71	corrected_chemical 1516 1528	Ras inhibito
+T71	corrected_chemical 1516 1529	Ras inhibitor
 R5	treats Arg1:T71 Arg2:T46	
 T72	corrected_disease_or_phenotypic_feature 2016 2033	Lymph-gland tumor
-R6	causes_or_contributes_to Arg1:T68 Arg2:T72	
 T73	DONE 2067 2071	DONE
+R1	treats Arg1:T39 Arg2:T42	
+T74	corrected_chemical 1297 1324	serotonergic 5-HT1A agonist
+R7	treats Arg1:T74 Arg2:T42	
+R8	causes_or_contributes_to Arg1:T32 Arg2:T34	
+R9	causes_or_contributes_to Arg1:T32 Arg2:T35	
+T69	missed_disease_or_phenotypic_feature 1143 1155	hypertension
+T75	missed_disease_or_phenotypic_feature 1104 1141	left ventricular systolic dysfunction
+R10	causes_or_contributes_to Arg1:T32 Arg2:T75	
+R11	causes_or_contributes_to Arg1:T32 Arg2:T69	
+T76	corrected_chemical 2044 2064	anticonvulsant drugs
+R12	causes_or_contributes_to Arg1:T76 Arg2:T72	
+T77	corrected_chemical 81 102	checkpoint inhibitors
+T78	missed_disease_or_phenotypic_feature 124 130	tumors
+R6	treats Arg1:T77 Arg2:T78	

@@ -56,7 +56,7 @@ T55	disease_or_phenotypic_feature 2445 2449	gave
 T56	chemical 2520 2529	oxidation
 T57	missed_chemical 901 912	naphthalene
 R1	causes_or_contributes_to Arg1:T57 Arg2:T22	
-T58	corrected_chemical 958 972	tumor antigens
+T58	corrected_chemical 943 972	T cell defined tumor antigens
 R2	treats Arg1:T58 Arg2:T24	
 T59	missed_chemical 1868 1873	NT157
 R3	treats Arg1:T59 Arg2:T37	
@@ -91,3 +91,10 @@ T70	corrected_chemical 2223 2247	medicinal plant proteins
 R21	treats Arg1:T70 Arg2:T53	
 R22	treats Arg1:T70 Arg2:T67	
 R23	treats Arg1:T70 Arg2:T66	
+T71	corrected_chemical 1841 1867	pharmacological inhibitors
+R24	treats Arg1:T71 Arg2:T60	
+R25	treats Arg1:T71 Arg2:T37	
+T72	missed_chemical 923 936	Immunotherapy
+R26	treats Arg1:T72 Arg2:T24	
+R28	treats Arg1:T28 Arg2:T73	
+T73	corrected_disease_or_phenotypic_feature 1133 1157	Intra-peritoneal abscess

@@ -63,10 +63,8 @@ T62	disease_or_phenotypic_feature 2135 2148	renal failure
 T63	disease_or_phenotypic_feature 2187 2195	melanoma
 T64	chemical 2288 2296	antigens
 T65	missed_chemical 76 82	Trolox
-T66	corrected_disease_or_phenotypic_feature 99 112	HNE cataract,
-T67	corrected_disease_or_phenotypic_feature 161 173	HNE cataract
-R1	treats Arg1:T65 Arg2:T66	
-R2	causes_or_contributes_to Arg1:T4 Arg2:T67	
+R1	treats Arg1:T65 Arg2:T3	
+R2	causes_or_contributes_to Arg1:T4 Arg2:T5	
 T68	corrected_disease_or_phenotypic_feature 207 229	hyperglycemic cataract
 R3	treats Arg1:T4 Arg2:T68	
 R4	treats Arg1:T9 Arg2:T10	
@@ -87,10 +85,34 @@ T74	missed_chemical 1565 1568	VCR
 R13	causes_or_contributes_to Arg1:T74 Arg2:T45	
 T75	corrected_chemical 1632 1671	selective serotonin reuptake inhibitors
 R14	causes_or_contributes_to Arg1:T75 Arg2:T48	
-R15	treats Arg1:T50 Arg2:T49	
 R16	treats Arg1:T57 Arg2:T60	
 R17	causes_or_contributes_to Arg1:T57 Arg2:T58	
 R18	causes_or_contributes_to Arg1:T61 Arg2:T62	
 T76	missed_disease_or_phenotypic_feature 31 41	hemorrhage
 T77	missed_disease_or_phenotypic_feature 446 451	tumor
 R19	treats Arg1:T13 Arg2:T77	
+T78	missed_disease_or_phenotypic_feature 68 74	tumors
+R20	treats Arg1:T2 Arg2:T78	
+T79	missed_chemical 99 102	HNE
+R21	causes_or_contributes_to Arg1:T79 Arg2:T3	
+T66	missed_chemical 161 164	HNE
+R22	causes_or_contributes_to Arg1:T66 Arg2:T5	
+T67	missed_chemical 277 294	endocrine therapy
+R23	treats Arg1:T67 Arg2:T10	
+R24	causes_or_contributes_to Arg1:T40 Arg2:T41	
+T80	corrected_chemical 1537 1551	cytotoxic drug
+R25	causes_or_contributes_to Arg1:T80 Arg2:T45	
+T81	corrected_chemical 1800 1814	tumor antigens
+R26	treats Arg1:T81 Arg2:T49	
+T82	corrected_chemical 2054 2072	hypoglycaemic drug
+R15	treats Arg1:T82 Arg2:T60	
+T83	missed_chemical 2169 2182	immunotherapy
+R27	treats Arg1:T83 Arg2:T63	
+T84	corrected_chemical 812 820	vaccines
+R29	treats Arg1:T84 Arg2:T24	
+R30	treats Arg1:T38 Arg2:T37	
+T85	missed_disease_or_phenotypic_feature 1393 1411	hypovascular tumor
+R31	treats Arg1:T38 Arg2:T85	
+R32	treats Arg1:T59 Arg2:T60	
+R33	causes_or_contributes_to Arg1:T59 Arg2:T58	
+R28	causes_or_contributes_to Arg1:T12 Arg2:T10	

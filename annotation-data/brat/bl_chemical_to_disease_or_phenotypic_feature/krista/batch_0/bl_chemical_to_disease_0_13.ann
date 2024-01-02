@@ -14,7 +14,6 @@ T13	disease_or_phenotypic_feature 581 599	ulcerative colitis
 T14	disease_or_phenotypic_feature 638 645	SV-VATS
 T15	chemical 646 651	group
 T16	chemical 671 681	anesthesia
-T17	chemical 787 796	analgesic
 T18	corrected_chemical 787 802	analgesic drugs
 T19	missed_chemical 797 802	drugs
 T20	corrected_disease_or_phenotypic_feature 825 860	bleaching-induced tooth sensitivity
@@ -67,9 +66,15 @@ R8	treats Arg1:T11 Arg2:T13
 R9	treats Arg1:T52 Arg2:T53
 R10	causes_or_contributes_to Arg1:T24 Arg2:T25
 R11	FIXME Arg1:T19 Arg2:T20
-R12	treats Arg1:T19 Arg2:T20	
 T59	missed_chemical 1123 1133	Tacrolimus
 R13	causes_or_contributes_to Arg1:T59 Arg2:T25	
 T60	missed_disease_or_phenotypic_feature 601 603	UC
 R14	treats Arg1:T10 Arg2:T60	
 R15	treats Arg1:T11 Arg2:T60	
+T61	corrected_chemical 765 782;797 802	anti-inflammatory drugs
+R16	treats Arg1:T61 Arg2:T20	
+T17	corrected_chemical 496 508	plant phenol
+R12	treats Arg1:T17 Arg2:T13	
+R17	treats Arg1:T17 Arg2:T60	
+T62	missed_disease_or_phenotypic_feature 1935 1951	renal protection
+R18	causes_or_contributes_to Arg1:T38 Arg2:T62	

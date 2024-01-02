@@ -77,7 +77,7 @@ T70	missed_chemical 1634 1651	HMSNs-PDA-PEG@DOX
 R7	treats Arg1:T70 Arg2:T67	
 R8	treats Arg1:T69 Arg2:T67	
 T71	corrected_chemical 1681 1722	sodium glucose cotransporter 2 inhibitors
-R9	treats Arg1:T71 Arg2:T42	
+R9	treats Arg1:T71 Arg2:T77	
 T72	missed_disease_or_phenotypic_feature 1898 1906	epilepsy
 T73	missed_disease_or_phenotypic_feature 1875 1896	cognitive dysfunction
 T74	corrected_chemical 1802 1837	Histamine H(3) receptor antagonists
@@ -88,3 +88,4 @@ R13	treats Arg1:T74 Arg2:T46
 T75	corrected_chemical 2571 2586	HIF-1 inhibitor
 T76	missed_disease_or_phenotypic_feature 2530 2542	tumor growth
 R14	treats Arg1:T75 Arg2:T76	
+T77	corrected_disease_or_phenotypic_feature 1760 1800	obesity-related hepatocellular carcinoma

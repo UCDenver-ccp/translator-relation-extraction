@@ -16,7 +16,6 @@ T15	corrected_disease_or_phenotypic_feature 845 875	locally advanced rectal canc
 T16	disease_or_phenotypic_feature 862 875	rectal cancer
 T17	missed_disease_or_phenotypic_feature 877 881	LARC
 T18	chemical 925 932	alcohol
-T19	corrected_disease_or_phenotypic_feature 925 945	alcohol use disorder
 T20	disease_or_phenotypic_feature 937 945	disorder
 T21	disease_or_phenotypic_feature 1158 1167	condition
 T22	chemical 1187 1194	glucose
@@ -78,24 +77,31 @@ R4	causes_or_contributes_to Arg1:T73 Arg2:T72
 R5	treats Arg1:T14 Arg2:T17
 R6	treats Arg1:T14 Arg2:T15
 R7	causes_or_contributes_to Arg1:T53 Arg2:T54
-R8	treats Arg1:T31 Arg2:T32
 R9	treats Arg1:T1 Arg2:T4
 R10	treats Arg1:T1 Arg2:T5
 R11	treats Arg1:T1 Arg2:T6
 R12	treats Arg1:T68 Arg2:T64
 R13	treats Arg1:T68 Arg2:T65
-R14	treats Arg1:T49 Arg2:T54
 R15	treats Arg1:T3 Arg2:T6
 R16	treats Arg1:T3 Arg2:T4
 R17	treats Arg1:T3 Arg2:T5
 R18	causes_or_contributes_to Arg1:T51 Arg2:T54
-R19	treats Arg1:T63 Arg2:T64
 R20	treats Arg1:T63 Arg2:T65
 R21	causes_or_contributes_to Arg1:T50 Arg2:T54
-R22	causes_or_contributes_to Arg1:T18 Arg2:T19
+R22	causes_or_contributes_to Arg1:T18 Arg2:T20
 R23	treats Arg1:T62 Arg2:T65
-R24	treats Arg1:T62 Arg2:T64
 R25	treats Arg1:T57 Arg2:T58
 T74	missed_disease_or_phenotypic_feature 3307 3346	advanced gastrointestinal stromal tumor
-R26	treats Arg1:T62 Arg2:T74	
-R27	treats Arg1:T63 Arg2:T74	
+T75	missed_chemical 813 828	neoadjuvant CRT
+R28	treats Arg1:T75 Arg2:T15	
+R29	treats Arg1:T75 Arg2:T17	
+T19	corrected_chemical 2158 2187	O-methyl oxime derivative 10b
+R8	treats Arg1:T19 Arg2:T42	
+T76	missed_chemical 3656 3659	TKI
+R30	treats Arg1:T76 Arg2:T69	
+T77	missed_disease_or_phenotypic_feature 2245 2260	S. aureus 25923
+R31	treats Arg1:T19 Arg2:T77	
+T78	missed_chemical 2752 2770	Anti-CD40 antibody
+R32	causes_or_contributes_to Arg1:T78 Arg2:T54	
+R14	treats Arg1:T63 Arg2:T64	
+R19	treats Arg1:T62 Arg2:T64	

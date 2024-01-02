@@ -108,3 +108,78 @@ T107	gene 3555 3568	interleukin-4
 T108	gene 3570 3574	IL-4
 T109	gene 3581 3594	interleukin-5
 T110	gene 3596 3600	IL-5
+T111	corrected_anatomical_site 152 167	prostate tissue
+R1	located_in Arg1:T2 Arg2:T111	
+R2	located_in Arg1:T3 Arg2:T111	
+R3	located_in Arg1:T4 Arg2:T111	
+R4	located_in Arg1:T8 Arg2:T9	
+R5	located_in Arg1:T7 Arg2:T9	
+T112	corrected_anatomical_site 365 375	Cord blood
+R6	located_in Arg1:T13 Arg2:T112	
+R7	located_in Arg1:T22 Arg2:T21	
+R8	located_in Arg1:T24 Arg2:T23	
+R9	located_in Arg1:T25 Arg2:T30	
+R10	located_in Arg1:T26 Arg2:T30	
+R11	located_in Arg1:T27 Arg2:T30	
+R12	located_in Arg1:T28 Arg2:T30	
+R13	located_in Arg1:T29 Arg2:T30	
+T113	corrected_anatomical_site 1011 1022	lung tissue
+R14	located_in Arg1:T32 Arg2:T113	
+R15	located_in Arg1:T31 Arg2:T113	
+T114	corrected_anatomical_site 1107 1118	lung tissue
+R16	located_in Arg1:T35 Arg2:T114	
+R17	located_in Arg1:T36 Arg2:T114	
+R18	located_in Arg1:T41 Arg2:T45	
+R19	located_in Arg1:T42 Arg2:T45	
+R20	located_in Arg1:T43 Arg2:T45	
+R21	located_in Arg1:T67 Arg2:T66	
+R22	located_in Arg1:T68 Arg2:T66	
+R23	located_in Arg1:T69 Arg2:T66	
+T115	missed_anatomical_site 2565 2574	pituitary
+R24	located_in Arg1:T70 Arg2:T73	
+R25	located_in Arg1:T70 Arg2:T115	
+R26	located_in Arg1:T71 Arg2:T73	
+R27	located_in Arg1:T71 Arg2:T115	
+T116	missed_gene 2604 2616	Glyoxalase-1
+T117	missed_gene 2653 2656	GR1
+T118	corrected_gene 2628 2651	glutathione reductase-1
+R28	located_in Arg1:T116 Arg2:T76	
+R29	located_in Arg1:T74 Arg2:T76	
+R30	located_in Arg1:T118 Arg2:T76	
+R31	located_in Arg1:T117 Arg2:T76	
+R32	located_in Arg1:T116 Arg2:T77	
+R33	located_in Arg1:T116 Arg2:T78	
+R34	located_in Arg1:T74 Arg2:T77	
+R35	located_in Arg1:T74 Arg2:T78	
+R36	located_in Arg1:T118 Arg2:T77	
+R37	located_in Arg1:T118 Arg2:T78	
+R38	located_in Arg1:T117 Arg2:T77	
+R39	located_in Arg1:T117 Arg2:T78	
+R40	located_in Arg1:T79 Arg2:T83	
+R41	located_in Arg1:T79 Arg2:T84	
+R42	located_in Arg1:T80 Arg2:T83	
+R43	located_in Arg1:T80 Arg2:T84	
+R44	located_in Arg1:T81 Arg2:T83	
+R45	located_in Arg1:T81 Arg2:T84	
+T119	corrected_anatomical_site 2971 2983	nasal mucosa
+R46	located_in Arg1:T86 Arg2:T119	
+T120	missed_gene 2950 2956	ROR-γt
+R47	located_in Arg1:T120 Arg2:T119	
+R48	located_in Arg1:T85 Arg2:T119	
+R49	located_in Arg1:T88 Arg2:T90	
+R50	located_in Arg1:T89 Arg2:T90	
+T121	corrected_anatomical_site 3157 3176	retro-bulbar tissue
+#1	AnnotatorNotes T121	okay?
+R51	located_in Arg1:T91 Arg2:T121	
+R52	located_in Arg1:T97 Arg2:T96	
+R53	located_in Arg1:T98 Arg2:T99	
+T122	missed_gene 3410 3416	RANTES
+T123	corrected_anatomical_site 3447 3458	lung tissue
+R54	located_in Arg1:T101 Arg2:T123	
+R55	located_in Arg1:T122 Arg2:T123	
+R56	located_in Arg1:T105 Arg2:T104	
+R57	located_in Arg1:T106 Arg2:T104	
+R58	located_in Arg1:T107 Arg2:T104	
+R59	located_in Arg1:T108 Arg2:T104	
+R60	located_in Arg1:T109 Arg2:T104	
+R61	located_in Arg1:T110 Arg2:T104	

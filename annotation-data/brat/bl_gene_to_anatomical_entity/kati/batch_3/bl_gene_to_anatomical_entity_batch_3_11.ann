@@ -91,3 +91,64 @@ T90	gene 2977 2982	CNNM2
 T91	gene 2984 2989	TRPM6
 T92	gene 2995 3000	TRPM7
 T93	anatomical_site 3023 3029	tissue
+R1	located_in Arg1:T4 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T2	
+R3	located_in Arg1:T4 Arg2:T3	
+T94	corrected_gene 219 225	PPAR-α
+R4	located_in Arg1:T94 Arg2:T6	
+R5	located_in Arg1:T11 Arg2:T14	
+R6	located_in Arg1:T11 Arg2:T15	
+T95	missed_gene 404 428	K(+)-Cl(-) cotransporter
+R7	located_in Arg1:T95 Arg2:T14	
+R8	located_in Arg1:T95 Arg2:T15	
+R9	located_in Arg1:T13 Arg2:T14	
+R10	located_in Arg1:T13 Arg2:T15	
+R11	located_in Arg1:T25 Arg2:T28	
+R12	located_in Arg1:T25 Arg2:T29	
+R13	located_in Arg1:T25 Arg2:T30	
+T96	missed_gene 801 806	ITGb2
+R14	located_in Arg1:T96 Arg2:T28	
+R15	located_in Arg1:T96 Arg2:T29	
+R16	located_in Arg1:T96 Arg2:T30	
+R17	located_in Arg1:T26 Arg2:T28	
+R18	located_in Arg1:T26 Arg2:T29	
+R19	located_in Arg1:T26 Arg2:T30	
+T97	missed_gene 814 819	MARCO
+R20	located_in Arg1:T97 Arg2:T28	
+R21	located_in Arg1:T97 Arg2:T29	
+R22	located_in Arg1:T97 Arg2:T30	
+T98	missed_gene 821 824	TLR
+R23	located_in Arg1:T98 Arg2:T28	
+R24	located_in Arg1:T98 Arg2:T29	
+R25	located_in Arg1:T98 Arg2:T30	
+R26	located_in Arg1:T27 Arg2:T28	
+R27	located_in Arg1:T27 Arg2:T29	
+R28	located_in Arg1:T27 Arg2:T30	
+R29	located_in Arg1:T32 Arg2:T31	
+R30	located_in Arg1:T33 Arg2:T31	
+R31	located_in Arg1:T34 Arg2:T31	
+R32	located_in Arg1:T35 Arg2:T31	
+R33	located_in Arg1:T37 Arg2:T36	
+R34	located_in Arg1:T38 Arg2:T36	
+R35	located_in Arg1:T40 Arg2:T39	
+T99	corrected_gene 1226 1247	TNF-alpha receptor II
+R36	located_in Arg1:T99 Arg2:T41	
+T100	corrected_anatomical_site 1308 1321	Atrial tissue
+R37	located_in Arg1:T44 Arg2:T100	
+T101	missed_gene 1864 1894	Pulmonary surfactant protein A
+R38	located_in Arg1:T101 Arg2:T57	
+R39	located_in Arg1:T58 Arg2:T57	
+T102	missed_anatomical_site 2262 2268	plasma
+R40	located_in Arg1:T67 Arg2:T102	
+R41	located_in Arg1:T73 Arg2:T76	
+R42	located_in Arg1:T74 Arg2:T76	
+R43	located_in Arg1:T75 Arg2:T76	
+T103	missed_gene 2675 2679	PACT
+R44	located_in Arg1:T103 Arg2:T79	
+R45	located_in Arg1:T80 Arg2:T79	
+R46	located_in Arg1:T81 Arg2:T79	
+R47	located_in Arg1:T103 Arg2:T82	
+R48	located_in Arg1:T80 Arg2:T82	
+R49	located_in Arg1:T81 Arg2:T82	
+R50	located_in Arg1:T87 Arg2:T83	
+R51	located_in Arg1:T19 Arg2:T18	

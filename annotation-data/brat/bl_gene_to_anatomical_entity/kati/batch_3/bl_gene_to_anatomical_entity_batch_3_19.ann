@@ -88,3 +88,63 @@ T87	gene 2820 2823	PFK
 T88	anatomical_site 2890 2896	tissue
 T89	gene 2948 2958	E-cadherin
 T90	gene 2963 2966	p53
+T91	corrected_anatomical_site 54 82	bone marrow sinusoidal blood
+T93	missed_gene 8 11	CLC
+T94	corrected_anatomical_site 125 141	peripheral blood
+R1	located_in Arg1:T1 Arg2:T91	
+R2	located_in Arg1:T93 Arg2:T91	
+R3	located_in Arg1:T1 Arg2:T94	
+R4	located_in Arg1:T93 Arg2:T94	
+T92	missed_anatomical_site 342 354	diencephalon
+R5	located_in Arg1:T9 Arg2:T7	
+R6	located_in Arg1:T9 Arg2:T92	
+T95	missed_gene 453 457	TrkB
+T96	missed_gene 462 468	p75ntr
+R7	located_in Arg1:T95 Arg2:T7	
+R8	located_in Arg1:T95 Arg2:T92	
+R9	located_in Arg1:T96 Arg2:T7	
+R10	located_in Arg1:T96 Arg2:T92	
+T97	missed_gene 630 663	brain-derived neurotrophic factor
+R11	located_in Arg1:T97 Arg2:T19	
+T98	corrected_gene 588 592;602 611	trkB receptors
+R12	located_in Arg1:T98 Arg2:T21	
+T99	corrected_gene 597 611	trkC receptors
+R13	located_in Arg1:T99 Arg2:T21	
+R14	located_in Arg1:T97 Arg2:T21	
+R15	located_in Arg1:T20 Arg2:T21	
+R16	located_in Arg1:T23 Arg2:T22	
+R17	located_in Arg1:T24 Arg2:T22	
+R18	located_in Arg1:T25 Arg2:T22	
+R19	located_in Arg1:T33 Arg2:T34	
+R20	located_in Arg1:T40 Arg2:T42	
+T100	corrected_anatomical_site 1386 1406	vascular endothelial
+R21	located_in Arg1:T40 Arg2:T100	
+R22	located_in Arg1:T45 Arg2:T44	
+R23	located_in Arg1:T48 Arg2:T50	
+R24	located_in Arg1:T49 Arg2:T50	
+R25	located_in Arg1:T53 Arg2:T52	
+R26	located_in Arg1:T57 Arg2:T58	
+T101	corrected_gene 2095 2107	beta-tubulin
+R27	located_in Arg1:T101 Arg2:T63	
+T102	missed_gene 2000 2006	PSD-95
+T103	missed_gene 2035 2042	F-actin
+R28	located_in Arg1:T102 Arg2:T59	
+R29	located_in Arg1:T61 Arg2:T59	
+R30	located_in Arg1:T62 Arg2:T59	
+R31	located_in Arg1:T103 Arg2:T59	
+R32	located_in Arg1:T66 Arg2:T65	
+R33	located_in Arg1:T68 Arg2:T67	
+T104	missed_gene 2393 2401	IL-1beta
+R34	located_in Arg1:T71 Arg2:T69	
+R35	located_in Arg1:T104 Arg2:T69	
+R36	located_in Arg1:T72 Arg2:T69	
+R37	located_in Arg1:T73 Arg2:T69	
+R38	located_in Arg1:T74 Arg2:T69	
+R39	located_in Arg1:T75 Arg2:T69	
+R40	located_in Arg1:T76 Arg2:T69	
+R41	located_in Arg1:T77 Arg2:T69	
+T105	corrected_gene 2820 2839	PFK subunit protein
+R42	located_in Arg1:T105 Arg2:T85	
+R43	located_in Arg1:T105 Arg2:T86	
+R44	located_in Arg1:T10 Arg2:T7	
+R45	located_in Arg1:T10 Arg2:T92	

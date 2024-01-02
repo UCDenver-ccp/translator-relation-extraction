@@ -59,7 +59,6 @@ T58	disease_or_phenotypic_feature 2507 2514	obesity
 T59	chemical 2580 2584	drug
 T60	disease_or_phenotypic_feature 2650 2657	pan-RAF
 T61	chemical 2658 2667	inhibitor
-T62	disease_or_phenotypic_feature 2685 2702	colorectal cancer
 T63	corrected_chemical 26 50	tumor antigenic peptides
 R1	treats Arg1:T63 Arg2:T4	
 T64	corrected_chemical 430 444	injection drug
@@ -85,19 +84,14 @@ R12	treats Arg1:T71 Arg2:T74
 T76	corrected_disease_or_phenotypic_feature 1418 1451	pulmonary eosinophil accumulation
 R13	treats Arg1:T71 Arg2:T76	
 T78	corrected_chemical 1702 1725	double-scattered proton
-T79	corrected_disease_or_phenotypic_feature 1598 1644;1667 1691	nonmetastatic nonkeratinizing undifferentiated nasopharyngeal carcinoma
-T80	missed_disease_or_phenotypic_feature 1598 1627;1645 1691	nonmetastatic nonkeratinizing poorly differentiated nasopharyngeal carcinoma
-R15	treats Arg1:T78 Arg2:T79	
-R16	treats Arg1:T78 Arg2:T80	
 T81	corrected_chemical 1911 1950	Combinations of estrogen and progestins
-T82	missed_disease_or_phenotypic_feature 2026 2052	estrogen induced neoplasia
-R18	treats Arg1:T81 Arg2:T82	
+R18	treats Arg1:T81 Arg2:T88	
 T83	corrected_chemical 2383 2399	SGLT2 inhibitors
 T84	missed_disease_or_phenotypic_feature 2453 2461	diabetes
 R19	treats Arg1:T83 Arg2:T54	
 R20	treats Arg1:T83 Arg2:T84	
 T85	corrected_chemical 2650 2667	pan-RAF inhibitor
-T86	corrected_disease_or_phenotypic_feature 2673 2702	KRAS-mutant colorectal cancer
+T86	disease_or_phenotypic_feature 2685 2702	colorectal cancer
 R21	treats Arg1:T85 Arg2:T86	
 T87	missed_chemical 2586 2595	LY3214996
 R22	treats Arg1:T87 Arg2:T86	
@@ -122,3 +116,5 @@ R29	causes_or_contributes_to Arg1:T47 Arg2:T49
 R30	causes_or_contributes_to Arg1:T47 Arg2:T50	
 R31	causes_or_contributes_to Arg1:T47 Arg2:T93	
 R32	causes_or_contributes_to Arg1:T59 Arg2:T77	
+R15	treats Arg1:T78 Arg2:T36	
+R16	causes_or_contributes_to Arg1:T53 Arg2:T54	

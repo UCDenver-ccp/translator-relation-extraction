@@ -59,15 +59,13 @@ T58	chemical 2338 2341	DCs
 T59	disease_or_phenotypic_feature 2371 2387	hyperinsulinemia
 T60	chemical 2389 2396	glucose
 T61	disease_or_phenotypic_feature 2410 2417	obesity
-T62	missed_disease_or_phenotypic_feature 39 65	tumor-induced ongoing pain
+T62	missed_disease_or_phenotypic_feature 39 52;61 65	tumor-induced pain
 T63	missed_disease_or_phenotypic_feature 70 93	evoked hypersensitivity
 R1	treats Arg1:T2 Arg2:T62	
 R2	treats Arg1:T2 Arg2:T63	
-T64	corrected_disease_or_phenotypic_feature 112 131	facial cancer pain.
-R3	treats Arg1:T2 Arg2:T64	
 T65	missed_disease_or_phenotypic_feature 146 158	hypertension
 T66	corrected_chemical 215 253	selective mineralocorticoid antagonist
-T67	corrected_chemical 278 302	low-dose corticosteroids
+T67	corrected_chemical 287 302	corticosteroids
 R4	treats Arg1:T66 Arg2:T7	
 R5	treats Arg1:T66 Arg2:T6	
 R6	treats Arg1:T66 Arg2:T65	
@@ -83,17 +81,17 @@ R14	causes_or_contributes_to Arg1:T68 Arg2:T12
 T69	missed_disease_or_phenotypic_feature 404 431	water-electrolyte imbalance
 T70	missed_disease_or_phenotypic_feature 437 442	ileus
 R15	causes_or_contributes_to Arg1:T68 Arg2:T69	
-R16	treats Arg1:T68 Arg2:T70	
-T71	corrected_disease_or_phenotypic_feature 1032 1052	CDF1 leukemia tumors
+R16	causes_or_contributes_to Arg1:T68 Arg2:T70	
+T71	corrected_disease_or_phenotypic_feature 1037 1052	leukemia tumors
 T72	missed_chemical 946 961	nanoerythrosome
 T73	corrected_chemical 932 972	Daunorubicin--nanoerythrosome conjugates
 R17	treats Arg1:T73 Arg2:T71	
 R18	treats Arg1:T24 Arg2:T71	
-T74	missed_disease_or_phenotypic_feature 1325 1330	tumor
+T74	missed_disease_or_phenotypic_feature 1317 1330	mammary tumor
 R19	causes_or_contributes_to Arg1:T30 Arg2:T74	
 T75	corrected_chemical 1495 1512	Hyperbaric oxygen
 R20	treats Arg1:T75 Arg2:T36	
-T76	corrected_disease_or_phenotypic_feature 1754 1772	KRAS mutant tumors
+T76	corrected_disease_or_phenotypic_feature 1766 1772	tumors
 R21	treats Arg1:T46 Arg2:T76	
 T77	corrected_chemical 1823 1852	Serotonin reuptake inhibitors
 T78	missed_chemical 1854 1859	SSRIs
@@ -102,3 +100,25 @@ R23	treats Arg1:T77 Arg2:T51
 T79	missed_disease_or_phenotypic_feature 1941 1962	myocardial depression
 R24	causes_or_contributes_to Arg1:T52 Arg2:T79	
 R25	causes_or_contributes_to Arg1:T52 Arg2:T53	
+T64	missed_disease_or_phenotypic_feature 324 337	complications
+R3	causes_or_contributes_to Arg1:T68 Arg2:T64	
+T80	missed_disease_or_phenotypic_feature 680 689	addiction
+R26	causes_or_contributes_to Arg1:T18 Arg2:T80	
+R27	treats Arg1:T72 Arg2:T71	
+T81	corrected_chemical 1019 1028	free drug
+R28	treats Arg1:T81 Arg2:T71	
+T82	missed_disease_or_phenotypic_feature 1397 1402	tumor
+R29	causes_or_contributes_to Arg1:T31 Arg2:T82	
+R30	treats Arg1:T42 Arg2:T43	
+T83	missed_chemical 1694 1704	quimotrase
+R31	treats Arg1:T83 Arg2:T43	
+T84	corrected_chemical 1803 1821	biological therapy
+R32	treats Arg1:T84 Arg2:T76	
+T85	missed_disease_or_phenotypic_feature 112 130	facial cancer pain
+R33	treats Arg1:T2 Arg2:T85	
+R36	causes_or_contributes_to Arg1:T37 Arg2:T41	
+R37	treats Arg1:T1 Arg2:T62	
+R38	treats Arg1:T1 Arg2:T63	
+R39	treats Arg1:T1 Arg2:T85	
+T86	corrected_chemical 1600 1613	urea-nitrogen
+R34	causes_or_contributes_to Arg1:T86 Arg2:T41	

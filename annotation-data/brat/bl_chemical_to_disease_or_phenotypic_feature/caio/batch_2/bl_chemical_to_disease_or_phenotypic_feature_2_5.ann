@@ -67,30 +67,14 @@ R1	causes_or_contributes_to Arg1:T1 Arg2:T3
 R2	causes_or_contributes_to Arg1:T1 Arg2:T4	
 R3	treats Arg1:T25 Arg2:T23	
 T66	corrected_disease_or_phenotypic_feature 1232 1254	hyperglycemic cataract
-R4	treats Arg1:T35 Arg2:T66	
 T67	corrected_chemical 1164 1190	aldose reductase inhibitor
-R5	treats Arg1:T67 Arg2:T66	
-T68	missed_chemical 1845 1860	glucocorticoids
 T69	chemical 1862 1872	calcitonin
-R6	causes_or_contributes_to Arg1:T50 Arg2:T48	
-R7	causes_or_contributes_to Arg1:T50 Arg2:T49	
-T70	missed_disease_or_phenotypic_feature 1738 1742	coma
-R8	causes_or_contributes_to Arg1:T50 Arg2:T70	
-R9	causes_or_contributes_to Arg1:T52 Arg2:T48	
-R10	causes_or_contributes_to Arg1:T52 Arg2:T49	
-R11	causes_or_contributes_to Arg1:T52 Arg2:T70	
-R12	causes_or_contributes_to Arg1:T68 Arg2:T48	
-R13	causes_or_contributes_to Arg1:T68 Arg2:T49	
-R14	causes_or_contributes_to Arg1:T68 Arg2:T70	
-R15	causes_or_contributes_to Arg1:T69 Arg2:T48	
-R16	causes_or_contributes_to Arg1:T69 Arg2:T49	
-R17	causes_or_contributes_to Arg1:T69 Arg2:T70	
 R18	treats Arg1:T54 Arg2:T55	
 T71	corrected_chemical 1915 1941	5alpha-reductase inhibitor
 R19	treats Arg1:T71 Arg2:T55	
 T72	missed_chemical 2122 2129	Tomudex
 T73	corrected_chemical 2170 2200	thymidylate synthase inhibitor
-T74	missed_disease_or_phenotypic_feature 2230 2235	tumor
+T74	missed_disease_or_phenotypic_feature 2224 2248	solid tumor malignancies
 R20	treats Arg1:T72 Arg2:T74	
 R21	treats Arg1:T73 Arg2:T74	
 T75	DONE 2348 2352	DONE
@@ -98,7 +82,15 @@ T76	missed_disease_or_phenotypic_feature 87 89	HF
 R22	causes_or_contributes_to Arg1:T1 Arg2:T76	
 T77	corrected_chemical 1135 1147	anti-oxidant
 T78	missed_chemical 1149 1155	trolox
-R23	treats Arg1:T78 Arg2:T66	
-R24	treats Arg1:T77 Arg2:T66	
 T79	missed_chemical 2131 2137	ZD1694
 R25	treats Arg1:T79 Arg2:T74	
+T80	missed_disease_or_phenotypic_feature 570 575	tumor
+R26	treats Arg1:T19 Arg2:T80	
+T68	corrected_chemical 25 40	anticancer drug
+R6	causes_or_contributes_to Arg1:T68 Arg2:T3	
+R7	causes_or_contributes_to Arg1:T68 Arg2:T4	
+R8	causes_or_contributes_to Arg1:T68 Arg2:T76	
+R9	treats Arg1:T15 Arg2:T17	
+T70	missed_chemical 1224 1227	HNE
+R10	causes_or_contributes_to Arg1:T70 Arg2:T37	
+T81	missed_disease_or_phenotypic_feature 1224 1227;1246 1255	HNE cataract,

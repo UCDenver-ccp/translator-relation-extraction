@@ -167,3 +167,13 @@ R51	located_in Arg1:T87 Arg2:T88
 R52	located_in Arg1:T89 Arg2:T90	
 R53	located_in Arg1:T91 Arg2:T93	
 R54	located_in Arg1:T92 Arg2:T93	
+T106	corrected_anatomical_site 2746 2757	fetal liver
+T107	corrected_anatomical_site 2763 2774	fetal blood
+R55	located_in Arg1:T73 Arg2:T75	
+R56	located_in Arg1:T73 Arg2:T77	
+R57	located_in Arg1:T73 Arg2:T106	
+R58	located_in Arg1:T73 Arg2:T107	
+R59	located_in Arg1:T74 Arg2:T75	
+R60	located_in Arg1:T74 Arg2:T77	
+R61	located_in Arg1:T74 Arg2:T106	
+R62	located_in Arg1:T74 Arg2:T107	

@@ -16,7 +16,7 @@ T15	chemical 996 999	fat
 T16	chemical 1032 1035	fat
 T17	disease_or_phenotypic_feature 1047 1051	SFT)
 T18	chemical 1070 1081	Rivaroxaban
-T19	corrected_disease_or_phenotypic_feature 1102 1138	upper extremity deep vein thrombosis
+T19	corrected_disease_or_phenotypic_feature 1118 1138	deep vein thrombosis
 T20	disease_or_phenotypic_feature 1128 1138	thrombosis
 T21	disease_or_phenotypic_feature 1252 1262	fed/fasted
 T22	disease_or_phenotypic_feature 1267 1277	fed/fasted
@@ -74,3 +74,17 @@ R3	treats Arg1:T41 Arg2:T44
 R4	treats Arg1:T52 Arg2:T51
 T71	missed_chemical 2200 2214	streptozotocin
 R5	causes_or_contributes_to Arg1:T71 Arg2:T44	
+T72	missed_chemical 2112 2121;2126 2128	Compounds 6b
+R6	treats Arg1:T72 Arg2:T44	
+T73	missed_chemical 2112 2121;2130 2132	Compounds 7a
+R7	treats Arg1:T73 Arg2:T44	
+T74	missed_chemical 2112 2121;2134 2136	Compounds 7b
+R8	treats Arg1:T74 Arg2:T44	
+T75	missed_chemical 2112 2121;2138 2140	Compounds 8b
+R9	treats Arg1:T75 Arg2:T44	
+T76	missed_chemical 2112 2121;2146 2148	Compounds 9b
+R10	treats Arg1:T76 Arg2:T44	
+T77	corrected_chemical 1508 1523	Lipoprotein (a)
+R11	causes_or_contributes_to Arg1:T77 Arg2:T30	
+T78	missed_chemical 1525 1530	Lp(a)
+R12	causes_or_contributes_to Arg1:T78 Arg2:T30	

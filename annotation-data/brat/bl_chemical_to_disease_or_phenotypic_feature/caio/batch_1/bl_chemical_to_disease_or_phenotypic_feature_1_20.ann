@@ -71,17 +71,22 @@ T70	disease_or_phenotypic_feature 2821 2828	obesity
 T71	missed_chemical 42 57	Cancer vaccines
 T72	missed_chemical 86 111	tumor-associated antigens
 T73	missed_chemical 113 117	TAAs
-T74	chemical 416 436	nflammatory leukogra
+T74	chemical 415 437	inflammatory leukogram
 T75	missed_chemical 1227 1229	FP
 R1	treats Arg1:T75 Arg2:T34	
 R2	treats Arg1:T75 Arg2:T35	
 R3	treats Arg1:T75 Arg2:T36	
-T76	missed_disease_or_phenotypic_feature 1309 1325	oxidative stress
-R4	treats Arg1:T75 Arg2:T76	
 T77	missed_chemical 2717 2720	CRT
 T78	missed_disease_or_phenotypic_feature 2725 2728	CCU
 R5	treats Arg1:T77 Arg2:T78	
 R6	treats Arg1:T66 Arg2:T70	
-T79	corrected_chemical 2761 2794	norepinephrine reuptake inhibitor
-R7	treats Arg1:T67 Arg2:T70	
+T79	corrected_chemical 2747 2793	serotonin and norepinephrine reuptake inhibito
 R8	treats Arg1:T79 Arg2:T70	
+T80	missed_disease_or_phenotypic_feature 1329 1337	diabetic
+R9	treats Arg1:T75 Arg2:T80	
+T76	missed_chemical 1131 1157	pharmacological treatments
+R4	treats Arg1:T76 Arg2:T32	
+R7	treats Arg1:T30 Arg2:T31	
+T81	missed_chemical 314 318	DMBA
+R10	causes_or_contributes_to Arg1:T81 Arg2:T10	
+R11	causes_or_contributes_to Arg1:T9 Arg2:T10	

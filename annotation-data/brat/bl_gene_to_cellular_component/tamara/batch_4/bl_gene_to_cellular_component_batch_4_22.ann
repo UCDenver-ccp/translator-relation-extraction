@@ -89,3 +89,46 @@ T88	gene 3248 3258	dystrophin
 T89	cellular_component 3282 3291	autosomal
 T90	cellular_component 3309 3319	chromosome
 T91	gene 3330 3340	dystrophin
+T92	missed_gene 868 878	calpain II
+R1	located_in Arg1:T24 Arg2:T23	
+R2	located_in Arg1:T25 Arg2:T23	
+R3	located_in Arg1:T92 Arg2:T23	
+T93	missed_gene 1627 1641	67-kDa protein
+T94	missed_cellular_component 1729 1742	intracellular
+R4	located_in Arg1:T93 Arg2:T94	
+R5	located_in Arg1:T48 Arg2:T94	
+R6	located_in Arg1:T48 Arg2:T49	
+#1	AnnotatorNotes R6	Okay?
+T95	missed_gene 1869 1875	Diablo
+R7	located_in Arg1:T95 Arg2:T53	
+R8	located_in Arg1:T52 Arg2:T53	
+T96	missed_gene 2193 2198	actin
+R9	located_in Arg1:T96 Arg2:T61	
+R10	located_in Arg1:T62 Arg2:T64	
+#2	AnnotatorNotes R10	Okay?
+R11	located_in Arg1:T72 Arg2:T73	
+T97	corrected_gene 2848 2857	β-tubulin
+T98	corrected_gene 2846 2847;2849 2857	α -tubulin
+T99	missed_gene 2865 2871	TUBA1A
+T100	missed_gene 2888 2894	TUBB4A
+T101	missed_gene 2880 2886	TUBB2A
+T102	missed_gene 2915 2919	TUBB
+R12	located_in Arg1:T102 Arg2:T83	
+#3	AnnotatorNotes R12	Okay?
+R13	located_in Arg1:T82 Arg2:T83	
+#4	AnnotatorNotes R13	Okay?
+R14	located_in Arg1:T81 Arg2:T83	
+#5	AnnotatorNotes R14	Okay?
+R15	located_in Arg1:T100 Arg2:T83	
+#6	AnnotatorNotes R15	Okay?
+R16	located_in Arg1:T101 Arg2:T83	
+#7	AnnotatorNotes R16	Okay?
+R17	located_in Arg1:T80 Arg2:T83	
+#8	AnnotatorNotes R17	Okay?
+R18	located_in Arg1:T99 Arg2:T83	
+#9	AnnotatorNotes R18	Okay?
+R19	located_in Arg1:T97 Arg2:T83	
+#10	AnnotatorNotes R19	Okay?
+R20	located_in Arg1:T98 Arg2:T83	
+#11	AnnotatorNotes R20	Okay?
+R21	located_in Arg1:T91 Arg2:T90	

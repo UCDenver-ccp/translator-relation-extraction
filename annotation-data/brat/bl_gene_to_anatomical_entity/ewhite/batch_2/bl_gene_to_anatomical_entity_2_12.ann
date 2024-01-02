@@ -142,3 +142,9 @@ R27	located_in Arg1:T114 Arg2:T113
 R28	located_in Arg1:T71 Arg2:T72	
 T115	missed_anatomical_site 1950 1956	plasma
 R29	located_in Arg1:T74 Arg2:T115	
+R30	located_in Arg1:T75 Arg2:T76	
+R31	located_in Arg1:T78 Arg2:T77	
+R32	located_in Arg1:T79 Arg2:T77	
+T116	corrected_anatomical_site 2132 2149	intermediate lobe
+R33	located_in Arg1:T78 Arg2:T116	
+R34	located_in Arg1:T79 Arg2:T116	

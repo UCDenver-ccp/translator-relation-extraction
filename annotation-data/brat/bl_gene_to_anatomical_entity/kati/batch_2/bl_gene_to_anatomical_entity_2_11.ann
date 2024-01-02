@@ -106,3 +106,88 @@ T105	gene 2559 2569	connexin43
 T106	gene 2574 2584	connexin32
 T107	anatomical_site 2602 2611	ligaments
 T108	anatomical_site 2616 2623	tendons
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T1 Arg2:T4	
+R3	located_in Arg1:T1 Arg2:T5	
+R4	located_in Arg1:T2 Arg2:T3	
+R5	located_in Arg1:T2 Arg2:T4	
+R6	located_in Arg1:T2 Arg2:T5	
+R7	located_in Arg1:T6 Arg2:T8	
+R8	located_in Arg1:T7 Arg2:T8	
+T109	missed_anatomical_site 206 211	Lymph
+R9	located_in Arg1:T14 Arg2:T109	
+R10	located_in Arg1:T17 Arg2:T16	
+R11	located_in Arg1:T14 Arg2:T15	
+R12	located_in Arg1:T22 Arg2:T23	
+T110	corrected_anatomical_site 687 717	portal tract connective tissue
+R17	located_in Arg1:T28 Arg2:T27	
+R18	located_in Arg1:T29 Arg2:T27	
+T111	corrected_anatomical_site 670 682	vessel walls
+R19	located_in Arg1:T28 Arg2:T111	
+R20	located_in Arg1:T29 Arg2:T111	
+R21	located_in Arg1:T28 Arg2:T110	
+R22	located_in Arg1:T29 Arg2:T110	
+T112	corrected_gene 743 756	vinexin alpha
+T113	corrected_anatomical_site 806 824	primary myocardium
+T114	missed_anatomical_site 829 847	lining endocardium
+R24	located_in Arg1:T32 Arg2:T113	
+R25	located_in Arg1:T33 Arg2:T113	
+R26	located_in Arg1:T112 Arg2:T113	
+R27	located_in Arg1:T35 Arg2:T113	
+R28	located_in Arg1:T32 Arg2:T114	
+R29	located_in Arg1:T33 Arg2:T114	
+R30	located_in Arg1:T112 Arg2:T114	
+R31	located_in Arg1:T35 Arg2:T114	
+T115	corrected_anatomical_site 882 899	linear heart tube
+R32	located_in Arg1:T32 Arg2:T115	
+R33	located_in Arg1:T33 Arg2:T115	
+R34	located_in Arg1:T112 Arg2:T115	
+R35	located_in Arg1:T35 Arg2:T115	
+R36	located_in Arg1:T32 Arg2:T39	
+R37	located_in Arg1:T33 Arg2:T39	
+R38	located_in Arg1:T112 Arg2:T39	
+R39	located_in Arg1:T35 Arg2:T39	
+T116	corrected_anatomical_site 940 951	breast milk
+R40	located_in Arg1:T40 Arg2:T116	
+R41	located_in Arg1:T43 Arg2:T42	
+R42	located_in Arg1:T44 Arg2:T45	
+R43	located_in Arg1:T46 Arg2:T47	
+R44	located_in Arg1:T49 Arg2:T48	
+R45	located_in Arg1:T52 Arg2:T51	
+R46	located_in Arg1:T53 Arg2:T51	
+R47	located_in Arg1:T55 Arg2:T56	
+R48	located_in Arg1:T57 Arg2:T58	
+R49	located_in Arg1:T59 Arg2:T56	
+R50	located_in Arg1:T59 Arg2:T58	
+T117	corrected_anatomical_site 1537 1549	liver tissue
+T118	missed_anatomical_site 1505 1512	hepatic
+R51	located_in Arg1:T60 Arg2:T118	
+R52	located_in Arg1:T60 Arg2:T117	
+R53	located_in Arg1:T65 Arg2:T66	
+R54	located_in Arg1:T65 Arg2:T67	
+R55	located_in Arg1:T65 Arg2:T68	
+R56	located_in Arg1:T65 Arg2:T69	
+R57	located_in Arg1:T70 Arg2:T119	
+R58	located_in Arg1:T71 Arg2:T119	
+R59	located_in Arg1:T80 Arg2:T78	
+R60	located_in Arg1:T80 Arg2:T79	
+R69	located_in Arg1:T87 Arg2:T90	
+R70	located_in Arg1:T87 Arg2:T91	
+R71	located_in Arg1:T88 Arg2:T90	
+R72	located_in Arg1:T88 Arg2:T91	
+R73	located_in Arg1:T89 Arg2:T90	
+R74	located_in Arg1:T89 Arg2:T91	
+T121	corrected_gene 2356 2376	endothelial selectin
+T122	missed_anatomical_site 2356 2367	endothelial
+T123	corrected_gene 2309 2342	vascular cell adhesion molecule 1
+R75	located_in Arg1:T123 Arg2:T94	
+R76	located_in Arg1:T96 Arg2:T94	
+R83	located_in Arg1:T105 Arg2:T107	
+R84	located_in Arg1:T105 Arg2:T108	
+R85	located_in Arg1:T106 Arg2:T107	
+R86	located_in Arg1:T106 Arg2:T108	
+T125	corrected_anatomical_site 191 204	kidney tissue
+R13	located_in Arg1:T11 Arg2:T125	
+R14	located_in Arg1:T121 Arg2:T122	
+R15	located_in Arg1:T98 Arg2:T122	
+T119	corrected_anatomical_site 1840 1854	juvenile brain

@@ -125,3 +125,106 @@ T124	gene 3017 3021	BDNF
 T125	anatomical_site 3044 3055	hippocampus
 T126	anatomical_site 3060 3074	frontal cortex
 T127	gene 3098 3102	BDNF
+T128	missed_gene 61 67;77 89	myelin protein zero
+R1	located_in Arg1:T128 Arg2:T1	
+R2	located_in Arg1:T2 Arg2:T1	
+T129	missed_anatomical_site 94 100	myelin
+R3	located_in Arg1:T2 Arg2:T129	
+R4	located_in Arg1:T128 Arg2:T3	
+R5	located_in Arg1:T2 Arg2:T3	
+R6	located_in Arg1:T17 Arg2:T18	
+R7	located_in Arg1:T17 Arg2:T19	
+R8	located_in Arg1:T17 Arg2:T20	
+R9	located_in Arg1:T22 Arg2:T21	
+R10	located_in Arg1:T23 Arg2:T21	
+T130	corrected_anatomical_site 654 671	lymph node tissue
+T131	corrected_anatomical_site 711 728	lymph node tissue
+R11	located_in Arg1:T24 Arg2:T130	
+R12	located_in Arg1:T25 Arg2:T130	
+R13	located_in Arg1:T24 Arg2:T131	
+R14	located_in Arg1:T25 Arg2:T131	
+T132	missed_anatomical_site 832 840	thalamus
+T133	missed_anatomical_site 842 845	CA2
+T134	corrected_anatomical_site 857 859;861 862	CA 3
+R15	located_in Arg1:T30 Arg2:T33	
+R16	located_in Arg1:T30 Arg2:T34	
+R17	located_in Arg1:T30 Arg2:T132	
+R18	located_in Arg1:T30 Arg2:T133	
+R19	located_in Arg1:T30 Arg2:T35	
+R20	located_in Arg1:T30 Arg2:T134	
+R21	located_in Arg1:T30 Arg2:T36	
+R22	located_in Arg1:T31 Arg2:T33	
+R23	located_in Arg1:T31 Arg2:T34	
+R24	located_in Arg1:T31 Arg2:T132	
+R25	located_in Arg1:T31 Arg2:T133	
+R26	located_in Arg1:T31 Arg2:T35	
+R27	located_in Arg1:T31 Arg2:T134	
+R28	located_in Arg1:T31 Arg2:T36	
+R29	located_in Arg1:T32 Arg2:T33	
+R30	located_in Arg1:T32 Arg2:T34	
+R31	located_in Arg1:T32 Arg2:T132	
+R32	located_in Arg1:T32 Arg2:T133	
+R33	located_in Arg1:T32 Arg2:T35	
+R34	located_in Arg1:T32 Arg2:T134	
+R35	located_in Arg1:T32 Arg2:T36	
+T135	missed_anatomical_site 929 935	plasma
+R36	located_in Arg1:T37 Arg2:T135	
+R37	located_in Arg1:T39 Arg2:T38	
+R38	located_in Arg1:T40 Arg2:T38	
+R39	located_in Arg1:T44 Arg2:T43	
+R40	located_in Arg1:T45 Arg2:T43	
+R41	located_in Arg1:T46 Arg2:T48	
+R42	located_in Arg1:T47 Arg2:T48	
+R43	located_in Arg1:T49 Arg2:T50	
+R44	located_in Arg1:T49 Arg2:T51	
+T136	corrected_anatomical_site 1331 1342	lung tissue
+R45	located_in Arg1:T54 Arg2:T136	
+T137	corrected_gene 1387 1396	cyclin D1
+R46	located_in Arg1:T137 Arg2:T136	
+R47	located_in Arg1:T56 Arg2:T136	
+R48	located_in Arg1:T57 Arg2:T59	
+R49	located_in Arg1:T57 Arg2:T60	
+R50	located_in Arg1:T58 Arg2:T59	
+R51	located_in Arg1:T58 Arg2:T60	
+R52	located_in Arg1:T67 Arg2:T69	
+R53	located_in Arg1:T67 Arg2:T70	
+T138	missed_gene 1686 1690	CNTF
+R54	located_in Arg1:T138 Arg2:T69	
+R55	located_in Arg1:T138 Arg2:T70	
+R56	located_in Arg1:T68 Arg2:T69	
+R57	located_in Arg1:T138 Arg2:T70	
+R62	located_in Arg1:T88 Arg2:T87	
+R63	located_in Arg1:T90 Arg2:T89	
+R64	located_in Arg1:T92 Arg2:T91	
+R65	located_in Arg1:T93 Arg2:T91	
+R66	located_in Arg1:T94 Arg2:T97	
+R67	located_in Arg1:T95 Arg2:T97	
+R68	located_in Arg1:T96 Arg2:T97	
+T141	missed_gene 2488 2496	keratins
+R69	located_in Arg1:T141 Arg2:T103	
+T142	corrected_gene 2618 2623	PPAR?
+R70	located_in Arg1:T104 Arg2:T106	
+R71	located_in Arg1:T104 Arg2:T107	
+R72	located_in Arg1:T142 Arg2:T106	
+R73	located_in Arg1:T142 Arg2:T107	
+R74	located_in Arg1:T108 Arg2:T109	
+R75	located_in Arg1:T108 Arg2:T110	
+R76	located_in Arg1:T108 Arg2:T111	
+T143	missed_gene 2686 2690	TP53
+R77	located_in Arg1:T143 Arg2:T109	
+R78	located_in Arg1:T143 Arg2:T110	
+R79	located_in Arg1:T143 Arg2:T111	
+T144	corrected_anatomical_site 2741 2753	brain tissue
+R80	located_in Arg1:T112 Arg2:T144	
+R81	located_in Arg1:T113 Arg2:T144	
+R82	located_in Arg1:T116 Arg2:T117	
+T145	missed_anatomical_site 2911 2930	endothelial barrier
+R83	located_in Arg1:T118 Arg2:T145	
+R84	located_in Arg1:T124 Arg2:T125	
+R85	located_in Arg1:T124 Arg2:T126	
+T146	missed_gene 1659 1679	neurotrophic factors
+R86	located_in Arg1:T146 Arg2:T69	
+R87	located_in Arg1:T146 Arg2:T70	
+R88	located_in Arg1:T101 Arg2:T99	
+R89	located_in Arg1:T102 Arg2:T99	
+R90	located_in Arg1:T141 Arg2:T99	

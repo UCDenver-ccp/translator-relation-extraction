@@ -66,12 +66,6 @@ T65	chemical 2160 2170	biomarkers
 T66	disease_or_phenotypic_feature 2184 2193	cataracts
 T67	missed_disease_or_phenotypic_feature 397 417	chronic inflammation
 T68	missed_disease_or_phenotypic_feature 422 430	fibrosis
-T69	missed_chemical 475 504	serum tumor necrosis factor-α
-R1	causes_or_contributes_to Arg1:T69 Arg2:T67	
-R2	causes_or_contributes_to Arg1:T69 Arg2:T68	
-T70	missed_chemical 506 512	sTNF-α
-R3	causes_or_contributes_to Arg1:T70 Arg2:T67	
-R4	causes_or_contributes_to Arg1:T70 Arg2:T68	
 R9	causes_or_contributes_to Arg1:T21 Arg2:T20	
 T71	missed_disease_or_phenotypic_feature 714 737	renal phosphate wasting
 R10	causes_or_contributes_to Arg1:T21 Arg2:T71	
@@ -84,8 +78,21 @@ R13	treats Arg1:T43 Arg2:T47
 R14	treats Arg1:T73 Arg2:T47	
 R15	treats Arg1:T74 Arg2:T47	
 T75	corrected_chemical 1913 1922	fast food
-T76	corrected_chemical 2130 2146	light anesthesia
-R17	causes_or_contributes_to Arg1:T76 Arg2:T61	
 T77	missed_disease_or_phenotypic_feature 2026 2032	tumors
 R5	causes_or_contributes_to Arg1:T59 Arg2:T77	
 R6	causes_or_contributes_to Arg1:T75 Arg2:T57	
+R7	causes_or_contributes_to Arg1:T63 Arg2:T61	
+R8	causes_or_contributes_to Arg1:T64 Arg2:T61	
+R16	causes_or_contributes_to Arg1:T75 Arg2:T58	
+R17	treats Arg1:T53 Arg2:T54	
+R18	treats Arg1:T53 Arg2:T55	
+T76	missed_chemical 1587 1613	pharmacological treatments
+R19	treats Arg1:T76 Arg2:T48	
+R1	causes_or_contributes_to Arg1:T17 Arg2:T18	
+T69	corrected_chemical 621 649	adrenocorticotrophic hormone
+R2	causes_or_contributes_to Arg1:T69 Arg2:T18	
+T70	missed_disease_or_phenotypic_feature 672 678	tumour
+R3	causes_or_contributes_to Arg1:T69 Arg2:T70	
+R4	causes_or_contributes_to Arg1:T17 Arg2:T70	
+T78	missed_disease_or_phenotypic_feature 667 670	EAS
+R20	causes_or_contributes_to Arg1:T69 Arg2:T78	

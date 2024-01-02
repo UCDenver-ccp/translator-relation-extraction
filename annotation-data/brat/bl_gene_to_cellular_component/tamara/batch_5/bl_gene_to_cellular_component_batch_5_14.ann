@@ -104,3 +104,86 @@ T103	cellular_component 3543 3557	membrane rafts
 T104	gene 3585 3601	protein kinase C
 T105	gene 3629 3634	Hsp70
 T106	cellular_component 3667 3680	intracellular
+T107	missed_cellular_component 35 42	nuclear
+T108	missed_gene 183 187	POLG
+T109	missed_gene 196 200	TWNK
+T110	missed_gene 202 206	TFAM
+T111	missed_gene 217 222	MGME1
+T112	missed_gene 335 340	DGUOK
+T113	missed_gene 358 362	ABAT
+T114	missed_gene 371 375	TYMP
+T115	missed_gene 386 389	AGK
+R1	located_in Arg1:T108 Arg2:T107	
+R2	located_in Arg1:T1 Arg2:T107	
+R3	located_in Arg1:T109 Arg2:T107	
+R4	located_in Arg1:T110 Arg2:T107	
+R5	located_in Arg1:T2 Arg2:T107	
+R6	located_in Arg1:T111 Arg2:T107	
+R7	located_in Arg1:T3 Arg2:T107	
+R8	located_in Arg1:T5 Arg2:T107	
+R9	located_in Arg1:T112 Arg2:T107	
+R10	located_in Arg1:T6 Arg2:T107	
+R11	located_in Arg1:T7 Arg2:T107	
+R12	located_in Arg1:T113 Arg2:T107	
+R13	located_in Arg1:T114 Arg2:T107	
+R14	located_in Arg1:T9 Arg2:T107	
+R15	located_in Arg1:T115 Arg2:T107	
+R16	located_in Arg1:T10 Arg2:T107	
+R17	located_in Arg1:T12 Arg2:T107	
+R18	located_in Arg1:T13 Arg2:T107	
+R19	located_in Arg1:T14 Arg2:T107	
+R20	located_in Arg1:T25 Arg2:T27	
+T116	missed_gene 901 910	β-catenin
+R21	located_in Arg1:T116 Arg2:T27	
+#1	AnnotatorNotes R21	Okay?
+R22	located_in Arg1:T30 Arg2:T32	
+R23	located_in Arg1:T31 Arg2:T32	
+R24	located_in Arg1:T34 Arg2:T35	
+T117	corrected_gene 1529 1537	PEPT2-HA
+R25	located_in Arg1:T117 Arg2:T46	
+R26	located_in Arg1:T48 Arg2:T49	
+R27	located_in Arg1:T47 Arg2:T49	
+R28	located_in Arg1:T50 Arg2:T49	
+R29	located_in Arg1:T51 Arg2:T49	
+R30	located_in Arg1:T52 Arg2:T49	
+T118	missed_gene 1713 1717	SMC4
+R31	located_in Arg1:T118 Arg2:T49	
+T119	missed_gene 1696 1703	cohesin
+T120	missed_gene 1718 1727	condensin
+R32	located_in Arg1:T120 Arg2:T49	
+R33	located_in Arg1:T58 Arg2:T57	
+R34	located_in Arg1:T58 Arg2:T59	
+T121	missed_gene 2392 2399	cohesin
+R35	located_in Arg1:T121 Arg2:T69	
+#2	AnnotatorNotes R35	Do we mark it? 
+R36	located_in Arg1:T72 Arg2:T70	
+R37	located_in Arg1:T73 Arg2:T70	
+R38	located_in Arg1:T78 Arg2:T80	
+R39	located_in Arg1:T79 Arg2:T80	
+R40	located_in Arg1:T78 Arg2:T81	
+R41	located_in Arg1:T79 Arg2:T81	
+R42	located_in Arg1:T84 Arg2:T85	
+R43	located_in Arg1:T84 Arg2:T86	
+T122	corrected_gene 2882 2888	HIF-1α
+R44	located_in Arg1:T122 Arg2:T86	
+R45	located_in Arg1:T89 Arg2:T88	
+T123	missed_gene 3003 3009	DIABLO
+R46	located_in Arg1:T123 Arg2:T88	
+R47	located_in Arg1:T90 Arg2:T88	
+T124	corrected_gene 3016 3034	adenylate kinase 2
+R48	located_in Arg1:T124 Arg2:T88	
+R49	located_in Arg1:T92 Arg2:T88	
+T125	missed_gene 3062 3076	endonuclease G
+R50	located_in Arg1:T125 Arg2:T88	
+T126	missed_gene 3078 3114	polypyrimidine tract-binding protein
+R51	located_in Arg1:T126 Arg2:T88	
+T127	missed_gene 3118 3137	type-I RNA helicase
+R52	located_in Arg1:T127 Arg2:T88	
+T128	missed_gene 3141 3172	WD-40 repeat-containing protein
+R53	located_in Arg1:T128 Arg2:T88	
+T129	missed_gene 3181 3200	serine protease Omi
+R54	located_in Arg1:T129 Arg2:T88	
+T130	corrected_gene 3514 3537	alpha 2 beta 1 integrin
+R55	located_in Arg1:T130 Arg2:T103	
+R56	located_in Arg1:T105 Arg2:T106	
+#3	AnnotatorNotes R56	Okay?

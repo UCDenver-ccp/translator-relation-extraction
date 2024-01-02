@@ -76,24 +76,28 @@ T76	chemical 2999 3006	antigen
 T77	chemical 3030 3037	monitor
 T78	disease_or_phenotypic_feature 3087 3112	epithelial ovarian cancer
 R1	treats Arg1:T4 Arg2:T3	
-R2	causes_or_contributes_to Arg1:T10 Arg2:T11	
-T79	missed_disease_or_phenotypic_feature 1137 1162	drug-related hypertension
+T79	missed_disease_or_phenotypic_feature 1150 1162	hypertension
 R5	causes_or_contributes_to Arg1:T24 Arg2:T79	
 T81	missed_chemical 1414 1431	anabolic steroids
-T82	corrected_disease_or_phenotypic_feature 2192 2220	pancreatic cancer xenografts
-R12	causes_or_contributes_to Arg1:T59 Arg2:T82	
-R13	causes_or_contributes_to Arg1:T64 Arg2:T65	
-R14	causes_or_contributes_to Arg1:T64 Arg2:T66	
-R15	causes_or_contributes_to Arg1:T64 Arg2:T67	
+R12	causes_or_contributes_to Arg1:T59 Arg2:T58	
 T83	DONE 3114 3118	DONE
 T84	missed_chemical 1009 1027	oncolytic vaccines
-T85	missed_disease_or_phenotypic_feature 1056 1061	tumor
-R3	treats Arg1:T84 Arg2:T85	
 T86	corrected_disease_or_phenotypic_feature 1456 1497	hypertension associated with gynecomastia
 R4	causes_or_contributes_to Arg1:T32 Arg2:T86	
 R6	causes_or_contributes_to Arg1:T33 Arg2:T86	
 R7	causes_or_contributes_to Arg1:T81 Arg2:T86	
-R8	causes_or_contributes_to Arg1:T47 Arg2:T46	
 T34	corrected_chemical 2056 2098	sodium-glucose co-transporter-2 inhibitors
 R9	treats Arg1:T34 Arg2:T50	
 R10	treats Arg1:T34 Arg2:T49	
+T80	missed_disease_or_phenotypic_feature 1164 1176	dyslipidemia
+R2	causes_or_contributes_to Arg1:T24 Arg2:T80	
+R11	causes_or_contributes_to Arg1:T24 Arg2:T25	
+R16	causes_or_contributes_to Arg1:T48 Arg2:T46	
+T82	missed_disease_or_phenotypic_feature 2047 2049	HF
+R17	treats Arg1:T34 Arg2:T82	
+T87	missed_disease_or_phenotypic_feature 2586 2598	side effects
+T88	missed_disease_or_phenotypic_feature 2655 2686	compromise therapeutic response
+T89	missed_disease_or_phenotypic_feature 1111 1117	tumors
+R20	treats Arg1:T84 Arg2:T89	
+R3	causes_or_contributes_to Arg1:T5 Arg2:T3	
+R8	causes_or_contributes_to Arg1:T6 Arg2:T3	

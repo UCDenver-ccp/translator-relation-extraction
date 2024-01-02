@@ -111,3 +111,133 @@ T110	cell_type 2916 2931	oligodendrocyte
 T111	cell_type 2964 2970	neuron
 T112	gene 2992 2996	ENO2
 T113	gene 3013 3016	MAP
+R1	located_in Arg1:T9 Arg2:T8	
+R2	located_in Arg1:T10 Arg2:T8	
+R3	located_in Arg1:T9 Arg2:T7	
+R4	located_in Arg1:T10 Arg2:T7	
+R5	located_in Arg1:T20 Arg2:T22	
+T114	missed_cell_type 61 64	PMN
+R6	located_in Arg1:T3 Arg2:T114	
+R8	located_in Arg1:T6 Arg2:T5	
+T115	missed_gene 127 132	CD62P
+R9	located_in Arg1:T115 Arg2:T5	
+R10	located_in Arg1:T115 Arg2:T114	
+R11	located_in Arg1:T115 Arg2:T4	
+R7	located_in Arg1:T3 Arg2:T4	
+R12	located_in Arg1:T6 Arg2:T4	
+R13	located_in Arg1:T6 Arg2:T114	
+R14	located_in Arg1:T19 Arg2:T18	
+T116	missed_cell_type 456 461	cells
+R15	located_in Arg1:T17 Arg2:T116	
+R16	located_in Arg1:T16 Arg2:T116	
+R17	located_in Arg1:T19 Arg2:T116	
+T117	missed_cell_type 699 704	cells
+T118	missed_gene 723 736	S100 protein,
+R18	located_in Arg1:T118 Arg2:T117	
+R19	located_in Arg1:T27 Arg2:T117	
+R20	located_in Arg1:T28 Arg2:T117	
+R21	located_in Arg1:T29 Arg2:T117	
+R22	located_in Arg1:T30 Arg2:T32	
+R23	located_in Arg1:T31 Arg2:T32	
+R24	located_in Arg1:T36 Arg2:T33	
+T119	missed_gene 939 952;958 959	neurofilament L
+T120	missed_gene 954 956;958 959	NF L
+R25	located_in Arg1:T120 Arg2:T33	
+R26	located_in Arg1:T119 Arg2:T33	
+R27	located_in Arg1:T37 Arg2:T33	
+R28	located_in Arg1:T38 Arg2:T33	
+T121	missed_gene 1026 1029	CD4
+R29	located_in Arg1:T121 Arg2:T39	
+T122	missed_cell_type 1109 1114	cells
+R30	located_in Arg1:T41 Arg2:T122	
+R31	located_in Arg1:T42 Arg2:T122	
+R32	located_in Arg1:T43 Arg2:T122	
+T123	missed_cell_type 1339 1351	regulatory T
+T124	missed_cell_type 1353 1357	Treg
+R33	located_in Arg1:T52 Arg2:T123	
+R34	located_in Arg1:T52 Arg2:T124	
+R35	located_in Arg1:T53 Arg2:T123	
+R36	located_in Arg1:T53 Arg2:T124	
+R37	located_in Arg1:T54 Arg2:T123	
+R38	located_in Arg1:T54 Arg2:T124	
+R39	located_in Arg1:T56 Arg2:T60	
+R40	located_in Arg1:T56 Arg2:T61	
+R41	located_in Arg1:T56 Arg2:T62	
+R42	located_in Arg1:T56 Arg2:T63	
+R43	located_in Arg1:T56 Arg2:T65	
+R44	located_in Arg1:T56 Arg2:T64	
+R45	located_in Arg1:T66 Arg2:T68	
+#1	AnnotatorNotes R45	?
+R46	located_in Arg1:T67 Arg2:T68	
+#2	AnnotatorNotes R46	?
+T125	missed_gene 1782 1788	TGF-?1
+R47	located_in Arg1:T125 Arg2:T68	
+#3	AnnotatorNotes R47	?
+R48	located_in Arg1:T70 Arg2:T71	
+R49	located_in Arg1:T69 Arg2:T71	
+R50	located_in Arg1:T89 Arg2:T88	
+R51	located_in Arg1:T72 Arg2:T73	
+T126	missed_gene 2055 2058	HbF
+R52	located_in Arg1:T126 Arg2:T76	
+R53	located_in Arg1:T77 Arg2:T78	
+R54	located_in Arg1:T79 Arg2:T80	
+T127	missed_gene 2175 2178	HbF
+R55	located_in Arg1:T127 Arg2:T83	
+T128	missed_cell_type 2241 2255	reticulocjrtes
+R56	located_in Arg1:T85 Arg2:T128	
+R57	located_in Arg1:T86 Arg2:T87	
+T129	missed_cell_type 2153 2158	cells
+T130	missed_cell_type 2167 2172	cells
+T131	missed_cell_type 2075 2080	cells
+R58	located_in Arg1:T82 Arg2:T130	
+R59	located_in Arg1:T81 Arg2:T129	
+T132	missed_cell_type 2013 2018	cells
+T133	missed_gene 2008 2012	CD36
+R60	located_in Arg1:T133 Arg2:T132	
+R61	located_in Arg1:T93 Arg2:T92	
+R62	located_in Arg1:T94 Arg2:T92	
+R63	located_in Arg1:T95 Arg2:T92	
+T134	missed_gene 2511 2531	alkaline phosphatase
+R64	located_in Arg1:T134 Arg2:T92	
+R65	located_in Arg1:T97 Arg2:T98	
+R66	located_in Arg1:T99 Arg2:T98	
+R67	located_in Arg1:T100 Arg2:T101	
+R68	located_in Arg1:T99 Arg2:T101	
+R69	located_in Arg1:T113 Arg2:T111	
+R70	located_in Arg1:T112 Arg2:T111	
+T135	missed_gene 3018 3048	microtubule-associated protein
+R71	located_in Arg1:T135 Arg2:T111	
+T136	missed_gene 2998 3007	enolase 2
+R72	located_in Arg1:T136 Arg2:T111	
+T137	missed_gene 2976 2989	neurofilament
+T138	missed_gene 2972 2974	NF
+#4	AnnotatorNotes T137	?
+#5	AnnotatorNotes T138	?
+R73	located_in Arg1:T137 Arg2:T111	
+R74	located_in Arg1:T138 Arg2:T111	
+R75	located_in Arg1:T108 Arg2:T107	
+R76	located_in Arg1:T109 Arg2:T107	
+T139	missed_cell_type 2683 2687	NSCs
+T140	missed_gene 2698 2703	CD-90
+R77	located_in Arg1:T140 Arg2:T139	
+R78	located_in Arg1:T103 Arg2:T139	
+R79	located_in Arg1:T104 Arg2:T139	
+T141	missed_gene 2705 2709	Hes1
+R80	located_in Arg1:T141 Arg2:T139	
+T142	missed_gene 2711 2715	Oct4
+R81	located_in Arg1:T142 Arg2:T139	
+T143	missed_cell_type 2794 2804;2850 2855	osteogenic cells
+T144	missed_cell_type 2839 2855	neurogenic cells
+R82	located_in Arg1:T105 Arg2:T143	
+R83	located_in Arg1:T106 Arg2:T143	
+T145	missed_cell_type 2766 2771	cells
+R84	located_in Arg1:T106 Arg2:T145	
+R85	located_in Arg1:T105 Arg2:T145	
+R86	located_in Arg1:T108 Arg2:T145	
+R87	located_in Arg1:T109 Arg2:T145	
+R88	located_in Arg1:T138 Arg2:T145	
+R89	located_in Arg1:T137 Arg2:T145	
+R90	located_in Arg1:T112 Arg2:T145	
+R91	located_in Arg1:T136 Arg2:T145	
+R92	located_in Arg1:T113 Arg2:T145	
+R93	located_in Arg1:T135 Arg2:T145	

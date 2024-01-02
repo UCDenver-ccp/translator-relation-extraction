@@ -81,11 +81,8 @@ T80	disease_or_phenotypic_feature 3364 3372	diabetes
 T81	disease_or_phenotypic_feature 3377 3383	cancer
 R1	causes_or_contributes_to Arg1:T9 Arg2:T8	
 R2	treats Arg1:T10 Arg2:T14	
-T82	corrected_disease_or_phenotypic_feature 362 390	small-for-date short stature
-T83	corrected_disease_or_phenotypic_feature 392 428	significant idiopathic short stature
+T83	corrected_disease_or_phenotypic_feature 404 428	idiopathic short stature
 R3	treats Arg1:T10 Arg2:T83	
-R4	treats Arg1:T10 Arg2:T82	
-T84	corrected_disease_or_phenotypic_feature 933 964	diabetic peripheral neuropathy.
 R5	causes_or_contributes_to Arg1:T28 Arg2:T31	
 R6	treats Arg1:T28 Arg2:T30	
 R7	treats Arg1:T57 Arg2:T60	
@@ -104,10 +101,12 @@ R15	causes_or_contributes_to Arg1:T88 Arg2:T87
 R16	causes_or_contributes_to Arg1:T88 Arg2:T79	
 R17	causes_or_contributes_to Arg1:T88 Arg2:T80	
 R18	causes_or_contributes_to Arg1:T88 Arg2:T81	
-R19	causes_or_contributes_to Arg1:T24 Arg2:T84	
-T89	corrected_disease_or_phenotypic_feature 3060 3080	hyperplastic obesity
-T90	corrected_disease_or_phenotypic_feature 3085 3105	hypertrophic obesity
-R20	treats Arg1:T70 Arg2:T89	
-R21	treats Arg1:T70 Arg2:T90	
 T91	missed_disease_or_phenotypic_feature 3308 3320	hypovolaemia
 R22	causes_or_contributes_to Arg1:T77 Arg2:T91	
+R23	treats Arg1:T59 Arg2:T60	
+R24	causes_or_contributes_to Arg1:T59 Arg2:T85	
+R4	treats Arg1:T10 Arg2:T12	
+R19	treats Arg1:T29 Arg2:T30	
+R25	causes_or_contributes_to Arg1:T29 Arg2:T31	
+T82	missed_disease_or_phenotypic_feature 233 235	MH
+R26	causes_or_contributes_to Arg1:T9 Arg2:T82	

@@ -55,7 +55,7 @@ T54	chemical 2436 2447	biochemical
 T55	disease_or_phenotypic_feature 2527 2534	cancers
 T56	chemical 2605 2612	antigen
 T57	disease_or_phenotypic_feature 2617 2623	cancer
-T58	corrected_disease_or_phenotypic_feature 150 179	sex-hormone-dependent tumours
+T58	corrected_disease_or_phenotypic_feature 172 179	tumours
 T59	corrected_chemical 89 103	GnRH analogues
 R1	treats Arg1:T59 Arg2:T58	
 T60	missed_disease_or_phenotypic_feature 301 306	burns
@@ -66,16 +66,31 @@ T63	missed_disease_or_phenotypic_feature 507 521	hypernatraemia
 T64	missed_disease_or_phenotypic_feature 523 533	hypodipsia
 T65	missed_disease_or_phenotypic_feature 535 550	hypersomnolence
 T66	missed_disease_or_phenotypic_feature 555 566	hyperkapnia
-T67	corrected_disease_or_phenotypic_feature 677 696	galactose cataracts
 T68	corrected_disease_or_phenotypic_feature 1157 1178	mutism syndrome (CMS)
 T69	corrected_chemical 1314 1329	barium sulphate
-T70	missed_disease_or_phenotypic_feature 1383 1389	5-HT2A
-T71	missed_disease_or_phenotypic_feature 1394 1398	DRD3
-T72	missed_disease_or_phenotypic_feature 1614 1633	syngeneic JC tumors
 R4	treats Arg1:T42 Arg2:T44	
 R5	treats Arg1:T42 Arg2:T45	
 T73	missed_chemical 2156 2164	hydrogel
-T74	corrected_chemical 2120 2164	P(AAm-AMPS)/alginate double-network hydrogel
-T75	missed_disease_or_phenotypic_feature 2540 2572	B-cell tumor-derived Ig receptor
 T76	DONE 2645 2649	DONE
 R6	causes_or_contributes_to Arg1:T5 Arg2:T58	
+T77	missed_disease_or_phenotypic_feature 1219 1235	Barium retention
+R3	causes_or_contributes_to Arg1:T69 Arg2:T77	
+T78	corrected_disease_or_phenotypic_feature 240 265	Mentosternal contractures
+R7	causes_or_contributes_to Arg1:T10 Arg2:T78	
+R8	causes_or_contributes_to Arg1:T11 Arg2:T78	
+R9	causes_or_contributes_to Arg1:T19 Arg2:T20	
+R10	treats Arg1:T25 Arg2:T26	
+R11	treats Arg1:T24 Arg2:T26	
+T67	missed_disease_or_phenotypic_feature 897 900	CVD
+R12	treats Arg1:T24 Arg2:T67	
+R13	treats Arg1:T25 Arg2:T67	
+T79	corrected_chemical 1471 1475	drug
+R14	treats Arg1:T79 Arg2:T37	
+T82	missed_chemical 116 134	therapeutic agents
+R18	treats Arg1:T82 Arg2:T58	
+T83	missed_disease_or_phenotypic_feature 1246 1302	complication of upper gastrointestinal tract examination
+R19	causes_or_contributes_to Arg1:T69 Arg2:T83	
+T70	missed_disease_or_phenotypic_feature 1689 1694	tumor
+R15	treats Arg1:T41 Arg2:T70	
+T71	missed_chemical 2624 2631	vaccine
+R16	treats Arg1:T71 Arg2:T57	

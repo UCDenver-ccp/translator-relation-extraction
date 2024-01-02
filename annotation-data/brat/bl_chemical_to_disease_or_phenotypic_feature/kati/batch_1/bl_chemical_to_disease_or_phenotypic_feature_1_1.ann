@@ -64,30 +64,22 @@ T64	corrected_chemical 566 587	multikinase inhibitor
 T65	missed_disease_or_phenotypic_feature 617 623	tumors
 R2	treats Arg1:T13 Arg2:T15	
 T67	missed_disease_or_phenotypic_feature 803 814	RG-2 tumors
-T68	missed_disease_or_phenotypic_feature 915 920	tumor
-T69	missed_disease_or_phenotypic_feature 924 929	tumor
-T70	missed_disease_or_phenotypic_feature 952 958	tumors
 T71	corrected_chemical 1067 1099	tumor necrosis factor inhibitors
 T72	missed_chemical 1147 1160	interleukin-6
 T73	missed_chemical 1334 1355	antineoplastic agents
-T74	missed_disease_or_phenotypic_feature 1186 1200	Tumour hypoxia
 T75	missed_chemical 1280 1321	bioreductive (hypoxia-activated) prodrugs
 T76	missed_disease_or_phenotypic_feature 1403 1417	breast cancers
 R3	treats Arg1:T30 Arg2:T32	
 T79	missed_disease_or_phenotypic_feature 1617 1646	nasolacrimal duct obstruction
-R5	treats Arg1:T35 Arg2:T38	
 T86	corrected_disease_or_phenotypic_feature 2285 2311	benign pancreatic diseases
 T87	corrected_disease_or_phenotypic_feature 2331 2345	benign disease
 T88	corrected_chemical 2377 2395	topical anesthesia
 T89	corrected_chemical 2559 2577	C-Reactive Protein
 T90	corrected_chemical 2526 2544	Apolipoprotein A-I
 T91	corrected_chemical 2669 2693	Isorhamnetin-3-glucoside
-T92	missed_disease_or_phenotypic_feature 2705 2721	oxidative stress
 T93	missed_disease_or_phenotypic_feature 2726 2739	opacification
-T94	corrected_disease_or_phenotypic_feature 2743 2760	selenite cataract
-R11	treats Arg1:T91 Arg2:T92	
 R12	treats Arg1:T91 Arg2:T93	
-R13	treats Arg1:T91 Arg2:T94	
+R13	treats Arg1:T91 Arg2:T56	
 T95	corrected_disease_or_phenotypic_feature 2808 2826	psoriasis vulgaris
 T96	corrected_chemical 2836 2867	tumor necrosis factor inhibitor
 R14	treats Arg1:T96 Arg2:T57	
@@ -111,3 +103,10 @@ T31	missed_disease_or_phenotypic_feature 1739 1749	antisepsis
 R8	causes_or_contributes_to Arg1:T30 Arg2:T79	
 R4	treats Arg1:T60 Arg2:T95	
 R9	treats Arg1:T60 Arg2:T57	
+T66	missed_chemical 155 165	medication
+R5	causes_or_contributes_to Arg1:T66 Arg2:T63	
+R10	treats Arg1:T25 Arg2:T24	
+R17	treats Arg1:T17 Arg2:T18	
+R26	treats Arg1:T16 Arg2:T67	
+T68	missed_chemical 2743 2751	selenite
+R11	causes_or_contributes_to Arg1:T68 Arg2:T56	

@@ -99,3 +99,45 @@ T98	cellular_component 3356 3364	integrin
 T99	gene 3366 3371	CXCR3
 T100	gene 3373 3377	CCR3
 T101	gene 3383 3387	CCR5
+R1	located_in Arg1:T3 Arg2:T5	
+R2	located_in Arg1:T4 Arg2:T5	
+R3	located_in Arg1:T6 Arg2:T5	
+T102	missed_gene 246 255	fibrillin
+R4	located_in Arg1:T102 Arg2:T8	
+R5	located_in Arg1:T17 Arg2:T16	
+R6	located_in Arg1:T27 Arg2:T26	
+R7	located_in Arg1:T28 Arg2:T26	
+R8	located_in Arg1:T29 Arg2:T26	
+R9	located_in Arg1:T39 Arg2:T40	
+T103	missed_gene 1241 1246	HSC70
+R10	located_in Arg1:T103 Arg2:T40	
+R11	located_in Arg1:T38 Arg2:T40	
+R12	located_in Arg1:T42 Arg2:T41	
+T104	missed_gene 1392 1396	MD-2
+R13	located_in Arg1:T104 Arg2:T41	
+R14	located_in Arg1:T43 Arg2:T41	
+R15	located_in Arg1:T44 Arg2:T41	
+R16	located_in Arg1:T45 Arg2:T41	
+R17	located_in Arg1:T47 Arg2:T46	
+R18	located_in Arg1:T48 Arg2:T46	
+R19	located_in Arg1:T49 Arg2:T46	
+R20	located_in Arg1:T50 Arg2:T46	
+T105	corrected_gene 1479 1485	XTP3-B
+R21	located_in Arg1:T105 Arg2:T52	
+#1	AnnotatorNotes R21	Okay?
+T106	missed_gene 1591 1594	BiP
+R22	located_in Arg1:T106 Arg2:T52	
+#2	AnnotatorNotes R22	Okay?
+R23	located_in Arg1:T54 Arg2:T52	
+#3	AnnotatorNotes R23	Okay?
+R24	located_in Arg1:T53 Arg2:T52	
+#4	AnnotatorNotes R24	Okay?
+R25	located_in Arg1:T61 Arg2:T62	
+T107	corrected_gene 1800 1810	Orai1-SNPs
+R26	located_in Arg1:T107 Arg2:T62	
+R27	located_in Arg1:T107 Arg2:T63	
+R28	located_in Arg1:T66 Arg2:T65	
+R29	located_in Arg1:T66 Arg2:T67	
+R30	located_in Arg1:T66 Arg2:T68	
+T108	missed_gene 2288 2316	plasminogen-binding proteins
+R31	located_in Arg1:T108 Arg2:T72	

@@ -113,3 +113,81 @@ T112	anatomical_site 2677 2682	brain
 T113	gene 2685 2696	Osteocalcin
 T114	anatomical_site 2713 2717	bone
 T115	anatomical_site 2766 2772	tissue
+T116	corrected_anatomical_site 78 89	lung tissue
+R1	located_in Arg1:T1 Arg2:T116	
+R2	located_in Arg1:T2 Arg2:T116	
+R3	located_in Arg1:T14 Arg2:T13	
+R4	located_in Arg1:T15 Arg2:T13	
+R5	located_in Arg1:T16 Arg2:T12	
+T117	corrected_gene 485 514	vascular endothelium-cadherin
+T118	corrected_gene 516 522	VE-cad
+T119	corrected_anatomical_site 485 505	vascular endothelium
+R6	located_in Arg1:T117 Arg2:T119	
+R7	located_in Arg1:T118 Arg2:T119	
+T120	corrected_gene 601 608	albumin
+T121	missed_anatomical_site 595 600	serum
+R8	located_in Arg1:T120 Arg2:T121	
+R9	located_in Arg1:T26 Arg2:T25	
+R10	located_in Arg1:T29 Arg2:T31	
+R11	located_in Arg1:T30 Arg2:T31	
+R12	located_in Arg1:T32 Arg2:T35	
+R13	located_in Arg1:T33 Arg2:T35	
+R14	located_in Arg1:T34 Arg2:T35	
+T122	corrected_anatomical_site 921 928;940 946;962 975	medulla of the adrenal gland
+T123	corrected_anatomical_site 933 946;962 975	cortex of the adrenal gland
+R15	located_in Arg1:T36 Arg2:T122	
+R16	located_in Arg1:T36 Arg2:T123	
+T124	corrected_anatomical_site 1095 1108	breast tissue
+R17	located_in Arg1:T42 Arg2:T40	
+R18	located_in Arg1:T43 Arg2:T40	
+R19	located_in Arg1:T44 Arg2:T40	
+R20	located_in Arg1:T42 Arg2:T124	
+R21	located_in Arg1:T43 Arg2:T124	
+R22	located_in Arg1:T44 Arg2:T124	
+T125	missed_gene 1155 1159	Trio
+R23	located_in Arg1:T125 Arg2:T124	
+T126	corrected_anatomical_site 1291 1305	kidney tissues
+R24	located_in Arg1:T53 Arg2:T126	
+T127	corrected_anatomical_site 1392 1398;1453 1466	kidney outer medulla
+T128	corrected_anatomical_site 1392 1398;1483 1496	kidney inner medulla
+T129	corrected_anatomical_site 1392 1398;1497 1504	kidney papilla
+R25	located_in Arg1:T55 Arg2:T56	
+R26	located_in Arg1:T55 Arg2:T127	
+T130	corrected_anatomical_site 1392 1398;1509 1515	kidney cortex
+R27	located_in Arg1:T55 Arg2:T128	
+R28	located_in Arg1:T55 Arg2:T129	
+R29	located_in Arg1:T55 Arg2:T130	
+R30	located_in Arg1:T61 Arg2:T62	
+R38	located_in Arg1:T77 Arg2:T79	
+T133	corrected_gene 1902 1926	nebulin-related proteins
+R39	located_in Arg1:T133 Arg2:T79	
+T135	missed_gene 1965 1969	NF?B
+R40	located_in Arg1:T135 Arg2:T85	
+R41	located_in Arg1:T135 Arg2:T86	
+R42	located_in Arg1:T80 Arg2:T85	
+R43	located_in Arg1:T80 Arg2:T86	
+R44	located_in Arg1:T81 Arg2:T85	
+R45	located_in Arg1:T81 Arg2:T86	
+R46	located_in Arg1:T82 Arg2:T85	
+R47	located_in Arg1:T82 Arg2:T86	
+R48	located_in Arg1:T83 Arg2:T85	
+R49	located_in Arg1:T83 Arg2:T86	
+R50	located_in Arg1:T84 Arg2:T85	
+R51	located_in Arg1:T84 Arg2:T86	
+R52	located_in Arg1:T89 Arg2:T88	
+R53	located_in Arg1:T91 Arg2:T90	
+R56	located_in Arg1:T102 Arg2:T104	
+R57	located_in Arg1:T102 Arg2:T105	
+R58	located_in Arg1:T103 Arg2:T104	
+R59	located_in Arg1:T103 Arg2:T105	
+R60	located_in Arg1:T108 Arg2:T109	
+R61	located_in Arg1:T108 Arg2:T110	
+R62	located_in Arg1:T108 Arg2:T111	
+R63	located_in Arg1:T108 Arg2:T112	
+T136	corrected_anatomical_site 2713 2724	bone matrix
+T137	corrected_anatomical_site 2754 2772	mineralized tissue
+R64	located_in Arg1:T113 Arg2:T136	
+R65	located_in Arg1:T113 Arg2:T137	
+T138	missed_gene 2698 2700	OC
+R66	located_in Arg1:T138 Arg2:T136	
+R67	located_in Arg1:T138 Arg2:T137	

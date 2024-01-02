@@ -111,3 +111,131 @@ T110	gene 2775 2781	SOCS-3
 T111	anatomical_site 2789 2794	liver
 T112	anatomical_site 2796 2802	muscle
 T113	anatomical_site 2812 2832	white adipose tissue
+R1	located_in Arg1:T7 Arg2:T5	
+T114	corrected_anatomical_site 69 101	outer strip of the outer medulla
+R2	located_in Arg1:T7 Arg2:T114	
+T115	missed_anatomical_site 210 238	proximal tubule brush border
+R3	located_in Arg1:T8 Arg2:T115	
+T116	missed_anatomical_site 331 339	Amygdala
+T117	corrected_anatomical_site 354 370	limbic forebrain
+R4	located_in Arg1:T14 Arg2:T116	
+R5	located_in Arg1:T14 Arg2:T11	
+R6	located_in Arg1:T14 Arg2:T117	
+R7	located_in Arg1:T14 Arg2:T13	
+T118	corrected_anatomical_site 499 528	early retinal neuroepithelium
+R8	located_in Arg1:T15 Arg2:T118	
+R9	located_in Arg1:T16 Arg2:T118	
+T119	missed_gene 617 642;649 657	unfolded protein response proteins
+T120	missed_gene 644 647;649 657	UPR proteins
+R10	located_in Arg1:T119 Arg2:T25	
+R11	located_in Arg1:T120 Arg2:T25	
+R12	located_in Arg1:T20 Arg2:T25	
+R13	located_in Arg1:T21 Arg2:T25	
+R14	located_in Arg1:T22 Arg2:T25	
+T121	corrected_anatomical_site 805 833	nasal respiratory epithelium
+R15	located_in Arg1:T27 Arg2:T121	
+R16	located_in Arg1:T28 Arg2:T121	
+R17	located_in Arg1:T29 Arg2:T121	
+R18	located_in Arg1:T30 Arg2:T121	
+R19	located_in Arg1:T27 Arg2:T32	
+R20	located_in Arg1:T28 Arg2:T32	
+R21	located_in Arg1:T29 Arg2:T32	
+R22	located_in Arg1:T30 Arg2:T32	
+R23	located_in Arg1:T34 Arg2:T33	
+T122	corrected_gene 993 1016	cyclin-dependent kinase
+R24	located_in Arg1:T35 Arg2:T36	
+R25	located_in Arg1:T122 Arg2:T36	
+T123	missed_anatomical_site 1135 1150	neuroepithelial
+R27	located_in Arg1:T41 Arg2:T123	
+R28	located_in Arg1:T41 Arg2:T40	
+R29	located_in Arg1:T42 Arg2:T123	
+R30	located_in Arg1:T42 Arg2:T40	
+R31	located_in Arg1:T43 Arg2:T123	
+R32	located_in Arg1:T43 Arg2:T40	
+T124	missed_gene 1201 1204	RAX
+R33	located_in Arg1:T124 Arg2:T123	
+R34	located_in Arg1:T124 Arg2:T40	
+R35	located_in Arg1:T44 Arg2:T46	
+R36	located_in Arg1:T44 Arg2:T47	
+T125	missed_gene 1276 1281	GLAST
+T126	missed_gene 1282 1304	glutamate transporters
+R37	located_in Arg1:T44 Arg2:T48	
+R38	located_in Arg1:T45 Arg2:T46	
+R39	located_in Arg1:T45 Arg2:T47	
+R40	located_in Arg1:T45 Arg2:T48	
+R41	located_in Arg1:T125 Arg2:T46	
+R42	located_in Arg1:T125 Arg2:T47	
+R43	located_in Arg1:T125 Arg2:T48	
+R44	located_in Arg1:T126 Arg2:T46	
+R45	located_in Arg1:T126 Arg2:T47	
+R46	located_in Arg1:T126 Arg2:T48	
+T127	missed_gene 1440 1443	SLA
+T128	corrected_anatomical_site 1512 1523	loin muscle
+T129	missed_anatomical_site 1536 1551	pituitary gland
+R47	located_in Arg1:T49 Arg2:T55	
+R48	located_in Arg1:T49 Arg2:T128	
+R49	located_in Arg1:T49 Arg2:T57	
+R50	located_in Arg1:T49 Arg2:T129	
+R51	located_in Arg1:T50 Arg2:T55	
+R52	located_in Arg1:T50 Arg2:T128	
+R53	located_in Arg1:T50 Arg2:T57	
+R54	located_in Arg1:T50 Arg2:T129	
+R55	located_in Arg1:T51 Arg2:T55	
+R56	located_in Arg1:T51 Arg2:T128	
+R57	located_in Arg1:T51 Arg2:T57	
+R58	located_in Arg1:T51 Arg2:T129	
+R59	located_in Arg1:T52 Arg2:T55	
+R60	located_in Arg1:T52 Arg2:T128	
+R61	located_in Arg1:T52 Arg2:T57	
+R62	located_in Arg1:T52 Arg2:T129	
+R63	located_in Arg1:T53 Arg2:T55	
+R64	located_in Arg1:T53 Arg2:T128	
+R65	located_in Arg1:T53 Arg2:T57	
+R66	located_in Arg1:T53 Arg2:T129	
+R67	located_in Arg1:T127 Arg2:T55	
+R68	located_in Arg1:T127 Arg2:T128	
+R69	located_in Arg1:T127 Arg2:T57	
+R70	located_in Arg1:T54 Arg2:T55	
+R71	located_in Arg1:T54 Arg2:T128	
+R72	located_in Arg1:T54 Arg2:T57	
+R73	located_in Arg1:T54 Arg2:T129	
+R74	located_in Arg1:T59 Arg2:T58	
+T130	missed_gene 1601 1604	CRP
+R75	located_in Arg1:T130 Arg2:T58	
+R76	located_in Arg1:T61 Arg2:T60	
+R77	located_in Arg1:T62 Arg2:T60	
+R78	located_in Arg1:T63 Arg2:T65	
+R79	located_in Arg1:T64 Arg2:T65	
+R80	located_in Arg1:T73 Arg2:T74	
+R81	located_in Arg1:T76 Arg2:T75	
+T131	corrected_anatomical_site 2062 2080	tubular epithelium
+R82	located_in Arg1:T79 Arg2:T131	
+R83	located_in Arg1:T82 Arg2:T81	
+R84	located_in Arg1:T83 Arg2:T81	
+R85	located_in Arg1:T86 Arg2:T88	
+R86	located_in Arg1:T87 Arg2:T88	
+R87	located_in Arg1:T86 Arg2:T89	
+R88	located_in Arg1:T87 Arg2:T89	
+R89	located_in Arg1:T90 Arg2:T96	
+R90	located_in Arg1:T91 Arg2:T96	
+R91	located_in Arg1:T92 Arg2:T96	
+R93	located_in Arg1:T93 Arg2:T96	
+R92	located_in Arg1:T94 Arg2:T96	
+R94	located_in Arg1:T95 Arg2:T96	
+R95	located_in Arg1:T90 Arg2:T97	
+R96	located_in Arg1:T91 Arg2:T97	
+R97	located_in Arg1:T92 Arg2:T97	
+R98	located_in Arg1:T93 Arg2:T97	
+R99	located_in Arg1:T94 Arg2:T97	
+R100	located_in Arg1:T95 Arg2:T97	
+T132	missed_anatomical_site 2834 2837	WAT
+R101	located_in Arg1:T110 Arg2:T111	
+R102	located_in Arg1:T110 Arg2:T112	
+R103	located_in Arg1:T110 Arg2:T113	
+R104	located_in Arg1:T110 Arg2:T132	
+R105	located_in Arg1:T1 Arg2:T4	
+R106	located_in Arg1:T2 Arg2:T4	
+R107	located_in Arg1:T3 Arg2:T4	
+R26	located_in Arg1:T71 Arg2:T72	
+T133	corrected_gene 2668 2701	vascular cell adhesion molecule-1
+R108	located_in Arg1:T133 Arg2:T106	

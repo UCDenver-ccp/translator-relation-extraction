@@ -80,7 +80,6 @@ R1	treats Arg1:T7 Arg2:T9
 R2	treats Arg1:T7 Arg2:T10	
 R3	treats Arg1:T8 Arg2:T9	
 R4	treats Arg1:T8 Arg2:T10	
-R5	causes_or_contributes_to Arg1:T11 Arg2:T12	
 T79	missed_disease_or_phenotypic_feature 541 551	depression
 R6	treats Arg1:T15 Arg2:T17	
 R7	treats Arg1:T15 Arg2:T18	
@@ -88,11 +87,9 @@ R8	treats Arg1:T15 Arg2:T79
 R9	treats Arg1:T16 Arg2:T17	
 R10	treats Arg1:T16 Arg2:T18	
 R11	treats Arg1:T16 Arg2:T79	
-R12	causes_or_contributes_to Arg1:T20 Arg2:T19	
 T80	missed_chemical 796 803	statins
-R15	causes_or_contributes_to Arg1:T27 Arg2:T29	
 T81	corrected_chemical 945 963	oxygen metabolites
-R16	treats Arg1:T31 Arg2:T30	
+R16	treats Arg1:T31 Arg2:T93	
 R17	treats Arg1:T35 Arg2:T36	
 T83	corrected_disease_or_phenotypic_feature 2092 2110	pituitary adenomas
 T84	missed_chemical 2445 2462	guanylate cyclase
@@ -104,11 +101,11 @@ R23	treats Arg1:T85 Arg2:T71
 R24	treats Arg1:T85 Arg2:T72	
 R25	treats Arg1:T85 Arg2:T73	
 R32	causes_or_contributes_to Arg1:T74 Arg2:T75	
-R33	causes_or_contributes_to Arg1:T77 Arg2:T78	
-T86	corrected_disease_or_phenotypic_feature 2768 2792	estrogen-dependent tumor
+R33	causes_or_contributes_to Arg1:T77 Arg2:T86	
+T86	corrected_disease_or_phenotypic_feature 2787 2792	tumor
 T87	DONE 2794 2798	DONE
 T88	missed_chemical 1087 1107	pH-sensitive carrier
-R13	treats Arg1:T88 Arg2:T30	
+R13	treats Arg1:T88 Arg2:T93	
 T89	missed_chemical 1143 1164	Monoclonal antibodies
 T90	corrected_chemical 1236 1268	tumor necrosis factor inhibitors
 R14	treats Arg1:T89 Arg2:T32	
@@ -128,3 +125,27 @@ R30	treats Arg1:T82 Arg2:T72
 R31	treats Arg1:T82 Arg2:T73	
 T91	missed_disease_or_phenotypic_feature 2731 2740	neoplasia
 R39	treats Arg1:T76 Arg2:T91	
+R40	causes_or_contributes_to Arg1:T48 Arg2:T49	
+T92	missed_disease_or_phenotypic_feature 1131 1136	tumor
+R12	treats Arg1:T31 Arg2:T92	
+R41	treats Arg1:T88 Arg2:T92	
+T93	corrected_disease_or_phenotypic_feature 1066 1078	cancer tumor
+T94	missed_disease_or_phenotypic_feature 1295 1312	antitumor effects
+R42	causes_or_contributes_to Arg1:T35 Arg2:T94	
+T95	corrected_disease_or_phenotypic_feature 2003 2020	malignant tumours
+R44	treats Arg1:T58 Arg2:T95	
+T96	missed_disease_or_phenotypic_feature 2057 2073	tumour shrinkage
+R45	treats Arg1:T61 Arg2:T96	
+R46	treats Arg1:T62 Arg2:T96	
+R47	treats Arg1:T76 Arg2:T86	
+T97	missed_chemical 94 106	chemotherapy
+R48	treats Arg1:T97 Arg2:T5	
+T98	missed_disease_or_phenotypic_feature 111 123	solid tumors
+R49	treats Arg1:T97 Arg2:T98	
+T99	missed_disease_or_phenotypic_feature 139 148	lymphomas
+R50	treats Arg1:T97 Arg2:T99	
+T100	missed_disease_or_phenotypic_feature 993 1011	clinical condition
+R5	causes_or_contributes_to Arg1:T81 Arg2:T100	
+R15	causes_or_contributes_to Arg1:T81 Arg2:T29	
+R43	causes_or_contributes_to Arg1:T37 Arg2:T94	
+R51	causes_or_contributes_to Arg1:T38 Arg2:T94	

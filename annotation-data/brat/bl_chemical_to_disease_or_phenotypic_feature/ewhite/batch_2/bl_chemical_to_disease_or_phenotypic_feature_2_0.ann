@@ -58,7 +58,6 @@ T57	chemical 1791 1818	adrenocorticotropic hormone
 T58	chemical 1849 1853	GHRH
 T59	chemical 1854 1865	antagonists
 T60	chemical 1874 1882	androgen
-T61	disease_or_phenotypic_feature 1895 1911	prostate cancers
 T62	chemical 1940 1948	androgen
 T63	chemical 1967 1975	androgen
 T64	disease_or_phenotypic_feature 2011 2024	hyperglycemia
@@ -75,10 +74,8 @@ T74	disease_or_phenotypic_feature 2437 2451	hyperlipidemia
 R1	causes_or_contributes_to Arg1:T1 Arg2:T2	
 R2	causes_or_contributes_to Arg1:T1 Arg2:T3	
 R3	causes_or_contributes_to Arg1:T1 Arg2:T4	
-R4	causes_or_contributes_to Arg1:T12 Arg2:T13	
 T75	missed_chemical 524 551	Albumin based nanoparticles
 T76	missed_chemical 524 537;553 556	Albumin based NPs
-R5	treats Arg1:T25 Arg2:T21	
 R6	treats Arg1:T75 Arg2:T21	
 R7	treats Arg1:T76 Arg2:T21	
 R8	treats Arg1:T23 Arg2:T21	
@@ -92,13 +89,23 @@ R13	treats Arg1:T78 Arg2:T40
 R14	treats Arg1:T78 Arg2:T39	
 R15	causes_or_contributes_to Arg1:T43 Arg2:T41	
 T79	corrected_chemical 1849 1865	GHRH antagonists
-T80	corrected_disease_or_phenotypic_feature 1874 1911	androgen-independent prostate cancers
-T81	missed_disease_or_phenotypic_feature 1967 1992	androgen-sensitive tumors
+T80	disease_or_phenotypic_feature 1895 1911	prostate cancers
 R16	treats Arg1:T79 Arg2:T80	
-R17	treats Arg1:T79 Arg2:T81	
+R17	treats Arg1:T79 Arg2:T84	
 T82	missed_chemical 2223 2234	palbociclib
 T83	missed_chemical 2239 2250	fulvestrant
 R18	treats Arg1:T83 Arg2:T69	
 R19	treats Arg1:T82 Arg2:T69	
 T84	missed_disease_or_phenotypic_feature 1986 1992	tumors
 R20	causes_or_contributes_to Arg1:T63 Arg2:T84	
+T85	missed_disease_or_phenotypic_feature 12 24	intoxication
+R4	causes_or_contributes_to Arg1:T1 Arg2:T85	
+R21	causes_or_contributes_to Arg1:T12 Arg2:T13	
+R5	treats Arg1:T22 Arg2:T21	
+T86	missed_disease_or_phenotypic_feature 849 851	HF
+R22	causes_or_contributes_to Arg1:T28 Arg2:T86	
+R23	causes_or_contributes_to Arg1:T42 Arg2:T41	
+T61	corrected_chemical 786 799	cardiac toxin
+R24	causes_or_contributes_to Arg1:T61 Arg2:T30	
+R25	causes_or_contributes_to Arg1:T61 Arg2:T86	
+R26	causes_or_contributes_to Arg1:T35 Arg2:T33	

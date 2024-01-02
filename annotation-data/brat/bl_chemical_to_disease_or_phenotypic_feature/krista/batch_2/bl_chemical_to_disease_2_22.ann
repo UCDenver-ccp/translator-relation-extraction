@@ -60,3 +60,34 @@ T59	chemical 3907 3921	glucocorticoid
 T60	chemical 3936 3951	glucocorticoids
 T61	disease_or_phenotypic_feature 3990 3999	disorders
 T62	chemical 4004 4008	drug
+T63	corrected_chemical 3531 3561	Bowman-Birk protease inhibitor
+T64	corrected_chemical 3566 3584	Mistletoe Lectin-I
+T65	missed_disease_or_phenotypic_feature 3647 3662	oral carcinomas
+T66	corrected_disease_or_phenotypic_feature 3629 3645	prostrate cancer
+R1	treats Arg1:T63 Arg2:T54	
+R2	treats Arg1:T63 Arg2:T65	
+R3	treats Arg1:T63 Arg2:T66	
+R4	treats Arg1:T64 Arg2:T54	
+R5	treats Arg1:T64 Arg2:T65	
+R6	treats Arg1:T64 Arg2:T66	
+T67	corrected_chemical 3498 3522	medicinal plant proteins
+R7	treats Arg1:T67 Arg2:T54	
+R8	treats Arg1:T67 Arg2:T65	
+R9	treats Arg1:T67 Arg2:T66	
+T68	corrected_disease_or_phenotypic_feature 1012 1044	reduced diastolic blood pressure
+R10	causes_or_contributes_to Arg1:T15 Arg2:T68	
+T69	corrected_disease_or_phenotypic_feature 1510 1518;1535 1548	anxiety- like behavior
+T70	corrected_disease_or_phenotypic_feature 1524 1548	depression-like behavior
+T71	corrected_disease_or_phenotypic_feature 1958 1981	peripheral nerve injury
+T72	missed_chemical 2055 2068	necrostatin-1
+R13	treats Arg1:T72 Arg2:T71	
+T73	missed_chemical 1749 1751	ES
+R14	treats Arg1:T73 Arg2:T27	
+T74	missed_chemical 1861 1863	ES
+R15	treats Arg1:T74 Arg2:T29	
+R16	treats Arg1:T74 Arg2:T27	
+R17	treats Arg1:T73 Arg2:T29	
+T75	missed_disease_or_phenotypic_feature 1493 1505	inflammation
+R18	causes_or_contributes_to Arg1:T21 Arg2:T75	
+R11	causes_or_contributes_to Arg1:T21 Arg2:T69	
+R12	causes_or_contributes_to Arg1:T21 Arg2:T69	

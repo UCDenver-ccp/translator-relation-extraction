@@ -102,3 +102,76 @@ T101	gene 3239 3245	leptin
 T102	gene 3247 3258	adiponectin
 T103	gene 3263 3270	insulin
 T104	anatomical_site 3285 3290	liver
+R1	located_in Arg1:T4 Arg2:T5	
+T105	corrected_anatomical_site 519 546	neuropil of the spinal cord
+R4	located_in Arg1:T13 Arg2:T105	
+R5	located_in Arg1:T14 Arg2:T105	
+T106	missed_gene 485 489	A170
+R6	located_in Arg1:T106 Arg2:T105	
+R7	located_in Arg1:T15 Arg2:T105	
+T107	corrected_anatomical_site 669 691;698 705	central nervous system tissues
+T108	corrected_anatomical_site 693 696;698 705	CNS tissues
+T109	corrected_anatomical_site 654 664;677 691;698 705	peripheral nervous system tissues
+R8	located_in Arg1:T18 Arg2:T109	
+R9	located_in Arg1:T18 Arg2:T107	
+R10	located_in Arg1:T18 Arg2:T108	
+R11	located_in Arg1:T19 Arg2:T109	
+R12	located_in Arg1:T19 Arg2:T107	
+R13	located_in Arg1:T19 Arg2:T108	
+R14	located_in Arg1:T20 Arg2:T109	
+R15	located_in Arg1:T20 Arg2:T107	
+R16	located_in Arg1:T20 Arg2:T108	
+T110	corrected_anatomical_site 885 905;912 915	brown adipose tissue fat
+T111	corrected_anatomical_site 907 910;912 915	BAT fat
+T112	missed_gene 835 855	uncoupling protein 1
+R17	located_in Arg1:T23 Arg2:T110	
+R18	located_in Arg1:T23 Arg2:T111	
+R19	located_in Arg1:T112 Arg2:T110	
+R20	located_in Arg1:T112 Arg2:T111	
+T113	missed_anatomical_site 921 925	knee
+R21	located_in Arg1:T27 Arg2:T113	
+R22	located_in Arg1:T28 Arg2:T113	
+R23	located_in Arg1:T29 Arg2:T113	
+T114	missed_gene 1004 1009	Tgfbi
+R24	located_in Arg1:T114 Arg2:T113	
+R25	located_in Arg1:T30 Arg2:T113	
+R26	located_in Arg1:T31 Arg2:T113	
+R27	located_in Arg1:T27 Arg2:T26	
+R28	located_in Arg1:T28 Arg2:T26	
+R29	located_in Arg1:T29 Arg2:T26	
+T115	missed_gene 1081 1107	bone morphogenetic protein
+R30	located_in Arg1:T115 Arg2:T33	
+R31	located_in Arg1:T34 Arg2:T33	
+R32	located_in Arg1:T36 Arg2:T35	
+R35	located_in Arg1:T50 Arg2:T51	
+T116	corrected_gene 1544 1577	High molecular weight tau protein
+R33	located_in Arg1:T116 Arg2:T48	
+R34	located_in Arg1:T116 Arg2:T49	
+R36	located_in Arg1:T116 Arg2:T51	
+T117	corrected_anatomical_site 1962 1972	whole-body
+R37	located_in Arg1:T64 Arg2:T117	
+R38	located_in Arg1:T78 Arg2:T79	
+R39	located_in Arg1:T80 Arg2:T83	
+R40	located_in Arg1:T81 Arg2:T83	
+T118	missed_gene 2502 2508	PDGFab
+T119	missed_gene 2513 2519	PDGFbb
+R41	located_in Arg1:T118 Arg2:T83	
+R42	located_in Arg1:T119 Arg2:T83	
+T120	missed_anatomical_site 2676 2682	tendon
+R43	located_in Arg1:T85 Arg2:T84	
+R44	located_in Arg1:T85 Arg2:T120	
+T121	missed_gene 2693 2697	CTGF
+R45	located_in Arg1:T121 Arg2:T84	
+R46	located_in Arg1:T121 Arg2:T120	
+T122	corrected_anatomical_site 2745 2775	dorsal horn of the spinal cord
+R47	located_in Arg1:T86 Arg2:T122	
+R48	located_in Arg1:T87 Arg2:T122	
+T123	missed_anatomical_site 2802 2809	Hepatic
+T124	missed_gene 2810 2814	TfR2
+R49	located_in Arg1:T124 Arg2:T123	
+R50	located_in Arg1:T91 Arg2:T90	
+T125	corrected_gene 3067 3100	vascular cell adhesion molecule-1
+R51	located_in Arg1:T125 Arg2:T97	
+T126	missed_gene 3103 3109	VCAM-1
+R52	located_in Arg1:T126 Arg2:T97	
+R53	located_in Arg1:T101 Arg2:T100	

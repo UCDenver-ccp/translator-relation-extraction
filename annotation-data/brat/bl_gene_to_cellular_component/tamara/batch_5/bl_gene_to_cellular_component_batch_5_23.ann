@@ -91,3 +91,53 @@ T90	gene 3270 3273	EGF
 T91	gene 3280 3284	EGFR
 T92	cellular_component 3285 3295	antibodies
 T93	gene 3300 3304	EGFR
+R1	located_in Arg1:T1 Arg2:T2	
+T94	corrected_cellular_component 136 164	inner membrane mitochondrial
+R2	located_in Arg1:T5 Arg2:T94	
+R3	located_in Arg1:T12 Arg2:T13	
+T95	missed_gene 527 532	actin
+R4	located_in Arg1:T95 Arg2:T17	
+R5	located_in Arg1:T26 Arg2:T27	
+T96	missed_gene 776 792	forkhead box O1a
+R6	located_in Arg1:T96 Arg2:T27	
+R7	located_in Arg1:T29 Arg2:T28	
+R8	located_in Arg1:T30 Arg2:T28	
+T97	missed_gene 906 909	B23
+R9	located_in Arg1:T97 Arg2:T28	
+R10	located_in Arg1:T31 Arg2:T28	
+T98	missed_gene 924 927	C23
+R11	located_in Arg1:T98 Arg2:T28	
+R12	located_in Arg1:T32 Arg2:T28	
+#1	AnnotatorNotes R12	Okay?
+T99	corrected_gene 1117 1151	stage-specific embryonic antigen-1
+R13	located_in Arg1:T99 Arg2:T34	
+T100	corrected_gene 1153 1159	SSEA-1
+R14	located_in Arg1:T100 Arg2:T34	
+R15	located_in Arg1:T38 Arg2:T37	
+T101	missed_gene 1229 1234	HNK-1
+T102	missed_gene 1236 1248	S100 protein
+R16	located_in Arg1:T101 Arg2:T39	
+R17	located_in Arg1:T102 Arg2:T39	
+R18	located_in Arg1:T41 Arg2:T40	
+R19	located_in Arg1:T42 Arg2:T40	
+T103	missed_gene 1289 1309	eurofilament protein
+R20	located_in Arg1:T103 Arg2:T40	
+T104	missed_gene 1311 1318	INT-FIL
+R21	located_in Arg1:T104 Arg2:T40	
+T105	missed_gene 1354 1361	laminin
+R22	located_in Arg1:T105 Arg2:T44	
+T106	corrected_gene 1641 1669	alpha1D-adrenergic receptors
+R23	located_in Arg1:T106 Arg2:T53	
+T107	corrected_gene 1711 1739	alpha1B-adrenergic receptors
+R24	located_in Arg1:T107 Arg2:T53	
+#2	AnnotatorNotes R24	Okay?
+R25	located_in Arg1:T65 Arg2:T66	
+T108	corrected_gene 2146 2193	membrane-associated guanylate kinase inverted-2
+R26	located_in Arg1:T108 Arg2:T66	
+T109	corrected_cellular_component 2303 2312	cytosolic
+T110	corrected_gene 2367 2372	Rli1p
+R27	located_in Arg1:T110 Arg2:T109	
+#3	AnnotatorNotes R27	Okay?
+R28	located_in Arg1:T80 Arg2:T81	
+T111	corrected_gene 3173 3182	proHB-EGF
+R29	located_in Arg1:T111 Arg2:T89	

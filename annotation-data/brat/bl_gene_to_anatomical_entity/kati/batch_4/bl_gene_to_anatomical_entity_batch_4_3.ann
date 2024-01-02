@@ -90,3 +90,67 @@ T89	anatomical_site 2865 2870	serum
 T90	gene 2871 2884	interleukin-6
 T91	anatomical_site 2930 2935	serum
 T92	gene 2936 2967	transforming growth factor-beta
+T93	corrected_gene 83 88	HIF1α
+R1	located_in Arg1:T93 Arg2:T5	
+R2	located_in Arg1:T10 Arg2:T11	
+R3	located_in Arg1:T13 Arg2:T12	
+T94	corrected_gene 333 358	amyloid precursor protein
+R4	located_in Arg1:T94 Arg2:T16	
+R5	located_in Arg1:T21 Arg2:T22	
+R6	located_in Arg1:T25 Arg2:T26	
+R7	located_in Arg1:T25 Arg2:T27	
+R8	located_in Arg1:T25 Arg2:T28	
+R9	located_in Arg1:T25 Arg2:T24	
+T95	corrected_gene 989 1019	beta-amyloid precursor protein
+R10	located_in Arg1:T95 Arg2:T35	
+R11	located_in Arg1:T37 Arg2:T36	
+T96	missed_gene 1135 1137	GR
+T97	missed_gene 1171 1173	GR
+R12	located_in Arg1:T96 Arg2:T36	
+R13	located_in Arg1:T97 Arg2:T38	
+T98	corrected_anatomical_site 1269 1302	dorsal portion of the neural tube
+T99	missed_gene 1226 1232	Wnt-3a
+T100	missed_gene 1509 1513	slug
+R14	located_in Arg1:T39 Arg2:T98	
+R15	located_in Arg1:T99 Arg2:T98	
+R16	located_in Arg1:T46 Arg2:T45	
+R17	located_in Arg1:T47 Arg2:T45	
+R18	located_in Arg1:T100 Arg2:T45	
+T101	corrected_anatomical_site 1407 1435	most dorsal neural structure
+R19	located_in Arg1:T46 Arg2:T101	
+R20	located_in Arg1:T47 Arg2:T101	
+R21	located_in Arg1:T100 Arg2:T101	
+R22	located_in Arg1:T54 Arg2:T53	
+R23	located_in Arg1:T56 Arg2:T55	
+R24	located_in Arg1:T58 Arg2:T57	
+T102	missed_anatomical_site 2187 2193	insula
+T103	missed_anatomical_site 2177 2180	SCN
+T104	missed_anatomical_site 2182 2185	PFC
+T105	missed_anatomical_site 2195 2198	PVN
+T106	corrected_anatomical_site 2200 2229	subregions of the hippocampus
+T107	corrected_anatomical_site 2327 2350	extra-SCN brain regions
+R25	located_in Arg1:T69 Arg2:T103	
+R26	located_in Arg1:T69 Arg2:T104	
+R27	located_in Arg1:T69 Arg2:T102	
+R28	located_in Arg1:T69 Arg2:T105	
+R29	located_in Arg1:T69 Arg2:T106	
+R30	located_in Arg1:T69 Arg2:T73	
+R31	located_in Arg1:T69 Arg2:T107	
+R32	located_in Arg1:T70 Arg2:T103	
+R33	located_in Arg1:T70 Arg2:T104	
+R34	located_in Arg1:T70 Arg2:T102	
+R35	located_in Arg1:T70 Arg2:T105	
+R36	located_in Arg1:T70 Arg2:T106	
+R37	located_in Arg1:T70 Arg2:T73	
+R38	located_in Arg1:T70 Arg2:T107	
+R39	located_in Arg1:T71 Arg2:T103	
+R40	located_in Arg1:T71 Arg2:T104	
+R41	located_in Arg1:T71 Arg2:T102	
+R42	located_in Arg1:T71 Arg2:T105	
+R43	located_in Arg1:T71 Arg2:T106	
+R44	located_in Arg1:T71 Arg2:T73	
+R45	located_in Arg1:T71 Arg2:T107	
+R46	located_in Arg1:T90 Arg2:T89	
+T108	missed_gene 2903 2906	SAP
+R47	located_in Arg1:T108 Arg2:T89	
+R48	located_in Arg1:T92 Arg2:T91	

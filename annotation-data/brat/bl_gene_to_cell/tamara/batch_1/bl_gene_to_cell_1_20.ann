@@ -104,3 +104,86 @@ T103	gene 2589 2593	Rab8
 T104	gene 2604 2609	ABCA1
 T105	cell_type 2663 2673	macrophage
 T106	cell_type 2674 2684	foam cells
+R1	located_in Arg1:T5 Arg2:T7	
+R2	located_in Arg1:T5 Arg2:T8	
+R3	located_in Arg1:T6 Arg2:T7	
+R4	located_in Arg1:T6 Arg2:T8	
+T107	missed_cell_type 313 326	ovarian cells
+T108	missed_cell_type 338 347;358 363	granulosa cells
+T109	missed_cell_type 365 378	corpus luteum
+T110	missed_gene 268 276	CHEMERIN
+R5	located_in Arg1:T110 Arg2:T107	
+R6	located_in Arg1:T9 Arg2:T107	
+R7	located_in Arg1:T10 Arg2:T107	
+R8	located_in Arg1:T11 Arg2:T107	
+R9	located_in Arg1:T110 Arg2:T108	
+R10	located_in Arg1:T110 Arg2:T12	
+R11	located_in Arg1:T110 Arg2:T109	
+R12	located_in Arg1:T110 Arg2:T13	
+R13	located_in Arg1:T9 Arg2:T108	
+R14	located_in Arg1:T9 Arg2:T12	
+R15	located_in Arg1:T9 Arg2:T109	
+R16	located_in Arg1:T9 Arg2:T13	
+R17	located_in Arg1:T10 Arg2:T108	
+R18	located_in Arg1:T10 Arg2:T12	
+R19	located_in Arg1:T10 Arg2:T109	
+R20	located_in Arg1:T10 Arg2:T13	
+R21	located_in Arg1:T11 Arg2:T108	
+R22	located_in Arg1:T11 Arg2:T12	
+R23	located_in Arg1:T11 Arg2:T109	
+R24	located_in Arg1:T11 Arg2:T13	
+T111	corrected_cell_type 596 622	fibroblastic stromal cells
+R25	located_in Arg1:T20 Arg2:T111	
+R26	located_in Arg1:T21 Arg2:T111	
+T112	corrected_cell_type 695 723	fibroblastic reticular cells
+R27	located_in Arg1:T24 Arg2:T112	
+R28	located_in Arg1:T24 Arg2:T27	
+T113	missed_gene 809 812	CD8
+R29	located_in Arg1:T30 Arg2:T29	
+R30	located_in Arg1:T113 Arg2:T29	
+T114	corrected_cell_type 961 989	fibroblast-like synoviocytes
+R31	located_in Arg1:T34 Arg2:T114	
+R32	located_in Arg1:T35 Arg2:T114	
+R33	located_in Arg1:T33 Arg2:T114	
+R34	located_in Arg1:T38 Arg2:T41	
+T115	missed_gene 1021 1025	CD-3
+R35	located_in Arg1:T115 Arg2:T41	
+R36	located_in Arg1:T39 Arg2:T41	
+R37	located_in Arg1:T39 Arg2:T42	
+R38	located_in Arg1:T115 Arg2:T42	
+R39	located_in Arg1:T38 Arg2:T42	
+R40	located_in Arg1:T45 Arg2:T46	
+R41	located_in Arg1:T44 Arg2:T46	
+R42	located_in Arg1:T43 Arg2:T46	
+R43	located_in Arg1:T45 Arg2:T47	
+R44	located_in Arg1:T44 Arg2:T47	
+R45	located_in Arg1:T43 Arg2:T47	
+R46	located_in Arg1:T49 Arg2:T48	
+T116	missed_cell_type 1287 1298	giant cells
+R47	located_in Arg1:T50 Arg2:T116	
+R48	located_in Arg1:T52 Arg2:T117	
+R49	located_in Arg1:T53 Arg2:T117	
+R50	located_in Arg1:T54 Arg2:T117	
+T118	missed_gene 1535 1580	Monocyte-macrophage chemoattractant protein 1
+R53	located_in Arg1:T118 Arg2:T60	
+R54	located_in Arg1:T118 Arg2:T61	
+R55	located_in Arg1:T62 Arg2:T60	
+R56	located_in Arg1:T62 Arg2:T61	
+R61	located_in Arg1:T75 Arg2:T76	
+R62	located_in Arg1:T86 Arg2:T85	
+R63	located_in Arg1:T87 Arg2:T85	
+R64	located_in Arg1:T86 Arg2:T84	
+R65	located_in Arg1:T87 Arg2:T84	
+R66	located_in Arg1:T89 Arg2:T91	
+T120	missed_gene 2274 2299	mucin domain containing 4
+R67	located_in Arg1:T120 Arg2:T95	
+R68	located_in Arg1:T93 Arg2:T95	
+R69	located_in Arg1:T94 Arg2:T95	
+T121	missed_cell_type 2350 2353	KCs
+R70	located_in Arg1:T94 Arg2:T121	
+R71	located_in Arg1:T93 Arg2:T121	
+R72	located_in Arg1:T120 Arg2:T121	
+R73	located_in Arg1:T101 Arg2:T102	
+R74	located_in Arg1:T100 Arg2:T102	
+R75	located_in Arg1:T99 Arg2:T102	
+T117	corrected_cell_type 1351 1363	T-cell lines

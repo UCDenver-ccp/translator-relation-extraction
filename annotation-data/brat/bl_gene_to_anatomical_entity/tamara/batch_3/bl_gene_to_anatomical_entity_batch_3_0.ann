@@ -198,3 +198,11 @@ R61	located_in Arg1:T130 Arg2:T132
 R62	located_in Arg1:T130 Arg2:T131	
 R63	located_in Arg1:T98 Arg2:T99	
 R64	located_in Arg1:T102 Arg2:T99	
+R65	located_in Arg1:T23 Arg2:T24	
+R66	located_in Arg1:T23 Arg2:T25	
+R67	located_in Arg1:T23 Arg2:T26	
+R68	located_in Arg1:T126 Arg2:T65	
+R69	located_in Arg1:T67 Arg2:T65	
+T133	missed_anatomical_site 2548 2558	intestinal
+R70	located_in Arg1:T85 Arg2:T133	
+R71	located_in Arg1:T130 Arg2:T133	

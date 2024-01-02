@@ -2,7 +2,6 @@ T1	corrected_chemical 1 13	P(0) protein
 T2	chemical 6 13	protein
 T3	disease_or_phenotypic_feature 71 76	blood
 T4	chemical 80 88	n-hexane
-T5	corrected_disease_or_phenotypic_feature 80 99	n-hexane neuropathy
 T6	disease_or_phenotypic_feature 89 99	neuropathy
 T7	chemical 161 164	DNA
 T8	disease_or_phenotypic_feature 195 200	blood
@@ -76,3 +75,10 @@ T71	corrected_chemical 1747 1757	sacubitril
 T72	corrected_chemical 1758 1767	valsartan
 R5	treats Arg1:T71 Arg2:T40	
 R6	treats Arg1:T72 Arg2:T40	
+R7	causes_or_contributes_to Arg1:T4 Arg2:T6	
+R8	treats Arg1:T72 Arg2:T41	
+R9	treats Arg1:T71 Arg2:T41	
+R10	treats Arg1:T38 Arg2:T41	
+T5	missed_disease_or_phenotypic_feature 3460 3487	olfactory epithelial damage
+T73	corrected_disease_or_phenotypic_feature 3525 3552	nasal allergic inflammation
+R11	treats Arg1:T68 Arg2:T73	

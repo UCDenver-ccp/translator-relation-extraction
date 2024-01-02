@@ -21,7 +21,7 @@ T20	chemical 1036 1047	carotenoids
 T21	chemical 1052 1064	xanthophylls
 T22	disease_or_phenotypic_feature 1088 1104	mite infestation
 T23	chemical 1308 1323	steroid-induced
-T24	disease_or_phenotypic_feature 1308 1332	steroid-induced glaucoma
+T24	disease_or_phenotypic_feature 1324 1332	glaucoma
 T25	disease_or_phenotypic_feature 1361 1388	vernal keratoconjunctivitis
 T26	chemical 1437 1451	growth hormone
 T27	disease_or_phenotypic_feature 1465 1472	obesity
@@ -61,12 +61,10 @@ R1	treats Arg1:T1 Arg2:T60
 T61	missed_chemical 118 129	Kininogen-1
 T62	corrected_chemical 694 727	rapamycin-derived mTOR inhibitors
 T63	corrected_disease_or_phenotypic_feature 784 798	hepatic tumour
-R2	treats Arg1:T62 Arg2:T63	
 R3	causes_or_contributes_to Arg1:T16 Arg2:T17	
 T64	missed_chemical 1425 1432	insulin
 T65	corrected_chemical 1747 1772	tumor-associated antigens
 T66	missed_chemical 1774 1777	TAA
-R4	treats Arg1:T65 Arg2:T36	
 T67	missed_chemical 2028 2031	LPS
 T68	missed_chemical 2451 2455	HER2
 T69	missed_chemical 2677 2682	PfHP1
@@ -81,4 +79,13 @@ T76	corrected_chemical 1308 1315	steroid
 R7	causes_or_contributes_to Arg1:T76 Arg2:T24	
 R8	treats Arg1:T28 Arg2:T30	
 R9	treats Arg1:T31 Arg2:T32	
-R5	treats Arg1:T66 Arg2:T36	
+R10	treats Arg1:T76 Arg2:T25	
+T34	missed_disease_or_phenotypic_feature 1390 1393	VKC
+R11	treats Arg1:T76 Arg2:T34	
+R4	treats Arg1:T2 Arg2:T60	
+T77	missed_disease_or_phenotypic_feature 110 116	tumors
+R5	treats Arg1:T2 Arg2:T77	
+R12	treats Arg1:T1 Arg2:T77	
+T78	missed_disease_or_phenotypic_feature 915 945	metabolic and hormonal effects
+R13	causes_or_contributes_to Arg1:T16 Arg2:T78	
+R14	treats Arg1:T33 Arg2:T32	

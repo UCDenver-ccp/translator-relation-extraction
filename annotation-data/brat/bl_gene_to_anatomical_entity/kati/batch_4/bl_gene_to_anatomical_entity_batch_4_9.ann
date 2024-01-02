@@ -93,3 +93,84 @@ T92	gene 2568 2575	SULT1A1
 T93	gene 2580 2584	MRP4
 T94	anatomical_site 2631 2636	blood
 T95	gene 2681 2688	trypsin
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T3	
+T96	missed_anatomical_site 142 157	skeletal muscle
+R3	located_in Arg1:T7 Arg2:T96	
+R4	located_in Arg1:T9 Arg2:T10	
+T97	missed_gene 432 434	TH
+R5	located_in Arg1:T16 Arg2:T19	
+R6	located_in Arg1:T97 Arg2:T19	
+T98	missed_gene 461 476	adrenomedullin2
+R7	located_in Arg1:T98 Arg2:T21	
+R8	located_in Arg1:T98 Arg2:T22	
+R9	located_in Arg1:T98 Arg2:T23	
+R10	located_in Arg1:T20 Arg2:T21	
+R11	located_in Arg1:T20 Arg2:T22	
+R12	located_in Arg1:T20 Arg2:T23	
+T100	corrected_gene 668 714	tissue inhibitor of matrix metalloproteinase-2
+R16	located_in Arg1:T100 Arg2:T30	
+R17	located_in Arg1:T33 Arg2:T35	
+R18	located_in Arg1:T34 Arg2:T35	
+T101	corrected_anatomical_site 898 910	brain tissue
+R19	located_in Arg1:T36 Arg2:T101	
+R20	located_in Arg1:T39 Arg2:T101	
+R21	located_in Arg1:T40 Arg2:T101	
+T102	missed_gene 1001 1006	Abeta
+R22	located_in Arg1:T102 Arg2:T101	
+R23	located_in Arg1:T41 Arg2:T42	
+R24	located_in Arg1:T41 Arg2:T43	
+T103	corrected_gene 1275 1289	beta-connectin
+R25	located_in Arg1:T103 Arg2:T49	
+T104	corrected_anatomical_site 1342 1354	liver tissue
+T105	corrected_gene 1355 1371	type VI collagen
+R26	located_in Arg1:T105 Arg2:T104	
+R27	located_in Arg1:T105 Arg2:T53	
+T106	corrected_anatomical_site 1572 1584	brain tissue
+R28	located_in Arg1:T54 Arg2:T106	
+R29	located_in Arg1:T55 Arg2:T106	
+R30	located_in Arg1:T60 Arg2:T59	
+T107	missed_gene 1705 1708	CRP
+T108	corrected_gene 1765 1803	intercellular cell adhesion molecule-1
+T109	corrected_gene 1814 1847	vascular cell adhesion molecule-1
+R31	located_in Arg1:T109 Arg2:T67	
+R32	located_in Arg1:T107 Arg2:T59	
+R33	located_in Arg1:T61 Arg2:T59	
+R34	located_in Arg1:T62 Arg2:T59	
+R35	located_in Arg1:T63 Arg2:T59	
+R36	located_in Arg1:T64 Arg2:T59	
+R37	located_in Arg1:T108 Arg2:T59	
+R38	located_in Arg1:T66 Arg2:T59	
+R39	located_in Arg1:T109 Arg2:T59	
+R40	located_in Arg1:T69 Arg2:T59	
+R41	located_in Arg1:T70 Arg2:T59	
+T110	corrected_gene 1898 1926	tumour necrosis factor-alpha
+R42	located_in Arg1:T110 Arg2:T71	
+R43	located_in Arg1:T73 Arg2:T71	
+R44	located_in Arg1:T75 Arg2:T74	
+R45	located_in Arg1:T76 Arg2:T74	
+R46	located_in Arg1:T77 Arg2:T74	
+R47	located_in Arg1:T78 Arg2:T80	
+R48	located_in Arg1:T78 Arg2:T81	
+R49	located_in Arg1:T79 Arg2:T80	
+R50	located_in Arg1:T79 Arg2:T81	
+T111	missed_gene 2443 2450	albumin
+R51	located_in Arg1:T111 Arg2:T87	
+R52	located_in Arg1:T85 Arg2:T86	
+T112	missed_gene 2411 2418	albumin
+R53	located_in Arg1:T112 Arg2:T86	
+T113	corrected_anatomical_site 2504 2516	liver tissue
+T114	missed_gene 2525 2531	UGT1A1
+R54	located_in Arg1:T114 Arg2:T113	
+R55	located_in Arg1:T90 Arg2:T113	
+R56	located_in Arg1:T91 Arg2:T113	
+R57	located_in Arg1:T92 Arg2:T113	
+R58	located_in Arg1:T93 Arg2:T113	
+T115	missed_anatomical_site 2472 2478	livers
+R59	located_in Arg1:T114 Arg2:T115	
+R60	located_in Arg1:T90 Arg2:T115	
+R61	located_in Arg1:T91 Arg2:T115	
+R62	located_in Arg1:T92 Arg2:T115	
+R63	located_in Arg1:T93 Arg2:T115	
+T116	missed_gene 2637 2651	phospholipases
+R64	located_in Arg1:T116 Arg2:T94	

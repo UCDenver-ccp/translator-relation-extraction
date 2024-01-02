@@ -178,3 +178,7 @@ R57	located_in Arg1:T92 Arg2:T91
 R58	located_in Arg1:T92 Arg2:T115	
 T117	missed_gene 2592 2599	albumin
 R59	located_in Arg1:T117 Arg2:T115	
+R60	located_in Arg1:T79 Arg2:T81	
+R61	located_in Arg1:T79 Arg2:T80	
+R62	located_in Arg1:T93 Arg2:T94	
+#5	AnnotatorNotes R62	Okay?

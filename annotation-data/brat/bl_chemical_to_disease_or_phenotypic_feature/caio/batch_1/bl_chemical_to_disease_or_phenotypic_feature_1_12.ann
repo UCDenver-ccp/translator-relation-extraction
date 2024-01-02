@@ -62,8 +62,6 @@ T61	chemical 2473 2483	inhibitors
 T62	disease_or_phenotypic_feature 2550 2574	congestive heart failure
 T63	disease_or_phenotypic_feature 2594 2614	diabetic nephropathy
 T64	corrected_chemical 64 81	pan-RAF inhibitor
-R1	treats Arg1:T5 Arg2:T7	
-R2	treats Arg1:T4 Arg2:T8	
 T65	corrected_chemical 398 412	ACE inhibitors
 R3	treats Arg1:T12 Arg2:T13	
 R4	treats Arg1:T12 Arg2:T14	
@@ -75,36 +73,21 @@ T70	missed_chemical 911 926	stress hormones
 R5	treats Arg1:T26 Arg2:T27	
 T71	missed_chemical 1148 1160	chemotherapy
 T72	corrected_chemical 1282 1294	Genital talc
-R6	causes_or_contributes_to Arg1:T72 Arg2:T33	
 T73	missed_chemical 1412 1416	EGFR
 T74	missed_disease_or_phenotypic_feature 1495 1500	tumor
-T76	corrected_disease_or_phenotypic_feature 1720 1739	HFD-induced obesity
-R7	treats Arg1:T41 Arg2:T76	
-T77	missed_chemical 1835 1846	CYP-derived
-T78	missed_chemical 1891 1906	LMs in high-fat
+R7	treats Arg1:T41 Arg2:T42	
 T79	missed_chemical 1951 1954	LMs
 T80	missed_disease_or_phenotypic_feature 2174 2183	infection
-T81	missed_chemical 2215 2228	free radicals
 T82	missed_disease_or_phenotypic_feature 2251 2257	tumors
 T83	missed_disease_or_phenotypic_feature 2304 2309	tumor
-T84	corrected_chemical 2437 2472	Angiotensin converting-enzyme (ACE)
 T85	missed_disease_or_phenotypic_feature 2576 2588	hypertension
-T86	corrected_chemical 2437 2483	Angiotensin converting-enzyme (ACE) inhibitors
-R9	treats Arg1:T86 Arg2:T62	
-R10	treats Arg1:T86 Arg2:T85	
-R11	treats Arg1:T86 Arg2:T63	
 T87	DONE 2616 2620	DONE
 R12	treats Arg1:T64 Arg2:T3	
 T88	missed_chemical 0 9	LY3214996
 R13	treats Arg1:T88 Arg2:T3	
 T89	missed_disease_or_phenotypic_feature 374 396	impaired mental status
-R14	treats Arg1:T4 Arg2:T89	
-R15	treats Arg1:T5 Arg2:T89	
 T90	corrected_disease_or_phenotypic_feature 452 478	hypertensive heart failure
 R17	treats Arg1:T65 Arg2:T90	
-T75	corrected_disease_or_phenotypic_feature 1535 1553	EGFR-mutant tumors
-R19	treats Arg1:T35 Arg2:T75	
-R20	treats Arg1:T36 Arg2:T75	
 T91	missed_disease_or_phenotypic_feature 1744 1783	obesity-associated metabolic disorders.
 R8	treats Arg1:T41 Arg2:T91	
 T92	corrected_chemical 2278 2318	Immunization with defined tumor antigens
@@ -114,5 +97,34 @@ R16	treats Arg1:T93 Arg2:T29
 R18	treats Arg1:T93 Arg2:T30	
 R22	treats Arg1:T93 Arg2:T31	
 T94	corrected_chemical 1425 1450	small molecule inhibitors
-R23	treats Arg1:T94 Arg2:T75	
 T95	corrected_chemical 2437 2466;2473 2483	Angiotensin converting-enzyme inhibitors
+R6	causes_or_contributes_to Arg1:T32 Arg2:T33	
+T96	missed_disease_or_phenotypic_feature 1495 1511	tumor resistance
+R24	causes_or_contributes_to Arg1:T36 Arg2:T96	
+R25	causes_or_contributes_to Arg1:T35 Arg2:T96	
+R26	causes_or_contributes_to Arg1:T94 Arg2:T96	
+T97	missed_disease_or_phenotypic_feature 1547 1553	tumors
+R19	treats Arg1:T94 Arg2:T97	
+R20	treats Arg1:T35 Arg2:T97	
+R23	treats Arg1:T36 Arg2:T97	
+R10	treats Arg1:T95 Arg2:T63	
+T98	corrected_chemical 2468 2471;2473 2483	ACE inhibitors
+R27	treats Arg1:T98 Arg2:T63	
+R9	treats Arg1:T98 Arg2:T62	
+R29	treats Arg1:T95 Arg2:T62	
+R11	treats Arg1:T95 Arg2:T85	
+R28	treats Arg1:T98 Arg2:T85	
+R30	causes_or_contributes_to Arg1:T17 Arg2:T18	
+R31	treats Arg1:T28 Arg2:T29	
+R32	treats Arg1:T28 Arg2:T30	
+R33	treats Arg1:T28 Arg2:T31	
+T75	missed_chemical 1720 1723	HFD
+R34	causes_or_contributes_to Arg1:T75 Arg2:T42	
+R35	causes_or_contributes_to Arg1:T75 Arg2:T91	
+R36	treats Arg1:T55 Arg2:T82	
+T76	corrected_chemical 1898 1911	high-fat diet
+R37	treats Arg1:T76 Arg2:T50	
+T77	corrected_chemical 172 243	phosphorus-enriched, conventional, calcium-containing dialysis solution
+R38	treats Arg1:T77 Arg2:T89	
+R39	treats Arg1:T77 Arg2:T7	
+R40	treats Arg1:T77 Arg2:T8	

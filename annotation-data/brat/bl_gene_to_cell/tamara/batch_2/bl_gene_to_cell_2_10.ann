@@ -90,3 +90,84 @@ T89	cell_type 2662 2669	neurons
 T90	gene 2683 2687	Pax2
 T91	gene 2689 2693	Lbx1
 T92	gene 2698 2702	Lhx1
+R1	located_in Arg1:T3 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T2	
+T93	missed_gene 101 133	neuronal nuclei-specific protein
+T94	missed_gene 135 139	NeuN
+R3	located_in Arg1:T93 Arg2:T4	
+R4	located_in Arg1:T93 Arg2:T1	
+R5	located_in Arg1:T93 Arg2:T2	
+R6	located_in Arg1:T94 Arg2:T2	
+R7	located_in Arg1:T94 Arg2:T1	
+T95	missed_cell_type 146 151	glial
+R8	located_in Arg1:T5 Arg2:T95	
+R9	located_in Arg1:T6 Arg2:T95	
+R10	located_in Arg1:T5 Arg2:T1	
+R11	located_in Arg1:T5 Arg2:T2	
+R12	located_in Arg1:T6 Arg2:T1	
+R13	located_in Arg1:T6 Arg2:T2	
+R14	located_in Arg1:T7 Arg2:T8	
+R15	located_in Arg1:T10 Arg2:T11	
+T96	corrected_cell_type 567 581	neuronal cells
+R16	located_in Arg1:T15 Arg2:T96	
+R17	located_in Arg1:T18 Arg2:T19	
+#1	AnnotatorNotes R17	Okay?
+T97	corrected_gene 685 693;699 707	Platelet selectin
+T98	corrected_gene 695 697;699 707	P- selectin
+R18	located_in Arg1:T97 Arg2:T20	
+R19	located_in Arg1:T98 Arg2:T20	
+T99	missed_gene 1144 1147	SYP
+R20	located_in Arg1:T33 Arg2:T34	
+R21	located_in Arg1:T99 Arg2:T34	
+T100	missed_gene 1213 1216	NMB
+T101	missed_gene 1220 1224	NMBR
+R22	located_in Arg1:T100 Arg2:T36	
+#2	AnnotatorNotes R22	Okay?
+R23	located_in Arg1:T101 Arg2:T36	
+#3	AnnotatorNotes R23	Okay?
+R24	located_in Arg1:T37 Arg2:T36	
+R25	located_in Arg1:T38 Arg2:T36	
+R26	located_in Arg1:T39 Arg2:T36	
+R27	located_in Arg1:T44 Arg2:T43	
+R28	located_in Arg1:T45 Arg2:T43	
+R29	located_in Arg1:T46 Arg2:T43	
+R30	located_in Arg1:T55 Arg2:T56	
+R31	located_in Arg1:T57 Arg2:T58	
+R32	located_in Arg1:T62 Arg2:T61	
+R33	located_in Arg1:T59 Arg2:T60	
+R34	located_in Arg1:T70 Arg2:T72	
+#4	AnnotatorNotes R34	Okay?
+R35	located_in Arg1:T71 Arg2:T73	
+#5	AnnotatorNotes R35	Okay?
+R36	located_in Arg1:T78 Arg2:T77	
+R37	located_in Arg1:T79 Arg2:T77	
+R38	located_in Arg1:T78 Arg2:T80	
+R39	located_in Arg1:T79 Arg2:T80	
+R40	located_in Arg1:T81 Arg2:T80	
+T102	missed_gene 2344 2347	CD8
+R41	located_in Arg1:T102 Arg2:T80	
+T103	corrected_gene 2477 2486	N-tubulin
+R42	located_in Arg1:T103 Arg2:T82	
+T104	missed_cell_type 2435 2440	DPSCs
+#6	AnnotatorNotes T104	Dental Pulp Stem Cells
+R43	located_in Arg1:T103 Arg2:T104	
+R44	located_in Arg1:T85 Arg2:T84	
+R45	located_in Arg1:T85 Arg2:T104	
+T105	missed_gene 2578 2582	NeuN
+R46	located_in Arg1:T105 Arg2:T86	
+R47	located_in Arg1:T105 Arg2:T104	
+T106	missed_cell_type 2588 2593	glial
+R48	located_in Arg1:T87 Arg2:T106	
+R49	located_in Arg1:T87 Arg2:T104	
+T107	corrected_cell_type 2650 2669	postmitotic neurons
+#7	AnnotatorNotes T107	okay?
+R50	located_in Arg1:T90 Arg2:T107	
+R51	located_in Arg1:T91 Arg2:T107	
+#8	AnnotatorNotes R51	Okay?
+R52	located_in Arg1:T92 Arg2:T107	
+T108	corrected_gene 2698 2701;2703 2704	Lhx 5
+R53	located_in Arg1:T108 Arg2:T107	
+R54	located_in Arg1:T90 Arg2:T89	
+R55	located_in Arg1:T91 Arg2:T89	
+R56	located_in Arg1:T108 Arg2:T89	
+R57	located_in Arg1:T92 Arg2:T89	

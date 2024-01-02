@@ -91,3 +91,64 @@ T90	gene 2815 2820	PTHrP
 T91	gene 2879 2882	PTH
 T92	anatomical_site 2898 2904	kidney
 T93	anatomical_site 2909 2913	bone
+T94	corrected_anatomical_site 40 51	lung tissue
+R1	located_in Arg1:T1 Arg2:T94	
+T95	corrected_anatomical_site 104 127	interplacode epithelium
+T96	corrected_anatomical_site 170 219	mesenchyme underneath the interplacode epithelium
+R2	located_in Arg1:T4 Arg2:T95	
+R3	located_in Arg1:T5 Arg2:T95	
+R4	located_in Arg1:T7 Arg2:T96	
+T97	corrected_anatomical_site 408 423	placenta tissue
+R5	located_in Arg1:T15 Arg2:T97	
+R6	located_in Arg1:T16 Arg2:T97	
+T98	corrected_anatomical_site 428 438	cord blood
+R7	located_in Arg1:T15 Arg2:T98	
+R8	located_in Arg1:T16 Arg2:T98	
+T99	missed_gene 733 770	bone morphogenetic protein receptor-2
+R9	located_in Arg1:T99 Arg2:T30	
+T100	corrected_anatomical_site 672 683	Lung tissue
+R10	located_in Arg1:T28 Arg2:T100	
+R11	located_in Arg1:T29 Arg2:T100	
+R12	located_in Arg1:T99 Arg2:T100	
+T101	corrected_gene 986 1016	beta-amyloid precursor protein
+R13	located_in Arg1:T101 Arg2:T31	
+R14	located_in Arg1:T101 Arg2:T32	
+R15	located_in Arg1:T35 Arg2:T31	
+R16	located_in Arg1:T35 Arg2:T32	
+T102	missed_gene 1580 1588	IL-1beta
+R17	located_in Arg1:T46 Arg2:T49	
+R18	located_in Arg1:T46 Arg2:T50	
+R19	located_in Arg1:T102 Arg2:T49	
+R20	located_in Arg1:T102 Arg2:T50	
+R21	located_in Arg1:T47 Arg2:T49	
+R22	located_in Arg1:T47 Arg2:T50	
+R23	located_in Arg1:T48 Arg2:T49	
+R24	located_in Arg1:T48 Arg2:T50	
+T103	missed_gene 2027 2031	CD34
+R25	located_in Arg1:T103 Arg2:T59	
+R26	located_in Arg1:T67 Arg2:T69	
+R27	located_in Arg1:T68 Arg2:T69	
+R28	located_in Arg1:T67 Arg2:T70	
+R29	located_in Arg1:T68 Arg2:T70	
+R30	located_in Arg1:T73 Arg2:T74	
+T104	missed_gene 2419 2429	connexin43
+R31	located_in Arg1:T104 Arg2:T75	
+R32	located_in Arg1:T76 Arg2:T75	
+R33	located_in Arg1:T104 Arg2:T77	
+R34	located_in Arg1:T76 Arg2:T77	
+T105	missed_gene 2686 2697	angiotensin
+R35	located_in Arg1:T85 Arg2:T84	
+R36	located_in Arg1:T105 Arg2:T84	
+R37	located_in Arg1:T87 Arg2:T88	
+T106	corrected_gene 2811 2814;2821 2829	PTH receptor
+T107	corrected_gene 2815 2829	PTHrP receptor
+T108	missed_anatomical_site 2868 2875	tissues
+R38	located_in Arg1:T91 Arg2:T92	
+R39	located_in Arg1:T91 Arg2:T93	
+R40	located_in Arg1:T91 Arg2:T108	
+R41	located_in Arg1:T106 Arg2:T108	
+R42	located_in Arg1:T106 Arg2:T92	
+R43	located_in Arg1:T106 Arg2:T93	
+R44	located_in Arg1:T107 Arg2:T108	
+R45	located_in Arg1:T107 Arg2:T92	
+R46	located_in Arg1:T107 Arg2:T93	

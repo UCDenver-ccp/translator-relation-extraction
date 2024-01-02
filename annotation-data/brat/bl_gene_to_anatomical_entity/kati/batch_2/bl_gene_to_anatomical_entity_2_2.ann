@@ -114,3 +114,105 @@ T113	gene 2842 2855	interleukin-1
 T114	gene 2861 2874	interleukin-6
 T115	anatomical_site 2903 2918	cerebral cortex
 T116	anatomical_site 2923 2935	white matter
+R1	located_in Arg1:T1 Arg2:T2	
+T117	corrected_anatomical_site 204 227	skeletogenic mesenchyme
+R2	located_in Arg1:T7 Arg2:T117	
+R3	located_in Arg1:T7 Arg2:T11	
+R4	located_in Arg1:T8 Arg2:T117	
+R5	located_in Arg1:T8 Arg2:T11	
+R6	located_in Arg1:T9 Arg2:T117	
+R7	located_in Arg1:T9 Arg2:T11	
+R8	located_in Arg1:T14 Arg2:T119	
+R9	located_in Arg1:T15 Arg2:T119	
+R10	located_in Arg1:T14 Arg2:T118	
+R11	located_in Arg1:T15 Arg2:T118	
+R12	located_in Arg1:T19 Arg2:T20	
+R13	located_in Arg1:T19 Arg2:T21	
+R14	located_in Arg1:T19 Arg2:T22	
+R15	located_in Arg1:T19 Arg2:T23	
+R16	located_in Arg1:T26 Arg2:T27	
+R17	located_in Arg1:T24 Arg2:T25	
+R18	located_in Arg1:T26 Arg2:T25	
+R19	located_in Arg1:T28 Arg2:T29	
+R20	located_in Arg1:T28 Arg2:T30	
+R21	located_in Arg1:T28 Arg2:T31	
+R22	located_in Arg1:T28 Arg2:T32	
+T120	missed_gene 634 680	monocyte chemotactic protein-induced protein-1
+R23	located_in Arg1:T120 Arg2:T29	
+R24	located_in Arg1:T120 Arg2:T30	
+R25	located_in Arg1:T120 Arg2:T31	
+R26	located_in Arg1:T120 Arg2:T32	
+T121	missed_anatomical_site 724 731	tissues
+R27	located_in Arg1:T28 Arg2:T121	
+R28	located_in Arg1:T120 Arg2:T121	
+R29	located_in Arg1:T34 Arg2:T33	
+R30	located_in Arg1:T36 Arg2:T35	
+R31	located_in Arg1:T38 Arg2:T37	
+R32	located_in Arg1:T39 Arg2:T37	
+R33	located_in Arg1:T40 Arg2:T41	
+R34	located_in Arg1:T42 Arg2:T43	
+T122	corrected_anatomical_site 1240 1262	renal collecting ducts
+R35	located_in Arg1:T46 Arg2:T122	
+R36	located_in Arg1:T50 Arg2:T49	
+R37	located_in Arg1:T51 Arg2:T49	
+R38	located_in Arg1:T63 Arg2:T62	
+T123	corrected_gene 1680 1712	serum mesothelin-related protein
+R39	located_in Arg1:T123 Arg2:T62	
+R40	located_in Arg1:T123 Arg2:T64	
+R41	located_in Arg1:T66 Arg2:T62	
+R42	located_in Arg1:T66 Arg2:T64	
+T124	missed_gene 1788 1798	cystatin C
+R43	located_in Arg1:T124 Arg2:T67	
+R44	located_in Arg1:T70 Arg2:T68	
+R45	located_in Arg1:T70 Arg2:T69	
+T125	missed_gene 1860 1864	NGAL
+R46	located_in Arg1:T125 Arg2:T68	
+R47	located_in Arg1:T125 Arg2:T69	
+T126	missed_gene 1873 1897	kidney injury molecule 1
+R48	located_in Arg1:T126 Arg2:T72	
+R49	located_in Arg1:T126 Arg2:T71	
+R50	located_in Arg1:T73 Arg2:T72	
+R51	located_in Arg1:T73 Arg2:T71	
+R52	located_in Arg1:T75 Arg2:T74	
+T127	missed_gene 1940 1943	IgG
+R53	located_in Arg1:T127 Arg2:T74	
+R54	located_in Arg1:T77 Arg2:T76	
+R55	located_in Arg1:T79 Arg2:T78	
+T128	missed_gene 2046 2049	IgG
+R56	located_in Arg1:T128 Arg2:T78	
+R57	located_in Arg1:T80 Arg2:T82	
+R58	located_in Arg1:T81 Arg2:T82	
+R59	located_in Arg1:T80 Arg2:T83	
+R60	located_in Arg1:T81 Arg2:T83	
+R61	located_in Arg1:T96 Arg2:T95	
+R62	located_in Arg1:T97 Arg2:T95	
+R63	located_in Arg1:T98 Arg2:T95	
+R64	located_in Arg1:T99 Arg2:T102	
+R65	located_in Arg1:T100 Arg2:T102	
+R66	located_in Arg1:T101 Arg2:T102	
+R67	located_in Arg1:T105 Arg2:T108	
+R68	located_in Arg1:T106 Arg2:T108	
+R69	located_in Arg1:T107 Arg2:T108	
+T129	missed_anatomical_site 2602 2607	brain
+R70	located_in Arg1:T105 Arg2:T129	
+R71	located_in Arg1:T106 Arg2:T129	
+R72	located_in Arg1:T109 Arg2:T110	
+T130	corrected_gene 2842 2856	interleukin-1?
+R74	located_in Arg1:T130 Arg2:T115	
+T131	corrected_anatomical_site 2903 2911;2923 2935	cerebral white matter
+R75	located_in Arg1:T130 Arg2:T131	
+R76	located_in Arg1:T114 Arg2:T115	
+R77	located_in Arg1:T114 Arg2:T131	
+T132	missed_anatomical_site 239 257	presumptive joints
+R73	located_in Arg1:T7 Arg2:T132	
+R78	located_in Arg1:T8 Arg2:T132	
+R79	located_in Arg1:T9 Arg2:T132	
+T118	corrected_anatomical_site 352 370	embryonic mesoderm
+T119	corrected_anatomical_site 352 361;375 388	embryonic neural tissue
+R80	located_in Arg1:T99 Arg2:T95	
+R81	located_in Arg1:T100 Arg2:T95	
+R82	located_in Arg1:T101 Arg2:T95	
+T133	corrected_gene 2602 2635;2651 2659	brain derived neurotrophic factor receptor
+R83	located_in Arg1:T133 Arg2:T108	
+T134	corrected_gene 2637 2641;2651 2659	BDNF receptor
+R84	located_in Arg1:T134 Arg2:T108	

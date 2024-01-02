@@ -75,34 +75,40 @@ R3	treats Arg1:T8 Arg2:T70
 R4	treats Arg1:T8 Arg2:T71	
 T72	missed_disease_or_phenotypic_feature 810 815	tumor
 R5	treats Arg1:T17 Arg2:T72	
-R6	causes_or_contributes_to Arg1:T28 Arg2:T26	
-R7	treats Arg1:T33 Arg2:T34	
 T73	corrected_chemical 1295 1328	targeted small-molecule inhibitor
-R8	treats Arg1:T73 Arg2:T34	
 T74	missed_chemical 1472 1491	Z-505 hydrochloride
 T75	corrected_chemical 1510 1525	ghrelin agonist
 T76	corrected_disease_or_phenotypic_feature 1557 1572	cancer cachexia
 R9	treats Arg1:T74 Arg2:T76	
 R10	treats Arg1:T75 Arg2:T76	
 T77	missed_disease_or_phenotypic_feature 1876 1888	solid tumors
-R11	treats Arg1:T44 Arg2:T48	
-R12	treats Arg1:T45 Arg2:T48	
-R13	treats Arg1:T45 Arg2:T77	
-R14	treats Arg1:T44 Arg2:T77	
-R15	treats Arg1:T46 Arg2:T48	
-R16	treats Arg1:T46 Arg2:T77	
-R17	treats Arg1:T47 Arg2:T48	
-R18	treats Arg1:T47 Arg2:T77	
 R19	causes_or_contributes_to Arg1:T61 Arg2:T62	
 T78	corrected_chemical 2776 2818	PEGylated doxorubicin prodrug nanoparticle
 R20	treats Arg1:T78 Arg2:T68	
 T79	missed_disease_or_phenotypic_feature 1347 1385	immune-mediated killing of tumor cells
-T80	missed_disease_or_phenotypic_feature 1390 1434	immune tumor microenvironment permissiveness
 R21	causes_or_contributes_to Arg1:T73 Arg2:T79	
-R22	causes_or_contributes_to Arg1:T73 Arg2:T80	
 R23	causes_or_contributes_to Arg1:T33 Arg2:T79	
-R24	causes_or_contributes_to Arg1:T33 Arg2:T80	
 T81	missed_disease_or_phenotypic_feature 1374 1379	tumor
 R25	treats Arg1:T73 Arg2:T81	
 R26	treats Arg1:T33 Arg2:T81	
 T82	DONE 2885 2889	DONE
+R7	treats Arg1:T24 Arg2:T25	
+T80	corrected_chemical 927 943	PTP1B inhibitors
+R8	treats Arg1:T80 Arg2:T25	
+T83	corrected_chemical 23 46	antibody-drug conjugate
+R22	treats Arg1:T83 Arg2:T3	
+R24	treats Arg1:T83 Arg2:T69	
+R27	treats Arg1:T12 Arg2:T11	
+R28	treats Arg1:T19 Arg2:T72	
+T84	missed_disease_or_phenotypic_feature 1268 1275	tumours
+R29	causes_or_contributes_to Arg1:T30 Arg2:T84	
+T85	missed_chemical 1463 1470	vaccine
+R30	treats Arg1:T85 Arg2:T34	
+R31	treats Arg1:T67 Arg2:T68	
+T86	missed_disease_or_phenotypic_feature 765 771	tumors
+R32	treats Arg1:T17 Arg2:T86	
+T87	missed_disease_or_phenotypic_feature 1598 1612	Colon 26 tumor
+R6	treats Arg1:T75 Arg2:T87	
+R33	treats Arg1:T74 Arg2:T87	
+T88	missed_chemical 2871 2883	chemotherapy
+R34	treats Arg1:T88 Arg2:T68	

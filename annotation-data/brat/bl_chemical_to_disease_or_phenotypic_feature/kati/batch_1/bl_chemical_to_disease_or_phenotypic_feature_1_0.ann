@@ -47,38 +47,22 @@ T10	chemical 433 458	prostate-specific antigen
 T11	corrected_chemical 690 704	ACE inhibitors
 R13	treats Arg1:T11 Arg2:T27	
 R14	treats Arg1:T26 Arg2:T27	
-T14	missed_disease_or_phenotypic_feature 928 948	with type 2 diabetes
 T15	missed_chemical 1008 1022	growth factors
 R15	causes_or_contributes_to Arg1:T15 Arg2:T33	
 R16	causes_or_contributes_to Arg1:T34 Arg2:T33	
-T21	missed_disease_or_phenotypic_feature 1111 1159	hormone independent (HI) GR mouse mammary tumors
-T25	missed_disease_or_phenotypic_feature 1182 1229	estrogen-depleted hormone dependent (HD) tumors
 R17	treats Arg1:T52 Arg2:T54	
 T28	corrected_disease_or_phenotypic_feature 1825 1839	hypoxia injury
 T31	chemical 1583 1593	anesthesia
 T35	disease_or_phenotypic_feature 1598 1606	cataract
-T18	corrected_disease_or_phenotypic_feature 818 848	diabetic peripheral neuropathy
 T29	chemical 1371 1380	Pazopanib
 T36	disease_or_phenotypic_feature 1507 1525	pale laser lesions
-T41	corrected_disease_or_phenotypic_feature 1884 1909	ferrous chloride seizures
-R20	treats Arg1:T59 Arg2:T41	
-T42	corrected_disease_or_phenotypic_feature 1911 1937	hyperbaric oxygen seizures
-R21	treats Arg1:T59 Arg2:T42	
-T44	corrected_disease_or_phenotypic_feature 1942 1969	penicillin-induced seizures
+R21	treats Arg1:T59 Arg2:T63	
 T45	corrected_chemical 1998 2023	prostate-specific antigen
 T46	corrected_chemical 2043 2059	antigen (CA)15.3
 T47	corrected_chemical 2104 2124	anticonvulsant drugs
 T48	missed_disease_or_phenotypic_feature 2130 2140	somnolence
-T50	missed_disease_or_phenotypic_feature 2230 2253	PurposePREPL deficiency
-T51	missed_disease_or_phenotypic_feature 2261 2279	neonatal hypotonia
-T53	missed_disease_or_phenotypic_feature 2289 2318	neonatal feeding difficulties
-T76	missed_disease_or_phenotypic_feature 2339 2349	xerostomia
-T77	corrected_disease_or_phenotypic_feature 2320 2337	childhood obesity
-T78	missed_disease_or_phenotypic_feature 2355 2380	growth hormone deficiency
-T79	missed_disease_or_phenotypic_feature 1321 1354	local anesthetic cardiac toxicity
 T80	chemical 763 772	Vitamin D
-R22	treats Arg1:T80 Arg2:T18	
-R25	treats Arg1:T59 Arg2:T44	
+R25	treats Arg1:T59 Arg2:T64	
 T13	missed_chemical 1942 1952	penicillin
 R26	causes_or_contributes_to Arg1:T13 Arg2:T64	
 T82	disease_or_phenotypic_feature 102 108;39 74	tumors neurofibromatosis type 1-associated
@@ -93,3 +77,11 @@ R10	treats Arg1:T47 Arg2:T69
 T30	chemical 2204 2228	low dose anticonvulsants
 R11	causes_or_contributes_to Arg1:T30 Arg2:T48	
 R12	causes_or_contributes_to Arg1:T30 Arg2:T71	
+T2	missed_disease_or_phenotypic_feature 1223 1229	tumors
+T25	missed_chemical 1200 1207	hormone
+R3	causes_or_contributes_to Arg1:T25 Arg2:T2	
+T37	missed_chemical 1182 1190	estrogen
+R4	causes_or_contributes_to Arg1:T37 Arg2:T2	
+R6	causes_or_contributes_to Arg1:T62 Arg2:T63	
+R7	causes_or_contributes_to Arg1:T60 Arg2:T61	
+R18	treats Arg1:T59 Arg2:T61	

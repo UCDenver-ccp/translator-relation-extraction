@@ -113,12 +113,6 @@ T112	gene 2829 2833	IL-8
 T113	gene 2838 2844	CXCL10
 T114	cell_type 2860 2870	leukocytes
 T115	cell_type 2885 2892	T-cells
-R1	located_in Arg1:T1 Arg2:T2	
-R2	located_in Arg1:T1 Arg2:T3	
-T116	corrected_cell_type 94 126	monocyte-derived dendritic cells
-R3	located_in Arg1:T1 Arg2:T116	
-R4	located_in Arg1:T10 Arg2:T11	
-R5	located_in Arg1:T9 Arg2:T11	
 R6	located_in Arg1:T15 Arg2:T13	
 T117	corrected_gene 291 297	TLR1-4
 R8	located_in Arg1:T117 Arg2:T13	
@@ -127,10 +121,6 @@ R9	located_in Arg1:T118 Arg2:T16
 T119	missed_cell_type 488 497	leukocyte
 R7	located_in Arg1:T21 Arg2:T119	
 R10	located_in Arg1:T22 Arg2:T119	
-T120	corrected_cell_type 384 403	activated platelets
-R11	located_in Arg1:T20 Arg2:T120	
-T121	corrected_cell_type 351 379	Stimulated endothelial cells
-R12	located_in Arg1:T20 Arg2:T121	
 T122	missed_cell_type 680 689	NKT cells
 T123	corrected_cell_type 698 718	conventional T cells
 R13	located_in Arg1:T28 Arg2:T122	
@@ -157,23 +147,12 @@ R31	located_in Arg1:T124 Arg2:T40
 R32	located_in Arg1:T124 Arg2:T41	
 R33	located_in Arg1:T124 Arg2:T42	
 R34	located_in Arg1:T124 Arg2:T43	
-R35	located_in Arg1:T45 Arg2:T47	
-R36	located_in Arg1:T46 Arg2:T48	
-R37	located_in Arg1:T44 Arg2:T47	
-R38	located_in Arg1:T46 Arg2:T47	
-R39	located_in Arg1:T44 Arg2:T48	
-R40	located_in Arg1:T45 Arg2:T48	
-R41	located_in Arg1:T44 Arg2:T49	
-R42	located_in Arg1:T45 Arg2:T49	
-R43	located_in Arg1:T46 Arg2:T49	
 R44	located_in Arg1:T51 Arg2:T55	
 R45	located_in Arg1:T52 Arg2:T55	
 R46	located_in Arg1:T53 Arg2:T55	
 R47	located_in Arg1:T54 Arg2:T55	
 R48	located_in Arg1:T56 Arg2:T58	
 R49	located_in Arg1:T56 Arg2:T59	
-T126	missed_cell_type 1434 1443	sinusoids
-R50	located_in Arg1:T56 Arg2:T126	
 R51	located_in Arg1:T60 Arg2:T61	
 R52	located_in Arg1:T62 Arg2:T63	
 R53	located_in Arg1:T64 Arg2:T65	
@@ -186,16 +165,12 @@ R57	located_in Arg1:T67 Arg2:T69
 T129	missed_gene 1638 1647	NF-kappaB
 R58	located_in Arg1:T129 Arg2:T127	
 R59	located_in Arg1:T129 Arg2:T69	
-R60	located_in Arg1:T66 Arg2:T127	
-R61	located_in Arg1:T66 Arg2:T69	
-T130	missed_gene 1764 1767	IFN
+T130	missed_gene 1764 1769	IFN-?
 T131	missed_gene 1804 1807	CD8
 R62	located_in Arg1:T131 Arg2:T71	
 R63	located_in Arg1:T70 Arg2:T71	
 T132	missed_gene 1835 1838	CD8
 R64	located_in Arg1:T132 Arg2:T73	
-T133	corrected_cell_type 1798 1816	CXCR3+CD8+ T cells
-R65	located_in Arg1:T130 Arg2:T133	
 R66	located_in Arg1:T78 Arg2:T79	
 R67	located_in Arg1:T78 Arg2:T80	
 R68	located_in Arg1:T81 Arg2:T82	
@@ -205,7 +180,7 @@ T134	missed_gene 2005 2008	MIG
 R71	located_in Arg1:T134 Arg2:T82	
 R72	located_in Arg1:T134 Arg2:T83	
 R73	located_in Arg1:T89 Arg2:T90	
-T135	corrected_cell_type 2403 2441	Early neurons of the rostral tegmentum
+T135	corrected_cell_type 2409 2441	neurons of the rostral tegmentum
 R74	located_in Arg1:T99 Arg2:T135	
 R75	located_in Arg1:T100 Arg2:T135	
 T136	missed_gene 2464 2467;2469 2470	Lim 2
@@ -220,3 +195,16 @@ R80	located_in Arg1:T139 Arg2:T105
 R81	located_in Arg1:T139 Arg2:T104	
 R82	located_in Arg1:T139 Arg2:T103	
 R83	located_in Arg1:T109 Arg2:T110	
+R1	located_in Arg1:T6 Arg2:T5	
+R2	located_in Arg1:T7 Arg2:T5	
+R3	located_in Arg1:T8 Arg2:T5	
+R5	located_in Arg1:T20 Arg2:T18	
+R4	located_in Arg1:T20 Arg2:T19	
+T116	missed_gene 761 766	MMP-9
+R11	located_in Arg1:T116 Arg2:T33	
+R12	located_in Arg1:T130 Arg2:T71	
+T120	gene 1855 1858	CD8
+R35	located_in Arg1:T120 Arg2:T75	
+R36	located_in Arg1:T74 Arg2:T75	
+T121	missed_gene 1890 1893	CD8
+R37	located_in Arg1:T121 Arg2:T77	

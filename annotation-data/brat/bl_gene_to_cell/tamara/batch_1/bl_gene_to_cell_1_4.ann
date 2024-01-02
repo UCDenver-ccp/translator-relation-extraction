@@ -117,3 +117,121 @@ T116	cell_type 3443 3461	gammadelta T cells
 T117	gene 3463 3466	Tat
 T118	cell_type 3505 3520	dendritic cells
 T119	cell_type 3564 3571	T cells
+R1	located_in Arg1:T3 Arg2:T2	
+R2	located_in Arg1:T5 Arg2:T4	
+R3	located_in Arg1:T7 Arg2:T6	
+R4	located_in Arg1:T8 Arg2:T6	
+T120	missed_gene 367 384	phagocyte oxidase
+R5	located_in Arg1:T120 Arg2:T10	
+R6	located_in Arg1:T11 Arg2:T10	
+R7	located_in Arg1:T12 Arg2:T10	
+R8	located_in Arg1:T13 Arg2:T10	
+R9	located_in Arg1:T11 Arg2:T14	
+R10	located_in Arg1:T12 Arg2:T14	
+R11	located_in Arg1:T13 Arg2:T14	
+R12	located_in Arg1:T13 Arg2:T15	
+R13	located_in Arg1:T12 Arg2:T15	
+R14	located_in Arg1:T11 Arg2:T15	
+R15	located_in Arg1:T13 Arg2:T16	
+R16	located_in Arg1:T12 Arg2:T16	
+R17	located_in Arg1:T11 Arg2:T16	
+T121	missed_cell_type 429 440	eosinophils
+R18	located_in Arg1:T13 Arg2:T121	
+R19	located_in Arg1:T12 Arg2:T121	
+R20	located_in Arg1:T11 Arg2:T121	
+R21	located_in Arg1:T120 Arg2:T121	
+R22	located_in Arg1:T120 Arg2:T14	
+R23	located_in Arg1:T120 Arg2:T15	
+R24	located_in Arg1:T120 Arg2:T16	
+T122	missed_gene 487 493	CYP1A1
+R25	located_in Arg1:T122 Arg2:T18	
+R26	located_in Arg1:T17 Arg2:T18	
+R27	located_in Arg1:T19 Arg2:T20	
+R28	located_in Arg1:T21 Arg2:T22	
+R30	located_in Arg1:T24 Arg2:T22	
+T123	corrected_cell_type 862 889	oligodendrocyte progenitors
+T124	corrected_cell_type 894 909	microglia cells
+T125	missed_gene 969 1002	microtubule associated proteins 2
+T126	missed_gene 1051 1096	platelet derived growth factor receptor alpha
+T127	missed_cell_type 1051 1059	platelet
+T128	missed_gene 1098 1108	PDGFRalpha
+T129	missed_gene 1114 1141	ricinus communis agglutinin
+T130	missed_gene 1143 1149	RCA120
+R29	located_in Arg1:T126 Arg2:T127	
+R31	located_in Arg1:T128 Arg2:T127	
+R32	located_in Arg1:T32 Arg2:T25	
+R33	located_in Arg1:T125 Arg2:T25	
+R34	located_in Arg1:T33 Arg2:T25	
+R35	located_in Arg1:T34 Arg2:T25	
+R36	located_in Arg1:T35 Arg2:T25	
+R37	located_in Arg1:T126 Arg2:T25	
+R38	located_in Arg1:T128 Arg2:T25	
+R39	located_in Arg1:T129 Arg2:T25	
+R40	located_in Arg1:T130 Arg2:T25	
+R41	located_in Arg1:T32 Arg2:T26	
+R42	located_in Arg1:T32 Arg2:T27	
+R43	located_in Arg1:T125 Arg2:T28	
+R44	located_in Arg1:T33 Arg2:T28	
+R45	located_in Arg1:T34 Arg2:T29	
+R46	located_in Arg1:T35 Arg2:T29	
+R47	located_in Arg1:T126 Arg2:T123	
+R48	located_in Arg1:T128 Arg2:T123	
+R49	located_in Arg1:T129 Arg2:T124	
+R50	located_in Arg1:T130 Arg2:T124	
+R51	located_in Arg1:T36 Arg2:T37	
+R52	located_in Arg1:T36 Arg2:T38	
+R53	located_in Arg1:T36 Arg2:T39	
+R54	located_in Arg1:T43 Arg2:T42	
+T131	missed_gene 1466 1471	CD42b
+R55	located_in Arg1:T131 Arg2:T42	
+R56	located_in Arg1:T44 Arg2:T45	
+R57	located_in Arg1:T46 Arg2:T47	
+R58	located_in Arg1:T50 Arg2:T49	
+R59	located_in Arg1:T53 Arg2:T52	
+T132	corrected_cell_type 1769 1799	macrophage-like synovial cells
+R60	located_in Arg1:T55 Arg2:T132	
+R61	located_in Arg1:T54 Arg2:T132	
+T133	missed_cell_type 1931 1949	pancreatic ?-cells
+R62	located_in Arg1:T62 Arg2:T133	
+T134	missed_cell_type 1954 1984	somatostatin-producing ?-cells
+R63	located_in Arg1:T63 Arg2:T134	
+T135	missed_gene 2039 2046	insulin
+R64	located_in Arg1:T135 Arg2:T65	
+R65	located_in Arg1:T64 Arg2:T134	
+R66	located_in Arg1:T64 Arg2:T133	
+R67	located_in Arg1:T66 Arg2:T67	
+R68	located_in Arg1:T73 Arg2:T74	
+R69	located_in Arg1:T76 Arg2:T75	
+R70	located_in Arg1:T79 Arg2:T80	
+R71	located_in Arg1:T79 Arg2:T81	
+T136	corrected_gene 2642 2650	p38 MAPK
+R72	located_in Arg1:T136 Arg2:T83	
+R73	located_in Arg1:T87 Arg2:T86	
+R74	located_in Arg1:T88 Arg2:T86	
+R75	located_in Arg1:T87 Arg2:T89	
+R76	located_in Arg1:T88 Arg2:T89	
+R77	located_in Arg1:T91 Arg2:T94	
+R78	located_in Arg1:T92 Arg2:T94	
+T137	missed_cell_type 2953 2961	Monocyte
+R79	located_in Arg1:T96 Arg2:T137	
+R80	located_in Arg1:T97 Arg2:T137	
+T138	missed_cell_type 3205 3209	Treg
+R81	located_in Arg1:T106 Arg2:T138	
+R82	located_in Arg1:T107 Arg2:T138	
+R83	located_in Arg1:T108 Arg2:T138	
+R84	located_in Arg1:T109 Arg2:T110	
+R85	located_in Arg1:T111 Arg2:T110	
+T139	missed_cell_type 3382 3385	Th3
+R87	located_in Arg1:T113 Arg2:T139	
+T140	missed_gene 3402 3405	CD8
+R88	located_in Arg1:T140 Arg2:T114	
+R89	located_in Arg1:T109 Arg2:T138	
+R90	located_in Arg1:T111 Arg2:T138	
+T141	missed_cell_type 3364 3367	Tr1
+R86	located_in Arg1:T111 Arg2:T141	
+R91	located_in Arg1:T113 Arg2:T138	
+R92	located_in Arg1:T140 Arg2:T138	
+T142	missed_gene 3552 3555	CD4
+T143	missed_gene 3560 3563	CD8
+R93	located_in Arg1:T143 Arg2:T119	
+R94	located_in Arg1:T142 Arg2:T119	

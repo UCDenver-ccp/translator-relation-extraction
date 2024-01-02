@@ -126,3 +126,108 @@ T125	gene 2737 2748	Connexin 43
 T126	gene 2750 2754	Cx43
 T127	anatomical_site 2785 2790	brain
 T128	anatomical_site 2795 2800	heart
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T3	
+R3	located_in Arg1:T4 Arg2:T5	
+T129	missed_anatomical_site 197 202	brain
+R4	located_in Arg1:T9 Arg2:T129	
+R5	located_in Arg1:T10 Arg2:T129	
+T133	corrected_anatomical_site 490 503	kidney tissue
+R38	located_in Arg1:T17 Arg2:T133	
+R39	located_in Arg1:T18 Arg2:T133	
+R40	located_in Arg1:T36 Arg2:T35	
+R41	located_in Arg1:T37 Arg2:T35	
+R42	located_in Arg1:T38 Arg2:T35	
+T134	corrected_gene 964 984	surfactant protein C
+T135	missed_gene 986 989	SPC
+R43	located_in Arg1:T134 Arg2:T39	
+R44	located_in Arg1:T135 Arg2:T39	
+R45	located_in Arg1:T41 Arg2:T39	
+R46	located_in Arg1:T42 Arg2:T39	
+T136	corrected_gene 1070 1094	dystrophin-like proteins
+R47	located_in Arg1:T43 Arg2:T45	
+R48	located_in Arg1:T136 Arg2:T45	
+R49	located_in Arg1:T43 Arg2:T46	
+R50	located_in Arg1:T136 Arg2:T46	
+R51	located_in Arg1:T48 Arg2:T47	
+R52	located_in Arg1:T49 Arg2:T47	
+T137	corrected_anatomical_site 1449 1469	cutaneous epithelium
+R53	located_in Arg1:T63 Arg2:T137	
+R54	located_in Arg1:T64 Arg2:T137	
+T138	corrected_gene 1907 1922	Type I collagen
+R55	located_in Arg1:T138 Arg2:T82	
+R56	located_in Arg1:T84 Arg2:T82	
+R57	located_in Arg1:T85 Arg2:T82	
+T139	corrected_gene 1954 1964	Sortilin 1
+R58	located_in Arg1:T139 Arg2:T88	
+R59	located_in Arg1:T139 Arg2:T89	
+R60	located_in Arg1:T139 Arg2:T90	
+R61	located_in Arg1:T139 Arg2:T91	
+R62	located_in Arg1:T139 Arg2:T92	
+R63	located_in Arg1:T139 Arg2:T93	
+R64	located_in Arg1:T139 Arg2:T94	
+R65	located_in Arg1:T87 Arg2:T88	
+R66	located_in Arg1:T87 Arg2:T89	
+R67	located_in Arg1:T87 Arg2:T90	
+R68	located_in Arg1:T87 Arg2:T91	
+R69	located_in Arg1:T87 Arg2:T92	
+R70	located_in Arg1:T87 Arg2:T93	
+R71	located_in Arg1:T87 Arg2:T94	
+R72	located_in Arg1:T95 Arg2:T97	
+R73	located_in Arg1:T95 Arg2:T98	
+R74	located_in Arg1:T96 Arg2:T97	
+R75	located_in Arg1:T96 Arg2:T98	
+R76	located_in Arg1:T99 Arg2:T105	
+T140	missed_gene 2198 2206	HLA-DQA1
+T141	missed_gene 2208 2216	HLA-DQB1
+T142	missed_gene 2218 2221	DSP
+T143	missed_gene 2235 2240	GPNMB
+R77	located_in Arg1:T140 Arg2:T105	
+R78	located_in Arg1:T141 Arg2:T105	
+R79	located_in Arg1:T142 Arg2:T105	
+R80	located_in Arg1:T100 Arg2:T105	
+R81	located_in Arg1:T143 Arg2:T106	
+R82	located_in Arg1:T101 Arg2:T106	
+R83	located_in Arg1:T102 Arg2:T106	
+R84	located_in Arg1:T103 Arg2:T106	
+R85	located_in Arg1:T104 Arg2:T106	
+R86	located_in Arg1:T108 Arg2:T110	
+R87	located_in Arg1:T109 Arg2:T110	
+R88	located_in Arg1:T108 Arg2:T107	
+R89	located_in Arg1:T109 Arg2:T107	
+T144	corrected_gene 2446 2489	caudal type homeobox transcription factor 2
+T145	missed_anatomical_site 2491 2497	midgut
+T146	missed_gene 2510 2528	ISL LIM homeobox 1
+T147	missed_gene 2540 2552	paired box 8
+R90	located_in Arg1:T111 Arg2:T145	
+R91	located_in Arg1:T144 Arg2:T145	
+R92	located_in Arg1:T111 Arg2:T107	
+R93	located_in Arg1:T144 Arg2:T107	
+R94	located_in Arg1:T113 Arg2:T115	
+R95	located_in Arg1:T113 Arg2:T116	
+R96	located_in Arg1:T146 Arg2:T115	
+R97	located_in Arg1:T146 Arg2:T116	
+R98	located_in Arg1:T113 Arg2:T107	
+R99	located_in Arg1:T146 Arg2:T107	
+R100	located_in Arg1:T114 Arg2:T115	
+R101	located_in Arg1:T114 Arg2:T116	
+R102	located_in Arg1:T147 Arg2:T116	
+R103	located_in Arg1:T147 Arg2:T115	
+R104	located_in Arg1:T114 Arg2:T107	
+R105	located_in Arg1:T147 Arg2:T107	
+T148	corrected_anatomical_site 2653 2674	embryonic spinal cord
+T149	corrected_gene 2693 2713	group E Sox proteins
+R107	located_in Arg1:T149 Arg2:T148	
+R108	located_in Arg1:T122 Arg2:T148	
+R109	located_in Arg1:T123 Arg2:T148	
+R110	located_in Arg1:T124 Arg2:T148	
+R111	located_in Arg1:T125 Arg2:T127	
+R112	located_in Arg1:T125 Arg2:T128	
+R113	located_in Arg1:T126 Arg2:T127	
+R114	located_in Arg1:T126 Arg2:T128	
+T150	missed_gene 2765 2773	connexin
+R106	located_in Arg1:T150 Arg2:T127	
+R115	located_in Arg1:T150 Arg2:T128	
+T130	missed_anatomical_site 2401 2408	thyroid
+R6	located_in Arg1:T108 Arg2:T130	
+R7	located_in Arg1:T109 Arg2:T130	

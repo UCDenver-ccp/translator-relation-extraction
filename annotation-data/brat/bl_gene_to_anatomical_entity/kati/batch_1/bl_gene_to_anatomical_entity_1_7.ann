@@ -122,3 +122,118 @@ T121	gene 3164 3169	ATP7B
 T122	gene 3174 3178	CTR1
 T123	anatomical_site 3192 3212	dorsal root ganglion
 T124	anatomical_site 3213 3219	tissue
+R1	located_in Arg1:T3 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T1	
+R3	located_in Arg1:T5 Arg2:T1	
+R4	located_in Arg1:T6 Arg2:T1	
+T125	missed_gene 48 56	myokines
+R5	located_in Arg1:T125 Arg2:T1	
+T126	corrected_gene 141 150	Omentin-1
+T127	missed_gene 188 197	adipokine
+R6	located_in Arg1:T126 Arg2:T10	
+R7	located_in Arg1:T8 Arg2:T10	
+R8	located_in Arg1:T9 Arg2:T10	
+R9	located_in Arg1:T127 Arg2:T10	
+R10	located_in Arg1:T11 Arg2:T13	
+R11	located_in Arg1:T12 Arg2:T13	
+R12	located_in Arg1:T14 Arg2:T15	
+T128	corrected_anatomical_site 439 455;461 476	ventricular zone neuroepithelium
+T129	missed_anatomical_site 457 459;461 476	VZ neuroepithelium
+R13	located_in Arg1:T17 Arg2:T16	
+R14	located_in Arg1:T18 Arg2:T16	
+R15	located_in Arg1:T19 Arg2:T16	
+R16	located_in Arg1:T18 Arg2:T128	
+R17	located_in Arg1:T19 Arg2:T128	
+R18	located_in Arg1:T18 Arg2:T129	
+R19	located_in Arg1:T19 Arg2:T129	
+T131	missed_gene 624 628	RAGE
+T132	corrected_gene 684 717	vascular cell adhesion molecule-1
+R21	located_in Arg1:T132 Arg2:T28	
+R22	located_in Arg1:T25 Arg2:T30	
+R23	located_in Arg1:T131 Arg2:T30	
+R24	located_in Arg1:T26 Arg2:T30	
+R25	located_in Arg1:T27 Arg2:T30	
+R26	located_in Arg1:T132 Arg2:T30	
+T133	missed_gene 879 889	Cystatin C
+T134	missed_gene 891 896	Cys C
+R27	located_in Arg1:T133 Arg2:T32	
+R28	located_in Arg1:T134 Arg2:T32	
+R29	located_in Arg1:T133 Arg2:T33	
+R30	located_in Arg1:T134 Arg2:T33	
+R31	located_in Arg1:T37 Arg2:T38	
+R32	located_in Arg1:T40 Arg2:T41	
+T135	missed_gene 999 1002	OPN
+R33	located_in Arg1:T135 Arg2:T41	
+T136	corrected_anatomical_site 1049 1081	developing pulmonary vasculature
+R34	located_in Arg1:T42 Arg2:T136	
+R35	located_in Arg1:T43 Arg2:T136	
+T137	gene 1166 1176	adipokines
+R36	located_in Arg1:T137 Arg2:T45	
+R37	located_in Arg1:T137 Arg2:T46	
+T138	missed_gene 1185 1193	chemerin
+T139	corrected_gene 1195 1204	omentin-1
+R38	located_in Arg1:T138 Arg2:T45	
+R39	located_in Arg1:T138 Arg2:T46	
+R40	located_in Arg1:T139 Arg2:T45	
+R41	located_in Arg1:T139 Arg2:T46	
+R42	located_in Arg1:T48 Arg2:T45	
+R43	located_in Arg1:T48 Arg2:T46	
+R44	located_in Arg1:T49 Arg2:T45	
+R45	located_in Arg1:T49 Arg2:T46	
+R46	located_in Arg1:T50 Arg2:T45	
+R47	located_in Arg1:T50 Arg2:T46	
+T140	corrected_anatomical_site 1310 1330	Vascular endothelium
+R48	located_in Arg1:T54 Arg2:T140	
+R49	located_in Arg1:T55 Arg2:T140	
+T141	corrected_anatomical_site 1557 1571	central myelin
+T142	corrected_anatomical_site 1622 1636	central myelin
+T143	corrected_anatomical_site 1662 1679	peripheral myelin
+T144	corrected_anatomical_site 1736 1753	peripheral myelin
+T145	missed_gene 1509 1528	proteolipid protein
+R50	located_in Arg1:T145 Arg2:T141	
+R51	located_in Arg1:T57 Arg2:T141	
+T146	missed_anatomical_site 1573 1579	myelin
+R52	located_in Arg1:T59 Arg2:T146	
+R53	located_in Arg1:T60 Arg2:T146	
+R54	located_in Arg1:T59 Arg2:T142	
+R55	located_in Arg1:T60 Arg2:T142	
+R56	located_in Arg1:T59 Arg2:T143	
+R57	located_in Arg1:T60 Arg2:T143	
+T147	missed_gene 1685 1697	protein zero
+T148	missed_gene 1699 1701	P0
+R58	located_in Arg1:T147 Arg2:T144	
+R59	located_in Arg1:T148 Arg2:T144	
+T149	missed_anatomical_site 1766 1772	myelin
+R60	located_in Arg1:T64 Arg2:T149	
+R61	located_in Arg1:T65 Arg2:T149	
+T150	missed_gene 1434 1449	myelin proteins
+R62	located_in Arg1:T150 Arg2:T56	
+R63	located_in Arg1:T69 Arg2:T71	
+R64	located_in Arg1:T69 Arg2:T72	
+R65	located_in Arg1:T70 Arg2:T71	
+R66	located_in Arg1:T70 Arg2:T72	
+T151	corrected_gene 2009 2042	vascular cell adhesion molecule-1
+R67	located_in Arg1:T151 Arg2:T75	
+R68	located_in Arg1:T77 Arg2:T75	
+R99	located_in Arg1:T88 Arg2:T90	
+R100	located_in Arg1:T89 Arg2:T90	
+T155	corrected_anatomical_site 2466 2495	ectoplacental cone derivative
+R101	located_in Arg1:T91 Arg2:T155	
+R102	located_in Arg1:T92 Arg2:T155	
+T156	missed_anatomical_site 2501 2516	junctional zone
+R103	located_in Arg1:T91 Arg2:T156	
+R104	located_in Arg1:T92 Arg2:T156	
+R105	located_in Arg1:T94 Arg2:T95	
+T157	corrected_anatomical_site 3192 3219	dorsal root ganglion tissue
+R106	located_in Arg1:T120 Arg2:T157	
+R107	located_in Arg1:T121 Arg2:T157	
+R108	located_in Arg1:T122 Arg2:T157	
+T130	missed_gene 1359 1367	connexin
+R20	located_in Arg1:T130 Arg2:T140	
+T158	missed_gene 1369 1371	Cx
+R109	located_in Arg1:T158 Arg2:T140	
+R110	located_in Arg1:T125 Arg2:T2	
+R111	located_in Arg1:T3 Arg2:T2	
+R112	located_in Arg1:T4 Arg2:T2	
+R113	located_in Arg1:T5 Arg2:T2	
+R114	located_in Arg1:T6 Arg2:T2	

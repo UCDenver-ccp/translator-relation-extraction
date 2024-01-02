@@ -21,7 +21,7 @@ T20	disease_or_phenotypic_feature 524 531	obesity
 T21	chemical 536 542	buffer
 T22	disease_or_phenotypic_feature 620 643	undifferentiated/poorly
 T23	disease_or_phenotypic_feature 620 658	undifferentiated/poorly differentiated
-T24	corrected_disease_or_phenotypic_feature 637 658;659 683	poorly differentiated nasopharyngeal carcinoma
+T24	corrected_disease_or_phenotypic_feature 659 683	nasopharyngeal carcinoma
 T25	chemical 711 717	proton
 T26	chemical 776 784	nicotine
 T27	disease_or_phenotypic_feature 803 810	obesity
@@ -54,9 +54,7 @@ T53	disease_or_phenotypic_feature 1932 1943	visual loss
 T54	chemical 1977 1987	anesthesia
 T55	disease_or_phenotypic_feature 1992 2000	cataract
 T56	corrected_chemical 1 15	ACE inhibitors
-R1	treats Arg1:T56 Arg2:T2	
 T57	missed_disease_or_phenotypic_feature 19 31	hypertension
-R2	treats Arg1:T56 Arg2:T57	
 T58	missed_disease_or_phenotypic_feature 93 99	tumors
 R3	causes_or_contributes_to Arg1:T4 Arg2:T58	
 R4	treats Arg1:T6 Arg2:T9	
@@ -93,8 +91,6 @@ T69	missed_disease_or_phenotypic_feature 1948 1961	light flashes
 R5	treats Arg1:T60 Arg2:T9	
 T70	missed_disease_or_phenotypic_feature 510 515	tumor
 R26	causes_or_contributes_to Arg1:T19 Arg2:T70	
-T71	corrected_disease_or_phenotypic_feature 620 636;659 683	undifferentiated nasopharyngeal carcinoma
-R12	treats Arg1:T25 Arg2:T71	
 R6	treats Arg1:T25 Arg2:T24	
 R28	causes_or_contributes_to Arg1:T54 Arg2:T69	
 R29	causes_or_contributes_to Arg1:T54 Arg2:T53	

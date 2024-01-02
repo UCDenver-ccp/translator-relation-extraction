@@ -78,27 +78,26 @@ R3	treats Arg1:T19 Arg2:T74
 R4	treats Arg1:T27 Arg2:T28	
 T75	missed_disease_or_phenotypic_feature 1162 1180	nicotine addiction
 T76	corrected_chemical 1083 1106	CB receptor antagonists
-T77	corrected_disease_or_phenotypic_feature 1182 1218	Androgen-independent prostate cancer
-T78	corrected_chemical 1405 1446	doxorubicin loaded polyaspartic acid gold
+T78	corrected_chemical 1405 1460	doxorubicin loaded polyaspartic acid gold nanoparticles
 R6	treats Arg1:T78 Arg2:T35	
 R7	treats Arg1:T48 Arg2:T50	
 R8	treats Arg1:T48 Arg2:T51	
 R9	treats Arg1:T48 Arg2:T52	
 T79	missed_disease_or_phenotypic_feature 1990 2012	Disordered food intake
-T80	corrected_chemical 2042 2068	holecystokinin A receptors
-R10	treats Arg1:T61 Arg2:T60	
+T80	corrected_chemical 2041 2068	cholecystokinin A receptors
 T82	missed_disease_or_phenotypic_feature 2521 2529	diabetes
 T83	missed_chemical 2628 2630	O2
-T84	missed_disease_or_phenotypic_feature 2643 2669	androgen-dependent tumours
+T84	missed_disease_or_phenotypic_feature 2662 2669	tumours
 T85	DONE 2759 2763	DONE
-R12	causes_or_contributes_to Arg1:T1 Arg2:T3	
-R13	treats Arg1:T76 Arg2:T30	
-R14	treats Arg1:T76 Arg2:T75	
 R15	treats Arg1:T43 Arg2:T41	
-T86	missed_disease_or_phenotypic_feature 1716 1718	MN
+T86	missed_disease_or_phenotypic_feature 1716 1724	MN death
 R16	treats Arg1:T43 Arg2:T86	
 T81	missed_disease_or_phenotypic_feature 2329 2353	cardiovascular morbidity
-R11	treats Arg1:T61 Arg2:T81	
 T87	missed_disease_or_phenotypic_feature 2329 2343;2358 2367	cardiovascular mortality
-R17	treats Arg1:T61 Arg2:T87	
 R5	causes_or_contributes_to Arg1:T66 Arg2:T84	
+T88	missed_disease_or_phenotypic_feature 1171 1180	addiction
+R18	causes_or_contributes_to Arg1:T31 Arg2:T88	
+T77	corrected_chemical 1839 1860	centrally acting drug
+R12	treats Arg1:T77 Arg2:T50	
+R19	treats Arg1:T77 Arg2:T51	
+R20	treats Arg1:T77 Arg2:T52	

@@ -88,3 +88,42 @@ T87	gene 3589 3606	insulin receptors
 T88	gene 3610 3617	insulin
 T89	cellular_component 3673 3686	intracellular
 T90	gene 3748 3764	insulin receptor
+T91	missed_gene 39 43	cAMP
+R1	located_in Arg1:T91 Arg2:T1	
+T92	missed_gene 52 89	cAMP response element-binding protein
+T93	corrected_gene 102 110	p38 MAPK
+R2	located_in Arg1:T92 Arg2:T1	
+#1	AnnotatorNotes R2	Okay?
+R3	located_in Arg1:T93 Arg2:T1	
+#2	AnnotatorNotes R3	Okay?
+T94	missed_gene 588 614	vacuolar protein sorting 4
+R4	located_in Arg1:T10 Arg2:T11	
+R5	located_in Arg1:T94 Arg2:T11	
+#3	AnnotatorNotes R5	Okay?
+R6	located_in Arg1:T16 Arg2:T15	
+R7	located_in Arg1:T17 Arg2:T18	
+T95	missed_cellular_component 824 826	ER
+R8	located_in Arg1:T17 Arg2:T95	
+R9	located_in Arg1:T29 Arg2:T30	
+R10	located_in Arg1:T29 Arg2:T31	
+R11	located_in Arg1:T29 Arg2:T32	
+T96	missed_gene 2177 2186	AtVamp727
+R12	located_in Arg1:T50 Arg2:T52	
+R13	located_in Arg1:T51 Arg2:T52	
+R14	located_in Arg1:T96 Arg2:T52	
+T97	missed_cellular_component 2302 2309	nuclear
+R15	located_in Arg1:T55 Arg2:T97	
+R16	located_in Arg1:T61 Arg2:T62	
+#4	AnnotatorNotes R16	Okay?
+T98	missed_gene 3367 3388	Ca2+-binding proteins
+#5	AnnotatorNotes T98	okay?
+T99	missed_cellular_component 3363 3365	ER
+R17	located_in Arg1:T98 Arg2:T99	
+R18	located_in Arg1:T98 Arg2:T83	
+R19	located_in Arg1:T87 Arg2:T89	
+R20	located_in Arg1:T50 Arg2:T53	
+#6	AnnotatorNotes R20	Okay?
+R21	located_in Arg1:T51 Arg2:T53	
+#7	AnnotatorNotes R21	Okay?
+R22	located_in Arg1:T96 Arg2:T53	
+#8	AnnotatorNotes R22	Okay?

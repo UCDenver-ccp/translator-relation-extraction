@@ -68,7 +68,6 @@ T67	disease_or_phenotypic_feature 2008 2021	breast cancer
 T68	chemical 2047 2055	estrogen
 T69	chemical 2060 2072	progesterone
 T70	corrected_chemical 45 72	Cancer-testis (CT) antigens
-R1	treats Arg1:T70 Arg2:T7	
 R2	treats Arg1:T8 Arg2:T10	
 T71	missed_disease_or_phenotypic_feature 315 322	tumors,
 T72	missed_disease_or_phenotypic_feature 323 331	diabetes
@@ -92,7 +91,6 @@ T77	corrected_chemical 768 781	PDE inhibitor
 R15	treats Arg1:T77 Arg2:T29	
 R16	causes_or_contributes_to Arg1:T32 Arg2:T35	
 T78	corrected_disease_or_phenotypic_feature 1238 1253	Fetal hypoxemia
-R17	causes_or_contributes_to Arg1:T43 Arg2:T78	
 T79	corrected_chemical 1428 1457;1464 1474	Angiotensin converting enzyme inhibitors
 T80	corrected_chemical 1459 1462;1464 1474	ACE inhibitors
 T81	missed_disease_or_phenotypic_feature 1506 1518	hypertension
@@ -103,7 +101,13 @@ R21	treats Arg1:T80 Arg2:T51
 T82	missed_disease_or_phenotypic_feature 1560 1589	obsessive-compulsive behavior
 R22	treats Arg1:T52 Arg2:T82	
 R23	treats Arg1:T57 Arg2:T60	
-T83	corrected_disease_or_phenotypic_feature 1804 1835	drug-induced movement disorders
-R24	treats Arg1:T57 Arg2:T83	
+R24	treats Arg1:T57 Arg2:T59	
 T84	missed_disease_or_phenotypic_feature 1867 1869	TD
 R25	treats Arg1:T57 Arg2:T84	
+R1	causes_or_contributes_to Arg1:T33 Arg2:T35	
+R26	treats Arg1:T52 Arg2:T53	
+R27	causes_or_contributes_to Arg1:T58 Arg2:T59	
+R28	causes_or_contributes_to Arg1:T73 Arg2:T75	
+R29	causes_or_contributes_to Arg1:T73 Arg2:T74	
+R17	causes_or_contributes_to Arg1:T58 Arg2:T60	
+R30	causes_or_contributes_to Arg1:T58 Arg2:T84	

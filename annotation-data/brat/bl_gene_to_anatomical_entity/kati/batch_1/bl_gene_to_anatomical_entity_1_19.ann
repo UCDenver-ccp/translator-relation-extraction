@@ -107,3 +107,90 @@ T106	gene 2684 2689	IGF-I
 T107	gene 2691 2698	IGFBP-3
 T108	gene 2703 2710	IGFBP-1
 T109	anatomical_site 2723 2727	bone
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T7 Arg2:T6	
+R3	located_in Arg1:T8 Arg2:T6	
+R4	located_in Arg1:T10 Arg2:T9	
+T110	missed_gene 344 368;374 376	bone morphogenic protein -6
+T111	corrected_gene 370 373;374 376	BMP -6
+R5	located_in Arg1:T110 Arg2:T17	
+R6	located_in Arg1:T111 Arg2:T17	
+T112	missed_gene 527 544	collectin liver 1
+T113	missed_gene 546 551	CL-L1
+R7	located_in Arg1:T112 Arg2:T25	
+R8	located_in Arg1:T113 Arg2:T25	
+T114	missed_gene 557 575	collectin kidney 1
+R9	located_in Arg1:T114 Arg2:T26	
+R10	located_in Arg1:T27 Arg2:T26	
+R11	located_in Arg1:T112 Arg2:T24	
+R12	located_in Arg1:T113 Arg2:T24	
+R13	located_in Arg1:T114 Arg2:T24	
+R14	located_in Arg1:T27 Arg2:T24	
+R15	located_in Arg1:T30 Arg2:T28	
+R16	located_in Arg1:T30 Arg2:T29	
+R17	located_in Arg1:T36 Arg2:T38	
+R18	located_in Arg1:T37 Arg2:T38	
+T116	corrected_anatomical_site 1031 1037;995 1000	embryo liver
+R21	located_in Arg1:T41 Arg2:T116	
+R24	located_in Arg1:T53 Arg2:T50	
+R26	located_in Arg1:T54 Arg2:T50	
+R28	located_in Arg1:T55 Arg2:T50	
+R30	located_in Arg1:T56 Arg2:T50	
+R32	located_in Arg1:T57 Arg2:T50	
+T120	corrected_gene 1486 1496	alpha1-CB5
+T121	corrected_gene 1514 1524	alpha1-CB4
+R37	located_in Arg1:T63 Arg2:T65	
+R38	located_in Arg1:T63 Arg2:T66	
+T123	corrected_anatomical_site 1686 1691;1727 1734	tibia embryos
+T124	corrected_anatomical_site 1696 1701;1727 1734	femur embryos
+T125	missed_gene 1629 1632	ODF
+T126	missed_gene 1633 1637	OPGL
+R39	located_in Arg1:T125 Arg2:T123	
+R40	located_in Arg1:T126 Arg2:T123	
+T127	missed_gene 1642 1645	OPG
+T128	missed_gene 1646 1650	OCIF
+R41	located_in Arg1:T125 Arg2:T124	
+R42	located_in Arg1:T126 Arg2:T124	
+R43	located_in Arg1:T69 Arg2:T71	
+R44	located_in Arg1:T70 Arg2:T71	
+R45	located_in Arg1:T127 Arg2:T123	
+R46	located_in Arg1:T128 Arg2:T124	
+R47	located_in Arg1:T127 Arg2:T124	
+R48	located_in Arg1:T128 Arg2:T123	
+R49	located_in Arg1:T76 Arg2:T75	
+T129	missed_gene 1824 1829	RANKL
+R50	located_in Arg1:T129 Arg2:T75	
+T130	missed_gene 2036 2060	kidney injury molecule 1
+R51	located_in Arg1:T130 Arg2:T82	
+R52	located_in Arg1:T83 Arg2:T82	
+T131	missed_anatomical_site 2070 2075	liver
+R53	located_in Arg1:T84 Arg2:T131	
+R54	located_in Arg1:T90 Arg2:T89	
+T132	missed_gene 2266 2269	AGT
+R55	located_in Arg1:T132 Arg2:T89	
+T133	missed_gene 2179 2218	tissue inhibitor of metalloproteinase 2
+R56	located_in Arg1:T133 Arg2:T87	
+R57	located_in Arg1:T88 Arg2:T87	
+T134	corrected_anatomical_site 2443 2458	dental ectoderm
+R58	located_in Arg1:T96 Arg2:T134	
+R59	located_in Arg1:T92 Arg2:T93	
+R60	located_in Arg1:T95 Arg2:T94	
+R61	located_in Arg1:T99 Arg2:T98	
+R62	located_in Arg1:T100 Arg2:T101	
+R63	located_in Arg1:T102 Arg2:T103	
+R64	located_in Arg1:T105 Arg2:T104	
+R65	located_in Arg1:T106 Arg2:T104	
+R66	located_in Arg1:T107 Arg2:T104	
+R67	located_in Arg1:T108 Arg2:T104	
+T135	missed_anatomical_site 231 236	Serum
+R68	located_in Arg1:T11 Arg2:T135	
+R69	located_in Arg1:T12 Arg2:T135	
+R70	located_in Arg1:T13 Arg2:T135	
+R71	located_in Arg1:T14 Arg2:T16	
+R72	located_in Arg1:T15 Arg2:T16	
+T115	missed_anatomical_site 1174 1181	fetuses
+R19	located_in Arg1:T46 Arg2:T115	
+R20	located_in Arg1:T47 Arg2:T115	
+R22	located_in Arg1:T120 Arg2:T61	
+R23	located_in Arg1:T121 Arg2:T61	
+R25	located_in Arg1:T62 Arg2:T61	

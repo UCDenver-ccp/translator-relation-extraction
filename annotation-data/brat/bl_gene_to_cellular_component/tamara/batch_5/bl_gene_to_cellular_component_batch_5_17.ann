@@ -84,3 +84,33 @@ T83	gene 2861 2868	Insulin
 T84	gene 2890 2906	insulin receptor
 T85	cellular_component 2914 2926	cell surface
 T86	gene 3003 3019	insulin receptor
+R1	located_in Arg1:T8 Arg2:T6	
+R2	located_in Arg1:T23 Arg2:T22	
+R3	located_in Arg1:T24 Arg2:T22	
+R4	located_in Arg1:T25 Arg2:T22	
+T87	corrected_cellular_component 940 949	membranes
+#1	AnnotatorNotes T87	okay?
+R5	located_in Arg1:T30 Arg2:T87	
+R6	located_in Arg1:T32 Arg2:T87	
+R7	located_in Arg1:T33 Arg2:T87	
+T88	corrected_gene 980 995	apoA-I receptor
+T89	corrected_gene 1000 1010;980 986	coreceptor apoA-I
+R8	located_in Arg1:T89 Arg2:T87	
+R9	located_in Arg1:T88 Arg2:T87	
+T90	corrected_cellular_component 1043 1065	intracellular vesicles
+R10	located_in Arg1:T30 Arg2:T90	
+T91	missed_gene 1032 1039	mapoA-I
+R11	located_in Arg1:T91 Arg2:T90	
+R12	located_in Arg1:T30 Arg2:T37	
+T92	missed_gene 1185 1191	PGD(2)
+R13	located_in Arg1:T92 Arg2:T38	
+T93	missed_gene 1325 1330	CD95L
+T94	missed_gene 1331 1335	FasL
+R14	located_in Arg1:T93 Arg2:T43	
+R15	located_in Arg1:T94 Arg2:T43	
+R16	located_in Arg1:T44 Arg2:T43	
+R17	located_in Arg1:T66 Arg2:T65	
+#2	AnnotatorNotes R17	Okay?
+R18	located_in Arg1:T78 Arg2:T77	
+R19	located_in Arg1:T79 Arg2:T77	
+R20	located_in Arg1:T84 Arg2:T85	

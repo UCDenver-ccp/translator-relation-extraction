@@ -113,3 +113,97 @@ T112	gene 2852 2856	Numb
 T113	anatomical_site 2884 2901	prefrontal cortex
 T114	anatomical_site 2903 2914	hippocampus
 T115	anatomical_site 2920 2930	cerebellum
+T116	corrected_gene 27 52	bone alkaline phosphatase
+T117	missed_gene 54 58	bALP
+R1	located_in Arg1:T116 Arg2:T3	
+R2	located_in Arg1:T117 Arg2:T3	
+R3	located_in Arg1:T1 Arg2:T6	
+R4	located_in Arg1:T2 Arg2:T6	
+R5	located_in Arg1:T116 Arg2:T6	
+R6	located_in Arg1:T117 Arg2:T6	
+R7	located_in Arg1:T117 Arg2:T6	
+T120	missed_anatomical_site 368 375	hepatic
+R11	located_in Arg1:T13 Arg2:T120	
+T121	corrected_anatomical_site 610 634	rostral brain of embryos
+R12	located_in Arg1:T22 Arg2:T121	
+R13	located_in Arg1:T23 Arg2:T121	
+R14	located_in Arg1:T24 Arg2:T121	
+R15	located_in Arg1:T25 Arg2:T121	
+T122	missed_gene 689 693	PKC?
+R16	located_in Arg1:T122 Arg2:T30	
+R17	located_in Arg1:T122 Arg2:T31	
+T123	corrected_anatomical_site 836 865	intestinal metaplastic tissue
+R18	located_in Arg1:T35 Arg2:T123	
+T124	missed_anatomical_site 894 899	Brain
+R19	located_in Arg1:T36 Arg2:T124	
+R20	located_in Arg1:T37 Arg2:T124	
+R21	located_in Arg1:T41 Arg2:T43	
+R22	located_in Arg1:T41 Arg2:T44	
+R23	located_in Arg1:T42 Arg2:T43	
+R24	located_in Arg1:T42 Arg2:T44	
+T125	missed_gene 1042 1045	MGP
+R25	located_in Arg1:T125 Arg2:T43	
+R26	located_in Arg1:T125 Arg2:T44	
+T126	missed_gene 1133 1177	neural plakophilin-related armadillo protein
+R27	located_in Arg1:T45 Arg2:T46	
+R28	located_in Arg1:T126 Arg2:T46	
+R29	located_in Arg1:T45 Arg2:T47	
+R30	located_in Arg1:T126 Arg2:T47	
+R31	located_in Arg1:T45 Arg2:T48	
+R32	located_in Arg1:T126 Arg2:T48	
+R33	located_in Arg1:T49 Arg2:T52	
+R34	located_in Arg1:T50 Arg2:T52	
+R35	located_in Arg1:T51 Arg2:T52	
+R36	located_in Arg1:T53 Arg2:T56	
+R37	located_in Arg1:T53 Arg2:T57	
+R38	located_in Arg1:T54 Arg2:T56	
+R39	located_in Arg1:T54 Arg2:T57	
+R40	located_in Arg1:T55 Arg2:T56	
+R41	located_in Arg1:T55 Arg2:T57	
+R42	located_in Arg1:T62 Arg2:T63	
+R43	located_in Arg1:T62 Arg2:T64	
+T127	missed_gene 1763 1770	CYP2C54
+R44	located_in Arg1:T127 Arg2:T65	
+T128	missed_anatomical_site 1855 1860	colon
+T129	missed_gene 1815 1822	CYP2C55
+R45	located_in Arg1:T129 Arg2:T128	
+R46	located_in Arg1:T67 Arg2:T69	
+R47	located_in Arg1:T68 Arg2:T69	
+R48	located_in Arg1:T67 Arg2:T70	
+R49	located_in Arg1:T68 Arg2:T70	
+R50	located_in Arg1:T71 Arg2:T76	
+R51	located_in Arg1:T71 Arg2:T77	
+R52	located_in Arg1:T71 Arg2:T78	
+R53	located_in Arg1:T71 Arg2:T79	
+R54	located_in Arg1:T72 Arg2:T76	
+R55	located_in Arg1:T72 Arg2:T77	
+R56	located_in Arg1:T72 Arg2:T78	
+R57	located_in Arg1:T72 Arg2:T79	
+R58	located_in Arg1:T73 Arg2:T76	
+R59	located_in Arg1:T73 Arg2:T77	
+R60	located_in Arg1:T73 Arg2:T78	
+R61	located_in Arg1:T73 Arg2:T79	
+T130	corrected_gene 2030 2035	Hsp72
+R62	located_in Arg1:T130 Arg2:T76	
+R63	located_in Arg1:T130 Arg2:T77	
+R64	located_in Arg1:T130 Arg2:T78	
+R65	located_in Arg1:T130 Arg2:T79	
+R66	located_in Arg1:T75 Arg2:T76	
+R67	located_in Arg1:T75 Arg2:T77	
+R68	located_in Arg1:T75 Arg2:T78	
+R69	located_in Arg1:T75 Arg2:T79	
+T131	corrected_anatomical_site 2364 2368;2380 2391	skin nociceptors
+T132	corrected_anatomical_site 2373 2391	muscle nociceptors
+R70	located_in Arg1:T89 Arg2:T131	
+R71	located_in Arg1:T90 Arg2:T131	
+R72	located_in Arg1:T89 Arg2:T132	
+R73	located_in Arg1:T90 Arg2:T132	
+R74	located_in Arg1:T97 Arg2:T99	
+R75	located_in Arg1:T97 Arg2:T100	
+R76	located_in Arg1:T97 Arg2:T101	
+R77	located_in Arg1:T98 Arg2:T99	
+R78	located_in Arg1:T98 Arg2:T100	
+R79	located_in Arg1:T98 Arg2:T101	
+T133	corrected_gene 1862 1883	Adiponectin receptors
+R80	located_in Arg1:T133 Arg2:T69	
+R81	located_in Arg1:T133 Arg2:T70	

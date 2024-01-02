@@ -13,7 +13,7 @@ T12	chemical 467 477	biological
 T13	disease_or_phenotypic_feature 488 495	obesity
 T14	disease_or_phenotypic_feature 497 515	Hyperprolactinemia
 T15	chemical 545 549	drug
-T16	chemical 593 602;612 622	serotonin inhibitors
+T16	corrected_chemical 583 622	selective serotonin reuptake inhibitors
 T17	chemical 612 622	inhibitors
 T18	chemical 645 652	biology
 T19	disease_or_phenotypic_feature 684 697	breast cancer
@@ -51,7 +51,7 @@ T50	disease_or_phenotypic_feature 1968 1976	cataract
 T51	chemical 1990 1996	saline
 T52	disease_or_phenotypic_feature 2136 2155	gynecologic cancers
 T53	chemical 2216 2233	receptor agonists
-T54	chemical 2235 2238	RAs
+T54	corrected_chemical 2210 2215;2235 2238	GLP-1 RAs
 T55	disease_or_phenotypic_feature 2258 2266	vomiting
 T56	disease_or_phenotypic_feature 2270 2279	diarrhoea
 T57	chemical 2281 2284	DCs
@@ -70,9 +70,8 @@ T67	missed_chemical 716 729	antiestrogens
 T68	corrected_chemical 733 753	aromatase inhibitors
 R6	treats Arg1:T67 Arg2:T19	
 R7	treats Arg1:T68 Arg2:T19	
-R8	treats Arg1:T24 Arg2:T25	
-T69	corrected_disease_or_phenotypic_feature 1294 1318	hormone-dependent tumors
-T70	missed_disease_or_phenotypic_feature 1365 1401	hormone-dependent/independent tumors
+T69	corrected_disease_or_phenotypic_feature 1312 1318	tumors
+T70	missed_disease_or_phenotypic_feature 1395 1401	tumors
 R9	treats Arg1:T32 Arg2:T69	
 R10	treats Arg1:T32 Arg2:T70	
 R11	treats Arg1:T38 Arg2:T41	
@@ -113,3 +112,13 @@ R2	treats Arg1:T4 Arg2:T6
 R3	treats Arg1:T5 Arg2:T6	
 R33	treats Arg1:T3 Arg2:T6	
 T82	DONE 2553 2557	DONE
+R34	treats Arg1:T11 Arg2:T10	
+T83	missed_chemical 275 296	Clinical chemotherapy
+R35	treats Arg1:T83 Arg2:T10	
+R36	causes_or_contributes_to Arg1:T15 Arg2:T66	
+R37	causes_or_contributes_to Arg1:T15 Arg2:T14	
+T84	missed_chemical 1196 1199	EPO
+R38	treats Arg1:T84 Arg2:T31	
+R39	causes_or_contributes_to Arg1:T34 Arg2:T69	
+R40	causes_or_contributes_to Arg1:T33 Arg2:T69	
+R41	causes_or_contributes_to Arg1:T36 Arg2:T70	

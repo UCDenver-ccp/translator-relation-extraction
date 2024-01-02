@@ -106,3 +106,78 @@ T105	gene 2800 2808	TGF beta
 T106	gene 2844 2847	HGF
 T107	gene 2849 2853	FGF7
 T108	gene 2859 2864	FGF10
+T109	corrected_anatomical_site 98 123	pharyngeal pouch endoderm
+R1	located_in Arg1:T1 Arg2:T109	
+T110	corrected_anatomical_site 350 362	brain tissue
+R2	located_in Arg1:T10 Arg2:T110	
+R3	located_in Arg1:T11 Arg2:T110	
+R4	located_in Arg1:T12 Arg2:T110	
+R5	located_in Arg1:T13 Arg2:T110	
+R6	located_in Arg1:T14 Arg2:T110	
+T111	missed_gene 336 346	chemokines
+R7	located_in Arg1:T111 Arg2:T110	
+T113	missed_gene 903 923	surfactant protein A
+T114	corrected_anatomical_site 898 902	lung
+R11	located_in Arg1:T32 Arg2:T114	
+T115	missed_gene 939 955	phospholipase A2
+R12	located_in Arg1:T115 Arg2:T33	
+R13	located_in Arg1:T34 Arg2:T33	
+R14	located_in Arg1:T36 Arg2:T35	
+R15	located_in Arg1:T37 Arg2:T35	
+R16	located_in Arg1:T38 Arg2:T35	
+R17	located_in Arg1:T39 Arg2:T35	
+T119	missed_gene 1173 1194	?-smooth muscle actin
+R18	located_in Arg1:T119 Arg2:T41	
+T120	missed_anatomical_site 1145 1158	smooth muscle
+R19	located_in Arg1:T119 Arg2:T120	
+T121	missed_gene 1196 1220	smooth muscle protein 22
+R20	located_in Arg1:T121 Arg2:T42	
+T122	missed_gene 1221 1229	calponin
+R21	located_in Arg1:T122 Arg2:T120	
+T124	corrected_anatomical_site 1350 1369	cartilage primordia
+R43	located_in Arg1:T46 Arg2:T124	
+R44	located_in Arg1:T48 Arg2:T124	
+T125	corrected_anatomical_site 1419 1444;1448 1453	mesenchymal condensations bones
+T126	corrected_anatomical_site 1419 1444;1458 1463	mesenchymal condensations teeth
+R45	located_in Arg1:T49 Arg2:T126	
+R46	located_in Arg1:T49 Arg2:T125	
+R47	located_in Arg1:T55 Arg2:T54	
+R48	located_in Arg1:T57 Arg2:T56	
+R49	located_in Arg1:T53 Arg2:T52	
+R50	located_in Arg1:T57 Arg2:T58	
+T127	corrected_anatomical_site 1669 1682	tendon tissue
+R51	located_in Arg1:T60 Arg2:T127	
+R52	located_in Arg1:T63 Arg2:T65	
+R53	located_in Arg1:T68 Arg2:T69	
+R54	located_in Arg1:T71 Arg2:T70	
+R55	located_in Arg1:T72 Arg2:T70	
+T128	missed_gene 1972 1993	muscle-specific actin
+R56	located_in Arg1:T128 Arg2:T73	
+T129	missed_gene 1995 2014	smooth muscle actin
+R57	located_in Arg1:T129 Arg2:T74	
+R58	located_in Arg1:T81 Arg2:T80	
+T130	missed_gene 2187 2190	CRP
+R59	located_in Arg1:T130 Arg2:T80	
+R60	located_in Arg1:T83 Arg2:T82	
+T131	missed_gene 2278 2281	SAA
+R61	located_in Arg1:T131 Arg2:T85	
+T132	missed_gene 2326 2360	cholesterol ester transfer protein
+R62	located_in Arg1:T132 Arg2:T88	
+T133	missed_gene 2362 2366	CETP
+R63	located_in Arg1:T133 Arg2:T88	
+T134	missed_gene 2438 2444	CINC-3
+T135	missed_gene 2416 2419	MPO
+R64	located_in Arg1:T135 Arg2:T93	
+R65	located_in Arg1:T135 Arg2:T94	
+R66	located_in Arg1:T135 Arg2:T95	
+R67	located_in Arg1:T91 Arg2:T93	
+R68	located_in Arg1:T91 Arg2:T94	
+R69	located_in Arg1:T91 Arg2:T95	
+R70	located_in Arg1:T134 Arg2:T93	
+R71	located_in Arg1:T134 Arg2:T94	
+R72	located_in Arg1:T134 Arg2:T95	
+R73	located_in Arg1:T92 Arg2:T93	
+R74	located_in Arg1:T92 Arg2:T94	
+R75	located_in Arg1:T92 Arg2:T95	
+R76	located_in Arg1:T96 Arg2:T97	
+R8	located_in Arg1:T121 Arg2:T120	

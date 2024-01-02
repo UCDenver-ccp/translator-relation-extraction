@@ -79,3 +79,70 @@ T78	anatomical_site 2297 2304	medulla
 T79	gene 2319 2324	CCL21
 T80	gene 2329 2334	CXCR3
 T81	anatomical_site 2338 2343	nerve
+R1	located_in Arg1:T80 Arg2:T81	
+R2	located_in Arg1:T79 Arg2:T81	
+R3	located_in Arg1:T76 Arg2:T77	
+R4	located_in Arg1:T74 Arg2:T75	
+R5	located_in Arg1:T66 Arg2:T67	
+R6	located_in Arg1:T65 Arg2:T64	
+R7	located_in Arg1:T65 Arg2:T63	
+T82	corrected_anatomical_site 1649 1673	chorioallantoic placenta
+R8	located_in Arg1:T60 Arg2:T82	
+T83	corrected_gene 1613 1637	prolactin-like protein-A
+R9	located_in Arg1:T83 Arg2:T82	
+R10	located_in Arg1:T58 Arg2:T57	
+R11	located_in Arg1:T59 Arg2:T57	
+T84	missed_anatomical_site 1481 1486	Liver
+R12	located_in Arg1:T58 Arg2:T84	
+#1	AnnotatorNotes R12	Okay?
+R13	located_in Arg1:T59 Arg2:T84	
+#2	AnnotatorNotes R13	Okay?
+R14	located_in Arg1:T55 Arg2:T54	
+T85	corrected_anatomical_site 1357 1363;1367 1374	tissue gastric
+R15	located_in Arg1:T52 Arg2:T85	
+R16	located_in Arg1:T51 Arg2:T85	
+T86	missed_gene 1252 1256	Ki67
+R17	located_in Arg1:T49 Arg2:T50	
+R18	located_in Arg1:T86 Arg2:T50	
+R19	located_in Arg1:T48 Arg2:T50	
+T87	corrected_gene 1234 1243	cyclin D1
+R20	located_in Arg1:T87 Arg2:T50	
+R21	located_in Arg1:T46 Arg2:T50	
+T88	missed_anatomical_site 1124 1129	Brain
+R22	located_in Arg1:T43 Arg2:T88	
+T89	corrected_gene 1146 1164	amyloid-beta(1-40)
+R23	located_in Arg1:T89 Arg2:T45	
+R24	located_in Arg1:T39 Arg2:T40	
+T90	corrected_anatomical_site 1095 1102;1116 1122	ovarian tissue
+R25	located_in Arg1:T39 Arg2:T90	
+T91	corrected_anatomical_site 1108 1122	thyroid tissue
+R26	located_in Arg1:T39 Arg2:T91	
+T92	missed_gene 985 988	pRB
+R27	located_in Arg1:T35 Arg2:T37	
+R28	located_in Arg1:T92 Arg2:T37	
+R29	located_in Arg1:T36 Arg2:T37	
+R30	located_in Arg1:T32 Arg2:T34	
+R31	located_in Arg1:T33 Arg2:T34	
+T93	corrected_gene 757 776	COMP-angiopoietin-1
+R32	located_in Arg1:T93 Arg2:T27	
+R33	located_in Arg1:T93 Arg2:T28	
+T94	corrected_anatomical_site 649 667	spinal cord tissue
+T95	missed_anatomical_site 675 678	CSF
+R34	located_in Arg1:T20 Arg2:T94	
+R35	located_in Arg1:T21 Arg2:T94	
+R36	located_in Arg1:T22 Arg2:T94	
+R37	located_in Arg1:T23 Arg2:T94	
+R38	located_in Arg1:T23 Arg2:T95	
+R39	located_in Arg1:T22 Arg2:T95	
+R40	located_in Arg1:T21 Arg2:T95	
+R41	located_in Arg1:T20 Arg2:T95	
+T96	missed_anatomical_site 420 440	vascular endothelial
+R42	located_in Arg1:T13 Arg2:T96	
+R43	located_in Arg1:T14 Arg2:T96	
+T97	missed_anatomical_site 466 471	brain
+R44	located_in Arg1:T15 Arg2:T97	
+R45	located_in Arg1:T16 Arg2:T97	
+R46	located_in Arg1:T18 Arg2:T17	
+R47	located_in Arg1:T19 Arg2:T17	
+R48	located_in Arg1:T6 Arg2:T8	
+R49	located_in Arg1:T7 Arg2:T8	

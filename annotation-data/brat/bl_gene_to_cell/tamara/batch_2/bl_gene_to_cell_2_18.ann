@@ -115,3 +115,86 @@ T114	gene 3071 3080	calbindin
 T115	cell_type 3089 3097	neuronal
 T116	cell_type 3131 3138	neurons
 T117	gene 3155 3160	GLUT4
+T118	corrected_gene 57 63	p60src
+R1	located_in Arg1:T118 Arg2:T5	
+T119	missed_cell_type 100 125	myelomonocytic cell lines
+R2	located_in Arg1:T118 Arg2:T119	
+R3	located_in Arg1:T17 Arg2:T18	
+T120	corrected_cell_type 303 314	(Th)2 cells
+R4	located_in Arg1:T20 Arg2:T18	
+R5	located_in Arg1:T20 Arg2:T16	
+T121	missed_cell_type 352 362	iNKT cells
+R6	located_in Arg1:T20 Arg2:T121	
+R7	located_in Arg1:T20 Arg2:T15	
+R8	located_in Arg1:T20 Arg2:T14	
+R9	located_in Arg1:T20 Arg2:T120	
+R10	located_in Arg1:T19 Arg2:T18	
+R11	located_in Arg1:T21 Arg2:T22	
+R12	located_in Arg1:T21 Arg2:T23	
+R13	located_in Arg1:T24 Arg2:T25	
+T122	corrected_cell_type 705 725	megakaryocytic cells
+T123	missed_gene 727 730	Tat
+R14	located_in Arg1:T27 Arg2:T122	
+R15	located_in Arg1:T28 Arg2:T122	
+T124	corrected_cell_type 849 858	monocytes
+T125	missed_gene 843 847	CD16
+R16	located_in Arg1:T125 Arg2:T124	
+R17	located_in Arg1:T32 Arg2:T124	
+T126	corrected_cell_type 826 835	monocytes
+R18	located_in Arg1:T29 Arg2:T126	
+#1	AnnotatorNotes R18	Okay?
+R19	located_in Arg1:T33 Arg2:T34	
+R20	located_in Arg1:T33 Arg2:T35	
+T127	missed_gene 892 897	actin
+R21	located_in Arg1:T127 Arg2:T34	
+#2	AnnotatorNotes R21	Okay?
+R22	located_in Arg1:T127 Arg2:T35	
+#3	AnnotatorNotes R22	Okay?
+T128	corrected_cell_type 1266 1286	primary granulocytes
+R23	located_in Arg1:T46 Arg2:T128	
+R24	located_in Arg1:T46 Arg2:T47	
+R25	located_in Arg1:T48 Arg2:T49	
+T129	corrected_cell_type 1319 1350	bone marrow-derived macrophages
+R26	located_in Arg1:T46 Arg2:T49	
+R27	located_in Arg1:T46 Arg2:T129	
+R28	located_in Arg1:T46 Arg2:T50	
+R29	located_in Arg1:T46 Arg2:T51	
+T130	missed_gene 1486 1491	CD49d
+T131	corrected_cell_type 1503 1514;1525 1530	lymphocytic cells
+R30	located_in Arg1:T130 Arg2:T131	
+R31	located_in Arg1:T57 Arg2:T131	
+R32	located_in Arg1:T55 Arg2:T131	
+R33	located_in Arg1:T56 Arg2:T131	
+R34	located_in Arg1:T61 Arg2:T63	
+R35	located_in Arg1:T62 Arg2:T63	
+R36	located_in Arg1:T59 Arg2:T60	
+R37	located_in Arg1:T72 Arg2:T70	
+R38	located_in Arg1:T72 Arg2:T71	
+R39	located_in Arg1:T74 Arg2:T75	
+T132	missed_gene 2146 2151	IL-12
+R40	located_in Arg1:T82 Arg2:T84	
+R41	located_in Arg1:T132 Arg2:T84	
+R42	located_in Arg1:T83 Arg2:T84	
+R43	located_in Arg1:T82 Arg2:T85	
+R44	located_in Arg1:T132 Arg2:T85	
+R45	located_in Arg1:T83 Arg2:T85	
+R46	located_in Arg1:T91 Arg2:T90	
+T133	missed_cell_type 2599 2617	interstitial cells
+#4	AnnotatorNotes T133	okay?
+R47	located_in Arg1:T98 Arg2:T133	
+R48	located_in Arg1:T97 Arg2:T133	
+R49	located_in Arg1:T106 Arg2:T107	
+T134	missed_cell_type 2954 3012	parvalbumin-containing gamma-aminobutyric acid-ergic cells
+#5	AnnotatorNotes T134	okay?
+T135	missed_cell_type 2938 2949;3007 3012	cholinergic cells
+#6	AnnotatorNotes T135	okay?
+R50	located_in Arg1:T111 Arg2:T134	
+R51	located_in Arg1:T112 Arg2:T135	
+R52	located_in Arg1:T112 Arg2:T134	
+T136	corrected_cell_type 3089 3138	neuronal nitric oxide synthase-containing neurons
+#7	AnnotatorNotes T136	okay?
+#8	AnnotatorNotes R52	Okay?
+#9	AnnotatorNotes R50	Okay?
+T137	missed_gene 3089 3119	neuronal nitric oxide synthase
+R53	located_in Arg1:T137 Arg2:T115	
+R54	located_in Arg1:T137 Arg2:T116	

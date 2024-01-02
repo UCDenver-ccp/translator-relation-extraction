@@ -111,3 +111,90 @@ T110	cell_type 2830 2838	Platelet
 T111	cell_type 2839 2848	Leukocyte
 T112	gene 2884 2887	Akt
 T113	gene 2892 2896	GSK3
+R1	located_in Arg1:T2 Arg2:T1	
+T114	missed_cell_type 86 95	BSM cells
+T115	corrected_gene 40 74	protease activated receptor type-2
+R2	located_in Arg1:T115 Arg2:T114	
+R3	located_in Arg1:T4 Arg2:T114	
+T116	corrected_cell_type 345 365	megakaryocytic cells
+R4	located_in Arg1:T13 Arg2:T116	
+R5	located_in Arg1:T12 Arg2:T116	
+R6	located_in Arg1:T15 Arg2:T17	
+#1	AnnotatorNotes R6	Okay?
+R7	located_in Arg1:T15 Arg2:T18	
+#2	AnnotatorNotes R7	Okay?
+R8	located_in Arg1:T16 Arg2:T17	
+#3	AnnotatorNotes R8	Okay?
+R9	located_in Arg1:T16 Arg2:T18	
+#4	AnnotatorNotes R9	Okay?
+R10	located_in Arg1:T20 Arg2:T23	
+R11	located_in Arg1:T21 Arg2:T23	
+T117	missed_gene 543 546	CD4
+T118	missed_gene 547 551	CD25
+R12	located_in Arg1:T24 Arg2:T25	
+R13	located_in Arg1:T118 Arg2:T25	
+R14	located_in Arg1:T117 Arg2:T25	
+R15	located_in Arg1:T27 Arg2:T28	
+R16	located_in Arg1:T26 Arg2:T28	
+T119	corrected_gene 779 809	neuronal nitric oxide synthase
+R17	located_in Arg1:T119 Arg2:T32	
+R18	located_in Arg1:T30 Arg2:T29	
+R19	located_in Arg1:T31 Arg2:T29	
+R20	located_in Arg1:T119 Arg2:T29	
+R21	located_in Arg1:T33 Arg2:T29	
+R22	located_in Arg1:T34 Arg2:T29	
+R23	located_in Arg1:T45 Arg2:T46	
+R24	located_in Arg1:T44 Arg2:T46	
+T120	missed_gene 1131 1143	protein zero
+#5	AnnotatorNotes T120	okay?
+R25	located_in Arg1:T120 Arg2:T46	
+#6	AnnotatorNotes R25	Okay?
+T121	missed_cell_type 1284 1293	Microglia
+R26	located_in Arg1:T51 Arg2:T121	
+R27	located_in Arg1:T51 Arg2:T48	
+R28	located_in Arg1:T51 Arg2:T49	
+T122	missed_gene 1423 1427	CD20
+R29	located_in Arg1:T122 Arg2:T52	
+R30	located_in Arg1:T53 Arg2:T52	
+R31	located_in Arg1:T54 Arg2:T52	
+R32	located_in Arg1:T55 Arg2:T52	
+R33	located_in Arg1:T56 Arg2:T52	
+R34	located_in Arg1:T57 Arg2:T58	
+R35	located_in Arg1:T59 Arg2:T60	
+R36	located_in Arg1:T62 Arg2:T61	
+R37	located_in Arg1:T63 Arg2:T61	
+R38	located_in Arg1:T64 Arg2:T61	
+R39	located_in Arg1:T66 Arg2:T67	
+R40	located_in Arg1:T65 Arg2:T67	
+T123	missed_cell_type 1771 1776	glial
+T124	missed_gene 1771 1800	glial fibrillary acid protein
+R41	located_in Arg1:T124 Arg2:T123	
+R42	located_in Arg1:T69 Arg2:T123	
+R43	located_in Arg1:T80 Arg2:T81	
+R44	located_in Arg1:T85 Arg2:T84	
+R45	located_in Arg1:T85 Arg2:T83	
+R46	located_in Arg1:T85 Arg2:T82	
+T125	missed_gene 2218 2230	C5a receptor
+R47	located_in Arg1:T125 Arg2:T88	
+R48	located_in Arg1:T86 Arg2:T88	
+R49	located_in Arg1:T87 Arg2:T88	
+R50	located_in Arg1:T125 Arg2:T89	
+R51	located_in Arg1:T86 Arg2:T89	
+R52	located_in Arg1:T87 Arg2:T89	
+R53	located_in Arg1:T87 Arg2:T90	
+R54	located_in Arg1:T86 Arg2:T90	
+R55	located_in Arg1:T125 Arg2:T90	
+R56	located_in Arg1:T125 Arg2:T91	
+R57	located_in Arg1:T125 Arg2:T92	
+R58	located_in Arg1:T125 Arg2:T93	
+R59	located_in Arg1:T125 Arg2:T94	
+R60	located_in Arg1:T86 Arg2:T91	
+R61	located_in Arg1:T86 Arg2:T92	
+R62	located_in Arg1:T86 Arg2:T93	
+R63	located_in Arg1:T86 Arg2:T94	
+R64	located_in Arg1:T87 Arg2:T91	
+R65	located_in Arg1:T87 Arg2:T92	
+R66	located_in Arg1:T87 Arg2:T93	
+R67	located_in Arg1:T87 Arg2:T94	
+R68	located_in Arg1:T100 Arg2:T101	
+R69	located_in Arg1:T102 Arg2:T103	

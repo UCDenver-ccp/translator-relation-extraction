@@ -98,3 +98,61 @@ T97	cell_type 2811 2822	macrophages
 T98	gene 2834 2841	insulin
 T99	cell_type 2867 2877	macrophage
 T100	gene 2878 2883	Nlrp3
+R1	located_in Arg1:T1 Arg2:T2	
+T101	missed_gene 83 87	CD19
+R2	located_in Arg1:T101 Arg2:T3	
+R3	located_in Arg1:T5 Arg2:T6	
+R4	located_in Arg1:T5 Arg2:T7	
+R5	located_in Arg1:T4 Arg2:T6	
+R6	located_in Arg1:T4 Arg2:T7	
+R7	located_in Arg1:T1 Arg2:T3	
+T102	missed_cell_type 248 261;277 282	hematopoietic cells
+T103	missed_cell_type 266 282	progenitor cells
+T104	missed_gene 284 288	CD45
+T105	missed_gene 293 296	CD7
+R8	located_in Arg1:T104 Arg2:T102	
+R9	located_in Arg1:T105 Arg2:T103	
+T106	missed_gene 547 551	CD31
+R10	located_in Arg1:T106 Arg2:T22	
+T107	missed_gene 586 590	gp38
+T108	corrected_cell_type 592 620	fibroblastic reticular cells
+R11	located_in Arg1:T107 Arg2:T108	
+T109	missed_gene 692 698	reCx43
+R12	located_in Arg1:T27 Arg2:T28	
+R13	located_in Arg1:T109 Arg2:T28	
+R14	located_in Arg1:T38 Arg2:T39	
+R15	located_in Arg1:T41 Arg2:T42	
+R16	located_in Arg1:T44 Arg2:T43	
+R17	located_in Arg1:T45 Arg2:T43	
+R18	located_in Arg1:T48 Arg2:T47	
+R19	located_in Arg1:T49 Arg2:T47	
+T110	missed_cell_type 1399 1407	Monocyte
+R20	located_in Arg1:T50 Arg2:T110	
+R21	located_in Arg1:T53 Arg2:T54	
+R22	located_in Arg1:T64 Arg2:T63	
+T111	missed_cell_type 1940 1949	leukocyte
+R23	located_in Arg1:T66 Arg2:T111	
+T112	corrected_gene 1908 1932	integrin alphaIIbbetaIII
+R24	located_in Arg1:T112 Arg2:T63	
+T113	corrected_gene 2062 2098	macrophage colony-stimulating factor
+R25	located_in Arg1:T113 Arg2:T70	
+T114	missed_cell_type 2143 2146	Th1
+T115	missed_cell_type 2148 2150	Tc
+T116	missed_cell_type 2152 2161	NKT cells
+R26	located_in Arg1:T72 Arg2:T114	
+R27	located_in Arg1:T72 Arg2:T115	
+R28	located_in Arg1:T72 Arg2:T116	
+R29	located_in Arg1:T72 Arg2:T75	
+R30	located_in Arg1:T81 Arg2:T82	
+R31	located_in Arg1:T81 Arg2:T83	
+R32	located_in Arg1:T84 Arg2:T86	
+R33	located_in Arg1:T84 Arg2:T87	
+T117	corrected_cell_type 2543 2558	microglia cells
+T118	missed_cell_type 2529 2538;2553 2558	dendritic cells
+R34	located_in Arg1:T84 Arg2:T118	
+R35	located_in Arg1:T84 Arg2:T117	
+R36	located_in Arg1:T89 Arg2:T90	
+R37	located_in Arg1:T94 Arg2:T95	
+R38	located_in Arg1:T92 Arg2:T93	
+R39	located_in Arg1:T96 Arg2:T97	
+R40	located_in Arg1:T100 Arg2:T99	

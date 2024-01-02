@@ -115,8 +115,6 @@ R1	located_in Arg1:T16 Arg2:T15
 R2	located_in Arg1:T17 Arg2:T15	
 R3	located_in Arg1:T10 Arg2:T9	
 T114	missed_gene 170 174	CD45
-R6	located_in Arg1:T22 Arg2:T23	
-R7	located_in Arg1:T24 Arg2:T25	
 R8	located_in Arg1:T114 Arg2:T4	
 R9	located_in Arg1:T12 Arg2:T11	
 R10	located_in Arg1:T13 Arg2:T11	
@@ -136,9 +134,6 @@ R18	located_in Arg1:T37 Arg2:T39
 R19	located_in Arg1:T36 Arg2:T39	
 R20	located_in Arg1:T43 Arg2:T44	
 T117	missed_cell_type 1517 1521	NPCs
-R21	located_in Arg1:T50 Arg2:T117	
-R22	located_in Arg1:T49 Arg2:T117	
-R23	located_in Arg1:T49 Arg2:T52	
 T118	corrected_cell_type 1639 1657	outer pillar cells
 T119	corrected_cell_type 1659 1677	inner pillar cells
 T120	missed_cell_type 1698 1708	hair cells
@@ -164,10 +159,8 @@ R38	located_in Arg1:T124 Arg2:T66
 R39	located_in Arg1:T70 Arg2:T69	
 R40	located_in Arg1:T71 Arg2:T69	
 T125	missed_gene 2479 2482	CD8
-T126	corrected_cell_type 2462 2474;2484 2491	resting CD4+ T cells
-T127	corrected_cell_type 2462 2469;2479 2491	resting CD8+ T cells
-R41	located_in Arg1:T79 Arg2:T127	
-R42	located_in Arg1:T79 Arg2:T126	
+R41	located_in Arg1:T79 Arg2:T82	
+R42	located_in Arg1:T79 Arg2:T82	
 R43	located_in Arg1:T83 Arg2:T86	
 R44	located_in Arg1:T83 Arg2:T85	
 R45	located_in Arg1:T81 Arg2:T82	
@@ -198,3 +191,64 @@ R60	located_in Arg1:T136 Arg2:T109
 T137	missed_gene 3230 3261	microtubule associated proteins
 R61	located_in Arg1:T137 Arg2:T110	
 R62	located_in Arg1:T137 Arg2:T109	
+R63	located_in Arg1:T8 Arg2:T7	
+R64	located_in Arg1:T8 Arg2:T6	
+T138	missed_cell_type 916 921	cells
+R65	located_in Arg1:T29 Arg2:T26	
+T139	missed_gene 909 914	IFN-?
+R66	located_in Arg1:T139 Arg2:T26	
+R67	located_in Arg1:T139 Arg2:T138	
+T140	missed_cell_type 935 940	cells
+T141	missed_gene 923 926	CD8
+T142	missed_gene 928 933	IFN-?
+R68	located_in Arg1:T142 Arg2:T140	
+R69	located_in Arg1:T141 Arg2:T140	
+R70	located_in Arg1:T141 Arg2:T26	
+R71	located_in Arg1:T142 Arg2:T26	
+R72	located_in Arg1:T30 Arg2:T26	
+R73	located_in Arg1:T31 Arg2:T26	
+T143	missed_cell_type 953 958	cells
+R74	located_in Arg1:T31 Arg2:T143	
+R75	located_in Arg1:T30 Arg2:T143	
+T144	missed_gene 1127 1130	ERM
+R76	located_in Arg1:T144 Arg2:T39	
+T145	missed_cell_type 2349 2354	CAECs
+R77	located_in Arg1:T84 Arg2:T85	
+R78	located_in Arg1:T84 Arg2:T86	
+R79	located_in Arg1:T89 Arg2:T90	
+R80	located_in Arg1:T89 Arg2:T91	
+R81	located_in Arg1:T89 Arg2:T92	
+T126	corrected_cell_type 2653 2662;2675 2691	glandular epithelial cells
+T127	missed_cell_type 2667 2691	mucosal epithelial cells
+R82	located_in Arg1:T88 Arg2:T126	
+R83	located_in Arg1:T89 Arg2:T93	
+R84	located_in Arg1:T88 Arg2:T127	
+R85	located_in Arg1:T89 Arg2:T127	
+R86	located_in Arg1:T88 Arg2:T90	
+R87	located_in Arg1:T88 Arg2:T91	
+R88	located_in Arg1:T88 Arg2:T92	
+R89	located_in Arg1:T88 Arg2:T93	
+R90	located_in Arg1:T87 Arg2:T126	
+R91	located_in Arg1:T87 Arg2:T127	
+R92	located_in Arg1:T87 Arg2:T90	
+R93	located_in Arg1:T87 Arg2:T91	
+R94	located_in Arg1:T87 Arg2:T92	
+R95	located_in Arg1:T87 Arg2:T93	
+T146	missed_cell_type 3072 3089	olidgodendrocytes
+R96	located_in Arg1:T133 Arg2:T146	
+R97	located_in Arg1:T106 Arg2:T146	
+R6	located_in Arg1:T73 Arg2:T145	
+T147	corrected_cell_type 2315 2347	carotid artery endothelial cells
+R7	located_in Arg1:T73 Arg2:T147	
+R21	located_in Arg1:T74 Arg2:T147	
+R22	located_in Arg1:T74 Arg2:T145	
+R23	located_in Arg1:T75 Arg2:T145	
+R98	located_in Arg1:T75 Arg2:T147	
+R99	located_in Arg1:T76 Arg2:T145	
+R100	located_in Arg1:T76 Arg2:T147	
+T148	missed_gene 2276 2281	IL-1?
+R101	located_in Arg1:T148 Arg2:T145	
+R102	located_in Arg1:T148 Arg2:T147	
+T149	missed_cell_type 3326 3331	cells
+R103	located_in Arg1:T113 Arg2:T149	
+R104	located_in Arg1:T136 Arg2:T149	

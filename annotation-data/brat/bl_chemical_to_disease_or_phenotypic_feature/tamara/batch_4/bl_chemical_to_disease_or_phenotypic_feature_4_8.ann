@@ -65,16 +65,12 @@ T64	chemical 2363 2373	antagonist
 T65	chemical 2375 2385	naltrexone
 T66	disease_or_phenotypic_feature 2458 2464	autism
 T67	disease_or_phenotypic_feature 2468 2486	mental retardation
-R1	causes_or_contributes_to Arg1:T6 Arg2:T8	
-R2	causes_or_contributes_to Arg1:T7 Arg2:T8	
 R3	causes_or_contributes_to Arg1:T10 Arg2:T9	
 R4	treats Arg1:T17 Arg2:T18	
 R5	treats Arg1:T39 Arg2:T38	
-T68	missed_chemical 1685 1688	PTX
+T68	missed_chemical 1685 1709	PTX+CDDP-loaded micelles
 R6	treats Arg1:T68 Arg2:T44	
 R7	treats Arg1:T45 Arg2:T44	
-T69	missed_disease_or_phenotypic_feature 1971 1978	hypoxia
-R8	treats Arg1:T49 Arg2:T69	
 R9	treats Arg1:T51 Arg2:T53	
 T70	missed_disease_or_phenotypic_feature 2162 2185	extrapyramidal symptoms
 T71	corrected_disease_or_phenotypic_feature 2192 2223	drug-induced movement disorders
@@ -87,10 +83,8 @@ T73	missed_disease_or_phenotypic_feature 2434 2437	SIB
 R14	treats Arg1:T65 Arg2:T73	
 R15	treats Arg1:T65 Arg2:T66	
 R16	treats Arg1:T65 Arg2:T67	
-T74	missed_chemical 2356 2362	opiate
-R17	causes_or_contributes_to Arg1:T74 Arg2:T73	
+T74	missed_chemical 2356 2373	opiate antagonist
 T75	corrected_chemical 555 584	theobromine calcium gluconate
-R18	treats Arg1:T75 Arg2:T15	
 T76	corrected_disease_or_phenotypic_feature 636 652	anginal syndrome
 T77	missed_disease_or_phenotypic_feature 877 895	neovascularization
 R19	causes_or_contributes_to Arg1:T23 Arg2:T77	
@@ -112,3 +106,32 @@ R27	treats Arg1:T80 Arg2:T83
 R28	treats Arg1:T81 Arg2:T83	
 R29	treats Arg1:T82 Arg2:T83	
 T85	DONE 2488 2492	DONE
+R30	treats Arg1:T5 Arg2:T4	
+R31	treats Arg1:T3 Arg2:T4	
+T86	missed_chemical 400 409	nutrition
+R1	causes_or_contributes_to Arg1:T86 Arg2:T9	
+R32	treats Arg1:T19 Arg2:T18	
+R33	treats Arg1:T20 Arg2:T22	
+R34	treats Arg1:T35 Arg2:T34	
+R35	treats Arg1:T46 Arg2:T44	
+T87	corrected_chemical 1870 1897	micelles with a single drug
+R36	treats Arg1:T87 Arg2:T44	
+R37	treats Arg1:T48 Arg2:T50	
+T69	missed_disease_or_phenotypic_feature 2053 2065	antidiabetic
+T88	missed_disease_or_phenotypic_feature 2115 2124	antiaging
+R8	causes_or_contributes_to Arg1:T51 Arg2:T69	
+R38	causes_or_contributes_to Arg1:T52 Arg2:T69	
+R39	treats Arg1:T52 Arg2:T53	
+R40	treats Arg1:T54 Arg2:T53	
+R41	causes_or_contributes_to Arg1:T54 Arg2:T88	
+R42	causes_or_contributes_to Arg1:T51 Arg2:T88	
+R43	causes_or_contributes_to Arg1:T57 Arg2:T58	
+R44	causes_or_contributes_to Arg1:T57 Arg2:T72	
+R45	causes_or_contributes_to Arg1:T59 Arg2:T60	
+R17	treats Arg1:T74 Arg2:T73	
+R46	treats Arg1:T74 Arg2:T66	
+R47	treats Arg1:T74 Arg2:T67	
+R48	treats Arg1:T49 Arg2:T50	
+T89	missed_disease_or_phenotypic_feature 670 682	antidiabetic
+R49	causes_or_contributes_to Arg1:T17 Arg2:T89	
+R50	causes_or_contributes_to Arg1:T19 Arg2:T89	

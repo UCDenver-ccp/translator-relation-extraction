@@ -83,8 +83,6 @@ R13	causes_or_contributes_to Arg1:T31 Arg2:T68
 R14	causes_or_contributes_to Arg1:T31 Arg2:T69	
 T70	missed_disease_or_phenotypic_feature 1897 1921	cardiovascular morbidity
 T71	missed_disease_or_phenotypic_feature 1897 1911;1926 1936	cardiovascular mortality,
-R15	treats Arg1:T39 Arg2:T70	
-R16	treats Arg1:T39 Arg2:T71	
 T72	corrected_chemical 2074 2116	pancreatic inhibitor of alpha-chymotrypsin
 T73	missed_disease_or_phenotypic_feature 2048 2061	Complications
 R17	causes_or_contributes_to Arg1:T72 Arg2:T73	
@@ -96,13 +94,10 @@ R19	causes_or_contributes_to Arg1:T76 Arg2:T74
 T77	missed_chemical 2203 2212	protamine
 R20	treats Arg1:T77 Arg2:T74	
 R21	causes_or_contributes_to Arg1:T75 Arg2:T74	
-T78	corrected_disease_or_phenotypic_feature 2297 2315	congenital cardiac
-R22	treats Arg1:T77 Arg2:T78	
 T79	corrected_chemical 2342 2380	Ticagrelor-based antiplatelet regimens
 T80	corrected_disease_or_phenotypic_feature 2398 2428	atherosclerotic artery disease
 R23	treats Arg1:T79 Arg2:T80	
 T81	corrected_chemical 2342 2352	Ticagrelor
-R24	treats Arg1:T81 Arg2:T80	
 T82	corrected_chemical 2647 2668	essential amino acids
 T83	corrected_chemical 2647 2668;2679 2702	essential amino acids nitrogen-free analogues
 R25	treats Arg1:T83 Arg2:T53	
@@ -113,3 +108,14 @@ T84	missed_disease_or_phenotypic_feature 1576 1584	asthenia
 T85	missed_disease_or_phenotypic_feature 1586 1592	nausea
 R29	causes_or_contributes_to Arg1:T31 Arg2:T84	
 R30	causes_or_contributes_to Arg1:T31 Arg2:T85	
+T86	missed_disease_or_phenotypic_feature 1550 1564	adverse events
+T87	missed_disease_or_phenotypic_feature 1566 1569	AEs
+R31	causes_or_contributes_to Arg1:T31 Arg2:T86	
+R32	causes_or_contributes_to Arg1:T31 Arg2:T87	
+R33	treats Arg1:T72 Arg2:T42	
+T78	missed_chemical 2916 2922	agents
+T88	missed_disease_or_phenotypic_feature 2942 2946	SCCs
+R22	treats Arg1:T78 Arg2:T88	
+T90	missed_chemical 1039 1044	drugs
+R35	treats Arg1:T90 Arg2:T25	
+R36	treats Arg1:T13 Arg2:T16	

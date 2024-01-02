@@ -82,11 +82,9 @@ T81	disease_or_phenotypic_feature 2514 2540	Sensorineural hearing loss
 T82	disease_or_phenotypic_feature 2549 2557	syndrome
 T83	corrected_chemical 199 217	methylene blue dye
 R1	causes_or_contributes_to Arg1:T83 Arg2:T5	
-R2	treats Arg1:T8 Arg2:T9	
 T84	missed_chemical 288 295	MLN0128
 T85	missed_disease_or_phenotypic_feature 330 333	MCC
 R3	treats Arg1:T84 Arg2:T85	
-R4	treats Arg1:T8 Arg2:T85	
 R5	treats Arg1:T84 Arg2:T9	
 T86	missed_disease_or_phenotypic_feature 1112 1124	tumor growth
 R6	treats Arg1:T35 Arg2:T86	
@@ -109,3 +107,31 @@ T90	corrected_chemical 2152 2176	dual 5-LOX-COX inhibitor
 T91	corrected_chemical 2194 2208	EGFR inhibitor
 R19	treats Arg1:T91 Arg2:T73	
 R20	treats Arg1:T90 Arg2:T73	
+T92	corrected_chemical 268 287	Dual mTOR inhibitor
+R2	treats Arg1:T92 Arg2:T9	
+R4	treats Arg1:T92 Arg2:T85	
+R21	causes_or_contributes_to Arg1:T41 Arg2:T42	
+R22	causes_or_contributes_to Arg1:T41 Arg2:T43	
+R23	causes_or_contributes_to Arg1:T41 Arg2:T44	
+R24	causes_or_contributes_to Arg1:T41 Arg2:T87	
+R25	causes_or_contributes_to Arg1:T41 Arg2:T45	
+R26	causes_or_contributes_to Arg1:T41 Arg2:T46	
+R27	causes_or_contributes_to Arg1:T41 Arg2:T88	
+R28	treats Arg1:T63 Arg2:T64	
+T93	missed_disease_or_phenotypic_feature 1178 1198	increase in lifespan
+T94	corrected_disease_or_phenotypic_feature 1204 1222	tumor growth delay
+R29	causes_or_contributes_to Arg1:T35 Arg2:T94	
+R30	causes_or_contributes_to Arg1:T35 Arg2:T93	
+R31	causes_or_contributes_to Arg1:T34 Arg2:T94	
+R32	causes_or_contributes_to Arg1:T34 Arg2:T93	
+R33	causes_or_contributes_to Arg1:T33 Arg2:T93	
+R34	causes_or_contributes_to Arg1:T33 Arg2:T94	
+R35	treats Arg1:T56 Arg2:T54	
+R36	treats Arg1:T57 Arg2:T54	
+R37	treats Arg1:T58 Arg2:T54	
+R38	treats Arg1:T59 Arg2:T54	
+T95	corrected_disease_or_phenotypic_feature 1764 1792	obesity related health risks
+R39	treats Arg1:T56 Arg2:T95	
+R40	treats Arg1:T57 Arg2:T95	
+R41	treats Arg1:T58 Arg2:T95	
+R42	treats Arg1:T59 Arg2:T95	

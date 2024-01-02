@@ -114,3 +114,59 @@ T113	anatomical_site 3540 3544	skin
 R1	located_in Arg1:T3 Arg2:T2	
 R2	located_in Arg1:T3 Arg2:T4	
 R3	located_in Arg1:T11 Arg2:T13	
+R4	located_in Arg1:T17 Arg2:T19	
+R5	located_in Arg1:T18 Arg2:T19	
+R6	located_in Arg1:T20 Arg2:T21	
+R7	located_in Arg1:T25 Arg2:T24	
+R8	located_in Arg1:T32 Arg2:T31	
+T114	missed_anatomical_site 1013 1031	peripheral tissues
+R9	located_in Arg1:T29 Arg2:T114	
+R10	located_in Arg1:T36 Arg2:T37	
+R11	located_in Arg1:T36 Arg2:T38	
+R12	located_in Arg1:T36 Arg2:T39	
+R13	located_in Arg1:T36 Arg2:T40	
+R14	located_in Arg1:T42 Arg2:T41	
+R15	located_in Arg1:T45 Arg2:T44	
+T115	missed_anatomical_site 1552 1561	pituitary
+#1	AnnotatorNotes T115	okay?
+R16	located_in Arg1:T46 Arg2:T115	
+T116	corrected_gene 1604 1617	AVP receptors
+R17	located_in Arg1:T116 Arg2:T48	
+R18	located_in Arg1:T116 Arg2:T49	
+T117	corrected_anatomical_site 2223 2229;2245 2252	breast tissues
+R19	located_in Arg1:T59 Arg2:T117	
+R20	located_in Arg1:T60 Arg2:T117	
+R21	located_in Arg1:T61 Arg2:T117	
+R22	located_in Arg1:T62 Arg2:T117	
+T118	missed_gene 2147 2153	Tyr705
+R23	located_in Arg1:T118 Arg2:T117	
+R24	located_in Arg1:T63 Arg2:T117	
+#2	AnnotatorNotes R23	Okay?
+T119	missed_gene 2167 2173	Ser727
+R25	located_in Arg1:T119 Arg2:T117	
+#3	AnnotatorNotes R25	Okay?
+T120	corrected_anatomical_site 2368 2394	skin MC secretory granules
+R26	located_in Arg1:T67 Arg2:T120	
+R27	located_in Arg1:T68 Arg2:T120	
+R28	located_in Arg1:T70 Arg2:T71	
+R29	located_in Arg1:T73 Arg2:T74	
+R30	located_in Arg1:T77 Arg2:T78	
+#4	AnnotatorNotes R30	Okay?
+R31	located_in Arg1:T77 Arg2:T79	
+#5	AnnotatorNotes R31	Okay?
+R32	located_in Arg1:T77 Arg2:T80	
+#6	AnnotatorNotes R32	Okay?
+R33	located_in Arg1:T84 Arg2:T83	
+R34	located_in Arg1:T90 Arg2:T92	
+R35	located_in Arg1:T91 Arg2:T92	
+R36	located_in Arg1:T93 Arg2:T92	
+R37	located_in Arg1:T94 Arg2:T98	
+R38	located_in Arg1:T94 Arg2:T99	
+R39	located_in Arg1:T94 Arg2:T100	
+R40	located_in Arg1:T94 Arg2:T101	
+R41	located_in Arg1:T107 Arg2:T108	
+R42	located_in Arg1:T107 Arg2:T109	
+R43	located_in Arg1:T107 Arg2:T110	
+R44	located_in Arg1:T107 Arg2:T111	
+R45	located_in Arg1:T107 Arg2:T112	
+R46	located_in Arg1:T107 Arg2:T113	

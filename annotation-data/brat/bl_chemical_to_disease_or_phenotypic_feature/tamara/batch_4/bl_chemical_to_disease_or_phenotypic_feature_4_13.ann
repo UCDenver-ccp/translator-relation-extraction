@@ -95,20 +95,18 @@ R17	treats Arg1:T46 Arg2:T79
 T80	missed_chemical 1797 1801	HBOT
 T81	missed_disease_or_phenotypic_feature 1813 1832	otologic barotrauma
 T82	missed_disease_or_phenotypic_feature 1834 1840	nausea
-T83	corrected_disease_or_phenotypic_feature 1861 1884	oxygen toxicity seizure
 T84	missed_disease_or_phenotypic_feature 1890 1904	myopic changes
 R18	causes_or_contributes_to Arg1:T80 Arg2:T81	
 R19	causes_or_contributes_to Arg1:T80 Arg2:T82	
 R20	causes_or_contributes_to Arg1:T80 Arg2:T49	
-R21	causes_or_contributes_to Arg1:T80 Arg2:T50	
-R22	causes_or_contributes_to Arg1:T80 Arg2:T83	
+R22	causes_or_contributes_to Arg1:T80 Arg2:T52	
 R23	causes_or_contributes_to Arg1:T80 Arg2:T84	
 T85	corrected_chemical 2000 2032	tumor necrosis factor inhibitors
 T76	corrected_chemical 955 986	tumor necrosis factor inhibitor
 R11	treats Arg1:T76 Arg2:T22	
 R24	treats Arg1:T55 Arg2:T57	
 R25	treats Arg1:T85 Arg2:T57	
-T86	corrected_disease_or_phenotypic_feature 2153 2177	hormone-dependent tumors
+T86	corrected_disease_or_phenotypic_feature 2171 2177	tumors
 R26	treats Arg1:T58 Arg2:T86	
 T87	missed_chemical 40 45	BCAAs
 R27	causes_or_contributes_to Arg1:T87 Arg2:T69	
@@ -116,3 +114,11 @@ T88	corrected_chemical 1507 1520	adjuvant drug
 R28	treats Arg1:T88 Arg2:T45	
 R29	causes_or_contributes_to Arg1:T88 Arg2:T78	
 T89	DONE 2440 2444	DONE
+R21	causes_or_contributes_to Arg1:T80 Arg2:T50	
+R30	treats Arg1:T15 Arg2:T14	
+R31	causes_or_contributes_to Arg1:T51 Arg2:T52	
+R32	causes_or_contributes_to Arg1:T59 Arg2:T86	
+T83	missed_disease_or_phenotypic_feature 2428 2438	dependence
+R33	causes_or_contributes_to Arg1:T68 Arg2:T83	
+T90	missed_disease_or_phenotypic_feature 1678 1683	tumor
+R34	treats Arg1:T46 Arg2:T90	

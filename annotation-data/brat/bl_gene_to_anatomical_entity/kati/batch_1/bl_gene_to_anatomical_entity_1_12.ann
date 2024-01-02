@@ -4,7 +4,7 @@ T3	anatomical_site 37 47	mesenchyme
 T4	anatomical_site 63 76	hair follicle
 T5	anatomical_site 82 87	tooth
 T6	gene 116 127	Cadherin-16
-T7	anatomical_site 159 165	tissue
+T7	corrected_anatomical_site 159 165;207 213	tissue kidney
 T8	gene 175 183	cadherin
 T9	anatomical_site 207 213	kidney
 T10	anatomical_site 244 249	blood
@@ -73,7 +73,7 @@ T72	anatomical_site 1509 1523	synovial fluid
 T73	gene 1618 1626	Collagen
 T74	anatomical_site 1661 1666	aorta
 T75	gene 1668 1675	elastin
-T76	anatomical_site 1718 1723	aorta
+T76	corrected_anatomical_site 1711 1717;1718 1723	middle aorta
 T77	gene 1729 1737	collagen
 T78	gene 1741 1748	elastin
 T79	anatomical_site 1789 1794	aorta
@@ -105,3 +105,68 @@ T104	gene 2441 2446	AQP11
 T105	anatomical_site 2459 2471	frontal lobe
 T106	anatomical_site 2473 2487	occipital lobe
 T107	anatomical_site 2491 2501	cerebellum
+T108	corrected_anatomical_site 37 61	mesenchyme of the palate
+T109	corrected_anatomical_site 82 92	tooth germ
+R1	located_in Arg1:T1 Arg2:T108	
+R2	located_in Arg1:T2 Arg2:T108	
+R3	located_in Arg1:T1 Arg2:T4	
+R4	located_in Arg1:T2 Arg2:T4	
+R5	located_in Arg1:T1 Arg2:T109	
+R6	located_in Arg1:T2 Arg2:T109	
+R7	located_in Arg1:T6 Arg2:T7	
+T110	anatomical_site 159 165	tissue
+R8	located_in Arg1:T13 Arg2:T14	
+T111	missed_gene 341 343	Co
+R9	located_in Arg1:T13 Arg2:T15	
+R10	located_in Arg1:T13 Arg2:T16	
+R11	located_in Arg1:T13 Arg2:T17	
+R12	located_in Arg1:T111 Arg2:T14	
+R13	located_in Arg1:T111 Arg2:T15	
+R14	located_in Arg1:T111 Arg2:T16	
+R15	located_in Arg1:T111 Arg2:T17	
+T112	corrected_anatomical_site 767 785	parathyroid tissue
+R16	located_in Arg1:T34 Arg2:T112	
+R17	located_in Arg1:T44 Arg2:T48	
+R18	located_in Arg1:T45 Arg2:T48	
+R19	located_in Arg1:T46 Arg2:T48	
+R20	located_in Arg1:T47 Arg2:T48	
+R21	located_in Arg1:T54 Arg2:T53	
+R22	located_in Arg1:T55 Arg2:T53	
+R23	located_in Arg1:T56 Arg2:T57	
+R24	located_in Arg1:T58 Arg2:T59	
+R25	located_in Arg1:T58 Arg2:T60	
+R26	located_in Arg1:T58 Arg2:T61	
+R27	located_in Arg1:T65 Arg2:T71	
+R28	located_in Arg1:T65 Arg2:T72	
+R29	located_in Arg1:T66 Arg2:T71	
+R30	located_in Arg1:T66 Arg2:T72	
+R31	located_in Arg1:T67 Arg2:T71	
+R32	located_in Arg1:T67 Arg2:T72	
+R33	located_in Arg1:T68 Arg2:T71	
+R34	located_in Arg1:T68 Arg2:T72	
+R35	located_in Arg1:T69 Arg2:T71	
+R36	located_in Arg1:T69 Arg2:T72	
+R37	located_in Arg1:T70 Arg2:T71	
+R38	located_in Arg1:T70 Arg2:T72	
+T113	corrected_anatomical_site 1654 1666	distal aorta
+R39	located_in Arg1:T73 Arg2:T113	
+T114	anatomical_site 1718 1723	aorta
+T115	corrected_anatomical_site 1698 1706;1718 1723	proximal aorta
+R40	located_in Arg1:T75 Arg2:T115	
+R41	located_in Arg1:T75 Arg2:T76	
+R42	located_in Arg1:T77 Arg2:T79	
+R43	located_in Arg1:T78 Arg2:T79	
+T116	corrected_anatomical_site 1836 1851	medial amygdala
+R44	located_in Arg1:T80 Arg2:T116	
+R45	located_in Arg1:T84 Arg2:T86	
+R46	located_in Arg1:T84 Arg2:T87	
+T117	corrected_gene 1920 1934	Actin, Alpha 2
+R47	located_in Arg1:T117 Arg2:T86	
+R48	located_in Arg1:T117 Arg2:T87	
+R49	located_in Arg1:T98 Arg2:T97	
+R50	located_in Arg1:T103 Arg2:T105	
+R51	located_in Arg1:T103 Arg2:T106	
+R52	located_in Arg1:T103 Arg2:T107	
+R53	located_in Arg1:T104 Arg2:T105	
+R54	located_in Arg1:T104 Arg2:T106	
+R55	located_in Arg1:T104 Arg2:T107	

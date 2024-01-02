@@ -60,16 +60,13 @@ T59	disease_or_phenotypic_feature 2299 2315	hyperinsulinemia
 T60	disease_or_phenotypic_feature 2317 2330	hyperglycemia
 T61	disease_or_phenotypic_feature 2413 2420	obesity
 T62	chemical 2422 2432	anesthesia
-T63	corrected_disease_or_phenotypic_feature 47 71	hormone-dependent tumors
-R1	treats Arg1:T1 Arg2:T63	
+R1	treats Arg1:T1 Arg2:T70	
 R2	treats Arg1:T5 Arg2:T4	
 T64	corrected_chemical 170 198	tumor-associated antigen 5T4
 R3	treats Arg1:T64 Arg2:T4	
 T65	corrected_chemical 246 272	Essentuskikh mineral water
-R4	treats Arg1:T65 Arg2:T9	
-T66	corrected_disease_or_phenotypic_feature 876 903	ovariectomy-induced obesity
-R5	treats Arg1:T24 Arg2:T66	
-R6	treats Arg1:T25 Arg2:T66	
+R5	treats Arg1:T24 Arg2:T26	
+R6	treats Arg1:T25 Arg2:T26	
 R7	treats Arg1:T33 Arg2:T34	
 R8	treats Arg1:T33 Arg2:T35	
 R9	causes_or_contributes_to Arg1:T37 Arg2:T38	
@@ -82,6 +79,7 @@ R14	treats Arg1:T51 Arg2:T68
 T70	missed_disease_or_phenotypic_feature 65 71	tumors
 R15	causes_or_contributes_to Arg1:T2 Arg2:T70	
 R13	treats Arg1:T41 Arg2:T43	
-R16	causes_or_contributes_to Arg1:T55 Arg2:T56	
 T69	missed_disease_or_phenotypic_feature 2198 2200	PC
-R17	causes_or_contributes_to Arg1:T55 Arg2:T69	
+T63	missed_disease_or_phenotypic_feature 787 801	Postmenopausal
+R18	treats Arg1:T22 Arg2:T63	
+R19	treats Arg1:T51 Arg2:T52	

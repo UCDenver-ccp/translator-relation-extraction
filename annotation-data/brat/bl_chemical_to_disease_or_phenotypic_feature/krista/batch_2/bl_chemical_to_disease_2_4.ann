@@ -31,13 +31,12 @@ T30	disease_or_phenotypic_feature 1303 1308	tumor
 T31	missed_chemical 1374 1385	Galantamine
 T32	chemical 1390 1410	Methadone-Maintained
 T33	chemical 1428 1435	Cocaine
-T34	corrected_disease_or_phenotypic_feature 1428 1448	Cocaine Use Disorder
 T35	disease_or_phenotypic_feature 1440 1448	Disorder
 T36	chemical 1528 1535	glucose
 T37	chemical 1560 1576	glucose-lowering
 T38	chemical 1600 1609	metformin
 T39	disease_or_phenotypic_feature 1635 1657	cardiovascular disease
-T40	chemical 1698 1739	glucagon-like peptide-1 receptor agonists
+T40	corrected_chemical 1698 1739	glucagon-like peptide-1 receptor agonists
 T41	chemical 1712 1721	peptide-1
 T42	chemical 1722 1739	receptor agonists
 T43	missed_chemical 1741 1749	GLP-1RAs
@@ -70,11 +69,9 @@ T71	disease_or_phenotypic_feature 3375 3381	Stroke
 T72	chemical 3431 3435	lead
 T73	chemical 3475 3479	zinc
 T74	chemical 3520 3523	DNA
-T75	missed_disease_or_phenotypic_feature 3520 3530	DNA damage
 T76	disease_or_phenotypic_feature 3532 3537	blood
 T77	corrected_disease_or_phenotypic_feature 3532 3553	blood cell aberration
 T78	chemical 3558 3567	oxidative
-T79	missed_disease_or_phenotypic_feature 3558 3574	oxidative stress
 T80	chemical 3585 3589	lead
 T81	disease_or_phenotypic_feature 3633 3638	blood
 T82	chemical 3707 3714	calcium
@@ -89,16 +86,44 @@ T90	disease_or_phenotypic_feature 3942 3957	atherosclerosis
 T91	disease_or_phenotypic_feature 3961 3985	type 2 diabetes mellitus
 R1	FIXME Arg1:T40 Arg2:T47
 R2	causes_or_contributes_to Arg1:T80 Arg2:T77
-R3	causes_or_contributes_to Arg1:T80 Arg2:T79
-R4	causes_or_contributes_to Arg1:T80 Arg2:T75
-R5	treats Arg1:T31 Arg2:T34
-R6	causes_or_contributes_to Arg1:T33 Arg2:T34
+R5	treats Arg1:T31 Arg2:T35
+R6	causes_or_contributes_to Arg1:T33 Arg2:T35
 R9	treats Arg1:T1 Arg2:T2
 R10	treats Arg1:T1 Arg2:T3
 R11	FIXME Arg1:T45 Arg2:T47
 R12	treats Arg1:T38 Arg2:T39
 R13	FIXME Arg1:T43 Arg2:T47
 T92	corrected_chemical 1390 1399	Methadone
-R16	treats Arg1:T92 Arg2:T34	
+R16	treats Arg1:T92 Arg2:T35	
 T93	missed_disease_or_phenotypic_feature 1659 1662	CVD
 R17	treats Arg1:T38 Arg2:T93	
+T67	missed_chemical 1803 1810	SGLT2is
+R8	treats Arg1:T67 Arg2:T47	
+R15	treats Arg1:T43 Arg2:T47	
+R19	treats Arg1:T40 Arg2:T47	
+R14	treats Arg1:T45 Arg2:T47	
+T69	corrected_chemical 3268 3292	Poly-Arginine Peptide-18
+R18	treats Arg1:T69 Arg2:T70	
+R20	treats Arg1:T69 Arg2:T71	
+T75	corrected_disease_or_phenotypic_feature 3622 3647	increasing blood pressure
+T79	corrected_chemical 3707 3734	calcium channel antagonists
+T94	corrected_chemical 3736 3776	angiotensin converting enzyme inhibitors
+T95	corrected_chemical 3778 3792	ACE inhibitors
+T96	corrected_chemical 3798 3821	selective beta-blockers
+R3	treats Arg1:T96 Arg2:T75	
+R4	treats Arg1:T79 Arg2:T75	
+R21	treats Arg1:T94 Arg2:T75	
+R22	treats Arg1:T95 Arg2:T75	
+T97	corrected_chemical 510 534	inhibitors of heparanase
+R23	treats Arg1:T97 Arg2:T14	
+T98	missed_chemical 3294 3297	R18
+R7	treats Arg1:T98 Arg2:T70	
+R24	treats Arg1:T98 Arg2:T71	
+T34	corrected_chemical 1560 1583	glucose-lowering agents
+T99	missed_disease_or_phenotypic_feature 1855 1876	cardiovascular events
+R25	treats Arg1:T67 Arg2:T99	
+R26	treats Arg1:T45 Arg2:T99	
+R27	treats Arg1:T43 Arg2:T99	
+R28	treats Arg1:T40 Arg2:T99	
+T100	missed_disease_or_phenotypic_feature 1491 1501	Opioid Use
+R29	treats Arg1:T31 Arg2:T100	

@@ -22,7 +22,7 @@ T22	disease_or_phenotypic_feature 1930 1943	hyperglycemia
 T23	disease_or_phenotypic_feature 1947 1955	diabetes
 T25	missed_chemical 2099 2109	clobetasol
 T26	chemical 2127 2147	methotrexate-induced
-T27	corrected_disease_or_phenotypic_feature 2127 2163	methotrexate-induced oral ulceration
+T27	corrected_disease_or_phenotypic_feature 2148 2163	oral ulceration
 T28	disease_or_phenotypic_feature 2153 2163	ulceration
 T29	disease_or_phenotypic_feature 2167 2187	rheumatoid arthritis
 T30	chemical 2329 2336	Alcohol
@@ -34,7 +34,6 @@ T35	disease_or_phenotypic_feature 2557 2565	epilepsy
 T36	chemical 2616 2624	residues
 T37	disease_or_phenotypic_feature 2769 2778	disorders
 T38	chemical 2831 2841	folic acid
-T39	corrected_disease_or_phenotypic_feature 2861 2885	chronic hemolytic anemia
 T40	disease_or_phenotypic_feature 2869 2885	hemolytic anemia
 T41	missed_disease_or_phenotypic_feature 2940 2952	side effects
 T42	chemical 2999 3005	folate
@@ -67,9 +66,31 @@ T68	disease_or_phenotypic_feature 4803 4813	depression
 T69	chemical 4979 4989	hesperidin
 T70	disease_or_phenotypic_feature 5019 5024	blood
 T71	chemical 5025 5032	glucose
-R1	treats Arg1:T38 Arg2:T39
+R1	treats Arg1:T38 Arg2:T40
 R2	causes_or_contributes_to Arg1:T38 Arg2:T41
 R3	treats Arg1:T64 Arg2:T65
-R5	treats Arg1:T25 Arg2:T27
 T20	corrected_chemical 2127 2139	methotrexate
 R4	causes_or_contributes_to Arg1:T20 Arg2:T27	
+T24	missed_chemical 137 141	feed
+R6	causes_or_contributes_to Arg1:T24 Arg2:T2	
+T72	missed_chemical 1825 1833	Glucagon
+R7	causes_or_contributes_to Arg1:T72 Arg2:T22	
+R8	causes_or_contributes_to Arg1:T72 Arg2:T23	
+T73	missed_disease_or_phenotypic_feature 1882 1899	hyperglucagonemia
+T74	missed_chemical 1963 1971	glucagon
+R10	causes_or_contributes_to Arg1:T74 Arg2:T23	
+R11	causes_or_contributes_to Arg1:T74 Arg2:T22	
+R12	causes_or_contributes_to Arg1:T74 Arg2:T73	
+R9	treats Arg1:T20 Arg2:T29	
+T75	missed_chemical 2062 2083	human platelet lysate
+R14	causes_or_contributes_to Arg1:T30 Arg2:T31	
+T76	corrected_chemical 2542 2546	drug
+R15	treats Arg1:T76 Arg2:T35	
+T77	missed_chemical 3099 3111	Kamishoyosan
+T78	missed_disease_or_phenotypic_feature 3200 3210	Depression
+R16	treats Arg1:T77 Arg2:T78	
+T79	missed_disease_or_phenotypic_feature 2393 2401	hangover
+R17	causes_or_contributes_to Arg1:T32 Arg2:T79	
+T39	missed_disease_or_phenotypic_feature 3073 3095	Antidepressive Effects
+R18	causes_or_contributes_to Arg1:T77 Arg2:T39	
+T80	missed_disease_or_phenotypic_feature 5019 5040	blood glucose control

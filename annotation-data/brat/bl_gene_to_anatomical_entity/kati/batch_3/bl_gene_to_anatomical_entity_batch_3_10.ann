@@ -88,3 +88,64 @@ T87	anatomical_site 2440 2446	female
 T88	gene 2467 2493	Matrix metalloproteinase-7
 T89	gene 2495 2500	MMP-7
 T90	anatomical_site 2528 2548	glandular epithelium
+T91	missed_gene 81 101	uncoupling protein 1
+R1	located_in Arg1:T91 Arg2:T4	
+R2	located_in Arg1:T1 Arg2:T4	
+R3	located_in Arg1:T2 Arg2:T5	
+R4	located_in Arg1:T3 Arg2:T6	
+R5	located_in Arg1:T7 Arg2:T10	
+R6	located_in Arg1:T8 Arg2:T10	
+R7	located_in Arg1:T14 Arg2:T18	
+R8	located_in Arg1:T15 Arg2:T18	
+R9	located_in Arg1:T16 Arg2:T18	
+R10	located_in Arg1:T17 Arg2:T18	
+R11	located_in Arg1:T19 Arg2:T20	
+T92	corrected_anatomical_site 630 635;645 652	liver tissues
+T93	corrected_anatomical_site 640 652	lung tissues
+R12	located_in Arg1:T23 Arg2:T92	
+R13	located_in Arg1:T23 Arg2:T93	
+R14	located_in Arg1:T26 Arg2:T92	
+R15	located_in Arg1:T26 Arg2:T93	
+R16	located_in Arg1:T28 Arg2:T27	
+R17	located_in Arg1:T30 Arg2:T29	
+R18	located_in Arg1:T32 Arg2:T31	
+T94	corrected_anatomical_site 1098 1109	fetal brain
+R19	located_in Arg1:T38 Arg2:T94	
+R20	located_in Arg1:T39 Arg2:T94	
+T95	corrected_anatomical_site 1166 1186	postnatal cerebellum
+R21	located_in Arg1:T41 Arg2:T95	
+R22	located_in Arg1:T42 Arg2:T95	
+T96	corrected_anatomical_site 1224 1236	brain tissue
+R23	located_in Arg1:T46 Arg2:T96	
+T97	corrected_anatomical_site 1296 1335	postsynaptic densities in the forebrain
+R24	located_in Arg1:T46 Arg2:T97	
+R25	located_in Arg1:T49 Arg2:T48	
+T98	missed_anatomical_site 1402 1411	pituitary
+R26	located_in Arg1:T50 Arg2:T98	
+T99	corrected_gene 1454 1467	AVP receptors
+R27	located_in Arg1:T99 Arg2:T52	
+R28	located_in Arg1:T99 Arg2:T53	
+R29	located_in Arg1:T64 Arg2:T65	
+R30	located_in Arg1:T66 Arg2:T67	
+R31	located_in Arg1:T66 Arg2:T68	
+R32	located_in Arg1:T66 Arg2:T69	
+R33	located_in Arg1:T66 Arg2:T70	
+R34	located_in Arg1:T66 Arg2:T71	
+T100	missed_anatomical_site 2022 2028	myelin
+R35	located_in Arg1:T73 Arg2:T72	
+R36	located_in Arg1:T73 Arg2:T100	
+R37	located_in Arg1:T74 Arg2:T100	
+R38	located_in Arg1:T74 Arg2:T72	
+T101	missed_gene 2053 2072	proteolipid protein
+R39	located_in Arg1:T101 Arg2:T72	
+R40	located_in Arg1:T75 Arg2:T72	
+R41	located_in Arg1:T73 Arg2:T76	
+R42	located_in Arg1:T74 Arg2:T76	
+R43	located_in Arg1:T101 Arg2:T76	
+R44	located_in Arg1:T75 Arg2:T76	
+R45	located_in Arg1:T77 Arg2:T78	
+R46	located_in Arg1:T81 Arg2:T80	
+R47	located_in Arg1:T82 Arg2:T80	
+R48	located_in Arg1:T85 Arg2:T84	
+R49	located_in Arg1:T88 Arg2:T90	
+R50	located_in Arg1:T89 Arg2:T90	

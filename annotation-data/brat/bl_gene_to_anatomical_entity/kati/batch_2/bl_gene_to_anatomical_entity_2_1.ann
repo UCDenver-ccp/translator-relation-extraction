@@ -107,3 +107,90 @@ T106	anatomical_site 2865 2872	embryos
 T107	gene 2933 2938	Abca1
 T108	gene 2939 2944	Abcg1
 T109	anatomical_site 2955 2962	embryos
+R1	located_in Arg1:T1 Arg2:T5	
+R2	located_in Arg1:T1 Arg2:T6	
+R3	located_in Arg1:T2 Arg2:T5	
+R4	located_in Arg1:T2 Arg2:T6	
+R5	located_in Arg1:T3 Arg2:T5	
+R6	located_in Arg1:T3 Arg2:T6	
+R7	located_in Arg1:T4 Arg2:T5	
+R8	located_in Arg1:T4 Arg2:T6	
+T111	missed_anatomical_site 666 682	substantia nigra
+T112	missed_anatomical_site 526 531	Brain
+T113	missed_gene 546 549	CN1
+T114	corrected_gene 551 556	Hsp72
+R10	located_in Arg1:T113 Arg2:T112	
+R11	located_in Arg1:T114 Arg2:T112	
+R12	located_in Arg1:T21 Arg2:T112	
+R13	located_in Arg1:T22 Arg2:T112	
+R14	located_in Arg1:T113 Arg2:T23	
+R15	located_in Arg1:T113 Arg2:T111	
+R16	located_in Arg1:T113 Arg2:T24	
+R17	located_in Arg1:T113 Arg2:T25	
+R18	located_in Arg1:T113 Arg2:T26	
+R19	located_in Arg1:T113 Arg2:T27	
+R20	located_in Arg1:T114 Arg2:T23	
+R21	located_in Arg1:T114 Arg2:T111	
+R22	located_in Arg1:T114 Arg2:T24	
+R23	located_in Arg1:T114 Arg2:T25	
+R24	located_in Arg1:T114 Arg2:T26	
+R25	located_in Arg1:T114 Arg2:T27	
+R26	located_in Arg1:T21 Arg2:T23	
+R27	located_in Arg1:T21 Arg2:T111	
+R28	located_in Arg1:T21 Arg2:T24	
+R29	located_in Arg1:T21 Arg2:T25	
+R30	located_in Arg1:T21 Arg2:T26	
+R31	located_in Arg1:T21 Arg2:T27	
+R32	located_in Arg1:T22 Arg2:T23	
+R33	located_in Arg1:T22 Arg2:T111	
+R34	located_in Arg1:T22 Arg2:T24	
+R35	located_in Arg1:T22 Arg2:T25	
+R36	located_in Arg1:T22 Arg2:T26	
+R37	located_in Arg1:T22 Arg2:T27	
+R38	located_in Arg1:T31 Arg2:T30	
+T115	corrected_anatomical_site 955 976	brain cortical tissue
+R39	located_in Arg1:T33 Arg2:T115	
+T120	corrected_gene 1760 1781	adiponectin receptors
+R54	located_in Arg1:T120 Arg2:T66	
+T121	corrected_anatomical_site 1835 1840;1848 1854	colon tissue
+R55	located_in Arg1:T120 Arg2:T121	
+R56	located_in Arg1:T64 Arg2:T66	
+R57	located_in Arg1:T64 Arg2:T121	
+R58	located_in Arg1:T65 Arg2:T66	
+R59	located_in Arg1:T65 Arg2:T121	
+T122	missed_anatomical_site 1969 1975	plasma
+T123	missed_gene 1976 1998	creatine phosphokinase
+T124	missed_anatomical_site 2053 2059	plasma
+R60	located_in Arg1:T69 Arg2:T68	
+R61	located_in Arg1:T123 Arg2:T122	
+R62	located_in Arg1:T72 Arg2:T71	
+R63	located_in Arg1:T73 Arg2:T124	
+R64	located_in Arg1:T75 Arg2:T74	
+T125	corrected_gene 2179 2188	ephrin B4
+T126	missed_anatomical_site 2213 2217	vein
+R65	located_in Arg1:T78 Arg2:T81	
+R66	located_in Arg1:T125 Arg2:T126	
+R67	located_in Arg1:T80 Arg2:T126	
+R68	located_in Arg1:T85 Arg2:T87	
+R69	located_in Arg1:T86 Arg2:T87	
+T127	corrected_anatomical_site 2556 2574	luminal epithelium
+T128	corrected_anatomical_site 2576 2603	stroma under the epithelium
+T129	corrected_anatomical_site 2605 2641	endothelial lineage of blood vessels
+R70	located_in Arg1:T91 Arg2:T127	
+R71	located_in Arg1:T91 Arg2:T128	
+R72	located_in Arg1:T91 Arg2:T129	
+R73	located_in Arg1:T91 Arg2:T98	
+R74	located_in Arg1:T92 Arg2:T127	
+R75	located_in Arg1:T92 Arg2:T128	
+R76	located_in Arg1:T92 Arg2:T129	
+R77	located_in Arg1:T92 Arg2:T98	
+R78	located_in Arg1:T93 Arg2:T127	
+R79	located_in Arg1:T93 Arg2:T128	
+R80	located_in Arg1:T93 Arg2:T129	
+R81	located_in Arg1:T93 Arg2:T98	
+T130	corrected_gene 2687 2690	HGF
+T131	corrected_anatomical_site 2721 2738	quadriceps muscle
+T132	missed_anatomical_site 2740 2746	plasma
+R82	located_in Arg1:T130 Arg2:T131	
+R83	located_in Arg1:T130 Arg2:T132	
+R84	located_in Arg1:T130 Arg2:T102	

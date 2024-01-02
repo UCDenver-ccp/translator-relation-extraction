@@ -90,3 +90,62 @@ T89	gene 3084 3088	CD95
 T90	cellular_component 3107 3119	cell surface
 T91	cellular_component 3141 3154	intracellular
 T92	gene 3196 3201	bcl-2
+T93	missed_cellular_component 40 53	cell membrane
+R1	located_in Arg1:T1 Arg2:T93	
+R2	located_in Arg1:T2 Arg2:T93	
+R3	located_in Arg1:T1 Arg2:T4	
+R4	located_in Arg1:T2 Arg2:T4	
+T94	missed_gene 301 328	acute-phase response factor
+R5	located_in Arg1:T94 Arg2:T7	
+R6	located_in Arg1:T8 Arg2:T7	
+R7	located_in Arg1:T28 Arg2:T29	
+R8	located_in Arg1:T27 Arg2:T29	
+R9	located_in Arg1:T26 Arg2:T29	
+R10	located_in Arg1:T25 Arg2:T29	
+R11	located_in Arg1:T24 Arg2:T29	
+R12	located_in Arg1:T28 Arg2:T30	
+R13	located_in Arg1:T27 Arg2:T30	
+R14	located_in Arg1:T26 Arg2:T30	
+R15	located_in Arg1:T25 Arg2:T30	
+R16	located_in Arg1:T24 Arg2:T30	
+R17	located_in Arg1:T43 Arg2:T42	
+T95	missed_cellular_component 1623 1631	membrane
+R18	located_in Arg1:T48 Arg2:T95	
+T96	missed_cellular_component 1784 1792	membrane
+R19	located_in Arg1:T50 Arg2:T96	
+R20	located_in Arg1:T51 Arg2:T96	
+R21	located_in Arg1:T53 Arg2:T96	
+T97	missed_gene 1848 1854	band 3
+#1	AnnotatorNotes T97	okay?
+T98	missed_gene 1856 1867	protein 4.2
+T99	missed_gene 1868 1874	band 3
+#2	AnnotatorNotes T99	okay?
+T100	missed_gene 1888 1894	band 3
+#3	AnnotatorNotes T100	okay?
+R22	located_in Arg1:T97 Arg2:T96	
+#4	AnnotatorNotes R22	Okay?
+R23	located_in Arg1:T98 Arg2:T96	
+R24	located_in Arg1:T99 Arg2:T96	
+R25	located_in Arg1:T55 Arg2:T96	
+R26	located_in Arg1:T100 Arg2:T96	
+#5	AnnotatorNotes R26	Okay?
+T101	missed_gene 1753 1760	bands 6
+#6	AnnotatorNotes T101	okay?
+R27	located_in Arg1:T101 Arg2:T95	
+#7	AnnotatorNotes R27	Okay?
+R28	located_in Arg1:T68 Arg2:T71	
+#8	AnnotatorNotes R28	Okay?
+R29	located_in Arg1:T69 Arg2:T71	
+#9	AnnotatorNotes R29	Okay?
+R30	located_in Arg1:T76 Arg2:T77	
+T102	corrected_gene 2708 2728	alpha5beta1 integrin
+R31	located_in Arg1:T102 Arg2:T77	
+T103	missed_gene 2804 2809	actin
+R32	located_in Arg1:T103 Arg2:T80	
+R33	located_in Arg1:T81 Arg2:T84	
+T104	corrected_gene 2919 2933	beta3 integrin
+R34	located_in Arg1:T104 Arg2:T84	
+T105	corrected_gene 2909 2914;2925 2933	beta1 integrin
+R35	located_in Arg1:T105 Arg2:T84	
+R36	located_in Arg1:T89 Arg2:T90	
+R37	located_in Arg1:T92 Arg2:T91	

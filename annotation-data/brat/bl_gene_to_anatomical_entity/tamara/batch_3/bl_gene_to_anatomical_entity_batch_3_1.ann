@@ -154,3 +154,24 @@ R42	located_in Arg1:T106 Arg2:T87
 T107	corrected_anatomical_site 2710 2723	limb ectoderm
 R43	located_in Arg1:T89 Arg2:T107	
 R44	located_in Arg1:T95 Arg2:T94	
+R45	located_in Arg1:T29 Arg2:T32	
+#6	AnnotatorNotes R45	Okay?
+R46	located_in Arg1:T30 Arg2:T32	
+#7	AnnotatorNotes R46	Okay?
+T108	missed_anatomical_site 1555 1562	tissues
+#8	AnnotatorNotes T108	okay?
+T109	corrected_gene 1612 1637	Pax6 transcription factor
+R47	located_in Arg1:T109 Arg2:T108	
+R48	located_in Arg1:T109 Arg2:T51	
+#9	AnnotatorNotes R48	Okay?
+R49	located_in Arg1:T109 Arg2:T52	
+#10	AnnotatorNotes R49	Okay?
+R50	located_in Arg1:T53 Arg2:T108	
+T110	corrected_gene 1734 1749	betaIII-tubulin
+R51	located_in Arg1:T110 Arg2:T108	
+R52	located_in Arg1:T55 Arg2:T108	
+R53	located_in Arg1:T56 Arg2:T108	
+T111	missed_gene 1795 1799	NeuN
+R54	located_in Arg1:T111 Arg2:T108	
+T112	missed_gene 1817 1822	Ki-67
+R55	located_in Arg1:T112 Arg2:T108	

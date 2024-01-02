@@ -64,7 +64,7 @@ T63	disease_or_phenotypic_feature 2248 2274	hematological malignancies
 T64	chemical 2327 2341	growth hormone
 T65	disease_or_phenotypic_feature 2376 2396	valvular abnormality
 T66	disease_or_phenotypic_feature 2401 2411	arrhythmia
-T67	corrected_disease_or_phenotypic_feature 430 440	HNSCC-tumo
+T67	corrected_disease_or_phenotypic_feature 430 441	HNSCC-tumor
 R1	treats Arg1:T10 Arg2:T67	
 R2	treats Arg1:T11 Arg2:T67	
 R3	treats Arg1:T32 Arg2:T33	
@@ -74,7 +74,7 @@ T69	corrected_chemical 1529 1563	Ras GTPase superfamily member RERG
 R5	treats Arg1:T69 Arg2:T48	
 T70	corrected_chemical 1565 1616	Ras-related and estrogen-regulated growth inhibitor
 R6	treats Arg1:T70 Arg2:T48	
-T71	corrected_chemical 2190 2210	rapamycin inhibitors
+T71	corrected_chemical 2170 2210	mammalian target of rapamycin inhibitors
 T72	missed_disease_or_phenotypic_feature 2231 2243	solid tumors
 R8	treats Arg1:T71 Arg2:T72	
 R9	treats Arg1:T71 Arg2:T63	
@@ -87,3 +87,34 @@ R12	treats Arg1:T75 Arg2:T48
 T76	missed_disease_or_phenotypic_feature 1828 1839	weight gain
 R13	causes_or_contributes_to Arg1:T50 Arg2:T76	
 T77	DONE 2413 2417	DONE
+R7	treats Arg1:T6 Arg2:T5	
+R14	treats Arg1:T1 Arg2:T3	
+R15	treats Arg1:T1 Arg2:T4	
+R16	treats Arg1:T2 Arg2:T3	
+R17	treats Arg1:T2 Arg2:T4	
+T78	missed_disease_or_phenotypic_feature 95 107	side-effects
+R18	causes_or_contributes_to Arg1:T2 Arg2:T78	
+T79	missed_disease_or_phenotypic_feature 1875 1881	tumors
+R19	causes_or_contributes_to Arg1:T51 Arg2:T79	
+T80	missed_disease_or_phenotypic_feature 1941 1952	weight gain
+R20	causes_or_contributes_to Arg1:T50 Arg2:T80	
+R21	treats Arg1:T55 Arg2:T54	
+R22	causes_or_contributes_to Arg1:T56 Arg2:T57	
+R23	causes_or_contributes_to Arg1:T56 Arg2:T58	
+R24	causes_or_contributes_to Arg1:T56 Arg2:T59	
+R25	causes_or_contributes_to Arg1:T56 Arg2:T60	
+R26	causes_or_contributes_to Arg1:T64 Arg2:T65	
+R27	causes_or_contributes_to Arg1:T64 Arg2:T66	
+T81	missed_disease_or_phenotypic_feature 2276 2286	Acromegaly
+R28	causes_or_contributes_to Arg1:T64 Arg2:T81	
+T82	missed_chemical 1309 1322	high-fat diet
+T83	missed_chemical 1324 1327	HFD
+R29	causes_or_contributes_to Arg1:T82 Arg2:T36	
+T84	missed_disease_or_phenotypic_feature 1246 1292	obesity-induced inflammatory/oxidant responses
+R30	causes_or_contributes_to Arg1:T82 Arg2:T84	
+R31	causes_or_contributes_to Arg1:T83 Arg2:T84	
+R32	causes_or_contributes_to Arg1:T83 Arg2:T36	
+T85	missed_disease_or_phenotypic_feature 1692 1697	tumor
+R33	treats Arg1:T69 Arg2:T85	
+R34	treats Arg1:T75 Arg2:T85	
+R35	treats Arg1:T70 Arg2:T85	

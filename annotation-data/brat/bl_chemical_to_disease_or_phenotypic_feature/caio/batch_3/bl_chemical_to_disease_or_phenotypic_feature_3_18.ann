@@ -69,16 +69,13 @@ R3	treats Arg1:T9 Arg2:T65
 T66	missed_chemical 366 375	analogues
 R4	treats Arg1:T66 Arg2:T65	
 T67	missed_disease_or_phenotypic_feature 481 487	tumour
-R5	causes_or_contributes_to Arg1:T12 Arg2:T67	
-R6	causes_or_contributes_to Arg1:T12 Arg2:T11	
 R7	treats Arg1:T16 Arg2:T15	
 T68	corrected_chemical 871 891	aromatase inhibitors
 R8	treats Arg1:T68 Arg2:T15	
 R9	treats Arg1:T28 Arg2:T29	
 T69	missed_chemical 1450 1455	MK801
-R10	causes_or_contributes_to Arg1:T69 Arg2:T35	
+R10	causes_or_contributes_to Arg1:T69 Arg2:T84	
 T70	corrected_chemical 1434 1449	NMDA antagonist
-R11	causes_or_contributes_to Arg1:T70 Arg2:T35	
 T71	missed_disease_or_phenotypic_feature 1690 1695	tumor
 T72	corrected_chemical 1648 1661	MK2 inhibitor
 R12	treats Arg1:T72 Arg2:T71	
@@ -91,22 +88,13 @@ R13	causes_or_contributes_to Arg1:T74 Arg2:T73
 R14	causes_or_contributes_to Arg1:T75 Arg2:T73	
 R15	causes_or_contributes_to Arg1:T77 Arg2:T73	
 R16	causes_or_contributes_to Arg1:T76 Arg2:T73	
-R17	treats Arg1:T49 Arg2:T53	
-R18	treats Arg1:T50 Arg2:T53	
 T78	corrected_chemical 2102 2129	phosphodiesterase inhibitor
-R19	treats Arg1:T78 Arg2:T53	
 T79	missed_chemical 2059 2066	steroid
-R20	treats Arg1:T79 Arg2:T53	
-R21	treats Arg1:T79 Arg2:T52	
-R22	treats Arg1:T49 Arg2:T52	
-R23	treats Arg1:T50 Arg2:T52	
-R24	treats Arg1:T78 Arg2:T52	
 T80	missed_disease_or_phenotypic_feature 2179 2190	spiky fever
-R25	treats Arg1:T79 Arg2:T80	
-R26	treats Arg1:T49 Arg2:T80	
-R27	treats Arg1:T50 Arg2:T80	
-R28	treats Arg1:T78 Arg2:T80	
 T81	corrected_disease_or_phenotypic_feature 2275 2286	cancer pain
 R29	treats Arg1:T55 Arg2:T81	
 T82	corrected_chemical 2222 2236	JNK inhibitors
 R30	treats Arg1:T82 Arg2:T81	
+T83	missed_disease_or_phenotypic_feature 1532 1560	neurodevelopmental disorders
+R6	causes_or_contributes_to Arg1:T70 Arg2:T84	
+T84	missed_disease_or_phenotypic_feature 1466 1503	auditory electrophysiology disruption

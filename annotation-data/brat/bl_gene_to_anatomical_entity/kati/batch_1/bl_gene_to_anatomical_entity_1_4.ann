@@ -125,3 +125,82 @@ T124	anatomical_site 3427 3437	urothelium
 T125	anatomical_site 3439 3445	myelin
 T126	anatomical_site 3449 3466	peripheral nerves
 T127	anatomical_site 3468 3478	epithelium
+T134	missed_anatomical_site 698 703	brain
+R31	located_in Arg1:T26 Arg2:T134	
+R32	located_in Arg1:T27 Arg2:T134	
+T135	missed_gene 910 930	fat-specific protein
+R33	located_in Arg1:T135 Arg2:T31	
+T136	missed_gene 932 937	Fsp27
+T137	corrected_anatomical_site 1565 1577	brain cortex
+R34	located_in Arg1:T51 Arg2:T137	
+R35	located_in Arg1:T57 Arg2:T56	
+R36	located_in Arg1:T58 Arg2:T56	
+R37	located_in Arg1:T59 Arg2:T56	
+T138	missed_gene 1804 1829	blood coagulation factors
+T139	missed_anatomical_site 1804 1809	blood
+R38	located_in Arg1:T138 Arg2:T139	
+R39	located_in Arg1:T62 Arg2:T139	
+T140	missed_gene 1847 1853;1855 1858	Factor VII
+T141	missed_gene 1847 1853;1860 1862	Factor IX
+R40	located_in Arg1:T140 Arg2:T139	
+R41	located_in Arg1:T141 Arg2:T139	
+T142	missed_gene 1847 1853;1867 1868	Factor X
+R42	located_in Arg1:T142 Arg2:T139	
+T143	missed_anatomical_site 1877 1883	plasma
+R43	located_in Arg1:T63 Arg2:T143	
+T144	missed_gene 1905 1914	protein S
+R44	located_in Arg1:T144 Arg2:T143	
+R45	located_in Arg1:T64 Arg2:T143	
+R46	located_in Arg1:T66 Arg2:T65	
+R47	located_in Arg1:T67 Arg2:T65	
+T145	missed_anatomical_site 1970 1974	bone
+R48	located_in Arg1:T67 Arg2:T145	
+R49	located_in Arg1:T68 Arg2:T65	
+T146	corrected_anatomical_site 2169 2197	posterior embryonic mesoderm
+R50	located_in Arg1:T74 Arg2:T146	
+R51	located_in Arg1:T75 Arg2:T146	
+R52	located_in Arg1:T77 Arg2:T158	
+R53	located_in Arg1:T78 Arg2:T158	
+T147	corrected_gene 2598 2630	liver fatty acid binding protein
+R54	located_in Arg1:T147 Arg2:T87	
+R55	located_in Arg1:T147 Arg2:T89	
+R56	located_in Arg1:T91 Arg2:T89	
+R57	located_in Arg1:T91 Arg2:T87	
+R58	located_in Arg1:T92 Arg2:T87	
+R59	located_in Arg1:T93 Arg2:T87	
+T148	missed_anatomical_site 3008 3017	umbilicus
+T149	missed_anatomical_site 3035 3044	pituitary
+T150	missed_anatomical_site 3053 3056	gut
+R63	located_in Arg1:T103 Arg2:T104	
+R64	located_in Arg1:T103 Arg2:T105	
+R65	located_in Arg1:T103 Arg2:T148	
+R66	located_in Arg1:T103 Arg2:T149	
+R67	located_in Arg1:T103 Arg2:T106	
+R68	located_in Arg1:T103 Arg2:T150	
+R69	located_in Arg1:T103 Arg2:T107	
+R70	located_in Arg1:T108 Arg2:T110	
+R71	located_in Arg1:T108 Arg2:T111	
+R72	located_in Arg1:T108 Arg2:T112	
+R73	located_in Arg1:T109 Arg2:T110	
+R74	located_in Arg1:T109 Arg2:T111	
+R75	located_in Arg1:T109 Arg2:T112	
+T153	missed_anatomical_site 3330 3337	tissues
+R81	located_in Arg1:T119 Arg2:T153	
+R82	located_in Arg1:T120 Arg2:T153	
+T154	missed_anatomical_site 3381 3388	tissues
+R83	located_in Arg1:T121 Arg2:T154	
+T155	missed_gene 3368 3371	CD9
+R84	located_in Arg1:T155 Arg2:T154	
+T156	corrected_anatomical_site 3439 3466	myelin of peripheral nerves
+T157	corrected_anatomical_site 3468 3488	epithelium of amnion
+R85	located_in Arg1:T121 Arg2:T122	
+R86	located_in Arg1:T121 Arg2:T123	
+R87	located_in Arg1:T121 Arg2:T124	
+R88	located_in Arg1:T121 Arg2:T156	
+R89	located_in Arg1:T121 Arg2:T157	
+R90	located_in Arg1:T155 Arg2:T122	
+R91	located_in Arg1:T155 Arg2:T123	
+R92	located_in Arg1:T155 Arg2:T124	
+R93	located_in Arg1:T155 Arg2:T156	
+R94	located_in Arg1:T155 Arg2:T157	
+T158	corrected_anatomical_site 2249 2285	extraembryonic tissues of ectodermal

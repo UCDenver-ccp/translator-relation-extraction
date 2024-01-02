@@ -77,3 +77,34 @@ T76	gene 1791 1795	Gli3
 T77	anatomical_site 1814 1818	limb
 T78	anatomical_site 1819 1842	apical ectodermal ridge
 T79	gene 1847 1852	Fgf10
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T1 Arg2:T4	
+T80	corrected_gene 12 38	elastin-associated-protein
+R3	located_in Arg1:T80 Arg2:T3	
+R4	located_in Arg1:T80 Arg2:T4	
+T81	corrected_anatomical_site 125 137	heart muscle
+R5	located_in Arg1:T5 Arg2:T81	
+T82	missed_gene 86 90	cTnI
+R6	located_in Arg1:T82 Arg2:T81	
+R7	located_in Arg1:T9 Arg2:T8	
+R8	located_in Arg1:T10 Arg2:T11	
+R9	located_in Arg1:T10 Arg2:T12	
+R10	located_in Arg1:T13 Arg2:T14	
+R11	located_in Arg1:T13 Arg2:T15	
+R12	located_in Arg1:T20 Arg2:T19	
+R13	located_in Arg1:T21 Arg2:T19	
+R14	located_in Arg1:T20 Arg2:T22	
+R15	located_in Arg1:T21 Arg2:T22	
+T83	corrected_anatomical_site 517 529	brain tissue
+R16	located_in Arg1:T23 Arg2:T83	
+R17	located_in Arg1:T27 Arg2:T26	
+R18	located_in Arg1:T29 Arg2:T28	
+R19	located_in Arg1:T31 Arg2:T30	
+R20	located_in Arg1:T27 Arg2:T33	
+R21	located_in Arg1:T29 Arg2:T33	
+R22	located_in Arg1:T31 Arg2:T33	
+R23	located_in Arg1:T66 Arg2:T65	
+T84	corrected_gene 1567 1601	bone-specific alkaline phosphatase
+R24	located_in Arg1:T84 Arg2:T65	
+R25	located_in Arg1:T68 Arg2:T67	
+R26	located_in Arg1:T74 Arg2:T75	

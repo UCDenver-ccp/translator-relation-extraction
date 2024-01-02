@@ -56,17 +56,13 @@ T55	disease_or_phenotypic_feature 3557 3562	tumor
 T56	disease_or_phenotypic_feature 3674 3677	HCC
 T59	chemical 3715 3720	group
 T60	disease_or_phenotypic_feature 3743 3746	HCC
-T61	missed_chemical 3768 3792	direct acting antivirals
-T62	missed_chemical 3794 3797	DAA
 T63	chemical 3798 3803	group
 R1	treats Arg1:T51 Arg2:T54
 R2	treats Arg1:T51 Arg2:T55
 R3	treats Arg1:T3 Arg2:T4
 R4	treats Arg1:T41 Arg2:T42
-R5	treats Arg1:T61 Arg2:T60
 R6	causes_or_contributes_to Arg1:T29 Arg2:T31
 R7	causes_or_contributes_to Arg1:T30 Arg2:T31
-R9	treats Arg1:T62 Arg2:T60
 T64	corrected_disease_or_phenotypic_feature 2279 2285	glioma
 R11	treats Arg1:T33 Arg2:T64	
 R12	treats Arg1:T34 Arg2:T64	
@@ -74,3 +70,21 @@ T65	missed_chemical 2239 2253	phytocompounds
 R13	treats Arg1:T65 Arg2:T64	
 T66	corrected_disease_or_phenotypic_feature 3456 3461	tumor
 R14	treats Arg1:T51 Arg2:T66	
+T57	missed_chemical 276 288	chemotherapy
+R8	treats Arg1:T57 Arg2:T5	
+R10	causes_or_contributes_to Arg1:T57 Arg2:T4	
+T58	missed_chemical 1030 1060	traditional Mediterranean diet
+T61	missed_chemical 1062 1069	MedDiet
+T62	missed_disease_or_phenotypic_feature 1131 1143	inflammation
+R5	treats Arg1:T58 Arg2:T62	
+R9	treats Arg1:T61 Arg2:T62	
+T67	missed_disease_or_phenotypic_feature 3684 3687	SVR
+T68	missed_disease_or_phenotypic_feature 3753 3756	SVR
+T69	missed_chemical 3699 3709	interferon
+T70	missed_chemical 3711 3714	IFN
+R15	causes_or_contributes_to Arg1:T69 Arg2:T67	
+R16	causes_or_contributes_to Arg1:T70 Arg2:T67	
+T71	missed_chemical 3768 3792	direct acting antivirals
+T72	missed_chemical 3794 3797	DAA
+R17	causes_or_contributes_to Arg1:T71 Arg2:T68	
+R18	causes_or_contributes_to Arg1:T72 Arg2:T68	

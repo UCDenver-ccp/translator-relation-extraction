@@ -86,3 +86,69 @@ T85	anatomical_site 2900 2905	serum
 T86	gene 2906 2917	adiponectin
 T87	gene 2922 2940	C-reactive protein
 T88	anatomical_site 2990 2994	body
+T89	corrected_gene 65 92	PML-RARalpha fusion protein
+R1	located_in Arg1:T89 Arg2:T1	
+R2	located_in Arg1:T89 Arg2:T2	
+T90	missed_gene 258 262	Nppa
+R3	located_in Arg1:T90 Arg2:T7	
+R4	located_in Arg1:T8 Arg2:T7	
+T91	corrected_anatomical_site 354 378	dorsomedial hypothalamus
+R5	located_in Arg1:T10 Arg2:T91	
+T92	missed_anatomical_site 393 421	paraventricular hypothalamus
+R6	located_in Arg1:T12 Arg2:T92	
+T93	missed_anatomical_site 438 462	paraventricular thalamus
+R7	located_in Arg1:T10 Arg2:T93	
+R8	located_in Arg1:T12 Arg2:T93	
+R9	located_in Arg1:T13 Arg2:T9	
+R10	located_in Arg1:T14 Arg2:T9	
+R11	located_in Arg1:T10 Arg2:T9	
+R12	located_in Arg1:T12 Arg2:T9	
+R13	located_in Arg1:T13 Arg2:T91	
+R14	located_in Arg1:T14 Arg2:T92	
+R15	located_in Arg1:T13 Arg2:T93	
+R16	located_in Arg1:T14 Arg2:T93	
+T94	corrected_anatomical_site 622 645	periimplantation uterus
+R17	located_in Arg1:T16 Arg2:T94	
+R18	located_in Arg1:T17 Arg2:T94	
+T95	missed_anatomical_site 900 913;920 927	microvascular vessels
+R19	located_in Arg1:T27 Arg2:T95	
+R20	located_in Arg1:T28 Arg2:T95	
+R21	located_in Arg1:T29 Arg2:T95	
+T96	corrected_anatomical_site 1297 1322	epididymal adipose tissue
+R22	located_in Arg1:T37 Arg2:T96	
+T97	corrected_gene 1266 1272	HIF-1α
+R23	located_in Arg1:T97 Arg2:T96	
+R24	located_in Arg1:T39 Arg2:T96	
+R25	located_in Arg1:T40 Arg2:T96	
+R26	located_in Arg1:T45 Arg2:T44	
+T98	missed_gene 1571 1581	hemoglobin
+R27	located_in Arg1:T98 Arg2:T44	
+R28	located_in Arg1:T46 Arg2:T44	
+R29	located_in Arg1:T48 Arg2:T47	
+T99	corrected_gene 1681 1697	NGF-like protein
+R30	located_in Arg1:T99 Arg2:T50	
+R31	located_in Arg1:T99 Arg2:T51	
+T100	missed_anatomical_site 1754 1763	epidermal
+R32	located_in Arg1:T52 Arg2:T100	
+R33	located_in Arg1:T54 Arg2:T56	
+R34	located_in Arg1:T55 Arg2:T57	
+T101	missed_gene 1965 1972	VEGFR-3
+T102	missed_gene 1977 1984	VEGFR-2
+R35	located_in Arg1:T59 Arg2:T61	
+R36	located_in Arg1:T60 Arg2:T61	
+R37	located_in Arg1:T101 Arg2:T61	
+R38	located_in Arg1:T102 Arg2:T61	
+R39	located_in Arg1:T65 Arg2:T67	
+R40	located_in Arg1:T66 Arg2:T67	
+T103	corrected_anatomical_site 2324 2349	thin limb of Henle's loop
+R41	located_in Arg1:T65 Arg2:T103	
+R42	located_in Arg1:T66 Arg2:T103	
+R43	located_in Arg1:T65 Arg2:T70	
+R44	located_in Arg1:T66 Arg2:T70	
+R45	located_in Arg1:T82 Arg2:T83	
+R46	located_in Arg1:T82 Arg2:T84	
+T104	missed_anatomical_site 2887 2895	Salivary
+R47	located_in Arg1:T86 Arg2:T104	
+R48	located_in Arg1:T86 Arg2:T85	
+R49	located_in Arg1:T87 Arg2:T104	
+R50	located_in Arg1:T87 Arg2:T85	

@@ -70,3 +70,8 @@ R7	treats Arg1:T19 Arg2:T13
 T63	corrected_chemical 1771 1775	drug
 T64	corrected_disease_or_phenotypic_feature 1826 1845	hepatitis B disease
 R8	treats Arg1:T63 Arg2:T64	
+T65	corrected_disease_or_phenotypic_feature 1728 1741	HBV infection
+R9	treats Arg1:T63 Arg2:T65	
+T66	missed_chemical 2756 2768	Chemotherapy
+R10	treats Arg1:T66 Arg2:T49	
+R11	treats Arg1:T66 Arg2:T51	

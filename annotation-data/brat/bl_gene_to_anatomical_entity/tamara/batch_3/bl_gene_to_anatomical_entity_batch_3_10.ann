@@ -128,3 +128,16 @@ R34	located_in Arg1:T79 Arg2:T76
 R35	located_in Arg1:T82 Arg2:T81	
 R36	located_in Arg1:T84 Arg2:T83	
 R37	located_in Arg1:T85 Arg2:T86	
+T91	missed_anatomical_site 300 307	nuclear
+R38	located_in Arg1:T11 Arg2:T91	
+R39	located_in Arg1:T18 Arg2:T19	
+R40	located_in Arg1:T17 Arg2:T19	
+R41	located_in Arg1:T16 Arg2:T19	
+R42	located_in Arg1:T18 Arg2:T20	
+#4	AnnotatorNotes R42	Okay?
+R43	located_in Arg1:T17 Arg2:T20	
+#5	AnnotatorNotes R43	Okay?
+R44	located_in Arg1:T16 Arg2:T20	
+#6	AnnotatorNotes R44	Okay?
+R45	located_in Arg1:T54 Arg2:T53	
+#7	AnnotatorNotes R45	Okay?

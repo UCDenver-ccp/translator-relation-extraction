@@ -105,3 +105,105 @@ T104	anatomical_site 2805 2818	ocular region
 T105	gene 2827 2831	Ptch
 T106	gene 2833 2836	Smo
 T107	gene 2841 2844	Gli
+T108	corrected_anatomical_site 38 49	lung tissue
+T109	corrected_gene 54 64	alpha 1-AC
+R1	located_in Arg1:T109 Arg2:T108	
+T110	missed_anatomical_site 105 113	alveolar
+R2	located_in Arg1:T109 Arg2:T110	
+R3	located_in Arg1:T5 Arg2:T6	
+T111	missed_anatomical_site 261 264	BAT
+R4	located_in Arg1:T5 Arg2:T111	
+R5	located_in Arg1:T7 Arg2:T9	
+T112	missed_gene 492 525	glutamic oxaloacetic transaminase
+R6	located_in Arg1:T112 Arg2:T14	
+T113	missed_gene 533 562	glutamic pyruvic transaminase
+R7	located_in Arg1:T113 Arg2:T15	
+R9	located_in Arg1:T20 Arg2:T19	
+R10	located_in Arg1:T24 Arg2:T22	
+R11	located_in Arg1:T24 Arg2:T23	
+R12	located_in Arg1:T27 Arg2:T26	
+T115	corrected_anatomical_site 1208 1222	kidney tissues
+T116	corrected_gene 1178 1193	type I collagen
+T117	missed_gene 1124 1163	tissue inhibitor of metalloproteinase-1
+T118	missed_anatomical_site 1041 1058	connective tissue
+R13	located_in Arg1:T30 Arg2:T118	
+R14	located_in Arg1:T31 Arg2:T118	
+R15	located_in Arg1:T117 Arg2:T34	
+R16	located_in Arg1:T35 Arg2:T34	
+T119	missed_gene 1195 1199	ColI
+T120	corrected_gene 995 1027	transforming growth factor-beta1
+R17	located_in Arg1:T120 Arg2:T115	
+R18	located_in Arg1:T29 Arg2:T115	
+R19	located_in Arg1:T30 Arg2:T115	
+R20	located_in Arg1:T31 Arg2:T115	
+R21	located_in Arg1:T32 Arg2:T115	
+R22	located_in Arg1:T33 Arg2:T115	
+R23	located_in Arg1:T117 Arg2:T115	
+R24	located_in Arg1:T35 Arg2:T115	
+R25	located_in Arg1:T116 Arg2:T115	
+R26	located_in Arg1:T119 Arg2:T115	
+R27	located_in Arg1:T43 Arg2:T38	
+R28	located_in Arg1:T43 Arg2:T39	
+R29	located_in Arg1:T43 Arg2:T40	
+R30	located_in Arg1:T43 Arg2:T41	
+R31	located_in Arg1:T43 Arg2:T42	
+R32	located_in Arg1:T44 Arg2:T38	
+R33	located_in Arg1:T44 Arg2:T39	
+R34	located_in Arg1:T44 Arg2:T40	
+R35	located_in Arg1:T44 Arg2:T41	
+R36	located_in Arg1:T44 Arg2:T42	
+R37	located_in Arg1:T45 Arg2:T46	
+R38	located_in Arg1:T45 Arg2:T47	
+R39	located_in Arg1:T45 Arg2:T48	
+R40	located_in Arg1:T50 Arg2:T49	
+R41	located_in Arg1:T51 Arg2:T49	
+R42	located_in Arg1:T52 Arg2:T49	
+R43	located_in Arg1:T54 Arg2:T56	
+R44	located_in Arg1:T55 Arg2:T56	
+T121	missed_anatomical_site 1674 1680	plasma
+R45	located_in Arg1:T61 Arg2:T121	
+R46	located_in Arg1:T65 Arg2:T62	
+R47	located_in Arg1:T66 Arg2:T62	
+R48	located_in Arg1:T66 Arg2:T63	
+R49	located_in Arg1:T66 Arg2:T64	
+T123	corrected_anatomical_site 2062 2072	vein blood
+R77	located_in Arg1:T78 Arg2:T123	
+T124	corrected_anatomical_site 2215 2227	liver tissue
+T125	missed_gene 2197 2202	CYP3A
+R78	located_in Arg1:T83 Arg2:T124	
+R79	located_in Arg1:T84 Arg2:T124	
+R80	located_in Arg1:T125 Arg2:T124	
+T126	missed_gene 2296 2300	SOST
+T127	corrected_anatomical_site 2326 2358	secondary metaphyseal trabeculae
+T128	corrected_anatomical_site 2360 2375	diaphyseal bone
+T129	corrected_anatomical_site 2383 2404	epiphyseal trabeculae
+R81	located_in Arg1:T126 Arg2:T127	
+R82	located_in Arg1:T126 Arg2:T128	
+R83	located_in Arg1:T126 Arg2:T129	
+T130	corrected_anatomical_site 2415 2430	gingival tissue
+R84	located_in Arg1:T92 Arg2:T130	
+T131	corrected_gene 2490 2502	p55 receptor
+R85	located_in Arg1:T131 Arg2:T130	
+T132	corrected_gene 2627 2642	type I collagen
+R86	located_in Arg1:T132 Arg2:T97	
+R87	located_in Arg1:T132 Arg2:T98	
+R88	located_in Arg1:T132 Arg2:T99	
+T133	corrected_gene 2710 2716;2722 2730	type I collagen
+R89	located_in Arg1:T133 Arg2:T100	
+T134	missed_gene 2585 2593	Elastase
+R90	located_in Arg1:T134 Arg2:T97	
+R91	located_in Arg1:T134 Arg2:T98	
+R92	located_in Arg1:T134 Arg2:T99	
+R93	located_in Arg1:T134 Arg2:T100	
+R94	located_in Arg1:T103 Arg2:T102	
+R95	located_in Arg1:T103 Arg2:T104	
+R96	located_in Arg1:T105 Arg2:T102	
+R97	located_in Arg1:T106 Arg2:T102	
+R98	located_in Arg1:T107 Arg2:T102	
+T135	missed_gene 2845 2849	Sufu
+R99	located_in Arg1:T135 Arg2:T102	
+T136	missed_anatomical_site 2860 2868	cephalic
+R100	located_in Arg1:T105 Arg2:T136	
+R101	located_in Arg1:T106 Arg2:T136	
+R102	located_in Arg1:T107 Arg2:T136	
+R103	located_in Arg1:T135 Arg2:T136	

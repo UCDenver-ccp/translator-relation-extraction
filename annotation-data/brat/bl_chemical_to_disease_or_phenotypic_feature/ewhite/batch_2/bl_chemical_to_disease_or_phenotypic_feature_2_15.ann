@@ -68,7 +68,7 @@ T67	chemical 2454 2465	bupivacaine
 T68	chemical 2470 2481	bupivacaine
 T69	chemical 2482 2491	lidocaine
 R1	causes_or_contributes_to Arg1:T4 Arg2:T5	
-T70	corrected_chemical 158 206	nonaspirin nonsteroidal anti-inflammatory agents
+T70	corrected_chemical 169 206	nonsteroidal anti-inflammatory agents
 R2	causes_or_contributes_to Arg1:T70 Arg2:T5	
 T71	missed_disease_or_phenotypic_feature 550 556	tumors
 R3	causes_or_contributes_to Arg1:T10 Arg2:T71	
@@ -93,8 +93,7 @@ R13	treats Arg1:T78 Arg2:T79
 R14	treats Arg1:T46 Arg2:T48	
 T80	missed_disease_or_phenotypic_feature 1830 1836	tumors
 R15	causes_or_contributes_to Arg1:T47 Arg2:T80	
-T81	missed_disease_or_phenotypic_feature 1810 1836	estrogen-responsive tumors
-R16	treats Arg1:T46 Arg2:T81	
+R16	treats Arg1:T46 Arg2:T80	
 R17	treats Arg1:T50 Arg2:T51	
 T82	missed_disease_or_phenotypic_feature 1955 1972	smoking cessation
 R18	treats Arg1:T50 Arg2:T52	
@@ -122,3 +121,26 @@ R30	causes_or_contributes_to Arg1:T55 Arg2:T60
 R31	causes_or_contributes_to Arg1:T55 Arg2:T88	
 R32	causes_or_contributes_to Arg1:T55 Arg2:T90	
 R33	causes_or_contributes_to Arg1:T55 Arg2:T89	
+T92	missed_chemical 1123 1141	diethylnitrosamine
+T93	missed_disease_or_phenotypic_feature 1161 1167	tumors
+R34	causes_or_contributes_to Arg1:T92 Arg2:T93	
+R35	treats Arg1:T36 Arg2:T77	
+R36	treats Arg1:T36 Arg2:T37	
+R37	treats Arg1:T40 Arg2:T79	
+R38	treats Arg1:T40 Arg2:T42	
+R39	treats Arg1:T61 Arg2:T91	
+R40	causes_or_contributes_to Arg1:T61 Arg2:T89	
+R41	causes_or_contributes_to Arg1:T61 Arg2:T90	
+R42	causes_or_contributes_to Arg1:T61 Arg2:T88	
+R43	causes_or_contributes_to Arg1:T61 Arg2:T60	
+R44	causes_or_contributes_to Arg1:T61 Arg2:T87	
+R45	causes_or_contributes_to Arg1:T61 Arg2:T59	
+R46	causes_or_contributes_to Arg1:T61 Arg2:T86	
+R47	causes_or_contributes_to Arg1:T61 Arg2:T85	
+R48	causes_or_contributes_to Arg1:T61 Arg2:T58	
+R49	causes_or_contributes_to Arg1:T61 Arg2:T84	
+T81	missed_chemical 74 83	nutrition
+R50	causes_or_contributes_to Arg1:T81 Arg2:T2	
+T94	missed_disease_or_phenotypic_feature 134 139	tumor
+R51	causes_or_contributes_to Arg1:T81 Arg2:T94	
+R52	causes_or_contributes_to Arg1:T47 Arg2:T48	

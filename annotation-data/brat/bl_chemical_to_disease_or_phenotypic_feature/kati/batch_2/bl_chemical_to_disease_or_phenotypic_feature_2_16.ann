@@ -65,7 +65,7 @@ T66	disease_or_phenotypic_feature 2205 2216	lung cancer
 R1	treats Arg1:T4 Arg2:T5	
 T67	corrected_chemical 228 241;254 297	high-affinity antisense oligonucleotide inhibitor of KRAS
 T68	missed_chemical 217 224	AZD4785
-T69	corrected_disease_or_phenotypic_feature 190 211	KRAS-dependent tumors
+T69	corrected_disease_or_phenotypic_feature 205 211	tumors
 R2	treats Arg1:T68 Arg2:T69	
 R3	treats Arg1:T67 Arg2:T69	
 T70	missed_disease_or_phenotypic_feature 655 661	nausea
@@ -96,9 +96,12 @@ R21	treats Arg1:T78 Arg2:T56
 R22	treats Arg1:T57 Arg2:T59	
 T79	corrected_chemical 1825 1842	hyperbaric oxygen
 R23	causes_or_contributes_to Arg1:T79 Arg2:T60	
-T75	corrected_chemical 329 361	vaccinia-expressed tumor antigen
-T80	missed_disease_or_phenotypic_feature 425 465	immunological ignorance to tumor antigen
-R18	treats Arg1:T75 Arg2:T80	
 T81	missed_disease_or_phenotypic_feature 831 847	tumor regression
 R24	causes_or_contributes_to Arg1:T26 Arg2:T81	
 R25	treats Arg1:T26 Arg2:T25	
+R19	treats Arg1:T4 Arg2:T3	
+R18	causes_or_contributes_to Arg1:T21 Arg2:T22	
+T75	missed_disease_or_phenotypic_feature 1167 1172	tumor
+R26	treats Arg1:T36 Arg2:T75	
+R27	treats Arg1:T36 Arg2:T35	
+R28	causes_or_contributes_to Arg1:T2 Arg2:T1	

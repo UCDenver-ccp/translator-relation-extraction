@@ -109,3 +109,84 @@ T108	gene 2719 2724	IGF-1
 T109	anatomical_site 2744 2748	skin
 T110	gene 2773 2787	Thrombomodulin
 T111	anatomical_site 2791 2796	urine
+R1	located_in Arg1:T6 Arg2:T7	
+T112	missed_gene 343 347	TNF?
+R2	located_in Arg1:T112 Arg2:T15	
+R3	located_in Arg1:T13 Arg2:T15	
+R4	located_in Arg1:T14 Arg2:T15	
+R5	located_in Arg1:T16 Arg2:T17	
+T113	corrected_anatomical_site 446 478	proliferating epithelial tissues
+R6	located_in Arg1:T18 Arg2:T113	
+R7	located_in Arg1:T21 Arg2:T113	
+R8	located_in Arg1:T22 Arg2:T113	
+R9	located_in Arg1:T23 Arg2:T113	
+T114	corrected_anatomical_site 616 627	lung tissue
+R10	located_in Arg1:T26 Arg2:T114	
+R11	located_in Arg1:T27 Arg2:T114	
+R12	located_in Arg1:T28 Arg2:T114	
+T115	missed_gene 691 696	CIDEA
+R13	located_in Arg1:T115 Arg2:T30	
+R14	located_in Arg1:T29 Arg2:T30	
+R15	located_in Arg1:T31 Arg2:T32	
+R16	located_in Arg1:T37 Arg2:T36	
+T116	corrected_anatomical_site 939 958	TG pial mesothelium
+T117	corrected_anatomical_site 963 979	subpial vascular
+T118	corrected_gene 1002 1009	c-erbB2
+T119	missed_gene 1017 1020	CK7
+R17	located_in Arg1:T118 Arg2:T116	
+R18	located_in Arg1:T118 Arg2:T117	
+R19	located_in Arg1:T41 Arg2:T116	
+R20	located_in Arg1:T41 Arg2:T117	
+R21	located_in Arg1:T119 Arg2:T116	
+R22	located_in Arg1:T119 Arg2:T117	
+R23	located_in Arg1:T42 Arg2:T116	
+R24	located_in Arg1:T42 Arg2:T117	
+R25	located_in Arg1:T43 Arg2:T45	
+T120	corrected_anatomical_site 1124 1137	outer medulla
+T121	corrected_anatomical_site 1142 1155	inner medulla
+R26	located_in Arg1:T44 Arg2:T45	
+R27	located_in Arg1:T43 Arg2:T120	
+R28	located_in Arg1:T44 Arg2:T120	
+R29	located_in Arg1:T43 Arg2:T121	
+R30	located_in Arg1:T44 Arg2:T121	
+T122	corrected_anatomical_site 1643 1655	lung tissues
+R31	located_in Arg1:T58 Arg2:T122	
+T123	missed_gene 1554 1560	RANTES
+T124	missed_gene 1569 1574	IL-33
+T125	missed_anatomical_site 1576 1582	thymic
+T126	missed_gene 1606 1627	inducible NO synthase
+T127	missed_gene 1633 1639	MUC5ac
+R32	located_in Arg1:T62 Arg2:T125	
+R33	located_in Arg1:T59 Arg2:T122	
+R34	located_in Arg1:T60 Arg2:T122	
+R35	located_in Arg1:T123 Arg2:T122	
+R36	located_in Arg1:T61 Arg2:T122	
+R37	located_in Arg1:T124 Arg2:T122	
+R38	located_in Arg1:T62 Arg2:T122	
+R39	located_in Arg1:T126 Arg2:T122	
+R40	located_in Arg1:T127 Arg2:T122	
+R41	located_in Arg1:T65 Arg2:T70	
+R42	located_in Arg1:T66 Arg2:T70	
+R43	located_in Arg1:T67 Arg2:T70	
+R44	located_in Arg1:T68 Arg2:T70	
+T128	corrected_anatomical_site 2105 2130	notochord-somite boundary
+R45	located_in Arg1:T80 Arg2:T128	
+R46	located_in Arg1:T86 Arg2:T84	
+T129	missed_gene 2295 2315	surfactant protein A
+R47	located_in Arg1:T129 Arg2:T94	
+R48	located_in Arg1:T93 Arg2:T94	
+T130	missed_anatomical_site 2394 2408	alveolar space
+R49	located_in Arg1:T129 Arg2:T130	
+R50	located_in Arg1:T93 Arg2:T130	
+R51	located_in Arg1:T95 Arg2:T96	
+R52	located_in Arg1:T95 Arg2:T97	
+T131	missed_gene 2525 2531	PADGEM
+R53	located_in Arg1:T98 Arg2:T100	
+R54	located_in Arg1:T99 Arg2:T100	
+R55	located_in Arg1:T131 Arg2:T100	
+R56	located_in Arg1:T110 Arg2:T111	
+R57	located_in Arg1:T129 Arg2:T92	
+R58	located_in Arg1:T93 Arg2:T92	
+T132	corrected_anatomical_site 2690 2710	Vascular endothelial
+R59	located_in Arg1:T107 Arg2:T132	
+R60	located_in Arg1:T108 Arg2:T132	

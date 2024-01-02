@@ -8,7 +8,6 @@ T7	disease_or_phenotypic_feature 524 533	condition
 T8	chemical 600 605	group
 T9	chemical 879 888	Cobalt(II
 T10	corrected_chemical 879 908	Cobalt(II) Diphenylazodioxide
-T11	missed_disease_or_phenotypic_feature 926 935	Apoptosis
 T12	disease_or_phenotypic_feature 939 947	SK-HEP-1
 T13	chemical 1028 1035	retinol
 T14	disease_or_phenotypic_feature 1074 1089	prostate cancer
@@ -60,11 +59,23 @@ T61	disease_or_phenotypic_feature 4285 4288	ASD
 R1	treats Arg1:T27 Arg2:T26
 R3	treats Arg1:T28 Arg2:T30
 R4	causes_or_contributes_to Arg1:T28 Arg2:T29
-R5	treats Arg1:T16 Arg2:T17
-R6	causes_or_contributes_to Arg1:T10 Arg2:T11
 R8	treats Arg1:T48 Arg2:T47
 R9	treats Arg1:T13 Arg2:T15
 R10	causes_or_contributes_to Arg1:T13 Arg2:T14
 R11	causes_or_contributes_to Arg1:T18 Arg2:T19
 T62	missed_disease_or_phenotypic_feature 1795 1797	MM
 R12	treats Arg1:T27 Arg2:T62	
+T41	missed_disease_or_phenotypic_feature 1108 1113;1123 1130	liver cancers
+R2	treats Arg1:T13 Arg2:T41	
+T42	missed_chemical 1986 2000;2071 2082	liposome-based imperialine
+R7	treats Arg1:T42 Arg2:T30	
+R13	treats Arg1:T42 Arg2:T29	
+R14	treats Arg1:T10 Arg2:T12	
+T11	missed_disease_or_phenotypic_feature 3251 3256	tumor
+T63	corrected_chemical 3238 3250	ICOS agonist
+R6	treats Arg1:T63 Arg2:T11	
+T64	missed_chemical 3213 3233	anti-CTLA-4 blockade
+R15	treats Arg1:T64 Arg2:T11	
+T65	missed_disease_or_phenotypic_feature 2367 2376;2403 2410	antitumor effects
+T66	corrected_chemical 2238 2258;2321 2334	lactoferricin-loaded nanoparticles
+R16	causes_or_contributes_to Arg1:T66 Arg2:T65	

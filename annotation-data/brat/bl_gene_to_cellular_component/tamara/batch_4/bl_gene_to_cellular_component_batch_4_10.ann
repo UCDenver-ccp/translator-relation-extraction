@@ -85,3 +85,39 @@ T84	gene 2988 2995	radixin
 T85	gene 2997 3003	moesin
 T86	cellular_component 3062 3077	plasma membrane
 T87	cellular_component 3086 3104	actin cytoskeleton
+T88	missed_gene 60 64	KSRP
+R1	located_in Arg1:T88 Arg2:T2	
+R2	located_in Arg1:T9 Arg2:T11	
+R3	located_in Arg1:T10 Arg2:T11	
+R4	located_in Arg1:T16 Arg2:T18	
+R5	located_in Arg1:T17 Arg2:T18	
+R6	located_in Arg1:T31 Arg2:T30	
+R7	located_in Arg1:T32 Arg2:T30	
+T89	missed_gene 1065 1069	PARP
+R8	located_in Arg1:T89 Arg2:T30	
+R9	located_in Arg1:T39 Arg2:T40	
+R10	located_in Arg1:T35 Arg2:T40	
+R11	located_in Arg1:T41 Arg2:T42	
+T90	missed_cellular_component 1501 1514	Intercellular
+R12	located_in Arg1:T43 Arg2:T90	
+R13	located_in Arg1:T44 Arg2:T90	
+R14	located_in Arg1:T63 Arg2:T62	
+T91	missed_gene 2117 2122	talin
+R15	located_in Arg1:T91 Arg2:T62	
+R16	located_in Arg1:T64 Arg2:T62	
+R17	located_in Arg1:T65 Arg2:T62	
+T92	missed_gene 2147 2155	pp125FAK
+R18	located_in Arg1:T92 Arg2:T62	
+R19	located_in Arg1:T63 Arg2:T61	
+R20	located_in Arg1:T91 Arg2:T61	
+R21	located_in Arg1:T64 Arg2:T61	
+R22	located_in Arg1:T65 Arg2:T61	
+R23	located_in Arg1:T92 Arg2:T61	
+R24	located_in Arg1:T80 Arg2:T81	
+R25	located_in Arg1:T77 Arg2:T78	
+T93	missed_gene 2767 2794	phosphatidylinositol-kinase
+R26	located_in Arg1:T93 Arg2:T78	
+R27	located_in Arg1:T82 Arg2:T86	
+#1	AnnotatorNotes R27	Okay?
+R28	located_in Arg1:T82 Arg2:T87	
+#2	AnnotatorNotes R28	Okay?

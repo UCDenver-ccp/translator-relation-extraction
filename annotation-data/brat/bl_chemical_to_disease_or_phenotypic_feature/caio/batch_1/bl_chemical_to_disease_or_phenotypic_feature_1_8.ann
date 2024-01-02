@@ -56,18 +56,28 @@ T55	disease_or_phenotypic_feature 2796 2802	glioma
 T56	chemical 2831 2835	CDDP
 T57	chemical 2860 2864	drug
 T58	missed_disease_or_phenotypic_feature 443 457	hyperreninemia
-T59	missed_disease_or_phenotypic_feature 459 497	chloride-resistant metabolic alkalosis
+T59	missed_disease_or_phenotypic_feature 478 497	metabolic alkalosis
 T60	missed_disease_or_phenotypic_feature 533 546	hypocalciuria
 T61	missed_disease_or_phenotypic_feature 856 868	hypertension
-T62	corrected_chemical 1379 1401	antigen-based vaccines
+T62	corrected_chemical 1373 1401	tumor antigen-based vaccines
 R1	treats Arg1:T62 Arg2:T30	
-T64	missed_chemical 1454 1456	AR
 T67	missed_chemical 1808 1811	GAD
 T68	DONE 2875 2879	DONE
 T69	corrected_chemical 48 79	Hemoglobin-based oxygen carrier
 R4	treats Arg1:T69 Arg2:T5	
-R5	treats Arg1:T11 Arg2:T59	
 R2	causes_or_contributes_to Arg1:T37 Arg2:T38	
 T63	corrected_chemical 2378 2399	amphetamine compounds
-R3	treats Arg1:T63 Arg2:T47	
 R6	treats Arg1:T56 Arg2:T55	
+T65	corrected_disease_or_phenotypic_feature 1917 1926	addiction
+R7	causes_or_contributes_to Arg1:T39 Arg2:T65	
+T66	missed_disease_or_phenotypic_feature 820 823	CIN
+R11	treats Arg1:T21 Arg2:T70	
+T70	missed_disease_or_phenotypic_feature 1007 1035	renal failure adverse events
+T71	chemical 1029 1035	events
+R14	treats Arg1:T11 Arg2:T59	
+T64	missed_disease_or_phenotypic_feature 1872 1890	induced plasticity
+R15	causes_or_contributes_to Arg1:T39 Arg2:T64	
+R16	treats Arg1:T57 Arg2:T55	
+T72	missed_disease_or_phenotypic_feature 2854 2859	tumor
+R17	treats Arg1:T56 Arg2:T72	
+R18	treats Arg1:T57 Arg2:T72	

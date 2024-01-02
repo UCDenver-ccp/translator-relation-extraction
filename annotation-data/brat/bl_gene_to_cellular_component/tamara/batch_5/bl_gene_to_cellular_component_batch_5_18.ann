@@ -99,3 +99,38 @@ T98	gene 3639 3651	EGF receptor
 T99	gene 3672 3684	amphiregulin
 T100	gene 3729 3739	IL-1 alpha
 T101	gene 3743 3752	TNF-alpha
+T102	missed_cellular_component 258 265	nuclear
+T103	corrected_gene 145 152	p66WASP
+R1	located_in Arg1:T103 Arg2:T4	
+R2	located_in Arg1:T103 Arg2:T5	
+R3	located_in Arg1:T103 Arg2:T102	
+T104	missed_gene 332 341	ADAR1p110
+R4	located_in Arg1:T104 Arg2:T10	
+R5	located_in Arg1:T9 Arg2:T10	
+T105	corrected_gene 345 369	MKK6-p38-MSK MAP kinases
+R6	located_in Arg1:T105 Arg2:T10	
+R7	located_in Arg1:T17 Arg2:T18	
+R8	located_in Arg1:T22 Arg2:T23	
+R9	located_in Arg1:T27 Arg2:T28	
+R10	located_in Arg1:T25 Arg2:T26	
+#1	AnnotatorNotes R10	Okay?
+T106	missed_gene 1221 1260;1266 1285	heparin-binding epidermal growth factor -like growth factor
+R11	located_in Arg1:T106 Arg2:T31	
+T107	corrected_gene 1221 1236;1262 1265;1266 1285	heparin-binding EGF -like growth factor
+R12	located_in Arg1:T107 Arg2:T31	
+R13	located_in Arg1:T59 Arg2:T60	
+T108	missed_gene 2168 2173	actin
+R14	located_in Arg1:T108 Arg2:T61	
+R15	located_in Arg1:T64 Arg2:T65	
+T109	corrected_gene 2775 2794	IL-1beta receptor 1
+R16	located_in Arg1:T79 Arg2:T81	
+R17	located_in Arg1:T109 Arg2:T81	
+R18	located_in Arg1:T82 Arg2:T85	
+T110	corrected_gene 2856 2869	Smad proteins
+R19	located_in Arg1:T110 Arg2:T85	
+#2	AnnotatorNotes R19	Okay?
+R20	located_in Arg1:T86 Arg2:T85	
+#3	AnnotatorNotes R20	Okay?
+R21	located_in Arg1:T87 Arg2:T85	
+#4	AnnotatorNotes R21	Okay?
+R22	located_in Arg1:T94 Arg2:T95	

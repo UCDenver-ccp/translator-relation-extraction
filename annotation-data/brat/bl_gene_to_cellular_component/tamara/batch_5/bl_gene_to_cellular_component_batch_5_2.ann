@@ -84,3 +84,56 @@ T83	cellular_component 2636 2640	Smad
 T84	gene 2665 2696	Transforming growth factor beta
 T85	gene 2698 2706	TGF-beta
 T86	cellular_component 2828 2848	extracellular matrix
+T87	corrected_gene 0 28	Soluble TNF-alpha receptor 1
+T88	missed_gene 30 36	sTNFR1
+R1	located_in Arg1:T88 Arg2:T2	
+R2	located_in Arg1:T87 Arg2:T2	
+T89	corrected_gene 68 88	TNF-alpha receptor 1
+R3	located_in Arg1:T89 Arg2:T2	
+T90	missed_gene 375 382	ankyrin
+T91	corrected_gene 392 405	beta spectrin
+T92	corrected_gene 407 421	alpha spectrin
+T93	missed_gene 426 437	protein 4.2
+T94	missed_gene 384 390	band 3
+R4	located_in Arg1:T90 Arg2:T9	
+R5	located_in Arg1:T94 Arg2:T9	
+R6	located_in Arg1:T91 Arg2:T9	
+R7	located_in Arg1:T92 Arg2:T9	
+R8	located_in Arg1:T93 Arg2:T9	
+R9	located_in Arg1:T15 Arg2:T14	
+#1	AnnotatorNotes R9	Okay?
+T95	missed_gene 800 804	CD13
+R10	located_in Arg1:T95 Arg2:T25	
+T96	missed_gene 829 833	EFA6
+R11	located_in Arg1:T96 Arg2:T25	
+#2	AnnotatorNotes R11	Okay?
+R12	located_in Arg1:T23 Arg2:T25	
+#3	AnnotatorNotes R12	Okay?
+R13	located_in Arg1:T24 Arg2:T25	
+#4	AnnotatorNotes R13	Okay?
+R14	located_in Arg1:T30 Arg2:T29	
+R15	located_in Arg1:T31 Arg2:T29	
+R16	located_in Arg1:T32 Arg2:T29	
+R17	located_in Arg1:T35 Arg2:T36	
+R18	located_in Arg1:T46 Arg2:T45	
+R19	located_in Arg1:T49 Arg2:T50	
+T97	missed_gene 1562 1567	IL1F5
+R20	located_in Arg1:T97 Arg2:T50	
+T98	corrected_gene 1555 1560	CALM1
+R21	located_in Arg1:T98 Arg2:T50	
+R22	located_in Arg1:T47 Arg2:T50	
+T99	missed_gene 1537 1544	COL11A1
+R23	located_in Arg1:T99 Arg2:T50	
+R24	located_in Arg1:T55 Arg2:T54	
+R25	located_in Arg1:T59 Arg2:T58	
+R26	located_in Arg1:T62 Arg2:T61	
+T100	missed_gene 2149 2152	B23
+R27	located_in Arg1:T63 Arg2:T64	
+R28	located_in Arg1:T100 Arg2:T64	
+R29	located_in Arg1:T63 Arg2:T65	
+R30	located_in Arg1:T100 Arg2:T65	
+T101	missed_gene 2243 2259	lysosomal marker
+R31	located_in Arg1:T101 Arg2:T67	
+R32	located_in Arg1:T68 Arg2:T67	
+R33	located_in Arg1:T66 Arg2:T67	
+#5	AnnotatorNotes R33	Okay?

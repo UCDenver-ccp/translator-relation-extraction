@@ -102,3 +102,101 @@ T101	gene 2821 2825	KAI1
 T102	gene 2826 2837	protein can
 T103	anatomical_site 2862 2866	skin
 T104	anatomical_site 2867 2873	tissue
+R1	located_in Arg1:T3 Arg2:T2	
+T105	corrected_gene 166 172	Tpm1.1
+R2	located_in Arg1:T105 Arg2:T4	
+T106	corrected_gene 193 199	Tpm1.1
+T107	corrected_gene 200 206	Tpm2.2
+R3	located_in Arg1:T106 Arg2:T6	
+R4	located_in Arg1:T107 Arg2:T6	
+T108	missed_gene 332 336	LCM1
+T109	corrected_gene 341 345	LMC5
+R5	located_in Arg1:T108 Arg2:T11	
+R6	located_in Arg1:T109 Arg2:T11	
+T110	corrected_anatomical_site 384 399	upper intestine
+T111	corrected_gene 360 364	LMC2
+T112	corrected_gene 369 373	LMC5
+R7	located_in Arg1:T111 Arg2:T110	
+R8	located_in Arg1:T112 Arg2:T110	
+T113	corrected_gene 409 413	LMC2
+R9	located_in Arg1:T113 Arg2:T17	
+T114	corrected_gene 654 657;659 660	ERK 2
+R10	located_in Arg1:T19 Arg2:T22	
+R11	located_in Arg1:T19 Arg2:T23	
+R12	located_in Arg1:T19 Arg2:T24	
+R13	located_in Arg1:T20 Arg2:T22	
+R14	located_in Arg1:T20 Arg2:T23	
+R15	located_in Arg1:T20 Arg2:T24	
+R16	located_in Arg1:T21 Arg2:T22	
+R17	located_in Arg1:T21 Arg2:T23	
+R18	located_in Arg1:T21 Arg2:T24	
+R19	located_in Arg1:T114 Arg2:T22	
+R20	located_in Arg1:T114 Arg2:T23	
+R21	located_in Arg1:T114 Arg2:T24	
+R22	located_in Arg1:T30 Arg2:T34	
+T115	corrected_gene 858 881	adiponectin receptors 1
+T116	corrected_gene 858 879;896 897	adiponectin receptors 2
+R23	located_in Arg1:T115 Arg2:T34	
+R24	located_in Arg1:T32 Arg2:T34	
+R25	located_in Arg1:T116 Arg2:T34	
+R26	located_in Arg1:T33 Arg2:T34	
+R27	located_in Arg1:T35 Arg2:T36	
+T117	corrected_gene 1101 1129;1137 1178	insulin receptor substrate-1 -associated phosphatidylinositol 3-kinase
+T118	corrected_gene 1131 1136;1137 1178	IRS-1 -associated phosphatidylinositol 3-kinase
+R28	located_in Arg1:T117 Arg2:T41	
+R29	located_in Arg1:T118 Arg2:T41	
+T119	corrected_gene 1361 1366	MSRB1
+T120	corrected_gene 1383 1388	MSRB2
+R30	located_in Arg1:T119 Arg2:T48	
+R31	located_in Arg1:T119 Arg2:T49	
+R32	located_in Arg1:T119 Arg2:T50	
+R33	located_in Arg1:T120 Arg2:T48	
+R34	located_in Arg1:T120 Arg2:T49	
+R35	located_in Arg1:T120 Arg2:T50	
+R36	located_in Arg1:T51 Arg2:T54	
+R37	located_in Arg1:T52 Arg2:T54	
+R38	located_in Arg1:T53 Arg2:T54	
+R39	located_in Arg1:T57 Arg2:T56	
+T121	missed_anatomical_site 1819 1825	plasma
+R40	located_in Arg1:T64 Arg2:T121	
+R41	located_in Arg1:T68 Arg2:T67	
+T122	corrected_gene 1975 1997	ANG II type 1 receptor
+R42	located_in Arg1:T122 Arg2:T67	
+T123	missed_anatomical_site 2105 2112	tissues
+R43	located_in Arg1:T72 Arg2:T123	
+T124	corrected_anatomical_site 2258 2268	CNS myelin
+R44	located_in Arg1:T79 Arg2:T124	
+R45	located_in Arg1:T80 Arg2:T124	
+T125	missed_gene 2302 2313	proteolipid
+R46	located_in Arg1:T125 Arg2:T124	
+R47	located_in Arg1:T81 Arg2:T124	
+T126	missed_gene 2324 2365	2', 3'-cyclic nucleotide phosphohydrolase
+T127	missed_gene 2367 2370	CNP
+R48	located_in Arg1:T126 Arg2:T124	
+R49	located_in Arg1:T127 Arg2:T124	
+T128	corrected_anatomical_site 2439 2450	breast milk
+R50	located_in Arg1:T82 Arg2:T128	
+R51	located_in Arg1:T83 Arg2:T128	
+R52	located_in Arg1:T84 Arg2:T128	
+T129	corrected_gene 2424 2429	TNF-α
+R53	located_in Arg1:T129 Arg2:T128	
+T130	missed_anatomical_site 2604 2624	coronary circulation
+T131	missed_anatomical_site 2492 2498	Plasma
+R54	located_in Arg1:T89 Arg2:T131	
+R55	located_in Arg1:T90 Arg2:T131	
+T132	missed_gene 2557 2580	serum amyloid A protein
+R56	located_in Arg1:T132 Arg2:T91	
+R57	located_in Arg1:T132 Arg2:T131	
+R58	located_in Arg1:T89 Arg2:T130	
+R59	located_in Arg1:T90 Arg2:T130	
+R60	located_in Arg1:T132 Arg2:T130	
+R61	located_in Arg1:T92 Arg2:T97	
+R62	located_in Arg1:T93 Arg2:T97	
+R63	located_in Arg1:T94 Arg2:T97	
+R64	located_in Arg1:T95 Arg2:T97	
+R65	located_in Arg1:T96 Arg2:T97	
+R66	located_in Arg1:T99 Arg2:T98	
+T133	missed_gene 2748 2753	SPARC
+R67	located_in Arg1:T133 Arg2:T100	
+T134	corrected_anatomical_site 2862 2873	skin tissue
+R68	located_in Arg1:T101 Arg2:T134	

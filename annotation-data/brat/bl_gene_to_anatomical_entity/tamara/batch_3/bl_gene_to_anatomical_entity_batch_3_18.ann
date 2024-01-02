@@ -112,7 +112,6 @@ R9	located_in Arg1:T102 Arg2:T23
 T103	missed_gene 937 944	glucose
 R10	located_in Arg1:T31 Arg2:T30	
 R11	located_in Arg1:T103 Arg2:T30	
-R12	located_in Arg1:T39 Arg2:T40	
 R13	located_in Arg1:T48 Arg2:T49	
 T104	missed_gene 1545 1549	CCl4
 R14	located_in Arg1:T104 Arg2:T51	
@@ -139,3 +138,22 @@ R28	located_in Arg1:T93 Arg2:T96
 R29	located_in Arg1:T94 Arg2:T96	
 R30	located_in Arg1:T95 Arg2:T96	
 R31	located_in Arg1:T98 Arg2:T99	
+R32	located_in Arg1:T14 Arg2:T13	
+R33	located_in Arg1:T14 Arg2:T12	
+R34	located_in Arg1:T14 Arg2:T11	
+R35	located_in Arg1:T14 Arg2:T10	
+#3	AnnotatorNotes R35	Okay?
+T109	corrected_gene 719 734	p53-target gene
+#4	AnnotatorNotes T109	okay?
+R36	located_in Arg1:T109 Arg2:T25	
+#5	AnnotatorNotes R36	Okay?
+T110	missed_gene 987 990	IGF
+R37	located_in Arg1:T110 Arg2:T32	
+R38	located_in Arg1:T35 Arg2:T32	
+#6	AnnotatorNotes R38	Okay?
+R39	located_in Arg1:T36 Arg2:T32	
+#7	AnnotatorNotes R39	Okay?
+R40	located_in Arg1:T37 Arg2:T32	
+#8	AnnotatorNotes R40	Okay?
+T111	corrected_gene 1089 1094;1101 1103	IGFBP -3
+R41	located_in Arg1:T111 Arg2:T32	

@@ -61,7 +61,6 @@ T60	missed_chemical 2920 2923	ICS
 T61	chemical 3141 3147	group.
 T62	chemical 3224 3236	Anthocyanins
 T63	disease_or_phenotypic_feature 3307 3322	obesity-related
-T64	corrected_disease_or_phenotypic_feature 3307 3335	obesity-related inflammation
 T65	disease_or_phenotypic_feature 3411 3424	herpes zoster
 T66	chemical 3437 3444	retinal
 T67	disease_or_phenotypic_feature 3437 3459	retinal vein occlusion
@@ -81,15 +80,20 @@ R4	causes_or_contributes_to Arg1:T73 Arg2:T70
 R5	causes_or_contributes_to Arg1:T38 Arg2:T39
 R6	causes_or_contributes_to Arg1:T68 Arg2:T67
 R7	causes_or_contributes_to Arg1:T68 Arg2:T65
-R8	treats Arg1:T62 Arg2:T64
-R9	treats Arg1:T33 Arg2:T32
 R10	treats Arg1:T76 Arg2:T74
 R11	treats Arg1:T76 Arg2:T75
 R12	treats Arg1:T12 Arg2:T14
 R13	treats Arg1:T29 Arg2:T32
 R14	treats Arg1:T59 Arg2:T58
-T77	missed_disease_or_phenotypic_feature 1626 1638	inflammatory
-R15	treats Arg1:T34 Arg2:T77	
 T78	corrected_disease_or_phenotypic_feature 2859 2865	asthma
 R16	treats Arg1:T59 Arg2:T78	
 R17	treats Arg1:T60 Arg2:T78	
+R18	causes_or_contributes_to Arg1:T4 Arg2:T8	
+T79	missed_disease_or_phenotypic_feature 160 165	NAFLD
+R21	causes_or_contributes_to Arg1:T19 Arg2:T20	
+R22	causes_or_contributes_to Arg1:T19 Arg2:T18	
+R9	treats Arg1:T33 Arg2:T32	
+T64	missed_disease_or_phenotypic_feature 3260 3275	health benefits
+R8	causes_or_contributes_to Arg1:T62 Arg2:T64	
+T77	missed_disease_or_phenotypic_feature 3914 3939	improves cardiac outcomes
+R15	causes_or_contributes_to Arg1:T76 Arg2:T77	

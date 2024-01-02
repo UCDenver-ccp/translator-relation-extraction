@@ -94,3 +94,51 @@ T93	cellular_component 3258 3267	lysosomes
 T94	gene 3300 3309	ubiquitin
 T95	cellular_component 3377 3392	early endosomes
 T96	gene 3405 3413	clathrin
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T4 Arg2:T3	
+R3	located_in Arg1:T5 Arg2:T3	
+T97	missed_gene 817 820	FAK
+#1	AnnotatorNotes T97	okay?
+T98	missed_cellular_component 809 816	nuclear
+R4	located_in Arg1:T97 Arg2:T98	
+T99	missed_gene 1171 1179	synapsin
+R5	located_in Arg1:T99 Arg2:T28	
+R6	located_in Arg1:T29 Arg2:T28	
+T100	missed_gene 1348 1355	F-actin
+R7	located_in Arg1:T100 Arg2:T33	
+R8	located_in Arg1:T36 Arg2:T35	
+R9	located_in Arg1:T37 Arg2:T35	
+T101	corrected_gene 1757 1762	Pex5p
+R10	located_in Arg1:T101 Arg2:T47	
+#2	AnnotatorNotes R10	Okay?
+T102	missed_cellular_component 1863 1870	nuclear
+R11	located_in Arg1:T51 Arg2:T102	
+R12	located_in Arg1:T52 Arg2:T53	
+R13	located_in Arg1:T54 Arg2:T55	
+R14	located_in Arg1:T62 Arg2:T63	
+#3	AnnotatorNotes R14	Okay?
+T103	missed_gene 2156 2161	C149G
+R15	located_in Arg1:T61 Arg2:T63	
+#4	AnnotatorNotes R15	Okay?
+R16	located_in Arg1:T103 Arg2:T63	
+#5	AnnotatorNotes R16	Okay?
+R17	located_in Arg1:T64 Arg2:T65	
+R18	located_in Arg1:T66 Arg2:T67	
+R19	located_in Arg1:T70 Arg2:T69	
+R20	located_in Arg1:T77 Arg2:T78	
+R21	located_in Arg1:T82 Arg2:T85	
+R22	located_in Arg1:T86 Arg2:T87	
+R23	located_in Arg1:T82 Arg2:T85	
+T104	missed_cellular_component 3105 3112	nuclear
+R24	located_in Arg1:T89 Arg2:T88	
+R25	located_in Arg1:T89 Arg2:T104	
+T105	missed_gene 3151 3157	FoxO3a
+R26	located_in Arg1:T105 Arg2:T104	
+R27	located_in Arg1:T105 Arg2:T88	
+T106	missed_gene 3328 3331	Hrs
+T107	missed_gene 3336 3340	STAM
+R28	located_in Arg1:T96 Arg2:T95	
+R29	located_in Arg1:T107 Arg2:T95	
+R30	located_in Arg1:T106 Arg2:T95	
+T108	corrected_gene 3300 3326	ubiquitin-binding proteins
+R31	located_in Arg1:T108 Arg2:T95	

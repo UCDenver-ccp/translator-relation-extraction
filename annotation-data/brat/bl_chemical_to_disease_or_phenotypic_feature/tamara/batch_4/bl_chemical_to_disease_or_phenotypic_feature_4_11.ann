@@ -76,7 +76,30 @@ R17	treats Arg1:T66 Arg2:T67
 R1	treats Arg1:T69 Arg2:T1	
 T68	missed_chemical 21 28	vaccine
 R2	treats Arg1:T68 Arg2:T1	
-R3	treats Arg1:T58 Arg2:T61	
-R4	treats Arg1:T59 Arg2:T61	
-R6	treats Arg1:T60 Arg2:T61	
 T70	DONE 2303 2307	DONE
+T71	missed_disease_or_phenotypic_feature 115 120	tumor
+R8	treats Arg1:T68 Arg2:T71	
+R9	treats Arg1:T69 Arg2:T71	
+R10	treats Arg1:T10 Arg2:T9	
+R11	causes_or_contributes_to Arg1:T22 Arg2:T23	
+T72	corrected_disease_or_phenotypic_feature 759 781	bradycardic arrhythmia
+R12	causes_or_contributes_to Arg1:T22 Arg2:T72	
+R18	causes_or_contributes_to Arg1:T22 Arg2:T26	
+R19	causes_or_contributes_to Arg1:T22 Arg2:T27	
+T73	missed_disease_or_phenotypic_feature 1445 1450	tumor
+R20	causes_or_contributes_to Arg1:T41 Arg2:T73	
+R21	causes_or_contributes_to Arg1:T41 Arg2:T40	
+R22	causes_or_contributes_to Arg1:T43 Arg2:T73	
+R23	causes_or_contributes_to Arg1:T44 Arg2:T73	
+R24	causes_or_contributes_to Arg1:T43 Arg2:T40	
+R25	causes_or_contributes_to Arg1:T44 Arg2:T40	
+T74	corrected_chemical 1490 1506	steroid hormones
+R26	causes_or_contributes_to Arg1:T74 Arg2:T73	
+R27	causes_or_contributes_to Arg1:T74 Arg2:T40	
+T75	missed_disease_or_phenotypic_feature 1765 1771	tumors
+R28	causes_or_contributes_to Arg1:T51 Arg2:T75	
+R3	treats Arg1:T5 Arg2:T8	
+T76	corrected_chemical 240 256	HIF-1? inhibitor
+R4	treats Arg1:T76 Arg2:T8	
+T77	missed_chemical 208 227	anti-vascular agent
+R6	treats Arg1:T77 Arg2:T8	

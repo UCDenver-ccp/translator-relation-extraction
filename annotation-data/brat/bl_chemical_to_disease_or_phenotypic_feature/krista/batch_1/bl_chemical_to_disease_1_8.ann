@@ -1,7 +1,7 @@
 T1	chemical 4 8	mRNA
 T2	disease_or_phenotypic_feature 150 164	PAM50-subtypic
 T3	chemical 193 205	drug-induced
-T4	missed_disease_or_phenotypic_feature 193 209	drug-induced PLG
+T4	missed_disease_or_phenotypic_feature 206 209	PLG
 T5	chemical 242 265	immunosuppressive agent
 T6	chemical 270 274	lead
 T7	disease_or_phenotypic_feature 278 285	disease
@@ -54,7 +54,6 @@ T54	chemical 3465 3475	nucleotide
 T55	disease_or_phenotypic_feature 3546 3559	breast cancer
 T56	chemical 3733 3740	Cr-EDTA
 T57	disease_or_phenotypic_feature 3798 3805	CKD-EPI
-R1	causes_or_contributes_to Arg1:T5 Arg2:T7
 R2	causes_or_contributes_to Arg1:T5 Arg2:T4
 R3	FIXME Arg1:T38 Arg2:T40
 R4	treats Arg1:T52 Arg2:T53
@@ -71,3 +70,7 @@ R12	treats Arg1:T35 Arg2:T59
 R13	treats Arg1:T36 Arg2:T59	
 T37	missed_chemical 3239 3256	gametocidal drugs
 R14	treats Arg1:T37 Arg2:T53	
+R1	treats Arg1:T5 Arg2:T7	
+T60	missed_disease_or_phenotypic_feature 1121 1136	skin sensitizer
+T61	missed_chemical 1095 1103	CMIT/MIT
+R15	causes_or_contributes_to Arg1:T61 Arg2:T60	

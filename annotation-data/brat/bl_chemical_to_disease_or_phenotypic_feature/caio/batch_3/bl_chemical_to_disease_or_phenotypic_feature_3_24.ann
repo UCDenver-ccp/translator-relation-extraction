@@ -64,35 +64,32 @@ T63	chemical 2326 2335	biomarker
 T64	disease_or_phenotypic_feature 2372 2378	cancer
 T65	disease_or_phenotypic_feature 2411 2419	melanoma
 T66	chemical 2426 2434	antigens
-R1	causes_or_contributes_to Arg1:T1 Arg2:T3	
 R2	causes_or_contributes_to Arg1:T2 Arg2:T3	
 T67	corrected_disease_or_phenotypic_feature 75 98	post-herpetic neuralgia
-R3	treats Arg1:T1 Arg2:T67	
-T68	corrected_disease_or_phenotypic_feature 133 145	anorexigenic
-R5	treats Arg1:T5 Arg2:T68	
 T69	corrected_chemical 133 150	anorexigenic drug
 R4	treats Arg1:T69 Arg2:T4	
 T70	corrected_disease_or_phenotypic_feature 237 248	cancer pain
 R6	treats Arg1:T6 Arg2:T70	
-T71	missed_disease_or_phenotypic_feature 177 186	analgesic
-T72	missed_disease_or_phenotypic_feature 191 199	sedative
-T73	missed_disease_or_phenotypic_feature 165 175	anesthetic
-R7	causes_or_contributes_to Arg1:T6 Arg2:T73	
-R8	causes_or_contributes_to Arg1:T6 Arg2:T71	
-R9	causes_or_contributes_to Arg1:T6 Arg2:T72	
 R10	causes_or_contributes_to Arg1:T10 Arg2:T12	
 R11	causes_or_contributes_to Arg1:T11 Arg2:T12	
 T74	missed_disease_or_phenotypic_feature 330 335	tumor
-R12	treats Arg1:T10 Arg2:T74	
-R13	treats Arg1:T11 Arg2:T74	
 T75	missed_disease_or_phenotypic_feature 358 369	weight gain
-R14	treats Arg1:T10 Arg2:T75	
-R15	treats Arg1:T11 Arg2:T75	
+R14	causes_or_contributes_to Arg1:T10 Arg2:T75	
+R15	causes_or_contributes_to Arg1:T11 Arg2:T75	
 R16	causes_or_contributes_to Arg1:T25 Arg2:T27	
 T76	missed_chemical 1435 1442	AMI-U-H
 R17	treats Arg1:T76 Arg2:T39	
 R18	treats Arg1:T37 Arg2:T39	
-R19	treats Arg1:T44 Arg2:T45	
-R20	treats Arg1:T43 Arg2:T45	
 T77	missed_disease_or_phenotypic_feature 1970 1985	tumor promotion
-R21	causes_or_contributes_to Arg1:T54 Arg2:T77	
+T68	missed_disease_or_phenotypic_feature 1568 1585	hyperlactacidemia
+R5	causes_or_contributes_to Arg1:T41 Arg2:T68	
+R22	causes_or_contributes_to Arg1:T41 Arg2:T42	
+R23	causes_or_contributes_to Arg1:T40 Arg2:T42	
+R24	causes_or_contributes_to Arg1:T40 Arg2:T68	
+R20	treats Arg1:T47 Arg2:T48	
+R21	causes_or_contributes_to Arg1:T53 Arg2:T77	
+T71	missed_chemical 177 186	analgesic
+T72	missed_chemical 191 199	sedative
+R1	treats Arg1:T72 Arg2:T70	
+R3	treats Arg1:T71 Arg2:T70	
+R7	treats Arg1:T7 Arg2:T70	

@@ -98,3 +98,76 @@ T97	gene 3003 3008	Folr1
 T98	anatomical_site 3021 3032	neural tube
 T99	anatomical_site 3033 3039	tissue
 T100	anatomical_site 3047 3058	neural tube
+T101	missed_gene 75 89	erythropoietin
+T102	corrected_anatomical_site 43 53	cord blood
+R1	located_in Arg1:T2 Arg2:T102	
+R2	located_in Arg1:T3 Arg2:T102	
+R3	located_in Arg1:T101 Arg2:T102	
+T103	corrected_anatomical_site 150 160	cord blood
+R4	located_in Arg1:T5 Arg2:T103	
+T104	corrected_anatomical_site 205 215	cord blood
+R5	located_in Arg1:T7 Arg2:T104	
+R6	located_in Arg1:T8 Arg2:T104	
+T105	corrected_anatomical_site 404 414	cord blood
+T106	missed_gene 415 429	erythropoietin
+R7	located_in Arg1:T106 Arg2:T105	
+R8	located_in Arg1:T10 Arg2:T105	
+T107	corrected_anatomical_site 486 496	cord blood
+T108	missed_gene 497 511	erythropoietin
+R9	located_in Arg1:T108 Arg2:T107	
+R10	located_in Arg1:T12 Arg2:T107	
+T109	corrected_anatomical_site 540 550	cord blood
+T110	missed_gene 551 565	erythropoietin
+R11	located_in Arg1:T110 Arg2:T109	
+R12	located_in Arg1:T15 Arg2:T14	
+R13	located_in Arg1:T16 Arg2:T14	
+R14	located_in Arg1:T17 Arg2:T14	
+T111	missed_anatomical_site 753 758	nerve
+T112	missed_gene 753 772	nerve growth factor
+R15	located_in Arg1:T112 Arg2:T111	
+R16	located_in Arg1:T18 Arg2:T111	
+T113	missed_anatomical_site 783 788	brain
+R17	located_in Arg1:T19 Arg2:T113	
+R18	located_in Arg1:T20 Arg2:T113	
+R19	located_in Arg1:T112 Arg2:T23	
+R20	located_in Arg1:T18 Arg2:T23	
+R21	located_in Arg1:T112 Arg2:T24	
+R22	located_in Arg1:T18 Arg2:T24	
+R23	located_in Arg1:T19 Arg2:T23	
+R24	located_in Arg1:T19 Arg2:T24	
+R25	located_in Arg1:T20 Arg2:T23	
+R26	located_in Arg1:T20 Arg2:T24	
+T114	missed_gene 956 972	immunoglobulin A
+T115	missed_gene 997 1005	lysozyme
+R27	located_in Arg1:T114 Arg2:T28	
+R28	located_in Arg1:T26 Arg2:T28	
+R29	located_in Arg1:T27 Arg2:T28	
+R30	located_in Arg1:T115 Arg2:T28	
+R31	located_in Arg1:T34 Arg2:T36	
+R32	located_in Arg1:T35 Arg2:T36	
+T116	missed_gene 1410 1414	IL-1
+R33	located_in Arg1:T116 Arg2:T43	
+R34	located_in Arg1:T42 Arg2:T43	
+R35	located_in Arg1:T116 Arg2:T44	
+R36	located_in Arg1:T42 Arg2:T44	
+R37	located_in Arg1:T45 Arg2:T46	
+R38	located_in Arg1:T47 Arg2:T49	
+R39	located_in Arg1:T48 Arg2:T49	
+R40	located_in Arg1:T52 Arg2:T53	
+T117	corrected_anatomical_site 1783 1795	nasal tissue
+R41	located_in Arg1:T55 Arg2:T117	
+R42	located_in Arg1:T67 Arg2:T66	
+T118	missed_gene 2076 2080	iNOS
+R43	located_in Arg1:T118 Arg2:T70	
+R44	located_in Arg1:T118 Arg2:T71	
+T119	missed_gene 2160 2164	Mac3
+R45	located_in Arg1:T119 Arg2:T70	
+R46	located_in Arg1:T119 Arg2:T71	
+R47	located_in Arg1:T77 Arg2:T76	
+R48	located_in Arg1:T79 Arg2:T78	
+R49	located_in Arg1:T84 Arg2:T85	
+R50	located_in Arg1:T88 Arg2:T87	
+R51	located_in Arg1:T90 Arg2:T89	
+T120	corrected_anatomical_site 3021 3039	neural tube tissue
+R52	located_in Arg1:T96 Arg2:T120	
+R53	located_in Arg1:T37 Arg2:T36	

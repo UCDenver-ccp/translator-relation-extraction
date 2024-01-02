@@ -167,3 +167,8 @@ R56	located_in Arg1:T92 Arg2:T91
 T110	missed_gene 2643 2669	bone morphogenetic protein
 R57	located_in Arg1:T110 Arg2:T93	
 R58	located_in Arg1:T94 Arg2:T93	
+R59	located_in Arg1:T94 Arg2:T95	
+R60	located_in Arg1:T110 Arg2:T95	
+T111	missed_gene 2680 2683	Wnt
+R61	located_in Arg1:T111 Arg2:T95	
+#2	AnnotatorNotes R61	Okay?

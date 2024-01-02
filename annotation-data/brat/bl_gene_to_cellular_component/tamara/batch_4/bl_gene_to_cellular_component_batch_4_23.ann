@@ -91,3 +91,87 @@ T90	gene 3153 3157	PABP
 T91	gene 3284 3289	Mac-1
 T92	gene 3290 3298	integrin
 T93	cellular_component 3290 3298	integrin
+R1	located_in Arg1:T4 Arg2:T3	
+R2	located_in Arg1:T5 Arg2:T3	
+T94	corrected_gene 539 565;573 598	A-kinase anchoring protein GSK3β interaction protein
+T95	missed_gene 567 571;600 605	AKAP GSKIP
+R3	located_in Arg1:T94 Arg2:T15	
+#1	AnnotatorNotes R3	Okay?
+R4	located_in Arg1:T95 Arg2:T15	
+#2	AnnotatorNotes R4	Okay?
+#3	AnnotatorNotes T94	okay?
+#4	AnnotatorNotes T95	okay?
+R5	located_in Arg1:T95 Arg2:T15	
+#5	AnnotatorNotes R5	Okay?
+T96	missed_gene 650 666	protein kinase A
+T97	missed_gene 668 671	PKA
+T98	corrected_gene 677 704	glycogen synthase kinase 3β
+T99	corrected_gene 706 711	GSK3β
+R6	located_in Arg1:T96 Arg2:T15	
+R7	located_in Arg1:T97 Arg2:T15	
+R8	located_in Arg1:T98 Arg2:T15	
+R9	located_in Arg1:T99 Arg2:T15	
+R10	located_in Arg1:T20 Arg2:T19	
+R11	located_in Arg1:T21 Arg2:T22	
+R12	located_in Arg1:T34 Arg2:T35	
+R13	located_in Arg1:T34 Arg2:T36	
+R14	located_in Arg1:T33 Arg2:T35	
+R15	located_in Arg1:T33 Arg2:T36	
+R16	located_in Arg1:T37 Arg2:T38	
+R17	located_in Arg1:T39 Arg2:T40	
+R18	located_in Arg1:T43 Arg2:T42	
+R19	located_in Arg1:T45 Arg2:T46	
+R20	located_in Arg1:T47 Arg2:T50	
+R21	located_in Arg1:T52 Arg2:T51	
+R22	located_in Arg1:T53 Arg2:T51	
+R23	located_in Arg1:T52 Arg2:T54	
+R24	located_in Arg1:T53 Arg2:T54	
+T100	missed_gene 1786 1792	Sedlin
+R25	located_in Arg1:T100 Arg2:T54	
+T101	missed_gene 2069 2099;2121 2129	chloride intracellular channel proteins
+R26	located_in Arg1:T101 Arg2:T61	
+T102	missed_gene 2101 2105	CLIC
+R27	located_in Arg1:T102 Arg2:T61	
+T103	corrected_gene 2108 2119;2121 2129	p64-related proteins
+R28	located_in Arg1:T103 Arg2:T61	
+R29	located_in Arg1:T101 Arg2:T63	
+R30	located_in Arg1:T102 Arg2:T63	
+R31	located_in Arg1:T103 Arg2:T63	
+R32	located_in Arg1:T65 Arg2:T64	
+T104	missed_gene 2273 2278	NF-κB
+R33	located_in Arg1:T104 Arg2:T64	
+T105	corrected_gene 2317 2322	TNF-α
+R34	located_in Arg1:T105 Arg2:T64	
+R35	located_in Arg1:T67 Arg2:T64	
+R36	located_in Arg1:T68 Arg2:T64	
+R37	located_in Arg1:T74 Arg2:T73	
+T106	missed_cellular_component 2461 2468	nuclear
+T107	missed_cellular_component 2444 2460	intracytoplasmic
+#6	AnnotatorNotes T107	okay?
+R38	located_in Arg1:T70 Arg2:T106	
+R39	located_in Arg1:T71 Arg2:T106	
+R40	located_in Arg1:T70 Arg2:T107	
+#7	AnnotatorNotes R40	Okay?
+R41	located_in Arg1:T71 Arg2:T107	
+#8	AnnotatorNotes R41	Okay?
+R42	located_in Arg1:T77 Arg2:T78	
+#9	AnnotatorNotes R42	Okay?
+T108	missed_cellular_component 2658 2665	nuclear
+R43	located_in Arg1:T77 Arg2:T108	
+#10	AnnotatorNotes R43	Okay?
+T109	corrected_gene 2832 2878	membrane associated glutathione-S-transferases
+R44	located_in Arg1:T109 Arg2:T81	
+T110	corrected_gene 2887 2893	m-GSTs
+R45	located_in Arg1:T110 Arg2:T81	
+R46	located_in Arg1:T85 Arg2:T86	
+R47	located_in Arg1:T85 Arg2:T87	
+T111	corrected_gene 3090 3096;3097 3115	polyrC -binding protein 2
+R48	located_in Arg1:T111 Arg2:T87	
+#11	AnnotatorNotes R48	Okay?
+R49	located_in Arg1:T89 Arg2:T87	
+#12	AnnotatorNotes R49	Okay?
+T112	missed_gene 3128 3151	poly(A)-binding protein
+R50	located_in Arg1:T112 Arg2:T87	
+#13	AnnotatorNotes R50	Okay?
+R51	located_in Arg1:T90 Arg2:T87	
+#14	AnnotatorNotes R51	Okay?

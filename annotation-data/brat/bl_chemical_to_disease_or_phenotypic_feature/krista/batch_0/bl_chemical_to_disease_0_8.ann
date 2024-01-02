@@ -57,10 +57,18 @@ T56	chemical 3911 3914	BES
 T57	chemical 4098 4115	dimethyl fumarate
 T58	disease_or_phenotypic_feature 4180 4218	relapsing-remitting multiple sclerosis
 R1	treats Arg1:T52 Arg2:T51
-R2	treats Arg1:T57 Arg2:T58
-R3	treats Arg1:T31 Arg2:T33
 T59	corrected_chemical 2383 2397	antidepressant
-R4	treats Arg1:T59 Arg2:T34	
 T60	missed_chemical 3590 3598	levodopa
 T61	missed_disease_or_phenotypic_feature 3607 3617	dyskinesia
 R5	causes_or_contributes_to Arg1:T60 Arg2:T61	
+T62	missed_disease_or_phenotypic_feature 1935 1938	AAD
+T63	corrected_chemical 1883 1902	Δpep27 immunization
+R6	treats Arg1:T63 Arg2:T62	
+R7	treats Arg1:T63 Arg2:T28	
+R3	treats Arg1:T31 Arg2:T34	
+T64	missed_disease_or_phenotypic_feature 2383 2410	antidepressant-like effects
+R4	causes_or_contributes_to Arg1:T31 Arg2:T64	
+R8	treats Arg1:T52 Arg2:T54	
+T65	missed_chemical 926 954	water from the shallow wells
+T66	missed_disease_or_phenotypic_feature 994 1003	infection
+R9	causes_or_contributes_to Arg1:T65 Arg2:T66	

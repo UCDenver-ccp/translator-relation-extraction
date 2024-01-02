@@ -91,3 +91,40 @@ T90	gene 2828 2846	C-reactive protein
 T91	gene 2885 2888	p65
 T92	gene 2890 2908	Toll-like receptor
 T93	gene 2918 2922	SR-A
+R1	located_in Arg1:T2 Arg2:T1	
+T94	corrected_anatomical_site 119 127;135 141	prostate tissue
+R2	located_in Arg1:T4 Arg2:T94	
+R3	located_in Arg1:T6 Arg2:T7	
+R4	located_in Arg1:T9 Arg2:T8	
+T95	corrected_gene 362 366;369 370	GluR 3
+R5	located_in Arg1:T12 Arg2:T13	
+R6	located_in Arg1:T95 Arg2:T13	
+T96	corrected_gene 421 425;428 429	GluR 4
+R7	located_in Arg1:T14 Arg2:T15	
+R8	located_in Arg1:T96 Arg2:T15	
+T97	missed_gene 663 683	surfactant protein A
+T98	corrected_anatomical_site 703 714	lung tissue
+R9	located_in Arg1:T97 Arg2:T98	
+R10	located_in Arg1:T23 Arg2:T98	
+T99	missed_anatomical_site 663 673	surfactant
+R11	located_in Arg1:T97 Arg2:T99	
+R12	located_in Arg1:T23 Arg2:T99	
+T102	corrected_gene 891 919	TLR4 pathway related protein
+R19	located_in Arg1:T102 Arg2:T31	
+R20	located_in Arg1:T41 Arg2:T40	
+R21	located_in Arg1:T42 Arg2:T43	
+R22	located_in Arg1:T49 Arg2:T48	
+T103	corrected_anatomical_site 2036 2045;2104 2110	notochord embryo
+T104	corrected_anatomical_site 2047 2059;2104 2110	lens placode embryo
+T105	corrected_anatomical_site 2064 2084;2104 2110	pituitary primordium embryo
+T100	corrected_gene 1988 2011	ActR-I activin receptor
+R13	located_in Arg1:T100 Arg2:T103	
+R14	located_in Arg1:T100 Arg2:T104	
+R15	located_in Arg1:T100 Arg2:T105	
+R16	located_in Arg1:T73 Arg2:T72	
+R17	located_in Arg1:T77 Arg2:T80	
+R18	located_in Arg1:T78 Arg2:T80	
+T101	corrected_gene 2438 2447	β-tubulin
+R23	located_in Arg1:T101 Arg2:T80	
+T106	corrected_anatomical_site 2531 2552	gastric corpus tissue
+R24	located_in Arg1:T81 Arg2:T106	

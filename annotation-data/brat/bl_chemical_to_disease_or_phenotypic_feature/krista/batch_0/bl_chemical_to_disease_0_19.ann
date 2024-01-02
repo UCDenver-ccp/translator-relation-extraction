@@ -13,7 +13,7 @@ T12	chemical 585 596	metabolites
 T13	corrected_chemical 746 774	immune checkpoint inhibitors
 T14	chemical 764 774	inhibitors
 T15	disease_or_phenotypic_feature 791 797	cancer
-T16	missed_chemical 791 810	cancer therapeutics
+T16	missed_chemical 798 810	therapeutics
 T17	disease_or_phenotypic_feature 815 820	SCCHN
 T18	chemical 945 953	FTLD-TDP
 T19	disease_or_phenotypic_feature 993 1000	C9orf72
@@ -67,7 +67,14 @@ T66	disease_or_phenotypic_feature 3989 3996	disease
 R1	treats Arg1:T8 Arg2:T9
 R2	treats Arg1:T13 Arg2:T15
 R3	treats Arg1:T13 Arg2:T17
-R4	treats Arg1:T31 Arg2:T32
-R5	treats Arg1:T31 Arg2:T34
 R6	treats Arg1:T37 Arg2:T38
 R7	treats Arg1:T16 Arg2:T15
+R8	treats Arg1:T16 Arg2:T17	
+T67	missed_chemical 1331 1353	Induction Chemotherapy
+T68	missed_disease_or_phenotypic_feature 1401 1404	AML
+R9	treats Arg1:T67 Arg2:T68	
+T69	missed_disease_or_phenotypic_feature 1302 1324	Rebound Thrombocytosis
+R10	causes_or_contributes_to Arg1:T67 Arg2:T69	
+T70	corrected_chemical 2096 2145	drug loaded single layer and tri-layer nanofibers
+R4	treats Arg1:T70 Arg2:T32	
+R5	treats Arg1:T33 Arg2:T34	

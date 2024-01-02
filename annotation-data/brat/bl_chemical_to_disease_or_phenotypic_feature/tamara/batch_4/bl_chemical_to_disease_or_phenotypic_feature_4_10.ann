@@ -65,30 +65,39 @@ T64	chemical 2248 2256	solution
 T65	disease_or_phenotypic_feature 2261 2268	obesity
 T67	missed_disease_or_phenotypic_feature 153 161	epilepsy
 T71	corrected_chemical 322 347	ras-dislodging antagonist
-T72	corrected_disease_or_phenotypic_feature 276 296	ras-dependent tumors
+T72	corrected_disease_or_phenotypic_feature 290 296	tumors
 R6	treats Arg1:T71 Arg2:T72	
 R7	treats Arg1:T17 Arg2:T18	
 T76	missed_disease_or_phenotypic_feature 1902 1916	mammary tumors
 R16	causes_or_contributes_to Arg1:T54 Arg2:T56	
 R17	causes_or_contributes_to Arg1:T54 Arg2:T76	
-R18	causes_or_contributes_to Arg1:T55 Arg2:T56	
-R19	causes_or_contributes_to Arg1:T55 Arg2:T76	
 T66	missed_chemical 11 14	PGB
-R1	treats Arg1:T1 Arg2:T6	
-R2	treats Arg1:T1 Arg2:T7	
-R3	treats Arg1:T1 Arg2:T67	
-R21	treats Arg1:T66 Arg2:T6	
-R22	treats Arg1:T66 Arg2:T7	
-R23	treats Arg1:T66 Arg2:T67	
 T79	corrected_chemical 21 44;52 64	gamma-aminobutyric acid agonist drug
-R24	treats Arg1:T79 Arg2:T6	
-R25	treats Arg1:T79 Arg2:T7	
-R26	treats Arg1:T79 Arg2:T67	
 T80	corrected_chemical 46 50;52 64	GABA agonist drug
-R27	treats Arg1:T80 Arg2:T6	
-R28	treats Arg1:T80 Arg2:T7	
-R29	treats Arg1:T80 Arg2:T67	
 T70	missed_chemical 163 172	Serotonin
 T73	corrected_disease_or_phenotypic_feature 603 633	diabetic peripheral neuropathy
 R8	treats Arg1:T24 Arg2:T73	
 T68	DONE 2270 2274	DONE
+T69	missed_disease_or_phenotypic_feature 2209 2215	tumors
+R4	causes_or_contributes_to Arg1:T62 Arg2:T69	
+R5	causes_or_contributes_to Arg1:T8 Arg2:T9	
+T74	corrected_chemical 643 655	anti-oxidant
+R9	treats Arg1:T74 Arg2:T73	
+R10	causes_or_contributes_to Arg1:T47 Arg2:T48	
+R11	causes_or_contributes_to Arg1:T47 Arg2:T49	
+R12	causes_or_contributes_to Arg1:T47 Arg2:T50	
+T75	missed_disease_or_phenotypic_feature 1597 1612;1624 1633	digestive tract disorders
+R13	causes_or_contributes_to Arg1:T47 Arg2:T75	
+T77	missed_disease_or_phenotypic_feature 1664 1678	focal epilepsy
+R14	treats Arg1:T51 Arg2:T77	
+R15	treats Arg1:T20 Arg2:T19	
+R20	treats Arg1:T21 Arg2:T19	
+T78	missed_chemical 675 677	HF
+R30	causes_or_contributes_to Arg1:T78 Arg2:T25	
+R31	causes_or_contributes_to Arg1:T78 Arg2:T26	
+R32	causes_or_contributes_to Arg1:T78 Arg2:T27	
+T81	missed_disease_or_phenotypic_feature 735 753	insulin resistance
+R33	causes_or_contributes_to Arg1:T78 Arg2:T81	
+T82	corrected_chemical 1816 1828;1839 1867	Testosterone in combination with estrogen
+R34	causes_or_contributes_to Arg1:T82 Arg2:T56	
+R35	causes_or_contributes_to Arg1:T82 Arg2:T76	

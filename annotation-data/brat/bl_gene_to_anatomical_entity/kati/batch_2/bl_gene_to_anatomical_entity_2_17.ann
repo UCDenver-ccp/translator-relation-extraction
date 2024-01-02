@@ -4,7 +4,7 @@ T3	gene 56 60	CD63
 T4	gene 62 67	PAC-1
 T5	anatomical_site 87 93	kidney
 T6	anatomical_site 105 116	Hippocampal
-T7	gene 117 126	caspase-3
+T7	gene 117 124	caspase
 T8	gene 174 183	calbindin
 T9	anatomical_site 231 242	hippocampus
 T10	anatomical_site 264 270	gonads
@@ -97,3 +97,84 @@ T96	anatomical_site 2432 2438	kidney
 T97	gene 2444 2449	Prox1
 T98	anatomical_site 2459 2476	lymphatic vessels
 T99	gene 2495 2501	VEGFR3
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+R3	located_in Arg1:T4 Arg2:T1	
+T100	corrected_gene 117 126	caspase-3
+R4	located_in Arg1:T100 Arg2:T6	
+T101	corrected_gene 117 124;128 130	caspase -8
+R5	located_in Arg1:T101 Arg2:T6	
+T102	corrected_gene 117 124;135 137	caspase -9
+R6	located_in Arg1:T102 Arg2:T6	
+R7	located_in Arg1:T11 Arg2:T10	
+R8	located_in Arg1:T12 Arg2:T10	
+T103	corrected_anatomical_site 321 325;337 343	male gonads
+R9	located_in Arg1:T11 Arg2:T103	
+R12	located_in Arg1:T12 Arg2:T14	
+T104	missed_gene 368 374	GluR?2
+R13	located_in Arg1:T104 Arg2:T15	
+R14	located_in Arg1:T16 Arg2:T19	
+R15	located_in Arg1:T17 Arg2:T19	
+R16	located_in Arg1:T18 Arg2:T19	
+R17	located_in Arg1:T20 Arg2:T22	
+R18	located_in Arg1:T21 Arg2:T22	
+R19	located_in Arg1:T20 Arg2:T23	
+R20	located_in Arg1:T21 Arg2:T23	
+T105	missed_gene 735 738	AFP
+R21	located_in Arg1:T105 Arg2:T27	
+R22	located_in Arg1:T28 Arg2:T27	
+R23	located_in Arg1:T30 Arg2:T29	
+T106	missed_gene 777 786	BRACHYURY
+R24	located_in Arg1:T106 Arg2:T29	
+T107	missed_gene 809 815	NESTIN
+R25	located_in Arg1:T107 Arg2:T31	
+R26	located_in Arg1:T32 Arg2:T31	
+T108	missed_gene 850 876	bone morphogenetic protein
+R27	located_in Arg1:T108 Arg2:T34	
+R28	located_in Arg1:T35 Arg2:T34	
+T109	corrected_anatomical_site 1024 1032;970 1004	prostate mesenchyme surrounding ductules in
+R29	located_in Arg1:T36 Arg2:T109	
+T110	corrected_gene 1213 1246	vascular cell adhesion molecule-1
+R30	located_in Arg1:T110 Arg2:T44	
+R31	located_in Arg1:T46 Arg2:T44	
+R32	located_in Arg1:T47 Arg2:T48	
+T111	missed_gene 1436 1440	TNF?
+T112	missed_gene 1451 1456	IL-1?
+T113	corrected_anatomical_site 1470 1481	lung tissue
+R33	located_in Arg1:T111 Arg2:T51	
+R34	located_in Arg1:T50 Arg2:T51	
+R35	located_in Arg1:T112 Arg2:T51	
+R36	located_in Arg1:T111 Arg2:T113	
+R37	located_in Arg1:T50 Arg2:T113	
+R38	located_in Arg1:T112 Arg2:T113	
+T114	corrected_anatomical_site 1798 1816;1832 1856	immature glomeruli of the developing kidney
+T115	corrected_anatomical_site 1798 1806;1821 1831;1832 1856	immature mesenchyme of the developing kidney
+R39	located_in Arg1:T67 Arg2:T114	
+R40	located_in Arg1:T67 Arg2:T115	
+R41	located_in Arg1:T68 Arg2:T114	
+R42	located_in Arg1:T68 Arg2:T115	
+R43	located_in Arg1:T73 Arg2:T72	
+R46	located_in Arg1:T78 Arg2:T80	
+R47	located_in Arg1:T78 Arg2:T81	
+R48	located_in Arg1:T78 Arg2:T82	
+R49	located_in Arg1:T83 Arg2:T80	
+R50	located_in Arg1:T83 Arg2:T81	
+R51	located_in Arg1:T83 Arg2:T82	
+R52	located_in Arg1:T79 Arg2:T80	
+R53	located_in Arg1:T79 Arg2:T81	
+R54	located_in Arg1:T79 Arg2:T82	
+R55	located_in Arg1:T85 Arg2:T84	
+R56	located_in Arg1:T86 Arg2:T84	
+T116	corrected_anatomical_site 2180 2199	trabecular meshwork
+T117	missed_anatomical_site 2213 2220	choroid
+R57	located_in Arg1:T85 Arg2:T116	
+R58	located_in Arg1:T86 Arg2:T116	
+R59	located_in Arg1:T85 Arg2:T88	
+R60	located_in Arg1:T86 Arg2:T88	
+R61	located_in Arg1:T85 Arg2:T117	
+R62	located_in Arg1:T86 Arg2:T117	
+R63	located_in Arg1:T92 Arg2:T93	
+R64	located_in Arg1:T94 Arg2:T95	
+R65	located_in Arg1:T94 Arg2:T96	
+R66	located_in Arg1:T97 Arg2:T98	
+R67	located_in Arg1:T99 Arg2:T98	

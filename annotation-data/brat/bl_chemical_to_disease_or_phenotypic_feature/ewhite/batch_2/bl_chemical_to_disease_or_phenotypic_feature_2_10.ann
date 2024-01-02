@@ -71,10 +71,7 @@ T70	chemical 2336 2343	antigen
 T71	disease_or_phenotypic_feature 2362 2369	cancers
 R1	treats Arg1:T4 Arg2:T6	
 R2	treats Arg1:T5 Arg2:T6	
-T72	corrected_disease_or_phenotypic_feature 302 322;335 357	repetitive behaviors associated with autism
-T73	corrected_disease_or_phenotypic_feature 327 357	anxiety associated with autism
-R3	treats Arg1:T7 Arg2:T72	
-R4	treats Arg1:T7 Arg2:T73	
+T72	corrected_disease_or_phenotypic_feature 302 322	repetitive behaviors
 R5	causes_or_contributes_to Arg1:T10 Arg2:T11	
 R6	treats Arg1:T12 Arg2:T11	
 T74	corrected_chemical 407 433	aldose reductase inhibitor
@@ -85,7 +82,18 @@ R10	causes_or_contributes_to Arg1:T50 Arg2:T51
 R11	causes_or_contributes_to Arg1:T50 Arg2:T52	
 R12	causes_or_contributes_to Arg1:T56 Arg2:T57	
 T75	corrected_disease_or_phenotypic_feature 1952 1980	subcutaneous air pouch edema
-T76	corrected_disease_or_phenotypic_feature 1921 1947	adjuvant-induced arthritis
-R13	treats Arg1:T55 Arg2:T76	
+R13	treats Arg1:T55 Arg2:T57	
 R14	treats Arg1:T55 Arg2:T75	
 R15	causes_or_contributes_to Arg1:T63 Arg2:T61	
+R16	causes_or_contributes_to Arg1:T66 Arg2:T67	
+T77	corrected_chemical 2157 2172	obesity hormone
+R17	causes_or_contributes_to Arg1:T77 Arg2:T67	
+T78	missed_disease_or_phenotypic_feature 1456 1461	tumor
+R18	causes_or_contributes_to Arg1:T45 Arg2:T78	
+R19	causes_or_contributes_to Arg1:T46 Arg2:T78	
+T79	missed_disease_or_phenotypic_feature 1571 1576	tumor
+R20	causes_or_contributes_to Arg1:T45 Arg2:T79	
+R21	causes_or_contributes_to Arg1:T46 Arg2:T79	
+T73	missed_disease_or_phenotypic_feature 462 479	Malignant tumours
+R23	causes_or_contributes_to Arg1:T15 Arg2:T73	
+R24	causes_or_contributes_to Arg1:T62 Arg2:T61	

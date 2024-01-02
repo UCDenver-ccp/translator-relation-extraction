@@ -101,3 +101,50 @@ T100	gene 3391 3395	Nrf2
 T101	gene 3443 3447	Nrf2
 T102	cellular_component 3476 3489	intracellular
 T103	gene 3505 3510	G6PDH
+R1	located_in Arg1:T11 Arg2:T10	
+R2	located_in Arg1:T16 Arg2:T17	
+R3	located_in Arg1:T15 Arg2:T17	
+T104	corrected_gene 616 645	large Notch precursor protein
+#1	AnnotatorNotes T104	okay?
+R4	located_in Arg1:T104 Arg2:T21	
+#2	AnnotatorNotes R4	Okay?
+T105	corrected_gene 840 845	Pex7p
+R5	located_in Arg1:T105 Arg2:T26	
+T106	missed_gene 921 955	peroxisome-targeting signal type-2
+R6	located_in Arg1:T106 Arg2:T29	
+R9	located_in Arg1:T106 Arg2:T27	
+T107	corrected_gene 915 919	PTS2
+R10	located_in Arg1:T107 Arg2:T27	
+#3	AnnotatorNotes R10	Okay?
+R7	located_in Arg1:T107 Arg2:T29	
+T108	missed_gene 1226 1235	NF-κB p65
+R8	located_in Arg1:T108 Arg2:T35	
+R11	located_in Arg1:T108 Arg2:T36	
+T109	missed_gene 1176 1185	NF-κB p65
+R12	located_in Arg1:T109 Arg2:T34	
+T110	missed_gene 1116 1120	IκBα
+R13	located_in Arg1:T110 Arg2:T33	
+R14	located_in Arg1:T48 Arg2:T47	
+T111	missed_gene 1665 1679	thrombospondin
+R15	located_in Arg1:T111 Arg2:T47	
+R16	located_in Arg1:T61 Arg2:T62	
+R17	located_in Arg1:T59 Arg2:T58	
+#4	AnnotatorNotes R17	Okay?
+R18	located_in Arg1:T60 Arg2:T58	
+#5	AnnotatorNotes R18	Okay?
+R19	located_in Arg1:T61 Arg2:T58	
+#6	AnnotatorNotes R19	Okay?
+R20	located_in Arg1:T63 Arg2:T58	
+#7	AnnotatorNotes R20	Okay?
+T112	corrected_gene 2726 2737	VirB2 pilin
+R21	located_in Arg1:T112 Arg2:T76	
+R22	located_in Arg1:T84 Arg2:T85	
+R23	located_in Arg1:T90 Arg2:T91	
+R24	located_in Arg1:T97 Arg2:T98	
+T113	missed_gene 3490 3493	GSH
+T114	missed_gene 3495 3500	NADPH
+R25	located_in Arg1:T113 Arg2:T102	
+R26	located_in Arg1:T114 Arg2:T102	
+R27	located_in Arg1:T103 Arg2:T102	
+R28	located_in Arg1:T15 Arg2:T18	
+R29	located_in Arg1:T16 Arg2:T18	

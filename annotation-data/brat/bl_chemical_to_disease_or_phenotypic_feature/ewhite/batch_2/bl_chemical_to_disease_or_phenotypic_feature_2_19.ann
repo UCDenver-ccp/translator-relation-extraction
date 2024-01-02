@@ -83,16 +83,11 @@ T72	missed_chemical 947 953	opioid
 T73	corrected_chemical 947 979	opioid/local anaesthetic mixture
 T74	corrected_disease_or_phenotypic_feature 984 995	cancer pain
 R11	treats Arg1:T73 Arg2:T74	
-R12	treats Arg1:T29 Arg2:T74	
-R13	treats Arg1:T72 Arg2:T74	
-T75	corrected_chemical 1060 1073	Combined drug
-R14	treats Arg1:T75 Arg2:T36	
 T76	missed_disease_or_phenotypic_feature 1016 1022	tumors
 R15	causes_or_contributes_to Arg1:T33 Arg2:T76	
 T77	missed_chemical 1268 1288	monosodium glutamate
-T78	corrected_disease_or_phenotypic_feature 1240 1266	chemically induced obesity
-R16	causes_or_contributes_to Arg1:T77 Arg2:T78	
-R17	causes_or_contributes_to Arg1:T43 Arg2:T78	
+R16	causes_or_contributes_to Arg1:T77 Arg2:T42	
+R17	causes_or_contributes_to Arg1:T43 Arg2:T42	
 T79	corrected_chemical 1503 1560	prophylactic vaccination against the autochthonous tumors
 T80	missed_disease_or_phenotypic_feature 1588 1593	tumor
 R18	treats Arg1:T79 Arg2:T80	
@@ -100,3 +95,7 @@ T81	corrected_chemical 2075 2104;2111 2121	Angiotensin converting enzyme inhibit
 T82	corrected_chemical 2106 2109;2111 2121	ACE inhibitors
 R19	treats Arg1:T82 Arg2:T62	
 R20	treats Arg1:T81 Arg2:T62	
+T75	missed_chemical 1240 1250	chemically
+R12	causes_or_contributes_to Arg1:T75 Arg2:T42	
+T78	corrected_chemical 1060 1073	Combined drug
+R13	treats Arg1:T78 Arg2:T36	

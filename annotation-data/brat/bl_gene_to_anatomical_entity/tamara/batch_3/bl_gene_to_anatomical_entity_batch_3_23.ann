@@ -147,8 +147,6 @@ T118	corrected_gene 1082 1112	beta-amyloid precursor protein
 T119	corrected_anatomical_site 1128 1147	dorsal root ganglia
 R29	located_in Arg1:T118 Arg2:T119	
 R30	located_in Arg1:T36 Arg2:T119	
-R31	located_in Arg1:T39 Arg2:T38	
-R32	located_in Arg1:T40 Arg2:T38	
 T120	missed_gene 1499 1504	CPT I
 T121	missed_gene 1499 1502;1509 1511	CPT II
 R33	located_in Arg1:T120 Arg2:T46	
@@ -208,3 +206,7 @@ T133	corrected_gene 3582 3602	Transferrin Receptor
 T134	missed_gene 3604 3608	sTfR
 R75	located_in Arg1:T133 Arg2:T112	
 R76	located_in Arg1:T134 Arg2:T112	
+T135	corrected_gene 1276 1308	liver fatty acid-binding protein
+R77	located_in Arg1:T135 Arg2:T38	
+T136	corrected_gene 1310 1316	L-FABP
+R31	located_in Arg1:T136 Arg2:T38	

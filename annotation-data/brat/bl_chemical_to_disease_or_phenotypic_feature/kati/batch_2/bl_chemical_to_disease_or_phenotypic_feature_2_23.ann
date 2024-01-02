@@ -65,14 +65,10 @@ R3	causes_or_contributes_to Arg1:T3 Arg2:T60
 R4	causes_or_contributes_to Arg1:T59 Arg2:T60	
 R5	causes_or_contributes_to Arg1:T6 Arg2:T8	
 R6	causes_or_contributes_to Arg1:T7 Arg2:T8	
-T62	corrected_disease_or_phenotypic_feature 341 363	growth of the neoplasm
-R7	causes_or_contributes_to Arg1:T6 Arg2:T62	
-R8	causes_or_contributes_to Arg1:T7 Arg2:T62	
 R9	causes_or_contributes_to Arg1:T9 Arg2:T10	
 R10	causes_or_contributes_to Arg1:T9 Arg2:T11	
 R11	causes_or_contributes_to Arg1:T9 Arg2:T12	
-T63	corrected_disease_or_phenotypic_feature 484 501	postnatal obesity
-R12	causes_or_contributes_to Arg1:T13 Arg2:T63	
+R12	causes_or_contributes_to Arg1:T13 Arg2:T14	
 T64	missed_disease_or_phenotypic_feature 506 550	altered perivascular adipose tissue function
 R13	causes_or_contributes_to Arg1:T13 Arg2:T64	
 T65	missed_disease_or_phenotypic_feature 652 681	angiogenesis-related diseases
@@ -84,7 +80,6 @@ R16	treats Arg1:T67 Arg2:T66
 R17	treats Arg1:T15 Arg2:T66	
 R18	treats Arg1:T67 Arg2:T18	
 R19	treats Arg1:T15 Arg2:T18	
-R20	treats Arg1:T25 Arg2:T26	
 R21	causes_or_contributes_to Arg1:T36 Arg2:T37	
 T68	missed_disease_or_phenotypic_feature 1718 1727	apoptosis
 R22	causes_or_contributes_to Arg1:T43 Arg2:T68	
@@ -94,6 +89,9 @@ T71	corrected_disease_or_phenotypic_feature 1663 1681	cancer cell growth
 R23	causes_or_contributes_to Arg1:T69 Arg2:T71	
 R24	causes_or_contributes_to Arg1:T70 Arg2:T71	
 R25	treats Arg1:T45 Arg2:T46	
-T72	missed_disease_or_phenotypic_feature 2056 2081	Cheyne-Stokes respiration
-R26	treats Arg1:T54 Arg2:T72	
 R27	treats Arg1:T54 Arg2:T55	
+R20	treats Arg1:T16 Arg2:T65	
+R26	treats Arg1:T16 Arg2:T66	
+R28	treats Arg1:T16 Arg2:T18	
+T62	missed_chemical 767 779	viscoelastic
+R29	treats Arg1:T62 Arg2:T20	

@@ -105,3 +105,19 @@ R3	causes_or_contributes_to Arg1:T67 Arg2:T7
 T71	corrected_chemical 1009 1036	benzo[a]pyrene-ferric oxide
 R4	causes_or_contributes_to Arg1:T71 Arg2:T26	
 T80	DONE 2168 2172	DONE
+R5	treats Arg1:T35 Arg2:T36	
+T81	missed_disease_or_phenotypic_feature 1042 1056	food poisoning
+R6	causes_or_contributes_to Arg1:T75 Arg2:T81	
+R11	treats Arg1:T22 Arg2:T23	
+R12	causes_or_contributes_to Arg1:T22 Arg2:T24	
+R13	treats Arg1:T40 Arg2:T41	
+T82	missed_disease_or_phenotypic_feature 46 51	tumor
+T83	missed_disease_or_phenotypic_feature 13 18	tumor
+R14	treats Arg1:T1 Arg2:T82	
+R34	treats Arg1:T1 Arg2:T83	
+R35	treats Arg1:T5 Arg2:T68	
+T84	missed_disease_or_phenotypic_feature 389 401	hypertension
+R36	treats Arg1:T11 Arg2:T84	
+T85	corrected_chemical 1673 1696	GLP-1 receptor agonists
+R37	treats Arg1:T85 Arg2:T53	
+R38	treats Arg1:T85 Arg2:T52	

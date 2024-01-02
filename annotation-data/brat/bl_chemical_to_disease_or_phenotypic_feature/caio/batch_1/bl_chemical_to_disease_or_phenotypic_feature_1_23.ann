@@ -76,12 +76,10 @@ T76	missed_chemical 964 969	BCAAs
 T77	missed_chemical 998 1003	BCAAs
 T78	missed_chemical 1061 1065	BCAA
 T79	missed_chemical 1096 1113	alpha-adrenolytic
-R2	treats Arg1:T43 Arg2:T44	
-R3	treats Arg1:T43 Arg2:T45	
+R3	treats Arg1:T43 Arg2:T85	
 R4	treats Arg1:T53 Arg2:T56	
 T80	corrected_chemical 2202 2221	Kv7 channel agonist
 R5	treats Arg1:T80 Arg2:T62	
-T81	missed_disease_or_phenotypic_feature 2239 2278	cisplatin-induced peripheral neuropathy
 T82	corrected_chemical 2280 2307	Buckwheat trypsin inhibitor
 T83	missed_chemical 2309 2312	BTI
 R6	treats Arg1:T82 Arg2:T66	
@@ -89,7 +87,6 @@ R7	treats Arg1:T82 Arg2:T67
 R8	treats Arg1:T82 Arg2:T68	
 T84	DONE 2559 2563	DONE
 R9	treats Arg1:T9 Arg2:T10	
-R10	causes_or_contributes_to Arg1:T12 Arg2:T11	
 R11	treats Arg1:T29 Arg2:T31	
 T85	corrected_disease_or_phenotypic_feature 1603 1629	hypertensive heart failure
 R13	causes_or_contributes_to Arg1:T61 Arg2:T62	
@@ -105,3 +102,18 @@ T86	corrected_chemical 1489 1527	vasopressin type 2 receptor antagonist
 R12	treats Arg1:T86 Arg2:T85	
 T88	corrected_chemical 2008 2032	calcium-sensitizing drug
 R19	treats Arg1:T88 Arg2:T56	
+T89	missed_disease_or_phenotypic_feature 1550 1560;1571 1589	myocardial protective effects
+R2	causes_or_contributes_to Arg1:T43 Arg2:T89	
+R10	causes_or_contributes_to Arg1:T86 Arg2:T89	
+T90	missed_disease_or_phenotypic_feature 1565 1589	renal protective effects
+R20	causes_or_contributes_to Arg1:T86 Arg2:T90	
+R21	causes_or_contributes_to Arg1:T43 Arg2:T90	
+T91	missed_disease_or_phenotypic_feature 600 608	overload
+R22	causes_or_contributes_to Arg1:T17 Arg2:T91	
+T92	corrected_chemical 761 821	inhibitors of tyrosine kinase specific for the PDGF receptor
+R23	treats Arg1:T92 Arg2:T23	
+T93	corrected_chemical 833 867	inhibitors of farnesil transferase
+T94	missed_disease_or_phenotypic_feature 895 901	tumors
+R24	treats Arg1:T93 Arg2:T94	
+R25	causes_or_contributes_to Arg1:T77 Arg2:T27	
+R26	treats Arg1:T60 Arg2:T62	

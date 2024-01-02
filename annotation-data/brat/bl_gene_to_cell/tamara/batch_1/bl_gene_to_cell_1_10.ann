@@ -91,3 +91,56 @@ T90	cell_type 2629 2639	lymphocyte
 T91	gene 2645 2660	surface protein
 T92	gene 2661 2665	CD26
 T93	cell_type 2688 2694	T cell
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T1 Arg2:T3	
+R3	located_in Arg1:T1 Arg2:T4	
+R4	located_in Arg1:T1 Arg2:T5	
+T95	corrected_cell_type 156 167	macrophages
+R5	located_in Arg1:T7 Arg2:T95	
+T96	corrected_gene 257 271	CCL11 receptor
+R7	located_in Arg1:T96 Arg2:T8	
+R8	located_in Arg1:T96 Arg2:T9	
+R9	located_in Arg1:T11 Arg2:T9	
+R10	located_in Arg1:T11 Arg2:T8	
+R11	located_in Arg1:T16 Arg2:T17	
+R12	located_in Arg1:T16 Arg2:T18	
+T97	missed_gene 639 675	macrophage inhibitory protein-1alpha
+T98	missed_gene 687 722	macrophage inhibitory protein-1beta
+R13	located_in Arg1:T97 Arg2:T23	
+R14	located_in Arg1:T24 Arg2:T23	
+R15	located_in Arg1:T98 Arg2:T25	
+R16	located_in Arg1:T26 Arg2:T25	
+R17	located_in Arg1:T29 Arg2:T28	
+R18	located_in Arg1:T30 Arg2:T28	
+R19	located_in Arg1:T35 Arg2:T36	
+R20	located_in Arg1:T37 Arg2:T38	
+R21	located_in Arg1:T37 Arg2:T39	
+R22	located_in Arg1:T41 Arg2:T40	
+R23	located_in Arg1:T42 Arg2:T40	
+R26	located_in Arg1:T44 Arg2:T46	
+R27	located_in Arg1:T45 Arg2:T46	
+R42	located_in Arg1:T55 Arg2:T56	
+T102	missed_gene 1774 1779	CD11c
+R44	located_in Arg1:T102 Arg2:T58	
+R45	located_in Arg1:T61 Arg2:T62	
+R43	located_in Arg1:T64 Arg2:T67	
+R46	located_in Arg1:T65 Arg2:T67	
+R47	located_in Arg1:T66 Arg2:T67	
+T103	corrected_gene 1999 2004	Tif1?
+R48	located_in Arg1:T103 Arg2:T68	
+R49	located_in Arg1:T70 Arg2:T68	
+T104	missed_gene 2023 2027	L-1R
+R50	located_in Arg1:T104 Arg2:T71	
+R51	located_in Arg1:T75 Arg2:T73	
+R52	located_in Arg1:T75 Arg2:T74	
+R53	located_in Arg1:T79 Arg2:T80	
+R54	located_in Arg1:T79 Arg2:T81	
+T105	missed_gene 2478 2483	CD11c
+R55	located_in Arg1:T83 Arg2:T84	
+R56	located_in Arg1:T105 Arg2:T84	
+R57	located_in Arg1:T83 Arg2:T85	
+R58	located_in Arg1:T105 Arg2:T85	
+T106	corrected_gene 2539 2550	collagen-1-
+R59	located_in Arg1:T106 Arg2:T87	
+R63	located_in Arg1:T89 Arg2:T90	
+R64	located_in Arg1:T92 Arg2:T90	

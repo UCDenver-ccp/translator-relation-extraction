@@ -87,3 +87,55 @@ T86	gene 3274 3279	Panx2
 T87	cellular_component 3314 3323	cytoplasm
 T88	cellular_component 3327 3334	vesicle
 T89	cellular_component 3364 3379	plasma membrane
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T1 Arg2:T3	
+R3	located_in Arg1:T4 Arg2:T2	
+R4	located_in Arg1:T4 Arg2:T3	
+T90	missed_gene 94 105	cathepsin-L
+R5	located_in Arg1:T90 Arg2:T2	
+R6	located_in Arg1:T90 Arg2:T3	
+R7	located_in Arg1:T5 Arg2:T6	
+R8	located_in Arg1:T5 Arg2:T7	
+#1	AnnotatorNotes R8	Okay?
+#2	AnnotatorNotes R7	Okay? Linker, but it is present on the membrane and cytoskeleton at the same time.
+T91	missed_gene 307 338	microtubule-associated proteins
+R9	located_in Arg1:T91 Arg2:T10	
+R10	located_in Arg1:T9 Arg2:T8	
+#3	AnnotatorNotes R10	Okay?
+R11	located_in Arg1:T11 Arg2:T10	
+R12	located_in Arg1:T13 Arg2:T12	
+R13	located_in Arg1:T14 Arg2:T12	
+R14	located_in Arg1:T17 Arg2:T12	
+#4	AnnotatorNotes R14	Okay?
+R15	located_in Arg1:T19 Arg2:T20	
+T92	missed_gene 563 600	TGF-beta receptor interacting protein
+R16	located_in Arg1:T92 Arg2:T20	
+T93	corrected_gene 644 676	TGF-beta type II receptor kinase
+R17	located_in Arg1:T93 Arg2:T20	
+R18	located_in Arg1:T37 Arg2:T38	
+R19	located_in Arg1:T36 Arg2:T38	
+R20	located_in Arg1:T35 Arg2:T38	
+T94	missed_gene 1183 1195	ERM proteins
+R21	located_in Arg1:T94 Arg2:T38	
+R22	located_in Arg1:T40 Arg2:T39	
+R23	located_in Arg1:T41 Arg2:T39	
+T95	corrected_gene 2199 2231	wnt-1-induced secreted protein 1
+T96	missed_gene 2244 2252;2273 2301	receptor activity modifying protein 1
+R24	located_in Arg1:T61 Arg2:T63	
+R25	located_in Arg1:T61 Arg2:T62	
+R26	located_in Arg1:T96 Arg2:T63	
+R27	located_in Arg1:T96 Arg2:T62	
+R28	located_in Arg1:T60 Arg2:T63	
+R29	located_in Arg1:T60 Arg2:T62	
+R30	located_in Arg1:T95 Arg2:T63	
+R31	located_in Arg1:T95 Arg2:T62	
+R32	located_in Arg1:T64 Arg2:T65	
+T97	missed_gene 3161 3164	FAK
+R33	located_in Arg1:T82 Arg2:T83	
+R34	located_in Arg1:T97 Arg2:T83	
+R35	located_in Arg1:T81 Arg2:T83	
+R36	located_in Arg1:T86 Arg2:T87	
+R37	located_in Arg1:T84 Arg2:T89	
+#5	AnnotatorNotes R37	Okay?
+R38	located_in Arg1:T85 Arg2:T89	
+#6	AnnotatorNotes R38	Okay?

@@ -97,3 +97,43 @@ T96	gene 3171 3174	EGF
 T97	gene 3186 3198	EGF receptor
 T98	gene 3200 3204	EGFR
 T99	cellular_component 3222 3229	nucleus
+T100	missed_gene 65 94	membrane progestin receptor α
+T101	missed_gene 96 100	mPRα
+R1	located_in Arg1:T100 Arg2:T2	
+R2	located_in Arg1:T101 Arg2:T2	
+R3	located_in Arg1:T100 Arg2:T1	
+R4	located_in Arg1:T101 Arg2:T1	
+T102	corrected_gene 105 147	progesterone receptor membrane component 1
+R5	located_in Arg1:T102 Arg2:T4	
+R6	located_in Arg1:T5 Arg2:T4	
+R7	located_in Arg1:T16 Arg2:T18	
+R8	located_in Arg1:T17 Arg2:T18	
+T103	missed_gene 939 959	macrophage antigen-1
+T104	corrected_gene 933 937;969 986	CD18 integrin receptor
+T105	corrected_gene 927 932;969 986	CD11b integrin receptor
+R9	located_in Arg1:T105 Arg2:T24	
+R10	located_in Arg1:T104 Arg2:T24	
+R11	located_in Arg1:T103 Arg2:T24	
+R12	located_in Arg1:T27 Arg2:T24	
+#1	AnnotatorNotes R9	Okay?
+#2	AnnotatorNotes R10	Okay?
+T106	corrected_gene 1201 1219	Cdc7p-Dbf4p kinase
+R13	located_in Arg1:T106 Arg2:T39	
+R14	located_in Arg1:T44 Arg2:T45	
+R15	located_in Arg1:T52 Arg2:T51	
+#3	AnnotatorNotes R15	Okay?
+R16	located_in Arg1:T56 Arg2:T55	
+#4	AnnotatorNotes R16	Okay?
+T107	corrected_gene 2180 2193	p70 S6 kinase
+R17	located_in Arg1:T107 Arg2:T70	
+R18	located_in Arg1:T68 Arg2:T70	
+R19	located_in Arg1:T72 Arg2:T71	
+R20	located_in Arg1:T73 Arg2:T71	
+T108	corrected_gene 2284 2337	extracellular-signal-regulated kinase kinase kinase 2
+R21	located_in Arg1:T108 Arg2:T71	
+R22	located_in Arg1:T76 Arg2:T80	
+R23	located_in Arg1:T77 Arg2:T80	
+R24	located_in Arg1:T78 Arg2:T80	
+R25	located_in Arg1:T84 Arg2:T85	
+R26	located_in Arg1:T98 Arg2:T99	
+R27	located_in Arg1:T97 Arg2:T99	

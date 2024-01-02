@@ -95,3 +95,104 @@ T94	anatomical_site 3723 3729	tissue
 T95	anatomical_site 3790 3795	serum
 T96	gene 3838 3846	vimentin
 T97	gene 3848 3852	GFAP
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T1 Arg2:T3	
+T98	corrected_gene 270 293	Phosducin-like proteins
+R3	located_in Arg1:T98 Arg2:T8	
+R4	located_in Arg1:T98 Arg2:T9	
+T99	corrected_gene 614 621	albumin
+T100	missed_anatomical_site 608 613	serum
+R5	located_in Arg1:T99 Arg2:T100	
+T101	missed_gene 591 606	immunoglobulins
+#1	AnnotatorNotes T101	do we mark it? 
+R6	located_in Arg1:T101 Arg2:T10	
+#2	AnnotatorNotes R6	Okay?
+R7	located_in Arg1:T15 Arg2:T14	
+R8	located_in Arg1:T18 Arg2:T19	
+#3	AnnotatorNotes R8	Okay?
+R9	located_in Arg1:T18 Arg2:T20	
+#4	AnnotatorNotes R9	Okay?
+R10	located_in Arg1:T26 Arg2:T25	
+T102	missed_gene 1637 1644	albumin
+T103	missed_gene 1646 1654	globulin
+R11	located_in Arg1:T102 Arg2:T36	
+R12	located_in Arg1:T103 Arg2:T36	
+R13	located_in Arg1:T39 Arg2:T40	
+T104	missed_gene 1904 1915	PI 3-kinase
+#5	AnnotatorNotes T104	okay?
+R14	located_in Arg1:T104 Arg2:T42	
+R15	located_in Arg1:T104 Arg2:T43	
+#6	AnnotatorNotes R15	Okay?
+T105	corrected_anatomical_site 1955 1989	interscapular brown adipose tissue
+R16	located_in Arg1:T104 Arg2:T105	
+#7	AnnotatorNotes R16	Okay?
+R17	located_in Arg1:T41 Arg2:T42	
+R18	located_in Arg1:T41 Arg2:T43	
+R19	located_in Arg1:T41 Arg2:T105	
+T106	missed_gene 2013 2016	CAT
+R20	located_in Arg1:T47 Arg2:T48	
+R21	located_in Arg1:T46 Arg2:T48	
+R22	located_in Arg1:T45 Arg2:T48	
+R23	located_in Arg1:T106 Arg2:T48	
+R24	located_in Arg1:T47 Arg2:T49	
+R25	located_in Arg1:T46 Arg2:T49	
+R26	located_in Arg1:T45 Arg2:T49	
+R27	located_in Arg1:T106 Arg2:T49	
+R28	located_in Arg1:T51 Arg2:T52	
+#8	AnnotatorNotes R28	Okay?
+R29	located_in Arg1:T51 Arg2:T53	
+#9	AnnotatorNotes R29	Okay?
+R30	located_in Arg1:T57 Arg2:T58	
+R31	located_in Arg1:T55 Arg2:T58	
+T107	missed_gene 2344 2357	tissue factor
+R32	located_in Arg1:T107 Arg2:T56	
+R33	located_in Arg1:T107 Arg2:T58	
+R34	located_in Arg1:T60 Arg2:T59	
+R35	located_in Arg1:T61 Arg2:T59	
+R36	located_in Arg1:T62 Arg2:T59	
+R37	located_in Arg1:T63 Arg2:T59	
+R38	located_in Arg1:T60 Arg2:T65	
+R39	located_in Arg1:T61 Arg2:T65	
+R40	located_in Arg1:T62 Arg2:T65	
+R41	located_in Arg1:T63 Arg2:T65	
+R42	located_in Arg1:T67 Arg2:T68	
+R43	located_in Arg1:T66 Arg2:T68	
+T108	corrected_anatomical_site 3004 3023	white gastrocnemius
+T109	missed_anatomical_site 2942 2949;3025 3032	cardiac muscles
+T110	missed_anatomical_site 2977 2985;3025 3032	skeletal muscles
+R44	located_in Arg1:T70 Arg2:T109	
+R45	located_in Arg1:T71 Arg2:T109	
+R46	located_in Arg1:T72 Arg2:T109	
+R47	located_in Arg1:T73 Arg2:T109	
+R48	located_in Arg1:T70 Arg2:T74	
+R49	located_in Arg1:T71 Arg2:T74	
+R50	located_in Arg1:T72 Arg2:T74	
+R51	located_in Arg1:T73 Arg2:T74	
+R52	located_in Arg1:T70 Arg2:T110	
+R53	located_in Arg1:T71 Arg2:T110	
+R54	located_in Arg1:T72 Arg2:T110	
+R55	located_in Arg1:T73 Arg2:T110	
+R56	located_in Arg1:T70 Arg2:T75	
+R57	located_in Arg1:T70 Arg2:T76	
+R58	located_in Arg1:T71 Arg2:T75	
+R59	located_in Arg1:T71 Arg2:T108	
+R60	located_in Arg1:T72 Arg2:T75	
+R61	located_in Arg1:T72 Arg2:T108	
+R62	located_in Arg1:T73 Arg2:T75	
+R63	located_in Arg1:T73 Arg2:T108	
+T111	missed_gene 3133 3138	IL-1β
+T112	corrected_anatomical_site 3191 3204	brain tissues
+R64	located_in Arg1:T111 Arg2:T112	
+R65	located_in Arg1:T111 Arg2:T80	
+R66	located_in Arg1:T77 Arg2:T112	
+R67	located_in Arg1:T77 Arg2:T80	
+R68	located_in Arg1:T78 Arg2:T112	
+R69	located_in Arg1:T78 Arg2:T80	
+R70	located_in Arg1:T82 Arg2:T83	
+R71	located_in Arg1:T82 Arg2:T84	
+R72	located_in Arg1:T82 Arg2:T85	
+R73	located_in Arg1:T90 Arg2:T89	
+R74	located_in Arg1:T90 Arg2:T88	
+R75	located_in Arg1:T91 Arg2:T88	
+T113	corrected_anatomical_site 3711 3716;3723 3729	liver tissue
+R76	located_in Arg1:T92 Arg2:T113	

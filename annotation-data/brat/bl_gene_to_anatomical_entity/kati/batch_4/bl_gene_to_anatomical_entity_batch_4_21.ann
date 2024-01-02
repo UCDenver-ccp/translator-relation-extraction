@@ -87,3 +87,70 @@ T86	gene 2515 2519	TFF3
 T87	anatomical_site 2554 2559	liver
 T88	anatomical_site 2580 2585	serum
 T89	gene 2586 2590	TFF3
+R1	located_in Arg1:T1 Arg2:T3	
+T90	corrected_gene 64 73	cyclin D1
+R2	located_in Arg1:T90 Arg2:T3	
+T91	corrected_anatomical_site 266 287	root-resorbing tissue
+R3	located_in Arg1:T5 Arg2:T91	
+R4	located_in Arg1:T6 Arg2:T91	
+R5	located_in Arg1:T9 Arg2:T10	
+T92	missed_gene 590 593	CRP
+T93	missed_gene 595 603	ferritin
+R6	located_in Arg1:T18 Arg2:T17	
+R7	located_in Arg1:T19 Arg2:T17	
+R8	located_in Arg1:T92 Arg2:T17	
+R9	located_in Arg1:T93 Arg2:T17	
+R10	located_in Arg1:T20 Arg2:T17	
+T94	corrected_gene 774 781;791 805	Alpha 1 -adrenoceptors
+T95	corrected_gene 783 790;791 805	alpha 1 -adrenoceptors
+T96	missed_anatomical_site 835 841	organs
+R11	located_in Arg1:T94 Arg2:T96	
+R12	located_in Arg1:T94 Arg2:T29	
+R13	located_in Arg1:T94 Arg2:T30	
+R14	located_in Arg1:T95 Arg2:T96	
+R15	located_in Arg1:T95 Arg2:T29	
+R16	located_in Arg1:T95 Arg2:T30	
+R17	located_in Arg1:T31 Arg2:T32	
+R18	located_in Arg1:T31 Arg2:T33	
+T97	missed_anatomical_site 1065 1072	stromal
+R19	located_in Arg1:T35 Arg2:T34	
+R20	located_in Arg1:T36 Arg2:T34	
+T98	missed_gene 1482 1488	atoh1a
+T99	missed_gene 1490 1496	atoh1b
+R21	located_in Arg1:T98 Arg2:T50	
+R22	located_in Arg1:T99 Arg2:T50	
+T100	corrected_gene 1502 1508	atoh1c
+T101	corrected_anatomical_site 1530 1570	molecular layer of the valvula cerebelli
+T102	corrected_anatomical_site 1530 1545;1575 1605	molecular layer of the medial corpus cerebelli
+R23	located_in Arg1:T100 Arg2:T50	
+R24	located_in Arg1:T98 Arg2:T101	
+R25	located_in Arg1:T99 Arg2:T101	
+R26	located_in Arg1:T100 Arg2:T101	
+R27	located_in Arg1:T98 Arg2:T102	
+R28	located_in Arg1:T99 Arg2:T102	
+R29	located_in Arg1:T100 Arg2:T102	
+T103	missed_anatomical_site 1637 1639	VZ
+R30	located_in Arg1:T55 Arg2:T103	
+R31	located_in Arg1:T55 Arg2:T50	
+T104	missed_gene 1657 1688	sulphonylurea receptor proteins
+R32	located_in Arg1:T104 Arg2:T59	
+R33	located_in Arg1:T56 Arg2:T59	
+R34	located_in Arg1:T57 Arg2:T59	
+R35	located_in Arg1:T58 Arg2:T59	
+R36	located_in Arg1:T61 Arg2:T60	
+R37	located_in Arg1:T62 Arg2:T60	
+R38	located_in Arg1:T64 Arg2:T63	
+R39	located_in Arg1:T67 Arg2:T68	
+R40	located_in Arg1:T69 Arg2:T70	
+T105	corrected_anatomical_site 2095 2108	breast muscle
+R41	located_in Arg1:T71 Arg2:T105	
+R42	located_in Arg1:T72 Arg2:T105	
+T106	missed_gene 2113 2117	MyoG
+R43	located_in Arg1:T106 Arg2:T76	
+R44	located_in Arg1:T75 Arg2:T76	
+R45	located_in Arg1:T81 Arg2:T82	
+R46	located_in Arg1:T81 Arg2:T83	
+R47	located_in Arg1:T86 Arg2:T85	
+R48	located_in Arg1:T89 Arg2:T88	
+R49	located_in Arg1:T35 Arg2:T97	
+R50	located_in Arg1:T36 Arg2:T97	

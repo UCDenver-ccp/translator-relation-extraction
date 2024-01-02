@@ -68,24 +68,18 @@ T67	disease_or_phenotypic_feature 2974 2980	anemia
 T68	chemical 3019 3023	drug
 T69	chemical 3045 3055	furosemide
 R2	treats Arg1:T13 Arg2:T14	
-T71	corrected_chemical 1264 1305	Dopamine receptor antagonist thioridazine
+T71	corrected_chemical 1264 1292	Dopamine receptor antagonist
 R3	treats Arg1:T71 Arg2:T24	
-T72	missed_chemical 1468 1479	antibiotics
-R4	causes_or_contributes_to Arg1:T28 Arg2:T25	
+T72	corrected_chemical 1454 1521	methotrexate, antibiotics and non-steroidal anti-inflammatory drugs
 R5	causes_or_contributes_to Arg1:T72 Arg2:T25	
-R6	causes_or_contributes_to Arg1:T29 Arg2:T25	
 T73	corrected_disease_or_phenotypic_feature 1378 1412	colitis with Clostridium difficile
-R7	causes_or_contributes_to Arg1:T28 Arg2:T73	
 R8	causes_or_contributes_to Arg1:T72 Arg2:T73	
-R9	causes_or_contributes_to Arg1:T29 Arg2:T73	
 R10	treats Arg1:T36 Arg2:T40	
 T75	missed_chemical 2162 2171	Olprinone
 R12	treats Arg1:T75 Arg2:T48	
 R13	treats Arg1:T75 Arg2:T49	
 T76	missed_disease_or_phenotypic_feature 2377 2389	solid tumors
-T78	corrected_chemical 2889 2922	angiogenesis inhibitor squalamine
 R16	treats Arg1:T62 Arg2:T63	
-R17	treats Arg1:T78 Arg2:T63	
 T70	corrected_chemical 515 534	Two-deoxy-D-glucose
 R1	treats Arg1:T8 Arg2:T11	
 R18	treats Arg1:T70 Arg2:T11	
@@ -108,3 +102,18 @@ R26	treats Arg1:T81 Arg2:T76
 R27	treats Arg1:T64 Arg2:T63	
 R28	treats Arg1:T65 Arg2:T63	
 T82	DONE 3057 3061	DONE
+T83	missed_chemical 546 569	inhibitor of glycolysis
+R29	treats Arg1:T83 Arg2:T11	
+T84	missed_disease_or_phenotypic_feature 2986 3011	generalized toxic effects
+R17	causes_or_contributes_to Arg1:T68 Arg2:T84	
+R30	causes_or_contributes_to Arg1:T68 Arg2:T67	
+R31	causes_or_contributes_to Arg1:T68 Arg2:T66	
+T78	missed_disease_or_phenotypic_feature 799 804	tumor
+R32	treats Arg1:T12 Arg2:T78	
+R33	treats Arg1:T12 Arg2:T11	
+T85	corrected_chemical 1789 1843	serotonin and norepinephrine reuptake intake inhibitor
+R34	treats Arg1:T85 Arg2:T40	
+T86	missed_disease_or_phenotypic_feature 1219 1235	renal transplant
+R35	treats Arg1:T80 Arg2:T86	
+R36	treats Arg1:T28 Arg2:T27	
+R37	treats Arg1:T29 Arg2:T27	

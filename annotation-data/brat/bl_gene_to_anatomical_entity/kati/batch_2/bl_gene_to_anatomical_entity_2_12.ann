@@ -97,7 +97,7 @@ T96	gene 1946 1950	Lim3
 T97	gene 1955 1959	Pax6
 T98	anatomical_site 1978 1983	chick
 T99	anatomical_site 1996 2003	placode
-T100	anatomical_site 2008 2022	Rathke's pouch
+T100	corrected_anatomical_site 1967 1977;2008 2022	developing Rathke's pouch
 T101	gene 2033 2037	ESR2
 T102	anatomical_site 2091 2096	ovary
 T103	gene 2115 2121	HSD3B1
@@ -114,3 +114,126 @@ T113	gene 2439 2458	toll-like receptor3
 T114	gene 2463 2482	toll-like receptor4
 T115	anatomical_site 2499 2504	brain
 T116	anatomical_site 2505 2511	tissue
+R1	located_in Arg1:T1 Arg2:T8	
+R2	located_in Arg1:T2 Arg2:T8	
+R3	located_in Arg1:T3 Arg2:T8	
+R4	located_in Arg1:T4 Arg2:T8	
+R5	located_in Arg1:T5 Arg2:T8	
+R6	located_in Arg1:T6 Arg2:T8	
+T117	missed_gene 41 44	LIF
+R7	located_in Arg1:T117 Arg2:T8	
+R8	located_in Arg1:T7 Arg2:T8	
+R9	located_in Arg1:T1 Arg2:T9	
+R10	located_in Arg1:T2 Arg2:T9	
+R11	located_in Arg1:T3 Arg2:T9	
+R12	located_in Arg1:T4 Arg2:T9	
+R13	located_in Arg1:T5 Arg2:T9	
+R14	located_in Arg1:T6 Arg2:T9	
+R15	located_in Arg1:T117 Arg2:T9	
+R16	located_in Arg1:T7 Arg2:T9	
+T118	missed_gene 171 209	cartilage extracellular matrix protein
+R17	located_in Arg1:T118 Arg2:T12	
+T119	missed_anatomical_site 115 124	Cartilage
+R18	located_in Arg1:T10 Arg2:T119	
+R19	located_in Arg1:T11 Arg2:T119	
+R20	located_in Arg1:T15 Arg2:T14	
+R21	located_in Arg1:T16 Arg2:T17	
+R22	located_in Arg1:T16 Arg2:T18	
+R23	located_in Arg1:T16 Arg2:T19	
+R24	located_in Arg1:T16 Arg2:T20	
+R25	located_in Arg1:T21 Arg2:T27	
+R26	located_in Arg1:T22 Arg2:T27	
+R27	located_in Arg1:T23 Arg2:T27	
+R28	located_in Arg1:T24 Arg2:T27	
+R29	located_in Arg1:T25 Arg2:T27	
+R30	located_in Arg1:T26 Arg2:T27	
+R31	located_in Arg1:T28 Arg2:T29	
+T121	corrected_gene 693 709	type IX collagen
+T122	corrected_anatomical_site 719 735	embryo cartilage
+R33	located_in Arg1:T33 Arg2:T122	
+R34	located_in Arg1:T121 Arg2:T122	
+T123	missed_gene 741 767	Cdk-related protein kinase
+R35	located_in Arg1:T123 Arg2:T40	
+R36	located_in Arg1:T123 Arg2:T41	
+R37	located_in Arg1:T123 Arg2:T42	
+R38	located_in Arg1:T38 Arg2:T40	
+R39	located_in Arg1:T38 Arg2:T41	
+R40	located_in Arg1:T38 Arg2:T42	
+R41	located_in Arg1:T39 Arg2:T40	
+R42	located_in Arg1:T39 Arg2:T41	
+R43	located_in Arg1:T39 Arg2:T42	
+T124	corrected_gene 955 988	brain-derived neurotrophin factor
+R44	located_in Arg1:T124 Arg2:T47	
+R45	located_in Arg1:T49 Arg2:T47	
+R46	located_in Arg1:T43 Arg2:T50	
+R47	located_in Arg1:T44 Arg2:T50	
+R48	located_in Arg1:T45 Arg2:T50	
+R49	located_in Arg1:T46 Arg2:T50	
+R50	located_in Arg1:T124 Arg2:T50	
+R51	located_in Arg1:T49 Arg2:T50	
+R52	located_in Arg1:T63 Arg2:T64	
+R53	located_in Arg1:T65 Arg2:T67	
+R54	located_in Arg1:T66 Arg2:T67	
+T125	missed_anatomical_site 1392 1396	gill
+R55	located_in Arg1:T65 Arg2:T125	
+R56	located_in Arg1:T66 Arg2:T125	
+R57	located_in Arg1:T65 Arg2:T68	
+R58	located_in Arg1:T66 Arg2:T68	
+R59	located_in Arg1:T65 Arg2:T69	
+R60	located_in Arg1:T66 Arg2:T69	
+R61	located_in Arg1:T65 Arg2:T70	
+R62	located_in Arg1:T66 Arg2:T70	
+R63	located_in Arg1:T65 Arg2:T71	
+R64	located_in Arg1:T66 Arg2:T71	
+R65	located_in Arg1:T65 Arg2:T72	
+R66	located_in Arg1:T66 Arg2:T72	
+R67	located_in Arg1:T74 Arg2:T73	
+R68	located_in Arg1:T79 Arg2:T78	
+R69	located_in Arg1:T80 Arg2:T78	
+R70	located_in Arg1:T81 Arg2:T78	
+R71	located_in Arg1:T79 Arg2:T77	
+R72	located_in Arg1:T80 Arg2:T77	
+R73	located_in Arg1:T81 Arg2:T77	
+R74	located_in Arg1:T82 Arg2:T85	
+R75	located_in Arg1:T83 Arg2:T85	
+R76	located_in Arg1:T84 Arg2:T85	
+R77	located_in Arg1:T82 Arg2:T86	
+R78	located_in Arg1:T83 Arg2:T86	
+R79	located_in Arg1:T84 Arg2:T86	
+R80	located_in Arg1:T87 Arg2:T89	
+R81	located_in Arg1:T88 Arg2:T89	
+R82	located_in Arg1:T87 Arg2:T90	
+R83	located_in Arg1:T88 Arg2:T90	
+T126	corrected_anatomical_site 1967 1977;1984 2003	developing hypophyseal placode
+R84	located_in Arg1:T91 Arg2:T126	
+R85	located_in Arg1:T92 Arg2:T126	
+R86	located_in Arg1:T93 Arg2:T126	
+R87	located_in Arg1:T94 Arg2:T126	
+R88	located_in Arg1:T95 Arg2:T126	
+R89	located_in Arg1:T96 Arg2:T126	
+R90	located_in Arg1:T97 Arg2:T126	
+R91	located_in Arg1:T91 Arg2:T100	
+R92	located_in Arg1:T92 Arg2:T100	
+R93	located_in Arg1:T93 Arg2:T100	
+R94	located_in Arg1:T94 Arg2:T100	
+R95	located_in Arg1:T95 Arg2:T100	
+R96	located_in Arg1:T96 Arg2:T100	
+R97	located_in Arg1:T97 Arg2:T100	
+T129	corrected_anatomical_site 2499 2511	brain tissue
+R103	located_in Arg1:T107 Arg2:T129	
+R104	located_in Arg1:T108 Arg2:T129	
+R105	located_in Arg1:T109 Arg2:T129	
+R106	located_in Arg1:T110 Arg2:T129	
+R107	located_in Arg1:T111 Arg2:T129	
+R108	located_in Arg1:T112 Arg2:T129	
+R109	located_in Arg1:T113 Arg2:T129	
+R110	located_in Arg1:T114 Arg2:T129	
+R111	located_in Arg1:T107 Arg2:T106	
+R112	located_in Arg1:T108 Arg2:T106	
+R113	located_in Arg1:T109 Arg2:T106	
+R114	located_in Arg1:T110 Arg2:T106	
+R115	located_in Arg1:T111 Arg2:T106	
+R116	located_in Arg1:T112 Arg2:T106	
+R117	located_in Arg1:T113 Arg2:T106	
+R118	located_in Arg1:T114 Arg2:T106	
+T120	anatomical_site 2008 2022	Rathke's pouch

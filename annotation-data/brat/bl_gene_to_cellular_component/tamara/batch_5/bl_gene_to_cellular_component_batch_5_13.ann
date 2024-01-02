@@ -106,3 +106,56 @@ T105	gene 3722 3727	Bcl-2
 T106	cellular_component 3736 3749	mitochondrial
 T107	cellular_component 3750 3759	complex I
 T108	gene 3777 3781	OPA1
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T1 Arg2:T3	
+T109	missed_gene 611 623	ERM proteins
+R3	located_in Arg1:T109 Arg2:T21	
+R4	located_in Arg1:T109 Arg2:T22	
+T110	missed_gene 673 678	actin
+R5	located_in Arg1:T110 Arg2:T21	
+R6	located_in Arg1:T18 Arg2:T21	
+R7	located_in Arg1:T18 Arg2:T22	
+R8	located_in Arg1:T19 Arg2:T21	
+R9	located_in Arg1:T19 Arg2:T22	
+R10	located_in Arg1:T20 Arg2:T21	
+R11	located_in Arg1:T20 Arg2:T22	
+T111	missed_cellular_component 755 762	vesicle
+R12	located_in Arg1:T23 Arg2:T111	
+R13	located_in Arg1:T24 Arg2:T111	
+T112	missed_gene 804 817	SNARE protein
+R14	located_in Arg1:T112 Arg2:T25	
+R15	located_in Arg1:T31 Arg2:T29	
+#1	AnnotatorNotes R14	Okay?
+R16	located_in Arg1:T31 Arg2:T30	
+R17	located_in Arg1:T34 Arg2:T33	
+R18	located_in Arg1:T37 Arg2:T36	
+T113	missed_gene 1358 1363	actin
+R19	located_in Arg1:T113 Arg2:T42	
+R20	located_in Arg1:T43 Arg2:T42	
+#2	AnnotatorNotes R20	Okay?
+T114	missed_gene 1904 1950	microtubule-associated protein 1 light chain 3
+R21	located_in Arg1:T114 Arg2:T51	
+T115	missed_gene 1952 1958	LC3-II
+R22	located_in Arg1:T115 Arg2:T51	
+T116	missed_cellular_component 1992 2000	lysosome
+R23	located_in Arg1:T53 Arg2:T116	
+R24	located_in Arg1:T54 Arg2:T116	
+R25	located_in Arg1:T56 Arg2:T55	
+R26	located_in Arg1:T61 Arg2:T62	
+R27	located_in Arg1:T60 Arg2:T62	
+R28	located_in Arg1:T61 Arg2:T64	
+R29	located_in Arg1:T60 Arg2:T64	
+R30	located_in Arg1:T72 Arg2:T71	
+R31	located_in Arg1:T86 Arg2:T87	
+T117	corrected_gene 3148 3151;3153 3154	ERK 2
+R32	located_in Arg1:T117 Arg2:T87	
+R33	located_in Arg1:T85 Arg2:T87	
+T118	corrected_gene 3232 3247	Calbindin-D(9k)
+R34	located_in Arg1:T118 Arg2:T91	
+R35	located_in Arg1:T90 Arg2:T91	
+T119	missed_gene 3589 3593	CD26
+T120	missed_gene 3614 3628	IkappaB kinase
+R36	located_in Arg1:T120 Arg2:T102	
+R37	located_in Arg1:T101 Arg2:T102	
+R38	located_in Arg1:T100 Arg2:T102	
+R39	located_in Arg1:T119 Arg2:T102	

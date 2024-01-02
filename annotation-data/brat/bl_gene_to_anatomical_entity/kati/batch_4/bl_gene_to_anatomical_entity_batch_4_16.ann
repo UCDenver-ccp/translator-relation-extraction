@@ -95,3 +95,80 @@ T94	gene 2615 2619	CD34
 T95	gene 2628 2633	CDCP1
 T96	anatomical_site 2657 2662	blood
 T97	anatomical_site 2699 2704	blood
+T98	corrected_anatomical_site 81 86;96 102	fetal tissue
+R1	located_in Arg1:T1 Arg2:T98	
+R2	located_in Arg1:T2 Arg2:T98	
+R3	located_in Arg1:T3 Arg2:T98	
+T99	corrected_gene 199 205	Stab-2
+R4	located_in Arg1:T99 Arg2:T6	
+R5	located_in Arg1:T99 Arg2:T7	
+T100	corrected_anatomical_site 309 337	endothelial sinuses of liver
+T101	missed_anatomical_site 309 331;339 350	endothelial sinuses of lymph nodes
+T106	corrected_gene 276 282	Stab-2
+R6	located_in Arg1:T106 Arg2:T100	
+R7	located_in Arg1:T106 Arg2:T101	
+T107	corrected_anatomical_site 309 331;352 358	endothelial sinuses of spleen
+R8	located_in Arg1:T106 Arg2:T107	
+T108	corrected_anatomical_site 309 331;364 375	endothelial sinuses of bone marrow
+R9	located_in Arg1:T106 Arg2:T108	
+R10	located_in Arg1:T106 Arg2:T12	
+R11	located_in Arg1:T106 Arg2:T13	
+R12	located_in Arg1:T106 Arg2:T14	
+R13	located_in Arg1:T106 Arg2:T15	
+R14	located_in Arg1:T18 Arg2:T16	
+R15	located_in Arg1:T18 Arg2:T17	
+R16	located_in Arg1:T22 Arg2:T19	
+R17	located_in Arg1:T22 Arg2:T20	
+R18	located_in Arg1:T22 Arg2:T21	
+R19	located_in Arg1:T34 Arg2:T33	
+R20	located_in Arg1:T35 Arg2:T33	
+R21	located_in Arg1:T36 Arg2:T33	
+R22	located_in Arg1:T37 Arg2:T33	
+T109	corrected_anatomical_site 1168 1180	heart tissue
+T110	missed_gene 1124 1131	calpain
+R25	located_in Arg1:T110 Arg2:T109	
+R26	located_in Arg1:T42 Arg2:T109	
+T111	missed_anatomical_site 1227 1236	arteriols
+R27	located_in Arg1:T45 Arg2:T46	
+R28	located_in Arg1:T45 Arg2:T111	
+R29	located_in Arg1:T45 Arg2:T47	
+T114	corrected_gene 1654 1659	CYP3A
+T115	missed_gene 1665 1670	CYP1A
+R33	located_in Arg1:T60 Arg2:T62	
+R34	located_in Arg1:T114 Arg2:T62	
+R35	located_in Arg1:T115 Arg2:T62	
+R36	located_in Arg1:T64 Arg2:T63	
+T116	corrected_anatomical_site 1989 2000;2039 2044	hippocampus brain
+T117	corrected_anatomical_site 2005 2023;2039 2044	temporal cortex of brain
+T118	corrected_gene 1926 1959	receptor for activated C kinase 1
+R37	located_in Arg1:T118 Arg2:T116	
+R38	located_in Arg1:T118 Arg2:T117	
+R39	located_in Arg1:T71 Arg2:T116	
+R40	located_in Arg1:T71 Arg2:T117	
+R41	located_in Arg1:T75 Arg2:T76	
+R42	located_in Arg1:T77 Arg2:T78	
+T119	corrected_gene 2206 2211	PPARγ
+R43	located_in Arg1:T119 Arg2:T82	
+T120	corrected_anatomical_site 2442 2448;2461 2467	rectal mucosa
+R44	located_in Arg1:T90 Arg2:T120	
+R45	located_in Arg1:T90 Arg2:T89	
+T121	missed_anatomical_site 2488 2500	perivascular
+R46	located_in Arg1:T90 Arg2:T121	
+R47	located_in Arg1:T91 Arg2:T93	
+R48	located_in Arg1:T92 Arg2:T93	
+R49	located_in Arg1:T91 Arg2:T120	
+R50	located_in Arg1:T91 Arg2:T89	
+T122	missed_gene 2605 2609	CD90
+T123	corrected_anatomical_site 2652 2662	cord blood
+R51	located_in Arg1:T122 Arg2:T123	
+R52	located_in Arg1:T94 Arg2:T123	
+T124	missed_gene 2621 2626	CD133
+T125	missed_gene 2638 2643	CD117
+R53	located_in Arg1:T124 Arg2:T123	
+R54	located_in Arg1:T95 Arg2:T123	
+R55	located_in Arg1:T125 Arg2:T123	
+R56	located_in Arg1:T122 Arg2:T97	
+R57	located_in Arg1:T94 Arg2:T97	
+R58	located_in Arg1:T124 Arg2:T97	
+R59	located_in Arg1:T95 Arg2:T97	
+R60	located_in Arg1:T125 Arg2:T97	

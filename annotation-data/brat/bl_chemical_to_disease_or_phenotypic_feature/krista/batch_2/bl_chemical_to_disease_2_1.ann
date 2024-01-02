@@ -73,7 +73,6 @@ R10	FIXME Arg1:T10 Arg2:T13
 R11	FIXME Arg1:T10 Arg2:T12
 R12	treats Arg1:T10 Arg2:T12
 R13	treats Arg1:T62 Arg2:T64
-R14	treats Arg1:T8 Arg2:T12
 R16	treats Arg1:T29 Arg2:T31
 R17	treats Arg1:T29 Arg2:T33
 R18	treats Arg1:T29 Arg2:T30
@@ -87,3 +86,30 @@ R20	treats Arg1:T71 Arg2:T70
 R21	treats Arg1:T72 Arg2:T70	
 R22	treats Arg1:T73 Arg2:T70	
 R1	treats Arg1:T53 Arg2:T70	
+T63	missed_disease_or_phenotypic_feature 116 120	pain
+R5	treats Arg1:T1 Arg2:T63	
+T66	missed_chemical 517 520	ADT
+R6	treats Arg1:T66 Arg2:T12	
+T67	missed_chemical 2018 2021	LPS
+R23	causes_or_contributes_to Arg1:T67 Arg2:T33	
+R24	causes_or_contributes_to Arg1:T67 Arg2:T31	
+R25	causes_or_contributes_to Arg1:T46 Arg2:T50	
+T68	missed_disease_or_phenotypic_feature 2898 2917	neuronal impairment
+R26	causes_or_contributes_to Arg1:T46 Arg2:T68	
+T75	missed_chemical 3861 3867	GLP1RA
+T76	missed_chemical 3861 3886	GLP1RA plus basal insulin
+T77	missed_disease_or_phenotypic_feature 4001 4005	T2DM
+T78	missed_chemical 3888 3897	GLP1RA+BI
+T79	missed_chemical 3923 3926	BBI
+T80	missed_chemical 3902 3921	basal-bolus insulin
+R29	treats Arg1:T76 Arg2:T77	
+R30	treats Arg1:T76 Arg2:T69	
+R31	treats Arg1:T78 Arg2:T77	
+R32	treats Arg1:T78 Arg2:T69	
+R33	treats Arg1:T79 Arg2:T77	
+R34	treats Arg1:T79 Arg2:T69	
+R35	treats Arg1:T80 Arg2:T69	
+R36	treats Arg1:T80 Arg2:T77	
+R14	treats Arg1:T9 Arg2:T12	
+T81	missed_chemical 3788 3799	Liraglutide
+R15	treats Arg1:T81 Arg2:T64	

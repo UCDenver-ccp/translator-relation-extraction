@@ -107,3 +107,79 @@ T106	anatomical_site 2600 2605	liver
 T107	anatomical_site 2607 2615	prostate
 T108	anatomical_site 2641 2648	thyroid
 T109	anatomical_site 2654 2660	thymus
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T3	
+T110	corrected_anatomical_site 177 189	heart tissue
+T111	missed_gene 132 137	gp130
+R3	located_in Arg1:T111 Arg2:T110	
+R4	located_in Arg1:T5 Arg2:T110	
+R5	located_in Arg1:T6 Arg2:T110	
+T112	corrected_anatomical_site 868 882	cardiac tissue
+T113	corrected_gene 730 735	Hsp20
+T114	missed_gene 757 760	P20
+R6	located_in Arg1:T113 Arg2:T32	
+R7	located_in Arg1:T113 Arg2:T33	
+R8	located_in Arg1:T113 Arg2:T34	
+R9	located_in Arg1:T113 Arg2:T35	
+R10	located_in Arg1:T113 Arg2:T36	
+R11	located_in Arg1:T113 Arg2:T37	
+R12	located_in Arg1:T113 Arg2:T38	
+R13	located_in Arg1:T113 Arg2:T39	
+R14	located_in Arg1:T113 Arg2:T112	
+R15	located_in Arg1:T114 Arg2:T32	
+R16	located_in Arg1:T114 Arg2:T33	
+R17	located_in Arg1:T114 Arg2:T34	
+R18	located_in Arg1:T114 Arg2:T35	
+R19	located_in Arg1:T114 Arg2:T36	
+R20	located_in Arg1:T114 Arg2:T37	
+R21	located_in Arg1:T114 Arg2:T38	
+R22	located_in Arg1:T114 Arg2:T39	
+R23	located_in Arg1:T114 Arg2:T112	
+R24	located_in Arg1:T31 Arg2:T32	
+R25	located_in Arg1:T31 Arg2:T33	
+R26	located_in Arg1:T31 Arg2:T34	
+R27	located_in Arg1:T31 Arg2:T35	
+R28	located_in Arg1:T31 Arg2:T36	
+R29	located_in Arg1:T31 Arg2:T37	
+R30	located_in Arg1:T31 Arg2:T38	
+R31	located_in Arg1:T31 Arg2:T39	
+R32	located_in Arg1:T31 Arg2:T112	
+R33	located_in Arg1:T43 Arg2:T42	
+T115	corrected_anatomical_site 1426 1438	liver tissue
+T116	corrected_anatomical_site 1563 1577	neonatal liver
+T117	corrected_gene 1478 1482	IDH1
+T118	corrected_gene 1483 1487	IDH2
+R34	located_in Arg1:T117 Arg2:T115	
+R36	located_in Arg1:T118 Arg2:T115	
+R39	located_in Arg1:T69 Arg2:T77	
+R40	located_in Arg1:T70 Arg2:T77	
+R41	located_in Arg1:T71 Arg2:T77	
+R42	located_in Arg1:T72 Arg2:T77	
+R43	located_in Arg1:T79 Arg2:T78	
+R44	located_in Arg1:T81 Arg2:T80	
+R45	located_in Arg1:T82 Arg2:T83	
+R46	located_in Arg1:T82 Arg2:T84	
+T120	missed_gene 2250 2254	SR-A
+T121	corrected_anatomical_site 2258 2269	lung tissue
+R47	located_in Arg1:T93 Arg2:T121	
+R48	located_in Arg1:T120 Arg2:T121	
+R49	located_in Arg1:T97 Arg2:T96	
+R50	located_in Arg1:T98 Arg2:T96	
+T122	corrected_gene 301 307	Kir3.1
+T123	corrected_gene 312 318	Kir3.4
+T124	missed_gene 270 300	muscarinic K+ channel proteins
+R51	located_in Arg1:T124 Arg2:T16	
+R52	located_in Arg1:T122 Arg2:T16	
+R53	located_in Arg1:T123 Arg2:T16	
+R38	located_in Arg1:T29 Arg2:T32	
+R54	located_in Arg1:T29 Arg2:T33	
+R55	located_in Arg1:T29 Arg2:T34	
+R56	located_in Arg1:T29 Arg2:T35	
+R57	located_in Arg1:T29 Arg2:T36	
+R58	located_in Arg1:T29 Arg2:T37	
+R59	located_in Arg1:T29 Arg2:T38	
+R60	located_in Arg1:T29 Arg2:T39	
+R61	located_in Arg1:T29 Arg2:T112	
+R35	located_in Arg1:T117 Arg2:T60	
+R37	located_in Arg1:T118 Arg2:T60	
+R62	located_in Arg1:T63 Arg2:T116	

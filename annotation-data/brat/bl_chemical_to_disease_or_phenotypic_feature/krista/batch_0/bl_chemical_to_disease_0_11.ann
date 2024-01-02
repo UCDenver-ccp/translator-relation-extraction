@@ -79,3 +79,9 @@ R12	causes_or_contributes_to Arg1:T54 Arg2:T57
 R13	causes_or_contributes_to Arg1:T54 Arg2:T58
 T67	corrected_disease_or_phenotypic_feature 1981 1993	Constipation
 R14	treats Arg1:T39 Arg2:T67	
+T68	missed_chemical 334 344	medication
+R15	causes_or_contributes_to Arg1:T68 Arg2:T4	
+T69	missed_disease_or_phenotypic_feature 1669 1698	nasolacrimal duct obstruction
+R16	causes_or_contributes_to Arg1:T29 Arg2:T69	
+R17	causes_or_contributes_to Arg1:T48 Arg2:T49	
+T70	missed_disease_or_phenotypic_feature 2442 2446	T2DM

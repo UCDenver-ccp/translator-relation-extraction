@@ -50,7 +50,6 @@ T49	chemical 3431 3438	alcohol
 T50	chemical 3501 3511	biological
 T51	disease_or_phenotypic_feature 3584 3606	infective endocarditis
 T52	chemical 3684 3698	anticoagulants
-T53	corrected_disease_or_phenotypic_feature 3712 3742	acute intracerebral hemorrhage
 T54	disease_or_phenotypic_feature 3718 3742	intracerebral hemorrhage
 T55	disease_or_phenotypic_feature 3803 3806	fed
 T56	chemical 3810 3828	ethanol-containing
@@ -61,8 +60,25 @@ T60	chemical 4082 4090	electron
 T61	chemical 4350 4356	glycol
 T62	chemical 4371 4376	water
 T63	disease_or_phenotypic_feature 4404 4407	MPa
-R1	causes_or_contributes_to Arg1:T52 Arg2:T53
 R2	treats Arg1:T27 Arg2:T28	
 T64	corrected_disease_or_phenotypic_feature 3889 3901	liver injury
 T65	corrected_chemical 3810 3817	ethanol
-R3	causes_or_contributes_to Arg1:T65 Arg2:T64	
+T66	missed_chemical 2202 2223	Ginkgo biloba extract
+R4	treats Arg1:T66 Arg2:T28	
+T67	missed_chemical 2002 2023	Ginkgo biloba extract
+T68	corrected_disease_or_phenotypic_feature 2139 2162	cardiovascular diseases
+R5	treats Arg1:T67 Arg2:T68	
+R6	treats Arg1:T67 Arg2:T26	
+T69	corrected_chemical 3672 3698	direct oral anticoagulants
+T70	missed_chemical 3700 3704	DOAC
+R8	causes_or_contributes_to Arg1:T70 Arg2:T54	
+T53	missed_disease_or_phenotypic_feature 3744 3747	ICH
+R1	causes_or_contributes_to Arg1:T69 Arg2:T54	
+R7	causes_or_contributes_to Arg1:T70 Arg2:T53	
+R9	causes_or_contributes_to Arg1:T69 Arg2:T53	
+T71	missed_chemical 1830 1846	Raffia palm wine
+T72	corrected_disease_or_phenotypic_feature 1934 1947	hyperglycemia
+T73	corrected_disease_or_phenotypic_feature 1956 1983	oxidative testicular injury
+T74	missed_chemical 1848 1851	RPW
+T75	missed_disease_or_phenotypic_feature 2060 2077	anti-inflammatory
+R14	causes_or_contributes_to Arg1:T67 Arg2:T75	

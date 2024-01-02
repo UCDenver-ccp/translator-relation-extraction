@@ -61,7 +61,6 @@ T60	disease_or_phenotypic_feature 1929 1947	hyperprolactinemia
 T61	disease_or_phenotypic_feature 1952 1962	acromegaly
 T62	chemical 1994 2003	inhibitor
 T63	chemical 2058 2066	estrogen
-T64	disease_or_phenotypic_feature 2077 2090	breast cancer
 T65	chemical 2115 2122	estrone
 T66	chemical 2209 2215	oxygen
 T67	chemical 2220 2228	nitrogen
@@ -96,17 +95,24 @@ R11	causes_or_contributes_to Arg1:T84 Arg2:T24
 R12	causes_or_contributes_to Arg1:T22 Arg2:T25	
 R13	causes_or_contributes_to Arg1:T83 Arg2:T25	
 R14	causes_or_contributes_to Arg1:T84 Arg2:T25	
-R15	causes_or_contributes_to Arg1:T26 Arg2:T27	
 R16	treats Arg1:T30 Arg2:T31	
 R17	treats Arg1:T52 Arg2:T55	
 T85	corrected_chemical 1625 1652	platinum-based chemotherapy
 R18	treats Arg1:T85 Arg2:T55	
-R19	causes_or_contributes_to Arg1:T56 Arg2:T57	
 T86	missed_chemical 1869 1878	prolactin
 R20	causes_or_contributes_to Arg1:T86 Arg2:T60	
 R21	causes_or_contributes_to Arg1:T59 Arg2:T61	
 T87	corrected_chemical 1970 2046	nonestrogenic steroidal inhibitor of 17?-hydroxysteroid dehydrogenase type I
-T88	corrected_disease_or_phenotypic_feature 2058 2090	estrogen-dependent breast cancer
+T88	disease_or_phenotypic_feature 2077 2090	breast cancer
 R22	causes_or_contributes_to Arg1:T65 Arg2:T88	
 R23	treats Arg1:T87 Arg2:T88	
 T89	DONE 2677 2681	DONE
+R15	treats Arg1:T53 Arg2:T55	
+T90	corrected_chemical 273 288	Rye whole grain
+R19	treats Arg1:T90 Arg2:T13	
+R24	treats Arg1:T28 Arg2:T31	
+R25	causes_or_contributes_to Arg1:T63 Arg2:T88	
+T64	missed_chemical 293 297	bran
+R26	treats Arg1:T64 Arg2:T13	
+T91	missed_chemical 2392 2415	chemotherapeutic agents
+R27	treats Arg1:T91 Arg2:T69	

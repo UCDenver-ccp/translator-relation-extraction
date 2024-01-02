@@ -70,14 +70,11 @@ T70	corrected_chemical 160 177	anorexigenic drug
 R1	treats Arg1:T3 Arg2:T5	
 R2	treats Arg1:T70 Arg2:T5	
 R3	treats Arg1:T6 Arg2:T7	
-R5	treats Arg1:T10 Arg2:T11	
 T9	chemical 286 296	antagonist
 T71	corrected_chemical 261 296	cannabinoid CB1 receptor antagonist
-R4	treats Arg1:T71 Arg2:T11	
 T72	corrected_chemical 1002 1023	Antihypertensive drug
 R6	treats Arg1:T72 Arg2:T29	
 T73	corrected_chemical 1366 1407	Sodium-glucose cotransporter-2 inhibitors
-R7	treats Arg1:T73 Arg2:T39	
 R8	treats Arg1:T73 Arg2:T38	
 T74	missed_disease_or_phenotypic_feature 1638 1644	tumors
 T75	missed_chemical 1600 1618	diethylnitrosamine
@@ -98,3 +95,12 @@ R19	treats Arg1:T78 Arg2:T55
 T79	corrected_disease_or_phenotypic_feature 2167 2175	diabetes
 T80	missed_chemical 2149 2156	insulin
 R20	treats Arg1:T80 Arg2:T79	
+T81	corrected_chemical 1258 1295	nonsteroidal anti-inflammatory agents
+R21	causes_or_contributes_to Arg1:T81 Arg2:T35	
+R22	causes_or_contributes_to Arg1:T34 Arg2:T35	
+R23	treats Arg1:T72 Arg2:T30	
+T82	missed_disease_or_phenotypic_feature 2331 2337	tumors
+R7	causes_or_contributes_to Arg1:T68 Arg2:T82	
+R24	causes_or_contributes_to Arg1:T69 Arg2:T82	
+T83	missed_disease_or_phenotypic_feature 524 534	dependence
+R4	causes_or_contributes_to Arg1:T16 Arg2:T83	

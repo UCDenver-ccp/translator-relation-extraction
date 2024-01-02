@@ -1,7 +1,7 @@
 T1	gene 35 41	S100A4
 T2	gene 43 49	S100A6
 T3	anatomical_site 83 96	smooth muscle
-T4	anatomical_site 119 124	aorta
+T4	corrected_anatomical_site 119 124;83 99	aorta smooth muscle of
 T5	gene 136 145	precursor
 T6	gene 158 161	tau
 T7	anatomical_site 212 222	cerebellum
@@ -108,3 +108,88 @@ T107	gene 2874 2889	angiotensinogen
 T108	gene 2894 2899	AGTR2
 T109	anatomical_site 2955 2966	endothelium
 T110	gene 2974 2978	ACE2
+T111	corrected_anatomical_site 83 105	smooth muscle of ileum
+T112	corrected_anatomical_site 107 114;83 99	bladder smooth muscle of
+T113	missed_gene 54 61	S100A10
+R1	located_in Arg1:T1 Arg2:T111	
+R2	located_in Arg1:T2 Arg2:T111	
+R3	located_in Arg1:T113 Arg2:T111	
+R4	located_in Arg1:T1 Arg2:T112	
+R5	located_in Arg1:T2 Arg2:T112	
+R6	located_in Arg1:T113 Arg2:T112	
+R7	located_in Arg1:T1 Arg2:T4	
+R8	located_in Arg1:T2 Arg2:T4	
+R9	located_in Arg1:T113 Arg2:T4	
+T114	corrected_gene 126 153	?-Amyloid precursor protein
+R10	located_in Arg1:T114 Arg2:T7	
+R11	located_in Arg1:T6 Arg2:T7	
+R12	located_in Arg1:T114 Arg2:T8	
+R13	located_in Arg1:T6 Arg2:T8	
+R14	located_in Arg1:T13 Arg2:T15	
+R15	located_in Arg1:T13 Arg2:T16	
+R16	located_in Arg1:T14 Arg2:T15	
+R17	located_in Arg1:T14 Arg2:T16	
+T115	missed_gene 473 499	bone morphogenetic protein
+R18	located_in Arg1:T115 Arg2:T18	
+R19	located_in Arg1:T19 Arg2:T18	
+R20	located_in Arg1:T22 Arg2:T27	
+R21	located_in Arg1:T22 Arg2:T28	
+R22	located_in Arg1:T23 Arg2:T27	
+R23	located_in Arg1:T23 Arg2:T28	
+R24	located_in Arg1:T24 Arg2:T27	
+R25	located_in Arg1:T24 Arg2:T28	
+R26	located_in Arg1:T25 Arg2:T27	
+R27	located_in Arg1:T25 Arg2:T28	
+R28	located_in Arg1:T26 Arg2:T27	
+R29	located_in Arg1:T26 Arg2:T28	
+R30	located_in Arg1:T30 Arg2:T32	
+R31	located_in Arg1:T31 Arg2:T32	
+T116	corrected_gene 923 930	MOBP-81
+R32	located_in Arg1:T116 Arg2:T39	
+T117	missed_gene 1036 1039	MBP
+R33	located_in Arg1:T117 Arg2:T41	
+T118	missed_gene 1041 1085	2',3'-cyclic nucleotide 3'-phosphodiesterase
+R34	located_in Arg1:T118 Arg2:T41	
+R35	located_in Arg1:T42 Arg2:T41	
+T119	missed_anatomical_site 1091 1097	myelin
+R36	located_in Arg1:T42 Arg2:T119	
+R37	located_in Arg1:T117 Arg2:T43	
+R38	located_in Arg1:T118 Arg2:T43	
+R39	located_in Arg1:T42 Arg2:T43	
+T120	corrected_anatomical_site 1709 1748	suprabasal compartment of the epidermis
+T121	missed_anatomical_site 1750 1754	nail
+T122	corrected_anatomical_site 1760 1771	oral mucosa
+T125	corrected_anatomical_site 1833 1879	keratinized squamous epithelium of the stomach
+T124	corrected_anatomical_site 1794 1824	ventral surfaces of the tongue
+T123	corrected_anatomical_site 1783 1789;1802 1824	dorsal surfaces of the tongue
+R40	located_in Arg1:T63 Arg2:T120	
+R41	located_in Arg1:T64 Arg2:T120	
+R42	located_in Arg1:T65 Arg2:T120	
+R43	located_in Arg1:T63 Arg2:T121	
+R44	located_in Arg1:T64 Arg2:T121	
+R45	located_in Arg1:T65 Arg2:T121	
+R46	located_in Arg1:T63 Arg2:T122	
+R47	located_in Arg1:T64 Arg2:T122	
+R48	located_in Arg1:T65 Arg2:T122	
+R49	located_in Arg1:T63 Arg2:T123	
+R50	located_in Arg1:T64 Arg2:T123	
+R51	located_in Arg1:T65 Arg2:T123	
+R52	located_in Arg1:T63 Arg2:T124	
+R53	located_in Arg1:T64 Arg2:T124	
+R54	located_in Arg1:T65 Arg2:T124	
+R55	located_in Arg1:T63 Arg2:T125	
+R56	located_in Arg1:T64 Arg2:T125	
+R57	located_in Arg1:T65 Arg2:T125	
+T126	corrected_anatomical_site 2462 2473	lung tissue
+R61	located_in Arg1:T88 Arg2:T126	
+T127	missed_gene 2432 2438	RANTES
+R62	located_in Arg1:T127 Arg2:T126	
+R63	located_in Arg1:T89 Arg2:T126	
+R64	located_in Arg1:T90 Arg2:T126	
+T128	missed_gene 2864 2872	prorenin
+R65	located_in Arg1:T128 Arg2:T106	
+R66	located_in Arg1:T107 Arg2:T106	
+R67	located_in Arg1:T108 Arg2:T106	
+T129	missed_gene 2938 2941	ACE
+R68	located_in Arg1:T129 Arg2:T130	
+T130	corrected_anatomical_site 2949 2966	fetal endothelium

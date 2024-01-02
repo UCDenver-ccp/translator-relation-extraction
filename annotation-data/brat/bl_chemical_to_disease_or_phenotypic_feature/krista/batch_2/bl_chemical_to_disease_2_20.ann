@@ -39,7 +39,7 @@ T38	chemical 2532 2538	folate
 T39	chemical 2539 2543	acid
 T40	chemical 2555 2562	dextran
 T41	chemical 2574 2581	alcohol
-T42	missed_chemical 2594 2601	IMD0354
+T42	corrected_chemical 2567 2601	lauryl alcohol loaded with IMD0354
 T43	chemical 2647 2654	mixture
 T44	chemical 2668 2676	iturin A
 T45	corrected_disease_or_phenotypic_feature 2726 2742	clubroot disease
@@ -72,3 +72,7 @@ R1	treats Arg1:T52 Arg2:T53
 R2	treats Arg1:T57 Arg2:T58
 R3	treats Arg1:T44 Arg2:T45
 R4	treats Arg1:T42 Arg2:T37
+T71	corrected_chemical 2532 2562	folate acid conjugated dextran
+R5	treats Arg1:T71 Arg2:T37	
+T72	missed_chemical 2681 2696	RSM hydrolysate
+R6	treats Arg1:T72 Arg2:T45	

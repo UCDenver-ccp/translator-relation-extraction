@@ -92,3 +92,66 @@ T91	gene 2980 2999	parathyroid hormone
 T92	gene 3001 3004	PTH
 T93	gene 3044 3059	osteoprotegerin
 T94	gene 3077 3083	leptin
+T95	missed_gene 54 80	bone morphogenetic protein
+R1	located_in Arg1:T95 Arg2:T2	
+R2	located_in Arg1:T8 Arg2:T7	
+R3	located_in Arg1:T9 Arg2:T7	
+R4	located_in Arg1:T10 Arg2:T7	
+T96	corrected_anatomical_site 759 768	NP tissue
+T97	missed_gene 543 577	transcriptional factor Brachyury T
+T98	missed_gene 606 655	brain abundant membrane attached signal protein 1
+T99	missed_gene 679 683	Ncdn
+T100	missed_gene 685 695	Neuropilin
+T101	missed_gene 705 709	CD24
+T102	missed_gene 715 720	CD221
+R5	located_in Arg1:T98 Arg2:T18	
+R6	located_in Arg1:T97 Arg2:T96	
+R7	located_in Arg1:T98 Arg2:T96	
+R8	located_in Arg1:T19 Arg2:T96	
+R9	located_in Arg1:T20 Arg2:T96	
+R10	located_in Arg1:T99 Arg2:T96	
+R11	located_in Arg1:T100 Arg2:T96	
+R12	located_in Arg1:T21 Arg2:T96	
+R13	located_in Arg1:T101 Arg2:T96	
+R14	located_in Arg1:T102 Arg2:T96	
+R15	located_in Arg1:T24 Arg2:T25	
+R16	located_in Arg1:T27 Arg2:T26	
+R17	located_in Arg1:T29 Arg2:T28	
+R18	located_in Arg1:T31 Arg2:T32	
+R19	located_in Arg1:T31 Arg2:T33	
+T103	missed_anatomical_site 1460 1466	plasma
+R20	located_in Arg1:T41 Arg2:T103	
+R21	located_in Arg1:T41 Arg2:T43	
+T104	corrected_anatomical_site 1576 1599	conceptus trophectoderm
+R22	located_in Arg1:T47 Arg2:T104	
+T105	missed_anatomical_site 1552 1562	uterine LE
+T106	missed_gene 1564 1570	SLC2A1
+R23	located_in Arg1:T106 Arg2:T105	
+R24	located_in Arg1:T48 Arg2:T49	
+R25	located_in Arg1:T50 Arg2:T51	
+T107	gene 1769 1772	PGP
+R26	located_in Arg1:T107 Arg2:T53	
+R27	located_in Arg1:T52 Arg2:T53	
+R28	located_in Arg1:T61 Arg2:T60	
+R29	located_in Arg1:T62 Arg2:T60	
+T108	missed_anatomical_site 2142 2147	brain
+R30	located_in Arg1:T63 Arg2:T108	
+R31	located_in Arg1:T64 Arg2:T108	
+T109	missed_anatomical_site 2284 2295	circulating
+R32	located_in Arg1:T67 Arg2:T109	
+R33	located_in Arg1:T68 Arg2:T109	
+R34	located_in Arg1:T69 Arg2:T109	
+R35	located_in Arg1:T72 Arg2:T73	
+R36	located_in Arg1:T72 Arg2:T74	
+R37	located_in Arg1:T72 Arg2:T75	
+R38	located_in Arg1:T72 Arg2:T76	
+R39	located_in Arg1:T72 Arg2:T77	
+T110	missed_anatomical_site 2573 2581	thalamus
+R40	located_in Arg1:T72 Arg2:T110	
+R41	located_in Arg1:T72 Arg2:T78	
+R42	located_in Arg1:T72 Arg2:T79	
+R43	located_in Arg1:T88 Arg2:T87	
+R44	located_in Arg1:T90 Arg2:T89	
+T111	missed_anatomical_site 2980 2991	parathyroid
+R45	located_in Arg1:T91 Arg2:T111	
+R46	located_in Arg1:T92 Arg2:T111	

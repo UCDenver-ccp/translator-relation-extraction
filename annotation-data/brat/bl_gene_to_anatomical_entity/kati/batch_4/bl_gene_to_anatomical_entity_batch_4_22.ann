@@ -83,3 +83,43 @@ T82	anatomical_site 2521 2540	blood-brain barrier
 T83	anatomical_site 2555 2560	brain
 T84	gene 2590 2595	MMP-9
 T85	gene 2600 2608	occludin
+T86	missed_anatomical_site 54 60	plasma
+R1	located_in Arg1:T3 Arg2:T86	
+T87	missed_anatomical_site 213 221	vascular
+R2	located_in Arg1:T8 Arg2:T87	
+R3	located_in Arg1:T9 Arg2:T87	
+R4	located_in Arg1:T20 Arg2:T21	
+T88	missed_gene 886 893	albumin
+R5	located_in Arg1:T88 Arg2:T26	
+R6	located_in Arg1:T27 Arg2:T26	
+R7	located_in Arg1:T28 Arg2:T26	
+R8	located_in Arg1:T29 Arg2:T26	
+R9	located_in Arg1:T30 Arg2:T31	
+R10	located_in Arg1:T33 Arg2:T36	
+R11	located_in Arg1:T34 Arg2:T36	
+R12	located_in Arg1:T35 Arg2:T36	
+R16	located_in Arg1:T51 Arg2:T52	
+R17	located_in Arg1:T58 Arg2:T59	
+R18	located_in Arg1:T61 Arg2:T60	
+R19	located_in Arg1:T63 Arg2:T62	
+R20	located_in Arg1:T64 Arg2:T62	
+R21	located_in Arg1:T65 Arg2:T62	
+R22	located_in Arg1:T67 Arg2:T68	
+R23	located_in Arg1:T67 Arg2:T69	
+R24	located_in Arg1:T67 Arg2:T70	
+R25	located_in Arg1:T73 Arg2:T72	
+T89	corrected_gene 2345 2352	albumin
+T90	missed_anatomical_site 2339 2344	serum
+R26	located_in Arg1:T89 Arg2:T90	
+R27	located_in Arg1:T76 Arg2:T75	
+R28	located_in Arg1:T78 Arg2:T77	
+T91	missed_gene 585 588	AKT
+R29	located_in Arg1:T91 Arg2:T21	
+T92	corrected_gene 1263 1292	Sry-like transcription factor
+T93	corrected_gene 1293 1298	Sox-4
+R13	located_in Arg1:T92 Arg2:T39	
+R14	located_in Arg1:T92 Arg2:T40	
+R15	located_in Arg1:T92 Arg2:T41	
+R30	located_in Arg1:T93 Arg2:T39	
+R31	located_in Arg1:T93 Arg2:T40	
+R32	located_in Arg1:T93 Arg2:T41	

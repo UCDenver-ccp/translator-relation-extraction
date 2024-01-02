@@ -27,7 +27,6 @@ T26	disease_or_phenotypic_feature 787 800	breast cancer
 T27	chemical 844 851	gelatin
 T28	chemical 852 859	polymer
 T29	chemical 921 930	inhibitor
-T30	corrected_chemical 1042 1072;932 944	combined with a cancer vaccine cabozantinib
 T31	disease_or_phenotypic_feature 1058 1064	cancer
 T32	chemical 1074 1083	Patiromer
 T33	disease_or_phenotypic_feature 1101 1115	kidney disease
@@ -73,10 +72,8 @@ R3	causes_or_contributes_to Arg1:T69 Arg2:T13
 R4	causes_or_contributes_to Arg1:T69 Arg2:T14	
 T70	corrected_disease_or_phenotypic_feature 444 468	tumor-induced osteolysis
 T72	corrected_chemical 585 601	PTP1B inhibitors
-T73	corrected_disease_or_phenotypic_feature 641 659	adolescent obesity
-R6	treats Arg1:T72 Arg2:T73	
-R7	treats Arg1:T22 Arg2:T73	
-T74	missed_disease_or_phenotypic_feature 949 987	immune-mediated killing of tumor cells
+R6	treats Arg1:T72 Arg2:T23	
+R7	treats Arg1:T22 Arg2:T23	
 T75	missed_disease_or_phenotypic_feature 1262 1283	hepatic abnormalities
 R10	causes_or_contributes_to Arg1:T37 Arg2:T75	
 R11	causes_or_contributes_to Arg1:T37 Arg2:T40	
@@ -86,29 +83,18 @@ R13	causes_or_contributes_to Arg1:T37 Arg2:T41
 T77	missed_disease_or_phenotypic_feature 1318 1328	somnolence
 R14	causes_or_contributes_to Arg1:T37 Arg2:T77	
 T78	corrected_chemical 1143 1158	RAAS inhibitors
-R15	treats Arg1:T78 Arg2:T33	
 T79	missed_disease_or_phenotypic_feature 1238 1260	drug-drug interactions
 R16	causes_or_contributes_to Arg1:T37 Arg2:T79	
 T80	corrected_chemical 1352 1367	botulinum toxin
 R17	treats Arg1:T80 Arg2:T43	
 R18	treats Arg1:T80 Arg2:T44	
-R19	treats Arg1:T45 Arg2:T49	
-R20	treats Arg1:T46 Arg2:T49	
-R21	treats Arg1:T47 Arg2:T49	
-R22	treats Arg1:T48 Arg2:T49	
 T81	missed_disease_or_phenotypic_feature 1524 1536	solid tumors
-R23	treats Arg1:T45 Arg2:T81	
-R24	treats Arg1:T46 Arg2:T81	
-R25	treats Arg1:T47 Arg2:T81	
-R26	treats Arg1:T48 Arg2:T81	
 T82	corrected_chemical 1647 1679	opioid/local anaesthetic mixture
 T83	corrected_disease_or_phenotypic_feature 1684 1695	cancer pain
 R27	treats Arg1:T82 Arg2:T83	
 R28	treats Arg1:T61 Arg2:T63	
 T84	corrected_chemical 1834 1850	vasodilator drug
 R29	treats Arg1:T84 Arg2:T63	
-T86	missed_disease_or_phenotypic_feature 992 1036	immune tumor microenvironment permissiveness
-T87	corrected_chemical 1042 1072;906 930	combined with a cancer vaccine small-molecule inhibitor
 T85	chemical 932 944	cabozantinib
 T88	missed_disease_or_phenotypic_feature 1182 1190	epilepsy
 T89	missed_disease_or_phenotypic_feature 1195 1216	psychiatric disorders
@@ -116,7 +102,15 @@ T90	missed_disease_or_phenotypic_feature 1330 1346	Chemodenervation
 R35	causes_or_contributes_to Arg1:T80 Arg2:T90	
 T91	missed_disease_or_phenotypic_feature 1632 1641	analgesia
 R36	causes_or_contributes_to Arg1:T82 Arg2:T91	
-R9	treats Arg1:T78 Arg2:T34	
-R5	treats Arg1:T15 Arg2:T70	
+R5	treats Arg1:T15 Arg2:T16	
 R8	treats Arg1:T36 Arg2:T88	
 R30	treats Arg1:T36 Arg2:T89	
+T30	missed_disease_or_phenotypic_feature 976 981	tumor
+R32	treats Arg1:T85 Arg2:T30	
+T71	corrected_chemical 897 930	targeted small-molecule inhibitor
+R34	treats Arg1:T71 Arg2:T30	
+R9	treats Arg1:T25 Arg2:T24	
+T73	missed_disease_or_phenotypic_feature 690 707	cardiogenic shock
+R15	treats Arg1:T25 Arg2:T73	
+T74	missed_chemical 1065 1072	vaccine
+R31	treats Arg1:T74 Arg2:T31	

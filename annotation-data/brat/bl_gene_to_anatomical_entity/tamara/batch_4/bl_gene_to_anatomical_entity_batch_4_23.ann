@@ -98,3 +98,88 @@ T97	gene 2848 2853	ALDH1
 T98	gene 2859 2863	CD44
 T99	gene 2865 2869	CD24
 T100	anatomical_site 2871 2877	breast
+T101	missed_gene 333 345	sialoprotein
+R1	located_in Arg1:T101 Arg2:T14	
+T102	missed_gene 401 409	cortisol
+R2	located_in Arg1:T102 Arg2:T16	
+R3	located_in Arg1:T17 Arg2:T16	
+#1	AnnotatorNotes R3	Serum?
+R4	located_in Arg1:T18 Arg2:T16	
+#2	AnnotatorNotes R4	Okay?
+R5	located_in Arg1:T19 Arg2:T16	
+T103	missed_anatomical_site 507 512	Heart
+T104	missed_gene 507 521;528 536	Heart of Glass receptor
+R6	located_in Arg1:T104 Arg2:T103	
+T105	missed_gene 523 526;528 536	HEG receptor
+R7	located_in Arg1:T105 Arg2:T103	
+R8	located_in Arg1:T21 Arg2:T24	
+R9	located_in Arg1:T22 Arg2:T24	
+R10	located_in Arg1:T23 Arg2:T24	
+R11	located_in Arg1:T21 Arg2:T25	
+R12	located_in Arg1:T22 Arg2:T25	
+R13	located_in Arg1:T23 Arg2:T25	
+T106	missed_anatomical_site 940 946	livers
+R14	located_in Arg1:T30 Arg2:T106	
+R15	located_in Arg1:T31 Arg2:T106	
+R16	located_in Arg1:T32 Arg2:T33	
+R17	located_in Arg1:T35 Arg2:T34	
+R18	located_in Arg1:T40 Arg2:T39	
+R19	located_in Arg1:T42 Arg2:T41	
+T107	corrected_gene 1325 1339	Interleukin-1β
+R20	located_in Arg1:T107 Arg2:T44	
+R21	located_in Arg1:T47 Arg2:T46	
+R22	located_in Arg1:T48 Arg2:T46	
+R23	located_in Arg1:T50 Arg2:T46	
+T108	missed_gene 1469 1474	IGF-I
+R24	located_in Arg1:T108 Arg2:T46	
+R25	located_in Arg1:T53 Arg2:T52	
+T109	corrected_gene 1680 1683	MBP
+R26	located_in Arg1:T109 Arg2:T56	
+R27	located_in Arg1:T109 Arg2:T57	
+R28	located_in Arg1:T109 Arg2:T58	
+T110	missed_gene 1830 1838	Occludin
+R29	located_in Arg1:T110 Arg2:T60	
+R30	located_in Arg1:T59 Arg2:T60	
+R31	located_in Arg1:T54 Arg2:T58	
+#3	AnnotatorNotes R31	Okay?
+R32	located_in Arg1:T61 Arg2:T64	
+R33	located_in Arg1:T62 Arg2:T64	
+R34	located_in Arg1:T63 Arg2:T64	
+T112	corrected_gene 1951 1958;1970 1972	claudin -7
+T113	corrected_gene 1951 1958;1962 1964	claudin -4
+R35	located_in Arg1:T113 Arg2:T64	
+R36	located_in Arg1:T112 Arg2:T64	
+T111	corrected_anatomical_site 2032 2043	oral mucosa
+R37	located_in Arg1:T65 Arg2:T111	
+R38	located_in Arg1:T65 Arg2:T67	
+T114	corrected_anatomical_site 2111 2122	oral mucosa
+R39	located_in Arg1:T68 Arg2:T114	
+R40	located_in Arg1:T68 Arg2:T70	
+T115	corrected_gene 2211 2218	Rab1a-1
+T116	corrected_gene 2243 2250	Rab1a-2
+R41	located_in Arg1:T116 Arg2:T74	
+R42	located_in Arg1:T116 Arg2:T73	
+R43	located_in Arg1:T116 Arg2:T72	
+R44	located_in Arg1:T116 Arg2:T71	
+R45	located_in Arg1:T115 Arg2:T74	
+R46	located_in Arg1:T115 Arg2:T73	
+R47	located_in Arg1:T115 Arg2:T72	
+R48	located_in Arg1:T115 Arg2:T71	
+T117	corrected_gene 2265 2270	Pax3a
+R49	located_in Arg1:T117 Arg2:T78	
+T118	corrected_gene 2305 2310	Pax3b
+R50	located_in Arg1:T118 Arg2:T80	
+T119	missed_anatomical_site 2493 2500	muscolo
+#4	AnnotatorNotes T119	okay?
+R51	located_in Arg1:T84 Arg2:T119	
+R52	located_in Arg1:T84 Arg2:T85	
+T120	missed_anatomical_site 2645 2652	hepatic
+#5	AnnotatorNotes T120	okay?
+R53	located_in Arg1:T90 Arg2:T120	
+R54	located_in Arg1:T91 Arg2:T120	
+R55	located_in Arg1:T92 Arg2:T120	
+R56	located_in Arg1:T93 Arg2:T94	
+R57	located_in Arg1:T95 Arg2:T96	
+R58	located_in Arg1:T93 Arg2:T96	
+R59	located_in Arg1:T98 Arg2:T100	
+R60	located_in Arg1:T97 Arg2:T100	

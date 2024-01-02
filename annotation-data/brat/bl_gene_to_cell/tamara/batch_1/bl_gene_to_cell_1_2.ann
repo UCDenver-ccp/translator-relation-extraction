@@ -116,3 +116,123 @@ T115	gene 2868 2872	IL-4
 T116	gene 2897 2902	IL-33
 T117	gene 2923 2928	IL-33
 T118	cell_type 3008 3025	bone marrow cells
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T10	
+R3	located_in Arg1:T5 Arg2:T10	
+R4	located_in Arg1:T6 Arg2:T10	
+R5	located_in Arg1:T7 Arg2:T10	
+R6	located_in Arg1:T8 Arg2:T10	
+R7	located_in Arg1:T9 Arg2:T10	
+R8	located_in Arg1:T4 Arg2:T12	
+R9	located_in Arg1:T4 Arg2:T13	
+R10	located_in Arg1:T5 Arg2:T12	
+R11	located_in Arg1:T5 Arg2:T13	
+R12	located_in Arg1:T6 Arg2:T12	
+R13	located_in Arg1:T6 Arg2:T13	
+R14	located_in Arg1:T7 Arg2:T12	
+R15	located_in Arg1:T7 Arg2:T13	
+R16	located_in Arg1:T8 Arg2:T12	
+R17	located_in Arg1:T8 Arg2:T13	
+R18	located_in Arg1:T9 Arg2:T12	
+R19	located_in Arg1:T9 Arg2:T13	
+T119	missed_gene 351 358	albumin
+T120	missed_gene 360 371	orosomucoid
+R20	located_in Arg1:T14 Arg2:T18	
+R21	located_in Arg1:T119 Arg2:T18	
+R22	located_in Arg1:T120 Arg2:T18	
+R23	located_in Arg1:T15 Arg2:T18	
+R24	located_in Arg1:T16 Arg2:T18	
+R25	located_in Arg1:T17 Arg2:T18	
+R26	located_in Arg1:T17 Arg2:T19	
+R27	located_in Arg1:T16 Arg2:T19	
+R28	located_in Arg1:T15 Arg2:T19	
+R29	located_in Arg1:T120 Arg2:T19	
+R30	located_in Arg1:T119 Arg2:T19	
+R31	located_in Arg1:T14 Arg2:T19	
+R32	located_in Arg1:T17 Arg2:T20	
+R33	located_in Arg1:T16 Arg2:T20	
+R34	located_in Arg1:T15 Arg2:T20	
+R35	located_in Arg1:T120 Arg2:T20	
+R36	located_in Arg1:T119 Arg2:T20	
+R37	located_in Arg1:T14 Arg2:T20	
+R38	located_in Arg1:T22 Arg2:T23	
+T121	corrected_gene 790 799	Shank2-AS
+T122	corrected_cell_type 774 788	neuronal cells
+R39	located_in Arg1:T121 Arg2:T122	
+R40	located_in Arg1:T33 Arg2:T122	
+R41	located_in Arg1:T36 Arg2:T35	
+R42	located_in Arg1:T37 Arg2:T35	
+R43	located_in Arg1:T38 Arg2:T35	
+R44	located_in Arg1:T39 Arg2:T40	
+T123	missed_gene 1042 1045	CD3
+T124	missed_gene 1047 1050	CD8
+R45	located_in Arg1:T123 Arg2:T40	
+R46	located_in Arg1:T124 Arg2:T40	
+R47	located_in Arg1:T42 Arg2:T41	
+T125	missed_gene 1105 1117	S100 protein
+R48	located_in Arg1:T125 Arg2:T43	
+R49	located_in Arg1:T44 Arg2:T45	
+R50	located_in Arg1:T44 Arg2:T46	
+R51	located_in Arg1:T47 Arg2:T48	
+R52	located_in Arg1:T49 Arg2:T52	
+R53	located_in Arg1:T50 Arg2:T52	
+R54	located_in Arg1:T55 Arg2:T54	
+R55	located_in Arg1:T56 Arg2:T54	
+R56	located_in Arg1:T57 Arg2:T54	
+R57	located_in Arg1:T61 Arg2:T62	
+R58	located_in Arg1:T60 Arg2:T62	
+R59	located_in Arg1:T59 Arg2:T62	
+R60	located_in Arg1:T64 Arg2:T63	
+R61	located_in Arg1:T65 Arg2:T63	
+R62	located_in Arg1:T66 Arg2:T63	
+R63	located_in Arg1:T67 Arg2:T69	
+R64	located_in Arg1:T68 Arg2:T69	
+R65	located_in Arg1:T70 Arg2:T72	
+R66	located_in Arg1:T71 Arg2:T72	
+T126	missed_gene 1872 1875	CD4
+T127	missed_gene 1878 1883	IFN-?
+R67	located_in Arg1:T127 Arg2:T73	
+R68	located_in Arg1:T126 Arg2:T73	
+T128	missed_gene 2090 2105	granulocyte CSF
+T129	missed_gene 2107 2112	G-CSF
+T130	missed_gene 2115 2141	granulocyte-macrophage CSF
+T131	missed_cell_type 2016 2020	HSNC
+R77	located_in Arg1:T78 Arg2:T131	
+R78	located_in Arg1:T79 Arg2:T131	
+R79	located_in Arg1:T80 Arg2:T131	
+R80	located_in Arg1:T81 Arg2:T131	
+R81	located_in Arg1:T128 Arg2:T131	
+R82	located_in Arg1:T129 Arg2:T131	
+R83	located_in Arg1:T130 Arg2:T131	
+R84	located_in Arg1:T85 Arg2:T131	
+T132	corrected_gene 2152 2166	macrophage CSF
+R85	located_in Arg1:T132 Arg2:T131	
+R86	located_in Arg1:T88 Arg2:T131	
+R87	located_in Arg1:T89 Arg2:T131	
+T133	missed_gene 2192 2204	c-kit ligand
+R88	located_in Arg1:T133 Arg2:T131	
+R89	located_in Arg1:T98 Arg2:T97	
+T134	missed_gene 2346 2372	platelet glycoprotein IIIa
+R90	located_in Arg1:T134 Arg2:T97	
+R91	located_in Arg1:T102 Arg2:T103	
+T135	missed_cell_type 2486 2488	DC
+R92	located_in Arg1:T102 Arg2:T135	
+T136	missed_cell_type 3030 3043	splenic cells
+R93	located_in Arg1:T116 Arg2:T118	
+R94	located_in Arg1:T117 Arg2:T118	
+R95	located_in Arg1:T116 Arg2:T136	
+R96	located_in Arg1:T117 Arg2:T136	
+T137	corrected_cell_type 476 517	promyelocytic leukaemic cell line (HL-60)
+R69	located_in Arg1:T14 Arg2:T137	
+R70	located_in Arg1:T119 Arg2:T137	
+R71	located_in Arg1:T120 Arg2:T137	
+R72	located_in Arg1:T15 Arg2:T137	
+R73	located_in Arg1:T16 Arg2:T137	
+R74	located_in Arg1:T17 Arg2:T137	
+T138	missed_cell_type 511 516	HL-60
+R75	located_in Arg1:T17 Arg2:T138	
+R76	located_in Arg1:T16 Arg2:T138	
+R97	located_in Arg1:T15 Arg2:T138	
+R98	located_in Arg1:T120 Arg2:T138	
+R99	located_in Arg1:T119 Arg2:T138	
+R100	located_in Arg1:T14 Arg2:T138	

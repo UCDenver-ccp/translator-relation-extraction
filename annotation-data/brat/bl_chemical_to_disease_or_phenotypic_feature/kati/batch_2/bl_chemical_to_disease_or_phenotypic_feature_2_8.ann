@@ -23,7 +23,6 @@ T22	chemical 783 787	food
 T23	disease_or_phenotypic_feature 804 811	obesity
 T24	disease_or_phenotypic_feature 865 871	cancer
 T25	disease_or_phenotypic_feature 872 876	pain
-T26	corrected_chemical 886 904	0.125% bupivacaine
 T27	chemical 967 971	drug
 T28	chemical 972 981	cisplatin
 T29	disease_or_phenotypic_feature 1045 1058	breast cancer
@@ -55,22 +54,17 @@ T54	chemical 1768 1778	fluoxetine
 T55	disease_or_phenotypic_feature 1783 1790	obesity
 T56	chemical 1862 1872	biomarkers
 T57	chemical 1920 1930	everolimus
-T58	disease_or_phenotypic_feature 1955 1973	endometrial cancer
 T59	chemical 1975 1981	Leptin
 T60	chemical 1988 1995	hormone
 T61	disease_or_phenotypic_feature 2015 2022	obesity
 T63	chemical 2118 2122	drug
-T64	corrected_disease_or_phenotypic_feature 2170 2198	development of hypercalcemia
-T65	corrected_disease_or_phenotypic_feature 2170 2184;2202 2218	development of hypophosphatemia
 T66	corrected_chemical 118 136	ghrelin antagonist
 R1	treats Arg1:T66 Arg2:T6	
 R2	treats Arg1:T3 Arg2:T6	
 T67	missed_disease_or_phenotypic_feature 470 476	tumors
 R3	causes_or_contributes_to Arg1:T13 Arg2:T67	
-T68	corrected_disease_or_phenotypic_feature 693 714	acute pulmonary edema
-R4	causes_or_contributes_to Arg1:T20 Arg2:T68	
+R4	causes_or_contributes_to Arg1:T20 Arg2:T18	
 T69	corrected_disease_or_phenotypic_feature 865 876	cancer pain
-R5	treats Arg1:T26 Arg2:T69	
 T70	chemical 893 904	bupivacaine
 T71	missed_disease_or_phenotypic_feature 1021 1034	solid tumours
 T72	corrected_chemical 952 971	Antineoplastic drug
@@ -89,7 +83,7 @@ R16	treats Arg1:T48 Arg2:T50
 R17	treats Arg1:T49 Arg2:T50	
 R18	treats Arg1:T48 Arg2:T51	
 R19	treats Arg1:T49 Arg2:T51	
-T78	corrected_disease_or_phenotypic_feature 1934 1973	metastatic recurrent endometrial cancer
+T78	disease_or_phenotypic_feature 1955 1973	endometrial cancer
 R20	treats Arg1:T57 Arg2:T78	
 T79	missed_disease_or_phenotypic_feature 1902 1907	tumor
 R21	treats Arg1:T57 Arg2:T79	
@@ -99,5 +93,12 @@ T77	disease_or_phenotypic_feature 2202 2218	hypophosphatemia
 R14	causes_or_contributes_to Arg1:T47 Arg2:T76	
 T82	missed_chemical 1561 1563	GH
 R15	causes_or_contributes_to Arg1:T82 Arg2:T76	
-R24	treats Arg1:T81 Arg2:T65	
-R22	treats Arg1:T81 Arg2:T64	
+R24	treats Arg1:T81 Arg2:T77	
+R22	treats Arg1:T81 Arg2:T75	
+R5	treats Arg1:T70 Arg2:T69	
+R23	treats Arg1:T63 Arg2:T75	
+R25	treats Arg1:T63 Arg2:T77	
+T26	missed_disease_or_phenotypic_feature 2046 2049	HPT
+R26	treats Arg1:T81 Arg2:T26	
+R27	treats Arg1:T63 Arg2:T26	
+R28	causes_or_contributes_to Arg1:T15 Arg2:T67	

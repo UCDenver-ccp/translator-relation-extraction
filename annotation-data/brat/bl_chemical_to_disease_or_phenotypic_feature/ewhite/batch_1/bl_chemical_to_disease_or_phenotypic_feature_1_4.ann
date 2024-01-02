@@ -57,13 +57,8 @@ T56	disease_or_phenotypic_feature 2435 2462	vernal keratoconjunctivitis
 T57	disease_or_phenotypic_feature 2651 2660	infection
 T58	chemical 2695 2710	polysaccharides
 R1	treats Arg1:T19 Arg2:T20	
-R2	causes_or_contributes_to Arg1:T22 Arg2:T21	
 R3	treats Arg1:T29 Arg2:T31	
-T59	missed_disease_or_phenotypic_feature 1244 1260	oxidative stress
-R4	treats Arg1:T29 Arg2:T59	
 R5	treats Arg1:T33 Arg2:T32	
-T60	missed_disease_or_phenotypic_feature 1838 1856	exercise tolerance
-T61	missed_disease_or_phenotypic_feature 1861 1870	morbidity
 T62	corrected_chemical 1782 1805	vasopeptidase inhibitor
 R6	treats Arg1:T62 Arg2:T45	
 R7	treats Arg1:T43 Arg2:T45	
@@ -74,5 +69,13 @@ R10	treats Arg1:T63 Arg2:T50
 T64	corrected_chemical 2382 2389	steroid
 T65	corrected_disease_or_phenotypic_feature 2398 2406	glaucoma
 R11	causes_or_contributes_to Arg1:T64 Arg2:T65	
-T66	corrected_chemical 2382 2389	steroid
-R12	treats Arg1:T66 Arg2:T56	
+R13	treats Arg1:T64 Arg2:T56	
+T67	missed_disease_or_phenotypic_feature 2464 2467	VKC
+R12	treats Arg1:T64 Arg2:T67	
+T66	missed_chemical 31 43	chemotherapy
+R14	causes_or_contributes_to Arg1:T66 Arg2:T1	
+T68	missed_disease_or_phenotypic_feature 75 79	CIPN
+R15	causes_or_contributes_to Arg1:T66 Arg2:T68	
+T69	missed_disease_or_phenotypic_feature 16 27	side effect
+R16	causes_or_contributes_to Arg1:T66 Arg2:T69	
+R2	treats Arg1:T46 Arg2:T47	

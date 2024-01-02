@@ -114,3 +114,121 @@ T113	gene 3142 3147	KCNQ2
 T114	anatomical_site 3174 3185	hippocampus
 T115	anatomical_site 3204 3209	brain
 T116	gene 3219 3223	GNG4
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+R3	located_in Arg1:T2 Arg2:T4	
+R4	located_in Arg1:T3 Arg2:T4	
+T117	corrected_anatomical_site 165 178	outer medulla
+T118	missed_gene 179 186	Gsalpha
+R5	located_in Arg1:T118 Arg2:T117	
+R6	located_in Arg1:T9 Arg2:T8	
+R7	located_in Arg1:T10 Arg2:T8	
+R8	located_in Arg1:T12 Arg2:T11	
+R9	located_in Arg1:T14 Arg2:T13	
+T119	corrected_gene 375 416	C-terminal telopeptide of type I collagen
+R10	located_in Arg1:T119 Arg2:T15	
+T120	missed_gene 418 421	CTX
+R11	located_in Arg1:T120 Arg2:T15	
+T121	corrected_gene 474 488	P-glycoprotein
+T122	corrected_anatomical_site 545 557	brain tissue
+R12	located_in Arg1:T121 Arg2:T122	
+R13	located_in Arg1:T18 Arg2:T122	
+R14	located_in Arg1:T19 Arg2:T122	
+R15	located_in Arg1:T121 Arg2:T23	
+R16	located_in Arg1:T18 Arg2:T23	
+R17	located_in Arg1:T19 Arg2:T23	
+T123	corrected_anatomical_site 664 684	limbic brain regions
+R18	located_in Arg1:T121 Arg2:T123	
+R19	located_in Arg1:T18 Arg2:T123	
+R20	located_in Arg1:T19 Arg2:T123	
+R21	located_in Arg1:T25 Arg2:T26	
+T124	corrected_gene 789 794	BMP12
+T125	corrected_gene 795 799;801 802	Smad 5
+T126	corrected_gene 795 799;803 804	Smad 8
+R22	located_in Arg1:T124 Arg2:T26	
+#1	AnnotatorNotes R22	Okay?
+R23	located_in Arg1:T28 Arg2:T26	
+#2	AnnotatorNotes R23	Okay?
+R24	located_in Arg1:T126 Arg2:T26	
+R25	located_in Arg1:T125 Arg2:T26	
+T127	corrected_anatomical_site 1048 1058	kidney fat
+T128	corrected_gene 839 883	peroxisome proliferator-activated receptor γ
+R26	located_in Arg1:T128 Arg2:T127	
+T129	corrected_gene 885 890	PPARγ
+R27	located_in Arg1:T129 Arg2:T127	
+R28	located_in Arg1:T31 Arg2:T127	
+T130	corrected_gene 931 935;937 938	CEBP α
+R29	located_in Arg1:T130 Arg2:T127	
+T131	corrected_gene 940 981;989 992	sterol regulatory element binding protein -1c
+T132	corrected_gene 983 988;989 992	SREBP -1c
+R30	located_in Arg1:T131 Arg2:T127	
+R31	located_in Arg1:T132 Arg2:T127	
+T133	missed_gene 998 1001	FAS
+R32	located_in Arg1:T133 Arg2:T127	
+T134	corrected_gene 1216 1238	cadherin-like proteins
+R33	located_in Arg1:T134 Arg2:T43	
+T135	corrected_anatomical_site 1371 1380	SC tissue
+R34	located_in Arg1:T46 Arg2:T135	
+R35	located_in Arg1:T45 Arg2:T135	
+T136	corrected_anatomical_site 1283 1306	visceral adipose tissue
+R36	located_in Arg1:T45 Arg2:T136	
+R37	located_in Arg1:T46 Arg2:T136	
+R38	located_in Arg1:T48 Arg2:T49	
+R39	located_in Arg1:T50 Arg2:T53	
+R40	located_in Arg1:T51 Arg2:T53	
+R41	located_in Arg1:T52 Arg2:T53	
+R42	located_in Arg1:T52 Arg2:T54	
+R43	located_in Arg1:T51 Arg2:T54	
+R44	located_in Arg1:T50 Arg2:T54	
+R45	located_in Arg1:T56 Arg2:T55	
+R46	located_in Arg1:T59 Arg2:T65	
+T137	missed_gene 1786 1789	NEP
+R47	located_in Arg1:T137 Arg2:T65	
+R48	located_in Arg1:T60 Arg2:T65	
+R49	located_in Arg1:T61 Arg2:T65	
+R50	located_in Arg1:T62 Arg2:T65	
+R51	located_in Arg1:T63 Arg2:T65	
+R52	located_in Arg1:T64 Arg2:T65	
+T138	corrected_gene 1870 1875;1877 1885	PTHrP receptor
+R53	located_in Arg1:T138 Arg2:T65	
+T139	corrected_gene 1866 1869;1877 1885	PTH receptor
+T140	corrected_gene 1809 1828;1877 1885	parathyroid hormone receptor
+R54	located_in Arg1:T140 Arg2:T65	
+T141	corrected_gene 1829 1864;1877 1885	parathyroid hormone-related protein receptor
+R55	located_in Arg1:T141 Arg2:T65	
+R56	located_in Arg1:T68 Arg2:T67	
+R57	located_in Arg1:T70 Arg2:T69	
+R58	located_in Arg1:T72 Arg2:T74	
+R59	located_in Arg1:T72 Arg2:T75	
+R60	located_in Arg1:T72 Arg2:T76	
+R61	located_in Arg1:T73 Arg2:T74	
+R62	located_in Arg1:T73 Arg2:T75	
+R63	located_in Arg1:T73 Arg2:T76	
+R64	located_in Arg1:T77 Arg2:T78	
+T142	missed_gene 2363 2368	SNARK
+R65	located_in Arg1:T79 Arg2:T86	
+R66	located_in Arg1:T80 Arg2:T86	
+R67	located_in Arg1:T81 Arg2:T86	
+R68	located_in Arg1:T82 Arg2:T86	
+R69	located_in Arg1:T83 Arg2:T86	
+R70	located_in Arg1:T142 Arg2:T86	
+R71	located_in Arg1:T84 Arg2:T86	
+R72	located_in Arg1:T85 Arg2:T86	
+R73	located_in Arg1:T87 Arg2:T89	
+R74	located_in Arg1:T88 Arg2:T89	
+R75	located_in Arg1:T92 Arg2:T93	
+R76	located_in Arg1:T96 Arg2:T95	
+T143	corrected_anatomical_site 2884 2900	bronchial tissue
+R77	located_in Arg1:T102 Arg2:T143	
+R78	located_in Arg1:T99 Arg2:T143	
+T144	corrected_gene 2819 2830	p42/44 MAPK
+R79	located_in Arg1:T144 Arg2:T143	
+T145	corrected_gene 3024 3066;3074 3076	peroxisome proliferator-activated receptor γ2
+T146	corrected_gene 3068 3072;3074 3076	PPAR γ2
+R80	located_in Arg1:T146 Arg2:T109	
+R81	located_in Arg1:T145 Arg2:T109	
+T147	corrected_anatomical_site 3104 3116	brain tissue
+R82	located_in Arg1:T112 Arg2:T147	
+R83	located_in Arg1:T113 Arg2:T147	
+R84	located_in Arg1:T112 Arg2:T114	
+R85	located_in Arg1:T113 Arg2:T114	

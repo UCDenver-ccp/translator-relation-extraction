@@ -33,7 +33,6 @@ T32	corrected_chemical 1541 1590	2-Amino-1-Methyl-6-Phenylimidazo [4,5-b] Pyridi
 T33	chemical 1582 1590	Pyridine
 T34	chemical 1592 1605	PhIP)-Induced
 T35	disease_or_phenotypic_feature 1618 1638	Renal Cell Carcinoma
-T36	missed_disease_or_phenotypic_feature 1669 1679	Metastatic
 T37	chemical 1723 1726	RNA
 T38	disease_or_phenotypic_feature 1790 1793	HCC
 T39	chemical 1834 1838	IGF2
@@ -48,7 +47,7 @@ T47	chemical 2252 2257	group
 T48	disease_or_phenotypic_feature 2330 2348	multiple sclerosis
 T50	chemical 2409 2416	acetate
 T55	chemical 2648 2662	small-molecule
-T56	corrected_chemical 2648 2672	small-molecule inhibitor
+T56	corrected_chemical 2648 2675;2694 2698	small-molecule inhibitor of TFF3
 T57	chemical 2663 2672	inhibitor
 T58	disease_or_phenotypic_feature 2733 2752	lung adenocarcinoma
 T59	disease_or_phenotypic_feature 2819 2834	SHIV-1157ipd3N4
@@ -75,10 +74,30 @@ T79	chemical 4309 4318	glutamate
 T80	disease_or_phenotypic_feature 4368 4376	migraine
 R4	treats Arg1:T63 Arg2:T64
 R5	treats Arg1:T30 Arg2:T35
-R6	treats Arg1:T30 Arg2:T36
 R8	causes_or_contributes_to Arg1:T32 Arg2:T35
 R11	treats Arg1:T29 Arg2:T26
 T81	corrected_chemical 1592 1596	PhIP
 R12	causes_or_contributes_to Arg1:T81 Arg2:T35	
 T82	corrected_disease_or_phenotypic_feature 3932 3935	ITP
-R2	treats Arg1:T74 Arg2:T82	
+T49	missed_disease_or_phenotypic_feature 36 58	endothelial senescence
+T51	missed_chemical 0 28	Fine air pollution particles
+R1	causes_or_contributes_to Arg1:T51 Arg2:T49	
+T36	corrected_chemical 2398 2416	glatiramer acetate
+T52	missed_chemical 2424 2426	GA
+T53	missed_chemical 2442 2456	interferon β1a
+T54	missed_chemical 2458 2464	IFNβ1a
+T83	missed_chemical 2544 2550	IFNβ1b
+T84	missed_chemical 2528 2542	interferon β1b
+T85	missed_chemical 2500 2506	IFNβ1a
+T86	missed_chemical 2484 2498	interferon β1a
+R3	treats Arg1:T36 Arg2:T48	
+R6	treats Arg1:T52 Arg2:T48	
+R7	treats Arg1:T53 Arg2:T48	
+R9	treats Arg1:T54 Arg2:T48	
+R10	treats Arg1:T86 Arg2:T48	
+R13	treats Arg1:T85 Arg2:T48	
+R14	treats Arg1:T84 Arg2:T48	
+R15	treats Arg1:T83 Arg2:T48	
+T87	corrected_chemical 2648 2692	small-molecule inhibitor of trefoil factor 3
+R16	treats Arg1:T87 Arg2:T58	
+R17	treats Arg1:T56 Arg2:T58	

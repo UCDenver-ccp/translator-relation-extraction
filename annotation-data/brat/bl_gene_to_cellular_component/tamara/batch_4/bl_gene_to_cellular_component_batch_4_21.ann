@@ -109,3 +109,74 @@ T108	cellular_component 3880 3893	extracellular
 T109	gene 3958 3961	p38
 T110	gene 3962 3994	mitogen-activated protein kinase
 T111	gene 3996 3999	p38
+T112	missed_gene 99 102	RMP
+T113	corrected_gene 4 53	Unconventional prefoldin RPB5 interacting protein
+T114	missed_gene 55 58	URI
+R1	located_in Arg1:T112 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T3	
+R3	located_in Arg1:T114 Arg2:T3	
+R4	located_in Arg1:T113 Arg2:T3	
+R5	located_in Arg1:T113 Arg2:T4	
+R6	located_in Arg1:T114 Arg2:T4	
+R7	located_in Arg1:T2 Arg2:T4	
+R8	located_in Arg1:T112 Arg2:T4	
+R9	located_in Arg1:T113 Arg2:T5	
+R10	located_in Arg1:T114 Arg2:T5	
+R11	located_in Arg1:T2 Arg2:T5	
+R12	located_in Arg1:T112 Arg2:T5	
+R13	located_in Arg1:T6 Arg2:T5	
+T115	missed_gene 375 392	RNA polymerase II
+T116	missed_gene 394 399	polII
+R14	located_in Arg1:T115 Arg2:T5	
+R15	located_in Arg1:T116 Arg2:T5	
+T117	missed_cellular_component 518 529	centrosomal
+R16	located_in Arg1:T9 Arg2:T117	
+T118	corrected_gene 641 645	RE17
+R17	located_in Arg1:T118 Arg2:T11	
+R18	located_in Arg1:T13 Arg2:T11	
+#1	AnnotatorNotes R18	Okay?
+T119	missed_gene 660 667	GTPases
+#2	AnnotatorNotes T119	okay?
+R19	located_in Arg1:T119 Arg2:T11	
+#3	AnnotatorNotes R19	Okay?
+R20	located_in Arg1:T18 Arg2:T19	
+T120	missed_cellular_component 917 924	nuclear
+R21	located_in Arg1:T20 Arg2:T120	
+R22	located_in Arg1:T18 Arg2:T17	
+R23	located_in Arg1:T22 Arg2:T23	
+T121	missed_cellular_component 1106 1117	microtubule
+R24	located_in Arg1:T24 Arg2:T121	
+R25	located_in Arg1:T25 Arg2:T121	
+R26	located_in Arg1:T25 Arg2:T26	
+R27	located_in Arg1:T24 Arg2:T26	
+#4	AnnotatorNotes R26	Okay?
+#5	AnnotatorNotes R27	Okay?
+T122	missed_gene 1200 1204	pNFH
+T123	missed_gene 1158 1198	phosphorylated neurofilament heavy chain
+R28	located_in Arg1:T122 Arg2:T27	
+#6	AnnotatorNotes R28	Okay?
+R29	located_in Arg1:T123 Arg2:T27	
+#7	AnnotatorNotes R29	Okay?
+R30	located_in Arg1:T42 Arg2:T43	
+T124	missed_gene 2254 2266	Cytochrome c
+T125	missed_gene 2271 2280	Caspase 3
+R31	located_in Arg1:T124 Arg2:T56	
+R32	located_in Arg1:T125 Arg2:T56	
+R33	located_in Arg1:T55 Arg2:T54	
+R34	located_in Arg1:T124 Arg2:T54	
+R35	located_in Arg1:T125 Arg2:T54	
+R36	located_in Arg1:T80 Arg2:T81	
+R37	located_in Arg1:T79 Arg2:T81	
+R38	located_in Arg1:T78 Arg2:T81	
+R40	located_in Arg1:T98 Arg2:T97	
+T126	corrected_gene 3527 3539	AP-3 cargoes
+#8	AnnotatorNotes T126	okay?
+R39	located_in Arg1:T126 Arg2:T99	
+R41	located_in Arg1:T126 Arg2:T97	
+#9	AnnotatorNotes R41	Okay?
+T127	missed_gene 4029 4043;4048 4051	nuclear factor -κB
+T128	missed_cellular_component 4052 4059	nuclear
+R42	located_in Arg1:T127 Arg2:T128	
+T129	missed_gene 4045 4047;4048 4051	NF -κB
+R43	located_in Arg1:T129 Arg2:T128	
+R44	located_in Arg1:T88 Arg2:T90	

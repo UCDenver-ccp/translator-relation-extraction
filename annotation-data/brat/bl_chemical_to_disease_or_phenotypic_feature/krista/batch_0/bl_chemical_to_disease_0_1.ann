@@ -76,10 +76,23 @@ T77	disease_or_phenotypic_feature 4470 4473	ASD
 T78	chemical 4474 4479	group
 R1	treats Arg1:T73 Arg2:T66
 R2	treats Arg1:T3 Arg2:T1
-R3	treats Arg1:T12 Arg2:T14
 R6	causes_or_contributes_to Arg1:T8 Arg2:T10	
 T2	corrected_disease_or_phenotypic_feature 548 571	small intestinal injury
 T9	missed_chemical 534 539	NSAID
 R7	causes_or_contributes_to Arg1:T9 Arg2:T2	
 T79	missed_chemical 760 765	PT-31
-R8	treats Arg1:T79 Arg2:T14	
+T80	corrected_chemical 778 802	α2A-adrenoceptor agonist
+T81	corrected_chemical 682 706	imidazolidine derivative
+R9	treats Arg1:T19 Arg2:T20	
+R10	treats Arg1:T21 Arg2:T20	
+R11	treats Arg1:T22 Arg2:T20	
+T82	corrected_chemical 3028 3043	PDE5 inhibition
+T83	missed_disease_or_phenotypic_feature 2995 3016	arterial vasodilation
+R12	causes_or_contributes_to Arg1:T82 Arg2:T83	
+R13	treats Arg1:T73 Arg2:T70	
+R14	treats Arg1:T73 Arg2:T69	
+R15	treats Arg1:T73 Arg2:T68	
+T84	missed_disease_or_phenotypic_feature 3982 3986	T2DM
+T85	missed_disease_or_phenotypic_feature 4028 4034	NAFLDs
+R16	treats Arg1:T73 Arg2:T84	
+R17	treats Arg1:T73 Arg2:T85	

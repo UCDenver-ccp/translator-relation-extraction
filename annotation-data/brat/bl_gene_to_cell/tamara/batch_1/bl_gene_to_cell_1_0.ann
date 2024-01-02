@@ -107,3 +107,96 @@ T106	cell_type 2871 2884	Schwann cells
 T107	cell_type 2886 2902	oligodendrocytes
 T108	cell_type 2904 2914	astrocytes
 T109	cell_type 2919 2929	leukocytes
+R1	located_in Arg1:T7 Arg2:T10	
+R2	located_in Arg1:T8 Arg2:T10	
+R3	located_in Arg1:T9 Arg2:T10	
+R4	located_in Arg1:T11 Arg2:T10	
+R5	located_in Arg1:T11 Arg2:T12	
+R6	located_in Arg1:T13 Arg2:T14	
+R7	located_in Arg1:T17 Arg2:T16	
+R8	located_in Arg1:T19 Arg2:T18	
+T110	missed_gene 453 458	c-met
+R9	located_in Arg1:T110 Arg2:T16	
+R10	located_in Arg1:T22 Arg2:T21	
+T111	missed_cell_type 582 598	progenitor cells
+R11	located_in Arg1:T22 Arg2:T111	
+T112	missed_gene 642 647	NANOG
+R12	located_in Arg1:T112 Arg2:T21	
+R13	located_in Arg1:T112 Arg2:T111	
+R14	located_in Arg1:T25 Arg2:T26	
+R15	located_in Arg1:T28 Arg2:T27	
+R16	located_in Arg1:T31 Arg2:T29	
+R17	located_in Arg1:T31 Arg2:T30	
+T113	corrected_cell_type 1081 1096	Blood Monocytes
+R18	located_in Arg1:T39 Arg2:T113	
+R19	located_in Arg1:T40 Arg2:T113	
+R20	located_in Arg1:T39 Arg2:T42	
+R21	located_in Arg1:T40 Arg2:T42	
+T114	corrected_gene 1208 1223	VEGFR-3 ligands
+R22	located_in Arg1:T114 Arg2:T46	
+R23	located_in Arg1:T114 Arg2:T45	
+R24	located_in Arg1:T114 Arg2:T44	
+R25	located_in Arg1:T114 Arg2:T43	
+R26	located_in Arg1:T50 Arg2:T52	
+R27	located_in Arg1:T51 Arg2:T52	
+R28	located_in Arg1:T50 Arg2:T53	
+R29	located_in Arg1:T51 Arg2:T53	
+R30	located_in Arg1:T54 Arg2:T53	
+R31	located_in Arg1:T55 Arg2:T123	
+T115	missed_gene 1547 1550	CD8
+R32	located_in Arg1:T57 Arg2:T58	
+R33	located_in Arg1:T115 Arg2:T58	
+R34	located_in Arg1:T59 Arg2:T60	
+T116	missed_gene 1580 1584	CD19
+R35	located_in Arg1:T116 Arg2:T61	
+R36	located_in Arg1:T65 Arg2:T66	
+R37	located_in Arg1:T65 Arg2:T67	
+R38	located_in Arg1:T68 Arg2:T69	
+R39	located_in Arg1:T68 Arg2:T70	
+R40	located_in Arg1:T72 Arg2:T74	
+R41	located_in Arg1:T73 Arg2:T74	
+R42	located_in Arg1:T72 Arg2:T75	
+R43	located_in Arg1:T73 Arg2:T75	
+R46	located_in Arg1:T72 Arg2:T71	
+R47	located_in Arg1:T73 Arg2:T71	
+R48	located_in Arg1:T83 Arg2:T82	
+R49	located_in Arg1:T84 Arg2:T82	
+T117	missed_gene 2264 2270	CD45RA
+T118	missed_gene 2276 2279	CD8
+R50	located_in Arg1:T85 Arg2:T86	
+R51	located_in Arg1:T117 Arg2:T86	
+R52	located_in Arg1:T118 Arg2:T86	
+R53	located_in Arg1:T88 Arg2:T87	
+R54	located_in Arg1:T91 Arg2:T92	
+R55	located_in Arg1:T94 Arg2:T92	
+R56	located_in Arg1:T95 Arg2:T92	
+T119	missed_gene 2652 2655	CD3
+T120	missed_gene 2667 2686	major basic protein
+T121	missed_gene 2697 2701	CD68
+T122	missed_cell_type 2745 2756	eosinophils
+R58	located_in Arg1:T121 Arg2:T103	
+R59	located_in Arg1:T100 Arg2:T122	
+R60	located_in Arg1:T120 Arg2:T122	
+R61	located_in Arg1:T99 Arg2:T102	
+R62	located_in Arg1:T119 Arg2:T101	
+R63	located_in Arg1:T104 Arg2:T105	
+R64	located_in Arg1:T104 Arg2:T106	
+R65	located_in Arg1:T104 Arg2:T107	
+R66	located_in Arg1:T104 Arg2:T108	
+R67	located_in Arg1:T104 Arg2:T109	
+R68	located_in Arg1:T25 Arg2:T23	
+T123	corrected_cell_type 1450 1464	lymphoid cells
+T124	corrected_gene 1968 1986	resistin receptors
+R69	located_in Arg1:T124 Arg2:T75	
+R70	located_in Arg1:T124 Arg2:T74	
+T125	corrected_cell_type 2147 2169	macrophage progenitors
+T126	corrected_cell_type 2135 2146;2158 2169	granulocyte progenitors
+R44	located_in Arg1:T83 Arg2:T126	
+R45	located_in Arg1:T84 Arg2:T126	
+R71	located_in Arg1:T83 Arg2:T125	
+R72	located_in Arg1:T84 Arg2:T125	
+T127	missed_cell_type 2430 2435	cells
+R73	located_in Arg1:T90 Arg2:T127	
+T128	missed_gene 2422 2428	CD45RA
+R74	located_in Arg1:T128 Arg2:T127	
+R75	located_in Arg1:T89 Arg2:T127	

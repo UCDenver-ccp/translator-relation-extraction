@@ -89,14 +89,9 @@ R10	treats Arg1:T30 Arg2:T78
 R13	causes_or_contributes_to Arg1:T43 Arg2:T44	
 T81	missed_disease_or_phenotypic_feature 1865 1868	PCa
 R14	causes_or_contributes_to Arg1:T43 Arg2:T81	
-T82	corrected_disease_or_phenotypic_feature 2154 2176	food-dependent obesity
-R15	treats Arg1:T50 Arg2:T82	
 T83	missed_chemical 2110 2117	Teronac
-R16	treats Arg1:T83 Arg2:T82	
 T84	missed_disease_or_phenotypic_feature 2479 2493	pneumocephalus
-R17	causes_or_contributes_to Arg1:T60 Arg2:T84	
-T85	missed_chemical 2553 2558	N(2)O
-R18	causes_or_contributes_to Arg1:T85 Arg2:T84	
+T85	missed_chemical 2553 2558;2560 2570	N(2)O anesthesia
 T86	corrected_chemical 2761 2784	lactose-based prebiotic
 T87	missed_disease_or_phenotypic_feature 2806 2824	mineral absorption
 R19	causes_or_contributes_to Arg1:T86 Arg2:T87	
@@ -113,3 +108,17 @@ T91	corrected_disease_or_phenotypic_feature 720 750	hyperglycemic hyperinsulinem
 R26	causes_or_contributes_to Arg1:T90 Arg2:T91	
 T92	missed_disease_or_phenotypic_feature 611 626	tumor shrinkage
 R27	causes_or_contributes_to Arg1:T74 Arg2:T92	
+R11	treats Arg1:T83 Arg2:T52	
+R12	treats Arg1:T50 Arg2:T52	
+R15	causes_or_contributes_to Arg1:T51 Arg2:T52	
+R16	treats Arg1:T6 Arg2:T4	
+T79	corrected_chemical 1811 1839	Androgen deprivation therapy
+R28	treats Arg1:T79 Arg2:T44	
+R29	treats Arg1:T79 Arg2:T81	
+T80	corrected_chemical 2538 2551;2560 2570	nitrous oxide anesthesia
+R17	causes_or_contributes_to Arg1:T80 Arg2:T84	
+R18	causes_or_contributes_to Arg1:T85 Arg2:T84	
+T82	corrected_chemical 2633 2650	spinal anesthesia
+R30	causes_or_contributes_to Arg1:T82 Arg2:T84	
+T93	corrected_chemical 2705 2724	epidural anesthesia
+R31	causes_or_contributes_to Arg1:T93 Arg2:T84	

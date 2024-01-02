@@ -16,9 +16,9 @@ T15	disease_or_phenotypic_feature 768 785	hospital-acquired
 T16	disease_or_phenotypic_feature 786 797	anaphylaxis
 T17	chemical 826 840	cephalosporins
 T18	chemical 918 929	Sulfonamide
-T19	missed_chemical 982 991	compounds
+T19	missed_chemical 918 938;963 991	Sulfonamide moieties present in several compounds
 T20	disease_or_phenotypic_feature 1031 1039	diseases
-T21	corrected_disease_or_phenotypic_feature 1053 1080	neglected tropical diseases
+T21	corrected_disease_or_phenotypic_feature 1063 1080	tropical diseases
 T22	disease_or_phenotypic_feature 1072 1080	diseases
 T23	disease_or_phenotypic_feature 1415 1423	cataract
 T24	chemical 1445 1454	oxidative
@@ -61,7 +61,6 @@ T60	chemical 4209 4219	biomarkers
 T61	disease_or_phenotypic_feature 4224 4227	CRC
 T62	disease_or_phenotypic_feature 4274 4277	PCA
 T63	chemical 4388 4393	water
-R1	causes_or_contributes_to Arg1:T31 Arg2:T32
 R2	treats Arg1:T29 Arg2:T30
 R3	treats Arg1:T19 Arg2:T22
 R4	treats Arg1:T19 Arg2:T20
@@ -70,6 +69,10 @@ R6	treats Arg1:T3 Arg2:T1
 T64	missed_chemical 1669 1672	INH
 R7	treats Arg1:T64 Arg2:T30	
 T65	missed_chemical 1845 1855	chemically
-T66	missed_disease_or_phenotypic_feature 1845 1887	chemically-induced mammary adenocarcinomas
+T66	missed_disease_or_phenotypic_feature 1864 1887	mammary adenocarcinomas
 R8	causes_or_contributes_to Arg1:T65 Arg2:T66	
-R9	causes_or_contributes_to Arg1:T31 Arg2:T66	
+T67	corrected_disease_or_phenotypic_feature 768 797	hospital-acquired anaphylaxis
+R10	causes_or_contributes_to Arg1:T17 Arg2:T67	
+R1	causes_or_contributes_to Arg1:T31 Arg2:T66	
+R9	causes_or_contributes_to Arg1:T46 Arg2:T47	
+T68	corrected_disease_or_phenotypic_feature 497 532	obesity-associated hepato-steatosis

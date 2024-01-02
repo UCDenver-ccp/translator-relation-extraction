@@ -75,3 +75,15 @@ R9	treats Arg1:T17 Arg2:T18
 R10	causes_or_contributes_to Arg1:T17 Arg2:T19
 R11	treats Arg1:T57 Arg2:T59
 R12	treats Arg1:T58 Arg2:T59
+T66	corrected_chemical 3557 3569	Zamzam water
+R13	treats Arg1:T66 Arg2:T65	
+T67	missed_chemical 3571 3573	ZW
+R14	treats Arg1:T67 Arg2:T65	
+T68	missed_chemical 3535 3538	ADT
+R15	treats Arg1:T68 Arg2:T60	
+T69	corrected_chemical 1016 1044	androgen deprivation therapy
+R16	treats Arg1:T69 Arg2:T14	
+T70	missed_chemical 3247 3252	MEFAS
+R17	treats Arg1:T70 Arg2:T59	
+T71	corrected_chemical 3580 3633	natural alkaline water that contains several minerals
+R18	treats Arg1:T71 Arg2:T65	

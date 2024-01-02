@@ -72,3 +72,25 @@ R12	treats Arg1:T28 Arg2:T59
 T60	missed_chemical 2240 2249	Docetaxel
 R13	treats Arg1:T60 Arg2:T38	
 R14	treats Arg1:T60 Arg2:T40	
+R15	treats Arg1:T4 Arg2:T2	
+T61	missed_disease_or_phenotypic_feature 1553 1564	weight loss
+R16	causes_or_contributes_to Arg1:T25 Arg2:T61	
+T62	missed_chemical 3020 3028	SGLT-2is
+T63	missed_disease_or_phenotypic_feature 2977 2992;3000 3014	improvements in renal outcomes
+T64	missed_disease_or_phenotypic_feature 2977 2995;3006 3014	improvements in CV outcomes
+R17	causes_or_contributes_to Arg1:T62 Arg2:T63	
+R18	causes_or_contributes_to Arg1:T62 Arg2:T64	
+T65	missed_disease_or_phenotypic_feature 3212 3219	CV risk
+R19	treats Arg1:T62 Arg2:T65	
+T66	missed_chemical 3647 3657	antibiotic
+T67	missed_disease_or_phenotypic_feature 3735 3744	infection
+R20	treats Arg1:T66 Arg2:T67	
+T68	missed_chemical 1491 1495	diet
+R21	causes_or_contributes_to Arg1:T68 Arg2:T24	
+R22	causes_or_contributes_to Arg1:T30 Arg2:T31	
+T69	missed_chemical 2731 2743	chemotherapy
+R23	causes_or_contributes_to Arg1:T69 Arg2:T45	
+T70	missed_disease_or_phenotypic_feature 2775 2779	CIPN
+R24	causes_or_contributes_to Arg1:T69 Arg2:T70	
+T71	missed_disease_or_phenotypic_feature 2716 2727	side effect
+R25	causes_or_contributes_to Arg1:T69 Arg2:T71	

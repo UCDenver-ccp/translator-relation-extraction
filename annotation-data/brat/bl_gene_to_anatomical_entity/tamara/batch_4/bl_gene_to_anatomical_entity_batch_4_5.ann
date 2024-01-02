@@ -106,3 +106,77 @@ T105	anatomical_site 3156 3169	neuroectoderm
 T106	gene 3240 3244	AQP1
 T107	gene 3246 3250	AQP4
 T108	gene 3255 3258	Kir
+T109	corrected_gene 3255 3261	Kir4.1
+T110	corrected_anatomical_site 3099 3106;3118 3131	embryos blood vessels
+R1	located_in Arg1:T106 Arg2:T110	
+R2	located_in Arg1:T107 Arg2:T110	
+R3	located_in Arg1:T109 Arg2:T110	
+T112	corrected_anatomical_site 2938 2954	choroidal tissue
+T113	corrected_anatomical_site 2907 2914;2948 2954	retinal tissue
+R4	located_in Arg1:T95 Arg2:T113	
+R5	located_in Arg1:T95 Arg2:T112	
+T111	corrected_anatomical_site 2967 2979	brain tissue
+R6	located_in Arg1:T95 Arg2:T111	
+T114	missed_anatomical_site 3053 3060	choroid
+R7	located_in Arg1:T100 Arg2:T101	
+R8	located_in Arg1:T100 Arg2:T114	
+T115	corrected_gene 2805 2838	vascular cell adhesion molecule-1
+R9	located_in Arg1:T115 Arg2:T92	
+R10	located_in Arg1:T115 Arg2:T94	
+R11	located_in Arg1:T91 Arg2:T94	
+R12	located_in Arg1:T58 Arg2:T59	
+R13	located_in Arg1:T57 Arg2:T59	
+R14	located_in Arg1:T63 Arg2:T62	
+R15	located_in Arg1:T71 Arg2:T70	
+R16	located_in Arg1:T72 Arg2:T70	
+R17	located_in Arg1:T73 Arg2:T70	
+T116	corrected_gene 2167 2182	collagen type I
+R18	located_in Arg1:T116 Arg2:T70	
+R19	located_in Arg1:T77 Arg2:T79	
+T117	missed_gene 2513 2552	tissue inhibitor of metalloproteinase-1
+R20	located_in Arg1:T117 Arg2:T86	
+R21	located_in Arg1:T87 Arg2:T86	
+T118	corrected_gene 2566 2576	collagen I
+T119	corrected_gene 2578 2582	ColI
+T120	corrected_anatomical_site 2587 2600	kidney tissue
+T121	corrected_gene 2384 2416	transforming growth factor-beta1
+R22	located_in Arg1:T121 Arg2:T120	
+R23	located_in Arg1:T81 Arg2:T120	
+R24	located_in Arg1:T82 Arg2:T120	
+R25	located_in Arg1:T83 Arg2:T120	
+R26	located_in Arg1:T84 Arg2:T120	
+R27	located_in Arg1:T85 Arg2:T120	
+R28	located_in Arg1:T117 Arg2:T120	
+R29	located_in Arg1:T87 Arg2:T120	
+R30	located_in Arg1:T118 Arg2:T120	
+R31	located_in Arg1:T119 Arg2:T120	
+R32	located_in Arg1:T51 Arg2:T54	
+R33	located_in Arg1:T51 Arg2:T55	
+R34	located_in Arg1:T51 Arg2:T56	
+R35	located_in Arg1:T47 Arg2:T48	
+T122	corrected_anatomical_site 1498 1518	inner retinal layers
+R36	located_in Arg1:T47 Arg2:T122	
+T123	missed_anatomical_site 979 984	serum
+T124	corrected_gene 985 992	albumin
+R37	located_in Arg1:T124 Arg2:T123	
+T125	corrected_anatomical_site 650 663;683 689	cortical bone tibias
+R38	located_in Arg1:T23 Arg2:T125	
+R39	located_in Arg1:T26 Arg2:T27	
+R40	located_in Arg1:T19 Arg2:T21	
+T126	corrected_anatomical_site 442 454	heart tissue
+R41	located_in Arg1:T17 Arg2:T126	
+R42	located_in Arg1:T18 Arg2:T126	
+R43	located_in Arg1:T11 Arg2:T12	
+R44	located_in Arg1:T11 Arg2:T13	
+R45	located_in Arg1:T8 Arg2:T10	
+R46	located_in Arg1:T9 Arg2:T10	
+R47	located_in Arg1:T3 Arg2:T4	
+R48	located_in Arg1:T2 Arg2:T4	
+R49	located_in Arg1:T1 Arg2:T4	
+T127	missed_gene 162 166	CD25
+R50	located_in Arg1:T127 Arg2:T7	
+R51	located_in Arg1:T6 Arg2:T7	
+R52	located_in Arg1:T5 Arg2:T7	
+#1	AnnotatorNotes R50	Okay?
+#2	AnnotatorNotes R51	Okay?
+#3	AnnotatorNotes R52	Okay?

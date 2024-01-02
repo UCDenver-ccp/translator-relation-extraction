@@ -74,5 +74,11 @@ R11	causes_or_contributes_to Arg1:T29 Arg2:T27
 R12	treats Arg1:T3 Arg2:T4
 T71	corrected_chemical 2021 2043	dextran sulfate sodium
 R15	causes_or_contributes_to Arg1:T71 Arg2:T46	
-T38	missed_disease_or_phenotypic_feature 2021 2059	dextran sulfate sodium-induced colitis
-R1	treats Arg1:T43 Arg2:T38	
+R1	treats Arg1:T43 Arg2:T46	
+T56	corrected_disease_or_phenotypic_feature 77 88	CP syndrome
+R2	treats Arg1:T3 Arg2:T56	
+R8	treats Arg1:T39 Arg2:T42	
+T38	corrected_chemical 1945 1949	drug
+R13	treats Arg1:T38 Arg2:T42	
+T68	missed_chemical 3373 3383	Snake Bite
+R14	causes_or_contributes_to Arg1:T68 Arg2:T67	

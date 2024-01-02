@@ -117,3 +117,40 @@ T116	gene 3170 3177	insulin
 T117	gene 3182 3190	glucagon
 T118	anatomical_site 3194 3199	blood
 T119	anatomical_site 3207 3211	body
+R1	located_in Arg1:T20 Arg2:T19	
+R2	located_in Arg1:T23 Arg2:T24	
+R3	located_in Arg1:T23 Arg2:T25	
+R4	located_in Arg1:T23 Arg2:T26	
+R5	located_in Arg1:T21 Arg2:T24	
+R6	located_in Arg1:T21 Arg2:T25	
+R7	located_in Arg1:T21 Arg2:T26	
+T120	corrected_gene 592 597	TNF-?
+R8	located_in Arg1:T120 Arg2:T24	
+R9	located_in Arg1:T120 Arg2:T25	
+R10	located_in Arg1:T120 Arg2:T26	
+R11	located_in Arg1:T42 Arg2:T44	
+R12	located_in Arg1:T42 Arg2:T45	
+T121	corrected_gene 1146 1170	dystrophin-like proteins
+R13	located_in Arg1:T121 Arg2:T44	
+R14	located_in Arg1:T121 Arg2:T45	
+T122	corrected_anatomical_site 1240 1261	cortical brain tissue
+R15	located_in Arg1:T48 Arg2:T122	
+R16	located_in Arg1:T49 Arg2:T122	
+T123	missed_anatomical_site 1756 1766	cerebellar
+T124	missed_anatomical_site 1700 1708	habenula
+T125	corrected_gene 1615 1623	GABABR1a
+T126	corrected_gene 1628 1636	GABABR1b
+R17	located_in Arg1:T126 Arg2:T62	
+R18	located_in Arg1:T126 Arg2:T63	
+R19	located_in Arg1:T126 Arg2:T64	
+R20	located_in Arg1:T126 Arg2:T124	
+R21	located_in Arg1:T126 Arg2:T65	
+R22	located_in Arg1:T125 Arg2:T62	
+R23	located_in Arg1:T125 Arg2:T63	
+R24	located_in Arg1:T125 Arg2:T64	
+R25	located_in Arg1:T125 Arg2:T124	
+R26	located_in Arg1:T125 Arg2:T65	
+T127	corrected_gene 1731 1739	GABABR1a
+R27	located_in Arg1:T127 Arg2:T123	
+R28	located_in Arg1:T127 Arg2:T67	
+R29	located_in Arg1:T127 Arg2:T68	

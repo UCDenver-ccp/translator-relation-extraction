@@ -100,3 +100,77 @@ T99	gene 2505 2510	Axin2
 T100	gene 2511 2515	LacZ
 T101	anatomical_site 2554 2569	lung mesenchyme
 T102	anatomical_site 2581 2591	epithelium
+R1	located_in Arg1:T1 Arg2:T5	
+R2	located_in Arg1:T4 Arg2:T5	
+T103	missed_anatomical_site 132 156	musculotendinous tissues
+R3	located_in Arg1:T6 Arg2:T7	
+R4	located_in Arg1:T6 Arg2:T103	
+R5	located_in Arg1:T1 Arg2:T7	
+R6	located_in Arg1:T1 Arg2:T103	
+T104	missed_gene 189 191	KP
+R7	located_in Arg1:T104 Arg2:T8	
+T105	missed_gene 193 200	keratin
+R8	located_in Arg1:T105 Arg2:T8	
+R9	located_in Arg1:T9 Arg2:T8	
+T106	missed_gene 211 237	keratin-associated protein
+R10	located_in Arg1:T106 Arg2:T8	
+R11	located_in Arg1:T14 Arg2:T15	
+R12	located_in Arg1:T14 Arg2:T16	
+R13	located_in Arg1:T14 Arg2:T17	
+R15	located_in Arg1:T26 Arg2:T25	
+R16	located_in Arg1:T27 Arg2:T25	
+R17	located_in Arg1:T32 Arg2:T33	
+R18	located_in Arg1:T34 Arg2:T36	
+R19	located_in Arg1:T35 Arg2:T36	
+R20	located_in Arg1:T34 Arg2:T37	
+R21	located_in Arg1:T35 Arg2:T37	
+R22	located_in Arg1:T34 Arg2:T38	
+R23	located_in Arg1:T35 Arg2:T38	
+T107	corrected_anatomical_site 1466 1488	adrenal medulla tissue
+R24	located_in Arg1:T50 Arg2:T107	
+R25	located_in Arg1:T51 Arg2:T107	
+R26	located_in Arg1:T54 Arg2:T56	
+R27	located_in Arg1:T54 Arg2:T57	
+T108	corrected_gene 1521 1527	p75NTR
+R28	located_in Arg1:T108 Arg2:T56	
+R29	located_in Arg1:T108 Arg2:T57	
+R30	located_in Arg1:T67 Arg2:T68	
+T109	corrected_anatomical_site 1759 1771	renal tissue
+R31	located_in Arg1:T70 Arg2:T109	
+T110	corrected_anatomical_site 1860 1876	peripheral blood
+T111	missed_gene 1800 1806	SDR5A1
+R32	located_in Arg1:T111 Arg2:T73	
+R33	located_in Arg1:T111 Arg2:T110	
+T112	corrected_gene 1808 1814	SDR5A2
+R34	located_in Arg1:T112 Arg2:T73	
+R35	located_in Arg1:T112 Arg2:T110	
+R36	located_in Arg1:T72 Arg2:T73	
+R37	located_in Arg1:T72 Arg2:T110	
+R38	located_in Arg1:T76 Arg2:T77	
+R39	located_in Arg1:T76 Arg2:T78	
+R40	located_in Arg1:T76 Arg2:T79	
+R41	located_in Arg1:T76 Arg2:T80	
+R42	located_in Arg1:T76 Arg2:T81	
+T113	corrected_anatomical_site 2124 2130;2134 2141	spleen newborn
+R43	located_in Arg1:T82 Arg2:T113	
+R44	located_in Arg1:T85 Arg2:T87	
+R45	located_in Arg1:T86 Arg2:T87	
+R46	located_in Arg1:T89 Arg2:T92	
+R47	located_in Arg1:T90 Arg2:T92	
+R49	located_in Arg1:T89 Arg2:T93	
+R50	located_in Arg1:T90 Arg2:T93	
+R48	located_in Arg1:T91 Arg2:T92	
+R51	located_in Arg1:T91 Arg2:T93	
+R52	located_in Arg1:T89 Arg2:T94	
+R53	located_in Arg1:T90 Arg2:T94	
+R54	located_in Arg1:T91 Arg2:T94	
+T116	missed_gene 2403 2406	CD4
+T117	missed_anatomical_site 2396 2402	thymic
+R55	located_in Arg1:T116 Arg2:T117	
+R56	located_in Arg1:T97 Arg2:T96	
+T118	missed_anatomical_site 1920 1927	tissues
+R14	located_in Arg1:T75 Arg2:T118	
+T119	corrected_anatomical_site 2544 2569	embryonic lung mesenchyme
+T120	corrected_anatomical_site 2544 2553;2581 2591	embryonic epithelium
+R57	located_in Arg1:T99 Arg2:T119	
+R58	located_in Arg1:T99 Arg2:T120	

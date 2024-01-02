@@ -88,3 +88,108 @@ T87	gene 2720 2728	spectrin
 T88	gene 2764 2769	MAP-2
 T89	anatomical_site 2781 2796	cerebral cortex
 T90	anatomical_site 2805 2815	cerebellum
+T91	corrected_gene 2712 2728	alphaII-spectrin
+T92	corrected_gene 2733 2770	microtubule-associated protein MAP-2A
+T93	corrected_gene 2733 2769;2771 2772	microtubule-associated protein MAP-2 B
+R1	located_in Arg1:T91 Arg2:T89	
+R2	located_in Arg1:T93 Arg2:T89	
+R3	located_in Arg1:T92 Arg2:T89	
+R4	located_in Arg1:T93 Arg2:T90	
+R5	located_in Arg1:T92 Arg2:T90	
+R6	located_in Arg1:T91 Arg2:T90	
+T94	corrected_anatomical_site 2553 2565	brain tissue
+T95	missed_gene 2513 2518	IFN-γ
+T96	missed_gene 2494 2499	IL-1β
+T97	missed_gene 2487 2492	IL-1α
+R7	located_in Arg1:T81 Arg2:T94	
+R8	located_in Arg1:T95 Arg2:T94	
+R9	located_in Arg1:T80 Arg2:T94	
+R10	located_in Arg1:T79 Arg2:T94	
+R11	located_in Arg1:T96 Arg2:T94	
+R12	located_in Arg1:T97 Arg2:T94	
+R13	located_in Arg1:T74 Arg2:T73	
+R14	located_in Arg1:T75 Arg2:T73	
+T98	missed_gene 2016 2076	brain-specific angiogenesis inhibitor 1-associated protein 4
+R15	located_in Arg1:T98 Arg2:T67	
+T99	corrected_gene 2078 2086	BAI1-AP4
+R16	located_in Arg1:T99 Arg2:T67	
+R17	located_in Arg1:T70 Arg2:T69	
+T100	corrected_gene 1751 1784	vascular cell adhesion molecule-1
+R18	located_in Arg1:T100 Arg2:T60	
+R19	located_in Arg1:T100 Arg2:T59	
+R20	located_in Arg1:T63 Arg2:T62	
+T101	missed_anatomical_site 1654 1664	myocardial
+R21	located_in Arg1:T57 Arg2:T101	
+R22	located_in Arg1:T51 Arg2:T53	
+R23	located_in Arg1:T51 Arg2:T54	
+R24	located_in Arg1:T51 Arg2:T55	
+R25	located_in Arg1:T51 Arg2:T52	
+R26	located_in Arg1:T48 Arg2:T47	
+T102	missed_gene 1347 1349	Lf
+R27	located_in Arg1:T102 Arg2:T47	
+R28	located_in Arg1:T46 Arg2:T47	
+T103	missed_anatomical_site 1292 1300	neuronal
+R29	located_in Arg1:T44 Arg2:T45	
+R30	located_in Arg1:T43 Arg2:T45	
+R31	located_in Arg1:T42 Arg2:T45	
+R32	located_in Arg1:T41 Arg2:T45	
+R33	located_in Arg1:T44 Arg2:T103	
+#1	AnnotatorNotes R33	Okay?
+R34	located_in Arg1:T43 Arg2:T103	
+#2	AnnotatorNotes R34	Okay?
+R35	located_in Arg1:T42 Arg2:T103	
+#3	AnnotatorNotes R35	Okay?
+R36	located_in Arg1:T41 Arg2:T103	
+#4	AnnotatorNotes R36	Okay?
+R37	located_in Arg1:T37 Arg2:T36	
+R38	located_in Arg1:T38 Arg2:T36	
+R39	located_in Arg1:T38 Arg2:T39	
+R40	located_in Arg1:T37 Arg2:T39	
+R41	located_in Arg1:T33 Arg2:T34	
+R42	located_in Arg1:T33 Arg2:T35	
+T104	missed_anatomical_site 943 950	hepatic
+T105	missed_gene 906 909	AhR
+R43	located_in Arg1:T105 Arg2:T104	
+R44	located_in Arg1:T30 Arg2:T104	
+R45	located_in Arg1:T31 Arg2:T104	
+R46	located_in Arg1:T32 Arg2:T104	
+R47	located_in Arg1:T105 Arg2:T28	
+R48	located_in Arg1:T105 Arg2:T29	
+R49	located_in Arg1:T30 Arg2:T28	
+R50	located_in Arg1:T30 Arg2:T29	
+R51	located_in Arg1:T31 Arg2:T28	
+R52	located_in Arg1:T31 Arg2:T29	
+R53	located_in Arg1:T32 Arg2:T28	
+R54	located_in Arg1:T32 Arg2:T29	
+T106	missed_gene 632 667	bone morphogenetic protein receptor
+R55	located_in Arg1:T106 Arg2:T21	
+R56	located_in Arg1:T22 Arg2:T21	
+R57	located_in Arg1:T25 Arg2:T26	
+R58	located_in Arg1:T24 Arg2:T26	
+R59	located_in Arg1:T23 Arg2:T26	
+R60	located_in Arg1:T22 Arg2:T26	
+R61	located_in Arg1:T106 Arg2:T26	
+T107	corrected_anatomical_site 769 799	pulmonary artery smooth muscle
+#5	AnnotatorNotes T107	okay?
+R62	located_in Arg1:T25 Arg2:T107	
+#6	AnnotatorNotes R62	Okay?
+R63	located_in Arg1:T24 Arg2:T107	
+R64	located_in Arg1:T23 Arg2:T107	
+R65	located_in Arg1:T22 Arg2:T107	
+R66	located_in Arg1:T106 Arg2:T107	
+T108	corrected_anatomical_site 467 484	intestinal tissue
+R67	located_in Arg1:T17 Arg2:T108	
+R68	located_in Arg1:T18 Arg2:T108	
+T109	missed_gene 535 541	MUC5AC
+R69	located_in Arg1:T19 Arg2:T20	
+R70	located_in Arg1:T109 Arg2:T20	
+R71	located_in Arg1:T12 Arg2:T13	
+T110	corrected_anatomical_site 444 458	gonadal tissue
+R72	located_in Arg1:T12 Arg2:T110	
+T111	corrected_anatomical_site 283 294	lung tissue
+R73	located_in Arg1:T6 Arg2:T111	
+R74	located_in Arg1:T5 Arg2:T111	
+R75	located_in Arg1:T4 Arg2:T111	
+T112	missed_anatomical_site 336 342	plasma
+R76	located_in Arg1:T10 Arg2:T112	
+R77	located_in Arg1:T9 Arg2:T112	

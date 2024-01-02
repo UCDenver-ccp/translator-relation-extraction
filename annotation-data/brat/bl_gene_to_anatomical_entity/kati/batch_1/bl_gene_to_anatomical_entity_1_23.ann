@@ -120,3 +120,113 @@ T119	gene 3221 3226	Alpha
 T120	gene 3232 3237	TIMP1
 T121	gene 3243 3247	MMP9
 T122	anatomical_site 3262 3268	dermal
+T123	missed_gene 358 370	bone protein
+R1	located_in Arg1:T123 Arg2:T12	
+T124	missed_gene 376 378	BP
+R2	located_in Arg1:T124 Arg2:T12	
+T125	missed_gene 381 393	bone protein
+R3	located_in Arg1:T125 Arg2:T14	
+T126	missed_gene 415 417	BP
+R4	located_in Arg1:T126 Arg2:T14	
+T127	missed_gene 448 460	bone protein
+R5	located_in Arg1:T127 Arg2:T16	
+T128	missed_gene 486 488	BP
+R6	located_in Arg1:T128 Arg2:T16	
+R7	located_in Arg1:T28 Arg2:T30	
+R8	located_in Arg1:T29 Arg2:T30	
+R9	located_in Arg1:T42 Arg2:T44	
+T129	corrected_anatomical_site 1187 1197	cord blood
+R10	located_in Arg1:T42 Arg2:T129	
+R11	located_in Arg1:T42 Arg2:T46	
+R12	located_in Arg1:T43 Arg2:T44	
+R13	located_in Arg1:T43 Arg2:T129	
+R14	located_in Arg1:T43 Arg2:T46	
+T130	corrected_gene 1277 1282	HSP72
+T131	corrected_gene 1289 1294	HSP72
+T132	corrected_gene 1314 1319	HSP72
+R15	located_in Arg1:T130 Arg2:T47	
+R16	located_in Arg1:T131 Arg2:T47	
+R17	located_in Arg1:T132 Arg2:T50	
+T133	corrected_anatomical_site 1431 1451	developing inner ear
+R18	located_in Arg1:T52 Arg2:T133	
+R19	located_in Arg1:T53 Arg2:T133	
+R20	located_in Arg1:T54 Arg2:T133	
+T134	missed_gene 1586 1589	EMD
+R21	located_in Arg1:T134 Arg2:T58	
+R22	located_in Arg1:T134 Arg2:T59	
+R23	located_in Arg1:T60 Arg2:T58	
+R24	located_in Arg1:T60 Arg2:T59	
+R25	located_in Arg1:T61 Arg2:T58	
+R26	located_in Arg1:T61 Arg2:T59	
+T135	missed_gene 1608 1625	RNA polymerase II
+R27	located_in Arg1:T135 Arg2:T58	
+R28	located_in Arg1:T135 Arg2:T59	
+R29	located_in Arg1:T62 Arg2:T58	
+R30	located_in Arg1:T62 Arg2:T59	
+T136	missed_gene 1639 1678	lipoprotein receptor-related protein 10
+R31	located_in Arg1:T136 Arg2:T58	
+R32	located_in Arg1:T136 Arg2:T59	
+R33	located_in Arg1:T64 Arg2:T63	
+T137	missed_gene 1713 1739	marvel domain containing 1
+R34	located_in Arg1:T137 Arg2:T63	
+T138	missed_gene 1742 1745	EMD
+R35	located_in Arg1:T138 Arg2:T63	
+T139	missed_gene 1751 1756	LRP10
+R36	located_in Arg1:T139 Arg2:T63	
+R37	located_in Arg1:T66 Arg2:T65	
+T140	missed_gene 1784 1802	hippocalcin-like 1
+R38	located_in Arg1:T140 Arg2:T65	
+R39	located_in Arg1:T67 Arg2:T65	
+R40	located_in Arg1:T68 Arg2:T65	
+T141	missed_gene 1823 1865	Eukaryotic translation initiation factor 3
+R41	located_in Arg1:T141 Arg2:T65	
+T142	missed_anatomical_site 1889 1899	intrarenal
+R42	located_in Arg1:T69 Arg2:T142	
+T143	corrected_gene 1916 1919;1922 1924	HSP 27
+R43	located_in Arg1:T143 Arg2:T142	
+T144	missed_gene 1926 1943	alphaB-crystallin
+R44	located_in Arg1:T144 Arg2:T142	
+T145	corrected_gene 1945 1950	HSP72
+R45	located_in Arg1:T145 Arg2:T142	
+R46	located_in Arg1:T71 Arg2:T142	
+T146	missed_gene 1962 1968	HSP110
+R47	located_in Arg1:T146 Arg2:T142	
+T147	corrected_anatomical_site 2082 2095	inner medulla
+R48	located_in Arg1:T69 Arg2:T74	
+R49	located_in Arg1:T143 Arg2:T74	
+R50	located_in Arg1:T144 Arg2:T74	
+R51	located_in Arg1:T145 Arg2:T74	
+R52	located_in Arg1:T71 Arg2:T74	
+R53	located_in Arg1:T146 Arg2:T74	
+R54	located_in Arg1:T69 Arg2:T147	
+R55	located_in Arg1:T143 Arg2:T147	
+R56	located_in Arg1:T144 Arg2:T147	
+R57	located_in Arg1:T145 Arg2:T147	
+R58	located_in Arg1:T71 Arg2:T147	
+R59	located_in Arg1:T146 Arg2:T147	
+R60	located_in Arg1:T69 Arg2:T76	
+R61	located_in Arg1:T143 Arg2:T76	
+R62	located_in Arg1:T144 Arg2:T76	
+R63	located_in Arg1:T145 Arg2:T76	
+R64	located_in Arg1:T71 Arg2:T76	
+R65	located_in Arg1:T146 Arg2:T76	
+T148	missed_anatomical_site 2236 2248	hypothalamic
+R66	located_in Arg1:T81 Arg2:T148	
+R67	located_in Arg1:T82 Arg2:T148	
+R68	located_in Arg1:T88 Arg2:T87	
+R69	located_in Arg1:T90 Arg2:T89	
+R70	located_in Arg1:T96 Arg2:T95	
+R71	located_in Arg1:T96 Arg2:T97	
+R72	located_in Arg1:T108 Arg2:T109	
+T149	missed_anatomical_site 2955 2960	ileum
+R73	located_in Arg1:T108 Arg2:T149	
+T150	corrected_anatomical_site 3022 3033;3034 3037;3040 3044	hippocampal CA3 area
+T151	corrected_anatomical_site 3022 3033;3034 3036;3038 3039;3040 3044	hippocampal CA 4 area
+R74	located_in Arg1:T110 Arg2:T150	
+R75	located_in Arg1:T110 Arg2:T151	
+T152	corrected_anatomical_site 3053 3079	hilus of the dentate gyrus
+R76	located_in Arg1:T110 Arg2:T152	
+T153	corrected_gene 3221 3230	Alpha-SMA
+R77	located_in Arg1:T153 Arg2:T122	
+R78	located_in Arg1:T120 Arg2:T122	
+R79	located_in Arg1:T121 Arg2:T122	

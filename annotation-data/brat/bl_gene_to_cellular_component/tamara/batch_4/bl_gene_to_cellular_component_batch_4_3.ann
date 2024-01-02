@@ -92,3 +92,25 @@ T91	gene 3012 3016	SER3
 T92	gene 3054 3058	SRG1
 T93	cellular_component 3099 3109	nucleosome
 T94	gene 3150 3154	SER3
+T95	missed_gene 159 165	dynein
+R1	located_in Arg1:T95 Arg2:T4	
+T96	missed_gene 237 242	Hsp70
+R2	located_in Arg1:T96 Arg2:T7	
+R3	located_in Arg1:T8 Arg2:T7	
+R4	located_in Arg1:T12 Arg2:T11	
+R5	located_in Arg1:T14 Arg2:T16	
+R6	located_in Arg1:T15 Arg2:T16	
+R7	located_in Arg1:T15 Arg2:T17	
+R8	located_in Arg1:T14 Arg2:T17	
+T97	corrected_gene 715 720	Bos1p
+T98	corrected_gene 725 730	Bet1p
+R9	located_in Arg1:T97 Arg2:T21	
+R10	located_in Arg1:T98 Arg2:T21	
+T99	missed_gene 1076 1088	cytochrome c
+R11	located_in Arg1:T99 Arg2:T30	
+R12	located_in Arg1:T99 Arg2:T31	
+R13	located_in Arg1:T37 Arg2:T38	
+T100	missed_gene 1656 1661	mAKAP
+R14	located_in Arg1:T100 Arg2:T49	
+R15	located_in Arg1:T87 Arg2:T88	
+#1	AnnotatorNotes R15	Okay?

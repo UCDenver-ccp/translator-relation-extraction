@@ -75,14 +75,10 @@ T74	disease_or_phenotypic_feature 2660 2700	attention-deficit hyperactivity diso
 T75	disease_or_phenotypic_feature 2702 2706	ADHD
 T76	missed_disease_or_phenotypic_feature 174 185	weight gain
 R1	causes_or_contributes_to Arg1:T4 Arg2:T76	
-T77	corrected_disease_or_phenotypic_feature 203 227	hormone-sensitive tumors
+T77	corrected_disease_or_phenotypic_feature 221 227	tumors
 R2	causes_or_contributes_to Arg1:T5 Arg2:T77	
-T78	missed_disease_or_phenotypic_feature 516 521	tumor
-R3	treats Arg1:T12 Arg2:T78	
-R4	treats Arg1:T11 Arg2:T78	
-T79	corrected_disease_or_phenotypic_feature 1006 1030	hormone dependent tumors
-R5	treats Arg1:T26 Arg2:T79	
-T80	missed_chemical 1063 1079	chemotherapeutic
+T79	corrected_disease_or_phenotypic_feature 1024 1030	tumors
+T80	missed_chemical 1056 1086	cancer chemotherapeutic agents
 R6	causes_or_contributes_to Arg1:T80 Arg2:T32	
 R7	causes_or_contributes_to Arg1:T80 Arg2:T33	
 R8	causes_or_contributes_to Arg1:T29 Arg2:T32	
@@ -101,15 +97,13 @@ R16	treats Arg1:T48 Arg2:T50
 R17	treats Arg1:T48 Arg2:T51	
 T85	corrected_disease_or_phenotypic_feature 2275 2305	diabetic peripheral neuropathy
 T86	corrected_chemical 2479 2518	selective serotonin reuptake inhibitors
-R20	treats Arg1:T86 Arg2:T71	
 T87	corrected_chemical 2583 2617	norepinephrine reuptake inhibitors
 R21	treats Arg1:T87 Arg2:T74	
 T88	DONE 2709 2713	DONE
 R22	treats Arg1:T11 Arg2:T14	
 R23	treats Arg1:T12 Arg2:T14	
-T89	missed_chemical 517 547	umor necrosis factor inhibitor
+T89	missed_chemical 516 547	tumor necrosis factor inhibitor
 R24	treats Arg1:T89 Arg2:T14	
-R25	causes_or_contributes_to Arg1:T16 Arg2:T17	
 T90	missed_chemical 885 893	Exosomes
 R26	treats Arg1:T90 Arg2:T25	
 R27	treats Arg1:T24 Arg2:T25	
@@ -121,4 +115,28 @@ R31	treats Arg1:T35 Arg2:T81
 R32	treats Arg1:T35 Arg2:T82	
 R33	treats Arg1:T35 Arg2:T83	
 R34	treats Arg1:T35 Arg2:T38	
-R18	treats Arg1:T86 Arg2:T75	
+T92	corrected_chemical 1512 1533	liposomal doxorubicin
+T93	missed_disease_or_phenotypic_feature 1459 1464	tumor
+R19	treats Arg1:T92 Arg2:T93	
+R18	treats Arg1:T86 Arg2:T71	
+R20	treats Arg1:T87 Arg2:T75	
+R3	causes_or_contributes_to Arg1:T16 Arg2:T17	
+R4	causes_or_contributes_to Arg1:T16 Arg2:T18	
+R25	causes_or_contributes_to Arg1:T16 Arg2:T19	
+R35	causes_or_contributes_to Arg1:T16 Arg2:T20	
+T78	corrected_chemical 973 985	GNRH analogs
+R5	treats Arg1:T78 Arg2:T79	
+T94	missed_disease_or_phenotypic_feature 1127 1150	intestinal inflammation
+R36	causes_or_contributes_to Arg1:T91 Arg2:T94	
+R37	causes_or_contributes_to Arg1:T80 Arg2:T94	
+R38	causes_or_contributes_to Arg1:T29 Arg2:T94	
+R39	treats Arg1:T36 Arg2:T81	
+R40	treats Arg1:T36 Arg2:T82	
+R41	treats Arg1:T36 Arg2:T83	
+R42	treats Arg1:T36 Arg2:T38	
+R43	treats Arg1:T47 Arg2:T97	
+T95	missed_disease_or_phenotypic_feature 287 298	weight gain
+R44	causes_or_contributes_to Arg1:T4 Arg2:T95	
+T96	corrected_chemical 636 667	tumor necrosis factor inhibitor
+R45	treats Arg1:T96 Arg2:T14	
+T97	missed_disease_or_phenotypic_feature 1738 1743	tumor

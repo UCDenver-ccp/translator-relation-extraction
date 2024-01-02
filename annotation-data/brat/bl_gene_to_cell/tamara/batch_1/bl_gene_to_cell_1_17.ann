@@ -111,3 +111,105 @@ T110	cell_type 2909 2924	ependymal cells
 T111	gene 2938 2942	Atrn
 T112	gene 2952 2959	Insulin
 T113	cell_type 2984 2993	astrocyte
+R1	located_in Arg1:T1 Arg2:T2	
+T114	corrected_cell_type 193 206	neuronal cell
+R3	located_in Arg1:T5 Arg2:T114	
+R4	located_in Arg1:T6 Arg2:T114	
+R5	located_in Arg1:T12 Arg2:T13	
+R6	located_in Arg1:T11 Arg2:T13	
+R7	located_in Arg1:T10 Arg2:T13	
+R8	located_in Arg1:T8 Arg2:T13	
+R9	located_in Arg1:T9 Arg2:T13	
+T115	corrected_cell_type 553 593	monocyte-derived mesenchymal progenitors
+T116	missed_cell_type 595 600	MOMPs
+R10	located_in Arg1:T17 Arg2:T18	
+T117	missed_gene 458 462	CD45
+T118	corrected_gene 468 483	type I collagen
+R11	located_in Arg1:T14 Arg2:T115	
+R12	located_in Arg1:T14 Arg2:T116	
+R13	located_in Arg1:T117 Arg2:T115	
+R14	located_in Arg1:T117 Arg2:T116	
+R15	located_in Arg1:T15 Arg2:T115	
+R16	located_in Arg1:T15 Arg2:T116	
+R17	located_in Arg1:T118 Arg2:T115	
+R18	located_in Arg1:T118 Arg2:T116	
+T119	corrected_gene 663 677	beta-3 tubulin
+R19	located_in Arg1:T22 Arg2:T23	
+R20	located_in Arg1:T119 Arg2:T20	
+R21	located_in Arg1:T22 Arg2:T20	
+T120	corrected_gene 747 766	ubiquitin hydrolase
+T121	missed_gene 768 774	PGP9.5
+R22	located_in Arg1:T120 Arg2:T20	
+R23	located_in Arg1:T121 Arg2:T20	
+T122	missed_cell_type 738 746	neuronal
+R24	located_in Arg1:T120 Arg2:T122	
+R25	located_in Arg1:T121 Arg2:T122	
+R28	located_in Arg1:T28 Arg2:T31	
+R29	located_in Arg1:T29 Arg2:T31	
+R30	located_in Arg1:T30 Arg2:T31	
+R31	located_in Arg1:T28 Arg2:T32	
+R32	located_in Arg1:T29 Arg2:T32	
+R33	located_in Arg1:T30 Arg2:T32	
+R34	located_in Arg1:T33 Arg2:T39	
+R35	located_in Arg1:T34 Arg2:T39	
+R36	located_in Arg1:T35 Arg2:T39	
+R37	located_in Arg1:T36 Arg2:T39	
+R38	located_in Arg1:T37 Arg2:T39	
+R39	located_in Arg1:T38 Arg2:T39	
+T123	missed_gene 1071 1076	IFN-?
+R40	located_in Arg1:T123 Arg2:T39	
+R41	located_in Arg1:T42 Arg2:T41	
+R42	located_in Arg1:T43 Arg2:T41	
+R43	located_in Arg1:T44 Arg2:T41	
+R44	located_in Arg1:T48 Arg2:T46	
+R45	located_in Arg1:T49 Arg2:T46	
+R46	located_in Arg1:T50 Arg2:T46	
+R47	located_in Arg1:T48 Arg2:T47	
+R48	located_in Arg1:T49 Arg2:T47	
+R49	located_in Arg1:T50 Arg2:T47	
+R50	located_in Arg1:T52 Arg2:T47	
+R51	located_in Arg1:T52 Arg2:T46	
+R52	located_in Arg1:T52 Arg2:T41	
+R53	located_in Arg1:T54 Arg2:T55	
+R54	located_in Arg1:T54 Arg2:T56	
+R55	located_in Arg1:T54 Arg2:T57	
+T124	corrected_cell_type 1504 1522	osteoblastic cells
+R56	located_in Arg1:T60 Arg2:T124	
+R57	located_in Arg1:T59 Arg2:T124	
+R58	located_in Arg1:T58 Arg2:T124	
+R59	located_in Arg1:T62 Arg2:T63	
+T125	missed_gene 1630 1659	fibroblast-specific protein-1
+T126	corrected_gene 1661 1666	FSP-1
+T127	missed_gene 1672 1677	?-SMA
+T128	missed_cell_type 1608 1621	myofibroblast
+R60	located_in Arg1:T125 Arg2:T63	
+R61	located_in Arg1:T126 Arg2:T63	
+R62	located_in Arg1:T127 Arg2:T63	
+R63	located_in Arg1:T125 Arg2:T65	
+R64	located_in Arg1:T126 Arg2:T65	
+R65	located_in Arg1:T125 Arg2:T64	
+R66	located_in Arg1:T126 Arg2:T64	
+R67	located_in Arg1:T127 Arg2:T64	
+R68	located_in Arg1:T125 Arg2:T128	
+R69	located_in Arg1:T126 Arg2:T128	
+R70	located_in Arg1:T127 Arg2:T128	
+T132	missed_gene 1957 1962	G-CSF
+T133	missed_cell_type 1975 1985	macrophage
+R79	located_in Arg1:T76 Arg2:T133	
+T134	missed_gene 2015 2025	MIP-1alpha
+R80	located_in Arg1:T134 Arg2:T133	
+R81	located_in Arg1:T79 Arg2:T80	
+T135	corrected_gene 2211 2215	AGC5
+T136	corrected_gene 2217 2221	AGC7
+T137	corrected_gene 2227 2232	AGC13
+R82	located_in Arg1:T137 Arg2:T89	
+R83	located_in Arg1:T136 Arg2:T88	
+R84	located_in Arg1:T135 Arg2:T129	
+R85	located_in Arg1:T93 Arg2:T96	
+R86	located_in Arg1:T98 Arg2:T99	
+R87	located_in Arg1:T100 Arg2:T101	
+R88	located_in Arg1:T111 Arg2:T110	
+R89	located_in Arg1:T111 Arg2:T109	
+R90	located_in Arg1:T111 Arg2:T108	
+R91	located_in Arg1:T112 Arg2:T113	
+T129	corrected_cell_type 2262 2287	germinal epithelial cells

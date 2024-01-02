@@ -108,3 +108,86 @@ T107	anatomical_site 2954 2958	lung
 T108	anatomical_site 2960 2965	liver
 T109	anatomical_site 2967 2975	placenta
 T110	anatomical_site 2981 2986	heart
+T111	corrected_anatomical_site 24 36	brain myelin
+R1	located_in Arg1:T1 Arg2:T111	
+T112	corrected_anatomical_site 360 369	EC tissue
+R2	located_in Arg1:T14 Arg2:T112	
+R3	located_in Arg1:T15 Arg2:T112	
+T113	missed_gene 404 427	fat-specific protein 27
+R4	located_in Arg1:T113 Arg2:T17	
+T114	missed_gene 603 606	IgE
+R5	located_in Arg1:T114 Arg2:T21	
+R6	located_in Arg1:T23 Arg2:T21	
+R7	located_in Arg1:T24 Arg2:T21	
+R8	located_in Arg1:T25 Arg2:T21	
+T115	corrected_gene 611 629	Th2-type cytokines
+R9	located_in Arg1:T115 Arg2:T21	
+T116	missed_gene 892 913	muscle-specific actin
+R10	located_in Arg1:T116 Arg2:T32	
+T117	missed_gene 921 946	alpha-smooth muscle actin
+R11	located_in Arg1:T117 Arg2:T33	
+T118	missed_anatomical_site 1018 1024	livers
+T119	missed_gene 1072 1077	Pparg
+T120	missed_gene 1079 1084	Ppara
+R12	located_in Arg1:T119 Arg2:T118	
+R13	located_in Arg1:T120 Arg2:T118	
+R14	located_in Arg1:T38 Arg2:T118	
+R15	located_in Arg1:T39 Arg2:T118	
+R16	located_in Arg1:T40 Arg2:T118	
+R17	located_in Arg1:T41 Arg2:T118	
+R18	located_in Arg1:T42 Arg2:T118	
+T121	corrected_anatomical_site 1138 1189	simple columnar epithelium of the glandular stomach
+R19	located_in Arg1:T45 Arg2:T121	
+R20	located_in Arg1:T46 Arg2:T121	
+R21	located_in Arg1:T47 Arg2:T121	
+T122	corrected_anatomical_site 1554 1565	lung tissue
+R23	located_in Arg1:T54 Arg2:T122	
+R24	located_in Arg1:T63 Arg2:T64	
+R25	located_in Arg1:T63 Arg2:T65	
+R26	located_in Arg1:T66 Arg2:T67	
+T123	missed_anatomical_site 2172 2176	PVAT
+R27	located_in Arg1:T72 Arg2:T123	
+T124	corrected_anatomical_site 2298 2314;2404 2416	epithelial layer nasal mucosa
+T125	corrected_anatomical_site 2335 2355;2404 2416	vascular endothelium nasal mucosa
+T126	corrected_anatomical_site 2316 2333;2404 2416	submucosal glands nasal mucosa
+T127	missed_anatomical_site 2298 2314;2421 2426	epithelial layer nasal
+T128	corrected_anatomical_site 2316 2333;2421 2426	submucosal glands nasal
+T129	corrected_anatomical_site 2335 2355;2421 2426	vascular endothelium nasal
+R28	located_in Arg1:T76 Arg2:T124	
+R29	located_in Arg1:T76 Arg2:T127	
+R30	located_in Arg1:T76 Arg2:T126	
+R31	located_in Arg1:T76 Arg2:T128	
+R32	located_in Arg1:T76 Arg2:T125	
+R33	located_in Arg1:T76 Arg2:T129	
+R34	located_in Arg1:T77 Arg2:T124	
+R35	located_in Arg1:T77 Arg2:T127	
+R36	located_in Arg1:T77 Arg2:T126	
+R37	located_in Arg1:T77 Arg2:T128	
+R38	located_in Arg1:T77 Arg2:T125	
+R39	located_in Arg1:T77 Arg2:T129	
+T130	corrected_anatomical_site 2594 2632	superficial layers of the optic tectum
+R40	located_in Arg1:T82 Arg2:T83	
+R41	located_in Arg1:T82 Arg2:T84	
+R42	located_in Arg1:T85 Arg2:T87	
+R43	located_in Arg1:T85 Arg2:T88	
+R44	located_in Arg1:T85 Arg2:T130	
+R45	located_in Arg1:T86 Arg2:T87	
+R46	located_in Arg1:T86 Arg2:T88	
+R47	located_in Arg1:T86 Arg2:T130	
+T131	missed_gene 2701 2725	bone morphogenic protein
+R48	located_in Arg1:T131 Arg2:T91	
+R49	located_in Arg1:T92 Arg2:T91	
+R50	located_in Arg1:T94 Arg2:T95	
+R51	located_in Arg1:T94 Arg2:T96	
+R52	located_in Arg1:T97 Arg2:T98	
+R53	located_in Arg1:T97 Arg2:T99	
+R54	located_in Arg1:T97 Arg2:T100	
+R55	located_in Arg1:T97 Arg2:T101	
+R56	located_in Arg1:T102 Arg2:T103	
+R57	located_in Arg1:T102 Arg2:T104	
+R58	located_in Arg1:T102 Arg2:T105	
+R59	located_in Arg1:T102 Arg2:T106	
+R60	located_in Arg1:T102 Arg2:T107	
+R61	located_in Arg1:T102 Arg2:T108	
+R62	located_in Arg1:T102 Arg2:T109	
+R63	located_in Arg1:T102 Arg2:T110	

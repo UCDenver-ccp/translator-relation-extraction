@@ -103,3 +103,111 @@ T102	gene 2849 2853	MAP2
 T103	cell_type 2875 2885	astrocytic
 T104	gene 2900 2906	nestin
 T105	gene 2911 2915	GFAP
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+R3	located_in Arg1:T6 Arg2:T5	
+T106	corrected_cell_type 144 151	T cells
+R4	located_in Arg1:T6 Arg2:T106	
+R5	located_in Arg1:T14 Arg2:T15	
+T107	missed_cell_type 484 494	spermatids
+R6	located_in Arg1:T14 Arg2:T16	
+R7	located_in Arg1:T14 Arg2:T107	
+R8	located_in Arg1:T14 Arg2:T17	
+R9	located_in Arg1:T14 Arg2:T18	
+R12	located_in Arg1:T27 Arg2:T30	
+R13	located_in Arg1:T28 Arg2:T30	
+R14	located_in Arg1:T29 Arg2:T30	
+T108	missed_cell_type 815 818	Th2
+T109	missed_gene 819 822	CD4
+R15	located_in Arg1:T109 Arg2:T108	
+R16	located_in Arg1:T109 Arg2:T31	
+R17	located_in Arg1:T34 Arg2:T35	
+R18	located_in Arg1:T36 Arg2:T38	
+R19	located_in Arg1:T37 Arg2:T38	
+T110	missed_gene 1111 1125	betaIIItubulin
+R20	located_in Arg1:T39 Arg2:T40	
+R21	located_in Arg1:T110 Arg2:T40	
+R22	located_in Arg1:T42 Arg2:T43	
+R23	located_in Arg1:T41 Arg2:T43	
+T111	missed_cell_type 1160 1165	glial
+R24	located_in Arg1:T41 Arg2:T111	
+R25	located_in Arg1:T42 Arg2:T111	
+T112	missed_gene 1309 1312	CD4
+R26	located_in Arg1:T112 Arg2:T46	
+R27	located_in Arg1:T50 Arg2:T52	
+R28	located_in Arg1:T50 Arg2:T53	
+R29	located_in Arg1:T49 Arg2:T52	
+R30	located_in Arg1:T49 Arg2:T53	
+R31	located_in Arg1:T54 Arg2:T56	
+R32	located_in Arg1:T54 Arg2:T57	
+R33	located_in Arg1:T54 Arg2:T58	
+R34	located_in Arg1:T54 Arg2:T59	
+R35	located_in Arg1:T54 Arg2:T60	
+R36	located_in Arg1:T54 Arg2:T61	
+R37	located_in Arg1:T55 Arg2:T56	
+R38	located_in Arg1:T55 Arg2:T57	
+R39	located_in Arg1:T55 Arg2:T58	
+R40	located_in Arg1:T55 Arg2:T59	
+R41	located_in Arg1:T55 Arg2:T60	
+R42	located_in Arg1:T55 Arg2:T61	
+R43	located_in Arg1:T63 Arg2:T64	
+T113	missed_gene 1712 1722	connexin30
+R44	located_in Arg1:T62 Arg2:T64	
+R45	located_in Arg1:T113 Arg2:T64	
+R46	located_in Arg1:T62 Arg2:T66	
+R47	located_in Arg1:T113 Arg2:T66	
+R48	located_in Arg1:T69 Arg2:T67	
+R49	located_in Arg1:T70 Arg2:T67	
+R50	located_in Arg1:T71 Arg2:T67	
+T114	corrected_cell_type 1907 1928	Fibroblast-like cells
+R51	located_in Arg1:T73 Arg2:T114	
+R52	located_in Arg1:T74 Arg2:T114	
+T115	missed_gene 2039 2042	CD4
+R53	located_in Arg1:T115 Arg2:T75	
+R54	located_in Arg1:T82 Arg2:T83	
+R55	located_in Arg1:T81 Arg2:T83	
+T116	missed_gene 2246 2249	CD4
+T117	missed_cell_type 2261 2270	Th3 cells
+R56	located_in Arg1:T84 Arg2:T117	
+R57	located_in Arg1:T116 Arg2:T117	
+T118	corrected_cell_type 2088 2122	peripheral blood mononuclear cells
+T119	missed_gene 2142 2145	CD4
+T120	missed_gene 2146 2150	CD25
+T121	missed_cell_type 2183 2193	Treg cells
+T122	missed_cell_type 2207 2215	Ts cells
+R58	located_in Arg1:T79 Arg2:T121	
+R59	located_in Arg1:T80 Arg2:T121	
+T123	missed_gene 2196 2199	CD8
+R60	located_in Arg1:T123 Arg2:T122	
+R61	located_in Arg1:T119 Arg2:T118	
+R62	located_in Arg1:T119 Arg2:T118	
+R63	located_in Arg1:T77 Arg2:T118	
+R64	located_in Arg1:T78 Arg2:T118	
+R65	located_in Arg1:T79 Arg2:T118	
+R66	located_in Arg1:T80 Arg2:T118	
+R67	located_in Arg1:T123 Arg2:T118	
+R68	located_in Arg1:T81 Arg2:T118	
+R69	located_in Arg1:T82 Arg2:T118	
+R70	located_in Arg1:T116 Arg2:T118	
+R71	located_in Arg1:T84 Arg2:T118	
+R72	located_in Arg1:T88 Arg2:T125	
+T124	missed_gene 2273 2291	Prion protein gene
+R73	located_in Arg1:T124 Arg2:T125	
+T125	corrected_cell_type 2399 2407;2408 2413	neuronal cells
+R74	located_in Arg1:T85 Arg2:T125	
+T126	missed_gene 2436 2440	IL-1
+R75	located_in Arg1:T90 Arg2:T93	
+R76	located_in Arg1:T91 Arg2:T93	
+R77	located_in Arg1:T126 Arg2:T93	
+R78	located_in Arg1:T90 Arg2:T94	
+R79	located_in Arg1:T91 Arg2:T94	
+R80	located_in Arg1:T126 Arg2:T94	
+R81	located_in Arg1:T97 Arg2:T98	
+T127	missed_cell_type 2507 2511	OPCs
+#5	AnnotatorNotes T127	Oligodendrocyte progenitor cell
+R82	located_in Arg1:T96 Arg2:T127	
+R83	located_in Arg1:T96 Arg2:T95	
+R84	located_in Arg1:T101 Arg2:T100	
+R85	located_in Arg1:T102 Arg2:T100	
+R86	located_in Arg1:T104 Arg2:T103	
+R87	located_in Arg1:T105 Arg2:T103	

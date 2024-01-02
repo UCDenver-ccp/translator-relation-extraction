@@ -97,3 +97,43 @@ T96	cellular_component 2971 2979	antibody
 T97	gene 3090 3103	interleukin-6
 T98	cellular_component 3122 3130	antibody
 T99	gene 3159 3190	glial fibrillary acidic protein
+T100	missed_gene 0 6	Talins
+R1	located_in Arg1:T100 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T4	
+#1	AnnotatorNotes R2	Okay?
+T101	corrected_gene 293 306	TrkA receptor
+R3	located_in Arg1:T101 Arg2:T8	
+R4	located_in Arg1:T7 Arg2:T8	
+R5	located_in Arg1:T11 Arg2:T10	
+R6	located_in Arg1:T12 Arg2:T13	
+T102	missed_cellular_component 457 464	nuclear
+R7	located_in Arg1:T14 Arg2:T102	
+R8	located_in Arg1:T14 Arg2:T15	
+R9	located_in Arg1:T14 Arg2:T16	
+R10	located_in Arg1:T29 Arg2:T28	
+R11	located_in Arg1:T31 Arg2:T32	
+R12	located_in Arg1:T31 Arg2:T35	
+R13	located_in Arg1:T36 Arg2:T35	
+R14	located_in Arg1:T41 Arg2:T40	
+R15	located_in Arg1:T43 Arg2:T42	
+T103	missed_cellular_component 1341 1348	nuclear
+R16	located_in Arg1:T45 Arg2:T103	
+R17	located_in Arg1:T45 Arg2:T44	
+T104	corrected_gene 1517 1551	gamma-interferon-inducible protein
+T105	missed_gene 1553 1558	IP-30
+T106	missed_gene 1561 1570	Saposin D
+T107	missed_gene 1572 1584	cathepsins B
+T108	missed_gene 1572 1582;1589 1590	cathepsins D
+T109	missed_gene 1592 1611	beta-hexosaminidase
+T110	missed_gene 1613 1643	palmitoyl protein thioesterase
+R18	located_in Arg1:T104 Arg2:T51	
+R19	located_in Arg1:T105 Arg2:T51	
+R20	located_in Arg1:T106 Arg2:T51	
+R21	located_in Arg1:T108 Arg2:T51	
+R22	located_in Arg1:T107 Arg2:T51	
+R23	located_in Arg1:T109 Arg2:T51	
+R24	located_in Arg1:T110 Arg2:T51	
+R25	located_in Arg1:T53 Arg2:T51	
+R26	located_in Arg1:T54 Arg2:T51	
+R27	located_in Arg1:T84 Arg2:T85	
+R28	located_in Arg1:T92 Arg2:T91	

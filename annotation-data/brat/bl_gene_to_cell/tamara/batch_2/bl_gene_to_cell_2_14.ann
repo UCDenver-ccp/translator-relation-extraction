@@ -109,3 +109,80 @@ T108	cell_type 2918 2929	osteoblasts
 T109	cell_type 2931 2956	bone marrow stromal cells
 T110	cell_type 2958 2969	fibroblasts
 T111	cell_type 2975 2984	myoblasts
+R1	located_in Arg1:T4 Arg2:T5	
+R2	located_in Arg1:T10 Arg2:T11	
+R3	located_in Arg1:T10 Arg2:T12	
+R4	located_in Arg1:T16 Arg2:T17	
+T112	missed_cell_type 715 725;750 755	epithelial cells
+T113	missed_cell_type 727 738;750 755	endothelial cells
+R5	located_in Arg1:T24 Arg2:T112	
+R6	located_in Arg1:T24 Arg2:T113	
+R7	located_in Arg1:T24 Arg2:T26	
+R8	located_in Arg1:T24 Arg2:T27	
+R9	located_in Arg1:T24 Arg2:T28	
+T114	missed_cell_type 1049 1061	macropharges
+R10	located_in Arg1:T38 Arg2:T40	
+R11	located_in Arg1:T39 Arg2:T40	
+R12	located_in Arg1:T38 Arg2:T114	
+R13	located_in Arg1:T39 Arg2:T114	
+R14	located_in Arg1:T38 Arg2:T41	
+R15	located_in Arg1:T39 Arg2:T41	
+R16	located_in Arg1:T38 Arg2:T42	
+R17	located_in Arg1:T39 Arg2:T42	
+R18	located_in Arg1:T38 Arg2:T43	
+R19	located_in Arg1:T38 Arg2:T44	
+R20	located_in Arg1:T39 Arg2:T43	
+R21	located_in Arg1:T39 Arg2:T44	
+T115	missed_cell_type 1098 1107	APC cells
+R22	located_in Arg1:T38 Arg2:T115	
+R23	located_in Arg1:T39 Arg2:T115	
+R24	located_in Arg1:T46 Arg2:T47	
+T116	missed_cell_type 1213 1214;1244 1249	B cells
+T117	missed_cell_type 1223 1224;1244 1249	T cells
+T118	missed_gene 1216 1219	CD8
+R25	located_in Arg1:T48 Arg2:T116	
+R26	located_in Arg1:T118 Arg2:T117	
+R27	located_in Arg1:T49 Arg2:T50	
+R28	located_in Arg1:T51 Arg2:T52	
+R29	located_in Arg1:T45 Arg2:T47	
+R30	located_in Arg1:T45 Arg2:T116	
+R31	located_in Arg1:T45 Arg2:T117	
+R32	located_in Arg1:T45 Arg2:T50	
+R33	located_in Arg1:T45 Arg2:T52	
+T119	corrected_cell_type 1415 1443	bronchiolar epithelial cells
+T120	corrected_cell_type 1445 1485	endothelial cells of large blood vessels
+#1	AnnotatorNotes T120	okay?
+T121	corrected_gene 1530 1541	an-cadherin
+R34	located_in Arg1:T121 Arg2:T60	
+R35	located_in Arg1:T121 Arg2:T120	
+R36	located_in Arg1:T121 Arg2:T59	
+R37	located_in Arg1:T121 Arg2:T119	
+R38	located_in Arg1:T121 Arg2:T58	
+R39	located_in Arg1:T121 Arg2:T57	
+R40	located_in Arg1:T71 Arg2:T70	
+R41	located_in Arg1:T73 Arg2:T72	
+R42	located_in Arg1:T76 Arg2:T74	
+R43	located_in Arg1:T76 Arg2:T75	
+R44	located_in Arg1:T78 Arg2:T77	
+T122	missed_gene 1975 1979	GPVI
+R45	located_in Arg1:T122 Arg2:T77	
+T123	corrected_gene 2092 2106	GPVI receptors
+R46	located_in Arg1:T123 Arg2:T82	
+T124	missed_gene 2162 2166	CD20
+R47	located_in Arg1:T124 Arg2:T84	
+R48	located_in Arg1:T85 Arg2:T84	
+R49	located_in Arg1:T86 Arg2:T84	
+R50	located_in Arg1:T87 Arg2:T88	
+R51	located_in Arg1:T87 Arg2:T89	
+T125	corrected_gene 2409 2445	macrophage colony-stimulating factor
+R52	located_in Arg1:T125 Arg2:T91	
+T126	corrected_cell_type 2882 2904	mesenchymal cell lines
+T127	corrected_gene 2816 2852	macrophage colony-stimulating factor
+R53	located_in Arg1:T127 Arg2:T126	
+R54	located_in Arg1:T106 Arg2:T126	
+R55	located_in Arg1:T127 Arg2:T109	
+R56	located_in Arg1:T106 Arg2:T109	
+R57	located_in Arg1:T127 Arg2:T110	
+R58	located_in Arg1:T106 Arg2:T110	
+R59	located_in Arg1:T127 Arg2:T111	
+R60	located_in Arg1:T106 Arg2:T111	

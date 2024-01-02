@@ -84,3 +84,44 @@ T83	gene 3148 3155	insulin
 T84	cellular_component 3267 3276	chromatin
 T85	gene 3313 3318	HIF-1
 T86	gene 3336 3341	CXCR1
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T5	
+R3	located_in Arg1:T4 Arg2:T8	
+R4	located_in Arg1:T6 Arg2:T8	
+R5	located_in Arg1:T7 Arg2:T8	
+#1	AnnotatorNotes R5	Okay?
+R6	located_in Arg1:T10 Arg2:T9	
+R7	located_in Arg1:T11 Arg2:T9	
+R8	located_in Arg1:T10 Arg2:T12	
+R9	located_in Arg1:T11 Arg2:T12	
+T87	missed_cellular_component 425 433	cellular
+R10	located_in Arg1:T14 Arg2:T87	
+T88	missed_gene 518 526	helicase
+R11	located_in Arg1:T88 Arg2:T15	
+R12	located_in Arg1:T88 Arg2:T16	
+R13	located_in Arg1:T20 Arg2:T21	
+R14	located_in Arg1:T20 Arg2:T22	
+R15	located_in Arg1:T28 Arg2:T29	
+R16	located_in Arg1:T28 Arg2:T30	
+R17	located_in Arg1:T32 Arg2:T33	
+R18	located_in Arg1:T32 Arg2:T34	
+T89	missed_gene 1309 1314	SNARE
+R19	located_in Arg1:T89 Arg2:T37	
+T90	missed_gene 1678 1691	ErbB receptor
+R20	located_in Arg1:T90 Arg2:T47	
+R21	located_in Arg1:T60 Arg2:T59	
+R22	located_in Arg1:T60 Arg2:T61	
+R23	located_in Arg1:T69 Arg2:T70	
+R24	located_in Arg1:T68 Arg2:T70	
+R25	located_in Arg1:T67 Arg2:T70	
+T91	missed_gene 2497 2530	voltage-dependent anion channel 1
+R26	located_in Arg1:T91 Arg2:T70	
+T92	missed_gene 2604 2607	LC3
+R27	located_in Arg1:T92 Arg2:T71	
+T93	corrected_gene 2920 3011	p44 mitogen-activated protein kinase-p90 ribosomal S6 kinase-eucaryotic elongation factor 2
+#2	AnnotatorNotes T93	okay?
+R28	located_in Arg1:T93 Arg2:T81	
+#3	AnnotatorNotes R28	Okay?
+T94	corrected_gene 2912 2915;2924 3011	p42 mitogen-activated protein kinase-p90 ribosomal S6 kinase-eucaryotic elongation factor 2
+R29	located_in Arg1:T94 Arg2:T81	
+#4	AnnotatorNotes R29	Okay?

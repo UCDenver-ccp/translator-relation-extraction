@@ -94,3 +94,51 @@ T93	gene 2755 2758	PPV
 T94	anatomical_site 2763 2768	serum
 T95	gene 2788 2791	PPV
 T96	anatomical_site 2851 2857	tissue
+T97	corrected_anatomical_site 59 69;88 95	follicular thyroid
+R1	located_in Arg1:T1 Arg2:T97	
+R2	located_in Arg1:T2 Arg2:T97	
+R3	located_in Arg1:T3 Arg2:T97	
+R4	located_in Arg1:T7 Arg2:T8	
+R5	located_in Arg1:T7 Arg2:T9	
+R6	located_in Arg1:T7 Arg2:T10	
+T98	missed_gene 234 267	bone morphogenetic protein type 4
+R8	located_in Arg1:T98 Arg2:T12	
+R9	located_in Arg1:T13 Arg2:T12	
+R10	located_in Arg1:T14 Arg2:T15	
+T99	corrected_anatomical_site 475 486	claw muscle
+R11	located_in Arg1:T17 Arg2:T99	
+R12	located_in Arg1:T25 Arg2:T24	
+T100	missed_gene 1133 1159;1166 1174	bone morphogenetic protein receptor
+T101	missed_anatomical_site 1116 1127	endothelial
+T102	corrected_gene 1161 1164;1166 1174	BMP receptor
+R13	located_in Arg1:T100 Arg2:T101	
+R14	located_in Arg1:T102 Arg2:T101	
+R15	located_in Arg1:T42 Arg2:T101	
+R16	located_in Arg1:T39 Arg2:T101	
+R17	located_in Arg1:T54 Arg2:T53	
+T103	missed_anatomical_site 1394 1412	tubular structures
+R18	located_in Arg1:T52 Arg2:T103	
+R19	located_in Arg1:T54 Arg2:T103	
+T104	corrected_anatomical_site 1394 1412;1501 1506	tubular structures lumen
+R20	located_in Arg1:T56 Arg2:T104	
+R21	located_in Arg1:T66 Arg2:T68	
+R22	located_in Arg1:T66 Arg2:T69	
+R23	located_in Arg1:T67 Arg2:T68	
+R24	located_in Arg1:T67 Arg2:T69	
+R25	located_in Arg1:T75 Arg2:T76	
+T105	missed_gene 2121 2153	nuclear factor-E2-related factor
+R26	located_in Arg1:T105 Arg2:T76	
+R27	located_in Arg1:T81 Arg2:T83	
+R28	located_in Arg1:T82 Arg2:T83	
+T106	corrected_anatomical_site 2468 2489	periphery of epiblast
+T107	missed_anatomical_site 2517 2527	mesodermal
+R29	located_in Arg1:T84 Arg2:T106	
+R30	located_in Arg1:T84 Arg2:T86	
+R31	located_in Arg1:T84 Arg2:T107	
+T108	missed_anatomical_site 2554 2565	circulating
+T109	corrected_anatomical_site 2672 2684	lung tissues
+R32	located_in Arg1:T87 Arg2:T108	
+R33	located_in Arg1:T91 Arg2:T109	
+T110	missed_gene 420 441	giant elastic protein
+R7	located_in Arg1:T110 Arg2:T99	
+R34	located_in Arg1:T22 Arg2:T23	

@@ -129,3 +129,104 @@ T128	gene 2812 2815	CSF
 T129	gene 2816 2821	IGF-1
 T130	anatomical_site 2863 2875	white matter
 T131	anatomical_site 2884 2894	cerebellum
+R1	located_in Arg1:T6 Arg2:T5	
+R2	located_in Arg1:T7 Arg2:T5	
+R3	located_in Arg1:T8 Arg2:T5	
+T132	corrected_anatomical_site 266 282	developing teeth
+R4	located_in Arg1:T9 Arg2:T132	
+T133	missed_anatomical_site 284 308	vibrissae hair follicles
+R5	located_in Arg1:T9 Arg2:T133	
+R6	located_in Arg1:T9 Arg2:T11	
+R7	located_in Arg1:T9 Arg2:T12	
+R8	located_in Arg1:T13 Arg2:T132	
+R9	located_in Arg1:T13 Arg2:T133	
+R10	located_in Arg1:T13 Arg2:T11	
+R11	located_in Arg1:T13 Arg2:T12	
+R12	located_in Arg1:T14 Arg2:T15	
+R13	located_in Arg1:T14 Arg2:T16	
+R14	located_in Arg1:T14 Arg2:T17	
+R15	located_in Arg1:T18 Arg2:T15	
+R16	located_in Arg1:T18 Arg2:T16	
+R17	located_in Arg1:T18 Arg2:T17	
+T134	missed_gene 773 790	amyloid-A protein
+R18	located_in Arg1:T134 Arg2:T31	
+R19	located_in Arg1:T134 Arg2:T32	
+R20	located_in Arg1:T34 Arg2:T33	
+R21	located_in Arg1:T35 Arg2:T33	
+R22	located_in Arg1:T36 Arg2:T33	
+R23	located_in Arg1:T43 Arg2:T40	
+R24	located_in Arg1:T43 Arg2:T41	
+R25	located_in Arg1:T44 Arg2:T40	
+R26	located_in Arg1:T44 Arg2:T41	
+R27	located_in Arg1:T45 Arg2:T40	
+R28	located_in Arg1:T45 Arg2:T41	
+T135	missed_gene 1094 1106	doublecortin
+R29	located_in Arg1:T135 Arg2:T40	
+R30	located_in Arg1:T135 Arg2:T41	
+T136	corrected_anatomical_site 1115 1150	extraembryonic ectoderm trophoblast
+T137	missed_gene 1226 1231	Eomes
+R31	located_in Arg1:T49 Arg2:T136	
+R32	located_in Arg1:T50 Arg2:T136	
+R33	located_in Arg1:T137 Arg2:T136	
+R34	located_in Arg1:T51 Arg2:T136	
+T138	missed_gene 1324 1330	S100A1
+T139	missed_gene 1331 1334	ZAG
+R35	located_in Arg1:T138 Arg2:T52	
+R36	located_in Arg1:T139 Arg2:T52	
+R37	located_in Arg1:T54 Arg2:T53	
+T140	missed_gene 1354 1357	ZAG
+R38	located_in Arg1:T140 Arg2:T53	
+R39	located_in Arg1:T56 Arg2:T55	
+R40	located_in Arg1:T57 Arg2:T55	
+R41	located_in Arg1:T58 Arg2:T59	
+T141	corrected_anatomical_site 1459 1472	outer medulla
+R42	located_in Arg1:T58 Arg2:T141	
+T142	corrected_anatomical_site 1477 1490	inner medulla
+R43	located_in Arg1:T58 Arg2:T142	
+T143	corrected_gene 1914 1948	bone-specific alkaline phosphatase
+R44	located_in Arg1:T143 Arg2:T81	
+R45	located_in Arg1:T143 Arg2:T80	
+R46	located_in Arg1:T90 Arg2:T89	
+R47	located_in Arg1:T85 Arg2:T84	
+R48	located_in Arg1:T88 Arg2:T87	
+R49	located_in Arg1:T95 Arg2:T94	
+R50	located_in Arg1:T96 Arg2:T94	
+R51	located_in Arg1:T97 Arg2:T94	
+R52	located_in Arg1:T98 Arg2:T99	
+T144	corrected_gene 2401 2406	TNF-?
+R53	located_in Arg1:T144 Arg2:T106	
+R54	located_in Arg1:T144 Arg2:T107	
+R55	located_in Arg1:T144 Arg2:T108	
+R56	located_in Arg1:T144 Arg2:T109	
+R57	located_in Arg1:T144 Arg2:T110	
+R58	located_in Arg1:T144 Arg2:T111	
+R59	located_in Arg1:T101 Arg2:T106	
+R60	located_in Arg1:T101 Arg2:T107	
+R61	located_in Arg1:T101 Arg2:T108	
+R62	located_in Arg1:T101 Arg2:T109	
+R63	located_in Arg1:T101 Arg2:T110	
+R64	located_in Arg1:T101 Arg2:T111	
+R65	located_in Arg1:T102 Arg2:T106	
+R66	located_in Arg1:T102 Arg2:T107	
+R67	located_in Arg1:T102 Arg2:T109	
+R68	located_in Arg1:T102 Arg2:T108	
+R69	located_in Arg1:T103 Arg2:T106	
+R70	located_in Arg1:T103 Arg2:T107	
+R71	located_in Arg1:T103 Arg2:T108	
+R72	located_in Arg1:T103 Arg2:T109	
+R73	located_in Arg1:T103 Arg2:T110	
+R74	located_in Arg1:T103 Arg2:T111	
+R75	located_in Arg1:T104 Arg2:T106	
+R76	located_in Arg1:T104 Arg2:T107	
+R77	located_in Arg1:T104 Arg2:T108	
+R78	located_in Arg1:T104 Arg2:T109	
+R79	located_in Arg1:T104 Arg2:T110	
+R80	located_in Arg1:T104 Arg2:T111	
+R81	located_in Arg1:T105 Arg2:T106	
+R82	located_in Arg1:T105 Arg2:T107	
+R83	located_in Arg1:T105 Arg2:T108	
+R84	located_in Arg1:T105 Arg2:T109	
+R85	located_in Arg1:T105 Arg2:T110	
+R86	located_in Arg1:T105 Arg2:T111	
+T145	missed_anatomical_site 2812 2815	CSF
+R87	located_in Arg1:T129 Arg2:T145	

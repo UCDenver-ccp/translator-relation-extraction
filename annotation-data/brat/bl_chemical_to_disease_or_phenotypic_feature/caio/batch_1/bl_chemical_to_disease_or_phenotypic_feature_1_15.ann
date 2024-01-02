@@ -65,43 +65,25 @@ T64	chemical 2563 2570	glycine
 T65	chemical 2687 2694	glycine
 T66	missed_disease_or_phenotypic_feature 240 252	inflammation
 T67	corrected_chemical 401 427	actor VIII-related antigen
-T68	corrected_disease_or_phenotypic_feature 485 513	angiogenesis-dependent tumor
-R1	treats Arg1:T12 Arg2:T68	
 T69	missed_disease_or_phenotypic_feature 926 953	serum electrolyte unbalance
-T70	missed_disease_or_phenotypic_feature 955 977	renal oxidative stress
-T71	missed_disease_or_phenotypic_feature 1200 1214	tumor hormonal
 T72	corrected_chemical 1259 1274	Hydrogen saline
 R2	treats Arg1:T72 Arg2:T34	
 T73	missed_chemical 1387 1395	asbestos
 T74	missed_chemical 1397 1404	smoking
 T76	corrected_chemical 1425 1435	fatty food
 R3	treats Arg1:T40 Arg2:T42	
-T77	missed_disease_or_phenotypic_feature 1584 1611	olfactory epithelial damage
-T78	missed_disease_or_phenotypic_feature 1664 1676	inflammation
-R4	treats Arg1:T44 Arg2:T78	
-T79	corrected_disease_or_phenotypic_feature 1655 1676	allergic inflammation
 T80	missed_disease_or_phenotypic_feature 1837 1849	hypertension
 T81	missed_disease_or_phenotypic_feature 1867 1875	diabetes
-T82	missed_chemical 1921 1938	epithelial Hif1-α
-T83	missed_chemical 1974 1978	IELs
-T84	corrected_disease_or_phenotypic_feature 1982 2019	NSAID-induced small intestinal injury
-T85	corrected_disease_or_phenotypic_feature 2052 2090	dextran sulfate sodium-induced colitis
 R6	treats Arg1:T65 Arg2:T62	
 T86	missed_disease_or_phenotypic_feature 573 624	pathologies in which neovascularization is involved
 R8	treats Arg1:T12 Arg2:T86	
 T87	missed_chemical 771 775	NNAV
-T88	corrected_disease_or_phenotypic_feature 785 816	ADR-induced chronic nephropathy
-T89	corrected_disease_or_phenotypic_feature 821 869	glycerol-triggered acute renal failure syndromes
 T90	missed_disease_or_phenotypic_feature 983 1003	pathological damages
-R9	treats Arg1:T87 Arg2:T88	
-R10	treats Arg1:T87 Arg2:T89	
 R11	treats Arg1:T87 Arg2:T20	
 R12	treats Arg1:T87 Arg2:T21	
 R13	treats Arg1:T87 Arg2:T22	
 R14	treats Arg1:T87 Arg2:T69	
-R15	treats Arg1:T87 Arg2:T70	
 R16	treats Arg1:T87 Arg2:T90	
-R17	causes_or_contributes_to Arg1:T24 Arg2:T26	
 T75	missed_disease_or_phenotypic_feature 1564 1566	OD
 R18	treats Arg1:T44 Arg2:T75	
 R5	treats Arg1:T65 Arg2:T61	
@@ -109,3 +91,32 @@ R7	causes_or_contributes_to Arg1:T25 Arg2:T26
 T91	missed_chemical 1284 1292	selenite
 R19	causes_or_contributes_to Arg1:T91 Arg2:T34	
 R20	treats Arg1:T65 Arg2:T60	
+T92	missed_disease_or_phenotypic_feature 636 645	neoplasia
+R21	treats Arg1:T12 Arg2:T92	
+T93	corrected_chemical 2109 2139	Antigen-specific immunotherapy
+R22	treats Arg1:T93 Arg2:T52	
+T94	missed_disease_or_phenotypic_feature 2490 2494	T2DM
+R23	treats Arg1:T65 Arg2:T94	
+T95	missed_chemical 2052 2074	dextran sulfate sodium
+R24	causes_or_contributes_to Arg1:T95 Arg2:T50	
+T96	missed_disease_or_phenotypic_feature 2428 2447	metabolic disorders
+R25	treats Arg1:T65 Arg2:T96	
+R26	causes_or_contributes_to Arg1:T18 Arg2:T19	
+R10	treats Arg1:T87 Arg2:T19	
+T70	missed_chemical 785 788	ADR
+R9	causes_or_contributes_to Arg1:T70 Arg2:T17	
+R15	treats Arg1:T87 Arg2:T17	
+T77	missed_chemical 1982 1987	NSAID
+T78	corrected_disease_or_phenotypic_feature 1996 2019	small intestinal injury
+R4	causes_or_contributes_to Arg1:T77 Arg2:T78	
+T84	missed_chemical 82 86	diet
+R27	causes_or_contributes_to Arg1:T84 Arg2:T3	
+T71	missed_disease_or_phenotypic_feature 2536 2542	NAFLDs
+R17	treats Arg1:T65 Arg2:T71	
+T79	corrected_chemical 472 520	inhibitor of angiogenesis-dependent tumor growth
+R1	treats Arg1:T79 Arg2:T92	
+R28	treats Arg1:T79 Arg2:T86	
+T68	corrected_disease_or_phenotypic_feature 1649 1676	nasal allergic inflammation
+R29	treats Arg1:T44 Arg2:T68	
+T82	corrected_disease_or_phenotypic_feature 1584 1611	olfactory epithelial damage
+R30	treats Arg1:T44 Arg2:T82	

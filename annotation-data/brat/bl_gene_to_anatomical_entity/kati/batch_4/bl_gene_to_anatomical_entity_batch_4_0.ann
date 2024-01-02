@@ -103,3 +103,64 @@ T102	gene 2876 2880	Sox9
 T103	gene 2882 2886	Sox5
 T104	gene 2892 2897	Sox13
 T105	anatomical_site 2959 2965	testis
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+T106	missed_gene 59 78	cell cycle proteins
+R3	located_in Arg1:T106 Arg2:T1	
+T107	missed_gene 80 109	chromatin remodeling proteins
+R4	located_in Arg1:T107 Arg2:T1	
+R5	located_in Arg1:T4 Arg2:T1	
+R6	located_in Arg1:T5 Arg2:T1	
+T108	corrected_gene 130 135;137 138	Stat5 b
+R7	located_in Arg1:T108 Arg2:T1	
+T109	missed_gene 140 143	ERG
+R8	located_in Arg1:T109 Arg2:T1	
+T110	missed_gene 149 153	PTEN
+R9	located_in Arg1:T110 Arg2:T1	
+R10	located_in Arg1:T14 Arg2:T13	
+R11	located_in Arg1:T15 Arg2:T13	
+R12	located_in Arg1:T21 Arg2:T23	
+R13	located_in Arg1:T22 Arg2:T23	
+T111	corrected_anatomical_site 661 681	innate immune system
+T112	corrected_gene 618 638	Surfactant protein D
+R15	located_in Arg1:T112 Arg2:T111	
+R14	located_in Arg1:T25 Arg2:T111	
+T113	corrected_anatomical_site 919 931	liver tissue
+R16	located_in Arg1:T28 Arg2:T113	
+R17	located_in Arg1:T29 Arg2:T113	
+R18	located_in Arg1:T30 Arg2:T113	
+R19	located_in Arg1:T31 Arg2:T113	
+R20	located_in Arg1:T38 Arg2:T37	
+R21	located_in Arg1:T39 Arg2:T37	
+R22	located_in Arg1:T43 Arg2:T42	
+R23	located_in Arg1:T44 Arg2:T42	
+R24	located_in Arg1:T45 Arg2:T42	
+R25	located_in Arg1:T46 Arg2:T42	
+R26	located_in Arg1:T47 Arg2:T42	
+R27	located_in Arg1:T48 Arg2:T42	
+R28	located_in Arg1:T49 Arg2:T42	
+R29	located_in Arg1:T64 Arg2:T63	
+R30	located_in Arg1:T65 Arg2:T63	
+R31	located_in Arg1:T66 Arg2:T63	
+T115	corrected_anatomical_site 1870 1908;1925 1930	inner enamel epithelium of the incisor germs
+T116	corrected_anatomical_site 1870 1900;1913 1930	inner enamel epithelium of the molar tooth germs
+R32	located_in Arg1:T68 Arg2:T115	
+R33	located_in Arg1:T68 Arg2:T116	
+R34	located_in Arg1:T69 Arg2:T115	
+R35	located_in Arg1:T69 Arg2:T116	
+R41	located_in Arg1:T93 Arg2:T94	
+R42	located_in Arg1:T95 Arg2:T96	
+T119	corrected_gene 2823 2858	lymphoid homing chemokine receptors
+R43	located_in Arg1:T119 Arg2:T98	
+R44	located_in Arg1:T119 Arg2:T97	
+R45	located_in Arg1:T100 Arg2:T98	
+R46	located_in Arg1:T100 Arg2:T97	
+R47	located_in Arg1:T101 Arg2:T98	
+R48	located_in Arg1:T101 Arg2:T97	
+R49	located_in Arg1:T102 Arg2:T105	
+R50	located_in Arg1:T103 Arg2:T105	
+R51	located_in Arg1:T104 Arg2:T105	
+R52	located_in Arg1:T57 Arg2:T58	
+R53	located_in Arg1:T64 Arg2:T67	
+R54	located_in Arg1:T65 Arg2:T67	
+R55	located_in Arg1:T66 Arg2:T67	

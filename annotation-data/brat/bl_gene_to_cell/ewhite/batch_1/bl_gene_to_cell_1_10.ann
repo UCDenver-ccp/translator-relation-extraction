@@ -164,3 +164,23 @@ R45	located_in Arg1:T92 Arg2:T90
 R46	located_in Arg1:T94 Arg2:T93	
 R47	located_in Arg1:T116 Arg2:T93	
 R48	located_in Arg1:T117 Arg2:T93	
+R49	located_in Arg1:T3 Arg2:T99	
+R50	located_in Arg1:T3 Arg2:T1	
+R51	located_in Arg1:T17 Arg2:T18	
+T119	missed_gene 1047 1054	?IIb?3,
+R52	located_in Arg1:T119 Arg2:T36	
+T120	missed_gene 1752 1757	Y701F
+R53	located_in Arg1:T120 Arg2:T63	
+T121	corrected_gene 1911 1930	receptor for CXCL12
+R54	located_in Arg1:T121 Arg2:T67	
+R55	located_in Arg1:T121 Arg2:T66	
+T122	missed_cell_type 2043 2048	cells
+T123	corrected_gene 2192 2225	vesicular monoamine transporter 2
+R56	located_in Arg1:T75 Arg2:T122	
+T124	corrected_gene 2163 2225	catecholamine-neuron protein vesicular monoamine transporter 2
+R57	located_in Arg1:T124 Arg2:T122	
+T125	missed_gene 2495 2507	TEM proteins
+R58	located_in Arg1:T125 Arg2:T113	
+R59	located_in Arg1:T125 Arg2:T112	
+R60	located_in Arg1:T125 Arg2:T111	
+R61	located_in Arg1:T114 Arg2:T113	

@@ -63,7 +63,7 @@ T63	disease_or_phenotypic_feature 2914 2921	pan-MMP
 T64	chemical 2922 2931	inhibitor
 R1	treats Arg1:T15 Arg2:T65	
 T65	corrected_disease_or_phenotypic_feature 486 506	melanoma solid tumor
-R2	causes_or_contributes_to Arg1:T17 Arg2:T65	
+R2	treats Arg1:T17 Arg2:T65	
 T66	corrected_chemical 2054 2073	Antiarrhythmic drug
 R3	treats Arg1:T66 Arg2:T49	
 T67	corrected_chemical 2357 2380	tumor-rejection antigen
@@ -90,3 +90,11 @@ R15	treats Arg1:T51 Arg2:T21
 T75	missed_chemical 2725 2731	Inspra
 R16	treats Arg1:T75 Arg2:T71	
 R17	treats Arg1:T75 Arg2:T62	
+T76	missed_disease_or_phenotypic_feature 655 667	side effects
+R18	causes_or_contributes_to Arg1:T73 Arg2:T76	
+T77	corrected_chemical 823 842	Calcium antagonists
+T78	corrected_chemical 720 735	dietary calcium
+R19	causes_or_contributes_to Arg1:T78 Arg2:T19	
+T79	corrected_chemical 720 727;740 750	dietary phosphorus
+R20	causes_or_contributes_to Arg1:T79 Arg2:T20	
+R21	causes_or_contributes_to Arg1:T77 Arg2:T30	

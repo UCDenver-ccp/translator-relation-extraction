@@ -86,3 +86,46 @@ T85	anatomical_site 2462 2466	bone
 T86	anatomical_site 2468 2473	tooth
 T87	anatomical_site 2498 2504	kidney
 T88	anatomical_site 2506 2520	salivary gland
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T3	
+T89	corrected_gene 148 177	somatostatin sst2(a) receptor
+R3	located_in Arg1:T89 Arg2:T8	
+R4	located_in Arg1:T89 Arg2:T9	
+R5	located_in Arg1:T89 Arg2:T10	
+R6	located_in Arg1:T11 Arg2:T12	
+R7	located_in Arg1:T11 Arg2:T13	
+T90	corrected_anatomical_site 303 326	Visceral adipose tissue
+T91	missed_anatomical_site 328 331	VAT
+R8	located_in Arg1:T15 Arg2:T90	
+R9	located_in Arg1:T16 Arg2:T90	
+R10	located_in Arg1:T15 Arg2:T91	
+R11	located_in Arg1:T16 Arg2:T91	
+T92	corrected_anatomical_site 544 553	vein wall
+R12	located_in Arg1:T22 Arg2:T92	
+R13	located_in Arg1:T35 Arg2:T36	
+R14	located_in Arg1:T35 Arg2:T37	
+R15	located_in Arg1:T38 Arg2:T39	
+R16	located_in Arg1:T38 Arg2:T40	
+T93	missed_anatomical_site 1088 1096	thalamus
+R17	located_in Arg1:T38 Arg2:T93	
+R18	located_in Arg1:T38 Arg2:T41	
+R19	located_in Arg1:T38 Arg2:T42	
+T94	corrected_anatomical_site 1244 1258	breast tissues
+R20	located_in Arg1:T44 Arg2:T94	
+R21	located_in Arg1:T45 Arg2:T94	
+R22	located_in Arg1:T51 Arg2:T50	
+R23	located_in Arg1:T53 Arg2:T52	
+R24	located_in Arg1:T54 Arg2:T55	
+R25	located_in Arg1:T54 Arg2:T56	
+R26	located_in Arg1:T54 Arg2:T57	
+R27	located_in Arg1:T54 Arg2:T58	
+R28	located_in Arg1:T60 Arg2:T59	
+T95	missed_anatomical_site 1787 1790	AER
+R29	located_in Arg1:T69 Arg2:T95	
+R30	located_in Arg1:T77 Arg2:T76	
+T96	missed_anatomical_site 2315 2340	microvascular compartment
+T97	corrected_gene 2273 2298	amyloid precursor protein
+R31	located_in Arg1:T97 Arg2:T96	
+T98	missed_gene 1825 1829	mkp3
+T99	corrected_anatomical_site 1837 1854	distal mesenchyme
+R32	located_in Arg1:T98 Arg2:T99	

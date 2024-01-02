@@ -90,9 +90,7 @@ R4	causes_or_contributes_to Arg1:T85 Arg2:T32
 R5	causes_or_contributes_to Arg1:T85 Arg2:T31	
 T86	missed_disease_or_phenotypic_feature 946 980	disturbances in mineral metabolism
 R6	causes_or_contributes_to Arg1:T85 Arg2:T86	
-T87	missed_disease_or_phenotypic_feature 1568 1584	oxidative stress
 T88	missed_disease_or_phenotypic_feature 1586 1598	inflammation
-R7	treats Arg1:T55 Arg2:T87	
 R8	treats Arg1:T55 Arg2:T88	
 R9	treats Arg1:T55 Arg2:T57	
 R10	treats Arg1:T55 Arg2:T58	
@@ -125,3 +123,10 @@ R23	treats Arg1:T96 Arg2:T75
 R24	treats Arg1:T96 Arg2:T76	
 R25	treats Arg1:T96 Arg2:T100	
 R26	treats Arg1:T96 Arg2:T78	
+R28	causes_or_contributes_to Arg1:T18 Arg2:T17	
+R29	causes_or_contributes_to Arg1:T18 Arg2:T16	
+T87	missed_disease_or_phenotypic_feature 2445 2454	addiction
+R7	causes_or_contributes_to Arg1:T77 Arg2:T87	
+T102	corrected_chemical 1473 1492	high-nitrogen diets
+R30	treats Arg1:T102 Arg2:T53	
+R27	treats Arg1:T94 Arg2:T70	

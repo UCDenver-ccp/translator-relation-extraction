@@ -82,3 +82,56 @@ T81	gene 2712 2717	Abcc1
 T82	anatomical_site 2731 2747	stria vascularis
 T83	anatomical_site 2752 2766	auditory nerve
 T84	anatomical_site 2776 2783	cochlea
+T85	corrected_anatomical_site 185 198	brain tissues
+R1	located_in Arg1:T3 Arg2:T85	
+R2	located_in Arg1:T5 Arg2:T6	
+R3	located_in Arg1:T11 Arg2:T10	
+R4	located_in Arg1:T13 Arg2:T12	
+R5	located_in Arg1:T16 Arg2:T17	
+T86	missed_gene 684 690	Gbeta5
+R6	located_in Arg1:T86 Arg2:T17	
+T87	corrected_anatomical_site 835 864	round ligament adipose tissue
+T88	corrected_anatomical_site 873 885;898 908	subcutaneous fat depots
+R7	located_in Arg1:T18 Arg2:T87	
+R8	located_in Arg1:T18 Arg2:T88	
+R9	located_in Arg1:T18 Arg2:T21	
+R10	located_in Arg1:T22 Arg2:T25	
+R11	located_in Arg1:T23 Arg2:T25	
+R12	located_in Arg1:T24 Arg2:T25	
+T89	corrected_gene 1031 1048	beta2-transferrin
+R13	located_in Arg1:T89 Arg2:T28	
+R14	located_in Arg1:T27 Arg2:T28	
+T90	missed_gene 1395 1406	Substance P
+T91	missed_gene 1408 1441	vasoactive intestinal polypeptide
+T92	corrected_gene 1446 1461	Leu5-enkephalin
+R15	located_in Arg1:T90 Arg2:T39	
+R16	located_in Arg1:T91 Arg2:T39	
+R17	located_in Arg1:T92 Arg2:T39	
+R18	located_in Arg1:T40 Arg2:T42	
+R19	located_in Arg1:T41 Arg2:T42	
+T93	corrected_gene 1649 1652;1654 1655	ERK 2
+R20	located_in Arg1:T44 Arg2:T43	
+R21	located_in Arg1:T93 Arg2:T43	
+R22	located_in Arg1:T45 Arg2:T43	
+T94	corrected_gene 1715 1718;1720 1721	ERK 2
+R23	located_in Arg1:T47 Arg2:T46	
+R24	located_in Arg1:T94 Arg2:T46	
+R25	located_in Arg1:T48 Arg2:T46	
+T95	missed_gene 1728 1731	MEK
+R26	located_in Arg1:T95 Arg2:T46	
+T96	missed_gene 1737 1740	JNK
+R27	located_in Arg1:T96 Arg2:T46	
+R28	located_in Arg1:T54 Arg2:T55	
+T97	corrected_anatomical_site 2059 2075	subchondral bone
+R29	located_in Arg1:T57 Arg2:T97	
+R30	located_in Arg1:T58 Arg2:T97	
+T98	corrected_anatomical_site 2103 2115	liver tissue
+R31	located_in Arg1:T60 Arg2:T61	
+R32	located_in Arg1:T60 Arg2:T98	
+T99	corrected_anatomical_site 2401 2413	brain tissue
+R33	located_in Arg1:T69 Arg2:T99	
+T100	corrected_anatomical_site 2731 2747;2776 2783	stria vascularis cochlea
+T101	corrected_anatomical_site 2752 2766;2776 2783	auditory nerve cochlea
+R34	located_in Arg1:T81 Arg2:T100	
+R35	located_in Arg1:T81 Arg2:T101	
+R36	located_in Arg1:T53 Arg2:T52	

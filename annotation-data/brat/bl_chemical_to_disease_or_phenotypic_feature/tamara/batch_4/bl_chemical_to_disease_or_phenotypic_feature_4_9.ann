@@ -114,3 +114,21 @@ R23	causes_or_contributes_to Arg1:T89 Arg2:T76
 T91	corrected_disease_or_phenotypic_feature 22 46	myoclonic encephalopathy
 R24	causes_or_contributes_to Arg1:T1 Arg2:T91	
 T92	DONE 2622 2626	DONE
+T93	missed_disease_or_phenotypic_feature 1538 1546	survival
+R25	causes_or_contributes_to Arg1:T46 Arg2:T93	
+T94	missed_disease_or_phenotypic_feature 2311 2333;2348 2356	central nervous system toxicity
+T95	missed_disease_or_phenotypic_feature 2338 2356	pulmonary toxicity
+R26	causes_or_contributes_to Arg1:T89 Arg2:T94	
+R27	causes_or_contributes_to Arg1:T89 Arg2:T95	
+R29	causes_or_contributes_to Arg1:T4 Arg2:T91	
+R30	causes_or_contributes_to Arg1:T33 Arg2:T34	
+R31	causes_or_contributes_to Arg1:T33 Arg2:T35	
+R32	treats Arg1:T39 Arg2:T41	
+R33	causes_or_contributes_to Arg1:T51 Arg2:T50	
+T96	missed_chemical 1495 1500	toxin
+R34	treats Arg1:T96 Arg2:T47	
+R35	causes_or_contributes_to Arg1:T77 Arg2:T78	
+T97	corrected_disease_or_phenotypic_feature 2495 2530	parkinsonism hyperpyrexia syndrome,
+T98	missed_disease_or_phenotypic_feature 2535 2553	serotonin syndrome
+R36	causes_or_contributes_to Arg1:T77 Arg2:T97	
+R37	causes_or_contributes_to Arg1:T77 Arg2:T98	

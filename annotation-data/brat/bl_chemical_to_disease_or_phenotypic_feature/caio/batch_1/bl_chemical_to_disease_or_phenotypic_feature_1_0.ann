@@ -62,26 +62,12 @@ T69	missed_chemical 73 76	PER
 T71	chemical 87 111	AMPA receptor antagonist
 T2	disease_or_phenotypic_feature 129 134	tumor
 #1	AnnotatorNotes T71	Compartment? 
-R1	treats Arg1:T1 Arg2:T3	
-R2	treats Arg1:T1 Arg2:T2	
-R3	treats Arg1:T1 Arg2:T4	
-R4	treats Arg1:T9 Arg2:T10	
 T5	chemical 220 228	agonists
-R5	treats Arg1:T7 Arg2:T8	
-T70	missed_disease_or_phenotypic_feature 401 419	nsulin sensitivity
-T72	missed_disease_or_phenotypic_feature 424 437	thermogenesis
-T73	missed_disease_or_phenotypic_feature 389 398	lipolysis
-T74	missed_disease_or_phenotypic_feature 452 457	tumor
-T75	missed_disease_or_phenotypic_feature 480 485	tumor
-T14	corrected_disease_or_phenotypic_feature 575 588	retinal wound
 T76	missed_chemical 747 766	farnesyltransferase
 T77	missed_disease_or_phenotypic_feature 844 852	epilepsy
 T78	missed_disease_or_phenotypic_feature 864 870	tumors
 T79	missed_chemical 994 997	FDG
-T80	missed_disease_or_phenotypic_feature 1069 1075	tumors
 T25	missed_chemical 1395 1398	NOS
-R8	causes_or_contributes_to Arg1:T34 Arg2:T35	
-R9	treats Arg1:T36 Arg2:T38	
 R10	treats Arg1:T40 Arg2:T43	
 T50	disease_or_phenotypic_feature 2184 2190	tumors
 T57	disease_or_phenotypic_feature 2581 2586	tumor
@@ -89,10 +75,7 @@ T65	chemical 2830 2834	PARP
 T81	missed_disease_or_phenotypic_feature 2893 2898	tumor
 R11	treats Arg1:T67 Arg2:T81	
 T82	DONE 2982 2986	DONE
-T83	corrected_chemical 748 777	arnesyltransferase inhibitors
-R12	treats Arg1:T83 Arg2:T19	
-T84	corrected_disease_or_phenotypic_feature 798 818	ras-dependent tumors
-T18	corrected_disease_or_phenotypic_feature 1092 1113	ACTH-producing tumors
+T83	corrected_chemical 747 777	farnesyltransferase inhibitors
 T85	corrected_disease_or_phenotypic_feature 1627 1644	malignant gliomas
 T86	missed_chemical 1743 1753	serotonine
 T87	corrected_disease_or_phenotypic_feature 1958 1986	obesity-related hypertension
@@ -104,17 +87,11 @@ T92	missed_chemical 2709 2712	seh
 T93	missed_chemical 2714 2717	sei
 T94	missed_chemical 2719 2722	sej
 T95	missed_chemical 2728 2731	tst
-R13	treats Arg1:T9 Arg2:T73	
-R14	treats Arg1:T7 Arg2:T72	
-R15	treats Arg1:T7 Arg2:T70	
-T96	corrected_disease_or_phenotypic_feature 523 529	cancer
 T97	corrected_chemical 2830 2845	PARP inhibitors
 R16	treats Arg1:T97 Arg2:T81	
 R17	treats Arg1:T97 Arg2:T68	
 T98	corrected_disease_or_phenotypic_feature 667 685	pale laser lesions
 R6	causes_or_contributes_to Arg1:T13 Arg2:T98	
-T99	missed_disease_or_phenotypic_feature 557 570	adverse effec
-R18	causes_or_contributes_to Arg1:T13 Arg2:T99	
 R7	treats Arg1:T29 Arg2:T31	
 T100	corrected_chemical 1488 1503	serum potassium
 R19	causes_or_contributes_to Arg1:T100 Arg2:T35	
@@ -126,15 +103,21 @@ T102	corrected_chemical 2507 2531	antigen-specific vaccine
 R23	treats Arg1:T102 Arg2:T55	
 T103	missed_disease_or_phenotypic_feature 2384 2387	AML
 R24	treats Arg1:T102 Arg2:T103	
-R25	treats Arg1:T69 Arg2:T3	
-R26	treats Arg1:T69 Arg2:T2	
-R27	treats Arg1:T69 Arg2:T4	
 T104	missed_disease_or_phenotypic_feature 186 194	epilepsy
-R28	treats Arg1:T69 Arg2:T104	
-R29	treats Arg1:T1 Arg2:T104	
-R30	treats Arg1:T71 Arg2:T3	
-R31	treats Arg1:T71 Arg2:T2	
-R32	treats Arg1:T71 Arg2:T4	
-R33	treats Arg1:T71 Arg2:T104	
 T105	corrected_chemical 1395 1408	NOS inhibitor
 R34	treats Arg1:T105 Arg2:T31	
+R35	treats Arg1:T67 Arg2:T68	
+T106	corrected_disease_or_phenotypic_feature 812 818	tumors
+R12	treats Arg1:T83 Arg2:T106	
+R36	causes_or_contributes_to Arg1:T23 Arg2:T24	
+T84	corrected_disease_or_phenotypic_feature 1331 1334	MCS
+T107	corrected_chemical 236 270	antagonists of adenosine receptors
+R4	treats Arg1:T107 Arg2:T8	
+T108	corrected_chemical 220 228;248 270	agonists of adenosine receptors
+R5	treats Arg1:T108 Arg2:T8	
+R13	treats Arg1:T20 Arg2:T21	
+R14	treats Arg1:T37 Arg2:T85	
+R15	treats Arg1:T36 Arg2:T85	
+T14	corrected_chemical 1516 1541	sodium-to-potassium ratio
+R9	causes_or_contributes_to Arg1:T14 Arg2:T35	
+R8	treats Arg1:T39 Arg2:T43	

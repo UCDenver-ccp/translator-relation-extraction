@@ -41,7 +41,7 @@ T40	chemical 1683 1690	biology
 T41	disease_or_phenotypic_feature 1752 1760	arterial
 T42	disease_or_phenotypic_feature 1761 1770	hypoxemia
 T43	chemical 1786 1792	oxygen
-T44	corrected_chemical 1833 1840;1853 1860	ghrelin hormone
+T44	corrected_chemical 1833 1840	ghrelin
 T45	chemical 1853 1860	hormone
 T46	disease_or_phenotypic_feature 1893 1900	obesity
 T47	disease_or_phenotypic_feature 1918 1926	diabetes
@@ -66,11 +66,10 @@ T65	chemical 2545 2555	inhibitors
 T66	disease_or_phenotypic_feature 2560 2573	heart failure
 R1	treats Arg1:T1 Arg2:T2	
 T67	corrected_chemical 117 136	calcium antagonists
-T68	corrected_disease_or_phenotypic_feature 223 246	worsening heart failure
 R2	treats Arg1:T67 Arg2:T6	
-R3	causes_or_contributes_to Arg1:T67 Arg2:T68	
+R3	causes_or_contributes_to Arg1:T67 Arg2:T7	
 R4	causes_or_contributes_to Arg1:T67 Arg2:T8	
-T69	corrected_disease_or_phenotypic_feature 639 664	progressive heart failure
+T69	corrected_disease_or_phenotypic_feature 651 670	heart failure death
 R5	causes_or_contributes_to Arg1:T16 Arg2:T69	
 T70	corrected_chemical 610 622	serum sodium
 R6	causes_or_contributes_to Arg1:T70 Arg2:T69	
@@ -85,20 +84,17 @@ T74	missed_disease_or_phenotypic_feature 1557 1560	GCT
 R11	treats Arg1:T39 Arg2:T74	
 R12	causes_or_contributes_to Arg1:T44 Arg2:T46	
 T75	missed_disease_or_phenotypic_feature 1961 1978	glucose tolerance
-R13	causes_or_contributes_to Arg1:T49 Arg2:T75	
-T76	missed_disease_or_phenotypic_feature 1980 1999	reduced weight gain
-R14	causes_or_contributes_to Arg1:T49 Arg2:T76	
-T77	missed_disease_or_phenotypic_feature 1980 1987;2001 2020	reduced myocardial fibrosis
+R13	treats Arg1:T49 Arg2:T75	
+T76	missed_disease_or_phenotypic_feature 1988 1999	weight gain
+R14	treats Arg1:T49 Arg2:T76	
+T77	missed_disease_or_phenotypic_feature 2001 2020	myocardial fibrosis
 R15	treats Arg1:T49 Arg2:T77	
-T78	missed_disease_or_phenotypic_feature 1980 1987;2025 2041	reduced oxidative stress
-R16	treats Arg1:T49 Arg2:T78	
 R17	treats Arg1:T49 Arg2:T47	
 R18	treats Arg1:T49 Arg2:T48	
 R19	causes_or_contributes_to Arg1:T52 Arg2:T54	
 R20	causes_or_contributes_to Arg1:T52 Arg2:T55	
-T79	missed_disease_or_phenotypic_feature 2217 2239	carbohydrate oxidation
-R21	causes_or_contributes_to Arg1:T56 Arg2:T79	
-T80	missed_chemical 2196 2203	insulin
-R22	causes_or_contributes_to Arg1:T80 Arg2:T79	
 T81	corrected_chemical 389 403	ACE inhibitors
 R23	treats Arg1:T81 Arg2:T13	
+R24	causes_or_contributes_to Arg1:T22 Arg2:T21	
+R25	causes_or_contributes_to Arg1:T19 Arg2:T21	
+R26	causes_or_contributes_to Arg1:T45 Arg2:T46	

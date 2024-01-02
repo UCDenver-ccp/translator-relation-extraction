@@ -62,5 +62,18 @@ T61	disease_or_phenotypic_feature 3831 3837	Li-Ion
 R1	causes_or_contributes_to Arg1:T2 Arg2:T3
 T62	corrected_chemical 306 328	dextran sulfate sodium
 R2	causes_or_contributes_to Arg1:T62 Arg2:T11	
-T63	missed_chemical 369 372	BDS
+T63	missed_chemical 369 395	BDS-entrapped KO liposomes
 R3	treats Arg1:T63 Arg2:T13	
+R4	causes_or_contributes_to Arg1:T17 Arg2:T18	
+T64	missed_chemical 959 968	aglycones
+R5	causes_or_contributes_to Arg1:T64 Arg2:T18	
+T65	missed_disease_or_phenotypic_feature 835 843	allergic
+R6	treats Arg1:T17 Arg2:T65	
+R7	treats Arg1:T64 Arg2:T65	
+T66	corrected_chemical 3014 3033	adjuvant treatments
+R8	treats Arg1:T66 Arg2:T44	
+R9	treats Arg1:T66 Arg2:T47	
+R10	treats Arg1:T66 Arg2:T43	
+T67	missed_disease_or_phenotypic_feature 3405 3414	dizziness
+T68	corrected_chemical 3492 3511	polyphenol compound
+R11	treats Arg1:T68 Arg2:T67	

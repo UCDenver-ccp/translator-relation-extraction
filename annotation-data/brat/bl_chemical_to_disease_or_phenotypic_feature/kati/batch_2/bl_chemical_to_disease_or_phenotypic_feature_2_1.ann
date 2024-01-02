@@ -77,10 +77,7 @@ T76	chemical 2815 2827	anesthetized
 T77	chemical 2833 2841	urethane
 T78	chemical 2845 2859	methoxyflurane
 T79	disease_or_phenotypic_feature 2892 2906	tumor vascular
-T80	corrected_disease_or_phenotypic_feature 36 54	first-ever seizure
-R1	causes_or_contributes_to Arg1:T2 Arg2:T80	
-T81	corrected_disease_or_phenotypic_feature 117 148	amphetamine-associated seizures
-R2	causes_or_contributes_to Arg1:T2 Arg2:T81	
+R1	causes_or_contributes_to Arg1:T2 Arg2:T1	
 R3	causes_or_contributes_to Arg1:T2 Arg2:T5	
 T83	corrected_chemical 356 376	Zinc-desferrioxamine
 R6	treats Arg1:T83 Arg2:T14	
@@ -119,15 +116,26 @@ R29	causes_or_contributes_to Arg1:T92 Arg2:T95
 R21	causes_or_contributes_to Arg1:T91 Arg2:T94	
 T96	missed_disease_or_phenotypic_feature 2663 2674	solid tumor
 T97	corrected_chemical 2605 2618	PNP inhibitor
-R30	treats Arg1:T97 Arg2:T71	
-R31	treats Arg1:T97 Arg2:T72	
-R32	treats Arg1:T97 Arg2:T96	
 T98	missed_disease_or_phenotypic_feature 2861 2877	tumor blood flow
 R33	causes_or_contributes_to Arg1:T77 Arg2:T98	
 R34	causes_or_contributes_to Arg1:T78 Arg2:T98	
 R4	causes_or_contributes_to Arg1:T3 Arg2:T4	
-T82	missed_disease_or_phenotypic_feature 1110 1126	oxidation of LDL
-R5	causes_or_contributes_to Arg1:T27 Arg2:T82	
-R18	treats Arg1:T69 Arg2:T71	
-R24	treats Arg1:T69 Arg2:T72	
-R35	treats Arg1:T69 Arg2:T96	
+T82	missed_disease_or_phenotypic_feature 1458 1467	mortality
+R5	treats Arg1:T87 Arg2:T82	
+R36	treats Arg1:T87 Arg2:T82	
+R37	causes_or_contributes_to Arg1:T92 Arg2:T56	
+R38	causes_or_contributes_to Arg1:T91 Arg2:T56	
+T80	missed_chemical 100 115	related analogs
+R2	causes_or_contributes_to Arg1:T80 Arg2:T1	
+R39	causes_or_contributes_to Arg1:T2 Arg2:T4	
+R40	causes_or_contributes_to Arg1:T80 Arg2:T4	
+R41	causes_or_contributes_to Arg1:T80 Arg2:T5	
+R42	treats Arg1:T83 Arg2:T13	
+R43	causes_or_contributes_to Arg1:T30 Arg2:T29	
+R44	causes_or_contributes_to Arg1:T30 Arg2:T31	
+R45	treats Arg1:T34 Arg2:T86	
+R46	causes_or_contributes_to Arg1:T34 Arg2:T32	
+T81	corrected_chemical 2308 2340	sodium-glucose co-transporters 2
+R47	treats Arg1:T81 Arg2:T99	
+R48	treats Arg1:T81 Arg2:T59	
+T99	corrected_disease_or_phenotypic_feature 2266 2287	risk of heart failure

@@ -91,3 +91,42 @@ T90	cellular_component 3030 3042	cell surface
 T91	gene 3062 3067	LEF-1
 T92	cellular_component 3136 3156	extracellular matrix
 T93	gene 3167 3172	LEF-1
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T3	
+T94	missed_gene 399 416	RNA polymerase II
+R3	located_in Arg1:T12 Arg2:T14	
+R4	located_in Arg1:T13 Arg2:T14	
+R5	located_in Arg1:T94 Arg2:T14	
+R6	located_in Arg1:T19 Arg2:T21	
+R7	located_in Arg1:T20 Arg2:T21	
+R8	located_in Arg1:T26 Arg2:T25	
+R9	located_in Arg1:T27 Arg2:T25	
+#1	AnnotatorNotes R9	Okay?
+R10	located_in Arg1:T28 Arg2:T25	
+R11	located_in Arg1:T37 Arg2:T36	
+R12	located_in Arg1:T39 Arg2:T40	
+T95	corrected_gene 1739 1750	β1-integrin
+R13	located_in Arg1:T95 Arg2:T51	
+R14	located_in Arg1:T60 Arg2:T61	
+T96	missed_gene 2043 2048	SNX17
+R15	located_in Arg1:T96 Arg2:T61	
+R16	located_in Arg1:T64 Arg2:T62	
+R17	located_in Arg1:T65 Arg2:T62	
+R18	located_in Arg1:T67 Arg2:T62	
+R19	located_in Arg1:T64 Arg2:T63	
+#2	AnnotatorNotes R19	Okay?
+R20	located_in Arg1:T65 Arg2:T63	
+#3	AnnotatorNotes R20	Okay?
+R21	located_in Arg1:T67 Arg2:T63	
+#4	AnnotatorNotes R21	Okay?
+T97	missed_cellular_component 2425 2432	nuclear
+T98	missed_gene 2425 2442	nuclear factor-κB
+T99	missed_gene 2444 2449	NF-κB
+R22	located_in Arg1:T98 Arg2:T97	
+R23	located_in Arg1:T99 Arg2:T97	
+T100	missed_gene 2814 2841	vacuolar protein sorting 34
+R24	located_in Arg1:T100 Arg2:T84	
+R25	located_in Arg1:T85 Arg2:T84	
+R26	located_in Arg1:T89 Arg2:T90	
+R27	located_in Arg1:T88 Arg2:T90	
+R28	located_in Arg1:T91 Arg2:T92	

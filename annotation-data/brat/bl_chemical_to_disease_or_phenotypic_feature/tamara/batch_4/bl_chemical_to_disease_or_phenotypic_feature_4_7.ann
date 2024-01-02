@@ -61,7 +61,6 @@ T60	disease_or_phenotypic_feature 1985 2000	pulmonary edema
 T61	chemical 2011 2018	Hormone
 T62	disease_or_phenotypic_feature 2019 2028	dependent
 T63	chemical 2088 2096	hormones
-R2	causes_or_contributes_to Arg1:T16 Arg2:T17	
 T64	corrected_chemical 316 329	active oxygen
 R1	treats Arg1:T64 Arg2:T9	
 R3	causes_or_contributes_to Arg1:T22 Arg2:T23	
@@ -75,7 +74,6 @@ R7	causes_or_contributes_to Arg1:T29 Arg2:T33
 R8	causes_or_contributes_to Arg1:T29 Arg2:T67	
 R9	causes_or_contributes_to Arg1:T37 Arg2:T34	
 R10	causes_or_contributes_to Arg1:T37 Arg2:T35	
-R11	causes_or_contributes_to Arg1:T43 Arg2:T42	
 R12	treats Arg1:T54 Arg2:T52	
 T68	missed_chemical 1758 1769	antibiotics
 R13	treats Arg1:T68 Arg2:T53	
@@ -83,3 +81,13 @@ T69	corrected_disease_or_phenotypic_feature 1852 1887	acute hypoxemic respirator
 R14	causes_or_contributes_to Arg1:T55 Arg2:T56	
 R15	causes_or_contributes_to Arg1:T55 Arg2:T69	
 T70	DONE 2163 2167	DONE
+T71	missed_disease_or_phenotypic_feature 2029 2035	tumors
+R16	causes_or_contributes_to Arg1:T61 Arg2:T71	
+T72	corrected_chemical 651 676	angiotensin II inhibitors
+R2	treats Arg1:T72 Arg2:T20	
+R17	causes_or_contributes_to Arg1:T21 Arg2:T23	
+R11	causes_or_contributes_to Arg1:T55 Arg2:T57	
+R18	causes_or_contributes_to Arg1:T63 Arg2:T71	
+T73	corrected_chemical 390 407	oxygen scavengers
+T74	missed_disease_or_phenotypic_feature 424 429	tumor
+R19	causes_or_contributes_to Arg1:T73 Arg2:T74	

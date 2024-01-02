@@ -68,6 +68,17 @@ R8	treats Arg1:T4 Arg2:T7
 R9	treats Arg1:T34 Arg2:T33
 T63	missed_disease_or_phenotypic_feature 597 600	VKC
 T64	corrected_chemical 515 522	steroid
-R11	causes_or_contributes_to Arg1:T64 Arg2:T9	
+R11	causes_or_contributes_to Arg1:T64 Arg2:T17	
 R12	treats Arg1:T64 Arg2:T10	
 R13	treats Arg1:T64 Arg2:T63	
+T17	corrected_disease_or_phenotypic_feature 531 539	glaucoma
+T19	missed_chemical 2508 2519	romiplostim
+R5	treats Arg1:T19 Arg2:T33	
+T65	missed_chemical 2537 2546	rituximab
+R10	treats Arg1:T65 Arg2:T33	
+T66	missed_disease_or_phenotypic_feature 3160 3173	use disorders
+R14	causes_or_contributes_to Arg1:T46 Arg2:T66	
+T67	missed_disease_or_phenotypic_feature 3175 3179	AUDs
+R15	causes_or_contributes_to Arg1:T46 Arg2:T67	
+T68	missed_disease_or_phenotypic_feature 3604 3618	lower glycemia
+R16	causes_or_contributes_to Arg1:T53 Arg2:T68	

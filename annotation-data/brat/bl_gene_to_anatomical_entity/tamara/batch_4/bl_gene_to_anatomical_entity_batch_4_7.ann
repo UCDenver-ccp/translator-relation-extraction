@@ -107,3 +107,110 @@ T106	anatomical_site 2705 2710	serum
 T107	gene 2711 2717	leptin
 T108	gene 2719 2732	interleukin-6
 T109	gene 2738 2756	C-reactive protein
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T1	
+R3	located_in Arg1:T4 Arg2:T1	
+R4	located_in Arg1:T6 Arg2:T5	
+R5	located_in Arg1:T7 Arg2:T5	
+R6	located_in Arg1:T10 Arg2:T8	
+R7	located_in Arg1:T10 Arg2:T9	
+R8	located_in Arg1:T23 Arg2:T24	
+R9	located_in Arg1:T22 Arg2:T24	
+R10	located_in Arg1:T21 Arg2:T24	
+R11	located_in Arg1:T20 Arg2:T24	
+R12	located_in Arg1:T19 Arg2:T24	
+R13	located_in Arg1:T18 Arg2:T24	
+R14	located_in Arg1:T17 Arg2:T24	
+R15	located_in Arg1:T16 Arg2:T24	
+R16	located_in Arg1:T15 Arg2:T24	
+T110	missed_gene 219 222	Met
+R17	located_in Arg1:T110 Arg2:T24	
+T111	missed_gene 212 217	Fzd10
+R18	located_in Arg1:T111 Arg2:T24	
+R19	located_in Arg1:T14 Arg2:T24	
+R20	located_in Arg1:T13 Arg2:T24	
+R21	located_in Arg1:T12 Arg2:T24	
+R22	located_in Arg1:T11 Arg2:T24	
+R23	located_in Arg1:T25 Arg2:T26	
+T112	missed_gene 367 381	Sonic hedgehog
+R24	located_in Arg1:T112 Arg2:T28	
+R25	located_in Arg1:T25 Arg2:T28	
+#1	AnnotatorNotes R25	Okay?
+R26	located_in Arg1:T31 Arg2:T30	
+R27	located_in Arg1:T32 Arg2:T30	
+T113	missed_gene 529 537	cortisol
+R28	located_in Arg1:T113 Arg2:T33	
+T114	missed_gene 564 578	norepinephrine
+T115	missed_anatomical_site 557 563	plasma
+R29	located_in Arg1:T114 Arg2:T115	
+R30	located_in Arg1:T35 Arg2:T37	
+R31	located_in Arg1:T34 Arg2:T37	
+T116	corrected_gene 695 703	TNFR1-d2
+R32	located_in Arg1:T116 Arg2:T39	
+R33	located_in Arg1:T43 Arg2:T42	
+R34	located_in Arg1:T45 Arg2:T44	
+T117	missed_gene 871 883	testosterone
+R35	located_in Arg1:T117 Arg2:T46	
+R36	located_in Arg1:T54 Arg2:T56	
+R37	located_in Arg1:T54 Arg2:T57	
+R38	located_in Arg1:T54 Arg2:T58	
+R39	located_in Arg1:T54 Arg2:T59	
+R40	located_in Arg1:T54 Arg2:T60	
+R41	located_in Arg1:T55 Arg2:T56	
+R42	located_in Arg1:T55 Arg2:T57	
+R43	located_in Arg1:T55 Arg2:T58	
+R44	located_in Arg1:T55 Arg2:T59	
+R45	located_in Arg1:T55 Arg2:T60	
+R46	located_in Arg1:T62 Arg2:T61	
+T118	missed_gene 1411 1415	IL-8
+R47	located_in Arg1:T118 Arg2:T61	
+R48	located_in Arg1:T64 Arg2:T63	
+R49	located_in Arg1:T65 Arg2:T63	
+R50	located_in Arg1:T71 Arg2:T72	
+R51	located_in Arg1:T71 Arg2:T73	
+R52	located_in Arg1:T75 Arg2:T74	
+R53	located_in Arg1:T76 Arg2:T74	
+R54	located_in Arg1:T77 Arg2:T74	
+R55	located_in Arg1:T77 Arg2:T78	
+R56	located_in Arg1:T76 Arg2:T78	
+R57	located_in Arg1:T75 Arg2:T78	
+T119	missed_anatomical_site 1911 1916	Serum
+R58	located_in Arg1:T79 Arg2:T119	
+R59	located_in Arg1:T81 Arg2:T80	
+T120	missed_anatomical_site 2181 2185	glia
+R60	located_in Arg1:T88 Arg2:T120	
+R61	located_in Arg1:T87 Arg2:T120	
+R62	located_in Arg1:T86 Arg2:T120	
+R63	located_in Arg1:T88 Arg2:T89	
+R64	located_in Arg1:T87 Arg2:T89	
+R65	located_in Arg1:T86 Arg2:T89	
+R66	located_in Arg1:T91 Arg2:T92	
+#2	AnnotatorNotes R66	Okay?
+R67	located_in Arg1:T90 Arg2:T92	
+#3	AnnotatorNotes R67	Okay?
+T121	missed_anatomical_site 2308 2312	RVLM
+T122	corrected_gene 2444 2480	p38 mitogen-activated protein kinase
+T123	corrected_gene 2482 2490	p38 MAPK
+R68	located_in Arg1:T122 Arg2:T93	
+R69	located_in Arg1:T122 Arg2:T121	
+R70	located_in Arg1:T123 Arg2:T93	
+R71	located_in Arg1:T123 Arg2:T121	
+T124	missed_gene 2535 2538	ERK
+R72	located_in Arg1:T100 Arg2:T93	
+R73	located_in Arg1:T124 Arg2:T93	
+R74	located_in Arg1:T100 Arg2:T121	
+R75	located_in Arg1:T124 Arg2:T121	
+T125	corrected_gene 2572 2577	c-myb
+T126	corrected_gene 2585 2590	v-myb
+T127	missed_gene 2599 2608	myeloid-1
+T128	corrected_gene 2610 2615	mim-1
+R76	located_in Arg1:T128 Arg2:T105	
+R77	located_in Arg1:T127 Arg2:T105	
+R78	located_in Arg1:T126 Arg2:T105	
+R79	located_in Arg1:T125 Arg2:T105	
+R80	located_in Arg1:T107 Arg2:T106	
+#4	AnnotatorNotes R80	Okay?
+R81	located_in Arg1:T108 Arg2:T106	
+#5	AnnotatorNotes R81	Okay?
+R82	located_in Arg1:T109 Arg2:T106	
+#6	AnnotatorNotes R82	Okay?

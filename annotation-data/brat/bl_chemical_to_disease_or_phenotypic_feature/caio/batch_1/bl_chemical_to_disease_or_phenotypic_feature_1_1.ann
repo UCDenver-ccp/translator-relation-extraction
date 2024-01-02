@@ -63,26 +63,21 @@ T68	disease_or_phenotypic_feature 3022 3032	lung tumor
 T69	chemical 3126 3142	antigen-specific
 T70	disease_or_phenotypic_feature 3263 3274	hyperplasia
 T2	missed_chemical 255 264	Syrbactin
-R1	treats Arg1:T2 Arg2:T11	
 R2	treats Arg1:T10 Arg2:T11	
-T71	missed_disease_or_phenotypic_feature 361 366	tumor
 T72	missed_chemical 552 557	NEDD8
 T73	missed_chemical 653 658	NEDD8
-T74	missed_disease_or_phenotypic_feature 867 877	depressive
-T75	missed_disease_or_phenotypic_feature 889 893	pain
-T26	corrected_chemical 1149 1168	Magnesium-deficient
+T74	missed_disease_or_phenotypic_feature 867 887	depressive disorders
+T75	missed_disease_or_phenotypic_feature 889 935	pain related to diabetic peripheral neuropathy
 T76	missed_chemical 1661 1668	miR-375
 T39	missed_chemical 1839 1849	filgotinib
 T41	missed_disease_or_phenotypic_feature 1879 1889	infections
 T44	missed_disease_or_phenotypic_feature 1912 1924	malignancies
 T77	missed_disease_or_phenotypic_feature 1926 1955	gastrointestinal perforations
-T78	missed_disease_or_phenotypic_feature 2339 2344	tumor
 T79	missed_disease_or_phenotypic_feature 2555 2575	hematologic toxicity
 T80	missed_chemical 2644 2649	PAI-1
 T81	missed_disease_or_phenotypic_feature 2979 2986	hypoxic
-T82	missed_chemical 3164 3172	cytokine
 T83	DONE 3293 3297	DONE
-T84	missed_disease_or_phenotypic_feature 941 968	stress urinary incontinence
+T84	missed_disease_or_phenotypic_feature 948 968	urinary incontinence
 T85	missed_chemical 200 207	hormone
 T7	corrected_disease_or_phenotypic_feature 193 218	growth hormone deficiency
 T86	missed_chemical 286 293	TIR-199
@@ -101,10 +96,27 @@ T92	missed_disease_or_phenotypic_feature 3111 3114	AAD
 R11	treats Arg1:T91 Arg2:T92	
 T93	corrected_disease_or_phenotypic_feature 3251 3275	goblet cell hyperplasia.
 T94	missed_disease_or_phenotypic_feature 3212 3245	pulmonary eosinophil accumulation
-T95	missed_disease_or_phenotypic_feature 3197 3207;3233 3245	peripheral accumulation
+T95	missed_disease_or_phenotypic_feature 3197 3207;3222 3245	peripheral eosinophil accumulation
 R12	treats Arg1:T91 Arg2:T95	
 R13	treats Arg1:T91 Arg2:T94	
 R14	treats Arg1:T91 Arg2:T93	
 R4	treats Arg1:T88 Arg2:T74	
 R5	treats Arg1:T88 Arg2:T75	
 R15	treats Arg1:T55 Arg2:T90	
+R16	treats Arg1:T55 Arg2:T89	
+R17	causes_or_contributes_to Arg1:T39 Arg2:T45	
+R18	causes_or_contributes_to Arg1:T39 Arg2:T43	
+T96	corrected_chemical 826 845	antidepressant drug
+R19	treats Arg1:T96 Arg2:T74	
+R20	treats Arg1:T96 Arg2:T75	
+R21	treats Arg1:T96 Arg2:T84	
+T97	corrected_chemical 789 799;815 818	Duloxetine HCl
+R22	treats Arg1:T97 Arg2:T74	
+R23	treats Arg1:T97 Arg2:T75	
+R24	treats Arg1:T97 Arg2:T84	
+R25	treats Arg1:T25 Arg2:T28	
+R26	treats Arg1:T25 Arg2:T29	
+R27	causes_or_contributes_to Arg1:T1 Arg2:T3	
+T71	missed_disease_or_phenotypic_feature 2072 2091	androgen deficiency
+R28	treats Arg1:T47 Arg2:T71	
+R29	treats Arg1:T86 Arg2:T11	

@@ -64,17 +64,12 @@ T63	chemical 2374 2384	biological
 T64	chemical 2422 2432	epirubicin
 T65	chemical 2437 2447	paclitaxel
 T66	disease_or_phenotypic_feature 2472 2485	breast cancer
-T68	missed_disease_or_phenotypic_feature 312 317	tumor
 R3	treats Arg1:T9 Arg2:T10	
 R4	treats Arg1:T9 Arg2:T11	
 T70	missed_disease_or_phenotypic_feature 469 471	OD
 T71	missed_disease_or_phenotypic_feature 489 516	olfactory epithelial damage
 T73	corrected_disease_or_phenotypic_feature 554 581	nasal allergic inflammation
 T74	corrected_chemical 613 631	intranasal steroid
-R5	treats Arg1:T74 Arg2:T73	
-R6	treats Arg1:T74 Arg2:T71	
-R7	treats Arg1:T74 Arg2:T70	
-T72	missed_disease_or_phenotypic_feature 662 667	tumor
 R9	causes_or_contributes_to Arg1:T16 Arg2:T17	
 T75	corrected_disease_or_phenotypic_feature 858 878	hypothalamic obesity
 T76	missed_disease_or_phenotypic_feature 827 838	weight gain
@@ -89,9 +84,7 @@ T83	missed_disease_or_phenotypic_feature 1374 1391	Tardive syndromes
 T84	missed_chemical 1496 1505	protamine
 T85	missed_disease_or_phenotypic_feature 1531 1539	bleeding
 R16	treats Arg1:T84 Arg2:T85	
-R17	treats Arg1:T52 Arg2:T53	
 T86	corrected_disease_or_phenotypic_feature 2021 2046	sleep disturbed breathing
-R18	causes_or_contributes_to Arg1:T52 Arg2:T86	
 T87	corrected_chemical 2147 2154	IV drug
 T88	corrected_disease_or_phenotypic_feature 2177 2202	bilateral inguinal hernia
 T89	missed_disease_or_phenotypic_feature 2218 2234	umbilical hernia
@@ -112,6 +105,22 @@ T67	corrected_chemical 1453 1475	unfractionated heparin
 R1	causes_or_contributes_to Arg1:T67 Arg2:T85	
 T69	missed_chemical 1477 1480	UFH
 R2	causes_or_contributes_to Arg1:T69 Arg2:T85	
-T94	missed_disease_or_phenotypic_feature 401 413	inflammatory
-R20	treats Arg1:T9 Arg2:T94	
+T94	missed_disease_or_phenotypic_feature 396 413	anti-inflammatory
+R20	causes_or_contributes_to Arg1:T9 Arg2:T94	
 T95	chemical 396 413	anti-inflammatory
+R6	causes_or_contributes_to Arg1:T38 Arg2:T39	
+T96	missed_chemical 1968 1971	HOT
+T97	corrected_chemical 1947 1966	Home oxygen therapy
+R7	treats Arg1:T97 Arg2:T53	
+R17	treats Arg1:T97 Arg2:T86	
+R18	causes_or_contributes_to Arg1:T87 Arg2:T91	
+R21	causes_or_contributes_to Arg1:T61 Arg2:T62	
+T98	missed_chemical 337 345	vaccines
+R24	treats Arg1:T98 Arg2:T8	
+R27	treats Arg1:T74 Arg2:T71	
+R28	treats Arg1:T74 Arg2:T73	
+T68	missed_chemical 689 697	vaccines
+R29	treats Arg1:T68 Arg2:T15	
+R5	treats Arg1:T74 Arg2:T70	
+R25	treats Arg1:T96 Arg2:T53	
+R26	treats Arg1:T96 Arg2:T86	

@@ -67,8 +67,6 @@ T66	disease_or_phenotypic_feature 2924 2938	hyperlipidemia
 T67	chemical 2973 2977	acid
 T68	chemical 3018 3027	manganese
 T69	disease_or_phenotypic_feature 3042 3064	metabolic bone disease
-T70	missed_chemical 26 37	interleukin
-T71	corrected_chemical 139 169	carbohydrate antigen (CA) 19-9
 T72	missed_chemical 654 659	NF-κB
 T73	missed_chemical 664 672	PI3K/AKT
 T74	missed_disease_or_phenotypic_feature 584 605	cartilage destruction
@@ -77,25 +75,44 @@ T75	missed_chemical 710 719	Caveolin1
 T76	missed_disease_or_phenotypic_feature 831 848	lung inflammation
 T77	missed_disease_or_phenotypic_feature 1032 1044	microphallus
 T78	corrected_chemical 1110 1137	potassium antimony tartrate
-T81	missed_disease_or_phenotypic_feature 1148 1166	tumor angiogenesis
-R2	treats Arg1:T78 Arg2:T81	
 T79	corrected_chemical 1406 1430	C/EBP homologous protein
 T82	missed_disease_or_phenotypic_feature 1857 1869	skin lesions
 R4	treats Arg1:T41 Arg2:T82	
 R5	treats Arg1:T42 Arg2:T82	
 T83	missed_disease_or_phenotypic_feature 1993 2003	hemorrhage
 T84	corrected_chemical 2106 2138	Serum tissue polypeptide antigen
-T85	corrected_disease_or_phenotypic_feature 2388 2413	androgen-dependent tumour
-T86	corrected_disease_or_phenotypic_feature 2646 2660	infertile men,
+T85	corrected_disease_or_phenotypic_feature 2407 2413	tumour
 T87	missed_chemical 2706 2718	semen plasma
 T88	missed_disease_or_phenotypic_feature 2940 2951	hypercapnia
 T89	missed_disease_or_phenotypic_feature 2953 2971	refeeding syndrome
 T90	missed_disease_or_phenotypic_feature 2973 2995	acid-base disturbances
 T91	DONE 3066 3070	DONE
-R6	treats Arg1:T78 Arg2:T30	
+R6	treats Arg1:T78 Arg2:T71	
 R7	treats Arg1:T41 Arg2:T40	
 R8	treats Arg1:T42 Arg2:T40	
 R9	treats Arg1:T16 Arg2:T17	
-T92	corrected_disease_or_phenotypic_feature 1171 1183	tumor growth
-R3	treats Arg1:T78 Arg2:T92	
 R10	causes_or_contributes_to Arg1:T57 Arg2:T85	
+R11	treats Arg1:T33 Arg2:T36	
+T70	corrected_chemical 1090 1108	antiparasitic drug
+T71	corrected_disease_or_phenotypic_feature 1187 1212	nonsmall-cell lung cancer
+R2	treats Arg1:T70 Arg2:T71	
+T80	missed_disease_or_phenotypic_feature 2053 2058	tumor
+R3	causes_or_contributes_to Arg1:T44 Arg2:T80	
+R12	causes_or_contributes_to Arg1:T45 Arg2:T80	
+R13	treats Arg1:T52 Arg2:T53	
+R14	treats Arg1:T52 Arg2:T54	
+T86	missed_chemical 2866 2868	PN
+R15	causes_or_contributes_to Arg1:T86 Arg2:T64	
+R16	causes_or_contributes_to Arg1:T86 Arg2:T69	
+R17	causes_or_contributes_to Arg1:T86 Arg2:T65	
+R18	causes_or_contributes_to Arg1:T86 Arg2:T66	
+R19	causes_or_contributes_to Arg1:T86 Arg2:T88	
+R20	causes_or_contributes_to Arg1:T86 Arg2:T90	
+R21	causes_or_contributes_to Arg1:T86 Arg2:T89	
+T93	missed_disease_or_phenotypic_feature 2997 3016	liver complications
+T94	missed_disease_or_phenotypic_feature 3028 3036	toxicity
+R22	causes_or_contributes_to Arg1:T68 Arg2:T94	
+T95	missed_disease_or_phenotypic_feature 3018 3036	manganese toxicity
+R23	causes_or_contributes_to Arg1:T86 Arg2:T95	
+T96	missed_disease_or_phenotypic_feature 2826 2849	metabolic complications
+R24	causes_or_contributes_to Arg1:T86 Arg2:T96	

@@ -111,3 +111,128 @@ T110	anatomical_site 2853 2857	lens
 T111	anatomical_site 2859 2865	retina
 T112	anatomical_site 2867 2872	liver
 T113	anatomical_site 2874 2882	pancreas
+T114	corrected_anatomical_site 47 65	spinal cord tissue
+T115	corrected_anatomical_site 188 206	spinal cord tissue
+R1	located_in Arg1:T1 Arg2:T114	
+R2	located_in Arg1:T2 Arg2:T114	
+R3	located_in Arg1:T3 Arg2:T114	
+R4	located_in Arg1:T6 Arg2:T115	
+R5	located_in Arg1:T7 Arg2:T115	
+R6	located_in Arg1:T8 Arg2:T115	
+R7	located_in Arg1:T13 Arg2:T12	
+R8	located_in Arg1:T14 Arg2:T12	
+R9	located_in Arg1:T15 Arg2:T12	
+R10	located_in Arg1:T16 Arg2:T12	
+R11	located_in Arg1:T18 Arg2:T17	
+T116	missed_gene 402 408	dmrta1
+R12	located_in Arg1:T116 Arg2:T17	
+R15	located_in Arg1:T23 Arg2:T22	
+R16	located_in Arg1:T28 Arg2:T27	
+R17	located_in Arg1:T30 Arg2:T29	
+T117	corrected_anatomical_site 808 820	skin barrier
+R18	located_in Arg1:T34 Arg2:T117	
+R19	located_in Arg1:T35 Arg2:T117	
+R20	located_in Arg1:T36 Arg2:T117	
+T118	corrected_anatomical_site 1086 1113	ipsilateral cerebral cortex
+T119	missed_gene 913 918;953 960	beta1 subunit
+T120	missed_gene 920 925;953 960	beta2 subunit
+T121	missed_gene 927 932;953 960	beta5 subunit
+T122	missed_gene 934 940;953 960	beta2i subunit
+T123	corrected_gene 946 952;953 960	beta5i subunit
+R21	located_in Arg1:T119 Arg2:T38	
+R22	located_in Arg1:T120 Arg2:T38	
+R23	located_in Arg1:T121 Arg2:T38	
+R24	located_in Arg1:T122 Arg2:T38	
+R25	located_in Arg1:T123 Arg2:T38	
+R28	located_in Arg1:T39 Arg2:T118	
+R29	located_in Arg1:T39 Arg2:T41	
+T125	corrected_anatomical_site 1272 1284	liver tissue
+T126	missed_gene 1147 1156	INF-gamma
+T127	missed_gene 1182 1190	IL-1beta
+R30	located_in Arg1:T126 Arg2:T47	
+R31	located_in Arg1:T42 Arg2:T47	
+R32	located_in Arg1:T43 Arg2:T47	
+R33	located_in Arg1:T44 Arg2:T47	
+R34	located_in Arg1:T127 Arg2:T47	
+R35	located_in Arg1:T45 Arg2:T47	
+R36	located_in Arg1:T46 Arg2:T47	
+T128	missed_gene 1237 1243	ROR-?t
+T129	missed_gene 1245 1250	IL-17
+T130	missed_gene 1252 1258	TGF-?1
+T131	missed_gene 1263 1268	?-SMA
+R37	located_in Arg1:T128 Arg2:T125	
+R38	located_in Arg1:T129 Arg2:T125	
+R39	located_in Arg1:T130 Arg2:T125	
+R40	located_in Arg1:T131 Arg2:T125	
+T132	corrected_anatomical_site 1419 1431	tail tissues
+R41	located_in Arg1:T52 Arg2:T132	
+R42	located_in Arg1:T53 Arg2:T132	
+R44	located_in Arg1:T55 Arg2:T61	
+R45	located_in Arg1:T56 Arg2:T61	
+R46	located_in Arg1:T57 Arg2:T61	
+R47	located_in Arg1:T58 Arg2:T61	
+R48	located_in Arg1:T59 Arg2:T61	
+R49	located_in Arg1:T60 Arg2:T61	
+R58	located_in Arg1:T76 Arg2:T79	
+R59	located_in Arg1:T77 Arg2:T79	
+R60	located_in Arg1:T78 Arg2:T79	
+T136	corrected_gene 1992 1996;1998 1999	SSTR 5
+R61	located_in Arg1:T136 Arg2:T79	
+R62	located_in Arg1:T76 Arg2:T81	
+R63	located_in Arg1:T77 Arg2:T81	
+R64	located_in Arg1:T78 Arg2:T81	
+R65	located_in Arg1:T136 Arg2:T81	
+T137	missed_gene 2046 2068	Larval serum protein-1
+R66	located_in Arg1:T137 Arg2:T134	
+R67	located_in Arg1:T83 Arg2:T134	
+T138	missed_gene 2081 2086	LSP-2
+R68	located_in Arg1:T137 Arg2:T133	
+R69	located_in Arg1:T138 Arg2:T133	
+R70	located_in Arg1:T90 Arg2:T89	
+R71	located_in Arg1:T91 Arg2:T89	
+T139	missed_gene 2435 2451	acid phosphatase
+T140	missed_gene 2456 2476	bone matrix proteins
+R72	located_in Arg1:T140 Arg2:T95	
+T141	missed_gene 2521 2538	bone sialoprotein
+R73	located_in Arg1:T141 Arg2:T99	
+R74	located_in Arg1:T139 Arg2:T93	
+R75	located_in Arg1:T140 Arg2:T94	
+R76	located_in Arg1:T96 Arg2:T94	
+R77	located_in Arg1:T97 Arg2:T94	
+R78	located_in Arg1:T98 Arg2:T94	
+R79	located_in Arg1:T141 Arg2:T94	
+T142	missed_anatomical_site 2596 2603	tissues
+R80	located_in Arg1:T100 Arg2:T142	
+T143	corrected_anatomical_site 2634 2646	liver tissue
+R81	located_in Arg1:T100 Arg2:T143	
+R82	located_in Arg1:T103 Arg2:T105	
+R83	located_in Arg1:T103 Arg2:T106	
+R84	located_in Arg1:T104 Arg2:T105	
+R85	located_in Arg1:T104 Arg2:T106	
+R13	located_in Arg1:T138 Arg2:T134	
+R14	located_in Arg1:T140 Arg2:T93	
+R43	located_in Arg1:T96 Arg2:T93	
+R86	located_in Arg1:T97 Arg2:T93	
+R87	located_in Arg1:T98 Arg2:T93	
+R88	located_in Arg1:T141 Arg2:T93	
+T133	corrected_anatomical_site 2124 2136	larval serum
+Hes3 mis-expression at early neurula stage blocks neural crest (snai2, sox8, sox9 and sox10) and cranial placode (six1 and dmrta1) gene expression, and promotes neural plate (sox2 and sox3) fate.
+In addition, serum resistin levels, but not resistin mRNA expression levels, are correlated with body weight, and neither resistin mRNA expression nor serum resistin levels are correlated with serum insulin or glucose levels.
+Conversely, HMGA1 proteins were not detected in normal brain.
+TNF?? and IFN?? suppressed the expression of skin barrier proteins, including filaggrin, involucrin and loricrin.
+Western blotting studies found that beta1, beta2, beta5, beta2i, and beta5i subunit protein levels remained unchanged in the injured CNS, but beta1i and PA28alpha protein levels were significantly elevated in ipsilateral cerebral cortex and hippocampus.
+The presence of INF-gamma, TNF-alpha, IL-6, IL-17, IL-1beta, IL-33 and IL-10 in serum and the presence of ROR-?t, IL-17, TGF-?1 and ?-SMA in liver tissue were detected.
+Conversely, loss of Irf6 function caused a curly tail and coincided with a reduction of Tfap2a and Grhl3 expression in tail tissues.
+The expression of MMP-1, MMP-2, MMP-9, TIMP-1, TIMP-2, and TIMP-3 in preimplantation embryos.
+We investigated the expression of integral tight junction-proteins, claudin-1 to -4, and occludin, in stria vascularis of the guinea-pig cochlea, as compared to kidney.
+Abnormal subcellular distribution of GLUT4 protein in obese and insulin-treated diabetic female dogs.
+The levels of the proteins Bax, Bcl2, caspase-3 (pro and cleaved) in brain and liver tissues were evaluated.
+Immunohistochemical distribution of somatostatin and somatostatin receptor subtypes (SSTR1-5) in hypothalamus of ApoD knockout mice brain. serum
+T134	corrected_anatomical_site 2046 2058	Larval serum
+T135	missed_gene 2046 2066;2085 2086	Larval serum protein 2
+R50	located_in Arg1:T135 Arg2:T134	
+R51	located_in Arg1:T135 Arg2:T133	
+R52	located_in Arg1:T83 Arg2:T133	
+T144	missed_gene 1019 1025	beta1i
+R26	located_in Arg1:T144 Arg2:T118	
+R27	located_in Arg1:T144 Arg2:T41	

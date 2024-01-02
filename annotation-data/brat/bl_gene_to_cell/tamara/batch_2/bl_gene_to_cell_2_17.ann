@@ -99,3 +99,78 @@ T98	gene 2698 2703	HOXC4
 T99	gene 2705 2710	HOXC5
 T100	gene 2715 2720	HOXC6
 T101	cell_type 2753 2766	myeloid cells
+R1	located_in Arg1:T10 Arg2:T11	
+R2	located_in Arg1:T28 Arg2:T29	
+T102	corrected_cell_type 861 885	EoL-1 eosinophilic cells
+R3	located_in Arg1:T30 Arg2:T102	
+T103	corrected_cell_type 923 939	HMC-1 mast cells
+R4	located_in Arg1:T32 Arg2:T103	
+R5	located_in Arg1:T33 Arg2:T103	
+T104	missed_cell_type 984 996	Jurkat cells
+R6	located_in Arg1:T35 Arg2:T104	
+T105	missed_gene 1040 1045	VEGFA
+R7	located_in Arg1:T105 Arg2:T38	
+R8	located_in Arg1:T36 Arg2:T38	
+R9	located_in Arg1:T37 Arg2:T38	
+R10	located_in Arg1:T105 Arg2:T39	
+R11	located_in Arg1:T36 Arg2:T39	
+R12	located_in Arg1:T37 Arg2:T39	
+R13	located_in Arg1:T43 Arg2:T42	
+R14	located_in Arg1:T41 Arg2:T40	
+T106	corrected_cell_type 1211 1253	Glial cells of the oligodendrocyte lineage
+T107	missed_gene 1308 1313	Tst-1
+T108	missed_gene 1314 1318	Oct6
+R15	located_in Arg1:T107 Arg2:T44	
+R16	located_in Arg1:T108 Arg2:T44	
+R17	located_in Arg1:T46 Arg2:T44	
+R18	located_in Arg1:T47 Arg2:T44	
+R19	located_in Arg1:T107 Arg2:T106	
+R20	located_in Arg1:T108 Arg2:T106	
+R21	located_in Arg1:T46 Arg2:T106	
+R22	located_in Arg1:T47 Arg2:T106	
+T109	corrected_gene 1390 1408	[125I]endothelin-1
+T110	corrected_gene 1410 1420	[125I]ET-1
+R23	located_in Arg1:T109 Arg2:T48	
+#1	AnnotatorNotes R23	Okay?
+R24	located_in Arg1:T109 Arg2:T49	
+#2	AnnotatorNotes R24	Okay?
+R25	located_in Arg1:T110 Arg2:T48	
+#3	AnnotatorNotes R25	Okay?
+R26	located_in Arg1:T110 Arg2:T49	
+#4	AnnotatorNotes R26	Okay?
+T111	missed_gene 1423 1429	CYP1A1
+R27	located_in Arg1:T111 Arg2:T58	
+R28	located_in Arg1:T52 Arg2:T58	
+R29	located_in Arg1:T53 Arg2:T58	
+R30	located_in Arg1:T54 Arg2:T58	
+R31	located_in Arg1:T55 Arg2:T58	
+R32	located_in Arg1:T56 Arg2:T58	
+R33	located_in Arg1:T57 Arg2:T58	
+R34	located_in Arg1:T61 Arg2:T63	
+R35	located_in Arg1:T62 Arg2:T63	
+T112	corrected_gene 1790 1795	TNF-?
+R36	located_in Arg1:T112 Arg2:T63	
+T113	missed_gene 1803 1806	CD3
+R37	located_in Arg1:T113 Arg2:T65	
+R38	located_in Arg1:T66 Arg2:T65	
+T114	missed_gene 1862 1867	CD123
+R39	located_in Arg1:T114 Arg2:T67	
+T115	missed_gene 1991 1998	hrCXCL8
+T116	corrected_gene 1966 1989	human recombinant CXCL8
+R40	located_in Arg1:T116 Arg2:T70	
+R41	located_in Arg1:T115 Arg2:T70	
+R42	located_in Arg1:T72 Arg2:T70	
+T117	corrected_cell_type 1899 1943	Neutrophilic granulocyte-enriched leukocytes
+R43	located_in Arg1:T116 Arg2:T117	
+#5	AnnotatorNotes R43	Okay?
+R44	located_in Arg1:T115 Arg2:T117	
+R45	located_in Arg1:T72 Arg2:T117	
+R46	located_in Arg1:T77 Arg2:T75	
+T118	corrected_cell_type 2626 2641	microglia cells
+R47	located_in Arg1:T95 Arg2:T118	
+R48	located_in Arg1:T96 Arg2:T118	
+R49	located_in Arg1:T95 Arg2:T97	
+R50	located_in Arg1:T96 Arg2:T97	
+R51	located_in Arg1:T100 Arg2:T101	
+R52	located_in Arg1:T99 Arg2:T101	
+R53	located_in Arg1:T98 Arg2:T101	

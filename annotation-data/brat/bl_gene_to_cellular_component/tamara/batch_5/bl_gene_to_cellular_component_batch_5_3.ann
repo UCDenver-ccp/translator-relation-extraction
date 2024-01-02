@@ -107,3 +107,67 @@ T106	gene 4061 4064	Src
 T107	gene 4100 4108	paxillin
 T108	cellular_component 4160 4168	integrin
 T109	gene 4160 4168	integrin
+T110	missed_gene 21 35;4 11	protein kinase PITSLRE
+T111	corrected_gene 12 20;21 35	CDK11p58 protein kinase
+R1	located_in Arg1:T111 Arg2:T3	
+#1	AnnotatorNotes R1	Okay?
+R2	located_in Arg1:T110 Arg2:T3	
+#2	AnnotatorNotes T110	okay?
+R3	located_in Arg1:T11 Arg2:T12	
+R4	located_in Arg1:T11 Arg2:T13	
+T112	missed_gene 528 531	ETO
+R5	located_in Arg1:T14 Arg2:T13	
+#3	AnnotatorNotes R5	Okay?
+R6	located_in Arg1:T112 Arg2:T13	
+#4	AnnotatorNotes R6	Okay?
+R7	located_in Arg1:T15 Arg2:T13	
+#5	AnnotatorNotes R7	Okay?
+R8	located_in Arg1:T16 Arg2:T13	
+#6	AnnotatorNotes R8	Okay?
+R9	located_in Arg1:T17 Arg2:T13	
+#7	AnnotatorNotes R9	Okay?
+R10	located_in Arg1:T19 Arg2:T18	
+R11	located_in Arg1:T20 Arg2:T18	
+R12	located_in Arg1:T22 Arg2:T21	
+R13	located_in Arg1:T23 Arg2:T21	
+R14	located_in Arg1:T25 Arg2:T26	
+R15	located_in Arg1:T24 Arg2:T26	
+R16	located_in Arg1:T23 Arg2:T26	
+R17	located_in Arg1:T22 Arg2:T26	
+R18	located_in Arg1:T29 Arg2:T28	
+R19	located_in Arg1:T36 Arg2:T35	
+R20	located_in Arg1:T37 Arg2:T35	
+R21	located_in Arg1:T45 Arg2:T46	
+R22	located_in Arg1:T47 Arg2:T46	
+R23	located_in Arg1:T51 Arg2:T52	
+R24	located_in Arg1:T55 Arg2:T57	
+R25	located_in Arg1:T56 Arg2:T57	
+R26	located_in Arg1:T55 Arg2:T58	
+R27	located_in Arg1:T56 Arg2:T58	
+R28	located_in Arg1:T60 Arg2:T59	
+R29	located_in Arg1:T61 Arg2:T59	
+T113	missed_gene 2176 2180	gp78
+R30	located_in Arg1:T113 Arg2:T62	
+R31	located_in Arg1:T70 Arg2:T69	
+R32	located_in Arg1:T71 Arg2:T69	
+R33	located_in Arg1:T72 Arg2:T69	
+R34	located_in Arg1:T73 Arg2:T75	
+R35	located_in Arg1:T74 Arg2:T75	
+T114	missed_cellular_component 2932 2945	mitochondrial
+T115	corrected_gene 2867 2930	coiled-coil-helix-coiled-coil-helix domain-containing protein 2
+R36	located_in Arg1:T115 Arg2:T114	
+R37	located_in Arg1:T77 Arg2:T114	
+T116	missed_gene 2956 3002	succinyl-CoA ligase [GDP-forming] subunit beta
+R38	located_in Arg1:T116 Arg2:T78	
+R39	located_in Arg1:T79 Arg2:T78	
+R40	located_in Arg1:T82 Arg2:T81	
+R41	located_in Arg1:T80 Arg2:T81	
+T117	missed_gene 3077 3096	ES1 protein homolog
+R42	located_in Arg1:T117 Arg2:T83	
+T118	missed_gene 3113 3121	C21orf33
+R43	located_in Arg1:T118 Arg2:T83	
+T119	missed_gene 3124 3142	fumarate hydratase
+R44	located_in Arg1:T119 Arg2:T84	
+T120	missed_gene 3159 3161	FH
+R45	located_in Arg1:T120 Arg2:T84	
+R46	located_in Arg1:T97 Arg2:T98	

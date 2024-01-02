@@ -124,3 +124,87 @@ T123	gene 3627 3631	GFAP
 T124	cell_type 3634 3649	oligodendrocyte
 T125	cell_type 3661 3667	neuron
 T126	gene 3673 3677	ENO2
+T127	corrected_cell_type 86 109	Brain Endothelial Cells
+R1	located_in Arg1:T3 Arg2:T127	
+R2	located_in Arg1:T2 Arg2:T127	
+T128	missed_gene 166 169	CD8
+R3	located_in Arg1:T5 Arg2:T6	
+R4	located_in Arg1:T128 Arg2:T6	
+T129	missed_gene 194 197	CD8
+T130	missed_gene 198 202	CD44
+R5	located_in Arg1:T130 Arg2:T9	
+R6	located_in Arg1:T129 Arg2:T9	
+R7	located_in Arg1:T8 Arg2:T9	
+R8	located_in Arg1:T7 Arg2:T9	
+R9	located_in Arg1:T10 Arg2:T11	
+T131	corrected_gene 297 302	SMI32
+R10	located_in Arg1:T131 Arg2:T13	
+R11	located_in Arg1:T20 Arg2:T21	
+R12	located_in Arg1:T22 Arg2:T23	
+R13	located_in Arg1:T25 Arg2:T26	
+R14	located_in Arg1:T24 Arg2:T26	
+R15	located_in Arg1:T29 Arg2:T30	
+R16	located_in Arg1:T28 Arg2:T30	
+T132	missed_gene 858 860	O1
+R17	located_in Arg1:T132 Arg2:T27	
+R18	located_in Arg1:T39 Arg2:T38	
+R19	located_in Arg1:T41 Arg2:T40	
+T133	missed_gene 1255 1257	O4
+R20	located_in Arg1:T133 Arg2:T42	
+R22	located_in Arg1:T56 Arg2:T57	
+R21	located_in Arg1:T60 Arg2:T59	
+R23	located_in Arg1:T62 Arg2:T61	
+T134	missed_gene 1923 1926	CD4
+R24	located_in Arg1:T134 Arg2:T63	
+T135	missed_gene 1951 1956	T-bet
+R25	located_in Arg1:T135 Arg2:T63	
+R26	located_in Arg1:T64 Arg2:T63	
+T136	missed_gene 2021 2024	CD4
+R27	located_in Arg1:T136 Arg2:T67	
+R28	located_in Arg1:T68 Arg2:T67	
+R29	located_in Arg1:T69 Arg2:T67	
+R30	located_in Arg1:T72 Arg2:T71	
+R31	located_in Arg1:T73 Arg2:T71	
+R32	located_in Arg1:T74 Arg2:T71	
+R33	located_in Arg1:T72 Arg2:T75	
+R34	located_in Arg1:T73 Arg2:T75	
+R35	located_in Arg1:T74 Arg2:T75	
+R36	located_in Arg1:T82 Arg2:T83	
+R37	located_in Arg1:T84 Arg2:T146	
+R38	located_in Arg1:T85 Arg2:T146	
+R39	located_in Arg1:T93 Arg2:T95	
+R40	located_in Arg1:T93 Arg2:T96	
+T137	missed_cell_type 3035 3046	granulocyte
+R41	located_in Arg1:T97 Arg2:T137	
+R42	located_in Arg1:T98 Arg2:T137	
+T138	corrected_gene 3082 3108	granulocyte-macrophage-CSF
+R43	located_in Arg1:T138 Arg2:T99	
+R44	located_in Arg1:T138 Arg2:T100	
+R45	located_in Arg1:T102 Arg2:T99	
+R46	located_in Arg1:T102 Arg2:T100	
+T139	corrected_gene 3119 3133	macrophage-CSF
+R47	located_in Arg1:T139 Arg2:T103	
+R48	located_in Arg1:T105 Arg2:T103	
+T140	missed_gene 3160 3197	macrophage-inhibitory protein-1 alpha
+R49	located_in Arg1:T140 Arg2:T106	
+R50	located_in Arg1:T111 Arg2:T112	
+R51	located_in Arg1:T111 Arg2:T113	
+T141	corrected_cell_type 3391 3424	amniotic fluid-derived stem cells
+R52	located_in Arg1:T117 Arg2:T141	
+T142	missed_cell_type 3385 3389	AFSs
+R53	located_in Arg1:T118 Arg2:T141	
+R54	located_in Arg1:T119 Arg2:T141	
+R55	located_in Arg1:T117 Arg2:T142	
+R56	located_in Arg1:T118 Arg2:T142	
+R57	located_in Arg1:T119 Arg2:T142	
+R58	located_in Arg1:T123 Arg2:T122	
+T143	missed_gene 3651 3655	GALC
+R59	located_in Arg1:T143 Arg2:T124	
+T144	missed_gene 3669 3671	NF
+T145	missed_gene 3682 3685	MAP
+R60	located_in Arg1:T144 Arg2:T125	
+R61	located_in Arg1:T126 Arg2:T125	
+R62	located_in Arg1:T145 Arg2:T125	
+R63	located_in Arg1:T3 Arg2:T4	
+R64	located_in Arg1:T2 Arg2:T4	
+T146	corrected_cell_type 2669 2697	nigral dopaminergic neuronal

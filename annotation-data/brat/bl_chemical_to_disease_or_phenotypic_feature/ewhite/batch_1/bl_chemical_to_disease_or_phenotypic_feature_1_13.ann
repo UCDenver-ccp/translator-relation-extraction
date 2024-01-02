@@ -98,8 +98,6 @@ T84	missed_chemical 1640 1647	insulin
 R15	treats Arg1:T84 Arg2:T83	
 R16	causes_or_contributes_to Arg1:T51 Arg2:T50	
 R17	causes_or_contributes_to Arg1:T51 Arg2:T49	
-R18	treats Arg1:T52 Arg2:T54	
-R19	causes_or_contributes_to Arg1:T55 Arg2:T57	
 R20	treats Arg1:T71 Arg2:T72	
 T85	corrected_disease_or_phenotypic_feature 2564 2613	Stargardt disease-associated retinal degeneration
 R21	treats Arg1:T75 Arg2:T85	
@@ -107,3 +105,17 @@ T86	corrected_chemical 395 415	pineal gland hormone
 R5	causes_or_contributes_to Arg1:T86 Arg2:T10	
 T87	missed_disease_or_phenotypic_feature 2328 2349	cartilage destruction
 R22	treats Arg1:T71 Arg2:T87	
+T88	missed_disease_or_phenotypic_feature 1034 1040	NAFLDs
+R24	treats Arg1:T34 Arg2:T88	
+T89	corrected_disease_or_phenotypic_feature 926 945	metabolic disorders
+R29	treats Arg1:T34 Arg2:T89	
+R31	treats Arg1:T13 Arg2:T14	
+T90	missed_disease_or_phenotypic_feature 1702 1707	tumor
+R32	treats Arg1:T84 Arg2:T90	
+R33	treats Arg1:T45 Arg2:T90	
+R34	treats Arg1:T44 Arg2:T90	
+T91	corrected_chemical 1905 1928	methohexital anesthesia
+R18	treats Arg1:T91 Arg2:T54	
+T92	corrected_chemical 1964 1983	ketamine anesthesia
+R19	causes_or_contributes_to Arg1:T92 Arg2:T57	
+T93	corrected_chemical 2025 2043	Innovar anesthesia

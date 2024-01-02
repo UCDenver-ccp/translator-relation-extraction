@@ -82,3 +82,17 @@ R13	treats Arg1:T46 Arg2:T48
 R14	treats Arg1:T50 Arg2:T48	
 R15	treats Arg1:T50 Arg2:T47	
 T71	DONE 2091 2095	DONE
+T72	corrected_chemical 186 209	GLP-1 receptor agonists
+R10	treats Arg1:T72 Arg2:T4	
+R11	treats Arg1:T72 Arg2:T5	
+R16	treats Arg1:T70 Arg2:T38	
+R17	treats Arg1:T36 Arg2:T38	
+R18	treats Arg1:T39 Arg2:T37	
+R19	treats Arg1:T40 Arg2:T37	
+R20	treats Arg1:T41 Arg2:T37	
+R21	treats Arg1:T42 Arg2:T37	
+R22	treats Arg1:T50 Arg2:T49	
+T73	corrected_chemical 1526 1544	antiepileptic drug
+R23	treats Arg1:T73 Arg2:T49	
+R24	treats Arg1:T73 Arg2:T48	
+R25	treats Arg1:T46 Arg2:T49	

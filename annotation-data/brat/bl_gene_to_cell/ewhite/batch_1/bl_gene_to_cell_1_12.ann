@@ -109,3 +109,56 @@ R4	located_in Arg1:T9 Arg2:T104
 R5	located_in Arg1:T9 Arg2:T10	
 R6	located_in Arg1:T8 Arg2:T10	
 R7	located_in Arg1:T7 Arg2:T10	
+R8	located_in Arg1:T18 Arg2:T19	
+R9	located_in Arg1:T18 Arg2:T20	
+R10	located_in Arg1:T12 Arg2:T13	
+R11	located_in Arg1:T12 Arg2:T14	
+R12	located_in Arg1:T15 Arg2:T16	
+R13	located_in Arg1:T15 Arg2:T17	
+R14	located_in Arg1:T31 Arg2:T30	
+R15	located_in Arg1:T38 Arg2:T37	
+R16	located_in Arg1:T40 Arg2:T37	
+R17	located_in Arg1:T46 Arg2:T45	
+R18	located_in Arg1:T47 Arg2:T45	
+T105	missed_gene 1292 1298	CX3CR1
+R19	located_in Arg1:T105 Arg2:T45	
+R20	located_in Arg1:T49 Arg2:T50	
+R21	located_in Arg1:T49 Arg2:T51	
+R22	located_in Arg1:T56 Arg2:T52	
+R23	located_in Arg1:T57 Arg2:T58	
+R24	located_in Arg1:T62 Arg2:T64	
+R25	located_in Arg1:T62 Arg2:T65	
+R26	located_in Arg1:T62 Arg2:T66	
+T106	missed_gene 1879 1882	HEX
+R28	located_in Arg1:T106 Arg2:T72	
+R29	located_in Arg1:T70 Arg2:T72	
+R30	located_in Arg1:T69 Arg2:T72	
+R31	located_in Arg1:T68 Arg2:T72	
+R32	located_in Arg1:T67 Arg2:T72	
+T107	corrected_gene 1884 1889	HNF4?
+T108	corrected_gene 1894 1900	C/EBP?
+R27	located_in Arg1:T107 Arg2:T72	
+R33	located_in Arg1:T108 Arg2:T72	
+R34	located_in Arg1:T75 Arg2:T77	
+R35	located_in Arg1:T76 Arg2:T77	
+R36	located_in Arg1:T81 Arg2:T80	
+R37	located_in Arg1:T90 Arg2:T89	
+R38	located_in Arg1:T90 Arg2:T91	
+R39	located_in Arg1:T93 Arg2:T94	
+R40	located_in Arg1:T92 Arg2:T94	
+T109	corrected_cell_type 2641 2655	lymphoid cells
+T110	corrected_cell_type 2657 2674	myelogenous cells
+R41	located_in Arg1:T99 Arg2:T98	
+R42	located_in Arg1:T100 Arg2:T98	
+R43	located_in Arg1:T101 Arg2:T98	
+R44	located_in Arg1:T102 Arg2:T98	
+T111	corrected_gene 2805 2821	beta tubulin III
+R45	located_in Arg1:T111 Arg2:T98	
+T112	missed_gene 2758 2773	neurofilament-L
+R46	located_in Arg1:T112 Arg2:T98	
+R47	located_in Arg1:T93 Arg2:T109	
+R48	located_in Arg1:T92 Arg2:T109	
+R49	located_in Arg1:T92 Arg2:T110	
+R50	located_in Arg1:T93 Arg2:T110	
+R51	located_in Arg1:T92 Arg2:T96	
+R52	located_in Arg1:T93 Arg2:T96	

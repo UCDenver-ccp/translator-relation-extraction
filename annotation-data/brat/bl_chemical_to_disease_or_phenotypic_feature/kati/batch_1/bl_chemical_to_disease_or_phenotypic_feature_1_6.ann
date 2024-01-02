@@ -74,14 +74,20 @@ R9	causes_or_contributes_to Arg1:T64 Arg2:T24
 T65	corrected_disease_or_phenotypic_feature 1038 1070	acute irreversible renal failure
 R10	causes_or_contributes_to Arg1:T29 Arg2:T65	
 T66	corrected_chemical 1096 1124	serotonergic 5-HT-1A agonist
-R11	treats Arg1:T66 Arg2:T35	
 T67	missed_disease_or_phenotypic_feature 1252 1281	increase of the serum calcium
 T68	corrected_chemical 1162 1176;1186 1229	Buffer extract of the tumors associated with hypercalcemia
 R12	causes_or_contributes_to Arg1:T68 Arg2:T67	
-T69	corrected_chemical 1561 1573	Genital talc
-R13	causes_or_contributes_to Arg1:T69 Arg2:T45	
 R14	treats Arg1:T1 Arg2:T3	
 T70	missed_chemical 725 739	cafeteria diet
 R15	causes_or_contributes_to Arg1:T70 Arg2:T21	
-R16	treats Arg1:T32 Arg2:T35	
 R17	causes_or_contributes_to Arg1:T23 Arg2:T24	
+T71	corrected_chemical 316 325	fast-food
+R18	causes_or_contributes_to Arg1:T71 Arg2:T9	
+R19	treats Arg1:T11 Arg2:T12	
+R20	treats Arg1:T11 Arg2:T13	
+R21	treats Arg1:T16 Arg2:T17	
+R22	treats Arg1:T16 Arg2:T18	
+R23	treats Arg1:T16 Arg2:T19	
+T72	corrected_chemical 1504 1508	drug
+R24	treats Arg1:T72 Arg2:T43	
+R13	treats Arg1:T44 Arg2:T45	

@@ -67,38 +67,41 @@ T66	disease_or_phenotypic_feature 2204 2228	congestive heart failure
 T67	disease_or_phenotypic_feature 2251 2261	arrhythmia
 R1	treats Arg1:T1 Arg2:T2	
 R2	treats Arg1:T1 Arg2:T3	
-R3	causes_or_contributes_to Arg1:T4 Arg2:T5	
 T68	missed_disease_or_phenotypic_feature 493 510	hyperinsulinaemia
 R4	causes_or_contributes_to Arg1:T14 Arg2:T68	
 R5	causes_or_contributes_to Arg1:T14 Arg2:T15	
-R6	causes_or_contributes_to Arg1:T14 Arg2:T16	
+R6	causes_or_contributes_to Arg1:T14 Arg2:T78	
 T69	corrected_chemical 1212 1231	chloroplatinic acid
 R7	causes_or_contributes_to Arg1:T69 Arg2:T31	
 R8	causes_or_contributes_to Arg1:T69 Arg2:T30	
 R9	treats Arg1:T45 Arg2:T47	
 R10	treats Arg1:T45 Arg2:T48	
 R11	treats Arg1:T50 Arg2:T51	
-T70	corrected_disease_or_phenotypic_feature 1803 1828	Estrogen-dependent tumors
-R12	causes_or_contributes_to Arg1:T52 Arg2:T53	
+T70	corrected_disease_or_phenotypic_feature 1822 1828	tumors
+R12	causes_or_contributes_to Arg1:T52 Arg2:T70	
 R13	treats Arg1:T54 Arg2:T70	
-T71	missed_chemical 2107 2116	digitalis
+T71	missed_chemical 2107 2122	digitalis drugs
 R14	treats Arg1:T71 Arg2:T61	
-R15	treats Arg1:T71 Arg2:T66	
 R16	treats Arg1:T64 Arg2:T66	
-R17	treats Arg1:T64 Arg2:T61	
 R18	treats Arg1:T65 Arg2:T66	
-R19	treats Arg1:T65 Arg2:T61	
 T72	missed_chemical 2233 2246	beta blockers
 R20	treats Arg1:T72 Arg2:T67	
 T73	DONE 2263 2267	DONE
-T74	missed_chemical 964 990	Glycodendrimers bearing Tn
-T75	missed_chemical 964 987;992 1024	Glycodendrimers bearing alpha-D-GalNAc-(1 --> O)-Ser/Thr
-R21	treats Arg1:T75 Arg2:T29	
+T74	missed_chemical 964 1025	Glycodendrimers bearing Tn (alpha-D-GalNAc-(1 --> O)-Ser/Thr)
 R22	treats Arg1:T74 Arg2:T29	
 T76	missed_disease_or_phenotypic_feature 1139 1145	tumors
-R23	treats Arg1:T75 Arg2:T76	
 R24	treats Arg1:T74 Arg2:T76	
 R25	treats Arg1:T44 Arg2:T47	
 R26	treats Arg1:T44 Arg2:T48	
 T77	corrected_disease_or_phenotypic_feature 2144 2167	potential heart failure
 R27	treats Arg1:T71 Arg2:T77	
+T78	corrected_disease_or_phenotypic_feature 546 595	metabolic changes comparable to those of obesity.
+R3	causes_or_contributes_to Arg1:T40 Arg2:T41	
+T79	corrected_chemical 1640 1663	anticholinesterase drug
+R28	treats Arg1:T79 Arg2:T47	
+R29	treats Arg1:T79 Arg2:T48	
+R30	causes_or_contributes_to Arg1:T55 Arg2:T70	
+T80	missed_disease_or_phenotypic_feature 1880 1885	tumor
+R31	treats Arg1:T54 Arg2:T80	
+R32	causes_or_contributes_to Arg1:T55 Arg2:T80	
+R21	causes_or_contributes_to Arg1:T43 Arg2:T41	

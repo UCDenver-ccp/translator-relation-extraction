@@ -106,3 +106,75 @@ T105	gene 3496 3502	Hapln4
 T106	gene 3509 3514	Matn1
 T107	gene 3516 3520	Mmp3
 T108	gene 3550 3555	Rab32
+T109	missed_anatomical_site 271 277	plasma
+R1	located_in Arg1:T8 Arg2:T109	
+R2	located_in Arg1:T11 Arg2:T13	
+R3	located_in Arg1:T12 Arg2:T13	
+R4	located_in Arg1:T19 Arg2:T20	
+R5	located_in Arg1:T21 Arg2:T20	
+R6	located_in Arg1:T22 Arg2:T20	
+R7	located_in Arg1:T23 Arg2:T20	
+T113	corrected_anatomical_site 1008 1017;1032 1038	layers of cortex
+T114	corrected_anatomical_site 1061 1070;1086 1092	layers II cortex
+T115	corrected_anatomical_site 1061 1067;1075 1078;1086 1092	layers III cortex
+R20	located_in Arg1:T28 Arg2:T113	
+R21	located_in Arg1:T29 Arg2:T113	
+R22	located_in Arg1:T28 Arg2:T114	
+R23	located_in Arg1:T29 Arg2:T114	
+R24	located_in Arg1:T28 Arg2:T115	
+R25	located_in Arg1:T29 Arg2:T115	
+T116	corrected_anatomical_site 1538 1568	epithelium of the ciliary body
+R26	located_in Arg1:T40 Arg2:T41	
+R27	located_in Arg1:T40 Arg2:T116	
+T117	corrected_anatomical_site 1687 1698	lung tissue
+R28	located_in Arg1:T45 Arg2:T117	
+R29	located_in Arg1:T46 Arg2:T117	
+R30	located_in Arg1:T47 Arg2:T117	
+R31	located_in Arg1:T48 Arg2:T117	
+T118	corrected_anatomical_site 1821 1833	brain tissue
+R32	located_in Arg1:T58 Arg2:T118	
+R33	located_in Arg1:T61 Arg2:T60	
+T119	corrected_gene 2062 2077	collagen type I
+T120	corrected_gene 2079 2096	collagen type III
+R34	located_in Arg1:T119 Arg2:T67	
+R35	located_in Arg1:T119 Arg2:T68	
+R36	located_in Arg1:T120 Arg2:T67	
+R37	located_in Arg1:T120 Arg2:T68	
+R38	located_in Arg1:T66 Arg2:T67	
+R39	located_in Arg1:T66 Arg2:T68	
+T121	missed_anatomical_site 2541 2548	tissues
+R40	located_in Arg1:T74 Arg2:T121	
+R41	located_in Arg1:T74 Arg2:T75	
+R42	located_in Arg1:T74 Arg2:T76	
+R43	located_in Arg1:T74 Arg2:T77	
+T123	missed_gene 2709 2752	basolateral membrane bile acid transporters
+R44	located_in Arg1:T123 Arg2:T80	
+R45	located_in Arg1:T82 Arg2:T80	
+R46	located_in Arg1:T83 Arg2:T80	
+R47	located_in Arg1:T84 Arg2:T80	
+R48	located_in Arg1:T91 Arg2:T90	
+T124	corrected_anatomical_site 3207 3218	soft tissue
+R49	located_in Arg1:T97 Arg2:T124	
+T125	missed_anatomical_site 3392 3404	growth plate
+R50	located_in Arg1:T102 Arg2:T125	
+T126	missed_gene 3468 3472	Aspn
+T127	missed_gene 3474 3478	Chad
+T128	missed_gene 3504 3507	Lum
+T129	missed_gene 3522 3525	Ogn
+T130	missed_gene 3527 3530	Omd
+T131	missed_gene 3532 3537	P4ha2
+T132	missed_gene 3539 3544	Prelp
+R51	located_in Arg1:T126 Arg2:T125	
+R52	located_in Arg1:T127 Arg2:T125	
+R53	located_in Arg1:T103 Arg2:T125	
+R54	located_in Arg1:T104 Arg2:T125	
+R55	located_in Arg1:T105 Arg2:T125	
+R56	located_in Arg1:T128 Arg2:T125	
+R57	located_in Arg1:T106 Arg2:T125	
+R58	located_in Arg1:T107 Arg2:T125	
+R59	located_in Arg1:T129 Arg2:T125	
+R60	located_in Arg1:T130 Arg2:T125	
+R61	located_in Arg1:T131 Arg2:T125	
+R62	located_in Arg1:T132 Arg2:T125	
+R63	located_in Arg1:T108 Arg2:T125	
+R8	located_in Arg1:T74 Arg2:T78	

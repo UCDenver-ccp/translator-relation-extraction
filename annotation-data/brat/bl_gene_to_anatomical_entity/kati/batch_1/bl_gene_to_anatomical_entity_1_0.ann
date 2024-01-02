@@ -117,3 +117,64 @@ R7	located_in Arg1:T20 Arg2:T18
 R8	located_in Arg1:T21 Arg2:T18	
 T110	missed_gene 608 615	PGP 9.5
 T111	corrected_anatomical_site 619 643	innervating nerve fibers
+R9	located_in Arg1:T110 Arg2:T111	
+R10	located_in Arg1:T28 Arg2:T24	
+R11	located_in Arg1:T28 Arg2:T25	
+R12	located_in Arg1:T28 Arg2:T26	
+R13	located_in Arg1:T28 Arg2:T27	
+T112	missed_anatomical_site 698 703	renal
+R14	located_in Arg1:T28 Arg2:T112	
+R15	located_in Arg1:T29 Arg2:T24	
+R16	located_in Arg1:T29 Arg2:T25	
+R17	located_in Arg1:T29 Arg2:T26	
+R18	located_in Arg1:T29 Arg2:T27	
+R19	located_in Arg1:T29 Arg2:T112	
+R20	located_in Arg1:T30 Arg2:T24	
+R21	located_in Arg1:T30 Arg2:T25	
+R22	located_in Arg1:T30 Arg2:T26	
+R23	located_in Arg1:T30 Arg2:T27	
+R24	located_in Arg1:T30 Arg2:T112	
+T113	corrected_anatomical_site 799 817	mucosal epithelium
+T114	corrected_anatomical_site 822 850	submucosal glands epithelium
+R25	located_in Arg1:T31 Arg2:T113	
+R26	located_in Arg1:T31 Arg2:T114	
+R27	located_in Arg1:T31 Arg2:T35	
+R35	located_in Arg1:T41 Arg2:T42	
+R36	located_in Arg1:T41 Arg2:T43	
+R37	located_in Arg1:T44 Arg2:T45	
+T118	missed_anatomical_site 1142 1160	olfactory tubercle
+R38	located_in Arg1:T44 Arg2:T118	
+R39	located_in Arg1:T44 Arg2:T46	
+R40	located_in Arg1:T44 Arg2:T47	
+R41	located_in Arg1:T57 Arg2:T60	
+R42	located_in Arg1:T62 Arg2:T63	
+R43	located_in Arg1:T61 Arg2:T63	
+T119	missed_anatomical_site 1744 1750	Plasma
+R44	located_in Arg1:T70 Arg2:T119	
+R45	located_in Arg1:T72 Arg2:T71	
+T120	missed_anatomical_site 1844 1849	serum
+R46	located_in Arg1:T74 Arg2:T120	
+T121	missed_gene 1901 1926	Lung surfactant protein A
+R47	located_in Arg1:T121 Arg2:T76	
+R48	located_in Arg1:T77 Arg2:T76	
+R49	located_in Arg1:T121 Arg2:T78	
+R50	located_in Arg1:T77 Arg2:T78	
+T122	corrected_anatomical_site 2061 2098	neuroepithelium of the developing CNS
+R51	located_in Arg1:T79 Arg2:T122	
+R52	located_in Arg1:T80 Arg2:T122	
+R53	located_in Arg1:T84 Arg2:T85	
+R54	located_in Arg1:T84 Arg2:T86	
+R55	located_in Arg1:T88 Arg2:T90	
+R56	located_in Arg1:T89 Arg2:T90	
+T123	corrected_anatomical_site 2368 2380	brain tissue
+R57	located_in Arg1:T91 Arg2:T123	
+R58	located_in Arg1:T92 Arg2:T123	
+R59	located_in Arg1:T95 Arg2:T97	
+T124	corrected_gene 2397 2424	calmodulin-binding proteins
+R60	located_in Arg1:T124 Arg2:T97	
+R61	located_in Arg1:T107 Arg2:T106	
+T125	missed_gene 2695 2721	synapse organizing protein
+R62	located_in Arg1:T125 Arg2:T106	
+T115	corrected_gene 2595 2614	agrin-like proteins
+R28	located_in Arg1:T115 Arg2:T104	
+R29	located_in Arg1:T115 Arg2:T105	

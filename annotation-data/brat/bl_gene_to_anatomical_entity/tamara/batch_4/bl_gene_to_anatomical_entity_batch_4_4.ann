@@ -100,3 +100,81 @@ T99	gene 2978 2989	vasopressin
 T100	anatomical_site 3013 3048	bed nucleus of the stria terminalis
 T101	anatomical_site 3060 3068	amygdala
 T102	anatomical_site 3076 3080	male
+T103	corrected_anatomical_site 313 337	ipsilateral brain cortex
+R1	located_in Arg1:T9 Arg2:T103	
+R2	located_in Arg1:T10 Arg2:T103	
+R3	located_in Arg1:T13 Arg2:T16	
+R4	located_in Arg1:T14 Arg2:T16	
+R5	located_in Arg1:T15 Arg2:T16	
+T104	corrected_anatomical_site 776 788	brain tissue
+R6	located_in Arg1:T27 Arg2:T104	
+#1	AnnotatorNotes R6	Okay?
+R7	located_in Arg1:T28 Arg2:T104	
+#2	AnnotatorNotes R7	Okay?
+T105	missed_gene 964 967	ERK
+T106	corrected_gene 913 930	EGF-like-domain-7
+T107	corrected_anatomical_site 983 996	vascular tube
+R8	located_in Arg1:T105 Arg2:T107	
+R9	located_in Arg1:T33 Arg2:T107	
+R10	located_in Arg1:T32 Arg2:T107	
+R11	located_in Arg1:T106 Arg2:T107	
+R12	located_in Arg1:T37 Arg2:T36	
+R13	located_in Arg1:T48 Arg2:T50	
+R14	located_in Arg1:T48 Arg2:T51	
+R15	located_in Arg1:T48 Arg2:T52	
+T108	missed_gene 1601 1604	Otp
+R16	located_in Arg1:T60 Arg2:T61	
+R17	located_in Arg1:T108 Arg2:T61	
+R18	located_in Arg1:T59 Arg2:T61	
+R19	located_in Arg1:T58 Arg2:T61	
+R20	located_in Arg1:T57 Arg2:T61	
+R21	located_in Arg1:T56 Arg2:T61	
+R22	located_in Arg1:T55 Arg2:T61	
+T109	corrected_anatomical_site 1789 1800	lung tissue
+T110	missed_gene 1739 1748	INF gamma
+R23	located_in Arg1:T64 Arg2:T109	
+R24	located_in Arg1:T110 Arg2:T109	
+R25	located_in Arg1:T63 Arg2:T109	
+R26	located_in Arg1:T62 Arg2:T109	
+T111	missed_gene 2010 2016	CRALBP
+T112	corrected_gene 2023 2053	beta-amyloid precursor protein
+R27	located_in Arg1:T69 Arg2:T76	
+R28	located_in Arg1:T70 Arg2:T76	
+R29	located_in Arg1:T71 Arg2:T76	
+R30	located_in Arg1:T72 Arg2:T76	
+R31	located_in Arg1:T111 Arg2:T76	
+R32	located_in Arg1:T112 Arg2:T76	
+R33	located_in Arg1:T75 Arg2:T76	
+R34	located_in Arg1:T69 Arg2:T77	
+R35	located_in Arg1:T70 Arg2:T77	
+R36	located_in Arg1:T71 Arg2:T77	
+R37	located_in Arg1:T72 Arg2:T77	
+R38	located_in Arg1:T111 Arg2:T77	
+R39	located_in Arg1:T112 Arg2:T77	
+R40	located_in Arg1:T75 Arg2:T77	
+T113	missed_gene 2195 2215	glutamine synthetase
+T114	missed_gene 2217 2219	GS
+R41	located_in Arg1:T113 Arg2:T77	
+#3	AnnotatorNotes R41	Okay?
+R42	located_in Arg1:T114 Arg2:T77	
+#4	AnnotatorNotes R42	Okay?
+R43	located_in Arg1:T113 Arg2:T76	
+#5	AnnotatorNotes R43	Okay?
+R44	located_in Arg1:T114 Arg2:T76	
+#6	AnnotatorNotes R44	Okay?
+R45	located_in Arg1:T81 Arg2:T83	
+R46	located_in Arg1:T81 Arg2:T84	
+R47	located_in Arg1:T81 Arg2:T85	
+R48	located_in Arg1:T82 Arg2:T83	
+R49	located_in Arg1:T82 Arg2:T84	
+R50	located_in Arg1:T82 Arg2:T85	
+T115	corrected_anatomical_site 2805 2828	skin basement membranes
+T116	corrected_gene 2785 2797	collagen VII
+R51	located_in Arg1:T116 Arg2:T115	
+R52	located_in Arg1:T91 Arg2:T115	
+R53	located_in Arg1:T95 Arg2:T96	
+T117	corrected_anatomical_site 3053 3068	medial amygdala
+R54	located_in Arg1:T98 Arg2:T100	
+R55	located_in Arg1:T99 Arg2:T100	
+R56	located_in Arg1:T98 Arg2:T117	
+R57	located_in Arg1:T99 Arg2:T117	

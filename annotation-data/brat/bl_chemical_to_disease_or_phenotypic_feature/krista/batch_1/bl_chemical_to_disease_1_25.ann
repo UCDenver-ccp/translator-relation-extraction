@@ -61,3 +61,14 @@ T60	chemical 3580 3587	protein
 T61	disease_or_phenotypic_feature 3618 3622	MCL1
 R1	causes_or_contributes_to Arg1:T2 Arg2:T3
 R2	causes_or_contributes_to Arg1:T15 Arg2:T13
+T62	missed_disease_or_phenotypic_feature 154 162	abortion
+R3	causes_or_contributes_to Arg1:T2 Arg2:T62	
+T63	corrected_chemical 2494 2500	iodine
+R4	treats Arg1:T63 Arg2:T36	
+R5	treats Arg1:T63 Arg2:T38	
+R6	treats Arg1:T63 Arg2:T40	
+R7	treats Arg1:T63 Arg2:T42	
+T64	corrected_chemical 3447 3474	potassium peroxymonosulfate
+T65	missed_disease_or_phenotypic_feature 3393 3422	epidemic keratoconjunctivitis
+R8	treats Arg1:T56 Arg2:T65	
+R9	treats Arg1:T64 Arg2:T65	

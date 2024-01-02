@@ -125,3 +125,88 @@ T124	anatomical_site 3059 3065	kidney
 T125	gene 3083 3086	TRK
 T126	anatomical_site 3142 3149	thyroid
 T127	anatomical_site 3150 3160	epithelium
+R1	located_in Arg1:T3 Arg2:T2	
+T128	missed_gene 109 112	RL2
+R2	located_in Arg1:T128 Arg2:T2	
+T129	missed_gene 152 155	OCN
+R3	located_in Arg1:T129 Arg2:T4	
+R4	located_in Arg1:T6 Arg2:T5	
+R5	located_in Arg1:T7 Arg2:T5	
+R6	located_in Arg1:T8 Arg2:T5	
+R7	located_in Arg1:T12 Arg2:T15	
+R8	located_in Arg1:T13 Arg2:T15	
+R9	located_in Arg1:T14 Arg2:T15	
+T130	missed_gene 1392 1400	ER-alpha
+R10	located_in Arg1:T130 Arg2:T60	
+R11	located_in Arg1:T130 Arg2:T61	
+T131	corrected_anatomical_site 1441 1457	prelimbic cortex
+T132	corrected_anatomical_site 1463 1482	ventral hippocampus
+R12	located_in Arg1:T130 Arg2:T131	
+R13	located_in Arg1:T130 Arg2:T132	
+R14	located_in Arg1:T59 Arg2:T60	
+R15	located_in Arg1:T59 Arg2:T61	
+R16	located_in Arg1:T59 Arg2:T131	
+R17	located_in Arg1:T59 Arg2:T132	
+T133	missed_anatomical_site 1530 1547	connective tissue
+R18	located_in Arg1:T66 Arg2:T133	
+R19	located_in Arg1:T67 Arg2:T133	
+T135	missed_anatomical_site 1833 1838	serum
+T136	corrected_gene 1839 1846	albumin
+R22	located_in Arg1:T136 Arg2:T135	
+T137	missed_gene 1865 1876	transferrin
+R23	located_in Arg1:T137 Arg2:T76	
+T138	corrected_gene 1975 1981	PTP10D
+R24	located_in Arg1:T138 Arg2:T139	
+R25	located_in Arg1:T138 Arg2:T85	
+R26	located_in Arg1:T91 Arg2:T90	
+T141	missed_gene 2288 2291	Fbg
+T142	missed_gene 2293 2295	F2
+R27	located_in Arg1:T141 Arg2:T90	
+R28	located_in Arg1:T142 Arg2:T90	
+R29	located_in Arg1:T91 Arg2:T89	
+R30	located_in Arg1:T141 Arg2:T89	
+R31	located_in Arg1:T142 Arg2:T89	
+R32	located_in Arg1:T93 Arg2:T92	
+T143	missed_gene 2332 2334	F3
+R33	located_in Arg1:T143 Arg2:T94	
+R34	located_in Arg1:T143 Arg2:T95	
+R35	located_in Arg1:T96 Arg2:T94	
+R36	located_in Arg1:T96 Arg2:T95	
+R37	located_in Arg1:T93 Arg2:T89	
+R38	located_in Arg1:T143 Arg2:T89	
+R39	located_in Arg1:T96 Arg2:T89	
+R40	located_in Arg1:T98 Arg2:T97	
+T144	missed_gene 2363 2371	RatNP-3b
+R41	located_in Arg1:T144 Arg2:T97	
+R42	located_in Arg1:T98 Arg2:T89	
+R43	located_in Arg1:T144 Arg2:T89	
+T145	missed_gene 2386 2391	Cesl1
+R44	located_in Arg1:T145 Arg2:T99	
+R45	located_in Arg1:T100 Arg2:T99	
+R46	located_in Arg1:T145 Arg2:T89	
+R47	located_in Arg1:T100 Arg2:T89	
+R48	located_in Arg1:T111 Arg2:T109	
+R49	located_in Arg1:T111 Arg2:T110	
+R51	located_in Arg1:T116 Arg2:T120	
+T147	corrected_gene 2897 2923	dystrophin-related protein
+R52	located_in Arg1:T147 Arg2:T120	
+R53	located_in Arg1:T118 Arg2:T120	
+R54	located_in Arg1:T121 Arg2:T123	
+R55	located_in Arg1:T121 Arg2:T124	
+R56	located_in Arg1:T122 Arg2:T123	
+R57	located_in Arg1:T122 Arg2:T124	
+T134	missed_gene 1613 1652	tissue inhibitor of metalloproteinase-1
+R20	located_in Arg1:T134 Arg2:T70	
+R21	located_in Arg1:T71 Arg2:T70	
+T139	corrected_anatomical_site 2009 2022	embryonic CNS
+T140	missed_anatomical_site 2233 2244	circulating
+R58	located_in Arg1:T91 Arg2:T140	
+R59	located_in Arg1:T141 Arg2:T140	
+R60	located_in Arg1:T142 Arg2:T140	
+R61	located_in Arg1:T93 Arg2:T140	
+R62	located_in Arg1:T143 Arg2:T140	
+R63	located_in Arg1:T96 Arg2:T140	
+R64	located_in Arg1:T98 Arg2:T140	
+R65	located_in Arg1:T144 Arg2:T140	
+R66	located_in Arg1:T145 Arg2:T140	
+R67	located_in Arg1:T100 Arg2:T140	

@@ -92,3 +92,69 @@ T91	anatomical_site 2661 2671	cerebellum
 T92	anatomical_site 2694 2698	bone
 T93	anatomical_site 2739 2744	serum
 T94	gene 2768 2775	trypsin
+T95	missed_gene 2699 2710	collagenase
+R1	located_in Arg1:T95 Arg2:T92	
+R2	located_in Arg1:T90 Arg2:T91	
+R3	located_in Arg1:T87 Arg2:T89	
+R4	located_in Arg1:T88 Arg2:T89	
+R5	located_in Arg1:T77 Arg2:T79	
+R6	located_in Arg1:T77 Arg2:T78	
+R7	located_in Arg1:T76 Arg2:T79	
+R8	located_in Arg1:T76 Arg2:T78	
+R9	located_in Arg1:T75 Arg2:T79	
+R10	located_in Arg1:T75 Arg2:T78	
+R11	located_in Arg1:T74 Arg2:T79	
+R12	located_in Arg1:T74 Arg2:T78	
+R13	located_in Arg1:T73 Arg2:T79	
+R14	located_in Arg1:T73 Arg2:T78	
+R15	located_in Arg1:T69 Arg2:T70	
+R16	located_in Arg1:T71 Arg2:T72	
+T96	missed_gene 1944 1949	CCL21
+R17	located_in Arg1:T96 Arg2:T64	
+R18	located_in Arg1:T65 Arg2:T64	
+R19	located_in Arg1:T66 Arg2:T64	
+R20	located_in Arg1:T67 Arg2:T64	
+R21	located_in Arg1:T68 Arg2:T64	
+R22	located_in Arg1:T59 Arg2:T62	
+R23	located_in Arg1:T60 Arg2:T62	
+R24	located_in Arg1:T61 Arg2:T62	
+R25	located_in Arg1:T56 Arg2:T55	
+R26	located_in Arg1:T56 Arg2:T58	
+#1	AnnotatorNotes R26	Okay?
+R27	located_in Arg1:T47 Arg2:T49	
+R28	located_in Arg1:T47 Arg2:T50	
+R29	located_in Arg1:T48 Arg2:T49	
+R30	located_in Arg1:T48 Arg2:T50	
+R31	located_in Arg1:T40 Arg2:T41	
+R32	located_in Arg1:T40 Arg2:T42	
+R33	located_in Arg1:T43 Arg2:T44	
+T97	corrected_anatomical_site 1205 1216	lung tissue
+R34	located_in Arg1:T36 Arg2:T97	
+R35	located_in Arg1:T35 Arg2:T97	
+T98	missed_gene 1159 1166	p67phox
+T99	missed_gene 1150 1157	p40phox
+T100	missed_gene 1141 1148	p47phox
+T101	missed_gene 1132 1139	p22phox
+R36	located_in Arg1:T98 Arg2:T97	
+R37	located_in Arg1:T99 Arg2:T97	
+R38	located_in Arg1:T100 Arg2:T97	
+R39	located_in Arg1:T101 Arg2:T97	
+R40	located_in Arg1:T34 Arg2:T97	
+R41	located_in Arg1:T33 Arg2:T97	
+R42	located_in Arg1:T32 Arg2:T97	
+R43	located_in Arg1:T30 Arg2:T31	
+R44	located_in Arg1:T29 Arg2:T31	
+R45	located_in Arg1:T27 Arg2:T26	
+R46	located_in Arg1:T28 Arg2:T26	
+R47	located_in Arg1:T22 Arg2:T21	
+R48	located_in Arg1:T23 Arg2:T21	
+T102	missed_gene 884 905	complement factors C3
+T103	missed_gene 884 902;910 912	complement factors C4
+R49	located_in Arg1:T102 Arg2:T21	
+R50	located_in Arg1:T103 Arg2:T21	
+R51	located_in Arg1:T17 Arg2:T18	
+R52	located_in Arg1:T16 Arg2:T18	
+R53	located_in Arg1:T13 Arg2:T14	
+R54	located_in Arg1:T12 Arg2:T14	
+T104	corrected_gene 468 476	CYP19A1A
+R56	located_in Arg1:T104 Arg2:T14	

@@ -66,8 +66,6 @@ R3	treats Arg1:T23 Arg2:T62
 R4	treats Arg1:T24 Arg2:T62	
 R6	treats Arg1:T57 Arg2:T58	
 T63	missed_disease_or_phenotypic_feature 88 104	Brain Metastases
-T64	corrected_disease_or_phenotypic_feature 1142 1158	oxidative damage
-R5	causes_or_contributes_to Arg1:T29 Arg2:T64	
 R7	causes_or_contributes_to Arg1:T29 Arg2:T31	
 T65	corrected_chemical 0 27	Multitargeted Nanoparticles
 T66	missed_chemical 36 53	Synergistic Drugs
@@ -80,3 +78,6 @@ R12	treats Arg1:T66 Arg2:T3
 R13	treats Arg1:T27 Arg2:T26	
 T68	missed_chemical 1038 1040	DA
 R14	treats Arg1:T68 Arg2:T26	
+R15	treats Arg1:T59 Arg2:T60	
+T64	missed_chemical 1111 1123	free radical
+R5	causes_or_contributes_to Arg1:T64 Arg2:T31	

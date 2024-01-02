@@ -91,9 +91,11 @@ T74	corrected_chemical 1858 1882	NPY receptor antagonists
 R17	treats Arg1:T74 Arg2:T51	
 R18	treats Arg1:T74 Arg2:T52	
 R19	treats Arg1:T68 Arg2:T67	
-T75	missed_disease_or_phenotypic_feature 1243 1272	pentetrazole-induced seizures
-R20	treats Arg1:T30 Arg2:T75	
+R20	treats Arg1:T30 Arg2:T31	
 T76	missed_disease_or_phenotypic_feature 1755 1761	tumors
 R21	causes_or_contributes_to Arg1:T44 Arg2:T76	
 T77	missed_disease_or_phenotypic_feature 1821 1826	tumor
 R22	causes_or_contributes_to Arg1:T47 Arg2:T77	
+R23	treats Arg1:T19 Arg2:T72	
+R24	treats Arg1:T69 Arg2:T67	
+R25	treats Arg1:T20 Arg2:T22	

@@ -90,3 +90,47 @@ T89	gene 3267 3273	CLASP2
 T90	cellular_component 3295 3306	microtubule
 T91	cellular_component 3347 3358	microtubule
 T92	gene 3427 3434	insulin
+T93	corrected_gene 186 217	amyloid precursor protein-Bace1
+R1	located_in Arg1:T93 Arg2:T7	
+T94	missed_gene 267 319	Glycosylphosphatidylinositol (GPI)-anchored proteins
+T95	corrected_gene 409 425	GPI transamidase
+T96	missed_gene 427 431	GPIT
+R2	located_in Arg1:T94 Arg2:T8	
+R3	located_in Arg1:T95 Arg2:T8	
+R4	located_in Arg1:T96 Arg2:T8	
+R5	located_in Arg1:T10 Arg2:T11	
+T97	missed_gene 434 485	Tumor necrosis factor receptor-associated protein-1
+R6	located_in Arg1:T97 Arg2:T11	
+T98	missed_cellular_component 514 518	MITO
+#1	AnnotatorNotes T98	okay?
+R7	located_in Arg1:T97 Arg2:T98	
+#2	AnnotatorNotes R7	Okay?
+R8	located_in Arg1:T10 Arg2:T98	
+R9	located_in Arg1:T19 Arg2:T21	
+R10	located_in Arg1:T26 Arg2:T28	
+R11	located_in Arg1:T30 Arg2:T31	
+T99	missed_gene 1263 1268	R653X
+R12	located_in Arg1:T99 Arg2:T31	
+R13	located_in Arg1:T33 Arg2:T35	
+R14	located_in Arg1:T34 Arg2:T35	
+R15	located_in Arg1:T34 Arg2:T36	
+R16	located_in Arg1:T33 Arg2:T36	
+T100	corrected_gene 1555 1567	KIF3 complex
+R17	located_in Arg1:T100 Arg2:T37	
+T101	corrected_gene 1653 1679	insulin signaling proteins
+T102	corrected_cellular_component 1724 1748	subcellular compartments
+R18	located_in Arg1:T41 Arg2:T102	
+R19	located_in Arg1:T101 Arg2:T102	
+R20	located_in Arg1:T49 Arg2:T50	
+R21	located_in Arg1:T48 Arg2:T50	
+R22	located_in Arg1:T51 Arg2:T52	
+T103	corrected_gene 2488 2504	EGFR variant III
+R23	located_in Arg1:T103 Arg2:T64	
+#4	AnnotatorNotes R23	Okay?
+T104	missed_gene 2506 2514	EGFRvIII
+R24	located_in Arg1:T104 Arg2:T64	
+#5	AnnotatorNotes R24	Okay?
+R25	located_in Arg1:T89 Arg2:T90	
+T105	missed_cellular_component 722 730	membrane
+R26	located_in Arg1:T17 Arg2:T105	
+R27	located_in Arg1:T18 Arg2:T105	

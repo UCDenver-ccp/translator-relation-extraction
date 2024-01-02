@@ -61,14 +61,11 @@ T60	disease_or_phenotypic_feature 2009 2022	heart failure
 T61	chemical 2075 2082	gelatin
 T62	chemical 2083 2087	gold
 T63	disease_or_phenotypic_feature 2179 2185	glioma
-T64	corrected_disease_or_phenotypic_feature 314 329	obese-MSG tumor
-T65	corrected_disease_or_phenotypic_feature 339 364	obese-MSG tumor metformin
-T66	corrected_disease_or_phenotypic_feature 638 662	hormone-dependent tumors
+T66	corrected_disease_or_phenotypic_feature 656 662	tumors
 T67	missed_disease_or_phenotypic_feature 679 691	hypertension
 T68	missed_disease_or_phenotypic_feature 711 730	glucose intolerance
 T69	missed_disease_or_phenotypic_feature 745 764	lipid abnormalities
-R1	treats Arg1:T34 Arg2:T33	
-T70	corrected_disease_or_phenotypic_feature 1049 1087	Tacrolimus-Induced Gingival Overgrowth
+R1	treats Arg1:T34 Arg2:T64	
 T71	missed_disease_or_phenotypic_feature 1323 1348	diaphragmatic dysfunction
 T72	missed_disease_or_phenotypic_feature 1557 1589	hypothalamic-pituitary disorders
 T73	missed_disease_or_phenotypic_feature 1604 1634	growth hormone (GH) deficiency
@@ -82,3 +79,15 @@ R5	causes_or_contributes_to Arg1:T27 Arg2:T29
 R6	causes_or_contributes_to Arg1:T22 Arg2:T66	
 T77	missed_disease_or_phenotypic_feature 795 801	tumors
 R7	causes_or_contributes_to Arg1:T27 Arg2:T77	
+T70	missed_chemical 1049 1059	Tacrolimus
+R8	causes_or_contributes_to Arg1:T70 Arg2:T36	
+R9	causes_or_contributes_to Arg1:T35 Arg2:T36	
+T64	corrected_disease_or_phenotypic_feature 929 948	tumor hypercalcemia
+R10	treats Arg1:T37 Arg2:T40	
+T65	corrected_chemical 1119 1148	5-hydroxytryptamine1A agonist
+R11	treats Arg1:T65 Arg2:T40	
+T78	missed_disease_or_phenotypic_feature 1391 1399	toxicity
+R12	causes_or_contributes_to Arg1:T45 Arg2:T78	
+R13	causes_or_contributes_to Arg1:T46 Arg2:T78	
+T79	corrected_chemical 1744 1754	chemo-drug
+R14	treats Arg1:T79 Arg2:T53	

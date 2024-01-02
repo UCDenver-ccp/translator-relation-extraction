@@ -87,3 +87,7 @@ T80	missed_disease_or_phenotypic_feature 12 39	Schizophrenia-like Symptoms
 R8	treats Arg1:T2 Arg2:T80	
 T81	corrected_disease_or_phenotypic_feature 792 810	myoclonus-dystonia
 R3	treats Arg1:T20 Arg2:T81	
+T82	corrected_disease_or_phenotypic_feature 1870 1880	dependence
+R9	causes_or_contributes_to Arg1:T51 Arg2:T82	
+T83	missed_disease_or_phenotypic_feature 2520 2528	diuretic
+R10	causes_or_contributes_to Arg1:T62 Arg2:T83	

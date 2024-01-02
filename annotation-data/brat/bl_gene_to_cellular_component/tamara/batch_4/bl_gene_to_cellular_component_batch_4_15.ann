@@ -95,3 +95,20 @@ T94	cellular_component 3230 3238	integrin
 T95	gene 3230 3238	integrin
 T96	gene 3291 3299	integrin
 T97	cellular_component 3291 3299	integrin
+R1	located_in Arg1:T24 Arg2:T25	
+R2	located_in Arg1:T33 Arg2:T35	
+#1	AnnotatorNotes R2	Okay?
+R3	located_in Arg1:T34 Arg2:T35	
+#2	AnnotatorNotes R3	Okay?
+R4	located_in Arg1:T44 Arg2:T43	
+R5	located_in Arg1:T55 Arg2:T56	
+R6	located_in Arg1:T61 Arg2:T62	
+#3	AnnotatorNotes R6	Okay?
+R7	located_in Arg1:T71 Arg2:T73	
+R8	located_in Arg1:T72 Arg2:T73	
+R9	located_in Arg1:T75 Arg2:T76	
+R10	located_in Arg1:T74 Arg2:T76	
+#4	AnnotatorNotes R10	Okay?
+R11	located_in Arg1:T66 Arg2:T70	
+#5	AnnotatorNotes R11	Okay?
+R12	located_in Arg1:T67 Arg2:T70	

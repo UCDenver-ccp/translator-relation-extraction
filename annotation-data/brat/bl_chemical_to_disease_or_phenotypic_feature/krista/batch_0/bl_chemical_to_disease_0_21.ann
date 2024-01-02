@@ -59,5 +59,13 @@ T53	missed_disease_or_phenotypic_feature 1756 1760	ANFH
 R6	causes_or_contributes_to Arg1:T26 Arg2:T53	
 R7	causes_or_contributes_to Arg1:T27 Arg2:T53	
 T54	missed_chemical 3274 3282	asbestos
-T55	corrected_disease_or_phenotypic_feature 3274 3298	asbestos-related disease
-R8	causes_or_contributes_to Arg1:T54 Arg2:T55	
+T56	corrected_chemical 831 842	Insecticide
+R9	treats Arg1:T56 Arg2:T15	
+R10	treats Arg1:T56 Arg2:T16	
+T57	missed_disease_or_phenotypic_feature 2370 2389	functional movement
+T58	missed_disease_or_phenotypic_feature 2395 2409	living quality
+R11	causes_or_contributes_to Arg1:T33 Arg2:T57	
+R12	causes_or_contributes_to Arg1:T33 Arg2:T58	
+T59	missed_disease_or_phenotypic_feature 2312 2335	neurological impairment
+R13	treats Arg1:T33 Arg2:T59	
+R14	causes_or_contributes_to Arg1:T54 Arg2:T46	

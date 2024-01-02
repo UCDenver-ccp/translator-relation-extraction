@@ -68,3 +68,27 @@ R4	treats Arg1:T26 Arg2:T63
 T64	missed_disease_or_phenotypic_feature 3320 3324	ASUC
 R5	treats Arg1:T58 Arg2:T64	
 R6	treats Arg1:T59 Arg2:T64	
+T65	missed_disease_or_phenotypic_feature 829 831	HE
+R7	treats Arg1:T9 Arg2:T65	
+R8	treats Arg1:T35 Arg2:T34	
+T66	missed_chemical 2653 2658	NT157
+T67	corrected_chemical 2661 2682	GF1R-IRS1/2 inhibitor
+T68	missed_chemical 2688 2695	OSI-906
+T69	corrected_chemical 2697 2715	IGF1R/IR inhibitor
+R9	treats Arg1:T66 Arg2:T39	
+R10	treats Arg1:T67 Arg2:T39	
+R11	treats Arg1:T68 Arg2:T39	
+R12	treats Arg1:T69 Arg2:T39	
+T70	missed_disease_or_phenotypic_feature 2594 2597	ALL
+R13	treats Arg1:T69 Arg2:T70	
+R14	treats Arg1:T68 Arg2:T70	
+R15	treats Arg1:T66 Arg2:T70	
+R16	treats Arg1:T67 Arg2:T70	
+T71	corrected_chemical 3373 3428	PLGA-KPV/MMT/CS multifunctional medicinal nanoparticles
+R17	treats Arg1:T71 Arg2:T64	
+R18	treats Arg1:T71 Arg2:T54	
+T72	corrected_chemical 3503 3526	mineral-medicinal water
+R19	treats Arg1:T72 Arg2:T62	
+T73	corrected_chemical 2626 2652	pharmacological inhibitors
+R20	treats Arg1:T73 Arg2:T70	
+R21	treats Arg1:T73 Arg2:T39	

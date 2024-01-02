@@ -99,3 +99,95 @@ T98	gene 3117 3130	interleukin-6
 T99	gene 3132 3136	IL-6
 T100	anatomical_site 3188 3193	blood
 T101	anatomical_site 3209 3222	hepatic veins
+R1	located_in Arg1:T6 Arg2:T5	
+R2	located_in Arg1:T6 Arg2:T4	
+R3	located_in Arg1:T19 Arg2:T20	
+R4	located_in Arg1:T24 Arg2:T23	
+R5	located_in Arg1:T25 Arg2:T23	
+R6	located_in Arg1:T26 Arg2:T23	
+R7	located_in Arg1:T27 Arg2:T23	
+R8	located_in Arg1:T28 Arg2:T23	
+T102	missed_gene 1029 1040;1046 1047	interleukin 6
+T103	missed_gene 1042 1044;1046 1047	IL 6
+T104	missed_gene 1067 1076	serpin E1
+T105	missed_gene 1096 1104	chemerin
+R9	located_in Arg1:T32 Arg2:T41	
+R10	located_in Arg1:T102 Arg2:T41	
+R11	located_in Arg1:T103 Arg2:T41	
+R12	located_in Arg1:T33 Arg2:T41	
+R13	located_in Arg1:T34 Arg2:T41	
+R14	located_in Arg1:T104 Arg2:T41	
+R15	located_in Arg1:T35 Arg2:T41	
+R16	located_in Arg1:T36 Arg2:T41	
+R17	located_in Arg1:T105 Arg2:T41	
+R18	located_in Arg1:T37 Arg2:T41	
+R19	located_in Arg1:T38 Arg2:T41	
+R20	located_in Arg1:T39 Arg2:T41	
+R21	located_in Arg1:T40 Arg2:T41	
+R22	located_in Arg1:T44 Arg2:T43	
+R23	located_in Arg1:T47 Arg2:T46	
+T106	missed_anatomical_site 1515 1526	endothelial
+R24	located_in Arg1:T48 Arg2:T106	
+R25	located_in Arg1:T48 Arg2:T50	
+R26	located_in Arg1:T49 Arg2:T106	
+R27	located_in Arg1:T49 Arg2:T50	
+R28	located_in Arg1:T48 Arg2:T51	
+R29	located_in Arg1:T49 Arg2:T51	
+T107	corrected_anatomical_site 1609 1636	atrioventricular myocardium
+R30	located_in Arg1:T48 Arg2:T107	
+R31	located_in Arg1:T49 Arg2:T107	
+R32	located_in Arg1:T54 Arg2:T53	
+T108	corrected_anatomical_site 1704 1739	neuropil of the granular cell layer
+#1	AnnotatorNotes T108	okay?
+T109	missed_anatomical_site 1692 1699	neurons
+#2	AnnotatorNotes T109	okay?
+R33	located_in Arg1:T54 Arg2:T109	
+R34	located_in Arg1:T54 Arg2:T108	
+R35	located_in Arg1:T57 Arg2:T60	
+R36	located_in Arg1:T58 Arg2:T60	
+T110	corrected_gene 1814 1819	EGF-R
+R37	located_in Arg1:T110 Arg2:T60	
+T111	corrected_gene 1885 1890	EGF-R
+R38	located_in Arg1:T61 Arg2:T63	
+R39	located_in Arg1:T111 Arg2:T63	
+R40	located_in Arg1:T64 Arg2:T67	
+R41	located_in Arg1:T65 Arg2:T67	
+R42	located_in Arg1:T69 Arg2:T68	
+R43	located_in Arg1:T70 Arg2:T68	
+R44	located_in Arg1:T71 Arg2:T68	
+R45	located_in Arg1:T72 Arg2:T68	
+R46	located_in Arg1:T73 Arg2:T68	
+R47	located_in Arg1:T74 Arg2:T68	
+T112	missed_gene 2223 2230	amylase
+R48	located_in Arg1:T112 Arg2:T68	
+R49	located_in Arg1:T77 Arg2:T76	
+R50	located_in Arg1:T78 Arg2:T76	
+R51	located_in Arg1:T79 Arg2:T76	
+T113	missed_gene 2426 2433	ACCbeta
+R52	located_in Arg1:T113 Arg2:T80	
+R53	located_in Arg1:T82 Arg2:T83	
+T114	corrected_gene 2482 2502	TIFA-related protein
+R54	located_in Arg1:T114 Arg2:T83	
+R55	located_in Arg1:T84 Arg2:T83	
+R56	located_in Arg1:T85 Arg2:T86	
+T115	corrected_anatomical_site 2678 2692	cardiac tissue
+R57	located_in Arg1:T85 Arg2:T115	
+T116	corrected_anatomical_site 2835 2859	CA1 pyramidal cell layer
+T117	corrected_anatomical_site 2867 2885	dorsal hippocampus
+R58	located_in Arg1:T90 Arg2:T89	
+R59	located_in Arg1:T90 Arg2:T116	
+R60	located_in Arg1:T90 Arg2:T117	
+T118	corrected_anatomical_site 2994 3007	breast tissue
+T119	missed_gene 2923 2931	c-erbB-2
+R61	located_in Arg1:T119 Arg2:T118	
+R62	located_in Arg1:T93 Arg2:T118	
+R63	located_in Arg1:T96 Arg2:T100	
+R64	located_in Arg1:T97 Arg2:T100	
+R65	located_in Arg1:T98 Arg2:T100	
+R66	located_in Arg1:T99 Arg2:T100	
+R67	located_in Arg1:T99 Arg2:T101	
+R68	located_in Arg1:T98 Arg2:T101	
+R69	located_in Arg1:T97 Arg2:T101	
+R70	located_in Arg1:T96 Arg2:T101	
+T120	corrected_anatomical_site 918 933	prostate tissue
+R71	located_in Arg1:T29 Arg2:T120	

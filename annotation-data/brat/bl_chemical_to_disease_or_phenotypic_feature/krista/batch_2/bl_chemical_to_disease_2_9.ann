@@ -59,7 +59,6 @@ T58	disease_or_phenotypic_feature 3278 3300	acute myeloid leukemia
 T59	chemical 3332 3341	bilirubin
 T60	disease_or_phenotypic_feature 3516 3521	tumor
 T61	chemical 3587 3594	cocaine
-T62	corrected_disease_or_phenotypic_feature 3587 3608	cocaine use disorders
 T63	disease_or_phenotypic_feature 3599 3608	disorders
 T64	disease_or_phenotypic_feature 3680 3683	men
 R1	treats Arg1:T1 Arg2:T3
@@ -68,6 +67,16 @@ R3	treats Arg1:T45 Arg2:T49
 R4	treats Arg1:T45 Arg2:T48
 R5	treats Arg1:T27 Arg2:T28
 R6	treats Arg1:T2 Arg2:T3
-R7	causes_or_contributes_to Arg1:T61 Arg2:T62
+R7	causes_or_contributes_to Arg1:T61 Arg2:T63
 T65	corrected_disease_or_phenotypic_feature 739 748	influenza
-R8	treats Arg1:T12 Arg2:T65	
+T66	missed_chemical 710 720	brevilin A
+R9	treats Arg1:T66 Arg2:T65	
+T67	missed_disease_or_phenotypic_feature 1672 1693	recovered body weight
+R10	causes_or_contributes_to Arg1:T27 Arg2:T67	
+R11	treats Arg1:T45 Arg2:T50	
+R12	treats Arg1:T45 Arg2:T51	
+T62	missed_disease_or_phenotypic_feature 2791 2818	cardiovascular risk factors
+R13	treats Arg1:T45 Arg2:T62	
+T68	corrected_chemical 3168 3182	EZH2 inhibitor
+R14	treats Arg1:T68 Arg2:T57	
+R15	treats Arg1:T68 Arg2:T58	

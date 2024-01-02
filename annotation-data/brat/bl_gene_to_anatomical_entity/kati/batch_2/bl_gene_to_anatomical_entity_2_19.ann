@@ -116,3 +116,100 @@ T115	anatomical_site 2868 2873	serum
 T116	gene 2892 2898	leptin
 T117	gene 2900 2911	adiponectin
 T118	gene 2916 2924	resistin
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T1 Arg2:T4	
+R3	located_in Arg1:T2 Arg2:T3	
+R4	located_in Arg1:T2 Arg2:T4	
+T119	missed_anatomical_site 216 219	CCS
+R5	located_in Arg1:T7 Arg2:T6	
+R6	located_in Arg1:T7 Arg2:T119	
+R7	located_in Arg1:T8 Arg2:T6	
+R8	located_in Arg1:T8 Arg2:T119	
+R9	located_in Arg1:T9 Arg2:T6	
+R10	located_in Arg1:T9 Arg2:T119	
+R11	located_in Arg1:T7 Arg2:T10	
+R12	located_in Arg1:T8 Arg2:T10	
+R13	located_in Arg1:T9 Arg2:T10	
+R14	located_in Arg1:T11 Arg2:T13	
+R15	located_in Arg1:T12 Arg2:T13	
+R16	located_in Arg1:T11 Arg2:T14	
+R17	located_in Arg1:T12 Arg2:T14	
+R18	located_in Arg1:T15 Arg2:T17	
+R19	located_in Arg1:T16 Arg2:T17	
+T120	missed_gene 454 457	SV3
+R20	located_in Arg1:T120 Arg2:T20	
+T121	corrected_gene 471 495	smooth muscle archvillin
+T122	missed_gene 499 503	SmAV
+R21	located_in Arg1:T121 Arg2:T20	
+R22	located_in Arg1:T122 Arg2:T20	
+R23	located_in Arg1:T121 Arg2:T18	
+R24	located_in Arg1:T122 Arg2:T18	
+R25	located_in Arg1:T120 Arg2:T18	
+T123	corrected_anatomical_site 600 623;624 639	autonomic nerves of the embryonic heart
+T124	corrected_anatomical_site 589 595;617 623;624 639	valves of the embryonic heart
+R26	located_in Arg1:T21 Arg2:T124	
+R27	located_in Arg1:T22 Arg2:T124	
+R28	located_in Arg1:T23 Arg2:T124	
+R29	located_in Arg1:T21 Arg2:T123	
+R30	located_in Arg1:T22 Arg2:T123	
+R31	located_in Arg1:T23 Arg2:T123	
+R32	located_in Arg1:T27 Arg2:T26	
+R33	located_in Arg1:T29 Arg2:T28	
+T125	corrected_anatomical_site 757 769	heart tissue
+R34	located_in Arg1:T32 Arg2:T125	
+R35	located_in Arg1:T33 Arg2:T125	
+R36	located_in Arg1:T34 Arg2:T125	
+R37	located_in Arg1:T35 Arg2:T125	
+T126	missed_anatomical_site 817 823;839 846	aortic vessels
+T127	missed_anatomical_site 828 838;839 846	mesenteric vessels
+T128	corrected_gene 985 994	eotaxin-1
+T129	missed_gene 980 984	CC11
+R38	located_in Arg1:T40 Arg2:T39	
+R39	located_in Arg1:T41 Arg2:T39	
+R40	located_in Arg1:T129 Arg2:T39	
+R41	located_in Arg1:T128 Arg2:T39	
+R42	located_in Arg1:T43 Arg2:T39	
+R43	located_in Arg1:T44 Arg2:T39	
+R44	located_in Arg1:T48 Arg2:T47	
+T130	missed_anatomical_site 1182 1189	hepatic
+R45	located_in Arg1:T51 Arg2:T130	
+T131	corrected_anatomical_site 1249 1262	kidney tissue
+R46	located_in Arg1:T55 Arg2:T131	
+R47	located_in Arg1:T56 Arg2:T131	
+R51	located_in Arg1:T57 Arg2:T61	
+R52	located_in Arg1:T58 Arg2:T61	
+R53	located_in Arg1:T59 Arg2:T61	
+R54	located_in Arg1:T63 Arg2:T67	
+R55	located_in Arg1:T64 Arg2:T67	
+R56	located_in Arg1:T65 Arg2:T67	
+R57	located_in Arg1:T66 Arg2:T67	
+T132	corrected_anatomical_site 1846 1866	guard-hair follicles
+R58	located_in Arg1:T75 Arg2:T132	
+R59	located_in Arg1:T80 Arg2:T81	
+R60	located_in Arg1:T80 Arg2:T83	
+R61	located_in Arg1:T84 Arg2:T83	
+R62	located_in Arg1:T85 Arg2:T83	
+R63	located_in Arg1:T86 Arg2:T83	
+R64	located_in Arg1:T87 Arg2:T83	
+R69	located_in Arg1:T97 Arg2:T98	
+R70	located_in Arg1:T97 Arg2:T99	
+R71	located_in Arg1:T97 Arg2:T100	
+T133	missed_gene 2458 2475	bone sialoprotein
+R72	located_in Arg1:T133 Arg2:T102	
+T134	missed_gene 2480 2508	bone morphogenetic protein 6
+R73	located_in Arg1:T134 Arg2:T103	
+R74	located_in Arg1:T106 Arg2:T110	
+R75	located_in Arg1:T107 Arg2:T110	
+R76	located_in Arg1:T108 Arg2:T110	
+R77	located_in Arg1:T116 Arg2:T115	
+R78	located_in Arg1:T117 Arg2:T115	
+R79	located_in Arg1:T118 Arg2:T115	
+R80	located_in Arg1:T36 Arg2:T126	
+R81	located_in Arg1:T36 Arg2:T127	
+R82	located_in Arg1:T37 Arg2:T127	
+R83	located_in Arg1:T37 Arg2:T126	
+R48	located_in Arg1:T49 Arg2:T50	
+R49	located_in Arg1:T55 Arg2:T52	
+R50	located_in Arg1:T56 Arg2:T52	
+T135	missed_anatomical_site 1772 1779	mucosal
+R65	located_in Arg1:T75 Arg2:T135	

@@ -110,3 +110,94 @@ T109	anatomical_site 2915 2921	tissue
 T110	gene 2922 2933	adiponectin
 T111	anatomical_site 2957 2962	serum
 T112	gene 2963 2974	adiponectin
+R1	located_in Arg1:T2 Arg2:T1	
+T113	corrected_gene 90 96	Cav1.2
+R2	located_in Arg1:T113 Arg2:T3	
+R3	located_in Arg1:T11 Arg2:T12	
+R4	located_in Arg1:T11 Arg2:T13	
+R5	located_in Arg1:T11 Arg2:T14	
+R6	located_in Arg1:T15 Arg2:T16	
+R7	located_in Arg1:T15 Arg2:T17	
+T114	corrected_anatomical_site 471 483	renal tissue
+R8	located_in Arg1:T18 Arg2:T19	
+R9	located_in Arg1:T18 Arg2:T114	
+T115	corrected_anatomical_site 555 567	brain tissue
+R10	located_in Arg1:T21 Arg2:T115	
+R11	located_in Arg1:T22 Arg2:T115	
+R12	located_in Arg1:T27 Arg2:T26	
+T116	missed_gene 953 959	GLUT-3
+R13	located_in Arg1:T116 Arg2:T39	
+R14	located_in Arg1:T41 Arg2:T40	
+R15	located_in Arg1:T43 Arg2:T42	
+R16	located_in Arg1:T48 Arg2:T47	
+T117	missed_gene 1138 1144	GLUT-4
+R17	located_in Arg1:T117 Arg2:T47	
+R18	located_in Arg1:T48 Arg2:T45	
+R19	located_in Arg1:T48 Arg2:T46	
+R20	located_in Arg1:T117 Arg2:T45	
+R21	located_in Arg1:T117 Arg2:T46	
+T118	missed_gene 1288 1311	Tumor Necrosis Factor ?
+R22	located_in Arg1:T51 Arg2:T50	
+R23	located_in Arg1:T52 Arg2:T50	
+R24	located_in Arg1:T118 Arg2:T50	
+R26	located_in Arg1:T51 Arg2:T54	
+R27	located_in Arg1:T52 Arg2:T54	
+R28	located_in Arg1:T118 Arg2:T54	
+R30	located_in Arg1:T55 Arg2:T56	
+R31	located_in Arg1:T59 Arg2:T57	
+T119	corrected_gene 1584 1610	dystrophin-related protein
+R32	located_in Arg1:T119 Arg2:T57	
+T120	corrected_anatomical_site 1714 1733	muscle vessel walls
+T121	missed_anatomical_site 1745 1771;1778 1785	neuromuscular junctions of tissues
+T122	corrected_gene 1676 1702	dystrophin-related protein
+R33	located_in Arg1:T122 Arg2:T120	
+R34	located_in Arg1:T122 Arg2:T121	
+T123	corrected_gene 2011 2049	intercellular cell adhesion molecule-1
+T124	missed_anatomical_site 2143 2153	arterioles
+R35	located_in Arg1:T71 Arg2:T124	
+R36	located_in Arg1:T71 Arg2:T79	
+R37	located_in Arg1:T72 Arg2:T124	
+R38	located_in Arg1:T72 Arg2:T79	
+R39	located_in Arg1:T123 Arg2:T124	
+R40	located_in Arg1:T123 Arg2:T79	
+R41	located_in Arg1:T74 Arg2:T124	
+R42	located_in Arg1:T74 Arg2:T79	
+T125	corrected_gene 2064 2097	vascular cell adhesion molecule-1
+R43	located_in Arg1:T76 Arg2:T75	
+R44	located_in Arg1:T77 Arg2:T75	
+R45	located_in Arg1:T125 Arg2:T124	
+R46	located_in Arg1:T125 Arg2:T79	
+R47	located_in Arg1:T77 Arg2:T124	
+R48	located_in Arg1:T77 Arg2:T79	
+T126	corrected_anatomical_site 2277 2289	brain tissue
+T127	missed_gene 2189 2194	Botch
+R49	located_in Arg1:T127 Arg2:T126	
+R50	located_in Arg1:T80 Arg2:T126	
+R51	located_in Arg1:T81 Arg2:T126	
+T128	missed_gene 2433 2436	MVP
+T129	corrected_anatomical_site 2475 2489	stomach tissue
+R52	located_in Arg1:T128 Arg2:T129	
+R53	located_in Arg1:T89 Arg2:T129	
+R54	located_in Arg1:T96 Arg2:T99	
+R55	located_in Arg1:T96 Arg2:T100	
+R56	located_in Arg1:T96 Arg2:T101	
+T130	missed_anatomical_site 2725 2730	colon
+R57	located_in Arg1:T96 Arg2:T130	
+R58	located_in Arg1:T97 Arg2:T99	
+R59	located_in Arg1:T97 Arg2:T100	
+R60	located_in Arg1:T97 Arg2:T101	
+R61	located_in Arg1:T97 Arg2:T130	
+R62	located_in Arg1:T98 Arg2:T99	
+R63	located_in Arg1:T98 Arg2:T100	
+R64	located_in Arg1:T98 Arg2:T101	
+R65	located_in Arg1:T98 Arg2:T130	
+R66	located_in Arg1:T110 Arg2:T109	
+R67	located_in Arg1:T112 Arg2:T111	
+T131	corrected_gene 1622 1656	dystrophin-related protein isoform
+R68	located_in Arg1:T131 Arg2:T57	
+T132	missed_anatomical_site 109 118	cartilage
+R69	located_in Arg1:T5 Arg2:T132	
+R70	located_in Arg1:T6 Arg2:T132	
+T133	corrected_gene 1317 1347	stromal cell-derived factor-1?
+R25	located_in Arg1:T133 Arg2:T50	
+R29	located_in Arg1:T133 Arg2:T54	

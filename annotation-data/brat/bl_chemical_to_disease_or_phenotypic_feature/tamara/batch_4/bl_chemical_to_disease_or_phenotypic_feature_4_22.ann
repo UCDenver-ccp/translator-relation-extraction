@@ -61,10 +61,6 @@ T60	chemical 2662 2670	estrogen
 T61	disease_or_phenotypic_feature 2671 2680	dependent
 T62	disease_or_phenotypic_feature 2699 2708	pneumonia
 T63	chemical 2713 2719	oxygen
-T64	corrected_chemical 403 409	Snail1
-R1	causes_or_contributes_to Arg1:T64 Arg2:T9	
-T65	missed_disease_or_phenotypic_feature 513 523	metastasis
-R2	causes_or_contributes_to Arg1:T64 Arg2:T65	
 R3	causes_or_contributes_to Arg1:T11 Arg2:T13	
 T66	missed_disease_or_phenotypic_feature 699 707	insomnia
 T67	missed_disease_or_phenotypic_feature 678 684	nausea
@@ -102,3 +98,32 @@ R25	causes_or_contributes_to Arg1:T52 Arg2:T76
 R26	treats Arg1:T63 Arg2:T62	
 R27	treats Arg1:T27 Arg2:T26	
 T77	DONE 2731 2735	DONE
+T78	corrected_chemical 282 310	serotonin reuptake inhibitor
+R28	causes_or_contributes_to Arg1:T78 Arg2:T5	
+R29	causes_or_contributes_to Arg1:T12 Arg2:T13	
+T79	missed_disease_or_phenotypic_feature 450 455	tumor
+R1	treats Arg1:T10 Arg2:T79	
+R2	treats Arg1:T10 Arg2:T9	
+R30	causes_or_contributes_to Arg1:T21 Arg2:T22	
+R31	causes_or_contributes_to Arg1:T21 Arg2:T23	
+R32	causes_or_contributes_to Arg1:T21 Arg2:T24	
+T64	missed_disease_or_phenotypic_feature 886 892	nausea
+T65	missed_disease_or_phenotypic_feature 934 941	fatigue
+T80	missed_disease_or_phenotypic_feature 860 874	adverse events
+T81	missed_disease_or_phenotypic_feature 876 879	AEs
+R33	causes_or_contributes_to Arg1:T21 Arg2:T80	
+R34	causes_or_contributes_to Arg1:T21 Arg2:T81	
+R35	causes_or_contributes_to Arg1:T21 Arg2:T64	
+R36	causes_or_contributes_to Arg1:T21 Arg2:T65	
+T82	missed_disease_or_phenotypic_feature 1542 1556	hepatic tumors
+R37	treats Arg1:T34 Arg2:T82	
+R38	causes_or_contributes_to Arg1:T48 Arg2:T47	
+R39	causes_or_contributes_to Arg1:T49 Arg2:T47	
+T83	missed_disease_or_phenotypic_feature 2681 2687	tumors
+R40	causes_or_contributes_to Arg1:T60 Arg2:T83	
+R41	causes_or_contributes_to Arg1:T60 Arg2:T59	
+T84	missed_disease_or_phenotypic_feature 543 556	antipsychotic
+R42	causes_or_contributes_to Arg1:T11 Arg2:T84	
+R43	causes_or_contributes_to Arg1:T12 Arg2:T84	
+T85	missed_disease_or_phenotypic_feature 1205 1210	tumor
+R44	treats Arg1:T28 Arg2:T85	

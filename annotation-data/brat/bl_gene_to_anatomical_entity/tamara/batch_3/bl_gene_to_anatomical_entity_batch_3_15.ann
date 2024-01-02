@@ -188,3 +188,17 @@ R53	located_in Arg1:T97 Arg2:T95
 R54	located_in Arg1:T97 Arg2:T96	
 #15	AnnotatorNotes R54	Okay?
 R55	located_in Arg1:T102 Arg2:T104	
+T121	DONE 2836 2840	d hi
+R56	located_in Arg1:T28 Arg2:T29	
+#16	AnnotatorNotes R56	Okay?
+R57	located_in Arg1:T30 Arg2:T29	
+#17	AnnotatorNotes R57	Okay?
+R58	located_in Arg1:T26 Arg2:T29	
+#18	AnnotatorNotes R58	Okay?
+R59	located_in Arg1:T86 Arg2:T87	
+#19	AnnotatorNotes R59	Okay?
+R60	located_in Arg1:T85 Arg2:T87	
+T122	missed_gene 2572 2577	Snail
+R61	located_in Arg1:T122 Arg2:T87	
+R62	located_in Arg1:T84 Arg2:T87	
+R63	located_in Arg1:T83 Arg2:T87	

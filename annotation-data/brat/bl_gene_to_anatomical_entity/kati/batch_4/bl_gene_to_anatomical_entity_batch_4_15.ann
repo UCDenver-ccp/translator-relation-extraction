@@ -97,3 +97,65 @@ T96	gene 2883 2890	insulin
 T97	gene 2895 2903	glucagon
 T98	anatomical_site 2911 2916	blood
 T99	anatomical_site 2961 2975	gastric mucosa
+R1	located_in Arg1:T7 Arg2:T8	
+T100	corrected_anatomical_site 435 450	embryonic gonad
+T101	corrected_anatomical_site 435 444;452 463	embryonic spinal cord
+T102	corrected_anatomical_site 435 444;465 469	embryonic lung
+T103	corrected_anatomical_site 435 444;474 487	embryonic adrenal gland
+R2	located_in Arg1:T18 Arg2:T100	
+R3	located_in Arg1:T18 Arg2:T101	
+R4	located_in Arg1:T18 Arg2:T102	
+R5	located_in Arg1:T18 Arg2:T103	
+T104	corrected_anatomical_site 371 387	embryonic kidney
+R6	located_in Arg1:T18 Arg2:T104	
+T105	missed_anatomical_site 756 765	cutaneous
+R7	located_in Arg1:T26 Arg2:T105	
+R8	located_in Arg1:T28 Arg2:T106	
+T107	corrected_gene 853 873	Protein kinase C eta
+T108	missed_gene 875 883	nPKC eta
+R9	located_in Arg1:T107 Arg2:T34	
+R10	located_in Arg1:T107 Arg2:T35	
+R11	located_in Arg1:T107 Arg2:T36	
+R12	located_in Arg1:T108 Arg2:T34	
+R13	located_in Arg1:T108 Arg2:T35	
+R14	located_in Arg1:T108 Arg2:T36	
+R15	located_in Arg1:T39 Arg2:T38	
+T109	missed_anatomical_site 1007 1010	SAT
+R16	located_in Arg1:T37 Arg2:T109	
+T110	missed_anatomical_site 1184 1192	cerebral
+T111	missed_gene 1153 1158	IFN-γ
+R17	located_in Arg1:T111 Arg2:T110	
+R18	located_in Arg1:T40 Arg2:T110	
+R19	located_in Arg1:T41 Arg2:T110	
+R20	located_in Arg1:T42 Arg2:T110	
+R21	located_in Arg1:T49 Arg2:T48	
+T112	corrected_gene 1696 1711	collagen type I
+R22	located_in Arg1:T112 Arg2:T56	
+T113	missed_gene 1737 1741	CD44
+T114	missed_gene 1744 1748	CD90
+T115	missed_gene 1754 1759	CD105
+R23	located_in Arg1:T113 Arg2:T61	
+R24	located_in Arg1:T114 Arg2:T61	
+R25	located_in Arg1:T115 Arg2:T61	
+R29	located_in Arg1:T65 Arg2:T67	
+R30	located_in Arg1:T65 Arg2:T68	
+R31	located_in Arg1:T65 Arg2:T69	
+T118	missed_gene 2107 2133	pro-inflammatory cytokines
+R32	located_in Arg1:T118 Arg2:T70	
+R33	located_in Arg1:T71 Arg2:T70	
+R34	located_in Arg1:T72 Arg2:T70	
+R35	located_in Arg1:T73 Arg2:T70	
+R36	located_in Arg1:T74 Arg2:T70	
+R37	located_in Arg1:T85 Arg2:T86	
+R38	located_in Arg1:T82 Arg2:T81	
+R39	located_in Arg1:T83 Arg2:T81	
+R40	located_in Arg1:T84 Arg2:T81	
+R41	located_in Arg1:T87 Arg2:T89	
+R42	located_in Arg1:T87 Arg2:T90	
+R43	located_in Arg1:T88 Arg2:T89	
+R44	located_in Arg1:T88 Arg2:T90	
+R45	located_in Arg1:T95 Arg2:T98	
+R46	located_in Arg1:T96 Arg2:T98	
+R47	located_in Arg1:T97 Arg2:T98	
+T106	corrected_anatomical_site 802 830	intra-epidermal nerve fibres
+R48	located_in Arg1:T28 Arg2:T30	

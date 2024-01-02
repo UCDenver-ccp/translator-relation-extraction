@@ -78,7 +78,6 @@ R7	treats Arg1:T65 Arg2:T62
 R9	treats Arg1:T9 Arg2:T8
 R10	causes_or_contributes_to Arg1:T9 Arg2:T7
 R12	treats Arg1:T48 Arg2:T50
-R13	treats Arg1:T51 Arg2:T52
 R14	treats Arg1:T49 Arg2:T50
 R15	FIXME Arg1:T10 Arg2:T8
 T72	missed_disease_or_phenotypic_feature 556 577	cartilage destruction
@@ -86,3 +85,8 @@ R16	treats Arg1:T16 Arg2:T72
 T73	missed_chemical 377 380	BLM
 R8	treats Arg1:T73 Arg2:T8	
 R17	causes_or_contributes_to Arg1:T73 Arg2:T7	
+R2	treats Arg1:T43 Arg2:T46	
+T74	missed_disease_or_phenotypic_feature 1172 1189	lung inflammation
+T75	missed_disease_or_phenotypic_feature 1194 1219	Trichuris Muris infection
+R11	treats Arg1:T27 Arg2:T74	
+R18	treats Arg1:T27 Arg2:T75	

@@ -77,17 +77,36 @@ T72	corrected_chemical 875 897	somatostatin analogues
 R9	treats Arg1:T72 Arg2:T71	
 R10	treats Arg1:T27 Arg2:T71	
 T73	corrected_chemical 1233 1246	MYC inhibitor
-T75	missed_disease_or_phenotypic_feature 1353 1378	estrogen-dependent tumors
+T75	missed_disease_or_phenotypic_feature 1372 1378	tumors
 R12	treats Arg1:T41 Arg2:T75	
 T77	missed_disease_or_phenotypic_feature 1489 1494	tumor
-T79	corrected_chemical 1589 1598;1620 1635	synthetic A2AR antagonist
+T79	corrected_chemical 1589 1603	synthetic drug
 R11	treats Arg1:T73 Arg2:T40	
-R6	causes_or_contributes_to Arg1:T21 Arg2:T22	
-T74	corrected_chemical 1612 1659	natural A2AR antagonist 1,3,7-trimethylxanthine
+T74	corrected_chemical 1612 1635	natural A2AR antagonist
 R7	treats Arg1:T79 Arg2:T77	
 R13	treats Arg1:T74 Arg2:T77	
 R14	treats Arg1:T50 Arg2:T77	
 R15	treats Arg1:T49 Arg2:T77	
-T69	missed_disease_or_phenotypic_feature 1420 1439;1443 1456	undesirable effects breast cancer
-R3	treats Arg1:T41 Arg2:T69	
+T69	missed_disease_or_phenotypic_feature 1420 1456	undesirable effects in breast cancer
+R3	treats Arg1:T41 Arg2:T45	
 T76	DONE 2183 2187	DONE
+R16	causes_or_contributes_to Arg1:T7 Arg2:T8	
+R17	causes_or_contributes_to Arg1:T68 Arg2:T6	
+R18	causes_or_contributes_to Arg1:T68 Arg2:T4	
+T78	missed_disease_or_phenotypic_feature 626 634	rigidity
+R19	causes_or_contributes_to Arg1:T18 Arg2:T78	
+R6	treats Arg1:T24 Arg2:T25	
+R20	causes_or_contributes_to Arg1:T31 Arg2:T29	
+R21	causes_or_contributes_to Arg1:T42 Arg2:T75	
+T80	corrected_chemical 1393 1409	estrogen agonist
+R22	causes_or_contributes_to Arg1:T80 Arg2:T69	
+R23	causes_or_contributes_to Arg1:T41 Arg2:T69	
+R24	treats Arg1:T80 Arg2:T45	
+T81	corrected_chemical 80 101	factor VIII inhibitor
+T82	missed_disease_or_phenotypic_feature 8 26	orbital hemorrhage
+R25	causes_or_contributes_to Arg1:T81 Arg2:T82	
+T83	missed_disease_or_phenotypic_feature 544 549	tumor
+T84	missed_disease_or_phenotypic_feature 566 571	block
+R26	treats Arg1:T15 Arg2:T83	
+R27	treats Arg1:T15 Arg2:T84	
+R28	causes_or_contributes_to Arg1:T17 Arg2:T78	

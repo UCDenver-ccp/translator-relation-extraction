@@ -40,12 +40,11 @@ T39	disease_or_phenotypic_feature 2161 2164	LGs
 T40	disease_or_phenotypic_feature 2184 2191	Obesity
 T41	chemical 2203 2213	anesthesia
 T42	chemical 2257 2263	copper
-T43	corrected_chemical 2257 2269	copper oxide
+T43	corrected_chemical 2257 2283	copper oxide nanoparticles
 T44	chemical 2264 2269	oxide
 T45	chemical 2270 2283	nanoparticles
 T46	chemical 2326 2333	alloxan
 T47	chemical 2342 2351	oxidative
-T48	missed_disease_or_phenotypic_feature 2342 2358	oxidative stress
 T49	disease_or_phenotypic_feature 2385 2391	injury
 T50	chemical 2496 2501	group
 T51	disease_or_phenotypic_feature 2505 2517	Lyme disease
@@ -68,8 +67,8 @@ T68	chemical 3268 3278	hemoglobin
 T69	chemical 3280 3285	HbA1c
 T70	chemical 3366 3370	zinc
 T71	chemical 3375 3380	lipid
-R1	causes_or_contributes_to Arg1:T43 Arg2:T48
-R2	causes_or_contributes_to Arg1:T46 Arg2:T48
+R1	causes_or_contributes_to Arg1:T43 Arg2:T75
+R2	causes_or_contributes_to Arg1:T46 Arg2:T75
 R5	causes_or_contributes_to Arg1:T13 Arg2:T9
 R6	causes_or_contributes_to Arg1:T13 Arg2:T11
 T72	missed_disease_or_phenotypic_feature 521 523	DK
@@ -81,3 +80,16 @@ R9	causes_or_contributes_to Arg1:T74 Arg2:T9
 R10	causes_or_contributes_to Arg1:T74 Arg2:T72	
 R11	causes_or_contributes_to Arg1:T74 Arg2:T73	
 R12	causes_or_contributes_to Arg1:T74 Arg2:T11	
+T62	missed_disease_or_phenotypic_feature 1013 1034	magnetic hyperthermia
+R3	causes_or_contributes_to Arg1:T18 Arg2:T62	
+T75	missed_disease_or_phenotypic_feature 2377 2391	cardiac injury
+R4	treats Arg1:T63 Arg2:T64	
+T48	missed_disease_or_phenotypic_feature 3098 3114	Cardiac Toxicity
+R13	causes_or_contributes_to Arg1:T63 Arg2:T48	
+R14	treats Arg1:T18 Arg2:T20	
+T76	missed_disease_or_phenotypic_feature 1054 1097	methicillin-resistant Staphylococcus aureus
+R15	treats Arg1:T18 Arg2:T76	
+T77	corrected_chemical 2706 2723	tissue inhibitors
+R16	treats Arg1:T77 Arg2:T53	
+T78	missed_chemical 2725 2730	TIMPs
+R17	treats Arg1:T78 Arg2:T53	

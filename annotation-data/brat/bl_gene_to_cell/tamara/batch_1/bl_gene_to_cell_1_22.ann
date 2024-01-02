@@ -98,3 +98,49 @@ T97	gene 2674 2678	CD43
 T98	gene 2680 2691	sialophorin
 T99	gene 2692 2703	leukosialin
 T100	cell_type 2767 2773	T cell
+T101	missed_cell_type 127 156	trophoblast uninucleate cells
+R1	located_in Arg1:T3 Arg2:T101	
+T102	corrected_cell_type 127 138;161 177	trophoblast binucleate cells
+R2	located_in Arg1:T3 Arg2:T102	
+T103	missed_gene 219 225	COL6A3
+R3	located_in Arg1:T103 Arg2:T6	
+T104	missed_gene 436 460	Fibroblast Growth Factor
+R6	located_in Arg1:T26 Arg2:T27	
+T106	missed_cell_type 885 887;898 903	BM cells
+R7	located_in Arg1:T30 Arg2:T106	
+R8	located_in Arg1:T33 Arg2:T35	
+R9	located_in Arg1:T33 Arg2:T34	
+R10	located_in Arg1:T36 Arg2:T37	
+R11	located_in Arg1:T33 Arg2:T34	
+R12	located_in Arg1:T41 Arg2:T40	
+R13	located_in Arg1:T42 Arg2:T40	
+T107	corrected_gene 1235 1241	SSEA-1
+R14	located_in Arg1:T107 Arg2:T40	
+R15	located_in Arg1:T44 Arg2:T45	
+R16	located_in Arg1:T44 Arg2:T46	
+R17	located_in Arg1:T47 Arg2:T48	
+T108	missed_gene 1386 1391	SM-20
+R18	located_in Arg1:T108 Arg2:T50	
+R19	located_in Arg1:T52 Arg2:T51	
+R20	located_in Arg1:T59 Arg2:T58	
+R21	located_in Arg1:T60 Arg2:T61	
+R22	located_in Arg1:T60 Arg2:T62	
+R23	located_in Arg1:T59 Arg2:T61	
+R24	located_in Arg1:T59 Arg2:T62	
+T109	missed_cell_type 1835 1851	oligodendrocytic
+R25	located_in Arg1:T64 Arg2:T109	
+R26	located_in Arg1:T65 Arg2:T109	
+R27	located_in Arg1:T67 Arg2:T66	
+R28	located_in Arg1:T68 Arg2:T66	
+T113	missed_cell_type 2110 2119	stem cell
+R33	located_in Arg1:T73 Arg2:T113	
+R34	located_in Arg1:T82 Arg2:T80	
+R35	located_in Arg1:T82 Arg2:T81	
+R36	located_in Arg1:T85 Arg2:T86	
+R37	located_in Arg1:T88 Arg2:T87	
+R38	located_in Arg1:T90 Arg2:T89	
+R39	located_in Arg1:T91 Arg2:T89	
+R40	located_in Arg1:T94 Arg2:T92	
+R41	located_in Arg1:T95 Arg2:T92	
+T114	missed_gene 2643 2646	OPG
+R42	located_in Arg1:T114 Arg2:T92	

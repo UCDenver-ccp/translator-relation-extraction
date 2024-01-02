@@ -101,3 +101,119 @@ T100	anatomical_site 3235 3240	tooth
 T101	gene 3254 3261	Insulin
 T102	anatomical_site 3303 3308	heart
 T103	anatomical_site 3313 3328	skeletal muscle
+T104	missed_gene 272 298	bone morphogenetic protein
+R1	located_in Arg1:T104 Arg2:T11	
+R2	located_in Arg1:T104 Arg2:T12	
+R3	located_in Arg1:T10 Arg2:T12	
+T105	missed_anatomical_site 234 244	hepatocyte
+#1	AnnotatorNotes T105	do we mark it? 
+R4	located_in Arg1:T10 Arg2:T105	
+#2	AnnotatorNotes R4	Okay?
+R5	located_in Arg1:T9 Arg2:T12	
+R6	located_in Arg1:T14 Arg2:T15	
+#3	AnnotatorNotes R6	Okay?
+R7	located_in Arg1:T13 Arg2:T15	
+#4	AnnotatorNotes R7	Okay?
+R8	located_in Arg1:T20 Arg2:T21	
+R9	located_in Arg1:T19 Arg2:T21	
+R10	located_in Arg1:T18 Arg2:T21	
+R11	located_in Arg1:T17 Arg2:T21	
+R12	located_in Arg1:T24 Arg2:T23	
+T106	missed_anatomical_site 639 646	urinary
+#5	AnnotatorNotes T106	do we mark it? 
+R13	located_in Arg1:T22 Arg2:T106	
+#6	AnnotatorNotes R13	Okay?
+T107	missed_gene 729 733	BrdU
+R14	located_in Arg1:T107 Arg2:T25	
+R15	located_in Arg1:T26 Arg2:T25	
+R16	located_in Arg1:T27 Arg2:T25	
+R17	located_in Arg1:T28 Arg2:T25	
+#7	AnnotatorNotes R17	Okay?
+R18	located_in Arg1:T29 Arg2:T25	
+#8	AnnotatorNotes R18	Okay?
+R19	located_in Arg1:T32 Arg2:T31	
+T108	missed_gene 873 880	sICMA-1
+R20	located_in Arg1:T108 Arg2:T31	
+R21	located_in Arg1:T33 Arg2:T31	
+T109	missed_gene 897 905	IL-1beta
+R22	located_in Arg1:T109 Arg2:T31	
+T110	missed_gene 932 936	CD40
+T111	corrected_anatomical_site 964 976	lung tissues
+T112	corrected_anatomical_site 951 959;969 976	pancreas tissues
+R23	located_in Arg1:T110 Arg2:T112	
+R24	located_in Arg1:T110 Arg2:T111	
+T113	corrected_anatomical_site 1205 1239	fimbrial fallopian tube epithelium
+R25	located_in Arg1:T40 Arg2:T113	
+R26	located_in Arg1:T39 Arg2:T113	
+R27	located_in Arg1:T38 Arg2:T113	
+T114	missed_gene 1468 1507	tissue inhibitor of metalloproteinase-2
+R28	located_in Arg1:T114 Arg2:T49	
+R29	located_in Arg1:T50 Arg2:T49	
+T115	corrected_gene 1269 1297	type I collagen alpha2 chain
+T116	missed_gene 1299 1305	COL1A2
+T117	corrected_gene 1308 1338	type III collagen alpha1 chain
+T118	missed_gene 1340 1346	COL3A1
+T119	missed_gene 1349 1356	lumican
+T120	missed_gene 1358 1361	LUM
+T121	corrected_gene 1364 1388;1399 1401	matrix metalloproteinase -9
+T122	missed_gene 1403 1407	MMP9
+T123	corrected_gene 1364 1388;1413 1416	matrix metalloproteinase -13
+T124	missed_gene 1418 1423	MMP13
+T125	missed_gene 1533 1537	CTSD
+R30	located_in Arg1:T115 Arg2:T53	
+R31	located_in Arg1:T116 Arg2:T53	
+R32	located_in Arg1:T117 Arg2:T53	
+R33	located_in Arg1:T118 Arg2:T53	
+R34	located_in Arg1:T119 Arg2:T53	
+R35	located_in Arg1:T120 Arg2:T53	
+R36	located_in Arg1:T47 Arg2:T53	
+R37	located_in Arg1:T121 Arg2:T53	
+R38	located_in Arg1:T123 Arg2:T53	
+R39	located_in Arg1:T48 Arg2:T53	
+R40	located_in Arg1:T122 Arg2:T53	
+R41	located_in Arg1:T124 Arg2:T53	
+R42	located_in Arg1:T114 Arg2:T53	
+R43	located_in Arg1:T50 Arg2:T53	
+R44	located_in Arg1:T51 Arg2:T53	
+R45	located_in Arg1:T125 Arg2:T53	
+T126	missed_anatomical_site 1606 1611	Serum
+R46	located_in Arg1:T54 Arg2:T126	
+T127	missed_gene 1883 1886	CRP
+R47	located_in Arg1:T62 Arg2:T63	
+R48	located_in Arg1:T127 Arg2:T63	
+T128	missed_gene 2359 2365	S-100B
+R49	located_in Arg1:T128 Arg2:T72	
+R50	located_in Arg1:T73 Arg2:T72	
+R51	located_in Arg1:T74 Arg2:T72	
+R52	located_in Arg1:T75 Arg2:T72	
+R53	located_in Arg1:T75 Arg2:T76	
+R54	located_in Arg1:T74 Arg2:T76	
+R55	located_in Arg1:T73 Arg2:T76	
+R56	located_in Arg1:T128 Arg2:T76	
+R57	located_in Arg1:T81 Arg2:T82	
+R58	located_in Arg1:T80 Arg2:T82	
+R59	located_in Arg1:T79 Arg2:T82	
+R60	located_in Arg1:T78 Arg2:T82	
+R61	located_in Arg1:T77 Arg2:T82	
+R62	located_in Arg1:T83 Arg2:T84	
+R63	located_in Arg1:T83 Arg2:T85	
+#9	AnnotatorNotes R62	Okay?
+R64	located_in Arg1:T86 Arg2:T87	
+R65	located_in Arg1:T91 Arg2:T92	
+R66	located_in Arg1:T91 Arg2:T93	
+R67	located_in Arg1:T91 Arg2:T94	
+R68	located_in Arg1:T95 Arg2:T96	
+T129	missed_anatomical_site 3065 3069	Bone
+T130	missed_gene 3065 3093	Bone morphogenetic protein 4
+R69	located_in Arg1:T130 Arg2:T129	
+R70	located_in Arg1:T97 Arg2:T129	
+R71	located_in Arg1:T130 Arg2:T99	
+R72	located_in Arg1:T97 Arg2:T99	
+R73	located_in Arg1:T101 Arg2:T102	
+R74	located_in Arg1:T101 Arg2:T103	
+T131	missed_gene 230 233	Met
+R75	located_in Arg1:T131 Arg2:T105	
+R76	located_in Arg1:T131 Arg2:T12	
+T132	missed_gene 918 921	MPO
+T133	missed_anatomical_site 907 917	pancreatic
+R77	located_in Arg1:T132 Arg2:T133	

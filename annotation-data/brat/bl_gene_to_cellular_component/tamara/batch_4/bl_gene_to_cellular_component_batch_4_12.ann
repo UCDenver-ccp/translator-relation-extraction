@@ -97,3 +97,34 @@ T96	gene 3431 3436	SMAD7
 T97	cellular_component 3448 3461	intracellular
 T98	gene 3495 3500	SMAD2
 T99	gene 3542 3549	ActRIIB
+T100	missed_gene 473 493	ribosomal S6 protein
+R1	located_in Arg1:T100 Arg2:T15	
+T101	missed_gene 736 766	Janus kinase-signal transducer
+#1	AnnotatorNotes T101	okay?
+R2	located_in Arg1:T101 Arg2:T20	
+#2	AnnotatorNotes R2	Okay?
+R3	located_in Arg1:T21 Arg2:T20	
+#3	AnnotatorNotes R3	Okay?
+T102	corrected_cellular_component 943 965	mitochondrial vesicles
+R4	located_in Arg1:T25 Arg2:T102	
+R5	located_in Arg1:T28 Arg2:T29	
+R6	located_in Arg1:T30 Arg2:T31	
+R7	located_in Arg1:T32 Arg2:T33	
+R8	located_in Arg1:T34 Arg2:T35	
+R9	located_in Arg1:T34 Arg2:T36	
+T103	missed_gene 1318 1330	GCK proteins
+R10	located_in Arg1:T41 Arg2:T42	
+R11	located_in Arg1:T103 Arg2:T42	
+R12	located_in Arg1:T43 Arg2:T44	
+T104	missed_gene 1722 1742	S6 ribosomal protein
+R13	located_in Arg1:T104 Arg2:T52	
+R14	located_in Arg1:T57 Arg2:T56	
+R15	located_in Arg1:T66 Arg2:T64	
+R16	located_in Arg1:T67 Arg2:T64	
+R17	located_in Arg1:T76 Arg2:T75	
+#4	AnnotatorNotes R17	Okay?
+R18	located_in Arg1:T80 Arg2:T82	
+R19	located_in Arg1:T81 Arg2:T82	
+R20	located_in Arg1:T96 Arg2:T97	
+R21	located_in Arg1:T93 Arg2:T94	
+R22	located_in Arg1:T93 Arg2:T95	

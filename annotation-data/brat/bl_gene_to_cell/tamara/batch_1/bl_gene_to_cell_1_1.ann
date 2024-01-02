@@ -104,3 +104,86 @@ T103	gene 3020 3024	VEGF
 T104	gene 3029 3034	PAI-1
 T105	gene 3047 3057	Sclerostin
 T106	cell_type 3092 3103	osteoclasts
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T3	
+R3	located_in Arg1:T4 Arg2:T5	
+T107	missed_cell_type 196 203;217 222	stromal cells
+T108	corrected_cell_type 204 216;217 222	osteoblastic cells
+R4	located_in Arg1:T7 Arg2:T107	
+R5	located_in Arg1:T7 Arg2:T108	
+T109	missed_gene 234 242	elastase
+R6	located_in Arg1:T109 Arg2:T9	
+T110	missed_gene 244 261	cationic proteins
+R7	located_in Arg1:T110 Arg2:T10	
+R8	located_in Arg1:T13 Arg2:T15	
+R9	located_in Arg1:T14 Arg2:T15	
+R10	located_in Arg1:T19 Arg2:T17	
+R11	located_in Arg1:T19 Arg2:T18	
+R12	located_in Arg1:T20 Arg2:T17	
+R13	located_in Arg1:T20 Arg2:T18	
+R22	located_in Arg1:T31 Arg2:T33	
+R23	located_in Arg1:T31 Arg2:T34	
+T114	missed_cell_type 1038 1049;1069 1074	endothelial cells
+R24	located_in Arg1:T31 Arg2:T35	
+R25	located_in Arg1:T31 Arg2:T114	
+R26	located_in Arg1:T31 Arg2:T36	
+R27	located_in Arg1:T32 Arg2:T33	
+R28	located_in Arg1:T32 Arg2:T34	
+R29	located_in Arg1:T32 Arg2:T35	
+R30	located_in Arg1:T32 Arg2:T114	
+R31	located_in Arg1:T32 Arg2:T36	
+R32	located_in Arg1:T40 Arg2:T39	
+T115	corrected_gene 1184 1187;1190 1192	TSP -2
+R33	located_in Arg1:T115 Arg2:T39	
+R39	located_in Arg1:T48 Arg2:T47	
+R40	located_in Arg1:T48 Arg2:T49	
+T118	missed_cell_type 1535 1559	tubulointerstitial cells
+T119	missed_gene 1504 1510	RANTES
+R41	located_in Arg1:T50 Arg2:T118	
+R42	located_in Arg1:T119 Arg2:T118	
+R43	located_in Arg1:T51 Arg2:T118	
+R44	located_in Arg1:T52 Arg2:T118	
+R45	located_in Arg1:T53 Arg2:T118	
+R46	located_in Arg1:T54 Arg2:T55	
+R47	located_in Arg1:T54 Arg2:T56	
+R48	located_in Arg1:T57 Arg2:T58	
+R50	located_in Arg1:T64 Arg2:T63	
+R51	located_in Arg1:T65 Arg2:T63	
+R52	located_in Arg1:T67 Arg2:T66	
+R53	located_in Arg1:T68 Arg2:T66	
+R54	located_in Arg1:T69 Arg2:T66	
+R55	located_in Arg1:T70 Arg2:T66	
+T120	missed_gene 2005 2009	CD69
+R56	located_in Arg1:T71 Arg2:T74	
+R57	located_in Arg1:T72 Arg2:T74	
+R58	located_in Arg1:T120 Arg2:T74	
+R59	located_in Arg1:T73 Arg2:T74	
+R60	located_in Arg1:T73 Arg2:T75	
+R61	located_in Arg1:T120 Arg2:T75	
+R62	located_in Arg1:T72 Arg2:T75	
+R63	located_in Arg1:T71 Arg2:T75	
+R64	located_in Arg1:T76 Arg2:T77	
+T121	missed_gene 2176 2178	O4
+R65	located_in Arg1:T121 Arg2:T78	
+T122	corrected_gene 2224 2239	betaIII-tubulin
+R66	located_in Arg1:T122 Arg2:T80	
+R67	located_in Arg1:T83 Arg2:T82	
+R68	located_in Arg1:T83 Arg2:T81	
+R69	located_in Arg1:T86 Arg2:T84	
+R70	located_in Arg1:T86 Arg2:T85	
+T123	missed_gene 2592 2595	NSE
+T124	missed_gene 2603 2607	B-50
+T125	missed_gene 2617 2645	200 kD neurofilament protein
+R71	located_in Arg1:T123 Arg2:T87	
+R72	located_in Arg1:T88 Arg2:T87	
+R73	located_in Arg1:T124 Arg2:T87	
+R74	located_in Arg1:T125 Arg2:T87	
+R75	located_in Arg1:T90 Arg2:T89	
+T126	missed_gene 2685 2703	galactocerebroside
+R76	located_in Arg1:T126 Arg2:T91	
+R77	located_in Arg1:T93 Arg2:T92	
+T127	missed_gene 2742 2753	fibronectin
+R78	located_in Arg1:T127 Arg2:T94	
+R79	located_in Arg1:T95 Arg2:T96	
+R80	located_in Arg1:T95 Arg2:T97	
+R81	located_in Arg1:T105 Arg2:T106	

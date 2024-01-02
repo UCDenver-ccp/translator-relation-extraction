@@ -75,8 +75,7 @@ T74	gene 2104 2110	ICAM-1
 T75	gene 2115 2120	LFA-1
 T76	gene 2252 2258	ICAM-1
 T77	anatomical_site 2278 2304	retinal pigment epithelium
-T78	anatomical_site 2309 2319	epithelium
-T79	anatomical_site 2327 2339	ciliary body
+T78	anatomical_site 2327 2339	ciliary body
 T80	anatomical_site 2354 2359	blood
 T81	gene 2386 2389	PTH
 T82	gene 2390 2395	PTHrP
@@ -113,3 +112,86 @@ T112	gene 3355 3359	CD68
 T113	gene 3364 3369	SOCS3
 T114	gene 3370 3374	CD68
 T115	anatomical_site 3452 3455	fat
+T116	missed_gene 210 215	Postn
+R1	located_in Arg1:T116 Arg2:T3	
+R2	located_in Arg1:T4 Arg2:T3	
+R3	located_in Arg1:T5 Arg2:T3	
+T117	missed_gene 248 251	KDR
+R4	located_in Arg1:T117 Arg2:T6	
+T118	missed_gene 267 271	Hox9
+R5	located_in Arg1:T118 Arg2:T7	
+R6	located_in Arg1:T8 Arg2:T7	
+R7	located_in Arg1:T10 Arg2:T9	
+R8	located_in Arg1:T11 Arg2:T9	
+R9	located_in Arg1:T12 Arg2:T9	
+R10	located_in Arg1:T13 Arg2:T9	
+R11	located_in Arg1:T14 Arg2:T9	
+T119	corrected_anatomical_site 542 552	fetal lung
+R13	located_in Arg1:T21 Arg2:T119	
+R14	located_in Arg1:T22 Arg2:T119	
+T120	corrected_gene 471 490	PTH-related protein
+R15	located_in Arg1:T120 Arg2:T119	
+T121	missed_anatomical_site 604 609	Bursa
+T122	missed_gene 652 655	Gag
+R16	located_in Arg1:T122 Arg2:T121	
+R17	located_in Arg1:T122 Arg2:T26	
+R18	located_in Arg1:T122 Arg2:T27	
+R19	located_in Arg1:T122 Arg2:T28	
+R20	located_in Arg1:T29 Arg2:T28	
+R21	located_in Arg1:T29 Arg2:T27	
+R22	located_in Arg1:T29 Arg2:T26	
+R23	located_in Arg1:T29 Arg2:T121	
+T123	missed_gene 898 924	bone morphogenetic protein
+R24	located_in Arg1:T123 Arg2:T37	
+R25	located_in Arg1:T39 Arg2:T40	
+R26	located_in Arg1:T39 Arg2:T41	
+R27	located_in Arg1:T42 Arg2:T126	
+R28	located_in Arg1:T43 Arg2:T126	
+R29	located_in Arg1:T44 Arg2:T126	
+R30	located_in Arg1:T44 Arg2:T47	
+R31	located_in Arg1:T43 Arg2:T47	
+R32	located_in Arg1:T42 Arg2:T47	
+T124	missed_gene 1740 1746	HIF-2α
+R33	located_in Arg1:T124 Arg2:T59	
+R34	located_in Arg1:T60 Arg2:T59	
+R35	located_in Arg1:T61 Arg2:T59	
+R36	located_in Arg1:T64 Arg2:T65	
+R37	located_in Arg1:T63 Arg2:T65	
+R38	located_in Arg1:T62 Arg2:T65	
+R39	located_in Arg1:T66 Arg2:T67	
+R40	located_in Arg1:T66 Arg2:T68	
+R41	located_in Arg1:T66 Arg2:T69	
+R42	located_in Arg1:T66 Arg2:T70	
+R43	located_in Arg1:T71 Arg2:T72	
+R44	located_in Arg1:T71 Arg2:T73	
+R45	located_in Arg1:T76 Arg2:T77	
+T125	anatomical_site 2309 2319	epithelium
+T79	corrected_anatomical_site 2309 2319;2327 2339	epithelium ciliary body
+#1	AnnotatorNotes T79	please, if possible, check if "epithelium" was marked by the program as "anatomical_site". I deleted Frag and it looks like the stock annotation of brat was deleted. 
+R46	located_in Arg1:T76 Arg2:T125	
+T126	corrected_anatomical_site 1256 1272;1280 1285	ventricular wall heart
+T127	corrected_anatomical_site 348 355;361 366	Embryos liver
+R12	located_in Arg1:T17 Arg2:T127	
+T128	corrected_gene 2386 2404	PTH/PTHrP receptor
+R47	located_in Arg1:T128 Arg2:T83	
+R48	located_in Arg1:T128 Arg2:T84	
+R49	located_in Arg1:T87 Arg2:T86	
+R50	located_in Arg1:T88 Arg2:T86	
+R51	located_in Arg1:T91 Arg2:T92	
+R52	located_in Arg1:T90 Arg2:T92	
+R53	located_in Arg1:T94 Arg2:T95	
+T129	corrected_anatomical_site 3092 3111	ventral neural tube
+R54	located_in Arg1:T102 Arg2:T129	
+T130	corrected_gene 2926 2940	Sonic hedgehog
+R55	located_in Arg1:T99 Arg2:T100	
+#2	AnnotatorNotes R55	Okay?
+R56	located_in Arg1:T130 Arg2:T100	
+#3	AnnotatorNotes R56	Okay?
+R57	located_in Arg1:T105 Arg2:T104	
+T131	missed_gene 3219 3228	gamma IFN
+R58	located_in Arg1:T131 Arg2:T104	
+R59	located_in Arg1:T105 Arg2:T106	
+R60	located_in Arg1:T131 Arg2:T106	
+R61	located_in Arg1:T107 Arg2:T110	
+R62	located_in Arg1:T108 Arg2:T110	
+R63	located_in Arg1:T109 Arg2:T110	

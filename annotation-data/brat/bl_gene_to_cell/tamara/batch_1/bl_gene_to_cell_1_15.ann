@@ -110,3 +110,80 @@ T109	gene 2904 2913	IL-1 beta
 T110	cell_type 2917 2928	macrophages
 T111	cell_type 2933 2943	fibroblast
 T112	cell_type 2949 2961	synoviocytes
+R1	located_in Arg1:T5 Arg2:T6	
+T113	missed_gene 155 160	ITM2B
+R2	located_in Arg1:T113 Arg2:T6	
+R3	located_in Arg1:T4 Arg2:T6	
+R4	located_in Arg1:T12 Arg2:T11	
+R5	located_in Arg1:T13 Arg2:T11	
+T114	missed_gene 373 377	CD45
+R6	located_in Arg1:T114 Arg2:T11	
+R8	located_in Arg1:T16 Arg2:T120	
+R9	located_in Arg1:T22 Arg2:T21	
+R10	located_in Arg1:T22 Arg2:T20	
+R11	located_in Arg1:T24 Arg2:T25	
+R12	located_in Arg1:T23 Arg2:T25	
+R13	located_in Arg1:T23 Arg2:T26	
+T115	missed_gene 766 769	CD3
+R14	located_in Arg1:T115 Arg2:T27	
+T116	missed_gene 817 820	CD3
+R15	located_in Arg1:T116 Arg2:T28	
+R16	located_in Arg1:T29 Arg2:T30	
+R17	located_in Arg1:T33 Arg2:T34	
+T117	missed_gene 955 959	CTGF
+R18	located_in Arg1:T117 Arg2:T34	
+R19	located_in Arg1:T43 Arg2:T44	
+R20	located_in Arg1:T45 Arg2:T46	
+T118	missed_cell_type 1351 1360	astroglia
+#2	AnnotatorNotes T118	"astroglia" is absent on Cell Ontology!
+R21	located_in Arg1:T47 Arg2:T118	
+R22	located_in Arg1:T49 Arg2:T48	
+T119	missed_gene 1410 1419	IFN-gamma
+R23	located_in Arg1:T119 Arg2:T48	
+R24	located_in Arg1:T50 Arg2:T48	
+R25	located_in Arg1:T52 Arg2:T51	
+R26	located_in Arg1:T53 Arg2:T51	
+R27	located_in Arg1:T54 Arg2:T51	
+R28	located_in Arg1:T57 Arg2:T58	
+R29	located_in Arg1:T59 Arg2:T62	
+R30	located_in Arg1:T60 Arg2:T62	
+R31	located_in Arg1:T61 Arg2:T62	
+R32	located_in Arg1:T61 Arg2:T63	
+R33	located_in Arg1:T60 Arg2:T63	
+R34	located_in Arg1:T59 Arg2:T63	
+R35	located_in Arg1:T65 Arg2:T66	
+T121	missed_gene 2267 2272	CD62P
+R38	located_in Arg1:T121 Arg2:T87	
+T122	corrected_gene 2278 2313	platelet ?-granule membrane protein
+R39	located_in Arg1:T122 Arg2:T87	
+T123	missed_gene 2319 2322	P10
+R40	located_in Arg1:T123 Arg2:T89	
+T124	missed_gene 2359 2373	thrombospondin
+R41	located_in Arg1:T124 Arg2:T89	
+R42	located_in Arg1:T91 Arg2:T92	
+R43	located_in Arg1:T91 Arg2:T93	
+R44	located_in Arg1:T91 Arg2:T94	
+R45	located_in Arg1:T91 Arg2:T95	
+T125	missed_gene 2579 2582	CD3
+T126	missed_gene 2593 2596	CD8
+T127	missed_gene 2608 2612	CD20
+T128	missed_cell_type 2615 2617	NK
+T129	missed_gene 2627 2631	CD56
+R46	located_in Arg1:T125 Arg2:T96	
+R47	located_in Arg1:T97 Arg2:T96	
+R48	located_in Arg1:T126 Arg2:T96	
+R49	located_in Arg1:T127 Arg2:T98	
+R50	located_in Arg1:T129 Arg2:T128	
+R51	located_in Arg1:T129 Arg2:T99	
+R52	located_in Arg1:T101 Arg2:T100	
+R53	located_in Arg1:T102 Arg2:T103	
+R54	located_in Arg1:T104 Arg2:T105	
+T131	corrected_cell_type 2933 2961	fibroblast-like synoviocytes
+T132	missed_cell_type 2963 2966	FLS
+R56	located_in Arg1:T108 Arg2:T110	
+R57	located_in Arg1:T108 Arg2:T131	
+R58	located_in Arg1:T108 Arg2:T132	
+R59	located_in Arg1:T109 Arg2:T110	
+R60	located_in Arg1:T109 Arg2:T131	
+R61	located_in Arg1:T109 Arg2:T132	
+T120	corrected_cell_type 530 549	neuronal cell lines

@@ -116,3 +116,127 @@ T115	anatomical_site 2923 2927	body
 T116	anatomical_site 2928 2931	fat
 T117	anatomical_site 2941 2944	fat
 T118	gene 2950 2957	insulin
+T119	missed_gene 0 3	GAD
+R1	located_in Arg1:T119 Arg2:T3	
+R2	located_in Arg1:T119 Arg2:T4	
+R3	located_in Arg1:T119 Arg2:T5	
+R4	located_in Arg1:T1 Arg2:T3	
+R5	located_in Arg1:T2 Arg2:T4	
+R6	located_in Arg1:T1 Arg2:T4	
+R7	located_in Arg1:T2 Arg2:T3	
+R8	located_in Arg1:T1 Arg2:T5	
+R9	located_in Arg1:T2 Arg2:T5	
+R10	located_in Arg1:T6 Arg2:T7	
+R11	located_in Arg1:T6 Arg2:T8	
+R12	located_in Arg1:T9 Arg2:T10	
+R13	located_in Arg1:T14 Arg2:T15	
+R14	located_in Arg1:T14 Arg2:T16	
+R15	located_in Arg1:T14 Arg2:T17	
+R16	located_in Arg1:T20 Arg2:T23	
+R17	located_in Arg1:T21 Arg2:T23	
+R18	located_in Arg1:T22 Arg2:T23	
+R19	located_in Arg1:T20 Arg2:T24	
+R20	located_in Arg1:T21 Arg2:T24	
+R21	located_in Arg1:T22 Arg2:T24	
+R22	located_in Arg1:T20 Arg2:T25	
+R23	located_in Arg1:T21 Arg2:T25	
+R24	located_in Arg1:T22 Arg2:T25	
+T120	missed_gene 624 635	ferroxidase
+R25	located_in Arg1:T120 Arg2:T26	
+R26	located_in Arg1:T28 Arg2:T27	
+R27	located_in Arg1:T33 Arg2:T34	
+R28	located_in Arg1:T35 Arg2:T36	
+T124	missed_anatomical_site 1035 1046;1059 1080;1081 1090	endometrial superficial glandular epithelia
+T123	corrected_anatomical_site 1136 1159	conceptus trophectoderm
+R31	located_in Arg1:T37 Arg2:T124	
+R32	located_in Arg1:T37 Arg2:T40	
+R33	located_in Arg1:T37 Arg2:T123	
+R36	located_in Arg1:T38 Arg2:T124	
+R37	located_in Arg1:T38 Arg2:T40	
+R38	located_in Arg1:T38 Arg2:T123	
+R41	located_in Arg1:T39 Arg2:T124	
+R42	located_in Arg1:T39 Arg2:T40	
+R43	located_in Arg1:T39 Arg2:T123	
+T122	missed_anatomical_site 1035 1046;1047 1054;1081 1090	endometrial luminal epithelia
+R30	located_in Arg1:T37 Arg2:T122	
+R35	located_in Arg1:T38 Arg2:T122	
+R40	located_in Arg1:T39 Arg2:T122	
+R44	located_in Arg1:T45 Arg2:T44	
+R45	located_in Arg1:T47 Arg2:T49	
+R46	located_in Arg1:T47 Arg2:T50	
+R47	located_in Arg1:T48 Arg2:T49	
+R48	located_in Arg1:T48 Arg2:T50	
+T125	missed_gene 1277 1281;1283 1284	TRPC 4
+T126	missed_gene 1277 1281;1285 1286	TRPC 6
+R49	located_in Arg1:T125 Arg2:T49	
+R50	located_in Arg1:T125 Arg2:T50	
+R51	located_in Arg1:T126 Arg2:T49	
+R52	located_in Arg1:T126 Arg2:T50	
+R53	located_in Arg1:T51 Arg2:T52	
+R54	located_in Arg1:T57 Arg2:T56	
+R55	located_in Arg1:T61 Arg2:T62	
+R56	located_in Arg1:T63 Arg2:T64	
+T127	corrected_anatomical_site 2021 2034	head ectoderm
+R57	located_in Arg1:T75 Arg2:T127	
+T128	missed_gene 2373 2377	INRS
+T129	missed_gene 2391 2397	PIK3CA
+T130	missed_gene 2409 2415	SLC2A4
+R58	located_in Arg1:T128 Arg2:T92	
+R59	located_in Arg1:T89 Arg2:T92	
+R60	located_in Arg1:T90 Arg2:T92	
+R61	located_in Arg1:T129 Arg2:T92	
+R62	located_in Arg1:T91 Arg2:T92	
+R63	located_in Arg1:T130 Arg2:T92	
+R64	located_in Arg1:T128 Arg2:T93	
+R65	located_in Arg1:T89 Arg2:T93	
+R66	located_in Arg1:T90 Arg2:T93	
+R67	located_in Arg1:T129 Arg2:T93	
+R68	located_in Arg1:T91 Arg2:T93	
+R69	located_in Arg1:T130 Arg2:T93	
+R70	located_in Arg1:T95 Arg2:T97	
+R71	located_in Arg1:T96 Arg2:T97	
+T131	missed_gene 2445 2451	TBC1D1
+R72	located_in Arg1:T131 Arg2:T94	
+T132	corrected_anatomical_site 2720 2739	trabecular meshwork
+T133	corrected_anatomical_site 2701 2715	lens epithelia
+T134	missed_anatomical_site 2689 2696;2706 2715	ciliary epithelia
+T135	missed_anatomical_site 2749 2760	conjunctiva
+R73	located_in Arg1:T103 Arg2:T104	
+R74	located_in Arg1:T103 Arg2:T102	
+T136	missed_gene 2641 2644	MIP
+R75	located_in Arg1:T136 Arg2:T104	
+R76	located_in Arg1:T136 Arg2:T102	
+R77	located_in Arg1:T105 Arg2:T106	
+R78	located_in Arg1:T105 Arg2:T102	
+R79	located_in Arg1:T105 Arg2:T134	
+T137	corrected_anatomical_site 2839 2863	lacrimal gland epithelia
+T138	missed_anatomical_site 2827 2834;2854 2863	corneal epithelia
+R80	located_in Arg1:T105 Arg2:T133	
+R81	located_in Arg1:T105 Arg2:T132	
+R82	located_in Arg1:T109 Arg2:T135	
+R83	located_in Arg1:T109 Arg2:T102	
+R84	located_in Arg1:T110 Arg2:T111	
+R85	located_in Arg1:T110 Arg2:T102	
+T139	missed_anatomical_site 2793 2800	retinal
+R86	located_in Arg1:T110 Arg2:T139	
+R87	located_in Arg1:T112 Arg2:T138	
+R88	located_in Arg1:T112 Arg2:T102	
+R89	located_in Arg1:T112 Arg2:T137	
+R90	located_in Arg1:T11 Arg2:T15	
+R91	located_in Arg1:T11 Arg2:T16	
+R92	located_in Arg1:T11 Arg2:T17	
+R29	located_in Arg1:T58 Arg2:T56	
+R34	located_in Arg1:T12 Arg2:T15	
+R39	located_in Arg1:T12 Arg2:T16	
+R93	located_in Arg1:T12 Arg2:T17	
+R94	located_in Arg1:T13 Arg2:T15	
+R95	located_in Arg1:T13 Arg2:T16	
+R96	located_in Arg1:T13 Arg2:T17	
+T121	missed_anatomical_site 1035 1046;1092 1094	endometrial LE
+T140	missed_anatomical_site 1035 1046;1099 1102	endometrial sGE
+R97	located_in Arg1:T37 Arg2:T121	
+R98	located_in Arg1:T38 Arg2:T121	
+R99	located_in Arg1:T39 Arg2:T121	
+R100	located_in Arg1:T37 Arg2:T140	
+R101	located_in Arg1:T38 Arg2:T140	
+R102	located_in Arg1:T39 Arg2:T140	

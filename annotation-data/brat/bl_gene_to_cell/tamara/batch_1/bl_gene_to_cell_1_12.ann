@@ -108,3 +108,93 @@ T107	cell_type 3180 3195	red blood cells
 T108	gene 3204 3208	CD45
 T109	cell_type 3211 3222	lymphocytes
 T110	cell_type 3227 3236	monocytes
+R4	located_in Arg1:T10 Arg2:T8	
+R5	located_in Arg1:T10 Arg2:T9	
+R6	located_in Arg1:T11 Arg2:T8	
+R7	located_in Arg1:T11 Arg2:T9	
+R8	located_in Arg1:T12 Arg2:T8	
+R9	located_in Arg1:T12 Arg2:T9	
+R10	located_in Arg1:T15 Arg2:T16	
+R11	located_in Arg1:T15 Arg2:T17	
+R12	located_in Arg1:T15 Arg2:T18	
+T112	missed_gene 534 539	MMP-9
+R13	located_in Arg1:T112 Arg2:T19	
+R14	located_in Arg1:T112 Arg2:T20	
+T113	corrected_gene 600 630	beta-amyloid precursor protein
+R15	located_in Arg1:T113 Arg2:T23	
+R16	located_in Arg1:T29 Arg2:T111	
+T114	missed_cell_type 954 973	neurogliaform cells
+T115	corrected_cell_type 979 1001	double bouquet neurons
+R17	located_in Arg1:T31 Arg2:T34	
+R18	located_in Arg1:T32 Arg2:T114	
+R19	located_in Arg1:T33 Arg2:T115	
+R20	located_in Arg1:T36 Arg2:T37	
+R21	located_in Arg1:T38 Arg2:T39	
+T116	missed_gene 1151 1154	CD8
+R22	located_in Arg1:T40 Arg2:T41	
+R23	located_in Arg1:T116 Arg2:T41	
+T117	missed_gene 1185 1188	CD4
+R24	located_in Arg1:T117 Arg2:T42	
+R25	located_in Arg1:T45 Arg2:T43	
+R26	located_in Arg1:T45 Arg2:T44	
+R27	located_in Arg1:T46 Arg2:T43	
+R28	located_in Arg1:T46 Arg2:T44	
+T118	missed_gene 1354 1384	keratinocyte-derived chemokine
+T119	missed_gene 1386 1388	KC
+R29	located_in Arg1:T118 Arg2:T49	
+R30	located_in Arg1:T119 Arg2:T49	
+T120	missed_gene 1391 1422;1428 1430	macrophage inflammatory protein -2
+T121	missed_gene 1424 1427;1428 1430	MIP -2
+R31	located_in Arg1:T120 Arg2:T50	
+R32	located_in Arg1:T121 Arg2:T50	
+T122	missed_gene 1432 1460;1466 1468	monocyte chemotactic protein -1
+T123	corrected_gene 1462 1465;1466 1468	MCP -1
+R33	located_in Arg1:T122 Arg2:T51	
+R34	located_in Arg1:T123 Arg2:T51	
+R35	located_in Arg1:T53 Arg2:T55	
+R36	located_in Arg1:T54 Arg2:T55	
+R37	located_in Arg1:T58 Arg2:T59	
+R38	located_in Arg1:T58 Arg2:T60	
+R39	located_in Arg1:T58 Arg2:T61	
+R40	located_in Arg1:T71 Arg2:T72	
+R41	located_in Arg1:T71 Arg2:T73	
+R42	located_in Arg1:T76 Arg2:T77	
+R43	located_in Arg1:T78 Arg2:T80	
+R44	located_in Arg1:T78 Arg2:T81	
+T124	missed_gene 2559 2565	BMPRII
+T125	missed_gene 2571 2581	pSMAD1/5/8
+R47	located_in Arg1:T86 Arg2:T82	
+R48	located_in Arg1:T86 Arg2:T83	
+R49	located_in Arg1:T86 Arg2:T84	
+R50	located_in Arg1:T86 Arg2:T85	
+R51	located_in Arg1:T87 Arg2:T85	
+R52	located_in Arg1:T87 Arg2:T84	
+R53	located_in Arg1:T87 Arg2:T83	
+R54	located_in Arg1:T87 Arg2:T82	
+R55	located_in Arg1:T88 Arg2:T85	
+R56	located_in Arg1:T88 Arg2:T84	
+R57	located_in Arg1:T88 Arg2:T83	
+R58	located_in Arg1:T88 Arg2:T82	
+R59	located_in Arg1:T89 Arg2:T85	
+R60	located_in Arg1:T89 Arg2:T84	
+R61	located_in Arg1:T89 Arg2:T83	
+R62	located_in Arg1:T89 Arg2:T82	
+R63	located_in Arg1:T124 Arg2:T85	
+R64	located_in Arg1:T124 Arg2:T84	
+R65	located_in Arg1:T124 Arg2:T83	
+R66	located_in Arg1:T124 Arg2:T82	
+R67	located_in Arg1:T125 Arg2:T85	
+R68	located_in Arg1:T125 Arg2:T84	
+R69	located_in Arg1:T125 Arg2:T83	
+R70	located_in Arg1:T125 Arg2:T82	
+R71	located_in Arg1:T90 Arg2:T92	
+R72	located_in Arg1:T91 Arg2:T92	
+R73	located_in Arg1:T94 Arg2:T93	
+R74	located_in Arg1:T95 Arg2:T93	
+R75	located_in Arg1:T96 Arg2:T93	
+R76	located_in Arg1:T97 Arg2:T93	
+R77	located_in Arg1:T102 Arg2:T101	
+R78	located_in Arg1:T104 Arg2:T103	
+R79	located_in Arg1:T108 Arg2:T109	
+R80	located_in Arg1:T108 Arg2:T110	
+T111	corrected_cell_type 804 827	keratinocytes cell line

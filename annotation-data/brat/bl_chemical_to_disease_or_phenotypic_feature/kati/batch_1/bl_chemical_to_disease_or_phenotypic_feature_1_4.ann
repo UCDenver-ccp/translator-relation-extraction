@@ -70,16 +70,11 @@ T66	corrected_chemical 989 1005	drug combination
 R4	treats Arg1:T66 Arg2:T25	
 T67	corrected_chemical 1369 1406	tumor necrosis factor-alpha inhibitor
 R5	causes_or_contributes_to Arg1:T67 Arg2:T26	
-T68	missed_disease_or_phenotypic_feature 1479 1513	estrogen-stimulated T47D:E2 tumors
-T69	corrected_disease_or_phenotypic_feature 1546 1567	Tam-stimulated tumors
+T68	missed_disease_or_phenotypic_feature 1499 1513	T47D:E2 tumors
+T69	corrected_disease_or_phenotypic_feature 1561 1567	tumors
 T70	missed_disease_or_phenotypic_feature 1577 1585	T47D:Tam
 R6	causes_or_contributes_to Arg1:T34 Arg2:T70	
 R7	causes_or_contributes_to Arg1:T34 Arg2:T69	
-R8	causes_or_contributes_to Arg1:T34 Arg2:T68	
-T71	missed_chemical 1541 1544	Tam
-R9	treats Arg1:T71 Arg2:T68	
-R10	causes_or_contributes_to Arg1:T71 Arg2:T69	
-R11	causes_or_contributes_to Arg1:T71 Arg2:T70	
 R12	causes_or_contributes_to Arg1:T36 Arg2:T37	
 T72	corrected_chemical 1764 1780	DPP-4 inhibitors
 R13	causes_or_contributes_to Arg1:T72 Arg2:T39	
@@ -87,12 +82,41 @@ T73	corrected_chemical 2056 2071	Botulinum toxin
 R14	treats Arg1:T73 Arg2:T44	
 R15	treats Arg1:T47 Arg2:T48	
 T74	corrected_chemical 2432 2445	gambogic acid
-R16	treats Arg1:T74 Arg2:T49	
-R17	treats Arg1:T51 Arg2:T49	
 T75	corrected_chemical 2630 2658	cancer chemotherapeutic drug
 R18	causes_or_contributes_to Arg1:T75 Arg2:T55	
-T76	missed_chemical 2919 2940	tumor necrosis factor
+T76	missed_chemical 2919 2953	tumor necrosis factor-? inhibitors
 R19	treats Arg1:T59 Arg2:T60	
 R20	treats Arg1:T76 Arg2:T61	
 R21	causes_or_contributes_to Arg1:T28 Arg2:T26	
 R22	causes_or_contributes_to Arg1:T58 Arg2:T55	
+T77	missed_chemical 1546 1549	Tam
+R23	causes_or_contributes_to Arg1:T77 Arg2:T69	
+R24	causes_or_contributes_to Arg1:T32 Arg2:T68	
+T78	missed_chemical 1628 1631	Tam
+R9	causes_or_contributes_to Arg1:T78 Arg2:T69	
+R10	causes_or_contributes_to Arg1:T78 Arg2:T70	
+R11	causes_or_contributes_to Arg1:T19 Arg2:T65	
+T79	missed_disease_or_phenotypic_feature 1033 1038	tumor
+T80	missed_disease_or_phenotypic_feature 1170 1175	tumor
+T81	missed_disease_or_phenotypic_feature 1228 1233	tumor
+T82	missed_disease_or_phenotypic_feature 1246 1251	tumor
+R25	treats Arg1:T66 Arg2:T79	
+R26	treats Arg1:T66 Arg2:T80	
+R27	treats Arg1:T66 Arg2:T81	
+R28	treats Arg1:T66 Arg2:T82	
+R29	treats Arg1:T24 Arg2:T79	
+R30	treats Arg1:T24 Arg2:T82	
+R31	treats Arg1:T24 Arg2:T81	
+R32	treats Arg1:T24 Arg2:T25	
+R33	treats Arg1:T24 Arg2:T80	
+T71	missed_chemical 1541 1544	Tam
+R34	causes_or_contributes_to Arg1:T71 Arg2:T69	
+R36	treats Arg1:T57 Arg2:T56	
+R37	treats Arg1:T58 Arg2:T56	
+R8	causes_or_contributes_to Arg1:T77 Arg2:T70	
+T83	missed_disease_or_phenotypic_feature 2589 2600	side effect
+R35	causes_or_contributes_to Arg1:T75 Arg2:T83	
+R38	causes_or_contributes_to Arg1:T58 Arg2:T83	
+R39	causes_or_contributes_to Arg1:T57 Arg2:T83	
+R40	causes_or_contributes_to Arg1:T57 Arg2:T55	
+R41	treats Arg1:T63 Arg2:T61	

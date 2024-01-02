@@ -83,3 +83,89 @@ T82	gene 2349 2354	MMP-1
 T83	gene 2360 2366	TIMP-1
 T84	anatomical_site 2379 2383	bone
 T85	anatomical_site 2408 2412	bone
+T86	corrected_gene 109 120	αv integrin
+R1	located_in Arg1:T86 Arg2:T2	
+R2	located_in Arg1:T86 Arg2:T1	
+T87	corrected_gene 158 192	metabotropic glutamate receptor 5b
+R3	located_in Arg1:T87 Arg2:T5	
+R4	located_in Arg1:T13 Arg2:T14	
+R5	located_in Arg1:T12 Arg2:T14	
+R6	located_in Arg1:T15 Arg2:T17	
+R7	located_in Arg1:T16 Arg2:T17	
+R8	located_in Arg1:T18 Arg2:T20	
+R9	located_in Arg1:T18 Arg2:T21	
+R10	located_in Arg1:T18 Arg2:T22	
+R11	located_in Arg1:T19 Arg2:T20	
+R12	located_in Arg1:T19 Arg2:T21	
+R13	located_in Arg1:T19 Arg2:T22	
+T88	missed_gene 635 643	versican
+T89	missed_gene 654 662	biglycan
+T90	missed_gene 664 672	glypican
+T91	corrected_anatomical_site 724 735	tooth germs
+R14	located_in Arg1:T25 Arg2:T91	
+R15	located_in Arg1:T24 Arg2:T91	
+R16	located_in Arg1:T90 Arg2:T91	
+R17	located_in Arg1:T89 Arg2:T91	
+R18	located_in Arg1:T23 Arg2:T91	
+R19	located_in Arg1:T88 Arg2:T91	
+R20	located_in Arg1:T28 Arg2:T27	
+R21	located_in Arg1:T31 Arg2:T30	
+T92	corrected_gene 919 930;939 948	adiponectin receptors
+R22	located_in Arg1:T92 Arg2:T30	
+R23	located_in Arg1:T32 Arg2:T34	
+R24	located_in Arg1:T33 Arg2:T34	
+T93	corrected_anatomical_site 1050 1059;1075 1081	layers II cortex
+T94	corrected_anatomical_site 1050 1056;1064 1067;1075 1081	layers III cortex
+R25	located_in Arg1:T32 Arg2:T93	
+R26	located_in Arg1:T33 Arg2:T93	
+R27	located_in Arg1:T32 Arg2:T94	
+R28	located_in Arg1:T33 Arg2:T94	
+T95	corrected_gene 1108 1140	protein disulfide isomerase AGR2
+T96	corrected_anatomical_site 1172 1188	intestinal mucus
+R29	located_in Arg1:T95 Arg2:T96	
+T97	missed_anatomical_site 1329 1339	epithelial
+R30	located_in Arg1:T42 Arg2:T97	
+R31	located_in Arg1:T42 Arg2:T45	
+R32	located_in Arg1:T41 Arg2:T97	
+R33	located_in Arg1:T41 Arg2:T45	
+R34	located_in Arg1:T43 Arg2:T97	
+R35	located_in Arg1:T43 Arg2:T45	
+R36	located_in Arg1:T44 Arg2:T97	
+R37	located_in Arg1:T44 Arg2:T45	
+#1	AnnotatorNotes R32	Okay?
+R38	located_in Arg1:T47 Arg2:T46	
+R39	located_in Arg1:T54 Arg2:T55	
+R40	located_in Arg1:T53 Arg2:T55	
+T98	corrected_gene 1488 1533	platelet endothelial cell adhesion molecule-1
+R41	located_in Arg1:T98 Arg2:T55	
+T99	corrected_gene 1453 1486	vascular cell adhesion molecule-1
+R42	located_in Arg1:T99 Arg2:T50	
+R43	located_in Arg1:T99 Arg2:T55	
+T100	missed_gene 1622 1626	X11α
+R44	located_in Arg1:T100 Arg2:T56	
+T101	corrected_gene 1713 1738	amyloid precursor protein
+R45	located_in Arg1:T101 Arg2:T56	
+R46	located_in Arg1:T58 Arg2:T56	
+R47	located_in Arg1:T63 Arg2:T62	
+R48	located_in Arg1:T66 Arg2:T67	
+#2	AnnotatorNotes R48	Okay?
+R49	located_in Arg1:T64 Arg2:T65	
+#3	AnnotatorNotes R49	Okay?
+T102	missed_gene 2066 2070	MSTN
+R50	located_in Arg1:T68 Arg2:T69	
+R51	located_in Arg1:T102 Arg2:T69	
+R52	located_in Arg1:T79 Arg2:T80	
+R53	located_in Arg1:T78 Arg2:T80	
+R54	located_in Arg1:T77 Arg2:T80	
+R55	located_in Arg1:T76 Arg2:T80	
+T103	missed_gene 2238 2244	MUC5AC
+R56	located_in Arg1:T103 Arg2:T80	
+R57	located_in Arg1:T75 Arg2:T80	
+R58	located_in Arg1:T74 Arg2:T80	
+R59	located_in Arg1:T73 Arg2:T80	
+R60	located_in Arg1:T83 Arg2:T84	
+R61	located_in Arg1:T82 Arg2:T84	
+R62	located_in Arg1:T81 Arg2:T84	
+R63	located_in Arg1:T83 Arg2:T85	
+R64	located_in Arg1:T82 Arg2:T85	
+R65	located_in Arg1:T81 Arg2:T85	

@@ -106,3 +106,136 @@ T105	gene 2922 2926	IL-8
 T106	gene 2938 2943	HMGB1
 T107	anatomical_site 2963 2967	lung
 T108	anatomical_site 2968 2974	tissue
+R1	located_in Arg1:T4 Arg2:T6	
+R2	located_in Arg1:T4 Arg2:T7	
+R3	located_in Arg1:T4 Arg2:T8	
+R4	located_in Arg1:T4 Arg2:T9	
+R5	located_in Arg1:T5 Arg2:T6	
+R6	located_in Arg1:T5 Arg2:T7	
+R7	located_in Arg1:T5 Arg2:T8	
+R8	located_in Arg1:T5 Arg2:T9	
+R9	located_in Arg1:T10 Arg2:T11	
+R10	located_in Arg1:T10 Arg2:T12	
+T109	corrected_anatomical_site 361 373	brain tissue
+T110	corrected_gene 309 339	beta-amyloid peptide precursor
+R11	located_in Arg1:T110 Arg2:T109	
+R12	located_in Arg1:T14 Arg2:T109	
+R13	located_in Arg1:T17 Arg2:T18	
+T111	missed_gene 653 659	PSD-95
+T112	corrected_gene 574 578;580 581	VAMP 2
+T113	corrected_anatomical_site 688 704	forebrain cortex
+R14	located_in Arg1:T112 Arg2:T113	
+R15	located_in Arg1:T20 Arg2:T113	
+R16	located_in Arg1:T21 Arg2:T113	
+R17	located_in Arg1:T22 Arg2:T113	
+R18	located_in Arg1:T23 Arg2:T113	
+T114	missed_gene 623 633	syntaxin-1
+R19	located_in Arg1:T114 Arg2:T113	
+R20	located_in Arg1:T111 Arg2:T113	
+R21	located_in Arg1:T20 Arg2:T26	
+R22	located_in Arg1:T20 Arg2:T27	
+R23	located_in Arg1:T112 Arg2:T26	
+R24	located_in Arg1:T112 Arg2:T27	
+R25	located_in Arg1:T21 Arg2:T26	
+R26	located_in Arg1:T21 Arg2:T27	
+R27	located_in Arg1:T22 Arg2:T26	
+R28	located_in Arg1:T22 Arg2:T27	
+R29	located_in Arg1:T23 Arg2:T26	
+R30	located_in Arg1:T23 Arg2:T27	
+R31	located_in Arg1:T114 Arg2:T26	
+R32	located_in Arg1:T114 Arg2:T27	
+R33	located_in Arg1:T111 Arg2:T26	
+R34	located_in Arg1:T111 Arg2:T27	
+R35	located_in Arg1:T33 Arg2:T31	
+R36	located_in Arg1:T34 Arg2:T35	
+T115	missed_gene 1263 1269	CYP1A1
+T116	missed_gene 1295 1302	CYP2C11
+T117	missed_gene 1304 1311	CYP2C12
+T118	missed_gene 1313 1319	CYP2E1
+T119	missed_gene 1321 1327	CYP3A1
+T120	missed_gene 1341 1346	CYP4A
+T121	missed_gene 1349 1364	cytochrome b(5)
+T122	missed_gene 1369 1398	NADPH-dependent CYP reductase
+R37	located_in Arg1:T122 Arg2:T52	
+R38	located_in Arg1:T122 Arg2:T53	
+R39	located_in Arg1:T121 Arg2:T52	
+R40	located_in Arg1:T121 Arg2:T53	
+R41	located_in Arg1:T120 Arg2:T52	
+R42	located_in Arg1:T120 Arg2:T53	
+R43	located_in Arg1:T51 Arg2:T52	
+R44	located_in Arg1:T51 Arg2:T53	
+R45	located_in Arg1:T119 Arg2:T52	
+R46	located_in Arg1:T119 Arg2:T53	
+R47	located_in Arg1:T118 Arg2:T52	
+R48	located_in Arg1:T118 Arg2:T53	
+R49	located_in Arg1:T117 Arg2:T52	
+R50	located_in Arg1:T117 Arg2:T53	
+R51	located_in Arg1:T116 Arg2:T52	
+R52	located_in Arg1:T116 Arg2:T53	
+R53	located_in Arg1:T50 Arg2:T52	
+R54	located_in Arg1:T50 Arg2:T53	
+R55	located_in Arg1:T49 Arg2:T52	
+R56	located_in Arg1:T49 Arg2:T53	
+R57	located_in Arg1:T48 Arg2:T52	
+R58	located_in Arg1:T48 Arg2:T53	
+R59	located_in Arg1:T115 Arg2:T52	
+R60	located_in Arg1:T115 Arg2:T53	
+T123	missed_gene 1541 1546	GITRL
+R61	located_in Arg1:T123 Arg2:T57	
+R62	located_in Arg1:T60 Arg2:T59	
+R63	located_in Arg1:T61 Arg2:T59	
+R64	located_in Arg1:T62 Arg2:T65	
+R65	located_in Arg1:T63 Arg2:T65	
+R66	located_in Arg1:T64 Arg2:T65	
+T124	corrected_anatomical_site 1954 1971	plantaris muscles
+R67	located_in Arg1:T66 Arg2:T67	
+R68	located_in Arg1:T66 Arg2:T124	
+T125	missed_gene 1887 1903	citrate synthase
+#1	AnnotatorNotes T125	okay?
+R69	located_in Arg1:T125 Arg2:T67	
+R70	located_in Arg1:T125 Arg2:T124	
+T126	missed_gene 2094 2098	Ldlr
+T127	missed_gene 2103 2108	Vldlr
+R71	located_in Arg1:T69 Arg2:T72	
+R72	located_in Arg1:T69 Arg2:T73	
+R73	located_in Arg1:T69 Arg2:T74	
+R74	located_in Arg1:T70 Arg2:T72	
+R75	located_in Arg1:T70 Arg2:T73	
+R76	located_in Arg1:T70 Arg2:T74	
+T128	corrected_gene 2061 2068	Insig2a
+R77	located_in Arg1:T128 Arg2:T72	
+R78	located_in Arg1:T128 Arg2:T73	
+R79	located_in Arg1:T128 Arg2:T74	
+R80	located_in Arg1:T126 Arg2:T72	
+R81	located_in Arg1:T126 Arg2:T73	
+R82	located_in Arg1:T126 Arg2:T74	
+R83	located_in Arg1:T127 Arg2:T72	
+R84	located_in Arg1:T127 Arg2:T73	
+R85	located_in Arg1:T127 Arg2:T74	
+T129	corrected_anatomical_site 2246 2270	subepithelial mesenchyme
+R86	located_in Arg1:T75 Arg2:T129	
+R87	located_in Arg1:T76 Arg2:T129	
+R88	located_in Arg1:T77 Arg2:T129	
+T130	corrected_anatomical_site 2422 2433	breast milk
+T131	missed_gene 2393 2399	grelin
+R89	located_in Arg1:T84 Arg2:T130	
+R90	located_in Arg1:T83 Arg2:T130	
+R91	located_in Arg1:T131 Arg2:T130	
+R92	located_in Arg1:T82 Arg2:T130	
+R93	located_in Arg1:T95 Arg2:T94	
+R94	located_in Arg1:T96 Arg2:T94	
+R95	located_in Arg1:T95 Arg2:T97	
+R96	located_in Arg1:T96 Arg2:T97	
+T132	corrected_anatomical_site 2897 2908	lung tissue
+T133	missed_gene 2928 2933	IL-1β
+T134	corrected_gene 2915 2920	TNF-α
+R97	located_in Arg1:T103 Arg2:T100	
+R98	located_in Arg1:T103 Arg2:T132	
+R99	located_in Arg1:T134 Arg2:T100	
+R100	located_in Arg1:T134 Arg2:T132	
+R101	located_in Arg1:T105 Arg2:T100	
+R102	located_in Arg1:T105 Arg2:T132	
+R103	located_in Arg1:T133 Arg2:T100	
+R104	located_in Arg1:T133 Arg2:T132	
+R105	located_in Arg1:T106 Arg2:T100	
+R106	located_in Arg1:T106 Arg2:T132	

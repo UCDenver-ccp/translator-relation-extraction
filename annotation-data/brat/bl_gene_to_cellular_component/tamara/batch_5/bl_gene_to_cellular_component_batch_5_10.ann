@@ -99,3 +99,33 @@ T98	gene 3023 3031	integrin
 T99	cellular_component 3023 3031	integrin
 T100	cellular_component 3131 3139	integrin
 T101	gene 3131 3139	integrin
+T102	missed_gene 29 33	EGFP
+R1	located_in Arg1:T102 Arg2:T2	
+R2	located_in Arg1:T102 Arg2:T3	
+T103	missed_gene 78 82	EGFP
+R3	located_in Arg1:T103 Arg2:T5	
+R4	located_in Arg1:T7 Arg2:T8	
+R5	located_in Arg1:T6 Arg2:T8	
+R6	located_in Arg1:T20 Arg2:T19	
+R7	located_in Arg1:T29 Arg2:T30	
+T104	missed_gene 998 1028	microtubule-associated protein
+R8	located_in Arg1:T104 Arg2:T31	
+R9	located_in Arg1:T32 Arg2:T31	
+T105	missed_gene 1035 1073	microtubule affinity-regulating kinase
+R10	located_in Arg1:T105 Arg2:T33	
+T106	missed_gene 1075 1089;992 996	family kinases MARK
+R11	located_in Arg1:T106 Arg2:T33	
+#1	AnnotatorNotes R11	Okay?
+R12	located_in Arg1:T106 Arg2:T31	
+#2	AnnotatorNotes R12	Okay?
+R13	located_in Arg1:T34 Arg2:T35	
+T107	gene 1186 1190	RelB
+R14	located_in Arg1:T107 Arg2:T38	
+R15	located_in Arg1:T37 Arg2:T38	
+R16	located_in Arg1:T36 Arg2:T38	
+R17	located_in Arg1:T43 Arg2:T42	
+#3	AnnotatorNotes R17	Because it was the word "localization" before
+R18	located_in Arg1:T51 Arg2:T52	
+R19	located_in Arg1:T51 Arg2:T53	
+R20	located_in Arg1:T80 Arg2:T81	
+R21	located_in Arg1:T89 Arg2:T90	

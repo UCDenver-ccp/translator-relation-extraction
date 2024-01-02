@@ -70,7 +70,7 @@ R5	treats Arg1:T26 Arg2:T28
 T65	corrected_chemical 789 806	calcimimetic drug
 R6	treats Arg1:T65 Arg2:T27	
 R7	treats Arg1:T65 Arg2:T28	
-T66	missed_disease_or_phenotypic_feature 1217 1230	vascular risk
+T66	missed_disease_or_phenotypic_feature 1217 1254	vascular risk associated with obesity
 R8	causes_or_contributes_to Arg1:T36 Arg2:T66	
 T67	corrected_chemical 1359 1372	cholera toxin
 R9	treats Arg1:T67 Arg2:T42	
@@ -83,3 +83,14 @@ R13	causes_or_contributes_to Arg1:T55 Arg2:T58
 T70	missed_chemical 1915 1922	Insulin
 R14	treats Arg1:T70 Arg2:T61	
 R15	treats Arg1:T70 Arg2:T62	
+T71	corrected_chemical 1139 1164	adipocyte-derived hormone
+R16	causes_or_contributes_to Arg1:T71 Arg2:T66	
+R17	treats Arg1:T6 Arg2:T7	
+R18	treats Arg1:T51 Arg2:T68	
+T72	missed_disease_or_phenotypic_feature 1778 1784	tumors
+R19	treats Arg1:T54 Arg2:T72	
+T73	missed_disease_or_phenotypic_feature 1817 1829	side effects
+R21	causes_or_contributes_to Arg1:T55 Arg2:T73	
+T74	corrected_disease_or_phenotypic_feature 2002 2044	heart failure-type 2 diabetes comorbidity.
+R22	treats Arg1:T70 Arg2:T74	
+R23	causes_or_contributes_to Arg1:T57 Arg2:T58	

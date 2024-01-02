@@ -111,3 +111,80 @@ T110	gene 2912 2917	LSD-1
 T111	gene 2944 2949	LSD-1
 T112	anatomical_site 2981 2987	kidney
 T113	anatomical_site 2988 2994	tissue
+R1	located_in Arg1:T1 Arg2:T2	
+T114	missed_anatomical_site 60 66	plasma
+R2	located_in Arg1:T4 Arg2:T114	
+T115	corrected_anatomical_site 159 171	brain tissue
+T116	missed_gene 139 147	ferritin
+R3	located_in Arg1:T5 Arg2:T115	
+R4	located_in Arg1:T116 Arg2:T115	
+T117	corrected_anatomical_site 314 325;338 353	hippocampal nerve terminals
+T118	corrected_anatomical_site 330 353	retinal nerve terminals
+R5	located_in Arg1:T8 Arg2:T117	
+R6	located_in Arg1:T8 Arg2:T118	
+R7	located_in Arg1:T9 Arg2:T117	
+R8	located_in Arg1:T9 Arg2:T118	
+T119	missed_gene 269 279	syntaxin-1
+R9	located_in Arg1:T119 Arg2:T117	
+R10	located_in Arg1:T119 Arg2:T118	
+R11	located_in Arg1:T10 Arg2:T117	
+R12	located_in Arg1:T10 Arg2:T118	
+R13	located_in Arg1:T11 Arg2:T117	
+R14	located_in Arg1:T11 Arg2:T118	
+R15	located_in Arg1:T19 Arg2:T20	
+R16	located_in Arg1:T19 Arg2:T21	
+R17	located_in Arg1:T19 Arg2:T22	
+R18	located_in Arg1:T17 Arg2:T20	
+R19	located_in Arg1:T17 Arg2:T21	
+R20	located_in Arg1:T17 Arg2:T22	
+R21	located_in Arg1:T23 Arg2:T24	
+R22	located_in Arg1:T25 Arg2:T24	
+R23	located_in Arg1:T23 Arg2:T26	
+R24	located_in Arg1:T25 Arg2:T26	
+R25	located_in Arg1:T27 Arg2:T28	
+R26	located_in Arg1:T30 Arg2:T31	
+R27	located_in Arg1:T32 Arg2:T31	
+T120	missed_anatomical_site 1030 1036	plasma
+R28	located_in Arg1:T38 Arg2:T120	
+T121	missed_gene 1082 1090	fetuin A
+R29	located_in Arg1:T121 Arg2:T120	
+R30	located_in Arg1:T39 Arg2:T120	
+R31	located_in Arg1:T40 Arg2:T120	
+R32	located_in Arg1:T41 Arg2:T120	
+R33	located_in Arg1:T42 Arg2:T43	
+R34	located_in Arg1:T45 Arg2:T46	
+R35	located_in Arg1:T45 Arg2:T47	
+R36	located_in Arg1:T45 Arg2:T48	
+R37	located_in Arg1:T45 Arg2:T49	
+R38	located_in Arg1:T45 Arg2:T50	
+R39	located_in Arg1:T45 Arg2:T51	
+R40	located_in Arg1:T45 Arg2:T52	
+R41	located_in Arg1:T45 Arg2:T53	
+R42	located_in Arg1:T56 Arg2:T55	
+R43	located_in Arg1:T58 Arg2:T57	
+R44	located_in Arg1:T63 Arg2:T62	
+T122	corrected_anatomical_site 1571 1576	brain
+R45	located_in Arg1:T61 Arg2:T122	
+R46	located_in Arg1:T61 Arg2:T60	
+T123	corrected_anatomical_site 1921 1947	tissue of involuted thymus
+R47	located_in Arg1:T70 Arg2:T123	
+R48	located_in Arg1:T82 Arg2:T83	
+R49	located_in Arg1:T82 Arg2:T84	
+T124	corrected_anatomical_site 2282 2299	myelinated nerves
+R50	located_in Arg1:T85 Arg2:T124	
+T125	corrected_anatomical_site 2548 2570;2584 2588	metaphyseal trabecular bone
+T126	corrected_anatomical_site 2548 2559;2575 2588	metaphyseal cortical bone
+R51	located_in Arg1:T94 Arg2:T125	
+R52	located_in Arg1:T94 Arg2:T126	
+R53	located_in Arg1:T95 Arg2:T125	
+R54	located_in Arg1:T95 Arg2:T126	
+R58	located_in Arg1:T105 Arg2:T106	
+R59	located_in Arg1:T107 Arg2:T108	
+R60	located_in Arg1:T109 Arg2:T108	
+T127	corrected_anatomical_site 2981 2994	kidney tissue
+R61	located_in Arg1:T111 Arg2:T127	
+R55	located_in Arg1:T18 Arg2:T20	
+R56	located_in Arg1:T18 Arg2:T21	
+R57	located_in Arg1:T18 Arg2:T22	
+R62	located_in Arg1:T66 Arg2:T67	
+R63	located_in Arg1:T68 Arg2:T69	

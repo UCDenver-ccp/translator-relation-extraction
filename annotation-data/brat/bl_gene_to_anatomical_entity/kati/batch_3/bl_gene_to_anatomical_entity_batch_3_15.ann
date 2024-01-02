@@ -91,3 +91,65 @@ T90	anatomical_site 2801 2808	thyroid
 T91	anatomical_site 2809 2815	tissue
 T92	gene 2861 2866	Pax-8
 T93	gene 2868 2871	p53
+T94	corrected_anatomical_site 71 85	cardiac tissue
+R1	located_in Arg1:T1 Arg2:T94	
+R2	located_in Arg1:T2 Arg2:T94	
+T95	corrected_anatomical_site 219 232	kidney tissue
+R3	located_in Arg1:T6 Arg2:T95	
+R4	located_in Arg1:T9 Arg2:T10	
+R5	located_in Arg1:T12 Arg2:T11	
+R6	located_in Arg1:T13 Arg2:T11	
+T96	missed_anatomical_site 404 407	CSF
+R7	located_in Arg1:T14 Arg2:T96	
+R8	located_in Arg1:T14 Arg2:T15	
+T97	missed_anatomical_site 478 481	CSF
+R9	located_in Arg1:T16 Arg2:T97	
+R10	located_in Arg1:T16 Arg2:T18	
+R11	located_in Arg1:T17 Arg2:T97	
+R12	located_in Arg1:T17 Arg2:T18	
+T98	corrected_anatomical_site 667 673;686 688;693 699	cortex of kidney
+T99	corrected_anatomical_site 678 688;693 699	medulla of kidney
+R13	located_in Arg1:T27 Arg2:T98	
+R14	located_in Arg1:T27 Arg2:T99	
+R15	located_in Arg1:T27 Arg2:T28	
+T100	corrected_gene 924 928;938 947	sst3 receptors
+T101	corrected_gene 933 947	sst4 receptors
+T102	corrected_gene 918 922;938 947	sst1 receptors
+R16	located_in Arg1:T102 Arg2:T29	
+R17	located_in Arg1:T100 Arg2:T29	
+R18	located_in Arg1:T101 Arg2:T29	
+T103	corrected_anatomical_site 1136 1151;1174 1191	medial layer of coronary arteries
+T104	corrected_anatomical_site 1104 1117;1149 1151;1174 1191	intimal layer of coronary arteries
+R19	located_in Arg1:T36 Arg2:T104	
+R20	located_in Arg1:T37 Arg2:T104	
+R21	located_in Arg1:T36 Arg2:T103	
+R22	located_in Arg1:T37 Arg2:T103	
+R23	located_in Arg1:T40 Arg2:T42	
+R24	located_in Arg1:T41 Arg2:T42	
+T105	missed_gene 1315 1321	irisin
+R25	located_in Arg1:T105 Arg2:T44	
+R26	located_in Arg1:T46 Arg2:T45	
+R29	located_in Arg1:T49 Arg2:T50	
+T108	corrected_gene 1694 1708	sonic hedgehog
+R30	located_in Arg1:T108 Arg2:T53	
+T109	missed_anatomical_site 1666 1676	epithelial
+R31	located_in Arg1:T108 Arg2:T109	
+T110	corrected_gene 2006 2035	urinary plasminogen activator
+R32	located_in Arg1:T110 Arg2:T70	
+R33	located_in Arg1:T69 Arg2:T70	
+R34	located_in Arg1:T71 Arg2:T72	
+T111	missed_gene 2278 2293	serum amyloid A
+R35	located_in Arg1:T111 Arg2:T76	
+R36	located_in Arg1:T74 Arg2:T73	
+R37	located_in Arg1:T111 Arg2:T75	
+R38	located_in Arg1:T79 Arg2:T78	
+R39	located_in Arg1:T80 Arg2:T78	
+R40	located_in Arg1:T85 Arg2:T84	
+T112	missed_gene 2615 2620	4F2hc
+R41	located_in Arg1:T112 Arg2:T87	
+R42	located_in Arg1:T86 Arg2:T87	
+T113	corrected_anatomical_site 2733 2761;2777 2785	syncytiotrophoblast layer of placenta
+R43	located_in Arg1:T88 Arg2:T113	
+R44	located_in Arg1:T3 Arg2:T94	
+T106	missed_anatomical_site 1545 1557	cecal region
+R27	located_in Arg1:T108 Arg2:T106	

@@ -73,8 +73,8 @@ R2	treats Arg1:T69 Arg2:T22
 R3	treats Arg1:T70 Arg2:T22	
 R4	treats Arg1:T21 Arg2:T22	
 T71	corrected_disease_or_phenotypic_feature 938 959	drug-induced obesity.
-R5	causes_or_contributes_to Arg1:T31 Arg2:T71	
-T72	corrected_disease_or_phenotypic_feature 1088 1112	hormone-dependent tumors
+R5	causes_or_contributes_to Arg1:T31 Arg2:T32	
+T72	corrected_disease_or_phenotypic_feature 1106 1112	tumors
 R6	causes_or_contributes_to Arg1:T35 Arg2:T72	
 R7	treats Arg1:T38 Arg2:T37	
 R8	treats Arg1:T39 Arg2:T41	
@@ -86,10 +86,16 @@ R11	treats Arg1:T53 Arg2:T55
 T75	chemical 2282 2286	DONE
 T76	missed_chemical 1177 1197	anti-angiogenic drug
 R12	treats Arg1:T76 Arg2:T41	
-T77	missed_chemical 1993 2018	peptide mimics (mimotopes
-T78	missed_disease_or_phenotypic_feature 2038 2043	tumor
-R13	treats Arg1:T77 Arg2:T78	
+T77	missed_chemical 1975 2019	Vaccines based on peptide mimics (mimotopes)
 R14	treats Arg1:T77 Arg2:T61	
 R15	treats Arg1:T77 Arg2:T63	
 R16	treats Arg1:T77 Arg2:T64	
 R17	treats Arg1:T77 Arg2:T65	
+R18	causes_or_contributes_to Arg1:T42 Arg2:T41	
+R19	causes_or_contributes_to Arg1:T43 Arg2:T41	
+R20	treats Arg1:T54 Arg2:T55	
+T79	missed_disease_or_phenotypic_feature 1746 1748	HF
+R21	treats Arg1:T53 Arg2:T79	
+R22	treats Arg1:T54 Arg2:T79	
+T78	missed_disease_or_phenotypic_feature 2107 2113	tumors
+R13	treats Arg1:T77 Arg2:T78	

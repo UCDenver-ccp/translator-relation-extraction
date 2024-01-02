@@ -81,11 +81,7 @@ R8	treats Arg1:T13 Arg2:T14
 R9	treats Arg1:T13 Arg2:T15	
 R10	treats Arg1:T12 Arg2:T14	
 R11	treats Arg1:T12 Arg2:T15	
-R12	causes_or_contributes_to Arg1:T16 Arg2:T17	
-T73	corrected_disease_or_phenotypic_feature 417 443	drug-induced renal failure
-T74	corrected_disease_or_phenotypic_feature 402 413;430 443	spontaneous renal failure
-R13	treats Arg1:T18 Arg2:T74	
-R14	treats Arg1:T18 Arg2:T73	
+R13	treats Arg1:T18 Arg2:T17	
 R15	treats Arg1:T21 Arg2:T22	
 R16	treats Arg1:T20 Arg2:T22	
 R17	treats Arg1:T19 Arg2:T22	
@@ -93,10 +89,19 @@ T75	corrected_disease_or_phenotypic_feature 671 693	olivocerebellar ataxia
 T76	corrected_chemical 606 642	Neuronal nicotinic receptor agonists
 R18	treats Arg1:T76 Arg2:T75	
 R19	causes_or_contributes_to Arg1:T42 Arg2:T43	
-T77	corrected_disease_or_phenotypic_feature 1327 1357	androgen-driven ovarian cancer
-R20	treats Arg1:T41 Arg2:T77	
 T78	corrected_chemical 1383 1436	tumor vaccine by cross-linking tumor antigen and gp96
 R21	treats Arg1:T78 Arg2:T45	
 T79	missed_chemical 1935 1947	Nanocarriers
-R22	treats Arg1:T79 Arg2:T56	
-R23	treats Arg1:T53 Arg2:T56	
+R12	causes_or_contributes_to Arg1:T16 Arg2:T17	
+T73	missed_disease_or_phenotypic_feature 2111 2116	tumor
+R14	treats Arg1:T53 Arg2:T73	
+R20	treats Arg1:T79 Arg2:T73	
+R22	treats Arg1:T66 Arg2:T68	
+R23	treats Arg1:T66 Arg2:T69	
+R24	treats Arg1:T79 Arg2:T56	
+R25	treats Arg1:T53 Arg2:T56	
+T74	corrected_disease_or_phenotypic_feature 2170 2176	cancer
+R26	treats Arg1:T53 Arg2:T74	
+R27	treats Arg1:T79 Arg2:T74	
+R28	causes_or_contributes_to Arg1:T67 Arg2:T68	
+R29	causes_or_contributes_to Arg1:T67 Arg2:T69	

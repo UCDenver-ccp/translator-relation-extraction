@@ -60,14 +60,29 @@ T59	disease_or_phenotypic_feature 3689 3694	tumor
 T60	chemical 3785 3795	paclitaxel
 T61	missed_chemical 3797 3800	PTX
 T62	disease_or_phenotypic_feature 3913 3928	redox-sensitive
-R1	treats Arg1:T55 Arg2:T56
 R2	treats Arg1:T60 Arg2:T59
 R3	treats Arg1:T48 Arg2:T46
-R4	treats Arg1:T11 Arg2:T13
 R5	treats Arg1:T22 Arg2:T24
 R6	treats Arg1:T47 Arg2:T46
-R7	treats Arg1:T21 Arg2:T24
 R8	treats Arg1:T7 Arg2:T4
 R9	treats Arg1:T61 Arg2:T59
 T63	corrected_chemical 280 290	idelalisib
 R10	treats Arg1:T63 Arg2:T4	
+T64	corrected_chemical 3376 3427	Core-sheath nanostructured chitosan-based nonwovens
+R1	treats Arg1:T64 Arg2:T56	
+T65	corrected_disease_or_phenotypic_feature 564 613	Brain Metastases of Triple Negative Breast Cancer
+R11	treats Arg1:T10 Arg2:T65	
+R4	treats Arg1:T9 Arg2:T4	
+R12	treats Arg1:T11 Arg2:T65	
+T66	missed_disease_or_phenotypic_feature 1137 1152	vascular health
+R13	causes_or_contributes_to Arg1:T22 Arg2:T66	
+R7	treats Arg1:T49 Arg2:T50	
+R14	treats Arg1:T55 Arg2:T56	
+T67	missed_chemical 3747 3760	PPSP micelles
+R15	treats Arg1:T67 Arg2:T59	
+T68	missed_chemical 3854 3870;3878 3886	mPEG-PBLA-CC-PTX micelles
+R16	treats Arg1:T68 Arg2:T59	
+T69	missed_chemical 3872 3876;3878 3886	PPCP micelles
+R17	treats Arg1:T69 Arg2:T59	
+T70	missed_chemical 3945 3958	PPSP micelles
+R18	treats Arg1:T70 Arg2:T59	

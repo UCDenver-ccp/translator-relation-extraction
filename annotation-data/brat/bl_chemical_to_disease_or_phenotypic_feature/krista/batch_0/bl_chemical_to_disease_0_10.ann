@@ -24,7 +24,6 @@ T23	disease_or_phenotypic_feature 1258 1269	astigmatism
 T24	corrected_chemical 1302 1327	Grape Seed Procyanidin B2
 T25	chemical 1313 1327	Procyanidin B2
 T26	chemical 1377 1386	Oxidative
-T27	missed_disease_or_phenotypic_feature 1377 1411	Oxidative Stress-Induced Apoptosis
 T28	disease_or_phenotypic_feature 1476 1479	add
 T29	chemical 1558 1585	triglycerides-independently
 T30	missed_chemical 1589 1599	medication
@@ -68,7 +67,14 @@ R2	treats Arg1:T14 Arg2:T16
 R3	treats Arg1:T52 Arg2:T51
 R4	treats Arg1:T52 Arg2:T53
 R5	treats Arg1:T13 Arg2:T16
-R6	treats Arg1:T24 Arg2:T27
 R7	treats Arg1:T30 Arg2:T31
 R8	treats Arg1:T12 Arg2:T16
 R9	treats Arg1:T52 Arg2:T50	
+T66	corrected_disease_or_phenotypic_feature 273 282	addiction
+R6	causes_or_contributes_to Arg1:T3 Arg2:T66	
+T67	missed_disease_or_phenotypic_feature 228 246	induced plasticity
+R10	causes_or_contributes_to Arg1:T3 Arg2:T67	
+T68	missed_disease_or_phenotypic_feature 1345 1362	Ovarian Granulosa
+R11	causes_or_contributes_to Arg1:T24 Arg2:T68	
+R12	treats Arg1:T40 Arg2:T39	
+R13	treats Arg1:T41 Arg2:T39	

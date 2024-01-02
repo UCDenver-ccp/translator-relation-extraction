@@ -86,3 +86,66 @@ T85	gene 2630 2645	cholecystokinin
 T86	gene 2650 2657	gastrin
 T87	anatomical_site 2677 2684	stomach
 T88	anatomical_site 2689 2700	gallbladder
+T91	missed_anatomical_site 87 96	pituitary
+R1	located_in Arg1:T1 Arg2:T4	
+R2	located_in Arg1:T1 Arg2:T91	
+R3	located_in Arg1:T2 Arg2:T4	
+R4	located_in Arg1:T2 Arg2:T91	
+T89	missed_anatomical_site 606 612	plasma
+R5	located_in Arg1:T22 Arg2:T89	
+R6	located_in Arg1:T22 Arg2:T23	
+R7	located_in Arg1:T22 Arg2:T24	
+T92	corrected_anatomical_site 773 789	peripheral blood
+R8	located_in Arg1:T25 Arg2:T92	
+R9	located_in Arg1:T26 Arg2:T92	
+R10	located_in Arg1:T43 Arg2:T46	
+R11	located_in Arg1:T44 Arg2:T46	
+R12	located_in Arg1:T45 Arg2:T46	
+T93	corrected_gene 1809 1834	alpha-smooth-muscle actin
+R13	located_in Arg1:T93 Arg2:T56	
+R14	located_in Arg1:T93 Arg2:T55	
+T94	missed_gene 1839 1847	calponin
+R15	located_in Arg1:T94 Arg2:T55	
+R16	located_in Arg1:T93 Arg2:T58	
+R17	located_in Arg1:T94 Arg2:T58	
+R18	located_in Arg1:T57 Arg2:T58	
+T95	corrected_gene 2053 2065	collagen-III
+T96	missed_gene 2086 2097	substance P
+T97	corrected_anatomical_site 2122 2139	multifidus muscle
+R19	located_in Arg1:T95 Arg2:T97	
+R20	located_in Arg1:T61 Arg2:T97	
+R21	located_in Arg1:T62 Arg2:T97	
+R22	located_in Arg1:T96 Arg2:T97	
+R23	located_in Arg1:T63 Arg2:T97	
+R24	located_in Arg1:T64 Arg2:T97	
+T98	corrected_anatomical_site 2199 2215	peripheral blood
+R25	located_in Arg1:T66 Arg2:T98	
+R26	located_in Arg1:T67 Arg2:T98	
+R27	located_in Arg1:T68 Arg2:T98	
+T99	missed_gene 2306 2333	Smooth muscle alpha-actinin
+R28	located_in Arg1:T99 Arg2:T74	
+R29	located_in Arg1:T76 Arg2:T75	
+R30	located_in Arg1:T99 Arg2:T75	
+T100	corrected_anatomical_site 2431 2442;2459 2462	hippocampal CA2
+T101	corrected_anatomical_site 2431 2442;2463 2466	hippocampal CA3
+R31	located_in Arg1:T77 Arg2:T100	
+R32	located_in Arg1:T77 Arg2:T101	
+R33	located_in Arg1:T78 Arg2:T100	
+R34	located_in Arg1:T78 Arg2:T101	
+T102	missed_gene 2527 2532	IL-1α
+T103	missed_gene 2534 2539	IL-1β
+T104	missed_gene 2553 2558	IFN-γ
+T105	corrected_anatomical_site 2593 2605	brain tissue
+R35	located_in Arg1:T102 Arg2:T105	
+R36	located_in Arg1:T103 Arg2:T105	
+R37	located_in Arg1:T80 Arg2:T105	
+R38	located_in Arg1:T81 Arg2:T105	
+R39	located_in Arg1:T104 Arg2:T105	
+R40	located_in Arg1:T82 Arg2:T105	
+T106	corrected_gene 2616 2625;2630 2645	receptors cholecystokinin
+T107	corrected_gene 2616 2625;2650 2657	receptors gastrin
+R41	located_in Arg1:T106 Arg2:T87	
+R42	located_in Arg1:T106 Arg2:T88	
+R43	located_in Arg1:T107 Arg2:T87	
+R44	located_in Arg1:T107 Arg2:T88	
+R45	located_in Arg1:T2 Arg2:T3	

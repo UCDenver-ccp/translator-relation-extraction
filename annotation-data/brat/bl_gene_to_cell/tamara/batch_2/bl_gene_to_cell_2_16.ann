@@ -107,3 +107,115 @@ T106	cell_type 3043 3054	macrophages
 T107	cell_type 3060 3077	mesenchymal cells
 T108	gene 3088 3094	CXCL12
 T109	cell_type 3104 3119	reticular cells
+T110	missed_cell_type 21 44	C2C12Insm myotube cells
+#1	AnnotatorNotes T110	okay?
+R1	located_in Arg1:T1 Arg2:T110	
+#2	AnnotatorNotes R1	Okay?
+T111	missed_gene 212 219	NHERF-2
+R2	located_in Arg1:T4 Arg2:T5	
+R3	located_in Arg1:T111 Arg2:T5	
+R4	located_in Arg1:T4 Arg2:T6	
+R5	located_in Arg1:T111 Arg2:T6	
+R6	located_in Arg1:T9 Arg2:T10	
+T112	missed_cell_type 320 335	satellite cells
+R7	located_in Arg1:T8 Arg2:T112	
+R8	located_in Arg1:T8 Arg2:T7	
+R9	located_in Arg1:T14 Arg2:T13	
+R10	located_in Arg1:T15 Arg2:T13	
+R11	located_in Arg1:T16 Arg2:T13	
+T113	missed_gene 596 601	Oscar
+T114	corrected_cell_type 662 679	primary adipocyte
+R12	located_in Arg1:T19 Arg2:T17	
+#3	AnnotatorNotes R12	Okay?
+R13	located_in Arg1:T19 Arg2:T114	
+R14	located_in Arg1:T20 Arg2:T17	
+R15	located_in Arg1:T20 Arg2:T114	
+R16	located_in Arg1:T21 Arg2:T22	
+R17	located_in Arg1:T21 Arg2:T23	
+T115	missed_gene 976 978	OC
+T116	missed_cell_type 1043 1055	odontoblasts
+R18	located_in Arg1:T27 Arg2:T28	
+R19	located_in Arg1:T115 Arg2:T28	
+R20	located_in Arg1:T27 Arg2:T116	
+R21	located_in Arg1:T115 Arg2:T116	
+R22	located_in Arg1:T27 Arg2:T29	
+R23	located_in Arg1:T115 Arg2:T29	
+T117	missed_gene 1176 1199	neuron-specific enolase
+R24	located_in Arg1:T117 Arg2:T31	
+R25	located_in Arg1:T33 Arg2:T31	
+R26	located_in Arg1:T34 Arg2:T31	
+R27	located_in Arg1:T35 Arg2:T31	
+R28	located_in Arg1:T117 Arg2:T32	
+R29	located_in Arg1:T117 Arg2:T30	
+R30	located_in Arg1:T33 Arg2:T30	
+R31	located_in Arg1:T34 Arg2:T30	
+R32	located_in Arg1:T35 Arg2:T30	
+T118	missed_gene 1348 1353	actin
+R33	located_in Arg1:T36 Arg2:T37	
+R34	located_in Arg1:T118 Arg2:T37	
+T119	missed_gene 1411 1415	CD20
+R35	located_in Arg1:T119 Arg2:T39	
+R36	located_in Arg1:T38 Arg2:T39	
+R37	located_in Arg1:T41 Arg2:T42	
+R38	located_in Arg1:T45 Arg2:T46	
+R39	located_in Arg1:T49 Arg2:T50	
+R40	located_in Arg1:T48 Arg2:T50	
+T120	missed_gene 1784 1787	CD4
+R41	located_in Arg1:T51 Arg2:T52	
+R42	located_in Arg1:T120 Arg2:T52	
+R43	located_in Arg1:T54 Arg2:T53	
+R44	located_in Arg1:T56 Arg2:T55	
+R45	located_in Arg1:T57 Arg2:T55	
+R46	located_in Arg1:T62 Arg2:T64	
+R47	located_in Arg1:T66 Arg2:T67	
+R48	located_in Arg1:T72 Arg2:T73	
+T121	corrected_cell_type 2208 2237	Small intestinal Paneth cells
+R49	located_in Arg1:T70 Arg2:T69	
+R50	located_in Arg1:T71 Arg2:T69	
+T122	missed_gene 2260 2265	Notch
+R51	located_in Arg1:T122 Arg2:T69	
+R52	located_in Arg1:T70 Arg2:T121	
+R53	located_in Arg1:T71 Arg2:T121	
+R54	located_in Arg1:T122 Arg2:T121	
+R55	located_in Arg1:T74 Arg2:T76	
+R56	located_in Arg1:T75 Arg2:T76	
+T123	missed_cell_type 2339 2343	Treg
+R57	located_in Arg1:T74 Arg2:T123	
+R58	located_in Arg1:T75 Arg2:T123	
+T124	missed_cell_type 2424 2428	Treg
+R59	located_in Arg1:T77 Arg2:T124	
+R60	located_in Arg1:T78 Arg2:T124	
+T125	missed_gene 2434 2438	CD25
+R61	located_in Arg1:T79 Arg2:T80	
+R62	located_in Arg1:T125 Arg2:T80	
+T126	corrected_cell_type 2551 2567	fibroblast cells
+R63	located_in Arg1:T82 Arg2:T85	
+R64	located_in Arg1:T83 Arg2:T85	
+R65	located_in Arg1:T84 Arg2:T85	
+R66	located_in Arg1:T82 Arg2:T126	
+R67	located_in Arg1:T83 Arg2:T126	
+R68	located_in Arg1:T84 Arg2:T126	
+R69	located_in Arg1:T82 Arg2:T86	
+R70	located_in Arg1:T83 Arg2:T86	
+R71	located_in Arg1:T84 Arg2:T86	
+T127	corrected_gene 2634 2639	TNF-?
+R72	located_in Arg1:T127 Arg2:T91	
+R73	located_in Arg1:T88 Arg2:T91	
+R74	located_in Arg1:T89 Arg2:T91	
+R75	located_in Arg1:T90 Arg2:T91	
+R76	located_in Arg1:T127 Arg2:T92	
+R77	located_in Arg1:T88 Arg2:T92	
+R78	located_in Arg1:T89 Arg2:T92	
+R79	located_in Arg1:T90 Arg2:T92	
+R80	located_in Arg1:T127 Arg2:T93	
+R81	located_in Arg1:T88 Arg2:T93	
+R82	located_in Arg1:T89 Arg2:T93	
+R83	located_in Arg1:T90 Arg2:T93	
+R84	located_in Arg1:T94 Arg2:T96	
+R85	located_in Arg1:T95 Arg2:T96	
+R86	located_in Arg1:T94 Arg2:T97	
+R87	located_in Arg1:T95 Arg2:T97	
+T128	missed_gene 2897 2900	CD8
+R88	located_in Arg1:T128 Arg2:T101	
+R89	located_in Arg1:T102 Arg2:T103	
+R90	located_in Arg1:T108 Arg2:T109	

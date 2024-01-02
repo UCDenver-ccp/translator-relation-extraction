@@ -96,3 +96,100 @@ T95	gene 2576 2580	CD34
 T96	gene 2658 2662	IL-4
 T97	gene 2664 2667	CD4
 T98	cell_type 2669 2676	T cells
+T99	missed_gene 9 14	GSK?3
+R1	located_in Arg1:T99 Arg2:T1	
+R2	located_in Arg1:T2 Arg2:T1	
+T100	missed_gene 38 48	TF antigen
+R3	located_in Arg1:T100 Arg2:T3	
+R4	located_in Arg1:T100 Arg2:T4	
+R5	located_in Arg1:T2 Arg2:T3	
+R6	located_in Arg1:T2 Arg2:T4	
+R7	located_in Arg1:T99 Arg2:T3	
+R8	located_in Arg1:T99 Arg2:T4	
+T101	missed_cell_type 91 99	Monocyte
+R9	located_in Arg1:T5 Arg2:T101	
+R10	located_in Arg1:T6 Arg2:T101	
+R11	located_in Arg1:T7 Arg2:T101	
+R12	located_in Arg1:T14 Arg2:T15	
+R13	located_in Arg1:T20 Arg2:T21	
+R14	located_in Arg1:T19 Arg2:T21	
+T102	missed_gene 642 645	CD3
+T103	missed_gene 654 657	CD8
+R15	located_in Arg1:T102 Arg2:T23	
+R16	located_in Arg1:T24 Arg2:T23	
+R17	located_in Arg1:T103 Arg2:T23	
+T104	missed_gene 670 674	CD19
+R18	located_in Arg1:T104 Arg2:T25	
+T105	missed_gene 710 714	CD56
+R19	located_in Arg1:T27 Arg2:T26	
+R20	located_in Arg1:T105 Arg2:T26	
+R21	located_in Arg1:T37 Arg2:T38	
+R22	located_in Arg1:T36 Arg2:T38	
+R23	located_in Arg1:T35 Arg2:T38	
+R24	located_in Arg1:T33 Arg2:T34	
+T106	corrected_cell_type 1017 1053	astrocyte-restricted precursor cells
+R25	located_in Arg1:T39 Arg2:T106	
+R26	located_in Arg1:T43 Arg2:T42	
+T107	corrected_cell_type 1064 1081	neuron precursors
+R27	located_in Arg1:T43 Arg2:T107	
+R28	located_in Arg1:T45 Arg2:T46	
+R29	located_in Arg1:T44 Arg2:T46	
+T108	missed_gene 1212 1216	CD64
+T109	missed_gene 1206 1210	CD69
+T110	missed_gene 1200 1204	CD16
+R30	located_in Arg1:T110 Arg2:T50	
+R31	located_in Arg1:T109 Arg2:T50	
+R32	located_in Arg1:T108 Arg2:T50	
+R33	located_in Arg1:T48 Arg2:T50	
+R34	located_in Arg1:T49 Arg2:T50	
+R35	located_in Arg1:T49 Arg2:T51	
+R36	located_in Arg1:T48 Arg2:T51	
+R37	located_in Arg1:T108 Arg2:T51	
+R38	located_in Arg1:T109 Arg2:T51	
+R39	located_in Arg1:T110 Arg2:T51	
+R40	located_in Arg1:T53 Arg2:T52	
+R41	located_in Arg1:T54 Arg2:T52	
+R42	located_in Arg1:T55 Arg2:T52	
+R43	located_in Arg1:T56 Arg2:T52	
+R44	located_in Arg1:T57 Arg2:T52	
+R45	located_in Arg1:T58 Arg2:T52	
+T111	corrected_gene 1639 1649	collagen I
+T112	corrected_gene 1671 1683	collagen III
+R46	located_in Arg1:T111 Arg2:T64	
+R47	located_in Arg1:T112 Arg2:T64	
+T113	corrected_gene 1720 1731	collagen II
+R48	located_in Arg1:T113 Arg2:T67	
+R49	located_in Arg1:T72 Arg2:T71	
+T114	missed_cell_type 1909 1917	monocyte
+R50	located_in Arg1:T73 Arg2:T114	
+R51	located_in Arg1:T73 Arg2:T71	
+T115	missed_gene 1950 1956	RANTES
+R52	located_in Arg1:T74 Arg2:T71	
+R53	located_in Arg1:T115 Arg2:T71	
+R54	located_in Arg1:T75 Arg2:T71	
+T116	missed_gene 1965 2002	gamma interferon inducible protein-10
+R55	located_in Arg1:T116 Arg2:T71	
+T117	missed_gene 2008 2029	kerotinocyte cytokine
+T118	missed_gene 2031 2033	KC
+R56	located_in Arg1:T117 Arg2:T71	
+R57	located_in Arg1:T118 Arg2:T71	
+R58	located_in Arg1:T77 Arg2:T76	
+T119	missed_gene 2082 2113;2119 2121	macrophage inflammatory protein -2
+T120	missed_gene 2115 2118;2119 2121	MIP -2
+R59	located_in Arg1:T119 Arg2:T78	
+R60	located_in Arg1:T120 Arg2:T78	
+R61	located_in Arg1:T119 Arg2:T76	
+R62	located_in Arg1:T120 Arg2:T76	
+R63	located_in Arg1:T85 Arg2:T87	
+R64	located_in Arg1:T85 Arg2:T88	
+R65	located_in Arg1:T85 Arg2:T89	
+R66	located_in Arg1:T85 Arg2:T90	
+R67	located_in Arg1:T86 Arg2:T87	
+R68	located_in Arg1:T86 Arg2:T88	
+R69	located_in Arg1:T86 Arg2:T89	
+R70	located_in Arg1:T86 Arg2:T90	
+R71	located_in Arg1:T92 Arg2:T93	
+R72	located_in Arg1:T91 Arg2:T93	
+R73	located_in Arg1:T95 Arg2:T93	
+R74	located_in Arg1:T97 Arg2:T98	
+R75	located_in Arg1:T96 Arg2:T98	

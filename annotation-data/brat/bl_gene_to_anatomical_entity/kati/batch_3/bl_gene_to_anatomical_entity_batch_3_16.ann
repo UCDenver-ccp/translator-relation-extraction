@@ -89,3 +89,60 @@ T88	gene 2757 2762	APLP2
 T89	anatomical_site 2828 2843	skeletal muscle
 T90	anatomical_site 2852 2866	adipose tissue
 T91	gene 2884 2891	insulin
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T3	
+R3	located_in Arg1:T5 Arg2:T3	
+T92	missed_gene 163 174;179 181	interleukin -6
+T93	missed_gene 176 178;179 181	IL -6
+R4	located_in Arg1:T92 Arg2:T3	
+R5	located_in Arg1:T93 Arg2:T3	
+R6	located_in Arg1:T6 Arg2:T3	
+R7	located_in Arg1:T7 Arg2:T3	
+R8	located_in Arg1:T12 Arg2:T14	
+R9	located_in Arg1:T13 Arg2:T14	
+R10	located_in Arg1:T12 Arg2:T15	
+R11	located_in Arg1:T13 Arg2:T15	
+T94	missed_gene 454 480;486 487	Bone morphogenetic protein 4
+T95	corrected_gene 482 485;486 487	BMP 4
+R12	located_in Arg1:T94 Arg2:T17	
+R13	located_in Arg1:T95 Arg2:T17	
+T96	corrected_anatomical_site 668 680	liver tissue
+T97	missed_gene 585 616	dihydropyrimidine dehydrogenase
+T98	corrected_gene 640 645	c-myc
+R14	located_in Arg1:T97 Arg2:T96	
+R15	located_in Arg1:T19 Arg2:T96	
+R16	located_in Arg1:T98 Arg2:T96	
+R17	located_in Arg1:T21 Arg2:T96	
+T99	missed_gene 1039 1046	albumin
+R18	located_in Arg1:T99 Arg2:T35	
+R19	located_in Arg1:T36 Arg2:T35	
+R20	located_in Arg1:T34 Arg2:T37	
+R21	located_in Arg1:T99 Arg2:T37	
+R22	located_in Arg1:T36 Arg2:T37	
+R23	located_in Arg1:T39 Arg2:T40	
+T100	corrected_gene 1378 1385	albumin
+T101	missed_anatomical_site 1372 1377	serum
+R24	located_in Arg1:T100 Arg2:T101	
+T102	corrected_anatomical_site 1588 1606	palatal mesenchyme
+R25	located_in Arg1:T49 Arg2:T102	
+R26	located_in Arg1:T50 Arg2:T102	
+R27	located_in Arg1:T52 Arg2:T53	
+R28	located_in Arg1:T54 Arg2:T57	
+R29	located_in Arg1:T56 Arg2:T57	
+R30	located_in Arg1:T58 Arg2:T59	
+T105	missed_anatomical_site 2484 2490	plasma
+R34	located_in Arg1:T79 Arg2:T105	
+R35	located_in Arg1:T80 Arg2:T105	
+R36	located_in Arg1:T81 Arg2:T105	
+T106	missed_gene 2569 2576	albumin
+T107	corrected_gene 2578 2586;2614 2623	alpha 1- globulins
+T108	corrected_gene 2588 2596;2614 2623	alpha 2- globulins
+T109	missed_gene 2598 2603;2614 2623	beta- globulins
+T110	missed_gene 2608 2623	gamma-globulins
+R37	located_in Arg1:T106 Arg2:T82	
+R38	located_in Arg1:T107 Arg2:T82	
+R39	located_in Arg1:T108 Arg2:T82	
+R40	located_in Arg1:T109 Arg2:T82	
+R41	located_in Arg1:T110 Arg2:T82	
+T111	missed_gene 2795 2824	uncoupling protein homologues
+R42	located_in Arg1:T111 Arg2:T89	

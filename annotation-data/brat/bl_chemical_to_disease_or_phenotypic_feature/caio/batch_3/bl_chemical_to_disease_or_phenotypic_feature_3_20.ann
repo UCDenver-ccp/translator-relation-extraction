@@ -94,3 +94,11 @@ R9	causes_or_contributes_to Arg1:T48 Arg2:T84
 T85	corrected_disease_or_phenotypic_feature 2058 2091	hypercalcemic hyperparathyroidism
 T86	missed_disease_or_phenotypic_feature 2169 2196	parathyroid hormone rebound
 R10	treats Arg1:T67 Arg2:T85	
+R11	causes_or_contributes_to Arg1:T30 Arg2:T31	
+T88	corrected_disease_or_phenotypic_feature 964 993	hypogonadotpopic hypogonadism
+R16	causes_or_contributes_to Arg1:T30 Arg2:T88	
+T89	corrected_chemical 1842 1893	desmopressin, L-thyroxine, estrogen and progestagen
+R12	treats Arg1:T89 Arg2:T87	
+R15	treats Arg1:T73 Arg2:T72	
+R17	causes_or_contributes_to Arg1:T49 Arg2:T84	
+T87	corrected_disease_or_phenotypic_feature 1921 1999	diabetes insipidus, secondary hypothyroidism and hypogonadotropic hypogonadism

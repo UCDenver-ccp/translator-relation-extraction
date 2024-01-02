@@ -61,7 +61,6 @@ T61	chemical 2645 2652	APR-246
 T62	chemical 2671 2675	drug
 T63	chemical 2755 2773	phosphatidylserine
 T64	chemical 2868 2875	hormone
-T65	disease_or_phenotypic_feature 2886 2899	breast cancer
 T67	missed_disease_or_phenotypic_feature 487 493	asthma
 T68	corrected_chemical 594 613	oxidant-antioxidant
 R2	treats Arg1:T14 Arg2:T16	
@@ -69,20 +68,14 @@ R3	treats Arg1:T14 Arg2:T17
 T69	corrected_chemical 820 835	Ly-6A/E antigen
 T70	missed_chemical 1275 1278	WT1
 T71	corrected_disease_or_phenotypic_feature 2066 2090	solid tumor malignancies
-R6	treats Arg1:T47 Arg2:T71	
 T72	missed_chemical 2724 2728	2aG4
-T73	corrected_disease_or_phenotypic_feature 2868 2899	hormone-dependent breast cancer
-R7	treats Arg1:T61 Arg2:T73	
-R8	treats Arg1:T72 Arg2:T73	
+T73	corrected_disease_or_phenotypic_feature 2886 2899	breast cancer
 T74	DONE 2914 2918	DONE
 R1	causes_or_contributes_to Arg1:T24 Arg2:T22	
-R9	treats Arg1:T29 Arg2:T27	
-R10	treats Arg1:T29 Arg2:T26	
-R11	treats Arg1:T29 Arg2:T25	
 T66	missed_disease_or_phenotypic_feature 1200 1213	solid tumours
-R12	treats Arg1:T29 Arg2:T66	
 R13	treats Arg1:T38 Arg2:T40	
 T42	corrected_chemical 2656 2702	small-molecule drug that restores p53 function
 T75	corrected_chemical 2730 2782	an antibody that targets phosphatidylserine residues
-R4	treats Arg1:T42 Arg2:T73	
-R5	treats Arg1:T75 Arg2:T73	
+R6	causes_or_contributes_to Arg1:T64 Arg2:T73	
+T65	missed_disease_or_phenotypic_feature 1741 1759	exercise tolerance
+R4	causes_or_contributes_to Arg1:T38 Arg2:T65	

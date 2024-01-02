@@ -98,3 +98,65 @@ T97	gene 2529 2539	connexin43
 T98	gene 2541 2545	GJA1
 T99	anatomical_site 2560 2566	retina
 T100	anatomical_site 2571 2582	optic nerve
+T101	missed_anatomical_site 159 187	fetal gastrointestinal tract
+R1	located_in Arg1:T4 Arg2:T101	
+R2	located_in Arg1:T5 Arg2:T101	
+R3	located_in Arg1:T6 Arg2:T101	
+T102	corrected_anatomical_site 220 241	molar chorionic villi
+R4	located_in Arg1:T11 Arg2:T102	
+T103	corrected_gene 288 293	EGF-R
+R5	located_in Arg1:T103 Arg2:T102	
+T104	corrected_anatomical_site 311 317;321 329	tissue vascular
+T105	missed_gene 454 478	bone morphogenic protein
+R6	located_in Arg1:T105 Arg2:T104	
+R7	located_in Arg1:T105 Arg2:T17	
+R8	located_in Arg1:T18 Arg2:T104	
+R9	located_in Arg1:T19 Arg2:T104	
+R10	located_in Arg1:T20 Arg2:T104	
+T106	missed_anatomical_site 651 656	brain
+R11	located_in Arg1:T24 Arg2:T106	
+T107	missed_anatomical_site 842 853	vasculature
+R12	located_in Arg1:T28 Arg2:T107	
+R13	located_in Arg1:T28 Arg2:T29	
+R14	located_in Arg1:T28 Arg2:T30	
+R15	located_in Arg1:T32 Arg2:T107	
+R16	located_in Arg1:T32 Arg2:T29	
+R17	located_in Arg1:T32 Arg2:T30	
+R18	located_in Arg1:T33 Arg2:T34	
+R19	located_in Arg1:T35 Arg2:T37	
+R20	located_in Arg1:T35 Arg2:T38	
+R21	located_in Arg1:T45 Arg2:T46	
+T108	corrected_anatomical_site 2033 2045	liver tissue
+R24	located_in Arg1:T77 Arg2:T108	
+T109	missed_gene 2093 2097	MANF
+R25	located_in Arg1:T109 Arg2:T108	
+R26	located_in Arg1:T78 Arg2:T108	
+T110	missed_gene 2105 2112	CTNNLA1
+R27	located_in Arg1:T110 Arg2:T108	
+R28	located_in Arg1:T79 Arg2:T108	
+T111	corrected_gene 2123 2141	beta 2-transferrin
+R29	located_in Arg1:T111 Arg2:T81	
+R30	located_in Arg1:T111 Arg2:T82	
+R31	located_in Arg1:T87 Arg2:T88	
+R32	located_in Arg1:T83 Arg2:T86	
+R33	located_in Arg1:T84 Arg2:T86	
+R34	located_in Arg1:T85 Arg2:T86	
+T112	corrected_anatomical_site 2346 2351;2404 2410	liver stroma
+R35	located_in Arg1:T90 Arg2:T112	
+R36	located_in Arg1:T91 Arg2:T112	
+T113	corrected_anatomical_site 2346 2351;2415 2441	liver portal tracts vessel walls
+R37	located_in Arg1:T90 Arg2:T113	
+R38	located_in Arg1:T91 Arg2:T113	
+T114	corrected_anatomical_site 2469 2484	arterial tissue
+R39	located_in Arg1:T94 Arg2:T114	
+R41	located_in Arg1:T98 Arg2:T99	
+R40	located_in Arg1:T97 Arg2:T99	
+R42	located_in Arg1:T97 Arg2:T100	
+R43	located_in Arg1:T98 Arg2:T100	
+R44	located_in Arg1:T4 Arg2:T7	
+R45	located_in Arg1:T5 Arg2:T7	
+R46	located_in Arg1:T6 Arg2:T7	
+T115	corrected_gene 917 963	glycosylphosphatidylinositol-anchored cadherin
+R47	located_in Arg1:T115 Arg2:T107	
+R48	located_in Arg1:T115 Arg2:T29	
+R49	located_in Arg1:T115 Arg2:T30	

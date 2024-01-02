@@ -55,3 +55,19 @@ T54	disease_or_phenotypic_feature 4104 4108	rare
 T55	disease_or_phenotypic_feature 4125 4146	diabetic ketoacidosis
 T56	chemical 4199 4204	anion
 R1	treats Arg1:T47 Arg2:T49
+R2	treats Arg1:T36 Arg2:T37	
+R3	treats Arg1:T36 Arg2:T38	
+R4	treats Arg1:T36 Arg2:T39	
+R5	treats Arg1:T40 Arg2:T37	
+R6	treats Arg1:T40 Arg2:T38	
+R7	treats Arg1:T40 Arg2:T39	
+T57	missed_disease_or_phenotypic_feature 2967 2971	CRAC
+R8	treats Arg1:T42 Arg2:T57	
+T58	missed_disease_or_phenotypic_feature 1093 1097	pain
+R9	treats Arg1:T13 Arg2:T58	
+T59	missed_chemical 996 1005	narcotics
+R10	treats Arg1:T59 Arg2:T58	
+T60	missed_disease_or_phenotypic_feature 1939 1946	VP-VLBW
+R11	treats Arg1:T29 Arg2:T60	
+T61	missed_chemical 3530 3547	topical treatment
+R12	treats Arg1:T61 Arg2:T49	

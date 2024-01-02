@@ -95,3 +95,64 @@ T94	anatomical_site 2451 2455	bone
 T95	anatomical_site 2488 2504	papillary dermis
 T96	anatomical_site 2508 2512	skin
 T97	gene 2526 2532	S100A6
+T98	missed_gene 132 147	P0 glycoprotein
+T99	missed_anatomical_site 156 162	myelin
+R1	located_in Arg1:T6 Arg2:T99	
+R2	located_in Arg1:T7 Arg2:T99	
+R3	located_in Arg1:T98 Arg2:T100	
+T100	corrected_anatomical_site 197 203;222 254	myelin of the peripheral nervous system
+R4	located_in Arg1:T6 Arg2:T100	
+R5	located_in Arg1:T7 Arg2:T100	
+R6	located_in Arg1:T14 Arg2:T18	
+R7	located_in Arg1:T15 Arg2:T18	
+R8	located_in Arg1:T16 Arg2:T18	
+R9	located_in Arg1:T17 Arg2:T18	
+R10	located_in Arg1:T19 Arg2:T20	
+T101	corrected_anatomical_site 593 613	vascular endothelium
+T102	missed_anatomical_site 577 588	musculature
+R11	located_in Arg1:T22 Arg2:T102	
+R12	located_in Arg1:T22 Arg2:T101	
+R13	located_in Arg1:T27 Arg2:T26	
+T103	corrected_anatomical_site 710 730	vascular endothelium
+R14	located_in Arg1:T30 Arg2:T103	
+R15	located_in Arg1:T31 Arg2:T103	
+R16	located_in Arg1:T32 Arg2:T103	
+T104	missed_gene 778 785	GMP-140
+R17	located_in Arg1:T104 Arg2:T103	
+R18	located_in Arg1:T36 Arg2:T35	
+T105	corrected_gene 812 839	Calmodulin-binding proteins
+R19	located_in Arg1:T105 Arg2:T34	
+R20	located_in Arg1:T41 Arg2:T40	
+T106	missed_gene 1028 1041	serum amyloid
+R21	located_in Arg1:T106 Arg2:T43	
+T107	corrected_anatomical_site 1488 1528	undifferentiated retinal neuroepithelium
+T108	corrected_anatomical_site 1606 1645	undifferentiated neural tube epithelium
+T109	corrected_anatomical_site 1720 1760	ventral-most regions of the anterior CNS
+T110	corrected_anatomical_site 1819 1825;1842 1857	apical neuroepithelium
+T111	corrected_gene 1542 1547	Crb2a
+R22	located_in Arg1:T111 Arg2:T61	
+R23	located_in Arg1:T111 Arg2:T107	
+T112	corrected_gene 1561 1566	Crb2a
+R24	located_in Arg1:T64 Arg2:T108	
+R25	located_in Arg1:T112 Arg2:T108	
+T113	corrected_gene 1650 1655	Crb2b
+R26	located_in Arg1:T113 Arg2:T109	
+T114	missed_gene 1769 1772	Nok
+R27	located_in Arg1:T114 Arg2:T110	
+R28	located_in Arg1:T70 Arg2:T110	
+T115	corrected_anatomical_site 2049 2065	ganglionic bowel
+T116	corrected_anatomical_site 2033 2044;2060 2065	aganglionic bowel
+R29	located_in Arg1:T75 Arg2:T116	
+R30	located_in Arg1:T75 Arg2:T115	
+R31	located_in Arg1:T76 Arg2:T116	
+R32	located_in Arg1:T76 Arg2:T115	
+R33	located_in Arg1:T80 Arg2:T79	
+R34	located_in Arg1:T89 Arg2:T90	
+R35	located_in Arg1:T89 Arg2:T91	
+R36	located_in Arg1:T89 Arg2:T92	
+R37	located_in Arg1:T89 Arg2:T93	
+R38	located_in Arg1:T89 Arg2:T94	
+T117	corrected_anatomical_site 2488 2512	papillary dermis of skin
+R39	located_in Arg1:T97 Arg2:T117	
+T118	missed_anatomical_site 2457 2463	Dermal
+R40	located_in Arg1:T97 Arg2:T118	

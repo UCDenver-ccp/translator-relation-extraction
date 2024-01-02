@@ -98,3 +98,83 @@ T97	anatomical_site 2768 2773	brain
 T98	anatomical_site 2779 2784	liver
 T99	gene 2794 2798	PSS2
 T100	anatomical_site 2833 2839	testis
+R1	located_in Arg1:T2 Arg2:T1	
+T101	corrected_anatomical_site 114 136;85 91	plate mesoderm tissues neural
+T102	corrected_anatomical_site 106 136	lateral plate mesoderm tissues
+T103	corrected_anatomical_site 114 136;93 101	plate mesoderm tissues paraxial
+R2	located_in Arg1:T2 Arg2:T101	
+R3	located_in Arg1:T2 Arg2:T103	
+R4	located_in Arg1:T2 Arg2:T102	
+R5	located_in Arg1:T8 Arg2:T6	
+T104	corrected_anatomical_site 157 172	endocrine organ
+R6	located_in Arg1:T8 Arg2:T104	
+T105	missed_gene 224 266	Cartilage-derived morphogenetic proteins 1
+R7	located_in Arg1:T105 Arg2:T9	
+T106	missed_gene 224 264;271 272	Cartilage-derived morphogenetic proteins 2
+R8	located_in Arg1:T106 Arg2:T9	
+R9	located_in Arg1:T10 Arg2:T9	
+T107	missed_gene 285 291	CDMP-2
+R10	located_in Arg1:T107 Arg2:T9	
+T108	missed_gene 312 338	bone morphogenetic protein
+R11	located_in Arg1:T108 Arg2:T11	
+R12	located_in Arg1:T12 Arg2:T11	
+T109	missed_gene 456 461	IL-1β
+R13	located_in Arg1:T109 Arg2:T20	
+R14	located_in Arg1:T13 Arg2:T20	
+R15	located_in Arg1:T14 Arg2:T20	
+R16	located_in Arg1:T15 Arg2:T20	
+R17	located_in Arg1:T16 Arg2:T20	
+R18	located_in Arg1:T17 Arg2:T20	
+R19	located_in Arg1:T18 Arg2:T20	
+R20	located_in Arg1:T31 Arg2:T33	
+R21	located_in Arg1:T32 Arg2:T33	
+T110	corrected_gene 830 838	patched1
+T111	corrected_gene 843 851	patched2
+R22	located_in Arg1:T110 Arg2:T37	
+R23	located_in Arg1:T111 Arg2:T37	
+R24	located_in Arg1:T40 Arg2:T39	
+R25	located_in Arg1:T41 Arg2:T39	
+R26	located_in Arg1:T42 Arg2:T44	
+R27	located_in Arg1:T43 Arg2:T44	
+T112	corrected_anatomical_site 1273 1297	hippocampus brain tissue
+R28	located_in Arg1:T48 Arg2:T112	
+T113	corrected_gene 1214 1217;1219 1220	ERK 2
+R29	located_in Arg1:T113 Arg2:T112	
+R30	located_in Arg1:T49 Arg2:T112	
+T114	missed_gene 1479 1507	bone morphogenetic protein-6
+R31	located_in Arg1:T114 Arg2:T54	
+R32	located_in Arg1:T55 Arg2:T54	
+T115	corrected_gene 1873 1881;1894 1907	alpha 1- adrenoceptors
+T116	corrected_gene 1886 1907	alpha 2-adrenoceptors
+R34	located_in Arg1:T115 Arg2:T70	
+R35	located_in Arg1:T116 Arg2:T70	
+T117	missed_gene 1965 1983	beta-adrenoceptors
+T118	missed_gene 1988 2011	muscarinergic receptors
+T119	corrected_gene 2050 2071	alpha 1-adrenoceptors
+R36	located_in Arg1:T117 Arg2:T71	
+R37	located_in Arg1:T117 Arg2:T72	
+R38	located_in Arg1:T118 Arg2:T71	
+R39	located_in Arg1:T118 Arg2:T72	
+T120	missed_anatomical_site 2042 2049	cardiac
+R40	located_in Arg1:T119 Arg2:T120	
+T121	missed_gene 2114 2140;2147 2148	bone morphogenetic protein 2
+T122	corrected_gene 2142 2145;2147 2148	BMP 2
+R41	located_in Arg1:T121 Arg2:T74	
+R42	located_in Arg1:T122 Arg2:T74	
+R43	located_in Arg1:T76 Arg2:T74	
+R44	located_in Arg1:T80 Arg2:T83	
+R45	located_in Arg1:T81 Arg2:T83	
+R46	located_in Arg1:T82 Arg2:T83	
+R47	located_in Arg1:T85 Arg2:T87	
+R48	located_in Arg1:T86 Arg2:T87	
+R49	located_in Arg1:T85 Arg2:T88	
+R50	located_in Arg1:T86 Arg2:T88	
+R51	located_in Arg1:T92 Arg2:T94	
+R52	located_in Arg1:T95 Arg2:T96	
+R53	located_in Arg1:T95 Arg2:T97	
+R54	located_in Arg1:T95 Arg2:T98	
+R55	located_in Arg1:T99 Arg2:T100	
+T123	corrected_gene 808 829	Hedgehog co-receptors
+R56	located_in Arg1:T123 Arg2:T37	
+T125	corrected_gene 2703 2708	SAMP8
+R57	located_in Arg1:T125 Arg2:T94	

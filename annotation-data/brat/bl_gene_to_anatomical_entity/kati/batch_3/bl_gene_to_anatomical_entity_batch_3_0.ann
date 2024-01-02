@@ -94,3 +94,74 @@ T93	anatomical_site 2883 2887	bone
 T94	gene 2948 2952	Pirt
 T95	gene 2965 2969	P2X2
 T96	anatomical_site 2993 3015	enteric nervous system
+T97	missed_gene 0 31	Connective tissue growth factor
+R1	located_in Arg1:T97 Arg2:T1	
+R2	located_in Arg1:T2 Arg2:T1	
+R3	located_in Arg1:T3 Arg2:T1	
+T99	missed_gene 402 429	bone morphogenetic proteins
+R5	located_in Arg1:T99 Arg2:T12	
+R6	located_in Arg1:T13 Arg2:T12	
+T100	corrected_gene 431 434;438 440	BMP ‑4
+T101	corrected_gene 431 434;445 447	BMP ‑7
+T102	missed_gene 450 476	bone transcription factors
+T103	missed_gene 498 518	bone matrix proteins
+T104	missed_gene 525 527	OC
+T105	missed_gene 532 537	Col‑1
+R7	located_in Arg1:T100 Arg2:T12	
+R8	located_in Arg1:T101 Arg2:T12	
+R9	located_in Arg1:T102 Arg2:T14	
+R10	located_in Arg1:T15 Arg2:T14	
+R11	located_in Arg1:T16 Arg2:T14	
+R12	located_in Arg1:T103 Arg2:T106	
+R13	located_in Arg1:T18 Arg2:T106	
+R14	located_in Arg1:T104 Arg2:T106	
+R15	located_in Arg1:T105 Arg2:T106	
+T106	corrected_anatomical_site 498 509	bone matrix
+T107	corrected_anatomical_site 723 734	lung tissue
+R16	located_in Arg1:T25 Arg2:T107	
+R17	located_in Arg1:T25 Arg2:T26	
+T108	missed_anatomical_site 854 860	plasma
+R18	located_in Arg1:T28 Arg2:T108	
+T109	missed_anatomical_site 960 966	plasma
+R19	located_in Arg1:T31 Arg2:T109	
+R20	located_in Arg1:T32 Arg2:T34	
+R21	located_in Arg1:T33 Arg2:T34	
+R22	located_in Arg1:T32 Arg2:T35	
+R23	located_in Arg1:T33 Arg2:T35	
+R24	located_in Arg1:T44 Arg2:T45	
+T110	missed_gene 1608 1613	IL-9R
+R25	located_in Arg1:T50 Arg2:T53	
+R26	located_in Arg1:T110 Arg2:T53	
+R27	located_in Arg1:T51 Arg2:T53	
+T111	missed_gene 1828 1832	Lrat
+R28	located_in Arg1:T111 Arg2:T57	
+R29	located_in Arg1:T56 Arg2:T57	
+R30	located_in Arg1:T58 Arg2:T60	
+R31	located_in Arg1:T59 Arg2:T60	
+T112	missed_gene 1964 1971	Cyp26B1
+R32	located_in Arg1:T112 Arg2:T65	
+R33	located_in Arg1:T62 Arg2:T65	
+R34	located_in Arg1:T63 Arg2:T65	
+R35	located_in Arg1:T64 Arg2:T65	
+R36	located_in Arg1:T73 Arg2:T72	
+R37	located_in Arg1:T74 Arg2:T72	
+R38	located_in Arg1:T75 Arg2:T72	
+R39	located_in Arg1:T80 Arg2:T82	
+R40	located_in Arg1:T80 Arg2:T83	
+R41	located_in Arg1:T81 Arg2:T82	
+R42	located_in Arg1:T81 Arg2:T83	
+R43	located_in Arg1:T84 Arg2:T87	
+R44	located_in Arg1:T85 Arg2:T87	
+R45	located_in Arg1:T86 Arg2:T87	
+R46	located_in Arg1:T88 Arg2:T89	
+R47	located_in Arg1:T90 Arg2:T89	
+R48	located_in Arg1:T92 Arg2:T93	
+T113	missed_anatomical_site 2920 2927	tissues
+R49	located_in Arg1:T92 Arg2:T113	
+T114	corrected_gene 2965 2979	P2X2 receptors
+R50	located_in Arg1:T94 Arg2:T96	
+R51	located_in Arg1:T114 Arg2:T96	
+T115	corrected_gene 2510 2521	NKA alpha-1
+R52	located_in Arg1:T115 Arg2:T79	
+T98	corrected_anatomical_site 109 119	Whole body
+R4	located_in Arg1:T5 Arg2:T98	

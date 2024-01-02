@@ -64,7 +64,7 @@ T63	chemical 1942 1951	potassium
 T64	disease_or_phenotypic_feature 1963 1970	obesity
 T65	disease_or_phenotypic_feature 1985 1992	obesity
 T66	chemical 2032 2043	bupivacaine
-T67	corrected_disease_or_phenotypic_feature 35 59	androgen-dependent tumor
+T67	corrected_disease_or_phenotypic_feature 54 59	tumor
 R1	treats Arg1:T5 Arg2:T7	
 T68	corrected_disease_or_phenotypic_feature 282 308	hypomagnesemic hypokalemia
 T69	missed_disease_or_phenotypic_feature 313 325	hypocalcemia
@@ -73,8 +73,6 @@ T71	missed_disease_or_phenotypic_feature 498 533	respiratory and metabolic alkal
 T72	missed_chemical 662 668	Apa-MS
 T73	corrected_chemical 811 827	ARPC2 inhibitor,
 R2	treats Arg1:T26 Arg2:T28	
-T74	missed_disease_or_phenotypic_feature 865 881	tumor metastasis
-R3	treats Arg1:T26 Arg2:T74	
 T76	corrected_chemical 1167 1189	Guanidinosuccinic acid
 T77	missed_disease_or_phenotypic_feature 1221 1229	azotemia
 T78	missed_chemical 1305 1337	Ewing tumor-associated antigen 1
@@ -82,13 +80,17 @@ T79	missed_chemical 1354 1360	ETAA16
 T80	missed_chemical 1298 1303	ETAA1
 T81	missed_disease_or_phenotypic_feature 1632 1644	hypertension
 T83	DONE 2045 2049	DONE
-R4	causes_or_contributes_to Arg1:T4 Arg2:T67	
 R5	treats Arg1:T73 Arg2:T28	
-R6	treats Arg1:T73 Arg2:T74	
 T84	corrected_chemical 919 934	sodium selenite
 R7	causes_or_contributes_to Arg1:T84 Arg2:T31	
-T75	corrected_disease_or_phenotypic_feature 1041 1067	refractory cancer cachexia
+T75	corrected_disease_or_phenotypic_feature 1052 1067	cancer cachexia
 R8	treats Arg1:T32 Arg2:T75	
 R9	treats Arg1:T33 Arg2:T75	
 R10	causes_or_contributes_to Arg1:T3 Arg2:T67	
 R11	causes_or_contributes_to Arg1:T3 Arg2:T1	
+R12	treats Arg1:T34 Arg2:T75	
+R3	treats Arg1:T72 Arg2:T22	
+T74	corrected_chemical 641 658	apatinib solution
+R6	treats Arg1:T74 Arg2:T22	
+T82	missed_disease_or_phenotypic_feature 17 20	PCa
+R4	treats Arg1:T3 Arg2:T82	

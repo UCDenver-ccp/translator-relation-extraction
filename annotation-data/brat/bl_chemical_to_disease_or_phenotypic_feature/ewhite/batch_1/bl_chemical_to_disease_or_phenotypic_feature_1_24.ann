@@ -96,8 +96,11 @@ T81	missed_disease_or_phenotypic_feature 1033 1053	cholinergic activity
 T82	missed_disease_or_phenotypic_feature 1058 1077	antioxidant defense
 R15	causes_or_contributes_to Arg1:T75 Arg2:T81	
 R16	causes_or_contributes_to Arg1:T75 Arg2:T82	
-T83	corrected_chemical 2113 2153	tumour-associated antigen melan-A/MART-1
-T84	corrected_disease_or_phenotypic_feature 2036 2070	Primary melanoma tumour regression
-R17	causes_or_contributes_to Arg1:T83 Arg2:T84	
-T85	corrected_disease_or_phenotypic_feature 2036 2059	Primary melanoma tumour
-R18	treats Arg1:T83 Arg2:T85	
+T86	missed_disease_or_phenotypic_feature 708 713	tumor
+R19	treats Arg1:T18 Arg2:T86	
+R20	treats Arg1:T18 Arg2:T20	
+R21	treats Arg1:T54 Arg2:T55	
+T88	missed_disease_or_phenotypic_feature 1549 1555	tumors
+R23	treats Arg1:T42 Arg2:T88	
+R17	causes_or_contributes_to Arg1:T63 Arg2:T62	
+R18	causes_or_contributes_to Arg1:T64 Arg2:T62	

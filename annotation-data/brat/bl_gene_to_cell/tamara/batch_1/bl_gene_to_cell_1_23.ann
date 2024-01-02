@@ -98,3 +98,54 @@ T97	gene 2818 2823	BGT-1
 T98	cell_type 2859 2868	microglia
 T99	cell_type 2880 2890	astrocytes
 T100	cell_type 2895 2902	neurons
+R1	located_in Arg1:T3 Arg2:T4	
+R2	located_in Arg1:T5 Arg2:T6	
+R3	located_in Arg1:T5 Arg2:T7	
+R4	located_in Arg1:T5 Arg2:T8	
+R5	located_in Arg1:T5 Arg2:T9	
+R6	located_in Arg1:T10 Arg2:T11	
+R7	located_in Arg1:T12 Arg2:T13	
+T101	corrected_gene 405 441	macrophage colony-stimulating factor
+R8	located_in Arg1:T101 Arg2:T16	
+R9	located_in Arg1:T18 Arg2:T16	
+T102	missed_cell_type 465 475	macrophage
+T103	missed_cell_type 453 464	granulocyte
+R10	located_in Arg1:T19 Arg2:T103	
+R11	located_in Arg1:T19 Arg2:T102	
+T104	missed_cell_type 577 586	microglia
+R12	located_in Arg1:T24 Arg2:T104	
+R13	located_in Arg1:T33 Arg2:T34	
+R14	located_in Arg1:T32 Arg2:T34	
+R15	located_in Arg1:T31 Arg2:T34	
+R16	located_in Arg1:T35 Arg2:T34	
+T105	corrected_gene 925 928;940 946	TGF beta 3
+R17	located_in Arg1:T37 Arg2:T38	
+R18	located_in Arg1:T37 Arg2:T39	
+R19	located_in Arg1:T105 Arg2:T38	
+R20	located_in Arg1:T105 Arg2:T39	
+R21	located_in Arg1:T48 Arg2:T50	
+R22	located_in Arg1:T51 Arg2:T49	
+T107	missed_cell_type 1752 1775	mature progenitor cells
+R25	located_in Arg1:T58 Arg2:T60	
+R26	located_in Arg1:T61 Arg2:T107	
+R27	located_in Arg1:T62 Arg2:T107	
+R28	located_in Arg1:T67 Arg2:T68	
+R29	located_in Arg1:T67 Arg2:T69	
+T108	corrected_cell_type 2165 2188	cardiomyocyte-like cell
+T109	missed_gene 2118 2127	alpha-MHC
+R30	located_in Arg1:T72 Arg2:T108	
+R31	located_in Arg1:T109 Arg2:T108	
+R32	located_in Arg1:T71 Arg2:T108	
+R33	located_in Arg1:T70 Arg2:T108	
+R34	located_in Arg1:T75 Arg2:T76	
+T113	corrected_cell_type 2535 2547	PB monocytes
+R43	located_in Arg1:T83 Arg2:T113	
+R44	located_in Arg1:T85 Arg2:T86	
+R45	located_in Arg1:T87 Arg2:T88	
+T114	missed_gene 2636 2639	CD8
+R46	located_in Arg1:T114 Arg2:T89	
+T115	corrected_cell_type 2686 2700	neuronal cells
+R47	located_in Arg1:T91 Arg2:T115	
+R48	located_in Arg1:T92 Arg2:T115	
+R49	located_in Arg1:T93 Arg2:T115	
+R50	located_in Arg1:T97 Arg2:T98	

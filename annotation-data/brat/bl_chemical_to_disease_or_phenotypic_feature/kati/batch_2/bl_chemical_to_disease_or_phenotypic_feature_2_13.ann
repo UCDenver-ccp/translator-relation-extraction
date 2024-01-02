@@ -20,7 +20,6 @@ T19	disease_or_phenotypic_feature 796 803	obesity
 T20	chemical 809 823	oleoyl-estrone
 T21	chemical 903 914	antioxidant
 T22	chemical 915 921	enzyme
-T23	disease_or_phenotypic_feature 932 939	obesity
 T24	chemical 948 957	oxidative
 T25	chemical 999 1006	antigen
 T26	disease_or_phenotypic_feature 1077 1080	pig
@@ -78,21 +77,10 @@ T77	disease_or_phenotypic_feature 2896 2905	malignant
 T78	chemical 2976 2987	biochemical
 T79	disease_or_phenotypic_feature 3003 3009	malign
 T80	corrected_chemical 192 217	tumor-associated antigens
-R1	treats Arg1:T80 Arg2:T2	
-T81	corrected_disease_or_phenotypic_feature 509 527	Galactose cataract
 T82	corrected_chemical 557 583	aldose reductase inhibitor
-R2	treats Arg1:T15 Arg2:T81	
-R3	treats Arg1:T82 Arg2:T81	
-T83	missed_chemical 733 767	grapeseed proanthocyanidin extract
-T84	missed_chemical 769 773	GSPE
-T85	missed_chemical 825 827	OE
-R4	treats Arg1:T20 Arg2:T19	
-R5	treats Arg1:T85 Arg2:T19	
-T86	corrected_disease_or_phenotypic_feature 932 964	obesity-induced oxidative stress
-R6	treats Arg1:T83 Arg2:T86	
-R7	treats Arg1:T84 Arg2:T86	
-R8	treats Arg1:T20 Arg2:T86	
-R9	treats Arg1:T85 Arg2:T86	
+R2	treats Arg1:T15 Arg2:T14	
+R3	treats Arg1:T82 Arg2:T14	
+T86	disease_or_phenotypic_feature 932 939	obesity
 T87	missed_chemical 1037 1055	methylcholanthrene
 T88	missed_chemical 1057 1060	MCA
 T89	missed_disease_or_phenotypic_feature 1081 1086	tumor
@@ -115,8 +103,6 @@ T99	corrected_chemical 431 446	EGFR inhibitors
 R23	treats Arg1:T99 Arg2:T98	
 R24	treats Arg1:T10 Arg2:T98	
 R25	treats Arg1:T11 Arg2:T98	
-T100	missed_chemical 847 855;866 877	combined GSPE and OE
-R26	treats Arg1:T100 Arg2:T86	
 T96	missed_disease_or_phenotypic_feature 2636 2646	rebleeding
 T101	corrected_disease_or_phenotypic_feature 2663 2688	delayed cerebral ischemia
 R19	treats Arg1:T72 Arg2:T96	
@@ -133,7 +119,7 @@ R34	treats Arg1:T57 Arg2:T94
 T103	missed_disease_or_phenotypic_feature 2294 2315	food intake reduction
 R35	treats Arg1:T57 Arg2:T103	
 R36	treats Arg1:T57 Arg2:T92	
-R16	treats Arg1:T61 Arg2:T62	
 T93	corrected_disease_or_phenotypic_feature 2375 2403	ganglioneuroma with seizures
-R17	treats Arg1:T61 Arg2:T93	
-R18	treats Arg1:T61 Arg2:T64	
+R16	causes_or_contributes_to Arg1:T13 Arg2:T14	
+T23	missed_disease_or_phenotypic_feature 261 270	poisoning
+R1	causes_or_contributes_to Arg1:T5 Arg2:T23	

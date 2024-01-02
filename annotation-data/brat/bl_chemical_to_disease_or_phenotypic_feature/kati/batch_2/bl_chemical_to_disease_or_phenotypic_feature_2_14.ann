@@ -63,8 +63,6 @@ T63	disease_or_phenotypic_feature 2332 2336	pain
 T64	chemical 2338 2344	Yeasts
 T65	chemical 2361 2369	antigens
 T66	disease_or_phenotypic_feature 2373 2379	cancer
-T67	corrected_chemical 77 98	chemotherapeutic drug
-R1	causes_or_contributes_to Arg1:T67 Arg2:T1	
 R2	causes_or_contributes_to Arg1:T3 Arg2:T1	
 T68	corrected_chemical 222 237	obesity hormone
 T11	disease_or_phenotypic_feature 281 287	cancer
@@ -75,10 +73,6 @@ R4	causes_or_contributes_to Arg1:T10 Arg2:T69
 R5	causes_or_contributes_to Arg1:T68 Arg2:T70	
 R6	causes_or_contributes_to Arg1:T10 Arg2:T70	
 T71	corrected_chemical 335 356	glycoprotein antigens
-R7	causes_or_contributes_to Arg1:T71 Arg2:T13	
-T72	corrected_chemical 482 529	common antigens which OK-432 shared with tumors
-T74	missed_disease_or_phenotypic_feature 616 622	tumors
-R9	treats Arg1:T72 Arg2:T74	
 T75	missed_chemical 986 1000	glucocorticoid
 R10	causes_or_contributes_to Arg1:T75 Arg2:T24	
 R11	causes_or_contributes_to Arg1:T23 Arg2:T24	
@@ -86,11 +80,11 @@ T76	corrected_disease_or_phenotypic_feature 1140 1163	intractable cancer pain
 T77	corrected_chemical 1109 1136	bupivacaine-opioid infusion
 R12	treats Arg1:T77 Arg2:T76	
 T78	corrected_chemical 1251 1264	MK2 inhibitor
-T79	missed_disease_or_phenotypic_feature 1293 1310	tumor development
+T79	missed_disease_or_phenotypic_feature 1293 1298	tumor
 R13	treats Arg1:T78 Arg2:T79	
 T80	corrected_disease_or_phenotypic_feature 1227 1249	colitis-associated CRC
-T81	corrected_chemical 1172 1207	azoxymethane/dextran sodium sulfate
-T82	missed_chemical 1209 1216	AOM/DSS
+T81	corrected_chemical 1172 1184	azoxymethane
+T82	missed_chemical 1213 1216	DSS
 R14	causes_or_contributes_to Arg1:T81 Arg2:T80	
 R15	causes_or_contributes_to Arg1:T82 Arg2:T80	
 T83	corrected_chemical 1349 1374	tumor-associated antigens
@@ -107,10 +101,22 @@ T90	corrected_chemical 2272 2286	JNK inhibitors
 R25	treats Arg1:T90 Arg2:T89	
 R26	treats Arg1:T61 Arg2:T89	
 T91	corrected_chemical 2354 2369	tumour antigens
-R27	treats Arg1:T91 Arg2:T66	
-R8	treats Arg1:T72 Arg2:T17	
 T73	corrected_chemical 1756 1770	MR antagonists
 R18	treats Arg1:T73 Arg2:T44	
 R21	treats Arg1:T73 Arg2:T45	
 R22	treats Arg1:T73 Arg2:T88	
 R23	treats Arg1:T73 Arg2:T47	
+T67	missed_chemical 1312 1323	Vaccination
+R1	treats Arg1:T67 Arg2:T84	
+R7	causes_or_contributes_to Arg1:T2 Arg2:T1	
+T72	missed_disease_or_phenotypic_feature 58 69	side effect
+R8	causes_or_contributes_to Arg1:T2 Arg2:T72	
+R9	causes_or_contributes_to Arg1:T3 Arg2:T72	
+R24	treats Arg1:T78 Arg2:T80	
+T74	missed_chemical 1209 1212	AOM
+R27	causes_or_contributes_to Arg1:T74 Arg2:T80	
+T86	corrected_chemical 1185 1207	dextran sodium sulfate
+R28	causes_or_contributes_to Arg1:T86 Arg2:T80	
+T92	missed_chemical 1643 1648	drugs
+R29	treats Arg1:T92 Arg2:T41	
+R30	treats Arg1:T92 Arg2:T42	

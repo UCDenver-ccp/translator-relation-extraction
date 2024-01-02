@@ -77,22 +77,17 @@ T76	chemical 2631 2639	hormonal
 T77	disease_or_phenotypic_feature 2678 2686	diarrhea
 T78	disease_or_phenotypic_feature 2706 2720	abdominal pain
 R1	causes_or_contributes_to Arg1:T3 Arg2:T4	
-T79	corrected_disease_or_phenotypic_feature 124 151	medetomidine-induced ataxia
-R2	treats Arg1:T5 Arg2:T79	
-R3	treats Arg1:T6 Arg2:T79	
-R4	treats Arg1:T7 Arg2:T79	
+R2	treats Arg1:T5 Arg2:T4	
+R3	treats Arg1:T6 Arg2:T4	
+R4	treats Arg1:T7 Arg2:T4	
 T80	corrected_chemical 967 988	liposomal doxorubicin
-T81	missed_disease_or_phenotypic_feature 914 919	tumor
-R5	treats Arg1:T80 Arg2:T81	
-T82	corrected_disease_or_phenotypic_feature 1447 1490	MNU-induced autochthonous mammary carcinoma
 T83	missed_chemical 1447 1450	MNU
-T84	corrected_disease_or_phenotypic_feature 1459 1490	autochthonous mammary carcinoma
-R6	causes_or_contributes_to Arg1:T83 Arg2:T84	
+R6	causes_or_contributes_to Arg1:T83 Arg2:T38	
 T85	missed_disease_or_phenotypic_feature 1518 1524	tumor,
 R7	causes_or_contributes_to Arg1:T39 Arg2:T85	
 T86	missed_chemical 1544 1549	HECNU
-R8	treats Arg1:T86 Arg2:T82	
-R9	treats Arg1:T41 Arg2:T82	
+R8	treats Arg1:T86 Arg2:T38	
+R9	treats Arg1:T41 Arg2:T38	
 T87	missed_disease_or_phenotypic_feature 1715 1726	arrhythmias
 T88	corrected_disease_or_phenotypic_feature 1788 1797;1819 1827	pulmonary diseases
 T89	corrected_chemical 1634 1653	calcium antagonists
@@ -127,3 +122,10 @@ T98	missed_disease_or_phenotypic_feature 2668 2676	flushing
 R29	causes_or_contributes_to Arg1:T76 Arg2:T98	
 R30	causes_or_contributes_to Arg1:T76 Arg2:T77	
 R31	causes_or_contributes_to Arg1:T76 Arg2:T97	
+T79	missed_disease_or_phenotypic_feature 1193 1198	tumor
+R5	treats Arg1:T31 Arg2:T79	
+R32	treats Arg1:T86 Arg2:T85	
+R33	treats Arg1:T41 Arg2:T85	
+T81	missed_chemical 1601 1606	HECNU
+R34	treats Arg1:T81 Arg2:T38	
+R35	treats Arg1:T81 Arg2:T85	

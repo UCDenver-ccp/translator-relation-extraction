@@ -27,7 +27,6 @@ T26	chemical 1424 1431	12-lead
 T27	missed_chemical 1454 1456	Cd
 T28	chemical 1503 1513	hemoglobin
 T29	chemical 1607 1616	oxidative
-T30	missed_disease_or_phenotypic_feature 1607 1623	oxidative stress
 T31	disease_or_phenotypic_feature 1625 1630	CTX-1
 T32	chemical 1665 1673	collagen
 T33	chemical 1720 1727	protein
@@ -52,7 +51,6 @@ T51	disease_or_phenotypic_feature 2681 2688	non-CKD
 T52	chemical 2702 2707	group
 T53	chemical 2730 2735	group
 T54	chemical 2758 2763	group
-T55	corrected_disease_or_phenotypic_feature 2782 2824	PDGRFB mutation-associated myofibromatosis
 T56	disease_or_phenotypic_feature 2809 2824	myofibromatosis
 T57	chemical 2860 2868	imatinib
 T58	chemical 2914 2919	water
@@ -79,16 +77,27 @@ T78	chemical 3709 3729	receptor antagonists
 T79	chemical 3718 3729	antagonists
 T80	missed_disease_or_phenotypic_feature 3744 3747	PHH
 R1	treats Arg1:T62 Arg2:T63
-R2	causes_or_contributes_to Arg1:T27 Arg2:T30
 R3	treats Arg1:T72 Arg2:T73
 R4	causes_or_contributes_to Arg1:T72 Arg2:T70
 R5	treats Arg1:T77 Arg2:T80
 R6	causes_or_contributes_to Arg1:T49 Arg2:T50
 R7	treats Arg1:T17 Arg2:T18
 R8	treats Arg1:T10 Arg2:T13
-R9	treats Arg1:T57 Arg2:T55
+R9	treats Arg1:T57 Arg2:T56
 R10	treats Arg1:T11 Arg2:T13
 R11	treats Arg1:T69 Arg2:T70
 T81	corrected_chemical 2059 2069	Ticagrelor
 T82	corrected_disease_or_phenotypic_feature 2115 2145	atherosclerotic artery disease
 R12	treats Arg1:T81 Arg2:T82	
+R13	treats Arg1:T17 Arg2:T19	
+T30	missed_disease_or_phenotypic_feature 3752 3773	negative CNS sequelae
+R2	treats Arg1:T77 Arg2:T30	
+T83	missed_disease_or_phenotypic_feature 727 735	bleeding
+T84	missed_chemical 692 701	protamine
+R14	treats Arg1:T84 Arg2:T83	
+T85	corrected_chemical 649 671	unfractionated heparin
+R15	causes_or_contributes_to Arg1:T85 Arg2:T83	
+T86	missed_chemical 673 676	UFH
+R16	causes_or_contributes_to Arg1:T86 Arg2:T83	
+T55	missed_chemical 3644 3647	LPA
+R17	causes_or_contributes_to Arg1:T55 Arg2:T74	

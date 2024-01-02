@@ -103,3 +103,87 @@ T102	gene 2772 2776	CCR3
 T103	gene 2805 2809	CCR3
 T104	cell_type 2834 2844	fibroblast
 T105	cell_type 2850 2862	synoviocytes
+T106	missed_gene 43 67	neuronal nuclear antigen
+T107	missed_gene 69 73	NeuN
+R1	located_in Arg1:T106 Arg2:T1	
+R2	located_in Arg1:T107 Arg2:T1	
+T108	missed_gene 76 99	neuron-specific enolase
+T109	missed_gene 101 104	NSE
+R3	located_in Arg1:T108 Arg2:T2	
+R4	located_in Arg1:T109 Arg2:T2	
+T110	missed_cell_type 119 124	glial
+R5	located_in Arg1:T4 Arg2:T110	
+R6	located_in Arg1:T5 Arg2:T110	
+R7	located_in Arg1:T7 Arg2:T6	
+R8	located_in Arg1:T8 Arg2:T6	
+R9	located_in Arg1:T12 Arg2:T14	
+R10	located_in Arg1:T13 Arg2:T14	
+T111	corrected_gene 451 458	p38MAPK
+R11	located_in Arg1:T111 Arg2:T14	
+R12	located_in Arg1:T17 Arg2:T21	
+R13	located_in Arg1:T18 Arg2:T21	
+R14	located_in Arg1:T19 Arg2:T21	
+R15	located_in Arg1:T20 Arg2:T21	
+R16	located_in Arg1:T20 Arg2:T22	
+R17	located_in Arg1:T19 Arg2:T22	
+R18	located_in Arg1:T18 Arg2:T22	
+R19	located_in Arg1:T17 Arg2:T22	
+T112	missed_gene 678 682	LY96
+R20	located_in Arg1:T23 Arg2:T30	
+R21	located_in Arg1:T24 Arg2:T30	
+R22	located_in Arg1:T25 Arg2:T30	
+R23	located_in Arg1:T26 Arg2:T30	
+R24	located_in Arg1:T112 Arg2:T30	
+R25	located_in Arg1:T27 Arg2:T30	
+R26	located_in Arg1:T28 Arg2:T30	
+R27	located_in Arg1:T29 Arg2:T30	
+R28	located_in Arg1:T23 Arg2:T31	
+R29	located_in Arg1:T24 Arg2:T31	
+R30	located_in Arg1:T25 Arg2:T31	
+R31	located_in Arg1:T26 Arg2:T31	
+R32	located_in Arg1:T112 Arg2:T31	
+R33	located_in Arg1:T27 Arg2:T31	
+R34	located_in Arg1:T28 Arg2:T31	
+R35	located_in Arg1:T29 Arg2:T31	
+T113	corrected_cell_type 893 921	fibroblast-like synoviocytes
+T114	corrected_cell_type 932 968	multinucleated osteoclast-like cells
+R37	located_in Arg1:T35 Arg2:T114	
+T115	missed_gene 858 861	ODF
+R38	located_in Arg1:T115 Arg2:T113	
+R39	located_in Arg1:T115 Arg2:T114	
+R40	located_in Arg1:T37 Arg2:T38	
+T116	corrected_cell_type 1092 1113	THP-1 monocytic cells
+R41	located_in Arg1:T40 Arg2:T116	
+R42	located_in Arg1:T43 Arg2:T116	
+T117	missed_gene 1127 1130	p38
+R43	located_in Arg1:T117 Arg2:T116	
+R44	located_in Arg1:T55 Arg2:T58	
+R45	located_in Arg1:T55 Arg2:T59	
+T118	corrected_cell_type 1665 1693	monocyte-derived macrophages
+R46	located_in Arg1:T55 Arg2:T118	
+R47	located_in Arg1:T76 Arg2:T75	
+T119	corrected_gene 2107 2131	transferrin-like protein
+R48	located_in Arg1:T119 Arg2:T75	
+R49	located_in Arg1:T79 Arg2:T78	
+R50	located_in Arg1:T80 Arg2:T78	
+T120	missed_gene 2242 2246	CD33
+R51	located_in Arg1:T82 Arg2:T81	
+R52	located_in Arg1:T120 Arg2:T81	
+R53	located_in Arg1:T84 Arg2:T83	
+R54	located_in Arg1:T85 Arg2:T83	
+R55	located_in Arg1:T86 Arg2:T88	
+R56	located_in Arg1:T87 Arg2:T88	
+R57	located_in Arg1:T89 Arg2:T90	
+R58	located_in Arg1:T91 Arg2:T90	
+R59	located_in Arg1:T91 Arg2:T92	
+R60	located_in Arg1:T93 Arg2:T94	
+T121	missed_gene 2573 2581	vimentin
+T122	missed_gene 2586 2589	NG2
+R61	located_in Arg1:T121 Arg2:T94	
+R62	located_in Arg1:T122 Arg2:T94	
+T123	corrected_cell_type 1538 1559;1582 1603	human alveolar (A549) epithelial cell lines
+T124	corrected_cell_type 1563 1603	bronchial (Calu-6) epithelial cell lines
+R36	located_in Arg1:T55 Arg2:T123	
+R63	located_in Arg1:T55 Arg2:T124	
+T125	corrected_cell_type 1702 1727	monocytic cell line THP-1
+R64	located_in Arg1:T55 Arg2:T125	

@@ -107,3 +107,95 @@ T106	gene 2888 2893	Smad3
 T107	cell_type 2918 2929	fibroblasts
 T108	gene 2951 2959	TGF-beta
 T109	gene 2979 2984	Smad3
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T4	
+R3	located_in Arg1:T1 Arg2:T3	
+R4	located_in Arg1:T1 Arg2:T4	
+T110	missed_gene 275 279	S100
+R5	located_in Arg1:T110 Arg2:T6	
+R6	located_in Arg1:T7 Arg2:T6	
+R7	located_in Arg1:T8 Arg2:T9	
+R8	located_in Arg1:T10 Arg2:T12	
+R9	located_in Arg1:T11 Arg2:T12	
+T111	corrected_cell_type 463 497	peripheral blood mononuclear cells
+T112	missed_cell_type 499 503	PBMC
+R10	located_in Arg1:T17 Arg2:T19	
+T113	missed_gene 518 521	CD8
+R11	located_in Arg1:T113 Arg2:T19	
+R12	located_in Arg1:T18 Arg2:T19	
+R13	located_in Arg1:T17 Arg2:T20	
+R14	located_in Arg1:T113 Arg2:T20	
+R15	located_in Arg1:T18 Arg2:T20	
+T114	corrected_cell_type 573 605	monocyte-derived dendritic cells
+T115	missed_cell_type 607 609	DC
+R16	located_in Arg1:T17 Arg2:T21	
+R17	located_in Arg1:T113 Arg2:T21	
+R18	located_in Arg1:T18 Arg2:T21	
+R19	located_in Arg1:T15 Arg2:T111	
+R20	located_in Arg1:T15 Arg2:T112	
+R21	located_in Arg1:T15 Arg2:T19	
+R22	located_in Arg1:T15 Arg2:T20	
+R23	located_in Arg1:T15 Arg2:T21	
+R24	located_in Arg1:T15 Arg2:T114	
+R25	located_in Arg1:T15 Arg2:T115	
+#1	AnnotatorNotes R16	Okay?
+R26	located_in Arg1:T25 Arg2:T26	
+T116	missed_gene 704 707	CD3
+R27	located_in Arg1:T116 Arg2:T28	
+T117	missed_gene 720 723	CD3
+R28	located_in Arg1:T117 Arg2:T30	
+R29	located_in Arg1:T29 Arg2:T30	
+T118	missed_gene 749 752	CD3
+T119	missed_gene 755 758	CD8
+R30	located_in Arg1:T119 Arg2:T31	
+R31	located_in Arg1:T118 Arg2:T31	
+R32	located_in Arg1:T32 Arg2:T33	
+R33	located_in Arg1:T34 Arg2:T35	
+R34	located_in Arg1:T36 Arg2:T37	
+R35	located_in Arg1:T36 Arg2:T38	
+R36	located_in Arg1:T39 Arg2:T41	
+R37	located_in Arg1:T40 Arg2:T41	
+R38	located_in Arg1:T39 Arg2:T42	
+R39	located_in Arg1:T40 Arg2:T42	
+R40	located_in Arg1:T51 Arg2:T52	
+R41	located_in Arg1:T50 Arg2:T52	
+R42	located_in Arg1:T48 Arg2:T49	
+R43	located_in Arg1:T54 Arg2:T53	
+T120	corrected_gene 1417 1420;1422 1423	Oct 4
+R44	located_in Arg1:T120 Arg2:T53	
+T121	missed_gene 1425 1430	Nanog
+R45	located_in Arg1:T121 Arg2:T53	
+R46	located_in Arg1:T55 Arg2:T53	
+T122	corrected_gene 1442 1448	SSEA-1
+R47	located_in Arg1:T122 Arg2:T53	
+T123	corrected_cell_type 1504 1517	NK cell lines
+R48	located_in Arg1:T58 Arg2:T59	
+R49	located_in Arg1:T58 Arg2:T123	
+R50	located_in Arg1:T67 Arg2:T68	
+R51	located_in Arg1:T67 Arg2:T69	
+#2	AnnotatorNotes R51	Okay?
+T124	missed_gene 2029 2037	IL-1beta
+T125	missed_gene 2094 2102	TNFalpha
+R52	located_in Arg1:T125 Arg2:T81	
+R53	located_in Arg1:T80 Arg2:T81	
+R54	located_in Arg1:T79 Arg2:T81	
+R55	located_in Arg1:T78 Arg2:T81	
+R56	located_in Arg1:T124 Arg2:T81	
+R57	located_in Arg1:T77 Arg2:T81	
+R58	located_in Arg1:T125 Arg2:T82	
+R59	located_in Arg1:T80 Arg2:T82	
+R60	located_in Arg1:T79 Arg2:T82	
+R61	located_in Arg1:T78 Arg2:T82	
+R62	located_in Arg1:T124 Arg2:T82	
+R63	located_in Arg1:T77 Arg2:T82	
+R64	located_in Arg1:T88 Arg2:T89	
+R65	located_in Arg1:T88 Arg2:T90	
+R66	located_in Arg1:T87 Arg2:T89	
+R67	located_in Arg1:T87 Arg2:T90	
+R68	located_in Arg1:T95 Arg2:T96	
+T126	corrected_cell_type 2668 2685	macrophagic cells
+T127	missed_gene 2632 2637	CD115
+R69	located_in Arg1:T127 Arg2:T126	
+R70	located_in Arg1:T98 Arg2:T126	
+R71	located_in Arg1:T97 Arg2:T126	
+R72	located_in Arg1:T101 Arg2:T102	

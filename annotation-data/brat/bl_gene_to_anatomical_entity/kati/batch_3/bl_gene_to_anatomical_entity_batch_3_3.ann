@@ -99,3 +99,78 @@ T98	anatomical_site 2722 2732	cerebellum
 T99	gene 2750 2755	SOX18
 T100	anatomical_site 2828 2833	blood
 T101	anatomical_site 2838 2855	lymphatic vessels
+T102	missed_anatomical_site 76 82	aortas
+R1	located_in Arg1:T1 Arg2:T102	
+R2	located_in Arg1:T2 Arg2:T102	
+R3	located_in Arg1:T1 Arg2:T4	
+R4	located_in Arg1:T2 Arg2:T4	
+R5	located_in Arg1:T3 Arg2:T102	
+R6	located_in Arg1:T3 Arg2:T4	
+T103	missed_gene 34 37	APJ
+R7	located_in Arg1:T103 Arg2:T102	
+R8	located_in Arg1:T103 Arg2:T4	
+T104	missed_anatomical_site 158 164	plasma
+R9	located_in Arg1:T6 Arg2:T104	
+R10	located_in Arg1:T7 Arg2:T104	
+R11	located_in Arg1:T8 Arg2:T104	
+R12	located_in Arg1:T9 Arg2:T104	
+R13	located_in Arg1:T10 Arg2:T104	
+R14	located_in Arg1:T11 Arg2:T104	
+T105	corrected_gene 285 318	vascular cell adhesion molecule-1
+R15	located_in Arg1:T105 Arg2:T12	
+R16	located_in Arg1:T14 Arg2:T12	
+R17	located_in Arg1:T105 Arg2:T104	
+R18	located_in Arg1:T14 Arg2:T104	
+T106	corrected_gene 412 440	calmodulin-binding protein I
+R19	located_in Arg1:T106 Arg2:T17	
+R20	located_in Arg1:T18 Arg2:T19	
+R21	located_in Arg1:T18 Arg2:T20	
+T107	missed_gene 475 477	PA
+R22	located_in Arg1:T107 Arg2:T19	
+R23	located_in Arg1:T107 Arg2:T20	
+R24	located_in Arg1:T22 Arg2:T21	
+R25	located_in Arg1:T25 Arg2:T24	
+T108	corrected_gene 684 687;692 696	p44 MAPK
+R26	located_in Arg1:T108 Arg2:T24	
+R27	located_in Arg1:T27 Arg2:T24	
+R28	located_in Arg1:T29 Arg2:T28	
+T109	missed_gene 835 858	epidermal growth factor
+R29	located_in Arg1:T109 Arg2:T30	
+T110	missed_anatomical_site 885 893	duodenum
+R30	located_in Arg1:T109 Arg2:T32	
+R31	located_in Arg1:T109 Arg2:T110	
+R32	located_in Arg1:T109 Arg2:T33	
+R33	located_in Arg1:T31 Arg2:T30	
+R34	located_in Arg1:T31 Arg2:T32	
+R35	located_in Arg1:T31 Arg2:T110	
+R36	located_in Arg1:T31 Arg2:T33	
+R37	located_in Arg1:T39 Arg2:T41	
+R38	located_in Arg1:T40 Arg2:T41	
+T111	corrected_anatomical_site 1356 1369	breast tissue
+R39	located_in Arg1:T46 Arg2:T111	
+T112	corrected_gene 1450 1453;1478 1518	LIM -homeodomain transcription factor 1 beta
+R40	located_in Arg1:T112 Arg2:T52	
+R41	located_in Arg1:T51 Arg2:T52	
+R42	located_in Arg1:T55 Arg2:T113	
+T113	corrected_anatomical_site 1677 1691;1727 1745	adrenal cortex subcapsular region
+R43	located_in Arg1:T64 Arg2:T65	
+R44	located_in Arg1:T67 Arg2:T66	
+R45	located_in Arg1:T68 Arg2:T70	
+R46	located_in Arg1:T69 Arg2:T70	
+R47	located_in Arg1:T87 Arg2:T91	
+R48	located_in Arg1:T87 Arg2:T92	
+R49	located_in Arg1:T88 Arg2:T91	
+R50	located_in Arg1:T88 Arg2:T92	
+R51	located_in Arg1:T89 Arg2:T91	
+R52	located_in Arg1:T89 Arg2:T92	
+R53	located_in Arg1:T90 Arg2:T91	
+R54	located_in Arg1:T90 Arg2:T92	
+R55	located_in Arg1:T93 Arg2:T95	
+T114	corrected_anatomical_site 2704 2716	medulla-pons
+R56	located_in Arg1:T93 Arg2:T96	
+R57	located_in Arg1:T93 Arg2:T114	
+R58	located_in Arg1:T93 Arg2:T98	
+R59	located_in Arg1:T94 Arg2:T95	
+R60	located_in Arg1:T94 Arg2:T96	
+R61	located_in Arg1:T94 Arg2:T114	
+R62	located_in Arg1:T94 Arg2:T98	

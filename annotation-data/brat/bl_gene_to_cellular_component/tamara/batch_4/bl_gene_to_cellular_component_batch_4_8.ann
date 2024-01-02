@@ -91,3 +91,54 @@ T90	gene 3321 3324	Hrb
 T91	gene 3335 3340	VAMP7
 T92	gene 3345 3350	Atg9a
 T93	cellular_component 3360 3375	plasma membrane
+T94	corrected_gene 4 37	adaptor phosphoprotein Disabled-2
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T94 Arg2:T3	
+R3	located_in Arg1:T4 Arg2:T3	
+R4	located_in Arg1:T6 Arg2:T9	
+R5	located_in Arg1:T7 Arg2:T9	
+R6	located_in Arg1:T8 Arg2:T9	
+R7	located_in Arg1:T8 Arg2:T10	
+R8	located_in Arg1:T7 Arg2:T10	
+R9	located_in Arg1:T6 Arg2:T10	
+T95	missed_gene 942 962	intracellular domain
+#1	AnnotatorNotes T95	okay?
+T96	missed_gene 964 967	ICD
+#2	AnnotatorNotes T96	okay?
+R10	located_in Arg1:T95 Arg2:T25	
+R11	located_in Arg1:T96 Arg2:T25	
+R12	located_in Arg1:T95 Arg2:T26	
+R13	located_in Arg1:T96 Arg2:T26	
+R14	located_in Arg1:T29 Arg2:T28	
+T97	missed_gene 1076 1080	ICN1
+R15	located_in Arg1:T97 Arg2:T28	
+R16	located_in Arg1:T29 Arg2:T31	
+R17	located_in Arg1:T97 Arg2:T31	
+R18	located_in Arg1:T29 Arg2:T32	
+R19	located_in Arg1:T97 Arg2:T32	
+R20	located_in Arg1:T35 Arg2:T34	
+T98	corrected_gene 1480 1491	JAK2 kinase
+R21	located_in Arg1:T98 Arg2:T39	
+T99	corrected_gene 1532 1539	EGF-115
+R22	located_in Arg1:T99 Arg2:T41	
+T100	corrected_gene 1582 1589	pro-EGF
+R23	located_in Arg1:T100 Arg2:T41	
+R24	located_in Arg1:T50 Arg2:T49	
+T101	missed_gene 2284 2319	nuclear factor of activated T cells
+T102	missed_cellular_component 2284 2291	nuclear
+R25	located_in Arg1:T101 Arg2:T102	
+T103	missed_gene 2515 2520	XMAN1
+R26	located_in Arg1:T103 Arg2:T65	
+R27	located_in Arg1:T71 Arg2:T70	
+R28	located_in Arg1:T72 Arg2:T70	
+R29	located_in Arg1:T73 Arg2:T70	
+T104	missed_gene 2657 2669	125I-VEGF165
+R30	located_in Arg1:T104 Arg2:T70	
+R31	located_in Arg1:T74 Arg2:T75	
+R32	located_in Arg1:T78 Arg2:T79	
+R33	located_in Arg1:T78 Arg2:T80	
+#3	AnnotatorNotes R33	Okay?
+T105	missed_gene 3078 3109	microtubule-associated proteins
+R34	located_in Arg1:T105 Arg2:T83	
+R35	located_in Arg1:T92 Arg2:T93	
+R36	located_in Arg1:T91 Arg2:T93	

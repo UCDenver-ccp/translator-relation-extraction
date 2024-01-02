@@ -92,3 +92,63 @@ T91	gene 3336 3339	p38
 T92	gene 3340 3372	mitogen-activated protein kinase
 T93	gene 3419 3430	adiponectin
 T94	cellular_component 3431 3439	antibody
+T95	corrected_gene 474 538	HhH2/NDD domain of the Drosophila Nod chromokinesin-like protein
+#1	AnnotatorNotes T95	okay?
+R1	located_in Arg1:T95 Arg2:T17	
+R2	located_in Arg1:T95 Arg2:T18	
+T96	missed_cellular_component 626 634	membrane
+R3	located_in Arg1:T21 Arg2:T96	
+R4	located_in Arg1:T20 Arg2:T96	
+R5	located_in Arg1:T19 Arg2:T96	
+R6	located_in Arg1:T21 Arg2:T22	
+R7	located_in Arg1:T20 Arg2:T22	
+T97	missed_gene 778 783	RIG-I
+T98	missed_gene 762 766	RLRs
+R8	located_in Arg1:T98 Arg2:T25	
+R9	located_in Arg1:T97 Arg2:T25	
+R10	located_in Arg1:T23 Arg2:T25	
+R11	located_in Arg1:T24 Arg2:T25	
+T99	missed_gene 869 896	DBE-bound chromatin protein
+R12	located_in Arg1:T99 Arg2:T26	
+R13	located_in Arg1:T32 Arg2:T31	
+R14	located_in Arg1:T32 Arg2:T33	
+R15	located_in Arg1:T29 Arg2:T31	
+#2	AnnotatorNotes R15	Okay?
+R16	located_in Arg1:T30 Arg2:T31	
+R17	located_in Arg1:T37 Arg2:T36	
+R18	located_in Arg1:T38 Arg2:T36	
+R19	located_in Arg1:T39 Arg2:T36	
+R20	located_in Arg1:T40 Arg2:T36	
+R21	located_in Arg1:T41 Arg2:T36	
+R22	located_in Arg1:T43 Arg2:T42	
+R23	located_in Arg1:T43 Arg2:T44	
+#3	AnnotatorNotes R23	Okay? Gene ontology: GO:0097470; has obo namespace: cellular_component
+T100	corrected_gene 1557 1588	dystrophin-glycoprotein complex
+R24	located_in Arg1:T100 Arg2:T45	
+R25	located_in Arg1:T46 Arg2:T45	
+R26	located_in Arg1:T47 Arg2:T45	
+T101	corrected_gene 2123 2138	beta1-integrins
+R27	located_in Arg1:T101 Arg2:T57	
+T102	corrected_gene 2140 2151;2157 2165	Sec1/Munc18 proteins
+T103	missed_gene 2153 2155;2157 2165	SM proteins
+R28	located_in Arg1:T103 Arg2:T61	
+R29	located_in Arg1:T102 Arg2:T61	
+#4	AnnotatorNotes R29	Okay? We can say that these proteins are intracellular, but we can not say that they are connected to the membranes directly
+T104	missed_gene 2502 2505;2507 2515	ERM proteins
+R30	located_in Arg1:T104 Arg2:T72	
+R31	located_in Arg1:T71 Arg2:T72	
+R32	located_in Arg1:T70 Arg2:T72	
+R33	located_in Arg1:T69 Arg2:T72	
+R34	located_in Arg1:T69 Arg2:T68	
+#5	AnnotatorNotes R34	Okay?
+R35	located_in Arg1:T70 Arg2:T68	
+#6	AnnotatorNotes R35	Okay?
+R36	located_in Arg1:T71 Arg2:T68	
+#7	AnnotatorNotes R36	Okay?
+R37	located_in Arg1:T104 Arg2:T68	
+#8	AnnotatorNotes R37	Okay?
+T105	corrected_gene 2835 2854	protein kinase CβII
+R38	located_in Arg1:T105 Arg2:T76	
+R39	located_in Arg1:T78 Arg2:T79	
+T106	missed_gene 3135 3140	NMDAR
+R40	located_in Arg1:T106 Arg2:T87	

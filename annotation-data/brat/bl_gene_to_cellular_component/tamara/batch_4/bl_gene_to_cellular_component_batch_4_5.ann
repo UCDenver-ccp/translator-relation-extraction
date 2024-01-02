@@ -86,3 +86,46 @@ T85	gene 3233 3237	Tbx2
 T86	gene 3257 3262	HER-2
 T87	cellular_component 3284 3292	membrane
 T88	gene 3352 3384	epidermal growth factor receptor
+T89	missed_gene 125 149	nucleosome core particle
+#1	AnnotatorNotes T89	okay?
+R1	located_in Arg1:T89 Arg2:T2	
+T90	corrected_gene 383 394	integrin α4
+R2	located_in Arg1:T90 Arg2:T10	
+R3	located_in Arg1:T11 Arg2:T10	
+#2	AnnotatorNotes R3	Okay?
+R4	located_in Arg1:T16 Arg2:T17	
+T91	missed_gene 669 676	CCDC120
+R5	located_in Arg1:T91 Arg2:T17	
+R6	located_in Arg1:T18 Arg2:T19	
+R7	located_in Arg1:T22 Arg2:T23	
+R8	located_in Arg1:T21 Arg2:T23	
+R9	located_in Arg1:T37 Arg2:T38	
+R10	located_in Arg1:T39 Arg2:T40	
+#3	AnnotatorNotes R10	Okay?
+R11	located_in Arg1:T43 Arg2:T41	
+R12	located_in Arg1:T44 Arg2:T41	
+R13	located_in Arg1:T45 Arg2:T46	
+#4	AnnotatorNotes R13	Okay?
+T92	missed_cellular_component 1986 1988	ER
+R14	located_in Arg1:T50 Arg2:T52	
+#5	AnnotatorNotes R14	Okay?
+R15	located_in Arg1:T50 Arg2:T92	
+#6	AnnotatorNotes R15	Okay?
+R16	located_in Arg1:T51 Arg2:T52	
+#7	AnnotatorNotes R16	Okay?
+R17	located_in Arg1:T51 Arg2:T92	
+#8	AnnotatorNotes R17	Okay?
+R18	located_in Arg1:T55 Arg2:T56	
+T93	corrected_gene 2266 2291	alpha 2 integrin I domain
+R19	located_in Arg1:T93 Arg2:T63	
+#9	AnnotatorNotes R19	Okay?
+T94	missed_gene 2582 2610	vacuolar protein sorting 33A
+R20	located_in Arg1:T94 Arg2:T71	
+R21	located_in Arg1:T76 Arg2:T75	
+R22	located_in Arg1:T79 Arg2:T78	
+R23	located_in Arg1:T79 Arg2:T80	
+R24	located_in Arg1:T86 Arg2:T87	
+#10	AnnotatorNotes R24	Okay?
+T95	missed_gene 3263 3266	neu
+R25	located_in Arg1:T95 Arg2:T87	
+#11	AnnotatorNotes R25	Okay?

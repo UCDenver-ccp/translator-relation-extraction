@@ -100,3 +100,68 @@ T99	anatomical_site 2411 2415	lung
 T100	gene 2479 2483	BMP2
 T101	gene 2493 2497	BMP2
 T102	anatomical_site 2524 2528	lung
+T103	corrected_anatomical_site 56 73	embryo skull bone
+R1	located_in Arg1:T1 Arg2:T103	
+R2	located_in Arg1:T2 Arg2:T103	
+T104	corrected_gene 118 123	Rtn4a
+T105	corrected_gene 124 130	Cxcr4a
+T106	corrected_gene 131 137	Thbs3a
+R3	located_in Arg1:T104 Arg2:T9	
+R4	located_in Arg1:T105 Arg2:T9	
+R5	located_in Arg1:T106 Arg2:T9	
+R6	located_in Arg1:T104 Arg2:T11	
+R7	located_in Arg1:T105 Arg2:T11	
+R8	located_in Arg1:T106 Arg2:T11	
+T107	corrected_anatomical_site 330 341	lung tissue
+R9	located_in Arg1:T12 Arg2:T107	
+T108	corrected_anatomical_site 741 759	mesenchymal stroma
+R10	located_in Arg1:T24 Arg2:T108	
+R11	located_in Arg1:T25 Arg2:T108	
+R12	located_in Arg1:T26 Arg2:T108	
+R13	located_in Arg1:T27 Arg2:T108	
+R14	located_in Arg1:T35 Arg2:T36	
+R15	located_in Arg1:T35 Arg2:T37	
+R16	located_in Arg1:T45 Arg2:T47	
+R17	located_in Arg1:T46 Arg2:T47	
+T109	missed_anatomical_site 1117 1134;1156 1162	tunica muscularis tongue
+R18	located_in Arg1:T50 Arg2:T109	
+R19	located_in Arg1:T50 Arg2:T49	
+R20	located_in Arg1:T51 Arg2:T49	
+R21	located_in Arg1:T51 Arg2:T109	
+R22	located_in Arg1:T53 Arg2:T52	
+R23	located_in Arg1:T54 Arg2:T52	
+R24	located_in Arg1:T61 Arg2:T59	
+R25	located_in Arg1:T62 Arg2:T59	
+R26	located_in Arg1:T63 Arg2:T59	
+R27	located_in Arg1:T64 Arg2:T59	
+R28	located_in Arg1:T65 Arg2:T59	
+R29	located_in Arg1:T66 Arg2:T59	
+R30	located_in Arg1:T67 Arg2:T59	
+T110	missed_gene 1627 1631	RRAS
+R31	located_in Arg1:T110 Arg2:T59	
+R32	located_in Arg1:T69 Arg2:T70	
+R33	located_in Arg1:T69 Arg2:T71	
+T111	missed_anatomical_site 1736 1746	floorplate
+R34	located_in Arg1:T69 Arg2:T111	
+R35	located_in Arg1:T74 Arg2:T72	
+R36	located_in Arg1:T74 Arg2:T73	
+R37	located_in Arg1:T76 Arg2:T75	
+T112	missed_gene 1877 1896	smooth muscle actin
+R38	located_in Arg1:T112 Arg2:T75	
+R39	located_in Arg1:T78 Arg2:T75	
+R40	located_in Arg1:T112 Arg2:T77	
+T113	corrected_anatomical_site 1934 1953	ganglion cell layer
+R41	located_in Arg1:T81 Arg2:T113	
+R42	located_in Arg1:T82 Arg2:T113	
+R43	located_in Arg1:T83 Arg2:T113	
+T114	corrected_anatomical_site 2524 2536	lung tissues
+R44	located_in Arg1:T100 Arg2:T114	
+R45	located_in Arg1:T101 Arg2:T114	
+T115	missed_gene 2508 2512	eNOS
+R46	located_in Arg1:T115 Arg2:T114	
+T116	missed_gene 2433 2437	BALF
+R47	located_in Arg1:T116 Arg2:T114	
+T117	corrected_anatomical_site 2271 2286	prostate tissue
+R48	located_in Arg1:T94 Arg2:T117	
+R49	located_in Arg1:T53 Arg2:T109	
+R50	located_in Arg1:T54 Arg2:T109	

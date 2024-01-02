@@ -124,3 +124,77 @@ T123	gene 3197 3228	glial fibrillary acidic protein
 T124	gene 3230 3234	GFAP
 T125	gene 3265 3269	GFAP
 T126	anatomical_site 3290 3296	tissue
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T1 Arg2:T4	
+R3	located_in Arg1:T2 Arg2:T3	
+R4	located_in Arg1:T2 Arg2:T4	
+T127	missed_gene 304 306	GH
+R7	located_in Arg1:T127 Arg2:T14	
+T128	corrected_gene 356 379	muscular AA transporter
+R5	located_in Arg1:T128 Arg2:T18	
+R6	located_in Arg1:T17 Arg2:T18	
+#1	AnnotatorNotes R6	synonyms?
+R8	located_in Arg1:T33 Arg2:T32	
+R9	located_in Arg1:T34 Arg2:T32	
+R10	located_in Arg1:T38 Arg2:T37	
+R11	located_in Arg1:T39 Arg2:T37	
+R12	located_in Arg1:T41 Arg2:T40	
+R13	located_in Arg1:T54 Arg2:T53	
+R14	located_in Arg1:T55 Arg2:T53	
+T129	corrected_anatomical_site 1466 1479	breast tissue
+R15	located_in Arg1:T57 Arg2:T129	
+T130	missed_anatomical_site 1447 1454	tissues
+R16	located_in Arg1:T57 Arg2:T130	
+R17	located_in Arg1:T60 Arg2:T63	
+R18	located_in Arg1:T60 Arg2:T64	
+R19	located_in Arg1:T60 Arg2:T65	
+R20	located_in Arg1:T62 Arg2:T63	
+R21	located_in Arg1:T62 Arg2:T64	
+R22	located_in Arg1:T62 Arg2:T65	
+T131	corrected_gene 1494 1542	low-density lipoprotein receptor-related protein
+R24	located_in Arg1:T131 Arg2:T64	
+R25	located_in Arg1:T131 Arg2:T65	
+R23	located_in Arg1:T131 Arg2:T63	
+T132	corrected_anatomical_site 1813 1823	ear tissue
+T133	missed_gene 1736 1747;1753 1754	interleukin 4
+T134	missed_gene 1749 1751;1752 1754	IL -4
+R26	located_in Arg1:T134 Arg2:T132	
+R27	located_in Arg1:T71 Arg2:T132	
+R28	located_in Arg1:T72 Arg2:T132	
+R29	located_in Arg1:T73 Arg2:T132	
+R30	located_in Arg1:T74 Arg2:T132	
+R31	located_in Arg1:T133 Arg2:T132	
+T135	missed_gene 1799 1802;1803 1805	IFN -?
+T136	missed_gene 1787 1797;1804 1805	interferon ?
+R32	located_in Arg1:T136 Arg2:T132	
+R33	located_in Arg1:T135 Arg2:T132	
+R34	located_in Arg1:T82 Arg2:T83	
+R35	located_in Arg1:T84 Arg2:T85	
+R36	located_in Arg1:T89 Arg2:T90	
+R37	located_in Arg1:T89 Arg2:T91	
+R38	located_in Arg1:T93 Arg2:T92	
+T137	corrected_anatomical_site 2352 2370	cuboidal epithelia
+R39	located_in Arg1:T95 Arg2:T137	
+R40	located_in Arg1:T94 Arg2:T137	
+R41	located_in Arg1:T94 Arg2:T97	
+R42	located_in Arg1:T95 Arg2:T97	
+R43	located_in Arg1:T106 Arg2:T107	
+R44	located_in Arg1:T106 Arg2:T108	
+R45	located_in Arg1:T112 Arg2:T113	
+R46	located_in Arg1:T111 Arg2:T113	
+R47	located_in Arg1:T117 Arg2:T119	
+R48	located_in Arg1:T117 Arg2:T118	
+R49	located_in Arg1:T116 Arg2:T118	
+R50	located_in Arg1:T116 Arg2:T119	
+T138	missed_anatomical_site 2979 2985	midgut
+R51	located_in Arg1:T114 Arg2:T138	
+T139	missed_gene 2934 2977	caudal type homeobox transcription factor 2
+R52	located_in Arg1:T139 Arg2:T138	
+T140	missed_gene 2998 3016	ISL LIM homeobox 1
+T141	missed_gene 3028 3040	paired box 8
+R53	located_in Arg1:T140 Arg2:T118	
+R54	located_in Arg1:T140 Arg2:T119	
+R55	located_in Arg1:T141 Arg2:T118	
+R56	located_in Arg1:T141 Arg2:T119	
+T142	corrected_anatomical_site 3279 3296	cerebellar tissue
+R57	located_in Arg1:T125 Arg2:T142	

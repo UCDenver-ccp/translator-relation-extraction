@@ -124,3 +124,58 @@ T123	gene 3054 3060	GM-CSF
 T124	gene 3065 3069	IL-4
 T125	anatomical_site 3073 3078	serum
 T126	anatomical_site 3096 3105	bronchial
+T127	corrected_gene 0 6	Kir6.1
+R1	located_in Arg1:T127 Arg2:T2	
+R2	located_in Arg1:T127 Arg2:T4	
+R3	located_in Arg1:T127 Arg2:T5	
+R4	located_in Arg1:T9 Arg2:T10	
+R5	located_in Arg1:T9 Arg2:T11	
+T128	corrected_anatomical_site 298 311	breast tissue
+R6	located_in Arg1:T14 Arg2:T128	
+R7	located_in Arg1:T15 Arg2:T128	
+T129	corrected_anatomical_site 384 396	liver tissue
+R8	located_in Arg1:T16 Arg2:T129	
+T130	missed_anatomical_site 563 570	uterine
+R9	located_in Arg1:T19 Arg2:T21	
+R10	located_in Arg1:T20 Arg2:T21	
+R11	located_in Arg1:T22 Arg2:T23	
+R12	located_in Arg1:T22 Arg2:T24	
+R13	located_in Arg1:T22 Arg2:T25	
+R14	located_in Arg1:T22 Arg2:T130	
+R15	located_in Arg1:T22 Arg2:T26	
+T131	corrected_gene 866 899	vascular cell adhesion molecule-1
+R16	located_in Arg1:T131 Arg2:T38	
+R17	located_in Arg1:T40 Arg2:T38	
+R18	located_in Arg1:T31 Arg2:T30	
+T132	missed_gene 736 740	IL-1
+R19	located_in Arg1:T132 Arg2:T30	
+T133	corrected_gene 1142 1175	vascular cell adhesion molecule-1
+R20	located_in Arg1:T133 Arg2:T47	
+R21	located_in Arg1:T49 Arg2:T47	
+T134	missed_gene 1612 1620	Polycomb
+T135	missed_gene 1625 1628	Hox
+R22	located_in Arg1:T134 Arg2:T67	
+R23	located_in Arg1:T135 Arg2:T67	
+R24	located_in Arg1:T68 Arg2:T70	
+R25	located_in Arg1:T69 Arg2:T70	
+R26	located_in Arg1:T72 Arg2:T71	
+R27	located_in Arg1:T74 Arg2:T73	
+R28	located_in Arg1:T76 Arg2:T75	
+R29	located_in Arg1:T77 Arg2:T75	
+T136	corrected_gene 2264 2278	Sonic hedgehog
+T137	corrected_gene 2280 2288	Patched1
+R30	located_in Arg1:T136 Arg2:T95	
+R31	located_in Arg1:T137 Arg2:T95	
+R32	located_in Arg1:T94 Arg2:T95	
+R33	located_in Arg1:T136 Arg2:T97	
+R34	located_in Arg1:T137 Arg2:T97	
+R35	located_in Arg1:T94 Arg2:T97	
+T138	missed_gene 2544 2549	CPT1a
+R36	located_in Arg1:T138 Arg2:T104	
+R37	located_in Arg1:T110 Arg2:T111	
+R38	located_in Arg1:T110 Arg2:T112	
+R39	located_in Arg1:T110 Arg2:T113	
+R40	located_in Arg1:T110 Arg2:T114	
+T139	missed_gene 2866 2869	ID2
+T140	corrected_anatomical_site 2883 2901	embryo spinal cord
+R41	located_in Arg1:T139 Arg2:T140	

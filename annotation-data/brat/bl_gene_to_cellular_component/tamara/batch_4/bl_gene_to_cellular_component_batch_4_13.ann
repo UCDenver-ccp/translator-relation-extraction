@@ -84,3 +84,42 @@ T83	cellular_component 2974 2985	cytoplasmic
 T84	gene 3122 3127	beta5
 T85	gene 3128 3136	integrin
 T86	cellular_component 3128 3136	integrin
+T87	corrected_gene 0 38	Heparin-binding EGF-like growth factor
+T88	corrected_gene 40 46	HB-EGF
+R1	located_in Arg1:T88 Arg2:T4	
+#1	AnnotatorNotes R1	Okay?
+R2	located_in Arg1:T88 Arg2:T5	
+#2	AnnotatorNotes R2	Okay?
+R3	located_in Arg1:T87 Arg2:T4	
+#3	AnnotatorNotes R3	Okay?
+R4	located_in Arg1:T87 Arg2:T5	
+#4	AnnotatorNotes R4	Okay?
+T89	missed_gene 613 638	High mobility group box 1
+R5	located_in Arg1:T89 Arg2:T19	
+R6	located_in Arg1:T18 Arg2:T19	
+T90	corrected_cellular_component 1774 1798;1806 1821	clathrin-coated vesicles plasma membrane
+R7	located_in Arg1:T51 Arg2:T90	
+#5	AnnotatorNotes R7	Okay?
+R8	located_in Arg1:T54 Arg2:T56	
+T91	missed_gene 1876 1884	kindlins
+R9	located_in Arg1:T91 Arg2:T57	
+#6	AnnotatorNotes R9	Okay?
+R10	located_in Arg1:T58 Arg2:T61	
+#7	AnnotatorNotes R10	Okay?
+R11	located_in Arg1:T78 Arg2:T77	
+R12	located_in Arg1:T79 Arg2:T77	
+R13	located_in Arg1:T80 Arg2:T77	
+R14	located_in Arg1:T75 Arg2:T77	
+#8	AnnotatorNotes R14	Okay?
+T92	missed_cellular_component 2942 2956	extra-cellular
+#9	AnnotatorNotes T92	okay?
+R15	located_in Arg1:T81 Arg2:T92	
+R16	located_in Arg1:T82 Arg2:T92	
+R17	located_in Arg1:T82 Arg2:T83	
+R18	located_in Arg1:T81 Arg2:T83	
+T93	missed_gene 3002 3011	β-catenin
+R19	located_in Arg1:T93 Arg2:T83	
+T94	corrected_gene 1065 1068;1077 1082	p42 MAPKs
+T95	corrected_gene 1073 1076;1077 1082	p44 MAPKs
+R20	located_in Arg1:T94 Arg2:T26	
+R21	located_in Arg1:T95 Arg2:T26	

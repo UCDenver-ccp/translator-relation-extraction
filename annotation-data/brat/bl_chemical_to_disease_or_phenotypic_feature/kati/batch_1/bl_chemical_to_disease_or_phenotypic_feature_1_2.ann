@@ -81,9 +81,7 @@ R11	treats Arg1:T68 Arg2:T69
 T70	corrected_disease_or_phenotypic_feature 818 841	hypertonic contractures
 R12	causes_or_contributes_to Arg1:T21 Arg2:T70	
 T71	missed_chemical 1142 1152	filgotinib
-T72	corrected_disease_or_phenotypic_feature 1060 1087	uncomplicated herpes zoster
-T73	corrected_disease_or_phenotypic_feature 1100 1122	retinal vein occlusion
-R13	causes_or_contributes_to Arg1:T71 Arg2:T72	
+R13	causes_or_contributes_to Arg1:T71 Arg2:T28	
 R14	causes_or_contributes_to Arg1:T71 Arg2:T30	
 T74	corrected_chemical 1288 1304	PCSK9 inhibitors
 T75	missed_disease_or_phenotypic_feature 1343 1347	T2DM
@@ -94,3 +92,12 @@ R18	treats Arg1:T77 Arg2:T61
 T78	corrected_chemical 843 863	Human tumor antigens
 R19	treats Arg1:T78 Arg2:T25	
 R16	treats Arg1:T74 Arg2:T34	
+R20	treats Arg1:T7 Arg2:T10	
+R21	treats Arg1:T7 Arg2:T9	
+T72	missed_chemical 875 882	vaccine
+R22	treats Arg1:T72 Arg2:T25	
+T76	missed_chemical 906 923	chemotherapeutics
+R23	treats Arg1:T76 Arg2:T26	
+R24	causes_or_contributes_to Arg1:T33 Arg2:T34	
+T73	missed_disease_or_phenotypic_feature 2213 2219	tumors
+R25	causes_or_contributes_to Arg1:T52 Arg2:T73	

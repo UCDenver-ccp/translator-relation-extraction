@@ -118,3 +118,79 @@ T117	gene 3020 3030	Synapsin I
 T118	anatomical_site 3052 3057	brain
 T119	gene 3058 3072	phosphoprotein
 T120	anatomical_site 3113 3116	CNS
+T121	corrected_anatomical_site 71 99	distal ventral limb ectoderm
+R1	located_in Arg1:T2 Arg2:T121	
+R2	located_in Arg1:T2 Arg2:T5	
+R3	located_in Arg1:T2 Arg2:T6	
+R4	located_in Arg1:T7 Arg2:T6	
+R5	located_in Arg1:T7 Arg2:T5	
+R6	located_in Arg1:T7 Arg2:T121	
+R7	located_in Arg1:T8 Arg2:T6	
+R8	located_in Arg1:T8 Arg2:T121	
+R9	located_in Arg1:T8 Arg2:T5	
+T122	corrected_gene 241 265	histone octamer proteins
+R10	located_in Arg1:T122 Arg2:T10	
+T123	corrected_gene 328 352	histone octamer proteins
+R11	located_in Arg1:T123 Arg2:T12	
+R12	located_in Arg1:T14 Arg2:T13	
+T124	missed_gene 493 519	bone morphogenetic protein
+R13	located_in Arg1:T124 Arg2:T16	
+T125	missed_anatomical_site 469 478	embryonic
+R14	located_in Arg1:T124 Arg2:T125	
+R15	located_in Arg1:T15 Arg2:T13	
+R16	located_in Arg1:T21 Arg2:T22	
+T126	corrected_anatomical_site 1180 1191	soft tissue
+R22	located_in Arg1:T39 Arg2:T41	
+R23	located_in Arg1:T40 Arg2:T41	
+R24	located_in Arg1:T39 Arg2:T126	
+R25	located_in Arg1:T40 Arg2:T126	
+R26	located_in Arg1:T43 Arg2:T44	
+T127	corrected_anatomical_site 1234 1253	reproductive tissue
+R27	located_in Arg1:T43 Arg2:T127	
+T128	missed_gene 1280 1301	heat shock protein 72
+R28	located_in Arg1:T128 Arg2:T48	
+T129	corrected_gene 1303 1308	HSP72
+R29	located_in Arg1:T129 Arg2:T48	
+R30	located_in Arg1:T47 Arg2:T48	
+T130	corrected_anatomical_site 1742 1754	liver tissue
+T131	missed_gene 1542 1563	bile salt export pump
+T132	missed_gene 1565 1569	BSEP
+R31	located_in Arg1:T131 Arg2:T130	
+R32	located_in Arg1:T132 Arg2:T130	
+R33	located_in Arg1:T56 Arg2:T130	
+R34	located_in Arg1:T57 Arg2:T130	
+R35	located_in Arg1:T58 Arg2:T130	
+R36	located_in Arg1:T59 Arg2:T130	
+R37	located_in Arg1:T60 Arg2:T130	
+R38	located_in Arg1:T61 Arg2:T130	
+R39	located_in Arg1:T62 Arg2:T130	
+R40	located_in Arg1:T63 Arg2:T130	
+R41	located_in Arg1:T64 Arg2:T130	
+R42	located_in Arg1:T65 Arg2:T130	
+T133	corrected_anatomical_site 1925 1948;1953 1966	hippocampal CA1 area of brain tissues
+R43	located_in Arg1:T68 Arg2:T133	
+R44	located_in Arg1:T69 Arg2:T133	
+R45	located_in Arg1:T70 Arg2:T133	
+R46	located_in Arg1:T71 Arg2:T133	
+R47	located_in Arg1:T72 Arg2:T133	
+R48	located_in Arg1:T78 Arg2:T79	
+R49	located_in Arg1:T78 Arg2:T80	
+R50	located_in Arg1:T78 Arg2:T81	
+R51	located_in Arg1:T78 Arg2:T82	
+R52	located_in Arg1:T78 Arg2:T83	
+R53	located_in Arg1:T78 Arg2:T84	
+R54	located_in Arg1:T78 Arg2:T85	
+R55	located_in Arg1:T78 Arg2:T86	
+T134	missed_gene 2265 2268	ALT
+R56	located_in Arg1:T134 Arg2:T87	
+R58	located_in Arg1:T96 Arg2:T95	
+R59	located_in Arg1:T100 Arg2:T101	
+R60	located_in Arg1:T100 Arg2:T102	
+R61	located_in Arg1:T100 Arg2:T103	
+R62	located_in Arg1:T104 Arg2:T105	
+R63	located_in Arg1:T104 Arg2:T106	
+R69	located_in Arg1:T117 Arg2:T118	
+R70	located_in Arg1:T117 Arg2:T120	
+T135	corrected_anatomical_site 2826 2844	periodontal tissue
+R17	located_in Arg1:T107 Arg2:T135	
+R18	located_in Arg1:T108 Arg2:T135	

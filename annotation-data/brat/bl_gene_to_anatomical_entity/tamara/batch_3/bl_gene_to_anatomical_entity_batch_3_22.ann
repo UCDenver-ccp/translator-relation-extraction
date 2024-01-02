@@ -199,3 +199,6 @@ R61	located_in Arg1:T82 Arg2:T80
 R62	located_in Arg1:T86 Arg2:T80	
 R63	located_in Arg1:T88 Arg2:T89	
 R64	located_in Arg1:T88 Arg2:T90	
+T128	missed_gene 298 302	SP-D
+R65	located_in Arg1:T10 Arg2:T8	
+R66	located_in Arg1:T128 Arg2:T8	

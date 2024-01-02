@@ -106,3 +106,86 @@ T105	gene 2573 2599	Secreted phosphoprotein-24
 T106	anatomical_site 2617 2621	bone
 T107	gene 2645 2648	BMP
 T108	anatomical_site 2680 2684	bone
+T109	corrected_anatomical_site 124 138;146 163	cardiac muscle connective tissue
+T110	corrected_anatomical_site 124 138;164 170	cardiac muscle muscle
+R1	located_in Arg1:T1 Arg2:T109	
+R2	located_in Arg1:T1 Arg2:T110	
+T111	corrected_gene 17 18;9 14	2 IGFBP
+T112	corrected_gene 20 21;9 14	3 IGFBP
+R3	located_in Arg1:T111 Arg2:T109	
+R4	located_in Arg1:T111 Arg2:T110	
+R5	located_in Arg1:T112 Arg2:T109	
+R6	located_in Arg1:T112 Arg2:T110	
+R7	located_in Arg1:T2 Arg2:T109	
+R8	located_in Arg1:T2 Arg2:T110	
+T113	corrected_gene 227 260	65,000 calmodulin-binding protein
+R9	located_in Arg1:T113 Arg2:T13	
+R10	located_in Arg1:T10 Arg2:T13	
+R11	located_in Arg1:T11 Arg2:T13	
+R12	located_in Arg1:T12 Arg2:T13	
+R13	located_in Arg1:T14 Arg2:T15	
+T114	corrected_anatomical_site 382 392;399 406	blastocyst embryos
+R14	located_in Arg1:T14 Arg2:T114	
+T115	missed_gene 684 732	myelin-associated oligodendrocytic basic protein
+T116	corrected_anatomical_site 772 794;801 807	central nervous system myelin
+T117	corrected_anatomical_site 796 799;801 807	CNS myelin
+R15	located_in Arg1:T115 Arg2:T116	
+R16	located_in Arg1:T115 Arg2:T117	
+R17	located_in Arg1:T115 Arg2:T28	
+R18	located_in Arg1:T29 Arg2:T116	
+R19	located_in Arg1:T29 Arg2:T117	
+R20	located_in Arg1:T29 Arg2:T28	
+T118	missed_anatomical_site 849 855	myelin
+R21	located_in Arg1:T33 Arg2:T118	
+R22	located_in Arg1:T34 Arg2:T118	
+R23	located_in Arg1:T35 Arg2:T37	
+R24	located_in Arg1:T35 Arg2:T38	
+R25	located_in Arg1:T36 Arg2:T37	
+R26	located_in Arg1:T36 Arg2:T38	
+T119	corrected_anatomical_site 966 981	anterior stroma
+R27	located_in Arg1:T40 Arg2:T119	
+R28	located_in Arg1:T41 Arg2:T119	
+R29	located_in Arg1:T42 Arg2:T43	
+T120	missed_anatomical_site 1271 1277	plasma
+T121	missed_anatomical_site 1311 1317	plasma
+R30	located_in Arg1:T51 Arg2:T50	
+R31	located_in Arg1:T52 Arg2:T120	
+R32	located_in Arg1:T54 Arg2:T53	
+R33	located_in Arg1:T55 Arg2:T121	
+T122	missed_gene 1377 1396	muscarinic receptor
+R34	located_in Arg1:T122 Arg2:T56	
+R35	located_in Arg1:T122 Arg2:T57	
+T123	missed_anatomical_site 1455 1462	choroid
+R36	located_in Arg1:T122 Arg2:T58	
+R37	located_in Arg1:T122 Arg2:T123	
+R38	located_in Arg1:T122 Arg2:T59	
+T124	missed_anatomical_site 1563 1570	corneal
+R39	located_in Arg1:T60 Arg2:T124	
+R40	located_in Arg1:T61 Arg2:T124	
+R41	located_in Arg1:T63 Arg2:T124	
+T125	corrected_anatomical_site 1634 1654	vascular endothelium
+R42	located_in Arg1:T64 Arg2:T125	
+R46	located_in Arg1:T68 Arg2:T70	
+T126	corrected_anatomical_site 1924 1929;1979 1985	brain cortex
+T127	corrected_anatomical_site 1924 1929;1990 2001	brain hippocampus
+R47	located_in Arg1:T79 Arg2:T126	
+R48	located_in Arg1:T80 Arg2:T126	
+R49	located_in Arg1:T79 Arg2:T127	
+R50	located_in Arg1:T80 Arg2:T127	
+T128	missed_gene 2258 2263	Nanog
+T129	corrected_anatomical_site 2271 2289	spinal cord tissue
+R51	located_in Arg1:T91 Arg2:T129	
+R52	located_in Arg1:T128 Arg2:T129	
+T130	corrected_anatomical_site 2559 2571	colon tissue
+R53	located_in Arg1:T102 Arg2:T130	
+T131	corrected_gene 2573 2603	Secreted phosphoprotein-24 kDa
+T132	missed_gene 2605 2610	spp24
+R54	located_in Arg1:T131 Arg2:T108	
+R55	located_in Arg1:T132 Arg2:T108	
+T133	missed_gene 2617 2643	bone morphogenetic protein
+R56	located_in Arg1:T133 Arg2:T106	
+R57	located_in Arg1:T107 Arg2:T106	
+R43	located_in Arg1:T67 Arg2:T70	
+T134	corrected_anatomical_site 2173 2197	hippocampal mossy fibers
+R44	located_in Arg1:T87 Arg2:T134	
+R45	located_in Arg1:T88 Arg2:T134	

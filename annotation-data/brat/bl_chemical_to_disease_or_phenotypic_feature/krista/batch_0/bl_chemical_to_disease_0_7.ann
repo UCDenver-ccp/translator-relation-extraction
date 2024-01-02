@@ -18,7 +18,6 @@ T17	chemical 1060 1069	prolactin
 T18	chemical 1134 1142	molecule
 T19	chemical 1167 1172	lipid
 T20	chemical 1214 1225	cholesterol
-T21	corrected_disease_or_phenotypic_feature 1244 1261	chronic hepatitis
 T22	disease_or_phenotypic_feature 1252 1261	hepatitis
 T23	chemical 1328 1333	Fatty
 T24	chemical 1328 1339	Fatty acids
@@ -41,7 +40,6 @@ T40	chemical 2100 2113	dexamethasone
 T41	missed_disease_or_phenotypic_feature 2124 2139	cerebral oedema
 T42	disease_or_phenotypic_feature 2197 2205	diabetes
 T43	chemical 2210 2232	glucocorticoid-induced
-T44	corrected_disease_or_phenotypic_feature 2210 2241	glucocorticoid-induced diabetes
 T45	disease_or_phenotypic_feature 2233 2241	diabetes
 T46	chemical 2324 2328	NEOs
 T47	chemical 2337 2348	acetamiprid
@@ -51,7 +49,6 @@ T50	disease_or_phenotypic_feature 2389 2393	DIN)
 T51	chemical 2395 2407	imidacloprid
 T52	chemical 2415 2426	thiacloprid
 T53	chemical 2438 2450	thiamethoxam
-T54	corrected_disease_or_phenotypic_feature 2567 2605	HER2-positive metastatic breast cancer
 T55	disease_or_phenotypic_feature 2592 2605	breast cancer
 T56	corrected_chemical 2621 2635	HER2 inhibitor
 T57	chemical 2626 2635	inhibitor
@@ -73,22 +70,27 @@ R1	treats Arg1:T26 Arg2:T29
 R2	treats Arg1:T26 Arg2:T30
 R3	treats Arg1:T26 Arg2:T28
 R4	treats Arg1:T64 Arg2:T67
-R5	treats Arg1:T56 Arg2:T54
+R5	treats Arg1:T56 Arg2:T55
 R6	treats Arg1:T66 Arg2:T67
-R7	treats Arg1:T15 Arg2:T16
 R8	treats Arg1:T7 Arg2:T6
 R9	causes_or_contributes_to Arg1:T7 Arg2:T5
-R10	treats Arg1:T40 Arg2:T41
 R11	treats Arg1:T40 Arg2:T41
-R12	causes_or_contributes_to Arg1:T40 Arg2:T44
-R14	treats Arg1:T58 Arg2:T54
-R15	treats Arg1:T14 Arg2:T16
+R12	causes_or_contributes_to Arg1:T40 Arg2:T45
+R14	treats Arg1:T58 Arg2:T55
 R16	treats Arg1:T70 Arg2:T71
 R17	treats Arg1:T59 Arg2:T55
-R18	causes_or_contributes_to Arg1:T18 Arg2:T21
 R19	treats Arg1:T27 Arg2:T28
 R20	treats Arg1:T27 Arg2:T29
 R21	treats Arg1:T27 Arg2:T30
 T72	corrected_chemical 2210 2224	glucocorticoid
 R22	causes_or_contributes_to Arg1:T72 Arg2:T45	
 R13	causes_or_contributes_to Arg1:T40 Arg2:T42	
+T73	missed_chemical 396 409	pembrolizumab
+R23	causes_or_contributes_to Arg1:T73 Arg2:T5	
+R24	treats Arg1:T73 Arg2:T6	
+R10	treats Arg1:T64 Arg2:T65	
+R18	causes_or_contributes_to Arg1:T66 Arg2:T65	
+T21	corrected_chemical 1328 1388	Fatty acids containing conjugated carbon-carbon double bonds
+R25	treats Arg1:T21 Arg2:T30	
+R26	treats Arg1:T21 Arg2:T28	
+R27	treats Arg1:T21 Arg2:T29	

@@ -1,6 +1,5 @@
 T1	chemical 0 8	Apatinib
 T2	chemical 29 38	inhibitor
-T3	disease_or_phenotypic_feature 136 148	colon cancer
 T4	chemical 183 191	estrogen
 T5	disease_or_phenotypic_feature 209 217	cataract
 T6	chemical 229 236	antigen
@@ -64,11 +63,10 @@ T65	chemical 2276 2283	antigen
 T66	chemical 2337 2345	antigens
 T67	missed_chemical 65 88	chemotherapeutic agents
 T68	missed_disease_or_phenotypic_feature 92 98	tumors
-T69	missed_disease_or_phenotypic_feature 114 119	tumor
 T70	corrected_chemical 22 38	VEGFR2 inhibitor
 R1	treats Arg1:T1 Arg2:T68	
 R2	treats Arg1:T1 Arg2:T71	
-T71	corrected_disease_or_phenotypic_feature 131 148	LoVo colon cancer
+T71	disease_or_phenotypic_feature 136 148	colon cancer
 R3	treats Arg1:T67 Arg2:T68	
 R4	treats Arg1:T70 Arg2:T71	
 R5	treats Arg1:T70 Arg2:T68	
@@ -83,20 +81,21 @@ R10	treats Arg1:T23 Arg2:T74
 T75	corrected_chemical 783 797	ACE inhibitors
 R11	causes_or_contributes_to Arg1:T75 Arg2:T28	
 R12	causes_or_contributes_to Arg1:T75 Arg2:T29	
-T77	corrected_disease_or_phenotypic_feature 1134 1171	NSAID-induced small intestinal injury
-T78	corrected_disease_or_phenotypic_feature 1204 1242	dextran sulfate sodium-induced colitis
+T77	corrected_disease_or_phenotypic_feature 1148 1171	small intestinal injury
 T79	corrected_chemical 1292 1314	fatty acid ?-oxidation
 T80	missed_chemical 1261 1272	Acetylation
-T81	corrected_disease_or_phenotypic_feature 1434 1466	atherosclerotic artery disease-A
+T81	corrected_disease_or_phenotypic_feature 1434 1464	atherosclerotic artery disease
 R14	treats Arg1:T52 Arg2:T55	
 T84	corrected_chemical 1841 1886	antagonist drug of the endocannabinoid system
 R15	treats Arg1:T84 Arg2:T55	
 R16	treats Arg1:T67 Arg2:T71	
-T83	corrected_chemical 626 657	stemness-related tumor antigens
-R17	treats Arg1:T83 Arg2:T22	
-T85	corrected_chemical 612 621;643 657	Universal tumor antigens
-R19	treats Arg1:T85 Arg2:T22	
+T83	corrected_chemical 643 657	tumor antigens
 T42	missed_chemical 1378 1388	Ticagrelor
 R13	treats Arg1:T42 Arg2:T81	
 T61	missed_chemical 1204 1226	dextran sulfate sodium
 R18	causes_or_contributes_to Arg1:T61 Arg2:T37	
+T3	missed_chemical 1134 1139	NSAID
+R19	causes_or_contributes_to Arg1:T3 Arg2:T77	
+R20	causes_or_contributes_to Arg1:T16 Arg2:T17	
+T69	missed_chemical 1395 1407	antiplatelet
+R17	treats Arg1:T69 Arg2:T81	

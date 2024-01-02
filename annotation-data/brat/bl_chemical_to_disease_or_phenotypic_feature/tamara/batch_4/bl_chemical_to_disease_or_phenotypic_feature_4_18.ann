@@ -3,7 +3,7 @@ T2	chemical 102 111	inhibitor
 T3	chemical 112 125	pembrolizumab
 T4	chemical 192 198	oxygen
 T5	disease_or_phenotypic_feature 261 285	hepatocellular carcinoma
-T6	chemical 309 312;313 322	STS inhibitor
+T6	corrected_chemical 309 312;313 322	STS inhibitor
 T7	chemical 313 322	inhibitor
 T8	chemical 349 352	STS
 T9	disease_or_phenotypic_feature 349 352	STS
@@ -60,10 +60,7 @@ T58	missed_disease_or_phenotypic_feature 287 290	HCC
 R2	treats Arg1:T4 Arg2:T57	
 R3	treats Arg1:T4 Arg2:T5	
 R4	treats Arg1:T4 Arg2:T58	
-T59	corrected_disease_or_phenotypic_feature 580 613	BRAF inhibitor-resistant melanoma
 R5	treats Arg1:T16 Arg2:T15	
-R6	treats Arg1:T16 Arg2:T59	
-R7	treats Arg1:T18 Arg2:T19	
 R8	treats Arg1:T31 Arg2:T33	
 T60	corrected_chemical 1700 1714	ACE inhibitors
 R9	treats Arg1:T46 Arg2:T48	
@@ -71,7 +68,21 @@ R10	treats Arg1:T60 Arg2:T48
 R11	treats Arg1:T46 Arg2:T49	
 R12	treats Arg1:T60 Arg2:T49	
 T61	missed_chemical 293 298	STX64
-T62	missed_disease_or_phenotypic_feature 349 352;354 359	STS tumor
+T62	missed_disease_or_phenotypic_feature 343 353;354 359	MCF-7(STS) tumor
 R13	treats Arg1:T61 Arg2:T62	
 R14	treats Arg1:T6 Arg2:T62	
 T63	DONE 2094 2098	DONE
+T59	corrected_chemical 580 594	BRAF inhibitor
+R6	treats Arg1:T59 Arg2:T15	
+T64	corrected_chemical 84 111	immune checkpoint inhibitor
+R15	treats Arg1:T64 Arg2:T1	
+T65	missed_disease_or_phenotypic_feature 888 893	tumor
+R7	causes_or_contributes_to Arg1:T21 Arg2:T65	
+R16	causes_or_contributes_to Arg1:T21 Arg2:T20	
+T66	corrected_chemical 1249 1263	anorectic drug
+R17	treats Arg1:T66 Arg2:T33	
+T67	missed_disease_or_phenotypic_feature 738 743	tumor
+R18	causes_or_contributes_to Arg1:T17 Arg2:T67	
+R19	causes_or_contributes_to Arg1:T18 Arg2:T67	
+T68	missed_disease_or_phenotypic_feature 863 865	BC
+R20	causes_or_contributes_to Arg1:T21 Arg2:T68	

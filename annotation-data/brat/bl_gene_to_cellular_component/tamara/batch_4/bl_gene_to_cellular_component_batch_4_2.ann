@@ -96,3 +96,31 @@ T95	gene 3135 3140	SORT1
 T96	gene 3149 3157	sortilin
 T97	cellular_component 3222 3225	LDL
 T98	gene 3266 3271	PCSK9
+R1	located_in Arg1:T6 Arg2:T5	
+R2	located_in Arg1:T17 Arg2:T18	
+T99	missed_gene 1353 1364	Ser-p-GSK3β
+T100	missed_gene 1369 1378	β-catenin
+R3	located_in Arg1:T99 Arg2:T41	
+R4	located_in Arg1:T100 Arg2:T41	
+R5	located_in Arg1:T46 Arg2:T47	
+R6	located_in Arg1:T46 Arg2:T48	
+T101	corrected_cellular_component 1849 1865	MVB/PVC membrane
+T102	missed_gene 1824 1829	FREE1
+R7	located_in Arg1:T102 Arg2:T101	
+R8	located_in Arg1:T68 Arg2:T67	
+T103	corrected_gene 2814 2844	growth hormone-binding protein
+R9	located_in Arg1:T87 Arg2:T88	
+R10	located_in Arg1:T103 Arg2:T88	
+#1	AnnotatorNotes R10	Okay?
+R11	located_in Arg1:T12 Arg2:T14	
+#2	AnnotatorNotes R11	Okay?
+T104	corrected_gene 284 294	β integrin
+#3	AnnotatorNotes T104	okay?
+R12	located_in Arg1:T104 Arg2:T14	
+#4	AnnotatorNotes R12	Okay?
+T105	missed_gene 1529 1534	actin
+R13	located_in Arg1:T105 Arg2:T47	
+R14	located_in Arg1:T105 Arg2:T48	
+T106	missed_gene 1547 1552	actin
+R15	located_in Arg1:T106 Arg2:T48	
+R16	located_in Arg1:T106 Arg2:T47	

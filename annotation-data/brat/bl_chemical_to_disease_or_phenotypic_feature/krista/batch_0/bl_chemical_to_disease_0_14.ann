@@ -14,7 +14,7 @@ T13	corrected_chemical 697 712	anti-ERBB2 drug
 T14	chemical 708 712	drug
 T15	corrected_chemical 735 749	KRAS inhibitor
 T16	chemical 740 749	inhibitor
-T17	missed_disease_or_phenotypic_feature 753 770	ERBB2-mutant PDAC
+T17	missed_disease_or_phenotypic_feature 766 770	PDAC
 T18	disease_or_phenotypic_feature 840 867	immunodeficiency-associated
 T19	disease_or_phenotypic_feature 888 897	disorders
 T20	chemical 911 916	group
@@ -82,3 +82,21 @@ R15	treats Arg1:T21 Arg2:T23
 R16	treats Arg1:T21 Arg2:T24
 R17	treats Arg1:T3 Arg2:T1
 R18	treats Arg1:T3 Arg2:T4	
+T68	missed_chemical 1352 1363	HcHAb18-DM1
+T69	missed_disease_or_phenotypic_feature 1334 1339	tumor
+R7	treats Arg1:T68 Arg2:T69	
+T70	corrected_chemical 2048 2078	inadequately preserved seafood
+R19	causes_or_contributes_to Arg1:T70 Arg2:T71	
+T71	corrected_disease_or_phenotypic_feature 2030 2044	food poisoning
+T72	corrected_chemical 2816 2842	E. coli lipopolysaccharide
+R20	causes_or_contributes_to Arg1:T72 Arg2:T53	
+T73	missed_disease_or_phenotypic_feature 2944 2947	EIU
+R21	causes_or_contributes_to Arg1:T72 Arg2:T73	
+R22	causes_or_contributes_to Arg1:T72 Arg2:T55	
+R23	causes_or_contributes_to Arg1:T39 Arg2:T40	
+T74	missed_chemical 2917 2926	endotoxin
+R24	causes_or_contributes_to Arg1:T74 Arg2:T55	
+T75	missed_chemical 3221 3226	TRAIL
+R25	treats Arg1:T75 Arg2:T61	
+T76	corrected_chemical 3164 3219	Tumor necrosis factor-related apoptosis-inducing ligand
+R26	treats Arg1:T76 Arg2:T61	

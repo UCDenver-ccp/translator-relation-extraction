@@ -102,3 +102,104 @@ T101	gene 3087 3098	adiponectin
 T102	anatomical_site 3165 3170	serum
 T103	gene 3171 3182	adiponectin
 T104	anatomical_site 3187 3191	bone
+R1	located_in Arg1:T6 Arg2:T5	
+R2	located_in Arg1:T7 Arg2:T5	
+T105	corrected_anatomical_site 363 375	brain tissue
+R3	located_in Arg1:T12 Arg2:T13	
+R4	located_in Arg1:T12 Arg2:T105	
+T106	corrected_gene 437 469	heart fatty acid binding protein
+T107	missed_gene 471 476	HFABP
+R5	located_in Arg1:T106 Arg2:T17	
+R6	located_in Arg1:T107 Arg2:T17	
+T108	missed_gene 479 489	troponin T
+R7	located_in Arg1:T108 Arg2:T16	
+T109	missed_gene 491 520	pro-brain natriuretic peptide
+R8	located_in Arg1:T109 Arg2:T16	
+#1	AnnotatorNotes R8	Okay?
+T110	missed_anatomical_site 495 500	brain
+R9	located_in Arg1:T109 Arg2:T110	
+#2	AnnotatorNotes R9	Okay?
+T111	missed_gene 522 529	pro-BNP
+R10	located_in Arg1:T111 Arg2:T16	
+R11	located_in Arg1:T111 Arg2:T110	
+T112	missed_gene 535 559	creatinine phosphokinase
+T113	missed_gene 561 564	CPK
+R12	located_in Arg1:T112 Arg2:T16	
+R13	located_in Arg1:T113 Arg2:T16	
+T114	missed_gene 567 593	lung clara cell 16 protein
+R14	located_in Arg1:T114 Arg2:T19	
+R15	located_in Arg1:T114 Arg2:T16	
+T115	missed_gene 595 608	pneumoprotein
+T116	missed_gene 610 614	CC16
+R16	located_in Arg1:T115 Arg2:T16	
+R17	located_in Arg1:T116 Arg2:T16	
+T117	corrected_gene 617 654	intestinal fatty acid binding protein
+T118	missed_anatomical_site 617 627	intestinal
+R18	located_in Arg1:T117 Arg2:T118	
+R19	located_in Arg1:T117 Arg2:T16	
+T119	missed_gene 656 661	IFABP
+R20	located_in Arg1:T119 Arg2:T118	
+R21	located_in Arg1:T119 Arg2:T16	
+R22	located_in Arg1:T22 Arg2:T21	
+R23	located_in Arg1:T22 Arg2:T16	
+T120	corrected_gene 700 705	α-GST
+R24	located_in Arg1:T120 Arg2:T21	
+R25	located_in Arg1:T120 Arg2:T16	
+R26	located_in Arg1:T29 Arg2:T31	
+R27	located_in Arg1:T30 Arg2:T31	
+T121	corrected_anatomical_site 1119 1131	brain tissue
+R28	located_in Arg1:T32 Arg2:T121	
+#3	AnnotatorNotes R28	Okay?
+R29	located_in Arg1:T33 Arg2:T121	
+#4	AnnotatorNotes R29	Okay?
+T122	corrected_anatomical_site 1256 1268	brain tissue
+R30	located_in Arg1:T37 Arg2:T122	
+T123	corrected_gene 1301 1326	dystrophin-related protei
+R31	located_in Arg1:T40 Arg2:T42	
+R32	located_in Arg1:T123 Arg2:T42	
+T124	missed_gene 1428 1433	CD200
+R33	located_in Arg1:T48 Arg2:T49	
+R34	located_in Arg1:T47 Arg2:T49	
+R35	located_in Arg1:T46 Arg2:T49	
+R36	located_in Arg1:T124 Arg2:T49	
+R37	located_in Arg1:T45 Arg2:T49	
+R38	located_in Arg1:T44 Arg2:T49	
+R39	located_in Arg1:T43 Arg2:T49	
+T125	corrected_anatomical_site 1679 1691	liver tissue
+R40	located_in Arg1:T52 Arg2:T125	
+R41	located_in Arg1:T51 Arg2:T125	
+T126	missed_gene 1762 1768	Wnt-3a
+R42	located_in Arg1:T55 Arg2:T56	
+R43	located_in Arg1:T126 Arg2:T56	
+R44	located_in Arg1:T58 Arg2:T57	
+R45	located_in Arg1:T59 Arg2:T57	
+R46	located_in Arg1:T62 Arg2:T61	
+R47	located_in Arg1:T63 Arg2:T61	
+T127	missed_gene 2045 2049	slug
+R48	located_in Arg1:T127 Arg2:T61	
+R49	located_in Arg1:T66 Arg2:T65	
+R50	located_in Arg1:T68 Arg2:T67	
+T128	missed_gene 2191 2196	sCD80
+R51	located_in Arg1:T128 Arg2:T69	
+T129	missed_gene 2268 2274	sCTLA4
+R52	located_in Arg1:T129 Arg2:T71	
+T130	missed_anatomical_site 2318 2323	serum
+T131	corrected_gene 2324 2331	albumin
+R53	located_in Arg1:T131 Arg2:T130	
+R54	located_in Arg1:T74 Arg2:T73	
+R55	located_in Arg1:T75 Arg2:T73	
+R56	located_in Arg1:T77 Arg2:T76	
+R57	located_in Arg1:T78 Arg2:T76	
+R58	located_in Arg1:T82 Arg2:T83	
+R59	located_in Arg1:T85 Arg2:T86	
+T132	missed_gene 2643 2652	Apelin-12
+T133	missed_gene 2654 2663	apelin-36
+R60	located_in Arg1:T133 Arg2:T86	
+R61	located_in Arg1:T132 Arg2:T86	
+T134	corrected_gene 2795 2804	C-megalin
+T135	missed_anatomical_site 2787 2794	urinary
+R62	located_in Arg1:T134 Arg2:T135	
+R63	located_in Arg1:T97 Arg2:T99	
+R64	located_in Arg1:T96 Arg2:T99	
+R65	located_in Arg1:T101 Arg2:T100	
+R66	located_in Arg1:T103 Arg2:T102	

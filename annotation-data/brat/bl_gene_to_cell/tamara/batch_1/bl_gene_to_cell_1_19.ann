@@ -118,3 +118,78 @@ T117	gene 3067 3084	insulin receptors
 T118	gene 3098 3102	Rat1
 T119	gene 3176 3183	insulin
 T120	gene 3195 3199	ERK1
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T4 Arg2:T3	
+R3	located_in Arg1:T5 Arg2:T3	
+R4	located_in Arg1:T9 Arg2:T10	
+T121	missed_gene 306 310	Mepe
+R5	located_in Arg1:T11 Arg2:T14	
+R6	located_in Arg1:T121 Arg2:T14	
+R7	located_in Arg1:T12 Arg2:T14	
+R8	located_in Arg1:T13 Arg2:T14	
+R9	located_in Arg1:T13 Arg2:T15	
+R10	located_in Arg1:T12 Arg2:T15	
+R11	located_in Arg1:T121 Arg2:T15	
+R12	located_in Arg1:T11 Arg2:T15	
+R13	located_in Arg1:T21 Arg2:T20	
+R14	located_in Arg1:T23 Arg2:T22	
+R15	located_in Arg1:T24 Arg2:T25	
+R16	located_in Arg1:T24 Arg2:T26	
+R17	located_in Arg1:T36 Arg2:T38	
+R18	located_in Arg1:T37 Arg2:T38	
+R19	located_in Arg1:T36 Arg2:T39	
+R20	located_in Arg1:T37 Arg2:T39	
+R21	located_in Arg1:T41 Arg2:T42	
+R22	located_in Arg1:T40 Arg2:T42	
+R23	located_in Arg1:T43 Arg2:T44	
+R24	located_in Arg1:T40 Arg2:T44	
+T122	missed_gene 1228 1231	CD8
+R25	located_in Arg1:T45 Arg2:T46	
+R26	located_in Arg1:T122 Arg2:T46	
+R27	located_in Arg1:T51 Arg2:T49	
+R28	located_in Arg1:T52 Arg2:T49	
+R29	located_in Arg1:T53 Arg2:T49	
+R30	located_in Arg1:T51 Arg2:T50	
+R31	located_in Arg1:T52 Arg2:T50	
+R32	located_in Arg1:T53 Arg2:T50	
+R33	located_in Arg1:T51 Arg2:T54	
+R34	located_in Arg1:T51 Arg2:T55	
+R35	located_in Arg1:T51 Arg2:T56	
+R36	located_in Arg1:T51 Arg2:T57	
+R37	located_in Arg1:T52 Arg2:T54	
+R38	located_in Arg1:T52 Arg2:T55	
+R39	located_in Arg1:T52 Arg2:T56	
+R40	located_in Arg1:T52 Arg2:T57	
+R41	located_in Arg1:T53 Arg2:T54	
+R42	located_in Arg1:T53 Arg2:T55	
+R43	located_in Arg1:T53 Arg2:T56	
+R44	located_in Arg1:T53 Arg2:T57	
+T123	missed_gene 1577 1582	Notch
+R45	located_in Arg1:T123 Arg2:T58	
+R46	located_in Arg1:T59 Arg2:T58	
+R47	located_in Arg1:T60 Arg2:T63	
+R48	located_in Arg1:T61 Arg2:T63	
+R49	located_in Arg1:T62 Arg2:T63	
+R50	located_in Arg1:T64 Arg2:T66	
+R51	located_in Arg1:T65 Arg2:T66	
+R52	located_in Arg1:T67 Arg2:T70	
+R53	located_in Arg1:T68 Arg2:T70	
+T124	missed_gene 1808 1813	Beta2
+R54	located_in Arg1:T124 Arg2:T70	
+R55	located_in Arg1:T69 Arg2:T70	
+R56	located_in Arg1:T71 Arg2:T72	
+R57	located_in Arg1:T71 Arg2:T73	
+R58	located_in Arg1:T74 Arg2:T76	
+R59	located_in Arg1:T71 Arg2:T76	
+R60	located_in Arg1:T77 Arg2:T76	
+R61	located_in Arg1:T78 Arg2:T76	
+T125	corrected_gene 2108 2113	Pbx1a
+R62	located_in Arg1:T125 Arg2:T81	
+R63	located_in Arg1:T125 Arg2:T83	
+R64	located_in Arg1:T90 Arg2:T89	
+R65	located_in Arg1:T105 Arg2:T104	
+R66	located_in Arg1:T105 Arg2:T103	
+R67	located_in Arg1:T105 Arg2:T102	
+R68	located_in Arg1:T105 Arg2:T101	
+R69	located_in Arg1:T117 Arg2:T116	
+R70	located_in Arg1:T120 Arg2:T116	

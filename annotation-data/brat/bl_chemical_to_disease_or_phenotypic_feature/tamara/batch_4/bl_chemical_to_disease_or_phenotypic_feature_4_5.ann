@@ -63,10 +63,9 @@ T62	chemical 2499 2506	biology
 T63	chemical 2535 2542	calcium
 T64	chemical 2554 2561	hormone
 T65	disease_or_phenotypic_feature 2603 2616	hypercalcemia
-R1	causes_or_contributes_to Arg1:T2 Arg2:T3	
 T66	missed_chemical 333 336	DHL
 R2	treats Arg1:T66 Arg2:T9	
-T67	corrected_chemical 774 801	phosphaturic hormone FGF-23
+T67	corrected_chemical 774 794	phosphaturic hormone
 R3	causes_or_contributes_to Arg1:T15 Arg2:T14	
 R4	treats Arg1:T16 Arg2:T14	
 R5	treats Arg1:T67 Arg2:T14	
@@ -80,13 +79,11 @@ R11	treats Arg1:T24 Arg2:T27
 R12	treats Arg1:T24 Arg2:T28	
 R13	treats Arg1:T26 Arg2:T27	
 R14	treats Arg1:T26 Arg2:T28	
-R17	causes_or_contributes_to Arg1:T37 Arg2:T38	
 T69	missed_disease_or_phenotypic_feature 2331 2349	insulin resistance
 R18	treats Arg1:T56 Arg2:T69	
 R19	treats Arg1:T56 Arg2:T57	
 R20	treats Arg1:T56 Arg2:T58	
 R21	treats Arg1:T56 Arg2:T59	
-R22	causes_or_contributes_to Arg1:T63 Arg2:T65	
 T70	missed_disease_or_phenotypic_feature 1340 1346	tumors
 R15	causes_or_contributes_to Arg1:T32 Arg2:T70	
 T71	missed_chemical 2205 2208	Orz
@@ -95,3 +92,4 @@ R23	treats Arg1:T53 Arg2:T55
 R24	treats Arg1:T71 Arg2:T54	
 R25	treats Arg1:T71 Arg2:T55	
 T72	DONE 2619 2623	DONE
+R1	treats Arg1:T8 Arg2:T9	

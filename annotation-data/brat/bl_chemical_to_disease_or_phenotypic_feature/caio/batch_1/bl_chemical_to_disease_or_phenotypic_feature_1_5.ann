@@ -58,11 +58,8 @@ T57	missed_chemical 330 344	cyclooxygenase
 T58	corrected_chemical 349 381	nitric oxide synthase inhibitors
 R1	causes_or_contributes_to Arg1:T13 Arg2:T15	
 T59	missed_disease_or_phenotypic_feature 644 667	Circulating tumor cells
-T60	missed_disease_or_phenotypic_feature 1185 1190	tumor
-R2	treats Arg1:T27 Arg2:T60	
-T61	corrected_disease_or_phenotypic_feature 1267 1309	chemotherapy-induced peripheral neuropathy
+T60	missed_disease_or_phenotypic_feature 1163 1168	tumor
 T62	missed_disease_or_phenotypic_feature 1311 1315	CIPN
-T63	missed_chemical 1347 1363	chemotherapeutic
 R3	treats Arg1:T31 Arg2:T33	
 T64	missed_disease_or_phenotypic_feature 1529 1542	prolactinomas
 R4	causes_or_contributes_to Arg1:T36 Arg2:T38	
@@ -81,3 +78,30 @@ R8	causes_or_contributes_to Arg1:T48 Arg2:T72
 R9	treats Arg1:T26 Arg2:T60	
 T73	corrected_chemical 1409 1461	centrally acting neurotransmitter reuptake inhibitor
 R10	treats Arg1:T73 Arg2:T33	
+T74	corrected_chemical 1636 1656	antituberculous drug
+R11	causes_or_contributes_to Arg1:T74 Arg2:T38	
+T75	missed_disease_or_phenotypic_feature 2205 2211	tumors
+R12	treats Arg1:T49 Arg2:T75	
+T76	missed_chemical 464 475	prostanoids
+T77	missed_disease_or_phenotypic_feature 437 452	cancer cachexia
+R13	causes_or_contributes_to Arg1:T76 Arg2:T77	
+T78	corrected_chemical 573 595	immunosuppressive drug
+R14	causes_or_contributes_to Arg1:T78 Arg2:T15	
+R15	causes_or_contributes_to Arg1:T21 Arg2:T22	
+R16	treats Arg1:T28 Arg2:T60	
+R17	treats Arg1:T26 Arg2:T25	
+T79	corrected_chemical 1105 1125	heparin nanocarriers
+R18	treats Arg1:T79 Arg2:T25	
+R2	treats Arg1:T79 Arg2:T60	
+R19	treats Arg1:T28 Arg2:T25	
+T80	corrected_chemical 1267 1279	chemotherapy
+R20	causes_or_contributes_to Arg1:T80 Arg2:T29	
+T81	missed_disease_or_phenotypic_feature 1252 1263	side effect
+R21	causes_or_contributes_to Arg1:T80 Arg2:T81	
+R22	causes_or_contributes_to Arg1:T80 Arg2:T62	
+T82	corrected_chemical 2163 2179	anti-cancer drug
+R26	treats Arg1:T82 Arg2:T75	
+R27	treats Arg1:T82 Arg2:T51	
+T83	missed_disease_or_phenotypic_feature 2334 2357	Dunning R3327 PAP tumor
+R28	causes_or_contributes_to Arg1:T52 Arg2:T83	
+R23	causes_or_contributes_to Arg1:T69 Arg2:T45	

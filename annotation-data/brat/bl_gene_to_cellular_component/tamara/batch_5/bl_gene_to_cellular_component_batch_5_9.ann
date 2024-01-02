@@ -89,3 +89,44 @@ T88	gene 3148 3152	TOP3
 T89	gene 3154 3158	RMI1
 T90	gene 3159 3163	RMI2
 T91	cellular_component 3168 3187	ATR/ATRIP complexes
+T92	corrected_cellular_component 57 79	Golgi-derived vesicles
+R1	located_in Arg1:T2 Arg2:T92	
+R2	located_in Arg1:T1 Arg2:T92	
+R3	located_in Arg1:T35 Arg2:T40	
+#1	AnnotatorNotes R3	Okay?
+T93	missed_gene 1057 1060	Fas
+T94	missed_gene 1062 1067	TRADD
+T95	missed_gene 1069 1073	FADD
+T96	corrected_gene 1074 1080	MORT-1
+T97	missed_gene 1082 1085	RIP
+R4	located_in Arg1:T93 Arg2:T40	
+R5	located_in Arg1:T94 Arg2:T40	
+R6	located_in Arg1:T95 Arg2:T40	
+R7	located_in Arg1:T96 Arg2:T40	
+R8	located_in Arg1:T97 Arg2:T40	
+R9	located_in Arg1:T37 Arg2:T40	
+R10	located_in Arg1:T38 Arg2:T40	
+R11	located_in Arg1:T39 Arg2:T40	
+R12	located_in Arg1:T35 Arg2:T41	
+R13	located_in Arg1:T93 Arg2:T41	
+R14	located_in Arg1:T94 Arg2:T41	
+R15	located_in Arg1:T95 Arg2:T41	
+R16	located_in Arg1:T96 Arg2:T41	
+R17	located_in Arg1:T97 Arg2:T41	
+R18	located_in Arg1:T37 Arg2:T41	
+R19	located_in Arg1:T38 Arg2:T41	
+R20	located_in Arg1:T39 Arg2:T41	
+T98	missed_gene 1474 1481	Aβ25-35
+R21	located_in Arg1:T98 Arg2:T47	
+#2	AnnotatorNotes R21	Okay?
+R22	located_in Arg1:T49 Arg2:T47	
+R23	located_in Arg1:T50 Arg2:T47	
+R24	located_in Arg1:T51 Arg2:T47	
+R25	located_in Arg1:T52 Arg2:T47	
+R26	located_in Arg1:T53 Arg2:T47	
+R27	located_in Arg1:T54 Arg2:T56	
+R28	located_in Arg1:T55 Arg2:T56	
+R29	located_in Arg1:T72 Arg2:T71	
+R31	located_in Arg1:T81 Arg2:T80	
+T99	corrected_gene 2760 2763	B23
+R30	located_in Arg1:T99 Arg2:T77	

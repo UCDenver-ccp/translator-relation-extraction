@@ -116,3 +116,84 @@ T115	gene 2892 2896	Cdk6
 T116	gene 2902 2906	Fzd5
 T117	gene 2944 2949	GATA4
 T118	anatomical_site 2957 2963	tissue
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T3	
+R3	located_in Arg1:T5 Arg2:T3	
+T119	missed_gene 159 190	connective tissue growth factor
+R4	located_in Arg1:T119 Arg2:T6	
+R5	located_in Arg1:T7 Arg2:T6	
+R6	located_in Arg1:T8 Arg2:T6	
+R7	located_in Arg1:T9 Arg2:T6	
+R8	located_in Arg1:T13 Arg2:T12	
+T120	missed_gene 398 403	eIF2?
+T121	missed_anatomical_site 390 397	hepatic
+R9	located_in Arg1:T120 Arg2:T121	
+T122	missed_gene 511 539	bone morphogenetic protein-4
+R10	located_in Arg1:T122 Arg2:T19	
+R11	located_in Arg1:T20 Arg2:T19	
+R12	located_in Arg1:T28 Arg2:T27	
+R13	located_in Arg1:T29 Arg2:T30	
+R14	located_in Arg1:T29 Arg2:T31	
+T123	missed_gene 842 846	AMPK
+T124	corrected_anatomical_site 863 873	whole-body
+R15	located_in Arg1:T123 Arg2:T124	
+R16	located_in Arg1:T36 Arg2:T124	
+R17	located_in Arg1:T37 Arg2:T124	
+R18	located_in Arg1:T38 Arg2:T124	
+R19	located_in Arg1:T39 Arg2:T124	
+R20	located_in Arg1:T40 Arg2:T124	
+T125	missed_gene 1088 1095	ghrelin
+R21	located_in Arg1:T125 Arg2:T124	
+T126	missed_gene 918 926	hormones
+T127	missed_gene 931 940	cytokines
+R22	located_in Arg1:T126 Arg2:T124	
+R23	located_in Arg1:T127 Arg2:T124	
+R24	located_in Arg1:T41 Arg2:T44	
+R25	located_in Arg1:T41 Arg2:T45	
+R26	located_in Arg1:T41 Arg2:T46	
+R27	located_in Arg1:T41 Arg2:T47	
+R28	located_in Arg1:T41 Arg2:T48	
+R29	located_in Arg1:T42 Arg2:T44	
+R30	located_in Arg1:T42 Arg2:T45	
+R31	located_in Arg1:T42 Arg2:T46	
+R32	located_in Arg1:T42 Arg2:T47	
+R33	located_in Arg1:T42 Arg2:T48	
+R34	located_in Arg1:T43 Arg2:T44	
+R35	located_in Arg1:T43 Arg2:T45	
+R36	located_in Arg1:T43 Arg2:T46	
+R37	located_in Arg1:T43 Arg2:T47	
+R38	located_in Arg1:T43 Arg2:T48	
+R39	located_in Arg1:T54 Arg2:T53	
+R40	located_in Arg1:T55 Arg2:T53	
+R41	located_in Arg1:T56 Arg2:T53	
+R45	located_in Arg1:T58 Arg2:T60	
+R46	located_in Arg1:T59 Arg2:T60	
+R47	located_in Arg1:T62 Arg2:T61	
+R48	located_in Arg1:T63 Arg2:T61	
+R49	located_in Arg1:T64 Arg2:T61	
+R50	located_in Arg1:T71 Arg2:T70	
+R51	located_in Arg1:T73 Arg2:T75	
+R52	located_in Arg1:T74 Arg2:T75	
+T129	corrected_anatomical_site 2498 2510	femur tissue
+R53	located_in Arg1:T95 Arg2:T129	
+R54	located_in Arg1:T96 Arg2:T129	
+R55	located_in Arg1:T107 Arg2:T131	
+T130	corrected_gene 2704 2709	AOX-2
+R56	located_in Arg1:T130 Arg2:T131	
+T131	missed_anatomical_site 2670 2676	livers
+T132	missed_anatomical_site 2739 2745	livers
+R57	located_in Arg1:T107 Arg2:T132	
+R58	located_in Arg1:T130 Arg2:T132	
+R59	located_in Arg1:T112 Arg2:T113	
+R60	located_in Arg1:T114 Arg2:T118	
+R61	located_in Arg1:T115 Arg2:T118	
+R62	located_in Arg1:T116 Arg2:T118	
+R63	located_in Arg1:T117 Arg2:T118	
+T133	missed_gene 1049 1062	interluekin-6
+R64	located_in Arg1:T133 Arg2:T124	
+R65	located_in Arg1:T111 Arg2:T110	
+T134	missed_anatomical_site 2774 2781	hepatic
+R66	located_in Arg1:T111 Arg2:T134	
+T128	corrected_gene 2170 2203	vascular cell adhesion molecule-1
+R42	located_in Arg1:T128 Arg2:T86	
+R43	located_in Arg1:T88 Arg2:T86	

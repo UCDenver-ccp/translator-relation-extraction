@@ -99,3 +99,117 @@ T98	anatomical_site 2858 2873	neuroepithelium
 T99	anatomical_site 2875 2881	neural
 T100	gene 2882 2885	Shh
 T101	anatomical_site 2906 2915	notochord
+R1	located_in Arg1:T3 Arg2:T2	
+R2	located_in Arg1:T5 Arg2:T4	
+R3	located_in Arg1:T6 Arg2:T4	
+R4	located_in Arg1:T7 Arg2:T4	
+R5	located_in Arg1:T8 Arg2:T9	
+T102	missed_anatomical_site 260 268;281 287	skeletal muscle
+R6	located_in Arg1:T8 Arg2:T102	
+R7	located_in Arg1:T10 Arg2:T11	
+R8	located_in Arg1:T17 Arg2:T18	
+R9	located_in Arg1:T16 Arg2:T18	
+R10	located_in Arg1:T20 Arg2:T19	
+T103	missed_anatomical_site 564 571	hepatic
+R11	located_in Arg1:T21 Arg2:T103	
+T104	missed_anatomical_site 653 667	fibrocartilage
+T105	corrected_gene 609 613	Fsp1
+R12	located_in Arg1:T105 Arg2:T104	
+R13	located_in Arg1:T23 Arg2:T104	
+T106	missed_anatomical_site 641 648	elastic
+#1	AnnotatorNotes T106	okay?
+R14	located_in Arg1:T23 Arg2:T106	
+R15	located_in Arg1:T105 Arg2:T106	
+R16	located_in Arg1:T28 Arg2:T29	
+T107	missed_gene 1040 1044	FASL
+T108	missed_gene 1050 1067	CLEAVED CASPASE 3
+R17	located_in Arg1:T34 Arg2:T37	
+R18	located_in Arg1:T35 Arg2:T37	
+R19	located_in Arg1:T36 Arg2:T37	
+R20	located_in Arg1:T107 Arg2:T37	
+R21	located_in Arg1:T108 Arg2:T37	
+R22	located_in Arg1:T38 Arg2:T39	
+T109	corrected_gene 1294 1303	Ube3a-ATS
+R23	located_in Arg1:T40 Arg2:T42	
+R24	located_in Arg1:T109 Arg2:T42	
+R25	located_in Arg1:T46 Arg2:T45	
+R26	located_in Arg1:T48 Arg2:T47	
+T110	corrected_gene 1438 1467	type I collagen C-telopeptide
+R27	located_in Arg1:T110 Arg2:T47	
+#2	AnnotatorNotes R27	Okay?
+T111	corrected_gene 1645 1649;1650 1667	P2X3 receptor subunits
+T112	corrected_gene 1636 1640;1650 1667	P2X2 receptor subunits
+R28	located_in Arg1:T111 Arg2:T51	
+R29	located_in Arg1:T111 Arg2:T52	
+R30	located_in Arg1:T112 Arg2:T51	
+R31	located_in Arg1:T112 Arg2:T52	
+R32	located_in Arg1:T55 Arg2:T57	
+#3	AnnotatorNotes T111	okay?
+#4	AnnotatorNotes T112	okay?
+R33	located_in Arg1:T56 Arg2:T57	
+T113	missed_anatomical_site 1898 1912	perivascularly
+R34	located_in Arg1:T59 Arg2:T58	
+T114	missed_gene 1805 1808	RyR
+R35	located_in Arg1:T114 Arg2:T58	
+R36	located_in Arg1:T60 Arg2:T58	
+R37	located_in Arg1:T61 Arg2:T58	
+R38	located_in Arg1:T61 Arg2:T113	
+R39	located_in Arg1:T60 Arg2:T113	
+R40	located_in Arg1:T114 Arg2:T113	
+R41	located_in Arg1:T59 Arg2:T113	
+R42	located_in Arg1:T61 Arg2:T62	
+R43	located_in Arg1:T60 Arg2:T62	
+R44	located_in Arg1:T114 Arg2:T62	
+R45	located_in Arg1:T59 Arg2:T62	
+R46	located_in Arg1:T65 Arg2:T66	
+R47	located_in Arg1:T69 Arg2:T70	
+R48	located_in Arg1:T68 Arg2:T70	
+T115	missed_gene 2057 2064	SSTR 2A
+R49	located_in Arg1:T115 Arg2:T70	
+T116	corrected_gene 2043 2055	SRIF1-family
+#5	AnnotatorNotes T116	okay?
+R50	located_in Arg1:T116 Arg2:T70	
+T117	missed_gene 2284 2308	kidney injury molecule-1
+R51	located_in Arg1:T117 Arg2:T76	
+R52	located_in Arg1:T77 Arg2:T76	
+T118	missed_gene 2318 2357	tissue inhibitor of metalloproteinase-2
+R53	located_in Arg1:T118 Arg2:T78	
+R54	located_in Arg1:T79 Arg2:T78	
+R55	located_in Arg1:T83 Arg2:T84	
+T119	corrected_anatomical_site 2543 2555	Heart tissue
+R56	located_in Arg1:T86 Arg2:T119	
+R57	located_in Arg1:T87 Arg2:T119	
+T120	corrected_anatomical_site 2740 2758	luminal epithelium
+T121	corrected_anatomical_site 2760 2762	LE
+T122	missed_anatomical_site 2799 2801	SM
+R58	located_in Arg1:T89 Arg2:T120	
+R59	located_in Arg1:T89 Arg2:T121	
+R60	located_in Arg1:T89 Arg2:T95	
+R61	located_in Arg1:T89 Arg2:T122	
+R62	located_in Arg1:T90 Arg2:T120	
+R63	located_in Arg1:T90 Arg2:T121	
+R64	located_in Arg1:T90 Arg2:T95	
+R65	located_in Arg1:T90 Arg2:T122	
+R66	located_in Arg1:T91 Arg2:T120	
+R67	located_in Arg1:T91 Arg2:T121	
+R68	located_in Arg1:T91 Arg2:T95	
+R69	located_in Arg1:T91 Arg2:T122	
+R70	located_in Arg1:T92 Arg2:T120	
+R71	located_in Arg1:T92 Arg2:T121	
+R72	located_in Arg1:T92 Arg2:T95	
+R73	located_in Arg1:T92 Arg2:T122	
+R74	located_in Arg1:T93 Arg2:T120	
+R75	located_in Arg1:T93 Arg2:T121	
+R76	located_in Arg1:T93 Arg2:T95	
+R77	located_in Arg1:T93 Arg2:T122	
+T123	corrected_anatomical_site 2848 2873	forebrain neuroepithelium
+R78	located_in Arg1:T96 Arg2:T123	
+R79	located_in Arg1:T100 Arg2:T99	
+T124	corrected_anatomical_site 2895 2915	underlying notochord
+T125	missed_anatomical_site 2920 2936	prechordal plate
+R80	located_in Arg1:T96 Arg2:T124	
+R81	located_in Arg1:T96 Arg2:T125	
+T126	corrected_gene 345 377	G protein-coupled receptor P2Y14
+R82	located_in Arg1:T126 Arg2:T15	
+#6	AnnotatorNotes R82	Okay?
+#7	AnnotatorNotes R26	Okay?

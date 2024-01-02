@@ -72,8 +72,8 @@ T71	disease_or_phenotypic_feature 2671 2704	pervasive developmental disorders
 T72	missed_disease_or_phenotypic_feature 292 306	mammary tumors
 R1	causes_or_contributes_to Arg1:T7 Arg2:T72	
 R2	causes_or_contributes_to Arg1:T9 Arg2:T72	
-R3	treats Arg1:T10 Arg2:T72	
-R4	causes_or_contributes_to Arg1:T34 Arg2:T33	
+R3	causes_or_contributes_to Arg1:T10 Arg2:T72	
+R4	causes_or_contributes_to Arg1:T34 Arg2:T81	
 R5	treats Arg1:T41 Arg2:T39	
 T73	missed_chemical 1589 1596	LUMIGAN
 R6	treats Arg1:T73 Arg2:T39	
@@ -93,3 +93,8 @@ R13	treats Arg1:T79 Arg2:T70
 R14	treats Arg1:T79 Arg2:T71	
 T80	missed_disease_or_phenotypic_feature 2706 2710	PDDs
 R15	treats Arg1:T79 Arg2:T80	
+T81	corrected_disease_or_phenotypic_feature 1329 1357	toxoplasma retinochoroiditis
+R16	treats Arg1:T6 Arg2:T5	
+R17	treats Arg1:T63 Arg2:T64	
+T82	corrected_chemical 1389 1422	umor necrosis factor-? antagonist
+R18	causes_or_contributes_to Arg1:T82 Arg2:T81	

@@ -67,36 +67,49 @@ T66	corrected_chemical 318 335	hyperbaric oxygen
 R1	causes_or_contributes_to Arg1:T66 Arg2:T65	
 R2	causes_or_contributes_to Arg1:T66 Arg2:T8	
 R3	causes_or_contributes_to Arg1:T66 Arg2:T9	
-T67	missed_disease_or_phenotypic_feature 463 481	tumor angiogenesis
-T68	missed_disease_or_phenotypic_feature 463 468;486 496	tumor metastasis
+T67	missed_disease_or_phenotypic_feature 463 468	tumor
 T69	corrected_disease_or_phenotypic_feature 500 531	C26 murine colon adenocarcinoma
-R4	treats Arg1:T11 Arg2:T67	
-R5	treats Arg1:T11 Arg2:T68	
 R6	treats Arg1:T11 Arg2:T69	
 T70	missed_chemical 577 585	KB-R7785
-R7	treats Arg1:T70 Arg2:T67	
-R8	treats Arg1:T70 Arg2:T68	
 R9	treats Arg1:T70 Arg2:T69	
 R10	treats Arg1:T14 Arg2:T15	
 R11	causes_or_contributes_to Arg1:T16 Arg2:T17	
-T72	missed_chemical 1186 1194	anti-TNF
+T72	missed_chemical 1186 1195	anti-TNF?
 R13	treats Arg1:T72 Arg2:T26	
 R14	treats Arg1:T72 Arg2:T27	
-T73	corrected_disease_or_phenotypic_feature 1254 1274	ras-dependent tumors
+T73	corrected_disease_or_phenotypic_feature 1268 1274	tumors
 T74	corrected_chemical 1300 1325	ras-dislodging antagonist
 R15	treats Arg1:T74 Arg2:T73	
 R16	treats Arg1:T43 Arg2:T44	
 T75	corrected_disease_or_phenotypic_feature 2107 2118	tumor edema
 R17	causes_or_contributes_to Arg1:T59 Arg2:T75	
 T76	missed_disease_or_phenotypic_feature 2237 2257;2270 2292	repetitive behaviors associated with autism
-R18	treats Arg1:T62 Arg2:T76	
-R19	treats Arg1:T62 Arg2:T63	
 T77	corrected_chemical 63 94	inhibitor of cytidine deaminase
-T78	missed_disease_or_phenotypic_feature 133 159	elevate gemcitabine levels
-R20	causes_or_contributes_to Arg1:T77 Arg2:T78	
 T79	missed_disease_or_phenotypic_feature 370 388	pulmonary toxicity
 T80	missed_disease_or_phenotypic_feature 343 365;380 388	central nervous system toxicity
 R21	causes_or_contributes_to Arg1:T66 Arg2:T80	
 R22	causes_or_contributes_to Arg1:T66 Arg2:T79	
 T71	corrected_disease_or_phenotypic_feature 1758 1788	disseminated malignant tumours
 R12	treats Arg1:T46 Arg2:T71	
+T81	corrected_disease_or_phenotypic_feature 1715 1730	obese diabetics
+R23	treats Arg1:T43 Arg2:T81	
+R24	treats Arg1:T12 Arg2:T15	
+T82	corrected_disease_or_phenotypic_feature 170 180	PDA tumors
+R26	treats Arg1:T77 Arg2:T82	
+R20	treats Arg1:T2 Arg2:T82	
+R4	treats Arg1:T11 Arg2:T67	
+R5	treats Arg1:T70 Arg2:T67	
+T68	chemical 1186 1206	anti-TNF? biological
+R7	treats Arg1:T29 Arg2:T26	
+R8	treats Arg1:T29 Arg2:T27	
+T78	missed_chemical 1160 1163	HFD
+R27	causes_or_contributes_to Arg1:T78 Arg2:T27	
+R28	causes_or_contributes_to Arg1:T78 Arg2:T26	
+T83	missed_chemical 1373 1377	diet
+R29	causes_or_contributes_to Arg1:T83 Arg2:T35	
+R30	treats Arg1:T41 Arg2:T40	
+R31	treats Arg1:T42 Arg2:T40	
+T84	corrected_chemical 2173 2182	nitro dye
+R32	causes_or_contributes_to Arg1:T84 Arg2:T60	
+T85	missed_disease_or_phenotypic_feature 2183 2195	intoxication
+R25	causes_or_contributes_to Arg1:T84 Arg2:T85	

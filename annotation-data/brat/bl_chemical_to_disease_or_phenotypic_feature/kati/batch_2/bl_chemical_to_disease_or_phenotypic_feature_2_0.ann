@@ -81,16 +81,9 @@ T75	corrected_disease_or_phenotypic_feature 522 542	peripheral arthritis
 T76	corrected_chemical 431 468	selective cyclo-oxygenase-2 inhibitor
 R7	treats Arg1:T76 Arg2:T75	
 R8	treats Arg1:T76 Arg2:T15	
-T77	missed_disease_or_phenotypic_feature 850 871	cholesterol granuloma
-T78	missed_chemical 887 906	delta 7-cholestenol
-R9	causes_or_contributes_to Arg1:T78 Arg2:T77	
-R10	causes_or_contributes_to Arg1:T78 Arg2:T25	
+T77	missed_disease_or_phenotypic_feature 862 871	granuloma
 T79	corrected_disease_or_phenotypic_feature 1168 1190	heart failure syndrome
 T80	missed_disease_or_phenotypic_feature 1192 1199	ascites
-R12	treats Arg1:T36 Arg2:T79	
-R13	treats Arg1:T36 Arg2:T80	
-R14	treats Arg1:T36 Arg2:T35	
-R17	treats Arg1:T42 Arg2:T43	
 T83	corrected_disease_or_phenotypic_feature 1730 1753	primary melanoma tumors
 T84	corrected_disease_or_phenotypic_feature 1820 1864	idiopathic sudden sensorineural hearing loss
 T85	corrected_chemical 1798 1815	Hyperbaric oxygen
@@ -112,3 +105,18 @@ R11	treats Arg1:T12 Arg2:T15
 T81	missed_disease_or_phenotypic_feature 2303 2312	antitumor
 R15	causes_or_contributes_to Arg1:T88 Arg2:T81	
 R16	causes_or_contributes_to Arg1:T68 Arg2:T81	
+T78	missed_disease_or_phenotypic_feature 1616 1628	hypertension
+R10	treats Arg1:T44 Arg2:T78	
+R17	causes_or_contributes_to Arg1:T58 Arg2:T57	
+T82	missed_chemical 0 35	Antiangiogenic photodynamic therapy
+T90	missed_chemical 0 14;37 40	Antiangiogenic PDT
+R12	treats Arg1:T82 Arg2:T1	
+R13	treats Arg1:T90 Arg2:T1	
+T91	missed_disease_or_phenotypic_feature 152 157	tumor
+T92	missed_disease_or_phenotypic_feature 199 204	tumor
+R14	treats Arg1:T90 Arg2:T92	
+R29	treats Arg1:T82 Arg2:T92	
+R30	causes_or_contributes_to Arg1:T2 Arg2:T91	
+R31	causes_or_contributes_to Arg1:T3 Arg2:T91	
+R32	treats Arg1:T90 Arg2:T91	
+R33	treats Arg1:T82 Arg2:T91	

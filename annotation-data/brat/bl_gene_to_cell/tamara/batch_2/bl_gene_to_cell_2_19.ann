@@ -111,3 +111,9 @@ T110	cell_type 2917 2937	periglomerular cells
 T111	cell_type 2942 2955	granule cells
 T112	gene 2961 2966	Panx1
 T113	gene 2971 2976	Panx2
+R1	located_in Arg1:T3 Arg2:T2	
+R2	located_in Arg1:T4 Arg2:T2	
+T114	missed_gene 107 127	medium neurofilament
+R3	located_in Arg1:T114 Arg2:T2	
+T115	corrected_gene 133 149	beta-III tubulin
+R4	located_in Arg1:T115 Arg2:T2	

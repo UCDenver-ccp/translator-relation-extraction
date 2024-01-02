@@ -57,7 +57,6 @@ T56	corrected_chemical 3469 3485	PIK3C3 Inhibitor
 T57	chemical 3476 3485	Inhibitor
 T58	missed_chemical 3535 3558	Chemotherapeutic Agents
 T59	disease_or_phenotypic_feature 3562 3568	Cancer
-R1	treats Arg1:T46 Arg2:T47
 R2	treats Arg1:T55 Arg2:T59
 R3	treats Arg1:T58 Arg2:T59
 R4	treats Arg1:T56 Arg2:T59
@@ -65,5 +64,17 @@ R5	treats Arg1:T8 Arg2:T10
 R6	treats Arg1:T6 Arg2:T10
 R7	treats Arg1:T50 Arg2:T54
 T60	missed_disease_or_phenotypic_feature 2967 2979	inflammatory
-R8	treats Arg1:T46 Arg2:T60	
 T61	corrected_chemical 3284 3350	epidermal growth factor receptor (EGFR)-tyrosine kinase inhibitors
+T62	missed_disease_or_phenotypic_feature 2523 2526	MDR
+T63	missed_chemical 2465 2481	HMSNs-PDA-PEG@QD
+T64	missed_chemical 2541 2549	free DOX
+R9	treats Arg1:T64 Arg2:T62	
+R10	treats Arg1:T63 Arg2:T62	
+T65	missed_chemical 2554 2571	HMSNs-PDA-PEG@DOX
+R11	treats Arg1:T65 Arg2:T62	
+R12	treats Arg1:T61 Arg2:T54	
+T66	missed_chemical 3352 3356	TKIs
+R13	treats Arg1:T66 Arg2:T54	
+R14	treats Arg1:T66 Arg2:T53	
+R15	treats Arg1:T61 Arg2:T53	
+R16	treats Arg1:T50 Arg2:T53	

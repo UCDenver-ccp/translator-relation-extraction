@@ -102,3 +102,56 @@ T101	gene 2873 2877	PPAR
 T102	anatomical_site 2888 2893	liver
 T103	gene 2898 2902	PPAR
 T104	anatomical_site 2907 2921	adipose tissue
+T105	corrected_anatomical_site 84 101	airway epithelium
+R1	located_in Arg1:T1 Arg2:T105	
+R2	located_in Arg1:T2 Arg2:T105	
+R3	located_in Arg1:T3 Arg2:T105	
+R4	located_in Arg1:T4 Arg2:T105	
+R5	located_in Arg1:T12 Arg2:T13	
+R6	located_in Arg1:T12 Arg2:T14	
+T106	corrected_anatomical_site 425 445	lateral brain tissue
+R7	located_in Arg1:T15 Arg2:T106	
+R8	located_in Arg1:T16 Arg2:T106	
+T107	missed_anatomical_site 528 536	choroids
+R9	located_in Arg1:T19 Arg2:T107	
+R10	located_in Arg1:T20 Arg2:T21	
+R11	located_in Arg1:T20 Arg2:T22	
+R12	located_in Arg1:T20 Arg2:T23	
+T108	corrected_anatomical_site 712 735	embryonic kidney tissue
+R13	located_in Arg1:T24 Arg2:T108	
+R14	located_in Arg1:T25 Arg2:T108	
+T109	corrected_anatomical_site 755 767	ankle tissue
+R15	located_in Arg1:T32 Arg2:T29	
+R16	located_in Arg1:T32 Arg2:T109	
+R17	located_in Arg1:T33 Arg2:T35	
+R18	located_in Arg1:T34 Arg2:T35	
+T110	missed_anatomical_site 1039 1062	leptomeningeal arteries
+R19	located_in Arg1:T39 Arg2:T110	
+R20	located_in Arg1:T40 Arg2:T110	
+R22	located_in Arg1:T49 Arg2:T51	
+R23	located_in Arg1:T50 Arg2:T51	
+R24	located_in Arg1:T52 Arg2:T53	
+R25	located_in Arg1:T52 Arg2:T54	
+R26	located_in Arg1:T58 Arg2:T57	
+R27	located_in Arg1:T59 Arg2:T57	
+R28	located_in Arg1:T60 Arg2:T57	
+T111	missed_anatomical_site 1758 1767	embryonic
+R29	located_in Arg1:T65 Arg2:T111	
+R30	located_in Arg1:T66 Arg2:T111	
+T112	corrected_anatomical_site 1921 1932	lung tissue
+T113	missed_gene 2277 2281	lctl
+T115	corrected_gene 2248 2270	klotho-related protein
+R32	located_in Arg1:T115 Arg2:T82	
+R33	located_in Arg1:T113 Arg2:T82	
+R37	located_in Arg1:T99 Arg2:T102	
+R38	located_in Arg1:T99 Arg2:T104	
+R21	located_in Arg1:T61 Arg2:T63	
+R39	located_in Arg1:T61 Arg2:T64	
+R40	located_in Arg1:T62 Arg2:T63	
+R41	located_in Arg1:T62 Arg2:T64	
+R31	located_in Arg1:T71 Arg2:T112	
+T114	missed_anatomical_site 1947 1958	endothelial
+R42	located_in Arg1:T71 Arg2:T114	
+T118	missed_anatomical_site 1978 1998	Vascular Endothelial
+R43	located_in Arg1:T71 Arg2:T118	
+R44	located_in Arg1:T81 Arg2:T82	

@@ -93,3 +93,64 @@ T92	cell_type 2627 2640	T-lymphocytes
 T93	cell_type 2650 2667	endothelial cells
 T94	gene 2695 2705	P-selectin
 T95	gene 2710 2716	ICAM-1
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T3 Arg2:T4	
+R3	located_in Arg1:T7 Arg2:T8	
+R4	located_in Arg1:T10 Arg2:T11	
+R5	located_in Arg1:T10 Arg2:T12	
+R6	located_in Arg1:T15 Arg2:T17	
+R7	located_in Arg1:T16 Arg2:T17	
+T96	missed_cell_type 461 470	leukocyte
+T97	missed_gene 461 500	leukocyte function-associated antigen-1
+R8	located_in Arg1:T97 Arg2:T96	
+R9	located_in Arg1:T18 Arg2:T96	
+T98	corrected_cell_type 512 533	osteoclast precursors
+R10	located_in Arg1:T18 Arg2:T98	
+R11	located_in Arg1:T97 Arg2:T98	
+R12	located_in Arg1:T21 Arg2:T20	
+T99	corrected_gene 606 609;611 612	Oct 4
+R13	located_in Arg1:T99 Arg2:T20	
+R14	located_in Arg1:T22 Arg2:T20	
+R15	located_in Arg1:T23 Arg2:T20	
+R16	located_in Arg1:T24 Arg2:T20	
+T100	missed_cell_type 659 666	NC cell
+R17	located_in Arg1:T25 Arg2:T100	
+T101	missed_gene 682 685	p75
+T102	missed_gene 686 689	NTR
+T103	missed_gene 692 697	Twist
+R18	located_in Arg1:T101 Arg2:T100	
+R19	located_in Arg1:T102 Arg2:T100	
+R20	located_in Arg1:T103 Arg2:T100	
+R21	located_in Arg1:T26 Arg2:T100	
+R22	located_in Arg1:T32 Arg2:T33	
+R23	located_in Arg1:T31 Arg2:T33	
+T104	missed_gene 952 957	TWEAK
+R24	located_in Arg1:T34 Arg2:T35	
+R25	located_in Arg1:T104 Arg2:T35	
+R26	located_in Arg1:T34 Arg2:T36	
+T105	missed_cell_type 1059 1073	myofibroblasts
+R27	located_in Arg1:T34 Arg2:T37	
+R28	located_in Arg1:T34 Arg2:T105	
+R29	located_in Arg1:T104 Arg2:T36	
+R30	located_in Arg1:T104 Arg2:T37	
+R31	located_in Arg1:T104 Arg2:T105	
+R32	located_in Arg1:T38 Arg2:T39	
+R33	located_in Arg1:T38 Arg2:T40	
+R34	located_in Arg1:T42 Arg2:T43	
+R35	located_in Arg1:T42 Arg2:T44	
+R36	located_in Arg1:T51 Arg2:T52	
+R37	located_in Arg1:T54 Arg2:T55	
+R38	located_in Arg1:T57 Arg2:T58	
+R39	located_in Arg1:T56 Arg2:T58	
+T106	corrected_gene 1975 2005	beta-amyloid precursor protein
+R42	located_in Arg1:T106 Arg2:T68	
+R43	located_in Arg1:T76 Arg2:T75	
+R44	located_in Arg1:T76 Arg2:T74	
+R45	located_in Arg1:T77 Arg2:T78	
+R46	located_in Arg1:T81 Arg2:T80	
+R47	located_in Arg1:T81 Arg2:T84	
+R48	located_in Arg1:T81 Arg2:T85	
+R49	located_in Arg1:T87 Arg2:T107	
+R51	located_in Arg1:T94 Arg2:T93	
+R52	located_in Arg1:T95 Arg2:T93	
+T107	corrected_cell_type 2504 2532	endometrial epithelial cells

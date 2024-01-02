@@ -81,3 +81,73 @@ T80	gene 2389 2403	neurotrophin-4
 T81	gene 2405 2409	NTF4
 T82	gene 2433 2452	neurotrophic factor
 T83	gene 2454 2458	GDNF
+R1	located_in Arg1:T3 Arg2:T1	
+R2	located_in Arg1:T4 Arg2:T1	
+R3	located_in Arg1:T5 Arg2:T6	
+T84	corrected_gene 246 287	TGF-beta-like bone morphogenetic proteins
+R4	located_in Arg1:T84 Arg2:T6	
+R5	located_in Arg1:T84 Arg2:T8	
+T85	missed_anatomical_site 384 394	dura mater
+T86	corrected_anatomical_site 357 375	sutural mesenchyme
+R6	located_in Arg1:T9 Arg2:T86	
+R7	located_in Arg1:T9 Arg2:T85	
+R16	located_in Arg1:T16 Arg2:T17	
+R17	located_in Arg1:T18 Arg2:T19	
+T89	missed_anatomical_site 675 684	cotyledon
+R18	located_in Arg1:T18 Arg2:T89	
+R19	located_in Arg1:T30 Arg2:T33	
+R20	located_in Arg1:T31 Arg2:T33	
+R21	located_in Arg1:T32 Arg2:T33	
+T90	missed_anatomical_site 1257 1264	tissues
+R23	located_in Arg1:T39 Arg2:T90	
+R24	located_in Arg1:T40 Arg2:T41	
+R25	located_in Arg1:T40 Arg2:T42	
+R26	located_in Arg1:T44 Arg2:T43	
+T91	corrected_anatomical_site 1651 1656;1663 1669	nasal tissue
+R28	located_in Arg1:T49 Arg2:T91	
+R29	located_in Arg1:T50 Arg2:T91	
+R30	located_in Arg1:T49 Arg2:T48	
+R31	located_in Arg1:T50 Arg2:T48	
+R32	located_in Arg1:T53 Arg2:T52	
+T92	missed_gene 1896 1899	SOD
+R33	located_in Arg1:T92 Arg2:T93	
+R34	located_in Arg1:T92 Arg2:T94	
+T93	corrected_anatomical_site 1780 1785;1832 1838	aorta tissue
+T94	corrected_anatomical_site 1780 1785;1931 1937	aorta tissue
+T95	corrected_gene 1939 1944	CPB-3
+R35	located_in Arg1:T95 Arg2:T60	
+T96	corrected_gene 2104 2111	p38MAPK
+R36	located_in Arg1:T96 Arg2:T67	
+R37	located_in Arg1:T66 Arg2:T67	
+T97	missed_anatomical_site 2224 2243	amniotic epithelial
+T98	missed_anatomical_site 2259 2267	decidual
+R38	located_in Arg1:T68 Arg2:T97	
+R39	located_in Arg1:T68 Arg2:T72	
+R40	located_in Arg1:T68 Arg2:T98	
+R41	located_in Arg1:T69 Arg2:T97	
+R42	located_in Arg1:T69 Arg2:T72	
+R43	located_in Arg1:T69 Arg2:T98	
+R44	located_in Arg1:T70 Arg2:T97	
+R45	located_in Arg1:T70 Arg2:T72	
+R46	located_in Arg1:T70 Arg2:T98	
+R47	located_in Arg1:T71 Arg2:T97	
+R48	located_in Arg1:T71 Arg2:T72	
+R49	located_in Arg1:T71 Arg2:T98	
+T99	corrected_gene 2297 2330	brain-derived neurotrophin factor
+R50	located_in Arg1:T99 Arg2:T74	
+R51	located_in Arg1:T76 Arg2:T74	
+R52	located_in Arg1:T99 Arg2:T73	
+T100	missed_gene 2339 2358	nerve growth factor
+T101	missed_anatomical_site 2339 2344	nerve
+R53	located_in Arg1:T100 Arg2:T101	
+R54	located_in Arg1:T77 Arg2:T101	
+R55	located_in Arg1:T100 Arg2:T73	
+R56	located_in Arg1:T77 Arg2:T73	
+R57	located_in Arg1:T76 Arg2:T73	
+R58	located_in Arg1:T78 Arg2:T73	
+R59	located_in Arg1:T79 Arg2:T73	
+R60	located_in Arg1:T80 Arg2:T73	
+R61	located_in Arg1:T81 Arg2:T73	
+T102	corrected_gene 2419 2452	glial-derived neurotrophic factor
+R62	located_in Arg1:T102 Arg2:T73	
+R63	located_in Arg1:T83 Arg2:T73	

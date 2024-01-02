@@ -65,8 +65,15 @@ R2	treats Arg1:T29 Arg2:T28
 T63	missed_disease_or_phenotypic_feature 364 368	PISE
 T64	corrected_chemical 324 335	pilocarpine
 R4	causes_or_contributes_to Arg1:T64 Arg2:T63	
-T65	corrected_disease_or_phenotypic_feature 324 362	pilocarpine-induced status epilepticus
-R3	causes_or_contributes_to Arg1:T64 Arg2:T65	
+R3	causes_or_contributes_to Arg1:T64 Arg2:T5	
 T66	missed_chemical 815 818	BLM
-T67	missed_disease_or_phenotypic_feature 815 835	BLM-induced fibrosis
+T67	missed_disease_or_phenotypic_feature 827 835	fibrosis
 R5	causes_or_contributes_to Arg1:T66 Arg2:T67	
+T65	missed_disease_or_phenotypic_feature 2223 2278	painful, poor-healing wounds that often become infected
+R6	causes_or_contributes_to Arg1:T37 Arg2:T65	
+T68	missed_disease_or_phenotypic_feature 2415 2461	lasting changes in ethanol intake in adulthood
+R7	causes_or_contributes_to Arg1:T42 Arg2:T68	
+T69	missed_chemical 3567 3585	anti-IL1 treatment
+R8	treats Arg1:T69 Arg2:T62	
+T70	chemical 3488 3514	pro-inflammatory mediators
+R9	causes_or_contributes_to Arg1:T70 Arg2:T62	

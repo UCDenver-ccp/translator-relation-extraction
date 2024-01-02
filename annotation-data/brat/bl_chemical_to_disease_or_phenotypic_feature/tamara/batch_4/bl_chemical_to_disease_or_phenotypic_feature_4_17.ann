@@ -69,7 +69,6 @@ T68	chemical 2221 2229	estrogen
 T69	chemical 2264 2272	estrogen
 T70	disease_or_phenotypic_feature 2273 2282	sensitive
 T71	missed_chemical 583 591	racemate
-R1	treats Arg1:T71 Arg2:T18	
 R2	treats Arg1:T16 Arg2:T18	
 T72	missed_chemical 623 634	Barbiturate
 T73	missed_chemical 635 643	sedative
@@ -87,3 +86,16 @@ R11	treats Arg1:T75 Arg2:T49
 R12	causes_or_contributes_to Arg1:T58 Arg2:T59	
 R13	causes_or_contributes_to Arg1:T64 Arg2:T62	
 T76	DONE 2291 2295	DONE
+T77	missed_disease_or_phenotypic_feature 2283 2289	tumors
+R14	causes_or_contributes_to Arg1:T69 Arg2:T77	
+R15	causes_or_contributes_to Arg1:T68 Arg2:T77	
+R16	causes_or_contributes_to Arg1:T58 Arg2:T60	
+T78	corrected_chemical 540 568	monoamine reuptake inhibitor
+R1	treats Arg1:T78 Arg2:T18	
+R18	treats Arg1:T10 Arg2:T11	
+T80	missed_disease_or_phenotypic_feature 220 225	tumor
+R19	treats Arg1:T9 Arg2:T80	
+R20	treats Arg1:T58 Arg2:T61	
+R21	causes_or_contributes_to Arg1:T63 Arg2:T62	
+T81	missed_disease_or_phenotypic_feature 1229 1238	poisoning
+R17	causes_or_contributes_to Arg1:T42 Arg2:T81	

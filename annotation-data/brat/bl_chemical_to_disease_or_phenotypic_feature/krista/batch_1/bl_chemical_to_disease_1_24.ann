@@ -71,11 +71,40 @@ R4	treats Arg1:T22 Arg2:T26
 R5	treats Arg1:T39 Arg2:T41
 R6	causes_or_contributes_to Arg1:T47 Arg2:T45
 R7	treats Arg1:T62 Arg2:T64
-R8	treats Arg1:T40 Arg2:T41
 R9	treats Arg1:T49 Arg2:T51
 R10	causes_or_contributes_to Arg1:T15 Arg2:T16
 R11	causes_or_contributes_to Arg1:T15 Arg2:T18
 R12	causes_or_contributes_to Arg1:T15 Arg2:T20
 R13	causes_or_contributes_to Arg1:T15 Arg2:T19
 R14	causes_or_contributes_to Arg1:T15 Arg2:T21
-R15	causes_or_contributes_to Arg1:T29 Arg2:T30
+R15	causes_or_contributes_to Arg1:T29 Arg2:T74
+T67	missed_disease_or_phenotypic_feature 158 169	bone defect
+T68	missed_chemical 118 121	OPG
+R16	treats Arg1:T68 Arg2:T67	
+R17	causes_or_contributes_to Arg1:T4 Arg2:T67	
+T69	missed_chemical 215 222	AMD3100
+R18	causes_or_contributes_to Arg1:T69 Arg2:T67	
+T70	missed_disease_or_phenotypic_feature 889 898	addiction
+R19	causes_or_contributes_to Arg1:T12 Arg2:T70	
+T71	missed_disease_or_phenotypic_feature 679 703	Behavioral sensitization
+T72	missed_chemical 716 731	psychostimulant
+R20	causes_or_contributes_to Arg1:T72 Arg2:T71	
+T73	missed_chemical 1102 1114	chemotherapy
+R21	causes_or_contributes_to Arg1:T73 Arg2:T21	
+R22	causes_or_contributes_to Arg1:T73 Arg2:T20	
+R23	causes_or_contributes_to Arg1:T73 Arg2:T16	
+R24	causes_or_contributes_to Arg1:T73 Arg2:T18	
+R25	causes_or_contributes_to Arg1:T73 Arg2:T19	
+T74	corrected_disease_or_phenotypic_feature 1667 1693	cholestasis adverse effect
+T75	missed_chemical 2276 2288	chemotherapy
+T76	corrected_chemical 2292 2309	molecular therapy
+R8	treats Arg1:T76 Arg2:T41	
+R26	treats Arg1:T75 Arg2:T41	
+R27	treats Arg1:T47 Arg2:T48	
+T77	missed_chemical 3617 3627	ipilimumab
+R28	treats Arg1:T77 Arg2:T64	
+T78	missed_chemical 3726 3739	immunotherapy
+R29	treats Arg1:T78 Arg2:T66	
+R30	treats Arg1:T78 Arg2:T64	
+R31	treats Arg1:T77 Arg2:T66	
+R32	treats Arg1:T62 Arg2:T66	

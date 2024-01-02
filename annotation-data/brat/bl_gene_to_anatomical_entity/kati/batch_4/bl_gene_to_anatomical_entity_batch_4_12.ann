@@ -104,3 +104,81 @@ T103	gene 2889 2898	clusterin
 T104	gene 2965 2970	NDRG1
 T105	anatomical_site 2986 2992	kidney
 T106	anatomical_site 2997 3002	brain
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T2 Arg2:T3	
+T107	missed_gene 130 135	Vegfa
+R3	located_in Arg1:T4 Arg2:T6	
+R4	located_in Arg1:T5 Arg2:T6	
+R5	located_in Arg1:T107 Arg2:T6	
+T108	corrected_anatomical_site 168 178	Cord blood
+R6	located_in Arg1:T8 Arg2:T108	
+R7	located_in Arg1:T16 Arg2:T19	
+R8	located_in Arg1:T32 Arg2:T34	
+R9	located_in Arg1:T33 Arg2:T34	
+R10	located_in Arg1:T32 Arg2:T35	
+R11	located_in Arg1:T33 Arg2:T35	
+R12	located_in Arg1:T32 Arg2:T36	
+R13	located_in Arg1:T33 Arg2:T36	
+R14	located_in Arg1:T32 Arg2:T37	
+R15	located_in Arg1:T33 Arg2:T37	
+R16	located_in Arg1:T32 Arg2:T38	
+R17	located_in Arg1:T33 Arg2:T38	
+T109	corrected_anatomical_site 1140 1175	distal portion of the ductal system
+R18	located_in Arg1:T43 Arg2:T109	
+R19	located_in Arg1:T44 Arg2:T109	
+R20	located_in Arg1:T46 Arg2:T47	
+R21	located_in Arg1:T46 Arg2:T48	
+T110	corrected_anatomical_site 1296 1309	limb ectoderm
+R22	located_in Arg1:T49 Arg2:T110	
+R23	located_in Arg1:T54 Arg2:T53	
+R24	located_in Arg1:T55 Arg2:T53	
+R25	located_in Arg1:T56 Arg2:T53	
+T111	missed_anatomical_site 1594 1608;1619 1635	distal tips of facial primordia
+R26	located_in Arg1:T59 Arg2:T58	
+R27	located_in Arg1:T60 Arg2:T58	
+R28	located_in Arg1:T59 Arg2:T111	
+R29	located_in Arg1:T60 Arg2:T111	
+R30	located_in Arg1:T64 Arg2:T66	
+T112	missed_gene 1736 1741	c-Met
+R31	located_in Arg1:T112 Arg2:T66	
+R32	located_in Arg1:T65 Arg2:T66	
+T113	missed_gene 1841 1844	Hip
+R33	located_in Arg1:T69 Arg2:T71	
+R34	located_in Arg1:T113 Arg2:T71	
+R35	located_in Arg1:T70 Arg2:T71	
+R36	located_in Arg1:T69 Arg2:T72	
+R37	located_in Arg1:T113 Arg2:T72	
+R38	located_in Arg1:T70 Arg2:T72	
+T114	corrected_gene 1916 1922	Hsp90α
+R39	located_in Arg1:T114 Arg2:T77	
+R40	located_in Arg1:T114 Arg2:T78	
+R41	located_in Arg1:T74 Arg2:T77	
+R42	located_in Arg1:T74 Arg2:T78	
+R43	located_in Arg1:T75 Arg2:T77	
+R44	located_in Arg1:T75 Arg2:T78	
+R45	located_in Arg1:T76 Arg2:T77	
+R46	located_in Arg1:T76 Arg2:T78	
+R47	located_in Arg1:T80 Arg2:T122	
+T115	corrected_anatomical_site 2229 2240;2253 2260	stereocilia cochlea
+T116	corrected_anatomical_site 2229 2240;2268 2285	stereocilia vestibular organs
+R48	located_in Arg1:T84 Arg2:T115	
+R49	located_in Arg1:T84 Arg2:T116	
+R50	located_in Arg1:T88 Arg2:T90	
+R51	located_in Arg1:T88 Arg2:T91	
+R52	located_in Arg1:T89 Arg2:T90	
+R53	located_in Arg1:T89 Arg2:T91	
+R54	located_in Arg1:T93 Arg2:T123	
+T117	corrected_gene 2676 2683	albumin
+T118	missed_anatomical_site 2670 2675	serum
+R55	located_in Arg1:T117 Arg2:T118	
+T119	corrected_anatomical_site 2841 2848;2857 2863	tubules cortex
+T120	corrected_anatomical_site 2841 2848;2868 2875	tubules medulla
+R56	located_in Arg1:T100 Arg2:T119	
+R57	located_in Arg1:T100 Arg2:T120	
+R58	located_in Arg1:T103 Arg2:T119	
+R59	located_in Arg1:T103 Arg2:T120	
+T121	corrected_anatomical_site 1105 1119	embryonic lung
+R60	located_in Arg1:T43 Arg2:T121	
+R61	located_in Arg1:T44 Arg2:T121	
+T122	corrected_anatomical_site 2001 2017	Peripheral blood
+T123	corrected_anatomical_site 2542 2558	Peripheral blood

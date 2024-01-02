@@ -73,7 +73,7 @@ T71	missed_chemical 191 195	DMBA
 T72	missed_disease_or_phenotypic_feature 222 228	tumors
 R2	causes_or_contributes_to Arg1:T71 Arg2:T72	
 R3	causes_or_contributes_to Arg1:T4 Arg2:T72	
-T73	missed_disease_or_phenotypic_feature 578 594	tumor metastasis
+T73	missed_disease_or_phenotypic_feature 578 583	tumor
 T74	missed_chemical 537 541	FPPC
 R4	treats Arg1:T74 Arg2:T73	
 R5	treats Arg1:T74 Arg2:T15	
@@ -82,16 +82,12 @@ R6	treats Arg1:T75 Arg2:T73
 R7	treats Arg1:T75 Arg2:T15	
 R8	treats Arg1:T16 Arg2:T18	
 R9	treats Arg1:T21 Arg2:T19	
-T76	missed_chemical 1163 1165	RC
+T76	corrected_chemical 1163 1181	RC and PCP mixture
 R10	treats Arg1:T76 Arg2:T27	
 R11	treats Arg1:T76 Arg2:T28	
 R12	treats Arg1:T76 Arg2:T30	
 T77	corrected_disease_or_phenotypic_feature 1228 1245	hepatic steatosis
 R13	treats Arg1:T76 Arg2:T77	
-R14	treats Arg1:T25 Arg2:T27	
-R15	treats Arg1:T25 Arg2:T28	
-R16	treats Arg1:T25 Arg2:T77	
-R17	treats Arg1:T25 Arg2:T30	
 R18	causes_or_contributes_to Arg1:T40 Arg2:T39	
 T78	missed_chemical 1892 1895	DFs
 R19	treats Arg1:T78 Arg2:T45	
@@ -106,3 +102,7 @@ R25	treats Arg1:T63 Arg2:T65
 T81	corrected_chemical 2589 2639	inhibitors of ghrelin O-acyltransferase inhibitors
 R26	treats Arg1:T81 Arg2:T69	
 R27	treats Arg1:T81 Arg2:T70	
+R28	treats Arg1:T3 Arg2:T1	
+R29	treats Arg1:T17 Arg2:T18	
+R14	treats Arg1:T64 Arg2:T65	
+R15	causes_or_contributes_to Arg1:T43 Arg2:T41	

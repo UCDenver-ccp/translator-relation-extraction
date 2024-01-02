@@ -65,10 +65,9 @@ T64	chemical 2568 2572	drug
 T65	disease_or_phenotypic_feature 2612 2625	hyperglycemia
 T66	chemical 2648 2658	tacrolimus
 T67	chemical 2663 2675	cyclosporine
-T68	missed_disease_or_phenotypic_feature 570 575	tumor
 T69	corrected_chemical 570 597	tumor blood flow inhibitors
-R1	treats Arg1:T15 Arg2:T68	
-R2	treats Arg1:T14 Arg2:T68	
+R1	treats Arg1:T15 Arg2:T84	
+R2	treats Arg1:T14 Arg2:T84	
 T70	corrected_chemical 652 666	ACE inhibitors
 R3	treats Arg1:T70 Arg2:T17	
 R4	treats Arg1:T70 Arg2:T18	
@@ -101,10 +100,30 @@ R21	causes_or_contributes_to Arg1:T56 Arg2:T79
 T80	corrected_chemical 2329 2344	SGLT2 inhibitor
 R22	causes_or_contributes_to Arg1:T80 Arg2:T79	
 T81	missed_disease_or_phenotypic_feature 2581 2593	hypertension
-R23	causes_or_contributes_to Arg1:T66 Arg2:T81	
 T82	missed_disease_or_phenotypic_feature 2595 2607	dyslipidemia
-R24	causes_or_contributes_to Arg1:T66 Arg2:T82	
-R25	causes_or_contributes_to Arg1:T66 Arg2:T65	
-R26	causes_or_contributes_to Arg1:T67 Arg2:T81	
-R27	causes_or_contributes_to Arg1:T67 Arg2:T82	
-R28	causes_or_contributes_to Arg1:T67 Arg2:T65	
+R29	treats Arg1:T25 Arg2:T24	
+T83	missed_chemical 683 691	diuretic
+R30	causes_or_contributes_to Arg1:T83 Arg2:T17	
+T84	missed_disease_or_phenotypic_feature 531 536	tumor
+R31	treats Arg1:T69 Arg2:T84	
+R35	causes_or_contributes_to Arg1:T34 Arg2:T75	
+R36	causes_or_contributes_to Arg1:T64 Arg2:T81	
+R37	causes_or_contributes_to Arg1:T64 Arg2:T82	
+R38	causes_or_contributes_to Arg1:T64 Arg2:T65	
+T85	missed_chemical 2247 2259	Carbohydrate
+R23	causes_or_contributes_to Arg1:T85 Arg2:T79	
+R24	treats Arg1:T70 Arg2:T20	
+T68	missed_disease_or_phenotypic_feature 975 980	tumor
+R25	causes_or_contributes_to Arg1:T72 Arg2:T68	
+R26	treats Arg1:T74 Arg2:T68	
+R27	treats Arg1:T73 Arg2:T68	
+T86	corrected_chemical 0 25	Super enhancer inhibitors
+R28	treats Arg1:T86 Arg2:T3	
+T87	missed_disease_or_phenotypic_feature 531 550	tumor growth delays
+R32	causes_or_contributes_to Arg1:T69 Arg2:T87	
+R33	causes_or_contributes_to Arg1:T14 Arg2:T87	
+R34	causes_or_contributes_to Arg1:T15 Arg2:T87	
+R39	causes_or_contributes_to Arg1:T32 Arg2:T33	
+R40	causes_or_contributes_to Arg1:T34 Arg2:T33	
+R41	causes_or_contributes_to Arg1:T76 Arg2:T33	
+R42	causes_or_contributes_to Arg1:T77 Arg2:T33	

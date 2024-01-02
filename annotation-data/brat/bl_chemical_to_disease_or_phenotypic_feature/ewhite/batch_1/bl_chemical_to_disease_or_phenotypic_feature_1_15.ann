@@ -77,8 +77,6 @@ R4	treats Arg1:T3 Arg2:T72
 T73	corrected_disease_or_phenotypic_feature 233 263	hyperglycemic hyperinsulinemia
 T74	corrected_disease_or_phenotypic_feature 267 296	hyperglycemic hypoinsulinemia
 R5	causes_or_contributes_to Arg1:T4 Arg2:T73	
-R6	causes_or_contributes_to Arg1:T4 Arg2:T74	
-R7	causes_or_contributes_to Arg1:T5 Arg2:T73	
 R8	causes_or_contributes_to Arg1:T5 Arg2:T74	
 R9	causes_or_contributes_to Arg1:T27 Arg2:T29	
 R10	causes_or_contributes_to Arg1:T27 Arg2:T30	
@@ -88,7 +86,14 @@ T76	corrected_disease_or_phenotypic_feature 2468 2483	cancer cachexia
 R12	treats Arg1:T45 Arg2:T76	
 T77	missed_chemical 2402 2410	sActRIIB
 R13	treats Arg1:T77 Arg2:T76	
-T78	missed_disease_or_phenotypic_feature 2573 2589	Brain Metastases
+T78	missed_disease_or_phenotypic_feature 2573 2622	Brain Metastases of Triple Negative Breast Cancer
 R14	treats Arg1:T48 Arg2:T78	
 R15	treats Arg1:T23 Arg2:T26	
-R16	treats Arg1:T48 Arg2:T50	
+R6	treats Arg1:T24 Arg2:T26	
+R7	causes_or_contributes_to Arg1:T28 Arg2:T29	
+R16	causes_or_contributes_to Arg1:T28 Arg2:T30	
+R17	treats Arg1:T28 Arg2:T75	
+T79	missed_chemical 2521 2538	Synergistic Drugs
+R18	treats Arg1:T79 Arg2:T78	
+T80	corrected_chemical 3430 3444	HDAC inhibitor
+R19	treats Arg1:T80 Arg2:T71	

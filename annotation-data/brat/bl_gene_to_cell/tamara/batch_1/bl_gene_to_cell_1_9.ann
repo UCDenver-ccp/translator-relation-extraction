@@ -73,7 +73,7 @@ T72	cell_type 2328 2334	T cell
 T73	gene 2341 2344	p52
 T74	gene 2384 2388	CD1a
 T75	gene 2391 2395	CD68
-T76	gene 2412 2415	APC
+T76	missed_cell_type 2412 2415	APC
 T77	gene 2425 2428	p50
 T78	gene 2456 2460	CD68
 T79	gene 2462 2465	APC
@@ -117,3 +117,80 @@ T116	gene 3561 3565	WAF1
 T117	gene 3566 3570	CIP1
 T118	cell_type 3601 3612	crypt cells
 T119	gene 3632 3635	p53
+R1	located_in Arg1:T1 Arg2:T2	
+T120	missed_gene 56 59	CD8
+R2	located_in Arg1:T120 Arg2:T3	
+T121	missed_gene 79 82	CD8
+R3	located_in Arg1:T4 Arg2:T5	
+R4	located_in Arg1:T121 Arg2:T5	
+R5	located_in Arg1:T8 Arg2:T10	
+R6	located_in Arg1:T8 Arg2:T11	
+R7	located_in Arg1:T9 Arg2:T10	
+R8	located_in Arg1:T9 Arg2:T11	
+R9	located_in Arg1:T19 Arg2:T20	
+R10	located_in Arg1:T22 Arg2:T21	
+R11	located_in Arg1:T32 Arg2:T33	
+R12	located_in Arg1:T37 Arg2:T38	
+R13	located_in Arg1:T42 Arg2:T43	
+R14	located_in Arg1:T41 Arg2:T43	
+R15	located_in Arg1:T41 Arg2:T44	
+R16	located_in Arg1:T45 Arg2:T135	
+R17	located_in Arg1:T47 Arg2:T48	
+R18	located_in Arg1:T49 Arg2:T50	
+T122	corrected_cell_type 1817 1831	neuronal cells
+R19	located_in Arg1:T61 Arg2:T122	
+T123	missed_gene 1971 1975	RelB
+T124	missed_cell_type 2046 2049	FDC
+R20	located_in Arg1:T62 Arg2:T124	
+T125	missed_cell_type 2061 2063	DC
+R21	located_in Arg1:T62 Arg2:T125	
+R22	located_in Arg1:T62 Arg2:T64	
+R24	located_in Arg1:T63 Arg2:T124	
+R25	located_in Arg1:T63 Arg2:T125	
+R26	located_in Arg1:T63 Arg2:T64	
+R28	located_in Arg1:T123 Arg2:T124	
+R29	located_in Arg1:T123 Arg2:T125	
+R30	located_in Arg1:T123 Arg2:T64	
+T126	missed_gene 2306 2310	RelB
+R32	located_in Arg1:T71 Arg2:T68	
+R33	located_in Arg1:T126 Arg2:T68	
+R23	located_in Arg1:T74 Arg2:T76	
+R27	located_in Arg1:T75 Arg2:T76	
+T127	missed_gene 2349 2353	RelB
+R31	located_in Arg1:T73 Arg2:T76	
+R34	located_in Arg1:T127 Arg2:T76	
+T128	missed_cell_type 2462 2465	APC
+R35	located_in Arg1:T77 Arg2:T128	
+R36	located_in Arg1:T85 Arg2:T86	
+R37	located_in Arg1:T85 Arg2:T87	
+R38	located_in Arg1:T88 Arg2:T89	
+R39	located_in Arg1:T88 Arg2:T90	
+R40	located_in Arg1:T92 Arg2:T93	
+R41	located_in Arg1:T94 Arg2:T93	
+R42	located_in Arg1:T91 Arg2:T89	
+R43	located_in Arg1:T91 Arg2:T90	
+T129	corrected_cell_type 2921 2942	hepatocyte-like cells
+R44	located_in Arg1:T96 Arg2:T129	
+R45	located_in Arg1:T97 Arg2:T129	
+T130	missed_gene 2973 2978	AADAC
+R46	located_in Arg1:T130 Arg2:T129	
+R47	located_in Arg1:T100 Arg2:T101	
+R48	located_in Arg1:T99 Arg2:T101	
+R49	located_in Arg1:T103 Arg2:T104	
+R50	located_in Arg1:T103 Arg2:T105	
+R51	located_in Arg1:T102 Arg2:T104	
+R52	located_in Arg1:T102 Arg2:T105	
+T131	corrected_gene 3224 3226;3229 3231	CD 32
+T132	missed_cell_type 3236 3246	microglial
+R53	located_in Arg1:T106 Arg2:T132	
+R54	located_in Arg1:T131 Arg2:T107	
+#5	AnnotatorNotes R54	Okay?
+#6	AnnotatorNotes R53	Okay?
+T133	corrected_cell_type 3375 3392	Muller glia cells
+R55	located_in Arg1:T110 Arg2:T133	
+R56	located_in Arg1:T113 Arg2:T114	
+R57	located_in Arg1:T112 Arg2:T114	
+R58	located_in Arg1:T119 Arg2:T118	
+T134	corrected_gene 3558 3570	p21WAF1/CIP1
+R59	located_in Arg1:T134 Arg2:T118	
+T135	corrected_cell_type 1346 1361	mature neuronal

@@ -71,19 +71,12 @@ T70	disease_or_phenotypic_feature 2250 2256	glioma
 T71	disease_or_phenotypic_feature 2421 2437	medulloblastomas
 T72	chemical 2469 2477	antigens
 T73	chemical 2479 2482	TSA
-R1	treats Arg1:T8 Arg2:T9	
 R2	treats Arg1:T10 Arg2:T12	
 R3	treats Arg1:T11 Arg2:T12	
 R4	treats Arg1:T14 Arg2:T15	
 R5	treats Arg1:T14 Arg2:T16	
-R6	treats Arg1:T21 Arg2:T26	
-R7	treats Arg1:T21 Arg2:T27	
 T74	missed_disease_or_phenotypic_feature 886 894	epilepsy
-R8	treats Arg1:T21 Arg2:T74	
-T75	corrected_chemical 754 792	gamma-aminobutyric acid (GABA)-agonist
-R9	treats Arg1:T75 Arg2:T26	
-R10	treats Arg1:T75 Arg2:T27	
-R11	treats Arg1:T75 Arg2:T74	
+T75	corrected_chemical 754 797	gamma-aminobutyric acid (GABA)-agonist drug
 R12	treats Arg1:T28 Arg2:T29	
 T76	corrected_disease_or_phenotypic_feature 938 961	obesity-related cancers
 R13	treats Arg1:T28 Arg2:T76	
@@ -94,13 +87,39 @@ T78	corrected_chemical 1422 1433	5HT-agonist
 R16	treats Arg1:T78 Arg2:T51	
 T79	corrected_chemical 1438 1468	D2-dopamine antagonist/agonist
 R17	treats Arg1:T79 Arg2:T51	
-R18	treats Arg1:T54 Arg2:T52	
+R18	treats Arg1:T54 Arg2:T89	
 T80	missed_disease_or_phenotypic_feature 1670 1696	blood-brain barrier damage
 R19	treats Arg1:T55 Arg2:T80	
 R20	treats Arg1:T55 Arg2:T56	
 R21	treats Arg1:T55 Arg2:T57	
-R22	treats Arg1:T59 Arg2:T60	
 T81	DONE 2503 2507	DONE
 T82	corrected_chemical 471 490	hormone replacement
 R23	treats Arg1:T82 Arg2:T15	
 R24	treats Arg1:T82 Arg2:T16	
+T83	corrected_chemical 610 631	checkpoint inhibitors
+R1	treats Arg1:T83 Arg2:T18	
+R25	treats Arg1:T83 Arg2:T19	
+R26	treats Arg1:T83 Arg2:T20	
+T84	missed_disease_or_phenotypic_feature 648 653	tumor
+R27	treats Arg1:T83 Arg2:T84	
+T85	missed_chemical 10 49	tumour necrosis factor-blocking therapy
+R28	treats Arg1:T85 Arg2:T2	
+R29	treats Arg1:T8 Arg2:T9	
+T86	missed_disease_or_phenotypic_feature 411 417	tumors
+R30	treats Arg1:T11 Arg2:T86	
+R31	treats Arg1:T10 Arg2:T86	
+T87	missed_chemical 744 747	PGB
+T88	missed_disease_or_phenotypic_feature 1024 1036	hypertension
+R35	treats Arg1:T77 Arg2:T88	
+T89	corrected_disease_or_phenotypic_feature 1572 1602	diabetic peripheral neuropathy
+T90	corrected_chemical 1612 1624	anti-oxidant
+R36	treats Arg1:T90 Arg2:T89	
+T91	missed_chemical 1871 1883	chemotherapy
+R37	treats Arg1:T91 Arg2:T60	
+T92	corrected_chemical 58 84	reactive oxygen metabolite
+R38	causes_or_contributes_to Arg1:T92 Arg2:T2	
+T93	missed_disease_or_phenotypic_feature 269 279	acromegaly
+R39	causes_or_contributes_to Arg1:T6 Arg2:T93	
+R40	treats Arg1:T58 Arg2:T60	
+T94	missed_disease_or_phenotypic_feature 1858 1870	hypertension
+R41	causes_or_contributes_to Arg1:T59 Arg2:T94	

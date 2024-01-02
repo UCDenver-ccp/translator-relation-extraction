@@ -63,19 +63,23 @@ R2	treats Arg1:T10 Arg2:T11
 T61	corrected_chemical 298 320	5-aminosalicyclic acid
 R3	treats Arg1:T61 Arg2:T11	
 T62	missed_chemical 23 31	selenite
-T63	missed_disease_or_phenotypic_feature 40 56	oxidative stress
-R4	causes_or_contributes_to Arg1:T62 Arg2:T63	
 R5	treats Arg1:T1 Arg2:T3	
-T64	corrected_disease_or_phenotypic_feature 23 56	selenite-induced oxidative stress
-R6	treats Arg1:T1 Arg2:T64	
 T65	missed_disease_or_phenotypic_feature 566 576	stereotypy
 R7	causes_or_contributes_to Arg1:T15 Arg2:T65	
 T66	corrected_chemical 1121 1140	interleukin-4 toxin
 R8	treats Arg1:T66 Arg2:T27	
 T67	corrected_chemical 1276 1297	Amphetamine phosphate
-R9	treats Arg1:T67 Arg2:T36	
-R10	treats Arg1:T21 Arg2:T24	
 R11	causes_or_contributes_to Arg1:T37 Arg2:T38	
-R12	causes_or_contributes_to Arg1:T21 Arg2:T22	
 T68	missed_disease_or_phenotypic_feature 860 863	PCa
-R13	causes_or_contributes_to Arg1:T21 Arg2:T68	
+R4	causes_or_contributes_to Arg1:T62 Arg2:T3	
+T63	missed_chemical 991 1001	Tacrolimus
+R6	causes_or_contributes_to Arg1:T25 Arg2:T26	
+R10	causes_or_contributes_to Arg1:T63 Arg2:T26	
+T64	corrected_chemical 796 824	Androgen deprivation therapy
+R12	treats Arg1:T64 Arg2:T22	
+R13	treats Arg1:T64 Arg2:T68	
+T69	missed_chemical 826 829	ADT
+R14	treats Arg1:T69 Arg2:T22	
+R15	treats Arg1:T69 Arg2:T68	
+R16	causes_or_contributes_to Arg1:T69 Arg2:T24	
+R17	causes_or_contributes_to Arg1:T64 Arg2:T24	

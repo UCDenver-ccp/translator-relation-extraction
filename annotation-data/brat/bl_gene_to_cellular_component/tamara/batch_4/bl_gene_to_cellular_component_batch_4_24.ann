@@ -90,3 +90,55 @@ T89	gene 3136 3141	Bcl-2
 T90	gene 3148 3157	Caspase-3
 T91	gene 3167 3176	Caspase-3
 T92	gene 3178 3190	Cytochrome c
+T93	missed_gene 18 21	DR6
+R1	located_in Arg1:T1 Arg2:T3	
+R2	located_in Arg1:T93 Arg2:T3	
+R3	located_in Arg1:T39 Arg2:T40	
+T94	missed_gene 1183 1186	TYR
+R4	located_in Arg1:T94 Arg2:T40	
+R5	located_in Arg1:T94 Arg2:T38	
+#1	AnnotatorNotes R5	Okay?
+R6	located_in Arg1:T39 Arg2:T38	
+#2	AnnotatorNotes R6	Okay?
+T95	missed_gene 1733 1744	vitronectin
+T96	missed_gene 1746 1748	VN
+R7	located_in Arg1:T95 Arg2:T54	
+R8	located_in Arg1:T96 Arg2:T54	
+R9	located_in Arg1:T73 Arg2:T74	
+R10	located_in Arg1:T75 Arg2:T74	
+T97	missed_gene 2680 2683	Dpp
+R11	located_in Arg1:T97 Arg2:T74	
+R12	located_in Arg1:T76 Arg2:T74	
+T98	missed_gene 2697 2700	Chd
+R13	located_in Arg1:T98 Arg2:T74	
+T99	missed_gene 2702 2720	Short gastrulation
+T100	missed_gene 2722 2725	Sog
+R14	located_in Arg1:T99 Arg2:T74	
+R15	located_in Arg1:T100 Arg2:T74	
+T101	missed_gene 2535 2555	Twisted gastrulation
+T102	missed_gene 2557 2560	Tsg
+R16	located_in Arg1:T102 Arg2:T74	
+R17	located_in Arg1:T101 Arg2:T74	
+R18	located_in Arg1:T82 Arg2:T81	
+R19	located_in Arg1:T83 Arg2:T87	
+R20	located_in Arg1:T84 Arg2:T87	
+R21	located_in Arg1:T85 Arg2:T87	
+R22	located_in Arg1:T86 Arg2:T87	
+R23	located_in Arg1:T89 Arg2:T88	
+T103	missed_gene 3143 3146	BAX
+R24	located_in Arg1:T103 Arg2:T88	
+R25	located_in Arg1:T90 Arg2:T88	
+T104	corrected_gene 3159 3176	Cleaved Caspase-3
+R26	located_in Arg1:T104 Arg2:T88	
+R27	located_in Arg1:T92 Arg2:T88	
+T105	missed_gene 1012 1023	syntaxin 13
+R28	located_in Arg1:T105 Arg2:T37	
+R29	located_in Arg1:T35 Arg2:T37	
+R30	located_in Arg1:T36 Arg2:T37	
+T106	corrected_cellular_component 1616 1639	intracellular membranes
+T107	missed_gene 1677 1680	Ras
+T108	missed_gene 1689 1693	RhoA
+R31	located_in Arg1:T107 Arg2:T106	
+R32	located_in Arg1:T51 Arg2:T106	
+R33	located_in Arg1:T108 Arg2:T106	
+R34	located_in Arg1:T52 Arg2:T106	

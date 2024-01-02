@@ -3,7 +3,7 @@ T2	chemical 41 45	lead
 T3	disease_or_phenotypic_feature 151 156	Blood
 T4	chemical 240 253	enzyme-linked
 T5	chemical 335 343	allergen
-T6	corrected_disease_or_phenotypic_feature 373 398	Th2 allergic inflammation
+T6	corrected_disease_or_phenotypic_feature 377 398	allergic inflammation
 T7	disease_or_phenotypic_feature 377 385	allergic
 T8	chemical 461 468	Protein
 T9	disease_or_phenotypic_feature 528 532	CDH3
@@ -77,3 +77,8 @@ R11	treats Arg1:T20 Arg2:T43
 R12	treats Arg1:T20 Arg2:T44	
 R13	treats Arg1:T20 Arg2:T45	
 R14	treats Arg1:T20 Arg2:T46	
+T67	corrected_chemical 1539 1556	miR-195 inhibitor
+R2	causes_or_contributes_to Arg1:T67 Arg2:T22	
+T68	corrected_chemical 1347 1359	immunization
+R15	treats Arg1:T68 Arg2:T19	
+T69	missed_disease_or_phenotypic_feature 1480 1483	CHB

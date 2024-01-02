@@ -81,3 +81,46 @@ T80	gene 2315 2322	Insulin
 T81	gene 2388 2395	insulin
 T82	anatomical_site 2410 2415	serum
 T83	gene 2416 2427	adiponectin
+T84	missed_gene 32 36	cprk
+R1	located_in Arg1:T84 Arg2:T3	
+R2	located_in Arg1:T4 Arg2:T6	
+R3	located_in Arg1:T4 Arg2:T7	
+R4	located_in Arg1:T5 Arg2:T6	
+R5	located_in Arg1:T5 Arg2:T7	
+R6	located_in Arg1:T12 Arg2:T13	
+R7	located_in Arg1:T21 Arg2:T20	
+R8	located_in Arg1:T22 Arg2:T20	
+R9	located_in Arg1:T24 Arg2:T26	
+R10	located_in Arg1:T25 Arg2:T26	
+R11	located_in Arg1:T30 Arg2:T29	
+R12	located_in Arg1:T31 Arg2:T29	
+R13	located_in Arg1:T38 Arg2:T37	
+T85	missed_gene 1095 1115	neuropeptide galanin
+T86	missed_gene 1095 1115;1130 1139	neuropeptide galanin receptors
+T87	missed_gene 1117 1120	Gal
+T88	missed_gene 1117 1120;1130 1139	Gal receptors
+R14	located_in Arg1:T85 Arg2:T42	
+R15	located_in Arg1:T86 Arg2:T42	
+R16	located_in Arg1:T87 Arg2:T42	
+R17	located_in Arg1:T88 Arg2:T42	
+R18	located_in Arg1:T39 Arg2:T42	
+R19	located_in Arg1:T40 Arg2:T42	
+R20	located_in Arg1:T41 Arg2:T42	
+T89	missed_anatomical_site 1200 1209	endocrine
+T90	corrected_gene 1210 1225	cytokine leptin
+R21	located_in Arg1:T90 Arg2:T89	
+R22	located_in Arg1:T90 Arg2:T44	
+T91	missed_anatomical_site 1273 1279	plasma
+R23	located_in Arg1:T45 Arg2:T91	
+T92	corrected_anatomical_site 1476 1480;1516 1520	skin hair
+R24	located_in Arg1:T51 Arg2:T92	
+R37	located_in Arg1:T69 Arg2:T68	
+T99	corrected_anatomical_site 2155 2181	retroplacental blood serum
+T100	missed_gene 2051 2080	Pregnancy-dependent protein A
+T101	corrected_gene 2082 2102	alpha 2-glycoprotein
+R38	located_in Arg1:T100 Arg2:T99	
+R39	located_in Arg1:T101 Arg2:T99	
+R40	located_in Arg1:T74 Arg2:T99	
+R41	located_in Arg1:T79 Arg2:T77	
+R42	located_in Arg1:T79 Arg2:T78	
+R43	located_in Arg1:T83 Arg2:T82	

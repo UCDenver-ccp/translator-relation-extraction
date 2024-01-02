@@ -112,3 +112,95 @@ T111	gene 2926 2935	TNF-alpha
 T112	gene 2946 2951	IGF-I
 T113	anatomical_site 2963 2968	liver
 T114	anatomical_site 2970 2990	gastrocnemius muscle
+R1	located_in Arg1:T2 Arg2:T3	
+R2	located_in Arg1:T4 Arg2:T5	
+T115	missed_gene 4 34	sarcoplasmic reticulum Ca pump
+R3	located_in Arg1:T115 Arg2:T3	
+R4	located_in Arg1:T115 Arg2:T5	
+R5	located_in Arg1:T1 Arg2:T3	
+R6	located_in Arg1:T1 Arg2:T5	
+T116	corrected_anatomical_site 195 215	umbilical cord serum
+R7	located_in Arg1:T6 Arg2:T116	
+R8	located_in Arg1:T9 Arg2:T15	
+R9	located_in Arg1:T10 Arg2:T15	
+R10	located_in Arg1:T11 Arg2:T15	
+R11	located_in Arg1:T12 Arg2:T15	
+R12	located_in Arg1:T13 Arg2:T15	
+R13	located_in Arg1:T14 Arg2:T15	
+T117	missed_gene 233 244	LD proteins
+R14	located_in Arg1:T117 Arg2:T15	
+T118	corrected_anatomical_site 370 386	developing brain
+R15	located_in Arg1:T16 Arg2:T118	
+R16	located_in Arg1:T17 Arg2:T118	
+T120	corrected_anatomical_site 510 530	embryonic hind brain
+R17	located_in Arg1:T22 Arg2:T120	
+T119	corrected_anatomical_site 510 519;535 546	embryonic spinal cord
+R18	located_in Arg1:T22 Arg2:T119	
+T121	corrected_anatomical_site 554 579	postnatal cerebral cortex
+R19	located_in Arg1:T22 Arg2:T121	
+R20	located_in Arg1:T26 Arg2:T27	
+R21	located_in Arg1:T30 Arg2:T29	
+T122	missed_anatomical_site 905 909	nail
+R22	located_in Arg1:T35 Arg2:T36	
+R23	located_in Arg1:T35 Arg2:T37	
+R24	located_in Arg1:T35 Arg2:T122	
+R25	located_in Arg1:T35 Arg2:T38	
+R26	located_in Arg1:T55 Arg2:T56	
+T123	corrected_anatomical_site 1505 1531	outflow tract of the heart
+R27	located_in Arg1:T55 Arg2:T123	
+R28	located_in Arg1:T59 Arg2:T62	
+R29	located_in Arg1:T59 Arg2:T63	
+R30	located_in Arg1:T59 Arg2:T64	
+T124	corrected_gene 1585 1591	Cav2.1
+T125	corrected_gene 1596 1602	Cav2.2
+R31	located_in Arg1:T124 Arg2:T62	
+R32	located_in Arg1:T124 Arg2:T63	
+R33	located_in Arg1:T124 Arg2:T64	
+R34	located_in Arg1:T125 Arg2:T62	
+R35	located_in Arg1:T125 Arg2:T63	
+R36	located_in Arg1:T125 Arg2:T64	
+T126	missed_gene 1721 1745;1752 1753	bone morphogenic protein 4
+T127	corrected_gene 1747 1750;1752 1753	Bmp 4
+T128	corrected_anatomical_site 1786 1816	rostral dorsal neuroepithelium
+T129	corrected_gene 1843 1857	sonic hedgehog
+R37	located_in Arg1:T126 Arg2:T67	
+R38	located_in Arg1:T127 Arg2:T67	
+T130	corrected_anatomical_site 1882 1899	ventral forebrain
+R39	located_in Arg1:T126 Arg2:T128	
+R40	located_in Arg1:T127 Arg2:T128	
+R41	located_in Arg1:T129 Arg2:T130	
+R42	located_in Arg1:T71 Arg2:T130	
+R43	located_in Arg1:T73 Arg2:T74	
+R44	located_in Arg1:T76 Arg2:T75	
+R45	located_in Arg1:T77 Arg2:T75	
+R46	located_in Arg1:T78 Arg2:T75	
+R47	located_in Arg1:T79 Arg2:T75	
+R48	located_in Arg1:T80 Arg2:T75	
+R49	located_in Arg1:T81 Arg2:T75	
+T131	missed_gene 1993 2009;2017 2025	tripartite motif proteins
+T132	missed_gene 2011 2015;2017 2025	TRIM proteins
+R50	located_in Arg1:T131 Arg2:T75	
+R51	located_in Arg1:T132 Arg2:T75	
+T133	corrected_gene 2182 2211	bone morphogenetic protein II
+R52	located_in Arg1:T133 Arg2:T84	
+R53	located_in Arg1:T86 Arg2:T87	
+T134	corrected_anatomical_site 2319 2330	lung tissue
+R54	located_in Arg1:T88 Arg2:T134	
+R55	located_in Arg1:T89 Arg2:T134	
+R56	located_in Arg1:T93 Arg2:T92	
+R57	located_in Arg1:T94 Arg2:T95	
+T135	missed_anatomical_site 2450 2453	BAT
+R58	located_in Arg1:T94 Arg2:T135	
+R59	located_in Arg1:T96 Arg2:T98	
+R60	located_in Arg1:T96 Arg2:T99	
+R61	located_in Arg1:T97 Arg2:T98	
+R62	located_in Arg1:T97 Arg2:T99	
+R63	located_in Arg1:T100 Arg2:T101	
+R64	located_in Arg1:T100 Arg2:T102	
+R65	located_in Arg1:T103 Arg2:T104	
+R66	located_in Arg1:T108 Arg2:T107	
+R67	located_in Arg1:T110 Arg2:T107	
+T136	missed_anatomical_site 2996 3005	pituitary
+R68	located_in Arg1:T112 Arg2:T113	
+R69	located_in Arg1:T112 Arg2:T114	
+R70	located_in Arg1:T112 Arg2:T136	

@@ -90,3 +90,49 @@ T89	gene 2706 2711	MMP-7
 T90	gene 2716 2721	IL-15
 T91	anatomical_site 2742 2758	cartilage tissue
 T92	anatomical_site 2763 2768	serum
+R1	located_in Arg1:T6 Arg2:T8	
+R2	located_in Arg1:T7 Arg2:T8	
+R3	located_in Arg1:T9 Arg2:T10	
+T93	corrected_anatomical_site 909 917;933 935;945 950	cerebrum of brain
+T94	corrected_anatomical_site 922 935;945 950	cerebellum of brain
+R4	located_in Arg1:T32 Arg2:T93	
+R5	located_in Arg1:T32 Arg2:T94	
+R6	located_in Arg1:T36 Arg2:T38	
+R7	located_in Arg1:T37 Arg2:T38	
+R8	located_in Arg1:T36 Arg2:T39	
+R9	located_in Arg1:T37 Arg2:T39	
+T95	corrected_anatomical_site 1530 1546	brain parenchyma
+T96	missed_gene 1510 1512	Aβ
+R10	located_in Arg1:T96 Arg2:T95	
+R11	located_in Arg1:T56 Arg2:T58	
+R12	located_in Arg1:T57 Arg2:T58	
+T97	missed_gene 1680 1720	glucose response element binding protein
+R13	located_in Arg1:T97 Arg2:T58	
+T98	corrected_anatomical_site 1840 1854	mammary tissue
+R14	located_in Arg1:T59 Arg2:T98	
+R15	located_in Arg1:T60 Arg2:T98	
+R16	located_in Arg1:T59 Arg2:T62	
+R17	located_in Arg1:T60 Arg2:T62	
+R18	located_in Arg1:T59 Arg2:T63	
+R19	located_in Arg1:T60 Arg2:T63	
+R20	located_in Arg1:T59 Arg2:T64	
+R21	located_in Arg1:T60 Arg2:T64	
+R22	located_in Arg1:T72 Arg2:T71	
+R23	located_in Arg1:T73 Arg2:T71	
+T99	missed_anatomical_site 2106 2111	brain
+R24	located_in Arg1:T72 Arg2:T99	
+R25	located_in Arg1:T73 Arg2:T99	
+R26	located_in Arg1:T82 Arg2:T83	
+T100	corrected_gene 2520 2533	trypsinogen-2
+R27	located_in Arg1:T100 Arg2:T84	
+T101	missed_anatomical_site 1555 1566	circulation
+R28	located_in Arg1:T96 Arg2:T101	
+R29	located_in Arg1:T80 Arg2:T83	
+R30	located_in Arg1:T81 Arg2:T83	
+T102	corrected_gene 2554 2584	trypsinogen activation peptide
+T103	missed_anatomical_site 2546 2553	urinary
+R31	located_in Arg1:T102 Arg2:T103	
+T104	corrected_gene 2608 2648	activation peptide of carboxypeptidase B
+T105	missed_anatomical_site 2600 2607	urinary
+R32	located_in Arg1:T104 Arg2:T87	
+R33	located_in Arg1:T104 Arg2:T105	

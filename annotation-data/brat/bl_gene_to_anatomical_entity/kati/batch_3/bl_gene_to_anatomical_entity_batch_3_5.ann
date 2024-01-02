@@ -79,3 +79,61 @@ T78	gene 2580 2587	insulin
 T79	gene 2610 2615	GLUT4
 T80	anatomical_site 2640 2646	muscle
 T81	anatomical_site 2651 2654	fat
+R1	located_in Arg1:T3 Arg2:T2	
+T82	missed_gene 408 413	MMP-9
+R2	located_in Arg1:T82 Arg2:T15	
+R3	located_in Arg1:T82 Arg2:T16	
+R4	located_in Arg1:T82 Arg2:T17	
+R5	located_in Arg1:T13 Arg2:T15	
+R6	located_in Arg1:T13 Arg2:T16	
+R7	located_in Arg1:T13 Arg2:T17	
+R8	located_in Arg1:T14 Arg2:T15	
+R9	located_in Arg1:T14 Arg2:T16	
+R10	located_in Arg1:T14 Arg2:T17	
+T83	corrected_anatomical_site 621 634;651 656	epicardium of heart
+R11	located_in Arg1:T18 Arg2:T19	
+R12	located_in Arg1:T18 Arg2:T83	
+R13	located_in Arg1:T20 Arg2:T21	
+T84	corrected_gene 668 689	plasminogen activator
+T85	corrected_gene 703 724	plasminogen activator
+R14	located_in Arg1:T84 Arg2:T24	
+R15	located_in Arg1:T85 Arg2:T24	
+T86	missed_gene 920 930	PKCepsilon
+T87	missed_anatomical_site 859 869	myocardial
+R16	located_in Arg1:T26 Arg2:T87	
+R17	located_in Arg1:T27 Arg2:T87	
+R18	located_in Arg1:T86 Arg2:T87	
+R19	located_in Arg1:T35 Arg2:T37	
+R20	located_in Arg1:T36 Arg2:T37	
+T88	missed_gene 1210 1236	bone morphogenetic protein
+R21	located_in Arg1:T88 Arg2:T37	
+R22	located_in Arg1:T40 Arg2:T38	
+T89	corrected_anatomical_site 1334 1346	renal tissue
+R23	located_in Arg1:T40 Arg2:T89	
+R24	located_in Arg1:T41 Arg2:T38	
+R25	located_in Arg1:T41 Arg2:T89	
+T90	corrected_anatomical_site 1593 1597;1613 1618	skin nerve
+R26	located_in Arg1:T44 Arg2:T90	
+R27	located_in Arg1:T45 Arg2:T90	
+R28	located_in Arg1:T44 Arg2:T47	
+R29	located_in Arg1:T45 Arg2:T47	
+R32	located_in Arg1:T51 Arg2:T53	
+R33	located_in Arg1:T52 Arg2:T53	
+R34	located_in Arg1:T51 Arg2:T54	
+R35	located_in Arg1:T52 Arg2:T54	
+R36	located_in Arg1:T66 Arg2:T70	
+R37	located_in Arg1:T67 Arg2:T70	
+R38	located_in Arg1:T66 Arg2:T71	
+R39	located_in Arg1:T67 Arg2:T71	
+T91	missed_gene 2242 2268	bone morphogenetic protein
+R40	located_in Arg1:T91 Arg2:T68	
+T92	missed_gene 2444 2450	Vaspin
+T93	corrected_gene 2452 2490	visceral adipose tissue-derived serpin
+T94	corrected_anatomical_site 2452 2475	visceral adipose tissue
+R42	located_in Arg1:T93 Arg2:T94	
+R43	located_in Arg1:T92 Arg2:T94	
+R44	located_in Arg1:T92 Arg2:T77	
+R45	located_in Arg1:T93 Arg2:T77	
+T95	corrected_gene 2610 2636	GLUT4 glucose transporters
+R46	located_in Arg1:T95 Arg2:T80	
+R47	located_in Arg1:T95 Arg2:T81	

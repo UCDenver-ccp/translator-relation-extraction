@@ -53,8 +53,6 @@ T53	disease_or_phenotypic_feature 3209 3218	condition
 T54	chemical 3312 3318	Arg-II
 R1	treats Arg1:T36 Arg2:T39
 R2	treats Arg1:T38 Arg2:T39
-R3	treats Arg1:T49 Arg2:T50
-R4	treats Arg1:T48 Arg2:T50
 R5	causes_or_contributes_to Arg1:T52 Arg2:T50
 R7	treats Arg1:T5 Arg2:T3
 T55	corrected_chemical 13 24	Silicon Oil
@@ -63,3 +61,5 @@ T56	missed_chemical 3105 3107	AK
 R9	causes_or_contributes_to Arg1:T56 Arg2:T50	
 T4	missed_disease_or_phenotypic_feature 140 144	T2DM
 R6	treats Arg1:T5 Arg2:T4	
+T57	corrected_chemical 1687 1713	pharmacological treatments
+R10	treats Arg1:T57 Arg2:T28	

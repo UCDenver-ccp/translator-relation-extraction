@@ -113,3 +113,66 @@ T112	gene 2919 2953	monocyte chemoattractant protein-1
 T113	gene 2955 2960	MCP-1
 T114	anatomical_site 2983 2988	serum
 T115	gene 2989 3000	adiponectin
+R1	located_in Arg1:T1 Arg2:T4	
+R2	located_in Arg1:T2 Arg2:T4	
+R3	located_in Arg1:T3 Arg2:T4	
+T116	corrected_anatomical_site 106 118	embryo brain
+R4	located_in Arg1:T5 Arg2:T116	
+T118	corrected_anatomical_site 338 347	IA tissue
+R7	located_in Arg1:T16 Arg2:T118	
+T119	corrected_anatomical_site 356 378	cerebral artery tissue
+R8	located_in Arg1:T16 Arg2:T119	
+R9	located_in Arg1:T20 Arg2:T22	
+R10	located_in Arg1:T20 Arg2:T23	
+T120	corrected_anatomical_site 495 506	distal lung
+R11	located_in Arg1:T20 Arg2:T120	
+R12	located_in Arg1:T21 Arg2:T22	
+R13	located_in Arg1:T21 Arg2:T23	
+R14	located_in Arg1:T21 Arg2:T120	
+T121	corrected_anatomical_site 835 847	liver tissue
+R15	located_in Arg1:T35 Arg2:T121	
+R16	located_in Arg1:T50 Arg2:T49	
+R17	located_in Arg1:T51 Arg2:T49	
+T122	corrected_anatomical_site 1316 1328	liver tissue
+R18	located_in Arg1:T52 Arg2:T122	
+R19	located_in Arg1:T53 Arg2:T122	
+R20	located_in Arg1:T56 Arg2:T58	
+R21	located_in Arg1:T56 Arg2:T59	
+T123	missed_gene 1400 1402	IR
+R22	located_in Arg1:T123 Arg2:T58	
+R23	located_in Arg1:T123 Arg2:T59	
+R24	located_in Arg1:T57 Arg2:T58	
+R25	located_in Arg1:T57 Arg2:T59	
+R26	located_in Arg1:T60 Arg2:T62	
+T124	missed_gene 1493 1515	adiponectin receptor 2
+R27	located_in Arg1:T124 Arg2:T62	
+R32	located_in Arg1:T70 Arg2:T72	
+R33	located_in Arg1:T70 Arg2:T69	
+T128	corrected_anatomical_site 1827 1841	mature somites
+R34	located_in Arg1:T73 Arg2:T128	
+T129	missed_anatomical_site 1992 2000	cortical
+R35	located_in Arg1:T78 Arg2:T76	
+R36	located_in Arg1:T78 Arg2:T77	
+R37	located_in Arg1:T78 Arg2:T129	
+R38	located_in Arg1:T80 Arg2:T129	
+R39	located_in Arg1:T80 Arg2:T76	
+R40	located_in Arg1:T80 Arg2:T77	
+T131	corrected_anatomical_site 2226 2250	innervated soleus muscle
+R42	located_in Arg1:T85 Arg2:T131	
+T132	missed_anatomical_site 2394 2399	brain
+R43	located_in Arg1:T92 Arg2:T132	
+R44	located_in Arg1:T93 Arg2:T132	
+R45	located_in Arg1:T92 Arg2:T94	
+R46	located_in Arg1:T93 Arg2:T94	
+T133	missed_anatomical_site 2473 2481	cortical
+R47	located_in Arg1:T95 Arg2:T133	
+R48	located_in Arg1:T96 Arg2:T97	
+R49	located_in Arg1:T96 Arg2:T98	
+T134	missed_anatomical_site 2693 2713	anterior mesendoderm
+R52	located_in Arg1:T108 Arg2:T107	
+R53	located_in Arg1:T109 Arg2:T107	
+R54	located_in Arg1:T110 Arg2:T107	
+R55	located_in Arg1:T111 Arg2:T107	
+R56	located_in Arg1:T112 Arg2:T107	
+R57	located_in Arg1:T113 Arg2:T107	
+R58	located_in Arg1:T115 Arg2:T114	

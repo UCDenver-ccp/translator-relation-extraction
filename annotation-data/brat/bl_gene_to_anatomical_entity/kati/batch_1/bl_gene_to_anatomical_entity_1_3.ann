@@ -124,3 +124,79 @@ T123	gene 3004 3009	IL-10
 T124	anatomical_site 3062 3072	epithelium
 T125	anatomical_site 3077 3083	stroma
 T126	anatomical_site 3153 3159	tissue
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T1 Arg2:T3	
+R3	located_in Arg1:T1 Arg2:T4	
+R4	located_in Arg1:T5 Arg2:T6	
+R5	located_in Arg1:T14 Arg2:T13	
+R6	located_in Arg1:T15 Arg2:T16	
+R7	located_in Arg1:T15 Arg2:T17	
+R8	located_in Arg1:T15 Arg2:T18	
+T127	missed_gene 466 470	Ly6G
+R9	located_in Arg1:T127 Arg2:T19	
+T128	missed_gene 473 478	CD11b
+R10	located_in Arg1:T128 Arg2:T19	
+R11	located_in Arg1:T21 Arg2:T20	
+R12	located_in Arg1:T25 Arg2:T27	
+R13	located_in Arg1:T26 Arg2:T27	
+R14	located_in Arg1:T28 Arg2:T30	
+R15	located_in Arg1:T29 Arg2:T30	
+T129	corrected_anatomical_site 823 834	lung tissue
+R16	located_in Arg1:T33 Arg2:T129	
+R17	located_in Arg1:T34 Arg2:T129	
+R18	located_in Arg1:T37 Arg2:T39	
+R19	located_in Arg1:T55 Arg2:T56	
+R21	located_in Arg1:T59 Arg2:T58	
+T130	corrected_gene 1625 1630	TNF-?
+T131	missed_gene 1632 1637	IL-1?
+R20	located_in Arg1:T130 Arg2:T62	
+R22	located_in Arg1:T131 Arg2:T62	
+R23	located_in Arg1:T64 Arg2:T62	
+R24	located_in Arg1:T75 Arg2:T74	
+T132	corrected_gene 1861 1877	III Beta-Tubulin
+T133	missed_gene 1879 1883	TuJ1
+R25	located_in Arg1:T133 Arg2:T74	
+R26	located_in Arg1:T77 Arg2:T74	
+R27	located_in Arg1:T78 Arg2:T74	
+T134	corrected_anatomical_site 1783 1806	parenchyma of the brain
+R28	located_in Arg1:T75 Arg2:T134	
+R29	located_in Arg1:T132 Arg2:T134	
+R30	located_in Arg1:T133 Arg2:T134	
+R31	located_in Arg1:T77 Arg2:T134	
+R32	located_in Arg1:T78 Arg2:T134	
+R33	located_in Arg1:T75 Arg2:T142	
+R34	located_in Arg1:T132 Arg2:T142	
+R35	located_in Arg1:T133 Arg2:T142	
+R36	located_in Arg1:T77 Arg2:T142	
+R37	located_in Arg1:T78 Arg2:T142	
+R48	located_in Arg1:T86 Arg2:T85	
+T136	missed_anatomical_site 2128 2141	ureteric buds
+R49	located_in Arg1:T86 Arg2:T136	
+R50	located_in Arg1:T86 Arg2:T87	
+R51	located_in Arg1:T86 Arg2:T88	
+T137	corrected_anatomical_site 2397 2408	skin tissue
+R52	located_in Arg1:T93 Arg2:T137	
+R53	located_in Arg1:T94 Arg2:T137	
+R54	located_in Arg1:T95 Arg2:T137	
+R55	located_in Arg1:T104 Arg2:T106	
+R56	located_in Arg1:T105 Arg2:T106	
+R57	located_in Arg1:T107 Arg2:T108	
+R58	located_in Arg1:T112 Arg2:T113	
+T138	corrected_anatomical_site 3062 3072;3091 3096	epithelium renal
+T139	corrected_anatomical_site 3077 3083;3091 3096	stroma renal
+T140	missed_gene 3014 3020	HSP-90
+R59	located_in Arg1:T122 Arg2:T138	
+R60	located_in Arg1:T122 Arg2:T139	
+R61	located_in Arg1:T122 Arg2:T126	
+R62	located_in Arg1:T123 Arg2:T138	
+R63	located_in Arg1:T123 Arg2:T139	
+R64	located_in Arg1:T123 Arg2:T126	
+R65	located_in Arg1:T140 Arg2:T138	
+R66	located_in Arg1:T140 Arg2:T139	
+R67	located_in Arg1:T140 Arg2:T126	
+T141	corrected_anatomical_site 919 930	lung tissue
+R68	located_in Arg1:T33 Arg2:T141	
+R69	located_in Arg1:T34 Arg2:T141	
+R70	located_in Arg1:T55 Arg2:T57	
+T142	corrected_anatomical_site 1783 1800;1811 1822	parenchyma of the spinal cord
+R71	located_in Arg1:T132 Arg2:T74	

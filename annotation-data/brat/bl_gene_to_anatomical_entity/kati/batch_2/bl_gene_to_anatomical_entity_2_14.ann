@@ -121,3 +121,120 @@ T120	gene 2904 2912	APOBEC3F
 T121	gene 2917 2925	APOBEC3G
 T122	anatomical_site 2981 2987	retina
 T123	anatomical_site 2988 2994	tissue
+R1	located_in Arg1:T2 Arg2:T1	
+R2	located_in Arg1:T3 Arg2:T4	
+T124	missed_anatomical_site 213 216	EDL
+T125	corrected_gene 187 194	RCAN1-4
+R3	located_in Arg1:T125 Arg2:T124	
+R4	located_in Arg1:T125 Arg2:T10	
+R5	located_in Arg1:T125 Arg2:T11	
+T126	corrected_anatomical_site 331 343	renal tissue
+R6	located_in Arg1:T12 Arg2:T13	
+R7	located_in Arg1:T12 Arg2:T126	
+T127	corrected_anatomical_site 852 867	brain capillary
+R8	located_in Arg1:T32 Arg2:T127	
+T128	missed_anatomical_site 1209 1216	tissues
+R9	located_in Arg1:T34 Arg2:T33	
+R10	located_in Arg1:T35 Arg2:T33	
+R11	located_in Arg1:T34 Arg2:T36	
+R12	located_in Arg1:T35 Arg2:T36	
+R13	located_in Arg1:T34 Arg2:T37	
+R14	located_in Arg1:T35 Arg2:T37	
+R15	located_in Arg1:T38 Arg2:T33	
+R16	located_in Arg1:T38 Arg2:T39	
+T129	missed_gene 1057 1069	parathormone
+T130	missed_gene 1077 1091	chromogranin A
+T131	missed_gene 1093 1096	P75
+T132	missed_gene 1097 1100	NTR
+T133	missed_gene 1107 1111	S100
+R17	located_in Arg1:T129 Arg2:T33	
+R18	located_in Arg1:T129 Arg2:T41	
+R19	located_in Arg1:T40 Arg2:T33	
+R20	located_in Arg1:T40 Arg2:T41	
+R21	located_in Arg1:T130 Arg2:T41	
+R22	located_in Arg1:T130 Arg2:T33	
+R23	located_in Arg1:T131 Arg2:T33	
+R24	located_in Arg1:T131 Arg2:T41	
+R25	located_in Arg1:T132 Arg2:T33	
+R26	located_in Arg1:T132 Arg2:T41	
+R27	located_in Arg1:T133 Arg2:T33	
+R28	located_in Arg1:T133 Arg2:T41	
+R29	located_in Arg1:T42 Arg2:T33	
+R30	located_in Arg1:T42 Arg2:T43	
+R31	located_in Arg1:T34 Arg2:T128	
+R32	located_in Arg1:T35 Arg2:T128	
+R33	located_in Arg1:T38 Arg2:T128	
+R34	located_in Arg1:T129 Arg2:T128	
+R35	located_in Arg1:T40 Arg2:T128	
+R36	located_in Arg1:T130 Arg2:T128	
+R37	located_in Arg1:T131 Arg2:T128	
+R38	located_in Arg1:T132 Arg2:T128	
+R39	located_in Arg1:T133 Arg2:T128	
+R40	located_in Arg1:T42 Arg2:T128	
+T134	missed_gene 1418 1422	Bf-1
+R41	located_in Arg1:T134 Arg2:T49	
+R42	located_in Arg1:T50 Arg2:T49	
+T135	corrected_gene 1431 1437	Pgc-1?
+R43	located_in Arg1:T135 Arg2:T49	
+R44	located_in Arg1:T52 Arg2:T49	
+R45	located_in Arg1:T54 Arg2:T53	
+R46	located_in Arg1:T55 Arg2:T53	
+T136	corrected_anatomical_site 1499 1519	developing forebrain
+R47	located_in Arg1:T134 Arg2:T136	
+R48	located_in Arg1:T50 Arg2:T136	
+R49	located_in Arg1:T135 Arg2:T136	
+R50	located_in Arg1:T52 Arg2:T136	
+R51	located_in Arg1:T54 Arg2:T136	
+R52	located_in Arg1:T55 Arg2:T136	
+R53	located_in Arg1:T57 Arg2:T67	
+R54	located_in Arg1:T58 Arg2:T67	
+R55	located_in Arg1:T59 Arg2:T67	
+R56	located_in Arg1:T60 Arg2:T67	
+R57	located_in Arg1:T61 Arg2:T67	
+R58	located_in Arg1:T62 Arg2:T67	
+R59	located_in Arg1:T63 Arg2:T67	
+R60	located_in Arg1:T64 Arg2:T67	
+R61	located_in Arg1:T65 Arg2:T67	
+R62	located_in Arg1:T66 Arg2:T67	
+R63	located_in Arg1:T69 Arg2:T68	
+T137	corrected_anatomical_site 1824 1841	lung microvessels
+R64	located_in Arg1:T74 Arg2:T137	
+T138	corrected_anatomical_site 1862 1875	breast tissue
+R65	located_in Arg1:T78 Arg2:T138	
+R66	located_in Arg1:T79 Arg2:T138	
+R67	located_in Arg1:T82 Arg2:T83	
+R68	located_in Arg1:T82 Arg2:T84	
+T139	missed_anatomical_site 2059 2077	external genitalia
+R69	located_in Arg1:T82 Arg2:T139	
+R70	located_in Arg1:T82 Arg2:T85	
+R71	located_in Arg1:T82 Arg2:T86	
+T140	corrected_anatomical_site 2117 2137	craniofacial regions
+R72	located_in Arg1:T82 Arg2:T140	
+T141	missed_anatomical_site 2025 2031	organs
+R73	located_in Arg1:T82 Arg2:T141	
+T142	corrected_anatomical_site 2182 2198	plantaris muscle
+R74	located_in Arg1:T88 Arg2:T142	
+T143	corrected_gene 2211 2217	HIF-1?
+R75	located_in Arg1:T143 Arg2:T92	
+R76	located_in Arg1:T95 Arg2:T94	
+R77	located_in Arg1:T95 Arg2:T96	
+R78	located_in Arg1:T98 Arg2:T97	
+R79	located_in Arg1:T104 Arg2:T106	
+R80	located_in Arg1:T105 Arg2:T106	
+T144	missed_anatomical_site 2483 2485	AG
+R81	located_in Arg1:T99 Arg2:T144	
+R82	located_in Arg1:T100 Arg2:T144	
+R83	located_in Arg1:T101 Arg2:T144	
+R84	located_in Arg1:T99 Arg2:T102	
+R85	located_in Arg1:T100 Arg2:T102	
+R86	located_in Arg1:T101 Arg2:T102	
+R87	located_in Arg1:T99 Arg2:T103	
+R88	located_in Arg1:T100 Arg2:T103	
+R89	located_in Arg1:T101 Arg2:T103	
+R90	located_in Arg1:T114 Arg2:T116	
+R91	located_in Arg1:T115 Arg2:T116	
+T145	corrected_anatomical_site 2850 2876	limbic system of the brain
+R92	located_in Arg1:T117 Arg2:T145	
+T146	corrected_anatomical_site 2981 2994	retina tissue
+R93	located_in Arg1:T120 Arg2:T146	
+R94	located_in Arg1:T121 Arg2:T146	

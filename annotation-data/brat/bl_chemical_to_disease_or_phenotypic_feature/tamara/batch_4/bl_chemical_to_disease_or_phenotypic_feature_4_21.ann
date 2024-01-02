@@ -62,15 +62,13 @@ T61	chemical 2325 2348	HIV protease inhibitors
 T62	disease_or_phenotypic_feature 2353 2360	obesity
 T63	missed_chemical 0 15	Thrombospondins
 R1	treats Arg1:T63 Arg2:T2	
-T64	missed_disease_or_phenotypic_feature 215 222	hypoxia
-R2	treats Arg1:T5 Arg2:T64	
 R3	treats Arg1:T11 Arg2:T13	
 T65	corrected_disease_or_phenotypic_feature 893 914	Hepatic angiosarcomas
 T66	corrected_chemical 970 984	vinyl chloride
 R4	causes_or_contributes_to Arg1:T66 Arg2:T65	
 R5	causes_or_contributes_to Arg1:T24 Arg2:T25	
 T67	missed_chemical 1205 1219	phenothiazines
-R6	treats Arg1:T67 Arg2:T29	
+R6	causes_or_contributes_to Arg1:T67 Arg2:T29	
 T68	missed_chemical 1501 1504	BLM
 R7	treats Arg1:T39 Arg2:T41	
 R8	treats Arg1:T68 Arg2:T41	
@@ -83,3 +81,20 @@ R11	causes_or_contributes_to Arg1:T47 Arg2:T71
 T72	corrected_chemical 2178 2216	tumor necrosis factor alpha inhibitors
 R12	causes_or_contributes_to Arg1:T72 Arg2:T57	
 T73	DONE 2362 2366	DONE
+T64	corrected_chemical 407 423	sodium morrhuate
+R14	treats Arg1:T12 Arg2:T13	
+R15	treats Arg1:T1 Arg2:T2	
+R16	causes_or_contributes_to Arg1:T27 Arg2:T25	
+R17	treats Arg1:T40 Arg2:T41	
+T74	corrected_chemical 1431 1454	vasopressin antagonists
+T75	missed_disease_or_phenotypic_feature 1476 1488	hyponatremia
+R18	treats Arg1:T74 Arg2:T38	
+R19	treats Arg1:T74 Arg2:T75	
+R20	causes_or_contributes_to Arg1:T48 Arg2:T71	
+T76	corrected_chemical 2137 2151	vinyl chloride
+T77	missed_disease_or_phenotypic_feature 2073 2087	hepatic tumors
+R21	causes_or_contributes_to Arg1:T76 Arg2:T77	
+T78	corrected_chemical 1166 1201	hepatic enzyme inducing medications
+R22	causes_or_contributes_to Arg1:T78 Arg2:T25	
+R23	causes_or_contributes_to Arg1:T67 Arg2:T25	
+R24	causes_or_contributes_to Arg1:T78 Arg2:T29	

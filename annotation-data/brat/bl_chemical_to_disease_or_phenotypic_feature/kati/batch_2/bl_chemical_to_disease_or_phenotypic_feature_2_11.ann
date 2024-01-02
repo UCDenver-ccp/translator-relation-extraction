@@ -33,7 +33,6 @@ T33	chemical 1261 1268	biology
 T34	disease_or_phenotypic_feature 1294 1301	obesity
 T35	disease_or_phenotypic_feature 1322 1329	obesity
 T36	disease_or_phenotypic_feature 1331 1349	Tardive dyskinesia
-T37	disease_or_phenotypic_feature 1408 1425	movement disorder
 T38	chemical 1447 1455	dopamine
 T39	chemical 1456 1476	receptor antagonists
 T40	chemical 1503 1517	growth hormone
@@ -68,38 +67,28 @@ T68	corrected_chemical 0 27	Nicotinic cholinergic drugs
 T69	corrected_chemical 52 85	selective nAChR receptor agonists
 T70	missed_disease_or_phenotypic_feature 109 120	dyskinesias
 R1	causes_or_contributes_to Arg1:T4 Arg2:T70	
-T71	missed_disease_or_phenotypic_feature 94 120	L-dopa-induced dyskinesias
-T72	corrected_disease_or_phenotypic_feature 133 173	antipsychotic-induced tardive dyskinesia
-R2	treats Arg1:T68 Arg2:T71	
-R3	treats Arg1:T2 Arg2:T71	
-R4	treats Arg1:T69 Arg2:T71	
+R4	treats Arg1:T69 Arg2:T70	
 T73	missed_chemical 133 146	antipsychotic
 R5	causes_or_contributes_to Arg1:T73 Arg2:T5	
-R6	treats Arg1:T68 Arg2:T72	
-R7	treats Arg1:T2 Arg2:T72	
-R8	treats Arg1:T69 Arg2:T72	
+R6	treats Arg1:T68 Arg2:T5	
 R9	treats Arg1:T68 Arg2:T6	
 R10	treats Arg1:T2 Arg2:T6	
-R11	treats Arg1:T69 Arg2:T6	
 R12	treats Arg1:T68 Arg2:T7	
 R13	treats Arg1:T2 Arg2:T7	
 R14	treats Arg1:T69 Arg2:T7	
 T74	corrected_chemical 232 263	multikinase inhibitor sorafenib
 T75	missed_chemical 265 272	Nexavar
 T76	corrected_disease_or_phenotypic_feature 307 312;332 341	renal carcinoma
-T77	missed_disease_or_phenotypic_feature 354 372	tumor angiogenesis
 R15	treats Arg1:T74 Arg2:T76	
 R16	treats Arg1:T74 Arg2:T10	
-R17	treats Arg1:T74 Arg2:T77	
 R18	treats Arg1:T75 Arg2:T76	
 R19	treats Arg1:T75 Arg2:T10	
-R20	treats Arg1:T75 Arg2:T77	
 T78	corrected_chemical 619 632	BET inhibitor
 R21	treats Arg1:T78 Arg2:T17	
 T26	corrected_chemical 958 978	amphetamine analogue
 R24	treats Arg1:T26 Arg2:T28	
 T79	corrected_chemical 1447 1477	dopamine receptor antagonists.
-T80	corrected_disease_or_phenotypic_feature 1367 1425	irreversible, debilitating, hyperkinetic movement disorder
+T80	disease_or_phenotypic_feature 1408 1425	movement disorder
 R25	causes_or_contributes_to Arg1:T79 Arg2:T36	
 R26	causes_or_contributes_to Arg1:T79 Arg2:T80	
 T81	corrected_disease_or_phenotypic_feature 1823 1864	multiple hamartoma and neoplasia syndrome
@@ -107,7 +96,7 @@ R27	treats Arg1:T49 Arg2:T46
 R28	treats Arg1:T49 Arg2:T81	
 T82	missed_chemical 2140 2154	pre-PLCaPZ NPs
 R29	treats Arg1:T82 Arg2:T52	
-T83	corrected_chemical 2280 2286;2301 2329	statin combined with RAS inhibitors
+T83	corrected_chemical 2315 2329	RAS inhibitors
 T84	missed_chemical 2280 2286	statin
 T85	missed_disease_or_phenotypic_feature 2405 2417	hypertension
 R31	treats Arg1:T84 Arg2:T60	
@@ -120,3 +109,19 @@ T86	chemical 939 951	Fenfluramine
 R23	treats Arg1:T86 Arg2:T28	
 T87	missed_disease_or_phenotypic_feature 2096 2121	reduction of tumor growth
 R22	causes_or_contributes_to Arg1:T82 Arg2:T87	
+R30	treats Arg1:T84 Arg2:T63	
+R32	treats Arg1:T84 Arg2:T62	
+R33	treats Arg1:T84 Arg2:T85	
+R34	treats Arg1:T84 Arg2:T61	
+R2	treats Arg1:T68 Arg2:T70	
+R3	treats Arg1:T2 Arg2:T70	
+R7	treats Arg1:T2 Arg2:T5	
+R8	treats Arg1:T69 Arg2:T6	
+R11	treats Arg1:T69 Arg2:T5	
+T37	missed_disease_or_phenotypic_feature 354 359	tumor
+R17	treats Arg1:T75 Arg2:T37	
+R20	treats Arg1:T74 Arg2:T37	
+T71	missed_disease_or_phenotypic_feature 399 404	tumor
+R40	treats Arg1:T74 Arg2:T71	
+R41	treats Arg1:T75 Arg2:T71	
+R42	treats Arg1:T78 Arg2:T15	

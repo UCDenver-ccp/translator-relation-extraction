@@ -102,3 +102,69 @@ T101	gene 3724 3756	low-density lipoprotein receptor
 T102	gene 3758 3762	LDLR
 T103	cellular_component 3795 3808	intracellular
 T104	cellular_component 3883 3895	cell surface
+R1	located_in Arg1:T20 Arg2:T21	
+T105	missed_cellular_component 1134 1145	microtubule
+R2	located_in Arg1:T33 Arg2:T105	
+T106	missed_gene 1657 1662	MEF2A
+R3	located_in Arg1:T106 Arg2:T42	
+T107	missed_cellular_component 1686 1693	nuclear
+R4	located_in Arg1:T43 Arg2:T107	
+R5	located_in Arg1:T44 Arg2:T107	
+R6	located_in Arg1:T45 Arg2:T107	
+T108	missed_cellular_component 1753 1760	nuclear
+R7	located_in Arg1:T46 Arg2:T108	
+T109	missed_gene 1602 1633	AMP-activated protein kinase α2
+T110	missed_gene 1635 1641	AMPKα2
+R8	located_in Arg1:T109 Arg2:T42	
+#1	AnnotatorNotes R8	Okay?
+R9	located_in Arg1:T110 Arg2:T42	
+#2	AnnotatorNotes R9	Okay?
+T111	missed_gene 1860 1864	RhoA
+R10	located_in Arg1:T111 Arg2:T49	
+R11	located_in Arg1:T51 Arg2:T50	
+R12	located_in Arg1:T59 Arg2:T60	
+R13	located_in Arg1:T58 Arg2:T60	
+T112	missed_gene 2292 2298	CG7337
+R14	located_in Arg1:T112 Arg2:T62	
+R15	located_in Arg1:T61 Arg2:T62	
+T113	missed_gene 2431 2435	Polo
+R16	located_in Arg1:T113 Arg2:T64	
+R17	located_in Arg1:T65 Arg2:T64	
+T114	missed_cellular_component 2466 2478	cytoskeletal
+R18	located_in Arg1:T66 Arg2:T114	
+T115	missed_gene 2546 2551	actin
+R19	located_in Arg1:T115 Arg2:T69	
+T116	corrected_gene 2700 2714	CD11b integrin
+R20	located_in Arg1:T116 Arg2:T76	
+#3	AnnotatorNotes R20	Okay?
+R21	located_in Arg1:T78 Arg2:T77	
+R22	located_in Arg1:T78 Arg2:T79	
+R23	located_in Arg1:T86 Arg2:T85	
+T117	corrected_gene 3056 3088	Hda1 histone deacetylase complex
+R24	located_in Arg1:T117 Arg2:T85	
+T118	missed_gene 3185 3190	actin
+R25	located_in Arg1:T118 Arg2:T90	
+T119	missed_gene 3235 3259	actin capping protein β2
+T120	missed_gene 3282 3287	actin
+R26	located_in Arg1:T120 Arg2:T92	
+R27	located_in Arg1:T119 Arg2:T92	
+R28	located_in Arg1:T91 Arg2:T92	
+R29	located_in Arg1:T93 Arg2:T94	
+R30	located_in Arg1:T101 Arg2:T103	
+#4	AnnotatorNotes R30	Okay?
+R31	located_in Arg1:T102 Arg2:T103	
+#5	AnnotatorNotes R31	Okay?
+T121	missed_gene 3638 3665	receptor-associated protein
+T122	missed_gene 3667 3670	RAP
+R32	located_in Arg1:T122 Arg2:T103	
+#6	AnnotatorNotes R32	Okay?
+R33	located_in Arg1:T121 Arg2:T103	
+#7	AnnotatorNotes R33	Okay?
+R34	located_in Arg1:T121 Arg2:T104	
+#8	AnnotatorNotes R34	Okay?
+R35	located_in Arg1:T122 Arg2:T104	
+#9	AnnotatorNotes R35	Okay?
+R36	located_in Arg1:T101 Arg2:T104	
+#10	AnnotatorNotes R36	Okay?
+R37	located_in Arg1:T102 Arg2:T104	
+#11	AnnotatorNotes R37	Okay?

@@ -110,3 +110,75 @@ T109	cell_type 3095 3112	mesenchymal cells
 T110	cell_type 3114 3125	fibroblasts
 T111	cell_type 3127 3146	smooth muscle cells
 T112	gene 3174 3181	elastin
+R1	located_in Arg1:T1 Arg2:T2	
+R2	located_in Arg1:T1 Arg2:T5	
+T113	corrected_cell_type 156 177	THP-1 monocytic cells
+R3	located_in Arg1:T1 Arg2:T113	
+R4	located_in Arg1:T1 Arg2:T7	
+T114	missed_cell_type 201 210	ILC cells
+#1	AnnotatorNotes T114	Innate lymphoid cells
+T115	corrected_gene 226 231	c-Src
+R5	located_in Arg1:T115 Arg2:T114	
+#2	AnnotatorNotes R5	Okay?
+R6	located_in Arg1:T9 Arg2:T114	
+R7	located_in Arg1:T10 Arg2:T114	
+R8	located_in Arg1:T12 Arg2:T11	
+R9	located_in Arg1:T12 Arg2:T114	
+#3	AnnotatorNotes R9	Okay?
+R10	located_in Arg1:T14 Arg2:T15	
+T116	missed_gene 491 513	pancreatic polypeptide
+T117	missed_gene 428 450	pancreatic polypeptide
+R11	located_in Arg1:T117 Arg2:T16	
+T118	corrected_cell_type 530 540	A/PP cells
+#4	AnnotatorNotes T118	okay?
+R12	located_in Arg1:T17 Arg2:T118	
+R13	located_in Arg1:T116 Arg2:T118	
+R14	located_in Arg1:T19 Arg2:T20	
+R15	located_in Arg1:T14 Arg2:T13	
+R16	located_in Arg1:T117 Arg2:T13	
+R17	located_in Arg1:T17 Arg2:T13	
+R18	located_in Arg1:T116 Arg2:T13	
+R19	located_in Arg1:T19 Arg2:T13	
+R20	located_in Arg1:T22 Arg2:T21	
+T119	corrected_gene 655 675	lipocortin I protein
+R21	located_in Arg1:T119 Arg2:T21	
+T120	missed_gene 838 841	LeX
+R22	located_in Arg1:T28 Arg2:T29	
+R23	located_in Arg1:T27 Arg2:T29	
+R24	located_in Arg1:T120 Arg2:T29	
+R25	located_in Arg1:T27 Arg2:T30	
+R26	located_in Arg1:T120 Arg2:T30	
+R27	located_in Arg1:T34 Arg2:T35	
+R28	located_in Arg1:T34 Arg2:T36	
+R29	located_in Arg1:T37 Arg2:T38	
+R30	located_in Arg1:T37 Arg2:T39	
+R31	located_in Arg1:T43 Arg2:T44	
+T121	missed_gene 1263 1266	CD4
+T122	missed_gene 1286 1289	CD8
+R32	located_in Arg1:T121 Arg2:T44	
+R33	located_in Arg1:T45 Arg2:T46	
+R34	located_in Arg1:T122 Arg2:T46	
+R35	located_in Arg1:T42 Arg2:T41	
+T123	missed_cell_type 1200 1203	Th2
+R36	located_in Arg1:T42 Arg2:T123	
+R37	located_in Arg1:T51 Arg2:T52	
+R38	located_in Arg1:T51 Arg2:T53	
+R39	located_in Arg1:T56 Arg2:T57	
+R40	located_in Arg1:T59 Arg2:T58	
+R41	located_in Arg1:T59 Arg2:T57	
+R42	located_in Arg1:T67 Arg2:T68	
+R43	located_in Arg1:T66 Arg2:T68	
+T124	missed_gene 2029 2033	CD25
+R44	located_in Arg1:T124 Arg2:T74	
+R45	located_in Arg1:T73 Arg2:T74	
+R46	located_in Arg1:T75 Arg2:T74	
+R47	located_in Arg1:T86 Arg2:T85	
+R48	located_in Arg1:T86 Arg2:T87	
+T125	missed_gene 2453 2458	NCD14
+R49	located_in Arg1:T125 Arg2:T89	
+T126	corrected_cell_type 2843 2864	Osteoblast-like cells
+R50	located_in Arg1:T103 Arg2:T126	
+T127	corrected_cell_type 2974 2991	neuron-like cells
+T128	missed_gene 3022 3042	tyrosine hydroxylase
+R51	located_in Arg1:T128 Arg2:T127	
+R52	located_in Arg1:T107 Arg2:T127	

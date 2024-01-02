@@ -94,3 +94,43 @@ T93	cellular_component 3531 3542	cytoplasmic
 T94	gene 3566 3571	STAT1
 T95	gene 3573 3578	STAT3
 T96	gene 3584 3589	STAT5
+T97	corrected_gene 81 132	Gab1 protein lacking the pleckstrin homology domain
+#1	AnnotatorNotes T97	okay?
+R1	located_in Arg1:T97 Arg2:T4	
+R2	located_in Arg1:T10 Arg2:T11	
+R3	located_in Arg1:T21 Arg2:T22	
+T98	missed_gene 870 873	Fyn
+R4	located_in Arg1:T98 Arg2:T22	
+#2	AnnotatorNotes R4	Okay?
+R5	located_in Arg1:T39 Arg2:T40	
+R6	located_in Arg1:T39 Arg2:T41	
+R7	located_in Arg1:T59 Arg2:T60	
+R8	located_in Arg1:T61 Arg2:T60	
+#3	AnnotatorNotes R8	Okay?
+T99	missed_gene 2425 2456	cytochrome c oxidase subunit II
+R9	located_in Arg1:T99 Arg2:T63	
+R10	located_in Arg1:T72 Arg2:T73	
+R11	located_in Arg1:T71 Arg2:T73	
+R12	located_in Arg1:T76 Arg2:T77	
+R13	located_in Arg1:T78 Arg2:T79	
+R14	located_in Arg1:T84 Arg2:T83	
+T100	missed_gene 3094 3104	annexins I
+T101	missed_gene 3094 3102;3106 3108	annexins IV
+T102	missed_gene 3094 3102;3113 3115	annexins VI
+R15	located_in Arg1:T102 Arg2:T85	
+R16	located_in Arg1:T101 Arg2:T85	
+R17	located_in Arg1:T100 Arg2:T85	
+R18	located_in Arg1:T86 Arg2:T89	
+T103	corrected_gene 3253 3282	38 kDa annexin I-like protein
+R19	located_in Arg1:T103 Arg2:T89	
+R20	located_in Arg1:T86 Arg2:T90	
+#4	AnnotatorNotes R20	Okay?
+R21	located_in Arg1:T103 Arg2:T90	
+#5	AnnotatorNotes R21	Okay?
+T104	missed_gene 3478 3508	intracellular tyrosine kinases
+R22	located_in Arg1:T104 Arg2:T92	
+T105	missed_gene 3510 3514	JAKs
+R23	located_in Arg1:T105 Arg2:T92	
+R24	located_in Arg1:T94 Arg2:T93	
+R25	located_in Arg1:T95 Arg2:T93	
+R26	located_in Arg1:T96 Arg2:T93	

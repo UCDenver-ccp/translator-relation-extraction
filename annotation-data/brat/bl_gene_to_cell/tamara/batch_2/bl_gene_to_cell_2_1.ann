@@ -101,3 +101,56 @@ T100	cell_type 2884 2893	monocytes
 T101	cell_type 2895 2907	granulocytes
 T102	cell_type 2909 2918	platelets
 T103	cell_type 2920 2932	erythrocytes
+T104	missed_cell_type 0 8	Platelet
+T105	corrected_gene 0 45	Platelet-endothelial cell adhesion molecule-1
+R1	located_in Arg1:T105 Arg2:T104	
+R2	located_in Arg1:T2 Arg2:T104	
+R3	located_in Arg1:T105 Arg2:T3	
+R4	located_in Arg1:T105 Arg2:T4	
+R5	located_in Arg1:T105 Arg2:T5	
+R6	located_in Arg1:T105 Arg2:T6	
+R7	located_in Arg1:T105 Arg2:T7	
+R8	located_in Arg1:T2 Arg2:T3	
+R9	located_in Arg1:T2 Arg2:T4	
+R10	located_in Arg1:T2 Arg2:T5	
+R11	located_in Arg1:T2 Arg2:T6	
+R12	located_in Arg1:T2 Arg2:T7	
+R13	located_in Arg1:T11 Arg2:T10	
+R14	located_in Arg1:T12 Arg2:T10	
+R15	located_in Arg1:T16 Arg2:T15	
+R16	located_in Arg1:T17 Arg2:T15	
+R17	located_in Arg1:T19 Arg2:T18	
+R18	located_in Arg1:T20 Arg2:T18	
+T106	missed_cell_type 492 508	oligodendrocytic
+T107	missed_gene 510 528	Galactocerebroside
+R19	located_in Arg1:T107 Arg2:T106	
+R20	located_in Arg1:T21 Arg2:T106	
+T108	missed_cell_type 574 586	MD3999 cells
+R21	located_in Arg1:T22 Arg2:T108	
+R22	located_in Arg1:T24 Arg2:T23	
+R23	located_in Arg1:T25 Arg2:T23	
+R24	located_in Arg1:T24 Arg2:T108	
+R25	located_in Arg1:T25 Arg2:T108	
+T109	corrected_cell_type 757 770	HEK293T cells
+T110	corrected_cell_type 775 790	primary T cells
+R26	located_in Arg1:T31 Arg2:T109	
+R27	located_in Arg1:T31 Arg2:T110	
+R28	located_in Arg1:T32 Arg2:T109	
+R29	located_in Arg1:T33 Arg2:T109	
+R30	located_in Arg1:T34 Arg2:T109	
+R31	located_in Arg1:T32 Arg2:T110	
+R32	located_in Arg1:T33 Arg2:T110	
+R33	located_in Arg1:T34 Arg2:T110	
+R34	located_in Arg1:T35 Arg2:T36	
+R35	located_in Arg1:T35 Arg2:T37	
+R36	located_in Arg1:T46 Arg2:T45	
+R37	located_in Arg1:T50 Arg2:T52	
+R38	located_in Arg1:T51 Arg2:T52	
+R39	located_in Arg1:T65 Arg2:T66	
+R40	located_in Arg1:T73 Arg2:T74	
+R41	located_in Arg1:T78 Arg2:T77	
+#1	AnnotatorNotes R41	Okay?
+R42	located_in Arg1:T78 Arg2:T76	
+#2	AnnotatorNotes R42	Okay?
+R43	located_in Arg1:T79 Arg2:T80	
+R44	located_in Arg1:T82 Arg2:T81	

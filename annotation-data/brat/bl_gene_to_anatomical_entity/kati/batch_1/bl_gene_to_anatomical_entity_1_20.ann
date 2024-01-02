@@ -129,3 +129,77 @@ T128	gene 3050 3054	NT-3
 T129	anatomical_site 3073 3081	striatum
 T130	anatomical_site 3103 3116	soleus muscle
 T131	gene 3124 3128	BDNF
+T132	corrected_anatomical_site 69 85	knee joint fluid
+R1	located_in Arg1:T1 Arg2:T132	
+R2	located_in Arg1:T2 Arg2:T132	
+T133	corrected_anatomical_site 167 183	knee joint fluid
+R3	located_in Arg1:T4 Arg2:T133	
+R4	located_in Arg1:T5 Arg2:T133	
+R5	located_in Arg1:T4 Arg2:T7	
+R6	located_in Arg1:T5 Arg2:T7	
+T134	corrected_anatomical_site 242 258	knee joint fluid
+R7	located_in Arg1:T8 Arg2:T134	
+R8	located_in Arg1:T8 Arg2:T10	
+T135	corrected_anatomical_site 334 358	Wolffian duct epithelium
+R10	located_in Arg1:T17 Arg2:T16	
+R11	located_in Arg1:T18 Arg2:T16	
+T136	corrected_gene 605 637	liver fatty acid-binding protein
+R12	located_in Arg1:T136 Arg2:T25	
+R13	located_in Arg1:T27 Arg2:T25	
+T137	missed_gene 654 676	kidney injury marker 1
+R14	located_in Arg1:T137 Arg2:T29	
+R15	located_in Arg1:T33 Arg2:T37	
+R16	located_in Arg1:T34 Arg2:T37	
+R17	located_in Arg1:T35 Arg2:T37	
+R18	located_in Arg1:T36 Arg2:T37	
+R19	located_in Arg1:T38 Arg2:T40	
+R20	located_in Arg1:T39 Arg2:T40	
+R21	located_in Arg1:T42 Arg2:T41	
+T138	corrected_anatomical_site 1073 1085	liver tissue
+T139	corrected_gene 1089 1094	APOE4
+R22	located_in Arg1:T139 Arg2:T138	
+T140	corrected_gene 1099 1104	APOE3
+R23	located_in Arg1:T140 Arg2:T138	
+R24	located_in Arg1:T57 Arg2:T58	
+R37	located_in Arg1:T87 Arg2:T90	
+T146	missed_gene 2003 2028	muscle LIM-domain protein
+R38	located_in Arg1:T146 Arg2:T88	
+R39	located_in Arg1:T146 Arg2:T90	
+R40	located_in Arg1:T89 Arg2:T90	
+T147	missed_gene 2035 2038	MLP
+R41	located_in Arg1:T147 Arg2:T90	
+R42	located_in Arg1:T100 Arg2:T99	
+R43	located_in Arg1:T101 Arg2:T99	
+R44	located_in Arg1:T103 Arg2:T102	
+R45	located_in Arg1:T105 Arg2:T104	
+R46	located_in Arg1:T106 Arg2:T104	
+R47	located_in Arg1:T108 Arg2:T107	
+R48	located_in Arg1:T109 Arg2:T107	
+T148	corrected_anatomical_site 2805 2817	fetal tissue
+R53	located_in Arg1:T112 Arg2:T148	
+R54	located_in Arg1:T113 Arg2:T148	
+R57	located_in Arg1:T127 Arg2:T129	
+R58	located_in Arg1:T128 Arg2:T129	
+R59	located_in Arg1:T127 Arg2:T130	
+R60	located_in Arg1:T128 Arg2:T130	
+R61	located_in Arg1:T131 Arg2:T129	
+R62	located_in Arg1:T131 Arg2:T130	
+R9	located_in Arg1:T11 Arg2:T135	
+R63	located_in Arg1:T11 Arg2:T15	
+R25	located_in Arg1:T113 Arg2:T114	
+R26	located_in Arg1:T112 Arg2:T115	
+T149	missed_anatomical_site 2767 2774	adrenal
+R49	located_in Arg1:T113 Arg2:T149	
+R50	located_in Arg1:T112 Arg2:T149	
+R27	located_in Arg1:T67 Arg2:T69	
+R28	located_in Arg1:T67 Arg2:T70	
+R29	located_in Arg1:T67 Arg2:T71	
+R30	located_in Arg1:T68 Arg2:T69	
+R31	located_in Arg1:T68 Arg2:T70	
+R32	located_in Arg1:T68 Arg2:T71	
+R33	located_in Arg1:T72 Arg2:T74	
+R34	located_in Arg1:T72 Arg2:T75	
+R35	located_in Arg1:T73 Arg2:T74	
+R36	located_in Arg1:T73 Arg2:T75	
+R51	located_in Arg1:T112 Arg2:T114	
+R52	located_in Arg1:T113 Arg2:T115	

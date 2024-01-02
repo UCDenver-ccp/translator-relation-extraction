@@ -108,3 +108,36 @@ T107	gene 3737 3741	BCL2
 T108	cellular_component 3783 3805	mitochondrial membrane
 T109	gene 3913 3917	SMAD
 T110	cellular_component 3913 3917	SMAD
+R1	located_in Arg1:T11 Arg2:T10	
+R2	located_in Arg1:T12 Arg2:T10	
+T111	missed_gene 477 480	SRC
+R3	located_in Arg1:T111 Arg2:T10	
+R4	located_in Arg1:T13 Arg2:T10	
+R5	located_in Arg1:T14 Arg2:T10	
+R6	located_in Arg1:T15 Arg2:T10	
+T112	missed_gene 501 505	rpS6
+R7	located_in Arg1:T112 Arg2:T10	
+T113	missed_gene 1048 1052	RARA
+T114	missed_gene 1519 1524	talin
+T115	missed_gene 1526 1535	α-actinin
+R8	located_in Arg1:T114 Arg2:T40	
+R9	located_in Arg1:T115 Arg2:T40	
+R10	located_in Arg1:T41 Arg2:T40	
+T116	corrected_gene 1388 1398	integrin β
+R11	located_in Arg1:T116 Arg2:T36	
+R12	located_in Arg1:T116 Arg2:T39	
+R13	located_in Arg1:T49 Arg2:T50	
+T117	corrected_gene 2387 2392	Fbw7α
+T118	corrected_gene 2411 2416	Fbw7β
+T119	missed_cellular_component 2446 2455	nucleolar
+T120	corrected_gene 2437 2442	Fbw7γ
+R14	located_in Arg1:T117 Arg2:T66	
+R15	located_in Arg1:T118 Arg2:T68	
+R16	located_in Arg1:T120 Arg2:T119	
+R17	located_in Arg1:T81 Arg2:T80	
+T121	corrected_gene 3112 3158	microtubule-associated protein-1 light chain-3
+R18	located_in Arg1:T121 Arg2:T88	
+R19	located_in Arg1:T89 Arg2:T88	
+R20	located_in Arg1:T94 Arg2:T95	
+T122	missed_gene 3404 3412	Nesprins
+R21	located_in Arg1:T122 Arg2:T96	

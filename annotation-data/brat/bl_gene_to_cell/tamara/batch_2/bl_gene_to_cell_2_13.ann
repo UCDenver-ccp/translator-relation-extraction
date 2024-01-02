@@ -109,3 +109,76 @@ T108	cell_type 2971 2987	Langerhans cells
 T109	gene 2996 3000	CD1a
 T110	gene 3002 3006	CD68
 T111	cell_type 3181 3207	epidermal Langerhans cells
+T112	corrected_cell_type 598 622	luminal epithelial cells
+R1	located_in Arg1:T22 Arg2:T112	
+R2	located_in Arg1:T23 Arg2:T112	
+R3	located_in Arg1:T24 Arg2:T112	
+R4	located_in Arg1:T24 Arg2:T26	
+R5	located_in Arg1:T23 Arg2:T26	
+R6	located_in Arg1:T22 Arg2:T26	
+R7	located_in Arg1:T27 Arg2:T28	
+R8	located_in Arg1:T27 Arg2:T29	
+R9	located_in Arg1:T27 Arg2:T30	
+T113	missed_gene 824 840	interferon gamma
+R10	located_in Arg1:T113 Arg2:T31	
+R11	located_in Arg1:T113 Arg2:T32	
+T114	corrected_gene 919 939	HLA class I proteins
+R12	located_in Arg1:T114 Arg2:T34	
+T115	missed_cell_type 1017 1022	glial
+R13	located_in Arg1:T35 Arg2:T115	
+R14	located_in Arg1:T35 Arg2:T36	
+R15	located_in Arg1:T39 Arg2:T37	
+R16	located_in Arg1:T39 Arg2:T38	
+R17	located_in Arg1:T40 Arg2:T37	
+R18	located_in Arg1:T40 Arg2:T38	
+R19	located_in Arg1:T45 Arg2:T47	
+R20	located_in Arg1:T48 Arg2:T47	
+R21	located_in Arg1:T50 Arg2:T51	
+R22	located_in Arg1:T52 Arg2:T53	
+R23	located_in Arg1:T54 Arg2:T55	
+R24	located_in Arg1:T56 Arg2:T57	
+T116	missed_gene 1631 1634	CD3
+R25	located_in Arg1:T116 Arg2:T58	
+R26	located_in Arg1:T59 Arg2:T60	
+R27	located_in Arg1:T59 Arg2:T61	
+R28	located_in Arg1:T116 Arg2:T61	
+#1	AnnotatorNotes R28	Okay?
+#2	AnnotatorNotes R26	Okay?
+R31	located_in Arg1:T69 Arg2:T70	
+R29	located_in Arg1:T71 Arg2:T73	
+R30	located_in Arg1:T72 Arg2:T73	
+R32	located_in Arg1:T71 Arg2:T74	
+R33	located_in Arg1:T71 Arg2:T75	
+R34	located_in Arg1:T71 Arg2:T76	
+R35	located_in Arg1:T72 Arg2:T74	
+R36	located_in Arg1:T72 Arg2:T75	
+R37	located_in Arg1:T72 Arg2:T76	
+R38	located_in Arg1:T77 Arg2:T79	
+R39	located_in Arg1:T77 Arg2:T80	
+R40	located_in Arg1:T77 Arg2:T81	
+R41	located_in Arg1:T78 Arg2:T79	
+R42	located_in Arg1:T78 Arg2:T80	
+R43	located_in Arg1:T78 Arg2:T81	
+R44	located_in Arg1:T84 Arg2:T83	
+R45	located_in Arg1:T85 Arg2:T83	
+T117	corrected_gene 2459 2463	Prx5
+R46	located_in Arg1:T117 Arg2:T88	
+R47	located_in Arg1:T89 Arg2:T88	
+R48	located_in Arg1:T90 Arg2:T91	
+R49	located_in Arg1:T95 Arg2:T97	
+R50	located_in Arg1:T96 Arg2:T97	
+T118	missed_gene 2722 2725	CD8
+R51	located_in Arg1:T118 Arg2:T98	
+T119	corrected_gene 2799 2805	Prx VI
+T120	corrected_gene 2810 2815	Prx I
+R52	located_in Arg1:T119 Arg2:T99	
+R53	located_in Arg1:T120 Arg2:T100	
+T121	corrected_cell_type 2882 2907	dendritic epidermal cells
+T122	missed_gene 2878 2880	BG
+R54	located_in Arg1:T103 Arg2:T121	
+R55	located_in Arg1:T104 Arg2:T121	
+R56	located_in Arg1:T122 Arg2:T121	
+T123	missed_gene 2967 2969	BG
+R57	located_in Arg1:T106 Arg2:T108	
+R58	located_in Arg1:T107 Arg2:T108	
+R59	located_in Arg1:T123 Arg2:T108	

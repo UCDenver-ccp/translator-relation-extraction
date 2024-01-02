@@ -114,3 +114,91 @@ T113	gene 2789 2801	glycoprotein
 T114	gene 2806 2817	haptoglobin
 T115	anatomical_site 2849 2854	serum
 T116	gene 2855 2865	prealbumin
+T117	corrected_gene 56 89	vascular cell adhesion molecule-1
+R1	located_in Arg1:T117 Arg2:T2	
+R2	located_in Arg1:T4 Arg2:T2	
+T118	corrected_gene 179 186	albumin
+T119	missed_anatomical_site 173 178	serum
+R3	located_in Arg1:T118 Arg2:T119	
+R4	located_in Arg1:T14 Arg2:T12	
+R5	located_in Arg1:T14 Arg2:T13	
+R6	located_in Arg1:T20 Arg2:T22	
+R7	located_in Arg1:T21 Arg2:T22	
+T120	corrected_gene 632 638;643 651	type I collagen
+T121	corrected_gene 632 636;639 642;643 651	type III collagen
+R8	located_in Arg1:T120 Arg2:T24	
+R9	located_in Arg1:T121 Arg2:T24	
+R10	located_in Arg1:T26 Arg2:T24	
+R11	located_in Arg1:T27 Arg2:T24	
+R12	located_in Arg1:T29 Arg2:T32	
+T122	missed_gene 775 783	versican
+R13	located_in Arg1:T122 Arg2:T32	
+R14	located_in Arg1:T30 Arg2:T32	
+R15	located_in Arg1:T31 Arg2:T32	
+R16	located_in Arg1:T33 Arg2:T34	
+R17	located_in Arg1:T29 Arg2:T24	
+R18	located_in Arg1:T122 Arg2:T24	
+R19	located_in Arg1:T30 Arg2:T24	
+R20	located_in Arg1:T31 Arg2:T24	
+R21	located_in Arg1:T33 Arg2:T24	
+T123	missed_gene 967 970	SOD
+R22	located_in Arg1:T123 Arg2:T37	
+R23	located_in Arg1:T46 Arg2:T45	
+R24	located_in Arg1:T48 Arg2:T47	
+T124	missed_gene 1115 1118	BNP
+T125	missed_gene 1120 1123	ANP
+T126	missed_gene 1074 1080	TGF-?1
+T127	corrected_gene 1082 1087	TNF-?
+T128	corrected_gene 1089 1095	HIF-1?
+R25	located_in Arg1:T126 Arg2:T40	
+R26	located_in Arg1:T127 Arg2:T40	
+R27	located_in Arg1:T128 Arg2:T40	
+R28	located_in Arg1:T43 Arg2:T40	
+R29	located_in Arg1:T44 Arg2:T40	
+R30	located_in Arg1:T124 Arg2:T40	
+R31	located_in Arg1:T125 Arg2:T40	
+R35	located_in Arg1:T53 Arg2:T54	
+R36	located_in Arg1:T53 Arg2:T55	
+R37	located_in Arg1:T53 Arg2:T56	
+R38	located_in Arg1:T53 Arg2:T57	
+R39	located_in Arg1:T53 Arg2:T58	
+R40	located_in Arg1:T53 Arg2:T59	
+R41	located_in Arg1:T53 Arg2:T60	
+R42	located_in Arg1:T53 Arg2:T61	
+R43	located_in Arg1:T53 Arg2:T62	
+R44	located_in Arg1:T53 Arg2:T63	
+R45	located_in Arg1:T65 Arg2:T64	
+R46	located_in Arg1:T66 Arg2:T67	
+R47	located_in Arg1:T68 Arg2:T69	
+T130	corrected_anatomical_site 1777 1812	mesenchyme of the mandibular molars
+R48	located_in Arg1:T72 Arg2:T130	
+T131	missed_gene 2149 2162;2169 2170	NADPH oxidase 2
+T132	missed_gene 2164 2167;2169 2170	NOX 2
+T133	corrected_anatomical_site 2202 2213	lung tissue
+R49	located_in Arg1:T131 Arg2:T133	
+R50	located_in Arg1:T132 Arg2:T133	
+T134	corrected_gene 2260 2263;2265 2266	NT- 5
+R51	located_in Arg1:T90 Arg2:T93	
+R52	located_in Arg1:T91 Arg2:T93	
+R53	located_in Arg1:T134 Arg2:T93	
+R54	located_in Arg1:T92 Arg2:T93	
+R55	located_in Arg1:T90 Arg2:T89	
+R56	located_in Arg1:T91 Arg2:T89	
+R57	located_in Arg1:T134 Arg2:T89	
+R58	located_in Arg1:T92 Arg2:T89	
+T135	corrected_anatomical_site 2382 2388;2404 2411	neural tissues
+T136	corrected_anatomical_site 2393 2411	non-neural tissues
+R59	located_in Arg1:T95 Arg2:T135	
+R60	located_in Arg1:T95 Arg2:T136	
+R61	located_in Arg1:T98 Arg2:T100	
+R62	located_in Arg1:T99 Arg2:T100	
+T137	corrected_anatomical_site 2593 2604	lung tissue
+R67	located_in Arg1:T103 Arg2:T137	
+R68	located_in Arg1:T111 Arg2:T110	
+R69	located_in Arg1:T116 Arg2:T115	
+T138	corrected_gene 2776 2801	alpha-1 acid glycoprotein
+R70	located_in Arg1:T138 Arg2:T110	
+R71	located_in Arg1:T114 Arg2:T110	
+T139	missed_anatomical_site 2115 2130	bronchoalveolar
+R32	located_in Arg1:T86 Arg2:T133	
+R33	located_in Arg1:T85 Arg2:T139	

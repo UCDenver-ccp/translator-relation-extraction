@@ -107,3 +107,143 @@ T106	anatomical_site 3356 3361	liver
 T107	anatomical_site 3418 3424	tissue
 T108	gene 3456 3480	small heat shock protein
 T109	gene 3481 3486	hsp25
+R1	located_in Arg1:T4 Arg2:T3	
+T110	missed_gene 60 63	AFP
+R2	located_in Arg1:T110 Arg2:T1	
+T111	missed_anatomical_site 226 232	plasma
+R3	located_in Arg1:T5 Arg2:T111	
+R4	located_in Arg1:T6 Arg2:T111	
+R5	located_in Arg1:T5 Arg2:T7	
+R6	located_in Arg1:T5 Arg2:T8	
+R7	located_in Arg1:T5 Arg2:T9	
+R8	located_in Arg1:T5 Arg2:T10	
+R9	located_in Arg1:T5 Arg2:T11	
+R10	located_in Arg1:T5 Arg2:T12	
+R11	located_in Arg1:T6 Arg2:T7	
+R12	located_in Arg1:T6 Arg2:T8	
+R13	located_in Arg1:T6 Arg2:T9	
+R14	located_in Arg1:T6 Arg2:T10	
+R15	located_in Arg1:T6 Arg2:T11	
+R16	located_in Arg1:T6 Arg2:T12	
+R17	located_in Arg1:T18 Arg2:T17	
+R18	located_in Arg1:T19 Arg2:T17	
+R19	located_in Arg1:T20 Arg2:T17	
+R20	located_in Arg1:T21 Arg2:T17	
+R21	located_in Arg1:T22 Arg2:T17	
+R22	located_in Arg1:T24 Arg2:T23	
+R23	located_in Arg1:T26 Arg2:T27	
+#1	AnnotatorNotes R23	Okay?
+T112	corrected_anatomical_site 998 1012	slit diaphragm
+R24	located_in Arg1:T30 Arg2:T112	
+R25	located_in Arg1:T28 Arg2:T112	
+T113	corrected_anatomical_site 1189 1195;1219 1224	stroma lungs
+R26	located_in Arg1:T33 Arg2:T113	
+R27	located_in Arg1:T34 Arg2:T113	
+R28	located_in Arg1:T35 Arg2:T113	
+R29	located_in Arg1:T40 Arg2:T38	
+R30	located_in Arg1:T40 Arg2:T39	
+T114	missed_gene 1420 1425	CD106
+T115	missed_gene 1401 1405	CD29
+R31	located_in Arg1:T114 Arg2:T43	
+R32	located_in Arg1:T42 Arg2:T43	
+R33	located_in Arg1:T115 Arg2:T43	
+R34	located_in Arg1:T41 Arg2:T43	
+T116	missed_anatomical_site 1615 1625	hypodermis
+T117	missed_gene 1490 1495	CD105
+R35	located_in Arg1:T41 Arg2:T49	
+R36	located_in Arg1:T41 Arg2:T50	
+R37	located_in Arg1:T41 Arg2:T116	
+R38	located_in Arg1:T115 Arg2:T49	
+R39	located_in Arg1:T115 Arg2:T50	
+R40	located_in Arg1:T115 Arg2:T116	
+R41	located_in Arg1:T42 Arg2:T49	
+R42	located_in Arg1:T42 Arg2:T50	
+R43	located_in Arg1:T42 Arg2:T116	
+R44	located_in Arg1:T114 Arg2:T49	
+R45	located_in Arg1:T114 Arg2:T50	
+R46	located_in Arg1:T114 Arg2:T116	
+R47	located_in Arg1:T44 Arg2:T49	
+R48	located_in Arg1:T44 Arg2:T50	
+R49	located_in Arg1:T44 Arg2:T116	
+T118	missed_gene 1453 1458	CD105
+R50	located_in Arg1:T118 Arg2:T49	
+R51	located_in Arg1:T118 Arg2:T50	
+R52	located_in Arg1:T118 Arg2:T116	
+T119	missed_gene 1470 1474	CD90
+R53	located_in Arg1:T119 Arg2:T49	
+R54	located_in Arg1:T119 Arg2:T50	
+R55	located_in Arg1:T119 Arg2:T116	
+R56	located_in Arg1:T46 Arg2:T49	
+R57	located_in Arg1:T46 Arg2:T116	
+R58	located_in Arg1:T46 Arg2:T116	
+R59	located_in Arg1:T117 Arg2:T49	
+R60	located_in Arg1:T46 Arg2:T50	
+R61	located_in Arg1:T117 Arg2:T50	
+R62	located_in Arg1:T117 Arg2:T116	
+R63	located_in Arg1:T47 Arg2:T49	
+R64	located_in Arg1:T47 Arg2:T50	
+R65	located_in Arg1:T47 Arg2:T116	
+R66	located_in Arg1:T48 Arg2:T49	
+R67	located_in Arg1:T48 Arg2:T50	
+R68	located_in Arg1:T48 Arg2:T116	
+R69	located_in Arg1:T54 Arg2:T53	
+R70	located_in Arg1:T55 Arg2:T53	
+R71	located_in Arg1:T54 Arg2:T52	
+R72	located_in Arg1:T55 Arg2:T52	
+R73	located_in Arg1:T57 Arg2:T56	
+R74	located_in Arg1:T60 Arg2:T61	
+R75	located_in Arg1:T60 Arg2:T62	
+T120	missed_anatomical_site 2242 2248	plasma
+R76	located_in Arg1:T65 Arg2:T120	
+R77	located_in Arg1:T64 Arg2:T120	
+T121	missed_gene 2189 2206	interleukin 12p40
+R78	located_in Arg1:T121 Arg2:T120	
+R79	located_in Arg1:T63 Arg2:T120	
+R80	located_in Arg1:T66 Arg2:T67	
+R81	located_in Arg1:T68 Arg2:T69	
+R82	located_in Arg1:T70 Arg2:T69	
+R83	located_in Arg1:T74 Arg2:T75	
+T122	corrected_anatomical_site 2547 2557	cord blood
+R84	located_in Arg1:T77 Arg2:T122	
+T123	corrected_anatomical_site 2670 2684	maternal serum
+#2	AnnotatorNotes T123	okay? 
+R85	located_in Arg1:T79 Arg2:T123	
+T124	corrected_anatomical_site 2711 2721	cord blood
+R86	located_in Arg1:T81 Arg2:T124	
+T125	missed_anatomical_site 2775 2781	plasma
+R87	located_in Arg1:T83 Arg2:T125	
+T126	missed_gene 2814 2828	angiotensin II
+T127	missed_anatomical_site 2807 2813	plasma
+R88	located_in Arg1:T126 Arg2:T127	
+R89	located_in Arg1:T91 Arg2:T92	
+T128	corrected_gene 2981 2988	p38MAPK
+R90	located_in Arg1:T128 Arg2:T92	
+T129	missed_gene 2974 2979	TGF-β
+R91	located_in Arg1:T129 Arg2:T92	
+R92	located_in Arg1:T88 Arg2:T92	
+T130	corrected_gene 2966 2969;2971 2972	ERK 2
+R93	located_in Arg1:T130 Arg2:T92	
+T131	corrected_gene 2937 2964	angiotensin II AT1 receptor
+T132	corrected_gene 2899 2918	(pro)renin receptor
+T133	missed_gene 2889 2897	prorenin
+R94	located_in Arg1:T133 Arg2:T92	
+R95	located_in Arg1:T132 Arg2:T92	
+R96	located_in Arg1:T85 Arg2:T92	
+R97	located_in Arg1:T131 Arg2:T92	
+R98	located_in Arg1:T94 Arg2:T93	
+R99	located_in Arg1:T97 Arg2:T96	
+R100	located_in Arg1:T97 Arg2:T96	
+R101	located_in Arg1:T99 Arg2:T96	
+R102	located_in Arg1:T100 Arg2:T96	
+R103	located_in Arg1:T101 Arg2:T96	
+R104	located_in Arg1:T102 Arg2:T96	
+T134	missed_gene 3260 3265	CS846
+R105	located_in Arg1:T134 Arg2:T96	
+T135	corrected_gene 3312 3323	collagen IV
+R106	located_in Arg1:T135 Arg2:T105	
+R107	located_in Arg1:T103 Arg2:T105	
+R108	located_in Arg1:T135 Arg2:T106	
+#3	AnnotatorNotes R108	Okay?
+R109	located_in Arg1:T103 Arg2:T106	
+#4	AnnotatorNotes R109	Okay?
+R110	located_in Arg1:T109 Arg2:T107	

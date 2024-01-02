@@ -13,7 +13,7 @@ T12	disease_or_phenotypic_feature 489 495	cancer
 T13	disease_or_phenotypic_feature 594 599	Blood
 T14	chemical 610 617	Glucose
 T15	chemical 622 633	Cholesterol
-T16	corrected_chemical 813 835	β-tricalcium phosphate
+T16	corrected_chemical 802 835	nano-sized β-tricalcium phosphate
 T17	chemical 826 835	phosphate
 T18	disease_or_phenotypic_feature 837 845	nano-TCP
 T19	disease_or_phenotypic_feature 923 936	enamel caries
@@ -51,7 +51,6 @@ T50	missed_chemical 2830 2839	LY3214996
 T51	disease_or_phenotypic_feature 2894 2901	pan-RAF
 T52	corrected_chemical 2894 2911	pan-RAF inhibitor
 T53	chemical 2902 2911	inhibitor
-T54	corrected_disease_or_phenotypic_feature 2917 2946	KRAS-mutant colorectal cancer
 T55	disease_or_phenotypic_feature 2929 2946	colorectal cancer
 T56	disease_or_phenotypic_feature 3116 3124	diabetes
 T57	chemical 3141 3146	lipid
@@ -60,7 +59,6 @@ T59	chemical 3207 3216	Fulminant
 T60	disease_or_phenotypic_feature 3217 3262	Reversible Cerebral Vasoconstriction Syndrome
 T61	chemical 3336 3351	Corticosteroids
 T62	disease_or_phenotypic_feature 3356 3374	Community-Acquired
-T63	corrected_disease_or_phenotypic_feature 3356 3384	Community-Acquired Pneumonia
 T64	disease_or_phenotypic_feature 3375 3384	Pneumonia
 T65	chemical 3564 3576	pioglitazone
 T66	disease_or_phenotypic_feature 3589 3603	bladder cancer
@@ -70,12 +68,14 @@ T69	chemical 3848 3859	methylation
 R1	causes_or_contributes_to Arg1:T9 Arg2:T12
 R2	causes_or_contributes_to Arg1:T57 Arg2:T56
 R3	treats Arg1:T61 Arg2:T64
-R4	treats Arg1:T61 Arg2:T63
 R5	treats Arg1:T65 Arg2:T66
-R6	treats Arg1:T50 Arg2:T54
+R6	treats Arg1:T50 Arg2:T55
 R7	treats Arg1:T47 Arg2:T48
 R8	FIXME Arg1:T11 Arg2:T12
 R9	treats Arg1:T32 Arg2:T31
-R10	treats Arg1:T52 Arg2:T54
-R11	treats Arg1:T16 Arg2:T19
+R10	treats Arg1:T52 Arg2:T55
 R12	treats Arg1:T30 Arg2:T29
+T70	corrected_chemical 837 845	nano-TCP
+R14	treats Arg1:T39 Arg2:T38	
+R15	treats Arg1:T39 Arg2:T37	
+R4	treats Arg1:T11 Arg2:T12	

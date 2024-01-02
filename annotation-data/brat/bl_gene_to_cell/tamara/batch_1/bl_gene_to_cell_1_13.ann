@@ -109,3 +109,76 @@ T108	gene 2904 2909	XBP-1
 T109	cell_type 2956 2971	secretory cells
 T110	cell_type 2986 2998	plasma cells
 T111	cell_type 3003 3014	hepatocytes
+R5	located_in Arg1:T7 Arg2:T8	
+R6	located_in Arg1:T7 Arg2:T9	
+R7	located_in Arg1:T7 Arg2:T10	
+R8	located_in Arg1:T7 Arg2:T11	
+R9	located_in Arg1:T6 Arg2:T8	
+R10	located_in Arg1:T6 Arg2:T9	
+R11	located_in Arg1:T6 Arg2:T10	
+R12	located_in Arg1:T6 Arg2:T11	
+R13	located_in Arg1:T12 Arg2:T13	
+R14	located_in Arg1:T12 Arg2:T14	
+R15	located_in Arg1:T15 Arg2:T16	
+T113	missed_gene 662 667	PTHrP
+R16	located_in Arg1:T113 Arg2:T24	
+R17	located_in Arg1:T113 Arg2:T25	
+R18	located_in Arg1:T26 Arg2:T24	
+R19	located_in Arg1:T26 Arg2:T25	
+T114	corrected_cell_type 753 767	neuronal cells
+T115	missed_gene 679 682	SMN
+R20	located_in Arg1:T115 Arg2:T114	
+R21	located_in Arg1:T27 Arg2:T114	
+R22	located_in Arg1:T28 Arg2:T114	
+R23	located_in Arg1:T29 Arg2:T114	
+T127	missed_gene 1411 1419	tryptase
+T128	missed_gene 1424 1431	chymase
+R151	located_in Arg1:T127 Arg2:T55	
+R152	located_in Arg1:T128 Arg2:T55	
+T129	missed_gene 1443 1451	tryptase
+T130	missed_gene 1456 1461	ki-67
+R153	located_in Arg1:T129 Arg2:T56	
+R154	located_in Arg1:T130 Arg2:T56	
+T131	missed_gene 1473 1481	tryptase
+R155	located_in Arg1:T131 Arg2:T57	
+T132	missed_gene 1523 1530	TGFbeta
+R156	located_in Arg1:T58 Arg2:T57	
+R157	located_in Arg1:T59 Arg2:T57	
+R158	located_in Arg1:T60 Arg2:T57	
+R159	located_in Arg1:T132 Arg2:T57	
+R160	located_in Arg1:T61 Arg2:T57	
+R161	located_in Arg1:T62 Arg2:T57	
+T133	missed_gene 1596 1601	rBNPI
+T134	corrected_cell_type 1645 1659	neuronal cells
+R162	located_in Arg1:T63 Arg2:T134	
+R163	located_in Arg1:T133 Arg2:T134	
+R164	located_in Arg1:T66 Arg2:T67	
+T135	missed_cell_type 1847 1862	erythroid cells
+T136	missed_gene 1840 1845	GlycA
+T137	missed_gene 1835 1839	CD71
+R165	located_in Arg1:T136 Arg2:T135	
+R166	located_in Arg1:T137 Arg2:T135	
+T138	missed_gene 1992 1996	CD16
+T139	corrected_cell_type 1998 2006	monocyte
+R167	located_in Arg1:T71 Arg2:T139	
+R168	located_in Arg1:T138 Arg2:T139	
+R169	located_in Arg1:T71 Arg2:T73	
+R170	located_in Arg1:T138 Arg2:T73	
+R172	located_in Arg1:T85 Arg2:T84	
+R173	located_in Arg1:T85 Arg2:T83	
+R174	located_in Arg1:T95 Arg2:T96	
+R175	located_in Arg1:T98 Arg2:T97	
+R176	located_in Arg1:T99 Arg2:T97	
+T141	missed_gene 2641 2650	Musashi-1
+R177	located_in Arg1:T141 Arg2:T97	
+R178	located_in Arg1:T100 Arg2:T97	
+R179	located_in Arg1:T101 Arg2:T102	
+R180	located_in Arg1:T105 Arg2:T106	
+T142	missed_gene 2879 2883	GABA
+R181	located_in Arg1:T142 Arg2:T106	
+R182	located_in Arg1:T107 Arg2:T109	
+R183	located_in Arg1:T108 Arg2:T109	
+R184	located_in Arg1:T107 Arg2:T110	
+R185	located_in Arg1:T108 Arg2:T110	
+R186	located_in Arg1:T107 Arg2:T111	
+R187	located_in Arg1:T108 Arg2:T111	

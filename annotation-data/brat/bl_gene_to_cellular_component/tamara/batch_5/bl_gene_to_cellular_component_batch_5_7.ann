@@ -98,3 +98,39 @@ T97	gene 3490 3493	p53
 T98	gene 3506 3512	Sema3A
 T99	cellular_component 3536 3542	axonal
 T100	gene 3561 3565	Syb2
+R1	located_in Arg1:T4 Arg2:T5	
+R2	located_in Arg1:T16 Arg2:T15	
+R3	located_in Arg1:T17 Arg2:T15	
+T101	missed_gene 522 528	Lgal-1
+T102	missed_gene 530 533	Vim
+R4	located_in Arg1:T101 Arg2:T18	
+R5	located_in Arg1:T102 Arg2:T18	
+R6	located_in Arg1:T19 Arg2:T18	
+T103	missed_gene 1036 1041	actin
+R7	located_in Arg1:T103 Arg2:T34	
+R8	located_in Arg1:T33 Arg2:T34	
+R9	located_in Arg1:T42 Arg2:T41	
+T104	missed_cellular_component 1292 1299	nuclear
+R10	located_in Arg1:T40 Arg2:T104	
+R11	located_in Arg1:T45 Arg2:T46	
+R12	located_in Arg1:T47 Arg2:T48	
+R13	located_in Arg1:T51 Arg2:T52	
+R14	located_in Arg1:T49 Arg2:T48	
+#1	AnnotatorNotes R14	Okay?
+R15	located_in Arg1:T50 Arg2:T48	
+#2	AnnotatorNotes R15	Okay?
+R16	located_in Arg1:T56 Arg2:T55	
+R17	located_in Arg1:T57 Arg2:T55	
+R18	located_in Arg1:T85 Arg2:T84	
+R19	located_in Arg1:T86 Arg2:T84	
+T105	missed_gene 2928 2955	Cu/Mn-superoxide dismutases
+R20	located_in Arg1:T105 Arg2:T84	
+R21	located_in Arg1:T87 Arg2:T84	
+T106	missed_gene 2981 2984	CAT
+R22	located_in Arg1:T106 Arg2:T84	
+T107	missed_gene 2990 3013	glutathione peroxidases
+R23	located_in Arg1:T107 Arg2:T84	
+T108	missed_gene 3015 3018	GPx
+R24	located_in Arg1:T108 Arg2:T84	
+R25	located_in Arg1:T88 Arg2:T84	
+R26	located_in Arg1:T89 Arg2:T84	

@@ -95,3 +95,56 @@ T94	gene 2842 2853	adiponectin
 T95	anatomical_site 2877 2881	male
 T96	gene 2913 2922	TNF-alpha
 T97	gene 2924 2928	IL-6
+T98	corrected_anatomical_site 609 620	lung tissue
+R1	located_in Arg1:T21 Arg2:T98	
+T99	missed_gene 659 680	Avidin-like LOC431660
+T100	missed_gene 682 687	THRSP
+T101	missed_gene 689 693	GATM
+T102	missed_gene 695 700	GGACT
+R2	located_in Arg1:T99 Arg2:T25	
+R3	located_in Arg1:T100 Arg2:T25	
+R4	located_in Arg1:T101 Arg2:T25	
+R5	located_in Arg1:T102 Arg2:T25	
+R6	located_in Arg1:T22 Arg2:T25	
+R7	located_in Arg1:T23 Arg2:T25	
+R8	located_in Arg1:T24 Arg2:T25	
+R9	located_in Arg1:T99 Arg2:T26	
+R10	located_in Arg1:T100 Arg2:T26	
+R11	located_in Arg1:T101 Arg2:T26	
+R12	located_in Arg1:T102 Arg2:T26	
+R13	located_in Arg1:T22 Arg2:T26	
+R14	located_in Arg1:T23 Arg2:T26	
+R15	located_in Arg1:T24 Arg2:T26	
+T103	corrected_anatomical_site 1004 1010;1021 1027	breast tissue
+T104	missed_gene 963 971	ferritin
+R17	located_in Arg1:T104 Arg2:T103	
+R18	located_in Arg1:T36 Arg2:T103	
+R19	located_in Arg1:T37 Arg2:T103	
+R20	located_in Arg1:T41 Arg2:T42	
+R21	located_in Arg1:T41 Arg2:T43	
+R22	located_in Arg1:T44 Arg2:T45	
+R23	located_in Arg1:T46 Arg2:T47	
+R24	located_in Arg1:T48 Arg2:T49	
+R25	located_in Arg1:T52 Arg2:T51	
+R26	located_in Arg1:T53 Arg2:T51	
+T105	corrected_anatomical_site 1900 1916;1932 1939	yolk sac tissues embryos
+R27	located_in Arg1:T59 Arg2:T105	
+T106	corrected_anatomical_site 2128 2146	brain-spinal fluid
+R28	located_in Arg1:T69 Arg2:T70	
+R29	located_in Arg1:T69 Arg2:T106	
+R30	located_in Arg1:T69 Arg2:T72	
+R31	located_in Arg1:T69 Arg2:T73	
+R32	located_in Arg1:T69 Arg2:T74	
+T107	corrected_gene 2241 2255	ETB1 receptors
+T108	corrected_gene 2300 2314	ETB2 receptors
+R33	located_in Arg1:T107 Arg2:T76	
+R34	located_in Arg1:T107 Arg2:T77	
+R35	located_in Arg1:T108 Arg2:T79	
+T109	missed_gene 2358 2362	CD80
+R36	located_in Arg1:T109 Arg2:T80	
+T110	missed_gene 2435 2440	CTLA4
+R37	located_in Arg1:T110 Arg2:T82	
+T111	corrected_gene 2490 2497	albumin
+T112	missed_anatomical_site 2484 2489	serum
+R38	located_in Arg1:T111 Arg2:T112	
+R39	located_in Arg1:T18 Arg2:T98	

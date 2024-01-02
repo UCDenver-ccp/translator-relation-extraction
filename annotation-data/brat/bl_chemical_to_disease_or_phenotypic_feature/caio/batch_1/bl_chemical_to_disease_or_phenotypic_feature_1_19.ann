@@ -51,12 +51,8 @@ T50	chemical 2657 2681	isosorbide 5-mononitrate
 T51	disease_or_phenotypic_feature 2711 2726	cardiac failure
 T52	chemical 2745 2752	antigen
 T53	disease_or_phenotypic_feature 2793 2802	malignant
-T54	missed_chemical 124 127	IFP
-T55	missed_disease_or_phenotypic_feature 450 457	hypoxia
-T56	missed_chemical 526 531	BRCA1
 T57	missed_disease_or_phenotypic_feature 620 628	diabetic
 T58	corrected_disease_or_phenotypic_feature 687 713	nuclear sclerotic cataract
-T59	corrected_chemical 584 616	Lower intraocular oxygen tension
 T60	missed_chemical 785 789	TAMA
 T61	missed_disease_or_phenotypic_feature 800 823	murine Lewis lung tumor
 T62	missed_chemical 929 933	CLAs
@@ -67,18 +63,43 @@ T63	corrected_disease_or_phenotypic_feature 1148 1189	Obstructive sleep apnea-hy
 T64	missed_disease_or_phenotypic_feature 1191 1196	OSAHS
 T65	missed_chemical 1406 1411	HighP
 T66	chemical 1432 1436	LowP
-T67	corrected_disease_or_phenotypic_feature 1660 1684	Estrogen-related cancers
 T69	corrected_chemical 2102 2134	nicotinamide-mediated cord blood
-T70	corrected_chemical 2236 2266	high-flow nasal cannula oxygen
-R5	treats Arg1:T70 Arg2:T39	
-T71	corrected_chemical 2336 2375	VPS33B negatively modulated by nicotine
 T72	missed_chemical 2508 2520	Chromogranin
 T73	missed_disease_or_phenotypic_feature 2757 2770	herpes zoster
 T74	DONE 2814 2818	DONE
 R8	causes_or_contributes_to Arg1:T22 Arg2:T20	
 R9	causes_or_contributes_to Arg1:T22 Arg2:T21	
-R10	causes_or_contributes_to Arg1:T31 Arg2:T67	
 R1	treats Arg1:T62 Arg2:T17	
 R11	treats Arg1:T62 Arg2:T18	
 R12	treats Arg1:T62 Arg2:T19	
-T68	corrected_chemical 2336 2342	VPS33B
+R6	causes_or_contributes_to Arg1:T31 Arg2:T32	
+R10	treats Arg1:T50 Arg2:T51	
+R13	treats Arg1:T49 Arg2:T51	
+T75	corrected_chemical 1522 1526	drug
+R15	treats Arg1:T75 Arg2:T30	
+T76	corrected_chemical 2489 2507	drug combinations.
+R14	treats Arg1:T76 Arg2:T42	
+T77	missed_chemical 2463 2475	chemotherapy
+R16	treats Arg1:T77 Arg2:T42	
+R17	treats Arg1:T38 Arg2:T39	
+R5	causes_or_contributes_to Arg1:T33 Arg2:T32	
+T55	corrected_disease_or_phenotypic_feature 210 247	gastrointestinal adenocarcinoma tumor
+R18	treats Arg1:T2 Arg2:T55	
+T56	missed_disease_or_phenotypic_feature 153 158	tumor
+T67	corrected_chemical 22 50	cytotoxic biological therapy
+R19	treats Arg1:T67 Arg2:T55	
+R20	treats Arg1:T67 Arg2:T56	
+T70	missed_disease_or_phenotypic_feature 177 184	Colo205
+T78	missed_disease_or_phenotypic_feature 186 195	MiaPaca-2
+R21	treats Arg1:T2 Arg2:T78	
+R22	treats Arg1:T2 Arg2:T70	
+R23	treats Arg1:T2 Arg2:T56	
+R24	treats Arg1:T67 Arg2:T70	
+R25	treats Arg1:T67 Arg2:T78	
+T54	missed_chemical 825 892	Fatty acids containing conjugated carbon-carbon double bonds (C═Cs)
+R26	treats Arg1:T54 Arg2:T19	
+R27	treats Arg1:T54 Arg2:T17	
+R28	treats Arg1:T54 Arg2:T18	
+R7	treats Arg1:T47 Arg2:T48	
+R29	treats Arg1:T7 Arg2:T8	
+R30	causes_or_contributes_to Arg1:T9 Arg2:T58	

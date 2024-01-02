@@ -31,7 +31,6 @@ T30	corrected_disease_or_phenotypic_feature 1791 1810	knee osteoarthritis
 T31	disease_or_phenotypic_feature 1796 1810	osteoarthritis
 T32	corrected_disease_or_phenotypic_feature 1908 1933	Cutaneous Cellular Injury
 T33	disease_or_phenotypic_feature 1927 1933	Injury
-T34	missed_disease_or_phenotypic_feature 1946 1998	Mitochondria-Associated Endoplasmic Reticulum Stress
 T35	chemical 2022 2037	Ginsenoside Rb1
 T36	missed_chemical 2066 2070	DNBS
 T37	disease_or_phenotypic_feature 2129 2136	colitis
@@ -68,10 +67,18 @@ R2	treats Arg1:T26 Arg2:T27
 R3	causes_or_contributes_to Arg1:T9 Arg2:T11
 R4	causes_or_contributes_to Arg1:T36 Arg2:T37
 R5	treats Arg1:T35 Arg2:T32
-R6	treats Arg1:T35 Arg2:T34
 R7	treats Arg1:T48 Arg2:T50
 R8	treats Arg1:T47 Arg2:T50
 R9	causes_or_contributes_to Arg1:T9 Arg2:T10	
 T66	missed_chemical 868 871	BTZ
 R10	causes_or_contributes_to Arg1:T66 Arg2:T11	
 R11	causes_or_contributes_to Arg1:T66 Arg2:T10	
+T67	missed_chemical 2100 2106	LL-PAP
+R12	treats Arg1:T67 Arg2:T37	
+T68	missed_chemical 1876 1898	Particulate Matter 2.5
+R6	causes_or_contributes_to Arg1:T68 Arg2:T32	
+T34	corrected_chemical 2539 2555;2560 2561	Salvianolic acid B
+R13	treats Arg1:T34 Arg2:T50	
+T69	missed_chemical 3322 3350	Xixian Tongshuan Preparation
+T70	corrected_disease_or_phenotypic_feature 3421 3436	ischemic stroke
+R14	treats Arg1:T69 Arg2:T70	

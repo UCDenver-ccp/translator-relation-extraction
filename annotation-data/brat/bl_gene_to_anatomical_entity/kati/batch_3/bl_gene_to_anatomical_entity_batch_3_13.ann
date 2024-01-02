@@ -108,3 +108,78 @@ T107	anatomical_site 3113 3128	basal forebrain
 T108	gene 3242 3273	glial fibrillary acidic protein
 T109	anatomical_site 3286 3305	submandibular gland
 T110	anatomical_site 3327 3341	salivary gland
+T111	missed_anatomical_site 366 373	retinal
+R1	located_in Arg1:T8 Arg2:T111	
+R2	located_in Arg1:T9 Arg2:T10	
+R3	located_in Arg1:T11 Arg2:T13	
+R4	located_in Arg1:T12 Arg2:T13	
+R5	located_in Arg1:T11 Arg2:T14	
+R6	located_in Arg1:T12 Arg2:T14	
+T112	corrected_anatomical_site 584 602	retinal epithelium
+R7	located_in Arg1:T15 Arg2:T16	
+R8	located_in Arg1:T15 Arg2:T112	
+R9	located_in Arg1:T15 Arg2:T18	
+T113	corrected_gene 937 943	S-100B
+T114	missed_gene 945 968	neuron-specific enolase
+T115	missed_gene 970 973	NSE
+T116	missed_anatomical_site 976 982	myelin
+R10	located_in Arg1:T32 Arg2:T116	
+R11	located_in Arg1:T33 Arg2:T116	
+R12	located_in Arg1:T113 Arg2:T36	
+R13	located_in Arg1:T113 Arg2:T37	
+T117	missed_anatomical_site 1070 1073	CSF
+R14	located_in Arg1:T113 Arg2:T117	
+R15	located_in Arg1:T114 Arg2:T36	
+R16	located_in Arg1:T114 Arg2:T117	
+R17	located_in Arg1:T114 Arg2:T37	
+R18	located_in Arg1:T115 Arg2:T36	
+R19	located_in Arg1:T115 Arg2:T117	
+R20	located_in Arg1:T115 Arg2:T37	
+R21	located_in Arg1:T32 Arg2:T36	
+R22	located_in Arg1:T32 Arg2:T117	
+R23	located_in Arg1:T32 Arg2:T37	
+R24	located_in Arg1:T33 Arg2:T36	
+R25	located_in Arg1:T33 Arg2:T117	
+R26	located_in Arg1:T33 Arg2:T37	
+R27	located_in Arg1:T34 Arg2:T36	
+R28	located_in Arg1:T34 Arg2:T117	
+R29	located_in Arg1:T34 Arg2:T37	
+R30	located_in Arg1:T35 Arg2:T36	
+R31	located_in Arg1:T35 Arg2:T117	
+R32	located_in Arg1:T35 Arg2:T37	
+T118	missed_anatomical_site 1188 1207	posterior pituitary
+R33	located_in Arg1:T38 Arg2:T40	
+R34	located_in Arg1:T39 Arg2:T40	
+R35	located_in Arg1:T38 Arg2:T118	
+R36	located_in Arg1:T39 Arg2:T118	
+R38	located_in Arg1:T41 Arg2:T43	
+R37	located_in Arg1:T46 Arg2:T45	
+R39	located_in Arg1:T47 Arg2:T50	
+R40	located_in Arg1:T48 Arg2:T50	
+R41	located_in Arg1:T49 Arg2:T50	
+R42	located_in Arg1:T58 Arg2:T57	
+T119	corrected_anatomical_site 1875 1890	arterial tissue
+R43	located_in Arg1:T62 Arg2:T119	
+R44	located_in Arg1:T81 Arg2:T80	
+T120	corrected_anatomical_site 2439 2450	breast milk
+R45	located_in Arg1:T82 Arg2:T120	
+R46	located_in Arg1:T88 Arg2:T86	
+R47	located_in Arg1:T89 Arg2:T86	
+R48	located_in Arg1:T88 Arg2:T87	
+R49	located_in Arg1:T89 Arg2:T87	
+R50	located_in Arg1:T90 Arg2:T92	
+R51	located_in Arg1:T91 Arg2:T92	
+R52	located_in Arg1:T95 Arg2:T94	
+R53	located_in Arg1:T96 Arg2:T94	
+R54	located_in Arg1:T97 Arg2:T94	
+R55	located_in Arg1:T98 Arg2:T94	
+R56	located_in Arg1:T99 Arg2:T102	
+R57	located_in Arg1:T100 Arg2:T102	
+T121	missed_gene 3003 3007	Gβ5S
+R58	located_in Arg1:T121 Arg2:T102	
+T122	missed_gene 3224 3237	S-100 protein
+T124	corrected_anatomical_site 3327 3349	salivary gland tissues
+R59	located_in Arg1:T122 Arg2:T109	
+R60	located_in Arg1:T122 Arg2:T124	
+R61	located_in Arg1:T108 Arg2:T109	
+R62	located_in Arg1:T108 Arg2:T124	

@@ -75,3 +75,5 @@ T63	missed_chemical 2921 2931	medication
 R12	treats Arg1:T63 Arg2:T50	
 R13	treats Arg1:T63 Arg2:T62	
 R14	treats Arg1:T28 Arg2:T61	
+T64	missed_disease_or_phenotypic_feature 2470 2486	renal protection
+R15	causes_or_contributes_to Arg1:T42 Arg2:T64	

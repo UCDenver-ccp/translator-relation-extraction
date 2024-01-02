@@ -107,3 +107,79 @@ T106	gene 3128 3132	AQP8
 T107	anatomical_site 3170 3185	piriform cortex
 T108	anatomical_site 3203 3214	hippocampus
 T109	anatomical_site 3219 3234	dorsal thalamus
+T110	corrected_anatomical_site 156 171	hippocampal CA1
+T111	missed_gene 124 129	MRF-1
+R1	located_in Arg1:T1 Arg2:T110	
+R2	located_in Arg1:T2 Arg2:T110	
+R3	located_in Arg1:T3 Arg2:T110	
+R4	located_in Arg1:T4 Arg2:T110	
+R5	located_in Arg1:T111 Arg2:T110	
+T116	corrected_anatomical_site 796 806	tooth germ
+T117	corrected_anatomical_site 690 704	embryos tissue
+R14	located_in Arg1:T25 Arg2:T117	
+R15	located_in Arg1:T28 Arg2:T116	
+T118	corrected_anatomical_site 879 890	lung tissue
+R16	located_in Arg1:T30 Arg2:T118	
+T119	corrected_gene 932 946	CD11b integrin
+R17	located_in Arg1:T119 Arg2:T36	
+T120	missed_anatomical_site 1030 1040	myocardial
+R18	located_in Arg1:T119 Arg2:T120	
+T121	missed_anatomical_site 1417 1426	cutaneous
+R19	located_in Arg1:T46 Arg2:T121	
+R20	located_in Arg1:T47 Arg2:T121	
+R21	located_in Arg1:T46 Arg2:T48	
+R22	located_in Arg1:T47 Arg2:T48	
+R23	located_in Arg1:T52 Arg2:T53	
+R24	located_in Arg1:T54 Arg2:T56	
+R25	located_in Arg1:T55 Arg2:T56	
+R26	located_in Arg1:T57 Arg2:T59	
+R27	located_in Arg1:T57 Arg2:T60	
+R28	located_in Arg1:T58 Arg2:T59	
+R29	located_in Arg1:T58 Arg2:T60	
+T122	corrected_anatomical_site 1908 1913;1920 1930	nasal epithelium
+R30	located_in Arg1:T61 Arg2:T122	
+R31	located_in Arg1:T62 Arg2:T122	
+T123	missed_gene 2228 2235	ChREBPβ
+R32	located_in Arg1:T123 Arg2:T72	
+T124	missed_gene 2359 2365	Rictor
+R33	located_in Arg1:T124 Arg2:T75	
+R34	located_in Arg1:T78 Arg2:T82	
+R35	located_in Arg1:T78 Arg2:T83	
+R36	located_in Arg1:T79 Arg2:T82	
+R37	located_in Arg1:T79 Arg2:T83	
+R38	located_in Arg1:T80 Arg2:T82	
+R39	located_in Arg1:T80 Arg2:T83	
+R40	located_in Arg1:T81 Arg2:T82	
+R41	located_in Arg1:T81 Arg2:T83	
+T125	missed_gene 2566 2569	CRP
+R42	located_in Arg1:T125 Arg2:T82	
+R43	located_in Arg1:T125 Arg2:T83	
+R44	located_in Arg1:T84 Arg2:T86	
+R45	located_in Arg1:T85 Arg2:T86	
+R46	located_in Arg1:T89 Arg2:T87	
+R47	located_in Arg1:T90 Arg2:T87	
+R48	located_in Arg1:T91 Arg2:T87	
+T126	missed_gene 2850 2853	IgM
+R49	located_in Arg1:T126 Arg2:T87	
+R50	located_in Arg1:T92 Arg2:T87	
+R51	located_in Arg1:T93 Arg2:T87	
+T127	missed_gene 2876 2880	BTLA
+R52	located_in Arg1:T127 Arg2:T87	
+R53	located_in Arg1:T94 Arg2:T87	
+R54	located_in Arg1:T95 Arg2:T87	
+R55	located_in Arg1:T96 Arg2:T87	
+R56	located_in Arg1:T98 Arg2:T97	
+R57	located_in Arg1:T99 Arg2:T97	
+T128	missed_anatomical_site 3187 3201	choroid plexus
+R58	located_in Arg1:T104 Arg2:T107	
+R59	located_in Arg1:T104 Arg2:T128	
+R60	located_in Arg1:T104 Arg2:T108	
+R61	located_in Arg1:T104 Arg2:T109	
+R62	located_in Arg1:T105 Arg2:T107	
+R63	located_in Arg1:T105 Arg2:T128	
+R64	located_in Arg1:T105 Arg2:T108	
+R65	located_in Arg1:T105 Arg2:T109	
+R66	located_in Arg1:T106 Arg2:T107	
+R67	located_in Arg1:T106 Arg2:T128	
+R68	located_in Arg1:T106 Arg2:T108	
+R69	located_in Arg1:T106 Arg2:T109	

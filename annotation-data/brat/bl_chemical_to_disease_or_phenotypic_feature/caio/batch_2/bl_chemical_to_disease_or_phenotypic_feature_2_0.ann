@@ -66,11 +66,13 @@ T66	chemical 2572 2579	antigen
 T67	disease_or_phenotypic_feature 2590 2598	melanoma
 T68	chemical 2622 2630	antigens
 T69	missed_chemical 185 188	GPC
-R1	causes_or_contributes_to Arg1:T69 Arg2:T3	
-R2	causes_or_contributes_to Arg1:T6 Arg2:T3	
 T70	missed_disease_or_phenotypic_feature 463 494	gastrointestinal stromal tumour
 R5	treats Arg1:T13 Arg2:T70	
-T71	missed_disease_or_phenotypic_feature 602 618	iver dysfunction
+The peak value at delta = 3.20 ppm is on a marked increase during the formation of cataract which is caused by the phosphate metabolites, such as GPC, ATP, ... etc, in cataract lens.
+ in the MDA-MB-231 tumor lineage indicates new pathways involved in tumor biology and this may have therapeutic value for cancer.
+Congestive heart failure in a 77-year-old woman receiving adjuvant treatment with imatinib for a large gastric gastrointestinal stromal tumour.
+Evolution of cataract surgery anesthesia.
+On admission, she showed HBs antigen positive, mild anemia and liv
 T72	corrected_chemical 665 681	COX-2 inhibitors
 T73	missed_disease_or_phenotypic_feature 688 704	sodium retention
 R4	causes_or_contributes_to Arg1:T72 Arg2:T73	
@@ -83,32 +85,33 @@ R10	causes_or_contributes_to Arg1:T23 Arg2:T25
 T75	missed_disease_or_phenotypic_feature 1082 1098	endocrinopathies
 T76	missed_disease_or_phenotypic_feature 1100 1122	granulomatous diseases
 T77	missed_chemical 1205 1212	lithium
-R11	causes_or_contributes_to Arg1:T34 Arg2:T76	
-R12	causes_or_contributes_to Arg1:T34 Arg2:T75	
-R13	causes_or_contributes_to Arg1:T34 Arg2:T32	
 R14	causes_or_contributes_to Arg1:T34 Arg2:T31	
-R15	causes_or_contributes_to Arg1:T35 Arg2:T76	
-R16	causes_or_contributes_to Arg1:T35 Arg2:T75	
 R17	causes_or_contributes_to Arg1:T35 Arg2:T31	
 R18	causes_or_contributes_to Arg1:T77 Arg2:T31	
-R19	causes_or_contributes_to Arg1:T77 Arg2:T32	
-R20	causes_or_contributes_to Arg1:T77 Arg2:T75	
-R21	causes_or_contributes_to Arg1:T77 Arg2:T76	
 T78	corrected_chemical 1215 1251	Nonsteroidal anti-inflammatory drugs
 R22	causes_or_contributes_to Arg1:T78 Arg2:T39	
 R23	causes_or_contributes_to Arg1:T37 Arg2:T39	
 R24	causes_or_contributes_to Arg1:T38 Arg2:T39	
-R25	causes_or_contributes_to Arg1:T53 Arg2:T52	
-R26	causes_or_contributes_to Arg1:T54 Arg2:T52	
 T79	corrected_chemical 2190 2204	ACE inhibitors
-R27	causes_or_contributes_to Arg1:T66 Arg2:T65	
-R28	causes_or_contributes_to Arg1:T68 Arg2:T67	
 T80	DONE 2707 2711	DONE
 T24	corrected_chemical 154 175	phosphate metabolites
-R3	causes_or_contributes_to Arg1:T24 Arg2:T3	
 T81	missed_disease_or_phenotypic_feature 1646 1652	tumors
 R29	causes_or_contributes_to Arg1:T48 Arg2:T81	
-T82	missed_chemical 1671 1685	tumor extracts
+T82	missed_chemical 1654 1685	Vaccination with tumor extracts
 R30	treats Arg1:T82 Arg2:T50	
 T83	corrected_chemical 2042 2056	tumor antigens
-T84	missed_disease_or_phenotypic_feature 2042 2047	tumor
+T85	missed_disease_or_phenotypic_feature 898 900	HF
+R27	causes_or_contributes_to Arg1:T23 Arg2:T85	
+R31	causes_or_contributes_to Arg1:T13 Arg2:T11	
+R15	treats Arg1:T12 Arg2:T70	
+R16	causes_or_contributes_to Arg1:T12 Arg2:T11	
+T86	corrected_disease_or_phenotypic_feature 1489 1529	spontaneously hypertensive heart failure
+R19	treats Arg1:T43 Arg2:T86	
+T87	missed_disease_or_phenotypic_feature 1531 1535	SHHF
+R20	treats Arg1:T43 Arg2:T87	
+T71	corrected_chemical 1366 1407	sodium-glucose co-transporter-2 inhibitor
+R21	treats Arg1:T71 Arg2:T87	
+R32	treats Arg1:T71 Arg2:T86	
+T84	missed_chemical 2391 2402	medications
+R25	treats Arg1:T84 Arg2:T61	
+R1	causes_or_contributes_to Arg1:T33 Arg2:T31	

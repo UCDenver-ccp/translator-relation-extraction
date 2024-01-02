@@ -105,3 +105,74 @@ T104	gene 3381 3386	MMP-2
 T105	gene 3388 3393	MMP-7
 T106	gene 3405 3411	TIMP-1
 T107	anatomical_site 3429 3434	liver
+T108	corrected_gene 60 85	amyloid precursor protein
+R1	located_in Arg1:T108 Arg2:T2	
+T109	missed_gene 143 169	amyloid precursor proteins
+R2	located_in Arg1:T109 Arg2:T3	
+R3	located_in Arg1:T9 Arg2:T8	
+R4	located_in Arg1:T9 Arg2:T10	
+R5	located_in Arg1:T9 Arg2:T11	
+T110	missed_anatomical_site 427 434	tissues
+R6	located_in Arg1:T9 Arg2:T110	
+T111	corrected_gene 476 498	Cdk5 histone H1 kinase
+R7	located_in Arg1:T111 Arg2:T12	
+R8	located_in Arg1:T111 Arg2:T13	
+T112	missed_gene 613 622	kininogen
+T113	corrected_gene 645 665	alpha-1 anti-trypsin
+R9	located_in Arg1:T17 Arg2:T16	
+R10	located_in Arg1:T112 Arg2:T16	
+R11	located_in Arg1:T18 Arg2:T16	
+R12	located_in Arg1:T19 Arg2:T16	
+R13	located_in Arg1:T113 Arg2:T16	
+R14	located_in Arg1:T22 Arg2:T16	
+T114	corrected_gene 981 991	collagen I
+R15	located_in Arg1:T114 Arg2:T26	
+T115	missed_gene 993 1014	α-smooth muscle actin
+T116	missed_gene 1016 1021	α-SMA
+R16	located_in Arg1:T115 Arg2:T28	
+R17	located_in Arg1:T116 Arg2:T28	
+R18	located_in Arg1:T115 Arg2:T26	
+R19	located_in Arg1:T116 Arg2:T26	
+T117	corrected_gene 1028 1041	fibronectin 1
+R20	located_in Arg1:T117 Arg2:T26	
+R21	located_in Arg1:T30 Arg2:T26	
+R22	located_in Arg1:T33 Arg2:T32	
+T118	corrected_gene 1292 1317	bone alkaline phosphatase
+R23	located_in Arg1:T118 Arg2:T39	
+R24	located_in Arg1:T118 Arg2:T38	
+R25	located_in Arg1:T42 Arg2:T41	
+T119	corrected_anatomical_site 1629 1641	nasal retina
+R26	located_in Arg1:T50 Arg2:T119	
+R27	located_in Arg1:T51 Arg2:T119	
+T121	missed_anatomical_site 1651 1662	VT crescent
+T120	corrected_anatomical_site 1491 1497;1524 1546	retina ipsilateral projection
+R28	located_in Arg1:T48 Arg2:T120	
+R29	located_in Arg1:T49 Arg2:T120	
+R30	located_in Arg1:T50 Arg2:T121	
+R31	located_in Arg1:T51 Arg2:T121	
+R32	located_in Arg1:T59 Arg2:T58	
+R33	located_in Arg1:T60 Arg2:T58	
+R34	located_in Arg1:T73 Arg2:T72	
+T122	missed_gene 2338 2345	proBDNF
+R35	located_in Arg1:T122 Arg2:T72	
+R36	located_in Arg1:T74 Arg2:T72	
+R37	located_in Arg1:T75 Arg2:T72	
+T123	corrected_anatomical_site 2617 2627;2639 2675	epithelium of extraovarian endometriosis tissue
+T124	corrected_anatomical_site 2632 2675	stroma of extraovarian endometriosis tissue
+R38	located_in Arg1:T82 Arg2:T123	
+R39	located_in Arg1:T82 Arg2:T124	
+R40	located_in Arg1:T83 Arg2:T123	
+R41	located_in Arg1:T83 Arg2:T124	
+T125	corrected_gene 3185 3218	vascular cell adhesion molecule-1
+R42	located_in Arg1:T125 Arg2:T98	
+R43	located_in Arg1:T125 Arg2:T97	
+R44	located_in Arg1:T100 Arg2:T97	
+R45	located_in Arg1:T101 Arg2:T97	
+R46	located_in Arg1:T103 Arg2:T107	
+R47	located_in Arg1:T104 Arg2:T107	
+R48	located_in Arg1:T105 Arg2:T107	
+T126	missed_gene 3395 3399	NGAL
+R49	located_in Arg1:T126 Arg2:T107	
+R50	located_in Arg1:T106 Arg2:T107	
+T127	corrected_gene 1344 1386	type I collagen cross-linked N-telopeptide
+R51	located_in Arg1:T127 Arg2:T43	

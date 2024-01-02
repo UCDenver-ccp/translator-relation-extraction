@@ -111,3 +111,61 @@ T110	gene 2779 2783	Tyk2
 T111	gene 2785 2790	Stat1
 T112	gene 2796 2801	Stat3
 T113	anatomical_site 2834 2840	artery
+R1	located_in Arg1:T13 Arg2:T12	
+R2	located_in Arg1:T15 Arg2:T14	
+R3	located_in Arg1:T17 Arg2:T125	
+T115	corrected_anatomical_site 555 566;572 579	epiblast of embryos
+R4	located_in Arg1:T19 Arg2:T115	
+T116	missed_anatomical_site 1092 1098	saliva
+R5	located_in Arg1:T42 Arg2:T41	
+R6	located_in Arg1:T44 Arg2:T43	
+R7	located_in Arg1:T45 Arg2:T116	
+R8	located_in Arg1:T52 Arg2:T51	
+T117	missed_anatomical_site 1321 1346	immune-associated tissues
+R9	located_in Arg1:T55 Arg2:T117	
+R10	located_in Arg1:T55 Arg2:T53	
+R11	located_in Arg1:T55 Arg2:T54	
+T118	missed_anatomical_site 1605 1617	dermomyotome
+R12	located_in Arg1:T64 Arg2:T118	
+R13	located_in Arg1:T64 Arg2:T65	
+R14	located_in Arg1:T64 Arg2:T66	
+R15	located_in Arg1:T63 Arg2:T65	
+R16	located_in Arg1:T63 Arg2:T66	
+R17	located_in Arg1:T71 Arg2:T70	
+R18	located_in Arg1:T72 Arg2:T70	
+R19	located_in Arg1:T73 Arg2:T70	
+T119	corrected_anatomical_site 1859 1892	inner nuclear layer of the retina
+R23	located_in Arg1:T71 Arg2:T119	
+R24	located_in Arg1:T72 Arg2:T119	
+R25	located_in Arg1:T73 Arg2:T119	
+T121	missed_anatomical_site 1979 2003	rostral migratory stream
+R26	located_in Arg1:T77 Arg2:T114	
+R27	located_in Arg1:T78 Arg2:T114	
+R28	located_in Arg1:T79 Arg2:T114	
+R29	located_in Arg1:T77 Arg2:T121	
+R30	located_in Arg1:T78 Arg2:T121	
+R31	located_in Arg1:T79 Arg2:T121	
+R32	located_in Arg1:T81 Arg2:T83	
+R33	located_in Arg1:T82 Arg2:T83	
+R34	located_in Arg1:T81 Arg2:T84	
+R35	located_in Arg1:T82 Arg2:T84	
+R36	located_in Arg1:T81 Arg2:T85	
+R37	located_in Arg1:T82 Arg2:T85	
+R38	located_in Arg1:T81 Arg2:T86	
+R39	located_in Arg1:T82 Arg2:T86	
+R40	located_in Arg1:T88 Arg2:T87	
+R41	located_in Arg1:T89 Arg2:T87	
+R42	located_in Arg1:T90 Arg2:T91	
+R43	located_in Arg1:T90 Arg2:T92	
+R44	located_in Arg1:T93 Arg2:T94	
+R45	located_in Arg1:T95 Arg2:T96	
+T122	corrected_anatomical_site 2566 2578	brain tissue
+R46	located_in Arg1:T97 Arg2:T122	
+R47	located_in Arg1:T98 Arg2:T122	
+R48	located_in Arg1:T99 Arg2:T122	
+R49	located_in Arg1:T100 Arg2:T122	
+T123	corrected_anatomical_site 2745 2756	skin tissue
+T124	corrected_gene 2697 2720	collagen type 1 alpha 1
+R50	located_in Arg1:T124 Arg2:T123	
+T114	corrected_anatomical_site 1951 1970	subventricular zone
+T125	corrected_anatomical_site 447 461	maternal blood

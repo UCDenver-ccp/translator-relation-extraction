@@ -77,7 +77,6 @@ R12	treats Arg1:T56 Arg2:T64
 R13	treats Arg1:T56 Arg2:T53
 R14	treats Arg1:T56 Arg2:T63
 R15	treats Arg1:T55 Arg2:T63
-R16	treats Arg1:T55 Arg2:T56
 R17	treats Arg1:T55 Arg2:T61
 R18	treats Arg1:T55 Arg2:T64
 R19	treats Arg1:T55 Arg2:T53
@@ -94,3 +93,5 @@ T68	missed_disease_or_phenotypic_feature 3635 3647	inflammatory
 R26	treats Arg1:T50 Arg2:T68	
 T69	corrected_disease_or_phenotypic_feature 3675 3695	periodontal diseases
 R27	treats Arg1:T50 Arg2:T69	
+R28	treats Arg1:T21 Arg2:T23	
+R29	treats Arg1:T21 Arg2:T24	

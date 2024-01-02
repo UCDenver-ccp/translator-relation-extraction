@@ -14,7 +14,7 @@ T13	chemical 463 469	ligand
 T14	disease_or_phenotypic_feature 483 488	tumor
 T15	disease_or_phenotypic_feature 527 530	PCa
 T16	disease_or_phenotypic_feature 556 561	gland
-T17	chemical 578 592	anticonvulsant
+T17	corrected_chemical 578 598	anticonvulsant drugs
 T18	chemical 601 609	Nicotine
 T19	disease_or_phenotypic_feature 664 679	atherosclerosis
 T20	chemical 710 717	antigen
@@ -62,15 +62,9 @@ T61	chemical 2367 2373	sodium
 T62	disease_or_phenotypic_feature 2402 2415	heart failure
 R1	treats Arg1:T1 Arg2:T3	
 R2	treats Arg1:T2 Arg2:T3	
-T63	missed_disease_or_phenotypic_feature 139 155	oxidative stress
-R3	causes_or_contributes_to Arg1:T5 Arg2:T63	
 T64	missed_disease_or_phenotypic_feature 181 196	steatohepatitis
-R4	treats Arg1:T5 Arg2:T64	
+R4	causes_or_contributes_to Arg1:T5 Arg2:T64	
 T65	missed_disease_or_phenotypic_feature 374 389	cochlear damage
-R5	causes_or_contributes_to Arg1:T10 Arg2:T65	
-R6	causes_or_contributes_to Arg1:T10 Arg2:T11	
-R8	causes_or_contributes_to Arg1:T9 Arg2:T65	
-R9	causes_or_contributes_to Arg1:T9 Arg2:T11	
 T66	missed_chemical 317 330	peroxynitrite
 R11	causes_or_contributes_to Arg1:T66 Arg2:T65	
 R12	causes_or_contributes_to Arg1:T66 Arg2:T11	
@@ -84,19 +78,23 @@ T70	missed_disease_or_phenotypic_feature 1213 1234	acute-phase reactions
 R20	causes_or_contributes_to Arg1:T31 Arg2:T70	
 R21	causes_or_contributes_to Arg1:T35 Arg2:T37	
 R22	causes_or_contributes_to Arg1:T35 Arg2:T38	
-T71	corrected_chemical 1356 1371	anticancer drug
-R23	causes_or_contributes_to Arg1:T71 Arg2:T37	
-R24	causes_or_contributes_to Arg1:T71 Arg2:T38	
 R25	treats Arg1:T41 Arg2:T42	
 R26	treats Arg1:T44 Arg2:T45	
 T72	missed_disease_or_phenotypic_feature 2008 2013	tumor
 T73	missed_chemical 2339 2343	SDNN
-R31	causes_or_contributes_to Arg1:T73 Arg2:T62	
-R32	causes_or_contributes_to Arg1:T60 Arg2:T62	
-R33	causes_or_contributes_to Arg1:T61 Arg2:T62	
 T74	DONE 2423 2427	DONE
 T69	missed_disease_or_phenotypic_feature 1236 1240	APRs
 R10	causes_or_contributes_to Arg1:T31 Arg2:T69	
 T75	missed_disease_or_phenotypic_feature 1418 1420	HF
 R13	causes_or_contributes_to Arg1:T35 Arg2:T75	
-R18	causes_or_contributes_to Arg1:T71 Arg2:T75	
+T63	chemical 578 592	anticonvulsant
+T71	corrected_chemical 1356 1371	anticancer drug
+R3	causes_or_contributes_to Arg1:T71 Arg2:T37	
+R7	causes_or_contributes_to Arg1:T71 Arg2:T38	
+R17	causes_or_contributes_to Arg1:T71 Arg2:T75	
+T76	corrected_chemical 265 280;294 301	Reactive oxygen species
+T77	corrected_chemical 265 273;285 301	Reactive nitrogen species
+R5	causes_or_contributes_to Arg1:T76 Arg2:T65	
+R6	causes_or_contributes_to Arg1:T76 Arg2:T11	
+R8	causes_or_contributes_to Arg1:T77 Arg2:T65	
+R9	causes_or_contributes_to Arg1:T77 Arg2:T11	

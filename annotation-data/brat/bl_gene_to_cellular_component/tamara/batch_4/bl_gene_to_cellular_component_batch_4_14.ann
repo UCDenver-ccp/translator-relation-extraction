@@ -91,3 +91,30 @@ T90	gene 3497 3503	HD-PTP
 T91	gene 3553 3565	EGF receptor
 T92	cellular_component 3569 3578	lysosomes
 T93	cellular_component 3633 3642	endosomal
+R1	located_in Arg1:T34 Arg2:T33	
+R2	located_in Arg1:T35 Arg2:T33	
+R3	located_in Arg1:T47 Arg2:T48	
+R4	located_in Arg1:T61 Arg2:T60	
+T94	corrected_gene 2580 2612	ephrin-B2-β-galactosidase fusion
+R5	located_in Arg1:T73 Arg2:T72	
+R6	located_in Arg1:T94 Arg2:T70	
+T95	missed_gene 2861 2866	actin
+T96	missed_gene 2872 2881	hemopexin
+R7	located_in Arg1:T75 Arg2:T74	
+R8	located_in Arg1:T95 Arg2:T74	
+R9	located_in Arg1:T96 Arg2:T74	
+R10	located_in Arg1:T79 Arg2:T78	
+#1	AnnotatorNotes R10	Okay?
+R11	located_in Arg1:T85 Arg2:T84	
+T97	corrected_cellular_component 3434 3456	intracellular vesicles
+R12	located_in Arg1:T86 Arg2:T97	
+R13	located_in Arg1:T86 Arg2:T89	
+R14	located_in Arg1:T91 Arg2:T92	
+T98	missed_cellular_component 2886 2892	plasma
+#2	AnnotatorNotes T98	okay?
+T99	missed_gene 2911 2926	apolipoproteins
+T100	missed_gene 2928 2934	lectin
+R15	located_in Arg1:T99 Arg2:T98	
+R16	located_in Arg1:T100 Arg2:T98	
+R17	located_in Arg1:T76 Arg2:T98	
+R18	located_in Arg1:T77 Arg2:T98	

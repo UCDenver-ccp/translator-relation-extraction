@@ -128,3 +128,97 @@ T127	gene 3368 3375	VEGFR-2
 T128	gene 3391 3396	TSP-1
 T129	anatomical_site 3431 3437	soleus
 T130	anatomical_site 3447 3456	plantaris
+R1	located_in Arg1:T43 Arg2:T44	
+T131	missed_gene 1223 1225	IR
+R2	located_in Arg1:T131 Arg2:T50	
+R3	located_in Arg1:T131 Arg2:T51	
+R4	located_in Arg1:T131 Arg2:T52	
+R5	located_in Arg1:T49 Arg2:T50	
+R6	located_in Arg1:T49 Arg2:T51	
+R7	located_in Arg1:T49 Arg2:T52	
+R8	located_in Arg1:T63 Arg2:T65	
+R9	located_in Arg1:T62 Arg2:T65	
+R10	located_in Arg1:T64 Arg2:T65	
+R11	located_in Arg1:T102 Arg2:T103	
+T132	corrected_gene 2608 2614	PPAR-?
+R12	located_in Arg1:T132 Arg2:T103	
+R13	located_in Arg1:T99 Arg2:T103	
+R14	located_in Arg1:T100 Arg2:T103	
+T133	missed_gene 2593 2596	FAS
+R15	located_in Arg1:T133 Arg2:T103	
+R16	located_in Arg1:T74 Arg2:T75	
+R17	located_in Arg1:T83 Arg2:T84	
+T134	missed_gene 2141 2162	glucose transporter-4
+R18	located_in Arg1:T134 Arg2:T84	
+T135	missed_gene 2113 2116	PKB
+T136	missed_gene 2118 2139	glucose transporter-1
+R19	located_in Arg1:T136 Arg2:T84	
+R20	located_in Arg1:T135 Arg2:T84	
+R21	located_in Arg1:T82 Arg2:T84	
+T137	corrected_gene 2032 2076	peroxisome proliferator-activated receptor-?
+T138	missed_gene 2078 2107	phosphatidylinositol-3-kinase
+T139	corrected_gene 1924 1952	AMP-activated protein kinase
+R22	located_in Arg1:T139 Arg2:T84	
+R23	located_in Arg1:T78 Arg2:T84	
+R24	located_in Arg1:T79 Arg2:T84	
+R25	located_in Arg1:T80 Arg2:T84	
+R26	located_in Arg1:T137 Arg2:T84	
+R27	located_in Arg1:T138 Arg2:T84	
+R28	located_in Arg1:T86 Arg2:T87	
+T140	corrected_gene 2206 2229	glucagon-like peptide 1
+R29	located_in Arg1:T140 Arg2:T87	
+R30	located_in Arg1:T93 Arg2:T98	
+R31	located_in Arg1:T94 Arg2:T98	
+R32	located_in Arg1:T95 Arg2:T98	
+R33	located_in Arg1:T97 Arg2:T98	
+R34	located_in Arg1:T91 Arg2:T98	
+R35	located_in Arg1:T90 Arg2:T98	
+T141	corrected_gene 2353 2372	fatty acid synthase
+T142	missed_gene 2374 2377	FAS
+R36	located_in Arg1:T142 Arg2:T98	
+R37	located_in Arg1:T141 Arg2:T98	
+R38	located_in Arg1:T89 Arg2:T98	
+R39	located_in Arg1:T88 Arg2:T98	
+T143	corrected_gene 2487 2493	PPAR-?
+R40	located_in Arg1:T143 Arg2:T98	
+R41	located_in Arg1:T105 Arg2:T104	
+R42	located_in Arg1:T106 Arg2:T104	
+R43	located_in Arg1:T107 Arg2:T104	
+R44	located_in Arg1:T108 Arg2:T104	
+R45	located_in Arg1:T108 Arg2:T109	
+R46	located_in Arg1:T107 Arg2:T109	
+R47	located_in Arg1:T106 Arg2:T109	
+R48	located_in Arg1:T105 Arg2:T109	
+R49	located_in Arg1:T111 Arg2:T112	
+R50	located_in Arg1:T110 Arg2:T112	
+T144	corrected_anatomical_site 3038 3053	vascular tissue
+R51	located_in Arg1:T114 Arg2:T144	
+T145	missed_gene 2666 2675	connexins
+R52	located_in Arg1:T145 Arg2:T104	
+R53	located_in Arg1:T145 Arg2:T109	
+R54	located_in Arg1:T111 Arg2:T113	
+R55	located_in Arg1:T110 Arg2:T113	
+R56	located_in Arg1:T115 Arg2:T144	
+R57	located_in Arg1:T116 Arg2:T144	
+R58	located_in Arg1:T117 Arg2:T144	
+T146	missed_gene 2960 2977	connexin proteins
+R59	located_in Arg1:T146 Arg2:T144	
+T147	missed_gene 2979 2982	Cxs
+R60	located_in Arg1:T147 Arg2:T144	
+T148	corrected_anatomical_site 3161 3170;3189 3196	plantaris muscles
+T149	corrected_anatomical_site 3153 3159;3189 3196	soleus muscles
+R61	located_in Arg1:T120 Arg2:T149	
+R62	located_in Arg1:T120 Arg2:T148	
+R63	located_in Arg1:T120 Arg2:T123	
+R64	located_in Arg1:T124 Arg2:T126	
+T150	corrected_anatomical_site 3274 3280;3299 3306	soleus muscles
+R65	located_in Arg1:T124 Arg2:T150	
+T151	corrected_anatomical_site 3447 3464	plantaris muscles
+T152	corrected_anatomical_site 3431 3437;3457 3464	soleus muscles
+R66	located_in Arg1:T127 Arg2:T152	
+R67	located_in Arg1:T128 Arg2:T152	
+R68	located_in Arg1:T127 Arg2:T151	
+R69	located_in Arg1:T128 Arg2:T151	
+T153	missed_anatomical_site 839 844	brain
+R70	located_in Arg1:T34 Arg2:T153	
+R71	located_in Arg1:T33 Arg2:T153	

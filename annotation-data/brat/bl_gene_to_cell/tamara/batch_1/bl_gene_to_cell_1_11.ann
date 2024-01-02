@@ -144,3 +144,197 @@ T143	gene 3643 3648	IL-10
 T144	gene 3702 3707	TIP39
 T145	gene 3712 3720	tuftelin
 T146	cell_type 3733 3743	ameloblast
+R1	located_in Arg1:T3 Arg2:T2	
+R2	located_in Arg1:T10 Arg2:T9	
+T147	missed_gene 319 323	CD25
+T148	missed_gene 315 318	CD4
+R3	located_in Arg1:T13 Arg2:T14	
+R4	located_in Arg1:T147 Arg2:T14	
+R5	located_in Arg1:T148 Arg2:T14	
+R6	located_in Arg1:T17 Arg2:T19	
+R7	located_in Arg1:T18 Arg2:T19	
+R8	located_in Arg1:T20 Arg2:T19	
+T149	missed_gene 478 487	IFN-gamma
+R9	located_in Arg1:T149 Arg2:T19	
+R10	located_in Arg1:T23 Arg2:T24	
+R11	located_in Arg1:T23 Arg2:T25	
+R12	located_in Arg1:T23 Arg2:T26	
+R13	located_in Arg1:T27 Arg2:T30	
+R14	located_in Arg1:T28 Arg2:T31	
+T150	missed_gene 654 659	CD117
+R15	located_in Arg1:T150 Arg2:T32	
+R16	located_in Arg1:T29 Arg2:T33	
+R17	located_in Arg1:T34 Arg2:T35	
+R18	located_in Arg1:T34 Arg2:T36	
+T151	corrected_gene 775 778;781 782	TLR 2
+T152	corrected_gene 775 778;787 788	TLR 4
+R19	located_in Arg1:T151 Arg2:T35	
+R20	located_in Arg1:T151 Arg2:T36	
+R21	located_in Arg1:T152 Arg2:T35	
+R22	located_in Arg1:T152 Arg2:T36	
+R23	located_in Arg1:T38 Arg2:T37	
+R24	located_in Arg1:T40 Arg2:T39	
+R25	located_in Arg1:T42 Arg2:T41	
+R26	located_in Arg1:T44 Arg2:T43	
+R27	located_in Arg1:T45 Arg2:T43	
+T153	missed_gene 1107 1111	IL-1
+R28	located_in Arg1:T153 Arg2:T43	
+R29	located_in Arg1:T46 Arg2:T43	
+R30	located_in Arg1:T47 Arg2:T43	
+R31	located_in Arg1:T49 Arg2:T48	
+R32	located_in Arg1:T50 Arg2:T48	
+R33	located_in Arg1:T51 Arg2:T48	
+T154	missed_gene 1215 1219	CD30
+R34	located_in Arg1:T154 Arg2:T52	
+R35	located_in Arg1:T53 Arg2:T54	
+R36	located_in Arg1:T56 Arg2:T57	
+T155	missed_gene 1287 1292	CD127
+R37	located_in Arg1:T155 Arg2:T57	
+R38	located_in Arg1:T55 Arg2:T57	
+T156	missed_gene 1397 1401	TUJ1
+R39	located_in Arg1:T156 Arg2:T59	
+R40	located_in Arg1:T156 Arg2:T58	
+T157	missed_gene 1541 1548	enolase
+R41	located_in Arg1:T157 Arg2:T63	
+R42	located_in Arg1:T157 Arg2:T65	
+R43	located_in Arg1:T64 Arg2:T65	
+R44	located_in Arg1:T60 Arg2:T65	
+R45	located_in Arg1:T61 Arg2:T65	
+T158	missed_gene 1476 1523	200 kilodalton isoform of neurofilament protein
+R46	located_in Arg1:T158 Arg2:T65	
+R47	located_in Arg1:T68 Arg2:T69	
+R48	located_in Arg1:T71 Arg2:T72	
+R49	located_in Arg1:T71 Arg2:T73	
+R50	located_in Arg1:T71 Arg2:T74	
+T159	missed_gene 1863 1867	NeuN
+R51	located_in Arg1:T159 Arg2:T77	
+R52	located_in Arg1:T75 Arg2:T78	
+R53	located_in Arg1:T76 Arg2:T79	
+T160	corrected_cell_type 2010 2032	monocyte-derived cells
+T161	missed_gene 1990 1995	MMP12
+R54	located_in Arg1:T161 Arg2:T160	
+T162	corrected_cell_type 2112 2134	monocyte-derived cells
+T163	missed_gene 2177 2182	MMP12
+R55	located_in Arg1:T163 Arg2:T162	
+R56	located_in Arg1:T85 Arg2:T86	
+R57	located_in Arg1:T91 Arg2:T90	
+R58	located_in Arg1:T92 Arg2:T90	
+R59	located_in Arg1:T93 Arg2:T90	
+T164	corrected_cell_type 2531 2568	monocyte-derived multipotential cells
+T165	missed_cell_type 2570 2575	MOMCs
+T166	corrected_cell_type 2580 2620	monocyte-derived mesenchymal progenitors
+R60	located_in Arg1:T96 Arg2:T164	
+R61	located_in Arg1:T96 Arg2:T165	
+R62	located_in Arg1:T96 Arg2:T166	
+R63	located_in Arg1:T97 Arg2:T164	
+R64	located_in Arg1:T97 Arg2:T165	
+R65	located_in Arg1:T97 Arg2:T166	
+R66	located_in Arg1:T98 Arg2:T164	
+R67	located_in Arg1:T98 Arg2:T165	
+R68	located_in Arg1:T98 Arg2:T166	
+T167	corrected_gene 2652 2657	Col I
+R69	located_in Arg1:T167 Arg2:T164	
+R70	located_in Arg1:T167 Arg2:T165	
+R71	located_in Arg1:T167 Arg2:T166	
+R72	located_in Arg1:T100 Arg2:T164	
+R73	located_in Arg1:T100 Arg2:T165	
+R74	located_in Arg1:T100 Arg2:T166	
+R75	located_in Arg1:T101 Arg2:T164	
+R76	located_in Arg1:T101 Arg2:T165	
+R77	located_in Arg1:T101 Arg2:T166	
+T168	missed_gene 2684 2689	CD105
+R78	located_in Arg1:T168 Arg2:T164	
+R79	located_in Arg1:T168 Arg2:T165	
+R80	located_in Arg1:T168 Arg2:T166	
+R81	located_in Arg1:T102 Arg2:T164	
+R82	located_in Arg1:T102 Arg2:T165	
+R83	located_in Arg1:T102 Arg2:T166	
+T169	missed_cell_type 2712 2746	early endothelial progenitor cells
+T170	corrected_cell_type 2757 2801	monocytic pro-angiogenic hematopoietic cells
+T171	corrected_cell_type 2805 2836	circulating hematopoietic cells
+R84	located_in Arg1:T107 Arg2:T169	
+R85	located_in Arg1:T107 Arg2:T103	
+R86	located_in Arg1:T107 Arg2:T170	
+R87	located_in Arg1:T107 Arg2:T171	
+R88	located_in Arg1:T108 Arg2:T169	
+R89	located_in Arg1:T108 Arg2:T103	
+R90	located_in Arg1:T108 Arg2:T170	
+R91	located_in Arg1:T108 Arg2:T171	
+R92	located_in Arg1:T109 Arg2:T169	
+R93	located_in Arg1:T109 Arg2:T103	
+R94	located_in Arg1:T109 Arg2:T170	
+R95	located_in Arg1:T109 Arg2:T171	
+R96	located_in Arg1:T110 Arg2:T169	
+R97	located_in Arg1:T110 Arg2:T103	
+R98	located_in Arg1:T110 Arg2:T170	
+R99	located_in Arg1:T110 Arg2:T171	
+R100	located_in Arg1:T111 Arg2:T169	
+R101	located_in Arg1:T111 Arg2:T103	
+R102	located_in Arg1:T111 Arg2:T170	
+R103	located_in Arg1:T111 Arg2:T171	
+T172	missed_gene 2897 2902	c-kit
+T173	missed_gene 2912 2917	DC117
+R104	located_in Arg1:T172 Arg2:T169	
+R105	located_in Arg1:T172 Arg2:T103	
+R106	located_in Arg1:T172 Arg2:T170	
+R107	located_in Arg1:T172 Arg2:T171	
+R108	located_in Arg1:T173 Arg2:T169	
+R109	located_in Arg1:T173 Arg2:T103	
+R110	located_in Arg1:T173 Arg2:T170	
+R111	located_in Arg1:T173 Arg2:T171	
+T174	missed_cell_type 2924 2933	late EPCs
+T175	missed_gene 2945 2950	CD133
+R112	located_in Arg1:T175 Arg2:T174	
+R113	located_in Arg1:T113 Arg2:T174	
+T176	missed_gene 2968 2973	CD144
+R114	located_in Arg1:T176 Arg2:T174	
+R115	located_in Arg1:T114 Arg2:T174	
+T177	missed_gene 3001 3006	CD146
+R116	located_in Arg1:T177 Arg2:T174	
+T178	corrected_cell_type 3013 3034	fibroblast-like cells
+T179	missed_cell_type 3036 3040	FLCs
+T180	corrected_cell_type 3042 3077	circulating Col-producing monocytes
+R117	located_in Arg1:T117 Arg2:T178	
+R118	located_in Arg1:T117 Arg2:T179	
+R119	located_in Arg1:T117 Arg2:T180	
+R120	located_in Arg1:T118 Arg2:T178	
+R121	located_in Arg1:T118 Arg2:T179	
+R122	located_in Arg1:T118 Arg2:T180	
+R123	located_in Arg1:T119 Arg2:T178	
+R124	located_in Arg1:T119 Arg2:T179	
+R125	located_in Arg1:T119 Arg2:T180	
+T181	corrected_gene 3115 3120	Col I
+R126	located_in Arg1:T181 Arg2:T178	
+R127	located_in Arg1:T181 Arg2:T179	
+R128	located_in Arg1:T181 Arg2:T180	
+R129	located_in Arg1:T123 Arg2:T121	
+R130	located_in Arg1:T124 Arg2:T121	
+T182	corrected_gene 3173 3178	Col I
+R131	located_in Arg1:T182 Arg2:T121	
+R132	located_in Arg1:T126 Arg2:T121	
+T183	missed_cell_type 3233 3244;3263 3268	endothelial cells
+T184	corrected_gene 3204 3223	GPIIIa-like protein
+R133	located_in Arg1:T184 Arg2:T183	
+R134	located_in Arg1:T184 Arg2:T128	
+T185	missed_gene 3312 3318	GPIIIa
+R135	located_in Arg1:T185 Arg2:T129	
+T186	corrected_gene 3398 3409	GPIIb alpha
+R136	located_in Arg1:T186 Arg2:T131	
+T187	corrected_gene 3334 3358	GPIIb alpha-like protein
+R137	located_in Arg1:T187 Arg2:T183	
+R138	located_in Arg1:T187 Arg2:T128	
+T188	corrected_gene 3424 3442	Follistatin-like 1
+R139	located_in Arg1:T188 Arg2:T135	
+R140	located_in Arg1:T134 Arg2:T135	
+R141	located_in Arg1:T188 Arg2:T136	
+R142	located_in Arg1:T134 Arg2:T136	
+R143	located_in Arg1:T138 Arg2:T137	
+T189	missed_gene 3552 3561	IFN-gamma
+R144	located_in Arg1:T189 Arg2:T137	
+R145	located_in Arg1:T140 Arg2:T139	
+R146	located_in Arg1:T141 Arg2:T139	
+R147	located_in Arg1:T142 Arg2:T139	
+R148	located_in Arg1:T143 Arg2:T139	
+T190	corrected_cell_type 3733 3754	ameloblast-like cells
+R149	located_in Arg1:T145 Arg2:T190	
+R150	located_in Arg1:T144 Arg2:T190	

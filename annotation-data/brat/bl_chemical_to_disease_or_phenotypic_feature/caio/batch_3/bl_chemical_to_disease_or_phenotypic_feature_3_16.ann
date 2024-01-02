@@ -94,24 +94,14 @@ R15	causes_or_contributes_to Arg1:T39 Arg2:T38
 R16	causes_or_contributes_to Arg1:T39 Arg2:T37	
 R17	causes_or_contributes_to Arg1:T54 Arg2:T53	
 T81	missed_disease_or_phenotypic_feature 1775 1780	tumor
-R18	treats Arg1:T54 Arg2:T81	
+R18	causes_or_contributes_to Arg1:T54 Arg2:T81	
 R19	treats Arg1:T59 Arg2:T60	
 R20	treats Arg1:T58 Arg2:T60	
-R22	treats Arg1:T64 Arg2:T70	
 T82	corrected_chemical 1385 1400	Neutron-capture
 R21	treats Arg1:T82 Arg2:T44	
-R23	treats Arg1:T65 Arg2:T70	
-R24	treats Arg1:T67 Arg2:T70	
-R25	treats Arg1:T68 Arg2:T70	
 T83	corrected_chemical 2089 2138	nonselective nonsteroidal anti-inflammatory drugs
-R26	treats Arg1:T83 Arg2:T70	
 T84	corrected_chemical 2026 2063	selective cyclooxygenase-2 inhibitors
-R27	treats Arg1:T84 Arg2:T70	
-R28	treats Arg1:T84 Arg2:T69	
-R29	treats Arg1:T64 Arg2:T69	
-R30	treats Arg1:T65 Arg2:T69	
-R31	treats Arg1:T83 Arg2:T69	
-R32	treats Arg1:T67 Arg2:T69	
-R33	treats Arg1:T68 Arg2:T69	
-R13	treats Arg1:T36 Arg2:T80	
 R14	treats Arg1:T36 Arg2:T35	
+T85	missed_disease_or_phenotypic_feature 805 815	acromegaly
+R34	treats Arg1:T23 Arg2:T85	
+R35	treats Arg1:T27 Arg2:T28	

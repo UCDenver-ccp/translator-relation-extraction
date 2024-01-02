@@ -66,7 +66,7 @@ T65	disease_or_phenotypic_feature 2814 2822	cataract
 T66	disease_or_phenotypic_feature 2909 2918	infection
 T67	chemical 2964 2981	fluorescent probe
 T68	chemical 2976 2981	probe
-T69	missed_chemical 17 51	peptides isolated from tumor cells
+T69	missed_chemical 0 51	Vaccination with peptides isolated from tumor cells
 R1	treats Arg1:T69 Arg2:T2	
 R2	treats Arg1:T7 Arg2:T6	
 T70	missed_chemical 276 301	tumor-associated antigens
@@ -78,3 +78,11 @@ T71	missed_disease_or_phenotypic_feature 1968 1980	inflammation
 T72	missed_disease_or_phenotypic_feature 1991 2004	tumorigenesis
 R7	treats Arg1:T41 Arg2:T71	
 R8	treats Arg1:T41 Arg2:T72	
+T73	missed_disease_or_phenotypic_feature 1429 1437	MN death
+R9	treats Arg1:T31 Arg2:T73	
+T74	missed_disease_or_phenotypic_feature 1475 1490	cerebral hernia
+R10	causes_or_contributes_to Arg1:T32 Arg2:T74	
+R11	treats Arg1:T38 Arg2:T40	
+R12	causes_or_contributes_to Arg1:T46 Arg2:T45	
+T75	missed_chemical 2126 2131	drugs
+R13	causes_or_contributes_to Arg1:T75 Arg2:T47	

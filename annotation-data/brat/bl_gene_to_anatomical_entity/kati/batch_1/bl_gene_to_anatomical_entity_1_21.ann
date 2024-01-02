@@ -95,3 +95,48 @@ T94	gene 2251 2254	HSP
 T95	anatomical_site 2279 2294	skeletal muscle
 T96	anatomical_site 2331 2335	body
 T97	anatomical_site 2336 2339	fat
+R1	located_in Arg1:T3 Arg2:T2	
+R2	located_in Arg1:T4 Arg2:T2	
+T98	corrected_gene 232 238	PPAR?1
+R3	located_in Arg1:T98 Arg2:T11	
+T99	corrected_gene 279 285	PPAR?2
+R4	located_in Arg1:T99 Arg2:T13	
+R5	located_in Arg1:T17 Arg2:T18	
+T100	corrected_anatomical_site 468 479	lung tissue
+R6	located_in Arg1:T21 Arg2:T23	
+R7	located_in Arg1:T22 Arg2:T23	
+R8	located_in Arg1:T24 Arg2:T26	
+R9	located_in Arg1:T25 Arg2:T26	
+R10	located_in Arg1:T27 Arg2:T28	
+T101	missed_gene 653 659	TUBB4A
+R11	located_in Arg1:T101 Arg2:T29	
+T102	corrected_gene 672 704	brain-specific ?-tubulin isotype
+R12	located_in Arg1:T102 Arg2:T29	
+T103	corrected_gene 706 718	?-tubulin 4A
+R13	located_in Arg1:T103 Arg2:T29	
+T104	missed_gene 915 932	bone sialoprotein
+R16	located_in Arg1:T104 Arg2:T39	
+T105	missed_gene 947 974	bone morphogenetic proteins
+R17	located_in Arg1:T105 Arg2:T41	
+T107	missed_anatomical_site 1306 1324	trichogenic stroma
+R24	located_in Arg1:T53 Arg2:T52	
+R25	located_in Arg1:T54 Arg2:T52	
+R26	located_in Arg1:T55 Arg2:T52	
+R27	located_in Arg1:T56 Arg2:T52	
+R28	located_in Arg1:T57 Arg2:T52	
+R29	located_in Arg1:T58 Arg2:T107	
+R30	located_in Arg1:T65 Arg2:T63	
+R31	located_in Arg1:T65 Arg2:T64	
+R32	located_in Arg1:T71 Arg2:T72	
+T108	corrected_anatomical_site 1921 1940	innervated BAT pads
+R33	located_in Arg1:T80 Arg2:T108	
+T109	corrected_anatomical_site 1949 1968	denervated BAT pads
+R34	located_in Arg1:T80 Arg2:T109	
+T110	corrected_anatomical_site 2073 2093;2101 2151	interstitial tissues boundary of the mesonephros and the genital ridges
+R35	located_in Arg1:T87 Arg2:T110	
+R36	located_in Arg1:T91 Arg2:T92	
+R37	located_in Arg1:T91 Arg2:T93	
+T111	corrected_gene 2251 2256	HSP72
+R38	located_in Arg1:T111 Arg2:T95	
+R14	located_in Arg1:T44 Arg2:T43	
+R15	located_in Arg1:T45 Arg2:T43	

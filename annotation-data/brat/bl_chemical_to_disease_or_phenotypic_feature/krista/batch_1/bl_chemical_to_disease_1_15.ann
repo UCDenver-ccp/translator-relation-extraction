@@ -72,5 +72,31 @@ R12	causes_or_contributes_to Arg1:T24 Arg2:T27
 T61	corrected_disease_or_phenotypic_feature 715 720	SCCHN
 R13	treats Arg1:T5 Arg2:T61	
 R15	causes_or_contributes_to Arg1:T25 Arg2:T27	
-T63	corrected_disease_or_phenotypic_feature 1814 1834	ozone induced injury
-R16	causes_or_contributes_to Arg1:T29 Arg2:T63	
+R16	causes_or_contributes_to Arg1:T29 Arg2:T30	
+T62	corrected_disease_or_phenotypic_feature 823 846	pituitary tissue damage
+R7	treats Arg1:T10 Arg2:T62	
+T64	corrected_chemical 1005 1028	neuroactive metabolites
+R14	causes_or_contributes_to Arg1:T64 Arg2:T12	
+T65	missed_chemical 1303 1317	black mulberry
+R17	treats Arg1:T65 Arg2:T21	
+T66	missed_chemical 1628 1638	infliximab
+T67	missed_chemical 1640 1643	IFX
+R18	causes_or_contributes_to Arg1:T66 Arg2:T27	
+R19	causes_or_contributes_to Arg1:T67 Arg2:T27	
+T63	missed_chemical 2080 2084	ASDs
+T68	missed_disease_or_phenotypic_feature 2161 2168	seizure
+R20	treats Arg1:T63 Arg2:T68	
+R21	treats Arg1:T63 Arg2:T34	
+T69	missed_disease_or_phenotypic_feature 2325 2333	seizures
+R22	treats Arg1:T63 Arg2:T69	
+T70	missed_chemical 2433 2438	drugs
+T71	missed_disease_or_phenotypic_feature 2443 2449	cancer
+R23	treats Arg1:T70 Arg2:T71	
+T72	corrected_chemical 2648 2673	small molecule inhibitors
+R24	treats Arg1:T72 Arg2:T39	
+T73	corrected_chemical 2506 2515	FUT8shRNA
+R25	treats Arg1:T73 Arg2:T39	
+T74	missed_chemical 3118 3122	PMPs
+R26	treats Arg1:T74 Arg2:T46	
+T75	corrected_chemical 699 702	RCT
+R27	treats Arg1:T75 Arg2:T61	

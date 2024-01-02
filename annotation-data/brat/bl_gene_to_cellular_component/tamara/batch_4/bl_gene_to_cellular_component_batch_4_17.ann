@@ -89,3 +89,39 @@ T88	gene 3239 3243	PCNA
 T89	gene 3299 3303	PCNA
 T90	cellular_component 3304 3312	antibody
 T91	gene 3344 3350	Gadd45
+R1	located_in Arg1:T7 Arg2:T8	
+#1	AnnotatorNotes R1	Okay?
+T92	missed_cellular_component 394 406	cytoskeletal
+R2	located_in Arg1:T12 Arg2:T92	
+T93	corrected_gene 583 596	ANXA1-S27-PO4
+R3	located_in Arg1:T93 Arg2:T18	
+R4	located_in Arg1:T28 Arg2:T29	
+T94	missed_gene 1019 1023	IPMK
+R5	located_in Arg1:T94 Arg2:T30	
+R6	located_in Arg1:T33 Arg2:T32	
+R7	located_in Arg1:T38 Arg2:T37	
+#2	AnnotatorNotes R7	Okay?
+R8	located_in Arg1:T40 Arg2:T39	
+T95	missed_gene 1590 1612	ribosomal p70S6 kinase
+R9	located_in Arg1:T95 Arg2:T43	
+T96	missed_gene 1813 1823	proacrosin
+T97	missed_gene 1824 1831	acrosin
+R10	located_in Arg1:T48 Arg2:T47	
+R11	located_in Arg1:T96 Arg2:T47	
+R12	located_in Arg1:T97 Arg2:T47	
+R13	located_in Arg1:T49 Arg2:T47	
+T98	missed_gene 2426 2431	Kif17
+R14	located_in Arg1:T98 Arg2:T64	
+#3	AnnotatorNotes R14	Okay?
+T99	missed_gene 3022 3024	CR
+R15	located_in Arg1:T83 Arg2:T82	
+R16	located_in Arg1:T99 Arg2:T82	
+T100	missed_cellular_component 531 534	ECM
+R17	located_in Arg1:T16 Arg2:T100	
+#4	AnnotatorNotes R17	Okay?
+R18	located_in Arg1:T16 Arg2:T14	
+#5	AnnotatorNotes R18	Okay?
+T101	corrected_cellular_component 478 501	actomyosin cytoskeleton
+#6	AnnotatorNotes T101	okay?
+R19	located_in Arg1:T12 Arg2:T101	
+#7	AnnotatorNotes R19	Okay?

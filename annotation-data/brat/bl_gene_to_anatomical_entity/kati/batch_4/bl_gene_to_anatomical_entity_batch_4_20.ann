@@ -101,3 +101,112 @@ T100	gene 3214 3218	GPx4
 T101	gene 3220 3224	SOD1
 T102	gene 3229 3233	SOD2
 T103	anatomical_site 3253 3264	hippocampus
+T104	corrected_gene 38 43	PPARγ
+R1	located_in Arg1:T104 Arg2:T2	
+R2	located_in Arg1:T104 Arg2:T3	
+R3	located_in Arg1:T4 Arg2:T5	
+T105	missed_gene 159 177;183 186	heat shock protein -27
+T106	missed_gene 179 182;183 186	HSP -27
+T107	missed_gene 191 197	HSP-72
+R4	located_in Arg1:T105 Arg2:T6	
+R5	located_in Arg1:T105 Arg2:T7	
+R6	located_in Arg1:T105 Arg2:T8	
+R7	located_in Arg1:T106 Arg2:T6	
+R8	located_in Arg1:T106 Arg2:T7	
+R9	located_in Arg1:T106 Arg2:T8	
+R10	located_in Arg1:T107 Arg2:T6	
+R11	located_in Arg1:T107 Arg2:T7	
+R12	located_in Arg1:T107 Arg2:T8	
+T108	missed_gene 292 295	YAP
+T109	missed_gene 296 299	YAP
+T110	corrected_anatomical_site 324 348	medial prefrontal cortex
+T111	missed_anatomical_site 350 354	mPFC
+T112	corrected_anatomical_site 433 443	gut tissue
+R13	located_in Arg1:T9 Arg2:T110	
+R14	located_in Arg1:T9 Arg2:T111	
+R15	located_in Arg1:T9 Arg2:T12	
+R16	located_in Arg1:T9 Arg2:T13	
+R17	located_in Arg1:T9 Arg2:T112	
+R18	located_in Arg1:T10 Arg2:T110	
+R19	located_in Arg1:T10 Arg2:T111	
+R20	located_in Arg1:T10 Arg2:T12	
+R21	located_in Arg1:T10 Arg2:T13	
+R22	located_in Arg1:T10 Arg2:T112	
+R23	located_in Arg1:T108 Arg2:T110	
+R24	located_in Arg1:T108 Arg2:T111	
+R25	located_in Arg1:T108 Arg2:T12	
+R26	located_in Arg1:T108 Arg2:T13	
+R27	located_in Arg1:T108 Arg2:T112	
+R28	located_in Arg1:T109 Arg2:T110	
+R29	located_in Arg1:T109 Arg2:T111	
+R30	located_in Arg1:T109 Arg2:T12	
+R31	located_in Arg1:T109 Arg2:T13	
+R32	located_in Arg1:T109 Arg2:T112	
+T113	corrected_gene 482 495	NF-kappaB p65
+T114	corrected_gene 497 510	NF-kappaB p50
+T115	corrected_gene 512 525	p38 MAPKalpha
+R33	located_in Arg1:T113 Arg2:T19	
+R34	located_in Arg1:T114 Arg2:T19	
+R35	located_in Arg1:T115 Arg2:T19	
+T116	corrected_gene 531 540	cyclin D1
+R36	located_in Arg1:T116 Arg2:T19	
+T117	corrected_anatomical_site 717 734	liver tissue lobe
+R37	located_in Arg1:T20 Arg2:T117	
+R38	located_in Arg1:T21 Arg2:T117	
+T118	corrected_anatomical_site 717 734;772 784	liver tissue lobe central zone
+T119	corrected_anatomical_site 717 734;813 823	liver tissue lobe peripheral
+R39	located_in Arg1:T25 Arg2:T118	
+T120	missed_gene 789 802	ceruloplasmin
+R40	located_in Arg1:T120 Arg2:T119	
+T121	corrected_anatomical_site 901 912	lung tissue
+R41	located_in Arg1:T26 Arg2:T27	
+R42	located_in Arg1:T26 Arg2:T28	
+R43	located_in Arg1:T26 Arg2:T121	
+R44	located_in Arg1:T33 Arg2:T32	
+T122	missed_gene 965 968	CRP
+R45	located_in Arg1:T122 Arg2:T32	
+T123	missed_gene 1369 1376	albumin
+T124	missed_gene 1378 1386	globulin
+T125	missed_gene 1391 1409	coagulant proteins
+R46	located_in Arg1:T123 Arg2:T39	
+R47	located_in Arg1:T124 Arg2:T39	
+R48	located_in Arg1:T125 Arg2:T39	
+T126	missed_gene 1430 1443	lymph protein
+T127	missed_anatomical_site 1430 1435	lymph
+R49	located_in Arg1:T126 Arg2:T127	
+T128	corrected_gene 1662 1665;1667 1668	ERK 2
+T129	missed_anatomical_site 1729 1734	veins
+R50	located_in Arg1:T44 Arg2:T129	
+R51	located_in Arg1:T128 Arg2:T129	
+R52	located_in Arg1:T45 Arg2:T129	
+R53	located_in Arg1:T54 Arg2:T53	
+R54	located_in Arg1:T55 Arg2:T53	
+T130	missed_gene 2165 2171	MUC5AC
+R55	located_in Arg1:T59 Arg2:T60	
+R56	located_in Arg1:T130 Arg2:T60	
+T131	corrected_anatomical_site 2349 2380;2391 2395	hypodermal connective tissue of skin
+R57	located_in Arg1:T67 Arg2:T131	
+R58	located_in Arg1:T74 Arg2:T76	
+R59	located_in Arg1:T74 Arg2:T77	
+R60	located_in Arg1:T75 Arg2:T76	
+R61	located_in Arg1:T75 Arg2:T77	
+T132	corrected_anatomical_site 2710 2727;2732 2738	tibialis anterior muscle
+T133	corrected_anatomical_site 2729 2731;2732 2738	TA muscle
+R62	located_in Arg1:T80 Arg2:T132	
+T134	missed_gene 2662 2673	follistatin
+R63	located_in Arg1:T80 Arg2:T133	
+R64	located_in Arg1:T134 Arg2:T132	
+R65	located_in Arg1:T134 Arg2:T133	
+R66	located_in Arg1:T81 Arg2:T132	
+R67	located_in Arg1:T81 Arg2:T133	
+T135	corrected_gene 2793 2796;2798 2799	Dlx 2
+T136	corrected_anatomical_site 2803 2812;2819 2825	embryonic cortex
+R68	located_in Arg1:T83 Arg2:T136	
+R69	located_in Arg1:T135 Arg2:T136	
+T137	corrected_anatomical_site 3016 3028	fetal retina
+R70	located_in Arg1:T91 Arg2:T137	
+R71	located_in Arg1:T92 Arg2:T137	
+R72	located_in Arg1:T93 Arg2:T137	
+R73	located_in Arg1:T100 Arg2:T103	
+R74	located_in Arg1:T101 Arg2:T103	
+R75	located_in Arg1:T102 Arg2:T103	

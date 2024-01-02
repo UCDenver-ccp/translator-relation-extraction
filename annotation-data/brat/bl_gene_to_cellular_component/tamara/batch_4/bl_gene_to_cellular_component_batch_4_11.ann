@@ -79,3 +79,56 @@ T78	gene 3238 3242	SMAD
 T79	cellular_component 3238 3242	SMAD
 T80	cellular_component 3297 3308	subcellular
 T81	gene 3335 3343	TGF-beta
+R1	located_in Arg1:T3 Arg2:T5	
+R2	located_in Arg1:T4 Arg2:T5	
+R3	located_in Arg1:T3 Arg2:T2	
+#1	AnnotatorNotes R3	Okay?
+R4	located_in Arg1:T4 Arg2:T2	
+#2	AnnotatorNotes R4	Okay?
+R5	located_in Arg1:T8 Arg2:T7	
+R6	located_in Arg1:T14 Arg2:T13	
+R7	located_in Arg1:T16 Arg2:T15	
+T82	corrected_gene 604 615	Collagen IV
+R8	located_in Arg1:T82 Arg2:T15	
+R9	located_in Arg1:T20 Arg2:T21	
+R10	located_in Arg1:T20 Arg2:T22	
+T83	corrected_gene 828 892	peroxisome proliferator-activated receptor gamma coactivator 1-α
+T84	missed_cellular_component 828 838	peroxisome
+R11	located_in Arg1:T83 Arg2:T84	
+#3	AnnotatorNotes R11	Okay?
+R12	located_in Arg1:T25 Arg2:T84	
+#4	AnnotatorNotes R12	Okay?
+R13	located_in Arg1:T26 Arg2:T84	
+#5	AnnotatorNotes R13	Okay?
+R14	located_in Arg1:T28 Arg2:T27	
+R15	located_in Arg1:T29 Arg2:T27	
+R16	located_in Arg1:T30 Arg2:T27	
+R17	located_in Arg1:T32 Arg2:T31	
+T85	missed_cellular_component 1529 1540	myofilament
+R18	located_in Arg1:T42 Arg2:T85	
+T86	missed_gene 1583 1614	myosin regulatory light chain 2
+T87	missed_gene 1616 1641	cap Z interacting protein
+T88	missed_gene 1643 1650	cap ZIP
+T89	corrected_gene 1657 1667	tubulin β5
+R19	located_in Arg1:T86 Arg2:T85	
+R20	located_in Arg1:T87 Arg2:T85	
+R21	located_in Arg1:T88 Arg2:T85	
+R22	located_in Arg1:T89 Arg2:T85	
+T90	missed_gene 1707 1731	pyruvate dehydrogenase α
+T91	missed_gene 1733 1771	branch chain ketoacid dehydrogenase E1
+R23	located_in Arg1:T46 Arg2:T45	
+R24	located_in Arg1:T90 Arg2:T44	
+R25	located_in Arg1:T91 Arg2:T44	
+R26	located_in Arg1:T48 Arg2:T47	
+R27	located_in Arg1:T52 Arg2:T51	
+T92	missed_gene 3121 3147	heterochromatin protein 1α
+T93	missed_gene 3149 3153	HP1α
+R28	located_in Arg1:T92 Arg2:T75	
+R29	located_in Arg1:T93 Arg2:T75	
+R30	located_in Arg1:T77 Arg2:T75	
+#6	AnnotatorNotes R30	Okay?
+T94	corrected_gene 3169 3194	ubiquitin E3 ligase CUL4B
+R31	located_in Arg1:T94 Arg2:T75	
+#7	AnnotatorNotes R31	Okay?
+T95	missed_gene 3325 3330	SMADs
+R32	located_in Arg1:T95 Arg2:T80	

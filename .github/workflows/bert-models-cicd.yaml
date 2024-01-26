@@ -65,7 +65,7 @@ jobs:
       with:
         python-version: 3.7
     - name: Set up Cloud SDK
-      uses: google-github-actions/setup-gcloud@main
+      uses: google-github-actions/setup-gcloud@v3
       with:
         project_id: ${{ secrets.GCE_PROJECT }}
         service_account_key: ${{ secrets.GCE_SA_KEY }}
@@ -542,10 +542,13 @@ jobs:
   #     MODEL_VERSION_KEY: BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE_GPT
   #     AI_PLATFORM_JOB_NAME: "bl_chemical_to_disease_or_phenotypic_feature_gpt_train_${{ github.run_number }}"
   #   steps:
-  #   - uses: actions/checkout@v2
+  #   - uses: actions/checkout@v3
   #     with:
   #       fetch-depth: 0
-
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
   #   - name: Set up Cloud SDK
   #     uses: google-github-actions/setup-gcloud@main
   #     with:
@@ -611,10 +614,14 @@ jobs:
   #     CLASSIFICATION_LABELS: "treats causes_or_contributes_to false"
   #     DATA_FILE: data/bl_chemical_to_disease_or_phenotypic_feature_gpt/data.tsv
   #   steps:
-  #   - uses: actions/checkout@v2
+  #   - uses: actions/checkout@v3
   #     with:
   #       fetch-depth: 0
-    
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+     
   #   - name: Set up Cloud SDK
   #     uses: google-github-actions/setup-gcloud@main
   #     with:

@@ -6,10 +6,9 @@ model_key = sys.argv[1]
 
 labels = {}
 if model_key == 'bl_chemical_to_disease_or_phenotypic_feature':
-    labels[0]="treats"
-    labels[1]="causes_or_contributes_to"
-    labels[2]="false"
-elif model_key == 'bl_chemical_to_disease_or_phenotypic_feature_gpt':
+    # labels[0]="treats"
+    # labels[1]="causes_or_contributes_to"
+    # labels[2]="false"
     # labels[0]="ameliorates"
     # labels[1]="associated_with"
     labels[0]="associated_with_resistance_to"

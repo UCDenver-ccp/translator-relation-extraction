@@ -31,7 +31,7 @@ RUN git clone https://github.com/ncbi-nlp/BLUE_Benchmark.git ./blue_benchmark.gi
     pip install jsonlines && \
     pip install pandas && \
     pip install tabulate && \
-    pip install sklearn
+    pip install scikit-learn
 
 ENV BlueBERT_DIR '/home/dev/models/baseline'
 

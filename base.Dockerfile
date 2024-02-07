@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
   less \
   vim \
   wget \
+  python3.8 \
   && rm -rf /var/lib/apt/lists/*
 
 # set up directories that will be used by this container (and its children) 
@@ -52,4 +53,4 @@ ENV PYTHONPATH '.'
 
 # To build:
 #
-# docker build -t bluebert-base:[BASE_VERSION] -f base.Dockerfile
+# docker build -t bluebert-base:[BASE_VERSION] -f base.Dockerfile .

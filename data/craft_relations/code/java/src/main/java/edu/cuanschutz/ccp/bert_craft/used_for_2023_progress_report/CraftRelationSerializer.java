@@ -29,6 +29,7 @@ import edu.ucdenver.ccp.file.conversion.conllu.CoNLLUDocumentReader;
 import edu.ucdenver.ccp.file.conversion.knowtator2.Knowtator2DocumentReader;
 import edu.ucdenver.ccp.nlp.core.annotation.Span;
 import edu.ucdenver.ccp.nlp.core.annotation.TextAnnotation;
+import edu.ucdenver.ccp.nlp.core.annotation.TextAnnotationUtil;
 import edu.ucdenver.ccp.nlp.core.mention.ClassMention;
 import edu.ucdenver.ccp.nlp.core.mention.ComplexSlotMention;
 
@@ -187,12 +188,43 @@ public class CraftRelationSerializer {
 			return;
 		}
 		observed.add(conceptAnnotStr);
+
 		Collection<ComplexSlotMention> csms = conceptAnnot.getClassMention().getComplexSlotMentions();
 		for (ComplexSlotMention csm : csms) {
 			for (ClassMention cm : csm.getClassMentions()) {
 				TextAnnotation annotation = cm.getTextAnnotation();
-				String relation = String.format("%s\t%s\t%s", getAnnotStr(conceptAnnot, go2namespaceMap),
-						removeNamespace(csm.getMentionName()), getAnnotStr(annotation, go2namespaceMap));
+
+				// get the graph_space_id corresponding to this relation
+				Collection<String> provenances = TextAnnotationUtil.getSlotValues(conceptAnnot,
+						Knowtator2DocumentReader.RELATION_PROVENANCE_SLOT);
+
+				String graphSpaceId = null;
+				for (String provenance : provenances) {
+					System.out.println("PROV: " + provenance);
+					String[] cols = provenance.split("\\t");
+					// first column says relation_type
+					String relationType = cols[1];
+					// third column say target
+					String targetAnnotStr = cols[3];
+					int targetSpanStart = Integer.parseInt(targetAnnotStr.split("\\|")[0]);
+					String targetCoveredText = targetAnnotStr.split("\\|")[1];
+
+					if (relationType.equals(csm.getMentionName())
+							&& targetSpanStart == annotation.getAnnotationSpanStart()
+							&& targetCoveredText.trim().equals(annotation.getCoveredText().trim())) {
+
+						// fifth column says graph_space_id
+						graphSpaceId = cols[5];
+						break;
+					}
+				}
+
+				if (graphSpaceId == null) {
+					throw new IllegalArgumentException("null graph space ID. Provenance count: " + provenances.size());
+				}
+
+				String relation = String.format("%s\t%s\t%s\t%s", getAnnotStr(conceptAnnot, go2namespaceMap),
+						removeNamespace(csm.getMentionName()), getAnnotStr(annotation, go2namespaceMap), graphSpaceId);
 				String annotStr = getAnnotStr(annotation, go2namespaceMap);
 				CollectionsUtil.addToOne2ManyUniqueMap(conceptAnnotStr, relation, annotToRelationsMap);
 				CollectionsUtil.addToOne2ManyUniqueMap(annotStr, relation, annotToRelationsMap);
@@ -355,13 +387,15 @@ public class CraftRelationSerializer {
 
 	public static void main(String[] args) {
 		File knowtatorXmlDir = new File(
-				"/Users/bill/projects/ncats-translator/relations/craft-relations/may-2023-development/CRAFT_concepts+assertions_original/Annotations");
+//				"/Users/bill/projects/ncats-translator/relations/craft-relations/may-2023-development/CRAFT_concepts+assertions_original/Annotations");
+				"/Users/bill/projects/ncats-translator/relations/craft-relations/feb-2024-development/CRAFT_concepts+assertions_20240403/CRAFT_concept_assertion_anotations_11319941-15560850");
 		File txtDir = new File(
 				"/Users/bill/projects/ncats-translator/relations/craft-relations/may-2023-development/CRAFT_concepts+assertions_original/Articles");
 		File conlluDir = new File(
 				"/Users/bill/projects/craft-shared-task/craft.git/structural-annotation/dependency/conllu");
 		File outputDir = new File(
-				"/Users/bill/projects/ncats-translator/relations/craft-relations/may-2023-development/CRAFT_concepts+assertions_original/relations_and_sentences");
+//				"/Users/bill/projects/ncats-translator/relations/craft-relations/feb-2024-development/CRAFT_concepts+assertions_original/relations_and_sentences");
+				"/Users/bill/projects/ncats-translator/relations/craft-relations/feb-2024-development/CRAFT_concepts+assertions_20240403/relations_and_sentences");
 		File go2namespaceFile = new File(
 				"/Users/bill/projects/ncats-translator/concept-recognition/july2023/go2namespace.tsv.gz");
 		outputDir.mkdirs();

@@ -69,6 +69,13 @@ public class CraftToBertRelationTrainingFileMainDev {
 	}
 
 	public static String removeNamespace(String iri) {
+		if (iri.startsWith("http:http:")) {
+			iri = iri.replace("http:http:", "http:");
+		}
+		if (iri.startsWith("http://whttp:")) {
+			iri = iri.replace("http://whttp:", "http:");
+		}
+		
 		if (iri.startsWith(CCP_EXT_NS)) {
 			return StringUtils.removePrefix(iri, CCP_EXT_NS);
 		} else if (iri.startsWith(OBO_NS)) {

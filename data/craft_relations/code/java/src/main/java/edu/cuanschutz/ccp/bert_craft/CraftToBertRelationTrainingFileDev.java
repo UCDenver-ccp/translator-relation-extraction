@@ -138,7 +138,7 @@ public class CraftToBertRelationTrainingFileDev {
 		return keepProcessing;
 	}
 
-	private static Map<String, Set<String>> getChildToParentProperty(File craftMergedOntologyFile)
+	protected static Map<String, Set<String>> getChildToParentProperty(File craftMergedOntologyFile)
 			throws OWLOntologyCreationException, IOException {
 
 		Map<String, Set<String>> map = new HashMap<String, Set<String>>();
@@ -201,7 +201,7 @@ public class CraftToBertRelationTrainingFileDev {
 		return iri.substring(slashIndex + 1);
 	}
 
-	private static Set<String> getImmediateSubProperties(OWLObjectProperty prop, OWLOntology ont) {
+	private static Set<String> getImmediateSubProperties(OWLObjectProperty prop, OWLOntology ont) throws IOException {
 		System.out.println("===== Getting SubProperties for: " + prop.getIRI().toString());
 		Set<String> props = new HashSet<String>();
 		Set<OWLObjectPropertyExpression> subProperties = prop.getSubProperties(ont);
@@ -210,6 +210,7 @@ public class CraftToBertRelationTrainingFileDev {
 			OWLObjectProperty property = subProp.asOWLObjectProperty();
 			props.add(property.getIRI().toString());
 			System.out.println("Has subproperty: " + property.getIRI().toString());
+
 //			props.addAll(getSubProperties(property, ont));
 		}
 

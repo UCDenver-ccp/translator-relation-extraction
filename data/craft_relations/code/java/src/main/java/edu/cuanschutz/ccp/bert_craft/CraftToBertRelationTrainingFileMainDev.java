@@ -31,10 +31,17 @@ public class CraftToBertRelationTrainingFileMainDev {
 	 */
 	public static void main(String[] args) {
 		File craftBaseDirectory = new File("/Users/bill/projects/craft-shared-task/craft.git");
+
+		// april 2024 dev
 		File craftAnnotationDirectory = new File(
-				"/Users/bill/projects/ncats-translator/relations/craft-relations/march-2023-development/CRAFT_concepts+assertions/Annotations");
+				"/Users/bill/projects/ncats-translator/relations/craft-relations/april-2024-development/20240417/Annotations");
 		File craftOntologyFile = new File(
-				"/Users/bill/projects/ncats-translator/relations/craft-relations/march-2023-development/CRAFT_concepts+assertions/Ontologies/CRAFT_aggregate_OWL_ontology.owl");
+				"/Users/bill/projects/ncats-translator/relations/craft-relations/april-2024-development/20240417/CRAFT_aggregate_OWL_ontology.owl");
+
+//		File craftAnnotationDirectory = new File(
+//				"/Users/bill/projects/ncats-translator/relations/craft-relations/march-2023-development/CRAFT_concepts+assertions/Annotations");
+//		File craftOntologyFile = new File(
+//				"/Users/bill/projects/ncats-translator/relations/craft-relations/march-2023-development/CRAFT_concepts+assertions/Ontologies/CRAFT_aggregate_OWL_ontology.owl");
 
 		File positivesOutputFile = new File(
 				"/Users/bill/projects/ncats-translator/relations/craft-relations/march-2023-development/bert-training-files/craft-assertions.pos.bert");
@@ -75,7 +82,7 @@ public class CraftToBertRelationTrainingFileMainDev {
 		if (iri.startsWith("http://whttp:")) {
 			iri = iri.replace("http://whttp:", "http:");
 		}
-		
+
 		if (iri.startsWith(CCP_EXT_NS)) {
 			return StringUtils.removePrefix(iri, CCP_EXT_NS);
 		} else if (iri.startsWith(OBO_NS)) {

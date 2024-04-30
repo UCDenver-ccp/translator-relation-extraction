@@ -388,7 +388,7 @@ jobs:
 
     - name: Set NUM_EPOCHS env
       run: |
-        echo "NUM_EPOCHS=10.0" >> $GITHUB_ENV
+        echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
 
     - name: Build Docker Image
       run: |

@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.15.4-gpu
+FROM tensorflow/tensorflow:1.15.5-gpu-py3
 
 RUN \
     # Update nvidia GPG key - from: https://github.com/NVIDIA/nvidia-docker/issues/1631
@@ -15,12 +15,7 @@ RUN apt-get update && apt-get install -y \
   less \
   vim \
   wget \
-  python3.8 \
   && rm -rf /var/lib/apt/lists/*
-
-RUN rm /usr/bin/python3 && \
-    ln -s python3.8 /usr/bin/python3 && \
-    python3 -V
 
 # set up directories that will be used by this container (and its children) 
 RUN mkdir -p /home/dev/models/baseline && \
@@ -32,10 +27,10 @@ WORKDIR /home/dev
 # Installs google cloud sdk, this allows use of gsutil
 # from: https://cloud.google.com/ai-platform/training/docs/custom-containers-training
 RUN wget -nv \
-    https://dl.google.com/dl/cloudsdk/release/google-cloud-sdk.tar.gz && \
+    https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-422.0.0-linux-x86_64.tar.gz && \
     mkdir /root/tools && \
-    tar xvzf google-cloud-sdk.tar.gz -C /root/tools && \
-    rm google-cloud-sdk.tar.gz && \
+    tar xvzf google-cloud-cli-422.0.0-linux-x86_64.tar.gz -C /root/tools && \
+    rm google-cloud-cli-422.0.0-linux-x86_64.tar.gz && \
     /root/tools/google-cloud-sdk/install.sh --usage-reporting=false \
         --path-update=false --bash-completion=false \
         --disable-installation-options && \

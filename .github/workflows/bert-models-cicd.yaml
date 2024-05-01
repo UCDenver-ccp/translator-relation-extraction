@@ -2396,21 +2396,21 @@ jobs:
         # # # # ----------------------------------------------------------------------------------- #
         # # # # ----------------------------------------------------------------------------------- #
         
-        build_push_train-craft_pr_taxon-train:
-          name: "build/push/train craft_pr_taxon model"
+        build_push_train-craft_100-train:
+          name: "build/push/train craft_100 model"
           # needs: "build_push-bert-base"
           runs-on: ubuntu-latest
           permissions:
             contents: "read"
             id-token: "write"
           env:
-            TASK_NAME: craft_pr_taxon
+            TASK_NAME: craft_100
             DOCKERFILE: train.Dockerfile
             ENTRYPOINT_FILE: scripts/train.entrypoint.sh
             BASE_DOCKERFILE: base.Dockerfile
-            DATA_FILE: data/craft_pr_taxon/data.tsv
-            MODEL_VERSION_KEY: CRAFT_PR_TAXON
-            AI_PLATFORM_JOB_NAME: "craft_pr_taxon_train_${{ github.run_number }}"
+            DATA_FILE: data/craft_100/data.tsv
+            MODEL_VERSION_KEY: CRAFT_100
+            AI_PLATFORM_JOB_NAME: "craft_100_train_${{ github.run_number }}"
           steps:
           - name: Checkout repository
             uses: actions/checkout@v2
@@ -2464,23 +2464,23 @@ jobs:
         # # #          BUILD/PUSH CRAFT_RELATIONS INFLUENCE CLASSIFICATION CONTAINER IMAGE       #
         # # # ----------------------------------------------------------------------------------- #
           
-        build_push-craft_pr_taxon-predict:
-          name: "build/push craft_pr_taxon predict container"
-          needs: "build_push_train-craft_pr_taxon-train"
+        build_push-craft_100-predict:
+          name: "build/push craft_100 predict container"
+          needs: "build_push_train-craft_100-train"
           runs-on: ubuntu-latest
           permissions:
             contents: "read"
             id-token: "write"
           env:
-            TASK_NAME: craft_pr_taxon
+            TASK_NAME: craft_100
             DOCKERFILE: predict.Dockerfile
             TRAIN_DOCKERFILE: train.Dockerfile
             TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
             ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
             BASE_DOCKERFILE: base.Dockerfile
-            MODEL_VERSION_KEY: CRAFT_PR_TAXON
+            MODEL_VERSION_KEY: CRAFT_100
             CLASSIFICATION_LABELS: "label1 label2 false"
-            DATA_FILE: data/craft_pr_taxon/data.tsv
+            DATA_FILE: data/craft_100/data.tsv
           steps:
           - name: Checkout repository
             uses: actions/checkout@v2

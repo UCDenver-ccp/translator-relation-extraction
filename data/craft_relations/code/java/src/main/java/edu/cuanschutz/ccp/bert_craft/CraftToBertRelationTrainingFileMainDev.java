@@ -52,6 +52,42 @@ public class CraftToBertRelationTrainingFileMainDev {
 
 			CraftToBertRelationTrainingFileDev.describeCraftAssertions(craftBaseDirectory, craftAnnotationDirectory,
 					craftOntologyFile);
+			
+			
+			// predicates with at least 50 examples
+			Set<String> relationIrisOfInterest = new HashSet<String>(Arrays.asList(
+//					"http://ccp.cuanschutz.edu/obo/ext/bears_constitution_of_or_situatedness_at_or_possession_by_or_derivation_from",
+//					"http://ccp.cuanschutz.edu/obo/ext/realizes_or_bears_or_is_attribute_of_derivation_or_situatedness_or_possession_from",
+					"http://ccp.cuanschutz.edu/obo/ext/coexists_as",
+//					"http://ccp.cuanschutz.edu/obo/ext/realizes_or_attribute_or_bearer_of_occurrence_in_or_possession_by",
+					"http://ccp.cuanschutz.edu/obo/ext/occurrence_or_attribute_or_effect_brought_about_or_carried_out_by",
+					"http://ccp.cuanschutz.edu/obo/ext/occurrence_or_attribute_or_bearer_of_influence_on",
+					"http://ccp.cuanschutz.edu/obo/ext/has_effect_of_causal_activity",
+					"http://ccp.cuanschutz.edu/obo/ext/has_attribute_of_being_agentive_or_causal_or_its_realization_with",
+					"http://ccp.cuanschutz.edu/obo/ext/has_attribute_of_being_influenced_or_its_realization_with"
+					));
+
+			// in order to reduce the number of labels, we will label things at the top-most
+			// level specified by the input relations of interest. This map will be used
+			// when writing the BERT training files to assign an appropriate label, e.g. the
+			// super-property for any sub-property
+			Map<String, String> relationToLabelMap = new HashMap<String, String>();
+			relationIrisOfInterest = addSubProperties(relationIrisOfInterest, craftOntologyFile, relationToLabelMap);
+
+			Set<String> relationsOfInterest = removeNamespaces(relationIrisOfInterest);
+
+			System.out.println("====================== RELATION TO LABEL MAP ======================");
+			Map<String, String> sortedMap = CollectionsUtil.sortMapByValues(relationToLabelMap, SortOrder.ASCENDING);
+			for (Entry<String, String> entry : sortedMap.entrySet()) {
+				System.out.println(entry.getValue() + " -- " + entry.getKey());
+			}
+			System.out.println("===================================================================");
+
+			CraftToBertRelationTrainingFileDev.createBertTrainingFile(craftBaseDirectory, craftAnnotationDirectory,
+					relationsOfInterest, positivesOutputFile, negativesOutputFile, relationToLabelMap);
+			
+			
+			
 		} catch (IOException | OWLOntologyCreationException e) {
 			e.printStackTrace();
 		}

@@ -1,0 +1,1 @@
+contains training data for 59 relations that have at least 100 examples in CRAFT

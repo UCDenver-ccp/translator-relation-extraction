@@ -15,7 +15,12 @@ RUN apt-get update && apt-get install -y \
   less \
   vim \
   wget \
+  python3.8 \
   && rm -rf /var/lib/apt/lists/*
+
+RUN rm /usr/bin/python3 && \
+    ln -s python3.8 /usr/bin/python3 && \
+    python3 -V
 
 # set up directories that will be used by this container (and its children) 
 RUN mkdir -p /home/dev/models/baseline && \

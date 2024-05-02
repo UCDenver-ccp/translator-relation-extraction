@@ -111,6 +111,7 @@ elif model_key == 'craft_100':
     labels[56]="has_attribute_of_greater_dimension_or_its_realization_with"
     labels[57]="occurrence_or_attribute_or_bearer_of_development_of"
     labels[58]="has_occurrence_or_attribute_of_being_or_becoming_separate_or_separated"
+    labels[59]="false"
 
 # elif model_key == 'bl_gene_to_go_term':
 #   labels[0]="????"

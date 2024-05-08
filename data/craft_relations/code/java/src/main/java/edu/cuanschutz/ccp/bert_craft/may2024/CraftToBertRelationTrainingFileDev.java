@@ -18,6 +18,7 @@ import java.util.Set;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.tools.ant.util.StringUtils;
+import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLObjectProperty;
 import org.semanticweb.owlapi.model.OWLObjectPropertyExpression;
 import org.semanticweb.owlapi.model.OWLOntology;
@@ -228,10 +229,11 @@ public class CraftToBertRelationTrainingFileDev {
 	 * @param negativesOutputFile
 	 * @param relationToLabelMap
 	 * @throws IOException
+	 * @throws OWLOntologyCreationException 
 	 */
 	public static void createBertTrainingFile(File craftBaseDirectory, File craftAnnotationDirectory,
 			Set<String> relations, File positivesOutputFile, File negativesOutputFile,
-			Map<String, String> relationToLabelMap) throws IOException {
+			Map<String, String> relationToLabelMap, File craftOntologyFile) throws IOException, OWLOntologyCreationException {
 
 //		Set<String> relations = removeNamespaces(relationIris);
 
@@ -282,26 +284,29 @@ public class CraftToBertRelationTrainingFileDev {
 		// output masked sentences
 		Set<String> alreadyWrittenSentenceIds = new HashSet<String>();
 
+		
+		OntologyUtil ontUtil = new OntologyUtil(craftOntologyFile);
+		
 		writeAssertions(positivesOutputFile, categoryPairToPositiveAssertionsMap, alreadyWrittenSentenceIds,
-				relationToLabelMap);
+				relationToLabelMap, ontUtil);
 		writeAssertions(negativesOutputFile, categoryPairToNegativeAssertionsMap, alreadyWrittenSentenceIds,
-				relationToLabelMap);
+				relationToLabelMap, ontUtil);
 	}
 
 	private static void writeAssertions(File outputFile, Map<CategoryPair, Set<Assertion>> categoryPairToAssertionsMap,
-			Set<String> alreadyWrittenSentenceIds, Map<String, String> relationToLabelMap)
+			Set<String> alreadyWrittenSentenceIds, Map<String, String> relationToLabelMap, OntologyUtil ontUtil)
 			throws IOException, FileNotFoundException {
 		try (BufferedWriter writer = FileWriterUtil.initBufferedWriter(outputFile)) {
 			for (Entry<CategoryPair, Set<Assertion>> entry : categoryPairToAssertionsMap.entrySet()) {
 				for (Assertion assertion : entry.getValue()) {
-					writeMaskedSentence(writer, assertion, alreadyWrittenSentenceIds, relationToLabelMap);
+					writeMaskedSentence(writer, assertion, alreadyWrittenSentenceIds, relationToLabelMap, ontUtil);
 				}
 			}
 		}
 	}
 
 	private static void writeMaskedSentence(BufferedWriter writer, Assertion assertion,
-			Set<String> alreadyWrittenSentenceIds, Map<String, String> relationToLabelMap) throws IOException {
+			Set<String> alreadyWrittenSentenceIds, Map<String, String> relationToLabelMap, OntologyUtil ontUtil) throws IOException {
 		TextAnnotation sentenceAnnot = assertion.getSentenceAnnot();
 		TextAnnotation subjectAnnot = assertion.getSubjectAnnot();
 		TextAnnotation objectAnnot = assertion.getObjectAnnot();
@@ -318,6 +323,26 @@ public class CraftToBertRelationTrainingFileDev {
 
 				String subjectPlaceholder = SUBJECT_PLACEHOLDER;
 				String objectPlaceholder = OBJECT_PLACEHOLDER;
+
+				// if the annotation is a generic, then we don't want to replace it with the
+				// subject or object placeholder, but we will use the generic name itself as the
+				// placeholder
+				OWLClass genericsRootCls = ontUtil.getOWLClassFromId("http://ccp.cuanschutz.edu/obo/ext/CCP_higher_level_extension_classes");
+				
+				// check to see if the subject annot is a generic class
+				String subjId = subjectAnnot.getClassMention().getMentionName();
+				Set<OWLClass> ancestors = ontUtil.getAncestors(ontUtil.getOWLClassFromId(subjId));
+				if (ancestors.contains(genericsRootCls)) {
+					subjectPlaceholder = String.format("@%s$", id2Curie(subjId).toUpperCase());
+				}
+				
+				// check to see if the object annot is a generic class
+				String objId = objectAnnot.getClassMention().getMentionName();
+				ancestors = ontUtil.getAncestors(ontUtil.getOWLClassFromId(objId));
+				if (ancestors.contains(genericsRootCls)) {
+					objectPlaceholder = String.format("@%s$", id2Curie(objId).toUpperCase());
+				}
+				
 
 //			String subjectPlaceholder = "@" + getCategory(subjectAnnot.getClassMention().getMentionName()) + "_SUBJ$";
 //			String objectPlaceholder = "@" + getCategory(objectAnnot.getClassMention().getMentionName()) + "_OBJ$";

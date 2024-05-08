@@ -36,6 +36,7 @@ import edu.ucdenver.ccp.nlp.core.annotation.TextAnnotation;
 import edu.ucdenver.ccp.nlp.core.annotation.TextAnnotationFactory;
 import edu.ucdenver.ccp.nlp.core.mention.ClassMention;
 import edu.ucdenver.ccp.nlp.core.mention.ComplexSlotMention;
+import edu.ucdenver.ccp.nlp.core.mention.PrimitiveSlotMention;
 import edu.ucdenver.ccp.nlp.core.mention.impl.DefaultClassMention;
 import lombok.Data;
 
@@ -770,42 +771,73 @@ public class CraftToBertRelationTrainingFileDev {
 				String subjectId = id2Curie(subjectAnnot.getClassMention().getMentionName());
 				Collection<ComplexSlotMention> complexSlotMentions = subjectAnnot.getClassMention()
 						.getComplexSlotMentions();
+
+				// create a mapping from the object of the relation span start to the polarity
+				// of the relationship. We will ignore relations with polarity == negative.
+				Map<Integer, String> objectSpanStartToPolarityMap = new HashMap<Integer, String>();
+				// get the provenance slot value
+				PrimitiveSlotMention provenanceSlot = subjectAnnot.getClassMention()
+						.getPrimitiveSlotMentionByName(Knowtator2DocumentReader.RELATION_PROVENANCE_SLOT);
+				if (provenanceSlot != null) {
+					for (Object provenanceObj : provenanceSlot.getSlotValues()) {
+						String provenance = provenanceObj.toString();
+						String[] cols = provenance.split("\\t");
+						Integer objectSpanStart = Integer.parseInt(cols[3].split("\\|")[0]);
+						String polarity = cols[6];
+
+						objectSpanStartToPolarityMap.put(objectSpanStart, polarity);
+					}
+				} // if provenanceSlot is null, then presumably this is not a subject annot, so it
+					// won't have any complex slot mentions
+
 				for (ComplexSlotMention csm : complexSlotMentions) {
 					String relation = id2Curie(csm.getMentionName());
 					Collection<ClassMention> objectCms = csm.getSlotValues();
 					for (ClassMention cm : objectCms) {
 						TextAnnotation objectAnnot = cm.getTextAnnotation();
-						String objectId = id2Curie(objectAnnot.getClassMention().getMentionName());
 
-						String subjectCategory = getCategory(subjectId);
-						String objectCategory = getCategory(objectId);
+						// now that we have the object annotation, we can look up the polarity of the
+						// relation and exclude it if polarity == negative
+						String polarity = objectSpanStartToPolarityMap
+								.get(objectAnnot.getAggregateSpan().getSpanStart());
+
+						if (polarity.equalsIgnoreCase("positive")) {
+
+							String objectId = id2Curie(objectAnnot.getClassMention().getMentionName());
+
+							String subjectCategory = getCategory(subjectId);
+							String objectCategory = getCategory(objectId);
 
 //						String key = subjectCategory + "_" + objectCategory;
 
-						CategoryPair cp = new CategoryPair(subjectCategory, objectCategory);
+							CategoryPair cp = new CategoryPair(subjectCategory, objectCategory);
 
-						TextAnnotation sentenceAnnot = getSentenceAnnot(subjectAnnot, objectAnnot,
-								spanToSentenceAnnotMap);
+							TextAnnotation sentenceAnnot = getSentenceAnnot(subjectAnnot, objectAnnot,
+									spanToSentenceAnnotMap);
 
-						// in order to work around a StackOverflowError, we create annotations that
-						// don't contain the relations embedded as ComplexSlotMentions
-						TextAnnotation subjAnnotShallow = getShallowAnnotation(factory, annotDoc.getText(),
-								subjectAnnot);
+							// in order to work around a StackOverflowError, we create annotations that
+							// don't contain the relations embedded as ComplexSlotMentions
+							TextAnnotation subjAnnotShallow = getShallowAnnotation(factory, annotDoc.getText(),
+									subjectAnnot);
 
-						TextAnnotation objAnnotShallow = getShallowAnnotation(factory, annotDoc.getText(), objectAnnot);
+							TextAnnotation objAnnotShallow = getShallowAnnotation(factory, annotDoc.getText(),
+									objectAnnot);
 
-						// make sure there are no discontinuous spans in the entity annotations
-						if (subjAnnotShallow.getSpans().size() == 1 && objAnnotShallow.getSpans().size() == 1) {
-							Assertion assertion = new Assertion(pmid, subjAnnotShallow, objAnnotShallow, sentenceAnnot,
-									relation);
-							if (subjObjKeyToAssertionGroupMap.containsKey(cp)) {
-								AssertionGroup ag = subjObjKeyToAssertionGroupMap.get(cp);
-								ag.addAssertion(assertion);
-							} else {
-								AssertionGroup ag = new AssertionGroup(subjectCategory, objectCategory);
-								ag.addAssertion(assertion);
-								subjObjKeyToAssertionGroupMap.put(cp, ag);
+							// make sure there are no discontinuous spans in the entity annotations
+							if (subjAnnotShallow.getSpans().size() == 1 && objAnnotShallow.getSpans().size() == 1) {
+								Assertion assertion = new Assertion(pmid, subjAnnotShallow, objAnnotShallow,
+										sentenceAnnot, relation);
+								if (subjObjKeyToAssertionGroupMap.containsKey(cp)) {
+									AssertionGroup ag = subjObjKeyToAssertionGroupMap.get(cp);
+									ag.addAssertion(assertion);
+								} else {
+									AssertionGroup ag = new AssertionGroup(subjectCategory, objectCategory);
+									ag.addAssertion(assertion);
+									subjObjKeyToAssertionGroupMap.put(cp, ag);
+								}
 							}
+						} else {
+							System.out.println("Negative polarity observed.");
 						}
 					}
 				}

@@ -11,6 +11,12 @@ sentence_file_prefix="${to_be_classified_sentence_bucket}/${association_key_lc}"
 bert_input_file_name="bert-input-${association_key_lc}.${sentence_version}.${collection}.tsv"
 bert_input_sentence_bucket="${to_be_classified_sentence_bucket}/bert-input"
 
+echo "bert_input_file_name_with_metadata: ${bert_input_file_name_with_metadata}"
+echo "to_be_classified_sentence_bucket: ${to_be_classified_sentence_bucket}"
+echo "sentence_file_prefix: ${sentence_file_prefix}"
+echo "bert_input_file_name: ${bert_input_file_name}"
+echo "bert_input_sentence_bucket: ${bert_input_sentence_bucket}"
+
 mkdir -p /home/airflow/gcs/data/to_bert && \
 cd /home/airflow/gcs/data/to_bert && \
 gsutil -m cat "${sentence_file_prefix}*" > "${bert_input_file_name_with_metadata}" && \

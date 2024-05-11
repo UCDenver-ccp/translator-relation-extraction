@@ -19,7 +19,11 @@ echo "bert_input_sentence_bucket: ${bert_input_sentence_bucket}"
 
 mkdir -p /home/airflow/gcs/data/to_bert && \
 cd /home/airflow/gcs/data/to_bert && \
-gsutil -m cat "${sentence_file_prefix}*" > "${bert_input_file_name_with_metadata}" && \
+echo "step 1" && \
+gsutil -m cat "${sentence_file_prefix}*.gz" > "${bert_input_file_name_with_metadata}" && \
+echo "step 2" && \
 gsutil -m cp "${bert_input_file_name_with_metadata}" "${to_be_classified_sentence_bucket}" && \
+echo "step 3" && \
 gunzip -c "${bert_input_file_name_with_metadata}" | cut -f 1-2 > "${bert_input_file_name}" && \
+echo "step 4" && \
 gsutil -m cp "${bert_input_file_name}" "${bert_input_sentence_bucket}/"

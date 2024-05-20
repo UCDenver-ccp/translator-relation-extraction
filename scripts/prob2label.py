@@ -60,11 +60,10 @@ elif model_key == 'bl_chemical_to_cell':
     labels[5]="synthesis"
     labels[6]="transport"
 elif model_key == 'bl_cell_to_disease':
-    labels[0]="death"
-    labels[1]="dysfunction"
-    labels[2]="hyperactivity"
-    labels[3]="other"
-    labels[4]="proliferation"
+    labels[0]="dysfunction"
+    labels[1]="hyperactivity"
+    labels[2]="other"
+    labels[3]="proliferation"
 
 # elif model_key == 'bl_gene_to_go_term':
 #   labels[0]="????"

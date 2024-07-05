@@ -64,6 +64,10 @@ elif model_key == 'bl_cell_to_disease':
     labels[1]="hyperactivity"
     labels[2]="other"
     labels[3]="proliferation"
+elif model_key == 'bl_chemical_to_chemical':
+    labels[0]="co-treat"
+    labels[1]="ddi"
+    labels[2]="other"
 
 # elif model_key == 'bl_gene_to_go_term':
 #   labels[0]="????"

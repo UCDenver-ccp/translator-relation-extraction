@@ -24,10 +24,17 @@ if model_key == 'bl_chemical_to_disease_or_phenotypic_feature':
     labels[10]="results_in_side_effect"
     labels[11]="treats"
     labels[12]="other"
+# elif model_key == 'bl_chemical_to_gene':
+#     labels[0]="positively_regulates"
+#     labels[1]="negatively_regulates"
+#     labels[2]="false"
 elif model_key == 'bl_chemical_to_gene':
-    labels[0]="positively_regulates"
-    labels[1]="negatively_regulates"
-    labels[2]="false"
+    labels[0]="activates"
+    labels[1]="modulates"
+    labels[2]="deactivates"
+    labels[3]="metabolized_by"
+    labels[4]="transported_by"
+    labels[5]="other"
 elif model_key == 'bl_disease_to_phenotypic_feature':
     labels[0]="has_symptom"
     labels[1]="false"

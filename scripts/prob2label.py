@@ -35,6 +35,12 @@ elif model_key == 'bl_chemical_to_gene':
     labels[3]="metabolized_by"
     labels[4]="transported_by"
     labels[5]="other"
+elif model_key == 'bl_chemical_to_process':
+    labels[0]="participates_in"
+    labels[1]="enhances"
+    labels[2]="inhibits"
+    labels[3]="is_produced_by"
+    labels[4]="other"
 elif model_key == 'bl_disease_to_phenotypic_feature':
     labels[0]="has_symptom"
     labels[1]="false"

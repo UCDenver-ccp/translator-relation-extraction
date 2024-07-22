@@ -52,9 +52,9 @@ public class CraftToBertRelationTrainingFileDev {
 	protected static final String SUBJECT_PLACEHOLDER = "@SUBJECT$";
 
 	public static void describeCraftAssertions(File craftBaseDirectory, File craftAnnotationDirectory,
-			File craftMergedOntologyFile) throws IOException, OWLOntologyCreationException {
+			File craftMergedOntologyFile, OntologyUtil ontUtil) throws IOException, OWLOntologyCreationException {
 		Map<CategoryPair, AssertionGroup> categoryPairToPositiveAssertionGroupMap = compileAssertionGroups(
-				craftBaseDirectory, craftAnnotationDirectory);
+				craftBaseDirectory, craftAnnotationDirectory, ontUtil);
 
 		Map<String, Integer> relationInstanceCountMap = new HashMap<String, Integer>();
 		int assertionTotal = 0;
@@ -228,12 +228,14 @@ public class CraftToBertRelationTrainingFileDev {
 	 * @param outputFile
 	 * @param negativesOutputFile
 	 * @param relationToLabelMap
+	 * @param ontUtil
 	 * @throws IOException
-	 * @throws OWLOntologyCreationException 
+	 * @throws OWLOntologyCreationException
 	 */
 	public static void createBertTrainingFile(File craftBaseDirectory, File craftAnnotationDirectory,
 			Set<String> relations, File positivesOutputFile, File negativesOutputFile,
-			Map<String, String> relationToLabelMap, File craftOntologyFile) throws IOException, OWLOntologyCreationException {
+			Map<String, String> relationToLabelMap, File craftOntologyFile)
+			throws IOException, OWLOntologyCreationException {
 
 //		Set<String> relations = removeNamespaces(relationIris);
 
@@ -243,9 +245,11 @@ public class CraftToBertRelationTrainingFileDev {
 		// a count of relation types for that subject-object pair.
 //		Map<String, Map<String, Integer>> subjObjToRelationCountMap = new HashMap<String, Map<String, Integer>>();
 
+		OntologyUtil ontUtil = new OntologyUtil(craftOntologyFile);
+
 		// this map contains all assertions for all relations in CRAFT
 		Map<CategoryPair, AssertionGroup> categoryPairToPositiveAssertionGroupMap = compileAssertionGroups(
-				craftBaseDirectory, craftAnnotationDirectory);
+				craftBaseDirectory, craftAnnotationDirectory, ontUtil);
 
 		// this map contains the positive assertions for the relations of interest only
 		Map<CategoryPair, Set<Assertion>> categoryPairToPositiveAssertionsMap = new HashMap<CategoryPair, Set<Assertion>>();
@@ -279,14 +283,11 @@ public class CraftToBertRelationTrainingFileDev {
 		// a given relation, i.e. find sentences that contain two entity types but that
 		// are not related by the specified relation
 		Map<CategoryPair, Set<Assertion>> categoryPairToNegativeAssertionsMap = getNegatives(relations,
-				craftBaseDirectory, craftAnnotationDirectory, categoryPairToPositiveAssertionsMap);
+				craftBaseDirectory, craftAnnotationDirectory, categoryPairToPositiveAssertionsMap, ontUtil);
 
 		// output masked sentences
 		Set<String> alreadyWrittenSentenceIds = new HashSet<String>();
 
-		
-		OntologyUtil ontUtil = new OntologyUtil(craftOntologyFile);
-		
 		writeAssertions(positivesOutputFile, categoryPairToPositiveAssertionsMap, alreadyWrittenSentenceIds,
 				relationToLabelMap, ontUtil);
 		writeAssertions(negativesOutputFile, categoryPairToNegativeAssertionsMap, alreadyWrittenSentenceIds,
@@ -306,7 +307,8 @@ public class CraftToBertRelationTrainingFileDev {
 	}
 
 	private static void writeMaskedSentence(BufferedWriter writer, Assertion assertion,
-			Set<String> alreadyWrittenSentenceIds, Map<String, String> relationToLabelMap, OntologyUtil ontUtil) throws IOException {
+			Set<String> alreadyWrittenSentenceIds, Map<String, String> relationToLabelMap, OntologyUtil ontUtil)
+			throws IOException {
 		TextAnnotation sentenceAnnot = assertion.getSentenceAnnot();
 		TextAnnotation subjectAnnot = assertion.getSubjectAnnot();
 		TextAnnotation objectAnnot = assertion.getObjectAnnot();
@@ -320,29 +322,44 @@ public class CraftToBertRelationTrainingFileDev {
 				// add placeholders working from the end of the sentence to the beginning --
 				// this way the character offsets at the end don't change when you adjust the
 				// sentence at the beginning.
-
 				String subjectPlaceholder = SUBJECT_PLACEHOLDER;
 				String objectPlaceholder = OBJECT_PLACEHOLDER;
+
+				// TODO - change to make the placeholder simply the ontology prefix
+				// Initialize the placeholder to be the prefix of the ontology
+				// For extension classes, pick a consistent prefix
+
+				subjectPlaceholder = "@" + getCategory(subjectAnnot.getClassMention().getMentionName(), ontUtil) + "$";
+				objectPlaceholder = "@" + getCategory(objectAnnot.getClassMention().getMentionName(), ontUtil) + "$";
 
 				// if the annotation is a generic, then we don't want to replace it with the
 				// subject or object placeholder, but we will use the generic name itself as the
 				// placeholder
-				OWLClass genericsRootCls = ontUtil.getOWLClassFromId("http://ccp.cuanschutz.edu/obo/ext/CCP_higher_level_extension_classes");
-				
+				OWLClass genericsRootCls = ontUtil
+						.getOWLClassFromId("http://ccp.cuanschutz.edu/obo/ext/CCP_higher_level_extension_classes");
+
 				// check to see if the subject annot is a generic class
 				String subjId = subjectAnnot.getClassMention().getMentionName();
 				Set<OWLClass> ancestors = ontUtil.getAncestors(ontUtil.getOWLClassFromId(subjId));
 				if (ancestors.contains(genericsRootCls)) {
 					subjectPlaceholder = String.format("@%s$", id2Curie(subjId).toUpperCase());
 				}
-				
+
 				// check to see if the object annot is a generic class
 				String objId = objectAnnot.getClassMention().getMentionName();
 				ancestors = ontUtil.getAncestors(ontUtil.getOWLClassFromId(objId));
 				if (ancestors.contains(genericsRootCls)) {
 					objectPlaceholder = String.format("@%s$", id2Curie(objId).toUpperCase());
 				}
-				
+
+				if (subjectPlaceholder == null) {
+					throw new IllegalArgumentException(
+							"Failed to convert placeholder for: " + subjectAnnot.getClassMention().getMentionName());
+				}
+				if (subjectPlaceholder.equals(OBJECT_PLACEHOLDER)) {
+					throw new IllegalArgumentException(
+							"Failed to convert placeholder for: " + objectAnnot.getClassMention().getMentionName());
+				}
 
 //			String subjectPlaceholder = "@" + getCategory(subjectAnnot.getClassMention().getMentionName()) + "_SUBJ$";
 //			String objectPlaceholder = "@" + getCategory(objectAnnot.getClassMention().getMentionName()) + "_OBJ$";
@@ -457,13 +474,14 @@ public class CraftToBertRelationTrainingFileDev {
 	 * @param relations
 	 * @param craftBaseDirectory
 	 * @param craftAnnotationDirectory
+	 * @param ontUtil
 	 * @param categoryPairs
 	 * @return
 	 * @throws IOException
 	 */
 	private static Map<CategoryPair, Set<Assertion>> getNegatives(Set<String> relations, File craftBaseDirectory,
-			File craftAnnotationDirectory, Map<CategoryPair, Set<Assertion>> categoryPairToPositiveAssertionsMap)
-			throws IOException {
+			File craftAnnotationDirectory, Map<CategoryPair, Set<Assertion>> categoryPairToPositiveAssertionsMap,
+			OntologyUtil ontUtil) throws IOException {
 		Map<CategoryPair, Set<Assertion>> categoryPairToAssertionsMap = new HashMap<CategoryPair, Set<Assertion>>();
 
 		for (Iterator<File> fileIterator = FileUtil.getFileIterator(craftAnnotationDirectory, false,
@@ -486,7 +504,7 @@ public class CraftToBertRelationTrainingFileDev {
 			// do not participate in the positive assertions
 			Map<CategoryPair, Set<Assertion>> categoryPairToNegativeAssertionsMap = populateCategoryPairToNegativeAssertionsMap(
 					pmid, spanToSentenceAnnotMap, annotDoc.getAnnotations(), annotDoc.getText(),
-					positiveAssertionsForDocument, categoryPairToPositiveAssertionsMap.keySet());
+					positiveAssertionsForDocument, categoryPairToPositiveAssertionsMap.keySet(), ontUtil);
 
 			for (Entry<CategoryPair, Set<Assertion>> entry : categoryPairToNegativeAssertionsMap.entrySet()) {
 				CategoryPair cp = entry.getKey();
@@ -546,15 +564,17 @@ public class CraftToBertRelationTrainingFileDev {
 
 	/**
 	 * @param conceptAnnots
+	 * @param ontUtil
 	 * @return a mapping from category e.g. protein (based on the id) and
 	 *         annotations
 	 */
-	private static Map<String, Set<TextAnnotation>> createCategoryToAnnotMap(Set<TextAnnotation> conceptAnnots) {
+	private static Map<String, Set<TextAnnotation>> createCategoryToAnnotMap(Set<TextAnnotation> conceptAnnots,
+			OntologyUtil ontUtil) {
 
 		Map<String, Set<TextAnnotation>> map = new HashMap<String, Set<TextAnnotation>>();
 
 		for (TextAnnotation annot : conceptAnnots) {
-			String category = getCategory(annot.getClassMention().getMentionName());
+			String category = getCategory(annot.getClassMention().getMentionName(), ontUtil);
 			CollectionsUtil.addToOne2ManyUniqueMap(category, annot, map);
 		}
 
@@ -571,13 +591,14 @@ public class CraftToBertRelationTrainingFileDev {
 	 * 
 	 * @param spanToSentenceAnnotMap
 	 * @param annotations
+	 * @param ontUtil)
 	 * @param set
 	 * @param relations
 	 * @return
 	 */
 	private static Map<CategoryPair, Set<Assertion>> populateCategoryPairToNegativeAssertionsMap(String documentId,
 			Map<Span, TextAnnotation> spanToSentenceAnnotMap, List<TextAnnotation> annotations, String documentText,
-			Set<Assertion> positiveAssertionsForDocument, Set<CategoryPair> targetCategoryPairs) {
+			Set<Assertion> positiveAssertionsForDocument, Set<CategoryPair> targetCategoryPairs, OntologyUtil ontUtil) {
 
 		Map<CategoryPair, Set<Assertion>> categoryPairToNegativeAssertionsMap = new HashMap<CategoryPair, Set<Assertion>>();
 		Map<TextAnnotation, Set<TextAnnotation>> sentenceToEntityAnnotMap = new HashMap<TextAnnotation, Set<TextAnnotation>>();
@@ -608,11 +629,11 @@ public class CraftToBertRelationTrainingFileDev {
 					if (!concept1.equals(concept2)) {
 						createNegativeAssertion(documentId, documentText, targetCategoryPairs,
 								categoryPairToNegativeAssertionsMap, idPairsInRelationsOfInterest, factory,
-								sentenceAnnot, concept1, concept2);
+								sentenceAnnot, concept1, concept2, ontUtil);
 						// and try it with the concepts switched as well
 						createNegativeAssertion(documentId, documentText, targetCategoryPairs,
 								categoryPairToNegativeAssertionsMap, idPairsInRelationsOfInterest, factory,
-								sentenceAnnot, concept2, concept1);
+								sentenceAnnot, concept2, concept1, ontUtil);
 					}
 				}
 			}
@@ -645,14 +666,14 @@ public class CraftToBertRelationTrainingFileDev {
 			Set<CategoryPair> targetCategoryPairs,
 			Map<CategoryPair, Set<Assertion>> categoryPairToNegativeAssertionsMap,
 			Set<IdPair> idPairsInRelationsOfInterest, TextAnnotationFactory factory, TextAnnotation sentenceAnnot,
-			TextAnnotation concept1, TextAnnotation concept2) {
+			TextAnnotation concept1, TextAnnotation concept2, OntologyUtil ontUtil) {
 		String annotId1 = concept1.getAnnotationID();
 		String annotId2 = concept2.getAnnotationID();
 		IdPair idPair = new IdPair(annotId1, annotId2);
 		// if this id pair does not represent a positive assertion, then proceed
 		if (!idPairsInRelationsOfInterest.contains(idPair)) {
-			String category1 = getCategory(concept1.getClassMention().getMentionName());
-			String category2 = getCategory(concept2.getClassMention().getMentionName());
+			String category1 = getCategory(concept1.getClassMention().getMentionName(), ontUtil);
+			String category2 = getCategory(concept2.getClassMention().getMentionName(), ontUtil);
 			CategoryPair cp = new CategoryPair(category1, category2);
 			// if the category pair for these two concept annotations is one of the target
 			// category pairs, then proceed with making the negative assertion
@@ -776,7 +797,7 @@ public class CraftToBertRelationTrainingFileDev {
 	}
 
 	private static Map<CategoryPair, AssertionGroup> compileAssertionGroups(File craftBaseDirectory,
-			File craftAnnotationDirectory) throws IOException {
+			File craftAnnotationDirectory, OntologyUtil ontUtil) throws IOException {
 		Map<CategoryPair, AssertionGroup> subjObjKeyToAssertionGroupMap = new HashMap<CategoryPair, AssertionGroup>();
 		TextAnnotationFactory factory = TextAnnotationFactory.createFactoryWithDefaults();
 		for (Iterator<File> fileIterator = FileUtil.getFileIterator(craftAnnotationDirectory, false,
@@ -793,7 +814,7 @@ public class CraftToBertRelationTrainingFileDev {
 			addIdsToAnnotations(annotDoc.getAnnotations());
 
 			for (TextAnnotation subjectAnnot : annotDoc.getAnnotations()) {
-				String subjectId = id2Curie(subjectAnnot.getClassMention().getMentionName());
+//				String subjectId = id2Curie(subjectAnnot.getClassMention().getMentionName());
 				Collection<ComplexSlotMention> complexSlotMentions = subjectAnnot.getClassMention()
 						.getComplexSlotMentions();
 
@@ -828,10 +849,10 @@ public class CraftToBertRelationTrainingFileDev {
 
 						if (polarity.equalsIgnoreCase("positive")) {
 
-							String objectId = id2Curie(objectAnnot.getClassMention().getMentionName());
+//							String objectId = id2Curie(objectAnnot.getClassMention().getMentionName());
 
-							String subjectCategory = getCategory(subjectId);
-							String objectCategory = getCategory(objectId);
+							String subjectCategory = getCategory(subjectAnnot.getClassMention().getMentionName(), ontUtil);
+							String objectCategory = getCategory(objectAnnot.getClassMention().getMentionName(), ontUtil);
 
 //						String key = subjectCategory + "_" + objectCategory;
 
@@ -976,39 +997,136 @@ public class CraftToBertRelationTrainingFileDev {
 		private final String relation;
 	}
 
-	private static String getCategory(String id) {
+	private static String getCategory(String id, OntologyUtil ontUtil) {
 		if (id.contains("PR_")) {
-			return "protein";
+//			return "protein";
+			return "PROTEIN";
 		}
 		if (id.contains("CHEBI_")) {
-			return "chemical";
+//			return "chemical";
+			return "CHEM";
 		}
 		if (id.contains("NCBITaxon_")) {
-			return "taxon";
+//			return "taxon";
+			return "TAXON";
 		}
 		if (id.contains("UBERON_")) {
-			return "anatomy";
+//			return "anatomy";
+			return "ANAT";
 		}
 		if (id.contains("SO_")) {
-			return "sequence";
+//			return "sequence";
+			return "SEQ";
 		}
 		if (id.contains("MONDO_")) {
-			return "disease";
+//			return "disease";
+			return "DISEASE";
 		}
 		if (id.contains("CL_")) {
-			return "cell";
+//			return "cell";
+			return "CELL";
 		}
 		if (id.contains("MOP_")) {
-			return "mop";
+//			return "mop";
+			return "MOP";
 		}
 		if (id.contains("GO:0006412") || id.contains("GO:0010467") || id.contains("GO_EXT:transcription")) {
-			return "expression";
+//			return "expression";
+			return "EXPRESS";
 		}
 		if (id.contains("GO_")) {
-			return "geneontology";
+//			return "geneontology";
+			return "GO";
 		}
-//		System.out.println("SOMETHING ID: " + id);
-		return "something";
+
+		// if the annotation is a generic, then we don't want to replace it with the
+		// subject or object placeholder, but we will use the generic name itself as the
+		// placeholder
+
+		// check to see if the subject annot is a generic class
+		OWLClass cls = ontUtil.getOWLClassFromId(id);
+		if (cls != null) {
+			OWLClass genericsRootCls = ontUtil
+					.getOWLClassFromId("http://ccp.cuanschutz.edu/obo/ext/CCP_higher_level_extension_classes");
+			Set<OWLClass> ancestors = ontUtil.getAncestors(cls);
+			if (ancestors.contains(genericsRootCls)) {
+				return String.format("@%s$", id2Curie(id).toUpperCase());
+			}
+
+			// CHEBI
+			OWLClass rootCls = ontUtil
+					.getOWLClassFromId("http://www.owl-ontologies.com/unnamed.owl#CHEBI_extension_classes");
+			ancestors = ontUtil.getAncestors(cls);
+			if (ancestors.contains(rootCls)) {
+				return String.format("CHEM");
+			}
+
+//		PR
+			rootCls = ontUtil.getOWLClassFromId("http://www.owl-ontologies.com/unnamed.owl#PR_extension_classes");
+			ancestors = ontUtil.getAncestors(cls);
+			if (ancestors.contains(rootCls)) {
+				return String.format("PROTEIN");
+			}
+
+//		NCBITaxon
+			rootCls = ontUtil
+					.getOWLClassFromId("http://www.owl-ontologies.com/unnamed.owl#NCBITaxon_extension_classes");
+			ancestors = ontUtil.getAncestors(cls);
+			if (ancestors.contains(rootCls)) {
+				return String.format("TAXON");
+			}
+
+//		UBERON
+			rootCls = ontUtil.getOWLClassFromId("http://www.owl-ontologies.com/unnamed.owl#UBERON_extension_classes");
+			ancestors = ontUtil.getAncestors(cls);
+			if (ancestors.contains(rootCls)) {
+				return String.format("ANAT");
+			}
+
+//		CL
+			rootCls = ontUtil.getOWLClassFromId("http://www.owl-ontologies.com/unnamed.owl#CL_extension_classes");
+			ancestors = ontUtil.getAncestors(cls);
+			if (ancestors.contains(rootCls)) {
+				return String.format("CELL");
+			}
+
+//		GO_BP
+			rootCls = ontUtil.getOWLClassFromId("http://www.owl-ontologies.com/unnamed.owl#GO_BP_extension_classes");
+			ancestors = ontUtil.getAncestors(cls);
+			if (ancestors.contains(rootCls)) {
+				return String.format("BP");
+			}
+
+//		GO_CC
+			rootCls = ontUtil.getOWLClassFromId("http://www.owl-ontologies.com/unnamed.owl#GO_CC_extension_classes");
+			ancestors = ontUtil.getAncestors(cls);
+			if (ancestors.contains(rootCls)) {
+				return String.format("CC");
+			}
+
+//		GO_MF
+			rootCls = ontUtil.getOWLClassFromId("http://www.owl-ontologies.com/unnamed.owl#GO_MF_extension_classes");
+			ancestors = ontUtil.getAncestors(cls);
+			if (ancestors.contains(rootCls)) {
+				return String.format("MF");
+			}
+
+//		SO
+			rootCls = ontUtil.getOWLClassFromId("http://www.owl-ontologies.com/unnamed.owl#SO_extension_classes");
+			ancestors = ontUtil.getAncestors(cls);
+			if (ancestors.contains(rootCls)) {
+				return String.format("SEQ");
+			}
+
+//		MOP
+			rootCls = ontUtil.getOWLClassFromId("http://www.owl-ontologies.com/unnamed.owl#MOP_extension_classes");
+			ancestors = ontUtil.getAncestors(cls);
+			if (ancestors.contains(rootCls)) {
+				return String.format("MOP");
+			}
+
+		}
+		throw new IllegalArgumentException("Unhandled id: " + id);
 	}
 
 	/**

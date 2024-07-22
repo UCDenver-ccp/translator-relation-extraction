@@ -40,8 +40,10 @@ public class CraftToBertRelationTrainingFileMainDev {
 
 		try {
 
+			OntologyUtil ontUtil = new OntologyUtil(craftOntologyFile);
+			
 			CraftToBertRelationTrainingFileDev.describeCraftAssertions(craftBaseDirectory, craftAnnotationDirectory,
-					craftOntologyFile);
+					craftOntologyFile, ontUtil);
 
 			// @formatter=off
 			// predicates with at least 100 examples

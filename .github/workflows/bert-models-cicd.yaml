@@ -2442,6 +2442,10 @@ jobs:
           - name: Set BASE_VERSION env
             run: |
               echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+              
+          - name: Set NUM_EPOCHS env
+            run: |
+              echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
 
           - name: Build Docker Image
             run: |
@@ -2449,6 +2453,7 @@ jobs:
                            --build-arg "TASK_NAME=$TASK_NAME" \
                            --build-arg "BASE_VERSION=$BASE_VERSION" \
                            --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+                           --build-arg "EPOCHS=$NUM_EPOCHS" \
                            --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
                            -f ${{ env.DOCKERFILE }} .
       
@@ -2461,7 +2466,7 @@ jobs:
               gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
               --scale-tier=CUSTOM \
               --master-machine-type=n1-standard-8 \
-              --master-accelerator=count=1,type=nvidia-tesla-v100 \ 
+              --master-accelerator=count=1,type=nvidia-tesla-v100 \
               --region "$GCE_REGION" \
               --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
               -- \

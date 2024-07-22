@@ -2413,14 +2413,23 @@ jobs:
             MODEL_VERSION_KEY: CRAFT_100
             AI_PLATFORM_JOB_NAME: "craft_100_train_${{ github.run_number }}"
           steps:
-          - name: Checkout repository
-            uses: actions/checkout@v2
-
-          - name: Authenticate to Google Cloud
-            uses: google-github-actions/auth@v0
+          - uses: actions/checkout@v4
             with:
-              workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER_LOCATION }}
-              service_account: "${{ secrets.SERVICE_ACCOUNT }}@${{ secrets.GCE_PROJECT }}.iam.gserviceaccount.com"
+              fetch-depth: 0
+          - id: 'auth'
+            uses: 'google-github-actions/auth@v2'
+            with:
+              project_id: ${{ secrets.GCE_PROJECT }}
+              service_account: ${{ secrets.SERVICE_ACCOUNT }}
+              credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+          - name: 'Set up Cloud SDK'
+            uses: 'google-github-actions/setup-gcloud@v2'
+            with:
+              version: '>= 363.0.0'
+          - name: Setup Python
+            uses: actions/setup-python@v2
+            with:
+              python-version: 3.7
 
           - name: Configure Docker Authentication
             run: |
@@ -2433,13 +2442,18 @@ jobs:
           - name: Set BASE_VERSION env
             run: |
               echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
-      
+              
+          - name: Set NUM_EPOCHS env
+            run: |
+              echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
           - name: Build Docker Image
             run: |
               docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
                            --build-arg "TASK_NAME=$TASK_NAME" \
                            --build-arg "BASE_VERSION=$BASE_VERSION" \
                            --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+                           --build-arg "EPOCHS=$NUM_EPOCHS" \
                            --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
                            -f ${{ env.DOCKERFILE }} .
       

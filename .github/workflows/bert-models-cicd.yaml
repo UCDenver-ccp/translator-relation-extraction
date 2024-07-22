@@ -2464,7 +2464,10 @@ jobs:
           - name: Submit a training job to AI Plaform to train and cache the model
             run: |
               gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
-              --scale-tier basic_gpu --region "$GCE_REGION" \
+              --scale-tier=CUSTOM \
+              --master-machine-type=n1-standard-8 \
+              --master-accelerator=count=1,type=nvidia-tesla-v100 \ 
+              --region "$GCE_REGION" \
               --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
               -- \
               NO_ARG \
@@ -2473,7 +2476,7 @@ jobs:
           - name: Monitor the training job
             run: |
               sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
-            timeout-minutes: 180
+            timeout-minutes: 500
       
         # # # ----------------------------------------------------------------------------------- #
         # # #          BUILD/PUSH CRAFT_RELATIONS INFLUENCE CLASSIFICATION CONTAINER IMAGE       #

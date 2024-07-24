@@ -112,7 +112,9 @@ elif model_key == 'craft_100':
     labels[57]="occurrence_or_attribute_or_bearer_of_development_of"
     labels[58]="has_occurrence_or_attribute_of_being_or_becoming_separate_or_separated"
     labels[59]="false"
-
+elif model_key == 'craft_1_vs_all':
+    labels[0]="label1"
+    labels[1]="false"
 # elif model_key == 'bl_gene_to_go_term':
 #   labels[0]="????"
 #   labels[1]="????"

@@ -1,0 +1,8 @@
+Class      TP    TN    FP    FN    Precision    Recall    F-score    Accuracy    Sensitivity    Specificity    PPV    NPV    Support
+false    8912   390    54    54        0.994     0.994      0.994       0.994          0.994          0.878  0.994  0.878       8966
+label1    390  8912    54    54        0.878     0.878      0.878       0.878          0.878          0.994  0.878  0.994        444
+micro    9302  9302   108   108        0.989     0.989      0.989     nan              0.989          0.989  0.989  0.989       9410
+
+Class      TP    TN    FP    FN    Precision    Recall    F-score    Accuracy    Sensitivity    Specificity    PPV    NPV    Support
+label1    390  8912    54    54        0.878     0.878      0.878       0.878          0.878          0.994  0.878  0.994        444
+micro     390  8912    54    54        0.878     0.878      0.878     nan              0.878          0.994  0.878  0.994        444

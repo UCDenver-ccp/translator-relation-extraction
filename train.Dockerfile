@@ -26,12 +26,13 @@ WORKDIR /home/dev
 ## install blue benchmark repository; note, it's possible some of the pip install commands below are not needed 
 RUN git clone https://github.com/ncbi-nlp/BLUE_Benchmark.git ./blue_benchmark.git && \
     cd blue_benchmark.git && \
-    pip install -r requirements.txt && \
-    pip install fire && \
-    pip install jsonlines && \
-    pip install pandas && \
-    pip install tabulate && \
-    pip install sklearn
+    python -m pip install --upgrade pip && \
+    python -m pip install -r requirements.txt && \
+    python -m pip install fire && \
+    python -m pip install jsonlines && \
+    python -m pip install pandas && \
+    python -m pip install tabulate && \
+    python -m pip install scikit-learn
 
 ENV BlueBERT_DIR '/home/dev/models/baseline'
 

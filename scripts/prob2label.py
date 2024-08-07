@@ -24,7 +24,7 @@ if model_key == 'bl_chemical_to_disease_or_phenotypic_feature':
     # labels[10]="results_in_side_effect"
     # labels[11]="treats"
     # labels[12]="other"
-     labels[0]="has unintended effect of"
+     labels[0]="has_unintended_effect_of"
      labels[1]="resistance_is_associated_with"
      labels[2]="is_contraindicated_in"
      labels[3]="exacerbates"

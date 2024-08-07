@@ -1,2 +1,5 @@
+v0.15
+ - trained on synthetic sentences created by GPT after adding more of the "resistance is associated with" relation (chem_disease.synthetic.bert.v2.random.tsv)
+
 v0.14
  - trained on synthetic sentences created by GPT (chem_disease.synthetic.bert.v1.random.tsv)

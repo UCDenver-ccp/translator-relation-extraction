@@ -24,14 +24,14 @@ if model_key == 'bl_chemical_to_disease_or_phenotypic_feature':
     # labels[10]="results_in_side_effect"
     # labels[11]="treats"
     # labels[12]="other"
-     labels[0]="has unintended effect of",
-     labels[1]="resistance_is_associated_with",
-     labels[2]="is_contraindicated_in",
-     labels[3]="exacerbates",
-     labels[4]="increases_risk_for",
-     labels[5]="decreases_risk_for",
-     labels[6]="prevents",
-     labels[7]="is_used_to_treat",
+     labels[0]="has unintended effect of"
+     labels[1]="resistance_is_associated_with"
+     labels[2]="is_contraindicated_in"
+     labels[3]="exacerbates"
+     labels[4]="increases_risk_for"
+     labels[5]="decreases_risk_for"
+     labels[6]="prevents"
+     labels[7]="is_used_to_treat"
      labels[8]="other"
 
 # elif model_key == 'bl_chemical_to_gene':

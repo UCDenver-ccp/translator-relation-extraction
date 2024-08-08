@@ -101,7 +101,13 @@ elif model_key == 'bl_gene_to_gene':
     labels[1]="activates"
     labels[2]="deactivates"
     labels[3]="other"
-    
+elif model_key == 'bl_gene_to_process':
+    labels[0]="participates_in"
+    labels[1]="enhances"
+    labels[2]="inhibits"
+    labels[3]="other"
+
+
 # elif model_key == 'bl_gene_to_go_term':
 #   labels[0]="????"
 #   labels[1]="????"

@@ -106,6 +106,11 @@ elif model_key == 'bl_gene_to_process':
     labels[1]="enhances"
     labels[2]="inhibits"
     labels[3]="other"
+elif model_key == 'bl_located_or_occurs_in':
+    labels[0]="located_in"
+    labels[1]="occurs_in"
+    labels[2]="other"
+
 
 
 # elif model_key == 'bl_gene_to_go_term':

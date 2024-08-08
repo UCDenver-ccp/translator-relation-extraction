@@ -96,7 +96,12 @@ elif model_key == 'bl_chemical_to_chemical':
     labels[0]="co-treat"
     labels[1]="ddi"
     labels[2]="other"
-
+elif model_key == 'bl_gene_to_gene':
+    labels[0]="interacts_with"
+    labels[1]="activates"
+    labels[2]="deactivates"
+    labels[3]="other"
+    
 # elif model_key == 'bl_gene_to_go_term':
 #   labels[0]="????"
 #   labels[1]="????"

@@ -110,6 +110,9 @@ elif model_key == 'bl_located_or_occurs_in':
     labels[0]="located_in"
     labels[1]="occurs_in"
     labels[2]="other"
+elif model_key == 'bl_associated_with_disease':
+    labels[0]="associated_with"
+    labels[1]="other"
 
 
 

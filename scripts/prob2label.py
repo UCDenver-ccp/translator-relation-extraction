@@ -106,10 +106,12 @@ elif model_key == 'bl_gene_to_process':
     labels[1]="enhances"
     labels[2]="inhibits"
     labels[3]="other"
-elif model_key == 'bl_located_or_occurs_in':
+elif model_key == 'bl_gene_to_location':
     labels[0]="located_in"
-    labels[1]="occurs_in"
-    labels[2]="other"
+    labels[1]="other"
+elif model_key == 'bl_process_to_location':
+    labels[0]="occurs_in"
+    labels[1]="other"
 elif model_key == 'bl_associated_with_disease':
     labels[0]="associated_with"
     labels[1]="other"

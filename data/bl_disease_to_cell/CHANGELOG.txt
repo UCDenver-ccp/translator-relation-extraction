@@ -1,2 +1,5 @@
+v0.2
+- v0.1 had terrible performance; re-trained and observed expected performance
+
 v0.1
 - trained on synthetic sentences created by GPT (assoc-with-disease.cell.synthetic.bert.v1.random.tsv)

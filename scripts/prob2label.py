@@ -109,7 +109,25 @@ elif model_key == 'bl_gene_to_process':
 elif model_key == 'bl_gene_to_location':
     labels[0]="located_in"
     labels[1]="other"
+elif model_key == 'bl_gene_to_anatomy':
+    labels[0]="located_in"
+    labels[1]="other"
+elif model_key == 'bl_gene_to_cell_component':
+    labels[0]="located_in"
+    labels[1]="other"
+elif model_key == 'bl_gene_to_cell':
+    labels[0]="located_in"
+    labels[1]="other"
 elif model_key == 'bl_process_to_location':
+    labels[0]="occurs_in"
+    labels[1]="other"
+elif model_key == 'bl_process_to_anatomy':
+    labels[0]="occurs_in"
+    labels[1]="other"
+elif model_key == 'bl_process_to_cell_component':
+    labels[0]="occurs_in"
+    labels[1]="other"
+elif model_key == 'bl_process_to_cell':
     labels[0]="occurs_in"
     labels[1]="other"
 elif model_key == 'bl_disease_to_anatomy':

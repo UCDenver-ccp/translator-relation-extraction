@@ -1,2 +1,5 @@
+v0.2
+- trained on real sentences judged by GPT - includes genes located in cells, cell components, and anatomical entities (gene_to_anatomy_cc_cell.tsv)
+
 v0.1
 - trained on synthetic sentences created by GPT

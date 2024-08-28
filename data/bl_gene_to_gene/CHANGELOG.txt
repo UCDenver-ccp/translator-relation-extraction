@@ -1,3 +1,6 @@
+v0.3
+- trained on real sentences judged by GPT (gene_gene.bert.v2.random.tsv)
+
 v0.2
 - trained on synthetic sentences created by GPT (gene_gene.synthetic.bert.v1.random.tsv)
 - this version includes interacts_with which was mistakenly excluded during v1 model training

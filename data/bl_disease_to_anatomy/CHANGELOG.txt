@@ -1,2 +1,6 @@
+v0.2
+- trained on synthetic sentences created by GPT (disease_has_basis_in_anatomic_location.synthetic.bert.v1.random.tsv)
+- relation is now "disease has basis in"
+
 v0.1
 - trained on synthetic sentences created by GPT (assoc-with-disease.anatomic_location.synthetic.bert.v1.random.tsv)

@@ -97,7 +97,7 @@ elif model_key == 'bl_chemical_to_chemical':
     labels[1]="ddi"
     labels[2]="other"
 elif model_key == 'bl_gene_to_gene':
-    labels[0]="interacts_with"
+    labels[0]="binds"
     labels[1]="activates"
     labels[2]="deactivates"
     labels[3]="other"
@@ -131,19 +131,19 @@ elif model_key == 'bl_process_to_cell':
     labels[0]="occurs_in"
     labels[1]="other"
 elif model_key == 'bl_disease_to_anatomy':
-    labels[0]="associated_with"
+    labels[0]="has_basis_in"
     labels[1]="other"
 elif model_key == 'bl_disease_to_cell':
-    labels[0]="associated_with"
+    labels[0]="has_basis_in"
     labels[1]="other"
 elif model_key == 'bl_disease_to_gene':
-    labels[0]="associated_with"
+    labels[0]="has_basis_in"
     labels[1]="other"
 elif model_key == 'bl_disease_to_phenotype':
-    labels[0]="associated_with"
+    labels[0]="has_phenotype"
     labels[1]="other"
 elif model_key == 'bl_disease_to_process':
-    labels[0]="associated_with"
+    labels[0]="has_basis_in"
     labels[1]="other"
 
 

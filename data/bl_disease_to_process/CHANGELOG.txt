@@ -1,3 +1,7 @@
+v0.4
+- trained on synthetic sentences created by GPT (disease-has_basis_in-biological_process.synthetic.bert.v1.random.tsv)
+- predicate is now has_basis_in
+
 v0.3
 - decent performance - no change in the data. Not sure why.
 

@@ -21,4 +21,4 @@ cd /home/airflow/gcs/data/to_bert && \
 echo "step 1" && \
 gsutil -m cat "${sentence_file_prefix}" > "${aggregated_bert_output_file_name}" && \
 echo "step 2" && \
-gsutil -m cp "${aggregated_bert_output_file_name}" "${input_bucket}" && \
+gsutil -m cp "${aggregated_bert_output_file_name}" "${input_bucket}"

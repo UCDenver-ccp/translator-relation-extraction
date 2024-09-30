@@ -50,41 +50,41 @@ jobs:
 # # Note: when trying to run build_push-bert-base with other jobs below, an error is reported on line 90. 
 # #       However, when run on its own it works fine.
 
-  # build_push-bert-base:
-  #   name: "build/push bluebert-base container image"
-  #   runs-on: ubuntu-latest
-  #   env:
-  #     IMAGE_NAME: bluebert-base
-  #     DOCKERFILE: base.Dockerfile
-  #   permissions:
-  #     contents: 'read'
-  #     id-token: 'write'
-  #   steps:
-  #   - uses: actions/checkout@v4
-  #     with:
-  #       fetch-depth: 0
-  #   - id: 'auth'
-  #     uses: 'google-github-actions/auth@v2'
-  #     with:
-  #       project_id: ${{ secrets.GCE_PROJECT }}
-  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
-  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
-  #   - name: 'Set up Cloud SDK'
-  #     uses: 'google-github-actions/setup-gcloud@v2'
-  #     with:
-  #       version: '>= 363.0.0'
-  #   - name: Setup Python
-  #     uses: actions/setup-python@v2
-  #     with:
-  #       python-version: 3.7
-  #   - name: Configure Docker Authentication
-  #     run: gcloud --quiet auth configure-docker
-  #   - name: Set MODEL_VERSION env
-  #     run: echo "MODEL_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
-  #   - name: Build Docker Image
-  #     run: docker build --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" -f ${{ env.DOCKERFILE }} .
-  #   - name: Publish Docker Image to Google Container Registry
-  #     run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"
+  build_push-bert-base:
+    name: "build/push bluebert-base container image"
+    runs-on: ubuntu-latest
+    env:
+      IMAGE_NAME: bluebert-base
+      DOCKERFILE: base.Dockerfile
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - id: 'auth'
+      uses: 'google-github-actions/auth@v2'
+      with:
+        project_id: ${{ secrets.GCE_PROJECT }}
+        service_account: ${{ secrets.SERVICE_ACCOUNT }}
+        credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+    - name: 'Set up Cloud SDK'
+      uses: 'google-github-actions/setup-gcloud@v2'
+      with:
+        version: '>= 363.0.0'
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+    - name: Configure Docker Authentication
+      run: gcloud --quiet auth configure-docker
+    - name: Set MODEL_VERSION env
+      run: echo "MODEL_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+    - name: Build Docker Image
+      run: docker build --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" -f ${{ env.DOCKERFILE }} .
+    - name: Publish Docker Image to Google Container Registry
+      run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"
 
 
 # # # # # # # ----------------------------------------------------------------------------------- #
@@ -3245,56 +3245,56 @@ jobs:
 
 
 
-  # ----------------------------------------------------------------------------------- #
-  # ----------------------------------------------------------------------------------- #
-  # ----------------------------------------------------------------------------------- #
-  #                     BUILD/PUSH CAT_BERT_OUTPUT CONTAINER IMAGE                        #
-  # ----------------------------------------------------------------------------------- #
-  # ----------------------------------------------------------------------------------- #
-  # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+  # #                     BUILD/PUSH CAT_BERT_OUTPUT CONTAINER IMAGE                        #
+  # # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
 
-  build_push-cat-bert-output:
-    name: "build/push cat-bert-output container image"
-    runs-on: ubuntu-latest
-    env:
-      IMAGE_NAME: cat-bert-output
-      DOCKERFILE: cat_bert_output.Dockerfile
-    permissions:
-      contents: 'read'
-      id-token: 'write'
-    steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-    - id: 'auth'
-      uses: 'google-github-actions/auth@v2'
-      with:
-        project_id: ${{ secrets.GCE_PROJECT }}
-        service_account: ${{ secrets.SERVICE_ACCOUNT }}
-        credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
-    - name: 'Set up Cloud SDK'
-      uses: 'google-github-actions/setup-gcloud@v2'
-      with:
-        version: '>= 363.0.0'
-    - name: Setup Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.7
-    - name: Configure Docker Authentication
-      run: gcloud --quiet auth configure-docker
-    - name: Set MODEL_VERSION env
-      run: echo "MODEL_VERSION=$(grep 'CAT_BERT_OUTPUT' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
-    - name: Set BASE_VERSION env
-      run: |
-        echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
-    - name: Build Docker Image
-      run: | 
-         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
-                        --build-arg "BASE_VERSION=$BASE_VERSION" \
-                        --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" \
-                        -f ${{ env.DOCKERFILE }} .
-    - name: Publish Docker Image to Google Container Registry
-      run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"
+  # build_push-cat-bert-output:
+  #   name: "build/push cat-bert-output container image"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     IMAGE_NAME: cat-bert-output
+  #     DOCKERFILE: cat_bert_output.Dockerfile
+  #   permissions:
+  #     contents: 'read'
+  #     id-token: 'write'
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+  #   - name: Configure Docker Authentication
+  #     run: gcloud --quiet auth configure-docker
+  #   - name: Set MODEL_VERSION env
+  #     run: echo "MODEL_VERSION=$(grep 'CAT_BERT_OUTPUT' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+  #   - name: Set BASE_VERSION env
+  #     run: |
+  #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+  #   - name: Build Docker Image
+  #     run: | 
+  #        docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+  #                       --build-arg "BASE_VERSION=$BASE_VERSION" \
+  #                       --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" \
+  #                       -f ${{ env.DOCKERFILE }} .
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"
 
 
 

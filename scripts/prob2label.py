@@ -30,9 +30,8 @@ if model_key == 'bl_chemical_to_disease_or_phenotypic_feature':
      labels[3]="exacerbates"
      labels[4]="increases_risk_for"
      labels[5]="decreases_risk_for"
-     labels[6]="prevents"
-     labels[7]="is_used_to_treat"
-     labels[8]="other"
+     labels[6]="is_used_to_treat"
+     labels[7]="other"
 
 # elif model_key == 'bl_chemical_to_gene':
 #     labels[0]="positively_regulates"

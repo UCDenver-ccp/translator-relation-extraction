@@ -1,3 +1,7 @@
+v0.4
+- trained on real sentences judged by GPT (chemical_chemical.bert.v4.random.tsv)
+- excluded sentences from v0.3 b/c the ddi classifier performed poorly
+
 v0.3
 - trained on real sentences judged by GPT (chemical_chemical.bert.v3.random.tsv)
 

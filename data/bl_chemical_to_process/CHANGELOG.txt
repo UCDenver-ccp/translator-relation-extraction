@@ -1,3 +1,7 @@
+0.5
+- trained on real sentences judged by GPT (chemical_process.bert.v4+v2-filtered.random.tsv)
+- added in training examples used for the v2 model filtered to remove general terms like "synthesis"
+
 0.4
 - trained on real sentences judged by GPT (chemical_process.bert.v4.random.tsv)
 - removed general terms like "synthesis" and "metabolism"

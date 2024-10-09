@@ -1,5 +1,10 @@
-v0.2
+0.4
+- trained on real sentences judged by GPT (chemical_process.bert.v4.random.tsv)
+- removed general terms like "synthesis" and "metabolism"
+
+v0.3
 - trained on real sentences judged by GPT (chemical_process.bert.v2+3.random.tsv)
+- processes still included general terms like "synthesis" and "metabolism"
 
 v0.2
 - trained on real sentences judged by GPT (chemical_process.bert.v2.random.tsv)

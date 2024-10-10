@@ -10,6 +10,9 @@ ARG TUNED_MODEL_VERSION=latest
 #       and also must align with the data directory structure, e.g. bl_chemical_to_gene
 ARG TASK_NAME=latest
 
+# Number of epochs to use during training
+ARG EPOCHS=latest
+
 # Download the base BlueBERT model
 WORKDIR /home/dev/models/baseline
 RUN wget https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/NCBI-BERT/NCBI_BERT_pubmed_uncased_L-12_H-768_A-12.zip && \
@@ -31,7 +34,7 @@ RUN git clone https://github.com/ncbi-nlp/BLUE_Benchmark.git ./blue_benchmark.gi
     pip install jsonlines && \
     pip install pandas && \
     pip install tabulate && \
-    pip install sklearn
+    pip install scikit-learn
 
 ENV BlueBERT_DIR '/home/dev/models/baseline'
 
@@ -62,8 +65,9 @@ RUN sed -i '1s/^/id	docid	arg1	arg2	label\n/' test.blue.gs && \
 
 ENV TUNED_MODEL_VERSION_ENV=$TUNED_MODEL_VERSION
 ENV TASK_NAME_ENV=$TASK_NAME
+ENV EPOCHS=$EPOCHS
 
-ENTRYPOINT /home/dev/entrypoint.sh "$TASK_NAME_ENV" "$TUNED_MODEL_VERSION_ENV" "$@" 
+ENTRYPOINT /home/dev/entrypoint.sh "$TASK_NAME_ENV" "$TUNED_MODEL_VERSION_ENV" "$EPOCHS" "$@" 
 
 # To build:
 # docker build --build-arg "PROJECT_ID=[PROJECT_ID]" \

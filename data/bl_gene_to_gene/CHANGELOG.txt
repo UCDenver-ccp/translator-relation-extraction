@@ -1,3 +1,7 @@
+v0.4
+- trained on synthetic sentences created by GPT (gene_gene.synthetic.bert.v3.random.tsv)
+- this training set includes a new relation compared to the original
+
 v0.3
 - trained on real sentences judged by GPT (gene_gene.bert.v2.random.tsv)
 

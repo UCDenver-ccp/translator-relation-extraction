@@ -96,10 +96,11 @@ elif model_key == 'bl_chemical_to_chemical':
     labels[1]="ddi"
     labels[2]="other"
 elif model_key == 'bl_gene_to_gene':
-    labels[0]="binds"
+    labels[0]="modulates"
     labels[1]="activates"
     labels[2]="deactivates"
-    labels[3]="other"
+    labels[3]="physically_interacts_with"
+    labels[4]="other"
 elif model_key == 'bl_gene_to_process':
     labels[0]="participates_in"
     labels[1]="enhances"

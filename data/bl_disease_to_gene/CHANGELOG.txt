@@ -1,0 +1,9 @@
+v0.3
+- trained on real sentences judged by GPT (disease_gene.bert.v2.random.tsv)
+
+v0.2
+- trained on synthetic sentences created by GPT (disease-has_basis_in-gene.synthetic.bert.v1.random.tsv)
+- predicate is now has_basis_in
+
+v0.1
+- trained on synthetic sentences created by GPT (assoc-with-disease.gene.synthetic.bert.v1.tsv)

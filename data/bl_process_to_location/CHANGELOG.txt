@@ -1,0 +1,5 @@
+v0.2
+- trained on real sentences judged by GPT - combined anatomy, cell component, and cell as location (process_to_anatomy_cc_cell.tsv)
+
+v0.1
+- trained on synthetic sentences created by GPT 

@@ -50,47 +50,3432 @@ jobs:
 # # Note: when trying to run build_push-bert-base with other jobs below, an error is reported on line 90. 
 # #       However, when run on its own it works fine.
 
-#   build_push-bert-base:
-#     name: "build/push bluebert-base container image"
+  # build_push-bert-base:
+  #   name: "build/push bluebert-base container image"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     IMAGE_NAME: bluebert-base
+  #     DOCKERFILE: base.Dockerfile
+  #   permissions:
+  #     contents: 'read'
+  #     id-token: 'write'
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+  #   - name: Configure Docker Authentication
+  #     run: gcloud --quiet auth configure-docker
+  #   - name: Set MODEL_VERSION env
+  #     run: echo "MODEL_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+  #   - name: Build Docker Image
+  #     run: docker build --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" -f ${{ env.DOCKERFILE }} .
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"
+
+
+# # # # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # #              TRAIN BL_DISEASE_TO_ANATOMY MODEL               #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_disease_to_anatomy-train:
+#     name: "build/push/train bl_disease_to_anatomy model"
+#     # needs: "build_push-bert-base"
 #     runs-on: ubuntu-latest
 #     env:
-#       IMAGE_NAME: bluebert-base
-#       DOCKERFILE: base.Dockerfile
+#       TASK_NAME: bl_disease_to_anatomy
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_disease_to_anatomy/data.tsv
+#       MODEL_VERSION_KEY: BL_DISEASE_TO_ANATOMY
+#       AI_PLATFORM_JOB_NAME: "bl_disease_to_anatomy_train_${{ github.run_number }}"
 #     steps:
-#     - uses: actions/checkout@v2
+#     - uses: actions/checkout@v4
 #       with:
 #         fetch-depth: 0
-#     # - name: Get changed files
-#     #   id: changed-files
-#     #   uses: tj-actions/changed-files@v7
-#     # - name: List all modified files
-#     #   run: |
-#     #     for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
-#     #       echo "$file was modified"
-#     #     done
-#     # - name: Run step when a file changes
-#     #   if: contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE)
-#     #   run: |
-#     #     echo "Your file ${{ env.DOCKERFILE }} has been modified."
-#     - name: Set up Cloud SDK
-#       # if: contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE)
-#       uses: google-github-actions/setup-gcloud@main
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
 #       with:
 #         project_id: ${{ secrets.GCE_PROJECT }}
-#         service_account_key: ${{ secrets.GCE_SA_KEY }}
-#         version: '290.0.1'
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
 #     - name: Configure Docker Authentication
-#       # if: contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE)
-#       run: gcloud --quiet auth configure-docker
+#       run: |
+#         gcloud --quiet auth configure-docker
+
 #     - name: Set MODEL_VERSION env
-#       # if: contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE)
-#       run: echo "MODEL_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
 #     - name: Build Docker Image
-#       # if: contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE)
-#       run: docker build --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" -f ${{ env.DOCKERFILE }} .
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
 #     - name: Publish Docker Image to Google Container Registry
-#       # if: contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE)
-#       run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_DISEASE_TO_ANATOMY CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_disease_to_anatomy-predict:
+#     name: "build/push bl_disease_to_anatomy predict container"
+#     needs: "build_push_train-bl_disease_to_anatomy-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_disease_to_anatomy
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_DISEASE_TO_ANATOMY
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "has_basis_in other"
+#       DATA_FILE: data/bl_disease_to_anatomy/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+# # # # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # #              TRAIN BL_DISEASE_TO_CELL MODEL               #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_disease_to_cell-train:
+#     name: "build/push/train bl_disease_to_cell model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_disease_to_cell
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_disease_to_cell/data.tsv
+#       MODEL_VERSION_KEY: BL_DISEASE_TO_CELL
+#       AI_PLATFORM_JOB_NAME: "bl_disease_to_cell_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_DISEASE_TO_CELL CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_disease_to_cell-predict:
+#     name: "build/push bl_disease_to_cell predict container"
+#     needs: "build_push_train-bl_disease_to_cell-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_disease_to_cell
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_DISEASE_TO_CELL
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "has_basis_in other"
+#       DATA_FILE: data/bl_disease_to_cell/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+# # # # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # #              TRAIN BL_DISEASE_TO_GENE MODEL               #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_disease_to_gene-train:
+#     name: "build/push/train bl_disease_to_gene model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_disease_to_gene
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_disease_to_gene/data.tsv
+#       MODEL_VERSION_KEY: BL_DISEASE_TO_GENE
+#       AI_PLATFORM_JOB_NAME: "bl_disease_to_gene_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_DISEASE_TO_GENE CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_disease_to_gene-predict:
+#     name: "build/push bl_disease_to_gene predict container"
+#     needs: "build_push_train-bl_disease_to_gene-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_disease_to_gene
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_DISEASE_TO_GENE
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "has_basis_in other"
+#       DATA_FILE: data/bl_disease_to_gene/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+# # # # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # #              TRAIN BL_DISEASE_TO_PHENOTYPE MODEL               #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+# # #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_disease_to_phenotype-train:
+#     name: "build/push/train bl_disease_to_phenotype model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_disease_to_phenotype
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_disease_to_phenotype/data.tsv
+#       MODEL_VERSION_KEY: BL_DISEASE_TO_PHENOTYPE
+#       AI_PLATFORM_JOB_NAME: "bl_disease_to_phenotype_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_DISEASE_TO_PHENOTYPE CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_disease_to_phenotype-predict:
+#     name: "build/push bl_disease_to_phenotype predict container"
+#     needs: "build_push_train-bl_disease_to_phenotype-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_disease_to_phenotype
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_DISEASE_TO_PHENOTYPE
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "has_phenotype other"
+#       DATA_FILE: data/bl_disease_to_phenotype/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+# # # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # #              TRAIN BL_DISEASE_TO_PROCESS MODEL               #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+
+  build_push_train-bl_disease_to_process-train:
+    name: "build/push/train bl_disease_to_process model"
+    # needs: "build_push-bert-base"
+    runs-on: ubuntu-latest
+    env:
+      TASK_NAME: bl_disease_to_process
+      DOCKERFILE: train.Dockerfile
+      ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+      BASE_DOCKERFILE: base.Dockerfile
+      DATA_FILE: data/bl_disease_to_process/data.tsv
+      MODEL_VERSION_KEY: BL_DISEASE_TO_PROCESS
+      AI_PLATFORM_JOB_NAME: "bl_disease_to_process_train_${{ github.run_number }}"
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - id: 'auth'
+      uses: 'google-github-actions/auth@v2'
+      with:
+        project_id: ${{ secrets.GCE_PROJECT }}
+        service_account: ${{ secrets.SERVICE_ACCOUNT }}
+        credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+    - name: 'Set up Cloud SDK'
+      uses: 'google-github-actions/setup-gcloud@v2'
+      with:
+        version: '>= 363.0.0'
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+
+    - name: Configure Docker Authentication
+      run: |
+        gcloud --quiet auth configure-docker
+
+    - name: Set MODEL_VERSION env
+      run: |
+        echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+    - name: Set BASE_VERSION env
+      run: |
+        echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+    - name: Set NUM_EPOCHS env
+      run: |
+        echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+    - name: Build Docker Image
+      run: |
+        docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+                     --build-arg "TASK_NAME=$TASK_NAME" \
+                     --build-arg "BASE_VERSION=$BASE_VERSION" \
+                     --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+                     --build-arg "EPOCHS=$NUM_EPOCHS" \
+                     --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+                     -f ${{ env.DOCKERFILE }} .
+
+    - name: Publish Docker Image to Google Container Registry
+      run: |
+        docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+    - name: Submit a training job to AI Plaform to train and cache the model
+      run: |
+        gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+        --scale-tier=CUSTOM \
+        --master-machine-type=n1-standard-8 \
+        --master-accelerator=count=1,type=nvidia-tesla-v100 \
+        --region "$GCE_REGION" \
+        --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+        -- \
+        NO_ARG \
+        "gs://$MODEL_STORAGE_BUCKET"
+
+    - name: Monitor the training job
+      run: |
+        sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+      timeout-minutes: 500
+
+  # # -------------------------------------------------------------------------------------- #
+  # # BUILD/PUSH BL_DISEASE_TO_PROCESS CLASSIFICATION CONTAINER IMAGE #
+  # # -------------------------------------------------------------------------------------- #
+    
+  build_push-bl_disease_to_process-predict:
+    name: "build/push bl_disease_to_process predict container"
+    needs: "build_push_train-bl_disease_to_process-train"
+    runs-on: ubuntu-latest
+    env:
+      TASK_NAME: bl_disease_to_process
+      DOCKERFILE: predict.Dockerfile
+      TRAIN_DOCKERFILE: train.Dockerfile
+      TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+      ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+      BASE_DOCKERFILE: base.Dockerfile
+      MODEL_VERSION_KEY: BL_DISEASE_TO_PROCESS
+      # Don't forget to change labels
+      CLASSIFICATION_LABELS: "has_basis_in other"
+      DATA_FILE: data/bl_disease_to_process/data.tsv
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - id: 'auth'
+      uses: 'google-github-actions/auth@v2'
+      with:
+        project_id: ${{ secrets.GCE_PROJECT }}
+        service_account: ${{ secrets.SERVICE_ACCOUNT }}
+        credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+    - name: 'Set up Cloud SDK'
+      uses: 'google-github-actions/setup-gcloud@v2'
+      with:
+        version: '>= 363.0.0'
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+    - name: Configure Docker Authentication
+      run: |
+        gcloud --quiet auth configure-docker
+
+    - name: Set MODEL_VERSION env
+      run: |
+        echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+    - name: Set IMAGE_VERSION env
+      run: |
+        echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+    - name: Set BASE_VERSION env
+      run: |
+        echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+    - name: Build Docker Image
+      run: |
+        docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+                     --build-arg "TASK_NAME=$TASK_NAME" \
+                     --build-arg "BASE_VERSION=$BASE_VERSION" \
+                     --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+                     --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+                     --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+                     --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+                     -f ${{ env.DOCKERFILE }} .
+
+    - name: Publish Docker Image to Google Container Registry
+      run: |
+        docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+
+# # # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # #              TRAIN BL_GENE_TO_LOCATION MODEL               #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_gene_to_location-train:
+#     name: "build/push/train bl_gene_to_location model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_location
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_gene_to_location/data.tsv
+#       MODEL_VERSION_KEY: BL_GENE_TO_LOCATION
+#       AI_PLATFORM_JOB_NAME: "bl_gene_to_location_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_GENE_TO_LOCATION CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_gene_to_location-predict:
+#     name: "build/push bl_gene_to_location predict container"
+#     needs: "build_push_train-bl_gene_to_location-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_location
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_GENE_TO_LOCATION
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "located_in other"
+#       DATA_FILE: data/bl_gene_to_location/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+# # # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # #              TRAIN BL_GENE_TO_ANATOMY MODEL               #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_gene_to_anatomy-train:
+#     name: "build/push/train bl_gene_to_anatomy model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_anatomy
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_gene_to_anatomy/data.tsv
+#       MODEL_VERSION_KEY: BL_GENE_TO_ANATOMY
+#       AI_PLATFORM_JOB_NAME: "bl_gene_to_anatomy_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_GENE_TO_ANATOMY CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_gene_to_anatomy-predict:
+#     name: "build/push bl_gene_to_anatomy predict container"
+#     needs: "build_push_train-bl_gene_to_anatomy-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_anatomy
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_GENE_TO_ANATOMY
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "located_in other"
+#       DATA_FILE: data/bl_gene_to_anatomy/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+# # # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # #              TRAIN BL_GENE_TO_CELL_COMPONENT MODEL               #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_gene_to_cell_component-train:
+#     name: "build/push/train bl_gene_to_cell_component model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_cell_component
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_gene_to_cell_component/data.tsv
+#       MODEL_VERSION_KEY: BL_GENE_TO_COMPONENT_CELL
+#       AI_PLATFORM_JOB_NAME: "bl_gene_to_cell_component_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_GENE_TO_CELL_COMPONENT CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_gene_to_cell_component-predict:
+#     name: "build/push bl_gene_to_cell_component predict container"
+#     needs: "build_push_train-bl_gene_to_cell_component-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_cell_component
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_GENE_TO_COMPONENT_CELL
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "located_in other"
+#       DATA_FILE: data/bl_gene_to_cell_component/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+
+# # # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # #              TRAIN BL_GENE_TO_CELL MODEL               #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_gene_to_cell-train:
+#     name: "build/push/train bl_gene_to_cell model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_cell
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_gene_to_cell/data.tsv
+#       MODEL_VERSION_KEY: BL_GENE_TO_CELL
+#       AI_PLATFORM_JOB_NAME: "bl_gene_to_cell_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_GENE_TO_CELL CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_gene_to_cell-predict:
+#     name: "build/push bl_gene_to_cell predict container"
+#     needs: "build_push_train-bl_gene_to_cell-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_cell
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_GENE_TO_CELL
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "located_in other"
+#       DATA_FILE: data/bl_gene_to_cell/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+# # # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # #              TRAIN BL_PROCESS_TO_LOCATION MODEL               #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_process_to_location-train:
+#     name: "build/push/train bl_process_to_location model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_process_to_location
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_process_to_location/data.tsv
+#       MODEL_VERSION_KEY: BL_PROCESS_TO_LOCATION
+#       AI_PLATFORM_JOB_NAME: "bl_process_to_location_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_PROCESS_TO_LOCATION CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_process_to_location-predict:
+#     name: "build/push bl_process_to_location predict container"
+#     needs: "build_push_train-bl_process_to_location-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_process_to_location
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_PROCESS_TO_LOCATION
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "occurs_in other"
+#       DATA_FILE: data/bl_process_to_location/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+
+# # # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # #              TRAIN BL_PROCESS_TO_ANATOMY MODEL               #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_process_to_anatomy-train:
+#     name: "build/push/train bl_process_to_anatomy model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_process_to_anatomy
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_process_to_anatomy/data.tsv
+#       MODEL_VERSION_KEY: BL_PROCESS_TO_ANATOMY
+#       AI_PLATFORM_JOB_NAME: "bl_process_to_anatomy_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_PROCESS_TO_ANATOMY CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_process_to_anatomy-predict:
+#     name: "build/push bl_process_to_anatomy predict container"
+#     needs: "build_push_train-bl_process_to_anatomy-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_process_to_anatomy
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_PROCESS_TO_ANATOMY
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "occurs_in other"
+#       DATA_FILE: data/bl_process_to_anatomy/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+# # # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # #              TRAIN BL_PROCESS_TO_CELL_COMPONENT MODEL               #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_process_to_cell_component-train:
+#     name: "build/push/train bl_process_to_cell_component model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_process_to_cell_component
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_process_to_cell_component/data.tsv
+#       MODEL_VERSION_KEY: BL_PROCESS_TO_COMPONENT_CELL
+#       AI_PLATFORM_JOB_NAME: "bl_process_to_cell_component_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_PROCESS_TO_CELL_COMPONENT CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_process_to_cell_component-predict:
+#     name: "build/push bl_process_to_cell_component predict container"
+#     needs: "build_push_train-bl_process_to_cell_component-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_process_to_cell_component
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_PROCESS_TO_COMPONENT_CELL
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "occurs_in other"
+#       DATA_FILE: data/bl_process_to_cell_component/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+  
+
+# # # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # #              TRAIN BL_PROCESS_TO_CELL MODEL               #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_process_to_cell-train:
+#     name: "build/push/train bl_process_to_cell model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_process_to_cell
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_process_to_cell/data.tsv
+#       MODEL_VERSION_KEY: BL_PROCESS_TO_CELL
+#       AI_PLATFORM_JOB_NAME: "bl_process_to_cell_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_PROCESS_TO_CELL CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_process_to_cell-predict:
+#     name: "build/push bl_process_to_cell predict container"
+#     needs: "build_push_train-bl_process_to_cell-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_process_to_cell
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_PROCESS_TO_CELL
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "occurs_in other"
+#       DATA_FILE: data/bl_process_to_cell/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+# # # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # #              TRAIN BL_GENE_TO_PROCESS MODEL               #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_gene_to_process-train:
+#     name: "build/push/train bl_gene_to_process model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_process
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_gene_to_process/data.tsv
+#       MODEL_VERSION_KEY: BL_GENE_TO_PROCESS
+#       AI_PLATFORM_JOB_NAME: "bl_gene_to_process_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_GENE_TO_PROCESS CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_gene_to_process-predict:
+#     name: "build/push bl_gene_to_process predict container"
+#     needs: "build_push_train-bl_gene_to_process-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_process
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_GENE_TO_PROCESS
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "participates_in enhances inhibits other"
+#       DATA_FILE: data/bl_gene_to_process/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+
+# # # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # #              TRAIN BL_GENE_TO_GENE MODEL               #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+# #   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_gene_to_gene-train:
+#     name: "build/push/train bl_gene_to_gene model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_gene
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_gene_to_gene/data.tsv
+#       MODEL_VERSION_KEY: BL_GENE_TO_GENE
+#       AI_PLATFORM_JOB_NAME: "bl_gene_to_gene_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_GENE_TO_GENE CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_gene_to_gene-predict:
+#     name: "build/push bl_gene_to_gene predict container"
+#     needs: "build_push_train-bl_gene_to_gene-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_gene_to_gene
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_GENE_TO_GENE
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "modulates activates deactivates physically_interacts_with other"
+#       DATA_FILE: data/bl_gene_to_gene/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # #              TRAIN BL_CHEMICAL_TO_CELL MODEL               #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+
+  # build_push_train-bl_chemical_to_cell-train:
+  #   name: "build/push/train bl_chemical_to_cell model"
+  #   # needs: "build_push-bert-base"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     TASK_NAME: bl_chemical_to_cell
+  #     DOCKERFILE: train.Dockerfile
+  #     ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+  #     BASE_DOCKERFILE: base.Dockerfile
+  #     DATA_FILE: data/bl_chemical_to_cell/data.tsv
+  #     MODEL_VERSION_KEY: BL_CHEMICAL_TO_CELL
+  #     AI_PLATFORM_JOB_NAME: "bl_chemical_to_cell_train_${{ github.run_number }}"
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+
+  #   - name: Configure Docker Authentication
+  #     run: |
+  #       gcloud --quiet auth configure-docker
+
+  #   - name: Set MODEL_VERSION env
+  #     run: |
+  #       echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Set BASE_VERSION env
+  #     run: |
+  #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Set NUM_EPOCHS env
+  #     run: |
+  #       echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+  #   - name: Build Docker Image
+  #     run: |
+  #       docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+  #                    --build-arg "TASK_NAME=$TASK_NAME" \
+  #                    --build-arg "BASE_VERSION=$BASE_VERSION" \
+  #                    --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+  #                    --build-arg "EPOCHS=$NUM_EPOCHS" \
+  #                    --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+  #                    -f ${{ env.DOCKERFILE }} .
+
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: |
+  #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+  #   - name: Submit a training job to AI Plaform to train and cache the model
+  #     run: |
+  #       gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+  #       --scale-tier=CUSTOM \
+  #       --master-machine-type=n1-standard-8 \
+  #       --master-accelerator=count=1,type=nvidia-tesla-v100 \
+  #       --region "$GCE_REGION" \
+  #       --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+  #       -- \
+  #       NO_ARG \
+  #       "gs://$MODEL_STORAGE_BUCKET"
+
+  #   - name: Monitor the training job
+  #     run: |
+  #       sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+  #     timeout-minutes: 500
+
+  # # # -------------------------------------------------------------------------------------- #
+  # # # BUILD/PUSH BL_CHEMICAL_TO_CELL CLASSIFICATION CONTAINER IMAGE #
+  # # # -------------------------------------------------------------------------------------- #
+    
+  # build_push-bl_chemical_to_cell-predict:
+  #   name: "build/push bl_chemical_to_cell predict container"
+  #   needs: "build_push_train-bl_chemical_to_cell-train"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     TASK_NAME: bl_chemical_to_cell
+  #     DOCKERFILE: predict.Dockerfile
+  #     TRAIN_DOCKERFILE: train.Dockerfile
+  #     TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+  #     ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+  #     BASE_DOCKERFILE: base.Dockerfile
+  #     MODEL_VERSION_KEY: BL_CHEMICAL_TO_CELL
+  #     # Don't forget to change labels
+  #     CLASSIFICATION_LABELS: "secretes stores responds_to metabolizes other"
+  #     DATA_FILE: data/bl_chemical_to_cell/data.tsv
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+  #   - name: Configure Docker Authentication
+  #     run: |
+  #       gcloud --quiet auth configure-docker
+
+  #   - name: Set MODEL_VERSION env
+  #     run: |
+  #       echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Set IMAGE_VERSION env
+  #     run: |
+  #       echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Set BASE_VERSION env
+  #     run: |
+  #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Build Docker Image
+  #     run: |
+  #       docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+  #                    --build-arg "TASK_NAME=$TASK_NAME" \
+  #                    --build-arg "BASE_VERSION=$BASE_VERSION" \
+  #                    --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+  #                    --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+  #                    --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+  #                    --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+  #                    -f ${{ env.DOCKERFILE }} .
+
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: |
+  #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # #              TRAIN BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE MODEL               #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+
+  # build_push_train-bl_chemical_to_disease_or_phenotypic_feature-train:
+  #   name: "build/push/train bl_chemical_to_disease_or_phenotypic_feature model"
+  #   # needs: "build_push-bert-base"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature
+  #     DOCKERFILE: train.Dockerfile
+  #     ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+  #     BASE_DOCKERFILE: base.Dockerfile
+  #     DATA_FILE: data/bl_chemical_to_disease_or_phenotypic_feature/data.tsv
+  #     MODEL_VERSION_KEY: BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE
+  #     AI_PLATFORM_JOB_NAME: "bl_chemical_to_disease_or_phenotypic_feature_train_${{ github.run_number }}"
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+
+  #   - name: Configure Docker Authentication
+  #     run: |
+  #       gcloud --quiet auth configure-docker
+
+  #   - name: Set MODEL_VERSION env
+  #     run: |
+  #       echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Set BASE_VERSION env
+  #     run: |
+  #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Set NUM_EPOCHS env
+  #     run: |
+  #       echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+  #   - name: Build Docker Image
+  #     run: |
+  #       docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+  #                    --build-arg "TASK_NAME=$TASK_NAME" \
+  #                    --build-arg "BASE_VERSION=$BASE_VERSION" \
+  #                    --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+  #                    --build-arg "EPOCHS=$NUM_EPOCHS" \
+  #                    --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+  #                    -f ${{ env.DOCKERFILE }} .
+
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: |
+  #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+  #   - name: Submit a training job to AI Plaform to train and cache the model
+  #     run: |
+  #       gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+  #       --scale-tier=CUSTOM \
+  #       --master-machine-type=n1-standard-8 \
+  #       --master-accelerator=count=1,type=nvidia-tesla-v100 \
+  #       --region "$GCE_REGION" \
+  #       --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+  #       -- \
+  #       NO_ARG \
+  #       "gs://$MODEL_STORAGE_BUCKET"
+
+  #   - name: Monitor the training job
+  #     run: |
+  #       sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+  #     timeout-minutes: 500
+
+  # # # -------------------------------------------------------------------------------------- #
+  # # # BUILD/PUSH BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE CLASSIFICATION CONTAINER IMAGE #
+  # # # -------------------------------------------------------------------------------------- #
+    
+  # build_push-bl_chemical_to_disease_or_phenotypic_feature-predict:
+  #   name: "build/push bl_chemical_to_disease_or_phenotypic_feature predict container"
+  #   needs: "build_push_train-bl_chemical_to_disease_or_phenotypic_feature-train"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature
+  #     DOCKERFILE: predict.Dockerfile
+  #     TRAIN_DOCKERFILE: train.Dockerfile
+  #     TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+  #     ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+  #     BASE_DOCKERFILE: base.Dockerfile
+  #     MODEL_VERSION_KEY: BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE
+  #     # Don't forget to change labels
+  #     CLASSIFICATION_LABELS: "has_unintended_effect_of resistance_is_associated_with is_contraindicated_in exacerbates increases_risk_for decreases_risk_for is_used_to_treat other"
+  #     DATA_FILE: data/bl_chemical_to_disease_or_phenotypic_feature/data.tsv
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+  #   - name: Configure Docker Authentication
+  #     run: |
+  #       gcloud --quiet auth configure-docker
+
+  #   - name: Set MODEL_VERSION env
+  #     run: |
+  #       echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Set IMAGE_VERSION env
+  #     run: |
+  #       echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Set BASE_VERSION env
+  #     run: |
+  #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Build Docker Image
+  #     run: |
+  #       docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+  #                    --build-arg "TASK_NAME=$TASK_NAME" \
+  #                    --build-arg "BASE_VERSION=$BASE_VERSION" \
+  #                    --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+  #                    --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+  #                    --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+  #                    --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+  #                    -f ${{ env.DOCKERFILE }} .
+
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: |
+  #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+
+# # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # #              TRAIN BL_CHEMICAL_TO_PROCESS MODEL               #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_chemical_to_process-train:
+#     name: "build/push/train bl_chemical_to_process model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_chemical_to_process
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_chemical_to_process/data.tsv
+#       MODEL_VERSION_KEY: BL_CHEMICAL_TO_PROCESS
+#       AI_PLATFORM_JOB_NAME: "bl_chemical_to_process_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_CHEMICAL_TO_PROCESS CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_chemical_to_process-predict:
+#     name: "build/push bl_chemical_to_process predict container"
+#     needs: "build_push_train-bl_chemical_to_process-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_chemical_to_process
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_CHEMICAL_TO_PROCESS
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "participates_in enhances inhibits is_produced_by other"
+#       DATA_FILE: data/bl_chemical_to_process/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+
+# # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # #              TRAIN BL_CHEMICAL_TO_GENE MODEL               #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_chemical_to_gene-train:
+#     name: "build/push/train bl_chemical_to_gene model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_chemical_to_gene
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_chemical_to_gene/data.tsv
+#       MODEL_VERSION_KEY: BL_CHEMICAL_TO_GENE
+#       AI_PLATFORM_JOB_NAME: "bl_chemical_to_gene_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_CHEMICAL_TO_GENE CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_chemical_to_gene-predict:
+#     name: "build/push bl_chemical_to_gene predict container"
+#     needs: "build_push_train-bl_chemical_to_gene-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_chemical_to_gene
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_CHEMICAL_TO_GENE
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "activates modulates deactivates metabolized_by transported_by other"
+#       DATA_FILE: data/bl_chemical_to_gene/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+
+
+# # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # #              TRAIN BL_CHEMICAL_TO_CHEMICAL MODEL               #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_chemical_to_chemical-train:
+#     name: "build/push/train bl_chemical_to_chemical model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_chemical_to_chemical
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_chemical_to_chemical/data.tsv
+#       MODEL_VERSION_KEY: BL_CHEMICAL_TO_CHEMICAL
+#       AI_PLATFORM_JOB_NAME: "bl_chemical_to_chemical_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_CHEMICAL_TO_CHEMICAL CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_chemical_to_chemical-predict:
+#     name: "build/push bl_chemical_to_chemical predict container"
+#     needs: "build_push_train-bl_chemical_to_chemical-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_chemical_to_chemical
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_CHEMICAL_TO_CHEMICAL
+#       # Don't forget to change labels
+#       CLASSIFICATION_LABELS: "co-treat ddi other"
+#       DATA_FILE: data/bl_chemical_to_chemical/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+
+
+
+### ========== Below is older stuff ===============
+### ========== Below is older stuff ===============
+### ========== Below is older stuff ===============
+### ========== Below is older stuff ===============
+### ========== Below is older stuff ===============
+### ========== Below is older stuff ===============
+
+
+
+
+
+  #   # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+  # #                     BUILD/PUSH CAT_SENTENCES CONTAINER IMAGE                        #
+  # # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+
+  # build_push-cat-sentences:
+  #   name: "build/push cat-sentences container image"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     IMAGE_NAME: cat-sentences
+  #     DOCKERFILE: cat_sentences.Dockerfile
+  #   permissions:
+  #     contents: 'read'
+  #     id-token: 'write'
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+  #   - name: Configure Docker Authentication
+  #     run: gcloud --quiet auth configure-docker
+  #   - name: Set MODEL_VERSION env
+  #     run: echo "MODEL_VERSION=$(grep 'CAT_SENTENCES' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+  #   - name: Set BASE_VERSION env
+  #     run: |
+  #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+  #   - name: Build Docker Image
+  #     run: | 
+  #        docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+  #                       --build-arg "BASE_VERSION=$BASE_VERSION" \
+  #                       --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" \
+  #                       -f ${{ env.DOCKERFILE }} .
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"
+
+
+
+  # # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+  # #                     BUILD/PUSH CAT_BERT_OUTPUT CONTAINER IMAGE                        #
+  # # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+  # # ----------------------------------------------------------------------------------- #
+
+  # build_push-cat-bert-output:
+  #   name: "build/push cat-bert-output container image"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     IMAGE_NAME: cat-bert-output
+  #     DOCKERFILE: cat_bert_output.Dockerfile
+  #   permissions:
+  #     contents: 'read'
+  #     id-token: 'write'
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+  #   - name: Configure Docker Authentication
+  #     run: gcloud --quiet auth configure-docker
+  #   - name: Set MODEL_VERSION env
+  #     run: echo "MODEL_VERSION=$(grep 'CAT_BERT_OUTPUT' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+  #   - name: Set BASE_VERSION env
+  #     run: |
+  #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+  #   - name: Build Docker Image
+  #     run: | 
+  #        docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+  #                       --build-arg "BASE_VERSION=$BASE_VERSION" \
+  #                       --tag "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION" \
+  #                       -f ${{ env.DOCKERFILE }} .
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: docker push "gcr.io/$PROJECT_ID/$IMAGE_NAME:$MODEL_VERSION"
+
+
+
+# # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # #              TRAIN BL_CELL_TO_DISEASE MODEL               #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+#   # # # # ----------------------------------------------------------------------------------- #
+
+#   build_push_train-bl_cell_to_disease-train:
+#     name: "build/push/train bl_cell_to_disease model"
+#     # needs: "build_push-bert-base"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_cell_to_disease
+#       DOCKERFILE: train.Dockerfile
+#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       DATA_FILE: data/bl_cell_to_disease/data.tsv
+#       MODEL_VERSION_KEY: BL_CELL_TO_DISEASE
+#       AI_PLATFORM_JOB_NAME: "bl_cell_to_disease_train_${{ github.run_number }}"
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set NUM_EPOCHS env
+#       run: |
+#         echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "EPOCHS=$NUM_EPOCHS" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+#     - name: Submit a training job to AI Plaform to train and cache the model
+#       run: |
+#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+#         --scale-tier=CUSTOM \
+#         --master-machine-type=n1-standard-8 \
+#         --master-accelerator=count=1,type=nvidia-tesla-v100 \
+#         --region "$GCE_REGION" \
+#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+#         -- \
+#         NO_ARG \
+#         "gs://$MODEL_STORAGE_BUCKET"
+
+#     - name: Monitor the training job
+#       run: |
+#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+#       timeout-minutes: 500
+
+#   # # -------------------------------------------------------------------------------------- #
+#   # # BUILD/PUSH BL_CELL_TO_DISEASE CLASSIFICATION CONTAINER IMAGE #
+#   # # -------------------------------------------------------------------------------------- #
+    
+#   build_push-bl_cell_to_disease-predict:
+#     name: "build/push bl_cell_to_disease predict container"
+#     needs: "build_push_train-bl_cell_to_disease-train"
+#     runs-on: ubuntu-latest
+#     env:
+#       TASK_NAME: bl_cell_to_disease
+#       DOCKERFILE: predict.Dockerfile
+#       TRAIN_DOCKERFILE: train.Dockerfile
+#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+#       BASE_DOCKERFILE: base.Dockerfile
+#       MODEL_VERSION_KEY: BL_CELL_TO_DISEASE
+#       CLASSIFICATION_LABELS: "dysfunction hyperactivity other proliferation"
+#       DATA_FILE: data/bl_cell_to_disease/data.tsv
+#     steps:
+#     - uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+#     - id: 'auth'
+#       uses: 'google-github-actions/auth@v2'
+#       with:
+#         project_id: ${{ secrets.GCE_PROJECT }}
+#         service_account: ${{ secrets.SERVICE_ACCOUNT }}
+#         credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+#     - name: 'Set up Cloud SDK'
+#       uses: 'google-github-actions/setup-gcloud@v2'
+#       with:
+#         version: '>= 363.0.0'
+#     - name: Setup Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.7
+#     - name: Configure Docker Authentication
+#       run: |
+#         gcloud --quiet auth configure-docker
+
+#     - name: Set MODEL_VERSION env
+#       run: |
+#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set IMAGE_VERSION env
+#       run: |
+#         echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Set BASE_VERSION env
+#       run: |
+#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+#     - name: Build Docker Image
+#       run: |
+#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+#                      --build-arg "TASK_NAME=$TASK_NAME" \
+#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
+#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+#                      -f ${{ env.DOCKERFILE }} .
+
+#     - name: Publish Docker Image to Google Container Registry
+#       run: |
+#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # # ----------------------------------------------------------------------------------- #
 #   # ----------------------------------------------------------------------------------- #
@@ -341,253 +3726,313 @@ jobs:
 #         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION"
 
 
-#   # ----------------------------------------------------------------------------------- #
-#   # ----------------------------------------------------------------------------------- #
-#   # ----------------------------------------------------------------------------------- #
-#   #              TRAIN BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE MODEL               #
-#   # ----------------------------------------------------------------------------------- #
-#   # ----------------------------------------------------------------------------------- #
-#   # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # #              TRAIN BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE MODEL               #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
+  # # # # # ----------------------------------------------------------------------------------- #
 
-#   build_push_train-bl_chemical_to_disease_or_phenotypic_feature-train:
-#     name: "build/push/train bl_chemical_to_disease_or_phenotypic_feature model"
-#     needs: "build_push-bert-base"
-#     runs-on: ubuntu-latest
-#     env:
-#       TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature
-#       DOCKERFILE: train.Dockerfile
-#       ENTRYPOINT_FILE: scripts/train.entrypoint.sh
-#       BASE_DOCKERFILE: base.Dockerfile
-#       DATA_FILE: data/bl_chemical_to_disease_or_phenotypic_feature/data.tsv
-#       MODEL_VERSION_KEY: BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE
-#       AI_PLATFORM_JOB_NAME: "bl_chemical_to_disease_or_phenotypic_feature_train_${{ github.run_number }}"
-#     steps:
-#     - uses: actions/checkout@v2
-#       with:
-#         fetch-depth: 0
-#     - name: Get changed files
-#       id: changed-files
-#       uses: tj-actions/changed-files@v7
+  # build_push_train-bl_chemical_to_disease_or_phenotypic_feature-train:
+  #   name: "build/push/train bl_chemical_to_disease_or_phenotypic_feature model"
+  #   # needs: "build_push-bert-base"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature
+  #     DOCKERFILE: train.Dockerfile
+  #     ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+  #     BASE_DOCKERFILE: base.Dockerfile
+  #     DATA_FILE: data/bl_chemical_to_disease_or_phenotypic_feature/data.tsv
+  #     MODEL_VERSION_KEY: BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE
+  #     AI_PLATFORM_JOB_NAME: "bl_chemical_to_disease_or_phenotypic_feature_train_${{ github.run_number }}"
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
 
-#     - name: List all modified files
-#       run: |
-#         for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
-#           echo "$file was modified"
-#         done
+  #   - name: Configure Docker Authentication
+  #     run: |
+  #       gcloud --quiet auth configure-docker
 
-#     - name: Run step when a file changes
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         echo "A modified file has triggered a rebuild of the ${{ env.TASK_NAME }} model."
+  #   - name: Set MODEL_VERSION env
+  #     run: |
+  #       echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
 
-#     - name: Set up Cloud SDK
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       uses: google-github-actions/setup-gcloud@main
-#       with:
-#         project_id: ${{ secrets.GCE_PROJECT }}
-#         service_account_key: ${{ secrets.GCE_SA_KEY }}
-#         version: '290.0.1'
+  #   - name: Set BASE_VERSION env
+  #     run: |
+  #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
 
-#     - name: Configure Docker Authentication
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         gcloud --quiet auth configure-docker
+  #   - name: Set NUM_EPOCHS env
+  #     run: |
+  #       echo "NUM_EPOCHS=5.0" >> $GITHUB_ENV
 
-#     - name: Set MODEL_VERSION env
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+  #   - name: Build Docker Image
+  #     run: |
+  #       docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+  #                    --build-arg "TASK_NAME=$TASK_NAME" \
+  #                    --build-arg "BASE_VERSION=$BASE_VERSION" \
+  #                    --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+  #                    --build-arg "EPOCHS=$NUM_EPOCHS" \
+  #                    --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+  #                    -f ${{ env.DOCKERFILE }} .
 
-#     - name: Set BASE_VERSION env
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: |
+  #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
 
-#     - name: Build Docker Image
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
-#                      --build-arg "TASK_NAME=$TASK_NAME" \
-#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
-#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
-#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
-#                      -f ${{ env.DOCKERFILE }} .
+  #   - name: Submit a training job to AI Plaform to train and cache the model
+  #     run: |
+  #       gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+  #       --scale-tier basic_gpu --region "$GCE_REGION" \
+  #       --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+  #       -- \
+  #       NO_ARG \
+  #       "gs://$MODEL_STORAGE_BUCKET"
 
-#     - name: Publish Docker Image to Google Container Registry
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+  #   - name: Monitor the training job
+  #     run: |
+  #       sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+  #     timeout-minutes: 500
 
-#     - name: Submit a training job to AI Plaform to train and cache the model
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
-#         --scale-tier basic_gpu --region "$GCE_REGION" \
-#         --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
-#         -- \
-#         NO_ARG \
-#         "gs://$MODEL_STORAGE_BUCKET"
-
-#     - name: Monitor the training job
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
-#       timeout-minutes: 180
-
-#   # -------------------------------------------------------------------------------------- #
-#   # BUILD/PUSH BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE CLASSIFICATION CONTAINER IMAGE #
-#   # -------------------------------------------------------------------------------------- #
+  # # # -------------------------------------------------------------------------------------- #
+  # # # BUILD/PUSH BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE CLASSIFICATION CONTAINER IMAGE #
+  # # # -------------------------------------------------------------------------------------- #
     
-#   build_push-bl_chemical_to_disease_or_phenotypic_feature-predict:
-#     name: "build/push bl_chemical_to_disease_or_phenotypic_feature predict container"
-#     needs: "build_push_train-bl_chemical_to_disease_or_phenotypic_feature-train"
-#     runs-on: ubuntu-latest
-#     env:
-#       TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature
-#       DOCKERFILE: predict.Dockerfile
-#       TRAIN_DOCKERFILE: train.Dockerfile
-#       TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
-#       ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
-#       BASE_DOCKERFILE: base.Dockerfile
-#       MODEL_VERSION_KEY: BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE
-#       CLASSIFICATION_LABELS: "treats  false"
-#       DATA_FILE: data/bl_chemical_to_disease_or_phenotypic_feature/data.tsv
-#     steps:
-#     - uses: actions/checkout@v2
-#       with:
-#         fetch-depth: 0
-#     - name: Get changed files
-#       id: changed-files
-#       uses: tj-actions/changed-files@v7
+  # build_push-bl_chemical_to_disease_or_phenotypic_feature-predict:
+  #   name: "build/push bl_chemical_to_disease_or_phenotypic_feature predict container"
+  #   needs: "build_push_train-bl_chemical_to_disease_or_phenotypic_feature-train"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature
+  #     DOCKERFILE: predict.Dockerfile
+  #     TRAIN_DOCKERFILE: train.Dockerfile
+  #     TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+  #     ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+  #     BASE_DOCKERFILE: base.Dockerfile
+  #     MODEL_VERSION_KEY: BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE
+  #     #CLASSIFICATION_LABELS: "treats causes_or_contributes_to false"
+  #     CLASSIFICATION_LABELS: "associated_with_resistance_to decreases_risk_for exacerbates exposure_is_origin_of has_excessive_amount_in increases_risk_for is_biomarker_for is_contraindicated_for is_deficient_in prevents results_in_side_effect treats other"
+  #     DATA_FILE: data/bl_chemical_to_disease_or_phenotypic_feature/data.tsv
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+  #   - name: Configure Docker Authentication
+  #     run: |
+  #       gcloud --quiet auth configure-docker
 
-#     - name: List all modified files
-#       run: |
-#         for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
-#           echo "$file was modified"
-#         done
+  #   - name: Set MODEL_VERSION env
+  #     run: |
+  #       echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
 
-#     - name: Run step when a file changes
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         echo "A modified file has triggered a rebuild of the ${{ env.TASK_NAME }} predict container."
+  #   - name: Set IMAGE_VERSION env
+  #     run: |
+  #       echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
 
-#     - name: Set up Cloud SDK
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       uses: google-github-actions/setup-gcloud@main
-#       with:
-#         project_id: ${{ secrets.GCE_PROJECT }}
-#         service_account_key: ${{ secrets.GCE_SA_KEY }}
-#         version: '290.0.1'
+  #   - name: Set BASE_VERSION env
+  #     run: |
+  #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
 
-#     - name: Configure Docker Authentication
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         gcloud --quiet auth configure-docker
+  #   - name: Build Docker Image
+  #     run: |
+  #       docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+  #                    --build-arg "TASK_NAME=$TASK_NAME" \
+  #                    --build-arg "BASE_VERSION=$BASE_VERSION" \
+  #                    --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+  #                    --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+  #                    --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+  #                    --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+  #                    -f ${{ env.DOCKERFILE }} .
 
-#     - name: Set MODEL_VERSION env
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: |
+  #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
 
-#     - name: Set BASE_VERSION env
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+  # # # # ----------------------------------------------------------------------------------- #
+  # # # # ----------------------------------------------------------------------------------- #
+  # # # # ----------------------------------------------------------------------------------- #
+  # # # #              TRAIN BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE_GPT MODEL               #
+  # # # # ----------------------------------------------------------------------------------- #
+  # # # # ----------------------------------------------------------------------------------- #
+  # # # # ----------------------------------------------------------------------------------- #
 
-#     - name: Build Docker Image
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
-#                      --build-arg "TASK_NAME=$TASK_NAME" \
-#                      --build-arg "BASE_VERSION=$BASE_VERSION" \
-#                      --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
-#                      --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
-#                      --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
-#                      --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION" \
-#                      -f ${{ env.DOCKERFILE }} .
+  # build_push_train-bl_chemical_to_disease_or_phenotypic_feature_gpt-train:
+  #   name: "build/push/train bl_chemical_to_disease_or_phenotypic_feature_gpt model"
+  #   # needs: "build_push-bert-base"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature_gpt
+  #     DOCKERFILE: train.Dockerfile
+  #     ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+  #     BASE_DOCKERFILE: base.Dockerfile
+  #     DATA_FILE: data/bl_chemical_to_disease_or_phenotypic_feature_gpt/data.tsv
+  #     MODEL_VERSION_KEY: BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE_GPT
+  #     AI_PLATFORM_JOB_NAME: "bl_chemical_to_disease_or_phenotypic_feature_gpt_train_${{ github.run_number }}"
+  #   steps:
+  #   # - uses: actions/checkout@v3
+  #   #   with:
+  #   #     fetch-depth: 0
+  #   # - name: Setup Python
+  #   #   uses: actions/setup-python@v2
+  #   #   with:
+  #   #     python-version: 3.7
+  #   # - name: Set up Cloud SDK
+  #   #   uses: google-github-actions/setup-gcloud@main
+  #   #   with:
+  #   #     project_id: ${{ secrets.GCE_PROJECT }}
+  #   #     service_account_key: ${{ secrets.GCE_SA_KEY }}
+  #   #     version: '290.0.1'
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+  #   - name: Configure Docker Authentication
+  #     run: |
+  #       gcloud --quiet auth configure-docker
 
-#     - name: Publish Docker Image to Google Container Registry
-#       if: |
-#         contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-#         contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-#       run: |
-#         docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION"
+  #   - name: Set MODEL_VERSION env
+  #     run: |
+  #       echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Set BASE_VERSION env
+  #     run: |
+  #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Build Docker Image
+  #     run: |
+  #       docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+  #                    --build-arg "TASK_NAME=$TASK_NAME" \
+  #                    --build-arg "BASE_VERSION=$BASE_VERSION" \
+  #                    --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+  #                    --tag "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+  #                    -f ${{ env.DOCKERFILE }} .
+
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: |
+  #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION"
+
+  #   - name: Submit a training job to AI Plaform to train and cache the model
+  #     run: |
+  #       gcloud ai-platform jobs submit training ${{ env.AI_PLATFORM_JOB_NAME }} \
+  #       --scale-tier basic_gpu --region "$GCE_REGION" \
+  #       --master-image-uri "gcr.io/$PROJECT_ID/$TASK_NAME-train:$MODEL_VERSION" \
+  #       -- \
+  #       NO_ARG \
+  #       "gs://$MODEL_STORAGE_BUCKET"
+
+  #   - name: Monitor the training job
+  #     run: |
+  #       sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
+  #     timeout-minutes: 500
+
+  # # -------------------------------------------------------------------------------------- #
+  # # BUILD/PUSH BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE_GPT CLASSIFICATION CONTAINER IMAGE #
+  # # -------------------------------------------------------------------------------------- #
+    
+  # build_push-bl_chemical_to_disease_or_phenotypic_feature_gpt-predict:
+  #   name: "build/push bl_chemical_to_disease_or_phenotypic_feature_gpt predict container"
+  #   # needs: "build_push_train-bl_chemical_to_disease_or_phenotypic_feature_gpt-train"
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     TASK_NAME: bl_chemical_to_disease_or_phenotypic_feature_gpt
+  #     DOCKERFILE: predict.Dockerfile
+  #     TRAIN_DOCKERFILE: train.Dockerfile
+  #     TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+  #     ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+  #     BASE_DOCKERFILE: base.Dockerfile
+  #     MODEL_VERSION_KEY: BL_CHEMICAL_TO_DISEASE_OR_PHENOTYPIC_FEATURE_GPT
+  #     CLASSIFICATION_LABELS: "treats causes_or_contributes_to false"
+  #     DATA_FILE: data/bl_chemical_to_disease_or_phenotypic_feature_gpt/data.tsv
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 0
+  #   - id: 'auth'
+  #     uses: 'google-github-actions/auth@v2'
+  #     with:
+  #       project_id: ${{ secrets.GCE_PROJECT }}
+  #       service_account: ${{ secrets.SERVICE_ACCOUNT }}
+  #       credentials_json: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+  #   - name: 'Set up Cloud SDK'
+  #     uses: 'google-github-actions/setup-gcloud@v2'
+  #     with:
+  #       version: '>= 363.0.0'
+  #   - name: Setup Python
+  #     uses: actions/setup-python@v2
+  #     with:
+  #       python-version: 3.7
+  #   - name: Configure Docker Authentication
+  #     run: |
+  #       gcloud --quiet auth configure-docker
+
+  #   - name: Set MODEL_VERSION env
+  #     run: |
+  #       echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Set IMAGE_VERSION env
+  #     run: |
+  #       echo "IMAGE_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} IMAGE_VERSIONS_PREDICT | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Set BASE_VERSION env
+  #     run: |
+  #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+
+  #   - name: Build Docker Image
+  #     run: |
+  #       docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+  #                    --build-arg "TASK_NAME=$TASK_NAME" \
+  #                    --build-arg "BASE_VERSION=$BASE_VERSION" \
+  #                    --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+  #                    --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+  #                    --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+  #                    --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION" \
+  #                    -f ${{ env.DOCKERFILE }} .
+
+  #   - name: Publish Docker Image to Google Container Registry
+  #     run: |
+  #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$IMAGE_VERSION"
 
 #   # ----------------------------------------------------------------------------------- #
 #   # ----------------------------------------------------------------------------------- #
@@ -2009,121 +5454,121 @@ jobs:
         #       sh -c ".github/workflows/monitor-ai-platform-job.sh ${{ env.AI_PLATFORM_JOB_NAME }}"
         #     timeout-minutes: 180
       
-        # ----------------------------------------------------------------------------------- #
-        #          BUILD/PUSH CRAFT_RELATIONS CLASSIFICATION CONTAINER IMAGE       #
-        # ----------------------------------------------------------------------------------- #
+        # # ----------------------------------------------------------------------------------- #
+        # #          BUILD/PUSH CRAFT_RELATIONS CLASSIFICATION CONTAINER IMAGE       #
+        # # ----------------------------------------------------------------------------------- #
           
-        build_push-craft_relations-predict:
-          name: "build/push craft_relations predict container"
-          # needs: "build_push_train-craft_relations-train"
-          runs-on: ubuntu-latest
-          env:
-            TASK_NAME: craft_relations
-            DOCKERFILE: predict.Dockerfile
-            TRAIN_DOCKERFILE: train.Dockerfile
-            TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
-            ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
-            BASE_DOCKERFILE: base.Dockerfile
-            MODEL_VERSION_KEY: CRAFT_RELATIONS
-            CLASSIFICATION_LABELS: "bears_constitution_of_or_situatedness_at_or_possession_by_or_derivation_from  coexists_as realizes_or_attribute_or_bearer_of_occurrence_in_or_possession_by realizes_or_bears_or_is_attribute_of_derivation_or_situatedness_or_possession_from false"
-            DATA_FILE: data/craft_relations/data.tsv
-          steps:
-          - uses: actions/checkout@v2
-            with:
-              fetch-depth: 0
-          # - name: Get changed files
-          #   id: changed-files
-          #   uses: tj-actions/changed-files@v7
+        # build_push-craft_relations-predict:
+        #   name: "build/push craft_relations predict container"
+        #   # needs: "build_push_train-craft_relations-train"
+        #   runs-on: ubuntu-latest
+        #   env:
+        #     TASK_NAME: craft_relations
+        #     DOCKERFILE: predict.Dockerfile
+        #     TRAIN_DOCKERFILE: train.Dockerfile
+        #     TRAIN_ENTRYPOINT_FILE: scripts/train.entrypoint.sh
+        #     ENTRYPOINT_FILE: scripts/predict.entrypoint.sh
+        #     BASE_DOCKERFILE: base.Dockerfile
+        #     MODEL_VERSION_KEY: CRAFT_RELATIONS
+        #     CLASSIFICATION_LABELS: "bears_constitution_of_or_situatedness_at_or_possession_by_or_derivation_from  coexists_as realizes_or_attribute_or_bearer_of_occurrence_in_or_possession_by realizes_or_bears_or_is_attribute_of_derivation_or_situatedness_or_possession_from false"
+        #     DATA_FILE: data/craft_relations/data.tsv
+        #   steps:
+        #   - uses: actions/checkout@v2
+        #     with:
+        #       fetch-depth: 0
+        #   # - name: Get changed files
+        #   #   id: changed-files
+        #   #   uses: tj-actions/changed-files@v7
       
-          # - name: List all modified files
-          #   run: |
-          #     for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
-          #       echo "$file was modified"
-          #     done
+        #   # - name: List all modified files
+        #   #   run: |
+        #   #     for file in "${{ steps.changed-files.outputs.all_modified_files }}"; do
+        #   #       echo "$file was modified"
+        #   #     done
       
-          - name: Run step when a file changes
-            # if: |
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-            run: |
-              echo "A modified file has triggered a rebuild of the ${{ env.TASK_NAME }} predict container."
+        #   - name: Run step when a file changes
+        #     # if: |
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
+        #     run: |
+        #       echo "A modified file has triggered a rebuild of the ${{ env.TASK_NAME }} predict container."
       
-          - name: Set up Cloud SDK
-            # if: |
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-            uses: google-github-actions/setup-gcloud@main
-            with:
-              project_id: ${{ secrets.GCE_PROJECT }}
-              service_account_key: ${{ secrets.GCE_SA_KEY }}
-              version: '290.0.1'
+        #   - name: Set up Cloud SDK
+        #     # if: |
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
+        #     uses: google-github-actions/setup-gcloud@main
+        #     with:
+        #       project_id: ${{ secrets.GCE_PROJECT }}
+        #       service_account_key: ${{ secrets.GCE_SA_KEY }}
+        #       version: '290.0.1'
       
-          - name: Configure Docker Authentication
-            # if: |
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-            run: |
-              gcloud --quiet auth configure-docker
+        #   - name: Configure Docker Authentication
+        #     # if: |
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
+        #     run: |
+        #       gcloud --quiet auth configure-docker
       
-          - name: Set MODEL_VERSION env
-            # if: |
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-            run: |
-              echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+        #   - name: Set MODEL_VERSION env
+        #     # if: |
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
+        #     run: |
+        #       echo "MODEL_VERSION=$(grep ${{ env.MODEL_VERSION_KEY }} MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
       
-          - name: Set BASE_VERSION env
-            # if: |
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-            run: |
-              echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
+        #   - name: Set BASE_VERSION env
+        #     # if: |
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
+        #     run: |
+        #       echo "BASE_VERSION=$(grep 'BASE' MODEL_VERSIONS | cut -f 2 -d '=')" >> $GITHUB_ENV
       
-          - name: Build Docker Image
-            # if: |
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-            run: |
-              docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
-                           --build-arg "TASK_NAME=$TASK_NAME" \
-                           --build-arg "BASE_VERSION=$BASE_VERSION" \
-                           --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
-                           --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
-                           --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
-                           --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION" \
-                           -f ${{ env.DOCKERFILE }} .
+        #   - name: Build Docker Image
+        #     # if: |
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
+        #     run: |
+        #       docker build --build-arg "PROJECT_ID=$PROJECT_ID" \
+        #                    --build-arg "TASK_NAME=$TASK_NAME" \
+        #                    --build-arg "BASE_VERSION=$BASE_VERSION" \
+        #                    --build-arg "TUNED_MODEL_VERSION=$MODEL_VERSION" \
+        #                    --build-arg "MODEL_STORAGE_BUCKET=$MODEL_STORAGE_BUCKET" \
+        #                    --build-arg "CLASSIFICATION_LABELS=${{ env.CLASSIFICATION_LABELS }}" \
+        #                    --tag "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION" \
+        #                    -f ${{ env.DOCKERFILE }} .
       
-          - name: Publish Docker Image to Google Container Registry
-            # if: |
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
-            #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
-            run: |
-              docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION"
+        #   - name: Publish Docker Image to Google Container Registry
+        #     # if: |
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.TRAIN_ENTRYPOINT_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.BASE_DOCKERFILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.DATA_FILE) ||
+        #     #   contains(steps.changed-files.outputs.all_modified_files, env.ENTRYPOINT_FILE)
+        #     run: |
+        #       docker push "gcr.io/$PROJECT_ID/$TASK_NAME-predict:$MODEL_VERSION"

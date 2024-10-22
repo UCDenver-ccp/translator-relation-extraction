@@ -6,12 +6,50 @@ model_key = sys.argv[1]
 
 labels = {}
 if model_key == 'bl_chemical_to_disease_or_phenotypic_feature':
-    labels[0]="treats"
-    labels[1]="false"
+    # labels[0]="treats"
+    # labels[1]="causes_or_contributes_to"
+    # labels[2]="false"
+    # labels[0]="ameliorates"
+    # labels[1]="associated_with"
+    # labels[0]="associated_with_resistance_to"
+    # labels[1]="decreases_risk_for"
+    # labels[2]="exacerbates"
+    # labels[3]="exposure_is_origin_of"
+    # labels[4]="has_excessive_amount_in"
+    # labels[5]="increases_risk_for"
+    # labels[6]="is_biomarker_for"
+    # labels[7]="is_contraindicated_for"
+    # labels[8]="is_deficient_in"
+    # labels[9]="prevents"
+    # labels[10]="results_in_side_effect"
+    # labels[11]="treats"
+    # labels[12]="other"
+     labels[0]="has_unintended_effect_of"
+     labels[1]="resistance_is_associated_with"
+     labels[2]="is_contraindicated_in"
+     labels[3]="exacerbates"
+     labels[4]="increases_risk_for"
+     labels[5]="decreases_risk_for"
+     labels[6]="is_used_to_treat"
+     labels[7]="other"
+
+# elif model_key == 'bl_chemical_to_gene':
+#     labels[0]="positively_regulates"
+#     labels[1]="negatively_regulates"
+#     labels[2]="false"
 elif model_key == 'bl_chemical_to_gene':
-    labels[0]="positively_regulates"
-    labels[1]="negatively_regulates"
-    labels[2]="false"
+    labels[0]="activates"
+    labels[1]="modulates"
+    labels[2]="deactivates"
+    labels[3]="metabolized_by"
+    labels[4]="transported_by"
+    labels[5]="other"
+elif model_key == 'bl_chemical_to_process':
+    labels[0]="participates_in"
+    labels[1]="enhances"
+    labels[2]="inhibits"
+    labels[3]="is_produced_by"
+    labels[4]="other"
 elif model_key == 'bl_disease_to_phenotypic_feature':
     labels[0]="has_symptom"
     labels[1]="false"
@@ -35,6 +73,81 @@ elif model_key == 'craft_relations':
     labels[2]="realizes_or_attribute_or_bearer_of_occurrence_in_or_possession_by"
     labels[3]="realizes_or_bears_or_is_attribute_of_derivation_or_situatedness_or_possession_from"
     labels[4]="false"
+elif model_key == 'bl_chemical_to_cell':
+    # labels[0]="metabolism"
+    # labels[1]="modulation"
+    # labels[2]="other"
+    # labels[3]="response"
+    # labels[4]="secretion"
+    # labels[5]="synthesis"
+    # labels[6]="transport"
+    labels[0]="secretes"
+    labels[1]="stores"
+    labels[2]="responds_to"
+    labels[3]="metabolizes"
+    labels[4]="other"
+elif model_key == 'bl_cell_to_disease':
+    labels[0]="dysfunction"
+    labels[1]="hyperactivity"
+    labels[2]="other"
+    labels[3]="proliferation"
+elif model_key == 'bl_chemical_to_chemical':
+    labels[0]="co-treat"
+    labels[1]="ddi"
+    labels[2]="other"
+elif model_key == 'bl_gene_to_gene':
+    labels[0]="modulates"
+    labels[1]="activates"
+    labels[2]="deactivates"
+    labels[3]="physically_interacts_with"
+    labels[4]="other"
+elif model_key == 'bl_gene_to_process':
+    labels[0]="participates_in"
+    labels[1]="enhances"
+    labels[2]="inhibits"
+    labels[3]="other"
+elif model_key == 'bl_gene_to_location':
+    labels[0]="located_in"
+    labels[1]="other"
+elif model_key == 'bl_gene_to_anatomy':
+    labels[0]="located_in"
+    labels[1]="other"
+elif model_key == 'bl_gene_to_cell_component':
+    labels[0]="located_in"
+    labels[1]="other"
+elif model_key == 'bl_gene_to_cell':
+    labels[0]="located_in"
+    labels[1]="other"
+elif model_key == 'bl_process_to_location':
+    labels[0]="occurs_in"
+    labels[1]="other"
+elif model_key == 'bl_process_to_anatomy':
+    labels[0]="occurs_in"
+    labels[1]="other"
+elif model_key == 'bl_process_to_cell_component':
+    labels[0]="occurs_in"
+    labels[1]="other"
+elif model_key == 'bl_process_to_cell':
+    labels[0]="occurs_in"
+    labels[1]="other"
+elif model_key == 'bl_disease_to_anatomy':
+    labels[0]="has_basis_in"
+    labels[1]="other"
+elif model_key == 'bl_disease_to_cell':
+    labels[0]="has_basis_in"
+    labels[1]="other"
+elif model_key == 'bl_disease_to_gene':
+    labels[0]="has_basis_in"
+    labels[1]="other"
+elif model_key == 'bl_disease_to_phenotype':
+    labels[0]="has_phenotype"
+    labels[1]="other"
+elif model_key == 'bl_disease_to_process':
+    labels[0]="has_basis_in"
+    labels[1]="other"
+
+
+
 # elif model_key == 'bl_gene_to_go_term':
 #   labels[0]="????"
 #   labels[1]="????"

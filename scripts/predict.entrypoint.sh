@@ -19,6 +19,13 @@ COLLECTION=$5
 # the gcp bucket where the classified (labeled) sentences will be stored
 OUTPUT_BUCKET=$6
 
+# the version of the sentences being processed - this will be part of the 
+# output file path and name. By specifying both the model version and the 
+# sentence version in the output file path, this allows us to process 
+# difference sentence versions with the same model, or vice versa without 
+# overwiting output.
+SENTENCE_VERSION=$7
+
 # download the sentence files to process
 # cat the sentence files into a single file called test.tsv in the $DATASET_DIR
 mkdir /home/dev/sentences
@@ -63,6 +70,6 @@ paste $DATASET_DIR/test.tsv test_results.tsv | gzip > classified_sentences.tsv.g
 [ $? -eq 0 ] || exit 1
 
 # export the bert output file
-gsutil cp classified_sentences.tsv.gz "${OUTPUT_BUCKET}/output/classified_sentences/${TASK_NAME}/${TUNED_MODEL_VERSION}/${TASK_NAME}.${TUNED_MODEL_VERSION}.${COLLECTION}.classified_sentences.tsv.gz"
+gsutil cp classified_sentences.tsv.gz "${OUTPUT_BUCKET}/output/classified_sentences/sent_${SENTENCE_VERSION}/${TASK_NAME}/model_${TUNED_MODEL_VERSION}/${TASK_NAME}.${SENTENCE_VERSION}_${TUNED_MODEL_VERSION}.${COLLECTION}.classified_sentences.tsv.gz"
 [ $? -eq 0 ] || exit 1
 popd

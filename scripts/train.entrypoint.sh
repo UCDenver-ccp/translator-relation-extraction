@@ -2,10 +2,13 @@
 
 TASK_NAME=$1
 TUNED_MODEL_VERSION=$2
-MODEL_STORAGE_BUCKET=$3
+EPOCHS=$3
+MODEL_STORAGE_BUCKET=$4
+
 
 echo "~~~~~~~~TASK_NAME: ${TASK_NAME}"
 echo "~~~~~~~~TUNED_MODEL_VERSION: ${TUNED_MODEL_VERSION}"
+echo "~~~~~~~~EPOCHS: ${EPOCHS}"
 echo "~~~~~~~~MODEL_STORAGE_BUCKET: ${MODEL_STORAGE_BUCKET}"
 
 if [ -z "${MODEL_STORAGE_BUCKET}" ]; then
@@ -24,7 +27,7 @@ python bluebert/run_bluebert.py \
   --vocab_file=$BlueBERT_DIR/vocab.txt \
   --bert_config_file=$BlueBERT_DIR/bert_config.json \
   --init_checkpoint=$BlueBERT_DIR/bert_model.ckpt \
-  --num_train_epochs=10.0 \
+  --num_train_epochs=$EPOCHS \
   --data_dir=$DATASET_DIR \
   --output_dir=$OUTPUT_DIR \
   --do_lower_case=true

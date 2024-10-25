@@ -70,6 +70,7 @@ paste $DATASET_DIR/test.tsv test_results.tsv | gzip > classified_sentences.tsv.g
 [ $? -eq 0 ] || exit 1
 
 # export the bert output file
-gsutil cp classified_sentences.tsv.gz "${OUTPUT_BUCKET}/output/classified_sentences/sent_${SENTENCE_VERSION}/${TASK_NAME}/model_${TUNED_MODEL_VERSION}/${TASK_NAME}.${SENTENCE_VERSION}_${TUNED_MODEL_VERSION}.${COLLECTION}.classified_sentences.tsv.gz"
+# gsutil cp classified_sentences.tsv.gz "${OUTPUT_BUCKET}/output/classified_sentences/sent_${SENTENCE_VERSION}/${TASK_NAME}/model_${TUNED_MODEL_VERSION}/${TASK_NAME}.${SENTENCE_VERSION}_${TUNED_MODEL_VERSION}.${COLLECTION}.classified_sentences.tsv.gz"
+gsutil cp classified_sentences.tsv.gz "${OUTPUT_BUCKET}/model_${TUNED_MODEL_VERSION}/${TASK_NAME}.${SENTENCE_VERSION}_${TUNED_MODEL_VERSION}.${COLLECTION}.classified_sentences.tsv.gz"
 [ $? -eq 0 ] || exit 1
 popd

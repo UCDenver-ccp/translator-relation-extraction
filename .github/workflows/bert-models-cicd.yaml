@@ -950,7 +950,7 @@ jobs:
     
   build_push-bl_gene_to_location-predict:
     name: "build/push bl_gene_to_location predict container"
-    needs: "build_push_train-bl_gene_to_location-train"
+    # needs: "build_push_train-bl_gene_to_location-train"
     runs-on: ubuntu-latest
     env:
       TASK_NAME: bl_gene_to_location

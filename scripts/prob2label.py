@@ -145,6 +145,9 @@ elif model_key == 'bl_disease_to_phenotype':
 elif model_key == 'bl_disease_to_process':
     labels[0]="has_basis_in"
     labels[1]="other"
+elif model_key == 'double_neg':
+    labels[0]="double_neg"
+    labels[1]="false"
 
 
 

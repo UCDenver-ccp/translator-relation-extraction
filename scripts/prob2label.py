@@ -32,6 +32,28 @@ if model_key == 'bl_chemical_to_disease_or_phenotypic_feature':
      labels[5]="decreases_risk_for"
      labels[6]="is_used_to_treat"
      labels[7]="other"
+elif model_key == 'tmkp':
+    labels[0]="causes_or_increases_risk_of"
+    labels[1]="decreases_expression_activity_or_abundance_of"
+    labels[2]="exports"
+    labels[3]="has_symptom"
+    labels[4]="increases_expression_activity_or_abundance_of"
+    labels[5]="interacts_with"
+    labels[6]="involves"
+    labels[7]="located_or_expressed_in"
+    labels[8]="metabolized_by"
+    labels[9]="metabolizes"
+    labels[10]="modulates"
+    labels[11]="negatively_affects"
+    labels[12]="occurs_at_or_involves"
+    labels[13]="other"
+    labels[14]="participates_in"
+    labels[15]="positively_affects"
+    labels[16]="responds_to"
+    labels[17]="stores"
+    labels[18]="transported_by"
+    labels[19]="treats_or_decreases_risk_of"
+
 
 # elif model_key == 'bl_chemical_to_gene':
 #     labels[0]="positively_regulates"

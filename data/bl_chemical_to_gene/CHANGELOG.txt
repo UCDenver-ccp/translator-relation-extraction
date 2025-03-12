@@ -1,3 +1,7 @@
+v0.7
+- trained on data from centaur (chemical-gene.from_centaur.bert.20250412.random.tsv)
+- had missed a few hundred examples previously
+
 v0.6
 - trained on data from centaur (chemical-gene.from_centaur.bert.20250412.random.tsv)
 

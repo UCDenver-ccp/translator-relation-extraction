@@ -1,3 +1,6 @@
+v0.6
+- trained on centaur data (process-location.from_centaur.bert.20250412.random.tsv)
+
 v0.5
 - trained on real sentences judged by GPT combined anatomy, cell component, and cell as location (process_to_anatomy_cc_cell.v4.tsv)
 - the predicate has been changed from occurs_in to participates_in

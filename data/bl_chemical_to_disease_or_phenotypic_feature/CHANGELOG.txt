@@ -1,3 +1,6 @@
+v0.18
+- trained on data from centaur (chemical-disease.from_centaur.bert.20250412.random.tsv)
+
 v0.16
 - trained on real sentences judged by GPT (chemical_disease.bert.v2.random.tsv)
 

@@ -1,3 +1,7 @@
+v0.4
+- trained in data from centaur ()
+- this is disease has_basis_in and includes all entity types: anatomy, cell, gene, process
+
 v0.3
 - trained on real sentences judged by GPT (disease_anatomy.bert.v2.random.tsv)
 

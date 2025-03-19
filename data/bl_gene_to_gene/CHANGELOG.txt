@@ -1,3 +1,7 @@
+v0.8
+- trained on data from centaur (gene-gene.from_centaur.bert.20250412.random.tsv)
+- same data as v0.7 - revised the placeholders to match extracted sentences
+
 v0.7
 - trained on data from centaur (gene-gene.from_centaur.bert.20250412.random.tsv)
 

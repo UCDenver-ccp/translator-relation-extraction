@@ -1,0 +1,19 @@
+v0.6
+- trained on centaur data (process-location.from_centaur.bert.20250412.random.tsv)
+
+v0.5
+- trained on real sentences judged by GPT combined anatomy, cell component, and cell as location (process_to_anatomy_cc_cell.v4.tsv)
+- the predicate has been changed from occurs_in to participates_in
+
+v0.4
+- trained on real sentences judged by GPT combined anatomy, cell component, and cell as location (process_to_anatomy_cc_cell.v2+3.tsv)
+- note: this model was missing the cc data (I think)
+
+image v0.3 uses model v0.2
+- output_bucket parameter modified to expect the bucket path up to the biolink task id, e.g. gs://translator-text-workflow-dev_work/output/classified_sentences/sent_0.11.0/bl_gene_to_cell
+
+v0.2
+- trained on real sentences judged by GPT - combined anatomy, cell component, and cell as location (process_to_anatomy_cc_cell.tsv)
+
+v0.1
+- trained on synthetic sentences created by GPT 

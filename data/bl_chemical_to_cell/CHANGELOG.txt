@@ -1,0 +1,19 @@
+v0.8
+- trained on final Centaur output (chemical-cell.from_centaur.bert.20250412.random.tsv)
+
+v0.7
+- trained on 80% 250109 data from centaur (chemical-cell.from_centaur.bert.250109.random.tsv)
+- this is the standard approach for all models (20% is automatically held back for testing)
+
+v0.6
+- trained on 64% 250109 data from centaur (chemical-cell.from_centaur.bert.250109.random.train.tsv)
+- included only 80% of total examples (forgot that 20% is automatically held back for testing during the training process)
+
+v0.5
+- trained on real sentences that were judged by GPT (cell_chemical.bert.v2+3.random.tsv)
+
+v0.4
+- trained on real sentences that were judged by GPT (cell_chemical.bert.v2.random.tsv)
+
+v0.3
+ - trained on synthetic sentences created by GPT (cell_chemical.synthetic.bert.v1.random.tsv)

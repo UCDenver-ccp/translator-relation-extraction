@@ -1,0 +1,13 @@
+v0.4
+- trained in data from centaur ()
+- this is disease has_basis_in and includes all entity types: anatomy, cell, gene, process
+
+v0.3
+- trained on real sentences judged by GPT (disease_anatomy.bert.v2.random.tsv)
+
+v0.2
+- trained on synthetic sentences created by GPT (disease_has_basis_in_anatomic_location.synthetic.bert.v1.random.tsv)
+- relation is now "disease has basis in"
+
+v0.1
+- trained on synthetic sentences created by GPT (assoc-with-disease.anatomic_location.synthetic.bert.v1.random.tsv)

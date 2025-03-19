@@ -1,0 +1,2 @@
+v0.1
+ - trained on synthetic sentences created by GPT for both process-occurs_in-location and gene-located_in-location (process_location.synthetic.bert.v1.random.tsv + gene_location.synthetic.bert.v1.random.tsv)

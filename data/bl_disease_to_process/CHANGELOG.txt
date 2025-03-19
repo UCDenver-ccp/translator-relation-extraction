@@ -1,0 +1,18 @@
+v0.6
+- trained on real sentences judged by GPT (disease_process.bert.v2+3.random.tsv)
+
+v0.5
+- trained on real sentences judged by GPT (disease_process.bert.v2.random.tsv)
+
+v0.4
+- trained on synthetic sentences created by GPT (disease-has_basis_in-biological_process.synthetic.bert.v1.random.tsv)
+- predicate is now has_basis_in
+
+v0.3
+- decent performance - no change in the data. Not sure why.
+
+v0.2
+- strangely poor performance on v0.1; v0.2 was worse
+
+v0.1
+- trained on synthetic sentences created by GPT (assoc-with-disease.biological_process.synthetic.bert.v1.random.tsv)

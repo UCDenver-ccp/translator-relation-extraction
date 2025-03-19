@@ -1,0 +1,2 @@
+v0.1
+ - trained on synthetic sentences created by GPT (assoc-with-disease.anatomic_location.synthetic.bert.v1.tsv + assoc-with-disease.biological_process.synthetic.bert.v1.tsv + assoc-with-disease.cell.synthetic.bert.v1.tsv + assoc-with-disease.gene.synthetic.bert.v1.tsv + assoc-with-disease.phenotype.synthetic.bert.v1.tsv)

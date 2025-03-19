@@ -1,0 +1,11 @@
+v0.4
+- trained on centaur data (gene-process.from_centaur.bert.20250412.random.tsv)
+
+v0.3
+- trained on real sentences judged by GPT (gene_process.bert.v2+3.random.tsv)
+
+v0.2
+- trained on real sentences judged by GPT (gene_process.bert.v2.random.tsv)
+
+v0.1
+- trained on synthetic sentences created by GPT (gene_process.synthetic.bert.v1.random.tsv)
